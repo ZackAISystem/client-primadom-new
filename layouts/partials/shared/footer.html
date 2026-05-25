@@ -1,0 +1,85 @@
+{{ $site := site.Data.site }}
+{{ $badge := $site.home.hero.header.badge | default "PRIMADOM AI SYSTEM" }}
+{{ $footerTitle := $site.footer.title | default "Find the right UAE property with Primadom AI" }}
+{{ $footerSubtitle := $site.footer.subtitle | default "Search by intent, budget, lifestyle or location — and route every client request to the right Primadom advisor." }}
+{{ $footerChips := $site.footer.chips | default (slice "UAE off-plan" "AI matched search" "Advisor routing") }}
+
+<footer class="site-footer" id="contact">
+  <div class="site-footer__glow site-footer__glow--left" aria-hidden="true"></div>
+  <div class="site-footer__glow site-footer__glow--right" aria-hidden="true"></div>
+
+  <div class="site-footer__inner">
+
+    <!-- Left side -->
+    <div class="site-footer__left">
+      <a class="site-footer__brand" href="{{ "/" | relLangURL }}" aria-label="{{ $badge }}">
+        <span class="site-footer__brand-dot"></span>
+
+        <span class="site-footer__brand-copy">
+          <span class="site-footer__brand-title">{{ $badge }}</span>
+          <span class="site-footer__brand-subtitle">Real estate intelligence</span>
+        </span>
+      </a>
+
+      <div class="site-footer__statement">
+        <h2>{{ $footerTitle }}</h2>
+        <p>{{ $footerSubtitle }}</p>
+
+        <div class="site-footer__chips" aria-label="Footer highlights">
+          {{ range $footerChips }}
+            <span>{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side -->
+    <div class="site-footer__right">
+      <div class="site-footer__contacts">
+        <a
+          class="footer-pill footer-pill--ltr"
+          dir="ltr"
+          href="{{ $site.contacts.phone.href | safeURL }}"
+          aria-label="Call {{ $site.contacts.phone.label }}"
+        >
+          {{ $site.contacts.phone.label }}
+        </a>
+
+        <a
+          class="footer-pill footer-pill--ltr"
+          dir="ltr"
+          href="{{ $site.contacts.email.href | safeURL }}"
+          aria-label="Email {{ $site.contacts.email.label }}"
+        >
+          {{ $site.contacts.email.label }}
+        </a>
+      </div>
+
+      <div class="site-footer__social" aria-label="Social links">
+        {{ range $site.socials }}
+          <a
+            class="footer-social"
+            href="{{ .url | safeURL }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="{{ .name }}"
+          >
+            <img src="{{ .icon | relURL }}" alt="">
+          </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="site-footer__bottom">
+      <div class="site-footer__copyright" data-i18n="footer_copyright">
+        {{ $site.footer.copyright }}
+      </div>
+
+      <div class="site-footer__address footer-pill--ltr" dir="ltr">
+        {{ $site.address.text }}
+      </div>
+    </div>
+
+  </div>
+</footer>

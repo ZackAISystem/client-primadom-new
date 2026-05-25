@@ -1,0 +1,370 @@
+{{ $home := site.Data.site.home }}
+{{ $section := $home.intent_block }}
+{{ $heroSearch := $home.hero.search }}
+
+{{ if $section }}
+<section class="home-intent" id="intent" data-intent-block>
+  <div class="home-intent__inner">
+
+    <div class="home-intent__panel">
+      <div class="home-intent__copy">
+        <p class="home-intent__eyebrow">{{ $section.eyebrow }}</p>
+        <h2 class="home-intent__title">{{ $section.title }}</h2>
+        <p class="home-intent__text">{{ $section.subtitle }}</p>
+      </div>
+
+      <div class="home-intent__routes" aria-label="{{ $section.routes_aria }}">
+        {{ range $section.routes }}
+          <button
+            class="home-intent-route"
+            type="button"
+            data-intent-query="{{ .query }}"
+          >
+            <span class="home-intent-route__main">
+              <span class="home-intent-route__label">{{ .label }}</span>
+              <span class="home-intent-route__meta">{{ .meta }}</span>
+            </span>
+
+            <span class="home-intent-route__arrow" aria-hidden="true">→</span>
+          </button>
+        {{ end }}
+      </div>
+
+      <div class="home-intent__dark-note">
+        <span class="home-intent__dark-dot"></span>
+        <span>{{ $section.note }}</span>
+      </div>
+    </div>
+
+    <aside class="intent-ask" aria-label="{{ $section.ask.aria }}">
+      <div class="intent-ask__top">
+        <p class="intent-ask__eyebrow">{{ $section.ask.eyebrow }}</p>
+        <h3 class="intent-ask__title">{{ $section.ask.title }}</h3>
+        <p class="intent-ask__text">{{ $section.ask.subtitle }}</p>
+      </div>
+
+      <form class="intent-ask__form" role="search">
+        <div class="intent-ask__badge" aria-hidden="true">
+          <span class="intent-ask__badge-dot"></span>
+          <span>{{ $section.ask.badge }}</span>
+        </div>
+
+        <input
+          class="intent-ask__input"
+          type="text"
+          name="intent_q"
+          placeholder="{{ $section.ask.placeholder }}"
+          autocomplete="off"
+          data-typing-examples='{{ $section.ask.typing_examples | jsonify }}'
+        >
+
+        <button
+          class="intent-ask__voice"
+          type="button"
+          aria-label="Start voice search"
+          aria-pressed="false"
+        >
+          <span class="intent-ask__voice-aura" aria-hidden="true"></span>
+          <span class="intent-ask__voice-core" aria-hidden="true">
+            <img
+              class="intent-ask__voice-icon"
+              src="{{ $heroSearch.voice_icon }}"
+              alt=""
+            >
+          </span>
+        </button>
+
+        <div class="intent-ask__voice-popover" aria-live="polite">
+          <div class="intent-ask__voice-popover-inner">
+            <span class="intent-ask__voice-popover-dot"></span>
+
+            <div class="intent-ask__voice-copy">
+              <span class="intent-ask__voice-status">Listening…</span>
+              <span class="intent-ask__voice-text">Tell Primadom AI what you need</span>
+            </div>
+
+            <span class="intent-ask__voice-bars" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </span>
+          </div>
+        </div>
+
+        <button class="intent-ask__button" type="submit">
+          {{ $section.ask.button }}
+        </button>
+      </form>
+
+      <div class="intent-ask__examples" aria-label="Example intents">
+        {{ range $section.ask.quick_examples }}
+          <button
+            class="intent-ask__example"
+            type="button"
+            data-intent-query="{{ .query }}"
+          >
+            {{ .label }}
+          </button>
+        {{ end }}
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<script>
+(function () {
+  const root = document.querySelector('[data-intent-block]');
+  if (!root) return;
+
+  const form = root.querySelector('.intent-ask__form');
+  const input = root.querySelector('.intent-ask__input');
+  const voiceBtn = root.querySelector('.intent-ask__voice');
+  const voiceStatus = root.querySelector('.intent-ask__voice-status');
+  const voiceText = root.querySelector('.intent-ask__voice-text');
+  const queryButtons = Array.from(root.querySelectorAll('[data-intent-query]'));
+
+  if (!form || !input) return;
+
+  function setInputValue(value) {
+    input.value = value || '';
+    stopTyping();
+    input.focus();
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+  }
+
+  queryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const value = button.getAttribute('data-intent-query') || button.textContent.trim();
+      setInputValue(value);
+    });
+  });
+
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+
+    const results = document.getElementById('results');
+    const query = document.getElementById('resultsQuery');
+
+    if (!results || !query) return;
+
+    const value = (input.value || '').trim();
+    if (value) query.textContent = value;
+
+    results.classList.add('is-open');
+    results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  /* =========================
+     Voice search
+  ========================= */
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let recognition = null;
+  let isListening = false;
+  let voiceFallbackTimer = null;
+
+  if (SpeechRecognition) {
+    recognition = new SpeechRecognition();
+    recognition.lang = document.documentElement.lang || 'en-US';
+    recognition.interimResults = true;
+    recognition.continuous = false;
+
+    recognition.onstart = () => {
+      setVoiceState(true, 'Listening…', 'Describe area, budget or lifestyle');
+    };
+
+    recognition.onresult = event => {
+      let transcript = '';
+
+      for (let i = event.resultIndex; i < event.results.length; i++) {
+        transcript += event.results[i][0].transcript;
+      }
+
+      transcript = transcript.trim();
+
+      if (transcript) {
+        input.value = transcript;
+        if (voiceStatus) voiceStatus.textContent = 'Got it';
+        if (voiceText) voiceText.textContent = transcript;
+      }
+    };
+
+    recognition.onerror = () => {
+      if (voiceStatus) voiceStatus.textContent = 'Voice paused';
+      if (voiceText) voiceText.textContent = 'Type your request or try again';
+
+      window.setTimeout(() => setVoiceState(false), 900);
+    };
+
+    recognition.onend = () => {
+      if (isListening) {
+        window.setTimeout(() => setVoiceState(false), 700);
+      }
+    };
+  }
+
+  function setVoiceState(active, statusText, helperText) {
+    isListening = active;
+    form.classList.toggle('is-voice-active', active);
+
+    if (voiceBtn) {
+      voiceBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    }
+
+    if (statusText && voiceStatus) {
+      voiceStatus.textContent = statusText;
+    }
+
+    if (helperText && voiceText) {
+      voiceText.textContent = helperText;
+    }
+  }
+
+  function startVoice() {
+    stopTyping();
+
+    if (voiceFallbackTimer) {
+      window.clearTimeout(voiceFallbackTimer);
+      voiceFallbackTimer = null;
+    }
+
+    if (!recognition) {
+      setVoiceState(true, 'Voice mode', 'Speech recognition is not supported here');
+
+      voiceFallbackTimer = window.setTimeout(() => {
+        setVoiceState(false);
+      }, 2200);
+
+      return;
+    }
+
+    try {
+      recognition.start();
+    } catch (e) {
+      setVoiceState(true, 'Listening…', 'Describe area, budget or lifestyle');
+
+      voiceFallbackTimer = window.setTimeout(() => {
+        setVoiceState(false);
+      }, 1600);
+    }
+  }
+
+  function stopVoice() {
+    if (recognition && isListening) {
+      try {
+        recognition.stop();
+      } catch (e) {}
+    }
+
+    setVoiceState(false);
+  }
+
+  if (voiceBtn) {
+    voiceBtn.addEventListener('click', () => {
+      if (isListening) {
+        stopVoice();
+      } else {
+        startVoice();
+      }
+    });
+  }
+
+  /* =========================
+     Typing placeholder
+  ========================= */
+  function getExamples() {
+    const raw = input.getAttribute('data-typing-examples');
+    if (!raw) return [];
+
+    try {
+      const arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  const examples = getExamples();
+
+  let basePlaceholder = input.getAttribute('placeholder') || '';
+  let exIndex = 0;
+  let charIndex = 0;
+  let timer = null;
+  let paused = false;
+
+  const TYPE_SPEED = 35;
+  const HOLD_END = 820;
+  const HOLD_BETWEEN = 280;
+
+  function isUserActive() {
+    return document.activeElement === input || ((input.value || '').trim().length > 0);
+  }
+
+  function tick() {
+    if (paused || isUserActive()) return;
+    if (!examples.length) return;
+
+    const full = examples[exIndex] || '';
+    const next = full.slice(0, charIndex + 1);
+
+    input.setAttribute('placeholder', next);
+    charIndex++;
+
+    if (charIndex >= full.length) {
+      timer = window.setTimeout(() => {
+        if (paused || isUserActive()) return;
+
+        exIndex = (exIndex + 1) % examples.length;
+        charIndex = 0;
+
+        input.setAttribute('placeholder', '');
+        timer = window.setTimeout(tick, HOLD_BETWEEN);
+      }, HOLD_END);
+
+      return;
+    }
+
+    timer = window.setTimeout(tick, TYPE_SPEED);
+  }
+
+  function startTyping() {
+    if (timer || !examples.length) return;
+
+    paused = false;
+    charIndex = 0;
+    input.setAttribute('placeholder', '');
+
+    timer = window.setTimeout(tick, 260);
+  }
+
+  function stopTyping() {
+    paused = true;
+
+    if (timer) {
+      window.clearTimeout(timer);
+      timer = null;
+    }
+
+    if (!((input.value || '').trim().length)) {
+      input.setAttribute('placeholder', basePlaceholder);
+    }
+  }
+
+  input.addEventListener('focus', stopTyping);
+  input.addEventListener('pointerdown', stopTyping);
+  input.addEventListener('keydown', stopTyping);
+  input.addEventListener('input', stopTyping);
+
+  input.addEventListener('blur', () => {
+    if (!((input.value || '').trim().length)) {
+      stopTyping();
+      paused = false;
+      timer = null;
+      startTyping();
+    }
+  });
+
+  if (!((input.value || '').trim().length)) {
+    startTyping();
+  }
+})();
+</script>
+{{ end }}

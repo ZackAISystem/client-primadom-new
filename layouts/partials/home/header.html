@@ -1,0 +1,76 @@
+{{ $hero := site.Data.site.home.hero }}
+{{ $header := $hero.header }}
+
+<header class="site-header">
+  <div class="site-header__inner">
+
+    <a class="site-header__badge" href="{{ "/" | relLangURL }}" aria-label="{{ $header.badge }}">
+      <span class="site-header__badge-dot"></span>
+      <span class="site-header__badge-text">{{ $header.badge }}</span>
+    </a>
+
+    <nav class="site-header__nav" aria-label="{{ $header.nav_aria }}">
+      {{ range $header.nav }}
+        <a
+          class="site-header__nav-link {{ if eq .href "#ai-search" }}site-header__nav-link--ai{{ end }} {{ if .active }}is-active{{ end }}"
+          href="{{ .href }}"
+        >
+          {{ .label }}
+        </a>
+      {{ end }}
+    </nav>
+
+    <div class="site-header__right">
+      <a
+        class="site-header__cta"
+        href="#generalLeadModal"
+        data-open-general-lead
+      >
+        {{ $header.cta.label }}
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<script>
+(function () {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  const links = Array.from(header.querySelectorAll('.site-header__nav-link'));
+  if (!links.length) return;
+
+  function setActiveByHash(hash) {
+    const targetHash = hash || window.location.hash || '#projects';
+    let found = false;
+
+    links.forEach(link => {
+      const isMatch = link.getAttribute('href') === targetHash;
+      link.classList.toggle('is-active', isMatch);
+
+      if (isMatch) {
+        found = true;
+      }
+    });
+
+    if (!found) {
+      const first =
+        links.find(link => link.getAttribute('href') === '#projects') ||
+        links[0];
+
+      first.classList.add('is-active');
+    }
+  }
+
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      links.forEach(item => item.classList.remove('is-active'));
+      link.classList.add('is-active');
+    });
+  });
+
+  window.addEventListener('hashchange', () => setActiveByHash(window.location.hash));
+  setActiveByHash(window.location.hash);
+})();
+</script>

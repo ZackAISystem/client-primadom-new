@@ -1,0 +1,40 @@
+baseURL = "http://localhost:1321/"
+title = "Primadom AI"
+languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+
+[permalinks]
+  projects = "/projects/:slug/"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    disabled = false
+    contentDir = "content"
+
+  [languages.ru]
+    languageName = "Русский"
+    weight = 2
+    disabled = false
+    contentDir = "content"
+
+  [languages.ar]
+    languageName = "العربية"
+    weight = 3
+    disabled = false
+    languageDirection = "rtl"
+    contentDir = "content"
+
+  [languages.hi]
+    languageName = "हिन्दी"
+    weight = 4
+    disabled = false
+    contentDir = "content"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
