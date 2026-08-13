@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_short_term_rental_investor_siniyah_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/short-term-rental-investor-in-siniyah-island/",
+  "canonical_url_path": "/en/buyer-scenarios/short-term-rental-investor-in-siniyah-island/",
+  "canonical_group_key": "scenario_district:short_term_rental_investor:siniyah-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "siniyah-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/siniyah-island/",
+          "label": "Siniyah Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/short-term-rental-investor-in-siniyah-island/",
+          "label": "Short-Term Rental Investor in Siniyah Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Short-term rental",
+        "Siniyah Island",
+        "Apartments · Hotel apartments",
+        "AED 1M–5M",
+        "Costs · occupancy · rules"
+      ],
+      "image": {
+        "alt": "Short-Term Rental Investor in Siniyah Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Short-Term Rental Investor in Siniyah Island",
+      "subtitle": "Short-term rental buyers in Siniyah Island need to review unit type, operating costs, occupancy assumptions, management and current rental rules.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Short-Term Rental Investor in Siniyah Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare short-term rental options in Siniyah Island",
+        "Check costs, occupancy assumptions and rules",
+        "What rental details need verification?"
+      ],
+      "ai_aria": "Ask Primadom AI about Short-Term Rental Investor in Siniyah Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare short-term rental options in Siniyah Island",
+      "placeholder": "Compare short-term rental options in Siniyah Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Short-term rental",
+        "Siniyah Island",
+        "Investment property",
+        "Occupancy · costs · rules",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a short-term rental investment in Siniyah Island</strong>, test the operating model before focusing on headline income. Purchase cost, recurring charges, occupancy assumptions, management requirements and applicable rental rules all need to be considered together.",
+      "body_text": "For a short-term rental investment in Siniyah Island, test the operating model before focusing on headline income. Purchase cost, recurring charges, occupancy assumptions, management requirements and applicable rental rules all need to be considered together.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Short-Term Rental Investor"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Short-term rental"
+        },
+        {
+          "label": "Location",
+          "value": "Siniyah Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments · Hotel apartments"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 1M–5M"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Occupancy · costs · rules"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Investment assessment"
+        },
+        {
+          "label": "Next step",
+          "value": "Check rental assumptions"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers treating gross nightly revenue as investment return",
+          "Investors ignoring vacancy, management or furnishing costs",
+          "Buyers unwilling to verify whether the specific property supports the intended short-term rental use"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Investors considering Siniyah Island and prepared to test short-stay economics rather than rely on headline revenue",
+          "Buyers willing to include occupancy, operating costs and property setup in the model",
+          "Investors prepared to verify building, community and operating requirements before purchase"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Siniyah Island, model short-term rental performance from realistic occupancy and cost assumptions rather than peak nightly rates. Include management, furnishing and recurring costs, and verify the specific property and building requirements before relying on short-stay use in the investment case.",
+        "tags": [
+          "Occupancy",
+          "Operating costs",
+          "Furnishing",
+          "Rental use",
+          "Net economics"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing short-stay investments in Siniyah Island, judge the area through realistic guest demand, operating costs and the rules that apply to the intended use.",
+            "title": "Siniyah Island"
+          },
+          {
+            "text": "Compare other areas if they offer better short-term rental numbers after management, furnishing and recurring costs are included.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "Peak nightly rates are not enough; use realistic occupancy assumptions and check that the property supports the intended rental use.",
+            "title": "Short-stay economics"
+          },
+          {
+            "text": "Before narrowing the area, verify the operating requirements and check the numbers after management and vacancy costs.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Apartments are a common short-stay format, but building rules, layout and operating costs still need to support the intended rental use.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Can offer a different management model, so fees, management terms and owner flexibility need careful comparison.",
+            "title": "Hotel apartments"
+          },
+          {
+            "text": "Allows the actual unit, building setup and near-term operating needs to be assessed.",
+            "title": "Ready property"
+          },
+          {
+            "text": "Delays when the property can start operating as a rental and adds uncertainty around handover.",
+            "title": "Off-plan property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Include realistic occupancy, management, furnishing and recurring costs before deciding whether the short-term rental numbers make sense.",
+          "title": "Look at net income, not peak nightly rates",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Siniyah Island, check that the specific property supports the intended rental use, then compare demand and costs using realistic assumptions.",
+          "title": "Verify the operating setup first",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "Peak rates do not account for vacancy, management, furnishing and recurring expenses, so compare the numbers after those costs are included.",
+          "title": "Gross revenue can overstate the result",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in Siniyah Island using occupancy, management, furnishing, recurring costs and property-specific rental details.",
+          "title": "Compare short-stay numbers after costs",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Siniyah Island, the main risks are assuming short-stay use is workable without checking the relevant requirements, relying on peak rates, underestimating vacancy or management costs, or choosing a property that is difficult to operate consistently.",
+        "tags": [
+          "Rental rules",
+          "Occupancy",
+          "Management",
+          "Furnishing",
+          "Recurring costs"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Define how the property is expected to operate before comparing nightly rates or furnishing styles.",
+            "title": "Confirm the intended rental use first"
+          },
+          {
+            "text": "Confirm the relevant building, property and operating requirements before assuming that short-stay use is practical for the specific home.",
+            "title": "Check the rules that apply to the property"
+          },
+          {
+            "text": "In Siniyah Island, compare realistic occupancy, guest demand, management needs and recurring costs rather than relying on peak nightly rates.",
+            "title": "Check the rental case in the location"
+          },
+          {
+            "text": "Include setup, furnishing and management expenses before deciding whether the property works as a short-term rental.",
+            "title": "Add furnishing and management costs"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/yachtside-marina-residences/",
+            "meta": "Sobha Realty · Siniyah Island",
+            "label": "Yachtside Marina Residences"
+          },
+          {
+            "href": "/en/projects/canalside-marina-residences/",
+            "meta": "Sobha Realty · Siniyah Island",
+            "label": "Canalside Marina Residences"
+          },
+          {
+            "href": "/en/projects/pierside-marina-residences/",
+            "meta": "Sobha Realty · Siniyah Island",
+            "label": "Pierside Marina Residences"
+          },
+          {
+            "href": "/en/projects/bayside-marina-residences/",
+            "meta": "Sobha Realty · Siniyah Island",
+            "label": "Bayside Marina Residences"
+          },
+          {
+            "href": "/en/projects/azizi-717-tower/",
+            "meta": "Azizi Developments · Dubai Trade Centre District",
+            "label": "Azizi 717 Tower"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "The operating budget should include setup as well as acquisition. Furnishing, management, recurring costs and a reserve for vacancy can materially affect the cash required before the property produces consistent rental income.",
+        "tags": [
+          "Purchase price",
+          "Furnishing",
+          "Management",
+          "Vacancy",
+          "Operating costs"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/rental-yield-apartment-investor-in-siniyah-island/",
+          "label": "Rental Yield Apartment Investor in Siniyah Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/entry-level-rental-income-investor-in-siniyah-island/",
+          "label": "Entry-Level Rental Income Investor in Siniyah Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/resale-liquidity-buyer/",
+          "label": "Resale Liquidity Buyer"
+        },
+        {
+          "href": "/en/buyer-scenarios/ready-to-move-buyer/",
+          "label": "Ready-to-Move Buyer"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a short-term rental in Siniyah Island, the investment case starts with whether the use is actually permitted and operationally practical, then with realistic occupancy and net income after costs.",
+          "question": "How should I assess a short-term rental investment in Siniyah Island?"
+        },
+        {
+          "answer": "This approach suits buyers in Siniyah Island who are prepared for active rental management, furnishing, guest turnover and changing operating assumptions rather than passive long-term tenancy.",
+          "question": "Who should consider a short-term rental investment in Siniyah Island?"
+        },
+        {
+          "answer": "Verify the current rules and building or project permissions, management requirements, realistic occupancy, recurring charges and setup needs before relying on short-stay income in Siniyah Island.",
+          "question": "What should I verify before relying on short-stay use in Siniyah Island?"
+        },
+        {
+          "answer": "Budget for furnishing, setup, management, cleaning or turnover costs, recurring property charges and a vacancy reserve in Siniyah Island as well as the acquisition price.",
+          "question": "How should I budget for setting up and operating a short-term rental in Siniyah Island?"
+        },
+        {
+          "answer": "The main risk in Siniyah Island is modelling strong occupancy before confirming the use rules and full operating costs. Restrictions, seasonality or management expenses can change the case materially.",
+          "question": "What are the main risks of a short-term rental investment in Siniyah Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a short-term rental purchase in Siniyah Island, verify that the operating case works for the specific property. Relevant rental-use requirements, realistic occupancy, management arrangements and setup or recurring costs should be checked before relying on nightly revenue.",
+      "items": [
+        {
+          "label": "Rental use",
+          "value": "Verify what applies"
+        },
+        {
+          "label": "Occupancy",
+          "value": "Use realistic assumptions"
+        },
+        {
+          "label": "Management",
+          "value": "Confirm the arrangement"
+        },
+        {
+          "label": "Setup / running costs",
+          "value": "Build the full budget"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare the operating case in Siniyah Island using realistic occupancy, applicable rental-use requirements, management, furnishing and recurring costs. Primadom AI can help structure the investment case before you review individual properties.",
+      "title": "Want to test the short-term rental case before committing?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your operating budget, management approach and rental-use priorities while comparing properties around Siniyah Island. This gives the advisor useful context before the conversation.",
+      "title": "Check your short-term rental investment",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare properties for short-term rental use",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare investment options in Siniyah Island using realistic occupancy assumptions, rental-use requirements, management, furnishing and recurring costs.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Test the short-term rental case on real costs",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

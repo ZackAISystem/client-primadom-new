@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-end-user-fit__context__ready-property__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-end-user-fit-ready-property/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-end-user-fit-ready-property/",
+  "canonical_group_key": "ai_answer:how-to-check-end-user-fit:context:ready-property",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-end-user-fit",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-end-user-fit-ready-property/",
+          "label": "How should I check end-user fit? — Ready Property",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Ready Property",
+        "Buyer fit",
+        "Trade-offs",
+        "Property choice",
+        "Compare options"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check end-user fit? — Ready Property",
+      "subtitle": "Assess end-user fit when buying ready property through daily use, location, layout, property type and practical ownership trade-offs.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check end-user fit? — Ready Property",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which daily-life factors matter most for end users",
+        "Compare layout, location and practical usability for ready-property buyers",
+        "Explain which compromises may affect long-term living before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess end-user fit for ready-property buyers",
+      "placeholder": "Help me assess end-user fit for ready-property buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "End-user fit",
+        "Ready property",
+        "Daily living",
+        "Layout",
+        "Community"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>End-user fit is mainly about how well the property supports everyday life.</strong> For ready-property buyers, compare layout, storage, parking, privacy, noise, commute, amenities, community maturity and the practical needs of the household. A strong sales or investment narrative does not compensate for a home that works poorly in everyday use.",
+      "body_text": "End-user fit is mainly about how well the property supports everyday life. For ready-property buyers, compare layout, storage, parking, privacy, noise, commute, amenities, community maturity and the practical needs of the household. A strong sales or investment narrative does not compensate for a home that works poorly in everyday use.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check end-user fit? — Ready Property"
+        },
+        {
+          "label": "Context",
+          "value": "Ready Property"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on everyday usability"
+        },
+        {
+          "label": "Main checks",
+          "value": "Daily living · Layout · Community"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Layout · commute · daily fit"
+        },
+        {
+          "label": "Best next step",
+          "value": "Test property against daily needs"
+        },
+        {
+          "label": "Verification",
+          "value": "Property-specific check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check End User Fit",
+      "market": "UAE",
+      "context": "Ready Property",
+      "eyebrow": "Key facts",
+      "question": "How to check end-user fit for Ready Property?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Room sizes, storage, privacy or circulation do not work well for the intended household.",
+            "title": "The layout creates daily compromises"
+          },
+          {
+            "text": "Commute, school access or regular errands would make the property inconvenient despite other strengths.",
+            "title": "The location adds too much friction"
+          },
+          {
+            "text": "Investment appeal is overshadowing the fact that the home may be uncomfortable for the intended user.",
+            "title": "The decision is driven by resale logic"
+          },
+          {
+            "text": "For ready-property buyers, revisit the end-user fit if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Layout, storage, parking, privacy and practical use suit how the household will actually live.",
+            "title": "The home works in daily life"
+          },
+          {
+            "text": "Regular trips to work, school and essential services are acceptable during normal weekday conditions.",
+            "title": "The commute remains realistic"
+          },
+          {
+            "text": "Amenities, access and neighbourhood maturity match the buyer’s everyday priorities rather than only investment appeal.",
+            "title": "The community supports the routine"
+          },
+          {
+            "text": "For ready-property buyers, the end-user fit still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For ready-property buyers, compare layout, storage, parking, privacy, noise, commute, amenities, community maturity and the practical needs of the household.",
+          "title": "Daily living · Layout · Community",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the layout creates daily compromises, the location adds too much friction, or the decision is driven by resale logic.",
+          "title": "End-user suitability",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "A strong sales or investment narrative does not compensate for a home that works poorly in everyday use.",
+          "title": "Test property against daily needs",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the layout creates daily compromises, the location adds too much friction, or the decision is driven by resale logic. For ready-property buyers, a strong sales or investment narrative does not compensate for a home that works poorly in everyday use.",
+        "tags": [
+          "Daily use",
+          "Space fit",
+          "Commute",
+          "Long-term suitability",
+          "End-user suitability"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For ready-property buyers, map work, school, shopping, leisure and transport needs against how the property and location would actually be used each week.",
+            "title": "Test the everyday living pattern"
+          },
+          {
+            "text": "Compare room sizes, storage, outdoor space, parking and privacy with the household requirements rather than relying on bedroom count alone.",
+            "title": "Check space and layout needs"
+          },
+          {
+            "text": "Confirm that the community provides the amenities, access and practical services needed now or within the buyer's realistic move-in timeline.",
+            "title": "Assess surrounding services"
+          },
+          {
+            "text": "Check whether the home can remain suitable if family size, work patterns or other practical needs change during ownership.",
+            "title": "Consider the likely holding period"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-family-fit-ready-property/",
+          "label": "How should I check family fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-branded-residence-fit-ready-property/",
+          "label": "How should I assess branded-residence fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-luxury-fit-ready-property/",
+          "label": "How should I check luxury fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-floor-plan-ready-property/",
+          "label": "How should I check a floor plan?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-compare-unit-size-ready-property/",
+          "label": "How should I compare unit size?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "End-user fit is mainly about how well the property supports everyday life. For ready-property buyers, map work, school, shopping, leisure and transport needs against how the property and location would actually be used each week.",
+          "question": "How should I assess whether a property suits an end-user buyer?"
+        },
+        {
+          "answer": "Family fit depends on the home and the surrounding daily routine. Compare room sizes, storage, outdoor space, parking and privacy with the household requirements rather than relying on bedroom count alone.",
+          "question": "How should I assess whether a property suits a family buyer?"
+        },
+        {
+          "answer": "A branded residence is worthwhile only when the underlying property justifies the premium. Test whether the layout, view, location, specification or service offer is genuinely difficult to replicate in competing developments.",
+          "question": "How should I assess whether a branded residence fits my needs?"
+        },
+        {
+          "answer": "Luxury fit depends on scarcity, quality and buyer relevance rather than price alone. Consider how many future buyers may value the same premium and whether resale depends on a narrow luxury or brand-sensitive audience.",
+          "question": "How should I assess whether a luxury property fits my needs?"
+        },
+        {
+          "answer": "A floor plan should be judged by usable space, not only total area. Corridors, awkward corners or oversized circulation reduce the usable value of the stated size. Compare plans at similar sizes because two units with the same area can function very differently.",
+          "question": "What should I check in a floor plan?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Use this page as decision guidance rather than a substitute for current source verification. Details that can change should be rechecked against relevant official, first-party or current market information before they are used in a buyer decision.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Ready Property · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Daily living · Layout · Community"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Relevant official or first-party sources"
+        },
+        {
+          "label": "Live check",
+          "value": "Current details where they may have changed"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "general",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this fit check to your ready-property purchase, using your budget, intended use, property preferences and risk tolerance, then highlight the trade-offs that matter before you decide.",
+      "title": "Want to check whether this property fits your goals?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your ready-property purchase, focusing on intended use, property preferences, practical trade-offs and the checks that matter before you decide.",
+      "title": "Check whether this property fits your goals",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{{- $d := partial "primadom/page-types/origin-buyer/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="ob-grid-2 ob-grid-2--reverse" id="districts">
+  <article class="ob-card">
+    <div class="ob-card__head"><h2>{{ $t.districts.title }}</h2><span>{{ $t.districts.eyebrow }}</span></div>
+    <div class="ob-card__body ob-option-list">
+      {{ range $t.districts.items }}<div class="ob-option"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>{{ end }}
+    </div>
+  </article>
+
+  <article class="ob-card">
+    <div class="ob-card__head"><h2>{{ $t.buyer_concerns.title }}</h2><span>{{ $t.buyer_concerns.eyebrow }}</span></div>
+    <div class="ob-card__body">
+      <p class="ob-desc">{{ $t.buyer_concerns.body }}</p>
+      <div class="ob-tags">{{ range $t.buyer_concerns.tags }}<span>{{ . }}</span>{{ end }}</div>
+    </div>
+  </article>
+</div>

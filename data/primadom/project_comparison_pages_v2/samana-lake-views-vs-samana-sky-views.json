@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__samana-lake-views__vs__samana-sky-views__en",
+  "page_type_id": "project_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-projects/samana-lake-views-vs-samana-sky-views/",
+  "canonical_url_path": "/en/compare-projects/samana-lake-views-vs-samana-sky-views/",
+  "canonical_group_key": "project_comparison:samana-lake-views:vs:samana-sky-views",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "samana-lake-views",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Compare"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Project comparison navigation",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/en/compare-projects/",
+          "label": "Project Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-projects/samana-lake-views-vs-samana-sky-views/",
+          "label": "Samana Lake Views vs Samana Sky Views",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Project A: Samana Lake Views",
+        "Project B: Samana Sky Views",
+        "Dubai Production City comparison",
+        "AED 639K vs AED 689K",
+        "Entry price and handover"
+      ],
+      "title": "Samana Lake Views vs Samana Sky Views",
+      "subtitle": "For a Dubai Production City shortlist, weigh entry points of AED 639K and AED 689K, apartment options, and 2027 and 2028 handover timelines.",
+      "project_a": {
+        "name": "Samana Lake Views",
+        "slug": "samana-lake-views",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Samana Sky Views",
+        "slug": "samana-sky-views",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Key context for Samana Lake Views and Samana Sky Views",
+      "section_id": "overview",
+      "visual_aria": "Comparison hero for Samana Lake Views and Samana Sky Views",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Ask about price, unit mix, handover or buyer fit.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Samana Lake Views or Samana Sky Views — which fits?",
+        "Compare price, units and handover",
+        "What should I verify before choosing?"
+      ],
+      "title": "Compare Samana Lake Views and Samana Sky Views",
+      "ai_aria": "Ask Primadom AI to compare Samana Lake Views and Samana Sky Views",
+      "eyebrow": "Ask AI",
+      "prompts": [
+        "Compare Samana Lake Views and Samana Sky Views for my buying goal. Review the available price context, property types, bedroom range and handover, and clearly flag anything that requires a live check.",
+        "Compare Samana Lake Views and Samana Sky Views by starting-price context, unit types, bedroom range and planned handover. Clearly identify missing or unverified information.",
+        "What should a buyer verify before choosing between Samana Lake Views and Samana Sky Views? Cover current pricing, availability, payment terms, handover status and suitability for the buyer goal."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "input_aria": "Project comparison AI question",
+      "section_id": "compare-ai-search",
+      "voice_text": "Ask about this project comparison",
+      "placeholder": "Ask AI to compare these two projects",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "button_label": "Ask",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Compare Samana Lake Views and Samana Sky Views for my buying goal",
+      "ai_placeholder": "Ask AI to compare these two projects",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI to compare Samana Lake Views and Samana Sky Views",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Same district",
+        "Same developer",
+        "AED 639K vs AED 689K",
+        "2027 vs 2028 handover"
+      ],
+      "title": "Quick recommendation",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Samana Lake Views</strong> may suit buyers prioritising the lower recorded entry price, while <strong>Samana Sky Views</strong> may suit those focused on family-oriented living. <strong>Samana Lake Views</strong> offers apartments, studios to 2-bedroom homes, from AED 639K, handover 2027, while <strong>Samana Sky Views</strong> offers apartments, studios to 2-bedroom homes, from AED 689K, handover 2028.",
+      "body_text": "Samana Lake Views may suit buyers prioritising the lower recorded entry price, while Samana Sky Views may suit those focused on family-oriented living. Samana Lake Views offers apartments, studios to 2-bedroom homes, from AED 639K, handover 2027, while Samana Sky Views offers apartments, studios to 2-bedroom homes, from AED 689K, handover 2028.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Project A",
+          "value": "Samana Lake Views"
+        },
+        {
+          "label": "Project B",
+          "value": "Samana Sky Views"
+        },
+        {
+          "label": "Area context",
+          "value": "Both in Dubai Production City"
+        },
+        {
+          "label": "Developer context",
+          "value": "Both by Samana Developers"
+        },
+        {
+          "label": "Starting price",
+          "value": "AED 639K vs AED 689K"
+        },
+        {
+          "label": "Property types",
+          "value": "Both: Apartment"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "Both: Studios–2 BR"
+        },
+        {
+          "label": "Handover",
+          "value": "2027 vs 2028"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Samana Lake Views",
+          "slug": "samana-lake-views",
+          "text": "Samana Lake Views is positioned around waterfront-oriented living in Dubai Production City by Samana Developers, with a recorded mix of Apartment across Studios–2 BR and a recorded starting price from AED 639K and handover in 2027. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Dubai Production City · By Samana Developers",
+            "Apartment · Studios–2 BR",
+            "From AED 639K · Handover 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Samana Sky Views",
+          "slug": "samana-sky-views",
+          "text": "Samana Sky Views is positioned around family-oriented living in Dubai Production City by Samana Developers, with a recorded mix of Apartment across Studios–2 BR and a recorded starting price from AED 689K and handover in 2028. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Dubai Production City · By Samana Developers",
+            "Apartment · Studios–2 BR",
+            "From AED 689K · Handover 2028"
+          ]
+        }
+      ],
+      "title": "Project summaries",
+      "eyebrow": "At a glance",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Both projects are in Dubai Production City, so location is not the main separator. Both come from Samana Developers, making unit mix, price and handover the stronger separators. Recorded entry prices are AED 639K for Samana Lake Views and AED 689K for Samana Sky Views. Recorded handover timing is 2027 versus 2028.",
+        "tags": [
+          "Same district",
+          "Same developer",
+          "Recorded price gap",
+          "Same property mix",
+          "Live availability"
+        ],
+        "title": "Project-level logic",
+        "eyebrow": "How to compare"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Samana Lake Views",
+        "project_b": "Samana Sky Views"
+      },
+      "rows": [
+        {
+          "factor": "Starting price",
+          "project_a": "From AED 639K",
+          "project_b": "From AED 689K"
+        },
+        {
+          "factor": "Location",
+          "project_a": "Dubai Production City",
+          "project_b": "Dubai Production City"
+        },
+        {
+          "factor": "Developer",
+          "project_a": "Samana Developers",
+          "project_b": "Samana Developers"
+        },
+        {
+          "factor": "Property types",
+          "project_a": "Apartment",
+          "project_b": "Apartment"
+        },
+        {
+          "factor": "Bedrooms",
+          "project_a": "Studios–2 BR",
+          "project_b": "Studios–2 BR"
+        },
+        {
+          "factor": "Handover",
+          "project_a": "2027",
+          "project_b": "2028"
+        },
+        {
+          "factor": "Project profile",
+          "project_a": "Waterfront-oriented",
+          "project_b": "Family-oriented"
+        }
+      ],
+      "title": "Project comparison table",
+      "eyebrow": "Samana Lake Views vs Samana Sky Views",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Recorded starting prices are AED 639K for Samana Lake Views and AED 689K for Samana Sky Views. Compare the same unit type, size and total cost before judging value.",
+          "title": "The entry-price gap matters",
+          "eyebrow": "Price & units",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Both projects are in Dubai Production City. Compare access, building or plot position, nearby supply and daily-use convenience.",
+          "title": "Same district, compare micro-position",
+          "eyebrow": "Location fit",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Recorded handover is 2027 for Samana Lake Views and 2028 for Samana Sky Views. Compare how each timeline fits your planned move-in or investment use.",
+          "title": "Different handovers change the choice",
+          "eyebrow": "Timeline",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Ask Primadom AI to compare Samana Lake Views and Samana Sky Views by unit type, recorded price, location, handover and intended use, then prepare the main questions for an advisor.",
+          "title": "Compare by your goal",
+          "eyebrow": "Ask AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Project decision notes"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Who should choose each project",
+        "eyebrow": "Buyer fit",
+        "project_a_items": [
+          "Its recorded starting point of AED 639K is lower in this pair, subject to a like-for-like unit check.",
+          "You prefer its waterfront-oriented setting in Dubai Production City for your intended use.",
+          "You want Apartments across Studios–2 BR and a recorded 2027 handover."
+        ],
+        "project_a_title": "Choose Samana Lake Views if",
+        "project_b_items": [
+          "You are comfortable with its higher recorded starting point of AED 689K after checking the exact unit and total cost.",
+          "You prefer its family-oriented setting in Dubai Production City for your intended use.",
+          "You want Apartments across Studios–2 BR and a recorded 2028 handover."
+        ],
+        "project_b_title": "Choose Samana Sky Views if"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Recorded starting prices are AED 639K for Samana Lake Views and AED 689K for Samana Sky Views. Both projects are in Dubai Production City, so location is less likely to be the main separator. Both record a similar property mix: Apartments. Recorded handover is 2027 for Samana Lake Views and 2028 for Samana Sky Views.",
+        "tags": [
+          "Recorded price gap",
+          "Same district",
+          "Recorded unit mix",
+          "Handover gap",
+          "Total cost check"
+        ],
+        "title": "Investment logic",
+        "eyebrow": "Decision layer"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/en/compare-projects/samana-lake-views-vs-samana-portofino/",
+            "meta": "Shared project",
+            "label": "Samana Lake Views vs Samana Portofino",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/samana-lake-views-vs-samana-resorts/",
+            "meta": "Shared project",
+            "label": "Samana Lake Views vs Samana Resorts",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/samana-lake-views-vs-samana-resorts-phase-2/",
+            "meta": "Shared project",
+            "label": "Samana Lake Views vs Samana Resorts Phase 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/samana-portofino-vs-samana-sky-views/",
+            "meta": "Shared project",
+            "label": "Samana Portofino vs Samana Sky Views",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "More project comparisons",
+        "eyebrow": "Explore next"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/en/projects/samana-lake-views/",
+            "meta": "Project A",
+            "label": "Samana Lake Views project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/projects/samana-sky-views/",
+            "meta": "Project B",
+            "label": "Samana Sky Views project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/areas/dubai-production-city/",
+            "meta": "Area",
+            "label": "Dubai Production City area guide",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/developers/samana-developers/",
+            "meta": "Developer",
+            "label": "Samana Developers developer page",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Open the project pages",
+        "eyebrow": "Project routes"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Share these details to compare Samana Lake Views and Samana Sky Views against the same priorities. Recorded project information can narrow the choice, while exact units, current prices and availability still need a live check.",
+      "items": [
+        {
+          "meta": "AED range or maximum entry point",
+          "label": "Price range"
+        },
+        {
+          "meta": "Apartments",
+          "label": "Unit type"
+        },
+        {
+          "meta": "primary home / family use / investment",
+          "label": "Buyer goal"
+        },
+        {
+          "meta": "preferred timing around 2027–2028",
+          "label": "Timeline"
+        },
+        {
+          "meta": "bedrooms / layout / community access",
+          "label": "Key preference"
+        }
+      ],
+      "title": "AI compare inputs",
+      "eyebrow": "Useful details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "There is no universal winner in this comparison. Samana Lake Views has the lower recorded starting point. Both record Apartment, although their bedroom ranges may differ. Recorded handover is 2027 for Samana Lake Views and 2028 for Samana Sky Views. The better fit depends on your intended use and the exact unit available at the time of comparison.",
+          "question": "Which project may suit me better: Samana Lake Views or Samana Sky Views?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Samana Lake Views has the lower recorded starting price at AED 639K, compared with AED 689K for Samana Sky Views. Compare the same unit type, size and current terms before treating the difference as like-for-like.",
+          "question": "Which project has the lower recorded starting price?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Samana Lake Views and Samana Sky Views are both in Dubai Production City and are linked to Samana Developers. Because the area and developer are the same, compare the exact unit, layout, recorded starting price and handover timing rather than relying on the project names alone.",
+          "question": "How do Samana Lake Views and Samana Sky Views differ by location and developer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Samana Lake Views records Apartment, including studios to 2-bedroom homes. Samana Lake Views records handover for 2027. Samana Sky Views records Apartment, including studios to 2-bedroom homes. Samana Sky Views records handover for 2028.",
+          "question": "What property types, bedroom ranges and handover years are recorded?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Before deciding between Samana Lake Views and Samana Sky Views, confirm the exact unit, current price, payment terms, total acquisition cost, floor, layout, view, current project status, handover and availability. Recorded project-level figures are useful for shortlisting, but they do not replace a live unit-level check.",
+          "question": "What should I verify before choosing between Samana Lake Views and Samana Sky Views?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Project questions",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Use this page as a starting point for comparing Samana Lake Views and Samana Sky Views. Recorded details may change and do not replace current developer documents or public records. Confirm live prices, available units, payment terms, floor plans, service charges, handover details and project status before making a decision.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Payment terms",
+          "value": "Check current documents"
+        },
+        {
+          "label": "Handover / status",
+          "value": "Confirm current status"
+        },
+        {
+          "label": "Content updated",
+          "value": "July 2026"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Both projects are in Dubai Production City and are linked to Samana Developers. Samana Lake Views has the lower recorded starting price at AED 639K versus AED 689K. Recorded handovers are 2027 and 2028.",
+      "title": "Want Samana Lake Views and Samana Sky Views compared for your case?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Project comparison enquiry form",
+      "text": "Share your preferences and contact details. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "error": "Please try again",
+      "title": "Compare Samana Lake Views and Samana Sky Views for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+      "eyebrow": "AI compare handoff",
+      "success": "Request sent",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Close",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971",
+        "comment": "Add any useful details"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__samana-lake-views__vs__samana-sky-views__en",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Samana Lake Views",
+        "project_a_slug": "samana-lake-views",
+        "project_b_name": "Samana Sky Views",
+        "project_b_slug": "samana-sky-views",
+        "canonical_url_path": "/en/compare-projects/samana-lake-views-vs-samana-sky-views/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Send",
+        "error": "Please try again",
+        "success": "Request sent",
+        "submitting": "Sending…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Prepared request",
+        "value": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI helps buyers compare projects, locations, developers and key decision factors before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Project comparison, connected to real buyer intent",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{{- $slug := .Params.intent_slug | default "best-off-plan-projects-dubai-under-aed-2m" -}}
+{{- $raw := index site.Data.primadom.intent_pages $slug -}}
+{{- if not $raw -}}
+  {{- errorf "Intent page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $t := index $raw.i18n $lang | default (index $raw.i18n "en") -}}
+{{- return (dict "raw" $raw "t" $t "lang" $lang "slug" $slug) -}}

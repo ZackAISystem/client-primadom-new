@@ -1,0 +1,96 @@
+{{/* Primadom AI System — Developer Page partial: lead_modal.html / stable current JSON */}}
+
+{{- $d := partial "primadom/page-types/developer/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $m := $t.modal -}}
+
+<div class="pd-lead-modal" id="developerLeadModal" aria-hidden="true">
+  <div class="pd-lead-modal__backdrop" data-close-developer-lead></div>
+
+  <div class="pd-lead-modal__panel" role="dialog" aria-modal="true" aria-labelledby="developerLeadTitle">
+    <button
+      class="pd-lead-modal__close"
+      type="button"
+      data-close-developer-lead
+      aria-label="{{ $m.close_label }}"
+    >×</button>
+
+    <div class="pd-lead-modal__head">
+      <span class="pd-lead-modal__eyebrow">{{ $m.eyebrow }}</span>
+
+      <h2 id="developerLeadTitle">{{ $m.title }}</h2>
+
+      <p>{{ $m.text }}</p>
+    </div>
+
+    <form class="pd-lead-form" data-developer-form>
+      <input name="developer_key" type="hidden" value="{{ $t.developer_slug }}">
+      <input name="developer_name" type="hidden" value="{{ $t.developer_name }}">
+      <input name="city" type="hidden" value="{{ $t.city }}">
+      <input name="country" type="hidden" value="{{ $t.country }}">
+
+      <div class="pd-lead-form__grid">
+        <label class="pd-lead-field">
+          <span>{{ $m.fields.name }}</span>
+          <input
+            name="name"
+            type="text"
+            placeholder="{{ $m.placeholders.name }}"
+          >
+        </label>
+
+        <label class="pd-lead-field">
+          <span>{{ $m.fields.phone }}</span>
+          <input
+            name="phone"
+            type="tel"
+            placeholder="{{ $m.placeholders.phone }}"
+          >
+        </label>
+
+        <label class="pd-lead-field">
+          <span>{{ $m.fields.email }}</span>
+          <input
+            name="email"
+            type="email"
+            placeholder="{{ $m.placeholders.email }}"
+          >
+        </label>
+      </div>
+
+      <label class="pd-lead-field pd-lead-field--comment">
+        <span>{{ $m.fields.comment }}</span>
+
+        <div class="pd-lead-ai-row">
+          <div class="pd-lead-ai-row__badge">
+            <i></i>
+            {{ $m.fields.comment }}
+          </div>
+
+          <textarea data-lead-comment name="comment">{{ $m.comment }}</textarea>
+
+          <button
+            aria-label="{{ $m.fields.comment }}"
+            class="pd-lead-voice"
+            data-lead-voice
+            type="button"
+          >
+            <span class="pd-lead-voice__aura"></span>
+            <span class="pd-lead-voice__core">
+              <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z'/%3E%3Cpath d='M19 10v2a7 7 0 0 1-14 0v-2'/%3E%3Cpath d='M12 19v3'/%3E%3C/svg%3E">
+            </span>
+          </button>
+
+          <button
+            class="pd-lead-submit"
+            type="submit"
+            data-submit-label="{{ $m.submit }}"
+            data-success-label="{{ $m.success }}"
+          >
+            {{ $m.submit }}
+          </button>
+        </div>
+      </label>
+    </form>
+  </div>
+</div>

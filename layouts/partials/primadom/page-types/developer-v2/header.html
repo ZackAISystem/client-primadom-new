@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/developer-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<header class="pd-header">
+  <div class="pd-header__inner">
+    <a class="pd-header__badge" href="{{ $t.header.brand_url }}" aria-label="{{ $t.header.brand }}">
+      <span class="pd-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $t.header.brand }}</span>
+    </a>
+
+    <nav class="pd-header__nav" aria-label="{{ $t.header.nav_aria }}">
+      {{ range $t.header.nav }}
+        <a class="pd-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pd-header__nav-link--ai{{ end }}" href="{{ .href }}">{{ .label }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="pd-header__right">
+      <a class="pd-header__cta" href="{{ $t.header.cta_url }}" data-open-developer-lead>{{ $t.header.cta_label }}</a>
+    </div>
+  </div>
+</header>

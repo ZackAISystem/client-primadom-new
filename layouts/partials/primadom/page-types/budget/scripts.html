@@ -1,0 +1,101 @@
+<script>
+(function(){
+  const form = document.querySelector('.pb-ai');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('buy')?.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  }
+
+  const modal = document.getElementById('budgetLeadModal');
+  if(modal){
+    const openers = document.querySelectorAll('[data-open-budget-lead]');
+    const closers = modal.querySelectorAll('[data-close-budget-lead]');
+    const leadForm = modal.querySelector('[data-budget-form]');
+
+    function open(e){
+      if(e) e.preventDefault();
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden','false');
+      document.documentElement.classList.add('pb-modal-open');
+    }
+
+    function close(){
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden','true');
+      document.documentElement.classList.remove('pb-modal-open');
+    }
+
+    openers.forEach(btn => btn.addEventListener('click', open));
+    closers.forEach(btn => btn.addEventListener('click', close));
+    document.addEventListener('keydown', e => { if(e.key === 'Escape') close(); });
+
+    if(leadForm){
+      leadForm.addEventListener('submit', function(e){
+        e.preventDefault();
+        const btn = leadForm.querySelector('.pb-submit');
+        if(btn){
+          const normal = btn.dataset.submitLabel || btn.textContent;
+          const success = btn.dataset.successLabel || 'Sent';
+          btn.textContent = success;
+          setTimeout(() => btn.textContent = normal, 1600);
+        }
+      });
+    }
+  }
+})();
+</script>
+
+
+<script>
+(function () {
+  if (window.__primadomBudgetFooterBound) return;
+  window.__primadomBudgetFooterBound = true;
+
+  function openBudgetModal() {
+    var modal =
+      document.querySelector('#budgetLeadModal') ||
+      document.querySelector('#projectLeadModal') ||
+      document.querySelector('.pb-modal');
+
+    if (!modal) return;
+
+    modal.classList.add('is-open');
+    document.documentElement.classList.add('pb-modal-open');
+  }
+
+  document.addEventListener('click', function (event) {
+    var openBtn = event.target.closest('[data-open-budget-lead], [data-open-lead]');
+
+    if (openBtn) {
+      event.preventDefault();
+      openBudgetModal();
+      return;
+    }
+
+    var askBtn = event.target.closest('[data-scroll-ask-ai]');
+
+    if (askBtn) {
+      event.preventDefault();
+
+      var target =
+        document.querySelector('#ask-ai') ||
+        document.querySelector('.pb-ai') ||
+        document.querySelector('[data-ai-search]');
+
+      if (!target) return;
+
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      var input = target.querySelector('input, textarea');
+
+      if (input) {
+        setTimeout(function () {
+          input.focus({ preventScroll: true });
+        }, 450);
+      }
+    }
+  });
+})();
+</script>

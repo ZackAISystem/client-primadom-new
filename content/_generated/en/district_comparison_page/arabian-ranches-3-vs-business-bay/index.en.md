@@ -1,0 +1,10 @@
+---
+title: "Arabian Ranches 3 vs Business Bay"
+layout: "primadom-district-comparison-page-v2"
+comparison_slug: "arabian-ranches-3-vs-business-bay"
+page_id: "page_district_comparison_arabian_ranches_3_vs_business_bay_en"
+url: "/en/compare-areas/arabian-ranches-3-vs-business-bay/"
+build:
+  render: always
+  list: never
+---

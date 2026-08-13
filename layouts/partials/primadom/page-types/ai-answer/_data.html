@@ -1,0 +1,8 @@
+{{- $slug := .Params.ai_answer_slug | default "should-i-buy-off-plan-in-dubai" -}}
+{{- $raw := index site.Data.primadom.ai_answer_pages $slug -}}
+{{- if not $raw -}}
+  {{- errorf "AI answer page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $t := index $raw.i18n $lang | default (index $raw.i18n "en") -}}
+{{- return (dict "raw" $raw "t" $t "lang" $lang "slug" $slug) -}}

@@ -1,0 +1,10 @@
+---
+title: "The One by Rabdan"
+layout: "primadom-project-page-v2"
+project_slug: "the-one-by-rabdan"
+page_id: "page_project_the_one_by_rabdan_en"
+url: "/en/projects/the-one-by-rabdan/"
+build:
+  render: always
+  list: never
+---

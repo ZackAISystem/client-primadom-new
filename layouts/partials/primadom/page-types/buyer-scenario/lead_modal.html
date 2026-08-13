@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/buyer-scenario/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="bs-modal" id="buyerScenarioLeadModal" aria-hidden="true">
+  <div class="bs-modal__backdrop" data-close-buyer-scenario-lead></div>
+  <section class="bs-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $t.modal.aria }}">
+    <button class="bs-modal__close" type="button" data-close-buyer-scenario-lead aria-label="{{ $t.modal.close_label }}">×</button>
+    <span class="bs-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2>{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+    <form class="bs-form" data-buyer-scenario-form>
+      <div class="bs-form__grid">
+        <label class="bs-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name" placeholder="{{ $t.modal.placeholders.name }}"></label>
+        <label class="bs-field"><span>{{ $t.modal.fields.phone }}</span><input type="tel" name="phone" placeholder="{{ $t.modal.placeholders.phone }}"></label>
+        <label class="bs-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget" placeholder="{{ $t.modal.placeholders.budget }}"></label>
+      </div>
+      <label class="bs-field"><span>{{ $t.modal.fields.comment }}</span><textarea name="comment">{{ $t.modal.comment }}</textarea></label>
+      <button class="bs-submit" type="submit" data-submit-label="{{ $t.modal.submit }}" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+    </form>
+  </section>
+</div>

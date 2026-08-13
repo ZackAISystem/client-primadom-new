@@ -1,0 +1,15 @@
+{{/* Primadom AI System — Project Page content wrapper / data-driven blocks */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+
+<section aria-label="{{ partial "primadom/page-types/project/_t.html" (dict "value" $p.content.aria_label "lang" $lang) }}" class="pd-project-content pd-project-content--llm" id="details">
+  <div class="pd-project-content__inner">
+    {{ partial "primadom/page-types/project/buyer_fit_logic.html" . }}
+    {{ partial "primadom/page-types/project/decision_cards.html" . }}
+    {{ partial "primadom/page-types/project/location.html" . }}
+    {{ partial "primadom/page-types/project/similar_trust_faq.html" . }}
+    {{ partial "primadom/page-types/project/cta.html" . }}
+  </div>
+</section>

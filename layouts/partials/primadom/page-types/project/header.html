@@ -1,0 +1,40 @@
+{{/* Primadom AI System — Project Page partial: header.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+
+{{- $brand := partial "primadom/page-types/project/_t.html" (dict "value" $p.header.brand "lang" $lang) -}}
+{{- $cta := partial "primadom/page-types/project/_t.html" (dict "value" $p.header.cta_label "lang" $lang) -}}
+
+{{- $brandUrl := "/" -}}
+{{- with $p.header.brand_url }}
+  {{- $brandUrl = . -}}
+{{- end -}}
+
+{{- $ctaUrl := "#projectLeadModal" -}}
+{{- with $p.header.cta_url }}
+  {{- $ctaUrl = . -}}
+{{- end -}}
+
+<header class="pd-header">
+  <div class="pd-header__inner">
+    <a class="pd-header__badge" href="{{ $brandUrl | relLangURL }}" aria-label="{{ $brand }}">
+      <span class="pd-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $brand }}</span>
+    </a>
+
+    <nav class="pd-header__nav" aria-label="{{ $brand }}">
+      {{- range $index, $item := $p.header.nav }}
+        {{- $isActive := or $item.active $item.is_active (eq $index 0) -}}
+        <a class="pd-header__nav-link{{ if $isActive }} is-active{{ end }}{{ if or $item.ai $item.is_ai }} pd-header__nav-link--ai{{ end }}" href="{{ $item.href }}">
+          {{ partial "primadom/page-types/project/_t.html" (dict "value" $item.label "lang" $lang) }}
+        </a>
+      {{- end }}
+    </nav>
+
+    <div class="pd-header__right">
+      <a class="pd-header__cta" href="{{ $ctaUrl }}" data-open-project-lead>{{ $cta }}</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__what-makes-project-risky__context__waterfront__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/what-makes-project-risky-waterfront/",
+  "canonical_url_path": "/en/ai-answers/what-makes-project-risky-waterfront/",
+  "canonical_group_key": "ai_answer:what-makes-project-risky:context:waterfront",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "what-makes-project-risky",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/what-makes-project-risky-waterfront/",
+          "label": "What makes a project risky? — Waterfront",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Waterfront",
+        "Project check",
+        "Developer",
+        "Timing",
+        "Terms to verify"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "What makes a project risky? — Waterfront",
+      "subtitle": "Review project risk factors when considering waterfront property, focusing on developer, documents, timing and project terms to verify before a decision.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for What makes a project risky? — Waterfront",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which project warning signs matter most before buying",
+        "Compare developer, delivery and contract risks for waterfront buyers",
+        "Explain which risk signals need stronger evidence before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Explain what can make a project risky for waterfront buyers",
+      "placeholder": "Explain what can make a project risky for waterfront buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Project risk",
+        "Waterfront",
+        "Developer",
+        "Construction",
+        "Resale"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A project becomes riskier when several delivery, financial or market weaknesses appear together.</strong> For waterfront buyers, check developer execution, registration and escrow where relevant, construction progress, payment structure, contract terms, location, future supply and resale depth. One warning sign may be manageable, but multiple unresolved issues should materially change the decision.",
+      "body_text": "A project becomes riskier when several delivery, financial or market weaknesses appear together. For waterfront buyers, check developer execution, registration and escrow where relevant, construction progress, payment structure, contract terms, location, future supply and resale depth. One warning sign may be manageable, but multiple unresolved issues should materially change the decision.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "What makes a project risky? — Waterfront"
+        },
+        {
+          "label": "Context",
+          "value": "Waterfront"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Multiple weaknesses increase risk"
+        },
+        {
+          "label": "Main checks",
+          "value": "Developer · Construction · Resale"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Execution · contract · resale"
+        },
+        {
+          "label": "Best next step",
+          "value": "Resolve the strongest warning signs"
+        },
+        {
+          "label": "Verification",
+          "value": "Current project check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "What Makes Project Risky",
+      "market": "UAE",
+      "context": "Waterfront",
+      "eyebrow": "Key facts",
+      "question": "What makes a project risky for Waterfront?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Weak execution, unclear documents, aggressive pricing or poor liquidity compound rather than offset each other.",
+            "title": "Several warning signs appear together"
+          },
+          {
+            "text": "Project status, payment routing or contractual obligations remain uncertain before commitment.",
+            "title": "The buyer cannot verify core facts"
+          },
+          {
+            "text": "The decision assumes smooth delivery and resale without testing delay, cost or liquidity pressure.",
+            "title": "The downside is being ignored"
+          },
+          {
+            "text": "For waterfront buyers, revisit the project-risk assessment if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Developer, registration, construction, payment and contract information support the project story.",
+            "title": "The main risk areas are independently checked"
+          },
+          {
+            "text": "A manageable concern does not combine with several other unresolved execution or market risks.",
+            "title": "One weakness is offset by stronger fundamentals"
+          },
+          {
+            "text": "Location, unit appeal and future buyer demand provide a reasonable path if the buyer needs to sell later.",
+            "title": "The exit case remains credible"
+          },
+          {
+            "text": "For waterfront buyers, the project-risk assessment still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For waterfront buyers, check developer execution, registration and escrow where relevant, construction progress, payment structure, contract terms, location, future supply and resale depth.",
+          "title": "Developer · Construction · Resale",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when several warning signs appear together, the buyer cannot verify core facts, or the downside is being ignored.",
+          "title": "Project risk",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "One warning sign may be manageable, but multiple unresolved issues should materially change the decision.",
+          "title": "Resolve the strongest warning signs",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when several warning signs appear together, the buyer cannot verify core facts, or the downside is being ignored. For waterfront buyers, one warning sign may be manageable, but multiple unresolved issues should materially change the decision.",
+        "tags": [
+          "Developer risk",
+          "Regulatory status",
+          "Payment exposure",
+          "Market risk",
+          "Project risk"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For waterfront buyers, review delivery history, current construction progress and evidence supporting the developer's ability to complete the specific project.",
+            "title": "Assess developer execution risk"
+          },
+          {
+            "text": "Check registration, permits, escrow and other applicable project records rather than assuming launch activity means every status check is complete.",
+            "title": "Verify regulatory and project status"
+          },
+          {
+            "text": "Understand instalments, buyer obligations, delay provisions and exit restrictions that could make a project problem more costly for the buyer.",
+            "title": "Review payment and contract exposure"
+          },
+          {
+            "text": "Review future supply, community maturity, tenant or buyer demand and resale depth before relying on a strong market narrative.",
+            "title": "Test location and demand assumptions"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/what-questions-to-ask-developer-waterfront/",
+          "label": "What questions should I ask a developer?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-handover-delay-risk-waterfront/",
+          "label": "What is handover-delay risk?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-handover-risk-waterfront/",
+          "label": "What is handover risk?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-better-off-plan-or-ready-waterfront/",
+          "label": "What is better: off-plan or ready property?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-project-status-waterfront/",
+          "label": "How should I check project status?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A project becomes riskier when several delivery, financial or market weaknesses appear together. For waterfront buyers, review delivery history, current construction progress and evidence supporting the developer's ability to complete the specific project.",
+          "question": "What can make a property project risky?"
+        },
+        {
+          "answer": "The best developer questions test the facts behind price, delivery and the contract. Request specific information on registration, construction, escrow, approvals and other material project records instead of accepting broad assurances.",
+          "question": "What questions should I ask the developer?"
+        },
+        {
+          "answer": "Handover delay risk is the possibility that completion takes longer than the buyer expects. Identify whether housing, rent, financing, school or relocation plans would be materially affected by a later completion.",
+          "question": "What does handover delay risk mean?"
+        },
+        {
+          "answer": "Handover risk covers uncertainty around timing, completion quality and the transition into ownership. Model additional housing, financing or opportunity costs that could arise if the project completes later than the buyer expects.",
+          "question": "What is handover risk?"
+        },
+        {
+          "answer": "Neither off-plan nor ready property is automatically better for every buyer. The buyer has not decided whether immediate move-in, rental income or a later handover matters more. Choose the route whose trade-offs best match the buyer’s timeline, cash flow and tolerance for uncertainty.",
+          "question": "Which is better: off-plan or ready property?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Project status, payment terms, handover information and other project-specific details can change. Use this page as decision guidance, then reconfirm current project documents and relevant authority information before acting on any time-sensitive detail.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Waterfront · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Developer · Construction · Resale"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Official developer/project documents · relevant authority"
+        },
+        {
+          "label": "Live check",
+          "value": "Current project status, payment and handover details"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "project_terms",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your waterfront search, including your budget, timeline and risk tolerance, then work through the project, payment and handover checks that matter before you decide.",
+      "title": "Want to check the project before you decide?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your waterfront search, focusing on the project, payment, handover and risk points an advisor should review with you.",
+      "title": "Check whether this project fits your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this project fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pa-modal" id="pa-lead-modal" aria-hidden="true">
+  <div class="pa-modal__backdrop" data-pa-modal="close"></div>
+  <section class="pa-modal__panel" role="dialog" aria-modal="true" aria-labelledby="pa-modal-title">
+    <button class="pa-modal__close" type="button" data-pa-modal="close" aria-label="Close">×</button>
+    <span class="pa-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2 id="pa-modal-title">{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+
+    <form class="pa-form">
+      <div class="pa-form__grid">
+        <label class="pa-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name"></label>
+        <label class="pa-field"><span>{{ $t.modal.fields.phone }}</span><input type="text" name="phone"></label>
+        <label class="pa-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget"></label>
+      </div>
+
+      <div class="pa-ai-row">
+        <span class="pa-ai-row__badge"><i aria-hidden="true"></i>{{ $t.modal.ai_badge }}</span>
+        <textarea name="comment">{{ $t.modal.comment }}</textarea>
+        <button class="pa-modal-voice" type="button" aria-label="Voice note"><img src="/img/icons/mic.svg" alt=""></button>
+        <button class="pa-submit" type="submit" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+      </div>
+    </form>
+  </section>
+</div>

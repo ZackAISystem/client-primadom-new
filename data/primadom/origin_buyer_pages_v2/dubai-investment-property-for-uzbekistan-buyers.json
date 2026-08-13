@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_dbf8122f6815a81d3b9518f44aae",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/dubai-investment-property-for-uzbekistan-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-investment-property-for-uzbekistan-buyers/",
+  "canonical_group_key": "origin:uzbekistan:goal:investment-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "uzbekistan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Can I buy?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "International buyer guide navigation",
+      "cta_label": "Get a consultation",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/dubai-investment-property-for-uzbekistan-buyers/",
+          "label": "Dubai investment property for Uzbek buyers"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "From Uzbekistan",
+        "Investment goal",
+        "Total costs",
+        "Market fit",
+        "Exit options"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Dubai investment property for Uzbek buyers",
+      "subtitle": "For buyers from Uzbekistan comparing Dubai property for investment, focus on entry price, district demand, holding costs, payment terms and realistic exit options before narrowing the shortlist.",
+      "facts_aria": "Key points for this buyer scenario",
+      "section_id": "overview",
+      "visual_aria": "Dubai investment property for Uzbek buyers property planning visual",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Compare districts, costs and exit options for investment property",
+        "Check payment terms and holding costs before narrowing options",
+        "What should I verify before choosing an investment property"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Ask about your Dubai property plan",
+      "placeholder": "Compare Dubai investment property for me as a buyer from Uzbekistan",
+      "block_status": "final",
+      "button_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Dubai investment property for Uzbek buyers",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Uzbek buyers",
+        "Investment property",
+        "Costs + liquidity",
+        "Payment terms",
+        "Current rules"
+      ],
+      "title": "Can Uzbek buyers buy property in Dubai?",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Yes — Uzbek buyers can generally buy property in Dubai</strong> in areas designated for foreign ownership, subject to current rules and property-specific checks. For an investment purchase, compare acquisition and holding costs, district demand, payment terms and exit flexibility without relying on return assumptions.",
+      "body_text": "Yes — Uzbek buyers can generally buy property in Dubai in areas designated for foreign ownership, subject to current rules and property-specific checks. For an investment purchase, compare acquisition and holding costs, district demand, payment terms and exit flexibility without relying on return assumptions.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Origin market",
+          "value": "Uzbekistan"
+        },
+        {
+          "label": "Target market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Buyer goal",
+          "value": "Investment property"
+        },
+        {
+          "label": "Main focus",
+          "value": "Costs, demand and exit flexibility"
+        },
+        {
+          "label": "Key checks",
+          "value": "Entry cost · holding costs · liquidity"
+        },
+        {
+          "label": "Ownership context",
+          "value": "Check current foreign ownership rules"
+        },
+        {
+          "label": "Decision stage",
+          "value": "Before reservation"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare investment options without relying on return assumptions"
+        }
+      ],
+      "title": "Origin buyer details",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Define the budget, intended holding period, cost limits, demand profile and exit flexibility before comparing properties.",
+            "title": "1. Set the investment criteria"
+          },
+          {
+            "text": "If you plan to complete any steps from Uzbekistan, confirm which parts can be handled remotely and whether additional authorisation or local action is needed.",
+            "title": "2. Plan the purchase route"
+          },
+          {
+            "text": "Confirm the identity information, buyer forms, payment source, transfer route and transaction-specific checks requested for the purchase.",
+            "title": "3. Confirm documents and payment route"
+          },
+          {
+            "text": "Re-check acquisition costs, payment terms, project status, unit specifics and holding-cost inputs before proceeding.",
+            "title": "4. Re-check live terms before reservation"
+          }
+        ],
+        "title": "Remote purchase process",
+        "eyebrow": "Process logic"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Prepare valid identity and buyer information requested for the specific transaction.",
+            "title": "Passport and buyer details"
+          },
+          {
+            "text": "Keep current address and contact details ready if requested by the developer, bank or transaction process.",
+            "title": "Address and contact details"
+          },
+          {
+            "text": "Confirm the payment source, transfer route and any bank or compliance checks before sending funds.",
+            "title": "Payment source and transfer route"
+          },
+          {
+            "text": "Keep cost, demand and exit assumptions separate from confirmed transaction documents and verified property facts.",
+            "title": "Investment comparison record"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Practical checklist"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Compare acquisition costs, holding costs, payment timing and exit flexibility before relying on investment assumptions.",
+          "title": "Model costs before upside",
+          "eyebrow": "Investment logic"
+        },
+        {
+          "dark": false,
+          "text": "If any steps are handled from Uzbekistan, confirm payment route, signing, identity checks and any transaction-specific local action.",
+          "title": "Plan the cross-border execution",
+          "eyebrow": "Buying from Uzbekistan"
+        },
+        {
+          "dark": false,
+          "text": "Compare district demand, unit fit and resale audience without treating projected returns as certain outcomes.",
+          "title": "Demand and liquidity need evidence",
+          "eyebrow": "Investment check"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Use Primadom AI to compare the goal, budget, route and checks before speaking with an advisor.",
+          "title": "Turn the scenario into a clear comparison",
+          "eyebrow": "AI consultation"
+        }
+      ],
+      "cards_aria": "Key decisions for this buyer scenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Compare entry cost, service charges, unit fit and resale depth without assuming returns.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "Compare unit economics, building quality, ongoing costs and current market depth.",
+            "title": "JVC"
+          },
+          {
+            "text": "Compare acquisition cost, service charges, tenant profile and resale audience.",
+            "title": "Dubai Marina"
+          },
+          {
+            "text": "Compare project maturity, payment exposure, unit specifics and future resale audience.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "District options"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "For buyers from Uzbekistan focused on investment property, separate verified property facts from assumptions about demand, rental performance, appreciation and exit liquidity.",
+        "tags": [
+          "Can buy?",
+          "Total costs",
+          "Demand check",
+          "Exit liquidity",
+          "Verification"
+        ],
+        "title": "Buyer concerns",
+        "eyebrow": "What to verify"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Open real project pages connected to the districts used for this buyer scenario, then verify current price, availability, payment terms and unit fit before relying on an option.",
+        "items": [
+          {
+            "href": "/en/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/en/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/en/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/en/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/en/projects/77-shades/",
+            "meta": "Business Bay",
+            "label": "77 Shades"
+          }
+        ],
+        "title": "Projects to verify",
+        "eyebrow": "Project options",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "If UAE residency is part of your plan, verify current Golden Visa criteria separately from the property decision. A project appearing in this list does not imply visa eligibility.",
+        "tags": [
+          "Separate check",
+          "Current criteria",
+          "Property value",
+          "Ownership status",
+          "Payment status"
+        ],
+        "title": "Keep visa eligibility separate",
+        "eyebrow": "Visa review",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/dubai-rental-income-property-for-uzbekistan-buyers/",
+          "label": "Dubai rental income property for Uzbek buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-capital-preservation-property-for-uzbekistan-buyers/",
+          "label": "Dubai capital-preservation property for Uzbek buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-off-plan-property-for-uzbekistan-buyers/",
+          "label": "Dubai off-plan property for Uzbek buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-payment-plan-property-for-uzbekistan-buyers/",
+          "label": "Dubai payment-plan property for Uzbek buyers"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Related origin pages",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Uzbek buyers can generally buy property in Dubai in designated freehold areas, subject to current rules and the specific property. For a Dubai investment property, compare acquisition costs, holding costs, district demand, unit fit and exit flexibility rather than relying on projected returns.",
+          "question": "Can Uzbek buyers buy Dubai property for investment?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Start with the investment thesis rather than the listing: holding horizon, acquisition costs, rental strategy, liquidity and risk tolerance. Use those filters to compare districts and individual properties.",
+          "question": "What should Uzbek buyers check first when considering a Dubai investment property?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "For this scenario, compare Business Bay, JVC, Dubai Marina and Dubai Creek Harbour. These are starting points rather than a ranking; check the exact property and practical fit before deciding.",
+          "question": "Which Dubai districts should Uzbek buyers compare for a Dubai investment property?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "When coordinating the purchase from Uzbekistan, map out who will sign, how funds will be transferred, which identity checks apply and whether any step needs local action. Confirm the route for the specific transaction before committing funds.",
+          "question": "What should Uzbek buyers verify when arranging a Dubai purchase from Uzbekistan?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "No. Compare acquisition and holding costs, district demand, unit fit, resale audience and exit flexibility. Projected returns should be treated as assumptions, not outcomes.",
+          "question": "Should Uzbek buyers choose a Dubai investment property by projected return alone?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Origin buyer questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "For Uzbek buyers considering Dubai investment property, this page separates buyer guidance from claims that still require external verification. Ownership rules, cross-border transaction steps, investment assumptions, holding costs and project-specific inputs should be checked against the relevant official or live source before a buyer decision.",
+      "items": [
+        {
+          "label": "Ownership rules",
+          "value": "Official verification pending"
+        },
+        {
+          "label": "Cross-border process",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Investment inputs",
+          "value": "Source review required"
+        },
+        {
+          "label": "Price / availability",
+          "value": "Live project check required"
+        },
+        {
+          "label": "Source status",
+          "value": "Source review pending"
+        }
+      ],
+      "title": "Verification notes",
+      "eyebrow": "Source notes",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "For Uzbek buyers, compare acquisition costs, district fit, project options and exit flexibility before sending the plan for advisor review.",
+      "title": "Ready to refine your Dubai investment plan from Uzbekistan?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Review my plan",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Origin buyer consultation form",
+      "text": "For Uzbek buyers, share your investment priorities, property type and timing. Primadom AI will prepare the comparison context before advisor review.",
+      "title": "Review your Dubai investment plan from Uzbekistan",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Review my Dubai investment property plan from Uzbekistan",
+      "eyebrow": "Property plan review",
+      "success": "Sent",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Close",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps Uzbek buyers compare investment priorities, districts, project options, costs and verification steps before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Dubai investment property decisions for Uzbek buyers",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI social links",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Ask AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

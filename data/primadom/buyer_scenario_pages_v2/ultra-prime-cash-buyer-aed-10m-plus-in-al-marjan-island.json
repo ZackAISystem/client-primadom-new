@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_ultra_prime_cash_buyer_al_marjan_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-al-marjan-island/",
+  "canonical_url_path": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-al-marjan-island/",
+  "canonical_group_key": "scenario_district:ultra_prime_cash_buyer:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-al-marjan-island/",
+          "label": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Ultra-prime cash",
+        "Al Marjan Island",
+        "Villas · Penthouses · Mansions",
+        "AED 10M+",
+        "Due diligence · exit"
+      ],
+      "image": {
+        "alt": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island",
+      "subtitle": "Ultra-prime cash buyers in Al Marjan Island need to weigh asset fit, transaction readiness, due diligence, holding costs and exit flexibility.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Review ultra-prime cash purchase options in Al Marjan Island",
+        "Check due diligence and holding costs",
+        "Compare asset fit and exit flexibility"
+      ],
+      "ai_aria": "Ask Primadom AI about Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Review ultra-prime cash purchase options in Al Marjan Island",
+      "placeholder": "Review ultra-prime cash purchase options in Al Marjan Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Ultra-prime",
+        "Al Marjan Island",
+        "AED 10M+ cash",
+        "Due diligence · exit",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For an ultra-prime cash purchase above AED 10M in Al Marjan Island</strong>, speed of payment should not replace due diligence. Asset fit, transaction documentation, holding costs, property condition and exit flexibility still need to be assessed before committing capital.",
+      "body_text": "For an ultra-prime cash purchase above AED 10M in Al Marjan Island, speed of payment should not replace due diligence. Asset fit, transaction documentation, holding costs, property condition and exit flexibility still need to be assessed before committing capital.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Ultra-Prime Cash Buyer AED 10M+"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Capital deployment"
+        },
+        {
+          "label": "Location",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Villas · Penthouses · Mansions"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 10M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Due diligence · costs · exit"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Transaction assessment"
+        },
+        {
+          "label": "Next step",
+          "value": "Complete due diligence"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers treating a cash purchase as a reason to skip due diligence",
+          "Buyers choosing an asset only because it is positioned as ultra-prime",
+          "Buyers with no view on holding costs, ownership structure or exit strategy"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Cash buyers in Al Marjan Island who want a straightforward transaction backed by detailed due diligence",
+          "Buyers comparing scarcity, property quality and exit flexibility rather than financing terms",
+          "Buyers willing to inspect the specific asset and transaction structure before committing capital"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Al Marjan Island, cash removes financing dependency but not property or transaction risk. The decision should still test the specific asset, ownership structure, recurring costs, scarcity and exit flexibility before a large amount of capital is committed.",
+        "tags": [
+          "Due diligence",
+          "Asset quality",
+          "Ownership",
+          "Holding cost",
+          "Exit strategy"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing ultra-prime options in Al Marjan Island, focus on the quality of the specific property, privacy, how rare it really is and how easy it may be to resell later.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Compare other areas if they offer a better property or clearer resale prospects rather than choosing purely by prestige.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "A premium address does not remove the need to assess the specific property, recurring costs and who might buy it later.",
+            "title": "Property quality"
+          },
+          {
+            "text": "Narrow the area only after the property, ownership structure and resale plan have been reviewed with the same care as the purchase itself.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Relevant when privacy, land and long-term use justify the higher purchase price and ongoing upkeep.",
+            "title": "Villas"
+          },
+          {
+            "text": "Useful for buyers prioritising privacy, views and expansive layouts, with the specific property still requiring close review.",
+            "title": "Penthouses"
+          },
+          {
+            "text": "Fit buyers seeking exceptional scale and privacy, but there may be fewer future buyers for homes at this level.",
+            "title": "Mansions"
+          },
+          {
+            "text": "Ready properties can be inspected directly; off-plan adds handover and completion risk to a large cash purchase.",
+            "title": "Ready vs off-plan"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "A large cash purchase still needs recurring costs, ownership structure and future resale considered; paying in cash is not a reason to move faster.",
+          "title": "Cash buyers still need full due diligence",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Al Marjan Island, compare the specific home, privacy, how distinctive it really is, ownership details and resale prospects before committing.",
+          "title": "Inspect the property before committing",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "An exceptional property may have fewer future buyers, so recurring costs, how rare the home really is and eventual resale should be reviewed together.",
+          "title": "Prestige can hide a narrow resale market",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in Al Marjan Island using property quality, privacy, recurring costs, ownership details and resale considerations.",
+          "title": "Compare ultra-prime options beyond prestige",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Al Marjan Island, the main risks are moving too quickly because cash is available, paying mainly for prestige, overlooking ownership or recurring costs, or buying an exceptional property that may appeal to only a small number of future buyers.",
+        "tags": [
+          "Property quality",
+          "Privacy",
+          "Ownership",
+          "Ongoing costs",
+          "Resale"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Define the property quality, privacy and long-term use the buyer expects before allowing a cash position to accelerate the purchase.",
+            "title": "Set the criteria before moving quickly"
+          },
+          {
+            "text": "Keep ownership structure, charges and other ongoing costs visible even when financing is not part of the transaction.",
+            "title": "Review ownership and recurring commitments"
+          },
+          {
+            "text": "In Al Marjan Island, assess the home itself, privacy, layout, how distinctive it really is and the details that may matter to another buyer later.",
+            "title": "Inspect the specific property carefully"
+          },
+          {
+            "text": "Consider the size of the future buyer pool and a realistic holding period before committing a large amount of capital to a highly specialised property.",
+            "title": "Plan the eventual exit"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/costa-mare/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Costa Mare"
+          },
+          {
+            "href": "/en/projects/moonstone-residences-interiors/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "Moonstone Residences Interiors"
+          },
+          {
+            "href": "/en/projects/playa-del-sol/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Playa Del Sol"
+          },
+          {
+            "href": "/en/projects/playa-del-sol-phase-2/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Playa Del Sol Phase 2"
+          },
+          {
+            "href": "/en/projects/w-hotel-residences/",
+            "meta": "Dalands · Al Marjan Island",
+            "label": "W Hotel & Residences"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "A cash purchase still needs a wider ownership budget. Purchase costs, recurring commitments and any professional or property-related expenses should remain visible, with enough liquidity retained so speed of execution does not become the reason to overcommit capital.",
+        "tags": [
+          "Purchase price",
+          "Purchase costs",
+          "Ownership costs",
+          "Professional costs",
+          "Cash reserve"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/luxury-villa-buyer-in-al-marjan-island/",
+          "label": "Luxury Villa Buyer in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/luxury-sea-view-buyer-aed-10m-plus-in-al-marjan-island/",
+          "label": "Luxury Sea View Buyer AED 10M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Branded Residence Buyer AED 3M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Capital Preservation Buyer AED 3M+ in Al Marjan Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For an ultra-prime cash purchase in Al Marjan Island, speed should come after asset quality and due diligence. The specific property, ownership documents, recurring costs and resale flexibility deserve the same scrutiny.",
+          "question": "What should an ultra-prime cash buyer focus on in Al Marjan Island?"
+        },
+        {
+          "answer": "This scenario suits cash buyers in Al Marjan Island who can execute without financing but still want the acquisition judged on property quality, legal clarity and long-term flexibility rather than speed.",
+          "question": "Who may prefer an ultra-prime cash purchase in Al Marjan Island?"
+        },
+        {
+          "answer": "Verify ownership and transaction documents, the specific unit or villa, current charges, condition or delivery position and any material contractual terms before committing cash in Al Marjan Island.",
+          "question": "What should I verify before committing a large cash amount to a property in Al Marjan Island?"
+        },
+        {
+          "answer": "Separate the AED 10M+ purchase amount from transaction costs, fit-out or furnishing and ongoing ownership expenses in Al Marjan Island so liquidity remains visible after completion.",
+          "question": "How should an ultra-prime cash buyer think about the wider ownership budget in Al Marjan Island?"
+        },
+        {
+          "answer": "The main risk in Al Marjan Island is allowing cash certainty to accelerate a weak decision. Overpaying, incomplete due diligence or high recurring commitments can matter long after the fast execution.",
+          "question": "What are the main risks for an ultra-prime cash buyer in Al Marjan Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For an ultra-prime cash purchase in Al Marjan Island, speed should not replace property-level due diligence. Ownership details, the specific asset, recurring commitments and the premium being paid should all be checked before a large amount of capital is committed.",
+      "items": [
+        {
+          "label": "Ownership details",
+          "value": "Verify the transaction"
+        },
+        {
+          "label": "Specific property",
+          "value": "Inspect the actual asset"
+        },
+        {
+          "label": "Ongoing costs",
+          "value": "Confirm current charges"
+        },
+        {
+          "label": "Property premium",
+          "value": "Assess before commitment"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Use the advantage of a cash position in Al Marjan Island without rushing the asset decision. Compare the specific property, ownership details, recurring commitments and future flexibility before committing a large amount of capital.",
+      "title": "Ready to compare an ultra-prime cash purchase properly?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your asset criteria, timing and ownership priorities for a cash purchase while comparing ultra-prime options around Al Marjan Island. This gives the advisor useful context before the conversation.",
+      "title": "Check your ultra-prime cash purchase",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare ultra-prime properties for a cash purchase",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare ultra-prime options in Al Marjan Island through the specific asset, ownership details, recurring commitments and future flexibility—not execution speed alone.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Use cash speed without compromising asset quality",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

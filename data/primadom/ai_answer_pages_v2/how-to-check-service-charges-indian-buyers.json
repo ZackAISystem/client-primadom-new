@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-service-charges__context__indian-buyers__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-service-charges-indian-buyers/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-service-charges-indian-buyers/",
+  "canonical_group_key": "ai_answer:how-to-check-service-charges:context:indian-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-service-charges",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-service-charges-indian-buyers/",
+          "label": "How should I check service charges? — Indian Buyers",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Indian Buyers",
+        "Cost check",
+        "Total cost",
+        "Cost inputs",
+        "Compare terms"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check service charges? — Indian Buyers",
+      "subtitle": "Review service-charge levels and cost impact for Indian buyers, including the main cost drivers, cost inputs and trade-offs to compare.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check service charges? — Indian Buyers",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Explain what service charges should cover before I decide",
+        "Show which charge details need current confirmation for Indian buyers",
+        "Compare annual charges with expected ownership costs before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me review service charges for Indian buyers",
+      "placeholder": "Help me review service charges for Indian buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Service charge check",
+        "Indian buyers",
+        "Ownership costs",
+        "Building costs",
+        "Verification"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Service charges should be checked because they directly affect the ongoing ownership cost.</strong> For Indian buyers, compare what the charges cover, how they are calculated, the building or community standard and material differences between alternatives. Use current project or building documents for the final figure rather than relying on a broad market assumption.",
+      "body_text": "Service charges should be checked because they directly affect the ongoing ownership cost. For Indian buyers, compare what the charges cover, how they are calculated, the building or community standard and material differences between alternatives. Use current project or building documents for the final figure rather than relying on a broad market assumption.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check service charges? — Indian Buyers"
+        },
+        {
+          "label": "Context",
+          "value": "Indian Buyers"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Material ownership-cost factor"
+        },
+        {
+          "label": "Main checks",
+          "value": "Ownership costs · Building costs · Verification"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Underestimated ongoing ownership costs"
+        },
+        {
+          "label": "Best next step",
+          "value": "Check current building charges"
+        },
+        {
+          "label": "Verification",
+          "value": "Current project check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Service Charges",
+      "market": "UAE",
+      "context": "Indian Buyers",
+      "eyebrow": "Key facts",
+      "question": "How to check service charges for Indian Buyers?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "You are relying on an old listing, sales message or broad market assumption instead of current project information.",
+            "title": "The figure is only an estimate"
+          },
+          {
+            "text": "Ongoing fees materially reduce affordability, rental economics or the value case once they are included.",
+            "title": "The charge weakens the economics"
+          },
+          {
+            "text": "Similar properties provide comparable quality or amenities with a meaningfully lower recurring ownership cost.",
+            "title": "Comparable options cost less to hold"
+          },
+          {
+            "text": "For Indian buyers, revisit the service-charge check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "You have a current figure and understand what the charge covers before comparing the property.",
+            "title": "The charge is known upfront"
+          },
+          {
+            "text": "Service charges remain reasonable when combined with financing, maintenance and other recurring ownership costs.",
+            "title": "The total ownership cost still works"
+          },
+          {
+            "text": "The building or community standard provides enough value to support the ongoing charge.",
+            "title": "The service level justifies the cost"
+          },
+          {
+            "text": "For Indian buyers, the service-charge check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For Indian buyers, compare what the charges cover, how they are calculated, the building or community standard and material differences between alternatives.",
+          "title": "Ownership costs · Building costs · Verification",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the figure is only an estimate, the charge weakens the economics, or comparable options cost less to hold.",
+          "title": "Charge verification",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Use current project or building documents for the final figure rather than relying on a broad market assumption.",
+          "title": "Check current building charges",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the figure is only an estimate, the charge weakens the economics, or comparable options cost less to hold. For Indian buyers, use current project or building documents for the final figure rather than relying on a broad market assumption.",
+        "tags": [
+          "Charge level",
+          "Billing scope",
+          "Cost burden",
+          "Future increases",
+          "Charge verification"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For Indian buyers, confirm the latest service-charge basis, billing period and which parts of the property or community the charge actually covers.",
+            "title": "Confirm the latest charge basis"
+          },
+          {
+            "text": "Break out service charges, cooling, utilities, management and other recurring costs instead of treating one headline figure as the full annual burden.",
+            "title": "Separate recurring property costs"
+          },
+          {
+            "text": "Model the recurring cost against unit size, intended use and comparable properties to judge whether the ongoing expense is proportionate.",
+            "title": "Compare cost with actual use"
+          },
+          {
+            "text": "Check community maturity, new facilities, maintenance scope and other factors that could change recurring charges after the purchase.",
+            "title": "Review future cost drivers"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-compare-total-cost-indian-buyers/",
+          "label": "How should I compare total cost?"
+        },
+        {
+          "href": "/en/ai-answers/what-affects-final-price-indian-buyers/",
+          "label": "What affects the final price?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-avoid-overpaying-indian-buyers/",
+          "label": "How can I avoid overpaying?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-low-entry-price-indian-buyers/",
+          "label": "How should I check a low entry price?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-good-entry-price-indian-buyers/",
+          "label": "What is a good entry price?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Service charges should be checked because they directly affect the ongoing ownership cost. For Indian buyers, confirm the latest service-charge basis, billing period and which parts of the property or community the charge actually covers.",
+          "question": "How do I verify service charges?"
+        },
+        {
+          "answer": "Total cost is broader than the advertised property price. Include registration, agency, trustee, developer, valuation and other applicable transaction expenses rather than using one fee as the total.",
+          "question": "How do I compare total cost?"
+        },
+        {
+          "answer": "The final purchase price can differ materially from the advertised property price. Where financing is relevant, add lender fees, valuation, insurance and the cash impact created by the financing structure.",
+          "question": "What can affect the final purchase price?"
+        },
+        {
+          "answer": "Avoiding overpayment starts with comparing the property against credible alternatives. Identify whether a cheaper option gives up location quality, layout, delivery certainty, demand or another feature that matters to the buyer.",
+          "question": "How do I avoid overpaying?"
+        },
+        {
+          "answer": "A low entry price is useful only when the reason for the discount is understood. A lower price is offset by weaker location, layout, quality, service costs or resale depth. Protect the overall buying case rather than stretching to a headline price, discount or low initial payment.",
+          "question": "How should I assess a low entry price?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Fees, service charges, tax treatment and transaction costs can depend on the jurisdiction, property and transaction structure. Use this page as decision guidance, then recheck the applicable authority information and current transaction documents before relying on exact amounts or requirements.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Indian Buyers · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Ownership costs · Building costs · Verification"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Official service-charge information · property documents"
+        },
+        {
+          "label": "Live check",
+          "value": "Current fees, charges and applicable requirements"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "fees_costs",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your UAE property purchase, including the purchase structure, relevant charges and authority-specific details that should be verified before you rely on the final cost.",
+      "title": "Want to check the real transaction costs?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your UAE property purchase, focusing on transaction charges, property-specific costs and the authority details that should be confirmed before you proceed.",
+      "title": "Check the transaction costs for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check the total transaction costs for my property purchase.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

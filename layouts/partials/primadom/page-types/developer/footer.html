@@ -1,0 +1,70 @@
+{{- $d := partial "primadom/page-types/developer/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $f := $t.footer -}}
+
+{{- $brand := $f.brand | default "Primadom AI" -}}
+{{- $brand = replace $brand " System" "" -}}
+
+{{- $primaryLabel := "Book a call" -}}
+{{- with $f.contact_primary }}{{- $primaryLabel = . -}}{{- end -}}
+
+{{- $secondaryLabel := "Ask AI" -}}
+{{- with $f.contact_secondary }}{{- $secondaryLabel = . -}}{{- end -}}
+
+{{- $chips := slice "Projects" "Areas" "Developers" "AI search" -}}
+{{- with $f.chips }}{{- $chips = . -}}{{- end -}}
+
+{{- $social := slice
+  (dict "label" "IG" "href" "#")
+  (dict "label" "IN" "href" "#")
+-}}
+{{- with $f.social }}{{- $social = . -}}{{- end -}}
+
+<footer class="site-footer">
+  <span class="site-footer__glow site-footer__glow--left"></span>
+  <span class="site-footer__glow site-footer__glow--right"></span>
+
+  <div class="site-footer__inner">
+    <div class="site-footer__left">
+      <a class="site-footer__brand" href="{{ with $f.brand_url }}{{ . | relURL }}{{ else }}{{ "/" | relLangURL }}{{ end }}" aria-label="{{ $brand }}">
+        <span class="site-footer__brand-dot"></span>
+        <span class="site-footer__brand-copy">
+          <span class="site-footer__brand-title">{{ $brand }}</span>
+        </span>
+      </a>
+
+      <div class="site-footer__statement">
+        <h2>{{ $f.title }}</h2>
+        <p>{{ $f.text }}</p>
+
+        <div class="site-footer__chips">
+          {{- range $chips }}
+            <span>{{ . }}</span>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer__right">
+      <div class="site-footer__contacts">
+        <a class="footer-pill" data-open-developer-lead data-open-project-lead href="#pd-modal">
+          {{ $primaryLabel }}
+        </a>
+        <a class="footer-pill" href="#ask-ai">
+          {{ $secondaryLabel }}
+        </a>
+      </div>
+
+      <div class="site-footer__social" aria-label="Social links">
+        {{- range $social }}
+          <a class="footer-social" href="{{ .href }}" aria-label="{{ .label }}">{{ .label }}</a>
+        {{- end }}
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="site-footer__copyright">{{ $f.copyright }}</div>
+      <div class="site-footer__address">{{ $f.address }}</div>
+    </div>
+  </div>
+</footer>

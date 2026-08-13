@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_al_danah_residential_tower_vs_danah_bay_en",
+  "page_type_id": "project_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-projects/al-danah-residential-tower-vs-danah-bay/",
+  "canonical_url_path": "/en/compare-projects/al-danah-residential-tower-vs-danah-bay/",
+  "canonical_group_key": "project_comparison:al-danah-residential-tower:vs:danah-bay",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "al-danah-residential-tower",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Compare"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Project comparison navigation",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/en/compare-projects/",
+          "label": "Project Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-projects/al-danah-residential-tower-vs-danah-bay/",
+          "label": "Al Danah Residential Tower vs Danah Bay",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Project A: Al Danah Residential Tower",
+        "Project B: Danah Bay",
+        "Al Marjan Island comparison",
+        "AED 2M vs AED 2.7M",
+        "Entry price and handover"
+      ],
+      "title": "Al Danah Residential Tower vs Danah Bay",
+      "subtitle": "Compare apartment and townhouse formats in Al Marjan Island through entry points of AED 2M and AED 2.7M and 2027 and 2024 handover timelines.",
+      "project_a": {
+        "name": "Al Danah Residential Tower",
+        "slug": "al-danah-residential-tower",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Danah Bay",
+        "slug": "danah-bay",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Key context for Al Danah Residential Tower and Danah Bay",
+      "section_id": "overview",
+      "visual_aria": "Comparison hero for Al Danah Residential Tower and Danah Bay",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Ask about price, unit mix, handover or buyer fit.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Al Danah Tower or Danah Bay — which fits?",
+        "Compare price, units and handover",
+        "What should I verify before choosing?"
+      ],
+      "title": "Compare Al Danah Residential Tower and Danah Bay",
+      "ai_aria": "Ask Primadom AI to compare Al Danah Residential Tower and Danah Bay",
+      "eyebrow": "Ask AI",
+      "prompts": [
+        "Compare Al Danah Residential Tower and Danah Bay for my buying goal. Review the available price context, property types, bedroom range and handover, and clearly flag anything that requires a live check.",
+        "Compare Al Danah Residential Tower and Danah Bay by starting-price context, unit types, bedroom range and planned handover. Clearly identify missing or unverified information.",
+        "What should a buyer verify before choosing between Al Danah Residential Tower and Danah Bay? Cover current pricing, availability, payment terms, handover status and suitability for the buyer goal."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "input_aria": "Project comparison AI question",
+      "section_id": "compare-ai-search",
+      "voice_text": "Ask about this project comparison",
+      "placeholder": "Ask AI to compare these two projects",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "button_label": "Ask",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Compare Al Danah Residential Tower and Danah Bay for my buying goal",
+      "ai_placeholder": "Ask AI to compare these two projects",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI to compare Al Danah Residential Tower and Danah Bay",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Same district",
+        "Same developer",
+        "AED 2M vs AED 2.7M",
+        "2027 vs 2024 handover"
+      ],
+      "title": "Quick recommendation",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Al Danah Residential Tower</strong> may suit buyers prioritising the lower recorded entry price, while <strong>Danah Bay</strong> may suit those focused on the earlier recorded handover. <strong>Al Danah Residential Tower</strong> offers apartments, penthouses, 1–4-bedroom homes, from AED 2M, handover 2027, while <strong>Danah Bay</strong> offers townhouses, villas, studios to 4-bedroom homes, from AED 2.7M, handover 2024.",
+      "body_text": "Al Danah Residential Tower may suit buyers prioritising the lower recorded entry price, while Danah Bay may suit those focused on the earlier recorded handover. Al Danah Residential Tower offers apartments, penthouses, 1–4-bedroom homes, from AED 2M, handover 2027, while Danah Bay offers townhouses, villas, studios to 4-bedroom homes, from AED 2.7M, handover 2024.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Project A",
+          "value": "Al Danah Residential Tower"
+        },
+        {
+          "label": "Project B",
+          "value": "Danah Bay"
+        },
+        {
+          "label": "Area context",
+          "value": "Both in Al Marjan Island"
+        },
+        {
+          "label": "Developer context",
+          "value": "Both by Dubai Investment Properties"
+        },
+        {
+          "label": "Starting price",
+          "value": "AED 2M vs AED 2.7M"
+        },
+        {
+          "label": "Property types",
+          "value": "Apartment · Penthouse vs Townhouse · Villa"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "1–4 BR vs Studios–4 BR"
+        },
+        {
+          "label": "Handover",
+          "value": "2027 vs 2024"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Al Danah Residential Tower",
+          "slug": "al-danah-residential-tower",
+          "text": "Al Danah Residential Tower is positioned around waterfront-oriented living in Al Marjan Island by Dubai Investment Properties, with a recorded mix of Apartment · Penthouse across 1–4 BR and a recorded starting price from AED 2M and handover in 2027. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Al Marjan Island · By Dubai Investment Properties",
+            "Apartment · Penthouse · 1–4 BR",
+            "From AED 2M · Handover 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Danah Bay",
+          "slug": "danah-bay",
+          "text": "Danah Bay is positioned around waterfront-oriented living in Al Marjan Island by Dubai Investment Properties, with a recorded mix of Townhouse · Villa across Studios–4 BR and a recorded starting price from AED 2.7M and handover in 2024. Its current buyer-fit profile points to buyers looking for a family-oriented home.",
+          "points": [
+            "Al Marjan Island · By Dubai Investment Properties",
+            "Townhouse · Villa · Studios–4 BR",
+            "From AED 2.7M · Handover 2024"
+          ]
+        }
+      ],
+      "title": "Project summaries",
+      "eyebrow": "At a glance",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Both projects are in Al Marjan Island, so location is not the main separator. Both come from Dubai Investment Properties, making unit mix, price and handover the stronger separators. Recorded entry prices are AED 2M for Al Danah Residential Tower and AED 2.7M for Danah Bay. Recorded handover timing is 2027 versus 2024.",
+        "tags": [
+          "Same district",
+          "Same developer",
+          "Recorded price gap",
+          "Different property mix",
+          "Live availability"
+        ],
+        "title": "Project-level logic",
+        "eyebrow": "How to compare"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Al Danah Residential Tower",
+        "project_b": "Danah Bay"
+      },
+      "rows": [
+        {
+          "factor": "Starting price",
+          "project_a": "From AED 2M",
+          "project_b": "From AED 2.7M"
+        },
+        {
+          "factor": "Location",
+          "project_a": "Al Marjan Island",
+          "project_b": "Al Marjan Island"
+        },
+        {
+          "factor": "Developer",
+          "project_a": "Dubai Investment Properties",
+          "project_b": "Dubai Investment Properties"
+        },
+        {
+          "factor": "Property types",
+          "project_a": "Apartment · Penthouse",
+          "project_b": "Townhouse · Villa"
+        },
+        {
+          "factor": "Bedrooms",
+          "project_a": "1–4 BR",
+          "project_b": "Studios–4 BR"
+        },
+        {
+          "factor": "Handover",
+          "project_a": "2027",
+          "project_b": "2024"
+        },
+        {
+          "factor": "Project profile",
+          "project_a": "Waterfront-oriented",
+          "project_b": "Waterfront-oriented"
+        }
+      ],
+      "title": "Project comparison table",
+      "eyebrow": "Al Danah Residential Tower vs Danah Bay",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Recorded starting prices are AED 2M for Al Danah Residential Tower and AED 2.7M for Danah Bay. Compare the same unit type, size and total cost before judging value.",
+          "title": "The entry-price gap matters",
+          "eyebrow": "Price & units",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Both projects are in Al Marjan Island. Compare access, building or plot position, nearby supply and daily-use convenience.",
+          "title": "Same district, compare micro-position",
+          "eyebrow": "Location fit",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Recorded handover is 2027 for Al Danah Residential Tower and 2024 for Danah Bay. Compare how each timeline fits your planned move-in or investment use.",
+          "title": "Different handovers change the choice",
+          "eyebrow": "Timeline",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Ask Primadom AI to compare Al Danah Residential Tower and Danah Bay by unit type, recorded price, location, handover and intended use, then prepare the main questions for an advisor.",
+          "title": "Compare by your goal",
+          "eyebrow": "Ask AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Project decision notes"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Who should choose each project",
+        "eyebrow": "Buyer fit",
+        "project_a_items": [
+          "Its recorded starting point of AED 2M is lower in this pair, subject to a like-for-like unit check.",
+          "You prefer its waterfront-oriented setting in Al Marjan Island for your intended use.",
+          "You want Apartments · Penthouses across 1–4 BR and a recorded 2027 handover."
+        ],
+        "project_a_title": "Choose Al Danah Residential Tower if",
+        "project_b_items": [
+          "You are comfortable with its higher recorded starting point of AED 2.7M after checking the exact unit and total cost.",
+          "You prefer its waterfront-oriented setting in Al Marjan Island for your intended use.",
+          "You want Townhouses · Villas across Studios–4 BR and a recorded 2024 handover."
+        ],
+        "project_b_title": "Choose Danah Bay if"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Recorded starting prices are AED 2M for Al Danah Residential Tower and AED 2.7M for Danah Bay. Both projects are in Al Marjan Island, so location is less likely to be the main separator. Al Danah Residential Tower records Apartments · Penthouses, while Danah Bay records Townhouses · Villas. Recorded handover is 2027 for Al Danah Residential Tower and 2024 for Danah Bay.",
+        "tags": [
+          "Recorded price gap",
+          "Same district",
+          "Recorded unit mix",
+          "Handover gap",
+          "Total cost check"
+        ],
+        "title": "Investment logic",
+        "eyebrow": "Decision layer"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/en/compare-projects/address-residences-al-marjan-island-vs-al-danah-residential-tower/",
+            "meta": "Shared project",
+            "label": "Address Residences Al Marjan Island vs Al Danah Residential Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/address-residences-al-marjan-island-vs-danah-bay/",
+            "meta": "Shared project",
+            "label": "Address Residences Al Marjan Island vs Danah Bay",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/al-danah-residential-tower-vs-ambrosia/",
+            "meta": "Shared project",
+            "label": "Al Danah Residential Tower vs Ambrosia",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/al-danah-residential-tower-vs-aqua-arc/",
+            "meta": "Shared project",
+            "label": "Al Danah Residential Tower vs Aqua Arc",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "More project comparisons",
+        "eyebrow": "Explore next"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/en/projects/al-danah-residential-tower/",
+            "meta": "Project A",
+            "label": "Al Danah Residential Tower project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/projects/danah-bay/",
+            "meta": "Project B",
+            "label": "Danah Bay project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/areas/al-marjan/",
+            "meta": "Area",
+            "label": "Al Marjan Island area guide",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/developers/dubai-investment-properties/",
+            "meta": "Developer",
+            "label": "Dubai Investment Properties developer page",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Open the project pages",
+        "eyebrow": "Project routes"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Share these details to compare Al Danah Residential Tower and Danah Bay against the same priorities. Recorded project information can narrow the choice, while exact units, current prices and availability still need a live check.",
+      "items": [
+        {
+          "meta": "AED range or maximum entry point",
+          "label": "Price range"
+        },
+        {
+          "meta": "Apartments / Penthouses / Townhouses / Villas",
+          "label": "Unit type"
+        },
+        {
+          "meta": "home / second home / waterfront investment",
+          "label": "Buyer goal"
+        },
+        {
+          "meta": "current status vs 2027 timing",
+          "label": "Timeline"
+        },
+        {
+          "meta": "view / privacy / waterfront access",
+          "label": "Key preference"
+        }
+      ],
+      "title": "AI compare inputs",
+      "eyebrow": "Useful details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "There is no universal winner in this comparison. Al Danah Residential Tower has the lower recorded starting point. Al Danah Residential Tower records Apartment / Penthouse, while Danah Bay records Townhouse / Villa. Recorded handover is 2027 for Al Danah Residential Tower and 2024 for Danah Bay; the current status of any past-dated project should be confirmed. The better fit depends on your intended use and the exact unit available at the time of comparison.",
+          "question": "Which project may suit me better: Al Danah Residential Tower or Danah Bay?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Al Danah Residential Tower has the lower recorded starting price at AED 2M, compared with AED 2.7M for Danah Bay. Compare the same unit type, size and current terms before treating the difference as like-for-like.",
+          "question": "Which project has the lower recorded starting price?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Al Danah Residential Tower and Danah Bay are both in Al Marjan Island and are linked to Dubai Investment Properties. Because the area and developer are the same, compare the exact unit, layout, recorded starting price and handover timing rather than relying on the project names alone.",
+          "question": "How do Al Danah Residential Tower and Danah Bay differ by location and developer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Al Danah Residential Tower records Apartment / Penthouse, including 1–4-bedroom homes. Al Danah Residential Tower records handover for 2027. Danah Bay records Townhouse / Villa, including studios to 4-bedroom homes. Danah Bay has 2024 recorded as its handover year, so its current status should be confirmed.",
+          "question": "What property types, bedroom ranges and handover years are recorded?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Before deciding between Al Danah Residential Tower and Danah Bay, confirm the exact unit, current price, payment terms, total acquisition cost, floor, layout, view, current project status, handover and availability. Recorded project-level figures are useful for shortlisting, but they do not replace a live unit-level check.",
+          "question": "What should I verify before choosing between Al Danah Residential Tower and Danah Bay?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Project questions",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Use this page as a starting point for comparing Al Danah Residential Tower and Danah Bay. Recorded details may change and do not replace current developer documents or public records. Confirm live prices, available units, payment terms, floor plans, service charges, handover details and project status before making a decision.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Payment terms",
+          "value": "Check current documents"
+        },
+        {
+          "label": "Handover / status",
+          "value": "Confirm current status"
+        },
+        {
+          "label": "Content updated",
+          "value": "July 2026"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Both projects are in Al Marjan Island and are linked to Dubai Investment Properties. Al Danah Residential Tower has the lower recorded starting price at AED 2M versus AED 2.7M. Recorded handovers are 2027 and 2024; confirm any past-dated status.",
+      "title": "Want Al Danah Residential Tower and Danah Bay compared for your case?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Project comparison enquiry form",
+      "text": "Share your preferences and contact details. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "error": "Please try again",
+      "title": "Compare Al Danah Residential Tower and Danah Bay for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+      "eyebrow": "AI compare handoff",
+      "success": "Request sent",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Close",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971",
+        "comment": "Add any useful details"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_al_danah_residential_tower_vs_danah_bay_en",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Al Danah Residential Tower",
+        "project_a_slug": "al-danah-residential-tower",
+        "project_b_name": "Danah Bay",
+        "project_b_slug": "danah-bay",
+        "canonical_url_path": "/en/compare-projects/al-danah-residential-tower-vs-danah-bay/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Send",
+        "error": "Please try again",
+        "success": "Request sent",
+        "submitting": "Sending…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Prepared request",
+        "value": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI helps buyers compare projects, locations, developers and key decision factors before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Project comparison, connected to real buyer intent",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

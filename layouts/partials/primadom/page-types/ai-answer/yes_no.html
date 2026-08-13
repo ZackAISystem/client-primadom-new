@@ -1,0 +1,17 @@
+{{- $d := partial "primadom/page-types/ai-answer/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="aa-grid-2 aa-grid-2--reverse">
+  <article class="aa-card">
+    <div class="aa-card__head"><h2>{{ $t.when_yes.title }}</h2><span>{{ $t.when_yes.eyebrow }}</span></div>
+    <div class="aa-card__body aa-option-list">
+      {{ range $t.when_yes.items }}<div class="aa-option"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>{{ end }}
+    </div>
+  </article>
+
+  <article class="aa-card">
+    <div class="aa-card__head"><h2>{{ $t.when_no.title }}</h2><span>{{ $t.when_no.eyebrow }}</span></div>
+    <div class="aa-card__body aa-option-list">
+      {{ range $t.when_no.items }}<div class="aa-option"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>{{ end }}
+    </div>
+  </article>
+</div>

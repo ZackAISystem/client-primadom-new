@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_branded_residence_buyer_maryam_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-maryam-island/",
+  "canonical_url_path": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-maryam-island/",
+  "canonical_group_key": "scenario_district:branded_residence_buyer:maryam-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "maryam-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/maryam-island/",
+          "label": "Maryam Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-maryam-island/",
+          "label": "Branded Residence Buyer AED 3M+ in Maryam Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Branded residence",
+        "Maryam Island",
+        "Branded residences · Apartments",
+        "AED 3M+",
+        "Brand · fees · resale"
+      ],
+      "image": {
+        "alt": "Branded Residence Buyer AED 3M+ in Maryam Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Branded Residence Buyer AED 3M+ in Maryam Island",
+      "subtitle": "A branded-residence brief in Maryam Island turns on brand proposition, service model, location, fees and resale considerations.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Branded Residence Buyer AED 3M+ in Maryam Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare branded-residence options in Maryam Island",
+        "Check brand, fees and service model",
+        "Compare resale considerations before shortlisting"
+      ],
+      "ai_aria": "Ask Primadom AI about Branded Residence Buyer AED 3M+ in Maryam Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare branded-residence options in Maryam Island",
+      "placeholder": "Compare branded-residence options in Maryam Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Branded residences",
+        "Maryam Island",
+        "AED 3M+",
+        "Brand · fees · resale",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a branded-residence purchase above AED 3M in Maryam Island</strong>, compare the brand proposition with the service model, ongoing fees, unit characteristics and resale considerations. The name alone should not replace a full assessment of the property and ownership costs.",
+      "body_text": "For a branded-residence purchase above AED 3M in Maryam Island, compare the brand proposition with the service model, ongoing fees, unit characteristics and resale considerations. The name alone should not replace a full assessment of the property and ownership costs.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Branded Residence Buyer AED 3M+"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Branded residence"
+        },
+        {
+          "label": "Location",
+          "value": "Maryam Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Branded residences · Apartments"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 3M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Brand · fees · resale"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Luxury comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare service model"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers treating the brand alone as proof of value",
+          "Buyers unwilling to compare service charges and ownership costs",
+          "Buyers who do not value the service, design or positioning that creates the premium"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers considering a branded residence in Maryam Island for its lifestyle, service or ownership experience",
+          "Buyers comparing the brand premium with service standards and ongoing costs",
+          "Buyers who want the home assessed on its own merits as well as the name attached to it"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Maryam Island, separate the value of the home from the value of the brand. Compare the residence itself, service level, recurring costs, location and likely resale demand before deciding whether the premium is worthwhile for the way the buyer plans to use it.",
+        "tags": [
+          "Brand premium",
+          "Service model",
+          "Ongoing costs",
+          "Location",
+          "Resale demand"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "For branded residences in Maryam Island, consider what the location adds to the way the home will be used; the address alone does not justify the brand premium.",
+            "title": "Maryam Island"
+          },
+          {
+            "text": "Compare areas where the location, service model and likely resale demand make sense without relying on the brand name alone.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "Check whether the location genuinely improves everyday use, access or resale appeal rather than simply making the residence feel more exclusive.",
+            "title": "Location premium"
+          },
+          {
+            "text": "Keep the residence, location and recurring costs in the same comparison before deciding whether the brand premium is worthwhile.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Compare the service model, recurring charges and what the brand adds to day-to-day ownership.",
+            "title": "Branded residences"
+          },
+          {
+            "text": "Useful for comparing how much of the price difference comes from branding rather than the home itself.",
+            "title": "Conventional apartments"
+          },
+          {
+            "text": "Ready branded homes let the buyer inspect the finished residence, service environment and actual standard before committing.",
+            "title": "Ready branded homes"
+          },
+          {
+            "text": "Off-plan branded homes can have a different payment schedule, but handover timing and the finished residence still need careful review.",
+            "title": "Off-plan branded homes"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "At this budget level, compare the residence itself, recurring charges and service model before deciding how much value the brand adds.",
+          "title": "Separate the home from the brand premium",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Maryam Island, compare the home, location and services first, then decide whether the branded element improves the buyer's intended use enough to justify the extra cost.",
+          "title": "Test the premium against actual use",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "Service charges, management standards and resale demand still matter even when the residence carries a recognised hospitality or lifestyle brand.",
+          "title": "Branding does not remove ownership costs",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare branded and non-branded options in Maryam Island by purchase cost, recurring charges, service level and resale considerations.",
+          "title": "Compare the premium, not just the name",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Maryam Island, the main risks are paying mainly for the brand name, overlooking recurring charges, assuming service quality will match expectations, or treating future resale demand as automatic because the residence is branded.",
+        "tags": [
+          "Brand premium",
+          "Service charges",
+          "Management",
+          "Finished quality",
+          "Resale demand"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Assess the home, layout and location first so the brand premium is judged against something the buyer would actually value without the name.",
+            "title": "Separate the residence from the brand"
+          },
+          {
+            "text": "Compare service charges, management arrangements and other recurring costs before deciding whether the branded service model is worthwhile.",
+            "title": "Read the recurring ownership costs"
+          },
+          {
+            "text": "In Maryam Island, assess how the location supports the intended use of the residence rather than assuming the brand makes every address equally strong.",
+            "title": "Check what the location adds"
+          },
+          {
+            "text": "For ready homes, inspect the residence and service environment; for off-plan, keep handover timing and uncertainty about the finished home in the decision.",
+            "title": "Inspect the finished residence where possible"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/citrine-residence/",
+            "meta": "Eagle Hills · Maryam Island",
+            "label": "Citrine Residence"
+          },
+          {
+            "href": "/en/projects/oud-residences/",
+            "meta": "Eagle Hills · Maryam Island",
+            "label": "Oud Residences"
+          },
+          {
+            "href": "/en/projects/sahab-residences/",
+            "meta": "Eagle Hills · Maryam Island",
+            "label": "Sahab Residences"
+          },
+          {
+            "href": "/en/projects/crystal-residences/",
+            "meta": "Eagle Hills · Maryam Island",
+            "label": "Crystal Residences"
+          },
+          {
+            "href": "/en/projects/topaz-residences/",
+            "meta": "Eagle Hills · Maryam Island",
+            "label": "Topaz Residences"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Budget for the residence itself and for the ownership model around it. Service charges, furnishing, management-related costs and the brand premium should stay visible so the buyer can judge the whole commitment rather than the purchase price alone.",
+        "tags": [
+          "Purchase price",
+          "Brand premium",
+          "Service charges",
+          "Furnishing",
+          "Cash buffer"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-maryam-island/",
+          "label": "Ultra-Prime Cash Buyer AED 10M+ in Maryam Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-maryam-island/",
+          "label": "Capital Preservation Buyer AED 3M+ in Maryam Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/second-home-buyer-in-maryam-island/",
+          "label": "Second Home Buyer in Maryam Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/golden-visa-property-buyer-in-maryam-island/",
+          "label": "Golden Visa Property Buyer in Maryam Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Treat the brand as one part of the decision in Maryam Island. The actual residence, service offer, recurring charges, location and resale flexibility still need to justify the premium.",
+          "question": "What should I assess before paying a branded-residence premium in Maryam Island?"
+        },
+        {
+          "answer": "A branded residence in Maryam Island may suit a buyer who values managed services, a defined design standard and the brand experience enough to accept the related ownership costs.",
+          "question": "Who is likely to value a branded residence in Maryam Island?"
+        },
+        {
+          "answer": "Verify the unit specification, current service offering, management arrangement, recurring charges and project terms in Maryam Island before assigning value to the brand premium.",
+          "question": "What should I verify about a branded residence and its location in Maryam Island?"
+        },
+        {
+          "answer": "For a branded purchase in Maryam Island, budget beyond the purchase price for transaction costs, furnishing or fit-out where relevant and the ongoing charges attached to the residence.",
+          "question": "How should I budget for a branded residence in Maryam Island?"
+        },
+        {
+          "answer": "The main risk in Maryam Island is paying for the name when the specific unit, service package, recurring costs or future buyer appeal do not support the same premium.",
+          "question": "What can make a branded-residence premium poor value in Maryam Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a branded residence in Maryam Island, verify what the premium actually includes before treating the name as part of the property value. Service arrangements, recurring charges, the specific home and its transaction terms should all be checked separately.",
+      "items": [
+        {
+          "label": "Brand premium",
+          "value": "Check what it includes"
+        },
+        {
+          "label": "Service model",
+          "value": "Confirm current details"
+        },
+        {
+          "label": "Recurring charges",
+          "value": "Verify current costs"
+        },
+        {
+          "label": "Specific residence",
+          "value": "Assess the actual home"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare the residence in Maryam Island on its own merits, then weigh the brand premium against service standards, recurring costs and the ownership experience. Primadom AI can help structure that comparison before you review options.",
+      "title": "Want to test whether the branded premium is worth it?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share what matters beyond the brand name, including service expectations, ownership costs and personal use, while comparing branded residence options in Maryam Island. This gives the advisor useful context before the conversation.",
+      "title": "Check whether a branded residence fits",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare branded residence value and trade-offs",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Look at branded residences in Maryam Island through service expectations, recurring ownership costs and the actual home—not the name alone.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Look beyond the branded name",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

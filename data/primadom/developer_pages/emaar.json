@@ -1,0 +1,448 @@
+{
+  "schema_version": "developer_page.v1",
+  "page_type": "developer_page",
+  "developer_slug": "emaar",
+  "developer_name": "Emaar",
+  "entity_type": "Developer",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/developer-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "schema": {
+    "knows_about": [
+      "Dubai real estate",
+      "off-plan projects",
+      "master communities",
+      "luxury residences"
+    ]
+  },
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Emaar Developer Page — Primadom AI",
+        "description": "AI-readable developer profile page for Emaar in Dubai with developer summary, project portfolio, buyer fit, investment profile, trust notes and FAQ.",
+        "canonical": "https://primadom.ai/en/developers/emaar/"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Book a call",
+        "cta_url": "#developerLeadModal",
+        "nav_aria": "Developer navigation",
+        "nav": [
+          {
+            "label": "Projects",
+            "href": "#portfolio",
+            "active": true
+          },
+          {
+            "label": "Districts",
+            "href": "#districts",
+            "active": false
+          },
+          {
+            "label": "Trust",
+            "href": "#trust",
+            "active": false
+          },
+          {
+            "label": "AI compare",
+            "href": "#developer-ai-search",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Emaar developer hero visual",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "UAE Developers",
+            "href": "/en/developers/"
+          },
+          {
+            "label": "Dubai Developers",
+            "href": "/en/developers/dubai/"
+          },
+          {
+            "label": "Emaar",
+            "href": "/en/developers/emaar/"
+          }
+        ],
+        "image": {
+          "src": "/img/primadom/developers/emaar-hero.svg",
+          "alt": "Dubai skyline and waterfront concept image for Emaar developer profile page"
+        },
+        "kicker": "Developer profile",
+        "title": "Emaar Developer Page",
+        "subtitle": "AI-readable developer profile for buyers checking Emaar projects, trust signals, district focus, project portfolio and alternatives before making an off-plan decision in Dubai.",
+        "facts_aria": "Developer hero facts",
+        "facts": [
+          "UAE developer",
+          "Dubai focus",
+          "Master communities",
+          "Off-plan + ready context",
+          "Trust layer page"
+        ],
+        "ai_aria": "Ask Primadom AI about Emaar projects",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Compare Emaar projects with Sobha or Omniyat for my budget",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "short_summary": {
+        "eyebrow": "AI-readable summary",
+        "title": "Developer summary",
+        "body_html": "<strong>Emaar</strong> is one of the most recognized Dubai real estate developers for buyers researching master communities, residential towers, villas and lifestyle-led districts. This page helps compare Emaar projects by area, price level, buyer fit, investment profile and trust checks.",
+        "body_text": "Emaar is one of the most recognized Dubai real estate developers for buyers researching master communities, residential towers, villas and lifestyle-led districts.",
+        "chips": [
+          "Developer page",
+          "Dubai projects",
+          "Master communities",
+          "Buyer trust",
+          "AI compare ready"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Developer details",
+        "items": [
+          {
+            "label": "Developer",
+            "value": "Emaar"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Segment",
+            "value": "Premium · master communities"
+          },
+          {
+            "label": "Project types",
+            "value": "Apartments · villas · townhouses"
+          },
+          {
+            "label": "Main districts",
+            "value": "Downtown · Dubai Hills · Emaar Beachfront"
+          },
+          {
+            "label": "Buyer intent",
+            "value": "Trust check · project comparison"
+          },
+          {
+            "label": "Page type",
+            "value": "UAE developer profile"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "buyer_fit": {
+        "eyebrow": "Who it suits",
+        "title": "Buyer fit",
+        "good_for_title": "Good fit for",
+        "good_for": [
+          "Buyers who want established developer recognition",
+          "Family buyers looking at master communities",
+          "Investors comparing Dubai’s larger developers"
+        ],
+        "less_for_title": "May not fit",
+        "less_for": [
+          "Buyers looking only for boutique ultra-luxury projects",
+          "Buyers who only want the lowest entry price",
+          "Investors who need purely short-term yield logic"
+        ]
+      },
+      "developer_logic": {
+        "eyebrow": "Market positioning",
+        "title": "Developer logic",
+        "body": "Emaar developer pages should act as a trust and decision layer. The page must help a buyer understand the developer’s segment, district focus, project portfolio, typical buyer fit and which current projects should be compared before sending a request.",
+        "tags": [
+          "Trust layer",
+          "Portfolio logic",
+          "District focus",
+          "Comparison intent"
+        ]
+      },
+      "decision_cards_aria": "Developer decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Investment profile",
+          "title": "Long-term brand recognition",
+          "text": "Useful for buyers who value established market presence and recognizable district/product logic."
+        },
+        {
+          "eyebrow": "Lifestyle profile",
+          "title": "Master-community living",
+          "text": "Relevant for families and end-users comparing communities, amenities and district maturity."
+        },
+        {
+          "eyebrow": "Check before buying",
+          "title": "Project-specific terms",
+          "text": "Compare price list, payment plan, handover, view, service charges and available alternatives."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Compare developer projects",
+          "text": "Primadom AI can compare Emaar with Sobha, Omniyat, Damac or Ellington by buyer goal.",
+          "dark": true
+        }
+      ],
+      "projects": {
+        "active_eyebrow": "Portfolio entry",
+        "active_title": "Active / relevant projects",
+        "active_items": [
+          {
+            "label": "Emaar Beachfront projects",
+            "meta": "waterfront",
+            "href": "/en/developers/emaar/emaar-beachfront/"
+          },
+          {
+            "label": "Dubai Hills Estate projects",
+            "meta": "family / villas",
+            "href": "/en/areas/dubai-hills-estate/"
+          },
+          {
+            "label": "Downtown Dubai projects",
+            "meta": "urban premium",
+            "href": "/en/areas/downtown-dubai/"
+          },
+          {
+            "label": "The Valley projects",
+            "meta": "family community",
+            "href": "/en/projects/the-valley/"
+          }
+        ],
+        "known_eyebrow": "Trust context",
+        "known_title": "Completed / known projects",
+        "known_items": [
+          {
+            "label": "Downtown Dubai",
+            "meta": "known master district"
+          },
+          {
+            "label": "Dubai Mall area",
+            "meta": "destination context"
+          },
+          {
+            "label": "Emaar Beachfront context",
+            "meta": "waterfront logic"
+          },
+          {
+            "label": "Dubai Hills Estate",
+            "meta": "community logic"
+          }
+        ]
+      },
+      "districts": {
+        "eyebrow": "Internal graph",
+        "title": "Main districts",
+        "items": [
+          {
+            "label": "Downtown Dubai",
+            "meta": "urban premium",
+            "href": "/en/areas/downtown-dubai/"
+          },
+          {
+            "label": "Dubai Hills Estate",
+            "meta": "family / villas",
+            "href": "/en/areas/dubai-hills-estate/"
+          },
+          {
+            "label": "Emaar Beachfront",
+            "meta": "waterfront",
+            "href": "/en/areas/emaar-beachfront/"
+          },
+          {
+            "label": "Dubai Creek Harbour",
+            "meta": "waterfront community",
+            "href": "/en/areas/dubai-creek-harbour/"
+          }
+        ]
+      },
+      "segment_profile": {
+        "eyebrow": "Developer fit",
+        "title": "Segment profile",
+        "body": "Emaar pages should connect developer trust with actual buyer scenarios: family relocation, long-term end-use, waterfront buying, Downtown lifestyle, villa communities and investment comparison across Dubai’s established districts.",
+        "tags": [
+          "Family relocation",
+          "Waterfront",
+          "Downtown",
+          "Villas",
+          "Off-plan comparison"
+        ]
+      },
+      "similar_developers": {
+        "eyebrow": "Compare next",
+        "title": "Similar developers",
+        "items": [
+          {
+            "label": "Emaar vs Sobha",
+            "href": "/en/compare/emaar-vs-sobha/"
+          },
+          {
+            "label": "Emaar vs Damac",
+            "href": "/en/compare/emaar-vs-damac/"
+          },
+          {
+            "label": "Emaar vs Ellington",
+            "href": "/en/compare/emaar-vs-ellington/"
+          },
+          {
+            "label": "Emaar vs Omniyat",
+            "href": "/en/compare/emaar-vs-omniyat/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Developer questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What is Emaar known for in Dubai real estate?",
+            "answer": "Emaar is generally associated with master communities, residential towers, villas and large-scale Dubai developments. Current project details should be checked against official sources and live availability."
+          },
+          {
+            "question": "Who is an Emaar project usually suitable for?",
+            "answer": "Emaar projects can suit buyers looking for established developer recognition, master-community logic, long-term lifestyle value and projects in well-known Dubai districts."
+          },
+          {
+            "question": "Should I compare Emaar with other developers?",
+            "answer": "Yes. Buyers should compare Emaar with developers such as Sobha, Omniyat, Ellington and Damac depending on budget, district, project type and buyer goal."
+          },
+          {
+            "question": "What should I check before buying off-plan?",
+            "answer": "Check price list, payment plan, escrow/project registration, handover timeline, floor plans, service charges, views and alternative projects."
+          },
+          {
+            "question": "Can Primadom AI compare Emaar projects?",
+            "answer": "Yes. Primadom AI can compare Emaar projects by district, price level, payment plan, handover, buyer goal and alternatives."
+          }
+        ]
+      },
+      "trust_sources": {
+        "eyebrow": "Evidence layer",
+        "title": "Trust sources",
+        "body": "Developer claims, active project data, payment plans, handover timelines and availability should be checked against official developer materials, Dubai Land Department data, Dubai REST and Primadom live updates.",
+        "items": [
+          {
+            "label": "Official developer",
+            "value": "Needs live check"
+          },
+          {
+            "label": "DLD / project status",
+            "value": "Recommended"
+          },
+          {
+            "label": "Project availability",
+            "value": "Live advisor check"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Need to compare Emaar projects?",
+        "text": "Ask Primadom AI to compare Emaar projects by district, price level, handover, payment plan and buyer goal — or send the request to a Primadom advisor.",
+        "actions": [
+          {
+            "label": "Compare Emaar projects",
+            "href": "#developerLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Ask Primadom AI",
+            "href": "#developer-ai-search",
+            "modal": false
+          },
+          {
+            "label": "Request a call",
+            "href": "#developerLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "Developer enquiry form",
+        "close_label": "Close",
+        "eyebrow": "Developer request",
+        "title": "Compare Emaar projects with Primadom AI",
+        "text": "Send your budget, preferred district and buyer goal. Primadom AI will prepare a focused comparison before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "email": "Email optional",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "email": "email@example.com"
+        },
+        "comment": "I want to compare Emaar projects with similar developers. Please check best options by budget, district, handover, payment plan and buyer goal.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+      "footer": {
+        "brand": "Primadom AI System",
+        "brand_url": "/en/",
+        "subtitle": "Real estate intelligence",
+        "title": "Developer trust, connected to real buyer intent",
+        "text": "Primadom AI helps buyers compare developers, projects, districts and payment logic before sending a request to an advisor.",
+        "contacts": [
+          {
+            "label": "+971 4 572 3628",
+            "href": "tel:+97145723628"
+          },
+          {
+            "label": "info@primadom.ae",
+            "href": "mailto:info@primadom.ae"
+          }
+        ],
+        "copyright": "© Primadom Real Estate LLC - All rights reserved",
+        "address": "Office 103, Clover Bay Tower, Marasi Dr, Business Bay, Dubai, UAE"
+      },
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      },
+      "source_notes": {
+        "eyebrow": "Freshness layer",
+        "title": "Source notes / last updated",
+        "text": "Developer claims, active project data, payment plans, handover timelines and availability should be checked against official developer materials, DLD data, Dubai REST and Primadom live updates.",
+        "meta_aria": "Developer source notes and freshness checks",
+        "items": [
+          {
+            "label": "Official developer materials",
+            "value": "Required"
+          },
+          {
+            "label": "DLD / Dubai REST",
+            "value": "Recommended"
+          },
+          {
+            "label": "Live availability",
+            "value": "Advisor check"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      }
+    }
+  }
+}

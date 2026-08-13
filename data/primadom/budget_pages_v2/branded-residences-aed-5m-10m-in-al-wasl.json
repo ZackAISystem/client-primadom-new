@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_branded_residences_aed_5m_10m_al_wasl_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/branded-residences-aed-5m-10m-in-al-wasl/",
+  "canonical_url_path": "/en/budgets/branded-residences-aed-5m-10m-in-al-wasl/",
+  "canonical_group_key": "property_budget_district:branded-residences:aed_5m_10m:al-wasl",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-wasl",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "property_type",
+          "href": "/en/property-types/branded-residences/",
+          "label": "Branded Residences"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-wasl/",
+          "label": "Al Wasl"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/branded-residences-aed-5m-10m-in-al-wasl/",
+          "label": "Branded Residences for AED 5M–10M in Al Wasl"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 5M–10M",
+        "Al Wasl",
+        "Branded Residences",
+        "Operator identity not confirmed",
+        "Check operator and fees"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Branded Residences for AED 5M–10M in Al Wasl",
+      "subtitle": "Al Wasl does not currently show a clearly identified branded residence within AED 5M–10M; compare operator strength, service model, fees and nearby alternatives.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Branded Residences for AED 5M–10M in Al Wasl",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compare branded residences in Al Wasl by budget fit, layout, delivery profile and total costs. Current prices and availability require a project check.",
+      "hints": [
+        "Which branded residences fit this budget?",
+        "Which operator and fee checks matter?",
+        "Which nearby branded options deserve comparison?"
+      ],
+      "title": "Check branded residences within AED 5M–10M in Al Wasl",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Assess realistic options for branded residences in Al Wasl within AED 5M–10M. Do not assume availability; identify the closest districts, property formats and project categories for comparison.",
+        "For branded residences in Al Wasl, explain how to verify the operator, branding agreement, service standards, recurring fees and resale implications before treating a project as branded.",
+        "Compare nearby branded residences within AED 5M–10M in Al Wasl, focusing on operator identity, services, recurring fees, location, delivery profile and current project verification."
+      ],
+      "hint_items": [
+        {
+          "label": "Which branded residences fit this budget?",
+          "prompt": "Assess realistic options for branded residences in Al Wasl within AED 5M–10M. Do not assume availability; identify the closest districts, property formats and project categories for comparison."
+        },
+        {
+          "label": "Which operator and fee checks matter?",
+          "prompt": "For branded residences in Al Wasl, explain how to verify the operator, branding agreement, service standards, recurring fees and resale implications before treating a project as branded."
+        },
+        {
+          "label": "Which nearby branded options deserve comparison?",
+          "prompt": "Compare nearby branded residences within AED 5M–10M in Al Wasl, focusing on operator identity, services, recurring fees, location, delivery profile and current project verification."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask about branded residences within AED 5M–10M in Al Wasl",
+      "placeholder": "Ask about branded residences within AED 5M–10M in Al Wasl",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 5M–10M",
+        "Al Wasl",
+        "Branded Residences",
+        "Operator not yet confirmed",
+        "Verify operator and fees"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>Current data does not confirm an operator-backed branded residence in Al Wasl within the AED 5M–10M range.</strong> Compare nearby branded projects by operator, service model, recurring fees, layout quality, unit position and handover terms. Also compare premium non-branded homes where location, unit quality and ownership costs may matter more than brand affiliation. Confirm operator identity, service fees, exact unit pricing and availability for any shortlisted residence.</p>",
+      "body_text": "Current data does not confirm an operator-backed branded residence in Al Wasl within the AED 5M–10M range. Compare nearby branded projects by operator, service model, recurring fees, layout quality, unit position and handover terms. Also compare premium non-branded homes where location, unit quality and ownership costs may matter more than brand affiliation. Confirm operator identity, service fees, exact unit pricing and availability for any shortlisted residence.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 5M–10M"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "Al Wasl"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Branded Residences"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "Operator not yet confirmed"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Brand vs recurring fees"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Operator and service fees"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Recorded starting prices currently sit outside this budget; compare exact units and nearby areas.",
+            "title": "Al Wasl"
+          },
+          {
+            "text": "1 project has a recorded starting price in this budget; verify the exact unit and live availability.",
+            "title": "Mohammed Bin Rashid City"
+          },
+          {
+            "text": "A relevant area to compare when exact starting-price matches are limited.",
+            "title": "Downtown Dubai"
+          },
+          {
+            "text": "A relevant area to compare when exact starting-price matches are limited.",
+            "title": "Dubai Hills Estate"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "This page targets this property type, but no recorded project starting price currently falls inside the budget.",
+            "title": "Branded Residences"
+          },
+          {
+            "text": "1 project has a recorded starting price in this budget; compare the exact layout, position and unit price.",
+            "title": "Apartments"
+          },
+          {
+            "text": "1 project has a recorded starting price in the wider market; verify this format in Al Wasl.",
+            "title": "Waterfront Apartments"
+          },
+          {
+            "text": "A wider-market format to verify if options in Al Wasl are limited.",
+            "title": "Luxury Apartments"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "Before comparing terms in Al Wasl, verify the operator, services and fee structure behind the brand. Then map the booking, construction and handover payments.",
+          "title": "Check the operating model before the payment plan",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "A recognisable name only adds value if the operator, services and unit quality justify the recurring charges in Al Wasl.",
+          "title": "Recurring charges need to justify the name",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For branded residences in Al Wasl, confirm operator fees, branded service charges, furnishing standards and handover costs.",
+          "title": "Operator fees belong in the cost check",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "No named project in the current data matches branded residences in Al Wasl within AED 5M–10M. Use the district guide and live search below to refine the shortlist.",
+        "items": [
+          {
+            "href": "/en/areas/al-wasl/",
+            "meta": "district guide",
+            "label": "Explore more projects in Al Wasl",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for branded residences in Al Wasl",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "range check",
+            "label": "Compare the nearest prices outside the range",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "decision check",
+            "label": "Review payment exposure and purchase timing",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Project search paths",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to a different property type and unwilling to compare this format",
+          "Buyers unwilling to verify the operator, service model and recurring charges",
+          "Buyers seeking the lowest recurring costs rather than an operator-led service model"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing branded residences in Al Wasl within AED 5M–10M",
+          "Buyers weighing the brand and operator against service standards and recurring charges",
+          "Buyers prepared to verify the brand, operator and service model before comparing terms"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "For branded residences in Al Wasl with a budget of AED 5M–10M, price sets a boundary, but the exact property still depends on which features matter most. The brand and operator may improve service and positioning, but recurring charges and operating terms still need to justify the premium. No named branded option currently meets the full brief. Verify the operator, service model and recurring charges before widening the search.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Brand & fees",
+          "Operator terms",
+          "Live search",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The asking price is only part of the cash requirement for branded residences in Al Wasl. Confirm the costs attached to the exact unit and transaction before reserving.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Dubai purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Review building charges, operator-related fees and the services included for the exact residence.",
+            "title": "Service charges and operator fees"
+          },
+          {
+            "text": "Check furnishing requirements, fit-out standards, utilities, move-in costs and any operator setup obligations.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/branded-residences-aed-3m-5m-in-al-wasl/",
+          "label": "Branded Residences AED 3M–5M in Al Wasl",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/branded-residences-aed-10m-25m-in-al-wasl/",
+          "label": "Branded Residences AED 10M–25M in Al Wasl",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-5m-10m-in-al-wasl/",
+          "label": "Property AED 5M–10M in Al Wasl",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/luxury-apartments-aed-5m-10m-in-al-wasl/",
+          "label": "Luxury Apartments AED 5M–10M in Al Wasl",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "No named project currently matches the search for branded residences in Al Wasl within AED 5M–10M in the recorded data. Compare adjacent budget bands, nearby property types or a wider location search, then request a live check before treating any option as available.",
+          "question": "Are there realistic options for branded residences in Al Wasl within AED 5M–10M?"
+        },
+        {
+          "answer": "For branded residences in Al Wasl within AED 5M–10M, the current project signal is operator not yet confirmed, while the main trade-off is brand vs recurring fees. This page targets this property type, but no recorded project starting price currently falls inside the budget. The next useful check is operator and service fees.",
+          "question": "How should buyers judge branded residences in Al Wasl within AED 5M–10M?"
+        },
+        {
+          "answer": "The asking price is only part of the cash requirement for branded residences in Al Wasl. Confirm the costs attached to the exact unit and transaction before reserving. For branded residences in Al Wasl within AED 5M–10M, check registration and transaction costs, financing and valuation costs, service charges and operator fees, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for branded residences in Al Wasl within AED 5M–10M?"
+        },
+        {
+          "answer": "For branded residences in Al Wasl within AED 5M–10M, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for branded residences in Al Wasl within AED 5M–10M?"
+        },
+        {
+          "answer": "For branded residences in Al Wasl within AED 5M–10M, Primadom AI can widen one constraint at a time—budget, location, property type, size or completion timing—while keeping buyer goals and total cash exposure visible. Any resulting projects still require live verification of unit prices, terms and availability.",
+          "question": "How can Primadom AI refine a search for branded residences in Al Wasl within AED 5M–10M?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for branded residences in Al Wasl within AED 5M–10M are not live inventory. Confirm current unit price and availability, payment schedule, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "Unit / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare branded residences in Al Wasl within AED 5M–10M by current price, unit fit, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check branded residences in Al Wasl, AED 5M–10M.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 5M–10M",
+          "default_value": "AED 5M–10M"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check branded residences in Al Wasl, AED 5M–10M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 5M–10M",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_branded_residences_aed_5m_10m_al_wasl_en",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 5M–10M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 5M–10M",
+        "district_name": "Al Wasl",
+        "canonical_url_path": "/en/budgets/branded-residences-aed-5m-10m-in-al-wasl/",
+        "content_version_id": "bc50c387-aab2-4b4f-8d8b-393ad65809ef",
+        "property_type_name": "Branded Residences"
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore branded residences in Al Wasl within AED 5M–10M by current price, payment plan, total cost and project fit before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/branded-residences-aed-5m-10m-in-al-wasl/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

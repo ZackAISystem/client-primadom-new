@@ -1,0 +1,51 @@
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pa-grid pa-grid--three" id="trust">
+  <article class="pa-card">
+    <header class="pa-card__head">
+      <h2>{{ $t.similar_districts.title }}</h2>
+      <span>{{ $t.similar_districts.eyebrow }}</span>
+    </header>
+    <div class="pa-card__body">
+      <div class="pa-links">
+        {{ range $t.similar_districts.items }}
+          <a class="pa-link" href="{{ .href | relURL }}">{{ .label }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pa-card">
+    <header class="pa-card__head">
+      <h2>{{ $t.faq.title }}</h2>
+      <span>{{ $t.faq.eyebrow }}</span>
+    </header>
+    <div class="pa-card__body">
+      <div class="pa-faq">
+        {{ range $index, $item := $t.faq.items }}
+          <details{{ if eq $index 0 }} open{{ end }}>
+            <summary>{{ $item.question }}</summary>
+            <p>{{ $item.answer }}</p>
+          </details>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pa-card">
+    <header class="pa-card__head">
+      <h2>{{ $t.trust_sources.title }}</h2>
+      <span>{{ $t.trust_sources.eyebrow }}</span>
+    </header>
+    <div class="pa-card__body">
+      <div class="pa-source-list">
+        {{ range $t.trust_sources.items }}
+          <div class="pa-source-item">
+            <strong>{{ .label }}</strong>
+            <span>{{ .value }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+</div>

@@ -1,0 +1,10 @@
+---
+title: "Bab Al Qasr Canal View Residence 22 vs Brabus Island"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "bab-al-qasr-canal-view-residence-22-vs-brabus-island"
+page_id: "project_comparison__bab-al-qasr-canal-view-residence-22__vs__brabus-island__en"
+url: "/en/compare-projects/bab-al-qasr-canal-view-residence-22-vs-brabus-island/"
+build:
+  render: always
+  list: never
+---

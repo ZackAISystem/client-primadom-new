@@ -1,0 +1,142 @@
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $pageUrl := .RelPermalink | absURL -}}
+
+{{- $city := "UAE" -}}
+{{- $emirate := "" -}}
+
+{{- with index $d "city" -}}
+  {{- $city = . -}}
+{{- end -}}
+
+{{- with index $d "emirate" -}}
+  {{- $emirate = . -}}
+  {{- if eq $city "UAE" -}}
+    {{- $city = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with index $d "page" -}}
+  {{- with index . "city" -}}
+    {{- $city = . -}}
+  {{- end -}}
+  {{- with index . "emirate" -}}
+    {{- $emirate = . -}}
+    {{- if eq $city "UAE" -}}
+      {{- $city = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $seoTitle := "Primadom AI" -}}
+{{- $seoDescription := "" -}}
+{{- $placeName := "UAE district" -}}
+{{- $placeDescription := "" -}}
+
+{{- with $t.hero -}}
+  {{- with .title -}}
+    {{- $placeName = . -}}
+    {{- $seoTitle = printf "%s | Primadom AI" . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $t.seo -}}
+  {{- with .title -}}
+    {{- $seoTitle = . -}}
+  {{- end -}}
+  {{- with .description -}}
+    {{- $seoDescription = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $t.short_verdict -}}
+  {{- with .body_html -}}
+    {{- $placeDescription = . | plainify -}}
+    {{- if not $seoDescription -}}
+      {{- $seoDescription = . | plainify -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $breadcrumbSource := slice -}}
+{{- with $t.hero -}}
+  {{- with .breadcrumbs -}}
+    {{- $breadcrumbSource = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $t.breadcrumbs -}}
+  {{- with .breadcrumbs -}}
+    {{- $breadcrumbSource = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $breadcrumbs := slice -}}
+{{- range $i, $item := $breadcrumbSource -}}
+  {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" (add $i 1) "name" $item.label "item" ($item.href | absURL)) -}}
+{{- end -}}
+
+{{- $faqEntities := slice -}}
+{{- with $t.faq -}}
+  {{- range $item := .items -}}
+    {{- $faqEntities = $faqEntities | append (dict "@type" "Question" "name" $item.question "acceptedAnswer" (dict "@type" "Answer" "text" $item.answer)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $projectItems := slice -}}
+{{- with $t.projects -}}
+  {{- range $i, $item := .items -}}
+    {{- $projectItems = $projectItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $item.title "url" ($item.href | absURL)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $graph := slice -}}
+
+{{- $graph = $graph | append (dict
+  "@type" "WebPage"
+  "@id" (printf "%s#webpage" $pageUrl)
+  "url" $pageUrl
+  "name" $seoTitle
+  "description" $seoDescription
+) -}}
+
+{{- $graph = $graph | append (dict
+  "@type" "Place"
+  "@id" (printf "%s#place" $pageUrl)
+  "name" $placeName
+  "address" (dict
+    "@type" "PostalAddress"
+    "addressLocality" $city
+    "addressRegion" $emirate
+    "addressCountry" "AE"
+  )
+  "description" $placeDescription
+) -}}
+
+{{- if gt (len $breadcrumbs) 0 -}}
+  {{- $graph = $graph | append (dict
+    "@type" "BreadcrumbList"
+    "@id" (printf "%s#breadcrumbs" $pageUrl)
+    "itemListElement" $breadcrumbs
+  ) -}}
+{{- end -}}
+
+{{- if gt (len $projectItems) 0 -}}
+  {{- $graph = $graph | append (dict
+    "@type" "ItemList"
+    "@id" (printf "%s#top-projects" $pageUrl)
+    "name" $t.projects.title
+    "itemListElement" $projectItems
+  ) -}}
+{{- end -}}
+
+{{- if gt (len $faqEntities) 0 -}}
+  {{- $graph = $graph | append (dict
+    "@type" "FAQPage"
+    "@id" (printf "%s#faq" $pageUrl)
+    "mainEntity" $faqEntities
+  ) -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
+</script>

@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_524ad2fc4a4f00df5096a417ac4a",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/dubai-remote-purchase-property-for-kazakhstan-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-remote-purchase-property-for-kazakhstan-buyers/",
+  "canonical_group_key": "origin:kazakhstan:goal:remote-purchase-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "kazakhstan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Can I buy?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "International buyer guide navigation",
+      "cta_label": "Get a consultation",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/dubai-remote-purchase-property-for-kazakhstan-buyers/",
+          "label": "Buying Dubai property remotely from Kazakhstan"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "From Kazakhstan",
+        "Remote purchase",
+        "Documents",
+        "Payment route",
+        "Verification"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Buying Dubai property remotely from Kazakhstan",
+      "subtitle": "For buyers based in Kazakhstan planning a remote Dubai purchase, focus on verification, documents, payment route, signing steps and which steps, if any, require local action before reservation or transfer.",
+      "facts_aria": "Key points for this buyer scenario",
+      "section_id": "overview",
+      "visual_aria": "Buying Dubai property remotely from Kazakhstan property planning visual",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Check documents, payment route and signing steps for remote purchase",
+        "Which steps can be completed remotely before I travel",
+        "What should I verify before reserving property from abroad"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Ask about your Dubai property plan",
+      "placeholder": "Check my remote Dubai property purchase plan from Kazakhstan",
+      "block_status": "final",
+      "button_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Buying Dubai property remotely from Kazakhstan",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Kazakhstani buyers",
+        "Remote purchase",
+        "Documents + signing",
+        "Payment route",
+        "Current rules"
+      ],
+      "title": "Can Kazakhstani buyers buy property in Dubai?",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Yes — Kazakhstani buyers can generally buy property in Dubai</strong> in areas designated for foreign ownership, subject to current rules and property-specific checks. A remote transaction route is case-specific, so confirm identity, signing, payment and any local-action requirements before reserving.",
+      "body_text": "Yes — Kazakhstani buyers can generally buy property in Dubai in areas designated for foreign ownership, subject to current rules and property-specific checks. A remote transaction route is case-specific, so confirm identity, signing, payment and any local-action requirements before reserving.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Origin market",
+          "value": "Kazakhstan"
+        },
+        {
+          "label": "Target market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Buyer goal",
+          "value": "Remote purchase"
+        },
+        {
+          "label": "Main focus",
+          "value": "Buying without being in Dubai throughout"
+        },
+        {
+          "label": "Key checks",
+          "value": "Documents · signing · payment route"
+        },
+        {
+          "label": "Ownership context",
+          "value": "Check current foreign ownership rules"
+        },
+        {
+          "label": "Decision stage",
+          "value": "Before reservation"
+        },
+        {
+          "label": "Next step",
+          "value": "Confirm which transaction steps can be remote"
+        }
+      ],
+      "title": "Origin buyer details",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Decide which transaction steps you would prefer to complete remotely and where in-person action may still be acceptable.",
+            "title": "1. Define the remote purchase plan"
+          },
+          {
+            "text": "If you plan to complete any steps from Kazakhstan, confirm which parts can be handled remotely and whether additional authorisation or local action is needed.",
+            "title": "2. Plan the purchase route"
+          },
+          {
+            "text": "Confirm the identity information, buyer forms, payment source, transfer route and transaction-specific checks requested for the purchase.",
+            "title": "3. Confirm documents and payment route"
+          },
+          {
+            "text": "Re-check signing steps, payment route, property status and any transaction-specific authorisation before reservation.",
+            "title": "4. Re-check live terms before reservation"
+          }
+        ],
+        "title": "Remote purchase process",
+        "eyebrow": "Process logic"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Prepare valid identity and buyer information requested for the specific transaction.",
+            "title": "Passport and buyer details"
+          },
+          {
+            "text": "Keep current address and contact details ready if requested by the developer, bank or transaction process.",
+            "title": "Address and contact details"
+          },
+          {
+            "text": "Confirm the payment source, transfer route and any bank or compliance checks before sending funds.",
+            "title": "Payment source and transfer route"
+          },
+          {
+            "text": "If additional authorisation is needed, confirm the required form and execution method for the specific transaction.",
+            "title": "Remote authorisation"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Practical checklist"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Confirm payment timing, transfer route and transaction-specific checks before sending funds from outside the UAE.",
+          "title": "Plan the remote money flow",
+          "eyebrow": "Payment logic"
+        },
+        {
+          "dark": false,
+          "text": "If any steps are handled from Kazakhstan, confirm payment route, signing, identity checks and any transaction-specific local action.",
+          "title": "Plan the cross-border execution",
+          "eyebrow": "Buying from Kazakhstan"
+        },
+        {
+          "dark": false,
+          "text": "Confirm which signing, identity and transaction steps can be completed remotely for the specific purchase route.",
+          "title": "Remote does not mean every step is remote",
+          "eyebrow": "Remote check"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Use Primadom AI to compare the goal, budget, route and checks before speaking with an advisor.",
+          "title": "Turn the scenario into a clear comparison",
+          "eyebrow": "AI consultation"
+        }
+      ],
+      "cards_aria": "Key decisions for this buyer scenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Compare property specifics and transaction steps without assuming every stage can be completed remotely.",
+            "title": "Downtown Dubai"
+          },
+          {
+            "text": "Compare unit details, payment route, signing steps and property verification requirements.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "Compare building and unit facts together with the transaction and payment route.",
+            "title": "Dubai Marina"
+          },
+          {
+            "text": "Compare property fit while confirming which transaction steps require current verification.",
+            "title": "Dubai Hills Estate"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "District options"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "For buyers from Kazakhstan focused on remote purchase, confirm payment route, signing, identity checks, property facts and any local-action requirements before relying on a remote transaction path.",
+        "tags": [
+          "Can buy?",
+          "Remote process",
+          "Payment route",
+          "Signing checks",
+          "Verification"
+        ],
+        "title": "Buyer concerns",
+        "eyebrow": "What to verify"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Open real project pages connected to the districts used for this buyer scenario, then verify current price, availability, payment terms and unit fit before relying on an option.",
+        "items": [
+          {
+            "href": "/en/projects/25h-heimat-at-downtown-dubai/",
+            "meta": "Downtown Dubai",
+            "label": "25H Heimat At Downtown Dubai"
+          },
+          {
+            "href": "/en/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/en/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/en/projects/399-hills-park/",
+            "meta": "Dubai Hills Estate",
+            "label": "399 Hills Park"
+          },
+          {
+            "href": "/en/projects/address-grand-downtown/",
+            "meta": "Downtown Dubai",
+            "label": "Address Grand Downtown"
+          }
+        ],
+        "title": "Projects to verify",
+        "eyebrow": "Project options",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "If UAE residency is part of your plan, verify current Golden Visa criteria separately from the property decision. A project appearing in this list does not imply visa eligibility.",
+        "tags": [
+          "Separate check",
+          "Current criteria",
+          "Property value",
+          "Ownership status",
+          "Payment status"
+        ],
+        "title": "Keep visa eligibility separate",
+        "eyebrow": "Visa review",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/dubai-property-for-kazakhstan-buyers/",
+          "label": "Dubai property for Kazakhstani buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-investment-property-for-kazakhstan-buyers/",
+          "label": "Dubai investment property for Kazakhstani buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-off-plan-property-for-kazakhstan-buyers/",
+          "label": "Dubai off-plan property for Kazakhstani buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-second-home-property-for-kazakhstan-buyers/",
+          "label": "Dubai second-home property for Kazakhstani buyers"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Related origin pages",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Kazakhstani buyers can generally buy property in Dubai in designated freehold areas, subject to current rules and the specific property. For a remote Dubai property purchase, confirm payment route, signing, identity checks and which transaction steps can actually be completed remotely.",
+          "question": "Can Kazakhstani buyers buy Dubai property remotely?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Prioritise transaction control: who verifies the property, who signs, how funds move and which steps require local action. Resolve that process before relying on a remote reservation route.",
+          "question": "What should Kazakhstani buyers check first when considering a remote Dubai property purchase?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "For this scenario, compare Downtown Dubai, Business Bay, Dubai Marina and Dubai Hills Estate. These are starting points rather than a ranking; check the exact property and practical fit before deciding.",
+          "question": "Which Dubai districts should Kazakhstani buyers compare for a remote Dubai property purchase?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "When coordinating the purchase from Kazakhstan, map out who will sign, how funds will be transferred, which identity checks apply and whether any step needs local action. Confirm the route for the specific transaction before committing funds.",
+          "question": "What should Kazakhstani buyers verify when arranging a Dubai purchase from Kazakhstan?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "No. Confirm which signing, identity, payment and transaction steps can be completed remotely for the specific property and purchase route.",
+          "question": "Can Kazakhstani buyers assume every step of a Dubai purchase can be completed remotely?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Origin buyer questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "For Kazakhstani buyers considering a remote Dubai property purchase, this page separates buyer guidance from claims that still require external verification. Ownership rules, cross-border transaction steps, remote signing, identity, payment and transaction-specific process requirements should be checked against the relevant official or live source before a buyer decision.",
+      "items": [
+        {
+          "label": "Ownership rules",
+          "value": "Official verification pending"
+        },
+        {
+          "label": "Cross-border process",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Remote execution",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Price / availability",
+          "value": "Live project check required"
+        },
+        {
+          "label": "Source status",
+          "value": "Source review pending"
+        }
+      ],
+      "title": "Verification notes",
+      "eyebrow": "Source notes",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "For Kazakhstani buyers, organise the remote purchase route, documents, payment checks and property verification before advisor review.",
+      "title": "Planning to buy Dubai property remotely from Kazakhstan?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Review my plan",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Origin buyer consultation form",
+      "text": "For Kazakhstani buyers, share your timing and remote-purchase needs. Primadom AI will prepare the transaction context before an advisor reviews the next steps.",
+      "title": "Review your remote Dubai purchase plan from Kazakhstan",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Review my remote Dubai purchase plan from Kazakhstan",
+      "eyebrow": "Property plan review",
+      "success": "Sent",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Close",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps Kazakhstani buyers compare property options alongside signing, payment, identity and transaction steps before moving forward remotely.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Remote Dubai property planning for Kazakhstani buyers",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI social links",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Ask AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

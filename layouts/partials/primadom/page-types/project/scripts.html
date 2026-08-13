@@ -1,0 +1,123 @@
+{{/* Primadom AI System — Project Page partial: scripts.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $hints := partial "primadom/page-types/project/_t.html" (dict "value" $p.ai_search.hints "lang" $lang) -}}
+
+<script>
+(() => {
+  const hints = {{ $hints | jsonify | safeJS }};
+
+  const gallery = document.querySelector('.pd-project-gallery');
+  if (gallery) {
+    const slides = Array.from(gallery.querySelectorAll('.pd-project-slide'));
+    const prev = gallery.querySelector('.pd-project-gallery__arrow--prev');
+    const next = gallery.querySelector('.pd-project-gallery__arrow--next');
+    let active = slides.findIndex(slide => slide.classList.contains('is-active'));
+    if (active < 0) active = 0;
+
+    const show = (nextIndex, direction = 1) => {
+      if (!slides.length || nextIndex === active) return;
+
+      const current = slides[active];
+      const target = slides[(nextIndex + slides.length) % slides.length];
+
+      gallery.style.setProperty('--gallery-dir', direction);
+      current.classList.remove('is-active');
+      current.classList.add('is-leaving');
+      target.classList.add('is-active');
+
+      setTimeout(() => current.classList.remove('is-leaving'), 1250);
+      active = slides.indexOf(target);
+    };
+
+    prev && prev.addEventListener('click', () => show(active - 1, -1));
+    next && next.addEventListener('click', () => show(active + 1, 1));
+  }
+
+  const askForm = document.querySelector('#project-ai-search-disabled-old-typing');
+  if (askForm) {
+    const input = askForm.querySelector('.pd-project-ask__input');
+    const voice = askForm.querySelector('.pd-project-ask__voice');
+
+    if (input && Array.isArray(hints) && hints.length) {
+      input.placeholder = hints[0];
+
+      let index = 0;
+      setInterval(() => {
+        index = (index + 1) % hints.length;
+        if (!input.value) input.placeholder = hints[index];
+      }, 3200);
+    }
+
+    askForm.addEventListener('submit', event => {
+      event.preventDefault();
+      document.querySelector('[data-open-project-lead]')?.click();
+    });
+
+    voice && voice.addEventListener('click', () => {
+      askForm.classList.toggle('is-voice-active');
+      setTimeout(() => askForm.classList.remove('is-voice-active'), 2200);
+    });
+  }
+
+  const modal = document.querySelector('#projectLeadModal');
+  const html = document.documentElement;
+
+  const openModal = event => {
+    event && event.preventDefault();
+    if (!modal) return;
+
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    html.classList.add('pd-modal-open');
+  };
+
+  const closeModal = event => {
+    event && event.preventDefault();
+    if (!modal) return;
+
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    html.classList.remove('pd-modal-open');
+  };
+
+  document.querySelectorAll('[data-open-project-lead]').forEach(el => {
+    el.addEventListener('click', openModal);
+  });
+
+  document.querySelectorAll('[data-close-project-lead]').forEach(el => {
+    el.addEventListener('click', closeModal);
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') closeModal(event);
+  });
+
+  document.querySelectorAll('[data-lead-voice]').forEach(button => {
+    button.addEventListener('click', () => {
+      button.classList.toggle('is-active');
+      setTimeout(() => button.classList.remove('is-active'), 2200);
+    });
+  });
+
+  document.querySelectorAll('[data-project-lead-form]').forEach(form => {
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+
+      const btn = form.querySelector('.pd-lead-submit');
+      if (!btn) return;
+
+      btn.textContent = btn.dataset.successLabel || btn.textContent;
+      btn.classList.add('is-done');
+
+      setTimeout(() => {
+        btn.textContent = btn.dataset.submitLabel || btn.textContent;
+        btn.classList.remove('is-done');
+        closeModal();
+      }, 1400);
+    });
+  });
+})();
+</script>

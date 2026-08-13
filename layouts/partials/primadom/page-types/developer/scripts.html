@@ -1,0 +1,50 @@
+{{- $d := partial "primadom/page-types/developer/_data.html" . -}}
+{{- $t := $d.t -}}
+<script>
+(function(){
+  const aiForm = document.querySelector('.pd-ai');
+  if(aiForm){
+    aiForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('summary')?.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  }
+
+  const modal = document.getElementById('developerLeadModal');
+  if(modal){
+    const openers = document.querySelectorAll('[data-open-developer-lead]');
+    const closers = modal.querySelectorAll('[data-close-developer-lead]');
+    const form = modal.querySelector('[data-developer-form]');
+
+    function open(e){
+      if(e) e.preventDefault();
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden','false');
+      document.documentElement.classList.add('pd-modal-open');
+    }
+
+    function close(){
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden','true');
+      document.documentElement.classList.remove('pd-modal-open');
+    }
+
+    openers.forEach(btn => btn.addEventListener('click', open));
+    closers.forEach(btn => btn.addEventListener('click', close));
+    document.addEventListener('keydown', e => { if(e.key === 'Escape') close(); });
+
+    if(form){
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        const btn = form.querySelector('.pd-submit');
+        if(btn){
+          const normal = btn.dataset.submitLabel || btn.textContent;
+          const success = btn.dataset.successLabel || 'Sent';
+          btn.textContent = success;
+          setTimeout(() => btn.textContent = normal, 1600);
+        }
+      });
+    }
+  }
+})();
+</script>

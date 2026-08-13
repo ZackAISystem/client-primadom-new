@@ -1,0 +1,99 @@
+{{/* Primadom AI System — Project Page partial: lead_modal.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.lead_modal -}}
+
+{{- $name := partial "primadom/page-types/project/_t.html" (dict "value" $p.entity.name "lang" $lang) -}}
+{{- $location := partial "primadom/page-types/project/_t.html" (dict "value" $p.entity.location_text "lang" $lang) -}}
+{{- $price := partial "primadom/page-types/project/_t.html" (dict "value" $p.hero.price_from.display "lang" $lang) -}}
+
+<div class="pd-lead-modal" id="projectLeadModal" aria-hidden="true">
+  <div class="pd-lead-modal__backdrop" data-close-project-lead></div>
+
+  <div class="pd-lead-modal__panel" role="dialog" aria-modal="true" aria-labelledby="projectLeadTitle">
+    <button class="pd-lead-modal__close" type="button" data-close-project-lead aria-label="Close">×</button>
+
+    <div class="pd-lead-modal__head">
+      <span class="pd-lead-modal__eyebrow">
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.eyebrow "lang" $lang) }}
+      </span>
+
+      <h2 id="projectLeadTitle">
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.title "lang" $lang) }}
+      </h2>
+
+      <p>
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.description "lang" $lang) }}
+      </p>
+    </div>
+
+    <form class="pd-lead-form" data-project-lead-form>
+      <input name="project_key" type="hidden" value="{{ $p.project_key }}">
+      <input name="project_name" type="hidden" value="{{ $name }}">
+      <input name="location" type="hidden" value="{{ $location }}">
+      <input name="price_from" type="hidden" value="{{ $price }}">
+
+      <div class="pd-lead-form__grid">
+        <label class="pd-lead-field">
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.name.label "lang" $lang) }}</span>
+          <input
+            name="name"
+            type="text"
+            placeholder="{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.name.placeholder "lang" $lang) }}"
+          >
+        </label>
+
+        <label class="pd-lead-field">
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.phone.label "lang" $lang) }}</span>
+          <input
+            name="phone"
+            type="tel"
+            placeholder="{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.phone.placeholder "lang" $lang) }}"
+          >
+        </label>
+
+        <label class="pd-lead-field">
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.comment.label "lang" $lang) }}</span>
+          <input
+            name="request_type"
+            type="text"
+            placeholder="{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fields.comment.placeholder "lang" $lang) }}"
+          >
+        </label>
+      </div>
+
+      <label class="pd-lead-field pd-lead-field--comment">
+        <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.ai_row_badge "lang" $lang) }}</span>
+
+        <div class="pd-lead-ai-row">
+          <div class="pd-lead-ai-row__badge">
+            <i></i>
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.ai_row_badge "lang" $lang) }}
+          </div>
+
+          <textarea data-lead-comment name="comment">{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.comment_prefill "lang" $lang) }}</textarea>
+
+          <button aria-label="Dictate comment by voice" class="pd-lead-voice" data-lead-voice type="button">
+            <span class="pd-lead-voice__aura"></span>
+            <span class="pd-lead-voice__core">
+              <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z'/%3E%3Cpath d='M19 10v2a7 7 0 0 1-14 0v-2'/%3E%3Cpath d='M12 19v3'/%3E%3C/svg%3E">
+            </span>
+          </button>
+
+          <button
+            class="pd-lead-submit"
+            type="submit"
+            data-submit-label="{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.submit_label "lang" $lang) }}"
+            data-success-label="{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.success_label "lang" $lang) }}"
+          >
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.submit_label "lang" $lang) }}
+          </button>
+        </div>
+
+        <small>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.note "lang" $lang) }}</small>
+      </label>
+    </form>
+  </div>
+</div>

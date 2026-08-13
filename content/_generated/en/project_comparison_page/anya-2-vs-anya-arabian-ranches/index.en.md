@@ -1,0 +1,10 @@
+---
+title: "Anya 2 vs Anya Arabian Ranches"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "anya-2-vs-anya-arabian-ranches"
+page_id: "project_comparison__anya-2__vs__anya-arabian-ranches__en"
+url: "/en/compare-projects/anya-2-vs-anya-arabian-ranches/"
+build:
+  render: always
+  list: never
+---

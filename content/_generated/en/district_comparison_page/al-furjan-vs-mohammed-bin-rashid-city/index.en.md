@@ -1,0 +1,10 @@
+---
+title: "Al Furjan vs Mohammed Bin Rashid City"
+layout: "primadom-district-comparison-page-v2"
+comparison_slug: "al-furjan-vs-mohammed-bin-rashid-city"
+page_id: "page_district_comparison_al_furjan_vs_mohammed_bin_rashid_city_en"
+url: "/en/compare-areas/al-furjan-vs-mohammed-bin-rashid-city/"
+build:
+  render: always
+  list: never
+---

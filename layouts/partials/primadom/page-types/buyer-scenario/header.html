@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/buyer-scenario/_data.html" . -}}
+{{- $t := $d.t -}}
+<header class="bs-header">
+  <div class="bs-header__inner">
+    <a class="bs-header__badge" href="{{ $t.header.brand_url }}" aria-label="{{ $t.header.brand }}">
+      <span class="bs-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $t.header.brand }}</span>
+    </a>
+
+    <nav class="bs-header__nav" aria-label="{{ $t.header.nav_aria }}">
+      {{ range $t.header.nav }}
+        <a class="bs-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} bs-header__nav-link--ai{{ end }}" href="{{ .href }}">{{ .label }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="bs-header__right">
+      <a class="bs-header__cta" href="{{ $t.header.cta_url }}" data-open-buyer-scenario-lead>{{ $t.header.cta_label }}</a>
+    </div>
+  </div>
+</header>

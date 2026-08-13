@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-live-availability__context__townhouses__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-live-availability-townhouses/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-live-availability-townhouses/",
+  "canonical_group_key": "ai_answer:how-to-check-live-availability:context:townhouses",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-live-availability",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-live-availability-townhouses/",
+          "label": "How should I check current availability? — Townhouses",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Townhouses",
+        "Project check",
+        "Developer",
+        "Timing",
+        "Terms to verify"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check current availability? — Townhouses",
+      "subtitle": "Review current unit availability when buying townhouses, focusing on developer, documents, timing and project terms to verify before a decision.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check current availability? — Townhouses",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which availability details need live confirmation before buying",
+        "Explain how reservations can change available choices for townhouse buyers",
+        "Check unit, price and status together before buying"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me verify current unit availability for townhouse buyers",
+      "placeholder": "Help me verify current unit availability for townhouse buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Live availability",
+        "Townhouses",
+        "Unit status",
+        "Current price",
+        "Sales verification"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Live availability can only be confirmed from a current sales or inventory source.</strong> For townhouse buyers, verify the exact unit, price, status, payment plan and reservation conditions before treating an option as available. Screenshots, old listings and previous sales messages should not be used as proof that inventory is still open.",
+      "body_text": "Live availability can only be confirmed from a current sales or inventory source. For townhouse buyers, verify the exact unit, price, status, payment plan and reservation conditions before treating an option as available. Screenshots, old listings and previous sales messages should not be used as proof that inventory is still open.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check current availability? — Townhouses"
+        },
+        {
+          "label": "Context",
+          "value": "Townhouses"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Only current inventory can confirm"
+        },
+        {
+          "label": "Main checks",
+          "value": "Unit status · Current price · Sales verification"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Stale inventory · changed price"
+        },
+        {
+          "label": "Best next step",
+          "value": "Verify live unit and price"
+        },
+        {
+          "label": "Verification",
+          "value": "Live sales check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Live Availability",
+      "market": "UAE",
+      "context": "Townhouses",
+      "eyebrow": "Key facts",
+      "question": "How to check live availability for Townhouses?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "An old screenshot, portal entry or sales message is being treated as proof of current availability.",
+            "title": "The listing may already be stale"
+          },
+          {
+            "text": "The buyer is comparing options using a figure that may no longer apply to the exact unit.",
+            "title": "The price has not been reconfirmed"
+          },
+          {
+            "text": "Pressure to reserve quickly is preventing normal checks on the unit, terms or payment route.",
+            "title": "Urgency is replacing verification"
+          },
+          {
+            "text": "For townhouse buyers, revisit the live-availability check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "The specific unit, price and reservation status are checked through a current sales or inventory source.",
+            "title": "The exact unit is confirmed now"
+          },
+          {
+            "text": "Payment plan, incentives and reservation conditions are reconfirmed before the buyer acts.",
+            "title": "Commercial terms are still current"
+          },
+          {
+            "text": "Documents and funds are ready if the chosen unit remains available after verification.",
+            "title": "The buyer can move quickly after checks"
+          },
+          {
+            "text": "For townhouse buyers, the live-availability check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For townhouse buyers, verify the exact unit, price, status, payment plan and reservation conditions before treating an option as available.",
+          "title": "Unit status · Current price · Sales verification",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the listing may already be stale, the price has not been reconfirmed, or urgency is replacing verification.",
+          "title": "Live inventory accuracy",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Screenshots, old listings and previous sales messages should not be used as proof that inventory is still open.",
+          "title": "Verify live unit and price",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the listing may already be stale, the price has not been reconfirmed, or urgency is replacing verification. For townhouse buyers, screenshots, old listings and previous sales messages should not be used as proof that inventory is still open.",
+        "tags": [
+          "Unit status",
+          "Price validity",
+          "Reservation status",
+          "Last confirmation",
+          "Live inventory accuracy"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For townhouse buyers, verify unit number, type, floor, view and current status rather than treating general project inventory as evidence that a unit is available.",
+            "title": "Confirm the exact unit"
+          },
+          {
+            "text": "Confirm whether the unit is open, held, reserved or subject to another buyer process before making decisions around its advertised availability.",
+            "title": "Check reservation status"
+          },
+          {
+            "text": "Check that the current price, payment plan and any incentive still apply to the exact unit at the time the buyer is ready to proceed.",
+            "title": "Reconfirm price and incentives"
+          },
+          {
+            "text": "Use a recent timestamp and identifiable source because inventory can change faster than most other project information.",
+            "title": "Record when availability was checked"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-developer-townhouses/",
+          "label": "How should I check a developer?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-developer-track-record-townhouses/",
+          "label": "How should I check a developer track record?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-choose-developer-townhouses/",
+          "label": "How should I choose a developer?"
+        },
+        {
+          "href": "/en/ai-answers/what-questions-to-ask-developer-townhouses/",
+          "label": "What questions should I ask a developer?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-handover-date-townhouses/",
+          "label": "How should I check a handover date?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Live availability can only be confirmed from a current sales or inventory source. For townhouse buyers, verify unit number, type, floor, view and current status rather than treating general project inventory as evidence that a unit is available.",
+          "question": "How can I verify current availability?"
+        },
+        {
+          "answer": "A developer check should focus on evidence of delivery, execution and accountability. Check repeated delays, unresolved defects, handover problems or other patterns that may be more informative than one successful project.",
+          "question": "How should I assess a developer?"
+        },
+        {
+          "answer": "Developer track record is best judged through completed projects and delivery behaviour. Assess whether construction stage, project updates and visible execution support the payment schedule and handover expectations being marketed.",
+          "question": "How should I assess a developer's track record?"
+        },
+        {
+          "answer": "Choose a developer by matching delivery evidence and project quality to the specific purchase. Treat specific records, documents and project information as stronger evidence than reputation, awards or broad sales assurances.",
+          "question": "How should I choose a developer?"
+        },
+        {
+          "answer": "The best developer questions test the facts behind price, delivery and the contract. Important questions receive marketing language instead of specific project or contract information. Request documentary support for material answers rather than relying on verbal assurances.",
+          "question": "What questions should I ask the developer?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Price, availability, payment terms and project status can change. Use this page to understand the decision logic, then reconfirm current unit-level information and first-party project details before using time-sensitive commercial information in a buyer decision.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Townhouses · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Unit status · Current price · Sales verification"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current developer/project information · commercial confirmation"
+        },
+        {
+          "label": "Live check",
+          "value": "Current price, availability and project terms"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "live_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your townhouse search and identify which price, availability, payment or project details need a current check before you move forward.",
+      "title": "Want to check the current project details?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your townhouse search, focusing on current price, availability, payment terms and the project details that should be checked before you proceed.",
+      "title": "Check the current project details for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check current price and availability for this property.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

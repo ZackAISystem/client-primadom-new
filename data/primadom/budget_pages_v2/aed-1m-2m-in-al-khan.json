@@ -1,0 +1,706 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_budget_district_aed_1m_2m_al_khan_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/aed-1m-2m-in-al-khan/",
+  "canonical_url_path": "/en/budgets/aed-1m-2m-in-al-khan/",
+  "canonical_group_key": "budget_district:aed_1m_2m:al-khan",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-khan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-khan/",
+          "label": "Al Khan"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/aed-1m-2m-in-al-khan/",
+          "label": "Property for AED 1M–2M in Al Khan"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "Al Khan",
+        "All property types",
+        "1 project with starting price in range",
+        "Limited project choice"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Property for AED 1M–2M in Al Khan",
+      "subtitle": "One project currently starts within AED 1M–2M for property in Al Khan, leaving a narrow shortlist; compare its layout, delivery timing, developer record and total costs.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Property for AED 1M–2M in Al Khan",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Ask about realistic property options, trade-offs and buying costs in Al Khan. Current prices and availability require a project check.",
+      "hints": [
+        "What can this budget buy here?",
+        "What should I verify before shortlisting?",
+        "What trade-offs should I compare first?"
+      ],
+      "title": "Check what AED 1M–2M can buy in Al Khan",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Compare the strongest current project options for property in Al Khan within AED 1M–2M. Focus on location, layouts, delivery profile, developer record and total buying costs.",
+        "Create a pre-shortlist checklist for property in Al Khan within AED 1M–2M, covering exact layout, unit position, delivery timing, developer record, fees and current availability.",
+        "Explain the main trade-offs for property in Al Khan within AED 1M–2M: space, location, delivery timing, developer record, fees and resale flexibility."
+      ],
+      "hint_items": [
+        {
+          "label": "What can this budget buy here?",
+          "prompt": "Compare the strongest current project options for property in Al Khan within AED 1M–2M. Focus on location, layouts, delivery profile, developer record and total buying costs."
+        },
+        {
+          "label": "What should I verify before shortlisting?",
+          "prompt": "Create a pre-shortlist checklist for property in Al Khan within AED 1M–2M, covering exact layout, unit position, delivery timing, developer record, fees and current availability."
+        },
+        {
+          "label": "What trade-offs should I compare first?",
+          "prompt": "Explain the main trade-offs for property in Al Khan within AED 1M–2M: space, location, delivery timing, developer record, fees and resale flexibility."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask what AED 1M–2M can buy in Al Khan",
+      "placeholder": "Ask what AED 1M–2M can buy in Al Khan",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "Al Khan",
+        "Mixed property types",
+        "1 project in range",
+        "Check current units"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>One project has a recorded starting price within the AED 1M–2M range for property in Al Khan.</strong> Compare property type, usable size, developer execution, completion profile, payment terms and total ownership costs within the district. Use each price match only as a lead to verify the exact unit, layout and payment terms. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.</p>",
+      "body_text": "One project has a recorded starting price within the AED 1M–2M range for property in Al Khan. Compare property type, usable size, developer execution, completion profile, payment terms and total ownership costs within the district. Use each price match only as a lead to verify the exact unit, layout and payment terms. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Sharjah"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "Al Khan"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Mixed property types"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "1 project in range"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Price match vs exact unit"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Exact unit prices"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "1 project has a recorded starting price in this budget; verify the exact unit and live availability.",
+            "title": "Al Khan"
+          },
+          {
+            "text": "6 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Tilal City"
+          },
+          {
+            "text": "5 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Masaar"
+          },
+          {
+            "text": "4 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Aljada"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "1 project has a recorded starting price in this budget; compare the exact layout, position and unit price.",
+            "title": "Apartments"
+          },
+          {
+            "text": "7 projects have recorded starting prices in the wider market; verify this format in Al Khan.",
+            "title": "Townhouses"
+          },
+          {
+            "text": "3 projects have recorded starting prices in the wider market; verify this format in Al Khan.",
+            "title": "Villas"
+          },
+          {
+            "text": "This format appears in the area, but recorded starting prices currently sit outside the budget.",
+            "title": "Studios"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "In Al Khan, compare the booking amount, staged payments, handover sum and any post-handover balance before judging the headline price.",
+          "title": "Follow the cash through every stage",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "A project may start within AED 1M–2M in Al Khan, but the relevant unit can move once size, floor, view, position and payment schedule are checked.",
+          "title": "The right unit may sit above the headline",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For a purchase in Al Khan, include registration, agency or finance costs where applicable, service or community charges, furnishing and maintenance.",
+          "title": "Fees belong in the shortlist, not after it",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "For projects in Al Khan, the list combines 1 exact recorded-price match with 1 nearby option. Confirm exact units, current prices and live availability before narrowing the shortlist.",
+        "items": [
+          {
+            "href": "/en/projects/almaza-tower/",
+            "meta": "Recorded from AED 1M",
+            "label": "Almaza Tower",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "almaza-tower",
+            "district_name": "Al Khan",
+            "handover_year": 2028,
+            "property_type": "Apartment",
+            "developer_name": "Al Thuriah",
+            "project_page_id": "page_project_almaza_tower_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 1000000
+          },
+          {
+            "href": "/en/projects/al-alia-tower/",
+            "meta": "Near range · AED 905K",
+            "label": "Al Alia Tower",
+            "item_type": "project_match",
+            "match_status": "near_budget",
+            "project_slug": "al-alia-tower",
+            "district_name": "Al Khan",
+            "handover_year": 2026,
+            "property_type": "Apartment",
+            "developer_name": "Al Thuriah",
+            "project_page_id": "page_project_al_alia_tower_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 905000
+          },
+          {
+            "href": "/en/areas/al-khan/",
+            "meta": "district guide",
+            "label": "Explore more projects in Al Khan",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for projects in Al Khan",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to another district and unwilling to compare this location",
+          "Buyers who need confirmed live inventory before reviewing recorded starting-price options",
+          "Buyers unwilling to account for registration, furnishing and ongoing ownership costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing projects in Al Khan within AED 1M–2M",
+          "Buyers prepared to compare the recorded entry price with the exact unit, layout and position",
+          "Buyers comfortable starting with 2 named project options before checking live units and current terms"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "In Al Khan, a budget of AED 1M–2M produces a workable shortlist, but headline prices do not show the full differences between the properties. Properties can start at similar prices while differing in format, condition, position and payment timing. Compare the exact property rather than the advertised entry price alone. The shortlist combines 1 option inside AED 1M–2M with 1 option just outside it. Treat the nearby options as comparison points rather than exact budget fits.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Exact unit price",
+          "Property format",
+          "Exact unit check",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The property price is only part of the cash requirement in Al Khan. Confirm transaction, financing, handover and ongoing ownership costs for the exact purchase.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Sharjah purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Check building or community charges, maintenance responsibilities and recurring ownership costs for the exact property.",
+            "title": "Service charges and property upkeep"
+          },
+          {
+            "text": "Plan separately for snagging, furnishing, utilities, moving and any costs due around handover or completion.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/under-aed-1m-in-al-khan/",
+          "label": "Property under AED 1M in Al Khan",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-2m-3m-in-al-khan/",
+          "label": "Property AED 2M–3M in Al Khan",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/apartments-aed-1m-2m-in-al-khan/",
+          "label": "Apartments AED 1M–2M in Al Khan",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/studios-aed-1m-2m-in-al-khan/",
+          "label": "Studios AED 1M–2M in Al Khan",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Current project data records 1 exact starting-price match for property in Al Khan within AED 1M–2M, plus 1 nearby match. These are recorded comparison matches, not live inventory. Verify the exact unit, layout, payment terms, handover position and current availability before shortlisting.",
+          "question": "Which property options should buyers check in Al Khan within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in Al Khan within AED 1M–2M, the strongest comparison paths currently shown are Apartments, Townhouses, Villas. 1 project has a recorded starting price in this budget; compare the exact layout, position and unit price. These are discovery signals based on recorded starting prices, not confirmation that every unit type is currently available.",
+          "question": "Which property types should buyers compare in Al Khan within AED 1M–2M?"
+        },
+        {
+          "answer": "The property price is only part of the cash requirement in Al Khan. Confirm transaction, financing, handover and ongoing ownership costs for the exact purchase. For property in Al Khan within AED 1M–2M, check registration and transaction costs, financing and valuation costs, service charges and property upkeep, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for property in Al Khan within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in Al Khan within AED 1M–2M, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for property in Al Khan within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in Al Khan within AED 1M–2M, Primadom AI can rank the 1 exact starting-price match and 1 nearby match by developer, unit type, usable size, completion profile, payment exposure and ownership costs. It should then flag the prices, unit availability and project terms that still need a live check before advisor review.",
+          "question": "How can Primadom AI refine a search for property in Al Khan within AED 1M–2M?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for property options in Al Khan within AED 1M–2M are not live inventory. Confirm current project prices and availability, payment schedules, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "District / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare property options in Al Khan within AED 1M–2M by property type, current price, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check property options in Al Khan, AED 1M–2M.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check property options in Al Khan, AED 1M–2M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_budget_district_aed_1m_2m_al_khan_en",
+        "page_layer": "budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 1M–2M",
+        "district_name": "Al Khan",
+        "canonical_url_path": "/en/budgets/aed-1m-2m-in-al-khan/",
+        "content_version_id": "36be5ad9-e79f-4e43-a9e5-1acc13750172",
+        "property_type_name": null
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore property options in Al Khan within AED 1M–2M by property type, current price, payment plan and total cost before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/aed-1m-2m-in-al-khan/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

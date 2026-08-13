@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-floor-plan__context__waterfront__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-floor-plan-waterfront/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-floor-plan-waterfront/",
+  "canonical_group_key": "ai_answer:how-to-check-floor-plan:context:waterfront",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-floor-plan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-floor-plan-waterfront/",
+          "label": "How should I check a floor plan? — Waterfront",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Waterfront",
+        "Project check",
+        "Developer",
+        "Timing",
+        "Terms to verify"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check a floor plan? — Waterfront",
+      "subtitle": "Review floor-plan suitability when considering waterfront property, focusing on developer, documents, timing and project terms to verify before a decision.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check a floor plan? — Waterfront",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which layout details affect practical use before buying",
+        "Compare usable space, circulation and room proportions for waterfront buyers",
+        "Explain which floor-plan compromises may affect resale before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me evaluate a floor plan for waterfront buyers",
+      "placeholder": "Help me evaluate a floor plan for waterfront buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Floor plan",
+        "Waterfront",
+        "Usable space",
+        "Layout efficiency",
+        "Unit comparison"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A floor plan should be judged by usable space, not only total area.</strong> For waterfront buyers, check room proportions, circulation, storage, natural light, privacy, balcony usability, furniture placement and any wasted or awkward space. Compare plans at similar sizes because two units with the same area can function very differently.",
+      "body_text": "A floor plan should be judged by usable space, not only total area. For waterfront buyers, check room proportions, circulation, storage, natural light, privacy, balcony usability, furniture placement and any wasted or awkward space. Compare plans at similar sizes because two units with the same area can function very differently.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check a floor plan? — Waterfront"
+        },
+        {
+          "label": "Context",
+          "value": "Waterfront"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Usability matters more than size"
+        },
+        {
+          "label": "Main checks",
+          "value": "Usable space · Layout efficiency · Unit comparison"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Wasted space · poor usability"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare usable layouts side by side"
+        },
+        {
+          "label": "Verification",
+          "value": "Current unit plan required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Floor Plan",
+      "market": "UAE",
+      "context": "Waterfront",
+      "eyebrow": "Key facts",
+      "question": "How to check floor plan for Waterfront?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Corridors, awkward corners or oversized circulation reduce the usable value of the stated size.",
+            "title": "The headline area hides wasted space"
+          },
+          {
+            "text": "Door positions, wall lengths or proportions make normal furniture placement unnecessarily restrictive.",
+            "title": "Important rooms are difficult to furnish"
+          },
+          {
+            "text": "Privacy, storage, work space or room arrangement does not fit the intended household or tenant.",
+            "title": "The plan conflicts with the use case"
+          },
+          {
+            "text": "For waterfront buyers, revisit the floor-plan review if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Rooms, circulation and storage make good use of the stated area without obvious wasted zones.",
+            "title": "The usable space is efficient"
+          },
+          {
+            "text": "Realistic furniture placement leaves comfortable movement, privacy and practical use in the main rooms.",
+            "title": "Furniture fits naturally"
+          },
+          {
+            "text": "Bedroom count, work space, storage and outdoor areas match how the buyer plans to occupy or rent the unit.",
+            "title": "The layout suits the intended use"
+          },
+          {
+            "text": "For waterfront buyers, the floor-plan review still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For waterfront buyers, check room proportions, circulation, storage, natural light, privacy, balcony usability, furniture placement and any wasted or awkward space.",
+          "title": "Usable space · Layout efficiency · Unit comparison",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the headline area hides wasted space, important rooms are difficult to furnish, or the plan conflicts with the use case.",
+          "title": "Floor-plan usability",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Compare plans at similar sizes because two units with the same area can function very differently.",
+          "title": "Compare usable layouts side by side",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the headline area hides wasted space, important rooms are difficult to furnish, or the plan conflicts with the use case. For waterfront buyers, compare plans at similar sizes because two units with the same area can function very differently.",
+        "tags": [
+          "Usable area",
+          "Layout efficiency",
+          "Orientation",
+          "Practical use",
+          "Floor-plan usability"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For waterfront buyers, look beyond total area and check how much space is practically usable once circulation, columns, balconies and service areas are considered.",
+            "title": "Measure usable living space"
+          },
+          {
+            "text": "Compare bedroom widths, furniture placement, storage, kitchen arrangement and circulation against the way the unit is expected to be used.",
+            "title": "Test room proportions"
+          },
+          {
+            "text": "Review sunlight, privacy, noise, neighbouring buildings and the direction of important rooms instead of evaluating the plan in isolation.",
+            "title": "Check orientation and exposure"
+          },
+          {
+            "text": "Set the floor plan beside similar units to see whether the buyer is paying for useful space or inefficient area.",
+            "title": "Compare layout efficiency"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-compare-unit-size-waterfront/",
+          "label": "How should I compare unit size?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-better-apartment-or-villa-waterfront/",
+          "label": "What is better: an apartment or a villa?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-view-premium-waterfront/",
+          "label": "How should I check a view premium?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-project-location-waterfront/",
+          "label": "How should I check a project location?"
+        },
+        {
+          "href": "/en/ai-answers/what-to-check-before-buying-waterfront/",
+          "label": "What should I check before buying?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A floor plan should be judged by usable space, not only total area. For waterfront buyers, look beyond total area and check how much space is practically usable once circulation, columns, balconies and service areas are considered.",
+          "question": "What should I check in a floor plan?"
+        },
+        {
+          "answer": "Unit size should be compared through usable space and layout efficiency, not area alone. Check corridors, room proportions, columns, balconies and circulation so a larger headline area is not automatically treated as the better layout.",
+          "question": "How should I compare unit sizes?"
+        },
+        {
+          "answer": "Apartments and villas suit different budgets, lifestyles, maintenance needs and buyer goals. Check service charges, maintenance and upkeep because operating costs can differ materially between apartments, villas and communities.",
+          "question": "Which is better: an apartment or a villa?"
+        },
+        {
+          "answer": "A view premium is justified only when the view is durable and valued by future buyers. Consider service charges, maintenance exposure and other recurring costs that may accompany premium waterfront facilities or locations.",
+          "question": "How should I assess whether a view premium is justified?"
+        },
+        {
+          "answer": "Project location should be judged at street and access level, not only by district name. The project sits in a less convenient or less desirable part of an otherwise attractive area. Verify the exact location because two projects in the same area can offer very different day-to-day quality.",
+          "question": "How should I assess a project's location?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Use this page as decision guidance rather than a substitute for current source verification. Details that can change should be rechecked against relevant official, first-party or current market information before they are used in a buyer decision.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Waterfront · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Usable space · Layout efficiency · Unit comparison"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Relevant official or first-party sources"
+        },
+        {
+          "label": "Live check",
+          "value": "Current details where they may have changed"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "general",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this unit-level check to your waterfront search, including layout, usable space, view, pricing impact and resale or rental implications, then flag what should be verified on the exact unit.",
+      "title": "Want to check the unit-level details before you decide?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your waterfront search, focusing on layout, usable space, view, pricing impact and the unit-level details that should be verified.",
+      "title": "Check the unit details before you decide",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check the unit details before I make a decision.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

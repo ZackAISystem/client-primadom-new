@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-view-premium__context__first-time-buyers__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-view-premium-first-time-buyers/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-view-premium-first-time-buyers/",
+  "canonical_group_key": "ai_answer:how-to-check-view-premium:context:first-time-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-view-premium",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-view-premium-first-time-buyers/",
+          "label": "How should I check a view premium? — First Time Buyers",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "First Time Buyers",
+        "Cost check",
+        "Total cost",
+        "Cost inputs",
+        "Compare terms"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check a view premium? — First Time Buyers",
+      "subtitle": "Review view premium and price difference for first-time buyers, including the main cost drivers, cost inputs and trade-offs to compare.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check a view premium? — First Time Buyers",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show what makes a view premium defensible before buying",
+        "Compare floor, orientation and long-term view protection for first-time buyers",
+        "Explain when a view premium may be difficult to justify"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess a view premium for first-time buyers",
+      "placeholder": "Help me assess a view premium for first-time buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "View premium",
+        "First-time buyers",
+        "Location premium",
+        "Obstruction risk",
+        "Resale"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A view premium is justified only when the view is durable and valued by future buyers.</strong> For first-time buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply. Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+      "body_text": "A view premium is justified only when the view is durable and valued by future buyers. For first-time buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply. Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check a view premium? — First Time Buyers"
+        },
+        {
+          "label": "Context",
+          "value": "First Time Buyers"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Premium needs durable value"
+        },
+        {
+          "label": "Main checks",
+          "value": "Location premium · Obstruction risk · Resale"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Premium · obstruction · resale"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare premium with durable benefit"
+        },
+        {
+          "label": "Verification",
+          "value": "Current unit check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check View Premium",
+      "market": "UAE",
+      "context": "First Time Buyers",
+      "eyebrow": "Key facts",
+      "question": "How to check view premium for First Time Buyers?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Future development could materially obstruct or dilute the feature supporting the higher price.",
+            "title": "The premium is based on a fragile view"
+          },
+          {
+            "text": "Service charges, maintenance or other ownership costs make the premium harder to justify.",
+            "title": "Ongoing costs offset the benefit"
+          },
+          {
+            "text": "The resale case assumes a level of demand that may be narrower than the current sales narrative suggests.",
+            "title": "Future buyers may not pay the same premium"
+          },
+          {
+            "text": "For first-time buyers, revisit the view-premium check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "The view or waterfront position materially improves the buyer’s use, experience or tenant appeal.",
+            "title": "The premium creates daily value"
+          },
+          {
+            "text": "Future construction or site conditions are unlikely to remove the main view or location advantage.",
+            "title": "The benefit is likely to remain"
+          },
+          {
+            "text": "Comparable units support paying extra for the specific view, access or waterfront position.",
+            "title": "The premium is reasonable against alternatives"
+          },
+          {
+            "text": "For first-time buyers, the view-premium check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For first-time buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply.",
+          "title": "Location premium · Obstruction risk · Resale",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the premium is based on a fragile view, ongoing costs offset the benefit, or future buyers may not pay the same premium.",
+          "title": "View-premium value",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+          "title": "Compare premium with durable benefit",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the premium is based on a fragile view, ongoing costs offset the benefit, or future buyers may not pay the same premium. For first-time buyers, pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+        "tags": [
+          "View certainty",
+          "Obstruction risk",
+          "Price premium",
+          "Running costs",
+          "View-premium value"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For first-time buyers, confirm the floor, orientation and actual line of sight rather than assuming every unit in a waterfront or view-led project has the same outlook.",
+            "title": "Verify the exact unit outlook"
+          },
+          {
+            "text": "Review adjacent plots, planned phases and infrastructure that could change an open view or the perceived waterfront position later.",
+            "title": "Check future obstruction risk"
+          },
+          {
+            "text": "Compare similar units with and without the view feature to see how much additional price is being paid for the claimed advantage.",
+            "title": "Measure the price premium"
+          },
+          {
+            "text": "Consider service charges, maintenance exposure and other recurring costs that may accompany premium waterfront facilities or locations.",
+            "title": "Include waterfront running costs"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-floor-plan-first-time-buyers/",
+          "label": "How should I check a floor plan?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-compare-unit-size-first-time-buyers/",
+          "label": "How should I compare unit size?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-better-apartment-or-villa-first-time-buyers/",
+          "label": "What is better: an apartment or a villa?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-project-location-first-time-buyers/",
+          "label": "How should I check a project location?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-master-community-first-time-buyers/",
+          "label": "How should I check a master community?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A view premium is justified only when the view is durable and valued by future buyers. For first-time buyers, confirm the floor, orientation and actual line of sight rather than assuming every unit in a waterfront or view-led project has the same outlook.",
+          "question": "How should I assess whether a view premium is justified?"
+        },
+        {
+          "answer": "A floor plan should be judged by usable space, not only total area. Compare bedroom widths, furniture placement, storage, kitchen arrangement and circulation against the way the unit is expected to be used.",
+          "question": "What should I check in a floor plan?"
+        },
+        {
+          "answer": "Unit size should be compared through usable space and layout efficiency, not area alone. Compare price against useful area and product quality rather than relying on total square footage without considering layout efficiency.",
+          "question": "How should I compare unit sizes?"
+        },
+        {
+          "answer": "Apartments and villas suit different budgets, lifestyles, maintenance needs and buyer goals. Assess the likely tenant or resale audience for each property type in the chosen location before treating one format as universally better.",
+          "question": "Which is better: an apartment or a villa?"
+        },
+        {
+          "answer": "Project location should be judged at street and access level, not only by district name. The project sits in a less convenient or less desirable part of an otherwise attractive area. Verify the exact location because two projects in the same area can offer very different day-to-day quality.",
+          "question": "How should I assess a project's location?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Use this page as decision guidance rather than a substitute for current source verification. Details that can change should be rechecked against relevant official, first-party or current market information before they are used in a buyer decision.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "First Time Buyers · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Location premium · Obstruction risk · Resale"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Relevant official or first-party sources"
+        },
+        {
+          "label": "Live check",
+          "value": "Current details where they may have changed"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "general",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this unit-level check to your first property purchase, including layout, usable space, view, pricing impact and resale or rental implications, then flag what should be verified on the exact unit.",
+      "title": "Want to check the unit-level details before you decide?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your first property purchase, focusing on layout, usable space, view, pricing impact and the unit-level details that should be verified.",
+      "title": "Check the unit details before you decide",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check the unit details before I make a decision.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

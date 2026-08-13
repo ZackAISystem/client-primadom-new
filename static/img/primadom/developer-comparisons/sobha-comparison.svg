@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#94bfd6"/><stop offset=".48" stop-color="#f1c8a7"/><stop offset="1" stop-color="#f7e6c4"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2e4d39"/><stop offset="1" stop-color="#d9c59d"/></linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#a)"/>
+  <rect y="540" width="900" height="360" fill="url(#g)"/>
+  <path d="M120 580 C260 500 420 480 590 560 C715 620 790 585 900 545 L900 900 L0 900 L0 630 Z" fill="#e8d9c7" opacity=".78"/>
+  <g fill="#f7f2ea" opacity=".86">
+    <path d="M185 525 L295 420 L405 525 Z"/><rect x="205" y="520" width="185" height="70" rx="15"/>
+    <path d="M455 520 L570 395 L690 520 Z"/><rect x="475" y="515" width="195" height="74" rx="15"/>
+  </g>
+  <g fill="#161a16" opacity=".62">
+    <circle cx="300" cy="455" r="34"/><rect x="294" y="455" width="12" height="90"/>
+    <circle cx="600" cy="430" r="42"/><rect x="594" y="430" width="13" height="110"/>
+  </g>
+</svg>

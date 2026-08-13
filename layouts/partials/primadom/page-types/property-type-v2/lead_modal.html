@@ -1,0 +1,248 @@
+{{- $d := partial "primadom/page-types/property-type-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $m := $t.modal -}}
+{{- $h := $t.hero -}}
+
+{{- $voiceStatus := $h.voice_status | default "Listening…" -}}
+{{- $voiceSuccessStatus := $h.voice_success_status | default "Got it" -}}
+{{- $voiceErrorStatus := $h.voice_error_status | default "Voice paused" -}}
+{{- $voiceErrorText := $h.voice_error_text | default "Type your request or try again" -}}
+{{- $voiceFallbackStatus := $h.voice_fallback_status | default "Voice mode" -}}
+{{- $voiceFallbackText := $h.voice_fallback_text | default "Speech recognition is not supported here" -}}
+{{- $voiceText := $h.ai_voice_text | default $h.voice_text | default $h.ai_placeholder | default "Ask about this property type" -}}
+{{- $voiceButtonLabel := $h.voice_button_label | default "Start voice search" -}}
+
+<div
+  class="pt-modal"
+  id="propertyTypeLeadModal"
+  aria-hidden="true"
+>
+
+  <div
+    class="pt-modal__backdrop"
+    data-close-property-type-lead
+  ></div>
+
+
+  <section
+    class="pt-modal__panel"
+    role="dialog"
+    aria-modal="true"
+    aria-label="{{ $m.aria }}"
+  >
+
+    <button
+      class="pt-modal__close"
+      type="button"
+      data-close-property-type-lead
+      aria-label="{{ $m.close_label }}"
+    >×</button>
+
+
+    <span class="pt-modal__eyebrow">
+      {{ $m.eyebrow }}
+    </span>
+
+
+    <h2>
+      {{ $m.title }}
+    </h2>
+
+
+    <p>
+      {{ $m.text }}
+    </p>
+
+
+    <form
+      class="pt-form"
+      data-property-type-form
+    >
+
+      <div class="pt-form__grid">
+
+        <label class="pt-field">
+
+          <span>
+            {{ $m.fields.name }}
+          </span>
+
+          <input
+            type="text"
+            name="name"
+            placeholder="{{ $m.placeholders.name }}"
+            required
+          >
+
+        </label>
+
+
+        <label class="pt-field">
+
+          <span>
+            {{ $m.fields.phone }}
+          </span>
+
+          <input
+            type="tel"
+            name="phone"
+            placeholder="{{ $m.placeholders.phone }}"
+            required
+          >
+
+        </label>
+
+
+        {{- with $m.fields.email }}
+
+          <label class="pt-field">
+
+            <span>
+              {{ . }}
+            </span>
+
+            <input
+              type="email"
+              name="email"
+              placeholder="{{ $m.placeholders.email }}"
+            >
+
+          </label>
+
+        {{- end }}
+
+      </div>
+
+
+      <label
+        class="pt-field pt-field--request"
+      >
+
+        <span>
+          {{ $m.fields.comment }}
+        </span>
+
+
+        <div
+          class="pt-request-row"
+          data-property-type-request-row
+          data-voice-listening-status="{{ $voiceStatus }}"
+          data-voice-success-status="{{ $voiceSuccessStatus }}"
+          data-voice-error-status="{{ $voiceErrorStatus }}"
+          data-voice-error-text="{{ $voiceErrorText }}"
+          data-voice-fallback-status="{{ $voiceFallbackStatus }}"
+          data-voice-fallback-text="{{ $voiceFallbackText }}"
+          data-voice-text="{{ $voiceText }}"
+        >
+
+          <div
+            class="pt-request-row__badge"
+          >
+
+            <i aria-hidden="true"></i>
+
+            {{ $m.fields.comment }}
+
+          </div>
+
+
+          <textarea
+            class="pt-request-row__textarea"
+            data-property-type-comment
+            name="comment"
+            rows="1"
+          >{{ $m.comment }}</textarea>
+
+
+          <button
+            class="pt-modal-voice"
+            type="button"
+            data-property-type-voice
+            aria-label="{{ $voiceButtonLabel }}"
+            aria-pressed="false"
+          >
+
+            <span
+              class="pt-modal-voice__aura"
+              aria-hidden="true"
+            ></span>
+
+            <span
+              class="pt-modal-voice__core"
+              aria-hidden="true"
+            ></span>
+
+          </button>
+
+
+          <div
+            class="pt-modal-voice-popover"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+
+            <div
+              class="pt-modal-voice-popover__inner"
+            >
+
+              <span
+                class="pt-modal-voice-popover__dot"
+                aria-hidden="true"
+              ></span>
+
+
+              <span
+                class="pt-modal-voice-popover__copy"
+              >
+
+                <strong
+                  class="pt-modal-voice-popover__status"
+                  data-property-type-voice-status
+                >
+                  {{ $voiceStatus }}
+                </strong>
+
+                <span
+                  class="pt-modal-voice-popover__text"
+                  data-property-type-voice-text
+                >
+                  {{ $voiceText }}
+                </span>
+
+              </span>
+
+
+              <span
+                class="pt-modal-voice-popover__bars"
+                aria-hidden="true"
+              >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <button
+            class="pt-submit"
+            type="submit"
+            data-submit-label="{{ $m.submit }}"
+            data-success-label="{{ $m.success }}"
+          >
+            {{ $m.submit }}
+          </button>
+
+        </div>
+
+      </label>
+
+    </form>
+
+  </section>
+
+</div>

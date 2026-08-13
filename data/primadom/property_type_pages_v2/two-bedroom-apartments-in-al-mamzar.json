@@ -1,0 +1,966 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_two_bedroom_apartments_al_mamzar_en",
+  "page_type_id": "property_type_page",
+  "language_code": "en",
+  "url_path": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+  "canonical_url_path": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+  "canonical_group_key": "property_district:two-bedroom-apartments:al-mamzar",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-mamzar",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Summary",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projects",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Property type page navigation",
+      "cta_label": "Find options",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "property_types",
+          "href": "/en/property-types/",
+          "label": "Property types"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-mamzar/",
+          "label": "Al Mamzar, Sharjah"
+        },
+        {
+          "key": "current",
+          "href": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+          "label": "2 Bedroom Apartments in Al Mamzar, Sharjah",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Property type: 2 Bedroom Apartments",
+        "Area: Al Mamzar, Sharjah",
+        "2-bedroom layout",
+        "End use / investment intent",
+        "AI finder"
+      ],
+      "image": {
+        "alt": "2 Bedroom Apartments in Al Mamzar, Sharjah property type overview",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "2 Bedroom Apartments in Al Mamzar, Sharjah",
+      "subtitle": "A practical guide to 2 Bedroom Apartments in Al Mamzar, Sharjah, covering two-bedroom layouts and usable space, price context, project options and an AI finder.",
+      "facts_aria": "Property type hero highlights",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "2 Bedroom Apartments in Al Mamzar, Sharjah property type hero visual",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Ask Primadom AI about 2 bedroom apartments in Al Mamzar, Sharjah",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Ask about 2 bedroom apartments in Al Mamzar, Sharjah, budget or fit",
+      "placeholder": "Ask about 2 bedroom apartments in Al Mamzar, Sharjah, budget or fit",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Voice search",
+      "click_action": "fill_input",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Find 2 bedroom apartments in Al Mamzar, Sharjah for my budget",
+        "Compare 2 bedroom apartments by layout, building quality and total cost",
+        "What should I check for 2 bedroom apartments in Al Mamzar, Sharjah?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Type your request or try again",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Voice mode",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "2 Bedroom Apartments",
+        "Al Mamzar, Sharjah",
+        "Living / investment",
+        "2-bedroom layout",
+        "Project verification"
+      ],
+      "title": "Property type summary",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>2 Bedroom Apartments in Al Mamzar, Sharjah</strong> can be compared by layout, usable space, building quality, parking and ownership costs. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "body_text": "2 Bedroom Apartments in Al Mamzar, Sharjah can be compared by layout, usable space, building quality, parking and ownership costs. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Type",
+          "value": "2 Bedroom Apartments",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Area",
+          "value": "Al Mamzar, Sharjah",
+          "fact_key": "area"
+        },
+        {
+          "label": "Market",
+          "value": "Sharjah / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Linked project pages",
+          "value": "5 district project pages",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Buyer intent",
+          "value": "Family living · investment",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Key filters",
+          "value": "Room sizes · storage · total cost",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare linked project pages",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Comparison scope",
+          "value": "Projects · areas · ownership costs",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Property type details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 5,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who it is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers who need villa-scale privacy, a large garden or more than two bedrooms",
+          "Buyers unwilling to compare room sizes, storage and service charges",
+          "Buyers expecting rental performance without checking demand, rules and operating costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Couples, small families or investors needing flexible second-room use",
+          "Buyers balancing family practicality with apartment-level running costs",
+          "Buyers assessing rental rules, tenant demand and realistic operating costs in Al Mamzar, Sharjah"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Al Mamzar",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "property_logic": {
+        "body": "Compare 2-bedroom apartments by room proportions, storage, bathroom layout, balcony use and total ownership costs. In Al Mamzar, Sharjah, compare rental rules, tenant demand, unit efficiency and realistic operating costs. Confirm current availability and, where relevant, recurring costs, payment terms and handover details before deciding.",
+        "tags": [
+          "Room proportions",
+          "Storage",
+          "Service charges",
+          "Family use",
+          "Rental context"
+        ],
+        "title": "Property type logic",
+        "eyebrow": "How to compare"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "For 2 bedroom apartments in Al Mamzar, Sharjah, compare layout, usable space, building quality, parking and ownership costs.",
+            "route": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+            "buyer_fit": "Current area context",
+            "relationship": "current_area",
+            "district_name": "Al Mamzar, Sharjah",
+            "district_slug": "al-mamzar"
+          },
+          {
+            "text": "Compare Aljada with Al Mamzar, Sharjah by reviewing layout, usable space, building quality, parking and ownership costs.",
+            "route": "/en/property-types/two-bedroom-apartments-in-aljada/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Aljada",
+            "district_slug": "aljada"
+          },
+          {
+            "text": "Compare Al Mamsha with Al Mamzar, Sharjah by reviewing layout, usable space, building quality, parking and ownership costs.",
+            "route": "/en/property-types/two-bedroom-apartments-in-al-mamsha/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Al Mamsha",
+            "district_slug": "al-mamsha"
+          },
+          {
+            "text": "Compare Muwaileh with Al Mamzar, Sharjah by reviewing layout, usable space, building quality, parking and ownership costs.",
+            "route": "/en/property-types/two-bedroom-apartments-in-muwaileh/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Muwaileh",
+            "district_slug": "muwaileh"
+          }
+        ],
+        "title": "Relevant districts",
+        "eyebrow": "Area context"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Pricing for 2-bedroom apartments in Al Mamzar, Sharjah depends on room proportions, usable area, floor, view, parking and building quality. Room proportions, bathroom layout, storage and parking can matter more than the advertised bedroom count alone. Include service charges, parking costs, payment terms and any upgrade requirements when comparing the full ownership cost. Confirm project-level pricing and payment terms before comparing the area on budget alone.",
+        "tags": [
+          "Room proportions",
+          "Usable area",
+          "Parking",
+          "Service charges",
+          "Price verification"
+        ],
+        "title": "How pricing varies",
+        "eyebrow": "Price reality"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 4,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 0,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "two_bedroom_numeric",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "al-mamzar",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 5
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "aljada",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 19
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "al-mamsha",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 13
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "muwaileh",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 9
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 0,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "For 2-bedroom apartments in Al Mamzar, Sharjah, compare project quality, ownership cost, buyer depth and resale competition.",
+          "title": "Compare cost with buyer depth",
+          "eyebrow": "Investment logic"
+        },
+        {
+          "text": "Compare layout, access, amenities, building management and daily travel with how the buyer will use the home.",
+          "title": "Match the home to daily use",
+          "eyebrow": "Lifestyle logic"
+        },
+        {
+          "text": "Compare developer, project status, handover timing, floor plan, fees and total ownership cost before deciding.",
+          "title": "Headline appeal is not enough",
+          "eyebrow": "Risk notes"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare 2-bedroom apartments in Al Mamzar, Sharjah by buyer goal, project status, payment terms, ownership cost and daily-use priorities.",
+          "title": "Turn this page into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "cards_aria": "Property type decision notes",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_two_bedroom_apartments_al_mamzar_en",
+        "context_focus": "rental",
+        "district_slug": "al-mamzar",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+        "property_type_slug": "two-bedroom-apartments",
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "guaranteed_roi_asserted": false,
+        "quality_patch_completed": true,
+        "project_ranking_asserted": false,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "fourth_card_is_ai_context": true,
+        "full_csv_review_completed": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/s1-tower/",
+            "meta": "Al Mamzar, Sharjah",
+            "label": "S1 Tower"
+          },
+          {
+            "href": "/en/projects/faradis-tower/",
+            "meta": "Al Mamzar, Sharjah",
+            "label": "Faradis Tower"
+          },
+          {
+            "href": "/en/projects/la-plage-tower/",
+            "meta": "Al Mamzar, Sharjah",
+            "label": "La Plage Tower"
+          },
+          {
+            "href": "/en/projects/the-bridge-collection/",
+            "meta": "Al Mamzar, Sharjah",
+            "label": "The Bridge Collection"
+          },
+          {
+            "href": "/en/projects/nesba-1/",
+            "meta": "Aljada",
+            "label": "Nesba 1"
+          }
+        ],
+        "title": "Recommended projects",
+        "eyebrow": "Project options"
+      },
+      "pros_cons": {
+        "title": "Pros and cons",
+        "eyebrow": "Reality check",
+        "cons_items": [
+          "More internal space usually increases price and recurring charges",
+          "In Al Mamzar, Sharjah, tenant demand can vary by building and competing supply",
+          "Competing supply can weaken pricing power for similar units"
+        ],
+        "cons_title": "Cons",
+        "pros_items": [
+          "Two bedrooms can support couples, small families or a home office",
+          "In Al Mamzar, Sharjah, compare tenant fit, layout and recurring costs across buildings",
+          "Clear tenant positioning can help a unit compete more effectively"
+        ],
+        "pros_title": "Pros"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_two_bedroom_apartments_al_mamzar_en",
+        "district_slug": "al-mamzar",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "rental",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "S1 Tower",
+            "project_slug": "s1-tower",
+            "project_route": "/en/projects/s1-tower/",
+            "developer_name": "Al Thuriah",
+            "developer_slug": "al-thuriah",
+            "location_score": 5,
+            "project_district_name": "Al Mamzar",
+            "project_district_slug": "al-mamzar"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Faradis Tower",
+            "project_slug": "faradis-tower",
+            "project_route": "/en/projects/faradis-tower/",
+            "developer_name": "Tiger Properties",
+            "developer_slug": "tiger-properties",
+            "location_score": 5,
+            "project_district_name": "Al Mamzar",
+            "project_district_slug": "al-mamzar"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "La Plage Tower",
+            "project_slug": "la-plage-tower",
+            "project_route": "/en/projects/la-plage-tower/",
+            "developer_name": "Al Thuriah",
+            "developer_slug": "al-thuriah",
+            "location_score": 5,
+            "project_district_name": "Al Mamzar",
+            "project_district_slug": "al-mamzar"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "The Bridge Collection",
+            "project_slug": "the-bridge-collection",
+            "project_route": "/en/projects/the-bridge-collection/",
+            "developer_name": "Seven Tides",
+            "developer_slug": "seven-tides",
+            "location_score": 5,
+            "project_district_name": "Al Mamzar",
+            "project_district_slug": "al-mamzar"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Nesba 1",
+            "project_slug": "nesba-1",
+            "project_route": "/en/projects/nesba-1/",
+            "developer_name": "ARADA - Sale",
+            "developer_slug": "arada-sale",
+            "location_score": 3,
+            "project_district_name": "Aljada",
+            "project_district_slug": "aljada"
+          }
+        ],
+        "canonical_url_path": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+        "property_type_slug": "two-bedroom-apartments",
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "quality_patch_completed": true,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/en/property-types/one-bedroom-apartments-in-al-mamzar/",
+          "label": "1 Bedroom Apartments in Al Mamzar, Sharjah"
+        },
+        {
+          "href": "/en/property-types/three-bedroom-apartments-in-al-mamzar/",
+          "label": "3 Bedroom Apartments in Al Mamzar, Sharjah"
+        },
+        {
+          "href": "/en/property-types/apartments-in-al-mamzar/",
+          "label": "Apartments in Al Mamzar, Sharjah"
+        },
+        {
+          "href": "/en/property-types/luxury-apartments-in-al-mamzar/",
+          "label": "Luxury Apartments in Al Mamzar, Sharjah"
+        }
+      ],
+      "title": "Similar property types",
+      "eyebrow": "Related options",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Al Mamzar",
+            "target_route": "/en/property-types/one-bedroom-apartments-in-al-mamzar/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "3 Bedroom Apartments in Al Mamzar",
+            "target_route": "/en/property-types/three-bedroom-apartments-in-al-mamzar/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "three_bedroom"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "Apartments in Al Mamzar",
+            "target_route": "/en/property-types/apartments-in-al-mamzar/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1300,
+            "target_label": "Luxury Apartments in Al Mamzar",
+            "target_route": "/en/property-types/luxury-apartments-in-al-mamzar/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "luxury_apartment"
+          }
+        ],
+        "source_route": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "visible_ranking_claim": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "route_validation_passed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "When comparing 2 bedroom apartments in Al Mamzar, Sharjah, focus on layout, usable space, building quality, parking and ownership costs. Verify the exact project, layout, recurring costs and current terms before deciding.",
+          "question": "What should buyers know about 2 bedroom apartments in Al Mamzar, Sharjah?"
+        },
+        {
+          "answer": "In Al Mamzar, Sharjah, this page may suit couples, small families or investors needing flexible second-room use. It may also be relevant to buyers balancing family practicality with apartment-level running costs. The final choice should reflect tenant fit, recurring costs and competing supply.",
+          "question": "Who may consider 2 bedroom apartments in Al Mamzar, Sharjah for rental ownership?"
+        },
+        {
+          "answer": "Key advantage: Two bedrooms can support couples, small families or a home office. Key trade-off: More internal space usually increases price and recurring charges. In Al Mamzar, Sharjah, compare tenant fit, layout and recurring costs across buildings. A further local consideration is that tenant demand can vary by building and competing supply.",
+          "question": "What trade-offs matter when comparing 2 bedroom apartments in Al Mamzar, Sharjah?"
+        },
+        {
+          "answer": "Projects shown for comparison on this page include S1 Tower, Faradis Tower and La Plage Tower. Buyers can also compare 1 Bedroom Apartments in Al Mamzar, Sharjah and 3 Bedroom Apartments in Al Mamzar, Sharjah to test a different property format in or near the same market. These links support navigation only; they are not a ranking or confirmation of current unit availability.",
+          "question": "What can buyers compare alongside 2 bedroom apartments in Al Mamzar, Sharjah?"
+        },
+        {
+          "answer": "Prices, unit availability, fees, payment plans and handover details can change. For 2 bedroom apartments in Al Mamzar, Sharjah, confirm layout, internal area, building condition, service charges, unit status and payment terms against official developer materials and current advisor checks. Primadom AI can organise the comparison, but current commercial terms should be verified before deciding.",
+          "question": "How should buyers verify prices and availability for 2 bedroom apartments in Al Mamzar, Sharjah?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Property type questions",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "rental",
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Information about 2 bedroom apartments in Al Mamzar, Sharjah should be used as a comparison guide rather than a live offer. Before deciding, confirm the exact layout, internal area, building condition and recurring charges, current price and availability, payment terms, handover or completion status, and total ownership costs with the developer or an authorised advisor.",
+      "items": [
+        {
+          "label": "Property details",
+          "value": "Check layout, area and building details"
+        },
+        {
+          "label": "Price & availability",
+          "value": "Confirm current unit terms"
+        },
+        {
+          "label": "Fees & ownership costs",
+          "value": "Review holding and recurring costs"
+        },
+        {
+          "label": "Payment & handover",
+          "value": "Verify status, dates and contract terms"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Before you decide",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "content_quality_status": "final",
+        "internal_source_status": "verification_pending",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare 2 bedroom apartments in Al Mamzar, Sharjah by layout, usable space, project, location, budget and ownership costs, with attention to tenant fit and recurring costs, then review suitable options with an advisor.",
+      "title": "Looking for 2 bedroom apartments in Al Mamzar, Sharjah?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Find matching options",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Property type enquiry form",
+      "text": "Share your preferences for 2 bedroom apartments in Al Mamzar, Sharjah. Primadom AI will organise the request around layout, usable space, project, location and ownership costs before an advisor reviews it.",
+      "title": "Find 2 bedroom apartments in Al Mamzar, Sharjah",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "I'm looking for suitable two-bedroom apartment options on this page.",
+      "eyebrow": "AI finder handoff",
+      "success": "Sent",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Close",
+      "source_meta": {
+        "source_route": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+        "source_page_id": "page_property_district_two_bedroom_apartments_al_mamzar_en",
+        "shortlist_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "advisor_routing_pending": true,
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps buyers compare 2 bedroom apartments in Al Mamzar, Sharjah by layout, usable space, project, location and ownership costs before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "2 bedroom apartments in Al Mamzar, Sharjah, connected to projects and buyer scenarios",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/en/property-types/two-bedroom-apartments-in-al-mamzar/",
+        "source_page_id": "page_property_district_two_bedroom_apartments_al_mamzar_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "rental",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "two_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

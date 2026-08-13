@@ -1,0 +1,11 @@
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pa-mini-row" id="area-decision">
+  {{ range $t.decision_cards }}
+    <article class="pa-mini{{ if .dark }} pa-mini--dark{{ end }}">
+      <span>{{ .eyebrow }}</span>
+      <strong>{{ .title }}</strong>
+      <p>{{ .text }}</p>
+    </article>
+  {{ end }}
+</div>

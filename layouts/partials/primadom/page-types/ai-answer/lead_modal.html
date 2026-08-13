@@ -1,0 +1,21 @@
+{{- $d := partial "primadom/page-types/ai-answer/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="aa-modal" id="aiAnswerLeadModal" aria-hidden="true">
+  <div class="aa-modal__backdrop" data-close-ai-answer-lead></div>
+  <section class="aa-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $t.modal.aria }}">
+    <button class="aa-modal__close" type="button" data-close-ai-answer-lead aria-label="{{ $t.modal.close_label }}">×</button>
+    <span class="aa-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2>{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+
+    <form class="aa-form" data-ai-answer-form>
+      <div class="aa-form__grid">
+        <label class="aa-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name" placeholder="{{ $t.modal.placeholders.name }}"></label>
+        <label class="aa-field"><span>{{ $t.modal.fields.phone }}</span><input type="tel" name="phone" placeholder="{{ $t.modal.placeholders.phone }}"></label>
+        <label class="aa-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget" placeholder="{{ $t.modal.placeholders.budget }}"></label>
+      </div>
+      <label class="aa-field"><span>{{ $t.modal.fields.comment }}</span><textarea name="comment">{{ $t.modal.comment }}</textarea></label>
+      <button class="aa-submit" type="submit" data-submit-label="{{ $t.modal.submit }}" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+    </form>
+  </section>
+</div>

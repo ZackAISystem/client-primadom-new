@@ -1,0 +1,46 @@
+/* =========================
+   Primadom AI System
+   02 Shared Components
+========================= */
+
+.pd-card {
+  border: 1px solid var(--pd-line);
+  border-radius: var(--pd-radius-lg);
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: var(--pd-shadow-card);
+}
+
+.pd-grid-2 {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--pd-gap);
+}
+
+.pd-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--pd-gap);
+}
+
+.pd-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 8px 13px;
+  border-radius: 999px;
+  background: rgba(184, 137, 85, 0.10);
+  color: var(--pd-ink);
+  font-size: 13px;
+  line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .pd-grid-2,
+  .pd-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .pd-section {
+    padding: 64px 0;
+  }
+}

@@ -1,0 +1,8 @@
+{{- $slug := .Params.buyer_scenario_slug | default "family-relocation-dubai" -}}
+{{- $raw := index site.Data.primadom.buyer_scenario_pages $slug -}}
+{{- if not $raw -}}
+  {{- errorf "Buyer scenario page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $t := index $raw.i18n $lang | default (index $raw.i18n "en") -}}
+{{- return (dict "raw" $raw "t" $t "lang" $lang "slug" $slug) -}}

@@ -1,0 +1,10 @@
+---
+title: "AG Central vs Aldar Cassia 5"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "ag-central-vs-aldar-cassia-5"
+page_id: "page_project_comparison_ag_central_vs_aldar_cassia_5_en"
+url: "/en/compare-projects/ag-central-vs-aldar-cassia-5/"
+build:
+  render: always
+  list: never
+---

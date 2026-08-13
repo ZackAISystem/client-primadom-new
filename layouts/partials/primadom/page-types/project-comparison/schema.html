@@ -1,0 +1,77 @@
+{{- $d := partial "primadom/page-types/project-comparison/_data.html" . -}}
+{{- $t := $d.t -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ $t.seo.canonical }}#webpage",
+      "url": "{{ $t.seo.canonical }}",
+      "name": {{ $t.seo.title | jsonify }},
+      "description": {{ $t.seo.description | jsonify }},
+      "inLanguage": "{{ $d.lang }}",
+      "breadcrumb": {"@id":"{{ $t.seo.canonical }}#breadcrumbs"},
+      "mainEntity": {"@id":"{{ $t.seo.canonical }}#comparison"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ $t.seo.canonical }}#breadcrumbs",
+      "itemListElement": [
+        {{- range $index, $item := $t.hero.breadcrumbs -}}
+        {{- if gt $index 0 }},{{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ add $index 1 }},
+          "name": {{ $item.label | jsonify }},
+          "item": {{ printf "https://primadom.ai%s" $item.href | jsonify }}
+        }
+        {{- end }}
+      ]
+    },
+    {
+      "@type": "Thing",
+      "@id": "{{ $t.seo.canonical }}#comparison",
+      "name": {{ $t.hero.title | jsonify }},
+      "description": {{ $t.verdict.body_text | jsonify }}
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ $t.seo.canonical }}#project-list",
+      "name": {{ $t.schema.project_list_name | jsonify }},
+      "itemListElement": [
+        {{- $pos := 0 -}}
+        {{- range $t.projects.area_a.items -}}
+          {{- $pos = add $pos 1 -}}
+          {{- if gt $pos 1 }},{{ end }}
+          {"@type":"ListItem","position":{{ $pos }},"name":{{ .label | jsonify }}}
+        {{- end -}}
+        {{- range $t.projects.area_b.items -}}
+          {{- $pos = add $pos 1 -}}
+          ,{"@type":"ListItem","position":{{ $pos }},"name":{{ .label | jsonify }}}
+        {{- end -}}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ $t.seo.canonical }}#faq",
+      "mainEntity": [
+        {{- range $index, $item := $t.faq.items -}}
+        {{- if gt $index 0 }},{{ end }}
+        {
+          "@type":"Question",
+          "name":{{ $item.question | jsonify }},
+          "acceptedAnswer":{"@type":"Answer","text":{{ $item.answer | jsonify }}}
+        }
+        {{- end }}
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://primadom.ai/#organization",
+      "name": "Primadom AI System",
+      "url": "https://primadom.ai/"
+    }
+  ]
+}
+</script>

@@ -1,0 +1,21 @@
+{{/* Primadom AI System — Project Page partial: cta.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.cta -}}
+
+<article class="pd-project-cta-card" id="contact">
+  <div>
+    <h3>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.title "lang" $lang) }}</h3>
+    <p>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.text "lang" $lang) }}</p>
+  </div>
+
+  <div class="pd-project-actions">
+    {{- range $action := $b.actions }}
+      <a {{ if $action.open_modal }}data-open-project-lead href="#projectLeadModal"{{ else }}href="{{ $action.href | default "#" }}"{{ end }}>
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $action.label "lang" $lang) }}
+      </a>
+    {{- end }}
+  </div>
+</article>

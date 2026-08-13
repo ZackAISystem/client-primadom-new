@@ -1,0 +1,46 @@
+{{- $d := partial "primadom/page-types/developer-v2/_data.html" . -}}
+{{- $p := $d.page -}}
+{{- $t := $d.t -}}
+
+<!doctype html>
+
+<html lang="{{ $p.language_code }}" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>{{ $t.hero.title }} — Primadom AI</title>
+
+  <meta
+    name="description"
+    content="{{ $t.short_summary.body_text }}"
+  >
+
+  <link
+    rel="canonical"
+    href="{{ $p.canonical_url_path | absURL }}"
+  >
+
+  <link
+    rel="stylesheet"
+    href="{{ "css/primadom/page-developer.css" | relURL }}"
+  >
+
+  {{ partial "primadom/page-types/developer-v2/schema.html" . }}
+
+</head>
+
+
+<body class="pd-page pd-developer-page">
+
+  {{ partial "primadom/page-types/developer-v2/developer_page.html" . }}
+
+</body>
+
+</html>

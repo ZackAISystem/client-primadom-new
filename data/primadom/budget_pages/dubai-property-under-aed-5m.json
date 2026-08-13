@@ -1,0 +1,441 @@
+{
+  "schema_version": "budget_page.v1",
+  "page_type": "budget_page",
+  "budget_slug": "dubai-property-under-aed-5m",
+  "entity_type": "Budget Page",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/budget-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Dubai Property Under AED 5M — Primadom AI",
+        "description": "AI-readable budget page for buyers searching for Dubai property under AED 5M with what you can buy, best districts, project types, payment plan logic, tradeoffs, hidden costs, buyer fit, FAQ and Primadom AI budget check.",
+        "canonical": "https://primadom.ai/en/dubai-property-under-aed-5m/"
+      },
+      "schema": {
+        "recommended_options_name": "Recommended Dubai property options under AED 5M"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Check budget",
+        "cta_url": "#budgetLeadModal",
+        "nav_aria": "Budget page navigation",
+        "nav": [
+          {
+            "label": "Can buy",
+            "href": "#buy",
+            "active": true
+          },
+          {
+            "label": "Districts",
+            "href": "#districts",
+            "active": false
+          },
+          {
+            "label": "Costs",
+            "href": "#costs",
+            "active": false
+          },
+          {
+            "label": "AI check",
+            "href": "#budget-ai",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Dubai property budget visual",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "Dubai Property Budgets",
+            "href": "/en/budget/"
+          },
+          {
+            "label": "Under AED 5M",
+            "href": "/en/dubai-property-under-aed-5m/"
+          }
+        ],
+        "image": {
+          "src": "/img/primadom/budget/dubai-under-aed-5m.svg",
+          "alt": "Dubai apartments villas and family communities concept for property budget under AED 5M"
+        },
+        "kicker": "Budget page",
+        "title": "Dubai property under AED 5M",
+        "subtitle": "A compact AI-readable budget guide for buyers asking what they can realistically buy in Dubai under AED 5M, with districts, property types, tradeoffs, hidden costs and AI budget check.",
+        "facts_aria": "Budget hero facts",
+        "facts": [
+          "Budget: under AED 5M",
+          "Apartments · townhouses · selected villas",
+          "Budget intent",
+          "AI shortlist",
+          "Hidden cost check"
+        ],
+        "ai_aria": "Ask Primadom AI to check Dubai property budget",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Check what I can buy in Dubai under AED 5M with payment plan",
+        "voice_label": "Voice search",
+        "ai_submit": "Check budget"
+      },
+      "answer": {
+        "eyebrow": "Direct answer",
+        "title": "What you can buy",
+        "body_html": "<strong>Under AED 5M</strong>, Dubai buyers can usually compare premium apartments, larger 2-bedroom layouts, selected 3-bedroom units, townhouses in family communities, and some villas outside ultra-prime zones. The realistic choice depends on district, developer, size, payment plan, handover and hidden costs.",
+        "body_text": "Under AED 5M, Dubai buyers can usually compare premium apartments, larger 2-bedroom layouts, selected 3-bedroom units, townhouses in family communities, and some villas outside ultra-prime zones. The realistic choice depends on district, developer, size, payment plan, handover and hidden costs.",
+        "chips": [
+          "Budget page",
+          "Under AED 5M",
+          "Dubai property",
+          "Apartments / townhouses",
+          "AI budget check"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Budget details",
+        "items": [
+          {
+            "label": "Budget",
+            "value": "Under AED 5M"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Page type",
+            "value": "Budget Page"
+          },
+          {
+            "label": "Buyer intent",
+            "value": "What can I buy?"
+          },
+          {
+            "label": "Main options",
+            "value": "Apartments · townhouses · selected villas"
+          },
+          {
+            "label": "Decision filters",
+            "value": "District · size · payment plan"
+          },
+          {
+            "label": "Next step",
+            "value": "AI shortlist"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "districts": {
+        "eyebrow": "Area graph",
+        "title": "Best districts for this budget",
+        "items": [
+          {
+            "title": "Dubai Hills Estate",
+            "text": "Useful for family apartments, selected townhouses and long-term community value."
+          },
+          {
+            "title": "Business Bay / Downtown fringe",
+            "text": "Relevant for apartment buyers who want central access and rental logic."
+          },
+          {
+            "title": "JVC / Arjan / Meydan",
+            "text": "Often gives more size or payment-plan flexibility within the same budget."
+          },
+          {
+            "title": "Damac Hills / Arabian Ranches / Town Square",
+            "text": "Relevant for townhouse or family-community buyers checking space tradeoffs."
+          }
+        ]
+      },
+      "property_types": {
+        "eyebrow": "Property logic",
+        "title": "Best project types",
+        "items": [
+          {
+            "title": "Premium 2-bedroom apartments",
+            "text": "Good balance of liquidity, lifestyle and budget control in strong districts."
+          },
+          {
+            "title": "Selected 3-bedroom apartments",
+            "text": "Works when family size matters more than ultra-prime location."
+          },
+          {
+            "title": "Townhouses in family communities",
+            "text": "Useful for end-users prioritizing space, schools and community lifestyle."
+          },
+          {
+            "title": "Payment-plan off-plan projects",
+            "text": "Can help manage cash flow, but payment exposure must be checked carefully."
+          }
+        ]
+      },
+      "decision_cards_aria": "Budget decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Payment plan logic",
+          "title": "Budget is not only headline price",
+          "text": "Check down payment, construction payments, post-handover terms and total cash exposure."
+        },
+        {
+          "eyebrow": "Tradeoffs",
+          "title": "Location, size and quality compete",
+          "text": "Under AED 5M, buyers often trade prime address against larger space or better payment terms."
+        },
+        {
+          "eyebrow": "Hidden costs",
+          "title": "Fees can change real affordability",
+          "text": "DLD fees, agency, service charges, furnishing and maintenance should be calculated early."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Turn budget into shortlist",
+          "text": "Primadom AI can check budget, property type, district, timeline and risk profile together.",
+          "dark": true
+        }
+      ],
+      "projects": {
+        "eyebrow": "Shortlist entry",
+        "title": "Recommended projects",
+        "items": [
+          {
+            "label": "Dubai Hills projects under AED 5M",
+            "meta": "family / community",
+            "href": "/en/areas/dubai-hills-estate/projects-under-aed-5m/"
+          },
+          {
+            "label": "Business Bay apartments under AED 5M",
+            "meta": "central access",
+            "href": "/en/areas/business-bay/apartments-under-aed-5m/"
+          },
+          {
+            "label": "Townhouses in Dubai under AED 5M",
+            "meta": "space / family",
+            "href": "/en/property-types/townhouses-under-aed-5m/"
+          },
+          {
+            "label": "Off-plan projects with payment plan",
+            "meta": "cash flow",
+            "href": "/en/primadom/intent-page/"
+          },
+          {
+            "label": "Best investment property under AED 5M",
+            "meta": "investment intent",
+            "href": "/en/investment/best-property-under-aed-5m/"
+          }
+        ]
+      },
+      "buyer_fit": {
+        "eyebrow": "Who this budget suits",
+        "title": "Buyer fit",
+        "good_title": "Good fit for",
+        "good_items": [
+          "Family buyers comparing apartments and townhouses",
+          "Investors seeking stronger districts without ultra-prime entry",
+          "Buyers who want payment plan flexibility"
+        ],
+        "bad_title": "May not fit",
+        "bad_items": [
+          "Ultra-prime Palm / Jumeirah Bay waterfront buyers",
+          "Buyers needing large luxury villas in top locations",
+          "Buyers who ignore service charges and total costs"
+        ]
+      },
+      "hidden_costs": {
+        "eyebrow": "Check before buying",
+        "title": "Hidden costs",
+        "items": [
+          {
+            "title": "DLD and registration fees",
+            "text": "Budget should include transaction fees, not only property price."
+          },
+          {
+            "title": "Agency, mortgage and valuation costs",
+            "text": "Relevant for resale or financed purchases; check full cash requirement."
+          },
+          {
+            "title": "Service charges and maintenance",
+            "text": "Can materially affect rental yield and holding cost."
+          },
+          {
+            "title": "Furnishing and handover costs",
+            "text": "Important for rental, relocation or short-term letting scenarios."
+          }
+        ]
+      },
+      "tradeoffs": {
+        "eyebrow": "Reality check",
+        "title": "Tradeoffs",
+        "body": "A budget page should help the buyer understand market reality. Under AED 5M, the best option is not always the largest unit or the most famous district. Primadom AI should compare district maturity, developer, size, floor plan, payment plan, service charges, handover and resale liquidity before recommending a shortlist.",
+        "tags": [
+          "District maturity",
+          "Unit size",
+          "Floor plan",
+          "Service charges",
+          "Exit liquidity"
+        ]
+      },
+      "related_pages": {
+        "eyebrow": "Internal graph",
+        "title": "Related budget pages",
+        "items": [
+          {
+            "label": "Dubai property under AED 1M",
+            "href": "/en/budget/dubai-property-under-aed-1m/"
+          },
+          {
+            "label": "Dubai apartments under AED 2M",
+            "href": "/en/budget/dubai-apartments-under-aed-2m/"
+          },
+          {
+            "label": "Dubai villas under AED 5M",
+            "href": "/en/budget/dubai-villas-under-aed-5m/"
+          },
+          {
+            "label": "Luxury Dubai property above AED 10M",
+            "href": "/en/budget/luxury-dubai-property-above-aed-10m/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Budget questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What can I buy in Dubai under AED 5M?",
+            "answer": "Under AED 5M, buyers can usually compare premium apartments, selected 3-bedroom units, townhouses in family communities and some villas depending on district, developer and availability."
+          },
+          {
+            "question": "Which districts are relevant under AED 5M?",
+            "answer": "Relevant districts can include Dubai Hills Estate, Business Bay, Dubai Creek Harbour, JVC, Arjan, Meydan, Town Square, Arabian Ranches and Damac Hills depending on property type."
+          },
+          {
+            "question": "What hidden costs should I check?",
+            "answer": "Check DLD fees, agency fees, service charges, maintenance, furnishing, mortgage costs, payment plan exposure and possible post-handover obligations."
+          },
+          {
+            "question": "Can Primadom AI check my budget?",
+            "answer": "Yes. Primadom AI can compare budget, down payment, payment plan, district, property type and buyer goal to prepare a shortlist."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Source notes",
+        "body": "Prices, availability, payment plans, handover timelines, fees, service charges and project terms should be checked against live developer materials, DLD/Dubai REST data, current listings and Primadom advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Price / availability",
+            "value": "Needs live check"
+          },
+          {
+            "label": "Fees / service charges",
+            "value": "Must be calculated"
+          },
+          {
+            "label": "Payment plan",
+            "value": "Developer material"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Want to check what your budget really buys?",
+        "text": "Ask Primadom AI to compare your budget, down payment, payment plan, preferred district, property type and buyer goal — then send the best matches to a Primadom advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#budget-ai",
+            "modal": false
+          },
+          {
+            "label": "Get budget shortlist",
+            "href": "#budgetLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#budgetLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "Budget enquiry form",
+        "close_label": "Close",
+        "eyebrow": "AI budget handoff",
+        "title": "Check what your budget can buy in Dubai",
+        "text": "Share your budget, property type and buyer goal. Primadom AI will prepare a budget context before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to check what I can buy in Dubai under AED 5M by district, property type, payment plan, hidden costs and buyer goal.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+     "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Budget search, converted into realistic property options",
+"text": "Primadom AI helps buyers understand what their budget can buy, what tradeoffs matter and which projects should be checked live.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#budgetLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+}
+,
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  }
+}

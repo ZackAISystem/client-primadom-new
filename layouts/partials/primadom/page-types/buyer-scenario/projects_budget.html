@@ -1,0 +1,18 @@
+{{- $d := partial "primadom/page-types/buyer-scenario/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="bs-grid-2 bs-grid-2--reverse" id="projects">
+  <article class="bs-card">
+    <div class="bs-card__head"><h2>{{ $t.projects.title }}</h2><span>{{ $t.projects.eyebrow }}</span></div>
+    <div class="bs-card__body bs-list">
+      {{ range $t.projects.items }}<a href="{{ .href }}">{{ .label }}<small>{{ .meta }}</small></a>{{ end }}
+    </div>
+  </article>
+
+  <article class="bs-card">
+    <div class="bs-card__head"><h2>{{ $t.budget_logic.title }}</h2><span>{{ $t.budget_logic.eyebrow }}</span></div>
+    <div class="bs-card__body">
+      <p class="bs-desc">{{ $t.budget_logic.body }}</p>
+      <div class="bs-tags">{{ range $t.budget_logic.tags }}<span>{{ . }}</span>{{ end }}</div>
+    </div>
+  </article>
+</div>

@@ -1,0 +1,52 @@
+{{/* Primadom AI System — Project Page partial: buyer_fit_logic.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.buyer_fit_logic -}}
+
+<div class="pd-project-card-grid pd-project-card-grid--fit-logic">
+  <article class="pd-project-card pd-project-card--fit" id="buyer-fit">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fit_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.fit_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <div class="pd-fit-columns">
+        <div class="pd-fit-box">
+          <h3>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.best_for.title "lang" $lang) }}</h3>
+          <ul>
+            {{- $items := partial "primadom/page-types/project/_t.html" (dict "value" $b.best_for.items "lang" $lang) -}}
+            {{- range $items }}
+              <li>{{ . }}</li>
+            {{- end }}
+          </ul>
+        </div>
+
+        <div class="pd-fit-box">
+          <h3>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.not_best_for.title "lang" $lang) }}</h3>
+          <ul>
+            {{- $items := partial "primadom/page-types/project/_t.html" (dict "value" $b.not_best_for.items "lang" $lang) -}}
+            {{- range $items }}
+              <li>{{ . }}</li>
+            {{- end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="pd-project-card" id="project-logic">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.logic_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.logic_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <p class="pd-project-description">
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.project_logic_text "lang" $lang) }}
+      </p>
+    </div>
+  </article>
+</div>

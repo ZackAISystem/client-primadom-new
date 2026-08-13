@@ -1,0 +1,395 @@
+{
+  "schema_version": "ai_answer_page.v1",
+  "page_type": "ai_answer_page",
+  "parent_page_type": "intent_page",
+  "ai_answer_slug": "should-i-buy-off-plan-in-dubai",
+  "entity_type": "AI Answer Page",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/ai-answer-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Should I Buy Off-plan in Dubai? — Primadom AI",
+        "description": "AI-readable answer page for buyers asking whether they should buy off-plan property in Dubai, with direct answer, when yes, when no, checks, risks, next pages, FAQ and Primadom AI follow-up.",
+        "canonical": "https://primadom.ai/en/answers/should-i-buy-off-plan-in-dubai/"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Check my case",
+        "cta_url": "#aiAnswerLeadModal",
+        "nav_aria": "AI answer navigation",
+        "nav": [
+          {
+            "label": "Answer",
+            "href": "#answer",
+            "active": true
+          },
+          {
+            "label": "Checks",
+            "href": "#checks",
+            "active": false
+          },
+          {
+            "label": "Risks",
+            "href": "#risks",
+            "active": false
+          },
+          {
+            "label": "AI follow-up",
+            "href": "#answer-ai",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Dubai off-plan AI answer visual",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "AI Answers",
+            "href": "/en/answers/"
+          },
+          {
+            "label": "Should I buy off-plan in Dubai?",
+            "href": "/en/answers/should-i-buy-off-plan-in-dubai/"
+          }
+        ],
+        "image": {
+          "src": "/img/primadom/ai-answers/should-i-buy-off-plan-in-dubai.svg",
+          "alt": "Dubai off-plan property decision with skyline construction and new residential communities concept"
+        },
+        "kicker": "AI answer page · Intent subtype",
+        "title": "Should I buy off-plan in Dubai?",
+        "subtitle": "A compact answer-first page for AI-search style questions, treated as a subtype of Base Entry / Intent Pages rather than a separate strategy layer.",
+        "facts_aria": "Answer page hero facts",
+        "facts": [
+          "Question intent",
+          "Answer-first structure",
+          "Off-plan decision",
+          "Risk check",
+          "AI follow-up"
+        ],
+        "ai_aria": "Ask Primadom AI follow-up question",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Check if off-plan in Dubai fits my budget, timeline and risk profile",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "direct_answer": {
+        "eyebrow": "Answer-first",
+        "title": "Direct answer",
+        "body_html": "<strong>Buying off-plan in Dubai can make sense</strong> if the project, developer, payment plan, handover timeline, district and your buyer goal are strong. It may not be right if you need immediate use, cannot handle construction or payment risk, or have not checked developer, escrow, floor plan, service charges and alternatives.",
+        "body_text": "Buying off-plan in Dubai can make sense if the project, developer, payment plan, handover timeline, district and your buyer goal are strong. It may not be right if you need immediate use, cannot handle construction or payment risk, or have not checked developer, escrow, floor plan, service charges and alternatives.",
+        "chips": [
+          "AI Answer Page",
+          "Intent subtype",
+          "Off-plan Dubai",
+          "Yes / no decision",
+          "Risk check"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Answer details",
+        "items": [
+          {
+            "label": "Question",
+            "value": "Should I buy off-plan in Dubai?"
+          },
+          {
+            "label": "Page type",
+            "value": "AI Answer / Intent subtype"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Decision",
+            "value": "Depends on buyer fit"
+          },
+          {
+            "label": "Main checks",
+            "value": "Developer · payment · handover"
+          },
+          {
+            "label": "Risk layer",
+            "value": "Construction · liquidity · cash flow"
+          },
+          {
+            "label": "Best next step",
+            "value": "AI fit check"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "when_yes": {
+        "eyebrow": "Good fit",
+        "title": "When yes",
+        "items": [
+          {
+            "title": "You can wait for handover",
+            "text": "Off-plan works better when your timeline is flexible and you do not need immediate move-in or rental income."
+          },
+          {
+            "title": "The developer and project are credible",
+            "text": "Check developer record, registration, escrow, construction progress and official project materials."
+          },
+          {
+            "title": "The payment plan fits your cash flow",
+            "text": "Look beyond headline price and model down payment, construction payments and post-handover exposure."
+          },
+          {
+            "title": "The district has clear demand",
+            "text": "Strong location logic, future community maturity and resale/rental demand matter."
+          }
+        ]
+      },
+      "when_no": {
+        "eyebrow": "Bad fit",
+        "title": "When no",
+        "items": [
+          {
+            "title": "You need ready-to-move property now",
+            "text": "Off-plan timing can create problems if move-in date, school year or rental income is urgent."
+          },
+          {
+            "title": "You cannot handle payment or delay risk",
+            "text": "Construction timelines and payment obligations can change your real risk profile."
+          },
+          {
+            "title": "You are buying only because of low entry price",
+            "text": "A cheap unit can still be weak if the location, layout, charges or resale logic are poor."
+          },
+          {
+            "title": "You have not compared ready alternatives",
+            "text": "Always compare off-plan against ready, resale and competing projects in the same district."
+          }
+        ]
+      },
+      "decision_cards_aria": "AI answer decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "What to check",
+          "title": "Developer, escrow, handover and payment plan",
+          "text": "These are the core facts before deciding whether off-plan fits your case."
+        },
+        {
+          "eyebrow": "Risk",
+          "title": "Delay and liquidity matter",
+          "text": "The project may be good, but timing, resale market and cash flow can still create risk."
+        },
+        {
+          "eyebrow": "Next pages",
+          "title": "Move from answer to shortlist",
+          "text": "The answer should lead to budget, district, project and comparison pages."
+        },
+        {
+          "eyebrow": "AI follow-up",
+          "title": "Check your exact case",
+          "text": "Primadom AI can turn this answer into a personalized yes/no fit check.",
+          "dark": true
+        }
+      ],
+      "checks": {
+        "eyebrow": "Decision checklist",
+        "title": "What to check",
+        "items": [
+          {
+            "title": "Developer and project registration",
+            "text": "Check official developer materials, project status, escrow and regulatory information."
+          },
+          {
+            "title": "Payment plan and total cash exposure",
+            "text": "Understand down payment, construction schedule, post-handover terms and fees."
+          },
+          {
+            "title": "Floor plan, view and service charges",
+            "text": "Unit-level details can change rental logic and resale value."
+          },
+          {
+            "title": "Competing projects and ready alternatives",
+            "text": "Compare nearby ready and off-plan options before committing."
+          }
+        ]
+      },
+      "risks": {
+        "eyebrow": "Be careful if",
+        "title": "Risks",
+        "body": "The main risks are delayed handover, weak developer execution, unclear service charges, overpaying for future promises, poor layout, low resale liquidity, buying in an immature district too early, or choosing a payment plan that creates cash-flow pressure.",
+        "tags": [
+          "Handover delay",
+          "Developer execution",
+          "Service charges",
+          "Resale liquidity",
+          "Cash-flow pressure"
+        ]
+      },
+      "next_pages": {
+        "eyebrow": "Internal graph",
+        "title": "Recommended next pages",
+        "items": [
+          {
+            "label": "Best off-plan projects in Dubai under AED 2M",
+            "href": "/en/primadom/intent-page/"
+          },
+          {
+            "label": "Dubai projects with payment plan",
+            "href": "/en/intent/dubai-projects-with-payment-plan/"
+          },
+          {
+            "label": "Dubai property for rental income",
+            "href": "/en/buyer-scenarios/dubai-property-for-rental-income/"
+          },
+          {
+            "label": "Risks of buying off-plan in Dubai",
+            "href": "/en/answers/risks-of-buying-off-plan-in-dubai/"
+          },
+          {
+            "label": "Compare off-plan vs ready property",
+            "href": "/en/compare/off-plan-vs-ready-property/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "AI-search questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "When is buying off-plan in Dubai a good idea?",
+            "answer": "It can be a good idea when the developer is credible, the project is registered, the payment plan fits the buyer, the district has demand and the buyer is comfortable with handover timing and project-specific risks."
+          },
+          {
+            "question": "When should I avoid buying off-plan in Dubai?",
+            "answer": "Be careful if you need immediate move-in, cannot handle delayed handover, do not understand payment obligations, or have not compared alternatives and total holding costs."
+          },
+          {
+            "question": "What should I check before buying off-plan?",
+            "answer": "Check developer, project registration, escrow, payment plan, handover, floor plan, service charges, location, availability, exit liquidity and competing projects."
+          },
+          {
+            "question": "Can Primadom AI check whether off-plan fits my situation?",
+            "answer": "Yes. Primadom AI can compare your budget, payment plan, timeline, district, developer, risk profile and alternatives to decide whether off-plan fits your situation."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Source notes",
+        "body": "Developer claims, project status, escrow, availability, prices, payment plans, handover, floor plans, service charges and community readiness should be checked against official developer materials, DLD/Dubai REST data and Primadom live advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Project status",
+            "value": "Needs official check"
+          },
+          {
+            "label": "Price / availability",
+            "value": "Needs live check"
+          },
+          {
+            "label": "Payment / handover",
+            "value": "Must be verified"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Want to know if off-plan fits you?",
+        "text": "Ask Primadom AI to check your budget, timeline, payment plan, preferred district, risk level and buyer goal — then send the best fit options to a Primadom advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#answer-ai",
+            "modal": false
+          },
+          {
+            "label": "Check my fit",
+            "href": "#aiAnswerLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#aiAnswerLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "AI answer follow-up form",
+        "close_label": "Close",
+        "eyebrow": "AI follow-up handoff",
+        "title": "Check whether off-plan fits your case",
+        "text": "Share your budget, payment plan, timeline, preferred district and risk profile. Primadom AI will prepare a fit check before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to check whether buying off-plan in Dubai fits my budget, payment plan, timeline, preferred district, risk level and buyer goal.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+      "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Answer-first search, connected to real project decisions",
+"text": "Primadom AI turns AI-search questions into checks, risks, next pages, project shortlists and advisor-ready requests.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#aiAnswerLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+},
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{{- $d := partial "primadom/page-types/intent/_data.html" . -}}
+{{- $t := $d.t -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ $t.seo.canonical }}#webpage",
+      "url": "{{ $t.seo.canonical }}",
+      "name": {{ $t.seo.title | jsonify }},
+      "description": {{ $t.seo.description | jsonify }},
+      "inLanguage": "{{ $d.lang }}",
+      "breadcrumb": {
+        "@id": "{{ $t.seo.canonical }}#breadcrumbs"
+      },
+      "mainEntity": {
+        "@id": "{{ $t.seo.canonical }}#intent"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ $t.seo.canonical }}#breadcrumbs",
+      "itemListElement": [
+        {{- range $index, $item := $t.hero.breadcrumbs -}}
+        {{- if gt $index 0 }},{{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ add $index 1 }},
+          "name": {{ $item.label | jsonify }},
+          "item": {{ printf "https://primadom.ai%s" $item.href | jsonify }}
+        }
+        {{- end }}
+      ]
+    },
+    {
+      "@type": "Thing",
+      "@id": "{{ $t.seo.canonical }}#intent",
+      "name": {{ $t.hero.title | jsonify }},
+      "description": {{ $t.answer.body_text | jsonify }}
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ $t.seo.canonical }}#best-options",
+      "name": {{ $t.best_options.title | jsonify }},
+      "itemListElement": [
+        {{- range $index, $item := $t.best_options.items -}}
+        {{- if gt $index 0 }},{{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ add $index 1 }},
+          "name": {{ $item.title | jsonify }}
+        }
+        {{- end }}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ $t.seo.canonical }}#faq",
+      "mainEntity": [
+        {{- range $index, $item := $t.faq.items -}}
+        {{- if gt $index 0 }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $item.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $item.answer | jsonify }}
+          }
+        }
+        {{- end }}
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://primadom.ai/#organization",
+      "name": {{ $t.footer.brand | jsonify }},
+      "url": "https://primadom.ai/"
+    }
+  ]
+}
+</script>

@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_e21ef669c53b12f75bfdef187f5d",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/should-i-buy-for-airbnb-golden-visa/",
+  "canonical_url_path": "/en/ai-answers/should-i-buy-for-airbnb-golden-visa/",
+  "canonical_group_key": "ai_answer:should-i-buy-for-airbnb:context:golden-visa",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "should-i-buy-for-airbnb",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/should-i-buy-for-airbnb-golden-visa/",
+          "label": "Should I buy property for Airbnb? — Golden Visa",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Golden Visa",
+        "Investment view",
+        "Rental factors",
+        "Resale factors",
+        "Risk check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Should I buy property for Airbnb? — Golden Visa",
+      "subtitle": "Assess short-term-rental fit when a Golden Visa is part of the buying goal through operating rules, demand assumptions, management costs, property type and exit flexibility.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for Should I buy property for Airbnb? — Golden Visa",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which rules may affect short-term letting before buying",
+        "Compare demand, costs and operating complexity for visa-focused buyers",
+        "Explain which Airbnb assumptions need live verification before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess Airbnb purchase fit for visa-focused buyers",
+      "placeholder": "Help me assess Airbnb purchase fit for visa-focused buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Short-term rental",
+        "Visa-focused buyers",
+        "Demand",
+        "Operating costs",
+        "Rules"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A property can suit short-term rental use only when demand, rules and economics all work.</strong> For visa-focused buyers, compare location demand, seasonality, building or community restrictions, management costs, furnishing, service charges and realistic occupancy. Confirm current short-term rental rules and permissions before relying on an Airbnb-style income strategy.",
+      "body_text": "A property can suit short-term rental use only when demand, rules and economics all work. For visa-focused buyers, compare location demand, seasonality, building or community restrictions, management costs, furnishing, service charges and realistic occupancy. Confirm current short-term rental rules and permissions before relying on an Airbnb-style income strategy.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Should I buy property for Airbnb? — Golden Visa"
+        },
+        {
+          "label": "Context",
+          "value": "Golden Visa"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on rules and economics"
+        },
+        {
+          "label": "Main checks",
+          "value": "Demand · Operating costs · Rules"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Rules · seasonality · operating costs"
+        },
+        {
+          "label": "Best next step",
+          "value": "Confirm rules and operating economics"
+        },
+        {
+          "label": "Verification",
+          "value": "Current rules check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "Should I Buy For Airbnb",
+      "market": "UAE",
+      "context": "Golden Visa",
+      "eyebrow": "Key facts",
+      "question": "Should I Buy For Airbnb for Golden Visa?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The buyer has not confirmed whether the property or building can legally support short-term rental use.",
+            "title": "Permission is being assumed"
+          },
+          {
+            "text": "High nightly rates or occupancy during strong months are being applied across the full year.",
+            "title": "The case relies on peak-season numbers"
+          },
+          {
+            "text": "Management, furnishing, utilities, cleaning or vacancy materially weaken the projected income.",
+            "title": "Operating costs are understated"
+          },
+          {
+            "text": "For visa-focused buyers, revisit the short-term-rental purchase case if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "The relevant property and building rules allow the intended operating model under current requirements.",
+            "title": "Short-term rental use is permitted"
+          },
+          {
+            "text": "Occupancy, nightly rates, management, furnishing and service costs support the case after conservative assumptions.",
+            "title": "The operating economics are realistic"
+          },
+          {
+            "text": "Visitor, business or lifestyle demand is broad enough to reduce dependence on a short peak season.",
+            "title": "The location has year-round demand drivers"
+          },
+          {
+            "text": "For visa-focused buyers, the short-term-rental purchase case still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For visa-focused buyers, compare location demand, seasonality, building or community restrictions, management costs, furnishing, service charges and realistic occupancy.",
+          "title": "Demand · Operating costs · Rules",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when permission is being assumed, the case relies on peak-season numbers, or operating costs are understated.",
+          "title": "Short-term rental fit",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Confirm current short-term rental rules and permissions before relying on an Airbnb-style income strategy.",
+          "title": "Confirm rules and operating economics",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when permission is being assumed, the case relies on peak-season numbers, or operating costs are understated. For visa-focused buyers, confirm current short-term rental rules and permissions before relying on an Airbnb-style income strategy.",
+        "tags": [
+          "Operating permission",
+          "Occupancy",
+          "Nightly rates",
+          "Management costs",
+          "Short-term rental fit"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For visa-focused buyers, check whether short-term letting is permitted for the property and what building, community or licensing conditions may apply.",
+            "title": "Confirm the operating route"
+          },
+          {
+            "text": "Model seasonal occupancy rather than assuming the property will remain booked at a high level throughout the year.",
+            "title": "Use realistic occupancy assumptions"
+          },
+          {
+            "text": "Use comparable operating evidence and different seasons instead of relying on peak-period advertised rates as the annual baseline.",
+            "title": "Check achievable nightly rates"
+          },
+          {
+            "text": "Account for management, cleaning, utilities, platform costs, maintenance and guest turnover before judging the short-term rental economics.",
+            "title": "Include operating and management costs"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-rental-demand-golden-visa/",
+          "label": "How should I check rental demand?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investment-logic-golden-visa/",
+          "label": "How should I check investment logic?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-resale-potential-golden-visa/",
+          "label": "How should I check resale potential?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-choose-area-for-rental-income-golden-visa/",
+          "label": "How should I choose an area for rental income?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-exit-strategy-golden-visa/",
+          "label": "How should I check an exit strategy?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A property can suit short-term rental use only when demand, rules and economics all work. For visa-focused buyers, check whether short-term letting is permitted for the property and what building, community or licensing conditions may apply.",
+          "question": "Should I buy for Airbnb?"
+        },
+        {
+          "answer": "Rental demand should be checked through realistic tenant activity, not headline yield claims. Use comparable units, actual leasing evidence and realistic ranges instead of basing the decision only on advertised asking rents.",
+          "question": "How should I assess rental demand?"
+        },
+        {
+          "answer": "Investment logic should connect the purchase price to realistic income, costs and exit options. Use evidence on tenants, future buyers and competing supply rather than assuming that a strong location guarantees an easy rental or resale.",
+          "question": "How should I assess the investment case?"
+        },
+        {
+          "answer": "Resale potential depends on future buyer demand, competition and the property’s distinctiveness. Consider selling costs, financing appeal, expected marketing time and any contractual restrictions that could make an exit slower or more expensive.",
+          "question": "How should I assess resale potential?"
+        },
+        {
+          "answer": "A rental-income area should combine tenant depth with sustainable ownership economics. The investment only works if rent is achieved near the top of current asking levels. Use current listings and transaction evidence before treating any district or property as the strongest income option.",
+          "question": "How should I choose an area for rental income?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Rental demand, yield, resale potential and capital growth are assessment topics rather than guaranteed outcomes. Compare current market evidence with the specific property, costs and holding assumptions before relying on an investment conclusion.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Golden Visa · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Demand · Operating costs · Rules"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current market evidence · comparable properties · property facts"
+        },
+        {
+          "label": "Live check",
+          "value": "Current market evidence and property-specific inputs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "investment_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your property-and-residency case, including your budget, holding period, market assumptions, costs and exit risks before you decide whether the property fits your strategy.",
+      "title": "Want to test the investment case?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your property-and-residency case, focusing on market assumptions, costs, holding period and rental or resale risks an advisor should review with you.",
+      "title": "Check the investment case for your situation",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my investment strategy.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

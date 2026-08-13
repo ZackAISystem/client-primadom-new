@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_second_home_buyer_damac_lagoons_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/second-home-buyer-in-damac-lagoons/",
+  "canonical_url_path": "/en/buyer-scenarios/second-home-buyer-in-damac-lagoons/",
+  "canonical_group_key": "scenario_district:second_home_buyer:damac-lagoons",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "damac-lagoons",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/damac-lagoons/",
+          "label": "Damac Lagoons"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/second-home-buyer-in-damac-lagoons/",
+          "label": "Second Home Buyer in Damac Lagoons",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Second home",
+        "Damac Lagoons",
+        "Apartments · Villas",
+        "AED 2.5M+",
+        "Lifestyle · upkeep · resale"
+      ],
+      "image": {
+        "alt": "Second Home Buyer in Damac Lagoons property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Second Home Buyer in Damac Lagoons",
+      "subtitle": "Second-home buyers in Damac Lagoons can weigh lifestyle fit, travel convenience, property type, upkeep, carrying costs and resale considerations.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Second Home Buyer in Damac Lagoons property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare second-home options in Damac Lagoons",
+        "Check lifestyle fit, upkeep and carrying costs",
+        "Compare travel convenience and resale factors"
+      ],
+      "ai_aria": "Ask Primadom AI about Second Home Buyer in Damac Lagoons",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare second-home options in Damac Lagoons",
+      "placeholder": "Compare second-home options in Damac Lagoons",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Second home",
+        "Damac Lagoons",
+        "Lifestyle use",
+        "Travel · upkeep · resale",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a second-home purchase in Damac Lagoons</strong>, compare lifestyle use with the practical cost of owning a property that may sit empty for part of the year. Travel convenience, upkeep, carrying costs, property type and resale flexibility all matter.",
+      "body_text": "For a second-home purchase in Damac Lagoons, compare lifestyle use with the practical cost of owning a property that may sit empty for part of the year. Travel convenience, upkeep, carrying costs, property type and resale flexibility all matter.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Second Home Buyer"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Second home"
+        },
+        {
+          "label": "Location",
+          "value": "Damac Lagoons"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments · Villas"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 2.5M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Travel · upkeep · resale"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Lifestyle comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare ownership fit"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers treating a second home exactly like a primary residence",
+          "Buyers ignoring maintenance and management between visits",
+          "Buyers choosing only for holiday appeal without considering resale or ownership cost"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers considering Damac Lagoons for periodic personal use rather than full-time residence",
+          "Buyers balancing lifestyle value with travel convenience and upkeep",
+          "Owners who want the property to remain manageable while they are away"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Damac Lagoons, the property should work both during visits and during the months when the owner is away. Travel access, upkeep, management, ownership costs and resale flexibility should be weighed against the lifestyle value the second home is meant to provide.",
+        "tags": [
+          "Travel access",
+          "Lifestyle use",
+          "Upkeep",
+          "Management",
+          "Resale"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing second-home options in Damac Lagoons, judge the area by travel convenience, lifestyle value and how easy the property is to manage between visits.",
+            "title": "Damac Lagoons"
+          },
+          {
+            "text": "Compare other areas if they make periodic use easier or reduce upkeep without losing the reason for owning a second home.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "The area should work during visits and remain manageable when the owner is away.",
+            "title": "Part-time use"
+          },
+          {
+            "text": "Before narrowing the area, compare travel access, recurring costs, management needs and future resale flexibility.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Useful when simpler maintenance and lock-up-and-leave ownership matter most.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Relevant when privacy and outdoor space justify the extra upkeep between visits.",
+            "title": "Villas"
+          },
+          {
+            "text": "Lets the buyer assess the finished home and immediate management needs before committing.",
+            "title": "Ready property"
+          },
+          {
+            "text": "Can fit a later-use plan, but the owner must be comfortable with handover timing and remote follow-up.",
+            "title": "Off-plan property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Include maintenance, management and recurring ownership costs so the second home remains practical even when it is not being used.",
+          "title": "Budget for the months you are away",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Damac Lagoons, compare travel access, lifestyle use and how the property will be managed between visits before narrowing the choice.",
+          "title": "Plan for both visits and time away",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "High upkeep, difficult management or weak resale flexibility can undermine the value of a property that works well only during short visits.",
+          "title": "A great holiday home can be hard to own remotely",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in Damac Lagoons using travel access, lifestyle priorities, upkeep, management and resale considerations.",
+          "title": "Compare second homes for the full year",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Damac Lagoons, the main risks are buying for an imagined lifestyle rather than actual use, underestimating upkeep while away, choosing a location that is inconvenient for visits, or overlooking future resale and management needs.",
+        "tags": [
+          "Visit pattern",
+          "Management",
+          "Upkeep",
+          "Travel access",
+          "Resale"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Decide how often the buyer expects to use the property and for how long before comparing lifestyle features or property types.",
+            "title": "Define the visit pattern"
+          },
+          {
+            "text": "Consider access, maintenance and who will look after the property during periods when the owner is outside the UAE.",
+            "title": "Plan how the home will be managed"
+          },
+          {
+            "text": "In Damac Lagoons, compare travel practicality, lifestyle use and the property's surroundings against the way the buyer expects to spend time there.",
+            "title": "Test the location for visits"
+          },
+          {
+            "text": "Include recurring ownership and management costs so the home still makes sense during months when it is not being used personally.",
+            "title": "Budget for time away"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/damac-lagoons-mykonos/",
+            "meta": "Damac Properties · Damac Lagoons",
+            "label": "Damac Lagoons - Mykonos"
+          },
+          {
+            "href": "/en/projects/morocco/",
+            "meta": "Damac Properties · Damac Lagoons",
+            "label": "Morocco"
+          },
+          {
+            "href": "/en/projects/morocco-phase-2/",
+            "meta": "Damac Properties · Damac Lagoons",
+            "label": "Morocco Phase 2"
+          },
+          {
+            "href": "/en/projects/venice/",
+            "meta": "Damac Properties · Damac Lagoons",
+            "label": "Venice"
+          },
+          {
+            "href": "/en/projects/damac-lagoon-lagoon-views-11/",
+            "meta": "Damac Properties · Damac Lagoons",
+            "label": "Damac Lagoon - Lagoon Views 11"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Budget for the months when the owner is not using the property as well as the visits themselves. Purchase costs, furnishing, management, maintenance and travel-related expenses can continue around a second home even when personal use is occasional.",
+        "tags": [
+          "Purchase price",
+          "Furnishing",
+          "Management",
+          "Upkeep",
+          "Travel costs"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/international-second-home-near-the-beach/",
+          "label": "International Second Home Near the Beach"
+        },
+        {
+          "href": "/en/buyer-scenarios/waterfront-lifestyle-buyer/",
+          "label": "Waterfront Lifestyle Buyer"
+        },
+        {
+          "href": "/en/buyer-scenarios/remote-buyer-buying-from-abroad-in-damac-lagoons/",
+          "label": "Remote Buyer Buying from Abroad in Damac Lagoons"
+        },
+        {
+          "href": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-damac-lagoons/",
+          "label": "Capital Preservation Buyer AED 3M+ in Damac Lagoons"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a second home in Damac Lagoons, judge the property by how often and how easily you will use it. Travel access, upkeep, management while away and recurring costs matter between visits.",
+          "question": "What should matter most when choosing a second home in Damac Lagoons?"
+        },
+        {
+          "answer": "This search suits buyers in Damac Lagoons who expect periodic personal use and are comfortable owning a property that may need management or maintenance while they are elsewhere.",
+          "question": "Who may benefit from buying a second home in Damac Lagoons?"
+        },
+        {
+          "answer": "Check access, unit or villa condition, building or community management, recurring charges, security and the practical arrangements for periods when the property is empty in Damac Lagoons.",
+          "question": "What should I check about managing the property between visits in Damac Lagoons?"
+        },
+        {
+          "answer": "Budget in Damac Lagoons for transaction costs, furnishing or setup, annual ownership charges and management or maintenance during periods when the home is not being used.",
+          "question": "How should I budget for a second home in Damac Lagoons?"
+        },
+        {
+          "answer": "The main risk in Damac Lagoons is buying for occasional lifestyle appeal while underestimating how little the home may be used or how much it costs to maintain between visits.",
+          "question": "What are the main risks of buying a second home in Damac Lagoons?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a second home in Damac Lagoons, verify how the property will work both during visits and while the owner is away. Management, recurring costs, travel practicality and the condition or status of the specific home should all be clear before commitment.",
+      "items": [
+        {
+          "label": "Management",
+          "value": "Plan for time away"
+        },
+        {
+          "label": "Ownership costs",
+          "value": "Confirm current charges"
+        },
+        {
+          "label": "Travel access",
+          "value": "Check real practicality"
+        },
+        {
+          "label": "Property status",
+          "value": "Verify current details"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare a second home in Damac Lagoons around how often you will use it, travel access, management, upkeep and ownership costs between visits. Primadom AI can help organise the decision before you review individual properties.",
+      "title": "Looking for a second home that stays practical while away?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share how often you expect to use the home, travel needs and upkeep preferences while comparing second-home options in Damac Lagoons. This gives the advisor useful context before the conversation.",
+      "title": "Check your second-home search",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare practical options for a second home",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare second-home options in Damac Lagoons through travel access, management, upkeep, frequency of use and ownership costs between visits.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Choose a second home that stays practical",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

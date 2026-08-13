@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_5f5b4f4146a2bd8cd66048e75b5f",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/is-now-good-time-to-buy-european-buyers/",
+  "canonical_url_path": "/en/ai-answers/is-now-good-time-to-buy-european-buyers/",
+  "canonical_group_key": "ai_answer:is-now-good-time-to-buy:context:european-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "is-now-good-time-to-buy",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/is-now-good-time-to-buy-european-buyers/",
+          "label": "Is now a good time to buy? — European Buyers",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "European Buyers",
+        "Investment view",
+        "Rental factors",
+        "Resale factors",
+        "Risk check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Is now a good time to buy? — European Buyers",
+      "subtitle": "Assess purchase timing for European buyers through rental, resale, cost and risk factors rather than a single headline metric.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for Is now a good time to buy? — European Buyers",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which market and personal factors matter before buying",
+        "Compare waiting risks with buying risks objectively for European buyers",
+        "Explain which timing assumptions need current evidence before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess purchase timing for European buyers",
+      "placeholder": "Help me assess purchase timing for European buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Buying timing",
+        "European buyers",
+        "Current market",
+        "Alternatives",
+        "Buyer fit"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>There is no universally good time to buy; the right timing depends on the buyer and property.</strong> For European buyers, compare current pricing, alternatives, financing or payment conditions, personal timeline, holding period and the risks of waiting versus buying now. Make the decision from the specific opportunity rather than a broad prediction about the market.",
+      "body_text": "There is no universally good time to buy; the right timing depends on the buyer and property. For European buyers, compare current pricing, alternatives, financing or payment conditions, personal timeline, holding period and the risks of waiting versus buying now. Make the decision from the specific opportunity rather than a broad prediction about the market.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Is now a good time to buy? — European Buyers"
+        },
+        {
+          "label": "Context",
+          "value": "European Buyers"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on buyer and property"
+        },
+        {
+          "label": "Main checks",
+          "value": "Current market · Alternatives · Buyer fit"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Market timing · opportunity mismatch"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare buy-now and wait scenarios"
+        },
+        {
+          "label": "Verification",
+          "value": "Current market check recommended"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "Is Now Good Time To Buy",
+      "market": "UAE",
+      "context": "European Buyers",
+      "eyebrow": "Key facts",
+      "question": "Is Now Good Time To Buy for European Buyers?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The buyer is trying to time the exact top or bottom instead of judging the specific opportunity.",
+            "title": "The decision depends on market prediction"
+          },
+          {
+            "text": "Financing, move-in or liquidity needs leave little room for normal transaction or market uncertainty.",
+            "title": "The personal timeline is too tight"
+          },
+          {
+            "text": "The buyer has not compared current properties before deciding that now is the right moment.",
+            "title": "Better alternatives remain untested"
+          },
+          {
+            "text": "For European buyers, revisit the buy-now timing decision if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Move-in, holding period, financing and cash needs align with the property being considered.",
+            "title": "The purchase fits the personal timeline"
+          },
+          {
+            "text": "Price, quality and alternatives make the property attractive without needing a broad market prediction.",
+            "title": "The specific opportunity is competitive"
+          },
+          {
+            "text": "A short-term market move would not force an unwanted sale or undermine the ownership plan.",
+            "title": "The buyer can tolerate normal volatility"
+          },
+          {
+            "text": "For European buyers, the buy-now timing decision still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For European buyers, compare current pricing, alternatives, financing or payment conditions, personal timeline, holding period and the risks of waiting versus buying now.",
+          "title": "Current market · Alternatives · Buyer fit",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the decision depends on market prediction, the personal timeline is too tight, or better alternatives remain untested.",
+          "title": "Purchase timing",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Make the decision from the specific opportunity rather than a broad prediction about the market.",
+          "title": "Compare buy-now and wait scenarios",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the decision depends on market prediction, the personal timeline is too tight, or better alternatives remain untested. For European buyers, make the decision from the specific opportunity rather than a broad prediction about the market.",
+        "tags": [
+          "Buyer readiness",
+          "Market alternatives",
+          "Financing conditions",
+          "Timing risk",
+          "Purchase timing"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For European buyers, confirm budget, financing, intended use and holding horizon before trying to decide whether the broader market timing is favourable.",
+            "title": "Check buyer readiness first"
+          },
+          {
+            "text": "Look at realistic properties available now and the trade-offs between them rather than making the timing decision from market headlines alone.",
+            "title": "Compare current alternatives"
+          },
+          {
+            "text": "Review available liquidity, borrowing conditions and future payment obligations because timing can be poor even when the property itself is attractive.",
+            "title": "Test financing and cash conditions"
+          },
+          {
+            "text": "Consider what happens if prices, rents or liquidity remain weaker for longer than expected instead of assuming the market moves immediately.",
+            "title": "Model the cost of being early"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/is-dubai-property-good-investment-european-buyers/",
+          "label": "Is Dubai property a good investment?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investment-logic-european-buyers/",
+          "label": "How should I check investment logic?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investor-fit-european-buyers/",
+          "label": "How should I check investor fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-rental-demand-european-buyers/",
+          "label": "How should I check rental demand?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-exit-strategy-european-buyers/",
+          "label": "How should I check an exit strategy?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "There is no universally good time to buy; the right timing depends on the buyer and property. For European buyers, confirm budget, financing, intended use and holding horizon before trying to decide whether the broader market timing is favourable.",
+          "question": "Is now a good time to buy?"
+        },
+        {
+          "answer": "Dubai property can be a good investment, but the outcome depends on the specific asset and price. Include acquisition, financing, recurring and exit costs so projected performance is not measured against the purchase price alone.",
+          "question": "Is Dubai property a good investment?"
+        },
+        {
+          "answer": "Investment logic should connect the purchase price to realistic income, costs and exit options. Use evidence on tenants, future buyers and competing supply rather than assuming that a strong location guarantees an easy rental or resale.",
+          "question": "How should I assess the investment case?"
+        },
+        {
+          "answer": "Investor fit depends on whether the property matches the buyer’s actual investment objective. Model lower rent, slower resale, higher costs or a longer holding period to see whether the investment still works under less favourable conditions.",
+          "question": "How should I assess whether a property suits an investor?"
+        },
+        {
+          "answer": "Rental demand should be checked through realistic tenant activity, not headline yield claims. High advertised prices are being treated as evidence that tenants actually transact at those levels. Use recent market evidence and conservative assumptions when estimating how easily the property may rent.",
+          "question": "How should I assess rental demand?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Price and value should be judged against comparable alternatives, total purchase costs and the trade-offs attached to the property. Recheck current comparable evidence and transaction inputs before relying on a headline price, discount or entry-cost assumption.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "European Buyers · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Current market · Alternatives · Buyer fit"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current comparable evidence · transaction cost inputs"
+        },
+        {
+          "label": "Live check",
+          "value": "Current comparable pricing and purchase costs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "pricing_value",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this timing question to your UAE property purchase, using your budget readiness, alternatives, market conditions, holding horizon and urgency, then identify what should drive the decision now.",
+      "title": "Want to check whether now is the right time for you?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your UAE property purchase, focusing on readiness, alternatives, market conditions, holding horizon and the factors that should drive your timing decision.",
+      "title": "Check whether now is the right time for you",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether now is the right time for me.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

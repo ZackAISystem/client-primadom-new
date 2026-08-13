@@ -1,0 +1,68 @@
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $prompts := $d.t.scripts.prompts | jsonify -}}
+<script>
+(function(){
+  const prompts = {{ $prompts | safeJS }};
+  const modal = document.getElementById('pa-lead-modal');
+  const html = document.documentElement;
+
+  function openModal(event){
+    if(event) event.preventDefault();
+    if(!modal) return;
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    html.classList.add('pa-modal-open');
+  }
+
+  function closeModal(event){
+    if(event) event.preventDefault();
+    if(!modal) return;
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    html.classList.remove('pa-modal-open');
+  }
+
+  document.querySelectorAll('[data-pa-modal="open"]').forEach((el) => {
+    el.addEventListener('click', openModal);
+  });
+
+  document.querySelectorAll('[data-pa-modal="close"]').forEach((el) => {
+    el.addEventListener('click', closeModal);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if(event.key === 'Escape') closeModal(event);
+  });
+
+  document.querySelectorAll('.pa-area-ask').forEach((form) => {
+    form.addEventListener('submit', openModal);
+  });
+
+  document.querySelectorAll('.pa-voice, .pa-modal-voice').forEach((button) => {
+    button.addEventListener('click', () => {
+      const parent = button.closest('.pa-area-ask') || button.closest('.pa-ai-row');
+      if(parent) parent.classList.toggle('is-voice-active');
+      button.classList.toggle('is-active');
+    });
+  });
+
+  document.querySelectorAll('.pa-form').forEach((form) => {
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const submit = form.querySelector('.pa-submit');
+      if(!submit) return;
+      submit.classList.add('is-done');
+      submit.textContent = submit.dataset.successLabel || 'Sent';
+    });
+  });
+
+  const input = document.querySelector('#area-ai-search-disabled-old-typing input');
+  if(input && prompts.length){
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % prompts.length;
+      input.placeholder = prompts[index];
+    }, 3200);
+  }
+})();
+</script>

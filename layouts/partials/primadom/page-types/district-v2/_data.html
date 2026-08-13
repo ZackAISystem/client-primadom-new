@@ -1,0 +1,253 @@
+{{/*
+  Primadom AI — District Page V2
+  Production data source:
+  data/primadom/district_pages_v2/<slug>.json
+
+  JSON itself stays in the clean Supabase form:
+  page envelope
+  + block_order
+  + blocks.block_01 ... block_16
+
+  This partial only adapts those production blocks
+  to the existing District visual partials.
+*/}}
+
+{{- $slug := .Params.district_slug | default "" -}}
+
+{{- if not $slug -}}
+  {{- errorf "District V2: district_slug missing for %s" .RelPermalink -}}
+{{- end -}}
+
+{{- $page := index site.Data.primadom.district_pages_v2 $slug -}}
+
+{{- if not $page -}}
+  {{- errorf "District V2 data not found for slug: %s" $slug -}}
+{{- end -}}
+
+{{- $blocks := $page.blocks -}}
+
+{{- $b01 := index $blocks "block_01_header" -}}
+{{- $b02 := index $blocks "block_02_breadcrumbs" -}}
+{{- $b03 := index $blocks "block_03_hero" -}}
+{{- $b04 := index $blocks "block_04_ai_search" -}}
+{{- $b05 := index $blocks "block_05_short_verdict" -}}
+{{- $b06 := index $blocks "block_06_area_facts" -}}
+{{- $b07 := index $blocks "block_07_buyer_fit_logic" -}}
+{{- $b08 := index $blocks "block_08_decision_cards" -}}
+{{- $b09 := index $blocks "block_09_projects_developers" -}}
+{{- $b10 := index $blocks "block_10_landmarks_location" -}}
+{{- $b11 := index $blocks "block_11_similar_districts" -}}
+{{- $b12 := index $blocks "block_12_faq" -}}
+{{- $b13 := index $blocks "block_13_trust_sources" -}}
+{{- $b14 := index $blocks "block_14_cta" -}}
+{{- $b15 := index $blocks "block_15_lead_modal" -}}
+{{- $b16 := index $blocks "block_16_footer" -}}
+
+
+{{/* ---------------------------------------------------------
+   HERO
+   block_02 + block_03 + block_04
+   Existing visual hero expects these values together.
+--------------------------------------------------------- */}}
+
+{{- $hero := dict
+  "breadcrumbs" $b02.breadcrumbs
+  "image" $b03.image
+  "gallery" $b03.gallery
+  "title" $b03.title
+  "subtitle" $b03.subtitle
+  "district_name" $b03.district_name
+  "city" $b03.city
+  "emirate" $b03.emirate
+
+  "price_label" $b03.info_label
+  "price_value" $b03.info_value
+  "info_label" $b03.info_label
+  "info_value" $b03.info_value
+
+  "ai_badge" $b04.ai_badge
+  "ai_placeholder" $b04.ai_placeholder
+  "ai_submit" $b04.ai_submit
+  "placeholder" $b04.placeholder
+  "button_label" $b04.button_label
+
+  "hints" $b04.hints
+  "prompts" $b04.prompts
+
+  "voice_button_label" $b04.voice_button_label
+  "voice_status" $b04.voice_status
+  "voice_text" $b04.voice_text
+  "voice_success_status" $b04.voice_success_status
+  "voice_error_status" $b04.voice_error_status
+  "voice_error_text" $b04.voice_error_text
+  "voice_fallback_status" $b04.voice_fallback_status
+  "voice_fallback_text" $b04.voice_fallback_text
+
+  "ai_voice_status" $b04.ai_voice_status
+  "ai_voice_text" $b04.ai_voice_text
+
+  "form_aria_label" $b04.form_aria_label
+  "submit_aria_label" $b04.submit_aria_label
+-}}
+
+
+{{/* ---------------------------------------------------------
+   PROJECTS
+   New production block uses name/context.
+   Existing visual component uses title/meta.
+--------------------------------------------------------- */}}
+
+{{- $projectItems := slice -}}
+
+{{- range $item := $b09.projects.items -}}
+  {{- $projectItems = $projectItems | append (
+    dict
+      "title" $item.name
+      "meta" $item.context
+      "href" $item.href
+      "rank" $item.rank
+      "project_id" $item.project_id
+      "project_slug" $item.project_slug
+      "developer_id" $item.developer_id
+      "developer_name" $item.developer_name
+  ) -}}
+{{- end -}}
+
+{{- $projects := dict
+  "title" $b09.projects.title
+  "eyebrow" $b09.projects.eyebrow
+  "items" $projectItems
+  "selected_count" $b09.projects.selected_count
+  "total_linked_projects" $b09.projects.total_linked_projects
+-}}
+
+
+{{/* ---------------------------------------------------------
+   SIMILAR DISTRICTS
+   New production block uses title.
+   Existing visual component uses label.
+--------------------------------------------------------- */}}
+
+{{- $similarItems := slice -}}
+
+{{- range $item := $b11.items -}}
+  {{- $similarItems = $similarItems | append (
+    dict
+      "label" $item.title
+      "title" $item.title
+      "href" $item.href
+      "rank" $item.rank
+      "district_slug" $item.district_slug
+      "match_reason" $item.match_reason
+  ) -}}
+{{- end -}}
+
+{{- $similar := dict
+  "title" $b11.title
+  "eyebrow" $b11.eyebrow
+  "items" $similarItems
+-}}
+
+
+{{/* ---------------------------------------------------------
+   SOURCE NOTE
+   Production source note is nested in block 13.
+--------------------------------------------------------- */}}
+
+{{- $sourceNotes := dict
+  "eyebrow" $b13.eyebrow
+  "title" $b13.source_notes.title
+  "body" $b13.source_notes.body
+  "last_updated" $b13.source_notes.last_checked
+-}}
+
+
+{{/* ---------------------------------------------------------
+   LEAD MODAL
+--------------------------------------------------------- */}}
+
+{{- $modal := dict
+  "eyebrow" $b15.eyebrow
+  "title" $b15.title
+  "text" $b15.text
+  "fields" $b15.fields
+  "field_config" $b15.field_config
+  "ai_badge" $b15.ai_badge
+  "ai_row_badge" $b15.ai_row_badge
+  "comment" $b15.comment
+  "comment_textarea" $b15.comment_textarea
+  "submit" $b15.submit
+  "submit_label" $b15.submit_label
+  "success" $b15.success
+  "success_label" $b15.success_label
+  "note" $b15.note
+  "modal_id" $b15.modal_id
+  "title_id" $b15.title_id
+  "close_label" $b15.close_label
+  "voice_button_label" $b15.voice_button_label
+-}}
+
+
+{{/* ---------------------------------------------------------
+   FOOTER
+   Preserve current visual chip treatment,
+   but source labels come from production JSON.
+--------------------------------------------------------- */}}
+
+{{- $footerChips := slice -}}
+
+{{- range $item := $b16.chips -}}
+  {{- $footerChips = $footerChips | append $item.label -}}
+{{- end -}}
+
+{{- $footer := dict
+  "brand" $b16.brand
+  "brand_url" $b16.brand_url
+  "subtitle" $b16.subtitle
+  "title" $b16.title
+  "text" $b16.text
+  "chips" $footerChips
+  "social" $b16.social
+  "address" $b16.address
+  "copyright" $b16.copyright
+  "contact_primary" $b16.contact_primary
+  "contact_secondary" $b16.contact_secondary
+-}}
+
+
+{{/* ---------------------------------------------------------
+   VISUAL DATA CONTRACT
+--------------------------------------------------------- */}}
+
+{{- $t := dict
+  "header" $b01
+  "breadcrumbs" $b02
+  "hero" $hero
+  "short_verdict" $b05
+  "facts" $b06
+  "buyer_fit" $b07.buyer_fit
+  "area_logic" $b07.area_logic
+  "decision_cards" $b08.decision_cards
+  "projects" $projects
+  "developer_presence" $b09.developer_presence
+  "landmarks" $b10.landmarks
+  "map" $b10.map
+  "similar_districts" $similar
+  "faq" $b12
+  "trust_sources" $b13
+  "source_notes" $sourceNotes
+  "cta" $b14
+  "modal" $modal
+  "footer" $footer
+  "scripts" (dict "prompts" $b04.prompts)
+-}}
+
+{{- return (
+  dict
+    "page" $page
+    "blocks" $blocks
+    "t" $t
+    "lang" $page.language_code
+    "city" $b03.city
+    "emirate" $b03.emirate
+) -}}

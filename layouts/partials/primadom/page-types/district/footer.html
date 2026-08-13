@@ -1,0 +1,71 @@
+{{/* Primadom AI System — District Page partial: footer.html / data-driven site-footer */}}
+
+{{- $d := partial "primadom/page-types/district/_data.html" . -}}
+{{- $f := $d.t.footer -}}
+{{- $brandURL := $f.brand_url | default (printf "/%s/" $d.lang) -}}
+{{- $chips := $f.chips | default slice -}}
+{{- $social := $f.social | default slice -}}
+
+<footer class="site-footer">
+  <span class="site-footer__glow site-footer__glow--left"></span>
+  <span class="site-footer__glow site-footer__glow--right"></span>
+
+  <div class="site-footer__inner">
+    <div class="site-footer__left">
+      <a class="site-footer__brand" href="{{ $brandURL }}">
+        <span class="site-footer__brand-dot"></span>
+        <span class="site-footer__brand-copy">
+          <span class="site-footer__brand-title">{{ $f.brand }}</span>
+        </span>
+      </a>
+
+      <div class="site-footer__statement">
+        <h2>{{ $f.title }}</h2>
+        <p>{{ $f.text }}</p>
+
+        {{- if gt (len $chips) 0 }}
+          <div class="site-footer__chips">
+            {{- range $chips }}
+              <span>{{ . }}</span>
+            {{- end }}
+          </div>
+        {{- end }}
+      </div>
+    </div>
+
+    <div class="site-footer__right">
+      <div class="site-footer__contacts">
+        {{- with $f.contact_primary }}
+          <a class="footer-pill" href="{{ .href }}"{{ if .modal }} data-pa-modal="open"{{ end }}>
+            {{ .label }}
+          </a>
+        {{- end }}
+
+        {{- with $f.contact_secondary }}
+          <a class="footer-pill" href="{{ .href }}">
+            {{ .label }}
+          </a>
+        {{- end }}
+      </div>
+
+      {{- if gt (len $social) 0 }}
+        <div class="site-footer__social" aria-label="Social links">
+          {{- range $index, $item := first 2 $social }}
+            <a class="footer-social" href="{{ $item.href }}" aria-label="{{ $item.label }}">
+              {{- if eq $index 0 }}
+                <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Crect x='3' y='3' width='18' height='18' rx='5'/%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M17.5 6.5h.01'/%3E%3C/svg%3E">
+              {{- else }}
+                <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Cpath d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z'/%3E%3Crect x='2' y='9' width='4' height='12'/%3E%3Ccircle cx='4' cy='4' r='2'/%3E%3C/svg%3E">
+              {{- end }}
+            </a>
+          {{- end }}
+        </div>
+      {{- end }}
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="site-footer__copyright">{{ $f.copyright }}</div>
+      <div class="site-footer__address">{{ $f.address }}</div>
+    </div>
+  </div>
+</footer>

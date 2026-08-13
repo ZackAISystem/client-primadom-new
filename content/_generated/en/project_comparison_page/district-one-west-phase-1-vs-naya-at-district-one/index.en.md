@@ -1,0 +1,10 @@
+---
+title: "District One West Phase 1 vs Naya at District One"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "district-one-west-phase-1-vs-naya-at-district-one"
+page_id: "project_comparison__district-one-west-phase-1__vs__naya-at-district-one__en"
+url: "/en/compare-projects/district-one-west-phase-1-vs-naya-at-district-one/"
+build:
+  render: always
+  list: never
+---

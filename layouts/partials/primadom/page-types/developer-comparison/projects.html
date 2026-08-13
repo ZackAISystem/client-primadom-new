@@ -1,0 +1,27 @@
+{{- $d := partial "primadom/page-types/developer-comparison/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pc-grid-2 pc-grid-2--reverse" id="projects">
+  <article class="pc-card">
+    <div class="pc-card__head">
+      <h2>{{ $t.projects.area_a.title }}</h2>
+      <span>{{ $t.projects.area_a.eyebrow }}</span>
+    </div>
+    <div class="pc-card__body pc-list">
+      {{ range $t.projects.area_a.items }}
+        <a href="{{ .href }}">{{ .label }}<small>{{ .meta }}</small></a>
+      {{ end }}
+    </div>
+  </article>
+
+  <article class="pc-card">
+    <div class="pc-card__head">
+      <h2>{{ $t.projects.area_b.title }}</h2>
+      <span>{{ $t.projects.area_b.eyebrow }}</span>
+    </div>
+    <div class="pc-card__body pc-list">
+      {{ range $t.projects.area_b.items }}
+        <a href="{{ .href }}">{{ .label }}<small>{{ .meta }}</small></a>
+      {{ end }}
+    </div>
+  </article>
+</div>

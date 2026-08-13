@@ -1,0 +1,611 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_al_garhoud_south_en",
+  "page_type_id": "district_page",
+  "language_code": "en",
+  "url_path": "/en/areas/al-garhoud-south/",
+  "canonical_url_path": "/en/areas/al-garhoud-south/",
+  "canonical_group_key": "district:al-garhoud-south",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-garhoud-south",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_area_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_developers",
+    "block_10_landmarks_location",
+    "block_11_similar_districts",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#top-projects",
+          "label": "Best projects",
+          "active": true
+        },
+        {
+          "href": "#area-fit",
+          "label": "Who it fits",
+          "active": false
+        },
+        {
+          "href": "#location",
+          "label": "Location",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#districtLeadModal",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#districtLeadModal",
+      "brand_url": "/en/",
+      "cta_label": "Find my options",
+      "block_status": "formula_generated",
+      "schema_version": "district_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "areas",
+          "href": "/en/areas/",
+          "label": "UAE Areas"
+        },
+        {
+          "key": "city",
+          "href": "/en/areas/dubai/",
+          "label": "Dubai",
+          "label_ref": "entity.city"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-garhoud-south/",
+          "label": "Al Garhoud South",
+          "label_ref": "entity.name"
+        }
+      ],
+      "url_section": "areas",
+      "block_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_breadcrumbs_v1"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "image": {
+        "alt": "Al Garhoud Dubai urban area with residential buildings and city infrastructure",
+        "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/99cae5d5-b38b-40b9-cdca-d13c55ee5100/desktop",
+        "mobile_src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/77a38f5d-5848-4bb7-23e3-ed504d827a00/mobile",
+        "media_status": "available"
+      },
+      "title": "Al Garhoud South Area Guide",
+      "emirate": "Dubai",
+      "gallery": [],
+      "subtitle": "A calm suburban district featuring low- to mid-density residential housing with a family-oriented environment.",
+      "info_label": "Area profile",
+      "info_value": "Villa-led · Suburban",
+      "hero_status": "agent_written",
+      "district_name": "Al Garhoud South",
+      "schema_version": "district_hero_v1"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Find projects in Al Garhoud South for my budget and timeline",
+        "Compare Al Garhoud South with similar UAE districts",
+        "Is Al Garhoud South better for living or investment?",
+        "Explain location value in Dubai"
+      ],
+      "prompts": [
+        "Find projects in Al Garhoud South for my budget and timeline",
+        "Compare Al Garhoud South with similar UAE districts",
+        "Is Al Garhoud South better for living or investment?",
+        "Explain location value in Dubai"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "voice_text": "Ask about this district",
+      "placeholder": "Ask about Al Garhoud South, projects, lifestyle, location, risks or similar districts",
+      "block_status": "formula_generated",
+      "button_label": "Ask",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Find projects in Al Garhoud South for my budget, lifestyle and timeline...",
+      "ai_placeholder": "Find projects in Al Garhoud South for my budget, lifestyle and timeline...",
+      "schema_version": "district_ai_search_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI about Al Garhoud South",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Urban",
+        "Suburban",
+        "Established",
+        "Family Oriented"
+      ],
+      "title": "Short verdict",
+      "eyebrow": "AI-readable short answer",
+      "body_html": "<strong>Al Garhoud South</strong> is a low- to mid-density residential district in Dubai offering villas, townhouses, and family-friendly suburban living near Dubai Airport.",
+      "body_source": "src_district_summary_short_fallback_src_district_overview",
+      "chip_source": "src_district_tags_src_lifestyle_tags_src_investor_tags_src_family_tags",
+      "source_status": "prototype_inputs_needs_sources",
+      "schema_version": "district_short_verdict_v1",
+      "summary_status": "source_rewritten_unique_final"
+    },
+    "block_06_area_facts": {
+      "note": "Use this as a first district snapshot. Project availability, source claims, prices and advisory details should be checked before a buyer decision.",
+      "items": [
+        {
+          "label": "City",
+          "value": "Dubai"
+        },
+        {
+          "label": "Emirate",
+          "value": "Dubai"
+        },
+        {
+          "label": "District profile",
+          "value": "Urban"
+        },
+        {
+          "label": "Best fit",
+          "value": "Families · Professionals · Investors"
+        },
+        {
+          "label": "Lifestyle feel",
+          "value": "Calm · Green"
+        },
+        {
+          "label": "Lifestyle signals",
+          "value": "Suburban · Quiet · Green"
+        },
+        {
+          "label": "Investment lens",
+          "value": "General investment context"
+        },
+        {
+          "label": "Family lens",
+          "value": "Family-oriented · Schools nearby · Spacious homes"
+        },
+        {
+          "label": "Project matching",
+          "value": "Needs project matching"
+        }
+      ],
+      "title": "District facts",
+      "eyebrow": "What to know",
+      "facts_status": "taxonomy_normalized",
+      "schema_version": "district_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Buyer match",
+        "good_for": [
+          "Buyers comparing Urban locations in Dubai",
+          "Lifestyle priorities aligned with Calm · Green",
+          "Search profiles aligned with Families · Professionals · Investors"
+        ],
+        "less_for": [
+          "Buyers who need confirmed project availability before shortlisting",
+          "Buyers relying only on assumed prices, yields or service charges",
+          "Clients whose preferred lifestyle or property format does not match the district profile"
+        ],
+        "good_for_title": "Good fit for",
+        "less_for_title": "May not fit",
+        "buyer_fit_status": "source_normalized"
+      },
+      "area_logic": {
+        "body": "Al Garhoud South is a low- to mid-density residential district in Dubai offering villas, townhouses, and family-friendly suburban living near Dubai Airport. The district profile is best understood through suburban · quiet · green. Buyer matching should be checked against family-oriented · schools nearby · spacious homes considerations and verified project data before shortlisting.",
+        "tags": [
+          "Urban",
+          "Calm · Green",
+          "Family-oriented · Schools nearby · Spacious homes",
+          "Needs project matching"
+        ],
+        "title": "Why this district matters",
+        "eyebrow": "Area logic",
+        "logic_status": "source_normalized"
+      },
+      "block_status": "source_normalized_final",
+      "schema_version": "buyer_fit_logic_v1"
+    },
+    "block_08_decision_cards": {
+      "cards_status": "source_rewritten_unique_editorial_clean_final",
+      "decision_cards": [
+        {
+          "text": "Al Garhoud South offers a suburban, quiet, and green rhythm shaped by its urban character and the pace of everyday life in Dubai.",
+          "title": "Lifestyle context",
+          "eyebrow": "Lifestyle logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "For Al Garhoud South, buyers should assess available property formats through verified project data, ownership costs, payment structure, and current availability.",
+          "title": "Investment context",
+          "eyebrow": "Investment logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Al Garhoud South may suit households prioritising a family-oriented setting, access to education, and spacious homes, subject to verified checks on schools, healthcare, travel times, and available housing.",
+          "title": "Family context",
+          "eyebrow": "Family logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare Al Garhoud South options by budget, unit type, view, payment plan, handover, service charges, location fit, and actual availability before a buyer decision.",
+          "title": "AI-assisted matching",
+          "eyebrow": "AI context",
+          "text_status": "formula_generated_safe_context"
+        }
+      ],
+      "schema_version": "district_decision_cards_v1"
+    },
+    "block_09_projects_developers": {
+      "projects": {
+        "items": [],
+        "title": "Top projects in Al Garhoud South",
+        "eyebrow": "Commercial graph",
+        "ranking_method": "active_graph_links_confidence_completeness_developer_diversity",
+        "selected_count": 0,
+        "matching_source": "entities.project_district_links",
+        "projects_status": "no_verified_linked_projects",
+        "total_linked_projects": 0
+      },
+      "block_status": "final_no_graph_matches",
+      "schema_version": "projects_developers_v1",
+      "developer_presence": {
+        "body": "Al Garhoud South has a lower-density development pattern where community planning, build quality, plot positioning and long-term maintenance matter more than developer scale.",
+        "tags": [],
+        "title": "Developer logic",
+        "eyebrow": "Developer presence",
+        "matching_source": "entities.project_developer_links",
+        "developer_status": "district_development_logic",
+        "linked_developer_count": 0
+      }
+    },
+    "block_10_landmarks_location": {
+      "map": {
+        "lat": null,
+        "lng": null,
+        "text": "Al Garhoud South is located in Dubai. Use the live map to review the district location and nearby places.",
+        "label": "Al Garhoud South, Dubai, UAE",
+        "title": "Location / map context",
+        "eyebrow": "Map context",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=Al+Garhoud+South%2C+Dubai%2C+UAE",
+        "disclaimer": "Exact distance, travel time and access should be checked against current maps.",
+        "map_status": "search_link_ready",
+        "point_label": "Map point",
+        "address_label": "Address",
+        "area_guide_url": "/en/areas/al-garhoud-south/",
+        "open_map_label": "Open map",
+        "area_guide_label": "Area guide"
+      },
+      "landmarks": {
+        "items": [
+          {
+            "meta": "Major aviation destination nearby",
+            "type": "landmark",
+            "title": "Dubai International Airport",
+            "item_status": "verified_source_override"
+          },
+          {
+            "meta": "Education facilities nearby",
+            "type": "education",
+            "title": "Local schools",
+            "item_status": "source_category"
+          },
+          {
+            "meta": "Retail and daily convenience",
+            "type": "retail",
+            "title": "Local retail",
+            "item_status": "source_category"
+          }
+        ],
+        "title": "Landmarks and nearby context",
+        "eyebrow": "Nearby places",
+        "landmarks_status": "verified_source_override"
+      },
+      "url_section": "areas",
+      "block_status": "final_clean_verified_v4",
+      "schema_version": "landmarks_location_v4"
+    },
+    "block_11_similar_districts": {
+      "items": [
+        {
+          "href": "/en/areas/al-aweer-1/",
+          "rank": 1,
+          "title": "Al Aweer 1",
+          "match_reason": "Similar district profile",
+          "district_slug": "al-aweer-1"
+        },
+        {
+          "href": "/en/areas/al-aweer-2/",
+          "rank": 2,
+          "title": "Al Aweer 2",
+          "match_reason": "Similar district profile",
+          "district_slug": "al-aweer-2"
+        },
+        {
+          "href": "/en/areas/al-barsha-south/",
+          "rank": 3,
+          "title": "Al Barsha South",
+          "match_reason": "Similar district profile",
+          "district_slug": "al-barsha-south"
+        },
+        {
+          "href": "/en/areas/al-khawaneej-1/",
+          "rank": 4,
+          "title": "Al Khawaneej 1",
+          "match_reason": "Similar district profile",
+          "district_slug": "al-khawaneej-1"
+        }
+      ],
+      "title": "Similar districts",
+      "eyebrow": "Alternatives"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Al Garhoud South is a low- to mid-density residential district in Dubai offering villas, townhouses, and family-friendly suburban living near Dubai Airport.",
+          "question": "What type of residential community is Al Garhoud South?"
+        },
+        {
+          "answer": "Al Garhoud South is most relevant to buyers comparing residential communities, villas, townhouses or lower-density housing in Dubai. The final fit depends on property format, household needs, daily travel and verified availability.",
+          "question": "Who should consider property in Al Garhoud South?"
+        },
+        {
+          "answer": "Specific project options in Al Garhoud South should be confirmed from current listings and official sources. Buyers can first use the district profile to define the preferred property type and buyer scenario.",
+          "question": "How should buyers search for property in Al Garhoud South?"
+        },
+        {
+          "answer": "Al Garhoud South can be considered for both personal use and investment-led ownership. The right route depends on villa or apartment format, household needs, ownership costs and current verified availability.",
+          "question": "How should buyers assess living and investment options in Al Garhoud South?"
+        },
+        {
+          "answer": "Verify the project, developer, villa or apartment format, plot or unit details, price, payment terms, community facilities, service charges, official documents and current availability before choosing property in Al Garhoud South.",
+          "question": "What should buyers verify before shortlisting Al Garhoud South?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Buyer questions"
+    },
+    "block_13_trust_sources": {
+      "items": [
+        {
+          "href": "",
+          "label": "Official property authority data",
+          "value": "District and transaction records will be attached during source verification.",
+          "link_status": "pending",
+          "source_type": "authority"
+        },
+        {
+          "href": "",
+          "label": "Official developer materials",
+          "value": "Project details, launches and developer information will be checked against official materials.",
+          "link_status": "pending",
+          "source_type": "developer"
+        },
+        {
+          "href": "",
+          "label": "Primadom project matching",
+          "value": "Linked projects and developers will be validated against the Primadom database.",
+          "link_status": "pending",
+          "source_type": "internal_graph"
+        },
+        {
+          "href": "#districtLeadModal",
+          "label": "Current availability",
+          "value": "Units, prices and payment plans require a current availability check.",
+          "link_status": "check_required",
+          "source_type": "availability"
+        }
+      ],
+      "title": "Sources and data checks",
+      "status": "Source verification pending",
+      "eyebrow": "Verification",
+      "source_notes": {
+        "body": "Information for Al Garhoud South is currently based on the prepared district profile. Official authority records, developer materials, verified project links and current availability will be added during the source-verification stage.",
+        "title": "Source note",
+        "last_checked": "Not yet verified"
+      }
+    },
+    "block_14_cta": {
+      "text": "Tell Primadom AI what you’re looking for — we’ll narrow the options and route the request to an advisor.",
+      "title": "Find the right projects in Al Garhoud South",
+      "actions": [
+        {
+          "key": "find_projects",
+          "href": "#districtLeadModal",
+          "label": "Find projects",
+          "primary": true,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "area_project_search"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#ask-ai",
+          "label": "Ask Primadom AI",
+          "primary": false,
+          "open_modal": false,
+          "action_intent": "ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#districtLeadModal",
+          "label": "Request a call",
+          "primary": false,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "formula_generated_final",
+      "schema_version": "district_cta_v1_1"
+    },
+    "block_15_lead_modal": {
+      "note": "We'll check the details before sharing your request.",
+      "text": "Tell us what you are looking for. Primadom AI will prepare a short matching context before an advisor contacts you.",
+      "title": "Find projects in Al Garhoud South",
+      "fields": {
+        "name": "Name",
+        "phone": "Phone / WhatsApp",
+        "request": "Request"
+      },
+      "submit": "Send",
+      "comment": "Interested in Al Garhoud South. Send projects.",
+      "eyebrow": "Project request",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "districtLeadModal",
+      "title_id": "districtLeadTitle",
+      "close_label": "Close",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "project_graph_ref": "supabase_project_district_links",
+        "developer_graph_ref": "supabase_project_developer_links"
+      },
+      "ai_row_badge": "Request draft",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Your name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "request": {
+          "label": "Request",
+          "html_name": "request_type",
+          "placeholder": "Project, area or question"
+        }
+      },
+      "modal_status": "formula_generated",
+      "submit_label": "Send",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "emirate": {
+          "html_name": "emirate",
+          "value_ref": "emirate"
+        },
+        "district_key": {
+          "html_name": "district_key",
+          "value_ref": "district_slug"
+        },
+        "district_name": {
+          "html_name": "district_name",
+          "value_ref": "district_name"
+        }
+      },
+      "success_label": "Sent",
+      "schema_version": "district_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Interested in Al Garhoud South. Send projects.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "unit_type",
+          "timing",
+          "view",
+          "payment_plan"
+        ]
+      },
+      "voice_button_label": "Use voice"
+    },
+    "block_16_footer": {
+      "text": "This page helps you review Al Garhoud South, understand the district context, compare linked projects and prepare the right questions before speaking with a Primadom advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/en/projects/",
+          "label": "Projects"
+        },
+        {
+          "key": "areas",
+          "href": "/en/areas/",
+          "label": "Districts"
+        },
+        {
+          "key": "developers",
+          "href": "/en/developers/",
+          "label": "Developers"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI search"
+        }
+      ],
+      "title": "Find the right UAE property with clearer district data and AI guidance.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "url_section": "areas",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug"
+      },
+      "footer_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_footer_v1",
+      "contact_primary": {
+        "href": "#districtLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Ask AI",
+        "action_intent": "district_question"
+      }
+    }
+  }
+}

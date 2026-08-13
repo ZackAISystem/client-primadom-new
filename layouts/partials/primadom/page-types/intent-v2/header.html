@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/intent-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<header class="pi-header">
+  <div class="pi-header__inner">
+    <a class="pi-header__badge" href="{{ $t.header.brand_url }}" aria-label="{{ $t.header.brand }}">
+      <span class="pi-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $t.header.brand }}</span>
+    </a>
+
+    <nav class="pi-header__nav" aria-label="{{ $t.header.nav_aria }}">
+      {{ range $t.header.nav }}
+        <a class="pi-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pi-header__nav-link--ai{{ end }}" href="{{ .href }}">{{ .label }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="pi-header__right">
+      <a class="pi-header__cta" href="{{ $t.header.cta_url }}" data-open-intent-lead>{{ $t.header.cta_label }}</a>
+    </div>
+  </div>
+</header>

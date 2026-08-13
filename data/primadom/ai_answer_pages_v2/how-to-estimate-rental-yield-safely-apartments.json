@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-estimate-rental-yield-safely__context__apartments__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-estimate-rental-yield-safely-apartments/",
+  "canonical_url_path": "/en/ai-answers/how-to-estimate-rental-yield-safely-apartments/",
+  "canonical_group_key": "ai_answer:how-to-estimate-rental-yield-safely:context:apartments",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-estimate-rental-yield-safely",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-estimate-rental-yield-safely-apartments/",
+          "label": "How should I estimate rental yield safely? — Apartments",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Apartments",
+        "Investment view",
+        "Rental factors",
+        "Resale factors",
+        "Risk check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I estimate rental yield safely? — Apartments",
+      "subtitle": "Estimate rental yield when buying apartments using realistic rent, purchase price, service charges, vacancy and other ownership-cost assumptions.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I estimate rental yield safely? — Apartments",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which rent assumptions should stay conservative before buying",
+        "Compare gross income with recurring ownership costs for apartment buyers",
+        "Explain which yield inputs need current evidence before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me estimate rental yield carefully for apartment buyers",
+      "placeholder": "Help me estimate rental yield carefully for apartment buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Rental yield",
+        "Apartments",
+        "Realistic rent",
+        "Ownership costs",
+        "Stress test"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Rental yield should be estimated from realistic rent and full ownership costs, not marketing projections.</strong> For apartment buyers, use a defensible rent, account for service charges, vacancy, management and other relevant costs, and test a weaker scenario. Treat the result as an estimate until current rental and cost evidence supports the assumptions.",
+      "body_text": "Rental yield should be estimated from realistic rent and full ownership costs, not marketing projections. For apartment buyers, use a defensible rent, account for service charges, vacancy, management and other relevant costs, and test a weaker scenario. Treat the result as an estimate until current rental and cost evidence supports the assumptions.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I estimate rental yield safely? — Apartments"
+        },
+        {
+          "label": "Context",
+          "value": "Apartments"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Yield needs conservative inputs"
+        },
+        {
+          "label": "Main checks",
+          "value": "Realistic rent · Ownership costs · Stress test"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Rent assumptions · vacancy · costs"
+        },
+        {
+          "label": "Best next step",
+          "value": "Recalculate with conservative assumptions"
+        },
+        {
+          "label": "Verification",
+          "value": "Current rent and costs required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Estimate Rental Yield Safely",
+      "market": "UAE",
+      "context": "Apartments",
+      "eyebrow": "Key facts",
+      "question": "How to estimate rental yield safely for Apartments?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Returns depend on an asking figure that may not reflect actual leasing conditions.",
+            "title": "The calculation uses headline rent"
+          },
+          {
+            "text": "The yield looks attractive only because service charges, vacancy or management expenses are excluded.",
+            "title": "Important ownership costs are missing"
+          },
+          {
+            "text": "A small change in rent, occupancy or costs would materially reduce the expected return.",
+            "title": "There is no downside test"
+          },
+          {
+            "text": "For apartment buyers, revisit the rental-yield estimate if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Achievable rent comes from comparable market activity rather than the highest advertised listing.",
+            "title": "Rent is based on realistic evidence"
+          },
+          {
+            "text": "Service charges, vacancy, management and other relevant expenses are reflected in the calculation.",
+            "title": "All recurring costs are included"
+          },
+          {
+            "text": "The investment remains acceptable if rent is lower or vacancy is higher than the base case.",
+            "title": "The return survives a weaker scenario"
+          },
+          {
+            "text": "For apartment buyers, the rental-yield estimate still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For apartment buyers, use a defensible rent, account for service charges, vacancy, management and other relevant costs, and test a weaker scenario.",
+          "title": "Realistic rent · Ownership costs · Stress test",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the calculation uses headline rent, important ownership costs are missing, or there is no downside test.",
+          "title": "Yield assumption",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Treat the result as an estimate until current rental and cost evidence supports the assumptions.",
+          "title": "Recalculate with conservative assumptions",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the calculation uses headline rent, important ownership costs are missing, or there is no downside test. For apartment buyers, treat the result as an estimate until current rental and cost evidence supports the assumptions.",
+        "tags": [
+          "Rent evidence",
+          "Vacancy",
+          "Operating costs",
+          "Yield sensitivity",
+          "Yield assumption"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For apartment buyers, base the rent assumption on comparable leasing evidence and achievable ranges rather than the highest advertised asking rent.",
+            "title": "Use realistic rent evidence"
+          },
+          {
+            "text": "Include realistic periods without rent, tenant turnover and leasing time instead of assuming uninterrupted income throughout the year.",
+            "title": "Allow for vacancy"
+          },
+          {
+            "text": "Account for service charges, management, maintenance and other recurring expenses before describing the remaining income as yield.",
+            "title": "Deduct operating costs"
+          },
+          {
+            "text": "Recalculate the result with lower rent, higher costs or a different purchase price to see how sensitive the headline yield really is.",
+            "title": "Stress-test the calculation"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-rental-demand-apartments/",
+          "label": "How should I check rental demand?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investment-logic-apartments/",
+          "label": "How should I check investment logic?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-exit-strategy-apartments/",
+          "label": "How should I check an exit strategy?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-resale-potential-apartments/",
+          "label": "How should I check resale potential?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-choose-area-for-rental-income-apartments/",
+          "label": "How should I choose an area for rental income?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Rental yield should be estimated from realistic rent and full ownership costs, not marketing projections. For apartment buyers, base the rent assumption on comparable leasing evidence and achievable ranges rather than the highest advertised asking rent.",
+          "question": "How do I estimate rental yield safely?"
+        },
+        {
+          "answer": "Rental demand should be checked through realistic tenant activity, not headline yield claims. Use comparable units, actual leasing evidence and realistic ranges instead of basing the decision only on advertised asking rents.",
+          "question": "How should I assess rental demand?"
+        },
+        {
+          "answer": "Investment logic should connect the purchase price to realistic income, costs and exit options. Use evidence on tenants, future buyers and competing supply rather than assuming that a strong location guarantees an easy rental or resale.",
+          "question": "How should I assess the investment case?"
+        },
+        {
+          "answer": "A good exit strategy starts with understanding who could realistically buy the property later. Consider selling costs, financing appeal, expected marketing time and any contractual restrictions that could make an exit slower or more expensive.",
+          "question": "How should I plan an exit strategy?"
+        },
+        {
+          "answer": "Resale potential depends on future buyer demand, competition and the property’s distinctiveness. Resale becomes fragile when only a very narrow audience is likely to value the property. Avoid relying on a single resale scenario, especially where the premium or future buyer pool is narrow.",
+          "question": "How should I assess resale potential?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Rental demand, yield, resale potential and capital growth are assessment topics rather than guaranteed outcomes. Compare current market evidence with the specific property, costs and holding assumptions before relying on an investment conclusion.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Apartments · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Realistic rent · Ownership costs · Stress test"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current market evidence · comparable properties · property facts"
+        },
+        {
+          "label": "Live check",
+          "value": "Current market evidence and property-specific inputs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "investment_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your apartment search, including your budget, holding period, market assumptions, costs and exit risks before you decide whether the property fits your strategy.",
+      "title": "Want to test the investment case?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your apartment search, focusing on market assumptions, costs, holding period and rental or resale risks an advisor should review with you.",
+      "title": "Check the investment case for your situation",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my investment strategy.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

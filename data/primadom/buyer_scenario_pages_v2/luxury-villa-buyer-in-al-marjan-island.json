@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_luxury_villa_buyer_al_marjan_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/luxury-villa-buyer-in-al-marjan-island/",
+  "canonical_url_path": "/en/buyer-scenarios/luxury-villa-buyer-in-al-marjan-island/",
+  "canonical_group_key": "scenario_district:luxury_villa_buyer:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/luxury-villa-buyer-in-al-marjan-island/",
+          "label": "Luxury Villa Buyer in Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Luxury villa",
+        "Al Marjan Island",
+        "Villas",
+        "AED 7M+",
+        "Privacy · space · upkeep"
+      ],
+      "image": {
+        "alt": "Luxury Villa Buyer in Al Marjan Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Luxury Villa Buyer in Al Marjan Island",
+      "subtitle": "Luxury-villa buyers in Al Marjan Island can compare space, privacy, community fit, maintenance and the current options worth checking.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Luxury Villa Buyer in Al Marjan Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare luxury-villa options in Al Marjan Island",
+        "Compare space, privacy and maintenance",
+        "Which villa details need verification?"
+      ],
+      "ai_aria": "Ask Primadom AI about Luxury Villa Buyer in Al Marjan Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare luxury-villa options in Al Marjan Island",
+      "placeholder": "Compare luxury-villa options in Al Marjan Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Luxury villas",
+        "Al Marjan Island",
+        "Space · privacy",
+        "Upkeep · community fit",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a luxury villa purchase in Al Marjan Island</strong>, compare privacy, usable space, plot and home configuration, maintenance responsibility and community fit. The shortlist should reflect how the buyer expects to live in and hold the property.",
+      "body_text": "For a luxury villa purchase in Al Marjan Island, compare privacy, usable space, plot and home configuration, maintenance responsibility and community fit. The shortlist should reflect how the buyer expects to live in and hold the property.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Luxury Villa Buyer"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Luxury living"
+        },
+        {
+          "label": "Location",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Villas"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 7M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Space · privacy · upkeep"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Luxury comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare villa fit"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers choosing only by built-up area or bedroom count",
+          "Buyers underestimating maintenance and operating costs",
+          "Buyers who do not need the privacy or space that drives a villa premium"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Luxury buyers considering villas in Al Marjan Island for privacy, space and long-term use",
+          "Households comparing plot, layout, outdoor space and upkeep together",
+          "Buyers willing to judge the home on everyday usability as well as finishes and privacy"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Al Marjan Island, focus first on how the villa works as a home. Plot usability, privacy, layout, outdoor space and ongoing upkeep should be considered together with location and the flexibility the household may need later.",
+        "tags": [
+          "Privacy",
+          "Plot use",
+          "Layout",
+          "Upkeep",
+          "Long-term use"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing luxury villas in Al Marjan Island, judge the area by privacy, plot usability, daily access and how the home will be used over time.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Compare other areas if they offer a better balance of privacy, travel pattern and ownership cost without sacrificing the space required.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "The area should support everyday use of a large home, not simply add status to the address.",
+            "title": "Villa lifestyle"
+          },
+          {
+            "text": "Keep plot, layout, upkeep and long-term flexibility in the area comparison before narrowing the villa search.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "The core option, with privacy, plot usability and layout more important than bedroom count alone.",
+            "title": "Villas"
+          },
+          {
+            "text": "Worth comparing when the extra space has a clear use and the higher upkeep remains comfortable.",
+            "title": "Larger villas"
+          },
+          {
+            "text": "Allow the buyer to inspect the actual plot, condition and privacy before committing.",
+            "title": "Ready villas"
+          },
+          {
+            "text": "Can offer newer layouts and staged payments, but delivery timing and the finished result still need careful review.",
+            "title": "Off-plan villas"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Large homes carry upkeep and operating costs that should be considered alongside the purchase price before the buyer pays for extra scale.",
+          "title": "Budget for the villa beyond purchase price",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Al Marjan Island, compare privacy, plot usability, layout, outdoor space and daily travel before judging the home by size or status.",
+          "title": "Start with how the villa will be used",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "A larger villa can add maintenance and cost without improving daily life if the extra plot or internal space has no clear purpose.",
+          "title": "A bigger villa is not always a better fit",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare villa options in Al Marjan Island using privacy, plot use, layout, upkeep, budget and long-term household needs.",
+          "title": "Compare villas by real use",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Al Marjan Island, the main risks are paying for scale the household will not use, overlooking maintenance and operating costs, choosing an impractical location for daily travel, or assuming prestige guarantees future resale demand.",
+        "tags": [
+          "Plot use",
+          "Privacy",
+          "Upkeep",
+          "Daily travel",
+          "Resale"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Decide what the household actually needs from the plot, outdoor areas and internal space before treating larger scale as inherently better.",
+            "title": "Define how the private space will be used"
+          },
+          {
+            "text": "Compare how rooms, circulation, parking and outdoor areas work together rather than choosing on built-up area or bedroom count alone.",
+            "title": "Inspect layout as closely as size"
+          },
+          {
+            "text": "In Al Marjan Island, compare privacy, regular travel, plot usability and access to the places the household uses most often.",
+            "title": "Test the villa against daily life"
+          },
+          {
+            "text": "Include maintenance, utilities and other ongoing costs that can increase materially with a larger villa and plot.",
+            "title": "Budget for operating the home"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/w-hotel-residences/",
+            "meta": "Dalands · Al Marjan Island",
+            "label": "W Hotel & Residences"
+          },
+          {
+            "href": "/en/projects/danah-bay/",
+            "meta": "Dubai Investment Properties · Al Marjan Island",
+            "label": "Danah Bay"
+          },
+          {
+            "href": "/en/projects/costa-mare/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Costa Mare"
+          },
+          {
+            "href": "/en/projects/the-astera/",
+            "meta": "Dar Global · Al Marjan Island",
+            "label": "The Astera"
+          },
+          {
+            "href": "/en/projects/moonstone-residences-interiors/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "Moonstone Residences Interiors"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "The villa budget should cover both acquisition and the cost of operating a larger private home. Purchase costs, furnishing, utilities, maintenance and a reserve for unexpected work should remain visible alongside the property price.",
+        "tags": [
+          "Purchase price",
+          "Purchase costs",
+          "Villa upkeep",
+          "Utilities",
+          "Cash reserve"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-al-marjan-island/",
+          "label": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Branded Residence Buyer AED 3M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/villa-vs-townhouse-decision-buyer/",
+          "label": "Villa vs Townhouse Decision Buyer"
+        },
+        {
+          "href": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Capital Preservation Buyer AED 3M+ in Al Marjan Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a luxury villa in Al Marjan Island, focus on how the home works as a property: plot usability, privacy, layout, access, condition or delivery position and ongoing upkeep all matter.",
+          "question": "What should matter most when choosing a luxury villa in Al Marjan Island?"
+        },
+        {
+          "answer": "This search suits buyers in Al Marjan Island who genuinely value private space and are comfortable with the higher operating and maintenance responsibilities that can come with a larger home.",
+          "question": "Who may prefer a luxury villa in Al Marjan Island?"
+        },
+        {
+          "answer": "Inspect the actual plot and layout, parking and access, outdoor areas, condition or specification, recurring community costs and maintenance requirements before choosing in Al Marjan Island.",
+          "question": "What should I inspect before choosing a luxury villa in Al Marjan Island?"
+        },
+        {
+          "answer": "Budget beyond the villa price in Al Marjan Island for transaction costs, furnishing or fit-out, landscaping or setup where relevant and the ongoing cost of maintaining a larger property.",
+          "question": "How should I budget for buying and operating a luxury villa in Al Marjan Island?"
+        },
+        {
+          "answer": "The main risk in Al Marjan Island is paying for scale or status while underestimating inefficient space, maintenance demands, recurring costs or the size of the future buyer pool.",
+          "question": "What are the main risks of a luxury-villa purchase in Al Marjan Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a luxury villa in Al Marjan Island, inspect how the actual home works before paying for scale or prestige. Plot use, layout, property condition, operating costs and the transaction details should all be understood at property level.",
+      "items": [
+        {
+          "label": "Plot / layout",
+          "value": "Inspect actual usability"
+        },
+        {
+          "label": "Property condition",
+          "value": "Check the real home"
+        },
+        {
+          "label": "Operating costs",
+          "value": "Allow for ongoing upkeep"
+        },
+        {
+          "label": "Transaction details",
+          "value": "Verify before commitment"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare villas in Al Marjan Island around privacy, plot usability, layout, daily practicality and the cost of operating a larger home. Primadom AI can help organise those priorities before you review individual properties.",
+      "title": "Looking for a villa that works beyond size and prestige?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your privacy, plot, layout and daily-living priorities while comparing villas around Al Marjan Island. This gives the advisor useful context before the conversation.",
+      "title": "Check your luxury villa search",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare luxury villas around my priorities",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "From Al Marjan Island, continue into villa projects and communities with attention to plot use, privacy, maintenance and long-term ownership practicality rather than scale or status alone.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Compare the villa beyond size and prestige",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

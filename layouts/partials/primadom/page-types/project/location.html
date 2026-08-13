@@ -1,0 +1,60 @@
+{{/* Primadom AI System — Project Page partial: location.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.location -}}
+
+<div class="pd-project-card-grid pd-project-card-grid--lower">
+  <article class="pd-project-card" id="nearby">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.nearby_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.drive_time_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <div class="pd-nearby-list">
+        {{- $items := partial "primadom/page-types/project/_t.html" (dict "value" $b.nearby_landmarks "lang" $lang) -}}
+        {{- range $items }}
+          <div class="pd-nearby-item">
+            <strong>{{ .name }}</strong>
+            <span>{{ .time }}</span>
+          </div>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pd-project-card" id="location">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.location_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.map_context_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <div class="pd-location-box" id="map">
+        <div>
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.address_label "lang" $lang) }}</span>
+          <strong>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.map.address "lang" $lang) }}</strong>
+        </div>
+
+        <div>
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.map_point_label "lang" $lang) }}</span>
+          <strong>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.map.address "lang" $lang) }}</strong>
+        </div>
+
+        <div class="pd-location-actions">
+          {{- range $action := $b.actions }}
+            <a class="{{ if eq $action.key "area_guide" }}pd-location-secondary{{ end }}" href="{{ $action.href }}">
+              {{ partial "primadom/page-types/project/_t.html" (dict "value" $action.label "lang" $lang) }}
+            </a>
+          {{- end }}
+        </div>
+      </div>
+
+      <p class="pd-project-description">
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.location_context "lang" $lang) }}
+      </p>
+    </div>
+  </article>
+</div>

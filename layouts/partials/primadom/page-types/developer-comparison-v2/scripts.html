@@ -1,0 +1,750 @@
+<script>
+(function () {
+
+  const aiForm =
+    document.querySelector('.pc-ai');
+
+  if (aiForm) {
+    aiForm.addEventListener(
+      'submit',
+      function (event) {
+
+        event.preventDefault();
+
+        document
+          .getElementById('verdict')
+          ?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+      }
+    );
+  }
+
+
+  const modal =
+    document.getElementById(
+      'developerComparisonLeadModal'
+    );
+
+  if (!modal) return;
+
+
+  const html =
+    document.documentElement;
+
+  const leadForm =
+    modal.querySelector(
+      '[data-developer-comparison-form]'
+    );
+
+  const requestRow =
+    modal.querySelector(
+      '[data-developer-comparison-request-row]'
+    );
+
+  const comment =
+    modal.querySelector(
+      '[data-developer-comparison-comment]'
+    );
+
+  const voiceBtn =
+    modal.querySelector(
+      '[data-developer-comparison-voice]'
+    );
+
+  const voiceStatus =
+    modal.querySelector(
+      '[data-developer-comparison-voice-status]'
+    );
+
+  const voiceText =
+    modal.querySelector(
+      '[data-developer-comparison-voice-text]'
+    );
+
+  const submit =
+    modal.querySelector('.pc-submit');
+
+
+  const voiceContract =
+    requestRow
+      ? {
+          listening:
+            requestRow.dataset.voiceListeningStatus ||
+            'Listening…',
+
+          success:
+            requestRow.dataset.voiceSuccessStatus ||
+            'Got it',
+
+          error:
+            requestRow.dataset.voiceErrorStatus ||
+            'Voice paused',
+
+          errorText:
+            requestRow.dataset.voiceErrorText ||
+            'Type your request or try again',
+
+          fallback:
+            requestRow.dataset.voiceFallbackStatus ||
+            'Voice mode',
+
+          fallbackText:
+            requestRow.dataset.voiceFallbackText ||
+            'Speech recognition is not supported here',
+
+          prompt:
+            requestRow.dataset.voiceText ||
+            'Ask about this developer comparison'
+        }
+      : null;
+
+
+  const Recognition =
+    window.SpeechRecognition ||
+    window.webkitSpeechRecognition ||
+    null;
+
+
+  let recognition = null;
+  let isListening = false;
+  let receivedTranscript = false;
+  let hadVoiceError = false;
+  let ignoreNextEnd = false;
+  let voiceTimer = null;
+  let previousComment = '';
+
+
+  function clearVoiceTimer() {
+    if (!voiceTimer) return;
+
+    window.clearTimeout(voiceTimer);
+
+    voiceTimer = null;
+  }
+
+
+  function normalizeTranscript(value) {
+    return String(value || '')
+      .replace(/\s+/g, ' ')
+      .replace(/\s+([,.!?;:])/g, '$1')
+      .trim();
+  }
+
+
+  function setVoiceUI(
+    active,
+    status,
+    text
+  ) {
+
+    if (!requestRow || !voiceBtn) {
+      return;
+    }
+
+
+    requestRow.classList.toggle(
+      'is-voice-active',
+      active
+    );
+
+
+    voiceBtn.classList.toggle(
+      'is-active',
+      active
+    );
+
+
+    voiceBtn.setAttribute(
+      'aria-pressed',
+      active ? 'true' : 'false'
+    );
+
+
+    if (
+      status &&
+      voiceStatus
+    ) {
+      voiceStatus.textContent =
+        status;
+    }
+
+
+    if (
+      typeof text === 'string' &&
+      voiceText
+    ) {
+      voiceText.textContent =
+        text;
+    }
+  }
+
+
+  function hideVoiceUI(delay) {
+
+    clearVoiceTimer();
+
+
+    voiceTimer =
+      window.setTimeout(
+        function () {
+
+          setVoiceUI(
+            false,
+            voiceContract
+              ? voiceContract.listening
+              : 'Listening…',
+            voiceContract
+              ? voiceContract.prompt
+              : ''
+          );
+
+        },
+        delay || 0
+      );
+  }
+
+
+  function restorePreviousCommentIfEmpty() {
+
+    if (!comment) return;
+
+
+    if (
+      !(comment.value || '').trim() &&
+      previousComment
+    ) {
+      comment.value =
+        previousComment;
+    }
+  }
+
+
+  if (
+    Recognition &&
+    requestRow &&
+    voiceBtn &&
+    comment
+  ) {
+
+    recognition =
+      new Recognition();
+
+
+    const pageLanguage =
+      document.documentElement.lang ||
+      'en';
+
+
+    recognition.lang =
+      pageLanguage
+        .toLowerCase()
+        .startsWith('en')
+        ? 'en-US'
+        : pageLanguage;
+
+
+    recognition.interimResults =
+      true;
+
+    recognition.continuous =
+      false;
+
+    recognition.maxAlternatives =
+      1;
+
+
+    recognition.onstart =
+      function () {
+
+        clearVoiceTimer();
+
+        isListening = true;
+        receivedTranscript = false;
+        hadVoiceError = false;
+
+        previousComment =
+          comment.value || '';
+
+
+        comment.value = '';
+
+        comment.focus();
+
+
+        setVoiceUI(
+          true,
+          voiceContract.listening,
+          voiceContract.prompt
+        );
+      };
+
+
+    recognition.onresult =
+      function (event) {
+
+        let transcript = '';
+
+
+        for (
+          let index = 0;
+          index < event.results.length;
+          index += 1
+        ) {
+
+          const result =
+            event.results[index];
+
+
+          if (
+            result &&
+            result[0] &&
+            result[0].transcript
+          ) {
+
+            transcript +=
+              ' ' +
+              result[0].transcript;
+          }
+        }
+
+
+        transcript =
+          normalizeTranscript(
+            transcript
+          );
+
+
+        if (!transcript) return;
+
+
+        receivedTranscript = true;
+
+        comment.value =
+          transcript;
+
+
+        const lastResult =
+          event.results[
+            event.results.length - 1
+          ];
+
+
+        if (
+          lastResult &&
+          lastResult.isFinal
+        ) {
+
+          setVoiceUI(
+            true,
+            voiceContract.success,
+            transcript
+          );
+
+        } else {
+
+          setVoiceUI(
+            true,
+            voiceContract.listening,
+            transcript
+          );
+        }
+      };
+
+
+    recognition.onerror =
+      function () {
+
+        hadVoiceError = true;
+        isListening = false;
+
+        restorePreviousCommentIfEmpty();
+
+
+        setVoiceUI(
+          true,
+          voiceContract.error,
+          voiceContract.errorText
+        );
+
+
+        hideVoiceUI(1500);
+      };
+
+
+    recognition.onend =
+      function () {
+
+        isListening = false;
+
+
+        if (ignoreNextEnd) {
+
+          ignoreNextEnd = false;
+
+          setVoiceUI(
+            false,
+            voiceContract.listening,
+            voiceContract.prompt
+          );
+
+          return;
+        }
+
+
+        if (hadVoiceError) {
+          return;
+        }
+
+
+        if (receivedTranscript) {
+
+          const finalText =
+            normalizeTranscript(
+              comment.value
+            );
+
+
+          setVoiceUI(
+            true,
+            voiceContract.success,
+            finalText
+          );
+
+
+          hideVoiceUI(1350);
+
+          return;
+        }
+
+
+        restorePreviousCommentIfEmpty();
+
+
+        setVoiceUI(
+          true,
+          voiceContract.error,
+          voiceContract.errorText
+        );
+
+
+        hideVoiceUI(1200);
+      };
+  }
+
+
+  function startModalVoice() {
+
+    if (
+      !requestRow ||
+      !voiceBtn ||
+      !voiceContract
+    ) {
+      return;
+    }
+
+
+    clearVoiceTimer();
+
+
+    if (!recognition) {
+
+      setVoiceUI(
+        true,
+        voiceContract.fallback,
+        voiceContract.fallbackText
+      );
+
+
+      hideVoiceUI(2200);
+
+      return;
+    }
+
+
+    try {
+
+      recognition.start();
+
+    } catch (error) {
+
+      setVoiceUI(
+        true,
+        voiceContract.error,
+        voiceContract.errorText
+      );
+
+
+      hideVoiceUI(1500);
+    }
+  }
+
+
+  function stopModalVoice(silent) {
+
+    clearVoiceTimer();
+
+
+    if (
+      recognition &&
+      isListening
+    ) {
+
+      if (silent) {
+        ignoreNextEnd = true;
+      }
+
+
+      try {
+
+        recognition.stop();
+
+      } catch (error) {
+        /* already stopping */
+      }
+    }
+
+
+    isListening = false;
+
+
+    if (
+      silent &&
+      voiceContract
+    ) {
+
+      restorePreviousCommentIfEmpty();
+
+
+      setVoiceUI(
+        false,
+        voiceContract.listening,
+        voiceContract.prompt
+      );
+    }
+  }
+
+
+  function openModal(event) {
+
+    if (event) {
+      event.preventDefault();
+    }
+
+
+    modal.classList.add(
+      'is-open'
+    );
+
+
+    modal.setAttribute(
+      'aria-hidden',
+      'false'
+    );
+
+
+    html.classList.add(
+      'pc-modal-open'
+    );
+  }
+
+
+  function closeModal(event) {
+
+    if (event) {
+      event.preventDefault();
+    }
+
+
+    stopModalVoice(true);
+
+
+    modal.classList.remove(
+      'is-open'
+    );
+
+
+    modal.setAttribute(
+      'aria-hidden',
+      'true'
+    );
+
+
+    html.classList.remove(
+      'pc-modal-open'
+    );
+  }
+
+
+  document
+    .querySelectorAll(
+      '[data-open-developer-comparison-lead], [data-open-lead]'
+    )
+    .forEach(
+      function (button) {
+
+        button.addEventListener(
+          'click',
+          openModal
+        );
+      }
+    );
+
+
+  modal
+    .querySelectorAll(
+      '[data-close-developer-comparison-lead]'
+    )
+    .forEach(
+      function (button) {
+
+        button.addEventListener(
+          'click',
+          closeModal
+        );
+      }
+    );
+
+
+  document.addEventListener(
+    'keydown',
+    function (event) {
+
+      if (event.key === 'Escape') {
+        closeModal(event);
+      }
+    }
+  );
+
+
+  if (voiceBtn) {
+
+    voiceBtn.addEventListener(
+      'click',
+      function () {
+
+        if (isListening) {
+          stopModalVoice(false);
+        } else {
+          startModalVoice();
+        }
+      }
+    );
+  }
+
+
+  if (leadForm) {
+
+    leadForm.addEventListener(
+      'submit',
+      function (event) {
+
+        event.preventDefault();
+
+        stopModalVoice(true);
+
+
+        if (!submit) return;
+
+
+        const normalLabel =
+          submit.dataset.submitLabel ||
+          submit.textContent.trim();
+
+
+        const successLabel =
+          submit.dataset.successLabel ||
+          'Sent';
+
+
+        submit.classList.add(
+          'is-done'
+        );
+
+
+        submit.textContent =
+          successLabel;
+
+
+        window.setTimeout(
+          function () {
+
+            submit.textContent =
+              normalLabel;
+
+            submit.classList.remove(
+              'is-done'
+            );
+
+            closeModal();
+
+          },
+          1300
+        );
+      }
+    );
+  }
+
+
+  document.addEventListener(
+    'click',
+    function (event) {
+
+      const askButton =
+        event.target.closest(
+          '[data-scroll-ask-ai]'
+        );
+
+
+      if (!askButton) return;
+
+
+      event.preventDefault();
+
+
+      const target =
+        document.querySelector(
+          '#compare-ai-search'
+        ) ||
+        document.querySelector(
+          '#ask-ai'
+        ) ||
+        document.querySelector(
+          '.pc-ai'
+        );
+
+
+      if (!target) return;
+
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+
+
+      const input =
+        target.querySelector(
+          'input, textarea'
+        );
+
+
+      if (input) {
+
+        window.setTimeout(
+          function () {
+
+            input.focus({
+              preventScroll: true
+            });
+
+          },
+          450
+        );
+      }
+    }
+  );
+
+})();
+</script>

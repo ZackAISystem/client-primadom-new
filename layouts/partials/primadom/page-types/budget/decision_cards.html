@@ -1,0 +1,11 @@
+{{- $d := partial "primadom/page-types/budget/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pb-mini-row" aria-label="{{ $t.decision_cards_aria }}">
+  {{ range $t.decision_cards }}
+    <article class="pb-mini-card{{ if .dark }} pb-mini-card--dark{{ end }}">
+      <span>{{ .eyebrow }}</span>
+      <strong>{{ .title }}</strong>
+      <p>{{ .text }}</p>
+    </article>
+  {{ end }}
+</div>

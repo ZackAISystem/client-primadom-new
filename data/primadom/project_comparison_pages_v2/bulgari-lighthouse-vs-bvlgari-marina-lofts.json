@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__bulgari-lighthouse__vs__bvlgari-marina-lofts__en",
+  "page_type_id": "project_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-projects/bulgari-lighthouse-vs-bvlgari-marina-lofts/",
+  "canonical_url_path": "/en/compare-projects/bulgari-lighthouse-vs-bvlgari-marina-lofts/",
+  "canonical_group_key": "project_comparison:bulgari-lighthouse:vs:bvlgari-marina-lofts",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "bulgari-lighthouse",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Compare"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Project comparison navigation",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/en/compare-projects/",
+          "label": "Project Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-projects/bulgari-lighthouse-vs-bvlgari-marina-lofts/",
+          "label": "Bulgari Lighthouse vs BVLGARI Marina Lofts",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Project A: Bulgari Lighthouse",
+        "Project B: BVLGARI Marina Lofts",
+        "Jumeirah Bay Island comparison",
+        "AED 117M vs AED 4.5M",
+        "Entry price and handover"
+      ],
+      "title": "Bulgari Lighthouse vs BVLGARI Marina Lofts",
+      "subtitle": "Price, format and timing define this Jumeirah Bay Island comparison: entry points of AED 117M and AED 4.5M and 2027 and 2023 handover timelines.",
+      "project_a": {
+        "name": "Bulgari Lighthouse",
+        "slug": "bulgari-lighthouse",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "BVLGARI Marina Lofts",
+        "slug": "bvlgari-marina-lofts",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Key context for Bulgari Lighthouse and BVLGARI Marina Lofts",
+      "section_id": "overview",
+      "visual_aria": "Comparison hero for Bulgari Lighthouse and BVLGARI Marina Lofts",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Ask about price, unit mix, handover or buyer fit.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Bulgari Lighthouse or BVLGARI Marina Lofts — which fits?",
+        "Compare price, units and handover",
+        "What should I verify before choosing?"
+      ],
+      "title": "Compare Bulgari Lighthouse and BVLGARI Marina Lofts",
+      "ai_aria": "Ask Primadom AI to compare Bulgari Lighthouse and BVLGARI Marina Lofts",
+      "eyebrow": "Ask AI",
+      "prompts": [
+        "Compare Bulgari Lighthouse and BVLGARI Marina Lofts for my buying goal. Review the available price context, property types, bedroom range and handover, and clearly flag anything that requires a live check.",
+        "Compare Bulgari Lighthouse and BVLGARI Marina Lofts by starting-price context, unit types, bedroom range and planned handover. Clearly identify missing or unverified information.",
+        "What should a buyer verify before choosing between Bulgari Lighthouse and BVLGARI Marina Lofts? Cover current pricing, availability, payment terms, handover status and suitability for the buyer goal."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "input_aria": "Project comparison AI question",
+      "section_id": "compare-ai-search",
+      "voice_text": "Ask about this project comparison",
+      "placeholder": "Ask AI to compare these two projects",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "button_label": "Ask",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Compare Bulgari Lighthouse and BVLGARI Marina Lofts for my buying goal",
+      "ai_placeholder": "Ask AI to compare these two projects",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI to compare Bulgari Lighthouse and BVLGARI Marina Lofts",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Same district",
+        "Same developer",
+        "AED 117M vs AED 4.5M",
+        "2027 vs 2023 handover"
+      ],
+      "title": "Quick recommendation",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Bulgari Lighthouse</strong> may suit buyers prioritising the exact unit and layout available, while <strong>BVLGARI Marina Lofts</strong> may suit those focused on the lower recorded entry price. <strong>Bulgari Lighthouse</strong> offers penthouses, 4–5-bedroom homes, from AED 117M, handover 2027, while <strong>BVLGARI Marina Lofts</strong> offers apartments, 2–4-bedroom homes, from AED 4.5M, handover 2023.",
+      "body_text": "Bulgari Lighthouse may suit buyers prioritising the exact unit and layout available, while BVLGARI Marina Lofts may suit those focused on the lower recorded entry price. Bulgari Lighthouse offers penthouses, 4–5-bedroom homes, from AED 117M, handover 2027, while BVLGARI Marina Lofts offers apartments, 2–4-bedroom homes, from AED 4.5M, handover 2023.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Project A",
+          "value": "Bulgari Lighthouse"
+        },
+        {
+          "label": "Project B",
+          "value": "BVLGARI Marina Lofts"
+        },
+        {
+          "label": "Area context",
+          "value": "Both in Jumeirah Bay Island"
+        },
+        {
+          "label": "Developer context",
+          "value": "Both by Meraas Holding"
+        },
+        {
+          "label": "Starting price",
+          "value": "AED 117M vs AED 4.5M"
+        },
+        {
+          "label": "Property types",
+          "value": "Penthouse vs Apartment"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "4–5 BR vs 2–4 BR"
+        },
+        {
+          "label": "Handover",
+          "value": "2027 vs 2023"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Bulgari Lighthouse",
+          "slug": "bulgari-lighthouse",
+          "text": "Bulgari Lighthouse is positioned around waterfront-oriented living in Jumeirah Bay Island by Meraas Holding, with a recorded mix of Penthouse across 4–5 BR and a recorded starting price from AED 117M and handover in 2027. Its current buyer-fit profile points to buyers considering a residential investment purchase.",
+          "points": [
+            "Jumeirah Bay Island · By Meraas Holding",
+            "Penthouse · 4–5 BR",
+            "From AED 117M · Handover 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "BVLGARI Marina Lofts",
+          "slug": "bvlgari-marina-lofts",
+          "text": "BVLGARI Marina Lofts is positioned around waterfront-oriented living in Jumeirah Bay Island by Meraas Holding, with a recorded mix of Apartment across 2–4 BR and a recorded starting price from AED 4.5M and handover in 2023. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Jumeirah Bay Island · By Meraas Holding",
+            "Apartment · 2–4 BR",
+            "From AED 4.5M · Handover 2023"
+          ]
+        }
+      ],
+      "title": "Project summaries",
+      "eyebrow": "At a glance",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Both projects are in Jumeirah Bay Island, so location is not the main separator. Both come from Meraas Holding, making unit mix, price and handover the stronger separators. Recorded entry prices are AED 117M for Bulgari Lighthouse and AED 4.5M for BVLGARI Marina Lofts. Recorded handover timing is 2027 versus 2023.",
+        "tags": [
+          "Same district",
+          "Same developer",
+          "Recorded price gap",
+          "Different property mix",
+          "Live availability"
+        ],
+        "title": "Project-level logic",
+        "eyebrow": "How to compare"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Bulgari Lighthouse",
+        "project_b": "BVLGARI Marina Lofts"
+      },
+      "rows": [
+        {
+          "factor": "Starting price",
+          "project_a": "From AED 117M",
+          "project_b": "From AED 4.5M"
+        },
+        {
+          "factor": "Location",
+          "project_a": "Jumeirah Bay Island",
+          "project_b": "Jumeirah Bay Island"
+        },
+        {
+          "factor": "Developer",
+          "project_a": "Meraas Holding",
+          "project_b": "Meraas Holding"
+        },
+        {
+          "factor": "Property types",
+          "project_a": "Penthouse",
+          "project_b": "Apartment"
+        },
+        {
+          "factor": "Bedrooms",
+          "project_a": "4–5 BR",
+          "project_b": "2–4 BR"
+        },
+        {
+          "factor": "Handover",
+          "project_a": "2027",
+          "project_b": "2023"
+        },
+        {
+          "factor": "Project profile",
+          "project_a": "Waterfront-oriented",
+          "project_b": "Waterfront-oriented"
+        }
+      ],
+      "title": "Project comparison table",
+      "eyebrow": "Bulgari Lighthouse vs BVLGARI Marina Lofts",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Recorded starting prices are AED 117M for Bulgari Lighthouse and AED 4.5M for BVLGARI Marina Lofts. Compare the same unit type, size and total cost before judging value.",
+          "title": "The entry-price gap matters",
+          "eyebrow": "Price & units",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Both projects are in Jumeirah Bay Island. Compare access, building or plot position, nearby supply and daily-use convenience.",
+          "title": "Same district, compare micro-position",
+          "eyebrow": "Location fit",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Recorded handover is 2027 for Bulgari Lighthouse and 2023 for BVLGARI Marina Lofts. Compare how each timeline fits your planned move-in or investment use.",
+          "title": "Different handovers change the choice",
+          "eyebrow": "Timeline",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Ask Primadom AI to compare Bulgari Lighthouse and BVLGARI Marina Lofts by unit type, recorded price, location, handover and intended use, then prepare the main questions for an advisor.",
+          "title": "Compare by your goal",
+          "eyebrow": "Ask AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Project decision notes"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Who should choose each project",
+        "eyebrow": "Buyer fit",
+        "project_a_items": [
+          "You are comfortable with its higher recorded starting point of AED 117M after checking the exact unit and total cost.",
+          "You prefer its waterfront-oriented setting in Jumeirah Bay Island for your intended use.",
+          "You want Penthouses across 4–5 BR and a recorded 2027 handover."
+        ],
+        "project_a_title": "Choose Bulgari Lighthouse if",
+        "project_b_items": [
+          "Its recorded starting point of AED 4.5M is lower in this pair, subject to a like-for-like unit check.",
+          "You prefer its waterfront-oriented setting in Jumeirah Bay Island for your intended use.",
+          "You want Apartments across 2–4 BR and a recorded 2023 handover."
+        ],
+        "project_b_title": "Choose BVLGARI Marina Lofts if"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Recorded starting prices are AED 117M for Bulgari Lighthouse and AED 4.5M for BVLGARI Marina Lofts. Both projects are in Jumeirah Bay Island, so location is less likely to be the main separator. Bulgari Lighthouse records Penthouses, while BVLGARI Marina Lofts records Apartments. Recorded handover is 2027 for Bulgari Lighthouse and 2023 for BVLGARI Marina Lofts.",
+        "tags": [
+          "Recorded price gap",
+          "Same district",
+          "Recorded unit mix",
+          "Handover gap",
+          "Total cost check"
+        ],
+        "title": "Investment logic",
+        "eyebrow": "Decision layer"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/en/compare-projects/bulgari-lighthouse-vs-bulgari-ocean-mansions/",
+            "meta": "Shared project",
+            "label": "Bulgari Lighthouse vs Bulgari Ocean Mansions",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/bulgari-lighthouse-vs-sea-mirror-residences/",
+            "meta": "Shared project",
+            "label": "Bulgari Lighthouse vs Sea Mirror Residences",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/bulgari-lighthouse-vs-villa-amalfi/",
+            "meta": "Shared project",
+            "label": "Bulgari Lighthouse vs Villa Amalfi",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/bulgari-ocean-mansions-vs-bvlgari-marina-lofts/",
+            "meta": "Shared project",
+            "label": "Bulgari Ocean Mansions vs BVLGARI Marina Lofts",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "More project comparisons",
+        "eyebrow": "Explore next"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/en/projects/bulgari-lighthouse/",
+            "meta": "Project A",
+            "label": "Bulgari Lighthouse project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/projects/bvlgari-marina-lofts/",
+            "meta": "Project B",
+            "label": "BVLGARI Marina Lofts project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/areas/jumeirah-bay-island/",
+            "meta": "Area",
+            "label": "Jumeirah Bay Island area guide",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/developers/meraas-holding/",
+            "meta": "Developer",
+            "label": "Meraas Holding developer page",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Open the project pages",
+        "eyebrow": "Project routes"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Share these details to compare Bulgari Lighthouse and BVLGARI Marina Lofts against the same priorities. Recorded project information can narrow the choice, while exact units, current prices and availability still need a live check.",
+      "items": [
+        {
+          "meta": "AED range or maximum entry point",
+          "label": "Price range"
+        },
+        {
+          "meta": "Penthouses / Apartments",
+          "label": "Unit type"
+        },
+        {
+          "meta": "home / second home / waterfront investment",
+          "label": "Buyer goal"
+        },
+        {
+          "meta": "current status vs 2027 timing",
+          "label": "Timeline"
+        },
+        {
+          "meta": "view / privacy / waterfront access",
+          "label": "Key preference"
+        }
+      ],
+      "title": "AI compare inputs",
+      "eyebrow": "Useful details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "These projects suit different priorities rather than one being better in every case. BVLGARI Marina Lofts has the lower recorded starting point. Bulgari Lighthouse records Penthouse, while BVLGARI Marina Lofts records Apartment. Recorded handover is 2027 for Bulgari Lighthouse and 2023 for BVLGARI Marina Lofts; the current status of any past-dated project should be confirmed. The better fit depends on your intended use and the exact unit available at the time of comparison.",
+          "question": "Which project may suit me better: Bulgari Lighthouse or BVLGARI Marina Lofts?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "BVLGARI Marina Lofts has the lower recorded starting price at AED 4.5M, compared with AED 117M for Bulgari Lighthouse. Compare the same unit type, size and current terms before treating the difference as like-for-like.",
+          "question": "Which project has the lower recorded starting price?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Bulgari Lighthouse and BVLGARI Marina Lofts are both in Jumeirah Bay Island and are linked to Meraas Holding. Because the area and developer are the same, compare the exact unit, layout, recorded starting price and handover timing rather than relying on the project names alone.",
+          "question": "How do Bulgari Lighthouse and BVLGARI Marina Lofts differ by location and developer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Bulgari Lighthouse records Penthouse, including 4–5-bedroom homes. Bulgari Lighthouse records handover for 2027. BVLGARI Marina Lofts records Apartment, including 2–4-bedroom homes. BVLGARI Marina Lofts has 2023 recorded as its handover year, so its current status should be confirmed.",
+          "question": "What property types, bedroom ranges and handover years are recorded?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "The final shortlist between Bulgari Lighthouse and BVLGARI Marina Lofts should be based on the exact unit, current price, payment terms, total acquisition cost, layout, view, project status, handover and availability. Recorded project-level figures are useful for shortlisting, but they do not replace a live unit-level check.",
+          "question": "What should I verify before choosing between Bulgari Lighthouse and BVLGARI Marina Lofts?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Project questions",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Use this page as a starting point for comparing Bulgari Lighthouse and BVLGARI Marina Lofts. Recorded details may change and do not replace current developer documents or public records. Confirm live prices, available units, payment terms, floor plans, service charges, handover details and project status before making a decision.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Payment terms",
+          "value": "Check current documents"
+        },
+        {
+          "label": "Handover / status",
+          "value": "Confirm current status"
+        },
+        {
+          "label": "Content updated",
+          "value": "July 2026"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Both projects are in Jumeirah Bay Island and are linked to Meraas Holding. BVLGARI Marina Lofts has the lower recorded starting price at AED 4.5M versus AED 117M. Recorded handovers are 2027 and 2023; confirm any past-dated status.",
+      "title": "Want Bulgari Lighthouse and BVLGARI Marina Lofts compared for your case?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Project comparison enquiry form",
+      "text": "Share your preferences and contact details. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "error": "Please try again",
+      "title": "Compare Bulgari Lighthouse and BVLGARI Marina Lofts for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+      "eyebrow": "AI compare handoff",
+      "success": "Request sent",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Close",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971",
+        "comment": "Add any useful details"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__bulgari-lighthouse__vs__bvlgari-marina-lofts__en",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Bulgari Lighthouse",
+        "project_a_slug": "bulgari-lighthouse",
+        "project_b_name": "BVLGARI Marina Lofts",
+        "project_b_slug": "bvlgari-marina-lofts",
+        "canonical_url_path": "/en/compare-projects/bulgari-lighthouse-vs-bvlgari-marina-lofts/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Send",
+        "error": "Please try again",
+        "success": "Request sent",
+        "submitting": "Sending…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Prepared request",
+        "value": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI helps buyers compare projects, locations, developers and key decision factors before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Project comparison, connected to real buyer intent",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

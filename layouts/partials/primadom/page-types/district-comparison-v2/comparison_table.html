@@ -1,0 +1,23 @@
+{{- $d := partial "primadom/page-types/district-comparison-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<article class="pc-card pc-table-card" id="table">
+  <div class="pc-card__head">
+    <h2>{{ $t.comparison_table.title }}</h2>
+    <span>{{ $t.comparison_table.eyebrow }}</span>
+  </div>
+  <div class="pc-card__body pc-table">
+    <div class="pc-table-row pc-table-row--head">
+      <div>{{ $t.comparison_table.head.factor }}</div>
+      <div>{{ $t.comparison_table.head.area_a }}</div>
+      <div>{{ $t.comparison_table.head.area_b }}</div>
+    </div>
+
+    {{ range $t.comparison_table.rows }}
+      <div class="pc-table-row">
+        <div><strong>{{ .factor }}</strong></div>
+        <div>{{ .area_a }}</div>
+        <div>{{ .area_b }}</div>
+      </div>
+    {{ end }}
+  </div>
+</article>

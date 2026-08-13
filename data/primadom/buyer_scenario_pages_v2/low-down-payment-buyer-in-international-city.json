@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_low_down_payment_buyer_international_city_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/low-down-payment-buyer-in-international-city/",
+  "canonical_url_path": "/en/buyer-scenarios/low-down-payment-buyer-in-international-city/",
+  "canonical_group_key": "scenario_district:low_down_payment_buyer:international-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "international-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/international-city/",
+          "label": "International City"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/low-down-payment-buyer-in-international-city/",
+          "label": "Low Down Payment Buyer in International City",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Lower entry cash",
+        "International City",
+        "Apartments",
+        "Under AED 3M",
+        "Deposit · terms · price"
+      ],
+      "image": {
+        "alt": "Low Down Payment Buyer in International City property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Low Down Payment Buyer in International City",
+      "subtitle": "Lower-entry-cash buyers in International City need to compare deposit structure, staged payments, total price and terms that still require confirmation.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Low Down Payment Buyer in International City property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare lower-deposit options in International City",
+        "Check deposit, payment stages and total price",
+        "Which terms need confirmation before shortlisting?"
+      ],
+      "ai_aria": "Ask Primadom AI about Low Down Payment Buyer in International City",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare lower-deposit options in International City",
+      "placeholder": "Compare lower-deposit options in International City",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Lower deposit",
+        "International City",
+        "Payment stages",
+        "Total commitment",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a lower-deposit purchase in International City</strong>, compare the initial payment with later instalments, total price and transaction timing. A smaller entry payment only helps when the full schedule remains workable for the buyer.",
+      "body_text": "For a lower-deposit purchase in International City, compare the initial payment with later instalments, total price and transaction timing. A smaller entry payment only helps when the full schedule remains workable for the buyer.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Low Down Payment Buyer"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Lower entry payment"
+        },
+        {
+          "label": "Location",
+          "value": "International City"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments"
+        },
+        {
+          "label": "Budget frame",
+          "value": "Up to AED 3M"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Deposit · stages · total cost"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Financing / comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Check total commitment"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers assuming a lower deposit means a lower overall cost",
+          "Buyers who have not planned for later payment stages",
+          "Buyers letting a smaller first payment outweigh location, quality or long-term suitability"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers considering International City who need to keep the initial cash requirement lower",
+          "Buyers prepared to compare the deposit with later instalments and total commitment",
+          "Buyers who want the initial cash requirement considered alongside the quality and suitability of the property"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For International City, a lower initial payment solves only the first part of the affordability question. Compare the full schedule, later cash requirements and purchase costs, then decide whether the home still makes sense once the entire commitment is clear.",
+        "tags": [
+          "Initial payment",
+          "Later instalments",
+          "Total commitment",
+          "Purchase costs",
+          "Home suitability"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing options in International City, keep the full payment commitment visible so a low first payment does not drive the area decision by itself.",
+            "title": "International City"
+          },
+          {
+            "text": "Compare other areas if they offer a better home or lower overall commitment without increasing the initial cash burden too far.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "A smaller deposit helps only if later instalments, purchase costs and the property itself remain suitable.",
+            "title": "Full commitment"
+          },
+          {
+            "text": "Narrow the area after mapping the whole payment schedule, not before.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Often provide the clearest way to keep both the initial payment and total purchase commitment under control.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Can reduce the entry requirement, but the buyer should still test whether the space is practical long term.",
+            "title": "Compact layouts"
+          },
+          {
+            "text": "May offer a lower first payment, but later instalments can be much larger and need to be planned in advance.",
+            "title": "Off-plan property"
+          },
+          {
+            "text": "Ready property follows a different payment schedule and can help show the true trade-off behind a smaller first payment.",
+            "title": "Ready property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "A smaller deposit only helps if later instalments, purchase costs and the total commitment remain manageable for the buyer.",
+          "title": "Look past the first payment",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In International City, compare the full schedule and property quality together so the lowest initial payment does not become the main reason to buy.",
+          "title": "Map every later payment before choosing",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "Later instalments may be much larger than the first payment, and a weaker home does not become a good purchase simply because the deposit is smaller.",
+          "title": "A small first payment can mean bigger payments later",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in International City using the first payment, later instalments, purchase costs and the suitability of the property itself.",
+          "title": "Compare the whole commitment",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in International City, the main risks are focusing on the smallest first payment, underestimating later instalments, overlooking purchase costs, or accepting a weaker property because its initial cash requirement looks easier.",
+        "tags": [
+          "First payment",
+          "Later instalments",
+          "Total price",
+          "Purchase costs",
+          "Cash flow"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Treat the first payment as only one part of the commitment and list the later instalments before comparing properties.",
+            "title": "Map the full payment schedule"
+          },
+          {
+            "text": "A smaller initial payment should not make a higher total price or weaker property appear more affordable than it really is.",
+            "title": "Compare total price, not deposit size"
+          },
+          {
+            "text": "In International City, compare location, property type, timing and quality alongside the payment structure before narrowing the choice.",
+            "title": "Check the property behind the payment plan"
+          },
+          {
+            "text": "Keep enough liquidity for later payments and purchase costs instead of using the smaller first payment as permission to stretch the budget.",
+            "title": "Protect cash for later instalments"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/moonsa-residences/",
+            "meta": "Dugasta · International City",
+            "label": "Moonsa Residences"
+          },
+          {
+            "href": "/en/projects/zenith-residences/",
+            "meta": "Amber Developments · International City",
+            "label": "Zenith Residences"
+          },
+          {
+            "href": "/en/projects/mayflower-residences/",
+            "meta": "AJG · International City",
+            "label": "Mayflower Residences"
+          },
+          {
+            "href": "/en/projects/petalz-by-danube/",
+            "meta": "Danube Properties · International City",
+            "label": "Petalz by Danube"
+          },
+          {
+            "href": "/en/projects/violet-tower/",
+            "meta": "Dubai Investment Properties · International City",
+            "label": "Violet Tower"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "A smaller first payment does not reduce the total commitment. Keep later instalments, purchase costs and any amount due around completion visible, and leave enough liquidity so the initial payment does not encourage the buyer to stretch the overall budget.",
+        "tags": [
+          "First payment",
+          "Later instalments",
+          "Purchase costs",
+          "Handover",
+          "Cash buffer"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/first-time-buyer-needs-payment-plan-in-international-city/",
+          "label": "First-Time Buyer Needs Payment Plan in International City"
+        },
+        {
+          "href": "/en/buyer-scenarios/off-plan-payment-plan-buyer-in-international-city/",
+          "label": "Off-Plan Payment Plan Buyer in International City"
+        },
+        {
+          "href": "/en/buyer-scenarios/budget-buyer-under-aed-2m-in-international-city/",
+          "label": "Budget Buyer Under AED 2M in International City"
+        },
+        {
+          "href": "/en/buyer-scenarios/first-dubai-property-under-aed-1m-in-international-city/",
+          "label": "First Dubai Property Under AED 1M in International City"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "In International City, judge a low first payment by the entire schedule. The deposit only helps if later instalments, purchase costs and delivery timing remain workable for the same buyer.",
+          "question": "When does a lower initial payment make sense for a buyer in International City?"
+        },
+        {
+          "answer": "This approach suits buyers in International City whose cash timing matters and who can meet the full payment schedule without treating the smaller first payment as proof that the property is affordable.",
+          "question": "Who may benefit from a lower initial payment when buying in International City?"
+        },
+        {
+          "answer": "Check every payment milestone, the amount due at each stage, current contract terms, delivery timing and any additional purchase costs before choosing a low-down-payment option in International City.",
+          "question": "What should I verify beyond the first payment when buying in International City?"
+        },
+        {
+          "answer": "Reserve cash for later instalments as well as transaction costs and setup in International City. The first payment should be viewed as one stage of the commitment, not the size of the commitment.",
+          "question": "How should I budget for later instalments on a low-down-payment purchase in International City?"
+        },
+        {
+          "answer": "The key risk in International City is choosing for the low deposit and discovering that later instalments, fees or timing put more pressure on cash flow than the initial payment suggested.",
+          "question": "What are the main risks of choosing a property for its lower first payment in International City?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a lower-initial-payment purchase in International City, confirm what comes after the first instalment. The full price, later payments, purchase costs and expected completion payment should be clear before a smaller opening payment is treated as an advantage.",
+      "items": [
+        {
+          "label": "First payment",
+          "value": "Check the actual amount"
+        },
+        {
+          "label": "Later instalments",
+          "value": "Map every stage"
+        },
+        {
+          "label": "Total price",
+          "value": "Compare the full cost"
+        },
+        {
+          "label": "Purchase costs",
+          "value": "Keep cash aside"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare the first payment in International City with the later instalments, total property price, purchase costs and completion timing. Primadom AI can help map the full commitment before you review properties with lower upfront cash requirements.",
+      "title": "Need a lower first payment without stretching later?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your available upfront cash and preferred payment timing while comparing property options around International City. This gives the advisor useful context before the conversation.",
+      "title": "Check your lower-upfront-payment scenario",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare options with a lower upfront payment",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare property options in International City by upfront cash, later instalments, purchase costs and completion timing—not the first payment alone.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Look beyond the first payment",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

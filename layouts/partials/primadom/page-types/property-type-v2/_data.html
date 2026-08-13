@@ -1,0 +1,145 @@
+{{- $slug := .Params.property_type_slug | default "apartments-in-al-barari" -}}
+
+{{- $page := index site.Data.primadom.property_type_pages_v2 $slug -}}
+
+{{- if not $page -}}
+  {{- errorf "Property Type V2 data not found: %s" $slug -}}
+{{- end -}}
+
+{{- $b := $page.blocks -}}
+
+{{- $b01 := index $b "block_01_header" -}}
+{{- $b02 := index $b "block_02_breadcrumbs" -}}
+{{- $b03 := index $b "block_03_hero" -}}
+{{- $b04 := index $b "block_04_ai_finder" -}}
+{{- $b05 := index $b "block_05_property_summary" -}}
+{{- $b06 := index $b "block_06_property_facts" -}}
+{{- $b07 := index $b "block_07_buyer_logic" -}}
+{{- $b08 := index $b "block_08_districts_price" -}}
+{{- $b09 := index $b "block_09_decision_cards" -}}
+{{- $b10 := index $b "block_10_projects_pros_cons" -}}
+{{- $b11 := index $b "block_11_similar_property_types" -}}
+{{- $b12 := index $b "block_12_faq" -}}
+{{- $b13 := index $b "block_13_source_notes" -}}
+{{- $b14 := index $b "block_14_cta" -}}
+{{- $b15 := index $b "block_15_lead_modal" -}}
+{{- $b16 := index $b "block_16_footer" -}}
+
+
+{{/* ======================================================
+     HEADER
+     ====================================================== */}}
+
+{{- $header := dict
+  "brand" $b01.brand_label
+  "brand_url" $b01.brand_href
+  "cta_label" $b01.cta_label
+  "cta_url" $b01.cta_href
+  "nav_aria" $b01.nav_aria
+  "nav" $b01.nav
+-}}
+
+
+{{/* ======================================================
+     HERO + AI FINDER
+     ====================================================== */}}
+
+{{- $hero := dict
+
+  "breadcrumbs" $b02.breadcrumbs
+  "breadcrumbs_aria" $b02.breadcrumbs_aria
+
+  "visual_aria" $b03.visual_aria
+  "image" $b03.image
+
+  "title" $b03.title
+  "subtitle" $b03.subtitle
+
+  "facts" $b03.facts
+  "facts_aria" $b03.facts_aria
+
+  "ai_aria" $b04.ai_aria
+  "ai_badge" $b04.ai_badge
+
+  "ai_placeholder" $b04.placeholder
+
+  "ai_hints" $b04.typing_prompts
+  "ai_typing_examples" $b04.typing_prompts
+  "ai_examples" $b04.typing_prompts
+
+  "voice_label" $b04.voice_button_label
+
+  "ai_voice_status" $b04.voice_status
+  "ai_voice_text" $b04.voice_text
+
+  "voice_success_status" $b04.voice_success_status
+  "voice_error_status" $b04.voice_error_status
+  "voice_error_text" $b04.voice_error_text
+  "voice_fallback_status" $b04.voice_fallback_status
+  "voice_fallback_text" $b04.voice_fallback_text
+
+  "ai_submit" $b04.submit_label
+-}}
+
+
+{{/* ======================================================
+     SEO COMPATIBILITY
+     ====================================================== */}}
+
+{{- $seo := dict
+  "title" (printf "%s — Primadom AI" $b03.title)
+  "description" $b05.body_text
+  "canonical" ($page.canonical_url_path | absURL)
+-}}
+
+{{- $schema := dict
+  "recommended_projects_name" (printf "Projects to compare for %s" $b03.title)
+-}}
+
+
+{{/* ======================================================
+     OLD VISUAL CONTRACT ← PRODUCTION
+     ====================================================== */}}
+
+{{- $t := dict
+
+  "seo" $seo
+  "schema" $schema
+
+  "header" $header
+  "hero" $hero
+
+  "summary" $b05
+  "facts" $b06
+
+  "buyer_fit" $b07.buyer_fit
+  "property_logic" $b07.property_logic
+
+  "districts" $b08.districts
+  "price_range" $b08.price_range
+
+  "decision_cards_aria" $b09.cards_aria
+  "decision_cards" $b09.cards
+
+  "projects" $b10.projects
+  "pros_cons" $b10.pros_cons
+
+  "similar_types" $b11
+
+  "faq" $b12
+  "source_notes" $b13
+
+  "cta" $b14
+  "modal" $b15
+  "footer" $b16
+-}}
+
+{{- return (
+  dict
+    "raw" $page
+    "page" $page
+    "blocks" $b
+    "t" $t
+    "lang" $page.language_code
+    "slug" $slug
+) -}}

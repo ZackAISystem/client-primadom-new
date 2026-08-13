@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_studios_palm_jebel_ali_en",
+  "page_type_id": "property_type_page",
+  "language_code": "en",
+  "url_path": "/en/property-types/studios-in-palm-jebel-ali/",
+  "canonical_url_path": "/en/property-types/studios-in-palm-jebel-ali/",
+  "canonical_group_key": "property_district:studios:palm-jebel-ali",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "palm-jebel-ali",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Summary",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projects",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Property type page navigation",
+      "cta_label": "Find options",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "property_types",
+          "href": "/en/property-types/",
+          "label": "Property types"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/palm-jebel-ali/",
+          "label": "Palm Jebel Ali"
+        },
+        {
+          "key": "current",
+          "href": "/en/property-types/studios-in-palm-jebel-ali/",
+          "label": "Studios in Palm Jebel Ali",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Property type: Studios",
+        "Area: Palm Jebel Ali",
+        "Compact layout",
+        "End use / investment intent",
+        "AI finder"
+      ],
+      "image": {
+        "alt": "Studios in Palm Jebel Ali property type overview",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Studios in Palm Jebel Ali",
+      "subtitle": "A practical guide to Studios in Palm Jebel Ali, covering layout efficiency and building quality, price context, project options and an AI finder.",
+      "facts_aria": "Property type hero highlights",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Studios in Palm Jebel Ali property type hero visual",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Ask Primadom AI about studios in Palm Jebel Ali",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Ask about studios in Palm Jebel Ali, budget or fit",
+      "placeholder": "Ask about studios in Palm Jebel Ali, budget or fit",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Voice search",
+      "click_action": "fill_input",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Find studios in Palm Jebel Ali for my budget",
+        "Compare studios by layout, building quality and total cost",
+        "What should I check for studios in Palm Jebel Ali?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Type your request or try again",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Voice mode",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Studios",
+        "Palm Jebel Ali",
+        "Compact living",
+        "Efficiency + cost",
+        "Project verification"
+      ],
+      "title": "Property type summary",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Studios in Palm Jebel Ali</strong> can be compared by layout efficiency, usable space, building quality and service charges. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "body_text": "Studios in Palm Jebel Ali can be compared by layout efficiency, usable space, building quality and service charges. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Type",
+          "value": "Studios",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Area",
+          "value": "Palm Jebel Ali",
+          "fact_key": "area"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Linked project pages",
+          "value": "27 district project pages",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Buyer intent",
+          "value": "Compact living · investment",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Key filters",
+          "value": "Usable area · storage · fees",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare linked project pages",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Comparison scope",
+          "value": "Projects · areas · ownership costs",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Property type details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 27,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who it is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Couples or families needing separate bedrooms and more storage",
+          "Buyers who assume every studio performs equally without checking layout and building quality",
+          "Buyers expecting rental performance without checking demand, rules and operating costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Single occupants or investors prioritising a compact, lower-maintenance format",
+          "Buyers who value efficient use of space and location over room count",
+          "Buyers assessing rental rules, tenant demand and realistic operating costs in Palm Jebel Ali"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Palm Jebel Ali",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "studios"
+      },
+      "property_logic": {
+        "body": "Compare studios by usable area, separation of living and sleeping zones, storage, service charges and building quality. In Palm Jebel Ali, compare rental rules, tenant demand, unit efficiency and realistic operating costs. Confirm current availability and, where relevant, recurring costs, payment terms and handover details before deciding.",
+        "tags": [
+          "Usable area",
+          "Layout efficiency",
+          "Storage",
+          "Service charges",
+          "Rental context"
+        ],
+        "title": "Property type logic",
+        "eyebrow": "How to compare"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "For studios in Palm Jebel Ali, compare layout efficiency, usable space, building quality and service charges.",
+            "route": "/en/property-types/studios-in-palm-jebel-ali/",
+            "buyer_fit": "Current area context",
+            "relationship": "current_area",
+            "district_name": "Palm Jebel Ali",
+            "district_slug": "palm-jebel-ali"
+          },
+          {
+            "text": "Compare Dubai Creek Harbour with Palm Jebel Ali by reviewing layout efficiency, usable space, building quality and service charges.",
+            "route": "/en/property-types/studios-in-dubai-creek-harbour/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Dubai Creek Harbour",
+            "district_slug": "dubai-creek-harbour"
+          },
+          {
+            "text": "Compare Madinat Jumeirah Living with Palm Jebel Ali by reviewing layout efficiency, usable space, building quality and service charges.",
+            "route": "/en/property-types/studios-in-madinat-jumeirah-living/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Madinat Jumeirah Living",
+            "district_slug": "madinat-jumeirah-living"
+          },
+          {
+            "text": "From an investment perspective, District One occupies a premium segment targeting high-net-worth buyers and end users valuing privacy and long-term quality. As a same-city alternative to Palm Jebel Ali, compare usable area, separation of living and sleeping zones, storage, service charges and building quality.",
+            "route": "/en/property-types/studios-in-district-one/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "District One",
+            "district_slug": "district-one"
+          }
+        ],
+        "title": "Relevant districts",
+        "eyebrow": "Area context"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Pricing for studios in Palm Jebel Ali depends on usable area, layout efficiency, floor, view, building quality and service charges. Small differences in usable layout, storage and building quality can materially change value in a compact unit. Include service charges, furnishing, parking, payment terms and operating costs when comparing the full ownership cost. Check current project pricing, recurring charges and payment terms before setting a budget.",
+        "tags": [
+          "Usable area",
+          "Layout efficiency",
+          "Service charges",
+          "Rental fit",
+          "Price verification"
+        ],
+        "title": "How pricing varies",
+        "eyebrow": "Price reality"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 3,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 1,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "studios",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "palm-jebel-ali",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 27
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "dubai-creek-harbour",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 26
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "madinat-jumeirah-living",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 7
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "district-one",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 12
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 1,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "For studios in Palm Jebel Ali, compare usable layout, ownership cost, building quality and buyer depth.",
+          "title": "Check small-unit buyer depth",
+          "eyebrow": "Investment logic"
+        },
+        {
+          "text": "Storage, circulation, natural light and usable furniture zones matter more than the advertised floor area.",
+          "title": "Usable layout matters most",
+          "eyebrow": "Lifestyle logic"
+        },
+        {
+          "text": "Compare developer, project status, handover timing, floor plan, fees and total ownership cost before deciding.",
+          "title": "Low entry can hide weak usability",
+          "eyebrow": "Risk notes"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare studios in Palm Jebel Ali by buyer goal, project status, payment terms, ownership cost and daily-use priorities.",
+          "title": "Find the strongest small-unit fit",
+          "eyebrow": "AI context"
+        }
+      ],
+      "cards_aria": "Property type decision notes",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_studios_palm_jebel_ali_en",
+        "context_focus": "rental",
+        "district_slug": "palm-jebel-ali",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/en/property-types/studios-in-palm-jebel-ali/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/hillsedge/",
+            "meta": "Dubai Hills Estate",
+            "label": "Hillsedge"
+          },
+          {
+            "href": "/en/projects/aria/",
+            "meta": "Maritime City",
+            "label": "Aria"
+          },
+          {
+            "href": "/en/projects/mercer-house/",
+            "meta": "Jumeirah Lake Towers",
+            "label": "Mercer House"
+          },
+          {
+            "href": "/en/projects/the-sloane/",
+            "meta": "Jumeirah Village Circle",
+            "label": "The Sloane"
+          },
+          {
+            "href": "/en/projects/binghatti-hills-phase-3/",
+            "meta": "Dubai Science Park",
+            "label": "Binghatti Hills Phase 3"
+          }
+        ],
+        "title": "Recommended projects",
+        "eyebrow": "Project options"
+      },
+      "pros_cons": {
+        "title": "Pros and cons",
+        "eyebrow": "Reality check",
+        "cons_items": [
+          "Limited storage and separation may not suit longer-term living",
+          "In Palm Jebel Ali, tenant demand can vary by building and competing supply",
+          "Competing supply can weaken pricing power for similar units"
+        ],
+        "cons_title": "Cons",
+        "pros_items": [
+          "Compact layouts can reduce entry cost and simplify furnishing",
+          "In Palm Jebel Ali, compare tenant fit, layout and recurring costs across buildings",
+          "Clear tenant positioning can help a unit compete more effectively"
+        ],
+        "pros_title": "Pros"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_studios_palm_jebel_ali_en",
+        "district_slug": "palm-jebel-ali",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "rental",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Hillsedge",
+            "project_slug": "hillsedge",
+            "project_route": "/en/projects/hillsedge/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 3,
+            "project_district_name": "Dubai Hills Estate",
+            "project_district_slug": "dubai-hills-estate"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Aria",
+            "project_slug": "aria",
+            "project_route": "/en/projects/aria/",
+            "developer_name": "Beyond",
+            "developer_slug": "beyond",
+            "location_score": 3,
+            "project_district_name": "Maritime City",
+            "project_district_slug": "maritime-city"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Mercer House",
+            "project_slug": "mercer-house",
+            "project_route": "/en/projects/mercer-house/",
+            "developer_name": "Ellington",
+            "developer_slug": "ellington",
+            "location_score": 3,
+            "project_district_name": "Jumeirah Lake Towers",
+            "project_district_slug": "jumeirah-lake-towers"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "The Sloane",
+            "project_slug": "the-sloane",
+            "project_route": "/en/projects/the-sloane/",
+            "developer_name": "Ellington",
+            "developer_slug": "ellington",
+            "location_score": 3,
+            "project_district_name": "Jumeirah Village Circle",
+            "project_district_slug": "jumeirah-village-circle"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Binghatti Hills Phase 3",
+            "project_slug": "binghatti-hills-phase-3",
+            "project_route": "/en/projects/binghatti-hills-phase-3/",
+            "developer_name": "Binghatti Developers",
+            "developer_slug": "binghatti-developers",
+            "location_score": 3,
+            "project_district_name": "Dubai Science Park",
+            "project_district_slug": "dubai-science-park"
+          }
+        ],
+        "canonical_url_path": "/en/property-types/studios-in-palm-jebel-ali/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/en/property-types/one-bedroom-apartments-in-palm-jebel-ali/",
+          "label": "1 Bedroom Apartments in Palm Jebel Ali"
+        },
+        {
+          "href": "/en/property-types/apartments-in-palm-jebel-ali/",
+          "label": "Apartments in Palm Jebel Ali"
+        },
+        {
+          "href": "/en/property-types/serviced-apartments-in-palm-jebel-ali/",
+          "label": "Serviced Apartments in Palm Jebel Ali"
+        },
+        {
+          "href": "/en/property-types/hotel-apartments-in-palm-jebel-ali/",
+          "label": "Hotel Apartments in Palm Jebel Ali"
+        }
+      ],
+      "title": "Similar property types",
+      "eyebrow": "Related options",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Palm Jebel Ali",
+            "target_route": "/en/property-types/one-bedroom-apartments-in-palm-jebel-ali/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "Apartments in Palm Jebel Ali",
+            "target_route": "/en/property-types/apartments-in-palm-jebel-ali/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Serviced Apartments in Palm Jebel Ali",
+            "target_route": "/en/property-types/serviced-apartments-in-palm-jebel-ali/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "serviced_apartment"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Hotel Apartments in Palm Jebel Ali",
+            "target_route": "/en/property-types/hotel-apartments-in-palm-jebel-ali/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "hotel_apartment"
+          }
+        ],
+        "source_route": "/en/property-types/studios-in-palm-jebel-ali/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "When comparing studios in Palm Jebel Ali, focus on layout efficiency, usable space, building quality and service charges. Verify the exact project, layout, recurring costs and current terms before deciding.",
+          "question": "How do studios in Palm Jebel Ali differ from larger apartments?"
+        },
+        {
+          "answer": "In Palm Jebel Ali, this page may suit single occupants or investors prioritising a compact, lower-maintenance format. It may also be relevant to buyers who value efficient use of space and location over room count. The final choice should reflect tenant fit, recurring costs and competing supply.",
+          "question": "Who may consider studios in Palm Jebel Ali for rental ownership?"
+        },
+        {
+          "answer": "Key advantage: Compact layouts can reduce entry cost and simplify furnishing. Key trade-off: Limited storage and separation may not suit longer-term living. In Palm Jebel Ali, compare tenant fit, layout and recurring costs across buildings. A further local consideration is that tenant demand can vary by building and competing supply.",
+          "question": "What are the main compromises when comparing studios in Palm Jebel Ali?"
+        },
+        {
+          "answer": "Projects shown for comparison on this page include Hillsedge, Aria and Mercer House. Buyers can also compare 1 Bedroom Apartments in Palm Jebel Ali and Apartments in Palm Jebel Ali to test a different property format in or near the same market. These links support navigation only; they are not a ranking or confirmation of current unit availability.",
+          "question": "What can buyers compare alongside studios in Palm Jebel Ali?"
+        },
+        {
+          "answer": "Prices, unit availability, fees, payment plans and handover details can change. For studios in Palm Jebel Ali, confirm layout, internal area, building condition, service charges, unit status and payment terms against official developer materials and current advisor checks. Primadom AI can organise the comparison, but current commercial terms should be verified before deciding.",
+          "question": "How should buyers verify prices and availability for studios in Palm Jebel Ali?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Property type questions",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "rental",
+        "semantic_profile_key": "studios",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Information about studios in Palm Jebel Ali should be used as a comparison guide rather than a live offer. Before deciding, confirm the exact layout, internal area, building condition and recurring charges, current price and availability, payment terms, handover or completion status, and total ownership costs with the developer or an authorised advisor.",
+      "items": [
+        {
+          "label": "Property details",
+          "value": "Check layout, area and building details"
+        },
+        {
+          "label": "Price & availability",
+          "value": "Confirm current unit terms"
+        },
+        {
+          "label": "Fees & ownership costs",
+          "value": "Review holding and recurring costs"
+        },
+        {
+          "label": "Payment & handover",
+          "value": "Verify status, dates and contract terms"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Before you decide",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare studios in Palm Jebel Ali by layout efficiency, project, location, budget, service charges and buyer goal, with attention to tenant fit and recurring costs, then review suitable options with an advisor.",
+      "title": "Looking for studios in Palm Jebel Ali?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Find matching options",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "studios",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Property type enquiry form",
+      "text": "Share your preferences for studios in Palm Jebel Ali. Primadom AI will organise the request around layout efficiency, project, location, service charges and practical use before an advisor reviews it.",
+      "title": "Find studios in Palm Jebel Ali",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "I'm looking for suitable studio options on this page.",
+      "eyebrow": "AI finder handoff",
+      "success": "Sent",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Close",
+      "source_meta": {
+        "source_route": "/en/property-types/studios-in-palm-jebel-ali/",
+        "source_page_id": "page_property_district_studios_palm_jebel_ali_en",
+        "shortlist_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "studios",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps buyers compare studios in Palm Jebel Ali by layout efficiency, project, location, service charges and practical use before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Studios in Palm Jebel Ali, connected to projects and buyer scenarios",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/en/property-types/studios-in-palm-jebel-ali/",
+        "source_page_id": "page_property_district_studios_palm_jebel_ali_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "rental",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "studios",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_4e265425c74aefdbcb0e7eabe4f8",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/dubai-payment-plan-property-for-italy-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-payment-plan-property-for-italy-buyers/",
+  "canonical_group_key": "origin:italy:goal:payment-plan-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "italy",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Can I buy?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "International buyer guide navigation",
+      "cta_label": "Get a consultation",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/dubai-payment-plan-property-for-italy-buyers/",
+          "label": "Dubai payment-plan property for Italian buyers"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "From Italy",
+        "Payment plan",
+        "Cash-flow fit",
+        "Handover timing",
+        "Total costs"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Dubai payment-plan property for Italian buyers",
+      "subtitle": "For buyers from Italy prioritising a payment plan, compare the full payment schedule, cash-flow exposure, handover timing, fees and project quality rather than judging an offer by the initial instalment alone.",
+      "facts_aria": "Key points for this buyer scenario",
+      "section_id": "overview",
+      "visual_aria": "Dubai payment-plan property for Italian buyers property planning visual",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Compare full payment schedules against my expected cash flow",
+        "Check fees and handover timing beyond the initial instalment",
+        "Which payment-plan properties fit my budget and purchase timeline"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Ask about your Dubai property plan",
+      "placeholder": "Compare Dubai payment-plan property for me as a buyer from Italy",
+      "block_status": "final",
+      "button_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Dubai payment-plan property for Italian buyers",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Italian buyers",
+        "Payment plan",
+        "Cash-flow fit",
+        "Fees + handover",
+        "Current rules"
+      ],
+      "title": "Can Italian buyers buy property in Dubai?",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Yes — Italian buyers can generally buy property in Dubai</strong> in areas designated for foreign ownership, subject to current rules and property-specific checks. Payment plans are project-specific, so compare the full schedule, fees, handover timing and cash-flow exposure rather than the first instalment alone.",
+      "body_text": "Yes — Italian buyers can generally buy property in Dubai in areas designated for foreign ownership, subject to current rules and property-specific checks. Payment plans are project-specific, so compare the full schedule, fees, handover timing and cash-flow exposure rather than the first instalment alone.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Origin market",
+          "value": "Italy"
+        },
+        {
+          "label": "Target market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Buyer goal",
+          "value": "Payment-plan property"
+        },
+        {
+          "label": "Main focus",
+          "value": "Cash-flow and payment timing"
+        },
+        {
+          "label": "Key checks",
+          "value": "Schedule · fees · handover timing"
+        },
+        {
+          "label": "Ownership context",
+          "value": "Check current foreign ownership rules"
+        },
+        {
+          "label": "Decision stage",
+          "value": "Before reservation"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare the complete payment schedule before choosing"
+        }
+      ],
+      "title": "Origin buyer details",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Define the comfortable instalment pattern, available cash and preferred handover timing before comparing payment plans.",
+            "title": "1. Set the cash-flow limits"
+          },
+          {
+            "text": "If you plan to complete any steps from Italy, confirm which parts can be handled remotely and whether additional authorisation or local action is needed.",
+            "title": "2. Plan the purchase route"
+          },
+          {
+            "text": "Confirm the identity information, buyer forms, payment source, transfer route and transaction-specific checks requested for the purchase.",
+            "title": "3. Confirm documents and payment route"
+          },
+          {
+            "text": "Re-check the full payment schedule, fees, handover timing and project conditions rather than the first instalment alone.",
+            "title": "4. Re-check live terms before reservation"
+          }
+        ],
+        "title": "Remote purchase process",
+        "eyebrow": "Process logic"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Prepare valid identity and buyer information requested for the specific transaction.",
+            "title": "Passport and buyer details"
+          },
+          {
+            "text": "Keep current address and contact details ready if requested by the developer, bank or transaction process.",
+            "title": "Address and contact details"
+          },
+          {
+            "text": "Confirm the payment source, transfer route and any bank or compliance checks before sending funds.",
+            "title": "Payment source and transfer route"
+          },
+          {
+            "text": "Keep the complete payment schedule and transaction terms available for review before making a reservation.",
+            "title": "Payment schedule"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Practical checklist"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Compare the complete payment schedule, fees, handover timing and cash-flow exposure before judging a payment plan.",
+          "title": "Look beyond the first instalment",
+          "eyebrow": "Payment logic"
+        },
+        {
+          "dark": false,
+          "text": "If any steps are handled from Italy, confirm payment route, signing, identity checks and any transaction-specific local action.",
+          "title": "Plan the cross-border execution",
+          "eyebrow": "Buying from Italy"
+        },
+        {
+          "dark": false,
+          "text": "Review every major payment milestone against available funds rather than relying on a low initial payment.",
+          "title": "The schedule must fit the full purchase",
+          "eyebrow": "Cash-flow check"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Use Primadom AI to compare the goal, budget, route and checks before speaking with an advisor.",
+          "title": "Turn the scenario into a clear comparison",
+          "eyebrow": "AI consultation"
+        }
+      ],
+      "cards_aria": "Key decisions for this buyer scenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Compare current project payment schedules, unit prices and total transaction costs.",
+            "title": "JVC"
+          },
+          {
+            "text": "Compare payment timing, project status, handover and property-specific fees.",
+            "title": "Arjan"
+          },
+          {
+            "text": "Compare full payment schedules, handover timing and project-specific conditions.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "Compare individual projects by complete payment schedule rather than initial instalment alone.",
+            "title": "Dubailand"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "District options"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "For buyers from Italy focused on payment-plan property, compare the complete payment schedule, total costs, handover timing and project facts rather than focusing only on the first instalment.",
+        "tags": [
+          "Can buy?",
+          "Payment schedule",
+          "Cash-flow fit",
+          "Total costs",
+          "Project checks"
+        ],
+        "title": "Buyer concerns",
+        "eyebrow": "What to verify"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Open real project pages connected to the districts used for this buyer scenario, then verify current price, availability, payment terms and unit fit before relying on an option.",
+        "items": [
+          {
+            "href": "/en/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/en/projects/48-parkside/",
+            "meta": "Arjan",
+            "label": "48 Parkside"
+          },
+          {
+            "href": "/en/projects/aero-1-residences/",
+            "meta": "Dubai South",
+            "label": "Aero 1 Residences"
+          },
+          {
+            "href": "/en/projects/a99/",
+            "meta": "Dubailand",
+            "label": "A99"
+          },
+          {
+            "href": "/en/projects/105-residences/",
+            "meta": "Jumeirah Village Circle",
+            "label": "105 Residences"
+          }
+        ],
+        "title": "Projects to verify",
+        "eyebrow": "Project options",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "If UAE residency is part of your plan, verify current Golden Visa criteria separately from the property decision. A project appearing in this list does not imply visa eligibility.",
+        "tags": [
+          "Separate check",
+          "Current criteria",
+          "Property value",
+          "Ownership status",
+          "Payment status"
+        ],
+        "title": "Keep visa eligibility separate",
+        "eyebrow": "Visa review",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/dubai-off-plan-property-for-italy-buyers/",
+          "label": "Dubai off-plan property for Italian buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-property-under-aed-2m-for-italy-buyers/",
+          "label": "Dubai property under AED 2M for Italian buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-first-time-buyer-property-for-italy-buyers/",
+          "label": "Dubai first-time buyer property for Italian buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-apartments-for-italy-buyers/",
+          "label": "Dubai apartments for Italian buyers"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Related origin pages",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Italian buyers can generally buy property in Dubai in designated freehold areas, subject to current rules and the specific property. For a Dubai property with a payment plan, review the complete payment schedule, fees, handover timing and major cash-flow milestones.",
+          "question": "Can Italian buyers buy Dubai property with a payment plan?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Map every instalment, due date, handover payment and other purchase cost against your own cash-flow plan. A manageable first payment can still lead to a difficult overall schedule.",
+          "question": "What should Italian buyers check first when considering a Dubai property with a payment plan?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "For this scenario, compare JVC, Arjan, Dubai South and Dubailand. These are starting points rather than a ranking; check the exact property and practical fit before deciding.",
+          "question": "Which Dubai districts should Italian buyers compare for a Dubai property with a payment plan?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "When coordinating the purchase from Italy, map out who will sign, how funds will be transferred, which identity checks apply and whether any step needs local action. Confirm the route for the specific transaction before committing funds.",
+          "question": "What should Italian buyers verify when arranging a Dubai purchase from Italy?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Not necessarily. Review the complete payment schedule, fees, handover timing and major cash-flow milestones before deciding whether the plan fits the full purchase.",
+          "question": "Does a low first instalment make a Dubai payment plan suitable for Italian buyers?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Origin buyer questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "For Italian buyers considering Dubai property with a payment plan, this page separates buyer guidance from claims that still require external verification. Ownership rules, cross-border transaction steps, the complete payment schedule, fees, handover timing and project-specific terms should be checked against the relevant official or live source before a buyer decision.",
+      "items": [
+        {
+          "label": "Ownership rules",
+          "value": "Official verification pending"
+        },
+        {
+          "label": "Cross-border process",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Payment plan terms",
+          "value": "Developer source required"
+        },
+        {
+          "label": "Price / availability",
+          "value": "Live project check required"
+        },
+        {
+          "label": "Source status",
+          "value": "Source review pending"
+        }
+      ],
+      "title": "Verification notes",
+      "eyebrow": "Source notes",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "For Italian buyers, compare the complete payment schedule, handover timing and total cash exposure before deciding which route fits.",
+      "title": "Looking for Dubai property with a payment plan from Italy?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Review my plan",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Origin buyer consultation form",
+      "text": "For Italian buyers, share your timing and payment preferences. Primadom AI will prepare the payment-plan context before an advisor reviews suitable routes.",
+      "title": "Review your Dubai payment-plan options from Italy",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Review my Dubai payment plan options from Italy",
+      "eyebrow": "Property plan review",
+      "success": "Sent",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Close",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps Italian buyers compare the complete payment schedule, handover timing and total cash exposure before choosing a purchase route.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Dubai payment-plan property decisions for Italian buyers",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI social links",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Ask AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

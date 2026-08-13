@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-luxury-fit__context__villas__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-luxury-fit-villas/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-luxury-fit-villas/",
+  "canonical_group_key": "ai_answer:how-to-check-luxury-fit:context:villas",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-luxury-fit",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-luxury-fit-villas/",
+          "label": "How should I check luxury fit? — Villas",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Villas",
+        "Buyer fit",
+        "Trade-offs",
+        "Property choice",
+        "Compare options"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check luxury fit? — Villas",
+      "subtitle": "Assess luxury-property fit when buying villas through location, product format, service model, ownership costs and buyer priorities.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check luxury fit? — Villas",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which features justify premium positioning before I decide",
+        "Compare location, product quality and service level for villa buyers",
+        "Explain which luxury premiums need closer scrutiny before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess luxury-property fit for villa buyers",
+      "placeholder": "Help me assess luxury-property fit for villa buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Luxury fit",
+        "Villas",
+        "Quality",
+        "Premium",
+        "Buyer pool"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Luxury fit depends on scarcity, quality and buyer relevance rather than price alone.</strong> For villa buyers, compare location, quality, scarcity, service level, charges, brand value where relevant and the depth of the future buyer pool. Treat premium positioning as one value component rather than proof of stronger returns, liquidity or resale.",
+      "body_text": "Luxury fit depends on scarcity, quality and buyer relevance rather than price alone. For villa buyers, compare location, quality, scarcity, service level, charges, brand value where relevant and the depth of the future buyer pool. Treat premium positioning as one value component rather than proof of stronger returns, liquidity or resale.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check luxury fit? — Villas"
+        },
+        {
+          "label": "Context",
+          "value": "Villas"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Premium must justify itself"
+        },
+        {
+          "label": "Main checks",
+          "value": "Quality · Premium · Buyer pool"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Premium · liquidity · resale depth"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare premium with alternatives"
+        },
+        {
+          "label": "Verification",
+          "value": "Current project check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Luxury Fit",
+      "market": "UAE",
+      "context": "Villas",
+      "eyebrow": "Key facts",
+      "question": "How to check luxury fit for Villas?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The higher price is difficult to justify through location, quality, scarcity, service or real buyer demand.",
+            "title": "The premium is mostly marketing"
+          },
+          {
+            "text": "Service, maintenance or management expenses materially weaken the ownership or investment case.",
+            "title": "Holding costs are being ignored"
+          },
+          {
+            "text": "The property may be difficult to exit if future buyers do not value the same brand or premium.",
+            "title": "Resale depends on a narrow audience"
+          },
+          {
+            "text": "For villa buyers, revisit the luxury-fit check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Location, design, service, scarcity or brand value creates a benefit that is meaningful beyond marketing.",
+            "title": "The premium buys something durable"
+          },
+          {
+            "text": "Service charges, maintenance and premium operating costs remain acceptable for the intended holding period.",
+            "title": "Ongoing costs fit the buyer"
+          },
+          {
+            "text": "There is a realistic market of buyers or tenants who may value the same premium at exit.",
+            "title": "The future buyer pool is credible"
+          },
+          {
+            "text": "For villa buyers, the luxury-fit check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For villa buyers, compare location, quality, scarcity, service level, charges, brand value where relevant and the depth of the future buyer pool.",
+          "title": "Quality · Premium · Buyer pool",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the premium is mostly marketing, holding costs are being ignored, or resale depends on a narrow audience.",
+          "title": "Luxury-value fit",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Treat premium positioning as one value component rather than proof of stronger returns, liquidity or resale.",
+          "title": "Compare premium with alternatives",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the premium is mostly marketing, holding costs are being ignored, or resale depends on a narrow audience. For villa buyers, treat premium positioning as one value component rather than proof of stronger returns, liquidity or resale.",
+        "tags": [
+          "Brand premium",
+          "Operating costs",
+          "Product scarcity",
+          "Resale depth",
+          "Luxury-value fit"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For villa buyers, compare the price premium with comparable non-branded or less premium alternatives instead of treating the brand as value by itself.",
+            "title": "Measure the actual premium"
+          },
+          {
+            "text": "Review service standards, management arrangements, recurring charges and owner obligations that come with the branded or luxury proposition.",
+            "title": "Understand management and charges"
+          },
+          {
+            "text": "Test whether the layout, view, location, specification or service offer is genuinely difficult to replicate in competing developments.",
+            "title": "Check product scarcity"
+          },
+          {
+            "text": "Consider how many future buyers may value the same premium and whether resale depends on a narrow luxury or brand-sensitive audience.",
+            "title": "Assess the future buyer pool"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-branded-residence-fit-villas/",
+          "label": "How should I assess branded-residence fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-end-user-fit-villas/",
+          "label": "How should I check end-user fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-family-fit-villas/",
+          "label": "How should I check family fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-floor-plan-villas/",
+          "label": "How should I check a floor plan?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-compare-unit-size-villas/",
+          "label": "How should I compare unit size?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Luxury fit depends on scarcity, quality and buyer relevance rather than price alone. For villa buyers, compare the price premium with comparable non-branded or less premium alternatives instead of treating the brand as value by itself.",
+          "question": "How should I assess whether a luxury property fits my needs?"
+        },
+        {
+          "answer": "A branded residence is worthwhile only when the underlying property justifies the premium. Review service standards, management arrangements, recurring charges and owner obligations that come with the branded or luxury proposition.",
+          "question": "How should I assess whether a branded residence fits my needs?"
+        },
+        {
+          "answer": "End-user fit is mainly about how well the property supports everyday life. Confirm that the community provides the amenities, access and practical services needed now or within the buyer's realistic move-in timeline.",
+          "question": "How should I assess whether a property suits an end-user buyer?"
+        },
+        {
+          "answer": "Family fit depends on the home and the surrounding daily routine. Check whether the home can remain suitable if family size, work patterns or other practical needs change during ownership.",
+          "question": "How should I assess whether a property suits a family buyer?"
+        },
+        {
+          "answer": "A floor plan should be judged by usable space, not only total area. Corridors, awkward corners or oversized circulation reduce the usable value of the stated size. Compare plans at similar sizes because two units with the same area can function very differently.",
+          "question": "What should I check in a floor plan?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Use this page as decision guidance rather than a substitute for current source verification. Details that can change should be rechecked against relevant official, first-party or current market information before they are used in a buyer decision.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Villas · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Quality · Premium · Buyer pool"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Relevant official or first-party sources"
+        },
+        {
+          "label": "Live check",
+          "value": "Current details where they may have changed"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "general",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this fit check to your villa search, using your budget, intended use, property preferences and risk tolerance, then highlight the trade-offs that matter before you decide.",
+      "title": "Want to check whether this property fits your goals?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your villa search, focusing on intended use, property preferences, practical trade-offs and the checks that matter before you decide.",
+      "title": "Check whether this property fits your goals",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

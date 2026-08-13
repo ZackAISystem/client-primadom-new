@@ -1,0 +1,81 @@
+{{/* Primadom AI System — Project Page partial: short_answer_key_facts.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.short_answer_key_facts -}}
+
+<section class="pd-llm-band pd-section-anchor" id="ask-ai" aria-labelledby="summary-title">
+  <div class="pd-llm-band__inner">
+    <div class="pd-llm-top-grid pd-llm-top-grid--answer-facts">
+      <article class="pd-project-card pd-project-card--answer" id="overview-answer">
+        <div class="pd-project-card__head">
+          <h2 id="summary-title">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.short_answer_title "lang" $lang) }}
+          </h2>
+          <span>
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.short_answer_kicker "lang" $lang) }}
+          </span>
+        </div>
+
+        <div class="pd-project-card__body">
+          <p class="pd-answer-text">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.summary "lang" $lang) }}
+          </p>
+
+          <div class="pd-answer-chips">
+            {{- $chips := partial "primadom/page-types/project/_t.html" (dict "value" $b.chips "lang" $lang) -}}
+            {{- range $chips }}
+              <span>{{ . }}</span>
+            {{- end }}
+          </div>
+
+          <p class="pd-page-type-note">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.page_type_note "lang" $lang) }}
+          </p>
+        </div>
+      </article>
+
+      <article class="pd-project-card" id="key-facts">
+        <div class="pd-project-card__head">
+          <h2 id="details-title">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.details_title "lang" $lang) }}
+          </h2>
+          <span>
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.details_kicker "lang" $lang) }}
+          </span>
+        </div>
+
+        <div class="pd-project-card__body">
+          <div class="pd-details-grid">
+            {{- range $fact := $b.key_facts }}
+              {{- $label := partial "primadom/page-types/project/_t.html" (dict "value" $fact.label "lang" $lang) -}}
+              {{- $value := "" -}}
+
+              {{- with $fact.value -}}
+                {{- $value = partial "primadom/page-types/project/_t.html" (dict "value" . "lang" $lang) -}}
+              {{- end -}}
+
+              {{- with $fact.value_ref -}}
+                {{- if eq . "entity.developer" -}}
+                  {{- $value = partial "primadom/page-types/project/_t.html" (dict "value" $p.entity.developer "lang" $lang) -}}
+                {{- else if eq . "entity.district" -}}
+                  {{- $value = partial "primadom/page-types/project/_t.html" (dict "value" $p.entity.district "lang" $lang) -}}
+                {{- end -}}
+              {{- end -}}
+
+              <div class="pd-detail-pill">
+                <span>{{ $label }}</span>
+                <strong>{{ $value }}</strong>
+              </div>
+            {{- end }}
+          </div>
+
+          <p class="pd-keyfacts-note">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $b.keyfacts_note "lang" $lang) }}
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

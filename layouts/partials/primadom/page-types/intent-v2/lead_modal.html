@@ -1,0 +1,247 @@
+{{- $d := partial "primadom/page-types/intent-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $m := $t.modal -}}
+
+{{- $voiceStatus := $t.hero.voice_status | default $t.hero.ai_voice_status | default "Listening…" -}}
+{{- $voiceSuccessStatus := $t.hero.voice_success_status | default "Got it" -}}
+{{- $voiceErrorStatus := $t.hero.voice_error_status | default "Voice paused" -}}
+{{- $voiceErrorText := $t.hero.voice_error_text | default "Type your request or try again" -}}
+{{- $voiceFallbackStatus := $t.hero.voice_fallback_status | default "Voice mode" -}}
+{{- $voiceFallbackText := $t.hero.voice_fallback_text | default "Speech recognition is not supported here" -}}
+{{- $voiceText := $t.hero.ai_voice_text | default $t.hero.ai_placeholder | default "Voice search" -}}
+{{- $voiceButtonLabel := $t.hero.voice_button_label | default "Start voice search" -}}
+
+<div
+  class="pi-modal"
+  id="{{ $m.modal_id }}"
+  aria-hidden="true"
+>
+
+  <div
+    class="pi-modal__backdrop"
+    data-close-intent-lead
+  ></div>
+
+
+  <section
+    class="pi-modal__panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="{{ $m.title_id }}"
+  >
+
+    <button
+      class="pi-modal__close"
+      type="button"
+      data-close-intent-lead
+      aria-label="{{ $m.close_label }}"
+    >×</button>
+
+
+    <span class="pi-modal__eyebrow">
+      {{ $m.eyebrow }}
+    </span>
+
+
+    <h2 id="{{ $m.title_id }}">
+      {{ $m.title }}
+    </h2>
+
+
+    <p>
+      {{ $m.text }}
+    </p>
+
+
+    <form
+      class="pi-form"
+      data-intent-form
+    >
+
+      <div class="pi-form__grid">
+
+        <label class="pi-field">
+
+          <span>
+            {{ $m.fields.name }}
+          </span>
+
+          <input
+            type="text"
+            name="{{ $m.field_config.name.html_name }}"
+            placeholder="{{ $m.field_config.name.placeholder }}"
+          >
+
+        </label>
+
+
+        <label class="pi-field">
+
+          <span>
+            {{ $m.fields.phone }}
+          </span>
+
+          <input
+            type="tel"
+            name="{{ $m.field_config.phone.html_name }}"
+            placeholder="{{ $m.field_config.phone.placeholder }}"
+          >
+
+        </label>
+
+
+        <label class="pi-field">
+
+          <span>
+            {{ $m.fields.email }}
+          </span>
+
+          <input
+            type="email"
+            name="{{ $m.field_config.email.html_name }}"
+            placeholder="{{ $m.field_config.email.placeholder }}"
+          >
+
+        </label>
+
+      </div>
+
+
+      <label
+        class="pi-field pi-field--request"
+      >
+
+        <span>
+          {{ $m.fields.comment }}
+        </span>
+
+
+        <div
+          class="pi-request-row"
+          data-intent-modal-request-row
+          data-voice-listening-status="{{ $voiceStatus }}"
+          data-voice-success-status="{{ $voiceSuccessStatus }}"
+          data-voice-error-status="{{ $voiceErrorStatus }}"
+          data-voice-error-text="{{ $voiceErrorText }}"
+          data-voice-fallback-status="{{ $voiceFallbackStatus }}"
+          data-voice-fallback-text="{{ $voiceFallbackText }}"
+          data-voice-text="{{ $voiceText }}"
+        >
+
+          <div
+            class="pi-request-row__badge"
+          >
+            <i aria-hidden="true"></i>
+
+            {{ $m.ai_row_badge | default $m.fields.comment }}
+          </div>
+
+
+          <textarea
+            class="pi-request-row__textarea"
+            data-intent-modal-comment
+            name="{{ $m.comment_textarea.html_name }}"
+            placeholder="{{ $m.field_config.comment.placeholder }}"
+            rows="1"
+          >{{ $m.comment_textarea.prefill }}</textarea>
+
+
+          <button
+            class="pi-modal-voice"
+            type="button"
+            data-intent-modal-voice
+            aria-label="{{ $voiceButtonLabel }}"
+            aria-pressed="false"
+          >
+
+            <span
+              class="pi-modal-voice__aura"
+              aria-hidden="true"
+            ></span>
+
+            <span
+              class="pi-modal-voice__core"
+              aria-hidden="true"
+            ></span>
+
+          </button>
+
+
+          <div
+            class="pi-modal-voice-popover"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+
+            <div
+              class="pi-modal-voice-popover__inner"
+            >
+
+              <span
+                class="pi-modal-voice-popover__dot"
+                aria-hidden="true"
+              ></span>
+
+
+              <span
+                class="pi-modal-voice-popover__copy"
+              >
+
+                <strong
+                  class="pi-modal-voice-popover__status"
+                  data-intent-modal-voice-status
+                >
+                  {{ $voiceStatus }}
+                </strong>
+
+                <span
+                  class="pi-modal-voice-popover__text"
+                  data-intent-modal-voice-text
+                >
+                  {{ $voiceText }}
+                </span>
+
+              </span>
+
+
+              <span
+                class="pi-modal-voice-popover__bars"
+                aria-hidden="true"
+              >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <button
+            class="pi-submit"
+            type="submit"
+            data-submit-label="{{ $m.submit_label }}"
+            data-success-label="{{ $m.success_label }}"
+          >
+            {{ $m.submit_label }}
+          </button>
+
+        </div>
+
+      </label>
+
+    </form>
+
+
+    {{- with $m.note }}
+      <p class="pi-source-note">
+        {{ . }}
+      </p>
+    {{- end }}
+
+  </section>
+
+</div>

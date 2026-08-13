@@ -1,0 +1,33 @@
+{{- $d := partial "primadom/page-types/developer/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pd-grid-2 pd-grid-2--reverse" id="developer-fit">
+  <article class="pd-card">
+    <div class="pd-card__head">
+      <h2>{{ $t.buyer_fit.title }}</h2>
+      <span>{{ $t.buyer_fit.eyebrow }}</span>
+    </div>
+    <div class="pd-card__body">
+      <div class="pd-fit-columns">
+        <div class="pd-fit-box">
+          <h3>{{ $t.buyer_fit.good_for_title }}</h3>
+          <ul>{{ range $t.buyer_fit.good_for }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        <div class="pd-fit-box">
+          <h3>{{ $t.buyer_fit.less_for_title }}</h3>
+          <ul>{{ range $t.buyer_fit.less_for }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="pd-card">
+    <div class="pd-card__head">
+      <h2>{{ $t.developer_logic.title }}</h2>
+      <span>{{ $t.developer_logic.eyebrow }}</span>
+    </div>
+    <div class="pd-card__body">
+      <p class="pd-desc">{{ $t.developer_logic.body }}</p>
+      <div class="pd-tags">{{ range $t.developer_logic.tags }}<span>{{ . }}</span>{{ end }}</div>
+    </div>
+  </article>
+</div>

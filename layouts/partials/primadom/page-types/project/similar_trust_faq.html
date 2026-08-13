@@ -1,0 +1,85 @@
+{{/* Primadom AI System — Project Page partial: similar_trust_faq.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+{{- $b := $p.similar_trust_faq -}}
+{{- $sources := $p.source_notes -}}
+
+<div class="pd-trust-grid pd-trust-grid--llm" id="developer-projects">
+  <article class="pd-project-card">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.similar_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.similar_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <div class="pd-similar-links">
+        {{- range $item := $b.similar_projects }}
+          <a href="{{ $item.href }}">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $item.label "lang" $lang) }}
+          </a>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pd-project-card">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.faq_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.faq_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <div class="pd-faq-compact">
+        {{- range $i, $item := $b.faq_items }}
+          <details {{ if eq $i 0 }}open{{ end }}>
+            <summary>{{ partial "primadom/page-types/project/_t.html" (dict "value" $item.question "lang" $lang) }}</summary>
+            <p>{{ partial "primadom/page-types/project/_t.html" (dict "value" $item.answer "lang" $lang) }}</p>
+          </details>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pd-project-card">
+    <div class="pd-project-card__head">
+      <h2>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.trust_sources_title "lang" $lang) }}</h2>
+      <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $b.trust_kicker "lang" $lang) }}</span>
+    </div>
+
+    <div class="pd-project-card__body">
+      <p class="pd-source-note">
+        {{ partial "primadom/page-types/project/_t.html" (dict "value" $sources.text "lang" $lang) }}
+      </p>
+
+      <div class="pd-source-links">
+        {{- range $item := $b.trust_sources }}
+          <a href="{{ $item.href | default "#" }}">
+            {{ partial "primadom/page-types/project/_t.html" (dict "value" $item.label "lang" $lang) }}
+          </a>
+        {{- end }}
+      </div>
+
+      <ul class="pd-evidence-list">
+        {{- range $item := $b.trust_sources }}
+          <li>
+            <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $item.label "lang" $lang) }}</span>
+            <strong>{{ $item.status }}</strong>
+          </li>
+        {{- end }}
+      </ul>
+
+      <div class="pd-source-micro">
+        <div>
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $sources.last_updated_label "lang" $lang) }}</span>
+          <strong>{{ partial "primadom/page-types/project/_t.html" (dict "value" $sources.last_updated "lang" $lang) }}</strong>
+        </div>
+        <div>
+          <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $sources.freshness_label "lang" $lang) }}</span>
+          <strong>{{ partial "primadom/page-types/project/_t.html" (dict "value" $sources.freshness_value "lang" $lang) }}</strong>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>

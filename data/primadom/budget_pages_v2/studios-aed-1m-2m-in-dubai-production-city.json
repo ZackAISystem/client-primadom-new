@@ -1,0 +1,703 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_studios_aed_1m_2m_dubai_production_city_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/studios-aed-1m-2m-in-dubai-production-city/",
+  "canonical_url_path": "/en/budgets/studios-aed-1m-2m-in-dubai-production-city/",
+  "canonical_group_key": "property_budget_district:studios:aed_1m_2m:dubai-production-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-production-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "property_type",
+          "href": "/en/property-types/studios/",
+          "label": "Studios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/dubai-production-city/",
+          "label": "Dubai Production City"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/studios-aed-1m-2m-in-dubai-production-city/",
+          "label": "Studios for AED 1M–2M in Dubai Production City"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "Dubai Production City",
+        "Studios",
+        "1 project with starting price in range",
+        "Limited project choice"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Studios for AED 1M–2M in Dubai Production City",
+      "subtitle": "One project currently starts within AED 1M–2M for studios in Dubai Production City, leaving a narrow shortlist; compare its layout, delivery timing, developer record and total costs.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Studios for AED 1M–2M in Dubai Production City",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compare studios in Dubai Production City by budget fit, layout, delivery profile and total costs. Current prices and availability require a project check.",
+      "hints": [
+        "Which studio projects fit this budget?",
+        "What should I verify before shortlisting?",
+        "What ownership costs should I expect?"
+      ],
+      "title": "Check studios within AED 1M–2M in Dubai Production City",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Compare the strongest current project options for studios in Dubai Production City within AED 1M–2M. Focus on location, layouts, delivery profile, developer record and total buying costs.",
+        "Create a pre-shortlist checklist for studios in Dubai Production City within AED 1M–2M, covering exact layout, unit position, delivery timing, developer record, fees and current availability.",
+        "Outline the main purchase and ownership cost categories for studios in Dubai Production City within AED 1M–2M, without assuming current fees, incentives or availability."
+      ],
+      "hint_items": [
+        {
+          "label": "Which studio projects fit this budget?",
+          "prompt": "Compare the strongest current project options for studios in Dubai Production City within AED 1M–2M. Focus on location, layouts, delivery profile, developer record and total buying costs."
+        },
+        {
+          "label": "What should I verify before shortlisting?",
+          "prompt": "Create a pre-shortlist checklist for studios in Dubai Production City within AED 1M–2M, covering exact layout, unit position, delivery timing, developer record, fees and current availability."
+        },
+        {
+          "label": "What ownership costs should I expect?",
+          "prompt": "Outline the main purchase and ownership cost categories for studios in Dubai Production City within AED 1M–2M, without assuming current fees, incentives or availability."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask about studios within AED 1M–2M in Dubai Production City",
+      "placeholder": "Ask about studios within AED 1M–2M in Dubai Production City",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "Dubai Production City",
+        "Studios",
+        "1 project in range",
+        "Check current units"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>One project has a recorded starting price within the AED 1M–2M range for studios in Dubai Production City.</strong> Compare usable area, storage, layout efficiency, floor and view, completion status, service charges and total ownership costs. Use each price match only as a lead to verify the exact unit, layout and payment terms. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.</p>",
+      "body_text": "One project has a recorded starting price within the AED 1M–2M range for studios in Dubai Production City. Compare usable area, storage, layout efficiency, floor and view, completion status, service charges and total ownership costs. Use each price match only as a lead to verify the exact unit, layout and payment terms. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "Dubai Production City"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Studios"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "1 project in range"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Price match vs exact unit"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Exact unit prices"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "1 project has a recorded starting price in this budget; verify the exact unit and live availability.",
+            "title": "Dubai Production City"
+          },
+          {
+            "text": "9 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "4 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Jumeirah Lake Towers"
+          },
+          {
+            "text": "4 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Al Satwa"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "1 project has a recorded starting price in this budget; compare the exact layout, position and unit price.",
+            "title": "Studios"
+          },
+          {
+            "text": "1 project has a recorded starting price in this budget; compare the exact layout, position and unit price.",
+            "title": "Apartments"
+          },
+          {
+            "text": "22 projects have recorded starting prices in the wider market; verify this format in Dubai Production City.",
+            "title": "Waterfront Apartments"
+          },
+          {
+            "text": "6 projects have recorded starting prices in the wider market; verify this format in Dubai Production City.",
+            "title": "Townhouses"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "For studio options in Dubai Production City, compare the initial payment, construction instalments, handover amount and any balance due afterwards.",
+          "title": "Look beyond the initial payment",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "A project may start within AED 1M–2M in Dubai Production City, but the relevant unit can move once size, floor, view, position and payment schedule are checked.",
+          "title": "A price match can disappear at unit level",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For studios in Dubai Production City, include registration, service charges, furnishing, utility setup and any separate parking or storage costs.",
+          "title": "Lower entry price does not remove fixed costs",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "For studios in Dubai Production City, the current data identifies 1 project option inside AED 1M–2M. Confirm exact units, current prices and live availability before narrowing the shortlist.",
+        "items": [
+          {
+            "href": "/en/projects/elm-at-park-five/",
+            "meta": "Recorded from AED 1M",
+            "label": "Elm at Park Five",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "elm-at-park-five",
+            "district_name": "Dubai Production City",
+            "handover_year": 2027,
+            "property_type": "Apartment",
+            "developer_name": "Deyaar Development",
+            "project_page_id": "page_project_elm_at_park_five_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 1000000
+          },
+          {
+            "href": "/en/areas/dubai-production-city/",
+            "meta": "district guide",
+            "label": "Explore more projects in Dubai Production City",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for studios in Dubai Production City",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "range check",
+            "label": "Compare the nearest prices outside the range",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to a different property type and unwilling to compare this format",
+          "Buyers who need confirmed live inventory before reviewing recorded starting-price options",
+          "Buyers needing generous storage or several separate living and working zones"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing studios in Dubai Production City within AED 1M–2M",
+          "Buyers prepared to compare the recorded entry price with the exact unit, layout and position",
+          "Buyers comfortable starting with 1 named project option before checking live units and current terms"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "For studios in Dubai Production City with a budget of AED 1M–2M, the shortlist is only the starting point; similarly priced projects can lead to very different properties. Projects can start at similar prices, yet layout, position, condition and payment timing can make the exact properties very different. 1 project option start inside AED 1M–2M. Verify the exact properties, total cash exposure and ongoing costs before narrowing the shortlist.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Exact unit price",
+          "Building costs",
+          "Exact unit check",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The asking price is only part of the cash requirement for studios in Dubai Production City. Confirm the costs attached to the exact unit and transaction before reserving.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Dubai purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Review building service charges, cooling arrangements, shared facilities and maintenance responsibilities for the exact unit.",
+            "title": "Service charges and building upkeep"
+          },
+          {
+            "text": "Plan separately for snagging, furnishing, utilities, moving and any costs due around handover or completion.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/studios-under-aed-1m-in-dubai-production-city/",
+          "label": "Studios under AED 1M in Dubai Production City",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/studios-aed-2m-3m-in-dubai-production-city/",
+          "label": "Studios AED 2M–3M in Dubai Production City",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-1m-2m-in-dubai-production-city/",
+          "label": "Property AED 1M–2M in Dubai Production City",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/apartments-aed-1m-2m-in-dubai-production-city/",
+          "label": "Apartments AED 1M–2M in Dubai Production City",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Current project data records 1 exact starting-price match for studios in Dubai Production City within AED 1M–2M. These are recorded comparison matches, not live inventory. Verify the exact unit, layout, payment terms, handover position and current availability before shortlisting.",
+          "question": "What does current project data show for studios in Dubai Production City within AED 1M–2M?"
+        },
+        {
+          "answer": "For studios in Dubai Production City within AED 1M–2M, the current project signal is 1 project in range, while the main trade-off is price match vs exact unit. 1 project has a recorded starting price in this budget; compare the exact layout, position and unit price. The next useful check is exact unit prices.",
+          "question": "What should buyers verify first for studios in Dubai Production City within AED 1M–2M?"
+        },
+        {
+          "answer": "The asking price is only part of the cash requirement for studios in Dubai Production City. Confirm the costs attached to the exact unit and transaction before reserving. For studios in Dubai Production City within AED 1M–2M, check registration and transaction costs, financing and valuation costs, service charges and building upkeep, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for studios in Dubai Production City within AED 1M–2M?"
+        },
+        {
+          "answer": "For studios in Dubai Production City within AED 1M–2M, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for studios in Dubai Production City within AED 1M–2M?"
+        },
+        {
+          "answer": "For studios in Dubai Production City within AED 1M–2M, Primadom AI can rank the 1 exact starting-price match by developer, unit type, usable size, completion profile, payment exposure and ownership costs. It should then flag the prices, unit availability and project terms that still need a live check before advisor review.",
+          "question": "How can Primadom AI refine a search for studios in Dubai Production City within AED 1M–2M?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for studios in Dubai Production City within AED 1M–2M are not live inventory. Confirm current unit price and availability, payment schedule, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "Unit / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare studios in Dubai Production City within AED 1M–2M by current price, unit fit, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check studios in Dubai Production City, AED 1M–2M.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check studios in Dubai Production City, AED 1M–2M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_studios_aed_1m_2m_dubai_production_city_en",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 1M–2M",
+        "district_name": "Dubai Production City",
+        "canonical_url_path": "/en/budgets/studios-aed-1m-2m-in-dubai-production-city/",
+        "content_version_id": "5edfd071-d49e-4196-b379-4e253d50ec4e",
+        "property_type_name": "Studios"
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore studios in Dubai Production City within AED 1M–2M by current price, payment plan, total cost and project fit before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/studios-aed-1m-2m-in-dubai-production-city/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

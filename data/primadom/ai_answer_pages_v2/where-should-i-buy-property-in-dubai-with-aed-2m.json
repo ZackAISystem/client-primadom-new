@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_search_pattern_question_where_to_buy_budget_en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+  "canonical_url_path": "/en/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+  "canonical_group_key": "search_pattern:question_where_to_buy_budget",
+  "primary_entity_type": null,
+  "primary_entity_slug": null,
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+          "label": "Where should I buy property in Dubai with AED 2M?",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Dubai",
+        "Area fit",
+        "Lifestyle",
+        "Property choice",
+        "Compare areas"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Where should I buy property in Dubai with AED 2M?",
+      "subtitle": "Explore Dubai area and property choices around AED 2M, with attention to location, property type, trade-offs and options to check within that range.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for Where should I buy property in Dubai with AED 2M?",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show me which Dubai locations fit an AED 2M budget",
+        "Help me compare property type, location and total costs",
+        "Explain the main trade-offs around an AED 2M budget"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Compare Dubai property areas around an AED 2M budget",
+      "placeholder": "Compare Dubai property areas around an AED 2M budget",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 2M budget",
+        "Dubai",
+        "Dubai areas",
+        "Property type",
+        "Live pricing"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>An AED 2M Dubai budget can open several property and location choices, but live options change.</strong> For a Dubai purchase, compare Dubai districts, property types, unit sizes, total acquisition costs, payment structures and whether the priority is end use, income or resale flexibility. Use current inventory and pricing before treating any area as the best fit.",
+      "body_text": "An AED 2M Dubai budget can open several property and location choices, but live options change. For a Dubai purchase, compare Dubai districts, property types, unit sizes, total acquisition costs, payment structures and whether the priority is end use, income or resale flexibility. Use current inventory and pricing before treating any area as the best fit.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Where should I buy property in Dubai with AED 2M?"
+        },
+        {
+          "label": "Context",
+          "value": "Dubai"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Live options determine the shortlist"
+        },
+        {
+          "label": "Main checks",
+          "value": "Dubai areas · Property type · Live pricing"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Live pricing · budget trade-offs"
+        },
+        {
+          "label": "Best next step",
+          "value": "Check live Dubai options"
+        },
+        {
+          "label": "Verification",
+          "value": "Live pricing check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "Where To Buy With Budget",
+      "market": "Dubai / UAE",
+      "context": "Dubai",
+      "eyebrow": "Key facts",
+      "question": "where should I buy property in Dubai with AED 2M?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The full AED 2M is allocated to purchase price with no room for fees or practical setup expenses.",
+            "title": "The budget ignores transaction costs"
+          },
+          {
+            "text": "Too many districts and property types remain in play to compare options meaningfully.",
+            "title": "The search is spread too widely"
+          },
+          {
+            "text": "Properties that are no longer available or correctly priced are shaping the location decision.",
+            "title": "The shortlist relies on stale listings"
+          },
+          {
+            "text": "For a Dubai purchase, revisit the AED 2M Dubai shortlist if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Property price, fees, furnishing and financing all fit comfortably within the available capital.",
+            "title": "The shortlist stays within the full budget"
+          },
+          {
+            "text": "Locations are selected for real lifestyle or investment priorities rather than only what happens to fit the price.",
+            "title": "The areas match the buyer goal"
+          },
+          {
+            "text": "There is sufficient current inventory to compare quality, location and payment structure without forcing a compromise.",
+            "title": "Live options provide enough choice"
+          },
+          {
+            "text": "For a Dubai purchase, the AED 2M Dubai shortlist still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For a Dubai purchase, compare Dubai districts, property types, unit sizes, total acquisition costs, payment structures and whether the priority is end use, income or resale flexibility.",
+          "title": "Dubai areas · Property type · Live pricing",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the budget ignores transaction costs, the search is spread too widely, or the shortlist relies on stale listings.",
+          "title": "AED 2M shortlist",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Use current inventory and pricing before treating any area as the best fit.",
+          "title": "Check live Dubai options",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the budget ignores transaction costs, the search is spread too widely, or the shortlist relies on stale listings. For a Dubai purchase, use current inventory and pricing before treating any area as the best fit.",
+        "tags": [
+          "Budget ceiling",
+          "Area choice",
+          "Property type",
+          "Inventory depth",
+          "AED 2M shortlist"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For a Dubai purchase, reserve room for transaction expenses and other purchase costs instead of using the full AED 2M only as the advertised property price.",
+            "title": "Protect the all-in AED 2M ceiling"
+          },
+          {
+            "text": "Compare Dubai locations where the budget can secure a suitable property without relying on unrealistic discounts or unavailable starting prices.",
+            "title": "Choose areas that fit the budget"
+          },
+          {
+            "text": "Test apartment, townhouse and other realistic formats against space, location and intended use rather than forcing one preferred type into the budget.",
+            "title": "Compare property-type trade-offs"
+          },
+          {
+            "text": "Confirm that suitable units actually exist near the target price before building the final shortlist around a project or district.",
+            "title": "Check live inventory before narrowing"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-buy-with-limited-budget-dubai/",
+          "label": "How can I buy with a limited budget?"
+        },
+        {
+          "href": "/en/ai-answers/can-i-get-mortgage-dubai/",
+          "label": "Can I get a mortgage?"
+        },
+        {
+          "href": "/en/ai-answers/what-can-go-wrong-with-payment-plan-dubai/",
+          "label": "What can go wrong with a payment plan?"
+        },
+        {
+          "href": "/en/ai-answers/is-dubai-property-tax-free-dubai/",
+          "label": "Is Dubai property tax-free?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-avoid-overpaying-dubai/",
+          "label": "How can I avoid overpaying?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "An AED 2M Dubai budget can open several property and location choices, but live options change. For a Dubai purchase, reserve room for transaction expenses and other purchase costs instead of using the full AED 2M only as the advertised property price.",
+          "question": "Where should I look within my budget?"
+        },
+        {
+          "answer": "A limited budget works best when the trade-offs are chosen deliberately. Normalise unit size, location, condition, payment timing and included features before deciding that one option offers a better entry price.",
+          "question": "How do I buy with a limited budget?"
+        },
+        {
+          "answer": "A mortgage may be possible, but eligibility depends on both the buyer and property. Confirm that the specific property, project status and valuation can support the mortgage route being considered by the buyer.",
+          "question": "Can I get a mortgage?"
+        },
+        {
+          "answer": "A payment plan can fail when later instalments, project timing or buyer cash flow do not align. Review late-payment consequences, cancellation, assignment and other contract provisions before treating a low initial payment as low risk.",
+          "question": "What can go wrong with a payment plan?"
+        },
+        {
+          "answer": "Dubai property ownership is not the same as having no taxes, fees or financial obligations. A marketing phrase is replacing a proper review of transaction charges and buyer-specific obligations. Confirm the current treatment with official and professional sources before relying on a tax outcome.",
+          "question": "Is Dubai property tax-free?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Price and value should be judged against comparable alternatives, total purchase costs and the trade-offs attached to the property. Recheck current comparable evidence and transaction inputs before relying on a headline price, discount or entry-cost assumption.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Dubai areas · Property type · Live pricing"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current comparable evidence · transaction cost inputs"
+        },
+        {
+          "label": "Live check",
+          "value": "Current comparable pricing and purchase costs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "pricing_value",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to turn an AED 2M Dubai budget into a practical shortlist, comparing areas, property types, project options, total purchase costs and the trade-offs that matter for your goal.",
+      "title": "Want to turn your AED 2M budget into a shortlist?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your AED 2M Dubai search, focusing on suitable property options, total purchase costs and the trade-offs between them.",
+      "title": "Turn your AED 2M budget into a shortlist",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Find property options that fit my AED 2M budget.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

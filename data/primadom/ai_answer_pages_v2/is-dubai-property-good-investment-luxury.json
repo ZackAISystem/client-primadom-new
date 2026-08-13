@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_7978e08f74606d5b6039ec6c4b92",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/is-dubai-property-good-investment-luxury/",
+  "canonical_url_path": "/en/ai-answers/is-dubai-property-good-investment-luxury/",
+  "canonical_group_key": "ai_answer:is-dubai-property-good-investment:context:luxury",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "is-dubai-property-good-investment",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/is-dubai-property-good-investment-luxury/",
+          "label": "Is Dubai property a good investment? — Luxury",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Luxury",
+        "Investment view",
+        "Rental factors",
+        "Resale factors",
+        "Risk check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Is Dubai property a good investment? — Luxury",
+      "subtitle": "Assess Dubai property as an investment when considering luxury property, using entry cost, rent assumptions, holding costs, resale flexibility and risk factors.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for Is Dubai property a good investment? — Luxury",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which Dubai investment assumptions need evidence before buying",
+        "Compare income, costs and exit considerations for luxury buyers",
+        "Explain when Dubai property may not fit before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Assess Dubai property investment fit for luxury buyers",
+      "placeholder": "Assess Dubai property investment fit for luxury buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Dubai investment",
+        "Luxury",
+        "Rental demand",
+        "Entry price",
+        "Risk"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Dubai property can be a good investment, but the outcome depends on the specific asset and price.</strong> For luxury buyers, compare realistic rent, service charges, entry price, future supply, holding period, liquidity and the strength of the underlying location and project. Avoid treating market growth or headline yield as a guaranteed result.",
+      "body_text": "Dubai property can be a good investment, but the outcome depends on the specific asset and price. For luxury buyers, compare realistic rent, service charges, entry price, future supply, holding period, liquidity and the strength of the underlying location and project. Avoid treating market growth or headline yield as a guaranteed result.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Is Dubai property a good investment? — Luxury"
+        },
+        {
+          "label": "Context",
+          "value": "Luxury"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on asset and price"
+        },
+        {
+          "label": "Main checks",
+          "value": "Rental demand · Entry price · Risk"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Entry price · supply · liquidity"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare asset economics with alternatives"
+        },
+        {
+          "label": "Verification",
+          "value": "Current market check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "Is Dubai Property Good Investment",
+      "market": "Dubai / UAE",
+      "context": "Luxury",
+      "eyebrow": "Key facts",
+      "question": "Is Dubai Property Good Investment for Luxury?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The property only looks attractive if broad Dubai prices continue rising quickly.",
+            "title": "The thesis is mainly market optimism"
+          },
+          {
+            "text": "Comparable properties do not support the premium being paid for the unit or project.",
+            "title": "The entry price is too aggressive"
+          },
+          {
+            "text": "The future buyer pool may be narrower or competing supply larger than the investment case assumes.",
+            "title": "Liquidity is being underestimated"
+          },
+          {
+            "text": "For luxury buyers, revisit the Dubai investment case if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Entry price, achievable rent, service charges and holding costs support the case without relying on rapid appreciation.",
+            "title": "The asset works on current economics"
+          },
+          {
+            "text": "Tenant and future buyer interest is supported by access, amenities, employment or lifestyle drivers.",
+            "title": "The location has durable demand"
+          },
+          {
+            "text": "Future supply and buyer depth leave a realistic route to resale for the intended holding period.",
+            "title": "The exit strategy is credible"
+          },
+          {
+            "text": "For luxury buyers, the Dubai investment case still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For luxury buyers, compare realistic rent, service charges, entry price, future supply, holding period, liquidity and the strength of the underlying location and project.",
+          "title": "Rental demand · Entry price · Risk",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the thesis is mainly market optimism, the entry price is too aggressive, or liquidity is being underestimated.",
+          "title": "Dubai investment case",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Avoid treating market growth or headline yield as a guaranteed result.",
+          "title": "Compare asset economics with alternatives",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the thesis is mainly market optimism, the entry price is too aggressive, or liquidity is being underestimated. For luxury buyers, avoid treating market growth or headline yield as a guaranteed result.",
+        "tags": [
+          "Investment horizon",
+          "Cost basis",
+          "Demand depth",
+          "Exit liquidity",
+          "Dubai investment case"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For luxury buyers, decide whether the objective is near-term income, longer-term growth or eventual resale before judging whether a Dubai property fits.",
+            "title": "Define the investment horizon"
+          },
+          {
+            "text": "Include acquisition, financing, recurring and exit costs so projected performance is not measured against the purchase price alone.",
+            "title": "Build the complete cost basis"
+          },
+          {
+            "text": "Check tenant demand, future buyers and competing supply for the specific segment rather than treating Dubai-wide demand as one uniform market.",
+            "title": "Verify demand depth"
+          },
+          {
+            "text": "Consider resale liquidity, holding period and a weaker market scenario before relying on continued appreciation or an easy future sale.",
+            "title": "Model the exit case"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-investment-logic-luxury/",
+          "label": "How should I check investment logic?"
+        },
+        {
+          "href": "/en/ai-answers/is-now-good-time-to-buy-luxury/",
+          "label": "Is now a good time to buy?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investor-fit-luxury/",
+          "label": "How should I check investor fit?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-rental-demand-luxury/",
+          "label": "How should I check rental demand?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-exit-strategy-luxury/",
+          "label": "How should I check an exit strategy?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Dubai property can be a good investment, but the outcome depends on the specific asset and price. For luxury buyers, decide whether the objective is near-term income, longer-term growth or eventual resale before judging whether a Dubai property fits.",
+          "question": "Is Dubai property a good investment?"
+        },
+        {
+          "answer": "Investment logic should connect the purchase price to realistic income, costs and exit options. Include purchase costs, financing, recurring charges, furnishing and likely operating expenses before comparing the economics of different options.",
+          "question": "How should I assess the investment case?"
+        },
+        {
+          "answer": "There is no universally good time to buy; the right timing depends on the buyer and property. Review available liquidity, borrowing conditions and future payment obligations because timing can be poor even when the property itself is attractive.",
+          "question": "Is now a good time to buy?"
+        },
+        {
+          "answer": "Investor fit depends on whether the property matches the buyer’s actual investment objective. Model lower rent, slower resale, higher costs or a longer holding period to see whether the investment still works under less favourable conditions.",
+          "question": "How should I assess whether a property suits an investor?"
+        },
+        {
+          "answer": "Rental demand should be checked through realistic tenant activity, not headline yield claims. High advertised prices are being treated as evidence that tenants actually transact at those levels. Use recent market evidence and conservative assumptions when estimating how easily the property may rent.",
+          "question": "How should I assess rental demand?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Rental demand, yield, resale potential and capital growth are assessment topics rather than guaranteed outcomes. Compare current market evidence with the specific property, costs and holding assumptions before relying on an investment conclusion.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Luxury · Dubai / UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Rental demand · Entry price · Risk"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current market evidence · comparable properties · property facts"
+        },
+        {
+          "label": "Live check",
+          "value": "Current market evidence and property-specific inputs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "investment_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your luxury purchase, including your budget, holding period, market assumptions, costs and exit risks before you decide whether the property fits your strategy.",
+      "title": "Want to test the investment case?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your luxury purchase, focusing on market assumptions, costs, holding period and rental or resale risks an advisor should review with you.",
+      "title": "Check the investment case for your situation",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my investment strategy.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

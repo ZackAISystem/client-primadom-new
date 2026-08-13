@@ -1,0 +1,17 @@
+<!doctype html>
+{{- $d := partial "primadom/page-types/origin-buyer-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<html lang="{{ $d.lang }}" dir="{{ $t._language.dir | default "ltr" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ $t.seo.title }}</title>
+  <meta name="description" content="{{ $t.seo.description }}">
+  <link rel="canonical" href="{{ $t.seo.canonical }}">
+  <link rel="stylesheet" href="{{ "css/primadom/page-origin-buyer.css" | relURL }}">
+  {{ partial "primadom/page-types/origin-buyer-v2/schema.html" . }}
+</head>
+<body class="page-origin-buyer">
+  {{ partial "primadom/page-types/origin-buyer-v2/origin_buyer_page.html" . }}
+</body>
+</html>

@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_d83435309fb1da4821f35530de8d",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/dubai-off-plan-property-for-united-kingdom-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-off-plan-property-for-united-kingdom-buyers/",
+  "canonical_group_key": "origin:united-kingdom:goal:off-plan-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "united-kingdom",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Can I buy?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "International buyer guide navigation",
+      "cta_label": "Get a consultation",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/dubai-off-plan-property-for-united-kingdom-buyers/",
+          "label": "Dubai off-plan property for UK buyers"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "From the United Kingdom",
+        "Off-plan",
+        "Developer + project",
+        "Payment schedule",
+        "Handover check"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Dubai off-plan property for UK buyers",
+      "subtitle": "For buyers from the United Kingdom considering Dubai off-plan property, compare the developer's track record, project status, payment schedule, handover timing, unit specifics and ready-property alternatives before reserving.",
+      "facts_aria": "Key points for this buyer scenario",
+      "section_id": "overview",
+      "visual_aria": "Dubai off-plan property for UK buyers property planning visual",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Compare developer track record, payment schedule and handover timing",
+        "Check project status and unit specifics before I reserve",
+        "What ready-property alternatives should I compare before choosing off-plan"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Ask about your Dubai property plan",
+      "placeholder": "Compare Dubai off-plan property for me as a buyer from the United Kingdom",
+      "block_status": "final",
+      "button_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Dubai off-plan property for UK buyers",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "UK buyers",
+        "Off-plan",
+        "Developer + project",
+        "Handover + payments",
+        "Current rules"
+      ],
+      "title": "Can UK buyers buy property in Dubai?",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Yes — UK buyers can generally buy property in Dubai</strong> in areas designated for foreign ownership, subject to current rules and property-specific checks. For off-plan property, verify the developer, project status, payment schedule, handover timing and unit-specific terms before reserving.",
+      "body_text": "Yes — UK buyers can generally buy property in Dubai in areas designated for foreign ownership, subject to current rules and property-specific checks. For off-plan property, verify the developer, project status, payment schedule, handover timing and unit-specific terms before reserving.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Origin market",
+          "value": "United Kingdom"
+        },
+        {
+          "label": "Target market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Buyer goal",
+          "value": "Off-plan property"
+        },
+        {
+          "label": "Main focus",
+          "value": "Project quality and delivery path"
+        },
+        {
+          "label": "Key checks",
+          "value": "Developer · payment schedule · handover"
+        },
+        {
+          "label": "Ownership context",
+          "value": "Check current foreign ownership rules"
+        },
+        {
+          "label": "Decision stage",
+          "value": "Before reservation"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare project status before any reservation"
+        }
+      ],
+      "title": "Origin buyer details",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Define acceptable developer risk, payment timing, handover horizon and unit requirements before comparing projects.",
+            "title": "1. Set the off-plan criteria"
+          },
+          {
+            "text": "If you plan to complete any steps from the United Kingdom, confirm which parts can be handled remotely and whether additional authorisation or local action is needed.",
+            "title": "2. Plan the purchase route"
+          },
+          {
+            "text": "Confirm the identity information, buyer forms, payment source, transfer route and transaction-specific checks requested for the purchase.",
+            "title": "3. Confirm documents and payment route"
+          },
+          {
+            "text": "Re-check project status, unit details, payment schedule, handover timing and reservation terms for the specific property.",
+            "title": "4. Re-check live terms before reservation"
+          }
+        ],
+        "title": "Remote purchase process",
+        "eyebrow": "Process logic"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Prepare valid identity and buyer information requested for the specific transaction.",
+            "title": "Passport and buyer details"
+          },
+          {
+            "text": "Keep current address and contact details ready if requested by the developer, bank or transaction process.",
+            "title": "Address and contact details"
+          },
+          {
+            "text": "Confirm the payment source, transfer route and any bank or compliance checks before sending funds.",
+            "title": "Payment source and transfer route"
+          },
+          {
+            "text": "Review the project, unit and payment documents supplied for the specific off-plan transaction before committing.",
+            "title": "Project and payment documents"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Practical checklist"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Compare reservation amount, instalment timing, handover exposure and total transaction costs against your available cash flow.",
+          "title": "Plan the full payment timeline",
+          "eyebrow": "Payment logic"
+        },
+        {
+          "dark": false,
+          "text": "If any steps are handled from the United Kingdom, confirm payment route, signing, identity checks and any transaction-specific local action.",
+          "title": "Plan the cross-border execution",
+          "eyebrow": "Buying from the United Kingdom"
+        },
+        {
+          "dark": false,
+          "text": "Compare developer track record, project status, unit terms and handover timing before committing to an off-plan purchase.",
+          "title": "Delivery risk matters before reservation",
+          "eyebrow": "Project check"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Use Primadom AI to compare the goal, budget, route and checks before speaking with an advisor.",
+          "title": "Turn the scenario into a clear comparison",
+          "eyebrow": "AI consultation"
+        }
+      ],
+      "cards_aria": "Key decisions for this buyer scenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Compare project status, developer, payment schedule, unit terms and handover timing.",
+            "title": "Dubai Creek Harbour"
+          },
+          {
+            "text": "Compare individual projects, payment exposure, delivery timing and unit specifics.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "Compare project-by-project status, developer, payment terms and intended use.",
+            "title": "Dubai Islands"
+          },
+          {
+            "text": "Compare project status, unit details, payment structure and handover assumptions.",
+            "title": "Meydan"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "District options"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "For buyers from the United Kingdom focused on off-plan property, verify developer, project status, payment schedule, unit specifics and handover timing for the actual property before reservation.",
+        "tags": [
+          "Can buy?",
+          "Developer check",
+          "Project status",
+          "Payment schedule",
+          "Handover"
+        ],
+        "title": "Buyer concerns",
+        "eyebrow": "What to verify"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Open real project pages connected to the districts used for this buyer scenario, then verify current price, availability, payment terms and unit fit before relying on an option.",
+        "items": [
+          {
+            "href": "/en/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/en/projects/aero-1-residences/",
+            "meta": "Dubai South",
+            "label": "Aero 1 Residences"
+          },
+          {
+            "href": "/en/projects/997-residences/",
+            "meta": "Dubai Islands",
+            "label": "997 Residences"
+          },
+          {
+            "href": "/en/projects/alphabeta-m77/",
+            "meta": "Meydan",
+            "label": "Alphabeta M77"
+          },
+          {
+            "href": "/en/projects/address-residences-at-dubai-creek-harbour/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Residences at Dubai Creek Harbour"
+          }
+        ],
+        "title": "Projects to verify",
+        "eyebrow": "Project options",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "If UAE residency is part of your plan, verify current Golden Visa criteria separately from the property decision. A project appearing in this list does not imply visa eligibility.",
+        "tags": [
+          "Separate check",
+          "Current criteria",
+          "Property value",
+          "Ownership status",
+          "Payment status"
+        ],
+        "title": "Keep visa eligibility separate",
+        "eyebrow": "Visa review",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/dubai-payment-plan-property-for-united-kingdom-buyers/",
+          "label": "Dubai payment-plan property for UK buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-investment-property-for-united-kingdom-buyers/",
+          "label": "Dubai investment property for UK buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-property-under-aed-2m-for-united-kingdom-buyers/",
+          "label": "Dubai property under AED 2M for UK buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-property-under-aed-5m-for-united-kingdom-buyers/",
+          "label": "Dubai property under AED 5M for UK buyers"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Related origin pages",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "UK buyers can generally buy property in Dubai in designated freehold areas, subject to current rules and the specific property. For a Dubai off-plan property, check developer track record, project status, payment schedule, unit terms and handover timing before reservation.",
+          "question": "Can UK buyers buy off-plan property in Dubai?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Review the developer, project progress, payment schedule, contract milestones and handover assumptions before focusing on unit choice. Marketing price should not replace a full project-level check.",
+          "question": "What should UK buyers check first when considering a Dubai off-plan property?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "For this scenario, compare Dubai Creek Harbour, Dubai South, Dubai Islands and Meydan. These are starting points rather than a ranking; check the exact property and practical fit before deciding.",
+          "question": "Which Dubai districts should UK buyers compare for a Dubai off-plan property?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "When coordinating the purchase from the United Kingdom, map out who will sign, how funds will be transferred, which identity checks apply and whether any step needs local action. Confirm the route for the specific transaction before committing funds.",
+          "question": "What should UK buyers verify when arranging a Dubai purchase from the United Kingdom?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Check developer track record, project status, payment schedule, unit terms and handover timing. Off-plan decisions should be based on the actual project and contract terms, not launch marketing alone.",
+          "question": "What should UK buyers verify before reserving a Dubai off-plan property?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Origin buyer questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "For UK buyers considering Dubai off-plan property, this page separates buyer guidance from claims that still require external verification. Ownership rules, cross-border transaction steps, project status, payment schedule, unit terms and handover information should be checked against the relevant official or live source before a buyer decision.",
+      "items": [
+        {
+          "label": "Ownership rules",
+          "value": "Official verification pending"
+        },
+        {
+          "label": "Cross-border process",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Project / handover terms",
+          "value": "Developer source required"
+        },
+        {
+          "label": "Price / availability",
+          "value": "Live project check required"
+        },
+        {
+          "label": "Source status",
+          "value": "Source review pending"
+        }
+      ],
+      "title": "Verification notes",
+      "eyebrow": "Source notes",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "For UK buyers, compare project status, developer, payment schedule and handover timing before reviewing a specific purchase plan.",
+      "title": "Considering Dubai off-plan property from the United Kingdom?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Review my plan",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Origin buyer consultation form",
+      "text": "For UK buyers, share your preferred property type, timing and payment priorities. Primadom AI will prepare the off-plan context before advisor review.",
+      "title": "Review your Dubai off-plan purchase plan from the United Kingdom",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Review my Dubai off-plan property plan from the United Kingdom",
+      "eyebrow": "Property plan review",
+      "success": "Sent",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Close",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps UK buyers compare developer, project status, payment schedule, unit terms and handover timing before considering a reservation.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Dubai off-plan decisions for UK buyers",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI social links",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Ask AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

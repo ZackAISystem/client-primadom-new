@@ -1,0 +1,21 @@
+{{- $d := partial "primadom/page-types/budget/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pb-modal" id="budgetLeadModal" aria-hidden="true">
+  <div class="pb-modal__backdrop" data-close-budget-lead></div>
+  <section class="pb-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $t.modal.aria }}">
+    <button class="pb-modal__close" type="button" data-close-budget-lead aria-label="{{ $t.modal.close_label }}">×</button>
+    <span class="pb-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2>{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+
+    <form class="pb-form" data-budget-form>
+      <div class="pb-form__grid">
+        <label class="pb-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name" placeholder="{{ $t.modal.placeholders.name }}"></label>
+        <label class="pb-field"><span>{{ $t.modal.fields.phone }}</span><input type="tel" name="phone" placeholder="{{ $t.modal.placeholders.phone }}"></label>
+        <label class="pb-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget" placeholder="{{ $t.modal.placeholders.budget }}"></label>
+      </div>
+      <label class="pb-field"><span>{{ $t.modal.fields.comment }}</span><textarea name="comment">{{ $t.modal.comment }}</textarea></label>
+      <button class="pb-submit" type="submit" data-submit-label="{{ $t.modal.submit }}" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+    </form>
+  </section>
+</div>

@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_villas_mudon_en",
+  "page_type_id": "property_type_page",
+  "language_code": "en",
+  "url_path": "/en/property-types/villas-in-mudon/",
+  "canonical_url_path": "/en/property-types/villas-in-mudon/",
+  "canonical_group_key": "property_district:villas:mudon",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mudon",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Summary",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projects",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Property type page navigation",
+      "cta_label": "Find options",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "property_types",
+          "href": "/en/property-types/",
+          "label": "Property types"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/mudon/",
+          "label": "Mudon"
+        },
+        {
+          "key": "current",
+          "href": "/en/property-types/villas-in-mudon/",
+          "label": "Villas in Mudon",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Property type: Villas",
+        "Area: Mudon",
+        "Private home + plot",
+        "End use / family intent",
+        "AI finder"
+      ],
+      "image": {
+        "alt": "Villas in Mudon property type overview",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Villas in Mudon",
+      "subtitle": "A practical guide to Villas in Mudon, covering plot size, privacy and community fit, price context, project options and an AI finder.",
+      "facts_aria": "Property type hero highlights",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Villas in Mudon property type hero visual",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Ask Primadom AI about villas in Mudon",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Ask about villas in Mudon, budget or fit",
+      "placeholder": "Ask about villas in Mudon, budget or fit",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Voice search",
+      "click_action": "fill_input",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Find villas in Mudon for my budget",
+        "Compare villas by space, privacy and community fit",
+        "What should I check for villas in Mudon?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Type your request or try again",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Voice mode",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Villas",
+        "Mudon",
+        "Family / long-term",
+        "Privacy + outdoor space",
+        "Project verification"
+      ],
+      "title": "Property type summary",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Villas in Mudon</strong> can be compared by community, layout or plot, condition and ownership costs. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "body_text": "Villas in Mudon can be compared by community, layout or plot, condition and ownership costs. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Type",
+          "value": "Villas",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Area",
+          "value": "Mudon",
+          "fact_key": "area"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Linked project pages",
+          "value": "11 district project pages",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Buyer intent",
+          "value": "Family · privacy · long-term",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Key filters",
+          "value": "Plot · built-up area · maintenance",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare linked project pages",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Comparison scope",
+          "value": "Projects · areas · ownership costs",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Property type details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 11,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who it is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers who prefer low-maintenance apartment living or highly central vertical communities",
+          "Buyers unwilling to assess upkeep, community fees and access requirements",
+          "Buyers who do not want to verify daily travel, school access and practical family needs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Families or long-term residents prioritising privacy, internal space and outdoor areas",
+          "Buyers prepared to compare plot, built-up area and maintenance responsibilities",
+          "Buyers comparing villas in Mudon against household routines, access and long-term use"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Mudon",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "family",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "villas"
+      },
+      "property_logic": {
+        "body": "Compare villas by plot size, built-up area, internal layout, outdoor space, maintenance and community access. In Mudon, test the fit against household routines, access, school needs and long-term practicality. Confirm current availability and, where relevant, recurring costs, payment terms and handover details before deciding.",
+        "tags": [
+          "Plot",
+          "Built-up area",
+          "Maintenance",
+          "Community access",
+          "Family practicality"
+        ],
+        "title": "Property type logic",
+        "eyebrow": "How to compare"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Mudon is well-suited for families, offering a secure and peaceful environment with spacious homes and wide-open green areas. For villas in this area, compare plot size, built-up area, internal layout, privacy, maintenance and community access.",
+            "route": "/en/property-types/villas-in-mudon/",
+            "buyer_fit": "Current area context",
+            "relationship": "current_area",
+            "district_name": "Mudon",
+            "district_slug": "mudon"
+          },
+          {
+            "text": "Al Furjan is well suited for families, with safe and low-density neighbourhoods that include parks and community amenities tailored for children and parents alike. As a same-city alternative to Mudon, compare plot size, built-up area, internal layout, privacy, maintenance and community access.",
+            "route": "/en/property-types/villas-in-al-furjan/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Al Furjan",
+            "district_slug": "al-furjan"
+          },
+          {
+            "text": "This district is highly suitable for families thanks to its quiet, safe environment with ample parks, playgrounds, and spacious homes like villas and townhouses. As a same-city alternative to Mudon, compare plot size, built-up area, internal layout, privacy, maintenance and community access.",
+            "route": "/en/property-types/villas-in-dubai-hills-estate/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Dubai Hills Estate",
+            "district_slug": "dubai-hills-estate"
+          },
+          {
+            "text": "Athlon is well suited for families, featuring low to mid-density residential options that create safe, spacious streets and community areas. As a same-city alternative to Mudon, compare plot size, built-up area, internal layout, privacy, maintenance and community access.",
+            "route": "/en/property-types/villas-in-athlon/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Athlon",
+            "district_slug": "athlon"
+          }
+        ],
+        "title": "Relevant districts",
+        "eyebrow": "Area context"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Pricing for villas in Mudon depends on plot size, built-up area, bedroom configuration, condition, privacy and community position. Compare the relationship between plot size, built-up area, condition, privacy and ongoing maintenance. Include community fees, landscaping, maintenance, upgrades and financing or payment terms when comparing the full ownership cost. Check current project pricing, recurring charges and payment terms before setting a budget.",
+        "tags": [
+          "Plot size",
+          "Built-up area",
+          "Maintenance",
+          "Community fees",
+          "Price verification"
+        ],
+        "title": "How pricing varies",
+        "eyebrow": "Price reality"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "family",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "villas",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "mudon",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 11
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "al-furjan",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 64
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-hills-estate",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 49
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "athlon",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 4
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "For villas in Mudon, compare plot, built-up area, condition, privacy, community maturity and upkeep.",
+          "title": "Price the plot and upkeep",
+          "eyebrow": "Investment logic"
+        },
+        {
+          "text": "Test bedroom separation, storage, outdoor space, school access and daily travel against the household routine.",
+          "title": "Space must fit the routine",
+          "eyebrow": "Lifestyle logic"
+        },
+        {
+          "text": "Inspect condition, boundaries, access, maintenance scope and community obligations before deciding.",
+          "title": "Condition can reshape the cost",
+          "eyebrow": "Risk notes"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare villas in Mudon by buyer goal, project status, payment terms, ownership cost and daily-use priorities.",
+          "title": "Build a villa shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "cards_aria": "Property type decision notes",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_villas_mudon_en",
+        "context_focus": "family",
+        "district_slug": "mudon",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/en/property-types/villas-in-mudon/",
+        "property_type_slug": "villas",
+        "semantic_profile_key": "villas",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/mudon-al-ranim-4/",
+            "meta": "Mudon",
+            "label": "Mudon Al Ranim 4"
+          },
+          {
+            "href": "/en/projects/mudon-al-ranim-6/",
+            "meta": "Mudon",
+            "label": "Mudon Al Ranim 6"
+          },
+          {
+            "href": "/en/projects/montura-3-at-grand-polo/",
+            "meta": "Dubai Investment Park",
+            "label": "Montura 3 at Grand Polo"
+          },
+          {
+            "href": "/en/projects/cavalli-estates/",
+            "meta": "Damac Hills",
+            "label": "Cavalli Estates"
+          },
+          {
+            "href": "/en/projects/belair-at-the-trump-estates/",
+            "meta": "Damac Hills",
+            "label": "Belair at The Trump Estates"
+          }
+        ],
+        "title": "Recommended projects",
+        "eyebrow": "Project options"
+      },
+      "pros_cons": {
+        "title": "Pros and cons",
+        "eyebrow": "Reality check",
+        "cons_items": [
+          "Maintenance, cooling and landscaping costs are typically higher",
+          "In Mudon, school access and commuting may matter more than the property label",
+          "Larger homes can reduce flexibility if household needs later change"
+        ],
+        "cons_title": "Cons",
+        "pros_items": [
+          "Private outdoor space and larger layouts can offer more independence",
+          "In Mudon, compare bedrooms, storage and daily travel against family routines",
+          "Usable space can support storage, routines and longer-term occupation"
+        ],
+        "pros_title": "Pros"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_villas_mudon_en",
+        "district_slug": "mudon",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "family",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Mudon Al Ranim 4",
+            "project_slug": "mudon-al-ranim-4",
+            "project_route": "/en/projects/mudon-al-ranim-4/",
+            "developer_name": "Dubai Properties",
+            "developer_slug": "dubai-properties",
+            "location_score": 5,
+            "project_district_name": "Mudon",
+            "project_district_slug": "mudon"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Mudon Al Ranim 6",
+            "project_slug": "mudon-al-ranim-6",
+            "project_route": "/en/projects/mudon-al-ranim-6/",
+            "developer_name": "Dubai Properties",
+            "developer_slug": "dubai-properties",
+            "location_score": 5,
+            "project_district_name": "Mudon",
+            "project_district_slug": "mudon"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Montura 3 at Grand Polo",
+            "project_slug": "montura-3-at-grand-polo",
+            "project_route": "/en/projects/montura-3-at-grand-polo/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 3,
+            "project_district_name": "Dubai Investment Park",
+            "project_district_slug": "dubai-investment-park"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Cavalli Estates",
+            "project_slug": "cavalli-estates",
+            "project_route": "/en/projects/cavalli-estates/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 3,
+            "project_district_name": "Damac Hills",
+            "project_district_slug": "damac-hills"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Belair at The Trump Estates",
+            "project_slug": "belair-at-the-trump-estates",
+            "project_route": "/en/projects/belair-at-the-trump-estates/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 3,
+            "project_district_name": "Damac Hills",
+            "project_district_slug": "damac-hills"
+          }
+        ],
+        "canonical_url_path": "/en/property-types/villas-in-mudon/",
+        "property_type_slug": "villas",
+        "semantic_profile_key": "villas",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/en/property-types/family-villas-in-mudon/",
+          "label": "Family Villas in Mudon"
+        },
+        {
+          "href": "/en/property-types/townhouses-in-mudon/",
+          "label": "Townhouses in Mudon"
+        },
+        {
+          "href": "/en/property-types/three-bedroom-apartments-in-mudon/",
+          "label": "Three Bedroom Apartments in Mudon"
+        },
+        {
+          "href": "/en/property-types/duplexes-in-mudon/",
+          "label": "Duplexes in Mudon"
+        }
+      ],
+      "title": "Similar property types",
+      "eyebrow": "Related options",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Family Villas in Mudon",
+            "target_route": "/en/property-types/family-villas-in-mudon/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "family_villa"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Townhouses in Mudon",
+            "target_route": "/en/property-types/townhouses-in-mudon/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "townhouse"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1215,
+            "target_label": "Three Bedroom Apartments in Mudon",
+            "target_route": "/en/property-types/three-bedroom-apartments-in-mudon/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 390,
+            "target_profile_family": "three_bedroom"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1215,
+            "target_label": "Duplexes in Mudon",
+            "target_route": "/en/property-types/duplexes-in-mudon/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 390,
+            "target_profile_family": "duplex"
+          }
+        ],
+        "source_route": "/en/property-types/villas-in-mudon/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "When comparing villas in Mudon, focus on community, layout or plot, condition and ownership costs. Verify the exact project, layout, recurring costs and current terms before deciding.",
+          "question": "What should buyers know about villas in Mudon?"
+        },
+        {
+          "answer": "In Mudon, this page may suit families or long-term residents prioritising privacy, internal space and outdoor areas. It may also be relevant to buyers prepared to compare plot, built-up area and maintenance responsibilities. The final choice should reflect bedroom use, storage, school access and daily travel.",
+          "question": "Which buyers may prefer villas in Mudon for family use?"
+        },
+        {
+          "answer": "Key advantage: Private outdoor space and larger layouts can offer more independence. Key trade-off: Maintenance, cooling and landscaping costs are typically higher. In Mudon, compare bedrooms, storage and daily travel against family routines. A further local consideration is that school access and commuting may matter more than the property label.",
+          "question": "Which ownership trade-offs matter for villas in Mudon?"
+        },
+        {
+          "answer": "Projects shown for comparison on this page include Mudon Al Ranim 4, Mudon Al Ranim 6 and Montura 3 at Grand Polo. Buyers can also compare Family Villas in Mudon and Townhouses in Mudon to test a different property format in or near the same market. These links support navigation only; they are not a ranking or confirmation of current unit availability.",
+          "question": "What can buyers compare alongside villas in Mudon?"
+        },
+        {
+          "answer": "Prices, unit availability, fees, payment plans and handover details can change. For villas in Mudon, confirm plot details, build condition, maintenance obligations, community fees, unit status and payment terms against official developer materials and current advisor checks. Primadom AI can organise the comparison, but current commercial terms should be verified before deciding.",
+          "question": "How should buyers verify prices and availability for villas in Mudon?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Property type questions",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "family",
+        "semantic_profile_key": "villas",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Information about villas in Mudon should be used as a comparison guide rather than a live offer. Before deciding, confirm the plot or unit details, build condition, maintenance obligations and community rules, current price and availability, payment terms, handover or completion status, and total ownership costs with the developer or an authorised advisor.",
+      "items": [
+        {
+          "label": "Property & plot details",
+          "value": "Check condition, plot and community rules"
+        },
+        {
+          "label": "Price & availability",
+          "value": "Confirm current unit terms"
+        },
+        {
+          "label": "Fees & ownership costs",
+          "value": "Review maintenance and community costs"
+        },
+        {
+          "label": "Payment & handover",
+          "value": "Verify status, dates and contract terms"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Before you decide",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare villas in Mudon by community, plot or layout, condition, budget, ownership costs and buyer goal, with attention to family use, storage and daily travel, then review suitable options with an advisor.",
+      "title": "Looking for villas in Mudon?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Find matching options",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "family",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "villas",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Property type enquiry form",
+      "text": "Share your preferences for villas in Mudon. Primadom AI will organise the request around community, layout or plot, property condition and ownership costs before an advisor reviews it.",
+      "title": "Find villas in Mudon",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "I'm looking for suitable villa options on this page.",
+      "eyebrow": "AI finder handoff",
+      "success": "Sent",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Close",
+      "source_meta": {
+        "source_route": "/en/property-types/villas-in-mudon/",
+        "source_page_id": "page_property_district_villas_mudon_en",
+        "shortlist_claim": false,
+        "context_focus_key": "family",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "villas",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps buyers compare villas in Mudon by community, layout or plot, property condition and ownership costs before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Villas in Mudon, connected to projects and buyer scenarios",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/en/property-types/villas-in-mudon/",
+        "source_page_id": "page_property_district_villas_mudon_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "family",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "villas",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

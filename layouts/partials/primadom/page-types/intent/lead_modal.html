@@ -1,0 +1,21 @@
+{{- $d := partial "primadom/page-types/intent/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pi-modal" id="intentLeadModal" aria-hidden="true">
+  <div class="pi-modal__backdrop" data-close-intent-lead></div>
+  <section class="pi-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $t.modal.aria }}">
+    <button class="pi-modal__close" type="button" data-close-intent-lead aria-label="{{ $t.modal.close_label }}">×</button>
+    <span class="pi-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2>{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+
+    <form class="pi-form" data-intent-form>
+      <div class="pi-form__grid">
+        <label class="pi-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name" placeholder="{{ $t.modal.placeholders.name }}"></label>
+        <label class="pi-field"><span>{{ $t.modal.fields.phone }}</span><input type="tel" name="phone" placeholder="{{ $t.modal.placeholders.phone }}"></label>
+        <label class="pi-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget" placeholder="{{ $t.modal.placeholders.budget }}"></label>
+      </div>
+      <label class="pi-field"><span>{{ $t.modal.fields.comment }}</span><textarea name="comment">{{ $t.modal.comment }}</textarea></label>
+      <button class="pi-submit" type="submit" data-submit-label="{{ $t.modal.submit }}" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+    </form>
+  </section>
+</div>

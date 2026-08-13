@@ -1,0 +1,99 @@
+<script>
+(function(){
+  const aiForm = document.querySelector('.pi-ai');
+  if(aiForm){
+    aiForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('summary')?.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  }
+
+  const modal = document.getElementById('intentLeadModal');
+  if(modal){
+    const openers = document.querySelectorAll('[data-open-intent-lead]');
+    const closers = modal.querySelectorAll('[data-close-intent-lead]');
+    const form = modal.querySelector('[data-intent-form]');
+
+    function open(e){
+      if(e) e.preventDefault();
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden','false');
+      document.documentElement.classList.add('pi-modal-open');
+    }
+
+    function close(){
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden','true');
+      document.documentElement.classList.remove('pi-modal-open');
+    }
+
+    openers.forEach(btn => btn.addEventListener('click', open));
+    closers.forEach(btn => btn.addEventListener('click', close));
+    document.addEventListener('keydown', e => { if(e.key === 'Escape') close(); });
+
+    if(form){
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        const btn = form.querySelector('.pi-submit');
+        if(btn){
+          const normal = btn.dataset.submitLabel || btn.textContent;
+          const success = btn.dataset.successLabel || 'Sent';
+          btn.textContent = success;
+          setTimeout(() => btn.textContent = normal, 1600);
+        }
+      });
+    }
+  }
+})();
+</script>
+
+<script>
+(function () {
+  if (window.__primadomIntentFooterBound) return;
+  window.__primadomIntentFooterBound = true;
+
+  function openIntentModal() {
+    var modal =
+      document.querySelector('#intentLeadModal') ||
+      document.querySelector('#projectLeadModal') ||
+      document.querySelector('.pi-modal') ||
+      document.querySelector('.pd-lead-modal');
+
+    if (!modal) return;
+
+    modal.classList.add('is-open');
+    document.documentElement.classList.add('pi-modal-open');
+    document.documentElement.classList.add('pd-modal-open');
+  }
+
+  document.addEventListener('click', function (event) {
+    var openBtn = event.target.closest('[data-open-intent-lead], [data-open-lead]');
+    if (openBtn) {
+      event.preventDefault();
+      openIntentModal();
+      return;
+    }
+
+    var askBtn = event.target.closest('[data-scroll-ask-ai]');
+    if (askBtn) {
+      event.preventDefault();
+
+      var target =
+        document.querySelector('#ask-ai') ||
+        document.querySelector('.pi-ai') ||
+        document.querySelector('.pd-project-ask');
+
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        var input = target.querySelector('input, textarea');
+        if (input) {
+          setTimeout(function () {
+            input.focus({ preventScroll: true });
+          }, 450);
+        }
+      }
+    }
+  });
+})();
+</script>

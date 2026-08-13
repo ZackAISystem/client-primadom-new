@@ -1,0 +1,27 @@
+{{- $d := partial "primadom/page-types/budget-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pb-grid-2 pb-grid-2--reverse" id="districts">
+  <article class="pb-card">
+    <div class="pb-card__head">
+      <h2>{{ $t.districts.title }}</h2>
+      <span>{{ $t.districts.eyebrow }}</span>
+    </div>
+    <div class="pb-card__body pb-option-list">
+      {{ range $t.districts.items }}
+        <div class="pb-option"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>
+      {{ end }}
+    </div>
+  </article>
+
+  <article class="pb-card">
+    <div class="pb-card__head">
+      <h2>{{ $t.property_types.title }}</h2>
+      <span>{{ $t.property_types.eyebrow }}</span>
+    </div>
+    <div class="pb-card__body pb-option-list">
+      {{ range $t.property_types.items }}
+        <div class="pb-option"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>
+      {{ end }}
+    </div>
+  </article>
+</div>

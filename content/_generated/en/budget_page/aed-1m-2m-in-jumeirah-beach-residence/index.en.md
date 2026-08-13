@@ -1,0 +1,10 @@
+---
+title: "Property for AED 1M–2M in Jumeirah Beach Residence"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-1m-2m-in-jumeirah-beach-residence"
+page_id: "page_budget_district_aed_1m_2m_jumeirah_beach_residence_en"
+url: "/en/budgets/aed-1m-2m-in-jumeirah-beach-residence/"
+build:
+  render: always
+  list: never
+---

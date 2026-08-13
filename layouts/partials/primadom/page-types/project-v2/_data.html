@@ -1,0 +1,12 @@
+{{- $slug := .Params.project_slug | default "passo-by-beyond" -}}
+{{- $p := index site.Data.primadom.project_pages $slug -}}
+{{- if not $p -}}
+  {{- errorf "Primadom project data not found: %s" $slug -}}
+{{- end -}}
+
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- if not (in $p.languages $lang) -}}
+  {{- $lang = "en" -}}
+{{- end -}}
+
+{{- return (dict "p" $p "lang" $lang "slug" $slug) -}}

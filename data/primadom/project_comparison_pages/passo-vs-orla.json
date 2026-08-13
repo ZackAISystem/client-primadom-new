@@ -1,0 +1,489 @@
+{
+  "schema_version": "project_comparison_page.v1",
+  "page_type": "project_comparison_page",
+  "project_comparison_slug": "passo-vs-orla",
+  "entity_type": "Project Comparison",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/project-comparison-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Passo vs Orla — Primadom AI",
+        "description": "AI-readable project comparison page for Passo by Beyond vs Orla by Omniyat with quick recommendation, project summaries, price, location, payment plan, handover, unit type, lifestyle, investment, FAQ and Primadom AI handoff.",
+        "canonical": "https://primadom.ai/en/compare/passo-vs-orla/"
+      },
+      "schema": {
+        "project_list_name": "Projects compared on this page"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Compare my budget",
+        "cta_url": "#comparisonLeadModal",
+        "nav_aria": "Project comparison navigation",
+        "nav": [
+          {
+            "label": "Verdict",
+            "href": "#recommendation",
+            "active": true
+          },
+          {
+            "label": "Projects",
+            "href": "#projects",
+            "active": false
+          },
+          {
+            "label": "Table",
+            "href": "#table",
+            "active": false
+          },
+          {
+            "label": "AI compare",
+            "href": "#compare-ai-search",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Split visual comparing Passo by Beyond and Orla by Omniyat",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "Project Comparisons",
+            "href": "/en/compare/projects/"
+          },
+          {
+            "label": "Passo vs Orla",
+            "href": "/en/compare/passo-vs-orla/"
+          }
+        ],
+        "area_a": {
+          "name": "Passo by Beyond",
+          "image": {
+            "src": "/img/primadom/project-comparisons/passo-comparison.svg",
+            "alt": "Passo by Beyond luxury waterfront project concept image"
+          }
+        },
+        "area_b": {
+          "name": "Orla by Omniyat",
+          "image": {
+            "src": "/img/primadom/project-comparisons/orla-comparison.svg",
+            "alt": "Orla by Omniyat ultra-prime waterfront project concept image"
+          }
+        },
+        "kicker": "Project comparison page",
+        "title": "Passo vs Orla",
+        "subtitle": "A compact AI-readable comparison for buyers choosing between two luxury Palm Jumeirah projects by price, location, payment plan, handover, unit type, lifestyle and investment logic.",
+        "facts_aria": "Project comparison hero facts",
+        "facts": [
+          "Project A: Passo by Beyond",
+          "Project B: Orla by Omniyat",
+          "Palm Jumeirah comparison",
+          "Commercial decision intent",
+          "AI budget compare"
+        ],
+        "ai_aria": "Ask Primadom AI to compare Passo and Orla",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Compare Passo vs Orla for my budget, unit type and lifestyle goal",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "verdict": {
+        "eyebrow": "Direct answer",
+        "title": "Quick recommendation",
+        "body_html": "Compare <strong>Passo</strong> if you want a newer Palm Jumeirah luxury option with project-specific payment, availability and layout checks. Compare <strong>Orla</strong> if your priority is ultra-prime positioning, Omniyat-style luxury and established high-end Palm Jumeirah perception. The final choice should be made only after live price, unit, view, payment plan and availability checks.",
+        "body_text": "Compare Passo if you want a newer Palm Jumeirah luxury option with project-specific payment, availability and layout checks. Compare Orla if your priority is ultra-prime positioning, Omniyat-style luxury and established high-end Palm Jumeirah perception.",
+        "chips": [
+          "Project vs project",
+          "Luxury Palm Jumeirah",
+          "Near-purchase intent",
+          "AI shortlist"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Comparison details",
+        "items": [
+          {
+            "label": "Page type",
+            "value": "Project Comparison Page"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Project A",
+            "value": "Passo by Beyond"
+          },
+          {
+            "label": "Project B",
+            "value": "Orla by Omniyat"
+          },
+          {
+            "label": "Location",
+            "value": "Palm Jumeirah"
+          },
+          {
+            "label": "Buyer stage",
+            "value": "High-intent / near decision"
+          },
+          {
+            "label": "Best next step",
+            "value": "Compare live units"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "profiles": {
+        "eyebrow": "Entity clarity",
+        "title": "Project summaries",
+        "items": [
+          {
+            "name": "Passo by Beyond",
+            "text": "Luxury Palm Jumeirah project profile used here as Project A. In production, exact price, handover, payment plan, unit mix and availability must come from verified sources.",
+            "points": [
+              "Luxury waterfront positioning",
+              "Useful for newer-project comparison",
+              "Needs live unit availability check"
+            ]
+          },
+          {
+            "name": "Orla by Omniyat",
+            "text": "Ultra-prime Palm Jumeirah project profile used here as Project B. In production, compare exact residences, views, layouts, service charges and current stock.",
+            "points": [
+              "Ultra-prime Palm positioning",
+              "Strong luxury developer association",
+              "Needs live price and resale/liquidity check"
+            ]
+          }
+        ]
+      },
+      "segment_logic": {
+        "eyebrow": "How AI ranks",
+        "title": "Comparison logic",
+        "body": "Project comparison pages should only compare logical pairs. Primadom AI should score projects by buyer budget, exact unit type, view, price per sqft, payment plan, handover, developer, amenities, service charges, rental logic, resale liquidity and lifestyle fit.",
+        "tags": [
+          "Logical pair only",
+          "Unit-level check",
+          "Payment plan",
+          "View / layout",
+          "Risk notes"
+        ]
+      },
+      "comparison_table": {
+        "eyebrow": "Passo vs Orla",
+        "title": "Project comparison table",
+        "head": {
+          "factor": "Factor",
+          "area_a": "Passo by Beyond",
+          "area_b": "Orla by Omniyat"
+        },
+        "rows": [
+          {
+            "factor": "Price comparison",
+            "area_a": "Use live price list and available unit stack. Good comparison only if exact size, view and payment terms are known.",
+            "area_b": "Usually needs ultra-prime budget validation; compare current stock, resale/liquidity and total cost carefully."
+          },
+          {
+            "factor": "Location comparison",
+            "area_a": "Palm Jumeirah waterfront context; compare exact plot, access, view corridors and beach/amenity logic.",
+            "area_b": "Palm Jumeirah ultra-prime context; compare privacy, frontage, view, access and completed/neighbouring luxury supply."
+          },
+          {
+            "factor": "Payment plan comparison",
+            "area_a": "Check booking amount, construction-linked payments, post-handover exposure and final cashflow.",
+            "area_b": "Check payment stages, premium pricing, service-charge exposure and resale flexibility."
+          },
+          {
+            "factor": "Handover comparison",
+            "area_a": "Production version should show verified handover date and construction status.",
+            "area_b": "Production version should show verified delivery/status and whether ready/resale/off-plan logic applies."
+          },
+          {
+            "factor": "Unit type comparison",
+            "area_a": "Compare apartments, penthouses or residences by layout, balcony, view, floor and usable area.",
+            "area_b": "Compare residences by layout quality, privacy, branded/luxury positioning and service expectations."
+          },
+          {
+            "factor": "Lifestyle difference",
+            "area_a": "May fit buyers looking for newer luxury waterfront positioning and specific availability.",
+            "area_b": "May fit buyers prioritizing established ultra-prime luxury and status-led living."
+          },
+          {
+            "factor": "Investment difference",
+            "area_a": "Depends on entry price, payment plan, scarcity, handover, rental demand and resale story.",
+            "area_b": "Depends on premium entry, brand/developer perception, limited supply, liquidity and holding costs."
+          }
+        ]
+      },
+      "decision_cards_aria": "Project decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Price",
+          "title": "Compare live units, not headline prices",
+          "text": "Headline prices can mislead if size, view, floor and payment plan differ."
+        },
+        {
+          "eyebrow": "Location",
+          "title": "Same district, different micro-position",
+          "text": "Palm Jumeirah projects must be compared by exact access, view and waterfront context."
+        },
+        {
+          "eyebrow": "Timeline",
+          "title": "Handover changes decision logic",
+          "text": "Construction stage and delivery timing affect cashflow, risk and rental timing."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Compare for my budget",
+          "text": "Primadom AI can turn this comparison into a buyer-specific recommendation.",
+          "dark": true
+        }
+      ],
+      "buyer_types": {
+        "eyebrow": "Buyer fit",
+        "title": "Who should choose each project",
+        "area_a_title": "Choose Passo if",
+        "area_a_items": [
+          "You want to compare newer Palm Jumeirah luxury supply",
+          "You need a specific payment plan or unit availability",
+          "You want project-specific upside checked against alternatives"
+        ],
+        "area_b_title": "Choose Orla if",
+        "area_b_items": [
+          "You prioritize ultra-prime positioning and luxury perception",
+          "You are comfortable with premium entry and holding costs",
+          "You want a more status-led Palm Jumeirah product comparison"
+        ]
+      },
+      "rental_logic": {
+        "eyebrow": "Decision layer",
+        "title": "Investment logic",
+        "body": "Investment choice should not be based on brand or render alone. The page must compare price per sqft, payment schedule, completion risk, unit scarcity, service charges, rental demand, likely exit audience and competing Palm Jumeirah inventory.",
+        "tags": [
+          "Price per sqft",
+          "Service charges",
+          "Exit liquidity",
+          "Rental demand",
+          "Competing inventory"
+        ]
+      },
+      "projects": {
+        "area_a": {
+          "eyebrow": "Internal graph",
+          "title": "Related project pages",
+          "items": [
+            {
+              "label": "Passo by Beyond project page",
+              "meta": "Project A",
+              "href": "/en/primadom/project-page/"
+            },
+            {
+              "label": "Orla by Omniyat project page",
+              "meta": "Project B",
+              "href": "/en/projects/orla-by-omniyat/"
+            },
+            {
+              "label": "Palm Jumeirah project guide",
+              "meta": "District",
+              "href": "/en/primadom/district-page/"
+            },
+            {
+              "label": "Armani Beach Residences comparison",
+              "meta": "Alternative",
+              "href": "/en/compare/orla-vs-armani-beach-residences/"
+            }
+          ]
+        },
+        "area_b": {
+          "eyebrow": "Next comparisons",
+          "title": "Recommended alternatives",
+          "items": [
+            {
+              "label": "Orla vs Armani Beach Residences",
+              "meta": "comparison",
+              "href": "/en/compare/orla-vs-armani-beach-residences/"
+            },
+            {
+              "label": "Passo vs Armani Beach Residences",
+              "meta": "comparison",
+              "href": "/en/compare/passo-vs-armani-beach-residences/"
+            },
+            {
+              "label": "Best Palm Jumeirah projects",
+              "meta": "project list",
+              "href": "/en/projects/best-palm-jumeirah-projects/"
+            },
+            {
+              "label": "Luxury waterfront projects in Dubai",
+              "meta": "property type",
+              "href": "/en/luxury-waterfront-projects-dubai/"
+            }
+          ]
+        }
+      },
+      "ai_inputs": {
+        "eyebrow": "Required data",
+        "title": "AI compare inputs",
+        "items": [
+          {
+            "label": "Budget",
+            "meta": "AED range"
+          },
+          {
+            "label": "Unit type",
+            "meta": "apartment / penthouse"
+          },
+          {
+            "label": "Goal",
+            "meta": "living / investment / second home"
+          },
+          {
+            "label": "Timeline",
+            "meta": "handover / ready"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Long-tail questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Is Passo better than Orla?",
+            "answer": "It depends on buyer goal. Passo may suit buyers comparing newer luxury waterfront options and project-specific terms, while Orla may suit buyers focused on ultra-prime positioning and Omniyat-style luxury. Final choice requires live price, availability and unit comparison."
+          },
+          {
+            "question": "Which project is better for investment?",
+            "answer": "Investment comparison should depend on entry price, unit size, view, payment plan, handover, service charges, rental demand and resale liquidity rather than project name alone."
+          },
+          {
+            "question": "Which project is better for lifestyle?",
+            "answer": "Both are luxury Palm Jumeirah projects, but lifestyle fit depends on exact building, view, amenities, privacy, unit layout, beach access and buyer preference."
+          },
+          {
+            "question": "Can Primadom AI compare both for my budget?",
+            "answer": "Yes. Primadom AI can compare Passo and Orla by budget, unit type, view, payment plan, timeline, lifestyle goal and risk profile."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Source notes",
+        "body": "Prices, availability, payment plans, handover timelines, floor plans, service charges and project status must be checked against official developer materials, DLD/Dubai REST data and Primadom live advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Price / availability",
+            "value": "Needs live check"
+          },
+          {
+            "label": "Payment plan",
+            "value": "Developer material"
+          },
+          {
+            "label": "Project status",
+            "value": "DLD / official source"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Want Passo and Orla compared for your exact budget?",
+        "text": "Ask Primadom AI to compare both projects by budget, unit type, floor, view, payment plan, handover, service charges and buyer goal — then send the best match to an advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#compare-ai-search",
+            "modal": false
+          },
+          {
+            "label": "Compare my budget",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "Project comparison enquiry form",
+        "close_label": "Close",
+        "eyebrow": "AI compare handoff",
+        "title": "Compare Passo and Orla for your case",
+        "text": "Share your budget, unit type and buyer goal. Primadom AI will prepare a comparison context before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to compare Passo and Orla by budget, unit type, floor, view, payment plan, handover, service charges and buyer goal.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+     "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Project comparison, connected to real buyer intent",
+"text": "Primadom AI helps buyers compare projects, prices, payment plans, lifestyle logic and risks before speaking with an advisor.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#projectComparisonLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+}
+,
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  }
+}

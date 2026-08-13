@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_off_plan_payment_plan_buyer_tilal_city_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/off-plan-payment-plan-buyer-in-tilal-city/",
+  "canonical_url_path": "/en/buyer-scenarios/off-plan-payment-plan-buyer-in-tilal-city/",
+  "canonical_group_key": "scenario_district:off_plan_payment_plan_buyer:tilal-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "tilal-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/tilal-city/",
+          "label": "Tilal City"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/off-plan-payment-plan-buyer-in-tilal-city/",
+          "label": "Off-Plan Payment Plan Buyer in Tilal City",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Off-plan payment plan",
+        "Tilal City",
+        "Apartments · Townhouses",
+        "Under AED 5M",
+        "Payment · handover · docs"
+      ],
+      "image": {
+        "alt": "Off-Plan Payment Plan Buyer in Tilal City property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Off-Plan Payment Plan Buyer in Tilal City",
+      "subtitle": "Off-plan buyers in Tilal City can compare payment structure, construction timing, handover terms, developer documents and availability checks.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Off-Plan Payment Plan Buyer in Tilal City property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare off-plan payment plans in Tilal City",
+        "Check payment, handover and developer documents",
+        "What availability details need verification?"
+      ],
+      "ai_aria": "Ask Primadom AI about Off-Plan Payment Plan Buyer in Tilal City",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare off-plan payment plans in Tilal City",
+      "placeholder": "Compare off-plan payment plans in Tilal City",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Off-plan",
+        "Tilal City",
+        "Payment plan",
+        "Timing · documents",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For an off-plan purchase with staged payments in Tilal City</strong>, compare the payment schedule with construction timing, handover terms and the buyer’s own cash-flow plan. Developer documents and current project terms should be checked before relying on any schedule.",
+      "body_text": "For an off-plan purchase with staged payments in Tilal City, compare the payment schedule with construction timing, handover terms and the buyer’s own cash-flow plan. Developer documents and current project terms should be checked before relying on any schedule.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Off-Plan Payment Plan Buyer"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Staged-payment purchase"
+        },
+        {
+          "label": "Location",
+          "value": "Tilal City"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments · Townhouses"
+        },
+        {
+          "label": "Budget frame",
+          "value": "Up to AED 5M"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Payments · handover · terms"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Off-plan comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Verify project terms"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers focused only on the size of the first instalment",
+          "Buyers who need immediate occupancy",
+          "Buyers unwilling to review project terms, payment milestones or handover assumptions"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers considering off-plan property in Tilal City because staged payments suit their cash flow",
+          "Buyers prepared to compare payment timing with handover timing and project terms",
+          "Buyers who can keep a timing buffer if the purchase plan changes"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Tilal City, assess the payment plan together with the delivery timeline rather than as a standalone benefit. Payment milestones, project terms, buyer cash flow and a realistic timing buffer should all fit before the off-plan structure becomes useful.",
+        "tags": [
+          "Payment stages",
+          "Handover timing",
+          "Project terms",
+          "Cash flow",
+          "Timing buffer"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing off-plan options in Tilal City, judge the area together with delivery timing and the buyer's intended use after handover.",
+            "title": "Tilal City"
+          },
+          {
+            "text": "Compare other areas if they offer a better balance of payment schedule, home type and timing without compromising the location.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "A good payment schedule does not make up for a location that fails the buyer's daily needs or long-term plan.",
+            "title": "Location and timing"
+          },
+          {
+            "text": "Keep handover timing, payment milestones and the reason for choosing the area aligned before narrowing the search.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Useful when staged payments and lower-maintenance ownership suit the buyer's plan.",
+            "title": "Off-plan apartments"
+          },
+          {
+            "text": "Relevant when more space is needed and the payment schedule remains manageable.",
+            "title": "Off-plan townhouses"
+          },
+          {
+            "text": "May spread payments over a longer period, but the buyer waits longer and has less certainty about handover timing.",
+            "title": "Earlier-stage property"
+          },
+          {
+            "text": "Can reduce the wait to handover, though the remaining payments may be more concentrated.",
+            "title": "Later-stage property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "A staged payment plan only works when every major instalment, purchase cost and handover payment fits the buyer's available cash.",
+          "title": "Match the schedule to the buyer's cash flow",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Tilal City, compare the payment milestones, expected delivery and intended use together before choosing the off-plan property.",
+          "title": "Read payment timing with handover timing",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "Later payments or a changed handover date can disrupt the buyer's plan even when the initial payment looked manageable.",
+          "title": "A comfortable first instalment can hide timing risk",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in Tilal City using payment stages, expected handover, property type, buyer cash flow and timing flexibility.",
+          "title": "Compare off-plan options on the full timeline",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Tilal City, the main risks are later instalments becoming harder to fund, relying too heavily on the expected handover date, choosing the property mainly for its payment structure, or making assumptions about a home that is not yet complete.",
+        "tags": [
+          "Payment stages",
+          "Cash flow",
+          "Handover timing",
+          "Property fit",
+          "Completion risk"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "List every major instalment and the expected completion payment before deciding whether the staged structure fits the buyer's finances.",
+            "title": "Map the payment schedule to cash flow"
+          },
+          {
+            "text": "Treat the payment schedule and expected handover as one timeline because a change in either can affect the buyer's wider plan.",
+            "title": "Compare payment dates with handover timing"
+          },
+          {
+            "text": "In Tilal City, assess the home type and location on their own merits so the payment plan does not become the main reason to buy.",
+            "title": "Check the property and location separately"
+          },
+          {
+            "text": "Allow enough flexibility for a handover date that may not line up perfectly with the buyer's expected move, rental or funding schedule.",
+            "title": "Keep a timing buffer"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/hayyan/",
+            "meta": "Alef Group · Tilal City",
+            "label": "Hayyan"
+          },
+          {
+            "href": "/en/projects/masaar-saro/",
+            "meta": "ARADA · Tilal City",
+            "label": "Masaar Saro"
+          },
+          {
+            "href": "/en/projects/hawa-residence/",
+            "meta": "Al Marwan Group · Tilal City",
+            "label": "Hawa Residence"
+          },
+          {
+            "href": "/en/projects/sequoia/",
+            "meta": "ARADA · Tilal City",
+            "label": "Sequoia"
+          },
+          {
+            "href": "/en/projects/masaar-azalea/",
+            "meta": "ARADA · Tilal City",
+            "label": "Masaar Azalea"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Map the budget across the entire payment schedule. Initial and later instalments, purchase costs and the amount expected around completion should all be visible, with enough buffer for timing changes rather than relying only on the advertised first payment.",
+        "tags": [
+          "Initial payment",
+          "Instalments",
+          "Completion payment",
+          "Purchase costs",
+          "Cash buffer"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/first-time-buyer-needs-payment-plan-in-tilal-city/",
+          "label": "First-Time Buyer Needs Payment Plan in Tilal City"
+        },
+        {
+          "href": "/en/buyer-scenarios/low-down-payment-buyer/",
+          "label": "Low Down Payment Buyer"
+        },
+        {
+          "href": "/en/buyer-scenarios/ready-to-move-buyer/",
+          "label": "Ready-to-Move Buyer"
+        },
+        {
+          "href": "/en/buyer-scenarios/budget-buyer-under-aed-2m/",
+          "label": "Budget Buyer Under AED 2M"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For an off-plan purchase in Tilal City, assess the property and the payment schedule together. Instalment timing only works if the project terms, expected delivery and total commitment also fit.",
+          "question": "How should I judge an off-plan payment plan in Tilal City?"
+        },
+        {
+          "answer": "This approach suits buyers in Tilal City who prefer staged payments and can tolerate the gap between signing and completion while keeping enough flexibility for later instalments.",
+          "question": "Who may benefit from an off-plan payment structure in Tilal City?"
+        },
+        {
+          "answer": "Verify the reservation and sale terms, full payment schedule, current project information, current expected handover timing and buyer obligations before committing to an off-plan property in Tilal City.",
+          "question": "What should I verify before choosing an off-plan property in Tilal City?"
+        },
+        {
+          "answer": "Lay out every instalment in Tilal City from reservation through handover, then add transaction costs, post-handover setup and a reserve for timing changes.",
+          "question": "How should I budget across an off-plan payment schedule in Tilal City?"
+        },
+        {
+          "answer": "The main risk in Tilal City is choosing the payment plan before the property: attractive instalments can hide a weak fit, a difficult later cash stage or a delivery timeline that does not suit the buyer.",
+          "question": "What are the main risks of an off-plan payment-plan purchase in Tilal City?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For an off-plan purchase in Tilal City, verify the payment schedule and delivery timeline together. Project terms, later instalments, expected completion and the property itself should all work for the buyer before the payment plan is treated as a benefit.",
+      "items": [
+        {
+          "label": "Payment schedule",
+          "value": "Confirm every stage"
+        },
+        {
+          "label": "Project terms",
+          "value": "Review current documents"
+        },
+        {
+          "label": "Handover timing",
+          "value": "Verify the current plan"
+        },
+        {
+          "label": "Property fit",
+          "value": "Assess it separately"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare the payment stages in Tilal City with the expected delivery timeline, purchase costs and the property itself. Primadom AI can help keep the payment structure and the home decision aligned before you review options.",
+      "title": "Need an off-plan payment schedule that fits your timing and cash flow?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your upfront cash, preferred instalment timing and target completion window while comparing off-plan options around Tilal City. This gives the advisor useful context before the conversation.",
+      "title": "Check your off-plan payment plan",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare off-plan homes by payment structure",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare off-plan options in Tilal City with every payment stage, expected delivery timing, purchase costs and the property itself in one view.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Match the payment plan to the delivery timeline",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

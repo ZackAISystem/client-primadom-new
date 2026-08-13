@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_buyer_scenario_first_dubai_property_under_aed_1m_in_saadiyat_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/first-dubai-property-under-aed-1m-in-saadiyat-island/",
+  "canonical_url_path": "/en/buyer-scenarios/first-dubai-property-under-aed-1m-in-saadiyat-island/",
+  "canonical_group_key": "buyer_scenario:first_dubai_property_under_aed_1m:district:saadiyat-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "saadiyat-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/saadiyat-island/",
+          "label": "Saadiyat Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/first-dubai-property-under-aed-1m-in-saadiyat-island/",
+          "label": "First Dubai Property Under AED 1M in Saadiyat Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "First Dubai purchase",
+        "Saadiyat Island",
+        "Studios · Apartments",
+        "Under AED 1M",
+        "Steps · costs · trade-offs"
+      ],
+      "image": {
+        "alt": "First Dubai Property Under AED 1M in Saadiyat Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "First Dubai Property Under AED 1M in Saadiyat Island",
+      "subtitle": "A first Dubai purchase in Saadiyat Island calls for a close look at entry-level homes, upfront costs, buying steps and practical compromises.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "First Dubai Property Under AED 1M in Saadiyat Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare first purchase options under AED 1M in Saadiyat Island",
+        "Check upfront costs and buying steps",
+        "Compare studios and apartments before shortlisting"
+      ],
+      "ai_aria": "Ask Primadom AI about First Dubai Property Under AED 1M in Saadiyat Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare first purchase options under AED 1M in Saadiyat Island",
+      "placeholder": "Compare first purchase options under AED 1M in Saadiyat Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "First purchase",
+        "Saadiyat Island",
+        "Under AED 1M",
+        "Upfront costs · steps",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a first-property brief under AED 1M</strong>, compare options in Saadiyat Island against the buyer’s Dubai target, upfront cash needs and buying steps. Apartment choice and location trade-offs should be weighed before narrowing the search.",
+      "body_text": "For a first-property brief under AED 1M, compare options in Saadiyat Island against the buyer’s Dubai target, upfront cash needs and buying steps. Apartment choice and location trade-offs should be weighed before narrowing the search.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "First Dubai Property Under AED 1M"
+        },
+        {
+          "label": "Primary goal",
+          "value": "First purchase"
+        },
+        {
+          "label": "Location",
+          "value": "Saadiyat Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Studios · Apartments"
+        },
+        {
+          "label": "Budget frame",
+          "value": "Up to AED 1M"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Upfront cash · steps · type"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "First purchase planning"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare with Dubai target"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers assuming every Dubai district offers the same options within an AED 1M cap",
+          "Buyers judging affordability from the deposit alone",
+          "Buyers who are not ready to verify transaction costs and current purchase terms"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "First-time buyers comparing Saadiyat Island with a Dubai purchase target capped at AED 1M",
+          "Buyers who want upfront cash, transaction costs and property type considered together",
+          "Buyers prepared to compare districts rather than force one location to fit the budget"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Saadiyat Island, compare the option directly with the buyer's Dubai target. Keep the budget capped at AED 1M, then compare property type, full upfront cash requirement and purchase costs before deciding which option better fits a first purchase.",
+        "tags": [
+          "Entry budget",
+          "Upfront cash",
+          "Property type",
+          "Purchase costs",
+          "Area trade-offs"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing Saadiyat Island with the buyer's Dubai target, test whether the AED 1M ceiling, property type and full upfront cash still work for a first purchase.",
+            "title": "Saadiyat Island"
+          },
+          {
+            "text": "Compare Dubai areas if they offer a more workable mix of price, property type and purchase costs within the same cap.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "The area should be judged on what the budget can realistically buy there, not on reputation alone.",
+            "title": "First-purchase fit"
+          },
+          {
+            "text": "Keep the purchase ceiling, transaction costs and property type aligned before narrowing the Dubai area search.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Can keep the entry price lower, but layout, building costs and long-term usability still need to make sense.",
+            "title": "Studios"
+          },
+          {
+            "text": "Offer a broader range of layouts, though the buyer may need to trade size or location to stay under the cap.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Makes the actual condition and near-term cash requirement easier to assess.",
+            "title": "Ready property"
+          },
+          {
+            "text": "May spread payments, but the full schedule must still remain manageable within the first-purchase plan.",
+            "title": "Off-plan property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "An AED 1M ceiling should include the practical cash needed to complete the purchase, not only the advertised property price.",
+          "title": "Keep the first purchase within the full cash limit",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Saadiyat Island, compare this option with the buyer's Dubai search using the AED 1M cap, property type and full upfront cash requirement.",
+          "title": "Compare the property with the Dubai search",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "Transaction costs and the remaining payment structure can make an apparently affordable first property harder to complete than expected.",
+          "title": "The deposit is not the whole purchase",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare an option in Saadiyat Island with the buyer's Dubai search using purchase price, upfront cash, property type and purchase costs.",
+          "title": "Compare first-purchase options by total cash needed",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Saadiyat Island, the main risks are treating the asking price as the whole budget, choosing a property only because it fits below AED 1M, overlooking later payments, or compromising too heavily on the property type or location needed for the original Dubai goal.",
+        "tags": [
+          "AED 1M cap",
+          "Upfront cash",
+          "Purchase costs",
+          "Property type",
+          "Dubai target"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Treat the budget as the maximum purchase commitment, not just the advertised property price, and keep other purchase costs visible from the start.",
+            "title": "Keep the AED 1M cap realistic"
+          },
+          {
+            "text": "Decide whether the priority is personal use, a first investment or simply entering the Dubai market before comparing property types.",
+            "title": "Define what the first property must do"
+          },
+          {
+            "text": "In Saadiyat Island, test the property against the buyer's Dubai search, full upfront cash requirement and preferred property type rather than price alone.",
+            "title": "Compare the option with the Dubai target"
+          },
+          {
+            "text": "Map the deposit, remaining payment and purchase costs before treating an option as affordable within the buyer's first-purchase plan.",
+            "title": "Confirm the cash needed to complete"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/manarat-living-phase-2/",
+            "meta": "Aldar Properties PJSC · Saadiyat Island",
+            "label": "Manarat Living Phase 2"
+          },
+          {
+            "href": "/en/projects/bloom-arjaan/",
+            "meta": "Bloom Properties · Saadiyat Island",
+            "label": "Bloom Arjaan"
+          },
+          {
+            "href": "/en/projects/the-qaryat-al-hidd/",
+            "meta": "SDIC · Saadiyat Island",
+            "label": "The Qaryat Al Hidd"
+          },
+          {
+            "href": "/en/projects/nouran-living/",
+            "meta": "Aldar Properties PJSC · Saadiyat Island",
+            "label": "Nouran Living"
+          },
+          {
+            "href": "/en/projects/faya-al-saadiyat/",
+            "meta": "Aldar Properties PJSC · Saadiyat Island",
+            "label": "Faya Al Saadiyat"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Treat AED 1M as the property ceiling, not as permission to spend every dirham on the asking price. Purchase costs, furnishing and initial ownership expenses still need cash, so the first purchase should retain a buffer for completion and move-in.",
+        "tags": [
+          "Price ceiling",
+          "Purchase costs",
+          "Upfront cash",
+          "Furnishing",
+          "Cash buffer"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/budget-buyer-under-aed-2m-in-saadiyat-island/",
+          "label": "Budget Buyer Under AED 2M in Saadiyat Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/first-time-buyer-needs-payment-plan-in-saadiyat-island/",
+          "label": "First-Time Buyer Needs Payment Plan in Saadiyat Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/low-down-payment-buyer-in-saadiyat-island/",
+          "label": "Low Down Payment Buyer in Saadiyat Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/ready-to-move-buyer-in-saadiyat-island/",
+          "label": "Ready-to-Move Buyer in Saadiyat Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a first Dubai purchase, keep the AED 1M ceiling fixed. When comparing Saadiyat Island, judge each option against the Dubai target, total cash need and future flexibility.",
+          "question": "How should a first Dubai buyer approach a purchase under AED 1M in Saadiyat Island?"
+        },
+        {
+          "answer": "This scenario suits first-time Dubai buyers using a strict AED 1M limit. Any comparison involving Saadiyat Island should support the original Dubai objective rather than blur it.",
+          "question": "Who may benefit from a first Dubai property search under AED 1M in Saadiyat Island?"
+        },
+        {
+          "answer": "Before choosing from Saadiyat Island, verify the exact unit, ownership and payment documents, recurring charges, condition or delivery status and the cash needed to complete.",
+          "question": "What should a first-time Dubai buyer verify before choosing in Saadiyat Island?"
+        },
+        {
+          "answer": "Do not use the full AED 1M ceiling as the complete cash plan. Leave room for transaction costs, setup or furnishing and an initial ownership reserve when comparing Saadiyat Island.",
+          "question": "How should I budget for a first Dubai property under AED 1M in Saadiyat Island?"
+        },
+        {
+          "answer": "The main risk when comparing Saadiyat Island is letting a low entry price dominate the first purchase while overlooking trade-offs in size, location, condition, recurring costs or resale flexibility.",
+          "question": "What are the main risks of a first Dubai purchase under AED 1M in Saadiyat Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a first property search with a Dubai target capped at AED 1M, use Saadiyat Island as one option to compare rather than assuming the advertised price tells the whole story. Purchase costs, payment timing and the actual property type should be clear before the shortlist is treated as affordable.",
+      "items": [
+        {
+          "label": "Price ceiling",
+          "value": "Keep it below AED 1M"
+        },
+        {
+          "label": "Purchase costs",
+          "value": "Add before commitment"
+        },
+        {
+          "label": "Payment timing",
+          "value": "Map the cash required"
+        },
+        {
+          "label": "Property type",
+          "value": "Check the actual fit"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Keep the AED 1M ceiling, upfront cash, purchase costs and property type in one comparison while you assess Saadiyat Island as part of the wider search. Primadom AI can help organise the first-purchase decision before you review options.",
+      "title": "Planning your first Dubai property purchase?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your AED 1M ceiling, preferred property type and purchase timing while assessing Saadiyat Island against your Dubai property target. This gives the advisor useful context before the conversation.",
+      "title": "Check your first Dubai property search",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare first Dubai properties within AED 1M",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Use Saadiyat Island as a comparison point against your Dubai property target, with the AED 1M ceiling, purchase costs and property type kept visible.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Approach your first Dubai purchase with the full budget",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

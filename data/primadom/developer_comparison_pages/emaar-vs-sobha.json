@@ -1,0 +1,478 @@
+{
+  "schema_version": "developer_comparison_page.v1",
+  "page_type": "developer_comparison_page",
+  "developer_comparison_slug": "emaar-vs-sobha",
+  "entity_type": "Developer Comparison",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/developer-comparison-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Emaar vs Sobha — Primadom AI",
+        "description": "AI-readable developer comparison page for Emaar vs Sobha with quick verdict, developer profiles, segment comparison, project portfolio, district focus, buyer fit, investment logic, trust notes, FAQ and Primadom AI handoff.",
+        "canonical": "https://primadom.ai/en/compare/emaar-vs-sobha/"
+      },
+      "schema": {
+        "project_list_name": "Best projects from Emaar and Sobha"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Compare my case",
+        "cta_url": "#comparisonLeadModal",
+        "nav_aria": "Developer comparison navigation",
+        "nav": [
+          {
+            "label": "Verdict",
+            "href": "#verdict",
+            "active": true
+          },
+          {
+            "label": "Profiles",
+            "href": "#profiles",
+            "active": false
+          },
+          {
+            "label": "Projects",
+            "href": "#projects",
+            "active": false
+          },
+          {
+            "label": "AI compare",
+            "href": "#compare-ai-search",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Split visual comparing Emaar and Sobha",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "Developer Comparisons",
+            "href": "/en/compare/developers/"
+          },
+          {
+            "label": "Emaar vs Sobha",
+            "href": "/en/compare/emaar-vs-sobha/"
+          }
+        ],
+        "area_a": {
+          "name": "Emaar",
+          "image": {
+            "src": "/img/primadom/developer-comparisons/emaar-comparison.svg",
+            "alt": "Emaar-style Dubai master community skyline and waterfront concept image"
+          }
+        },
+        "area_b": {
+          "name": "Sobha",
+          "image": {
+            "src": "/img/primadom/developer-comparisons/sobha-comparison.svg",
+            "alt": "Sobha-style villas and master community concept image"
+          }
+        },
+        "kicker": "Developer comparison page",
+        "title": "Emaar vs Sobha",
+        "subtitle": "A compact AI-readable comparison for buyers choosing between two UAE developers by segment, project portfolio, price level, district focus, buyer fit, investment logic and trust checks.",
+        "facts_aria": "Developer comparison hero facts",
+        "facts": [
+          "Emaar: master-community recognition",
+          "Sobha: quality / family-community perception",
+          "Trust-stage intent",
+          "Developer comparison",
+          "AI compare handoff"
+        ],
+        "ai_aria": "Ask Primadom AI to compare Emaar and Sobha",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Compare Emaar vs Sobha for my budget, family goal and investment timeline",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "verdict": {
+        "eyebrow": "Direct answer",
+        "title": "Quick verdict",
+        "body_html": "Choose <strong>Emaar</strong> if you prioritize established Dubai brand recognition, master-community logic and landmark district presence. Choose <strong>Sobha</strong> if your decision leans toward perceived build quality, family-led communities, villas/townhouses or a more product-quality-focused comparison.",
+        "body_text": "Choose Emaar if you prioritize established Dubai brand recognition, master-community logic and landmark district presence. Choose Sobha if your decision leans toward perceived build quality, family-led communities, villas/townhouses or a product-quality-focused comparison.",
+        "chips": [
+          "Trust comparison",
+          "Brand vs build-quality perception",
+          "Family / investment intent",
+          "Decision-stage page"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Comparison details",
+        "items": [
+          {
+            "label": "Page type",
+            "value": "Developer Comparison Page"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Developer A",
+            "value": "Emaar"
+          },
+          {
+            "label": "Developer B",
+            "value": "Sobha"
+          },
+          {
+            "label": "Primary intent",
+            "value": "Trust + portfolio comparison"
+          },
+          {
+            "label": "Buyer stage",
+            "value": "Decision-stage"
+          },
+          {
+            "label": "Best next step",
+            "value": "Compare projects"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "profiles": {
+        "eyebrow": "Entity summary",
+        "title": "Developer profiles",
+        "items": [
+          {
+            "name": "Emaar",
+            "text": "Usually considered for established developer recognition, master communities, landmark urban districts and broad Dubai market visibility.",
+            "points": [
+              "Master-community logic",
+              "Downtown / Dubai Hills / waterfront context",
+              "Broad project portfolio"
+            ]
+          },
+          {
+            "name": "Sobha",
+            "text": "Often compared for build-quality perception, family communities, villas, townhouses and selected luxury residential projects.",
+            "points": [
+              "Quality-led positioning",
+              "Family and villa community logic",
+              "Selected premium/luxury projects"
+            ]
+          }
+        ]
+      },
+      "segment_logic": {
+        "eyebrow": "How to compare",
+        "title": "Segment logic",
+        "body": "A developer comparison page should not declare one developer universally better. It should match each developer to buyer goal: investment, family relocation, luxury, branded residence, villa community, payment plan, district focus and project-specific risk.",
+        "tags": [
+          "Buyer goal",
+          "Project-specific check",
+          "District focus",
+          "Trust notes",
+          "Portfolio comparison"
+        ]
+      },
+      "comparison_table": {
+        "eyebrow": "Emaar vs Sobha",
+        "title": "Segment comparison",
+        "head": {
+          "factor": "Factor",
+          "area_a": "Emaar",
+          "area_b": "Sobha"
+        },
+        "rows": [
+          {
+            "factor": "Segment",
+            "area_a": "Broad premium developer with strong master-community and landmark-district recognition.",
+            "area_b": "Quality-led positioning with strong relevance for family communities, villas and selected luxury residential products."
+          },
+          {
+            "factor": "Price level",
+            "area_a": "Varies by district and project; can range from accessible apartment projects to premium landmark locations.",
+            "area_b": "Often compared in premium family/community segments; price depends heavily on product type and district."
+          },
+          {
+            "factor": "District focus",
+            "area_a": "Downtown, Dubai Hills, Emaar Beachfront, Dubai Creek Harbour and other large-scale communities.",
+            "area_b": "Sobha Hartland, Sobha Siniya Island, villa/townhouse and quality-led community contexts."
+          },
+          {
+            "factor": "Buyer fit",
+            "area_a": "Buyers who value brand recognition, mature community logic and broad resale visibility.",
+            "area_b": "Buyers who value build-quality perception, family living, villas/townhouses and quieter community positioning."
+          },
+          {
+            "factor": "Investment logic",
+            "area_a": "Often driven by district maturity, brand recognition, liquidity and project scale.",
+            "area_b": "Often driven by product quality, family demand, community positioning and unit-level value."
+          }
+        ]
+      },
+      "decision_cards_aria": "Developer decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Price level",
+          "title": "Compare project by project",
+          "text": "Developer name is not enough; entry price and value depend on district, view, unit type and payment plan."
+        },
+        {
+          "eyebrow": "District focus",
+          "title": "Master districts vs quality communities",
+          "text": "Emaar often anchors large destinations; Sobha often enters family/quality-led community searches."
+        },
+        {
+          "eyebrow": "Trust notes",
+          "title": "Verify every active project",
+          "text": "Check registration, escrow/project status, handover, price list and current availability."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Compare by your goal",
+          "text": "Primadom AI can compare Emaar and Sobha by budget, area, payment plan, risk and buyer scenario.",
+          "dark": true
+        }
+      ],
+      "buyer_types": {
+        "eyebrow": "Buyer fit",
+        "title": "Best for each buyer type",
+        "area_a_title": "Choose Emaar if",
+        "area_a_items": [
+          "You value master-community scale and developer recognition",
+          "You are considering Downtown, Dubai Hills or Emaar Beachfront",
+          "You want broad market visibility and resale familiarity"
+        ],
+        "area_b_title": "Choose Sobha if",
+        "area_b_items": [
+          "You focus on build-quality perception and family communities",
+          "You are comparing villas, townhouses or quieter residential environments",
+          "You want a quality-led product rather than only landmark address logic"
+        ]
+      },
+      "rental_logic": {
+        "eyebrow": "Decision layer",
+        "title": "Investment logic",
+        "body": "Investment comparison should be done at project level. Primadom AI should compare developer, district maturity, price per sqft, payment plan, handover, unit layout, service charges, rental demand and resale liquidity before suggesting Emaar or Sobha.",
+        "tags": [
+          "Price per sqft",
+          "Payment plan",
+          "Handover",
+          "Rental demand",
+          "Resale liquidity"
+        ]
+      },
+      "projects": {
+        "area_a": {
+          "eyebrow": "Developer A",
+          "title": "Best Emaar projects",
+          "items": [
+            {
+              "label": "Emaar Beachfront projects",
+              "meta": "waterfront",
+              "href": "/en/developers/emaar/emaar-beachfront/"
+            },
+            {
+              "label": "Dubai Hills Estate projects",
+              "meta": "family / villas",
+              "href": "/en/areas/dubai-hills-estate/"
+            },
+            {
+              "label": "Downtown Dubai projects",
+              "meta": "urban premium",
+              "href": "/en/areas/downtown-dubai/"
+            },
+            {
+              "label": "Dubai Creek Harbour projects",
+              "meta": "waterfront community",
+              "href": "/en/areas/dubai-creek-harbour/"
+            }
+          ]
+        },
+        "area_b": {
+          "eyebrow": "Developer B",
+          "title": "Best Sobha projects",
+          "items": [
+            {
+              "label": "Sobha Hartland projects",
+              "meta": "family community",
+              "href": "/en/developers/sobha/sobha-hartland/"
+            },
+            {
+              "label": "Sobha Siniya Island projects",
+              "meta": "waterfront / resort",
+              "href": "/en/developers/sobha/sobha-siniya-island/"
+            },
+            {
+              "label": "Sobha villas and townhouses",
+              "meta": "family living",
+              "href": "/en/developers/sobha/villas-townhouses/"
+            },
+            {
+              "label": "Sobha luxury apartments",
+              "meta": "premium product",
+              "href": "/en/developers/sobha/luxury-apartments/"
+            }
+          ]
+        }
+      },
+      "related_comparisons": {
+        "eyebrow": "Internal graph",
+        "title": "Related comparisons",
+        "items": [
+          {
+            "label": "Emaar vs Damac",
+            "href": "/en/compare/emaar-vs-damac/"
+          },
+          {
+            "label": "Sobha vs Ellington",
+            "href": "/en/compare/sobha-vs-ellington/"
+          },
+          {
+            "label": "Omniyat vs Ellington",
+            "href": "/en/compare/omniyat-vs-ellington/"
+          },
+          {
+            "label": "Damac vs Binghatti",
+            "href": "/en/compare/damac-vs-binghatti/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Developer questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Is Emaar better than Sobha?",
+            "answer": "It depends on buyer goal. Emaar often fits buyers who value master-community recognition and landmark district presence, while Sobha often fits buyers who focus on perceived build quality, villas, family communities and selected luxury projects."
+          },
+          {
+            "question": "Which developer is better for families?",
+            "answer": "Both can fit family buyers. Emaar may fit established master-community demand, while Sobha may fit buyers focused on villas, townhouses and quieter community-led living."
+          },
+          {
+            "question": "Which developer is better for investment?",
+            "answer": "Investment comparison should depend on project, district, entry price, payment plan, handover, rental demand, service charges and resale liquidity rather than developer name alone."
+          },
+          {
+            "question": "Can Primadom AI compare both for my budget?",
+            "answer": "Yes. Primadom AI can compare Emaar and Sobha by buyer goal, district, budget, project type, payment plan, handover and risk profile."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Trust notes",
+        "body": "Developer claims, active project data, payment plans, handover timelines, project registration and availability should be checked against official developer materials, DLD/Dubai REST data and Primadom advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Developer materials",
+            "value": "Needs live check"
+          },
+          {
+            "label": "DLD / project status",
+            "value": "Recommended"
+          },
+          {
+            "label": "Availability",
+            "value": "Changes quickly"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Want Emaar and Sobha compared for your situation?",
+        "text": "Ask Primadom AI to compare both developers by budget, district, buyer goal, project type, payment plan, handover and risk profile — then send the best matches to an advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#compare-ai-search",
+            "modal": false
+          },
+          {
+            "label": "Compare my budget",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "Developer comparison enquiry form",
+        "close_label": "Close",
+        "eyebrow": "AI compare handoff",
+        "title": "Compare Emaar and Sobha for your case",
+        "text": "Share your budget, property type and buyer goal. Primadom AI will prepare a comparison context before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to compare Emaar and Sobha by budget, district, buyer goal, project type, payment plan, handover and risk profile.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+      "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Developer trust, compared by real buyer intent",
+"text": "Primadom AI helps buyers compare developers, projects, districts, price levels and risk before speaking with an advisor.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#developerComparisonLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+},
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  }
+}

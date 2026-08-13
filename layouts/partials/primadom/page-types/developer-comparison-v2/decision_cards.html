@@ -1,0 +1,11 @@
+{{- $d := partial "primadom/page-types/developer-comparison-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pc-mini-row" aria-label="{{ $t.decision_cards_aria }}">
+  {{ range $t.decision_cards }}
+    <article class="pc-mini-card{{ if .dark }} pc-mini-card--dark{{ end }}">
+      <span>{{ .eyebrow }}</span>
+      <strong>{{ .title }}</strong>
+      <p>{{ .text }}</p>
+    </article>
+  {{ end }}
+</div>

@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_capital_preservation_buyer_al_marjan_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-al-marjan-island/",
+  "canonical_url_path": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-al-marjan-island/",
+  "canonical_group_key": "scenario_district:capital_preservation_buyer:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Capital Preservation Buyer AED 3M+ in Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Capital preservation",
+        "Al Marjan Island",
+        "Apartments · Villas",
+        "AED 3M+",
+        "Downside · exit checks"
+      ],
+      "image": {
+        "alt": "Capital Preservation Buyer AED 3M+ in Al Marjan Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Capital Preservation Buyer AED 3M+ in Al Marjan Island",
+      "subtitle": "Capital-preservation buyers in Al Marjan Island can weigh asset fit, holding costs, downside exposure and resale flexibility before committing.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Capital Preservation Buyer AED 3M+ in Al Marjan Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare capital-preservation options in Al Marjan Island",
+        "Check holding costs and downside risks",
+        "Compare resale flexibility before committing"
+      ],
+      "ai_aria": "Ask Primadom AI about Capital Preservation Buyer AED 3M+ in Al Marjan Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare capital-preservation options in Al Marjan Island",
+      "placeholder": "Compare capital-preservation options in Al Marjan Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Capital preservation",
+        "Al Marjan Island",
+        "AED 3M+",
+        "Costs · exit flexibility",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a capital-preservation purchase above AED 3M in Al Marjan Island</strong>, prioritise downside awareness over headline upside. Holding costs, asset type, transaction quality and resale flexibility should be compared together before deciding whether an option fits the preservation brief.",
+      "body_text": "For a capital-preservation purchase above AED 3M in Al Marjan Island, prioritise downside awareness over headline upside. Holding costs, asset type, transaction quality and resale flexibility should be compared together before deciding whether an option fits the preservation brief.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Capital Preservation Buyer AED 3M+"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Capital preservation"
+        },
+        {
+          "label": "Location",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments · Villas"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 3M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Downside · costs · exit"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Investment assessment"
+        },
+        {
+          "label": "Next step",
+          "value": "Review downside factors"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers chasing the highest advertised return without testing the assumptions",
+          "Investors with no plan for holding period or exit",
+          "Buyers treating premium pricing as proof of capital protection"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers focused on protecting capital and limiting downside in Al Marjan Island",
+          "Buyers who care about ongoing costs, liquidity and exit options",
+          "Investors willing to prioritise downside protection over chasing the highest return"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Al Marjan Island, start with the downside rather than the most optimistic return case. Compare the purchase price, ongoing costs, likely resale liquidity and exit flexibility, then decide whether the property still makes sense under less favourable assumptions.",
+        "tags": [
+          "Downside",
+          "Entry basis",
+          "Holding cost",
+          "Liquidity",
+          "Exit options"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing options in Al Marjan Island, focus on how location affects resale demand, ongoing costs and the buyer's ability to exit if the market weakens.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Compare other areas when they offer more potential buyers, lower ongoing costs or an easier resale path at a similar purchase price.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "Location quality matters most when it supports future resale without forcing the buyer to rely on an optimistic market scenario.",
+            "title": "Resale flexibility"
+          },
+          {
+            "text": "Before narrowing the area, test how the property might behave under weaker demand, longer holding periods and less favourable pricing.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Apartments can appeal to more future buyers, but building costs and the purchase price still matter when the priority is preserving capital.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Villas can suit buyers seeking distinctive homes and long-term use, but the higher purchase price may reduce the number of future buyers.",
+            "title": "Villas"
+          },
+          {
+            "text": "Makes the existing product, condition and current ownership costs easier to assess.",
+            "title": "Ready property"
+          },
+          {
+            "text": "Off-plan property needs extra attention to handover timing, payment commitments and the assumptions behind future resale.",
+            "title": "Off-plan property"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Judge the purchase against ongoing costs, likely resale demand and a weaker market rather than relying on the most optimistic return assumption.",
+          "title": "Check the downside before chasing return",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Al Marjan Island, compare who may buy the property later, how long the buyer may need to hold it and what ongoing costs apply during that period.",
+          "title": "Plan the exit before buying",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "A high purchase price or prestigious location does not by itself protect capital if the buyer pool is narrow or the cost of holding the property is high.",
+          "title": "Premium pricing is not protection",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare options in Al Marjan Island using purchase price, ongoing costs, likely resale demand and resale flexibility under the same assumptions.",
+          "title": "Compare the downside for every option",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Al Marjan Island, the main risks are overpaying for prestige, carrying high ongoing costs, buying a property with a narrow future buyer pool, or assuming that a strong market will always provide an easy exit.",
+        "tags": [
+          "Purchase price",
+          "Holding costs",
+          "Buyer demand",
+          "Holding period",
+          "Resale"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Decide how long the buyer could comfortably hold the property before judging whether it fits a capital-preservation strategy.",
+            "title": "Define the holding horizon"
+          },
+          {
+            "text": "Include recurring ownership costs and the possibility of a longer holding period instead of assessing the purchase only on entry price.",
+            "title": "Count the cost of holding"
+          },
+          {
+            "text": "In Al Marjan Island, consider who may realistically buy the property later and whether the price point and property type keep that audience broad enough.",
+            "title": "Think about the future buyer"
+          },
+          {
+            "text": "Decide what would make the buyer keep, sell or reconsider the property so the exit is not planned only after market conditions change.",
+            "title": "Set the exit conditions before buying"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/w-hotel-residences/",
+            "meta": "Dalands · Al Marjan Island",
+            "label": "W Hotel & Residences"
+          },
+          {
+            "href": "/en/projects/costa-mare/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Costa Mare"
+          },
+          {
+            "href": "/en/projects/the-astera/",
+            "meta": "Dar Global · Al Marjan Island",
+            "label": "The Astera"
+          },
+          {
+            "href": "/en/projects/moonstone-residences-interiors/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "Moonstone Residences Interiors"
+          },
+          {
+            "href": "/en/projects/playa-del-sol/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Playa Del Sol"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Look beyond entry price and keep the cost of holding the property visible. Purchase costs, recurring ownership expenses and a reserve for a longer holding period matter because capital preservation depends partly on avoiding a forced sale.",
+        "tags": [
+          "Purchase price",
+          "Purchase costs",
+          "Holding costs",
+          "Cash reserve",
+          "Exit costs"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/resale-liquidity-buyer-in-al-marjan-island/",
+          "label": "Resale Liquidity Buyer in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-al-marjan-island/",
+          "label": "Ultra-Prime Cash Buyer AED 10M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-al-marjan-island/",
+          "label": "Branded Residence Buyer AED 3M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/golden-visa-property-buyer-in-al-marjan-island/",
+          "label": "Golden Visa Property Buyer in Al Marjan Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a capital-preservation brief in Al Marjan Island, start with what could go wrong: entry price, holding costs, property liquidity and the depth of the future buyer pool matter more than an optimistic upside case.",
+          "question": "What should a capital-preservation buyer focus on in Al Marjan Island?"
+        },
+        {
+          "answer": "This approach suits buyers in Al Marjan Island who value downside control and resale flexibility more than chasing the highest possible return or the most speculative property story.",
+          "question": "Who may prefer a capital-preservation approach in Al Marjan Island?"
+        },
+        {
+          "answer": "Before buying in Al Marjan Island, compare current pricing evidence, recurring ownership costs, the property's condition or delivery position and how easy the asset may be to resell.",
+          "question": "What should I check before choosing a property for capital preservation in Al Marjan Island?"
+        },
+        {
+          "answer": "Keep the AED 3M+ property budget separate from transaction costs, setup and holding expenses in Al Marjan Island so the cash requirement remains visible even if the asset is held longer than planned.",
+          "question": "How should I budget for a capital-preservation purchase in Al Marjan Island?"
+        },
+        {
+          "answer": "The main preservation risk in Al Marjan Island is overpaying for a property with high carrying costs or a narrow future buyer pool, because both can reduce flexibility when an exit is needed.",
+          "question": "What are the main downside risks for a capital-preservation buyer in Al Marjan Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a capital-preservation purchase in Al Marjan Island, verify the entry basis and ownership costs before relying on future market strength. The specific property, recurring commitments, holding period and eventual exit assumptions should be reviewed separately.",
+      "items": [
+        {
+          "label": "Entry basis",
+          "value": "Check the actual price"
+        },
+        {
+          "label": "Holding costs",
+          "value": "Confirm current charges"
+        },
+        {
+          "label": "Property fit",
+          "value": "Assess the specific asset"
+        },
+        {
+          "label": "Exit assumptions",
+          "value": "Treat them separately"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Review a purchase in Al Marjan Island around entry price, holding costs, resale flexibility and the likely future buyer pool rather than relying on an optimistic market case. Primadom AI can help structure the downside check before you proceed.",
+      "title": "Want to test the downside before committing capital?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share your entry budget, holding horizon and resale priorities while assessing a purchase around Al Marjan Island. This gives the advisor useful context before the conversation.",
+      "title": "Check your capital-preservation scenario",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare properties with capital preservation in mind",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Assess property in Al Marjan Island through entry price, holding costs, resale flexibility and likely future buyer demand before focusing on upside.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Start with downside before upside",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

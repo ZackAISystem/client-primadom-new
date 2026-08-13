@@ -1,0 +1,8 @@
+{{- $slug := .Params.project_comparison_slug | default "passo-vs-orla" -}}
+{{- $raw := index site.Data.primadom.project_comparison_pages $slug -}}
+{{- if not $raw -}}
+  {{- errorf "Project comparison page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $t := index $raw.i18n $lang | default (index $raw.i18n "en") -}}
+{{- return (dict "raw" $raw "t" $t "lang" $lang "slug" $slug) -}}

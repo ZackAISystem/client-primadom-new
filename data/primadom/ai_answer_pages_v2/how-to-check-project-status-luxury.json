@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_91b31ef5acabcbb3a91601a89a59",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-project-status-luxury/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-project-status-luxury/",
+  "canonical_group_key": "ai_answer:how-to-check-project-status:context:luxury",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-project-status",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-project-status-luxury/",
+          "label": "How should I check project status? — Luxury",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Luxury",
+        "Project check",
+        "Developer",
+        "Timing",
+        "Terms to verify"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check project status? — Luxury",
+      "subtitle": "Review project status when considering luxury property, focusing on developer, documents, timing and project terms to verify before a decision.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check project status? — Luxury",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which official records confirm project status before buying",
+        "Explain how construction progress changes risk assessment for luxury buyers",
+        "Compare stated status with current evidence available before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me verify current project status for luxury buyers",
+      "placeholder": "Help me verify current project status for luxury buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Project status",
+        "Luxury",
+        "Project registration",
+        "Escrow",
+        "Official records"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Project status should be verified through current construction and registration evidence.</strong> For luxury buyers, verify project registration, escrow or payment details where relevant, current status, required approvals and the identity of the contracting developer. Use current official records where available and never treat a sales document alone as proof of regulatory status.",
+      "body_text": "Project status should be verified through current construction and registration evidence. For luxury buyers, verify project registration, escrow or payment details where relevant, current status, required approvals and the identity of the contracting developer. Use current official records where available and never treat a sales document alone as proof of regulatory status.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check project status? — Luxury"
+        },
+        {
+          "label": "Context",
+          "value": "Luxury"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Status must be confirmed"
+        },
+        {
+          "label": "Main checks",
+          "value": "Project registration · Escrow · Official records"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Registration · escrow · status"
+        },
+        {
+          "label": "Best next step",
+          "value": "Check current official project status"
+        },
+        {
+          "label": "Verification",
+          "value": "Official project check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Project Status",
+      "market": "UAE",
+      "context": "Luxury",
+      "eyebrow": "Key facts",
+      "question": "How To Check Project Status for Luxury?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Important registration, approval or construction information remains unclear at the point of commitment.",
+            "title": "Project status cannot be verified"
+          },
+          {
+            "text": "Funds are being requested before the authorised payment route has been independently checked.",
+            "title": "Payment instructions are not confirmed"
+          },
+          {
+            "text": "Marketing documents are being used instead of current regulatory or project records.",
+            "title": "Sales materials are treated as proof"
+          },
+          {
+            "text": "For luxury buyers, revisit the project-status check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Current registration, approval or construction information supports the project stage being represented.",
+            "title": "The project status can be confirmed"
+          },
+          {
+            "text": "Escrow or other authorised payment instructions are checked before funds are transferred.",
+            "title": "Payment routing is independently verified"
+          },
+          {
+            "text": "The buyer understands which legal entity is selling the property and what documents support that role.",
+            "title": "The contracting party is clear"
+          },
+          {
+            "text": "For luxury buyers, the project-status check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For luxury buyers, verify project registration, escrow or payment details where relevant, current status, required approvals and the identity of the contracting developer.",
+          "title": "Project registration · Escrow · Official records",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when project status cannot be verified, payment instructions are not confirmed, or sales materials are treated as proof.",
+          "title": "Project-status accuracy",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Use current official records where available and never treat a sales document alone as proof of regulatory status.",
+          "title": "Check current official project status",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when project status cannot be verified, payment instructions are not confirmed, or sales materials are treated as proof. For luxury buyers, use current official records where available and never treat a sales document alone as proof of regulatory status.",
+        "tags": [
+          "Registration",
+          "Escrow",
+          "Permits",
+          "Payment route",
+          "Project-status accuracy"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For luxury buyers, match the project name, developer, plot or registration details across the official records and documents being used for the transaction.",
+            "title": "Confirm the project identity"
+          },
+          {
+            "text": "Verify the project status with the relevant authority rather than assuming that marketing activity alone confirms every required registration step.",
+            "title": "Check current registration status"
+          },
+          {
+            "text": "Where applicable, confirm the authorised escrow route, relevant permits and the records supporting the project's current stage.",
+            "title": "Verify escrow and permit details"
+          },
+          {
+            "text": "Check that reservation and instalment instructions correspond with the documented project and authorised payment arrangements before transferring funds.",
+            "title": "Match payments to approved routes"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-escrow-and-permits-luxury/",
+          "label": "How should I check escrow and permits?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-live-availability-luxury/",
+          "label": "How should I check current availability?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-developer-luxury/",
+          "label": "How should I check a developer?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-developer-track-record-luxury/",
+          "label": "How should I check a developer track record?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-choose-developer-luxury/",
+          "label": "How should I choose a developer?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Project status should be verified through current construction and registration evidence. For luxury buyers, match the project name, developer, plot or registration details across the official records and documents being used for the transaction.",
+          "question": "How can I verify a project's current status?"
+        },
+        {
+          "answer": "Escrow and permit checks help confirm that an off-plan project follows the required framework. Verify the project status with the relevant authority rather than assuming that marketing activity alone confirms every required registration step.",
+          "question": "How do I check escrow and permits?"
+        },
+        {
+          "answer": "Live availability can only be confirmed from a current sales or inventory source. Check that the current price, payment plan and any incentive still apply to the exact unit at the time the buyer is ready to proceed.",
+          "question": "How can I verify current availability?"
+        },
+        {
+          "answer": "A developer check should focus on evidence of delivery, execution and accountability. Treat specific records, documents and project information as stronger evidence than reputation, awards or broad sales assurances.",
+          "question": "How should I assess a developer?"
+        },
+        {
+          "answer": "Developer track record is best judged through completed projects and delivery behaviour. Repeated delays, unresolved defects or weak execution create doubts about current commitments. Use official project records and completed developments rather than relying only on marketing reputation.",
+          "question": "How should I assess a developer's track record?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Project status, payment terms, handover information and other project-specific details can change. Use this page as decision guidance, then reconfirm current project documents and relevant authority information before acting on any time-sensitive detail.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Luxury · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Project registration · Escrow · Official records"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Official developer/project documents · relevant authority"
+        },
+        {
+          "label": "Live check",
+          "value": "Current project status, payment and handover details"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "project_terms",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your luxury purchase, including your budget, timeline and risk tolerance, then work through the project, payment and handover checks that matter before you decide.",
+      "title": "Want to check the project before you decide?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your luxury purchase, focusing on the project, payment, handover and risk points an advisor should review with you.",
+      "title": "Check whether this project fits your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this project fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

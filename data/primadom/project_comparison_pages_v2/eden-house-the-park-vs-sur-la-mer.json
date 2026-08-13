@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__eden-house-the-park__vs__sur-la-mer__en",
+  "page_type_id": "project_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-projects/eden-house-the-park-vs-sur-la-mer/",
+  "canonical_url_path": "/en/compare-projects/eden-house-the-park-vs-sur-la-mer/",
+  "canonical_group_key": "project_comparison:eden-house-the-park:vs:sur-la-mer",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "eden-house-the-park",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Compare"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Project comparison navigation",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/en/compare-projects/",
+          "label": "Project Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-projects/eden-house-the-park-vs-sur-la-mer/",
+          "label": "Eden House The Park vs Sur La Mer",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Project A: Eden House The Park",
+        "Project B: Sur La Mer",
+        "Jumeirah 1 comparison",
+        "Apartment vs Villa",
+        "Property format and unit mix"
+      ],
+      "title": "Eden House The Park vs Sur La Mer",
+      "subtitle": "In Jumeirah 1, compare apartment and villa formats, bedroom range and developer context.",
+      "project_a": {
+        "name": "Eden House The Park",
+        "slug": "eden-house-the-park",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Sur La Mer",
+        "slug": "sur-la-mer",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Key context for Eden House The Park and Sur La Mer",
+      "section_id": "overview",
+      "visual_aria": "Comparison hero for Eden House The Park and Sur La Mer",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Ask about price, unit mix, handover or buyer fit.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Eden House The Park or Sur La Mer — which fits?",
+        "Compare price, units and handover",
+        "What should I verify before choosing?"
+      ],
+      "title": "Compare Eden House The Park and Sur La Mer",
+      "ai_aria": "Ask Primadom AI to compare Eden House The Park and Sur La Mer",
+      "eyebrow": "Ask AI",
+      "prompts": [
+        "Compare Eden House The Park and Sur La Mer for my buying goal. Review the available price context, property types, bedroom range and handover, and clearly flag anything that requires a live check.",
+        "Compare Eden House The Park and Sur La Mer by starting-price context, unit types, bedroom range and planned handover. Clearly identify missing or unverified information.",
+        "What should a buyer verify before choosing between Eden House The Park and Sur La Mer? Cover current pricing, availability, payment terms, handover status and suitability for the buyer goal."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "input_aria": "Project comparison AI question",
+      "section_id": "compare-ai-search",
+      "voice_text": "Ask about this project comparison",
+      "placeholder": "Ask AI to compare these two projects",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "button_label": "Ask",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Compare Eden House The Park and Sur La Mer for my buying goal",
+      "ai_placeholder": "Ask AI to compare these two projects",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI to compare Eden House The Park and Sur La Mer",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Same district",
+        "Different developers",
+        "One recorded price",
+        "One handover recorded"
+      ],
+      "title": "Quick recommendation",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Eden House The Park</strong> may suit buyers prioritising the wider bedroom range, while <strong>Sur La Mer</strong> may suit those focused on the proposition from Meraas Holding. <strong>Eden House The Park</strong> offers apartments, studios to 3-bedroom homes, from AED 3.2M, handover 2027, while <strong>Sur La Mer</strong> offers villas, 3–5-bedroom homes.",
+      "body_text": "Eden House The Park may suit buyers prioritising the wider bedroom range, while Sur La Mer may suit those focused on the proposition from Meraas Holding. Eden House The Park offers apartments, studios to 3-bedroom homes, from AED 3.2M, handover 2027, while Sur La Mer offers villas, 3–5-bedroom homes.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Project A",
+          "value": "Eden House The Park"
+        },
+        {
+          "label": "Project B",
+          "value": "Sur La Mer"
+        },
+        {
+          "label": "Area context",
+          "value": "Both in Jumeirah 1"
+        },
+        {
+          "label": "Developer context",
+          "value": "H&H Development vs Meraas Holding"
+        },
+        {
+          "label": "Starting price",
+          "value": "AED 3.2M vs live check"
+        },
+        {
+          "label": "Property types",
+          "value": "Apartment vs Villa"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "Studios–3 BR vs 3–5 BR"
+        },
+        {
+          "label": "Handover",
+          "value": "2027 vs live check"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Eden House The Park",
+          "slug": "eden-house-the-park",
+          "text": "Eden House The Park is positioned around waterfront-oriented living in Jumeirah 1 by H&H Development, with a recorded mix of Apartment across Studios–3 BR and a recorded starting price from AED 3.2M and handover in 2027. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Jumeirah 1 · By H&H Development",
+            "Apartment · Studios–3 BR",
+            "From AED 3.2M · Handover 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Sur La Mer",
+          "slug": "sur-la-mer",
+          "text": "Sur La Mer is positioned around waterfront-oriented living in Jumeirah 1 by Meraas Holding, with a recorded mix of Villa across 3–5 BR and price and handover requiring a live check. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Jumeirah 1 · By Meraas Holding",
+            "Villa · 3–5 BR",
+            "Live price and handover check"
+          ]
+        }
+      ],
+      "title": "Project summaries",
+      "eyebrow": "At a glance",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Both projects are in Jumeirah 1, so location is not the main separator. They come from different developers, so delivery, service and product positioning should be reviewed separately. Only one recorded entry price is available, so current pricing needs a live check. Only one recorded handover is available; confirm the other timeline.",
+        "tags": [
+          "Same district",
+          "Different developers",
+          "One recorded price",
+          "Different property mix",
+          "Live availability"
+        ],
+        "title": "Project-level logic",
+        "eyebrow": "How to compare"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Eden House The Park",
+        "project_b": "Sur La Mer"
+      },
+      "rows": [
+        {
+          "factor": "Starting price",
+          "project_a": "From AED 3.2M",
+          "project_b": "Live price check"
+        },
+        {
+          "factor": "Location",
+          "project_a": "Jumeirah 1",
+          "project_b": "Jumeirah 1"
+        },
+        {
+          "factor": "Developer",
+          "project_a": "H&H Development",
+          "project_b": "Meraas Holding"
+        },
+        {
+          "factor": "Property types",
+          "project_a": "Apartment",
+          "project_b": "Villa"
+        },
+        {
+          "factor": "Bedrooms",
+          "project_a": "Studios–3 BR",
+          "project_b": "3–5 BR"
+        },
+        {
+          "factor": "Handover",
+          "project_a": "2027",
+          "project_b": "Handover to confirm"
+        },
+        {
+          "factor": "Project profile",
+          "project_a": "Waterfront-oriented",
+          "project_b": "Waterfront-oriented"
+        }
+      ],
+      "title": "Project comparison table",
+      "eyebrow": "Eden House The Park vs Sur La Mer",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Eden House The Park has a recorded starting price of AED 3.2M. Confirm the live price for Sur La Mer and compare like-for-like units.",
+          "title": "One price needs confirmation",
+          "eyebrow": "Price & units",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Both projects are in Jumeirah 1. Compare access, building or plot position, nearby supply and daily-use convenience.",
+          "title": "Same district, compare micro-position",
+          "eyebrow": "Location fit",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Eden House The Park has a recorded handover year of 2027. Confirm the timeline for Sur La Mer before comparing delivery.",
+          "title": "Confirm both delivery timelines",
+          "eyebrow": "Timeline",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Ask Primadom AI to compare Eden House The Park and Sur La Mer by unit type, recorded price, location, handover and intended use, then prepare the main questions for an advisor.",
+          "title": "Compare by your goal",
+          "eyebrow": "Ask AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Project decision notes"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Who should choose each project",
+        "eyebrow": "Buyer fit",
+        "project_a_items": [
+          "It has a usable recorded starting point of AED 3.2M, while the alternative still needs a live price check.",
+          "You prefer its waterfront-oriented setting in Jumeirah 1 for your intended use.",
+          "You want Apartments across Studios–3 BR and a recorded 2027 handover."
+        ],
+        "project_a_title": "Choose Eden House The Park if",
+        "project_b_items": [
+          "You are ready to confirm its current starting price before comparing value.",
+          "You prefer its waterfront-oriented setting in Jumeirah 1 for your intended use.",
+          "You want Villas across 3–5 BR and can confirm the delivery timeline."
+        ],
+        "project_b_title": "Choose Sur La Mer if"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Eden House The Park has a recorded starting price of AED 3.2M, while Sur La Mer needs a live price check. Both projects are in Jumeirah 1, so location is less likely to be the main separator. Eden House The Park records Apartments, while Sur La Mer records Villas. Only Eden House The Park currently has a usable recorded handover year: 2027.",
+        "tags": [
+          "One recorded price",
+          "Same district",
+          "Recorded unit mix",
+          "Handover check",
+          "Total cost check"
+        ],
+        "title": "Investment logic",
+        "eyebrow": "Decision layer"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/en/compare-projects/399-hills-park-vs-avra-and-aurora/",
+            "meta": "Same developer",
+            "label": "399 Hills Park vs Avra and Aurora",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/399-hills-park-vs-eden-house-dubai-hills/",
+            "meta": "Same developer",
+            "label": "399 Hills Park vs Eden House Dubai Hills",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/address-hillcrest-vs-avra-and-aurora/",
+            "meta": "Same developer",
+            "label": "Address Hillcrest vs Avra and Aurora",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/address-hillcrest-vs-eden-house-dubai-hills/",
+            "meta": "Same developer",
+            "label": "Address Hillcrest vs Eden House Dubai Hills",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "More project comparisons",
+        "eyebrow": "Explore next"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/en/projects/eden-house-the-park/",
+            "meta": "Project A",
+            "label": "Eden House The Park project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/projects/sur-la-mer/",
+            "meta": "Project B",
+            "label": "Sur La Mer project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/areas/jumeirah-1/",
+            "meta": "Area",
+            "label": "Jumeirah 1 area guide",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Open the project pages",
+        "eyebrow": "Project routes"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Share these details to compare Eden House The Park and Sur La Mer against the same priorities. Recorded project information can narrow the choice, while exact units, current prices and availability still need a live check.",
+      "items": [
+        {
+          "meta": "AED range or maximum entry point",
+          "label": "Price range"
+        },
+        {
+          "meta": "Apartments / Villas",
+          "label": "Unit type"
+        },
+        {
+          "meta": "home / second home / waterfront investment",
+          "label": "Buyer goal"
+        },
+        {
+          "meta": "preferred timing around 2027",
+          "label": "Timeline"
+        },
+        {
+          "meta": "view / privacy / waterfront access",
+          "label": "Key preference"
+        }
+      ],
+      "title": "AI compare inputs",
+      "eyebrow": "Useful details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "These projects suit different priorities rather than one being better in every case. Only Eden House The Park currently has a usable recorded starting price. Eden House The Park records Apartment, while Sur La Mer records Villa. Eden House The Park records 2027 as handover, while Sur La Mer's timeline still needs confirmation. The better fit depends on your intended use and the exact unit available at the time of comparison.",
+          "question": "Which project may suit me better: Eden House The Park or Sur La Mer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Eden House The Park has a usable recorded starting price of AED 3.2M. Sur La Mer does not have a usable price in the current record, so a live comparison is needed.",
+          "question": "Which project has the lower recorded starting price?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Both projects are in Jumeirah 1. Eden House The Park is linked to H&H Development, while Sur La Mer is linked to Meraas Holding.",
+          "question": "How do Eden House The Park and Sur La Mer differ by location and developer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Eden House The Park records Apartment, including studios to 3-bedroom homes. Eden House The Park records handover for 2027. Sur La Mer records Villa, including 3–5-bedroom homes. Sur La Mer's handover timeline still needs confirmation.",
+          "question": "What property types, bedroom ranges and handover years are recorded?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "The final shortlist between Eden House The Park and Sur La Mer should be based on the exact unit, current price, payment terms, total acquisition cost, layout, view, project status, handover and availability. Recorded project-level figures are useful for shortlisting, but they do not replace a live unit-level check.",
+          "question": "What should I verify before choosing between Eden House The Park and Sur La Mer?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Project questions",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Use this page as a starting point for comparing Eden House The Park and Sur La Mer. Recorded details may change and do not replace current developer documents or public records. Confirm live prices, available units, payment terms, floor plans, service charges, handover details and project status before making a decision.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Payment terms",
+          "value": "Check current documents"
+        },
+        {
+          "label": "Handover / status",
+          "value": "Confirm current status"
+        },
+        {
+          "label": "Content updated",
+          "value": "July 2026"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Both are in Jumeirah 1, with H&H Development and Meraas Holding recorded respectively. Eden House The Park records AED 3.2M; Sur La Mer needs a live price check. Eden House The Park records 2027; the timeline for Sur La Mer needs confirmation.",
+      "title": "Want Eden House The Park and Sur La Mer compared for your case?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Project comparison enquiry form",
+      "text": "Share your preferences and contact details. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "error": "Please try again",
+      "title": "Compare Eden House The Park and Sur La Mer for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+      "eyebrow": "AI compare handoff",
+      "success": "Request sent",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Close",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971",
+        "comment": "Add any useful details"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__eden-house-the-park__vs__sur-la-mer__en",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Eden House The Park",
+        "project_a_slug": "eden-house-the-park",
+        "project_b_name": "Sur La Mer",
+        "project_b_slug": "sur-la-mer",
+        "canonical_url_path": "/en/compare-projects/eden-house-the-park-vs-sur-la-mer/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Send",
+        "error": "Please try again",
+        "success": "Request sent",
+        "submitting": "Sending…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Prepared request",
+        "value": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI helps buyers compare projects, locations, developers and key decision factors before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Project comparison, connected to real buyer intent",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

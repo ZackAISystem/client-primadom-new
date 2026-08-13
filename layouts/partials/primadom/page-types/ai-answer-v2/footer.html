@@ -1,0 +1,65 @@
+{{- $d := partial "primadom/page-types/ai-answer-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $f := $t.footer -}}
+
+<footer class="aa-footer">
+  <span class="aa-footer__glow aa-footer__glow--left"></span>
+  <span class="aa-footer__glow aa-footer__glow--right"></span>
+
+  <div class="aa-footer__inner">
+    <div class="aa-footer__left">
+      <a class="aa-footer__brand" href="{{ $f.brand_url }}" aria-label="{{ $f.brand }}">
+        <span class="aa-footer__brand-dot"></span>
+        <span class="aa-footer__brand-copy">
+          <span class="aa-footer__brand-title">{{ $f.brand }}</span>
+        </span>
+      </a>
+
+      <div class="aa-footer__statement">
+        <h2>{{ $f.title }}</h2>
+        <p>{{ $f.text }}</p>
+
+        {{- with $f.chips }}
+          <div class="aa-footer__chips">
+            {{- range . }}
+              <span>{{ . }}</span>
+            {{- end }}
+          </div>
+        {{- end }}
+      </div>
+    </div>
+
+    <div class="aa-footer__right">
+      <div class="aa-footer__contacts">
+        <a class="aa-footer-pill" href="{{ $f.contact_primary.href }}" data-open-ai-answer-lead data-open-lead>
+          {{ $f.contact_primary.label }}
+        </a>
+
+        <a class="aa-footer-pill" href="{{ $f.contact_secondary.href }}" data-scroll-ask-ai>
+          {{ $f.contact_secondary.label }}
+        </a>
+      </div>
+
+      {{- with $f.social }}
+        <div class="aa-footer__social" aria-label="Social links">
+          {{- range . }}
+            <a class="aa-footer-social" href="{{ .href }}" aria-label="{{ .label }}">
+              {{- if eq .icon "instagram" -}}
+                <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Crect x='3' y='3' width='18' height='18' rx='5'/%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M17.5 6.5h.01'/%3E%3C/svg%3E">
+              {{- else if eq .icon "linkedin" -}}
+                <img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Cpath d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z'/%3E%3Crect x='2' y='9' width='4' height='12'/%3E%3Ccircle cx='4' cy='4' r='2'/%3E%3C/svg%3E">
+              {{- else -}}
+                <span>{{ .label }}</span>
+              {{- end -}}
+            </a>
+          {{- end }}
+        </div>
+      {{- end }}
+    </div>
+
+    <div class="aa-footer__bottom">
+      <div class="aa-footer__copyright">{{ $f.copyright }}</div>
+      <div class="aa-footer__address">{{ $f.address }}</div>
+    </div>
+  </div>
+</footer>

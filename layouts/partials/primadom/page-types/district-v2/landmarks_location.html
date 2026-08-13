@@ -1,0 +1,55 @@
+{{- $d := partial "primadom/page-types/district-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+
+<div class="pa-grid pa-grid--equal" id="location">
+  <article class="pa-card" id="nearby">
+    <header class="pa-card__head">
+      <h2>{{ $t.landmarks.title }}</h2>
+      <span>{{ $t.landmarks.eyebrow }}</span>
+    </header>
+
+    <div class="pa-card__body">
+      <div class="pa-landmark-list">
+        {{ range $t.landmarks.items }}
+          <div class="pa-landmark">
+            <strong>{{ .title }}</strong>
+            <span>{{ .meta }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pa-card" id="map">
+    <header class="pa-card__head">
+      <h2>{{ $t.map.title }}</h2>
+      <span>{{ $t.map.eyebrow }}</span>
+    </header>
+
+    <div class="pa-card__body">
+      <div class="pa-location-box">
+        <div>
+          <span>{{ $t.map.address_label }}</span>
+          <strong>{{ $t.map.label }}</strong>
+        </div>
+
+        <div>
+          <span>{{ $t.map.point_label }}</span>
+          <strong>{{ $t.map.label }}</strong>
+        </div>
+
+        <div class="pa-location-actions">
+          <a class="pa-location-secondary" href="{{ $t.map.area_guide_url }}">
+            {{ $t.map.area_guide_label }}
+          </a>
+
+          <a href="{{ $t.map.map_url }}">
+            {{ $t.map.open_map_label }}
+          </a>
+        </div>
+      </div>
+
+      <p class="pa-note">{{ $t.map.text }}</p>
+    </div>
+  </article>
+</div>

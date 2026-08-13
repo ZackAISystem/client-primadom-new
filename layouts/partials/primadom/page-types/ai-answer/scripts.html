@@ -1,0 +1,101 @@
+<script>
+(function(){
+  const form = document.querySelector('.aa-ai');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('answer')?.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  }
+
+  const modal = document.getElementById('aiAnswerLeadModal');
+  if(modal){
+    const openers = document.querySelectorAll('[data-open-ai-answer-lead]');
+    const closers = modal.querySelectorAll('[data-close-ai-answer-lead]');
+    const leadForm = modal.querySelector('[data-ai-answer-form]');
+
+    function open(e){
+      if(e) e.preventDefault();
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden','false');
+      document.documentElement.classList.add('aa-modal-open');
+    }
+
+    function close(){
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden','true');
+      document.documentElement.classList.remove('aa-modal-open');
+    }
+
+    openers.forEach(btn => btn.addEventListener('click', open));
+    closers.forEach(btn => btn.addEventListener('click', close));
+    document.addEventListener('keydown', e => { if(e.key === 'Escape') close(); });
+
+    if(leadForm){
+      leadForm.addEventListener('submit', function(e){
+        e.preventDefault();
+        const btn = leadForm.querySelector('.aa-submit');
+        if(btn){
+          const normal = btn.dataset.submitLabel || btn.textContent;
+          const success = btn.dataset.successLabel || 'Sent';
+          btn.textContent = success;
+          setTimeout(() => btn.textContent = normal, 1600);
+        }
+      });
+    }
+  }
+})();
+</script>
+
+
+<script>
+(function () {
+  if (window.__primadomAiAnswerFooterBound) return;
+  window.__primadomAiAnswerFooterBound = true;
+
+  function openAiAnswerModal() {
+    var modal =
+      document.querySelector('#aiAnswerLeadModal') ||
+      document.querySelector('#projectLeadModal') ||
+      document.querySelector('.aa-modal');
+
+    if (!modal) return;
+
+    modal.classList.add('is-open');
+    document.documentElement.classList.add('aa-modal-open');
+  }
+
+  document.addEventListener('click', function (event) {
+    var openBtn = event.target.closest('[data-open-ai-answer-lead], [data-open-lead]');
+
+    if (openBtn) {
+      event.preventDefault();
+      openAiAnswerModal();
+      return;
+    }
+
+    var askBtn = event.target.closest('[data-scroll-ask-ai]');
+
+    if (askBtn) {
+      event.preventDefault();
+
+      var target =
+        document.querySelector('#ask-ai') ||
+        document.querySelector('.aa-ai') ||
+        document.querySelector('[data-ai-search]');
+
+      if (!target) return;
+
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      var input = target.querySelector('input, textarea');
+
+      if (input) {
+        setTimeout(function () {
+          input.focus({ preventScroll: true });
+        }, 450);
+      }
+    }
+  });
+})();
+</script>

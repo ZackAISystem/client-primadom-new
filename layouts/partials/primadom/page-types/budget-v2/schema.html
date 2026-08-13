@@ -1,0 +1,74 @@
+{{- $d := partial "primadom/page-types/budget-v2/_data.html" . -}}
+{{- $p := $d.page -}}
+{{- $t := $d.t -}}
+
+{{- $breadcrumbs := slice -}}
+
+{{- range $index, $item := $t.hero.breadcrumbs -}}
+  {{- $breadcrumbs = $breadcrumbs | append (
+    dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $item.label
+      "item" $item.href
+  ) -}}
+{{- end -}}
+
+
+{{- $faq := slice -}}
+
+{{- range $item := $t.faq.items -}}
+  {{- $faq = $faq | append (
+    dict
+      "@type" "Question"
+      "name" $item.question
+      "acceptedAnswer" (
+        dict
+          "@type" "Answer"
+          "text" $item.answer
+      )
+  ) -}}
+{{- end -}}
+
+
+{{- $graph := slice -}}
+
+{{- $graph = $graph | append (
+  dict
+    "@type" "WebPage"
+    "@id" (printf "%s#webpage" $p.canonical_url_path)
+    "url" $p.canonical_url_path
+    "name" $t.hero.title
+    "description" $t.answer.body_text
+    "inLanguage" $p.language_code
+) -}}
+
+{{- $graph = $graph | append (
+  dict
+    "@type" "Thing"
+    "@id" (printf "%s#budget-intent" $p.canonical_url_path)
+    "name" $t.hero.title
+    "description" $t.answer.body_text
+) -}}
+
+{{- if gt (len $breadcrumbs) 0 -}}
+  {{- $graph = $graph | append (
+    dict
+      "@type" "BreadcrumbList"
+      "@id" (printf "%s#breadcrumbs" $p.canonical_url_path)
+      "itemListElement" $breadcrumbs
+  ) -}}
+{{- end -}}
+
+{{- if gt (len $faq) 0 -}}
+  {{- $graph = $graph | append (
+    dict
+      "@type" "FAQPage"
+      "@id" (printf "%s#faq" $p.canonical_url_path)
+      "mainEntity" $faq
+  ) -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
+</script>

@@ -1,0 +1,610 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_academic_city_en",
+  "page_type_id": "district_page",
+  "language_code": "en",
+  "url_path": "/en/areas/academic-city/",
+  "canonical_url_path": "/en/areas/academic-city/",
+  "canonical_group_key": "district:academic-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "academic-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_area_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_developers",
+    "block_10_landmarks_location",
+    "block_11_similar_districts",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#top-projects",
+          "label": "Best projects",
+          "active": true
+        },
+        {
+          "href": "#area-fit",
+          "label": "Who it fits",
+          "active": false
+        },
+        {
+          "href": "#location",
+          "label": "Location",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#districtLeadModal",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#districtLeadModal",
+      "brand_url": "/en/",
+      "cta_label": "Find my options",
+      "block_status": "formula_generated",
+      "schema_version": "district_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "areas",
+          "href": "/en/areas/",
+          "label": "UAE Areas"
+        },
+        {
+          "key": "city",
+          "href": "/en/areas/dubai/",
+          "label": "Dubai",
+          "label_ref": "entity.city"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/academic-city/",
+          "label": "Academic City",
+          "label_ref": "entity.name"
+        }
+      ],
+      "url_section": "areas",
+      "block_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_breadcrumbs_v1"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "image": {
+        "alt": "Dubai Academic City district with universities and modern buildings",
+        "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/a555c045-3696-4784-201e-521ec7ccfb00/desktop",
+        "mobile_src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/7e10852b-b508-40ca-5775-9a1309876b00/mobile",
+        "media_status": "available"
+      },
+      "title": "Academic City Area Guide",
+      "emirate": "Dubai",
+      "gallery": [],
+      "subtitle": "A calm, structured academic district centered on universities with campus-focused residential and institutional facilities.",
+      "info_label": "Area profile",
+      "info_value": "Education · Campus-focused",
+      "hero_status": "agent_written",
+      "district_name": "Academic City",
+      "schema_version": "district_hero_v1"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Find projects in Academic City for my budget and timeline",
+        "Compare Academic City with similar UAE districts",
+        "Is Academic City better for living or investment?",
+        "Explain location value in Dubai"
+      ],
+      "prompts": [
+        "Find projects in Academic City for my budget and timeline",
+        "Compare Academic City with similar UAE districts",
+        "Is Academic City better for living or investment?",
+        "Explain location value in Dubai"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "voice_text": "Ask about this district",
+      "placeholder": "Ask about Academic City, projects, lifestyle, location, risks or similar districts",
+      "block_status": "formula_generated",
+      "button_label": "Ask",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Find projects in Academic City for my budget, lifestyle and timeline...",
+      "ai_placeholder": "Find projects in Academic City for my budget, lifestyle and timeline...",
+      "schema_version": "district_ai_search_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI about Academic City",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Urban",
+        "Established",
+        "Specialist Fit"
+      ],
+      "title": "Short verdict",
+      "eyebrow": "AI-readable short answer",
+      "body_html": "<strong>Academic City</strong> is a Dubai district centered on universities, student housing, and dedicated educational infrastructure along major roads.",
+      "body_source": "src_district_summary_short_fallback_src_district_overview",
+      "chip_source": "src_district_tags_src_lifestyle_tags_src_investor_tags_src_family_tags",
+      "source_status": "prototype_inputs_needs_sources",
+      "schema_version": "district_short_verdict_v1",
+      "summary_status": "source_rewritten_unique_final"
+    },
+    "block_06_area_facts": {
+      "note": "Use this as a first district snapshot. Project availability, source claims, prices and advisory details should be checked before a buyer decision.",
+      "items": [
+        {
+          "label": "City",
+          "value": "Dubai"
+        },
+        {
+          "label": "Emirate",
+          "value": "Dubai"
+        },
+        {
+          "label": "District profile",
+          "value": "Urban"
+        },
+        {
+          "label": "Best fit",
+          "value": "Investors · Professionals"
+        },
+        {
+          "label": "Lifestyle feel",
+          "value": "Calm · Urban"
+        },
+        {
+          "label": "Lifestyle signals",
+          "value": "Urban · Quiet · Walkable"
+        },
+        {
+          "label": "Investment lens",
+          "value": "Income-oriented"
+        },
+        {
+          "label": "Family lens",
+          "value": "Limited family focus"
+        },
+        {
+          "label": "Project matching",
+          "value": "Needs project matching"
+        }
+      ],
+      "title": "District facts",
+      "eyebrow": "What to know",
+      "facts_status": "taxonomy_normalized",
+      "schema_version": "district_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Buyer match",
+        "good_for": [
+          "Buyers comparing Urban locations in Dubai",
+          "Lifestyle priorities aligned with Calm · Urban",
+          "Search profiles aligned with Investors · Professionals"
+        ],
+        "less_for": [
+          "Buyers who need confirmed project availability before shortlisting",
+          "Buyers relying only on assumed prices, yields or service charges",
+          "Clients whose preferred lifestyle or property format does not match the district profile"
+        ],
+        "good_for_title": "Good fit for",
+        "less_for_title": "May not fit",
+        "buyer_fit_status": "source_normalized"
+      },
+      "area_logic": {
+        "body": "Academic City is a Dubai district centered on universities, student housing, and dedicated educational infrastructure along major roads. The district profile is best understood through urban · quiet · walkable. Buyer matching should be checked against limited family focus considerations and verified project data before shortlisting.",
+        "tags": [
+          "Urban",
+          "Calm · Urban",
+          "Limited family focus",
+          "Needs project matching"
+        ],
+        "title": "Why this district matters",
+        "eyebrow": "Area logic",
+        "logic_status": "source_normalized"
+      },
+      "block_status": "source_normalized_final",
+      "schema_version": "buyer_fit_logic_v1"
+    },
+    "block_08_decision_cards": {
+      "cards_status": "source_rewritten_unique_editorial_clean_final",
+      "decision_cards": [
+        {
+          "text": "Academic City offers an urban, quiet, and walkable rhythm shaped by its urban character and the pace of everyday life in Dubai.",
+          "title": "Lifestyle context",
+          "eyebrow": "Lifestyle logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Academic City's investment context centres on student housing and education-linked property, with decisions depending on developer quality, service charges, payment terms, and verified availability.",
+          "title": "Investment context",
+          "eyebrow": "Investment logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Academic City requires closer case-by-case family assessment, so housing format, daily travel, access to education, and open-space needs should be checked carefully.",
+          "title": "Family context",
+          "eyebrow": "Family logic",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare Academic City options by budget, unit type, view, payment plan, handover, service charges, location fit, and actual availability before a buyer decision.",
+          "title": "AI-assisted matching",
+          "eyebrow": "AI context",
+          "text_status": "formula_generated_safe_context"
+        }
+      ],
+      "schema_version": "district_decision_cards_v1"
+    },
+    "block_09_projects_developers": {
+      "projects": {
+        "items": [],
+        "title": "Top projects in Academic City",
+        "eyebrow": "Commercial graph",
+        "ranking_method": "active_graph_links_confidence_completeness_developer_diversity",
+        "selected_count": 0,
+        "matching_source": "entities.project_district_links",
+        "projects_status": "no_verified_linked_projects",
+        "total_linked_projects": 0
+      },
+      "block_status": "final_no_graph_matches",
+      "schema_version": "projects_developers_v1",
+      "developer_presence": {
+        "body": "Academic City has a mixed urban development pattern where building quality, management standards, access and project age can vary significantly between schemes.",
+        "tags": [],
+        "title": "Developer logic",
+        "eyebrow": "Developer presence",
+        "matching_source": "entities.project_developer_links",
+        "developer_status": "district_development_logic",
+        "linked_developer_count": 0
+      }
+    },
+    "block_10_landmarks_location": {
+      "map": {
+        "lat": null,
+        "lng": null,
+        "text": "Academic City is located in Dubai. Use the live map to review the district location and nearby places.",
+        "label": "Academic City, Dubai, UAE",
+        "title": "Location / map context",
+        "eyebrow": "Map context",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=Academic+City%2C+Dubai%2C+UAE",
+        "disclaimer": "Exact distance, travel time and access should be checked against current maps.",
+        "map_status": "search_link_ready",
+        "point_label": "Map point",
+        "address_label": "Address",
+        "area_guide_url": "/en/areas/academic-city/",
+        "open_map_label": "Open map",
+        "area_guide_label": "Area guide"
+      },
+      "landmarks": {
+        "items": [
+          {
+            "meta": "Education facilities nearby",
+            "type": "education",
+            "title": "University of Dubai",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "Education facilities nearby",
+            "type": "education",
+            "title": "Dubai International Academic City",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "Nearby district context",
+            "type": "landmark",
+            "title": "Student Accommodation",
+            "item_status": "normalized_source"
+          }
+        ],
+        "title": "Landmarks and nearby context",
+        "eyebrow": "Nearby places",
+        "landmarks_status": "normalized_source"
+      },
+      "url_section": "areas",
+      "block_status": "final_clean_verified_v4",
+      "schema_version": "landmarks_location_v4"
+    },
+    "block_11_similar_districts": {
+      "items": [
+        {
+          "href": "/en/areas/dubai-healthcare-city/",
+          "rank": 1,
+          "title": "Dubai Healthcare City",
+          "match_reason": "Similar education and knowledge district",
+          "district_slug": "dubai-healthcare-city"
+        },
+        {
+          "href": "/en/areas/dubai-silicon-oasis/",
+          "rank": 2,
+          "title": "Dubai Silicon Oasis",
+          "match_reason": "Similar education and knowledge district",
+          "district_slug": "dubai-silicon-oasis"
+        },
+        {
+          "href": "/en/areas/university-city/",
+          "rank": 3,
+          "title": "University City",
+          "match_reason": "Similar education and knowledge district",
+          "district_slug": "university-city"
+        },
+        {
+          "href": "/en/areas/the-greens/",
+          "rank": 4,
+          "title": "The Greens",
+          "match_reason": "Comparable urban alternative",
+          "district_slug": "the-greens"
+        }
+      ],
+      "title": "Similar districts",
+      "eyebrow": "Alternatives"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Academic City is a Dubai district centered on universities, student housing, and dedicated educational infrastructure along major roads.",
+          "question": "What is Academic City known for?"
+        },
+        {
+          "answer": "Academic City is most relevant to buyers and users comparing education-linked, healthcare-linked or knowledge-focused locations in Dubai. The final fit depends on housing format, daily travel needs and verified residential availability.",
+          "question": "Who should consider property in Academic City?"
+        },
+        {
+          "answer": "Specific project options in Academic City should be confirmed from current listings and official sources. Buyers can first use the district profile to define the preferred property type and buyer scenario.",
+          "question": "How should buyers search for property in Academic City?"
+        },
+        {
+          "answer": "Academic City has a specialist institutional context. Residential suitability depends on actual housing formats, daily travel, building quality and current verified availability.",
+          "question": "Is Academic City mainly a residential district?"
+        },
+        {
+          "answer": "Verify the actual residential options, property type, daily travel requirements, developer, price, service charges, official documents and current availability before choosing property in Academic City.",
+          "question": "What should buyers verify before shortlisting Academic City?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Buyer questions"
+    },
+    "block_13_trust_sources": {
+      "items": [
+        {
+          "href": "",
+          "label": "Official property authority data",
+          "value": "District and transaction records will be attached during source verification.",
+          "link_status": "pending",
+          "source_type": "authority"
+        },
+        {
+          "href": "",
+          "label": "Official developer materials",
+          "value": "Project details, launches and developer information will be checked against official materials.",
+          "link_status": "pending",
+          "source_type": "developer"
+        },
+        {
+          "href": "",
+          "label": "Primadom project matching",
+          "value": "Linked projects and developers will be validated against the Primadom database.",
+          "link_status": "pending",
+          "source_type": "internal_graph"
+        },
+        {
+          "href": "#districtLeadModal",
+          "label": "Current availability",
+          "value": "Units, prices and payment plans require a current availability check.",
+          "link_status": "check_required",
+          "source_type": "availability"
+        }
+      ],
+      "title": "Sources and data checks",
+      "status": "Source verification pending",
+      "eyebrow": "Verification",
+      "source_notes": {
+        "body": "Information for Academic City is currently based on the prepared district profile. Official authority records, developer materials, verified project links and current availability will be added during the source-verification stage.",
+        "title": "Source note",
+        "last_checked": "Not yet verified"
+      }
+    },
+    "block_14_cta": {
+      "text": "Tell Primadom AI what you’re looking for — we’ll narrow the options and route the request to an advisor.",
+      "title": "Find the right projects in Academic City",
+      "actions": [
+        {
+          "key": "find_projects",
+          "href": "#districtLeadModal",
+          "label": "Find projects",
+          "primary": true,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "area_project_search"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#ask-ai",
+          "label": "Ask Primadom AI",
+          "primary": false,
+          "open_modal": false,
+          "action_intent": "ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#districtLeadModal",
+          "label": "Request a call",
+          "primary": false,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "formula_generated_final",
+      "schema_version": "district_cta_v1_1"
+    },
+    "block_15_lead_modal": {
+      "note": "We'll check the details before sharing your request.",
+      "text": "Tell us what you are looking for. Primadom AI will prepare a short matching context before an advisor contacts you.",
+      "title": "Find projects in Academic City",
+      "fields": {
+        "name": "Name",
+        "phone": "Phone / WhatsApp",
+        "request": "Request"
+      },
+      "submit": "Send",
+      "comment": "Interested in Academic City. Send projects.",
+      "eyebrow": "Project request",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "districtLeadModal",
+      "title_id": "districtLeadTitle",
+      "close_label": "Close",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "project_graph_ref": "supabase_project_district_links",
+        "developer_graph_ref": "supabase_project_developer_links"
+      },
+      "ai_row_badge": "Request draft",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Your name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "request": {
+          "label": "Request",
+          "html_name": "request_type",
+          "placeholder": "Project, area or question"
+        }
+      },
+      "modal_status": "formula_generated",
+      "submit_label": "Send",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "emirate": {
+          "html_name": "emirate",
+          "value_ref": "emirate"
+        },
+        "district_key": {
+          "html_name": "district_key",
+          "value_ref": "district_slug"
+        },
+        "district_name": {
+          "html_name": "district_name",
+          "value_ref": "district_name"
+        }
+      },
+      "success_label": "Sent",
+      "schema_version": "district_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Interested in Academic City. Send projects.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "unit_type",
+          "timing",
+          "view",
+          "payment_plan"
+        ]
+      },
+      "voice_button_label": "Use voice"
+    },
+    "block_16_footer": {
+      "text": "This page helps you review Academic City, understand the district context, compare linked projects and prepare the right questions before speaking with a Primadom advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/en/projects/",
+          "label": "Projects"
+        },
+        {
+          "key": "areas",
+          "href": "/en/areas/",
+          "label": "Districts"
+        },
+        {
+          "key": "developers",
+          "href": "/en/developers/",
+          "label": "Developers"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI search"
+        }
+      ],
+      "title": "Find the right UAE property with clearer district data and AI guidance.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "url_section": "areas",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug"
+      },
+      "footer_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_footer_v1",
+      "contact_primary": {
+        "href": "#districtLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Ask AI",
+        "action_intent": "district_question"
+      }
+    }
+  }
+}

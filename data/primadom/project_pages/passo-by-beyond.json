@@ -1,0 +1,1911 @@
+{
+  "schema_version": "primadom_project_page_v2.0",
+  "page_type": "project_page",
+  "entity_type": "off_plan_project",
+  "project_key": "passo",
+  "slug": "passo-by-beyond",
+  "canonical_path": "/projects/passo-by-beyond/",
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "zh_hans",
+    "ar",
+    "ru",
+    "hi"
+  ],
+  "direction": {
+    "en": "ltr",
+    "es": "ltr",
+    "fr": "ltr",
+    "de": "ltr",
+    "zh_hans": "ltr",
+    "ar": "rtl",
+    "ru": "ltr",
+    "hi": "ltr"
+  },
+  "entity": {
+    "name": {
+      "en": "Passo by Beyond",
+      "es": "Passo by Beyond",
+      "fr": "Passo by Beyond",
+      "de": "Passo by Beyond",
+      "zh_hans": "Passo by Beyond",
+      "ar": "باسو من بيوند",
+      "ru": "Passo by Beyond",
+      "hi": "पासो बाय बियॉन्ड"
+    },
+    "developer": {
+      "en": "Beyond",
+      "es": "Beyond",
+      "fr": "Beyond",
+      "de": "Beyond",
+      "zh_hans": "Beyond",
+      "ar": "بيوند",
+      "ru": "Beyond",
+      "hi": "Beyond"
+    },
+    "district": {
+      "en": "Palm Jumeirah",
+      "es": "Palm Jumeirah",
+      "fr": "Palm Jumeirah",
+      "de": "Palm Jumeirah",
+      "zh_hans": "朱美拉棕榈岛",
+      "ar": "نخلة جميرا",
+      "ru": "Palm Jumeirah",
+      "hi": "Palm Jumeirah"
+    },
+    "location_text": {
+      "en": "Palm Jumeirah (West Crescent), Dubai",
+      "es": "Palm Jumeirah (West Crescent), Dubái",
+      "fr": "Palm Jumeirah (West Crescent), Dubaï",
+      "de": "Palm Jumeirah (West Crescent), Dubai",
+      "zh_hans": "迪拜朱美拉棕榈岛西月牙区",
+      "ar": "نخلة جميرا (الهلال الغربي)، دبي",
+      "ru": "Пальма Джумейра (West Crescent), Дубай",
+      "hi": "पाम जुमेरा (वेस्ट क्रेसेंट), दुबई"
+    },
+    "emirate": "dubai",
+    "country": "uae"
+  },
+  "header": {
+    "brand": {
+      "en": "Primadom AI",
+      "es": "Primadom AI",
+      "fr": "Primadom AI",
+      "de": "Primadom AI",
+      "zh_hans": "Primadom AI",
+      "ar": "Primadom AI",
+      "ru": "Primadom AI",
+      "hi": "Primadom AI"
+    },
+    "cta_label": {
+      "en": "Book a call",
+      "es": "Reservar llamada",
+      "fr": "Réserver un appel",
+      "de": "Anruf buchen",
+      "zh_hans": "预约通话",
+      "ar": "احجز مكالمة",
+      "ru": "Записаться на звонок",
+      "hi": "Book a call"
+    },
+    "nav": [
+      {
+        "key": "overview",
+        "label": {
+          "en": "Overview",
+          "es": "Resumen",
+          "fr": "Aperçu",
+          "de": "Überblick",
+          "zh_hans": "概览",
+          "ar": "نظرة عامة",
+          "ru": "Обзор",
+          "hi": "Overview"
+        },
+        "href": "#overview"
+      },
+      {
+        "key": "facts",
+        "label": {
+          "en": "Details",
+          "es": "Datos",
+          "fr": "Faits clés",
+          "de": "Fakten",
+          "zh_hans": "关键事实",
+          "ar": "الحقائق",
+          "ru": "Факты",
+          "hi": "Facts"
+        },
+        "href": "#key-facts"
+      },
+      {
+        "key": "location",
+        "label": {
+          "en": "Location",
+          "es": "Ubicación",
+          "fr": "Localisation",
+          "de": "Lage",
+          "zh_hans": "位置",
+          "ar": "الموقع",
+          "ru": "Локация",
+          "hi": "Location"
+        },
+        "href": "#location"
+      },
+      {
+        "key": "ai",
+        "label": {
+          "en": "Ask AI",
+          "es": "Preguntar a AI",
+          "fr": "Demander à l’AI",
+          "de": "AI fragen",
+          "zh_hans": "询问 AI",
+          "ar": "اسأل AI",
+          "ru": "Спросить AI",
+          "hi": "Ask AI"
+        },
+        "href": "#ask-ai",
+        "is_ai": true
+      }
+    ]
+  },
+  "breadcrumbs": [
+    {
+      "key": "home",
+      "label": {
+        "en": "Home",
+        "es": "Inicio",
+        "fr": "Accueil",
+        "de": "Startseite",
+        "zh_hans": "首页",
+        "ar": "الرئيسية",
+        "ru": "Главная",
+        "hi": "Home"
+      },
+      "href": "/"
+    },
+    {
+      "key": "projects",
+      "label": {
+        "en": "UAE Off-plan Projects",
+        "es": "Proyectos off-plan en EAU",
+        "fr": "Projets off-plan aux EAU",
+        "de": "Off-plan-Projekte in den VAE",
+        "zh_hans": "阿联酋期房项目",
+        "ar": "مشاريع قيد الإنشاء في الإمارات",
+        "ru": "Off-plan проекты ОАЭ",
+        "hi": "UAE Off-plan Projects"
+      },
+      "href": "/projects/"
+    },
+    {
+      "key": "district",
+      "label_ref": "entity.district",
+      "href": "/areas/palm-jumeirah/"
+    },
+    {
+      "key": "project",
+      "label_ref": "entity.name",
+      "href": "/projects/passo-by-beyond/"
+    }
+  ],
+  "hero": {
+    "title_ref": "entity.name",
+    "subtitle": {
+      "en": "Luxury waterfront off-plan project on Palm Jumeirah by Beyond.",
+      "es": "Proyecto waterfront de lujo off-plan en Palm Jumeirah por Beyond.",
+      "fr": "Projet waterfront de luxe en off-plan à Palm Jumeirah par Beyond.",
+      "de": "Luxuriöses Waterfront-Off-plan-Projekt auf Palm Jumeirah von Beyond.",
+      "zh_hans": "由 Beyond 打造的朱美拉棕榈岛豪华滨水期房项目。",
+      "ar": "مشروع فاخر على الواجهة البحرية قيد الإنشاء في نخلة جميرا من بيوند.",
+      "ru": "Люксовый waterfront off-plan проект на Palm Jumeirah от Beyond.",
+      "hi": "Beyond द्वारा Palm Jumeirah पर luxury waterfront off-plan project."
+    },
+    "price_label": {
+      "en": "Price from",
+      "es": "Precio desde",
+      "fr": "Prix à partir de",
+      "de": "Preis ab",
+      "zh_hans": "起价",
+      "ar": "السعر يبدأ من",
+      "ru": "Цена от",
+      "hi": "कीमत से"
+    },
+    "price_from": {
+      "currency": "AED",
+      "amount": 8800000,
+      "display": {
+        "en": "AED 8,800,000",
+        "es": "AED 8,800,000",
+        "fr": "AED 8,800,000",
+        "de": "AED 8,800,000",
+        "zh_hans": "AED 8,800,000",
+        "ar": "8,800,000 درهم",
+        "ru": "AED 8,800,000",
+        "hi": "AED 8,800,000"
+      }
+    }
+  },
+  "ai_search": {
+    "badge": {
+      "en": "Primadom AI",
+      "es": "Primadom AI",
+      "fr": "Primadom AI",
+      "de": "Primadom AI",
+      "zh_hans": "Primadom AI",
+      "ar": "Primadom AI",
+      "ru": "Primadom AI",
+      "hi": "Primadom AI"
+    },
+    "placeholder": {
+      "en": "Ask about Passo, payment plan, location, risks or similar projects",
+      "es": "Pregunta sobre Passo, plan de pago, ubicación, riesgos o proyectos similares",
+      "fr": "Posez une question sur Passo, le plan de paiement, la localisation, les risques ou les projets similaires",
+      "de": "Fragen Sie zu Passo, Zahlungsplan, Lage, Risiken oder ähnlichen Projekten",
+      "zh_hans": "询问 Passo、付款计划、位置、风险或类似项目",
+      "ar": "اسأل عن باسو أو خطة الدفع أو الموقع أو المخاطر أو المشاريع المشابهة",
+      "ru": "Спросите про Passo, план оплаты, локацию, риски или похожие проекты",
+      "hi": "Passo, payment plan, location, risks या similar projects के बारे में पूछें"
+    },
+    "button_label": {
+      "en": "Ask",
+      "es": "Preguntar",
+      "fr": "Demander",
+      "de": "Fragen",
+      "zh_hans": "提问",
+      "ar": "اسأل",
+      "ru": "Спросить",
+      "hi": "पूछें"
+    },
+    "voice_status": {
+      "en": "Listening…",
+      "es": "Escuchando…",
+      "fr": "Écoute…",
+      "de": "Hört zu…",
+      "zh_hans": "正在聆听…",
+      "ar": "يستمع…",
+      "ru": "Слушаю…",
+      "hi": "Listening…"
+    },
+    "voice_text": {
+      "en": "Ask about this project",
+      "es": "Pregunta sobre este proyecto",
+      "fr": "Question sur ce projet",
+      "de": "Zum Projekt fragen",
+      "zh_hans": "咨询这个项目",
+      "ar": "اسأل عن هذا المشروع",
+      "ru": "Спросить про проект",
+      "hi": "Ask about this project"
+    },
+    "hints": {
+      "en": [
+        "Compare Passo with similar Palm Jumeirah projects",
+        "Show payment plan, unit options and handover logic",
+        "Is Passo better for living or investment?",
+        "Explain beach access, marina privileges and location value"
+      ],
+      "es": [
+        "Comparar Passo con proyectos similares en Palm Jumeirah",
+        "Mostrar plan de pago, unidades y lógica de entrega",
+        "¿Passo es mejor para vivir o invertir?",
+        "Explicar acceso a playa, marina y valor de ubicación"
+      ],
+      "fr": [
+        "Comparer Passo avec des projets similaires à Palm Jumeirah",
+        "Afficher le plan de paiement, les unités et la livraison",
+        "Passo est-il meilleur pour vivre ou investir ?",
+        "Expliquer l’accès plage, marina et valeur de l’emplacement"
+      ],
+      "de": [
+        "Passo mit ähnlichen Projekten auf Palm Jumeirah vergleichen",
+        "Zahlungsplan, Einheiten und Übergabe erklären",
+        "Ist Passo besser zum Wohnen oder Investieren?",
+        "Strandzugang, Marina und Lagewert erklären"
+      ],
+      "zh_hans": [
+        "将 Passo 与朱美拉棕榈岛类似项目比较",
+        "查看付款计划、户型选择和交付逻辑",
+        "Passo 更适合自住还是投资？",
+        "解释海滩通道、码头权益和地段价值"
+      ],
+      "ar": [
+        "قارن باسو بمشاريع مشابهة في نخلة جميرا",
+        "اشرح خطة الدفع وأنواع الوحدات ومنطق التسليم",
+        "هل باسو أفضل للسكن أم للاستثمار؟",
+        "اشرح الوصول إلى الشاطئ والمرسى وقيمة الموقع"
+      ],
+      "ru": [
+        "Сравни Passo с похожими проектами на Palm Jumeirah",
+        "Покажи план оплаты, юниты и дату сдачи",
+        "Passo лучше для жизни или инвестиций?",
+        "Объясни пляж, марину и ценность локации"
+      ],
+      "hi": [
+        "Passo की तुलना Palm Jumeirah के similar projects से करें",
+        "Payment plan, unit options और handover logic समझाएँ",
+        "Passo living के लिए बेहतर है या investment के लिए?",
+        "Beach access, marina privileges और location value समझाएँ"
+      ]
+    }
+  },
+  "short_answer_key_facts": {
+    "short_answer_title": {
+      "en": "Short answer",
+      "es": "Respuesta corta",
+      "fr": "Réponse courte",
+      "de": "Kurzantwort",
+      "zh_hans": "简短回答",
+      "ar": "إجابة مختصرة",
+      "ru": "Короткий ответ",
+      "hi": "Short answer"
+    },
+    "short_answer_kicker": {
+      "en": "AI-readable summary",
+      "es": "Resumen legible para AI",
+      "fr": "Résumé lisible par l’AI",
+      "de": "AI-lesbare Zusammenfassung",
+      "zh_hans": "AI 可读摘要",
+      "ar": "ملخص قابل للقراءة بواسطة الذكاء الاصطناعي",
+      "ru": "AI-readable summary",
+      "hi": "AI-readable summary"
+    },
+    "summary": {
+      "en": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, developed by Beyond. It is mainly relevant for buyers looking for premium coastal living, larger residences, long-term lifestyle value and a high-end Dubai address.",
+      "es": "Passo by Beyond es un proyecto waterfront de lujo off-plan en Palm Jumeirah, desarrollado por Beyond. Es relevante para compradores que buscan vida costera premium, residencias amplias, valor lifestyle a largo plazo y una dirección high-end en Dubái.",
+      "fr": "Passo by Beyond est un projet waterfront de luxe en off-plan à Palm Jumeirah, développé par Beyond. Il s’adresse aux acheteurs recherchant un style de vie côtier premium, de grandes résidences, une valeur lifestyle à long terme et une adresse haut de gamme à Dubaï.",
+      "de": "Passo by Beyond ist ein luxuriöses Waterfront-Off-plan-Projekt auf Palm Jumeirah, entwickelt von Beyond. Es ist relevant für Käufer, die Premium-Küstenleben, größere Residenzen, langfristigen Lifestyle-Wert und eine hochwertige Adresse in Dubai suchen.",
+      "zh_hans": "Passo by Beyond 是由 Beyond 开发的朱美拉棕榈岛豪华滨水期房项目。它适合寻找高端海滨生活、大面积住宅、长期生活方式价值和迪拜高端地址的买家。",
+      "ar": "باسو من بيوند هو مشروع فاخر على الواجهة البحرية قيد الإنشاء في نخلة جميرا، من تطوير بيوند. يناسب المشترين الباحثين عن سكن ساحلي فاخر، ومساحات أكبر، وقيمة نمط حياة طويلة الأجل، وعنوان راقٍ في دبي.",
+      "ru": "Passo by Beyond — люксовый waterfront off-plan проект на Palm Jumeirah от девелопера Beyond. Он подходит покупателям, которым важны премиальная прибрежная жизнь, крупные резиденции, долгосрочная lifestyle-ценность и высокий адрес в Дубае.",
+      "hi": "Passo by Beyond, Beyond द्वारा Palm Jumeirah पर luxury waterfront off-plan project है। यह premium coastal living, larger residences, long-term lifestyle value और Dubai में high-end address चाहने वाले buyers के लिए relevant है।"
+    },
+    "chips": {
+      "en": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ],
+      "es": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ],
+      "fr": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ],
+      "de": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ],
+      "zh_hans": [
+        "豪华滨水",
+        "朱美拉棕榈岛",
+        "期房",
+        "Beyond 开发",
+        "AED 8.8M 起"
+      ],
+      "ar": [
+        "واجهة بحرية فاخرة",
+        "نخلة جميرا",
+        "قيد الإنشاء",
+        "من بيوند",
+        "ابتداءً من 8.8M درهم"
+      ],
+      "ru": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ],
+      "hi": [
+        "Luxury waterfront",
+        "Palm Jumeirah",
+        "Off-plan",
+        "By Beyond",
+        "From AED 8.8M"
+      ]
+    },
+    "details_title": {
+      "en": "Project details",
+      "es": "Detalles del proyecto",
+      "fr": "Détails du projet",
+      "de": "Projektdetails",
+      "zh_hans": "项目详情",
+      "ar": "تفاصيل المشروع",
+      "ru": "Детали проекта",
+      "hi": "Project details"
+    },
+    "details_kicker": {
+      "en": "Key facts",
+      "es": "Datos clave",
+      "fr": "Faits clés",
+      "de": "Kennzahlen",
+      "zh_hans": "关键事实",
+      "ar": "حقائق أساسية",
+      "ru": "Ключевые факты",
+      "hi": "Key facts"
+    },
+    "key_facts": [
+      {
+        "key": "price_from",
+        "label": {
+          "en": "Price from",
+          "es": "Precio desde",
+          "fr": "Prix à partir de",
+          "de": "Preis ab",
+          "zh_hans": "起价",
+          "ar": "السعر يبدأ من",
+          "ru": "Цена от",
+          "hi": "कीमत से"
+        },
+        "value": {
+          "en": "AED 8,800,000",
+          "es": "AED 8,800,000",
+          "fr": "AED 8,800,000",
+          "de": "AED 8,800,000",
+          "zh_hans": "AED 8,800,000",
+          "ar": "8,800,000 درهم",
+          "ru": "AED 8,800,000",
+          "hi": "AED 8,800,000"
+        }
+      },
+      {
+        "key": "status",
+        "label": {
+          "en": "Status",
+          "es": "Estado",
+          "fr": "Statut",
+          "de": "Status",
+          "zh_hans": "状态",
+          "ar": "الحالة",
+          "ru": "Статус",
+          "hi": "Status"
+        },
+        "value": {
+          "en": "Off-plan",
+          "es": "Off-plan",
+          "fr": "Off-plan",
+          "de": "Off-plan",
+          "zh_hans": "期房",
+          "ar": "قيد الإنشاء",
+          "ru": "Off-plan",
+          "hi": "Off-plan"
+        }
+      },
+      {
+        "key": "handover",
+        "label": {
+          "en": "Handover",
+          "es": "Entrega",
+          "fr": "Livraison",
+          "de": "Übergabe",
+          "zh_hans": "交付",
+          "ar": "التسليم",
+          "ru": "Сдача",
+          "hi": "Handover"
+        },
+        "value": {
+          "en": "December 2029",
+          "es": "Diciembre 2029",
+          "fr": "Décembre 2029",
+          "de": "Dezember 2029",
+          "zh_hans": "2029年12月",
+          "ar": "ديسمبر 2029",
+          "ru": "Декабрь 2029",
+          "hi": "दिसंबर 2029"
+        }
+      },
+      {
+        "key": "payment_plan",
+        "label": {
+          "en": "Payment plan",
+          "es": "Plan de pago",
+          "fr": "Plan de paiement",
+          "de": "Zahlungsplan",
+          "zh_hans": "付款计划",
+          "ar": "خطة الدفع",
+          "ru": "План оплаты",
+          "hi": "Payment plan"
+        },
+        "value": {
+          "en": "60/40",
+          "es": "60/40",
+          "fr": "60/40",
+          "de": "60/40",
+          "zh_hans": "60/40",
+          "ar": "60/40",
+          "ru": "60/40",
+          "hi": "60/40"
+        }
+      },
+      {
+        "key": "developer",
+        "label": {
+          "en": "Developer",
+          "es": "Developer",
+          "fr": "Développeur",
+          "de": "Entwickler",
+          "zh_hans": "开发商",
+          "ar": "المطور",
+          "ru": "Девелопер",
+          "hi": "Developer"
+        },
+        "value_ref": "entity.developer"
+      },
+      {
+        "key": "district",
+        "label": {
+          "en": "District",
+          "es": "Zona",
+          "fr": "Quartier",
+          "de": "Bezirk",
+          "zh_hans": "区域",
+          "ar": "المنطقة",
+          "ru": "Район",
+          "hi": "District"
+        },
+        "value_ref": "entity.district"
+      },
+      {
+        "key": "type",
+        "label": {
+          "en": "Type",
+          "es": "Tipo",
+          "fr": "Type",
+          "de": "Typ",
+          "zh_hans": "类型",
+          "ar": "النوع",
+          "ru": "Тип",
+          "hi": "Type"
+        },
+        "value": {
+          "en": "Apartment · Penthouse · Villa",
+          "es": "Apartment · Penthouse · Villa",
+          "fr": "Appartement · Penthouse · Villa",
+          "de": "Apartment · Penthouse · Villa",
+          "zh_hans": "公寓 · 顶层公寓 · 别墅",
+          "ar": "شقة · بنتهاوس · فيلا",
+          "ru": "Апартаменты · Пентхаус · Вилла",
+          "hi": "Apartment · Penthouse · Villa"
+        }
+      },
+      {
+        "key": "units",
+        "label": {
+          "en": "Units",
+          "es": "Unidades",
+          "fr": "Unités",
+          "de": "Einheiten",
+          "zh_hans": "户型",
+          "ar": "الوحدات",
+          "ru": "Юниты",
+          "hi": "Units"
+        },
+        "value": {
+          "en": "1 | 2 | 3 BR",
+          "es": "1 | 2 | 3 BR",
+          "fr": "1 | 2 | 3 BR",
+          "de": "1 | 2 | 3 BR",
+          "zh_hans": "1 | 2 | 3 居室",
+          "ar": "1 | 2 | 3 غرف نوم",
+          "ru": "1 | 2 | 3 спальни",
+          "hi": "1 | 2 | 3 BR"
+        }
+      },
+      {
+        "key": "size_from",
+        "label": {
+          "en": "Size from",
+          "es": "Superficie desde",
+          "fr": "Surface dès",
+          "de": "Fläche ab",
+          "zh_hans": "面积起",
+          "ar": "المساحة تبدأ من",
+          "ru": "Площадь от",
+          "hi": "Size from"
+        },
+        "value": {
+          "en": "from 840 sqft",
+          "es": "from 840 sqft",
+          "fr": "from 840 sqft",
+          "de": "from 840 sqft",
+          "zh_hans": "840 平方英尺起",
+          "ar": "ابتداءً من 840 قدم²",
+          "ru": "от 840 sqft",
+          "hi": "840 sqft से"
+        }
+      },
+      {
+        "key": "last_checked",
+        "label": {
+          "en": "Last checked",
+          "es": "Última revisión",
+          "fr": "Dernière vérification",
+          "de": "Zuletzt geprüft",
+          "zh_hans": "最近核验",
+          "ar": "آخر تحديث",
+          "ru": "Проверено",
+          "hi": "Last checked"
+        },
+        "value": {
+          "en": "June 2026",
+          "es": "Junio 2026",
+          "fr": "Juin 2026",
+          "de": "Juni 2026",
+          "zh_hans": "2026年6月",
+          "ar": "يونيو 2026",
+          "ru": "Июнь 2026",
+          "hi": "June 2026"
+        }
+      }
+    ],
+    "page_type_note": {
+      "en": "Page type: UAE off-plan project page. This page is designed to answer project, price, handover, payment plan, location and comparison queries in a compact AI-readable structure.",
+      "es": "Tipo de página: proyecto off-plan en EAU. Diseñada para responder consultas sobre proyecto, precio, entrega, plan de pago, ubicación y comparaciones en una estructura legible para AI.",
+      "fr": "Type de page : projet off-plan aux EAU. Conçue pour répondre aux requêtes sur le projet, le prix, la livraison, le plan de paiement, la localisation et les comparaisons.",
+      "de": "Seitentyp: VAE-Off-plan-Projektseite. Entwickelt für Fragen zu Projekt, Preis, Übergabe, Zahlungsplan, Lage und Vergleichen.",
+      "zh_hans": "页面类型：阿联酋期房项目页。用于以 AI 可读结构回答项目、价格、交付、付款计划、位置和比较类查询。",
+      "ar": "نوع الصفحة: صفحة مشروع قيد الإنشاء في الإمارات، مصممة للإجابة عن أسئلة المشروع والسعر والتسليم وخطة الدفع والموقع والمقارنات.",
+      "ru": "Тип страницы: UAE off-plan project page. Страница отвечает на запросы про проект, цену, handover, payment plan, локацию и сравнения в компактной AI-readable структуре.",
+      "hi": "Page type: UAE off-plan project page. यह page project, price, handover, payment plan, location और comparison queries को answer करने के लिए बनाया गया है।"
+    },
+    "keyfacts_note": {
+      "en": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "es": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "fr": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "de": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "zh_hans": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "ar": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision.",
+      "ru": "Ключевые факты видны в начале страницы для search engines и LLM; цену, план оплаты и наличие нужно проверить перед решением покупателя.",
+      "hi": "Key facts are visible early for search engines and LLMs; price, payment plan and availability should be verified before a buyer decision."
+    }
+  },
+  "media": {
+    "promo_image": "/img/projects/passo/promo.jpg",
+    "gallery": [
+      "/img/projects/passo/gallery_1.jpg",
+      "/img/projects/passo/gallery_2.jpg",
+      "/img/projects/passo/gallery_3.jpg",
+      "/img/projects/passo/gallery_4.jpg",
+      "/img/projects/passo/gallery_5.jpg",
+      "/img/projects/passo/gallery_6.jpg",
+      "/img/projects/passo/gallery_7.jpg",
+      "/img/projects/passo/gallery_8.jpg",
+      "/img/projects/passo/gallery_9.jpg",
+      "/img/projects/passo/gallery_10.jpg"
+    ],
+    "image_alt": {
+      "en": "Passo by Beyond waterfront residences on Palm Jumeirah in Dubai",
+      "es": "Passo by Beyond waterfront residences on Palm Jumeirah in Dubai",
+      "fr": "Passo by Beyond waterfront residences on Palm Jumeirah in Dubai",
+      "de": "Passo by Beyond waterfront residences on Palm Jumeirah in Dubai",
+      "zh_hans": "迪拜朱美拉棕榈岛 Passo by Beyond 滨水住宅",
+      "ar": "مساكن باسو من بيوند على الواجهة البحرية في نخلة جميرا بدبي",
+      "ru": "Waterfront residences Passo by Beyond на Palm Jumeirah в Дубае",
+      "hi": "Dubai के Palm Jumeirah में Passo by Beyond waterfront residences"
+    }
+  },
+  "_search": {
+    "emirate": "dubai",
+    "city": "dubai",
+    "area": "palm-jumeirah",
+    "developer": "beyond",
+    "property_types": [
+      "apartment",
+      "penthouse",
+      "villa"
+    ],
+    "bedrooms_min": 1,
+    "bedrooms_max": 3,
+    "handover_year": 2029,
+    "price_from_aed": 8800000,
+    "size_from_sqft": 840,
+    "tokens_extra": [
+      "uae",
+      "off-plan",
+      "waterfront",
+      "luxury",
+      "palm-jumeirah",
+      "beyond"
+    ]
+  },
+  "buyer_fit_logic": {
+    "fit_title": {
+      "en": "Buyer fit",
+      "es": "Perfil de comprador",
+      "fr": "Profil acheteur",
+      "de": "Käuferprofil",
+      "zh_hans": "适合的买家",
+      "ar": "ملاءمة المشتري",
+      "ru": "Кому подходит",
+      "hi": "Buyer fit"
+    },
+    "logic_title": {
+      "en": "Project logic",
+      "es": "Lógica del proyecto",
+      "fr": "Logique du projet",
+      "de": "Projektlogik",
+      "zh_hans": "项目逻辑",
+      "ar": "منطق المشروع",
+      "ru": "Логика проекта",
+      "hi": "Project logic"
+    },
+    "best_for": {
+      "title": {
+        "en": "Best for",
+        "es": "Mejor para",
+        "fr": "Idéal pour",
+        "de": "Geeignet für",
+        "zh_hans": "最适合",
+        "ar": "الأفضل لـ",
+        "ru": "Лучше всего для",
+        "hi": "Best for"
+      },
+      "items": {
+        "en": [
+          "Palm Jumeirah lifestyle buyers",
+          "High-end end users",
+          "Buyers looking for larger coastal residences"
+        ],
+        "ru": [
+          "Покупатели lifestyle-недвижимости на Palm Jumeirah",
+          "High-end end users",
+          "Покупатели крупных прибрежных резиденций"
+        ],
+        "ar": [
+          "مشترو نمط الحياة في نخلة جميرا",
+          "المستخدمون النهائيون من الفئة الراقية",
+          "من يبحثون عن مساكن ساحلية أكبر"
+        ],
+        "hi": [
+          "Palm Jumeirah lifestyle buyers",
+          "High-end end users",
+          "Larger coastal residences देखने वाले buyers"
+        ],
+        "es": [
+          "Compradores lifestyle en Palm Jumeirah",
+          "Usuarios finales de alto nivel",
+          "Compradores que buscan residencias costeras amplias"
+        ],
+        "fr": [
+          "Acheteurs lifestyle à Palm Jumeirah",
+          "Utilisateurs finaux haut de gamme",
+          "Acheteurs recherchant de grandes résidences côtières"
+        ],
+        "de": [
+          "Lifestyle-Käufer auf Palm Jumeirah",
+          "High-End-Eigennutzer",
+          "Käufer größerer Küstenresidenzen"
+        ],
+        "zh_hans": [
+          "朱美拉棕榈岛生活方式买家",
+          "高端自住买家",
+          "寻找大面积海滨住宅的买家"
+        ]
+      }
+    },
+    "not_best_for": {
+      "title": {
+        "en": "May not fit",
+        "es": "Puede no encajar",
+        "fr": "Peut ne pas convenir",
+        "de": "Passt evtl. nicht",
+        "zh_hans": "可能不适合",
+        "ar": "قد لا يناسب",
+        "ru": "Может не подойти",
+        "hi": "May not fit"
+      },
+      "items": {
+        "en": [
+          "Low-budget buyers",
+          "Short-term flippers",
+          "Buyers who need ready property immediately"
+        ],
+        "ru": [
+          "Покупатели с низким бюджетом",
+          "Краткосрочные флипперы",
+          "Те, кому нужен готовый объект сразу"
+        ],
+        "ar": [
+          "المشترون بميزانية منخفضة",
+          "المضاربون قصيرو الأجل",
+          "من يحتاجون عقاراً جاهزاً فوراً"
+        ],
+        "hi": [
+          "Low-budget buyers",
+          "Short-term flippers",
+          "तुरंत ready property चाहने वाले buyers"
+        ],
+        "es": [
+          "Compradores con presupuesto bajo",
+          "Flippers de corto plazo",
+          "Compradores que necesitan propiedad lista"
+        ],
+        "fr": [
+          "Acheteurs à petit budget",
+          "Investisseurs court terme",
+          "Acheteurs ayant besoin d’un bien prêt"
+        ],
+        "de": [
+          "Käufer mit niedrigem Budget",
+          "Kurzfristige Flipper",
+          "Käufer, die sofort fertige Immobilien benötigen"
+        ],
+        "zh_hans": [
+          "预算较低的买家",
+          "短线转售买家",
+          "需要立即交房物业的买家"
+        ]
+      }
+    },
+    "project_logic_text": {
+      "en": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "es": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "fr": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "de": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "zh_hans": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "ar": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address.",
+      "ru": "Passo by Beyond позиционируется как premium coastal project на Palm Jumeirah. Основная логика — waterfront living, крупные форматы резиденций и долгосрочная lifestyle-ценность в одном из самых узнаваемых luxury-адресов Дубая.",
+      "hi": "Passo by Beyond is positioned as a premium coastal project on Palm Jumeirah. The main logic is waterfront living, larger residence formats and long-term lifestyle value, with access to Dubai’s most recognizable luxury address."
+    },
+    "fit_kicker": {
+      "en": "Who it suits",
+      "es": "A quién le encaja",
+      "fr": "À qui cela convient",
+      "de": "Für wen es passt",
+      "zh_hans": "适合人群",
+      "ar": "لمن يناسب",
+      "ru": "Кому подходит",
+      "hi": "Who it suits"
+    },
+    "logic_kicker": {
+      "en": "LLM context",
+      "es": "Contexto LLM",
+      "fr": "Contexte LLM",
+      "de": "LLM-Kontext",
+      "zh_hans": "LLM 上下文",
+      "ar": "سياق LLM",
+      "ru": "LLM context",
+      "hi": "LLM context"
+    }
+  },
+  "decision_cards": [
+    {
+      "key": "investment_angle",
+      "eyebrow": {
+        "en": "Investment angle",
+        "es": "Investment angle",
+        "fr": "Investment angle",
+        "de": "Investment angle",
+        "zh_hans": "Investment angle",
+        "ar": "Investment angle",
+        "ru": "Investment angle",
+        "hi": "Investment angle"
+      },
+      "title": {
+        "en": "Premium Palm exposure",
+        "es": "Premium Palm exposure",
+        "fr": "Premium Palm exposure",
+        "de": "Premium Palm exposure",
+        "zh_hans": "Premium Palm exposure",
+        "ar": "Premium Palm exposure",
+        "ru": "Premium Palm exposure",
+        "hi": "Premium Palm exposure"
+      },
+      "text": {
+        "en": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "es": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "fr": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "de": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "zh_hans": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "ar": "Relevant for buyers seeking scarce waterfront supply and long-term address value.",
+        "ru": "Подходит покупателям, которым важны дефицитное waterfront-предложение и долгосрочная ценность адреса.",
+        "hi": "Relevant for buyers seeking scarce waterfront supply and long-term address value."
+      }
+    },
+    {
+      "key": "lifestyle_angle",
+      "eyebrow": {
+        "en": "Lifestyle angle",
+        "es": "Lifestyle angle",
+        "fr": "Lifestyle angle",
+        "de": "Lifestyle angle",
+        "zh_hans": "Lifestyle angle",
+        "ar": "Lifestyle angle",
+        "ru": "Lifestyle angle",
+        "hi": "Lifestyle angle"
+      },
+      "title": {
+        "en": "Coastal high-end living",
+        "es": "Coastal high-end living",
+        "fr": "Coastal high-end living",
+        "de": "Coastal high-end living",
+        "zh_hans": "Coastal high-end living",
+        "ar": "Coastal high-end living",
+        "ru": "Coastal high-end living",
+        "hi": "Coastal high-end living"
+      },
+      "text": {
+        "en": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "es": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "fr": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "de": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "zh_hans": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "ar": "Best read as a lifestyle-led project, not only a yield-first investment.",
+        "ru": "Лучше рассматривать как lifestyle-led проект, а не только как yield-first инвестицию.",
+        "hi": "Best read as a lifestyle-led project, not only a yield-first investment."
+      }
+    },
+    {
+      "key": "check_before_buying",
+      "eyebrow": {
+        "en": "Check before buying",
+        "es": "Check before buying",
+        "fr": "Check before buying",
+        "de": "Check before buying",
+        "zh_hans": "Check before buying",
+        "ar": "Check before buying",
+        "ru": "Check before buying",
+        "hi": "Check before buying"
+      },
+      "title": {
+        "en": "Availability, fees, plan",
+        "es": "Availability, fees, plan",
+        "fr": "Availability, fees, plan",
+        "de": "Availability, fees, plan",
+        "zh_hans": "Availability, fees, plan",
+        "ar": "Availability, fees, plan",
+        "ru": "Availability, fees, plan",
+        "hi": "Availability, fees, plan"
+      },
+      "text": {
+        "en": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "es": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "fr": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "de": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "zh_hans": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "ar": "Confirm live units, service charges, payment terms, floor plans and official documents.",
+        "ru": "Проверьте live units, service charges, payment terms, floor plans и официальные документы.",
+        "hi": "Confirm live units, service charges, payment terms, floor plans and official documents."
+      }
+    },
+    {
+      "key": "ai_context",
+      "eyebrow": {
+        "en": "AI context",
+        "es": "AI context",
+        "fr": "AI context",
+        "de": "AI context",
+        "zh_hans": "AI context",
+        "ar": "AI context",
+        "ru": "AI context",
+        "hi": "AI context"
+      },
+      "title": {
+        "en": "Primadom compares this page against live project data",
+        "es": "Primadom compares this page against live project data",
+        "fr": "Primadom compares this page against live project data",
+        "de": "Primadom compares this page against live project data",
+        "zh_hans": "Primadom compares this page against live project data",
+        "ar": "Primadom compares this page against live project data",
+        "ru": "Primadom сравнивает эту страницу с live project data",
+        "hi": "Primadom compares this page against live project data"
+      },
+      "text": {
+        "en": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "es": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "fr": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "de": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "zh_hans": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "ar": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request.",
+        "ru": "Ассистент может объяснить fit, риски, альтернативы и что проверить до передачи запроса покупателя.",
+        "hi": "The assistant can explain fit, risks, alternatives and what should be checked before sharing a buyer request."
+      }
+    }
+  ],
+  "location": {
+    "nearby_title": {
+      "en": "Nearby landmarks",
+      "es": "Lugares cercanos",
+      "fr": "Repères proches",
+      "de": "Nahegelegene Orte",
+      "zh_hans": "周边地标",
+      "ar": "معالم قريبة",
+      "ru": "Что рядом",
+      "hi": "Nearby landmarks"
+    },
+    "location_title": {
+      "en": "Location",
+      "es": "Ubicación",
+      "fr": "Localisation",
+      "de": "Lage",
+      "zh_hans": "位置",
+      "ar": "الموقع",
+      "ru": "Локация",
+      "hi": "Location"
+    },
+    "location_context": {
+      "en": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "es": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "fr": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "de": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "zh_hans": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "ar": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle.",
+      "ru": "Контекст локации: Palm Jumeirah ассоциируется с beachfront living, luxury hospitality, приватностью и премиальным прибрежным образом жизни Дубая.",
+      "hi": "Location context: Palm Jumeirah is associated with beachfront living, luxury hospitality, privacy and Dubai’s premium coastal lifestyle."
+    },
+    "nearby_landmarks": {
+      "en": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 min"
+        },
+        {
+          "name": "DXB Airport",
+          "time": "18 min"
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 min"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 мин"
+        },
+        {
+          "name": "Аэропорт DXB",
+          "time": "18 мин"
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 мин"
+        }
+      ],
+      "ar": [
+        {
+          "name": "داون تاون دبي",
+          "time": "12 دقيقة"
+        },
+        {
+          "name": "مطار دبي DXB",
+          "time": "18 دقيقة"
+        },
+        {
+          "name": "مرسى دبي",
+          "time": "20 دقيقة"
+        }
+      ],
+      "hi": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 मिनट"
+        },
+        {
+          "name": "DXB Airport",
+          "time": "18 मिनट"
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 मिनट"
+        }
+      ],
+      "es": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 min"
+        },
+        {
+          "name": "Aeropuerto DXB",
+          "time": "18 min"
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 min"
+        }
+      ],
+      "fr": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 min"
+        },
+        {
+          "name": "Aéroport DXB",
+          "time": "18 min"
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 min"
+        }
+      ],
+      "de": [
+        {
+          "name": "Downtown Dubai",
+          "time": "12 Min."
+        },
+        {
+          "name": "DXB Airport",
+          "time": "18 Min."
+        },
+        {
+          "name": "Dubai Marina",
+          "time": "20 Min."
+        }
+      ],
+      "zh_hans": [
+        {
+          "name": "迪拜市中心",
+          "time": "12 分钟"
+        },
+        {
+          "name": "DXB 机场",
+          "time": "18 分钟"
+        },
+        {
+          "name": "迪拜码头",
+          "time": "20 分钟"
+        }
+      ]
+    },
+    "map": {
+      "address": {
+        "en": "Palm Jumeirah, Dubai, UAE",
+        "es": "Palm Jumeirah, Dubai, UAE",
+        "fr": "Palm Jumeirah, Dubai, UAE",
+        "de": "Palm Jumeirah, Dubai, UAE",
+        "zh_hans": "阿联酋迪拜朱美拉棕榈岛",
+        "ar": "نخلة جميرا، دبي، الإمارات",
+        "ru": "Palm Jumeirah, Dubai, UAE",
+        "hi": "Palm Jumeirah, Dubai, UAE"
+      },
+      "lat": 25.1145815,
+      "lng": 55.138
+    },
+    "actions": [
+      {
+        "key": "area_guide",
+        "label": {
+          "en": "Area guide",
+          "es": "Guía de zona",
+          "fr": "Guide du quartier",
+          "de": "Area Guide",
+          "zh_hans": "区域指南",
+          "ar": "دليل المنطقة",
+          "ru": "Гид по району",
+          "hi": "Area guide"
+        },
+        "href": "/areas/palm-jumeirah/"
+      },
+      {
+        "key": "open_map",
+        "label": {
+          "en": "Open map",
+          "es": "Abrir mapa",
+          "fr": "Ouvrir la carte",
+          "de": "Karte öffnen",
+          "zh_hans": "打开地图",
+          "ar": "افتح الخريطة",
+          "ru": "Открыть карту",
+          "hi": "Open map"
+        },
+        "href": "#map"
+      }
+    ],
+    "drive_time_kicker": {
+      "en": "Drive time",
+      "es": "Tiempo en coche",
+      "fr": "Temps de trajet",
+      "de": "Fahrzeit",
+      "zh_hans": "车程",
+      "ar": "مدة القيادة",
+      "ru": "Время в пути",
+      "hi": "Drive time"
+    },
+    "map_context_kicker": {
+      "en": "Map context",
+      "es": "Contexto del mapa",
+      "fr": "Contexte carte",
+      "de": "Kartenkontext",
+      "zh_hans": "地图信息",
+      "ar": "سياق الخريطة",
+      "ru": "Контекст карты",
+      "hi": "Map context"
+    },
+    "address_label": {
+      "en": "Address",
+      "es": "Dirección",
+      "fr": "Adresse",
+      "de": "Adresse",
+      "zh_hans": "地址",
+      "ar": "العنوان",
+      "ru": "Адрес",
+      "hi": "Address"
+    },
+    "map_point_label": {
+      "en": "Map point",
+      "es": "Punto en el mapa",
+      "fr": "Point carte",
+      "de": "Kartenpunkt",
+      "zh_hans": "地图点位",
+      "ar": "نقطة الخريطة",
+      "ru": "Точка на карте",
+      "hi": "Map point"
+    }
+  },
+  "similar_trust_faq": {
+    "similar_title": {
+      "en": "Similar projects",
+      "es": "Proyectos similares",
+      "fr": "Projets similaires",
+      "de": "Ähnliche Projekte",
+      "zh_hans": "类似项目",
+      "ar": "مشاريع مشابهة",
+      "ru": "Похожие проекты",
+      "hi": "Similar projects"
+    },
+    "similar_projects": [
+      {
+        "key": "orla",
+        "label": {
+          "en": "Orla by Omniyat",
+          "es": "Orla by Omniyat",
+          "fr": "Orla by Omniyat",
+          "de": "Orla by Omniyat",
+          "zh_hans": "Orla by Omniyat",
+          "ar": "أورلا من أمنيات",
+          "ru": "Orla by Omniyat",
+          "hi": "Orla by Omniyat"
+        },
+        "href": "/projects/orla-by-omniyat/"
+      },
+      {
+        "key": "armani",
+        "label": {
+          "en": "Armani Beach Residences",
+          "es": "Armani Beach Residences",
+          "fr": "Armani Beach Residences",
+          "de": "Armani Beach Residences",
+          "zh_hans": "Armani Beach Residences",
+          "ar": "أرماني بيتش ريزيدنسز",
+          "ru": "Armani Beach Residences",
+          "hi": "Armani Beach Residences"
+        },
+        "href": "/projects/armani-beach-residences/"
+      },
+      {
+        "key": "palm",
+        "label": {
+          "en": "Palm Jumeirah projects",
+          "es": "Palm Jumeirah projects",
+          "fr": "Palm Jumeirah projects",
+          "de": "Palm Jumeirah projects",
+          "zh_hans": "朱美拉棕榈岛项目",
+          "ar": "مشاريع نخلة جميرا",
+          "ru": "Проекты на Palm Jumeirah",
+          "hi": "Palm Jumeirah projects"
+        },
+        "href": "/areas/palm-jumeirah/projects/"
+      },
+      {
+        "key": "comparison",
+        "label": {
+          "en": "Passo vs Orla",
+          "es": "Passo vs Orla",
+          "fr": "Passo vs Orla",
+          "de": "Passo vs Orla",
+          "zh_hans": "Passo 对比 Orla",
+          "ar": "باسو مقابل أورلا",
+          "ru": "Passo vs Orla",
+          "hi": "Passo vs Orla"
+        },
+        "href": "/comparisons/passo-vs-orla/"
+      }
+    ],
+    "faq_title": {
+      "en": "FAQ",
+      "es": "FAQ",
+      "fr": "FAQ",
+      "de": "FAQ",
+      "zh_hans": "常见问题",
+      "ar": "الأسئلة الشائعة",
+      "ru": "FAQ",
+      "hi": "FAQ"
+    },
+    "faq_items": [
+      {
+        "question": {
+          "en": "What is Passo by Beyond?",
+          "es": "What is Passo by Beyond?",
+          "fr": "What is Passo by Beyond?",
+          "de": "What is Passo by Beyond?",
+          "zh_hans": "What is Passo by Beyond?",
+          "ar": "ما هو باسو من بيوند؟",
+          "ru": "Что такое Passo by Beyond?",
+          "hi": "What is Passo by Beyond?"
+        },
+        "answer": {
+          "en": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond.",
+          "es": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond.",
+          "fr": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond.",
+          "de": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond.",
+          "zh_hans": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond.",
+          "ar": "باسو من بيوند هو مشروع فاخر على الواجهة البحرية قيد الإنشاء في نخلة جميرا بدبي.",
+          "ru": "Passo by Beyond — люксовый waterfront off-plan проект на Palm Jumeirah в Дубае от Beyond.",
+          "hi": "Passo by Beyond is a luxury waterfront off-plan project on Palm Jumeirah, Dubai, developed by Beyond."
+        }
+      },
+      {
+        "question": {
+          "en": "Where is Passo by Beyond located?",
+          "es": "Where is Passo by Beyond located?",
+          "fr": "Where is Passo by Beyond located?",
+          "de": "Where is Passo by Beyond located?",
+          "zh_hans": "Where is Passo by Beyond located?",
+          "ar": "أين يقع باسو من بيوند؟",
+          "ru": "Где находится Passo by Beyond?",
+          "hi": "Where is Passo by Beyond located?"
+        },
+        "answer": {
+          "en": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "es": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "fr": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "de": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "zh_hans": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "ar": "يقع في نخلة جميرا، الهلال الغربي، دبي، الإمارات.",
+          "ru": "Он расположен на Palm Jumeirah, West Crescent, Dubai, UAE.",
+          "hi": "It is located on Palm Jumeirah, West Crescent, Dubai, UAE."
+        }
+      },
+      {
+        "question": {
+          "en": "What is the starting price?",
+          "es": "What is the starting price?",
+          "fr": "What is the starting price?",
+          "de": "What is the starting price?",
+          "zh_hans": "What is the starting price?",
+          "ar": "ما هو السعر الابتدائي؟",
+          "ru": "Какая стартовая цена?",
+          "hi": "What is the starting price?"
+        },
+        "answer": {
+          "en": "The indicative starting price is AED 8,800,000, subject to availability and official updates.",
+          "es": "The indicative starting price is AED 8,800,000, subject to availability and official updates.",
+          "fr": "The indicative starting price is AED 8,800,000, subject to availability and official updates.",
+          "de": "The indicative starting price is AED 8,800,000, subject to availability and official updates.",
+          "zh_hans": "The indicative starting price is AED 8,800,000, subject to availability and official updates.",
+          "ar": "السعر الإرشادي يبدأ من 8,800,000 درهم، ويخضع للتوافر والتحديثات الرسمية.",
+          "ru": "Ориентировочная стартовая цена — AED 8,800,000, с проверкой по availability и официальным обновлениям.",
+          "hi": "The indicative starting price is AED 8,800,000, subject to availability and official updates."
+        }
+      }
+    ],
+    "trust_sources_title": {
+      "en": "Trust sources",
+      "es": "Fuentes de confianza",
+      "fr": "Sources de confiance",
+      "de": "Vertrauensquellen",
+      "zh_hans": "可信来源",
+      "ar": "مصادر الثقة",
+      "ru": "Источники доверия",
+      "hi": "Trust sources"
+    },
+    "trust_sources": [
+      {
+        "key": "developer",
+        "label": {
+          "en": "Official developer page",
+          "es": "Official developer page",
+          "fr": "Official developer page",
+          "de": "Official developer page",
+          "zh_hans": "Official developer page",
+          "ar": "صفحة المطور الرسمية",
+          "ru": "Официальная страница девелопера",
+          "hi": "Official developer page"
+        },
+        "status": "required",
+        "href": "#"
+      },
+      {
+        "key": "brochure",
+        "label": {
+          "en": "Official brochure / price list",
+          "es": "Official brochure / price list",
+          "fr": "Official brochure / price list",
+          "de": "Official brochure / price list",
+          "zh_hans": "Official brochure / price list",
+          "ar": "الكتيب الرسمي / قائمة الأسعار",
+          "ru": "Официальная брошюра / price list",
+          "hi": "Official brochure / price list"
+        },
+        "status": "required",
+        "href": "#"
+      },
+      {
+        "key": "dld",
+        "label": {
+          "en": "DLD project status",
+          "es": "DLD project status",
+          "fr": "DLD project status",
+          "de": "DLD project status",
+          "zh_hans": "DLD project status",
+          "ar": "حالة المشروع لدى دائرة الأراضي",
+          "ru": "DLD project status",
+          "hi": "DLD project status"
+        },
+        "status": "recommended",
+        "href": "#"
+      },
+      {
+        "key": "availability",
+        "label": {
+          "en": "Primadom live availability check",
+          "es": "Primadom live availability check",
+          "fr": "Primadom live availability check",
+          "de": "Primadom live availability check",
+          "zh_hans": "Primadom live availability check",
+          "ar": "تحقق Primadom من التوافر الحي",
+          "ru": "Primadom live availability check",
+          "hi": "Primadom live availability check"
+        },
+        "status": "internal",
+        "href": "#"
+      }
+    ],
+    "similar_kicker": {
+      "en": "Internal links",
+      "es": "Enlaces internos",
+      "fr": "Liens internes",
+      "de": "Interne Links",
+      "zh_hans": "内部链接",
+      "ar": "روابط داخلية",
+      "ru": "Внутренние ссылки",
+      "hi": "Internal links"
+    },
+    "faq_kicker": {
+      "en": "AI answers",
+      "es": "Respuestas AI",
+      "fr": "Réponses AI",
+      "de": "AI-Antworten",
+      "zh_hans": "AI 回答",
+      "ar": "إجابات AI",
+      "ru": "AI ответы",
+      "hi": "AI answers"
+    },
+    "trust_kicker": {
+      "en": "Evidence",
+      "es": "Evidencia",
+      "fr": "Preuves",
+      "de": "Nachweise",
+      "zh_hans": "证据",
+      "ar": "الأدلة",
+      "ru": "Evidence",
+      "hi": "Evidence"
+    }
+  },
+  "source_notes": {
+    "title": {
+      "en": "Source notes",
+      "es": "Notas de fuentes",
+      "fr": "Notes de sources",
+      "de": "Quellenhinweise",
+      "zh_hans": "来源说明",
+      "ar": "ملاحظات المصادر",
+      "ru": "Примечания по источникам",
+      "hi": "Source notes"
+    },
+    "text": {
+      "en": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "es": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "fr": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "de": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "zh_hans": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "ar": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision.",
+      "ru": "Цену, наличие, payment plan, floor plans и service charges нужно проверять по официальным материалам девелопера и live-обновлениям Primadom до решения покупателя.",
+      "hi": "Price, availability, payment plan, floor plans and service charges must be checked against official developer materials and live Primadom updates before a buyer decision."
+    },
+    "last_updated_label": {
+      "en": "Last updated",
+      "es": "Last updated",
+      "fr": "Last updated",
+      "de": "Last updated",
+      "zh_hans": "Last updated",
+      "ar": "آخر تحديث",
+      "ru": "Обновлено",
+      "hi": "Last updated"
+    },
+    "last_updated": {
+      "en": "June 2026",
+      "es": "June 2026",
+      "fr": "June 2026",
+      "de": "June 2026",
+      "zh_hans": "June 2026",
+      "ar": "يونيو 2026",
+      "ru": "Июнь 2026",
+      "hi": "June 2026"
+    },
+    "freshness_label": {
+      "en": "Freshness",
+      "es": "Freshness",
+      "fr": "Freshness",
+      "de": "Freshness",
+      "zh_hans": "Freshness",
+      "ar": "الحداثة",
+      "ru": "Актуальность",
+      "hi": "Freshness"
+    },
+    "freshness_value": {
+      "en": "High-change data",
+      "es": "High-change data",
+      "fr": "High-change data",
+      "de": "High-change data",
+      "zh_hans": "High-change data",
+      "ar": "بيانات كثيرة التغير",
+      "ru": "High-change data",
+      "hi": "High-change data"
+    }
+  },
+  "cta": {
+    "title": {
+      "en": "Ask about this project",
+      "es": "Pregunta sobre este proyecto",
+      "fr": "Poser une question sur ce projet",
+      "de": "Zu diesem Projekt anfragen",
+      "zh_hans": "咨询这个项目",
+      "ar": "اسأل عن هذا المشروع",
+      "ru": "Спросить про этот проект",
+      "hi": "Ask about this project"
+    },
+    "text": {
+      "en": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "es": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "fr": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "de": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "zh_hans": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "ar": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor.",
+      "ru": "Спросите Primadom AI, чтобы сравнить Passo by Beyond с похожими проектами, проверить payment logic или отправить запрос консультанту Primadom.",
+      "hi": "Ask Primadom AI to compare Passo by Beyond with similar projects, check the payment logic or send the request to a Primadom advisor."
+    },
+    "actions": [
+      {
+        "key": "ask_project",
+        "label": {
+          "en": "Ask about this project",
+          "es": "Ask about this project",
+          "fr": "Ask about this project",
+          "de": "Ask about this project",
+          "zh_hans": "Ask about this project",
+          "ar": "Ask about this project",
+          "ru": "Спросить про проект",
+          "hi": "Ask about this project"
+        },
+        "open_modal": true
+      },
+      {
+        "key": "get_pdf",
+        "label": {
+          "en": "Get full project PDF",
+          "es": "Get full project PDF",
+          "fr": "Get full project PDF",
+          "de": "Get full project PDF",
+          "zh_hans": "Get full project PDF",
+          "ar": "Get full project PDF",
+          "ru": "Получить полный PDF проекта",
+          "hi": "Get full project PDF"
+        },
+        "open_modal": true
+      },
+      {
+        "key": "request_call",
+        "label": {
+          "en": "Request a call",
+          "es": "Request a call",
+          "fr": "Request a call",
+          "de": "Request a call",
+          "zh_hans": "Request a call",
+          "ar": "Request a call",
+          "ru": "Запросить звонок",
+          "hi": "Request a call"
+        },
+        "open_modal": true
+      }
+    ]
+  },
+  "lead_modal": {
+    "eyebrow": {
+      "en": "Primadom request",
+      "es": "Primadom request",
+      "fr": "Primadom request",
+      "de": "Primadom request",
+      "zh_hans": "Primadom request",
+      "ar": "طلب Primadom",
+      "ru": "Запрос Primadom",
+      "hi": "Primadom request"
+    },
+    "title": {
+      "en": "Ask about Passo by Beyond",
+      "es": "Ask about Passo by Beyond",
+      "fr": "Ask about Passo by Beyond",
+      "de": "Ask about Passo by Beyond",
+      "zh_hans": "Ask about Passo by Beyond",
+      "ar": "اسأل عن باسو من بيوند",
+      "ru": "Спросить про Passo by Beyond",
+      "hi": "Ask about Passo by Beyond"
+    },
+    "description": {
+      "en": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "es": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "fr": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "de": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "zh_hans": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "ar": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first.",
+      "ru": "Укажите бюджет, сроки и профиль покупателя. Primadom AI подготовит точный запрос и подсветит, что проверить первым.",
+      "hi": "Share your budget, timeline and buyer profile. Primadom AI can prepare a focused request and highlight what should be checked first."
+    },
+    "fields": {
+      "name": {
+        "label": {
+          "en": "Name",
+          "es": "Name",
+          "fr": "Name",
+          "de": "Name",
+          "zh_hans": "Name",
+          "ar": "الاسم",
+          "ru": "Имя",
+          "hi": "Name"
+        },
+        "placeholder": {
+          "en": "Your name",
+          "es": "Your name",
+          "fr": "Your name",
+          "de": "Your name",
+          "zh_hans": "Your name",
+          "ar": "اسمك",
+          "ru": "Ваше имя",
+          "hi": "Your name"
+        }
+      },
+      "phone": {
+        "label": {
+          "en": "Phone",
+          "es": "Phone",
+          "fr": "Phone",
+          "de": "Phone",
+          "zh_hans": "Phone",
+          "ar": "الهефон",
+          "ru": "Телефон",
+          "hi": "Phone"
+        },
+        "placeholder": {
+          "en": "+971...",
+          "es": "+971...",
+          "fr": "+971...",
+          "de": "+971...",
+          "zh_hans": "+971...",
+          "ar": "+971...",
+          "ru": "+971...",
+          "hi": "+971..."
+        }
+      },
+      "comment": {
+        "label": {
+          "en": "Request",
+          "es": "Request",
+          "fr": "Request",
+          "de": "Request",
+          "zh_hans": "Request",
+          "ar": "الطلب",
+          "ru": "Запрос",
+          "hi": "Request"
+        },
+        "placeholder": {
+          "en": "Budget, timing, preferred unit type or questions",
+          "es": "Budget, timing, preferred unit type or questions",
+          "fr": "Budget, timing, preferred unit type or questions",
+          "de": "Budget, timing, preferred unit type or questions",
+          "zh_hans": "Budget, timing, preferred unit type or questions",
+          "ar": "Budget, timing, preferred unit type or questions",
+          "ru": "Бюджет, сроки, тип юнита или вопросы",
+          "hi": "Budget, timing, preferred unit type or questions"
+        }
+      }
+    },
+    "ai_row_badge": {
+      "en": "AI prepared request",
+      "es": "AI prepared request",
+      "fr": "AI prepared request",
+      "de": "AI prepared request",
+      "zh_hans": "AI prepared request",
+      "ar": "طلب مُعد بواسطة AI",
+      "ru": "AI prepared request",
+      "hi": "AI prepared request"
+    },
+    "comment_prefill": {
+      "en": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "es": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "fr": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "de": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "zh_hans": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "ar": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options.",
+      "ru": "Интересует Passo by Beyond. Пришлите availability, floor plans, payment plan, views и похожие варианты на Palm Jumeirah.",
+      "hi": "I’m interested in Passo by Beyond. Please send availability, floor plans, payment plan, views and similar Palm Jumeirah options."
+    },
+    "submit_label": {
+      "en": "Send",
+      "es": "Send",
+      "fr": "Send",
+      "de": "Send",
+      "zh_hans": "Send",
+      "ar": "إرسال",
+      "ru": "Отправить",
+      "hi": "Send"
+    },
+    "success_label": {
+      "en": "Sent",
+      "es": "Sent",
+      "fr": "Sent",
+      "de": "Sent",
+      "zh_hans": "Sent",
+      "ar": "تم الإرسال",
+      "ru": "Отправлено",
+      "hi": "Sent"
+    },
+    "note": {
+      "en": "No request is sent before Primadom checks fit and consent.",
+      "es": "No request is sent before Primadom checks fit and consent.",
+      "fr": "No request is sent before Primadom checks fit and consent.",
+      "de": "No request is sent before Primadom checks fit and consent.",
+      "zh_hans": "No request is sent before Primadom checks fit and consent.",
+      "ar": "No request is sent before Primadom checks fit and consent.",
+      "ru": "Запрос не отправляется, пока Primadom не проверит fit и consent.",
+      "hi": "No request is sent before Primadom checks fit and consent."
+    }
+  },
+  "footer": {
+    "brand_title": {
+      "en": "Primadom AI",
+  "es": "Primadom AI",
+  "fr": "Primadom AI",
+  "de": "Primadom AI",
+  "zh_hans": "Primadom AI",
+  "ar": "Primadom AI",
+  "ru": "Primadom AI",
+  "hi": "Primadom AI"
+    },
+    "statement_title": {
+      "en": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "es": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "fr": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "de": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "zh_hans": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "ar": "Dubai real estate pages built for buyers, search engines and AI assistants.",
+      "ru": "Страницы недвижимости Дубая, созданные для покупателей, поисковых систем и AI-ассистентов.",
+      "hi": "Dubai real estate pages built for buyers, search engines and AI assistants."
+    },
+    "statement_text": {
+      "en": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "es": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "fr": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "de": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "zh_hans": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "ar": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly.",
+      "ru": "Project, area, developer и intent pages структурированы так, чтобы люди и AI-системы быстро понимали одни и те же факты.",
+      "hi": "Project, area, developer and intent pages are structured so people and AI systems can understand the same facts quickly."
+    },
+    "chips": {
+      "en": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "ru": [
+        "Проекты",
+        "Районы",
+        "Девелоперы",
+        "AI поиск"
+      ],
+      "ar": [
+        "المشاريع",
+        "المناطق",
+        "المطورون",
+        "بحث AI"
+      ],
+      "hi": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "es": [
+        "Proyectos",
+        "Zonas",
+        "Promotores",
+        "Búsqueda AI"
+      ],
+      "fr": [
+        "Projets",
+        "Quartiers",
+        "Développeurs",
+        "Recherche AI"
+      ],
+      "de": [
+        "Projekte",
+        "Gebiete",
+        "Entwickler",
+        "AI-Suche"
+      ],
+      "zh_hans": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ]
+    },
+    "contact_primary": {
+      "en": "Book a call",
+      "es": "Book a call",
+      "fr": "Book a call",
+      "de": "Book a call",
+      "zh_hans": "Book a call",
+      "ar": "Book a call",
+      "ru": "Записаться на звонок",
+      "hi": "Book a call"
+    },
+    "contact_secondary": {
+      "en": "Ask AI",
+      "es": "Ask AI",
+      "fr": "Ask AI",
+      "de": "Ask AI",
+      "zh_hans": "Ask AI",
+      "ar": "Ask AI",
+      "ru": "Спросить AI",
+      "hi": "Ask AI"
+    },
+    "copyright": {
+      "en": "© Primadom AI",
+  "es": "© Primadom AI",
+  "fr": "© Primadom AI",
+  "de": "© Primadom AI",
+  "zh_hans": "© Primadom AI",
+  "ar": "© Primadom AI",
+  "ru": "© Primadom AI",
+  "hi": "© Primadom AI"
+    },
+    "address": {
+      "en": "Dubai, UAE",
+      "es": "Dubai, UAE",
+      "fr": "Dubai, UAE",
+      "de": "Dubai, UAE",
+      "zh_hans": "Dubai, UAE",
+      "ar": "دبي، الإمارات",
+      "ru": "Dubai, UAE",
+      "hi": "Dubai, UAE"
+    }
+  },
+  "content": {
+    "aria_label": {
+      "en": "Project page content",
+      "es": "Contenido de la página del proyecto",
+      "fr": "Contenu de la page projet",
+      "de": "Projektseiteninhalt",
+      "zh_hans": "项目页面内容",
+      "ar": "محتوى صفحة المشروع",
+      "ru": "Контент страницы проекта",
+      "hi": "Project page content"
+    }
+  }
+}

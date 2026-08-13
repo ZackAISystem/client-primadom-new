@@ -1,0 +1,17 @@
+{{/* Primadom AI System — Project Page partial: decision_cards.html / data-driven */}}
+
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang -}}
+
+{{- with $p.decision_cards }}
+  <div class="pd-mini-row" id="decision-layer">
+    {{- range $i, $card := . }}
+      <article class="pd-mini-card{{ if eq $i 3 }} pd-mini-card--dark{{ end }}">
+        <span>{{ partial "primadom/page-types/project/_t.html" (dict "value" $card.eyebrow "lang" $lang) }}</span>
+        <strong>{{ partial "primadom/page-types/project/_t.html" (dict "value" $card.title "lang" $lang) }}</strong>
+        <p>{{ partial "primadom/page-types/project/_t.html" (dict "value" $card.text "lang" $lang) }}</p>
+      </article>
+    {{- end }}
+  </div>
+{{- end }}

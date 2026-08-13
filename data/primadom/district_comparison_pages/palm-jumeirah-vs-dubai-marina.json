@@ -1,0 +1,439 @@
+{
+  "schema_version": "district_comparison_page.v1",
+  "page_type": "district_comparison_page",
+  "entity_type": "District Comparison",
+  "country": "UAE",
+  "city": "Dubai",
+  "canonical_url": "/en/primadom/district-comparison-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Palm Jumeirah vs Dubai Marina — Primadom AI",
+        "description": "AI-readable district comparison page for Palm Jumeirah vs Dubai Marina with quick verdict, comparison table, price, lifestyle, investment, family fit, rental logic, recommended projects, FAQ and Primadom AI comparison handoff.",
+        "canonical": "https://primadom.ai/en/compare/palm-jumeirah-vs-dubai-marina/"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Compare my case",
+        "cta_url": "#comparisonLeadModal",
+        "nav_aria": "Comparison navigation",
+        "nav": [
+          {
+            "label": "Verdict",
+            "href": "#verdict",
+            "active": true
+          },
+          {
+            "label": "Table",
+            "href": "#table",
+            "active": false
+          },
+          {
+            "label": "Projects",
+            "href": "#projects",
+            "active": false
+          },
+          {
+            "label": "AI compare",
+            "href": "#compare-ai-search",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Split visual comparing Palm Jumeirah and Dubai Marina",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "Dubai Area Comparisons",
+            "href": "/en/compare/"
+          },
+          {
+            "label": "Palm Jumeirah vs Dubai Marina",
+            "href": "/en/compare/palm-jumeirah-vs-dubai-marina/"
+          }
+        ],
+        "area_a": {
+          "name": "Palm Jumeirah",
+          "image": {
+            "src": "/img/primadom/comparisons/palm-jumeirah-comparison.svg",
+            "alt": "Palm Jumeirah luxury waterfront and beach lifestyle concept"
+          }
+        },
+        "area_b": {
+          "name": "Dubai Marina",
+          "image": {
+            "src": "/img/primadom/comparisons/dubai-marina-comparison.svg",
+            "alt": "Dubai Marina skyline and waterfront apartment lifestyle concept"
+          }
+        },
+        "kicker": "District comparison page",
+        "title": "Palm Jumeirah vs Dubai Marina",
+        "subtitle": "A compact AI-readable comparison for buyers choosing between Palm Jumeirah and Dubai Marina by lifestyle, price level, investment logic, family fit, rental demand and recommended projects.",
+        "facts_aria": "Comparison hero facts",
+        "facts": [
+          "Palm Jumeirah: luxury waterfront",
+          "Dubai Marina: urban waterfront",
+          "Decision-stage intent",
+          "Buyer fit comparison",
+          "AI compare handoff"
+        ],
+        "ai_aria": "Ask Primadom AI to compare Palm Jumeirah and Dubai Marina",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Compare Palm Jumeirah vs Dubai Marina for my budget and rental goal",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "verdict": {
+        "eyebrow": "Direct answer",
+        "title": "Quick verdict",
+        "body_html": "Choose <strong>Palm Jumeirah</strong> if you want premium waterfront living, privacy, larger homes and a luxury resort-style address. Choose <strong>Dubai Marina</strong> if you want urban waterfront apartment living, walkability, stronger rental liquidity and easier access to daily lifestyle infrastructure.",
+        "body_text": "Choose Palm Jumeirah for premium waterfront living, privacy, larger homes and luxury resort-style address. Choose Dubai Marina for urban waterfront apartment living, walkability, stronger rental liquidity and daily lifestyle infrastructure.",
+        "chips": [
+          "Luxury vs urban",
+          "Beach vs walkability",
+          "Premium vs liquidity",
+          "Decision intent"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Comparison details",
+        "items": [
+          {
+            "label": "Page type",
+            "value": "District Comparison Page"
+          },
+          {
+            "label": "Market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Area A",
+            "value": "Palm Jumeirah"
+          },
+          {
+            "label": "Area B",
+            "value": "Dubai Marina"
+          },
+          {
+            "label": "Primary intent",
+            "value": "Choose location"
+          },
+          {
+            "label": "Buyer stage",
+            "value": "Decision-stage"
+          },
+          {
+            "label": "Best next step",
+            "value": "Compare projects"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "comparison_table": {
+        "eyebrow": "Palm Jumeirah vs Dubai Marina",
+        "title": "Comparison table",
+        "head": {
+          "factor": "Factor",
+          "area_a": "Palm Jumeirah",
+          "area_b": "Dubai Marina"
+        },
+        "rows": [
+          {
+            "factor": "Price level",
+            "area_a": "Higher premium and ultra-prime positioning, especially for waterfront, villas and branded residences.",
+            "area_b": "Broader apartment market with more entry points and more rental-oriented options."
+          },
+          {
+            "factor": "Lifestyle",
+            "area_a": "Beach, privacy, resort feel, larger homes and luxury hospitality environment.",
+            "area_b": "Urban waterfront, walkability, restaurants, Marina promenade, JBR access and daily convenience."
+          },
+          {
+            "factor": "Investment",
+            "area_a": "Strong for premium long-term positioning and lifestyle-led value, but entry price is higher.",
+            "area_b": "Strong for apartment liquidity, rental demand and broader tenant pool."
+          },
+          {
+            "factor": "Family fit",
+            "area_a": "Better for privacy, larger layouts, villas and premium second-home usage.",
+            "area_b": "Better for active urban families who want apartment living and walkable amenities."
+          },
+          {
+            "factor": "Rental logic",
+            "area_a": "Premium rent potential depends heavily on unit type, view, building and service charges.",
+            "area_b": "Generally more liquid for apartments due to tenant demand and location convenience."
+          }
+        ]
+      },
+      "decision_cards_aria": "Decision difference notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Price difference",
+          "title": "Palm usually needs a higher budget",
+          "text": "Best for buyers prioritizing premium address and long-term lifestyle value."
+        },
+        {
+          "eyebrow": "Lifestyle difference",
+          "title": "Beach privacy vs urban waterfront",
+          "text": "Palm feels resort-led; Marina feels more active, walkable and city-connected."
+        },
+        {
+          "eyebrow": "Investment difference",
+          "title": "Premium value vs rental liquidity",
+          "text": "Palm is more lifestyle-led; Marina often has wider rental-market movement."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Compare by your budget",
+          "text": "Primadom AI can compare both areas against your exact budget, unit type and goal.",
+          "dark": true
+        }
+      ],
+      "buyer_types": {
+        "eyebrow": "Decision logic",
+        "title": "Best for each buyer type",
+        "area_a_title": "Choose Palm Jumeirah if",
+        "area_a_items": [
+          "You want premium waterfront lifestyle",
+          "You prefer privacy, beach access and larger homes",
+          "You are buying for luxury end-use or long-term status value"
+        ],
+        "area_b_title": "Choose Dubai Marina if",
+        "area_b_items": [
+          "You want urban waterfront apartment living",
+          "You care about walkability and tenant liquidity",
+          "You want more options across different budget levels"
+        ]
+      },
+      "rental_logic": {
+        "eyebrow": "Yield and liquidity",
+        "title": "Rental logic",
+        "body": "Rental comparison should not be based only on district name. Primadom AI should compare unit size, view, building quality, service charges, tenant profile, walkability, short-term rental restrictions, management costs and resale liquidity before recommending one area.",
+        "tags": [
+          "Tenant demand",
+          "Service charges",
+          "Unit view",
+          "Walkability",
+          "Resale liquidity"
+        ]
+      },
+      "projects": {
+        "area_a": {
+          "eyebrow": "Area A",
+          "title": "Recommended Palm projects",
+          "items": [
+            {
+              "label": "Passo by Beyond",
+              "meta": "luxury waterfront",
+              "href": "/en/primadom/project-page/"
+            },
+            {
+              "label": "Orla by Omniyat",
+              "meta": "ultra-prime",
+              "href": "/en/projects/orla-by-omniyat/"
+            },
+            {
+              "label": "Armani Beach Residences",
+              "meta": "branded residence",
+              "href": "/en/projects/armani-beach-residences/"
+            },
+            {
+              "label": "Palm Jumeirah projects",
+              "meta": "area guide",
+              "href": "/en/primadom/district-page/"
+            }
+          ]
+        },
+        "area_b": {
+          "eyebrow": "Area B",
+          "title": "Recommended Marina projects",
+          "items": [
+            {
+              "label": "Dubai Marina apartments",
+              "meta": "rental liquidity",
+              "href": "/en/areas/dubai-marina/apartments/"
+            },
+            {
+              "label": "Marina waterfront projects",
+              "meta": "urban lifestyle",
+              "href": "/en/projects/dubai-marina-waterfront/"
+            },
+            {
+              "label": "JBR / Marina nearby options",
+              "meta": "beach access",
+              "href": "/en/areas/jbr/"
+            },
+            {
+              "label": "Dubai Marina area guide",
+              "meta": "district page",
+              "href": "/en/areas/dubai-marina/"
+            }
+          ]
+        }
+      },
+      "related_comparisons": {
+        "eyebrow": "Internal graph",
+        "title": "Related comparisons",
+        "items": [
+          {
+            "label": "Palm Jumeirah vs Bluewaters",
+            "href": "/en/compare/palm-jumeirah-vs-bluewaters/"
+          },
+          {
+            "label": "Dubai Marina vs JBR",
+            "href": "/en/compare/dubai-marina-vs-jbr/"
+          },
+          {
+            "label": "Business Bay vs Downtown Dubai",
+            "href": "/en/compare/business-bay-vs-downtown-dubai/"
+          },
+          {
+            "label": "Dubai Hills vs JVC",
+            "href": "/en/compare/dubai-hills-vs-jvc/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Comparison questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Is Palm Jumeirah better than Dubai Marina for luxury living?",
+            "answer": "Palm Jumeirah usually fits buyers who prioritize waterfront luxury, privacy, beach access and a premium resort-style address. Dubai Marina usually fits buyers who want urban waterfront lifestyle, walkability and apartment liquidity."
+          },
+          {
+            "question": "Which area is better for rental income?",
+            "answer": "Dubai Marina is often more rental-liquidity oriented because of apartment supply, walkability and tenant demand. Palm Jumeirah can be strong for premium lifestyle rents, but entry price and unit type matter."
+          },
+          {
+            "question": "Which area is better for families?",
+            "answer": "Palm Jumeirah can suit families looking for larger homes, villas and privacy. Dubai Marina can suit families who want apartment living, walkability and daily amenities."
+          },
+          {
+            "question": "Can Primadom AI compare both areas for my budget?",
+            "answer": "Yes. Primadom AI can compare both districts by budget, lifestyle, rental goal, property type, handover preference and risk profile."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Source notes",
+        "body": "Price levels, rental assumptions, available projects, service charges and current project terms should be checked against live listings, developer materials, DLD/Dubai REST data and Primadom advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Price levels",
+            "value": "Needs live check"
+          },
+          {
+            "label": "Rental logic",
+            "value": "Market data + unit check"
+          },
+          {
+            "label": "Projects",
+            "value": "Availability changes"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Want to compare both areas for your situation?",
+        "text": "Ask Primadom AI to compare Palm Jumeirah and Dubai Marina by budget, lifestyle, rental goal, unit type, payment plan and preferred timeline — then send the best matches to an advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#compare-ai-search",
+            "modal": false
+          },
+          {
+            "label": "Compare my budget",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#comparisonLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "District comparison enquiry form",
+        "close_label": "Close",
+        "eyebrow": "AI compare handoff",
+        "title": "Compare Palm Jumeirah and Dubai Marina for your case",
+        "text": "Share your budget, property type and buyer goal. Primadom AI will prepare a comparison context before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to compare Palm Jumeirah and Dubai Marina by budget, lifestyle, rental goal, property type and risk profile.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+      "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Area comparison, converted into a real shortlist",
+"text": "Primadom AI helps buyers compare districts, projects, prices, lifestyle logic and rental potential before speaking with an advisor.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#comparisonLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+      },
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  },
+  "district_comparison_slug": "palm-jumeirah-vs-dubai-marina"
+}

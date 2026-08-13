@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_villas_aed_10m_25m_town_square_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/villas-aed-10m-25m-in-town-square/",
+  "canonical_url_path": "/en/budgets/villas-aed-10m-25m-in-town-square/",
+  "canonical_group_key": "property_budget_district:villas:aed_10m_25m:town-square",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "town-square",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "property_type",
+          "href": "/en/property-types/villas/",
+          "label": "Villas"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/town-square/",
+          "label": "Town Square"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/villas-aed-10m-25m-in-town-square/",
+          "label": "Villas for AED 10M–25M in Town Square"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 10M–25M",
+        "Town Square",
+        "Villas",
+        "No clear property-type match",
+        "Compare nearby alternatives"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Villas for AED 10M–25M in Town Square",
+      "subtitle": "A clear villa project is not currently evident in Town Square within AED 10M–25M; compare nearby districts and verify unit types, layouts and specifications project by project.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Villas for AED 10M–25M in Town Square",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compare villas in Town Square by budget fit, layout, delivery profile and total costs. Current prices and availability require a project check.",
+      "hints": [
+        "Which villa projects fit this budget?",
+        "Which nearby options deserve a closer comparison?",
+        "What ownership costs should I expect?"
+      ],
+      "title": "Check villas within AED 10M–25M in Town Square",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Assess realistic options for villas in Town Square within AED 10M–25M. Do not assume availability; identify the closest districts, property formats and project categories for comparison.",
+        "Identify nearby districts or alternative project categories for villas in Town Square within AED 10M–25M. Explain what must be verified about unit mix and current pricing.",
+        "Outline the main purchase and ownership cost categories for villas in Town Square within AED 10M–25M, without assuming current fees, incentives or availability."
+      ],
+      "hint_items": [
+        {
+          "label": "Which villa projects fit this budget?",
+          "prompt": "Assess realistic options for villas in Town Square within AED 10M–25M. Do not assume availability; identify the closest districts, property formats and project categories for comparison."
+        },
+        {
+          "label": "Which nearby options deserve a closer comparison?",
+          "prompt": "Identify nearby districts or alternative project categories for villas in Town Square within AED 10M–25M. Explain what must be verified about unit mix and current pricing."
+        },
+        {
+          "label": "What ownership costs should I expect?",
+          "prompt": "Outline the main purchase and ownership cost categories for villas in Town Square within AED 10M–25M, without assuming current fees, incentives or availability."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask about villas within AED 10M–25M in Town Square",
+      "placeholder": "Ask about villas within AED 10M–25M in Town Square",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 10M–25M",
+        "Town Square",
+        "Villas",
+        "No confirmed category match",
+        "Compare nearby options"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>Current project data does not show a clear match for villas in Town Square within the AED 10M–25M range.</strong> Compare plot size, built-up area, bedroom count, community position, completion profile, payment terms and recurring community costs. Consider nearby communities where this property type is better represented, or compare a different home format in the same area. Confirm current category availability, exact unit pricing and payment terms for any shortlisted project.</p>",
+      "body_text": "Current project data does not show a clear match for villas in Town Square within the AED 10M–25M range. Compare plot size, built-up area, bedroom count, community position, completion profile, payment terms and recurring community costs. Consider nearby communities where this property type is better represented, or compare a different home format in the same area. Confirm current category availability, exact unit pricing and payment terms for any shortlisted project.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 10M–25M"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "Town Square"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Villas"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "No confirmed category match"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Area vs property format"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Nearby options"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Recorded starting prices currently sit outside this budget; compare exact units and nearby areas.",
+            "title": "Town Square"
+          },
+          {
+            "text": "10 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Palm Jebel Ali"
+          },
+          {
+            "text": "6 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "The Oasis"
+          },
+          {
+            "text": "5 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Damac Hills"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "This page targets this property type, but no recorded project starting price currently falls inside the budget.",
+            "title": "Villas"
+          },
+          {
+            "text": "2 projects have recorded starting prices in the wider market; verify this format in Town Square.",
+            "title": "Waterfront Apartments"
+          },
+          {
+            "text": "This format appears in the area, but recorded starting prices currently sit outside the budget.",
+            "title": "Apartments"
+          },
+          {
+            "text": "A wider-market format to verify if options in Town Square are limited.",
+            "title": "Branded Residences"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "Before comparing payment plans, confirm that villas are genuinely represented in Town Square. Then review the booking amount, later instalments, handover payment and any balance due afterwards.",
+          "title": "Confirm the product before comparing terms",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "Town Square may suit the location brief, but confirm the villa supply before comparing plot, layout, privacy, community access and payment terms.",
+          "title": "The district may fit before the villa does",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For villas in Town Square, allow for community charges, cooling, landscaping, pool or garden upkeep, furnishing and routine maintenance.",
+          "title": "Maintenance starts beyond the purchase price",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "No named project in the current data matches villas in Town Square within AED 10M–25M. Use the district guide and live search below to refine the shortlist.",
+        "items": [
+          {
+            "href": "/en/areas/town-square/",
+            "meta": "district guide",
+            "label": "Explore more projects in Town Square",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for villas in Town Square",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "range check",
+            "label": "Compare the nearest prices outside the range",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "decision check",
+            "label": "Review payment exposure and purchase timing",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Project search paths",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to a different property type and unwilling to compare this format",
+          "Buyers needing a confirmed category match without checking the current project mix",
+          "Buyers who do not want landscaping, community charges or ongoing home maintenance"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing villas in Town Square within AED 10M–25M",
+          "Buyers willing to confirm the local property mix before narrowing the shortlist",
+          "Buyers willing to verify the requested property type before discussing project terms"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "For villas in Town Square with a budget of AED 10M–25M, price sets a boundary, but the exact property still depends on which features matter most. A stronger location may mean a smaller home or a narrower property choice, while more space may require a different district or building. No named project currently meets the full brief for villas in Town Square. Compare a nearby district or another property format before changing the budget.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Area vs format",
+          "Community upkeep",
+          "Live search",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The asking price is only part of the cash requirement for villas in Town Square. Confirm the costs attached to the exact unit and transaction before reserving.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Dubai purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Check community charges, landscaping, pool or garden care and ongoing maintenance responsibilities for the exact home.",
+            "title": "Community and home upkeep"
+          },
+          {
+            "text": "Plan separately for snagging, furnishing, utilities, landscaping setup and other move-in expenses.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/villas-aed-5m-10m-in-town-square/",
+          "label": "Villas AED 5M–10M in Town Square",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/villas-aed-25m-plus-in-town-square/",
+          "label": "Villas from AED 25M in Town Square",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-10m-25m-in-town-square/",
+          "label": "Property AED 10M–25M in Town Square",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/branded-residences-aed-10m-25m-in-town-square/",
+          "label": "Branded Residences AED 10M–25M in Town Square",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "No named project currently matches the search for villas in Town Square within AED 10M–25M in the recorded data. Compare adjacent budget bands, nearby property types or a wider location search, then request a live check before treating any option as available.",
+          "question": "What does current project data show for villas in Town Square within AED 10M–25M?"
+        },
+        {
+          "answer": "For villas in Town Square within AED 10M–25M, the current project signal is no confirmed category match, while the main trade-off is area vs property format. This page targets this property type, but no recorded project starting price currently falls inside the budget. The next useful check is nearby options.",
+          "question": "What should buyers verify first for villas in Town Square within AED 10M–25M?"
+        },
+        {
+          "answer": "The asking price is only part of the cash requirement for villas in Town Square. Confirm the costs attached to the exact unit and transaction before reserving. For villas in Town Square within AED 10M–25M, check registration and transaction costs, financing and valuation costs, community and home upkeep, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for villas in Town Square within AED 10M–25M?"
+        },
+        {
+          "answer": "For villas in Town Square within AED 10M–25M, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for villas in Town Square within AED 10M–25M?"
+        },
+        {
+          "answer": "For villas in Town Square within AED 10M–25M, Primadom AI can widen one constraint at a time—budget, location, property type, size or completion timing—while keeping buyer goals and total cash exposure visible. Any resulting projects still require live verification of unit prices, terms and availability.",
+          "question": "How can Primadom AI refine a search for villas in Town Square within AED 10M–25M?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for villas in Town Square within AED 10M–25M are not live inventory. Confirm current unit price and availability, payment schedule, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "Unit / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare villas in Town Square within AED 10M–25M by current price, unit fit, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check villas in Town Square, AED 10M–25M, for me.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 10M–25M",
+          "default_value": "AED 10M–25M"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check villas in Town Square, AED 10M–25M, for me."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 10M–25M",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_villas_aed_10m_25m_town_square_en",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 10M–25M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 10M–25M",
+        "district_name": "Town Square",
+        "canonical_url_path": "/en/budgets/villas-aed-10m-25m-in-town-square/",
+        "content_version_id": "0779d170-390d-43ef-88cc-5ccd72be10b8",
+        "property_type_name": "Villas"
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore villas in Town Square within AED 10M–25M by current price, payment plan, total cost and project fit before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/villas-aed-10m-25m-in-town-square/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

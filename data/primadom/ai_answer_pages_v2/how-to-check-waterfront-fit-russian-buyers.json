@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-waterfront-fit__context__russian-buyers__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-waterfront-fit-russian-buyers/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-waterfront-fit-russian-buyers/",
+  "canonical_group_key": "ai_answer:how-to-check-waterfront-fit:context:russian-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-waterfront-fit",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-waterfront-fit-russian-buyers/",
+          "label": "How should I check waterfront fit? — Russian Buyers",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Russian Buyers",
+        "Buyer fit",
+        "Trade-offs",
+        "Property choice",
+        "Compare options"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check waterfront fit? — Russian Buyers",
+      "subtitle": "Assess waterfront-property fit for Russian buyers through location, property format, access, ownership costs and the trade-offs behind the premium.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check waterfront fit? — Russian Buyers",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Compare access, views and ownership costs before I decide",
+        "Show which waterfront features matter in practice for Russian buyers",
+        "Explain which premiums and compromises need checking before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me assess waterfront-property fit for Russian buyers",
+      "placeholder": "Help me assess waterfront-property fit for Russian buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Waterfront fit",
+        "Russian buyers",
+        "Location premium",
+        "Obstruction risk",
+        "Resale"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Waterfront fit depends on whether the location premium creates real lifestyle or market value.</strong> For Russian buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply. Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+      "body_text": "Waterfront fit depends on whether the location premium creates real lifestyle or market value. For Russian buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply. Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check waterfront fit? — Russian Buyers"
+        },
+        {
+          "label": "Context",
+          "value": "Russian Buyers"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Premium needs durable value"
+        },
+        {
+          "label": "Main checks",
+          "value": "Location premium · Obstruction risk · Resale"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Premium · obstruction · resale"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare premium with durable benefit"
+        },
+        {
+          "label": "Verification",
+          "value": "Current unit check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Waterfront Fit",
+      "market": "UAE",
+      "context": "Russian Buyers",
+      "eyebrow": "Key facts",
+      "question": "How to check waterfront fit for Russian Buyers?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Future development could materially obstruct or dilute the feature supporting the higher price.",
+            "title": "The premium is based on a fragile view"
+          },
+          {
+            "text": "Service charges, maintenance or other ownership costs make the premium harder to justify.",
+            "title": "Ongoing costs offset the benefit"
+          },
+          {
+            "text": "The resale case assumes a level of demand that may be narrower than the current sales narrative suggests.",
+            "title": "Future buyers may not pay the same premium"
+          },
+          {
+            "text": "For Russian buyers, revisit the waterfront-fit check if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "The view or waterfront position materially improves the buyer’s use, experience or tenant appeal.",
+            "title": "The premium creates daily value"
+          },
+          {
+            "text": "Future construction or site conditions are unlikely to remove the main view or location advantage.",
+            "title": "The benefit is likely to remain"
+          },
+          {
+            "text": "Comparable units support paying extra for the specific view, access or waterfront position.",
+            "title": "The premium is reasonable against alternatives"
+          },
+          {
+            "text": "For Russian buyers, the waterfront-fit check still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For Russian buyers, compare the price premium, view durability, access, service charges, maintenance exposure, obstruction risk and future competing supply.",
+          "title": "Location premium · Obstruction risk · Resale",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the premium is based on a fragile view, ongoing costs offset the benefit, or future buyers may not pay the same premium.",
+          "title": "Waterfront suitability",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+          "title": "Compare premium with durable benefit",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the premium is based on a fragile view, ongoing costs offset the benefit, or future buyers may not pay the same premium. For Russian buyers, pay for the premium only when the benefit is clear enough to matter in actual use or at resale.",
+        "tags": [
+          "View certainty",
+          "Obstruction risk",
+          "Price premium",
+          "Running costs",
+          "Waterfront suitability"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For Russian buyers, confirm the floor, orientation and actual line of sight rather than assuming every unit in a waterfront or view-led project has the same outlook.",
+            "title": "Verify the exact unit outlook"
+          },
+          {
+            "text": "Review adjacent plots, planned phases and infrastructure that could change an open view or the perceived waterfront position later.",
+            "title": "Check future obstruction risk"
+          },
+          {
+            "text": "Compare similar units with and without the view feature to see how much additional price is being paid for the claimed advantage.",
+            "title": "Measure the price premium"
+          },
+          {
+            "text": "Consider service charges, maintenance exposure and other recurring costs that may accompany premium waterfront facilities or locations.",
+            "title": "Include waterfront running costs"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-view-premium-russian-buyers/",
+          "label": "How should I check a view premium?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-floor-plan-russian-buyers/",
+          "label": "How should I check a floor plan?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-compare-unit-size-russian-buyers/",
+          "label": "How should I compare unit size?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-project-location-russian-buyers/",
+          "label": "How should I check a project location?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-master-community-russian-buyers/",
+          "label": "How should I check a master community?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Waterfront fit depends on whether the location premium creates real lifestyle or market value. For Russian buyers, confirm the floor, orientation and actual line of sight rather than assuming every unit in a waterfront or view-led project has the same outlook.",
+          "question": "How should I assess whether waterfront property fits my needs?"
+        },
+        {
+          "answer": "A view premium is justified only when the view is durable and valued by future buyers. Review adjacent plots, planned phases and infrastructure that could change an open view or the perceived waterfront position later.",
+          "question": "How should I assess whether a view premium is justified?"
+        },
+        {
+          "answer": "A floor plan should be judged by usable space, not only total area. Review sunlight, privacy, noise, neighbouring buildings and the direction of important rooms instead of evaluating the plan in isolation.",
+          "question": "What should I check in a floor plan?"
+        },
+        {
+          "answer": "Unit size should be compared through usable space and layout efficiency, not area alone. Test whether the extra or reduced space changes household comfort, tenant appeal or resale demand enough to justify the price difference.",
+          "question": "How should I compare unit sizes?"
+        },
+        {
+          "answer": "Project location should be judged at street and access level, not only by district name. The project sits in a less convenient or less desirable part of an otherwise attractive area. Verify the exact location because two projects in the same area can offer very different day-to-day quality.",
+          "question": "How should I assess a project's location?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Area and location fit depends on current community conditions, access, amenities, project mix and the buyer's priorities. Use this page as a decision framework, then recheck the location-specific and project-specific facts that matter to the final choice.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Russian Buyers · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Location premium · Obstruction risk · Resale"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Official community/project information · current market evidence"
+        },
+        {
+          "label": "Live check",
+          "value": "Current community and project information"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "location_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this fit check to your UAE property purchase, using your budget, intended use, property preferences and risk tolerance, then highlight the trade-offs that matter before you decide.",
+      "title": "Want to check whether this property fits your goals?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your UAE property purchase, focusing on intended use, property preferences, practical trade-offs and the checks that matter before you decide.",
+      "title": "Check whether this property fits your goals",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

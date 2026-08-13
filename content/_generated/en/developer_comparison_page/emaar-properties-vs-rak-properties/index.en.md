@@ -1,0 +1,10 @@
+---
+title: "Emaar Properties vs RAK Properties"
+layout: "primadom-developer-comparison-page-v2"
+comparison_slug: "emaar-properties-vs-rak-properties"
+page_id: "page_developer_comparison_emaar_properties_vs_rak_properties_en"
+url: "/en/compare-developers/emaar-properties-vs-rak-properties/"
+build:
+  render: always
+  list: never
+---

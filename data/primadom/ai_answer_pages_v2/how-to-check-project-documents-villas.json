@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-project-documents__context__villas__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-check-project-documents-villas/",
+  "canonical_url_path": "/en/ai-answers/how-to-check-project-documents-villas/",
+  "canonical_group_key": "ai_answer:how-to-check-project-documents:context:villas",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-project-documents",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-check-project-documents-villas/",
+          "label": "How should I check project documents? — Villas",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Villas",
+        "Rules & process",
+        "Documents",
+        "Rules to verify",
+        "Source check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How should I check project documents? — Villas",
+      "subtitle": "Review project documentation when buying villas, including the rules, documents and criteria that need verification.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How should I check project documents? — Villas",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which official project documents matter most before buying",
+        "Explain what each core document should confirm for villa buyers",
+        "Flag missing or inconsistent project information before buying"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me review project documents for villa buyers",
+      "placeholder": "Help me review project documents for villa buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Project documents",
+        "Villas",
+        "Contract terms",
+        "Payment terms",
+        "Document check"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Project documents should confirm the property, parties, commercial terms and regulatory position.</strong> For villa buyers, review the exact property, price, payment dates, cancellation or default terms, obligations, referenced documents and what remains subject to change. Resolve material uncertainty before signing or paying, and keep the executed documents with payment evidence.",
+      "body_text": "Project documents should confirm the property, parties, commercial terms and regulatory position. For villa buyers, review the exact property, price, payment dates, cancellation or default terms, obligations, referenced documents and what remains subject to change. Resolve material uncertainty before signing or paying, and keep the executed documents with payment evidence.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How should I check project documents? — Villas"
+        },
+        {
+          "label": "Context",
+          "value": "Villas"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Requires document-level review"
+        },
+        {
+          "label": "Main checks",
+          "value": "Contract terms · Payment terms · Document check"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Binding terms · payment exposure"
+        },
+        {
+          "label": "Best next step",
+          "value": "Review the exact transaction documents"
+        },
+        {
+          "label": "Verification",
+          "value": "Transaction documents required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Check Project Documents",
+      "market": "UAE",
+      "context": "Villas",
+      "eyebrow": "Key facts",
+      "question": "How to check project documents for Villas?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The buyer is relying on sales assurances that do not appear clearly in the contract or attached schedules.",
+            "title": "Important terms remain verbal"
+          },
+          {
+            "text": "Default, delay, cancellation or refund provisions have not been understood before money is transferred.",
+            "title": "Payment consequences are unclear"
+          },
+          {
+            "text": "Key schedules, unit details, payment terms or referenced attachments are missing from the review.",
+            "title": "The document set is incomplete"
+          },
+          {
+            "text": "For villa buyers, revisit the project-document review if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Price, payment dates, cancellation terms, default clauses and buyer responsibilities are clear before signing.",
+            "title": "The exact obligations are understood"
+          },
+          {
+            "text": "Schedules, plans, specifications and other documents mentioned in the agreement can be reviewed before commitment.",
+            "title": "Referenced documents are available"
+          },
+          {
+            "text": "Important commercial points relied on by the buyer are reflected in the executed transaction documents.",
+            "title": "Material promises appear in writing"
+          },
+          {
+            "text": "For villa buyers, the project-document review still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For villa buyers, review the exact property, price, payment dates, cancellation or default terms, obligations, referenced documents and what remains subject to change.",
+          "title": "Contract terms · Payment terms · Document check",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when important terms remain verbal, payment consequences are unclear, or the document set is incomplete.",
+          "title": "Document completeness",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Resolve material uncertainty before signing or paying, and keep the executed documents with payment evidence.",
+          "title": "Review the exact transaction documents",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when important terms remain verbal, payment consequences are unclear, or the document set is incomplete. For villa buyers, resolve material uncertainty before signing or paying, and keep the executed documents with payment evidence.",
+        "tags": [
+          "Document version",
+          "Buyer obligations",
+          "Payment clauses",
+          "Contract consistency",
+          "Document completeness"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For villa buyers, make sure the buyer is reviewing the current document for the correct unit, project, parties and transaction stage.",
+            "title": "Confirm the document version"
+          },
+          {
+            "text": "Match price, payment schedule, unit details, included items and material dates against the commercial terms the buyer has actually agreed.",
+            "title": "Check the commercial terms"
+          },
+          {
+            "text": "Review payment defaults, cancellation, assignment, delay and other buyer obligations before relying on a summary from the sales process.",
+            "title": "Read obligations and exit clauses"
+          },
+          {
+            "text": "Check whether material promises about timing, payment, use or product features are reflected in the documents that govern the transaction.",
+            "title": "Reconcile claims with the contract"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-check-booking-form-villas/",
+          "label": "How should I check a booking form?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-opa-and-spa-villas/",
+          "label": "How should I check the OPA and SPA?"
+        },
+        {
+          "href": "/en/ai-answers/what-to-verify-before-reservation-villas/",
+          "label": "What should I verify before reservation?"
+        },
+        {
+          "href": "/en/ai-answers/what-to-check-before-buying-villas/",
+          "label": "What should I check before buying?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-escrow-and-permits-villas/",
+          "label": "How should I check escrow and permits?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Project documents should confirm the property, parties, commercial terms and regulatory position. For villa buyers, make sure the buyer is reviewing the current document for the correct unit, project, parties and transaction stage.",
+          "question": "Which project documents should I check?"
+        },
+        {
+          "answer": "A booking form should be checked as a binding commercial document, not a brochure. Match price, payment schedule, unit details, included items and material dates against the commercial terms the buyer has actually agreed.",
+          "question": "What should I check in a booking form?"
+        },
+        {
+          "answer": "OPA and SPA documents should be checked for the obligations they actually create. Review payment defaults, cancellation, assignment, delay and other buyer obligations before relying on a summary from the sales process.",
+          "question": "What should I check in the OPA and SPA?"
+        },
+        {
+          "answer": "Before reservation, verify exactly what is being reserved and on what terms. Clarify when the reservation amount is refundable, partly refundable or non-refundable rather than relying on an informal sales explanation.",
+          "question": "What should I verify before making a reservation?"
+        },
+        {
+          "answer": "Before buying, verify the property, seller or developer, documents, total cost and buyer fit. The buyer cannot yet verify important ownership, contract or project information. Resolve material uncertainty before signing a binding agreement or transferring significant funds.",
+          "question": "What should I check before buying?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Project status, payment terms, handover information and other project-specific details can change. Use this page as decision guidance, then reconfirm current project documents and relevant authority information before acting on any time-sensitive detail.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Villas · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Contract terms · Payment terms · Document check"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Official developer/project documents · relevant authority"
+        },
+        {
+          "label": "Live check",
+          "value": "Current project status, payment and handover details"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "project_terms",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your villa search, including your budget, timeline and risk tolerance, then work through the project, payment and handover checks that matter before you decide.",
+      "title": "Want to check the project before you decide?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your villa search, focusing on the project, payment, handover and risk points an advisor should review with you.",
+      "title": "Check whether this project fits your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this project fits my buying priorities.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

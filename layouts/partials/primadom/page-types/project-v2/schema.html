@@ -1,0 +1,42 @@
+{{- $ctx := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $ctx.p -}}
+{{- $lang := $ctx.lang | default site.Language.Lang | default "en" -}}
+
+{{- $name := index $p.entity.name $lang | default (index $p.entity.name "en") | default "" -}}
+{{- $developer := index $p.entity.developer $lang | default (index $p.entity.developer "en") | default "" -}}
+{{- $district := index $p.entity.district $lang | default (index $p.entity.district "en") | default "" -}}
+{{- $description := index $p.hero.subtitle $lang | default (index $p.hero.subtitle "en") | default "" -}}
+{{- $canonicalPath := $p.canonical_path | default .RelPermalink -}}
+{{- $canonical := printf "https://primadom.ai%s" $canonicalPath -}}
+
+<script type="application/ld+json">
+{{ dict
+  "@context" "https://schema.org"
+  "@graph" (slice
+    (dict
+      "@type" "WebPage"
+      "@id" (printf "%s#webpage" $canonical)
+      "url" $canonical
+      "name" $name
+      "description" $description
+      "inLanguage" $lang
+      "mainEntity" (dict "@id" (printf "%s#project" $canonical))
+    )
+    (dict
+      "@type" "Residence"
+      "@id" (printf "%s#project" $canonical)
+      "name" $name
+      "description" $description
+      "containedInPlace" (dict "@type" "Place" "name" $district)
+      "brand" (dict "@type" "Brand" "name" $developer)
+      "url" $canonical
+    )
+    (dict
+      "@type" "Organization"
+      "@id" "https://primadom.ai/#organization"
+      "name" "Primadom AI System"
+      "url" "https://primadom.ai/"
+    )
+  )
+| jsonify | safeJS }}
+</script>

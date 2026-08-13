@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__plaza-masdar-city__vs__the-gate-masdar-city__en",
+  "page_type_id": "project_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-projects/plaza-masdar-city-vs-the-gate-masdar-city/",
+  "canonical_url_path": "/en/compare-projects/plaza-masdar-city-vs-the-gate-masdar-city/",
+  "canonical_group_key": "project_comparison:plaza-masdar-city:vs:the-gate-masdar-city",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "plaza-masdar-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Compare"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Project comparison navigation",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/en/compare-projects/",
+          "label": "Project Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-projects/plaza-masdar-city-vs-the-gate-masdar-city/",
+          "label": "Plaza Masdar City vs The Gate Masdar City",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Project A: Plaza Masdar City",
+        "Project B: The Gate Masdar City",
+        "Masdar City comparison",
+        "AED 663K vs AED 500K",
+        "Entry price and handover"
+      ],
+      "title": "Plaza Masdar City vs The Gate Masdar City",
+      "subtitle": "Two Masdar City projects, both by Reportage Real Estate, compared through entry points of AED 663K and AED 500K and 2025 and 2024 handover timelines.",
+      "project_a": {
+        "name": "Plaza Masdar City",
+        "slug": "plaza-masdar-city",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "The Gate Masdar City",
+        "slug": "the-gate-masdar-city",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Key context for Plaza Masdar City and The Gate Masdar City",
+      "section_id": "overview",
+      "visual_aria": "Comparison hero for Plaza Masdar City and The Gate Masdar City",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Ask about price, unit mix, handover or buyer fit.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Plaza Masdar City or The Gate Masdar City — which fits?",
+        "Compare price, units and handover",
+        "What should I verify before choosing?"
+      ],
+      "title": "Compare Plaza Masdar City and The Gate Masdar City",
+      "ai_aria": "Ask Primadom AI to compare Plaza Masdar City and The Gate Masdar City",
+      "eyebrow": "Ask AI",
+      "prompts": [
+        "Compare Plaza Masdar City and The Gate Masdar City for my buying goal. Review the available price context, property types, bedroom range and handover, and clearly flag anything that requires a live check.",
+        "Compare Plaza Masdar City and The Gate Masdar City by starting-price context, unit types, bedroom range and planned handover. Clearly identify missing or unverified information.",
+        "What should a buyer verify before choosing between Plaza Masdar City and The Gate Masdar City? Cover current pricing, availability, payment terms, handover status and suitability for the buyer goal."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "input_aria": "Project comparison AI question",
+      "section_id": "compare-ai-search",
+      "voice_text": "Ask about this project comparison",
+      "placeholder": "Ask AI to compare these two projects",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "button_label": "Ask",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Compare Plaza Masdar City and The Gate Masdar City for my buying goal",
+      "ai_placeholder": "Ask AI to compare these two projects",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Ask Primadom AI to compare Plaza Masdar City and The Gate Masdar City",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Same district",
+        "Same developer",
+        "AED 663K vs AED 500K",
+        "2025 vs 2024 handover"
+      ],
+      "title": "Quick recommendation",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Plaza Masdar City</strong> may suit buyers prioritising family-oriented living, while <strong>The Gate Masdar City</strong> may suit those focused on the lower recorded entry price. <strong>Plaza Masdar City</strong> offers apartments, townhouses, studios to 4-bedroom homes, from AED 663K, handover 2025, while <strong>The Gate Masdar City</strong> offers apartments, townhouses, studios to 4-bedroom homes, from AED 500K, handover 2024.",
+      "body_text": "Plaza Masdar City may suit buyers prioritising family-oriented living, while The Gate Masdar City may suit those focused on the lower recorded entry price. Plaza Masdar City offers apartments, townhouses, studios to 4-bedroom homes, from AED 663K, handover 2025, while The Gate Masdar City offers apartments, townhouses, studios to 4-bedroom homes, from AED 500K, handover 2024.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Project A",
+          "value": "Plaza Masdar City"
+        },
+        {
+          "label": "Project B",
+          "value": "The Gate Masdar City"
+        },
+        {
+          "label": "Area context",
+          "value": "Both in Masdar City"
+        },
+        {
+          "label": "Developer context",
+          "value": "Both by Reportage Real Estate"
+        },
+        {
+          "label": "Starting price",
+          "value": "AED 663K vs AED 500K"
+        },
+        {
+          "label": "Property types",
+          "value": "Both: Apartment · Townhouse"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "Both: Studios–4 BR"
+        },
+        {
+          "label": "Handover",
+          "value": "2025 vs 2024"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Plaza Masdar City",
+          "slug": "plaza-masdar-city",
+          "text": "Plaza Masdar City is positioned around family-oriented living in Masdar City by Reportage Real Estate, with a recorded mix of Apartment · Townhouse across Studios–4 BR and a recorded starting price from AED 663K and handover in 2025. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Masdar City · By Reportage Real Estate",
+            "Apartment · Townhouse · Studios–4 BR",
+            "From AED 663K · Handover 2025"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "The Gate Masdar City",
+          "slug": "the-gate-masdar-city",
+          "text": "The Gate Masdar City is positioned around green-community living in Masdar City by Reportage Real Estate, with a recorded mix of Apartment · Townhouse across Studios–4 BR and a recorded starting price from AED 500K and handover in 2024. Its current buyer-fit profile points to buyers planning to use the property as a primary residence.",
+          "points": [
+            "Masdar City · By Reportage Real Estate",
+            "Apartment · Townhouse · Studios–4 BR",
+            "From AED 500K · Handover 2024"
+          ]
+        }
+      ],
+      "title": "Project summaries",
+      "eyebrow": "At a glance",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Both projects are in Masdar City, so location is not the main separator. Both come from Reportage Real Estate, making unit mix, price and handover the stronger separators. Recorded entry prices are AED 663K for Plaza Masdar City and AED 500K for The Gate Masdar City. Recorded handover timing is 2025 versus 2024.",
+        "tags": [
+          "Same district",
+          "Same developer",
+          "Recorded price gap",
+          "Same property mix",
+          "Live availability"
+        ],
+        "title": "Project-level logic",
+        "eyebrow": "How to compare"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Plaza Masdar City",
+        "project_b": "The Gate Masdar City"
+      },
+      "rows": [
+        {
+          "factor": "Starting price",
+          "project_a": "From AED 663K",
+          "project_b": "From AED 500K"
+        },
+        {
+          "factor": "Location",
+          "project_a": "Masdar City",
+          "project_b": "Masdar City"
+        },
+        {
+          "factor": "Developer",
+          "project_a": "Reportage Real Estate",
+          "project_b": "Reportage Real Estate"
+        },
+        {
+          "factor": "Property types",
+          "project_a": "Apartment · Townhouse",
+          "project_b": "Apartment · Townhouse"
+        },
+        {
+          "factor": "Bedrooms",
+          "project_a": "Studios–4 BR",
+          "project_b": "Studios–4 BR"
+        },
+        {
+          "factor": "Handover",
+          "project_a": "2025",
+          "project_b": "2024"
+        },
+        {
+          "factor": "Project profile",
+          "project_a": "Family-oriented",
+          "project_b": "Green-community living"
+        }
+      ],
+      "title": "Project comparison table",
+      "eyebrow": "Plaza Masdar City vs The Gate Masdar City",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Recorded starting prices are AED 663K for Plaza Masdar City and AED 500K for The Gate Masdar City. Compare the same unit type, size and total cost before judging value.",
+          "title": "The entry-price gap matters",
+          "eyebrow": "Price & units",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Both projects are in Masdar City. Compare access, building or plot position, nearby supply and daily-use convenience.",
+          "title": "Same district, compare micro-position",
+          "eyebrow": "Location fit",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Recorded handover is 2025 for Plaza Masdar City and 2024 for The Gate Masdar City. Compare how each timeline fits your planned move-in or investment use.",
+          "title": "Different handovers change the choice",
+          "eyebrow": "Timeline",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Ask Primadom AI to compare Plaza Masdar City and The Gate Masdar City by unit type, recorded price, location, handover and intended use, then prepare the main questions for an advisor.",
+          "title": "Compare by your goal",
+          "eyebrow": "Ask AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Project decision notes"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Who should choose each project",
+        "eyebrow": "Buyer fit",
+        "project_a_items": [
+          "You are comfortable with its higher recorded starting point of AED 663K after checking the exact unit and total cost.",
+          "You prefer its family-oriented setting in Masdar City for your intended use.",
+          "You want Apartments · Townhouses across Studios–4 BR and a recorded 2025 handover."
+        ],
+        "project_a_title": "Choose Plaza Masdar City if",
+        "project_b_items": [
+          "Its recorded starting point of AED 500K is lower in this pair, subject to a like-for-like unit check.",
+          "You prefer its green-community setting in Masdar City for your intended use.",
+          "You want Apartments · Townhouses across Studios–4 BR and a recorded 2024 handover."
+        ],
+        "project_b_title": "Choose The Gate Masdar City if"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Recorded starting prices are AED 663K for Plaza Masdar City and AED 500K for The Gate Masdar City. Both projects are in Masdar City, so location is less likely to be the main separator. Both record a similar property mix: Apartments · Townhouses. Recorded handover is 2025 for Plaza Masdar City and 2024 for The Gate Masdar City.",
+        "tags": [
+          "Recorded price gap",
+          "Same district",
+          "Recorded unit mix",
+          "Handover gap",
+          "Total cost check"
+        ],
+        "title": "Investment logic",
+        "eyebrow": "Decision layer"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/en/compare-projects/al-mahra-residence-vs-plaza-masdar-city/",
+            "meta": "Shared project",
+            "label": "Al Mahra Residence vs Plaza Masdar City",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/plaza-masdar-city-vs-plaza-phase-2/",
+            "meta": "Shared project",
+            "label": "Plaza Masdar City vs Plaza Phase 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/plaza-masdar-city-vs-royal-park/",
+            "meta": "Shared project",
+            "label": "Plaza Masdar City vs Royal Park",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/en/compare-projects/plaza-phase-2-vs-the-gate-masdar-city/",
+            "meta": "Shared project",
+            "label": "Plaza Phase 2 vs The Gate Masdar City",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "More project comparisons",
+        "eyebrow": "Explore next"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/en/projects/plaza-masdar-city/",
+            "meta": "Project A",
+            "label": "Plaza Masdar City project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/projects/the-gate-masdar-city/",
+            "meta": "Project B",
+            "label": "The Gate Masdar City project page",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/areas/masdar-city/",
+            "meta": "Area",
+            "label": "Masdar City area guide",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/en/developers/reportage-real-estate/",
+            "meta": "Developer",
+            "label": "Reportage Real Estate developer page",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Open the project pages",
+        "eyebrow": "Project routes"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Share these details to compare Plaza Masdar City and The Gate Masdar City against the same priorities. Recorded project information can narrow the choice, while exact units, current prices and availability still need a live check.",
+      "items": [
+        {
+          "meta": "AED range or maximum entry point",
+          "label": "Price range"
+        },
+        {
+          "meta": "Apartments / Townhouses",
+          "label": "Unit type"
+        },
+        {
+          "meta": "family home / second home / investment",
+          "label": "Buyer goal"
+        },
+        {
+          "meta": "current status or immediate purchase timing",
+          "label": "Timeline"
+        },
+        {
+          "meta": "plot / outdoor space / layout",
+          "label": "Key preference"
+        }
+      ],
+      "title": "AI compare inputs",
+      "eyebrow": "Useful details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "The stronger option depends on the buyer's priorities. The Gate Masdar City has the lower recorded starting point. Both record Apartment / Townhouse, although their bedroom ranges may differ. Recorded handover is 2025 for Plaza Masdar City and 2024 for The Gate Masdar City; the current status of any past-dated project should be confirmed. The better fit depends on your intended use and the exact unit available at the time of comparison.",
+          "question": "Which project may suit me better: Plaza Masdar City or The Gate Masdar City?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "The Gate Masdar City has the lower recorded starting price at AED 500K, compared with AED 663K for Plaza Masdar City. Compare the same unit type, size and current terms before treating the difference as like-for-like.",
+          "question": "Which project has the lower recorded starting price?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Plaza Masdar City and The Gate Masdar City are both in Masdar City and are linked to Reportage Real Estate. Because the area and developer are the same, compare the exact unit, layout, recorded starting price and handover timing rather than relying on the project names alone.",
+          "question": "How do Plaza Masdar City and The Gate Masdar City differ by location and developer?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Plaza Masdar City records Apartment / Townhouse, including studios to 4-bedroom homes. Plaza Masdar City has 2025 recorded as its handover year, so its current status should be confirmed. The Gate Masdar City records Apartment / Townhouse, including studios to 4-bedroom homes. The Gate Masdar City has 2024 recorded as its handover year, so its current status should be confirmed.",
+          "question": "What property types, bedroom ranges and handover years are recorded?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "For a fair comparison of Plaza Masdar City and The Gate Masdar City, verify the exact unit, current price, payment terms, total acquisition cost, layout, view, project status, handover and availability. Recorded project-level figures are useful for shortlisting, but they do not replace a live unit-level check.",
+          "question": "What should I verify before choosing between Plaza Masdar City and The Gate Masdar City?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Project questions",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Use this page as a starting point for comparing Plaza Masdar City and The Gate Masdar City. Recorded details may change and do not replace current developer documents or public records. Confirm live prices, available units, payment terms, floor plans, service charges, handover details and project status before making a decision.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Payment terms",
+          "value": "Check current documents"
+        },
+        {
+          "label": "Handover / status",
+          "value": "Confirm current status"
+        },
+        {
+          "label": "Content updated",
+          "value": "July 2026"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Both projects are in Masdar City and are linked to Reportage Real Estate. The Gate Masdar City has the lower recorded starting price at AED 500K versus AED 663K. Recorded handovers are 2025 and 2024; confirm any past-dated status.",
+      "title": "Want Plaza Masdar City and The Gate Masdar City compared for your case?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Project comparison enquiry form",
+      "text": "Share your preferences and contact details. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "error": "Please try again",
+      "title": "Compare Plaza Masdar City and The Gate Masdar City for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+      "eyebrow": "AI compare handoff",
+      "success": "Request sent",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Close",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971",
+        "comment": "Add any useful details"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__plaza-masdar-city__vs__the-gate-masdar-city__en",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Plaza Masdar City",
+        "project_a_slug": "plaza-masdar-city",
+        "project_b_name": "The Gate Masdar City",
+        "project_b_slug": "the-gate-masdar-city",
+        "canonical_url_path": "/en/compare-projects/plaza-masdar-city-vs-the-gate-masdar-city/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Send",
+        "error": "Please try again",
+        "success": "Request sent",
+        "submitting": "Sending…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Prepared request",
+        "value": "Compare these projects by unit type, view, current terms, timing and buyer goal.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI helps buyers compare projects, locations, developers and key decision factors before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Project comparison, connected to real buyer intent",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

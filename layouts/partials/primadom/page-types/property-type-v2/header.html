@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/property-type-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<header class="pt-header">
+  <div class="pt-header__inner">
+    <a class="pt-header__badge" href="{{ $t.header.brand_url }}" aria-label="{{ $t.header.brand }}">
+      <span class="pt-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $t.header.brand }}</span>
+    </a>
+
+    <nav class="pt-header__nav" aria-label="{{ $t.header.nav_aria }}">
+      {{ range $t.header.nav }}
+        <a class="pt-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pt-header__nav-link--ai{{ end }}" href="{{ .href }}">{{ .label }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="pt-header__right">
+      <a class="pt-header__cta" href="{{ $t.header.cta_url }}" data-open-property-type-lead>{{ $t.header.cta_label }}</a>
+    </div>
+  </div>
+</header>

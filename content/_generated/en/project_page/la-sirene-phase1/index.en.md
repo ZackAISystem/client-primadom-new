@@ -1,0 +1,10 @@
+---
+title: "La Sirene Phase1"
+layout: "primadom-project-page-v2"
+project_slug: "la-sirene-phase1"
+page_id: "page_project_la_sirene_phase1_en"
+url: "/en/projects/la-sirene-phase1/"
+build:
+  render: always
+  list: never
+---

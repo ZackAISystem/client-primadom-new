@@ -1,0 +1,635 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_comparison_downtown_jebel_ali_vs_jumeirah_village_circle_en",
+  "page_type_id": "district_comparison_page",
+  "language_code": "en",
+  "url_path": "/en/compare-areas/downtown-jebel-ali-vs-jumeirah-village-circle/",
+  "canonical_url_path": "/en/compare-areas/downtown-jebel-ali-vs-jumeirah-village-circle/",
+  "canonical_group_key": "district_comparison:downtown-jebel-ali:vs:jumeirah-village-circle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "downtown-jebel-ali",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_comparison_table",
+    "block_08_decision_cards",
+    "block_09_buyer_rental_logic",
+    "block_10_projects_by_area",
+    "block_11_related_comparisons",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#comparisonLeadModal",
+      "cta_label": "Compare my case",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#table",
+          "label": "Compare"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_generated",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Area comparison navigation",
+      "schema_version": "district_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "area_comparisons",
+          "href": "/en/compare-areas/",
+          "label": "UAE Area Comparisons"
+        },
+        {
+          "key": "comparison",
+          "href": "/en/compare-areas/downtown-jebel-ali-vs-jumeirah-village-circle/",
+          "label": "Downtown Jebel Ali vs Jumeirah Village Circle",
+          "label_ref": "comparison.name"
+        }
+      ],
+      "url_section": "compare-areas",
+      "block_status": "formula_generated",
+      "schema_version": "district_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Downtown Jebel Ali: emerging district",
+        "Jumeirah Village Circle: mixed residential community",
+        "Lifestyle and location",
+        "Property and project choice",
+        "Live details before shortlist"
+      ],
+      "title": "Downtown Jebel Ali vs Jumeirah Village Circle",
+      "area_a": {
+        "name": "Downtown Jebel Ali",
+        "slug": "downtown-jebel-ali",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "area_b": {
+        "name": "Jumeirah Village Circle",
+        "slug": "jumeirah-village-circle",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "kicker": "Area comparison",
+      "subtitle": "Compare Downtown Jebel Ali and Jumeirah Village Circle by lifestyle, location, property choice and projects.",
+      "facts_aria": "Comparison hero facts",
+      "visual_aria": "Split visual comparing Downtown Jebel Ali and Jumeirah Village Circle",
+      "block_status": "formula_generated_media_later",
+      "schema_version": "district_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "hints": [
+        "Family fit: Downtown Jebel Ali vs Jumeirah Village Circle",
+        "Rental income: Downtown Jebel Ali vs Jumeirah Village Circle",
+        "Budget options: Downtown Jebel Ali vs Jumeirah Village Circle"
+      ],
+      "ai_aria": "Ask Primadom AI to compare Downtown Jebel Ali and Jumeirah Village Circle",
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Ask AI",
+      "voice_text": "Compare Downtown Jebel Ali vs Jumeirah Village Circle",
+      "voice_label": "Voice search",
+      "block_status": "formula_generated",
+      "voice_status": "Listening…",
+      "ai_placeholder": "Compare Downtown Jebel Ali vs Jumeirah Village Circle",
+      "schema_version": "district_comparison_ai_compare_v1",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "Lifestyle fit",
+        "Budget fit",
+        "Property type",
+        "Rental goal"
+      ],
+      "title": "Quick verdict",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Downtown Jebel Ali</strong> may suit buyers seeking a newer, developing area; <strong>Jumeirah Village Circle</strong> may suit buyers seeking a mixed residential community. Compare budget, property type, commute and rental goals before choosing.",
+      "body_text": "Downtown Jebel Ali may suit buyers seeking a newer, developing area; Jumeirah Village Circle may suit buyers seeking a mixed residential community. Compare budget, property type, commute and rental goals before choosing.",
+      "body_source": "district_profile_buyer_phrases_v2",
+      "chip_source": "buyer_decision_axes",
+      "source_status": "profile_context_no_live_market_claims",
+      "schema_version": "district_comparison_quick_verdict_v1",
+      "summary_status": "profile_based_can_enrich_later"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Comparison type",
+          "value": "District comparison"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Area A",
+          "value": "Downtown Jebel Ali"
+        },
+        {
+          "label": "Area B",
+          "value": "Jumeirah Village Circle"
+        },
+        {
+          "label": "Area A profile",
+          "value": "Emerging district"
+        },
+        {
+          "label": "Area B profile",
+          "value": "Mixed residential community"
+        },
+        {
+          "label": "Area A projects",
+          "value": "4 tracked"
+        },
+        {
+          "label": "Area B projects",
+          "value": "214 tracked"
+        }
+      ],
+      "title": "Comparison details",
+      "eyebrow": "Key facts",
+      "block_status": "structured_data_generated",
+      "source_status": "structured_source_fields",
+      "schema_version": "district_comparison_facts_v1"
+    },
+    "block_07_comparison_table": {
+      "head": {
+        "area_a": "Downtown Jebel Ali",
+        "area_b": "Jumeirah Village Circle",
+        "factor": "Factor"
+      },
+      "rows": [
+        {
+          "area_a": "Budget-oriented positioning; verify current prices and charges.",
+          "area_b": "Mid-market positioning; verify current prices and charges.",
+          "factor": "Price level"
+        },
+        {
+          "area_a": "Urban, walkable lifestyle with daily amenities nearby.",
+          "area_b": "Suburban lifestyle; compare commute and daily amenities.",
+          "factor": "Lifestyle"
+        },
+        {
+          "area_a": "Limited tracked choice across 4 projects; verify live availability.",
+          "area_b": "Very broad choice across 214 tracked projects; verify live availability.",
+          "factor": "Project options"
+        },
+        {
+          "area_a": "Capital-growth screening; compare supply, quality and resale demand.",
+          "area_b": "Income-focused screening; compare tenant demand, charges and liquidity.",
+          "factor": "Investment"
+        },
+        {
+          "area_a": "Family suitability needs closer review; assess space, schools, noise and convenience.",
+          "area_b": "Potential family fit; verify kid-friendly amenities, schools and commute.",
+          "factor": "Family fit"
+        },
+        {
+          "area_a": "For rentals, compare demand, charges, unit quality and management costs.",
+          "area_b": "For rentals, compare tenant demand, charges, unit quality and liquidity.",
+          "factor": "Rental logic"
+        }
+      ],
+      "title": "Comparison table",
+      "eyebrow": "Downtown Jebel Ali vs Jumeirah Village Circle",
+      "table_status": "profile_enriched_structured",
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_table_v1"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "key": "entry_check",
+          "text": "Downtown Jebel Ali: Budget-oriented. Jumeirah Village Circle: Mid-market. Verify live prices, unit sizes and service charges.",
+          "title": "Budget-oriented vs mid-market positioning",
+          "eyebrow": "Entry check",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "lifestyle_fit",
+          "text": "Downtown Jebel Ali: Emerging district. Jumeirah Village Circle: Mixed residential community. Compare commute, amenities and daily routine.",
+          "title": "Emerging district vs mixed residential community",
+          "eyebrow": "Lifestyle fit",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "investment_logic",
+          "text": "Downtown Jebel Ali: capital-growth screening. Jumeirah Village Circle: income-focused screening. Compare costs, demand and resale liquidity.",
+          "title": "Capital growth vs income focus",
+          "eyebrow": "Investment logic",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Primadom AI can compare Downtown Jebel Ali and Jumeirah Village Circle by property type, lifestyle, timeline and buyer goal.",
+          "title": "Compare your exact case",
+          "eyebrow": "AI context",
+          "card_status": "ai_comparison_support"
+        }
+      ],
+      "cards_status": "profile_enriched_structured",
+      "source_status": "structured_comparison_inputs",
+      "schema_version": "district_comparison_decision_cards_v1",
+      "decision_cards_aria": "Decision difference notes"
+    },
+    "block_09_buyer_rental_logic": {
+      "buyer_types": {
+        "title": "Which area fits your case?",
+        "eyebrow": "Buyer fit",
+        "area_a_items": [
+          "You prefer an emerging district that fits your daily routine.",
+          "You are prepared to review space, schools, noise and convenience closely.",
+          "You want to compare 4 tracked projects for growth potential, quality and resale demand."
+        ],
+        "area_a_title": "Consider Downtown Jebel Ali if",
+        "area_b_items": [
+          "You prefer a mixed residential community that fits your daily routine.",
+          "You value kid-friendly amenities and will verify schools and commute.",
+          "You want to compare 214 tracked projects for rental income, tenant demand, charges and liquidity."
+        ],
+        "area_b_title": "Consider Jumeirah Village Circle if"
+      },
+      "block_status": "profile_enriched_structured",
+      "rental_logic": {
+        "body": "Downtown Jebel Ali: compare demand, service charges, unit quality and management costs. Jumeirah Village Circle: compare tenant demand, service charges, unit quality and liquidity. Verify unit-level data before deciding.",
+        "tags": [
+          "Tenant demand",
+          "Service charges",
+          "Unit quality",
+          "Management costs",
+          "Resale liquidity"
+        ],
+        "title": "Rental and resale logic",
+        "eyebrow": "Rental check"
+      },
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_buyer_rental_logic_v1"
+    },
+    "block_10_projects_by_area": {
+      "area_a": {
+        "items": [
+          {
+            "href": "/en/projects/alexis-tower/",
+            "meta": "project option",
+            "label": "Alexis Tower"
+          },
+          {
+            "href": "/en/projects/azizi-abraham/",
+            "meta": "project option",
+            "label": "Azizi Abraham"
+          },
+          {
+            "href": "/en/projects/azizi-arian/",
+            "meta": "project option",
+            "label": "Azizi Arian"
+          },
+          {
+            "href": "/en/areas/downtown-jebel-ali/",
+            "meta": "district guide",
+            "label": "Downtown Jebel Ali area guide"
+          }
+        ],
+        "title": "Projects in Downtown Jebel Ali",
+        "eyebrow": "First area"
+      },
+      "area_b": {
+        "items": [
+          {
+            "href": "/en/projects/10-oxford/",
+            "meta": "project option",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/en/projects/105-residences/",
+            "meta": "project option",
+            "label": "105 Residences"
+          },
+          {
+            "href": "/en/projects/1wood-residence/",
+            "meta": "project option",
+            "label": "1Wood Residence"
+          },
+          {
+            "href": "/en/areas/jumeirah-village-circle/",
+            "meta": "district guide",
+            "label": "Jumeirah Village Circle area guide"
+          }
+        ],
+        "title": "Projects in Jumeirah Village Circle",
+        "eyebrow": "Second area"
+      },
+      "source_status": "trusted_project_links_with_manual_exclusions",
+      "schema_version": "district_comparison_projects_by_area_v1",
+      "projects_status": "entity_linked_routes_structured"
+    },
+    "block_11_related_comparisons": {
+      "items": [
+        {
+          "href": "/en/compare-areas/downtown-jebel-ali-vs-dubai-islands/",
+          "label": "Downtown Jebel Ali vs Dubai Islands"
+        },
+        {
+          "href": "/en/compare-areas/downtown-jebel-ali-vs-dubai-south/",
+          "label": "Downtown Jebel Ali vs Dubai South"
+        },
+        {
+          "href": "/en/compare-areas/al-barari-vs-jumeirah-village-circle/",
+          "label": "Al Barari vs Jumeirah Village Circle"
+        },
+        {
+          "href": "/en/compare-areas/al-barsha-vs-jumeirah-village-circle/",
+          "label": "Al Barsha vs Jumeirah Village Circle"
+        }
+      ],
+      "title": "Related comparisons",
+      "eyebrow": "Explore next",
+      "source_status": "resolved_comparison_routes",
+      "related_status": "shared_area_priority_matched",
+      "schema_version": "district_comparison_related_v1"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Downtown Jebel Ali may suit buyers seeking a newer, developing area; Jumeirah Village Circle may suit buyers seeking a mixed residential community. Compare budget, property type, commute and rental goals before choosing.",
+          "question": "What is the main difference between Downtown Jebel Ali and Jumeirah Village Circle?",
+          "answer_status": "from_final_verdict"
+        },
+        {
+          "answer": "Downtown Jebel Ali: Budget-oriented positioning; verify current prices and charges. Jumeirah Village Circle: Mid-market positioning; verify current prices and charges. Check current prices, available units, payment terms and service charges before making a budget decision.",
+          "question": "How do Downtown Jebel Ali and Jumeirah Village Circle compare on price and budget fit?",
+          "answer_status": "from_final_price_comparison"
+        },
+        {
+          "answer": "Downtown Jebel Ali: For rentals, compare demand, charges, unit quality and management costs. Jumeirah Village Circle: For rentals, compare tenant demand, charges, unit quality and liquidity. Rental income should still be checked at unit and building level using current tenant demand, service charges, management costs and resale liquidity.",
+          "question": "Which area is better for rental income?",
+          "answer_status": "from_final_rental_comparison"
+        },
+        {
+          "answer": "Downtown Jebel Ali: Family suitability needs closer review; assess space, schools, noise and convenience. Jumeirah Village Circle: Potential family fit; verify kid-friendly amenities, schools and commute. The final choice should also reflect commute, schools or nurseries, home size, privacy, walkability, traffic and preferred daily routine.",
+          "question": "Which area is better for families and end use, Downtown Jebel Ali or Jumeirah Village Circle?",
+          "answer_status": "from_final_family_comparison"
+        },
+        {
+          "answer": "Yes. Primadom AI can compare Downtown Jebel Ali and Jumeirah Village Circle by budget, property type, lifestyle priorities, family needs, rental goal, preferred timeline and current project availability before the request goes to an advisor.",
+          "question": "Can Primadom AI compare Downtown Jebel Ali and Jumeirah Village Circle for my case?",
+          "answer_status": "system_capability"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Buyer questions",
+      "faq_status": "pair_specific_structured",
+      "source_status": "final_comparison_blocks",
+      "schema_version": "district_comparison_faq_v1"
+    },
+    "block_13_source_notes": {
+      "body": "Before choosing between Downtown Jebel Ali and Jumeirah Village Circle, confirm current prices, project availability, payment plans, handover status, service charges and rental assumptions against developer materials, relevant public records and current market checks.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Live check required"
+        },
+        {
+          "label": "Project status",
+          "value": "Official source required"
+        },
+        {
+          "label": "Rental assumptions",
+          "value": "Market and unit check"
+        },
+        {
+          "label": "Last reviewed",
+          "value": "Pending verification"
+        }
+      ],
+      "title": "Source check",
+      "eyebrow": "Verification",
+      "schema_version": "district_comparison_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "pending_source_verification",
+      "source_notes_status": "verification_notice_structured"
+    },
+    "block_14_cta": {
+      "text": "Compare Downtown Jebel Ali and Jumeirah Village Circle by lifestyle, property type, rental goal, timing and daily routine — then review current options with Primadom AI or an advisor.",
+      "title": "Which area fits your case better?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Ask Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#comparisonLeadModal",
+          "label": "Compare my case",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "area_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#comparisonLeadModal",
+          "label": "Request a call",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific_structured",
+      "schema_version": "district_comparison_cta_v1"
+    },
+    "block_15_lead_modal": {
+      "aria": "District comparison request form",
+      "note": "We will review the details before sharing your request.",
+      "text": "Tell us what matters most. Primadom AI will prepare a focused comparison before an advisor contacts you.",
+      "title": "Compare Downtown Jebel Ali and Jumeirah Village Circle for your case",
+      "fields": {
+        "name": "Name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Email optional",
+        "comment": "Request"
+      },
+      "submit": "Send",
+      "comment": "Compare these two areas for my property goals.",
+      "eyebrow": "Comparison request",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "comparisonLeadModal",
+      "title_id": "comparisonLeadTitle",
+      "close_label": "Close",
+      "ai_row_badge": "Request draft",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Your name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "budget": {
+          "label": "Email optional",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "comment": {
+          "label": "Request",
+          "html_name": "comment",
+          "placeholder": "What matters most to you?"
+        }
+      },
+      "modal_status": "pair_specific_structured",
+      "placeholders": {
+        "name": "Your name",
+        "phone": "+971...",
+        "budget": "email@example.com"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "area_a_name": {
+          "html_name": "area_a_name",
+          "value_ref": "area_a_name"
+        },
+        "area_a_slug": {
+          "html_name": "area_a_slug",
+          "value_ref": "area_a_slug"
+        },
+        "area_b_name": {
+          "html_name": "area_b_name",
+          "value_ref": "area_b_name"
+        },
+        "area_b_slug": {
+          "html_name": "area_b_slug",
+          "value_ref": "area_b_slug"
+        }
+      },
+      "success_label": "Sent",
+      "schema_version": "district_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Compare these two areas for my property goals.",
+        "html_name": "comment",
+        "request_scope": [
+          "area_fit",
+          "lifestyle_fit",
+          "property_type",
+          "rental_goal",
+          "timing",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "Use voice"
+    },
+    "block_16_footer": {
+      "text": "Compare Downtown Jebel Ali and Jumeirah Village Circle by lifestyle, property choice, rental logic and buyer fit, then continue with Primadom AI or an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Districts",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Compare areas with clearer property guidance.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "UAE property intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "url_section": "compare-areas",
+      "footer_status": "standard_footer_structured",
+      "schema_version": "district_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#comparisonLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Ask AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

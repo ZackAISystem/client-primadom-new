@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_origin_buyer_thailand_goal_property_under_aed_5m_en",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/dubai-property-under-aed-5m-for-thailand-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-property-under-aed-5m-for-thailand-buyers/",
+  "canonical_group_key": "origin:thailand:goal:property-under-aed-5m",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "thailand",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Can I buy?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "International buyer guide navigation",
+      "cta_label": "Get a consultation",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/dubai-property-under-aed-5m-for-thailand-buyers/",
+          "label": "Dubai property under AED 5M for Thai buyers"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "From Thailand",
+        "Under AED 5M",
+        "Budget fit",
+        "Property mix",
+        "Total costs"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Dubai property under AED 5M for Thai buyers",
+      "subtitle": "For buyers from Thailand with a budget under AED 5M, compare the property mix, districts, payment terms and total transaction costs before deciding where the budget works best.",
+      "facts_aria": "Key points for this buyer scenario",
+      "section_id": "overview",
+      "visual_aria": "Dubai property under AED 5M for Thai buyers property planning visual",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Compare Dubai property options within an AED 5M budget",
+        "Check property mix, payment terms and total transaction costs",
+        "Which districts offer stronger options within this budget"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Ask about your Dubai property plan",
+      "placeholder": "Compare Dubai property under AED 5M as a buyer from Thailand",
+      "block_status": "final",
+      "button_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Dubai property under AED 5M for Thai buyers",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Thai buyers",
+        "Under AED 5M",
+        "Property mix",
+        "Total costs",
+        "Current rules"
+      ],
+      "title": "Can Thai buyers buy property in Dubai?",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Yes — Thai buyers can generally buy property in Dubai</strong> in areas designated for foreign ownership, subject to current rules and property-specific checks. For a budget under AED 5M, compare the available property mix, districts, payment terms and total transaction costs before narrowing options.",
+      "body_text": "Yes — Thai buyers can generally buy property in Dubai in areas designated for foreign ownership, subject to current rules and property-specific checks. For a budget under AED 5M, compare the available property mix, districts, payment terms and total transaction costs before narrowing options.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Origin market",
+          "value": "Thailand"
+        },
+        {
+          "label": "Target market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Buyer goal",
+          "value": "Property under AED 5M"
+        },
+        {
+          "label": "Main focus",
+          "value": "Using an AED 5M budget effectively"
+        },
+        {
+          "label": "Key checks",
+          "value": "Property mix · district · total costs"
+        },
+        {
+          "label": "Ownership context",
+          "value": "Check current foreign ownership rules"
+        },
+        {
+          "label": "Decision stage",
+          "value": "Before reservation"
+        },
+        {
+          "label": "Next step",
+          "value": "Compare the property mix available within budget"
+        }
+      ],
+      "title": "Origin buyer details",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Define how much of the budget can go to the property itself after allowing for transaction and ownership costs.",
+            "title": "1. Set the all-in AED 5M budget"
+          },
+          {
+            "text": "If you plan to complete any steps from Thailand, confirm which parts can be handled remotely and whether additional authorisation or local action is needed.",
+            "title": "2. Plan the purchase route"
+          },
+          {
+            "text": "Confirm the identity information, buyer forms, payment source, transfer route and transaction-specific checks requested for the purchase.",
+            "title": "3. Confirm documents and payment route"
+          },
+          {
+            "text": "Re-check the property price, payment terms, transaction costs and unit details against the total budget before reservation.",
+            "title": "4. Re-check live terms before reservation"
+          }
+        ],
+        "title": "Remote purchase process",
+        "eyebrow": "Process logic"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Prepare valid identity and buyer information requested for the specific transaction.",
+            "title": "Passport and buyer details"
+          },
+          {
+            "text": "Keep current address and contact details ready if requested by the developer, bank or transaction process.",
+            "title": "Address and contact details"
+          },
+          {
+            "text": "Confirm the payment source, transfer route and any bank or compliance checks before sending funds.",
+            "title": "Payment source and transfer route"
+          },
+          {
+            "text": "Keep the property price and current transaction-cost inputs together when checking the AED 5M limit.",
+            "title": "AED 5M total-budget check"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Practical checklist"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Compare property price, transaction costs and payment timing before deciding how much budget should go into the asset.",
+          "title": "Use the AED 5M budget deliberately",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "dark": false,
+          "text": "If any steps are handled from Thailand, confirm payment route, signing, identity checks and any transaction-specific local action.",
+          "title": "Plan the cross-border execution",
+          "eyebrow": "Buying from Thailand"
+        },
+        {
+          "dark": false,
+          "text": "Compare property type, location, quality and total costs rather than assuming the higher-priced option is more suitable.",
+          "title": "More budget creates more trade-offs",
+          "eyebrow": "Budget check"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Use Primadom AI to compare the goal, budget, route and checks before speaking with an advisor.",
+          "title": "Turn the scenario into a clear comparison",
+          "eyebrow": "AI consultation"
+        }
+      ],
+      "cards_aria": "Key decisions for this buyer scenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Compare current property types, total costs and intended use within the overall budget.",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "Compare apartment options, building costs, payment terms and current pricing.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "Compare current units, building quality, service charges and total purchase cost.",
+            "title": "Dubai Marina"
+          },
+          {
+            "text": "Compare project and unit options, payment exposure and total transaction costs.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "District options"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "For buyers from Thailand focused on property under AED 5M, use the AED 5M budget to compare property mix, quality, location and total costs while checking current pricing before choosing.",
+        "tags": [
+          "Can buy?",
+          "AED 5M budget",
+          "Property mix",
+          "Total costs",
+          "Current pricing"
+        ],
+        "title": "Buyer concerns",
+        "eyebrow": "What to verify"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Open real project pages connected to the districts used for this buyer scenario, then verify current price, availability, payment terms and unit fit before relying on an option.",
+        "items": [
+          {
+            "href": "/en/projects/399-hills-park/",
+            "meta": "Dubai Hills Estate",
+            "label": "399 Hills Park"
+          },
+          {
+            "href": "/en/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/en/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/en/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/en/projects/address-hillcrest/",
+            "meta": "Dubai Hills Estate",
+            "label": "Address Hillcrest"
+          }
+        ],
+        "title": "Projects to verify",
+        "eyebrow": "Project options",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "If UAE residency is part of your plan, verify current Golden Visa criteria separately from the property decision. A project appearing in this list does not imply visa eligibility.",
+        "tags": [
+          "Separate check",
+          "Current criteria",
+          "Property value",
+          "Ownership status",
+          "Payment status"
+        ],
+        "title": "Keep visa eligibility separate",
+        "eyebrow": "Visa review",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/dubai-investment-property-for-thailand-buyers/",
+          "label": "Dubai investment property for Thai buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-apartments-for-thailand-buyers/",
+          "label": "Dubai apartments for Thai buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-property-for-thailand-buyers/",
+          "label": "Dubai property for Thai buyers"
+        },
+        {
+          "href": "/en/buyer-scenarios/dubai-family-relocation-property-for-thailand-buyers/",
+          "label": "Dubai family relocation property for Thai buyers"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Related origin pages",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Thai buyers can generally buy property in Dubai in designated freehold areas, subject to current rules and the specific property. For Dubai property within an AED 5M budget, compare property mix, quality, location, current pricing and total transaction costs within the full budget.",
+          "question": "Can Thai buyers buy Dubai property with an AED 5M budget?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Use AED 5M as a total purchase framework rather than only a listing-price filter. Compare property quality, location, transaction costs and payment structure before deciding where the budget creates the strongest fit.",
+          "question": "What should Thai buyers check first when considering Dubai property within an AED 5M budget?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "For this scenario, compare Dubai Hills Estate, Business Bay, Dubai Marina and Dubai Creek Harbour. These are starting points rather than a ranking; check the exact property and practical fit before deciding.",
+          "question": "Which Dubai districts should Thai buyers compare for Dubai property within an AED 5M budget?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "When coordinating the purchase from Thailand, map out who will sign, how funds will be transferred, which identity checks apply and whether any step needs local action. Confirm the route for the specific transaction before committing funds.",
+          "question": "What should Thai buyers verify when arranging a Dubai purchase from Thailand?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "No. Treat AED 5M as an all-in search limit and verify current unit price, payment terms and transaction costs before deciding whether a project fits the budget.",
+          "question": "Does a project shown on this page mean it is currently under AED 5M?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Origin buyer questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "For Thai buyers considering Dubai property within an AED 5M budget, this page separates buyer guidance from claims that still require external verification. Ownership rules and cross-border transaction steps should be checked against relevant official guidance. Current unit price, payment terms and total transaction costs should also be checked live before treating an option as within budget.",
+      "items": [
+        {
+          "label": "Ownership rules",
+          "value": "Official verification pending"
+        },
+        {
+          "label": "Cross-border process",
+          "value": "Case-specific verification"
+        },
+        {
+          "label": "Budget fit",
+          "value": "Live price check required"
+        },
+        {
+          "label": "Price / availability",
+          "value": "Live project check required"
+        },
+        {
+          "label": "Source status",
+          "value": "Source review pending"
+        }
+      ],
+      "title": "Verification notes",
+      "eyebrow": "Source notes",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "For Thai buyers, compare property mix, quality and location against the full AED 5M budget, then verify current price and payment terms.",
+      "title": "Searching for Dubai property under AED 5M from Thailand?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Review my plan",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Origin buyer consultation form",
+      "text": "For Thai buyers, share your preferred property type, location and purchase priorities. Primadom AI will prepare the budget context before current prices and terms are checked.",
+      "title": "Review your Dubai property plan under AED 5M from Thailand",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Review my Dubai AED 5M budget from Thailand",
+      "eyebrow": "Property plan review",
+      "success": "Sent",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Close",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps Thai buyers compare property mix, quality and location against the full AED 5M budget before checking current price and payment terms.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Dubai property under AED 5M for Thai buyers",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI social links",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Ask AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

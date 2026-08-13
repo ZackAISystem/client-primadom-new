@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_waterfront_lifestyle_buyer_al_marjan_island_en",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "en",
+  "url_path": "/en/buyer-scenarios/waterfront-lifestyle-buyer-in-al-marjan-island/",
+  "canonical_url_path": "/en/buyer-scenarios/waterfront-lifestyle-buyer-in-al-marjan-island/",
+  "canonical_group_key": "scenario_district:waterfront_lifestyle_buyer:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Process",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Buyer scenario navigation",
+      "cta_label": "Check scenario",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/en/buyer-scenarios/",
+          "label": "Buyer scenarios"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/en/buyer-scenarios/waterfront-lifestyle-buyer-in-al-marjan-island/",
+          "label": "Waterfront Lifestyle Buyer in Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Waterfront lifestyle",
+        "Al Marjan Island",
+        "Apartments · Villas · Penthouses",
+        "AED 5M+",
+        "Access · privacy · upkeep"
+      ],
+      "image": {
+        "alt": "Waterfront Lifestyle Buyer in Al Marjan Island property search",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Waterfront Lifestyle Buyer in Al Marjan Island",
+      "subtitle": "A waterfront-lifestyle brief in Al Marjan Island needs shoreline access, property type, privacy, amenities, upkeep and current options to be verified.",
+      "facts_aria": "Buyer scenario highlights",
+      "section_id": "overview",
+      "visual_aria": "Waterfront Lifestyle Buyer in Al Marjan Island property search visual",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Compare waterfront lifestyle options in Al Marjan Island",
+        "Check shoreline access, privacy and upkeep",
+        "What current options need verification?"
+      ],
+      "ai_aria": "Ask Primadom AI about Waterfront Lifestyle Buyer in Al Marjan Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Compare waterfront lifestyle options in Al Marjan Island",
+      "placeholder": "Compare waterfront lifestyle options in Al Marjan Island",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Waterfront lifestyle",
+        "Al Marjan Island",
+        "Home types",
+        "Access · privacy · upkeep",
+        "Ask AI"
+      ],
+      "title": "What matters most",
+      "eyebrow": "Buyer guidance",
+      "body_html": "<strong>For a waterfront-lifestyle purchase in Al Marjan Island</strong>, confirm the specific property’s relationship to the waterfront before treating it as a deciding factor. Access, privacy, home type, amenities, upkeep and ownership costs should be compared together.",
+      "body_text": "For a waterfront-lifestyle purchase in Al Marjan Island, confirm the specific property’s relationship to the waterfront before treating it as a deciding factor. Access, privacy, home type, amenities, upkeep and ownership costs should be compared together.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scenario",
+          "value": "Waterfront Lifestyle Buyer"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Waterfront lifestyle"
+        },
+        {
+          "label": "Location",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Property focus",
+          "value": "Apartments · Villas · Penthouses"
+        },
+        {
+          "label": "Budget frame",
+          "value": "AED 5M+"
+        },
+        {
+          "label": "Decision focus",
+          "value": "Access · privacy · upkeep"
+        },
+        {
+          "label": "Buyer stage",
+          "value": "Lifestyle comparison"
+        },
+        {
+          "label": "Next step",
+          "value": "Verify waterfront fit"
+        }
+      ],
+      "title": "Scenario details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who this page is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Buyers assuming all waterfront communities deliver the same lifestyle",
+          "Buyers choosing only for the view or project positioning",
+          "Buyers ignoring access, upkeep or recurring ownership costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Lifestyle buyers considering Al Marjan Island and prepared to verify how the specific property connects to the waterfront",
+          "Buyers balancing privacy, outdoor use and daily access with the lifestyle premium",
+          "Buyers who want the location to work as an everyday home rather than only as an image"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "For Al Marjan Island, start with how the waterfront setting affects everyday use of the home. Check the specific property's access and surroundings, then compare privacy, outdoor space, travel patterns, upkeep and ownership costs before deciding how much of a lifestyle premium is justified.",
+        "tags": [
+          "Waterfront fit",
+          "Privacy",
+          "Outdoor access",
+          "Upkeep",
+          "Ownership cost"
+        ],
+        "title": "What to consider",
+        "eyebrow": "Decision logic"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "When comparing waterfront homes in Al Marjan Island, judge the area by actual access to the water, privacy, outdoor use and the buyer's daily routine.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Compare other areas if they offer a better balance of waterfront use, travel pattern and ownership cost.",
+            "title": "Compare alternatives"
+          },
+          {
+            "text": "The setting should improve how the home is used day to day, not simply provide a waterfront label.",
+            "title": "Everyday waterfront use"
+          },
+          {
+            "text": "Before narrowing the area, verify the property's access and surroundings and compare upkeep with the lifestyle value.",
+            "title": "Before narrowing down"
+          }
+        ],
+        "title": "District context",
+        "eyebrow": "Relevant districts"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Useful when waterfront access and easier upkeep matter more than private outdoor space.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Relevant when privacy and outdoor use justify higher ownership and maintenance costs.",
+            "title": "Villas"
+          },
+          {
+            "text": "Worth comparing when views, privacy and larger layouts are central to the lifestyle objective.",
+            "title": "Penthouses"
+          },
+          {
+            "text": "Ready homes make the setting easier to inspect; off-plan requires more caution around delivery and final surroundings.",
+            "title": "Ready vs off-plan"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property fit"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Compare the extra cost of waterfront positioning with ongoing ownership and maintenance so lifestyle value is not judged from the purchase price alone.",
+          "title": "Budget for the lifestyle premium and upkeep",
+          "eyebrow": "Budget logic"
+        },
+        {
+          "text": "In Al Marjan Island, verify actual access and surroundings, then compare privacy, outdoor use, travel pattern and upkeep.",
+          "title": "Start with how the waterfront changes daily life",
+          "eyebrow": "Process notes"
+        },
+        {
+          "text": "A property may carry waterfront positioning without giving the buyer the access, privacy or outdoor experience expected from the lifestyle.",
+          "title": "Waterfront branding can overstate everyday value",
+          "eyebrow": "Risks"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare waterfront options in Al Marjan Island after access and surroundings are checked, alongside privacy, outdoor use, upkeep and ownership costs.",
+          "title": "Compare waterfront homes by real use",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Scenario decision notes",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "For a purchase in Al Marjan Island, the main risks are buying the waterfront label rather than the actual experience, overlooking privacy or daily travel, underestimating ownership costs, or choosing a property whose surroundings do not support the lifestyle the buyer expects.",
+        "tags": [
+          "Access",
+          "Privacy",
+          "Outdoor use",
+          "Upkeep",
+          "Daily travel"
+        ],
+        "title": "Risks",
+        "eyebrow": "Check before buying"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Decide whether the buyer values direct access, views, outdoor use, privacy or simply proximity to the water before comparing properties.",
+            "title": "Define the lifestyle the location must support"
+          },
+          {
+            "text": "Check what the property actually connects to and how the surrounding environment works instead of relying on waterfront branding alone.",
+            "title": "Verify access and surroundings"
+          },
+          {
+            "text": "In Al Marjan Island, compare waterfront access and privacy with regular travel, daily needs and the way the buyer expects to use the home.",
+            "title": "Test the location against everyday life"
+          },
+          {
+            "text": "Include recurring costs and maintenance that may come with the specific building, home type or waterfront setting.",
+            "title": "Budget for ongoing ownership"
+          }
+        ],
+        "title": "Documents / process notes",
+        "eyebrow": "Practical layer"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/costa-mare/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Costa Mare"
+          },
+          {
+            "href": "/en/projects/moonstone-residences-interiors/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "Moonstone Residences Interiors"
+          },
+          {
+            "href": "/en/projects/playa-del-sol/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Playa Del Sol"
+          },
+          {
+            "href": "/en/projects/playa-del-sol-phase-2/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Playa Del Sol Phase 2"
+          },
+          {
+            "href": "/en/projects/w-hotel-residences/",
+            "meta": "Dalands · Al Marjan Island",
+            "label": "W Hotel & Residences"
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "A lifestyle-led purchase still needs room for the cost of owning and maintaining the home. Purchase costs, furnishing and recurring ownership expenses should stay visible so the waterfront setting does not become the only factor shaping the budget.",
+        "tags": [
+          "Purchase price",
+          "Purchase costs",
+          "Ownership costs",
+          "Furnishing",
+          "Cash buffer"
+        ],
+        "title": "Budget logic",
+        "eyebrow": "Scenario budget"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/en/buyer-scenarios/waterfront-apartment-buyer-in-al-marjan-island/",
+          "label": "Waterfront Apartment Buyer in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/luxury-sea-view-buyer-aed-10m-plus-in-al-marjan-island/",
+          "label": "Luxury Sea View Buyer AED 10M+ in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/international-second-home-near-the-beach-in-al-marjan-island/",
+          "label": "International Second Home Near the Beach in Al Marjan Island"
+        },
+        {
+          "href": "/en/buyer-scenarios/second-home-buyer-in-al-marjan-island/",
+          "label": "Second Home Buyer in Al Marjan Island"
+        }
+      ],
+      "title": "Related scenarios",
+      "eyebrow": "Explore next",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "For a waterfront lifestyle purchase in Al Marjan Island, test the lifestyle against everyday use. Access, privacy, travel, usable outdoor areas and recurring ownership costs should justify the premium.",
+          "question": "How should I assess a waterfront lifestyle property in Al Marjan Island?"
+        },
+        {
+          "answer": "This search suits buyers in Al Marjan Island who will use the waterfront setting as part of daily or regular life rather than treating it mainly as a marketing feature.",
+          "question": "Who may value a waterfront lifestyle property in Al Marjan Island?"
+        },
+        {
+          "answer": "Check the property's exact position, waterfront access, privacy, daily travel, community facilities, recurring charges and condition or delivery status before choosing in Al Marjan Island.",
+          "question": "What should I verify about access, surroundings and everyday use in Al Marjan Island?"
+        },
+        {
+          "answer": "Keep the AED 5M+ property budget in Al Marjan Island separate from transaction costs, furnishing or fit-out and the recurring costs attached to the community and property type.",
+          "question": "How should I budget for a waterfront lifestyle purchase in Al Marjan Island?"
+        },
+        {
+          "answer": "The main risk in Al Marjan Island is paying for a lifestyle premium that works well on occasional visits but becomes inconvenient, costly or less private in everyday use.",
+          "question": "What are the main risks of a waterfront lifestyle purchase in Al Marjan Island?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Scenario questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "For a waterfront lifestyle purchase in Al Marjan Island, confirm how the specific property connects to the setting before paying for the label. Actual access, privacy, everyday travel, ownership costs and property status should all support the intended use.",
+      "items": [
+        {
+          "label": "Waterfront access",
+          "value": "Verify the real connection"
+        },
+        {
+          "label": "Privacy / setting",
+          "value": "Check the actual property"
+        },
+        {
+          "label": "Ownership costs",
+          "value": "Confirm current charges"
+        },
+        {
+          "label": "Daily practicality",
+          "value": "Test it before buying"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "What to verify",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compare the specific property in Al Marjan Island around waterfront access, privacy, everyday practicality and ownership costs before deciding how much of a lifestyle premium makes sense. Primadom AI can help organise the decision before you review options.",
+      "title": "Looking for a waterfront home that works beyond the view?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Review options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Buyer scenario enquiry form",
+      "text": "Share the access, privacy, everyday-use and ownership-cost priorities that matter while comparing waterfront homes around Al Marjan Island. This gives the advisor useful context before the conversation.",
+      "title": "Check your waterfront lifestyle search",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Help me compare waterfront homes for everyday living",
+      "eyebrow": "AI scenario handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email address",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compare waterfront homes in Al Marjan Island through access, privacy, everyday practicality and ownership costs before paying a lifestyle premium.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Balance waterfront appeal with everyday practicality",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

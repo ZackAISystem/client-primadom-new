@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_apartments_aed_25m_plus_al_furjan_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/apartments-aed-25m-plus-in-al-furjan/",
+  "canonical_url_path": "/en/budgets/apartments-aed-25m-plus-in-al-furjan/",
+  "canonical_group_key": "property_budget_district:apartments:aed_25m_plus:al-furjan",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-furjan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "property_type",
+          "href": "/en/property-types/apartments/",
+          "label": "Apartments"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/al-furjan/",
+          "label": "Al Furjan"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/apartments-aed-25m-plus-in-al-furjan/",
+          "label": "Apartments for AED 25M+ in Al Furjan"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 25M+",
+        "Al Furjan",
+        "Apartments",
+        "Project starting prices below range",
+        "Compare premium specifications"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Apartments from AED 25M in Al Furjan",
+      "subtitle": "Project entry points for apartments in Al Furjan sit below the AED 25M threshold; use the higher budget to compare larger layouts, positions, specifications and pricing.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Apartments from AED 25M in Al Furjan",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compare apartments in Al Furjan by budget fit, layout, delivery profile and total costs. Current prices and availability require a project check.",
+      "hints": [
+        "Which apartment projects fit this budget?",
+        "What does the higher budget unlock?",
+        "What ownership costs should I expect?"
+      ],
+      "title": "Check apartments from AED 25M in Al Furjan",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Assess realistic options for apartments in Al Furjan from AED 25M. Use project entry prices as orientation, compare layouts, locations and delivery profiles, and confirm exact unit prices before shortlisting.",
+        "Explain what a higher budget may add for apartments in Al Furjan: larger layouts, stronger positions, upgraded specifications, views, facilities and lower compromise on location.",
+        "Outline the main purchase and ownership cost categories for apartments in Al Furjan from AED 25M, without assuming current fees, incentives or availability."
+      ],
+      "hint_items": [
+        {
+          "label": "Which apartment projects fit this budget?",
+          "prompt": "Assess realistic options for apartments in Al Furjan from AED 25M. Use project entry prices as orientation, compare layouts, locations and delivery profiles, and confirm exact unit prices before shortlisting."
+        },
+        {
+          "label": "What does the higher budget unlock?",
+          "prompt": "Explain what a higher budget may add for apartments in Al Furjan: larger layouts, stronger positions, upgraded specifications, views, facilities and lower compromise on location."
+        },
+        {
+          "label": "What ownership costs should I expect?",
+          "prompt": "Outline the main purchase and ownership cost categories for apartments in Al Furjan from AED 25M, without assuming current fees, incentives or availability."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask about apartments from AED 25M in Al Furjan",
+      "placeholder": "Ask about apartments from AED 25M in Al Furjan",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 25M+",
+        "Al Furjan",
+        "Apartments",
+        "Starting prices below range",
+        "Compare larger layouts"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>Recorded project starting prices for apartments in Al Furjan are below the AED 25M threshold.</strong> Compare layout efficiency, usable area, floor and view, completion profile, service charges, payment terms and total ownership costs. Use the additional budget to compare larger layouts, stronger views or better unit positions. Treat starting prices as orientation only and confirm exact unit pricing, incentives, payment terms and availability before shortlisting.</p>",
+      "body_text": "Recorded project starting prices for apartments in Al Furjan are below the AED 25M threshold. Compare layout efficiency, usable area, floor and view, completion profile, service charges, payment terms and total ownership costs. Use the additional budget to compare larger layouts, stronger views or better unit positions. Treat starting prices as orientation only and confirm exact unit pricing, incentives, payment terms and availability before shortlisting.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 25M+"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "Al Furjan"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Apartments"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "Starting prices below threshold"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Layout vs unit position"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Larger layouts"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Recorded starting prices sit below this budget band; compare larger or upgraded units.",
+            "title": "Al Furjan"
+          },
+          {
+            "text": "5 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Palm Jumeirah"
+          },
+          {
+            "text": "1 project has a recorded starting price in this budget; verify the exact unit and live availability.",
+            "title": "Al Warsan"
+          },
+          {
+            "text": "1 project has a recorded starting price in this budget; verify the exact unit and live availability.",
+            "title": "The World Islands"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "This page targets this property type, but no recorded project starting price currently falls inside the budget.",
+            "title": "Apartments"
+          },
+          {
+            "text": "2 projects have recorded starting prices in the wider market; verify this format in Al Furjan.",
+            "title": "Waterfront Apartments"
+          },
+          {
+            "text": "A wider-market format to verify if options in Al Furjan are limited.",
+            "title": "Branded Residences"
+          },
+          {
+            "text": "A wider-market format to verify if options in Al Furjan are limited.",
+            "title": "Luxury Apartments"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "Recorded starting prices for apartments in Al Furjan sit below AED 25M+. Decide whether paying more improves the layout, position or specification, then check the full payment schedule.",
+          "title": "Spend above the entry point deliberately",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "Within Al Furjan, compare usable layout with floor, orientation, view and proximity to noise or shared facilities.",
+          "title": "The plan works only if the position does",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For apartments in Al Furjan, allow for registration, service charges, furnishing, parking or storage, cooling where applicable and routine maintenance.",
+          "title": "Recurring charges deserve an early check",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "No named project in the current data matches apartments in Al Furjan from AED 25M upward. Use the district guide and live search below to refine the shortlist.",
+        "items": [
+          {
+            "href": "/en/areas/al-furjan/",
+            "meta": "district guide",
+            "label": "Explore more projects in Al Furjan",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for apartments in Al Furjan",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "range check",
+            "label": "Compare projects just below the budget threshold",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "decision check",
+            "label": "Review payment exposure and purchase timing",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Project search paths",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to a different property type and unwilling to compare this format",
+          "Buyers who need a ready-made list of named projects without adjusting the current search criteria",
+          "Buyers unwilling to account for service charges, furnishing and handover costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing apartments in Al Furjan from AED 25M upward",
+          "Buyers evaluating usable layout, floor, orientation and view as one decision",
+          "Buyers prepared to refine the area, property type or budget before requesting live options"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "For apartments in Al Furjan with a budget of AED 25M or more, price sets a boundary, but the exact property still depends on which features matter most. Usable layout, floor, orientation and view should be compared together; a larger headline size does not automatically create a better home. No named project currently meets the full brief. Check whether a larger layout exists in the preferred area before moving to a higher budget or another district.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Layout & position",
+          "Building costs",
+          "Live search",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The asking price is only part of the cash requirement for apartments in Al Furjan. Confirm the costs attached to the exact unit and transaction before reserving.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Dubai purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Review building service charges, cooling arrangements, shared facilities and maintenance responsibilities for the exact unit.",
+            "title": "Service charges and building upkeep"
+          },
+          {
+            "text": "Plan separately for snagging, furnishing, utilities, moving and any costs due around handover or completion.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/apartments-aed-10m-25m-in-al-furjan/",
+          "label": "Apartments AED 10M–25M in Al Furjan",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/apartments-aed-5m-10m-in-al-furjan/",
+          "label": "Apartments AED 5M–10M in Al Furjan",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-25m-plus-in-al-furjan/",
+          "label": "Property from AED 25M in Al Furjan",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/luxury-apartments-aed-25m-plus-in-al-furjan/",
+          "label": "Luxury Apartments from AED 25M in Al Furjan",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "No named project currently matches the search for apartments in Al Furjan from AED 25M upward in the recorded data. Compare adjacent budget bands, nearby property types or a wider location search, then request a live check before treating any option as available.",
+          "question": "Which apartments can buyers realistically compare in Al Furjan from AED 25M upward?"
+        },
+        {
+          "answer": "For apartments in Al Furjan from AED 25M upward, the current project signal is starting prices below threshold, while the main trade-off is layout vs unit position. This page targets this property type, but no recorded project starting price currently falls inside the budget. The next useful check is larger layouts.",
+          "question": "What is the main trade-off for apartments in Al Furjan from AED 25M upward?"
+        },
+        {
+          "answer": "The asking price is only part of the cash requirement for apartments in Al Furjan. Confirm the costs attached to the exact unit and transaction before reserving. For apartments in Al Furjan from AED 25M upward, check registration and transaction costs, financing and valuation costs, service charges and building upkeep, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for apartments in Al Furjan from AED 25M upward?"
+        },
+        {
+          "answer": "For apartments in Al Furjan from AED 25M upward, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for apartments in Al Furjan from AED 25M upward?"
+        },
+        {
+          "answer": "For apartments in Al Furjan from AED 25M upward, Primadom AI can widen one constraint at a time—budget, location, property type, size or completion timing—while keeping buyer goals and total cash exposure visible. Any resulting projects still require live verification of unit prices, terms and availability.",
+          "question": "How can Primadom AI refine a search for apartments in Al Furjan from AED 25M upward?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for apartments in Al Furjan from AED 25M upward are not live inventory. Confirm current unit price and availability, payment schedule, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "Unit / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare apartments in Al Furjan from AED 25M upward by current price, unit fit, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check apartments in Al Furjan, AED 25M+, for me.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 25M+",
+          "default_value": "AED 25M+"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check apartments in Al Furjan, AED 25M+, for me."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 25M+",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_apartments_aed_25m_plus_al_furjan_en",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 25M+",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "from AED 25M upward",
+        "district_name": "Al Furjan",
+        "canonical_url_path": "/en/budgets/apartments-aed-25m-plus-in-al-furjan/",
+        "content_version_id": "da9bcc12-f26c-436f-8ab4-71129642977e",
+        "property_type_name": "Apartments"
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore apartments in Al Furjan from AED 25M upward by current price, payment plan, total cost and project fit before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/apartments-aed-25m-plus-in-al-furjan/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "schema_version": "origin_buyer_page.v1",
+  "page_type": "origin_buyer_page",
+  "parent_page_type": "buyer_scenario_page",
+  "origin_buyer_slug": "dubai-property-for-indian-buyers",
+  "entity_type": "Country / Origin Buyer Page",
+  "country": "UAE",
+  "city": "Dubai",
+  "origin_market": "India",
+  "target_market": "Dubai / UAE",
+  "canonical_url": "/en/primadom/origin-buyer-page/",
+  "source_language": "en",
+  "translation_targets": [],
+  "i18n": {
+    "en": {
+      "seo": {
+        "title": "Dubai Property for Indian Buyers — Primadom AI",
+        "description": "AI-readable country/origin buyer page for Indian buyers looking at Dubai property, with purchase eligibility, remote process, documents, payment logic, districts, concerns, Golden Visa logic, recommended projects, FAQ and Primadom AI consultation.",
+        "canonical": "https://primadom.ai/en/dubai-property-for-indian-buyers/"
+      },
+      "schema": {
+        "recommended_options_name": "Recommended Dubai property options for Indian buyers"
+      },
+      "header": {
+        "brand": "Primadom AI",
+        "brand_url": "/en/",
+        "cta_label": "Get consultation",
+        "cta_url": "#originBuyerLeadModal",
+        "nav_aria": "Origin buyer navigation",
+        "nav": [
+          {
+            "label": "Can buy",
+            "href": "#answer",
+            "active": true
+          },
+          {
+            "label": "Process",
+            "href": "#process",
+            "active": false
+          },
+          {
+            "label": "Districts",
+            "href": "#districts",
+            "active": false
+          },
+          {
+            "label": "AI consult",
+            "href": "#origin-ai",
+            "active": false,
+            "ai": true
+          }
+        ]
+      },
+      "hero": {
+        "breadcrumbs_aria": "Breadcrumb",
+        "visual_aria": "Dubai property for Indian buyers visual",
+        "breadcrumbs": [
+          {
+            "label": "Home",
+            "href": "/en/"
+          },
+          {
+            "label": "Buyer Scenarios",
+            "href": "/en/buyer-scenarios/"
+          },
+          {
+            "label": "Indian Buyers",
+            "href": "/en/dubai-property-for-indian-buyers/"
+          }
+        ],
+        "image": {
+          "src": "/img/primadom/origin-buyers/dubai-property-for-indian-buyers.svg",
+          "alt": "Dubai property for Indian buyers with skyline waterfront homes and remote purchase concept"
+        },
+        "kicker": "Country / origin buyer page · Scenario subtype",
+        "title": "Dubai property for Indian buyers",
+        "subtitle": "A compact AI-readable origin-buyer page for Indian buyers comparing Dubai property, remote purchase, documents, payment logic, Golden Visa intent, districts, concerns and project shortlists.",
+        "facts_aria": "Origin buyer hero facts",
+        "facts": [
+          "Origin market: India",
+          "Buyer scenario subtype",
+          "Remote process",
+          "Payment + document check",
+          "AI consultation"
+        ],
+        "ai_aria": "Ask Primadom AI for Indian buyer consultation",
+        "ai_badge": "Primadom AI",
+        "ai_placeholder": "Check my Dubai property options as an Indian buyer",
+        "voice_label": "Voice search",
+        "ai_submit": "Ask AI"
+      },
+      "can_buy": {
+        "eyebrow": "Direct answer",
+        "title": "Can Indian buyers buy?",
+        "body_html": "<strong>Indian buyers can generally buy property in Dubai</strong> in designated freehold areas, subject to current ownership rules, buyer documents, project status and payment checks. The best next step is to match budget, purchase route, district, property type and visa goal before reserving a unit.",
+        "body_text": "Indian buyers can generally buy property in Dubai in designated freehold areas, subject to current ownership rules, buyer documents, project status and payment checks.",
+        "chips": [
+          "Origin buyer page",
+          "Buyer scenario subtype",
+          "Indian buyers",
+          "Remote purchase",
+          "AI consultation"
+        ]
+      },
+      "facts": {
+        "eyebrow": "Key facts",
+        "title": "Origin buyer details",
+        "items": [
+          {
+            "label": "Origin market",
+            "value": "India"
+          },
+          {
+            "label": "Target market",
+            "value": "Dubai / UAE"
+          },
+          {
+            "label": "Page type",
+            "value": "Country / Origin Buyer Page"
+          },
+          {
+            "label": "Parent type",
+            "value": "Buyer Scenario Page"
+          },
+          {
+            "label": "Main intent",
+            "value": "Can I buy + how?"
+          },
+          {
+            "label": "Key checks",
+            "value": "Documents · payment · remote process"
+          },
+          {
+            "label": "Best next step",
+            "value": "AI consultation"
+          },
+          {
+            "label": "Last checked",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "remote_process": {
+        "eyebrow": "Process logic",
+        "title": "Remote purchase process",
+        "items": [
+          {
+            "title": "1. Define buyer goal and budget",
+            "text": "Investment, relocation, rental income, Golden Visa, second home or capital preservation."
+          },
+          {
+            "title": "2. Verify purchase route",
+            "text": "Check if the buyer will visit Dubai, reserve remotely, use POA or complete steps through developer/advisor process."
+          },
+          {
+            "title": "3. Prepare documents and payment route",
+            "text": "Confirm passport, buyer forms, source-of-funds checks, payment route and developer/bank requirements."
+          },
+          {
+            "title": "4. Reserve only after live checks",
+            "text": "Check current availability, payment plan, project status, handover, fees and legal/admin steps."
+          }
+        ]
+      },
+      "documents": {
+        "eyebrow": "Practical checklist",
+        "title": "Documents",
+        "items": [
+          {
+            "title": "Passport and buyer details",
+            "text": "Usually the first layer for reservation and identity checks."
+          },
+          {
+            "title": "Proof of address / contact details",
+            "text": "May be required depending on developer, bank or transaction process."
+          },
+          {
+            "title": "Payment source and transfer route",
+            "text": "Important for compliance, banking and clean transaction flow."
+          },
+          {
+            "title": "POA / remote authorization if needed",
+            "text": "Remote completion can require additional legal steps, depending on the route."
+          }
+        ]
+      },
+      "decision_cards_aria": "Origin buyer decision notes",
+      "decision_cards": [
+        {
+          "eyebrow": "Payment logic",
+          "title": "Model total cash exposure",
+          "text": "Check down payment, DLD fees, transfer route, installments and currency movement before reserving."
+        },
+        {
+          "eyebrow": "Buyer concerns",
+          "title": "Remote trust and verification",
+          "text": "Origin buyers need clear checks for developer, project status, escrow, availability and documents."
+        },
+        {
+          "eyebrow": "Golden Visa logic",
+          "title": "Visa goal needs separate check",
+          "text": "Do not assume eligibility; match property value, ownership structure and current visa criteria."
+        },
+        {
+          "eyebrow": "AI context",
+          "title": "Origin + budget + goal",
+          "text": "Primadom AI can map country-specific concerns into a Dubai property shortlist.",
+          "dark": true
+        }
+      ],
+      "districts": {
+        "eyebrow": "Area graph",
+        "title": "Popular districts",
+        "items": [
+          {
+            "title": "Dubai Hills Estate",
+            "text": "Often relevant for family buyers, long-term living and community-led demand."
+          },
+          {
+            "title": "Business Bay / Downtown Dubai",
+            "text": "Useful for central lifestyle, rental logic and globally recognizable locations."
+          },
+          {
+            "title": "Dubai Creek Harbour",
+            "text": "Relevant for waterfront apartments, future community logic and investment comparison."
+          },
+          {
+            "title": "JVC / Arjan / Meydan",
+            "text": "Often relevant when budget, payment plan and entry point matter more than trophy address."
+          }
+        ]
+      },
+      "buyer_concerns": {
+        "eyebrow": "Origin scenario logic",
+        "title": "Buyer concerns",
+        "body": "Country / Origin Buyer Pages should address the concerns that appear before project selection: whether the buyer can buy, how remote purchase works, documents, payment route, trusted verification, Golden Visa logic, taxes or home-country implications, and how to avoid buying only from marketing materials.",
+        "tags": [
+          "Can buy?",
+          "Remote process",
+          "Payment route",
+          "Verification",
+          "Visa logic"
+        ]
+      },
+      "projects": {
+        "eyebrow": "Shortlist entry",
+        "title": "Recommended projects",
+        "items": [
+          {
+            "label": "Dubai Hills family properties",
+            "meta": "family / relocation",
+            "href": "/en/areas/dubai-hills-estate/family-properties/"
+          },
+          {
+            "label": "Business Bay apartments",
+            "meta": "central / rental",
+            "href": "/en/areas/business-bay/apartments/"
+          },
+          {
+            "label": "Dubai Creek Harbour projects",
+            "meta": "waterfront / investment",
+            "href": "/en/areas/dubai-creek-harbour/projects/"
+          },
+          {
+            "label": "JVC and Arjan payment-plan projects",
+            "meta": "budget / entry",
+            "href": "/en/intent/jvc-arjan-payment-plan-projects/"
+          },
+          {
+            "label": "Golden Visa eligible property shortlist",
+            "meta": "AI filtered",
+            "href": "/en/buyer-scenarios/golden-visa-property-shortlist/"
+          }
+        ]
+      },
+      "golden_visa": {
+        "eyebrow": "Scenario note",
+        "title": "Golden Visa logic",
+        "body": "Golden Visa intent should be treated as a separate eligibility check, not a marketing assumption. Primadom AI should verify property value, ownership structure, mortgage/payment status, current visa criteria and whether the buyer’s family scenario fits before presenting the visa angle.",
+        "tags": [
+          "Eligibility check",
+          "Property value",
+          "Ownership structure",
+          "Family scenario",
+          "Current rules"
+        ]
+      },
+      "related_origin_pages": {
+        "eyebrow": "Internal graph",
+        "title": "Related origin pages",
+        "items": [
+          {
+            "label": "Dubai property for UK investors",
+            "href": "/en/buyer-scenarios/dubai-property-for-uk-investors/"
+          },
+          {
+            "label": "Dubai property for Chinese investors",
+            "href": "/en/buyer-scenarios/dubai-property-for-chinese-investors/"
+          },
+          {
+            "label": "Dubai property for Russian-speaking buyers",
+            "href": "/en/buyer-scenarios/dubai-property-for-russian-speaking-buyers/"
+          },
+          {
+            "label": "Can foreigners buy property in Dubai?",
+            "href": "/en/answers/can-foreigners-buy-property-in-dubai/"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Origin buyer questions",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Can Indian buyers buy property in Dubai?",
+            "answer": "Indian buyers can generally buy property in Dubai in designated freehold areas, subject to current rules, project status, buyer documents and payment checks."
+          },
+          {
+            "question": "Can Indian buyers buy Dubai property remotely?",
+            "answer": "Remote purchase may be possible depending on project, developer, documents, POA requirements, identity checks and payment route. Each case should be checked before reservation."
+          },
+          {
+            "question": "What documents should Indian buyers prepare?",
+            "answer": "Typical checks may include passport, contact details, proof of address, payment source, buyer form, reservation documents and any developer or bank-specific requirements."
+          },
+          {
+            "question": "Can Primadom AI prepare a Dubai property shortlist?",
+            "answer": "Yes. Primadom AI can compare budget, payment plan, remote purchase needs, district, property type, Golden Visa goal and risk profile to prepare a shortlist."
+          }
+        ]
+      },
+      "source_notes": {
+        "eyebrow": "Evidence layer",
+        "title": "Source notes",
+        "body": "Ownership rules, freehold area eligibility, remote purchase steps, documents, payment route, Golden Visa criteria, project status, availability and fees should be checked against UAE government guidance, Dubai Land Department materials, developer documents and Primadom live advisor updates before a buyer decision.",
+        "items": [
+          {
+            "label": "Ownership rules",
+            "value": "Needs official check"
+          },
+          {
+            "label": "Documents / payment",
+            "value": "Case-specific"
+          },
+          {
+            "label": "Visa logic",
+            "value": "Current rules required"
+          },
+          {
+            "label": "Last updated",
+            "value": "June 2026"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Need a Dubai property plan from India?",
+        "text": "Ask Primadom AI to compare your origin market, budget, remote purchase route, payment plan, district, Golden Visa goal and risk profile — then send the best matches to a Primadom advisor.",
+        "actions": [
+          {
+            "label": "Ask Primadom AI",
+            "href": "#origin-ai",
+            "modal": false
+          },
+          {
+            "label": "Get origin-buyer shortlist",
+            "href": "#originBuyerLeadModal",
+            "modal": true
+          },
+          {
+            "label": "Request a call",
+            "href": "#originBuyerLeadModal",
+            "modal": true
+          }
+        ]
+      },
+      "modal": {
+        "aria": "Origin buyer consultation form",
+        "close_label": "Close",
+        "eyebrow": "AI consultation handoff",
+        "title": "Check your Dubai property plan from India",
+        "text": "Share your budget, payment route, remote purchase needs, Golden Visa goal and buyer purpose. Primadom AI will prepare an origin-buyer shortlist before the request goes to an advisor.",
+        "fields": {
+          "name": "Your name",
+          "phone": "Phone / WhatsApp",
+          "budget": "Budget",
+          "comment": "Prepared request"
+        },
+        "placeholders": {
+          "name": "Name",
+          "phone": "+91 / +971",
+          "budget": "Budget range"
+        },
+        "comment": "I want to compare Dubai property options as an Indian buyer by budget, remote purchase route, payment plan, district, property type, Golden Visa goal and risk profile.",
+        "submit": "Send request",
+        "success": "Sent"
+      },
+      "footer": {
+"brand": "Primadom AI",
+"brand_url": "/en/",
+"subtitle": "Real estate intelligence",
+"title": "Origin buyer scenarios, connected to real purchase routes",
+"text": "Primadom AI helps international buyers turn country-specific concerns into districts, projects, documents, payment checks and advisor-ready shortlists.",
+"chips": [
+"Projects",
+"Areas",
+"Developers",
+"AI search"
+],
+"contact_primary": {
+"label": "Book a call",
+"href": "#originBuyerLeadModal"
+},
+"contact_secondary": {
+"label": "Ask AI",
+"href": "#ask-ai"
+},
+"social": [
+{
+"label": "Instagram",
+"href": "#",
+"icon": "instagram"
+},
+{
+"label": "LinkedIn",
+"href": "#",
+"icon": "linkedin"
+}
+],
+"copyright": "© Primadom AI System",
+"address": "Dubai, United Arab Emirates"
+},
+      "_language": {
+        "language_name": "English",
+        "dir": "ltr",
+        "translation_status": "source"
+      }
+    }
+  }
+}

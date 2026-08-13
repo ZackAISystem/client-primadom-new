@@ -1,0 +1,20 @@
+{{- $d := partial "primadom/page-types/origin-buyer/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="ob-modal" id="originBuyerLeadModal" aria-hidden="true">
+  <div class="ob-modal__backdrop" data-close-origin-buyer-lead></div>
+  <section class="ob-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $t.modal.aria }}">
+    <button class="ob-modal__close" type="button" data-close-origin-buyer-lead aria-label="{{ $t.modal.close_label }}">×</button>
+    <span class="ob-modal__eyebrow">{{ $t.modal.eyebrow }}</span>
+    <h2>{{ $t.modal.title }}</h2>
+    <p>{{ $t.modal.text }}</p>
+    <form class="ob-form" data-origin-buyer-form>
+      <div class="ob-form__grid">
+        <label class="ob-field"><span>{{ $t.modal.fields.name }}</span><input type="text" name="name" placeholder="{{ $t.modal.placeholders.name }}"></label>
+        <label class="ob-field"><span>{{ $t.modal.fields.phone }}</span><input type="tel" name="phone" placeholder="{{ $t.modal.placeholders.phone }}"></label>
+        <label class="ob-field"><span>{{ $t.modal.fields.budget }}</span><input type="text" name="budget" placeholder="{{ $t.modal.placeholders.budget }}"></label>
+      </div>
+      <label class="ob-field"><span>{{ $t.modal.fields.comment }}</span><textarea name="comment">{{ $t.modal.comment }}</textarea></label>
+      <button class="ob-submit" type="submit" data-submit-label="{{ $t.modal.submit }}" data-success-label="{{ $t.modal.success }}">{{ $t.modal.submit }}</button>
+    </form>
+  </section>
+</div>

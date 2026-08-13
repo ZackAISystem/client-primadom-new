@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_search_pattern_buyer_goal_with_constraint_en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/best-dubai-property-for-rental-income-with-low-entry-price/",
+  "canonical_url_path": "/en/ai-answers/best-dubai-property-for-rental-income-with-low-entry-price/",
+  "canonical_group_key": "search_pattern:buyer_goal_with_constraint",
+  "primary_entity_type": null,
+  "primary_entity_slug": null,
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/best-dubai-property-for-rental-income-with-low-entry-price/",
+          "label": "Dubai property for rental income with a lower entry price",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Investors",
+        "Investment view",
+        "Rental factors",
+        "Resale factors",
+        "Risk check"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Dubai property for rental income with a lower entry price",
+      "subtitle": "Compare Dubai property options with a lower entry price through purchase cost, rent assumptions, holding costs, property type and resale flexibility.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for Dubai property for rental income with a lower entry price",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which lower-entry properties merit closer review before buying",
+        "Compare price, demand and ownership costs for property investors",
+        "Explain the risks behind cheaper rental options before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Compare lower-entry Dubai rental options for property investors",
+      "placeholder": "Compare lower-entry Dubai rental options for property investors",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Low-entry rental",
+        "Investors",
+        "Tenant demand",
+        "Total cost",
+        "Area comparison"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A low entry price only helps when the rental economics also work.</strong> For property investors, compare realistic rents, service charges, vacancy risk, competing supply, purchase price and the depth of the tenant market. Use current listings and transaction evidence before treating any district or property as the strongest income option.",
+      "body_text": "A low entry price only helps when the rental economics also work. For property investors, compare realistic rents, service charges, vacancy risk, competing supply, purchase price and the depth of the tenant market. Use current listings and transaction evidence before treating any district or property as the strongest income option.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Dubai property for rental income with a lower entry price"
+        },
+        {
+          "label": "Context",
+          "value": "Investors"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on rental economics"
+        },
+        {
+          "label": "Main checks",
+          "value": "Tenant demand · Total cost · Area comparison"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Vacancy · costs · weak demand"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare rent, costs and vacancy"
+        },
+        {
+          "label": "Verification",
+          "value": "Current market check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "Rental Income With Low Entry Price",
+      "market": "Dubai / UAE",
+      "context": "Investors",
+      "eyebrow": "Key facts",
+      "question": "best Dubai property for rental income with low entry price",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "The investment only works if rent is achieved near the top of current asking levels.",
+            "title": "The yield depends on optimistic rent"
+          },
+          {
+            "text": "A modest gap between tenants would materially weaken the income case or cash-flow plan.",
+            "title": "Vacancy would quickly hurt returns"
+          },
+          {
+            "text": "A large pipeline of similar units could pressure rents, occupancy or future tenant choice.",
+            "title": "Competing supply is building quickly"
+          },
+          {
+            "text": "For property investors, revisit the low-entry Dubai rental choice if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "The area attracts a realistic pool of tenants for the property type and price point being considered.",
+            "title": "Tenant demand is broad enough"
+          },
+          {
+            "text": "Expected rent still works after service charges, vacancy, management and other recurring ownership costs.",
+            "title": "The numbers survive full costs"
+          },
+          {
+            "text": "Incoming competing stock does not obviously overwhelm the tenant demand supporting the rental case.",
+            "title": "Future supply looks manageable"
+          },
+          {
+            "text": "For property investors, the low-entry Dubai rental choice still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For property investors, compare realistic rents, service charges, vacancy risk, competing supply, purchase price and the depth of the tenant market.",
+          "title": "Tenant demand · Total cost · Area comparison",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the yield depends on optimistic rent, vacancy would quickly hurt returns, or competing supply is building quickly.",
+          "title": "Entry-price trade-off",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Use current listings and transaction evidence before treating any district or property as the strongest income option.",
+          "title": "Compare rent, costs and vacancy",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the yield depends on optimistic rent, vacancy would quickly hurt returns, or competing supply is building quickly. For property investors, use current listings and transaction evidence before treating any district or property as the strongest income option.",
+        "tags": [
+          "Tenant depth",
+          "Rent evidence",
+          "Competing supply",
+          "Net income",
+          "Entry-price trade-off"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For property investors, define who is likely to rent the property, why they choose the area and whether that tenant base is broad enough to support demand.",
+            "title": "Identify the real tenant pool"
+          },
+          {
+            "text": "Compare realistic rents from similar units and buildings rather than relying only on advertised asking rents or a projected headline return.",
+            "title": "Use achieved rental evidence"
+          },
+          {
+            "text": "Review existing stock, new handovers and comparable units that could compete for the same tenants during the intended holding period.",
+            "title": "Measure competing rental supply"
+          },
+          {
+            "text": "Allow for vacancy, service charges, management, maintenance and other operating costs before judging the strength of the rental case.",
+            "title": "Model income after running costs"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/best-area-for-rental-income-investors/",
+          "label": "Which areas should I compare for rental income?"
+        },
+        {
+          "href": "/en/ai-answers/best-dubai-property-for-investors-who-want-rental-income/",
+          "label": "Best Dubai property for rental-income investors"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-rental-demand-investors/",
+          "label": "How should I check rental demand?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-investment-logic-investors/",
+          "label": "How should I check investment logic?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-avoid-overpaying-investors/",
+          "label": "How can I avoid overpaying?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A low entry price only helps when the rental economics also work. For property investors, define who is likely to rent the property, why they choose the area and whether that tenant base is broad enough to support demand.",
+          "question": "How should I assess rental income at a low entry price?"
+        },
+        {
+          "answer": "The best rental-income area depends on demand, total cost and exit flexibility. Compare realistic rents from similar units and buildings rather than relying only on advertised asking rents or a projected headline return.",
+          "question": "Which areas should I compare for rental income?"
+        },
+        {
+          "answer": "No single Dubai property is automatically best for rental income. Review existing stock, new handovers and comparable units that could compete for the same tenants during the intended holding period.",
+          "question": "Which Dubai property options should I compare for rental income?"
+        },
+        {
+          "answer": "Rental demand should be checked through realistic tenant activity, not headline yield claims. Review similar available units and future handovers that may give tenants more choice and put pressure on achievable rent.",
+          "question": "How should I assess rental demand?"
+        },
+        {
+          "answer": "Investment logic should connect the purchase price to realistic income, costs and exit options. Price appreciation is doing most of the work in the investment thesis without enough downside analysis. Stress-test weaker scenarios instead of relying on optimistic growth, yield or occupancy assumptions.",
+          "question": "How should I assess the investment case?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Rental demand, yield, resale potential and capital growth are assessment topics rather than guaranteed outcomes. Compare current market evidence with the specific property, costs and holding assumptions before relying on an investment conclusion.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Investors · Dubai / UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Tenant demand · Total cost · Area comparison"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current market evidence · comparable properties · property facts"
+        },
+        {
+          "label": "Live check",
+          "value": "Current market evidence and property-specific inputs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "investment_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your investment case, including your budget, holding period, market assumptions, costs and exit risks before you decide whether the property fits your strategy.",
+      "title": "Want to test the investment case?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your investment case, focusing on market assumptions, costs, holding period and rental or resale risks an advisor should review with you.",
+      "title": "Check the investment case for your situation",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this property fits my investment strategy.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

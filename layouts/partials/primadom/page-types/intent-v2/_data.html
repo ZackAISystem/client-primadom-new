@@ -1,0 +1,131 @@
+{{/*
+  Primadom AI — Intent Page V2
+
+  Source:
+  data/primadom/intent_pages_v2/<slug>.json
+
+  Production JSON remains unchanged.
+  This partial only maps the 17 production blocks
+  into the existing Intent visual contract.
+*/}}
+
+{{- $slug := .Params.intent_slug | default "" -}}
+
+{{- if not $slug -}}
+  {{- errorf "Intent V2: intent_slug missing for %s" .RelPermalink -}}
+{{- end -}}
+
+{{- $page := index site.Data.primadom.intent_pages_v2 $slug -}}
+
+{{- if not $page -}}
+  {{- errorf "Intent V2 data not found: %s" $slug -}}
+{{- end -}}
+
+{{- $blocks := $page.blocks -}}
+
+{{- $b01 := index $blocks "block_01_header" -}}
+{{- $b02 := index $blocks "block_02_breadcrumbs" -}}
+{{- $b03 := index $blocks "block_03_hero" -}}
+{{- $b04 := index $blocks "block_04_ai_search" -}}
+{{- $b05 := index $blocks "block_05_short_verdict" -}}
+{{- $b06 := index $blocks "block_06_intent_facts" -}}
+{{- $b07 := index $blocks "block_07_best_options" -}}
+{{- $b08 := index $blocks "block_08_selection_logic" -}}
+{{- $b09 := index $blocks "block_09_decision_cards" -}}
+{{- $b10 := index $blocks "block_10_districts_projects" -}}
+{{- $b11 := index $blocks "block_11_buyer_fit_risk" -}}
+{{- $b12 := index $blocks "block_12_internal_links" -}}
+{{- $b13 := index $blocks "block_13_faq" -}}
+{{- $b14 := index $blocks "block_14_source_notes" -}}
+{{- $b15 := index $blocks "block_15_cta" -}}
+{{- $b16 := index $blocks "block_16_lead_modal" -}}
+{{- $b17 := index $blocks "block_17_footer" -}}
+
+
+{{/* HERO = breadcrumbs + hero + Ask AI */}}
+
+{{- $hero := dict
+
+  "breadcrumbs" $b02.breadcrumbs
+  "breadcrumbs_aria" $b02.breadcrumbs_aria
+
+  "image" $b03.image
+
+  "visual_aria" $b03.visual_aria
+  "title" $b03.title
+  "subtitle" $b03.subtitle
+
+  "facts_aria" $b03.facts_aria
+  "facts" $b03.facts
+
+  "ai_aria" $b04.form_aria_label
+  "ai_badge" $b04.ai_badge
+
+  "ai_placeholder" $b04.placeholder
+
+  "ai_hints" $b04.hints
+  "ai_typing_examples" $b04.prompts
+  "ai_examples" $b04.prompts
+
+  "voice_label" $b04.voice_button_label
+
+  "ai_voice_status" $b04.voice_status
+  "ai_voice_text" $b04.voice_text
+
+  "voice_success_status" $b04.voice_success_status
+  "voice_error_status" $b04.voice_error_status
+  "voice_error_text" $b04.voice_error_text
+  "voice_fallback_status" $b04.voice_fallback_status
+  "voice_fallback_text" $b04.voice_fallback_text
+
+  "ai_submit" $b04.button_label
+-}}
+
+
+{{/* EXISTING INTENT VISUAL CONTRACT */}}
+
+{{- $t := dict
+
+  "header" $b01
+
+  "hero" $hero
+
+  "answer" $b05
+
+  "facts" $b06
+
+  "best_options" $b07
+
+  "selection_logic" $b08
+
+  "decision_cards_aria" $b09.cards_aria
+  "decision_cards" $b09.items
+
+  "districts" $b10.districts
+  "projects" $b10.projects
+
+  "buyer_fit" $b11.buyer_fit
+  "risk_notes" $b11.risk_notes
+
+  "internal_links" $b12
+
+  "faq" $b13
+
+  "source_notes" $b14
+
+  "cta" $b15
+
+  "modal" $b16
+
+  "footer" $b17
+-}}
+
+
+{{- return (
+  dict
+    "page" $page
+    "blocks" $blocks
+    "t" $t
+    "lang" $page.language_code
+    "slug" $slug
+) -}}

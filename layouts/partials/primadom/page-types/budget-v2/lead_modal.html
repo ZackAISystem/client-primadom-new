@@ -1,0 +1,256 @@
+{{- $d := partial "primadom/page-types/budget-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $m := $t.modal -}}
+{{- $h := $t.hero -}}
+
+{{- $voiceStatus := $h.voice_status | default "Listening…" -}}
+{{- $voiceSuccessStatus := $h.voice_success_status | default "Got it" -}}
+{{- $voiceErrorStatus := $h.voice_error_status | default "Voice paused" -}}
+{{- $voiceErrorText := $h.voice_error_text | default "Type your request or try again" -}}
+{{- $voiceFallbackStatus := $h.voice_fallback_status | default "Voice mode" -}}
+{{- $voiceFallbackText := $h.voice_fallback_text | default "Speech recognition is not supported here" -}}
+{{- $voiceText := $h.voice_text | default $h.ai_voice_text | default $h.ai_placeholder | default "Ask about this budget" -}}
+{{- $voiceButtonLabel := $h.voice_button_label | default "Start voice search" -}}
+
+<div
+  class="pb-modal"
+  id="{{ $m.modal_id }}"
+  aria-hidden="true"
+>
+
+  <div
+    class="pb-modal__backdrop"
+    data-close-budget-lead
+  ></div>
+
+
+  <section
+    class="pb-modal__panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="{{ $m.title_id }}"
+  >
+
+    <button
+      class="pb-modal__close"
+      type="button"
+      data-close-budget-lead
+      aria-label="{{ $m.close_label }}"
+    >×</button>
+
+
+    <span class="pb-modal__eyebrow">
+      {{ $m.eyebrow }}
+    </span>
+
+
+    <h2 id="{{ $m.title_id }}">
+      {{ $m.title }}
+    </h2>
+
+
+    <p>
+      {{ $m.text }}
+    </p>
+
+
+    <form
+      class="pb-form"
+      data-budget-form
+    >
+
+      <div class="pb-form__grid">
+
+        <label class="pb-field">
+
+          <span>
+            {{ $m.field_config.name.label }}
+          </span>
+
+          <input
+            type="text"
+            name="{{ $m.field_config.name.html_name }}"
+            placeholder="{{ $m.field_config.name.placeholder }}"
+            {{ if $m.field_config.name.required }}required{{ end }}
+          >
+
+        </label>
+
+
+        <label class="pb-field">
+
+          <span>
+            {{ $m.field_config.phone.label }}
+          </span>
+
+          <input
+            type="tel"
+            name="{{ $m.field_config.phone.html_name }}"
+            placeholder="{{ $m.field_config.phone.placeholder }}"
+            {{ if $m.field_config.phone.required }}required{{ end }}
+          >
+
+        </label>
+
+
+        <label class="pb-field">
+
+          <span>
+            {{ $m.field_config.budget.label }}
+          </span>
+
+          <input
+            type="text"
+            name="{{ $m.field_config.budget.html_name }}"
+            placeholder="{{ $m.field_config.budget.placeholder }}"
+            value="{{ $m.field_config.budget.default_value }}"
+            {{ if $m.field_config.budget.required }}required{{ end }}
+          >
+
+        </label>
+
+      </div>
+
+
+      <label
+        class="pb-field pb-field--request"
+      >
+
+        <span>
+          {{ $m.field_config.comment.label }}
+        </span>
+
+
+        <div
+          class="pb-request-row"
+          data-budget-modal-request-row
+          data-voice-listening-status="{{ $voiceStatus }}"
+          data-voice-success-status="{{ $voiceSuccessStatus }}"
+          data-voice-error-status="{{ $voiceErrorStatus }}"
+          data-voice-error-text="{{ $voiceErrorText }}"
+          data-voice-fallback-status="{{ $voiceFallbackStatus }}"
+          data-voice-fallback-text="{{ $voiceFallbackText }}"
+          data-voice-text="{{ $voiceText }}"
+        >
+
+          <div class="pb-request-row__badge">
+
+            <i aria-hidden="true"></i>
+
+            {{ $m.ai_row_badge | default $m.field_config.comment.label }}
+
+          </div>
+
+
+          <input
+            class="pb-request-row__input"
+            data-budget-modal-comment
+            type="{{ $m.field_config.comment.input_type | default "text" }}"
+            name="{{ $m.field_config.comment.html_name }}"
+            placeholder="{{ $m.field_config.comment.placeholder }}"
+            value="{{ $m.field_config.comment.default_value }}"
+            {{ if $m.field_config.comment.required }}required{{ end }}
+          >
+
+
+          <button
+            class="pb-modal-voice"
+            type="button"
+            data-budget-modal-voice
+            aria-label="{{ $voiceButtonLabel }}"
+            aria-pressed="false"
+          >
+
+            <span
+              class="pb-modal-voice__aura"
+              aria-hidden="true"
+            ></span>
+
+            <span
+              class="pb-modal-voice__core"
+              aria-hidden="true"
+            ></span>
+
+          </button>
+
+
+          <div
+            class="pb-modal-voice-popover"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+
+            <div
+              class="pb-modal-voice-popover__inner"
+            >
+
+              <span
+                class="pb-modal-voice-popover__dot"
+                aria-hidden="true"
+              ></span>
+
+
+              <span
+                class="pb-modal-voice-popover__copy"
+              >
+
+                <strong
+                  class="pb-modal-voice-popover__status"
+                  data-budget-modal-voice-status
+                >
+                  {{ $voiceStatus }}
+                </strong>
+
+                <span
+                  class="pb-modal-voice-popover__text"
+                  data-budget-modal-voice-text
+                >
+                  {{ $voiceText }}
+                </span>
+
+              </span>
+
+
+              <span
+                class="pb-modal-voice-popover__bars"
+                aria-hidden="true"
+              >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <button
+            class="pb-submit"
+            type="submit"
+            data-submit-label="{{ $m.submit_label }}"
+            data-success-label="{{ $m.success_label }}"
+          >
+            {{ $m.submit_label }}
+          </button>
+
+        </div>
+
+      </label>
+
+
+      {{- with $m.note }}
+
+        <p class="pb-modal-note">
+          {{ . }}
+        </p>
+
+      {{- end }}
+
+    </form>
+
+  </section>
+
+</div>

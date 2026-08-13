@@ -1,0 +1,21 @@
+{{ define "head" }}
+  {{- $slug := .Params.district_slug | default "" -}}
+  {{- if not $slug -}}
+    {{- errorf "District V2: district_slug missing for %s" .RelPermalink -}}
+  {{- end -}}
+
+  {{- $p := index site.Data.primadom.district_pages_v2 $slug -}}
+  {{- if not $p -}}
+    {{- errorf "District V2 data not found for slug: %s" $slug -}}
+  {{- end -}}
+
+  <link
+    rel="canonical"
+    href="{{ $p.canonical_url_path | absURL }}"
+  >
+{{ end }}
+
+{{ define "main" }}
+  <link rel="stylesheet" href="{{ "css/primadom/page-district.css" | relURL }}">
+  {{ partial "primadom/page-types/district-v2/district_page.html" . }}
+{{ end }}

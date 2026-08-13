@@ -1,0 +1,72 @@
+{{- $d := partial "primadom/page-types/developer-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+
+{{- $projects := $t.projects -}}
+{{- $active := or $projects.active $projects.active_projects $projects.relevant -}}
+{{- $known := or $projects.known $projects.completed $projects.completed_known -}}
+
+<div class="pd-grid-2 pd-grid-2--projects-known" id="projects">
+  {{- with $active }}
+    <article class="pd-card pd-card--active-projects" id="active-relevant-projects">
+      <header class="pd-card__head">
+        <h2>{{ .title }}</h2>
+        <span>{{ .eyebrow }}</span>
+      </header>
+
+      <div class="pd-card__body">
+        <div class="pd-list pd-list--projects">
+          {{- range .items }}
+            {{- $label := or .label .title .name -}}
+            {{- $meta := or .meta .tag .type .context -}}
+            {{- $href := or .href .url -}}
+            {{- with .slug }}{{- if not $href }}{{- $href = printf "/en/primadom/%s/" . -}}{{- end }}{{- end }}
+
+            {{- if $href }}
+              <a href="{{ $href }}">
+                <strong>{{ $label }}</strong>
+                {{- with $meta }}<small>{{ . }}</small>{{- end }}
+              </a>
+            {{- else }}
+              <a href="#ask-ai" data-open-project-lead>
+                <strong>{{ $label }}</strong>
+                {{- with $meta }}<small>{{ . }}</small>{{- end }}
+              </a>
+            {{- end }}
+          {{- end }}
+        </div>
+      </div>
+    </article>
+  {{- end }}
+
+  {{- with $known }}
+    <article class="pd-card pd-card--completed-known" id="completed-known-projects">
+      <header class="pd-card__head">
+        <h2>{{ .title }}</h2>
+        <span>{{ .eyebrow }}</span>
+      </header>
+
+      <div class="pd-card__body">
+        <div class="pd-list pd-list--known">
+          {{- range .items }}
+            {{- $label := or .label .title .name -}}
+            {{- $meta := or .meta .tag .type .context -}}
+            {{- $href := or .href .url -}}
+            {{- with .slug }}{{- if not $href }}{{- $href = printf "/en/primadom/%s/" . -}}{{- end }}{{- end }}
+
+            {{- if $href }}
+              <a href="{{ $href }}">
+                <strong>{{ $label }}</strong>
+                {{- with $meta }}<small>{{ . }}</small>{{- end }}
+              </a>
+            {{- else }}
+              <a href="#ask-ai" data-open-project-lead>
+                <strong>{{ $label }}</strong>
+                {{- with $meta }}<small>{{ . }}</small>{{- end }}
+              </a>
+            {{- end }}
+          {{- end }}
+        </div>
+      </div>
+    </article>
+  {{- end }}
+</div>

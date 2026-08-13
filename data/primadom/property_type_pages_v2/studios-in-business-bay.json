@@ -1,0 +1,912 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_studios_business_bay_en",
+  "page_type_id": "property_type_page",
+  "language_code": "en",
+  "url_path": "/en/property-types/studios-in-business-bay/",
+  "canonical_url_path": "/en/property-types/studios-in-business-bay/",
+  "canonical_group_key": "property_district:studios:business-bay",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "business-bay",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Summary",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Districts",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projects",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Property type page navigation",
+      "cta_label": "Find options",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "property_types",
+          "href": "/en/property-types/",
+          "label": "Property types"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/business-bay/",
+          "label": "Business Bay"
+        },
+        {
+          "key": "current",
+          "href": "/en/property-types/studios-in-business-bay/",
+          "label": "Studios in Business Bay",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Property type: Studios",
+        "Area: Business Bay",
+        "Compact layout",
+        "End use / investment intent",
+        "AI finder"
+      ],
+      "image": {
+        "alt": "Studios in Business Bay property type overview",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Studios in Business Bay",
+      "subtitle": "A practical guide to Studios in Business Bay, covering layout efficiency and building quality, price context, project options and an AI finder.",
+      "facts_aria": "Property type hero highlights",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Studios in Business Bay property type hero visual",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Ask Primadom AI about studios in Business Bay",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Ask about studios in Business Bay, budget or fit",
+      "placeholder": "Ask about studios in Business Bay, budget or fit",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Voice search",
+      "click_action": "fill_input",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Find studios in Business Bay for my budget",
+        "Compare studios by layout, building quality and total cost",
+        "What should I check for studios in Business Bay?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Type your request or try again",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Voice mode",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Studios",
+        "Business Bay",
+        "Compact living",
+        "Efficiency + cost",
+        "Project verification"
+      ],
+      "title": "Property type summary",
+      "eyebrow": "Direct answer",
+      "body_html": "<strong>Studios in Business Bay</strong> can be compared by layout efficiency, usable space, building quality and service charges. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "body_text": "Studios in Business Bay can be compared by layout efficiency, usable space, building quality and service charges. Buyers should verify the exact project, layout, recurring costs and current terms before deciding.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Type",
+          "value": "Studios",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Area",
+          "value": "Business Bay",
+          "fact_key": "area"
+        },
+        {
+          "label": "Market",
+          "value": "Dubai / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Linked project pages",
+          "value": "71 district project pages",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Buyer intent",
+          "value": "Compact living · investment",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Key filters",
+          "value": "Usable area · storage · fees",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare linked project pages",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Comparison scope",
+          "value": "Projects · areas · ownership costs",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Property type details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 71,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Who it is for",
+        "eyebrow": "Buyer fit",
+        "bad_items": [
+          "Couples or families needing separate bedrooms and more storage",
+          "Buyers who assume every studio performs equally without checking layout and building quality",
+          "Buyers who do not consider commute patterns, noise or weekday activity"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Single occupants or investors prioritising a compact, lower-maintenance format",
+          "Buyers who value efficient use of space and location over room count",
+          "Professionals or investors who value access, commute practicality and daily convenience in Business Bay"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Business Bay",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "studios"
+      },
+      "property_logic": {
+        "body": "Compare studios by usable area, separation of living and sleeping zones, storage, service charges and building quality. In Business Bay, consider commute patterns, weekday activity, access and the trade-off between convenience and privacy. Confirm current availability and, where relevant, recurring costs, payment terms and handover details before deciding.",
+        "tags": [
+          "Usable area",
+          "Layout efficiency",
+          "Storage",
+          "Service charges",
+          "Access & commute"
+        ],
+        "title": "Property type logic",
+        "eyebrow": "How to compare"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "This district offers excellent connectivity via major routes like Sheikh Zayed Road and Al Khail Road, coupled with access to the Dubai Metro through the Business Bay station. For studios in this area, compare usable area, separation of living and sleeping zones, storage, service charges and building quality.",
+            "route": "/en/property-types/studios-in-business-bay/",
+            "buyer_fit": "Current area context",
+            "relationship": "current_area",
+            "district_name": "Business Bay",
+            "district_slug": "business-bay"
+          },
+          {
+            "text": "The district offers easy access to Sheikh Zayed Road and is well connected by the Dubai Metro and tram networks, facilitating convenient commutes to nearby business and leisure hubs including Dubai Internet City, Media City, and. As a same-city alternative to Business Bay, compare usable area, separation of living and sleeping zones, storage, service charges and building quality.",
+            "route": "/en/property-types/studios-in-dubai-marina/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Dubai Marina",
+            "district_slug": "dubai-marina"
+          },
+          {
+            "text": "Dubai Hills Estate enjoys excellent connectivity primarily via Al Khail Road, providing straightforward access to key business and entertainment districts including Downtown Dubai, Business Bay, and Dubai Marina. As a same-city alternative to Business Bay, compare usable area, separation of living and sleeping zones, storage, service charges and building quality.",
+            "route": "/en/property-types/studios-in-dubai-hills-estate/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Dubai Hills Estate",
+            "district_slug": "dubai-hills-estate"
+          },
+          {
+            "text": "The district benefits from excellent connectivity with direct access to Sheikh Zayed Road, facilitating travel to business hubs like DIFC, Business Bay, and Dubai Marina. As a same-city alternative to Business Bay, compare usable area, separation of living and sleeping zones, storage, service charges and building quality.",
+            "route": "/en/property-types/studios-in-downtown-dubai/",
+            "buyer_fit": "Same-city alternative",
+            "relationship": "related_area",
+            "district_name": "Downtown Dubai",
+            "district_slug": "downtown-dubai"
+          }
+        ],
+        "title": "Relevant districts",
+        "eyebrow": "Area context"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Pricing for studios in Business Bay depends on usable area, layout efficiency, floor, view, building quality and service charges. Small differences in usable layout, storage and building quality can materially change value in a compact unit. Include service charges, furnishing, parking, payment terms and operating costs when comparing the full ownership cost. Use current project information to test the full ownership cost, not only the headline purchase figure.",
+        "tags": [
+          "Usable area",
+          "Layout efficiency",
+          "Service charges",
+          "Rental fit",
+          "Price verification"
+        ],
+        "title": "How pricing varies",
+        "eyebrow": "Price reality"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "studios",
+        "wider_uae_item_count": 0,
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "verified_supply_asserted": false,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "business-bay",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 71
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "dubai-marina",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 20
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-hills-estate",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 49
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "downtown-dubai",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 28
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "For studios in Business Bay, compare usable layout, ownership cost, building quality and buyer depth.",
+          "title": "Check small-unit buyer depth",
+          "eyebrow": "Investment logic"
+        },
+        {
+          "text": "Storage, circulation, natural light and usable furniture zones matter more than the advertised floor area.",
+          "title": "Usable layout matters most",
+          "eyebrow": "Lifestyle logic"
+        },
+        {
+          "text": "Compare developer, project status, handover timing, floor plan, fees and total ownership cost before deciding.",
+          "title": "Low entry can hide weak usability",
+          "eyebrow": "Risk notes"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can compare studios in Business Bay by buyer goal, project status, payment terms, ownership cost and daily-use priorities.",
+          "title": "Find the strongest small-unit fit",
+          "eyebrow": "AI context"
+        }
+      ],
+      "cards_aria": "Property type decision notes",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_studios_business_bay_en",
+        "context_focus": "business",
+        "district_slug": "business-bay",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/en/property-types/studios-in-business-bay/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/en/projects/binghatti-canal/",
+            "meta": "Business Bay",
+            "label": "Binghatti Canal"
+          },
+          {
+            "href": "/en/projects/aykon-city-tower-b/",
+            "meta": "Business Bay",
+            "label": "Aykon City - Tower B"
+          },
+          {
+            "href": "/en/projects/altitude/",
+            "meta": "Business Bay",
+            "label": "Altitude"
+          },
+          {
+            "href": "/en/projects/canal-crown/",
+            "meta": "Business Bay",
+            "label": "Canal Crown"
+          },
+          {
+            "href": "/en/projects/binghatti-skyrise/",
+            "meta": "Business Bay",
+            "label": "Binghatti Skyrise"
+          }
+        ],
+        "title": "Recommended projects",
+        "eyebrow": "Project options"
+      },
+      "pros_cons": {
+        "title": "Pros and cons",
+        "eyebrow": "Reality check",
+        "cons_items": [
+          "Limited storage and separation may not suit longer-term living",
+          "In Business Bay, stronger access may come with traffic, noise or higher service charges",
+          "Location convenience may come at the cost of noise or privacy"
+        ],
+        "cons_title": "Cons",
+        "pros_items": [
+          "Compact layouts can reduce entry cost and simplify furnishing",
+          "In Business Bay, parking, access and commuting patterns should be weighed together",
+          "Access-led locations can suit professionals and frequent commuters"
+        ],
+        "pros_title": "Pros"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_studios_business_bay_en",
+        "district_slug": "business-bay",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "business",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Binghatti Canal",
+            "project_slug": "binghatti-canal",
+            "project_route": "/en/projects/binghatti-canal/",
+            "developer_name": "Binghatti Developers",
+            "developer_slug": "binghatti-developers",
+            "location_score": 5,
+            "project_district_name": "Business Bay",
+            "project_district_slug": "business-bay"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Aykon City - Tower B",
+            "project_slug": "aykon-city-tower-b",
+            "project_route": "/en/projects/aykon-city-tower-b/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 5,
+            "project_district_name": "Business Bay",
+            "project_district_slug": "business-bay"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Altitude",
+            "project_slug": "altitude",
+            "project_route": "/en/projects/altitude/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 5,
+            "project_district_name": "Business Bay",
+            "project_district_slug": "business-bay"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Canal Crown",
+            "project_slug": "canal-crown",
+            "project_route": "/en/projects/canal-crown/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 5,
+            "project_district_name": "Business Bay",
+            "project_district_slug": "business-bay"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Binghatti Skyrise",
+            "project_slug": "binghatti-skyrise",
+            "project_route": "/en/projects/binghatti-skyrise/",
+            "developer_name": "Binghatti Developers",
+            "developer_slug": "binghatti-developers",
+            "location_score": 5,
+            "project_district_name": "Business Bay",
+            "project_district_slug": "business-bay"
+          }
+        ],
+        "canonical_url_path": "/en/property-types/studios-in-business-bay/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/en/property-types/one-bedroom-apartments-in-business-bay/",
+          "label": "1 Bedroom Apartments in Business Bay"
+        },
+        {
+          "href": "/en/property-types/apartments-in-business-bay/",
+          "label": "Apartments in Business Bay"
+        },
+        {
+          "href": "/en/property-types/hotel-apartments-in-business-bay/",
+          "label": "Hotel Apartments in Business Bay"
+        },
+        {
+          "href": "/en/property-types/serviced-apartments-in-business-bay/",
+          "label": "Serviced Apartments in Business Bay"
+        }
+      ],
+      "title": "Similar property types",
+      "eyebrow": "Related options",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Business Bay",
+            "target_route": "/en/property-types/one-bedroom-apartments-in-business-bay/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "Apartments in Business Bay",
+            "target_route": "/en/property-types/apartments-in-business-bay/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1300,
+            "target_label": "Hotel Apartments in Business Bay",
+            "target_route": "/en/property-types/hotel-apartments-in-business-bay/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "hotel_apartment"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1300,
+            "target_label": "Serviced Apartments in Business Bay",
+            "target_route": "/en/property-types/serviced-apartments-in-business-bay/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "serviced_apartment"
+          }
+        ],
+        "source_route": "/en/property-types/studios-in-business-bay/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "When comparing studios in Business Bay, focus on layout efficiency, usable space, building quality and service charges. Verify the exact project, layout, recurring costs and current terms before deciding.",
+          "question": "How do studios in Business Bay differ from larger apartments?"
+        },
+        {
+          "answer": "In Business Bay, this page may suit single occupants or investors prioritising a compact, lower-maintenance format. It may also be relevant to buyers who value efficient use of space and location over room count. The final choice should reflect access, parking, commuting and day-to-day usability.",
+          "question": "Who may find studios in Business Bay suitable?"
+        },
+        {
+          "answer": "Key advantage: Compact layouts can reduce entry cost and simplify furnishing. Key trade-off: Limited storage and separation may not suit longer-term living. In Business Bay, parking, access and commuting patterns should be weighed together. A further local consideration is that stronger access may come with traffic, noise or higher service charges.",
+          "question": "What are the main compromises when comparing studios in Business Bay?"
+        },
+        {
+          "answer": "Projects shown for comparison on this page include Binghatti Canal, Aykon City - Tower B and Altitude. Buyers can also compare 1 Bedroom Apartments in Business Bay and Apartments in Business Bay to test a different property format in or near the same market. These links support navigation only; they are not a ranking or confirmation of current unit availability.",
+          "question": "What can buyers compare alongside studios in Business Bay?"
+        },
+        {
+          "answer": "Prices, unit availability, fees, payment plans and handover details can change. For studios in Business Bay, confirm layout, internal area, building condition, service charges, unit status and payment terms against official developer materials and current advisor checks. Primadom AI can organise the comparison, but current commercial terms should be verified before deciding.",
+          "question": "How should buyers verify prices and availability for studios in Business Bay?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Property type questions",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "business",
+        "semantic_profile_key": "studios",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Information about studios in Business Bay should be used as a comparison guide rather than a live offer. Before deciding, confirm the exact layout, internal area, building condition and recurring charges, current price and availability, payment terms, handover or completion status, and total ownership costs with the developer or an authorised advisor.",
+      "items": [
+        {
+          "label": "Property details",
+          "value": "Check layout, area and building details"
+        },
+        {
+          "label": "Price & availability",
+          "value": "Confirm current unit terms"
+        },
+        {
+          "label": "Fees & ownership costs",
+          "value": "Review recurring ownership costs"
+        },
+        {
+          "label": "Payment & handover",
+          "value": "Verify status, dates and contract terms"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Before you decide",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare studios in Business Bay by layout efficiency, project, location, budget, service charges and buyer goal, with attention to access, parking and commuting, then review suitable options with an advisor.",
+      "title": "Looking for studios in Business Bay?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Find matching options",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "studios",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Property type enquiry form",
+      "text": "Share your preferences for studios in Business Bay. Primadom AI will organise the request around layout efficiency, project, location, service charges and practical use before an advisor reviews it.",
+      "title": "Find studios in Business Bay",
+      "fields": {
+        "name": "Your name",
+        "email": "Email optional",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "I'm looking for suitable studio options on this page.",
+      "eyebrow": "AI finder handoff",
+      "success": "Sent",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Close",
+      "source_meta": {
+        "source_route": "/en/property-types/studios-in-business-bay/",
+        "source_page_id": "page_property_district_studios_business_bay_en",
+        "shortlist_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "studios",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI helps buyers compare studios in Business Bay by layout efficiency, project, location, service charges and practical use before speaking with an advisor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Studios in Business Bay, connected to projects and buyer scenarios",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/en/property-types/studios-in-business-bay/",
+        "source_page_id": "page_property_district_studios_business_bay_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "business",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "studios",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,1853 @@
+{{- $slug := .Params.project_slug | default "passo" -}}
+{{- $p := index site.Data.primadom.project_pages_v2 $slug -}}
+
+{{- if not $p -}}
+  {{- errorf "Primadom Project V2 data not found: %s" $slug -}}
+{{- end -}}
+
+{{- $b1 := index $p.blocks "block_01_header" -}}
+{{- $b2 := index $p.blocks "block_02_breadcrumbs" -}}
+{{- $b3 := index $p.blocks "block_03_hero" -}}
+{{- $b4 := index $p.blocks "block_04_ai_search" -}}
+{{- $b5 := index $p.blocks "block_05_short_answer" -}}
+{{- $b6 := index $p.blocks "block_06_key_facts" -}}
+{{- $b7 := index $p.blocks "block_07_buyer_fit" -}}
+{{- $b8 := index $p.blocks "block_08_project_logic" -}}
+{{- $b9 := index $p.blocks "block_09_decision_cards" -}}
+{{- $b10 := index $p.blocks "block_10_location" -}}
+{{- $b11 := index $p.blocks "block_11_similar_projects" -}}
+{{- $b12 := index $p.blocks "block_12_faq" -}}
+{{- $b13 := index $p.blocks "block_13_trust_sources" -}}
+{{- $b14 := index $p.blocks "block_14_cta" -}}
+{{- $b15 := index $p.blocks "block_15_lead_modal" -}}
+{{- $b16 := index $p.blocks "block_16_footer" -}}
+
+{{- $gallery := $b3.gallery | default (slice) -}}
+{{- $galleryCount := len $gallery -}}
+{{- $modalID := $b15.modal_id | default "projectLeadModal" -}}
+{{- $modalTitleID := $b15.title_id | default "projectLeadTitle" -}}
+
+<!doctype html>
+<html lang="{{ $p.language_code | default "en" }}" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ $b3.hero_title }} — Primadom AI</title>
+
+  <meta
+    name="description"
+    content="{{ $b3.hero_subtitle }}"
+  >
+
+  <link
+    rel="canonical"
+    href="{{ $p.canonical_url_path | absURL }}"
+  >
+
+  <link
+    rel="stylesheet"
+    href="{{ "css/primadom/page-project.css" | relURL }}"
+  >
+</head>
+
+<body class="pd-page pd-project-page">
+
+<header class="pd-header">
+  <div class="pd-header__inner">
+
+    <a
+      class="pd-header__badge"
+      href="{{ $b1.brand_href }}"
+      aria-label="{{ $b1.brand_label }}"
+    >
+      <span class="pd-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $b1.brand_label }}</span>
+    </a>
+
+    <nav
+      class="pd-header__nav"
+      aria-label="{{ $b1.nav_aria_label }}"
+    >
+      {{- range $b1.nav_items }}
+        <a
+          class="pd-header__nav-link{{ if .is_active }} is-active{{ end }}{{ if .is_ai }} pd-header__nav-link--ai{{ end }}"
+          href="{{ .href }}"
+        >
+          {{ .label }}
+        </a>
+      {{- end }}
+    </nav>
+
+    <div class="pd-header__right">
+      <a
+        class="pd-header__cta"
+        href="{{ $b1.cta_href }}"
+        data-open-project-lead
+      >
+        {{ $b1.cta_label }}
+      </a>
+    </div>
+
+  </div>
+</header>
+
+
+<section class="pd-project-hero" id="overview">
+  <div class="pd-project-hero__inner">
+
+    <nav
+      class="pd-hero-breadcrumbs"
+      aria-label="Breadcrumbs"
+    >
+      {{- range $i, $item := $b2.breadcrumbs }}
+
+        {{- if lt (add $i 1) (len $b2.breadcrumbs) }}
+          <a href="{{ $item.href }}">{{ $item.label }}</a>
+          <i aria-hidden="true">›</i>
+        {{- else }}
+          <span aria-current="page">{{ $item.label }}</span>
+        {{- end }}
+
+      {{- end }}
+    </nav>
+
+
+    <article
+      aria-label="{{ $b3.gallery_aria_label }}"
+      class="pd-project-gallery"
+      data-pd-gallery
+      data-gallery-count="{{ $galleryCount }}"
+    >
+
+      <img
+        alt="{{ $b3.image_alt }}"
+        class="visually-hidden"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3C/svg%3E"
+      >
+
+      <div class="pd-project-gallery__stage">
+
+        {{- if gt $galleryCount 0 }}
+
+          {{- range $i, $src := $gallery }}
+            <div
+              class="pd-project-slide{{ if eq $i 0 }} is-active{{ end }}"
+              style="background-image:url('{{ $src }}');"
+              data-slide="{{ $i }}"
+            ></div>
+          {{- end }}
+
+        {{- else }}
+
+          <div
+            class="pd-project-slide is-active"
+            data-slide="0"
+            data-media-status="pending"
+          ></div>
+
+        {{- end }}
+
+      </div>
+
+      {{- if gt $galleryCount 1 }}
+
+        <button
+          class="pd-project-gallery__arrow pd-project-gallery__arrow--prev"
+          type="button"
+          aria-label="{{ $b3.gallery_prev_label }}"
+          data-project-gallery-prev
+        >‹</button>
+
+        <button
+          class="pd-project-gallery__arrow pd-project-gallery__arrow--next"
+          type="button"
+          aria-label="{{ $b3.gallery_next_label }}"
+          data-project-gallery-next
+        >›</button>
+
+      {{- end }}
+
+      <div class="pd-project-gallery__info">
+
+        <div class="pd-project-title-pill">
+          <h1 id="project-title">
+            {{ $b3.hero_title }}
+          </h1>
+
+          <p>
+            {{ $b3.hero_subtitle }}
+          </p>
+        </div>
+
+        <div class="pd-project-price-pill">
+          <span>{{ $b3.price_label }}</span>
+
+          <strong class="pd-price">
+            {{ $b3.price_display }}
+          </strong>
+        </div>
+
+      </div>
+    </article>
+
+
+    <span
+      class="pd-project-ask-anchor"
+      id="ask-ai"
+      aria-hidden="true"
+    ></span>
+
+    <form
+      aria-label="{{ $b4.form_aria_label }}"
+      class="pd-project-ask"
+      id="project-ai-search"
+      data-pd-ai-ask
+    >
+
+      <div class="pd-project-ask__badge">
+        <span aria-hidden="true"></span>
+        {{ $b4.ai_badge }}
+      </div>
+
+      <input
+        class="pd-project-ask__input"
+        type="text"
+        name="project_q"
+        placeholder=""
+        autocomplete="off"
+        data-static-placeholder="{{ $b4.placeholder }}"
+        data-typing-examples='{{ (first 3 $b4.hints) | jsonify }}'
+      >
+
+      <button
+        class="pd-project-ask__voice"
+        type="button"
+        aria-label="{{ $b4.voice_button_label }}"
+        aria-pressed="false"
+      >
+        <span
+          class="pd-project-ask__voice-aura"
+          aria-hidden="true"
+        ></span>
+
+        <span
+          class="pd-project-ask__voice-core"
+          aria-hidden="true"
+        >
+          <img
+            alt=""
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z'/%3E%3Cpath d='M19 10v2a7 7 0 0 1-14 0v-2'/%3E%3Cpath d='M12 19v3'/%3E%3C/svg%3E"
+          >
+        </span>
+      </button>
+
+      <div
+        class="pd-project-ask__voice-popover"
+        aria-live="polite"
+      >
+        <div class="pd-project-ask__voice-popover-inner">
+
+          <span class="pd-project-ask__voice-dot"></span>
+
+          <div>
+            <span class="pd-project-ask__voice-status">
+              {{ $b4.voice_status }}
+            </span>
+
+            <span class="pd-project-ask__voice-text">
+              {{ $b4.voice_text }}
+            </span>
+          </div>
+
+          <span
+            class="pd-project-ask__voice-bars"
+            aria-hidden="true"
+          >
+            <i></i><i></i><i></i><i></i>
+          </span>
+
+        </div>
+      </div>
+
+      <button
+        class="pd-project-ask__button"
+        type="submit"
+        aria-label="{{ $b4.submit_aria_label }}"
+      >
+        {{ $b4.button_label }}
+      </button>
+
+    </form>
+
+  </div>
+</section>
+
+
+<section
+  class="pd-llm-band pd-section-anchor"
+  id="project-summary"
+>
+  <div class="pd-llm-band__inner">
+
+    <div class="pd-llm-top-grid pd-llm-top-grid--answer-facts">
+
+      <article
+        class="pd-project-card pd-project-card--answer"
+        id="overview-answer"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b5.short_answer_title }}</h2>
+          <span>{{ $b5.short_answer_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <p class="pd-answer-text">
+            {{ $b5.short_answer_summary }}
+          </p>
+
+          <div class="pd-answer-chips">
+            {{- range $b5.short_answer_chips }}
+              <span>{{ . }}</span>
+            {{- end }}
+          </div>
+
+          <p class="pd-page-type-note">
+            {{ $b5.page_type_note }}
+          </p>
+
+        </div>
+      </article>
+
+
+      <article
+        class="pd-project-card"
+        id="key-facts"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b6.details_title }}</h2>
+          <span>{{ $b6.details_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div class="pd-details-grid">
+
+            {{- range $b6.key_facts }}
+              <div class="pd-detail-pill">
+                <span>{{ .label }}</span>
+                <strong>{{ .value }}</strong>
+              </div>
+            {{- end }}
+
+          </div>
+
+          <p class="pd-keyfacts-note">
+            {{ $b6.keyfacts_note }}
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<section
+  aria-label="Project page content"
+  class="pd-project-content pd-project-content--llm"
+  id="details"
+>
+  <div class="pd-project-content__inner">
+
+
+    <div class="pd-project-card-grid pd-project-card-grid--fit-logic">
+
+      <article
+        class="pd-project-card pd-project-card--fit"
+        id="buyer-fit"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b7.buyer_fit_title }}</h2>
+          <span>{{ $b7.buyer_fit_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div class="pd-fit-columns">
+
+            <div class="pd-fit-box">
+              <h3>{{ $b7.best_for_title }}</h3>
+
+              <ul>
+                {{- range $b7.best_for_items }}
+                  <li>{{ . }}</li>
+                {{- end }}
+              </ul>
+            </div>
+
+            <div class="pd-fit-box">
+              <h3>{{ $b7.not_best_for_title }}</h3>
+
+              <ul>
+                {{- range $b7.not_best_for_items }}
+                  <li>{{ . }}</li>
+                {{- end }}
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </article>
+
+
+      <article
+        class="pd-project-card"
+        id="project-logic"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b8.project_logic_title }}</h2>
+          <span>{{ $b8.project_logic_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+          <p class="pd-project-description">
+            {{ $b8.project_logic_text }}
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+
+    <div
+      class="pd-mini-row"
+      id="decision-layer"
+    >
+      {{- range $i, $card := $b9.decision_cards }}
+
+        <article
+          class="pd-mini-card{{ if eq $i 3 }} pd-mini-card--dark{{ end }}"
+        >
+          <span>{{ $card.eyebrow }}</span>
+          <strong>{{ $card.title }}</strong>
+          <p>{{ $card.text }}</p>
+        </article>
+
+      {{- end }}
+    </div>
+
+
+    <div class="pd-project-card-grid pd-project-card-grid--lower">
+
+      <article
+        class="pd-project-card"
+        id="nearby"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b10.nearby_title }}</h2>
+          <span>{{ $b10.drive_time_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div class="pd-nearby-list">
+
+            {{- range $b10.nearby_landmarks }}
+
+              <div class="pd-nearby-item">
+                <strong>{{ .name }}</strong>
+                <span>{{ .drive_time_label }}</span>
+              </div>
+
+            {{- end }}
+
+          </div>
+        </div>
+      </article>
+
+
+      <article
+        class="pd-project-card"
+        id="location"
+      >
+        <div class="pd-project-card__head">
+          <h2>{{ $b10.location_title }}</h2>
+          <span>{{ $b10.map_context_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div
+            class="pd-location-box"
+            id="map"
+          >
+
+            <div>
+              <span>{{ $b10.address_label }}</span>
+              <strong>{{ $b10.address }}</strong>
+            </div>
+
+            <div>
+              <span>{{ $b10.map_point_label }}</span>
+              <strong>{{ $b10.map_point }}</strong>
+            </div>
+
+            <div class="pd-location-actions">
+
+              {{- range $b10.actions }}
+
+                <a
+                  class="{{ if eq .key "area_guide" }}pd-location-secondary{{ end }}"
+                  href="{{ .href }}"
+                >
+                  {{ .label }}
+                </a>
+
+              {{- end }}
+
+            </div>
+          </div>
+
+          <p class="pd-project-description">
+            {{ $b10.location_context }}
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+
+    <div
+      class="pd-trust-grid pd-trust-grid--llm"
+      id="developer-projects"
+    >
+
+      <article class="pd-project-card">
+
+        <div class="pd-project-card__head">
+          <h2>{{ $b11.similar_title }}</h2>
+          <span>{{ $b11.similar_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div class="pd-similar-links">
+
+            {{- range $b11.similar_projects }}
+              <a href="{{ .href }}">
+                {{ .project_name }}
+              </a>
+            {{- end }}
+
+            {{- range $b11.related_links }}
+              <a href="{{ .href }}">
+                {{ .label }}
+              </a>
+            {{- end }}
+
+          </div>
+
+        </div>
+      </article>
+
+
+      <article class="pd-project-card">
+
+        <div class="pd-project-card__head">
+          <h2>{{ $b12.faq_title }}</h2>
+          <span>{{ $b12.faq_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <div class="pd-faq-compact">
+
+            {{- range $i, $item := $b12.faq_items }}
+
+              <details {{ if eq $i 0 }}open{{ end }}>
+                <summary>{{ $item.question }}</summary>
+                <p>{{ $item.answer }}</p>
+              </details>
+
+            {{- end }}
+
+          </div>
+        </div>
+      </article>
+
+
+      <article class="pd-project-card">
+
+        <div class="pd-project-card__head">
+          <h2>{{ $b13.trust_sources_title }}</h2>
+          <span>{{ $b13.trust_kicker }}</span>
+        </div>
+
+        <div class="pd-project-card__body">
+
+          <p class="pd-source-note">
+            {{ $b13.source_note_text }}
+          </p>
+
+          <div class="pd-source-links">
+
+            {{- range $b13.trust_sources }}
+
+              <a href="{{ .href | default "#" }}">
+                {{ .label }}
+              </a>
+
+            {{- end }}
+
+          </div>
+
+          <ul class="pd-evidence-list">
+
+            {{- range $b13.trust_sources }}
+
+              <li>
+                <span>{{ .label }}</span>
+                <strong>{{ .status }}</strong>
+              </li>
+
+            {{- end }}
+
+          </ul>
+
+          <div class="pd-source-micro">
+
+            <div>
+              <span>{{ $b13.last_updated_label }}</span>
+              <strong>{{ $b13.last_updated_value }}</strong>
+            </div>
+
+            <div>
+              <span>{{ $b13.freshness_label }}</span>
+              <strong>{{ $b13.freshness_value }}</strong>
+            </div>
+
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+
+
+    <article
+      class="pd-project-cta-card"
+      id="contact"
+    >
+
+      <div>
+        <h3>{{ $b14.cta_title }}</h3>
+        <p>{{ $b14.cta_text }}</p>
+      </div>
+
+      <div class="pd-project-actions">
+
+        {{- range $b14.actions }}
+
+          <a
+            {{ if .open_modal }}
+              data-open-project-lead
+              href="{{ .modal_target | default (printf "#%s" $modalID) }}"
+            {{ else }}
+              href="{{ .href | default "#" }}"
+            {{ end }}
+          >
+            {{ .label }}
+          </a>
+
+        {{- end }}
+
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+<div
+  class="pd-lead-modal"
+  id="{{ $modalID }}"
+  aria-hidden="true"
+>
+  <div
+    class="pd-lead-modal__backdrop"
+    data-close-project-lead
+  ></div>
+
+  <div
+    class="pd-lead-modal__panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="{{ $modalTitleID }}"
+  >
+
+    <button
+      class="pd-lead-modal__close"
+      type="button"
+      data-close-project-lead
+      aria-label="{{ $b15.close_label }}"
+    >×</button>
+
+    <div class="pd-lead-modal__head">
+
+      <span class="pd-lead-modal__eyebrow">
+        {{ $b15.modal_eyebrow }}
+      </span>
+
+      <h2 id="{{ $modalTitleID }}">
+        {{ $b15.modal_title }}
+      </h2>
+
+      <p>
+        {{ $b15.modal_description }}
+      </p>
+
+    </div>
+
+    <form
+      class="pd-lead-form"
+      data-project-lead-form
+    >
+
+      <input
+        name="project_key"
+        type="hidden"
+        value="{{ $p.primary_entity_slug }}"
+      >
+
+      <input
+        name="project_name"
+        type="hidden"
+        value="{{ $b3.hero_title }}"
+      >
+
+      <input
+        name="location"
+        type="hidden"
+        value="{{ $b10.address }}"
+      >
+
+      <input
+        name="price_from"
+        type="hidden"
+        value="{{ $b3.price_display }}"
+      >
+
+      <div class="pd-lead-form__grid">
+
+        <label class="pd-lead-field">
+          <span>{{ $b15.fields.name.label }}</span>
+
+          <input
+            name="{{ $b15.fields.name.html_name }}"
+            type="text"
+            placeholder="{{ $b15.fields.name.placeholder }}"
+          >
+        </label>
+
+
+        <label class="pd-lead-field">
+          <span>{{ $b15.fields.phone.label }}</span>
+
+          <input
+            name="{{ $b15.fields.phone.html_name }}"
+            type="tel"
+            placeholder="{{ $b15.fields.phone.placeholder }}"
+          >
+        </label>
+
+
+        <label class="pd-lead-field">
+          <span>{{ $b15.fields.comment.label }}</span>
+
+          <input
+            name="{{ $b15.fields.comment.html_name }}"
+            type="text"
+            placeholder="{{ $b15.fields.comment.placeholder }}"
+          >
+        </label>
+
+      </div>
+
+
+      <label class="pd-lead-field pd-lead-field--comment">
+
+        <span>{{ $b15.ai_row_badge }}</span>
+
+        <div class="pd-lead-ai-row">
+
+          <div class="pd-lead-ai-row__badge">
+            <i></i>
+            {{ $b15.ai_row_badge }}
+          </div>
+
+          <textarea
+            data-lead-comment
+            name="{{ $b15.comment_textarea.html_name }}"
+          >{{ $b15.comment_textarea.prefill }}</textarea>
+
+          <button
+            aria-label="{{ $b15.voice_button_label }}"
+            class="pd-lead-voice"
+            data-lead-voice
+            type="button"
+          >
+            <span class="pd-lead-voice__aura"></span>
+
+            <span class="pd-lead-voice__core">
+
+              <img
+                alt=""
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z'/%3E%3Cpath d='M19 10v2a7 7 0 0 1-14 0v-2'/%3E%3Cpath d='M12 19v3'/%3E%3C/svg%3E"
+              >
+
+            </span>
+          </button>
+
+          <div
+            class="pd-lead-voice-popover"
+            data-lead-voice-popover
+            aria-live="polite"
+          >
+            <div
+              class="pd-lead-voice-popover__inner"
+            >
+
+              <span
+                class="pd-lead-voice-popover__dot"
+                aria-hidden="true"
+              ></span>
+
+              <div
+                class="pd-lead-voice-popover__copy"
+              >
+
+                <span
+                  class="pd-lead-voice-popover__status"
+                  data-lead-voice-popover-status
+                >
+                  {{ $b4.voice_status }}
+                </span>
+
+                <span
+                  class="pd-lead-voice-popover__text"
+                  data-lead-voice-popover-text
+                >
+                  {{ $b4.voice_text }}
+                </span>
+
+              </div>
+
+              <span
+                class="pd-lead-voice-popover__bars"
+                aria-hidden="true"
+              >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+
+            </div>
+          </div>
+
+
+          <button
+            class="pd-lead-submit"
+            type="submit"
+            data-submit-label="{{ $b15.submit_label }}"
+            data-success-label="{{ $b15.success_label }}"
+          >
+            {{ $b15.submit_label }}
+          </button>
+
+        </div>
+
+        <small
+          data-lead-voice-status
+          data-default-status="{{ $b15.note }}"
+        >{{ $b15.note }}</small>
+
+      </label>
+
+    </form>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+
+  <span
+    class="site-footer__glow site-footer__glow--left"
+  ></span>
+
+  <span
+    class="site-footer__glow site-footer__glow--right"
+  ></span>
+
+  <div class="site-footer__inner">
+
+    <div class="site-footer__left">
+
+      <a
+        class="site-footer__brand"
+        href="{{ $b16.brand_href }}"
+      >
+
+        <span class="site-footer__brand-dot"></span>
+
+        <span class="site-footer__brand-copy">
+          <span class="site-footer__brand-title">
+            {{ $b16.brand_title }}
+          </span>
+        </span>
+
+      </a>
+
+      <div class="site-footer__statement">
+
+        <h2>
+          {{ $b16.statement_title }}
+        </h2>
+
+        <p>
+          {{ $b16.statement_text }}
+        </p>
+
+        <div class="site-footer__chips">
+
+          {{- range $b16.chips }}
+            <span>{{ .label }}</span>
+          {{- end }}
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="site-footer__right">
+
+      <div class="site-footer__contacts">
+
+        <a
+          class="footer-pill"
+          data-open-project-lead
+          href="{{ $b16.contact_primary.href }}"
+        >
+          {{ $b16.contact_primary.label }}
+        </a>
+
+        <a
+          class="footer-pill"
+          href="{{ $b16.contact_secondary.href }}"
+        >
+          {{ $b16.contact_secondary.label }}
+        </a>
+
+      </div>
+
+
+      <div
+        class="site-footer__social"
+        aria-label="Social links"
+      >
+
+        {{- range $b16.social_links }}
+
+          <a
+            class="footer-social"
+            href="{{ .href }}"
+            aria-label="{{ .label }}"
+          >
+
+            {{- if eq .key "linkedin" }}
+
+              <img
+                alt=""
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Cpath d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z'/%3E%3Crect x='2' y='9' width='4' height='12'/%3E%3Ccircle cx='4' cy='4' r='2'/%3E%3C/svg%3E"
+              >
+
+            {{- else }}
+
+              <img
+                alt=""
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Crect x='3' y='3' width='18' height='18' rx='5'/%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M17.5 6.5h.01'/%3E%3C/svg%3E"
+              >
+
+            {{- end }}
+
+          </a>
+
+        {{- end }}
+
+      </div>
+
+    </div>
+
+
+    <div class="site-footer__bottom">
+
+      <div class="site-footer__copyright">
+        {{ $b16.copyright }}
+      </div>
+
+      <div class="site-footer__address">
+        {{ $b16.address }}
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+
+<script>
+(() => {
+  const hints = {{ $b4.hints | jsonify | safeJS }};
+  const basePlaceholder = {{ $b4.placeholder | jsonify | safeJS }};
+
+  const voiceListening = {{ $b4.voice_status | jsonify | safeJS }};
+  const voiceSuccess = {{ $b4.voice_success_status | jsonify | safeJS }};
+  const voiceErrorStatus = {{ $b4.voice_error_status | jsonify | safeJS }};
+  const voiceErrorText = {{ $b4.voice_error_text | jsonify | safeJS }};
+  const voiceFallbackStatus = {{ $b4.voice_fallback_status | jsonify | safeJS }};
+  const voiceFallbackText = {{ $b4.voice_fallback_text | jsonify | safeJS }};
+
+  const gallery = document.querySelector('.pd-project-gallery');
+
+  if (gallery) {
+    const slides = Array.from(
+      gallery.querySelectorAll('.pd-project-slide')
+    );
+
+    const prev = gallery.querySelector(
+      '[data-project-gallery-prev]'
+    );
+
+    const next = gallery.querySelector(
+      '[data-project-gallery-next]'
+    );
+
+    let active = slides.findIndex(
+      slide => slide.classList.contains('is-active')
+    );
+
+    if (active < 0) active = 0;
+
+    const show = (nextIndex, direction = 1) => {
+      if (slides.length <= 1) return;
+
+      nextIndex =
+        (nextIndex + slides.length) %
+        slides.length;
+
+      if (nextIndex === active) return;
+
+      const current = slides[active];
+      const target = slides[nextIndex];
+
+      gallery.style.setProperty(
+        '--gallery-dir',
+        direction
+      );
+
+      current.classList.remove('is-active');
+      current.classList.add('is-leaving');
+
+      target.classList.add('is-active');
+
+      setTimeout(() => {
+        current.classList.remove('is-leaving');
+      }, 1250);
+
+      active = nextIndex;
+    };
+
+    prev?.addEventListener(
+      'click',
+      () => show(active - 1, -1)
+    );
+
+    next?.addEventListener(
+      'click',
+      () => show(active + 1, 1)
+    );
+  }
+
+
+  const askForm =
+    document.querySelector('#project-ai-search');
+
+  if (askForm) {
+    const input =
+      askForm.querySelector('.pd-project-ask__input');
+
+    const voiceBtn =
+      askForm.querySelector('.pd-project-ask__voice');
+
+    const voiceStatus =
+      askForm.querySelector('.pd-project-ask__voice-status');
+
+    const voiceText =
+      askForm.querySelector('.pd-project-ask__voice-text');
+
+    askForm.addEventListener(
+      'submit',
+      event => event.preventDefault()
+    );
+
+    let exampleIndex = 0;
+    let charIndex = 0;
+    let timer = null;
+    let paused = false;
+
+    const examples =
+      Array.isArray(hints)
+        ? hints.slice(0, 3)
+        : [];
+
+    const clearTimer = () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+    };
+
+    const stablePlaceholder = () => {
+      input.placeholder = basePlaceholder || '';
+    };
+
+    const tick = () => {
+      clearTimer();
+
+      if (
+        paused ||
+        document.activeElement === input ||
+        input.value.trim()
+      ) {
+        return;
+      }
+
+      if (!examples.length) {
+        stablePlaceholder();
+        return;
+      }
+
+      const current =
+        examples[exampleIndex] || '';
+
+      input.placeholder =
+        current.slice(0, charIndex + 1);
+
+      charIndex++;
+
+      if (charIndex >= current.length) {
+        timer = setTimeout(() => {
+          exampleIndex =
+            (exampleIndex + 1) %
+            examples.length;
+
+          charIndex = 0;
+          input.placeholder = '';
+          timer = setTimeout(tick, 300);
+        }, 900);
+
+        return;
+      }
+
+      timer = setTimeout(tick, 34);
+    };
+
+    const pauseTyping = () => {
+      paused = true;
+      clearTimer();
+
+      if (!input.value.trim()) {
+        stablePlaceholder();
+      }
+    };
+
+    const resumeTyping = () => {
+      if (input.value.trim()) return;
+
+      paused = false;
+      clearTimer();
+
+      if (!examples.length) {
+        stablePlaceholder();
+        return;
+      }
+
+      charIndex = 0;
+      input.placeholder = '';
+      timer = setTimeout(tick, 350);
+    };
+
+    input.addEventListener(
+      'focus',
+      pauseTyping
+    );
+
+    input.addEventListener(
+      'input',
+      pauseTyping
+    );
+
+    input.addEventListener(
+      'blur',
+      () => {
+        if (!input.value.trim()) {
+          resumeTyping();
+        }
+      }
+    );
+
+    resumeTyping();
+
+
+    const SpeechRecognition =
+      window.SpeechRecognition ||
+      window.webkitSpeechRecognition;
+
+    let recognition = null;
+    let listening = false;
+
+    const setVoiceState = (
+      active,
+      status,
+      text
+    ) => {
+      listening = active;
+
+      askForm.classList.toggle(
+        'is-voice-active',
+        active
+      );
+
+      if (voiceBtn) {
+        voiceBtn.setAttribute(
+          'aria-pressed',
+          active ? 'true' : 'false'
+        );
+      }
+
+      if (status && voiceStatus) {
+        voiceStatus.textContent = status;
+      }
+
+      if (text && voiceText) {
+        voiceText.textContent = text;
+      }
+    };
+
+
+    if (SpeechRecognition) {
+      recognition =
+        new SpeechRecognition();
+
+      recognition.lang =
+        document.documentElement.lang ||
+        'en-US';
+
+      recognition.interimResults = true;
+      recognition.continuous = false;
+
+      recognition.onstart = () => {
+        setVoiceState(
+          true,
+          voiceListening,
+          basePlaceholder
+        );
+      };
+
+      recognition.onresult = event => {
+        let transcript = '';
+
+        for (
+          let i = event.resultIndex;
+          i < event.results.length;
+          i++
+        ) {
+          transcript +=
+            event.results[i][0].transcript;
+        }
+
+        transcript = transcript.trim();
+
+        if (transcript) {
+          input.value = transcript;
+
+          setVoiceState(
+            true,
+            voiceSuccess,
+            transcript
+          );
+        }
+      };
+
+      recognition.onerror = () => {
+        setVoiceState(
+          true,
+          voiceErrorStatus,
+          voiceErrorText
+        );
+
+        setTimeout(
+          () => setVoiceState(false),
+          900
+        );
+      };
+
+      recognition.onend = () => {
+        setTimeout(
+          () => setVoiceState(false),
+          650
+        );
+      };
+    }
+
+
+    voiceBtn?.addEventListener(
+      'click',
+      () => {
+        pauseTyping();
+
+        if (!recognition) {
+          setVoiceState(
+            true,
+            voiceFallbackStatus,
+            voiceFallbackText
+          );
+
+          setTimeout(
+            () => setVoiceState(false),
+            2200
+          );
+
+          return;
+        }
+
+        if (listening) {
+          try {
+            recognition.stop();
+          } catch (e) {}
+
+          setVoiceState(false);
+          return;
+        }
+
+        try {
+          recognition.start();
+        } catch (e) {
+          setVoiceState(
+            true,
+            voiceErrorStatus,
+            voiceErrorText
+          );
+
+          setTimeout(
+            () => setVoiceState(false),
+            1200
+          );
+        }
+      }
+    );
+  }
+
+
+  const modal =
+    document.querySelector('#{{ $modalID }}');
+
+  const html =
+    document.documentElement;
+
+  const openModal = event => {
+    event?.preventDefault();
+
+    if (!modal) return;
+
+    modal.classList.add('is-open');
+
+    modal.setAttribute(
+      'aria-hidden',
+      'false'
+    );
+
+    html.classList.add(
+      'pd-modal-open'
+    );
+  };
+
+  const closeModal = event => {
+    event?.preventDefault();
+
+    if (!modal) return;
+
+    modal.classList.remove('is-open');
+
+    modal.setAttribute(
+      'aria-hidden',
+      'true'
+    );
+
+    html.classList.remove(
+      'pd-modal-open'
+    );
+  };
+
+  document
+    .querySelectorAll(
+      '[data-open-project-lead]'
+    )
+    .forEach(el => {
+      el.addEventListener(
+        'click',
+        openModal
+      );
+    });
+
+  document
+    .querySelectorAll(
+      '[data-close-project-lead]'
+    )
+    .forEach(el => {
+      el.addEventListener(
+        'click',
+        closeModal
+      );
+    });
+
+  document.addEventListener(
+    'keydown',
+    event => {
+      if (event.key === 'Escape') {
+        closeModal(event);
+      }
+    }
+  );
+
+
+  /*
+     ================================================
+     PROJECT LEAD MODAL — REAL VOICE INPUT
+     Speech-to-text + Hero-style voice states
+     ================================================
+  */
+
+  const modalVoiceRow =
+    modal?.querySelector(
+      '.pd-lead-ai-row'
+    );
+
+  const modalVoiceButton =
+    modal?.querySelector(
+      '[data-lead-voice]'
+    );
+
+  const modalVoiceInput =
+    modal?.querySelector(
+      '[data-lead-comment]'
+    );
+
+  const modalVoiceStatus =
+    modal?.querySelector(
+      '[data-lead-voice-popover-status]'
+    );
+
+  const modalVoiceText =
+    modal?.querySelector(
+      '[data-lead-voice-popover-text]'
+    );
+
+
+  const modalVoicePrompt =
+    {{ $b4.voice_text | jsonify | safeJS }};
+
+
+  const ModalSpeechRecognition =
+    window.SpeechRecognition ||
+    window.webkitSpeechRecognition;
+
+
+  let modalRecognition = null;
+  let modalListening = false;
+  let modalFinalText = '';
+  let modalHasText = false;
+  let modalPopoverTimer = null;
+
+
+  const normalizeModalText = value => {
+    return String(value || '')
+      .replace(/\s+/g, ' ')
+      .replace(/\s+([,.!?;:])/g, '$1')
+      .trim();
+  };
+
+
+  const clearModalPopoverTimer = () => {
+    if (!modalPopoverTimer) return;
+
+    clearTimeout(
+      modalPopoverTimer
+    );
+
+    modalPopoverTimer = null;
+  };
+
+
+  const setModalVoiceState = (
+    visible,
+    listening,
+    status,
+    text
+  ) => {
+
+    modalListening =
+      listening;
+
+
+    modalVoiceRow?.classList.toggle(
+      'is-voice-active',
+      visible
+    );
+
+
+    if (modalVoiceButton) {
+
+      modalVoiceButton.classList.toggle(
+        'is-active',
+        listening
+      );
+
+      modalVoiceButton.setAttribute(
+        'aria-pressed',
+        listening
+          ? 'true'
+          : 'false'
+      );
+    }
+
+
+    if (
+      status &&
+      modalVoiceStatus
+    ) {
+      modalVoiceStatus.textContent =
+        status;
+    }
+
+
+    if (
+      text &&
+      modalVoiceText
+    ) {
+      modalVoiceText.textContent =
+        text;
+    }
+  };
+
+
+  const hideModalVoiceState = (
+    delay = 1600
+  ) => {
+
+    clearModalPopoverTimer();
+
+
+    modalPopoverTimer =
+      setTimeout(() => {
+
+        setModalVoiceState(
+          false,
+          false,
+          voiceListening,
+          modalVoicePrompt
+        );
+
+      }, delay);
+  };
+
+
+  if (
+    ModalSpeechRecognition &&
+    modalVoiceButton &&
+    modalVoiceInput
+  ) {
+
+    modalRecognition =
+      new ModalSpeechRecognition();
+
+
+    modalRecognition.lang =
+      document.documentElement.lang ||
+      'en-US';
+
+
+    modalRecognition.interimResults =
+      true;
+
+
+    modalRecognition.continuous =
+      false;
+
+
+    modalRecognition.onstart = () => {
+
+      clearModalPopoverTimer();
+
+      modalFinalText = '';
+      modalHasText = false;
+
+      /*
+       * Same functional behaviour
+       * as the working homepage modal:
+       * voice replaces prepared request.
+       */
+      modalVoiceInput.value = '';
+
+      modalVoiceInput.focus();
+
+
+      setModalVoiceState(
+        true,
+        true,
+        voiceListening,
+        modalVoicePrompt
+      );
+    };
+
+
+    modalRecognition.onresult =
+      event => {
+
+        let interimText = '';
+
+
+        for (
+          let i = event.resultIndex;
+          i < event.results.length;
+          i++
+        ) {
+
+          const part =
+            event.results[i][0]
+              .transcript || '';
+
+
+          if (
+            event.results[i].isFinal
+          ) {
+
+            modalFinalText =
+              normalizeModalText(
+                modalFinalText +
+                ' ' +
+                part
+              );
+
+          } else {
+
+            interimText =
+              normalizeModalText(
+                interimText +
+                ' ' +
+                part
+              );
+          }
+        }
+
+
+        const liveText =
+          normalizeModalText(
+            modalFinalText +
+            ' ' +
+            interimText
+          );
+
+
+        if (!liveText) return;
+
+
+        modalHasText = true;
+
+        modalVoiceInput.value =
+          liveText;
+
+
+        setModalVoiceState(
+          true,
+          true,
+          voiceSuccess,
+          liveText
+        );
+      };
+
+
+    modalRecognition.onerror = () => {
+
+      setModalVoiceState(
+        true,
+        false,
+        voiceErrorStatus,
+        voiceErrorText
+      );
+
+
+      hideModalVoiceState(
+        1800
+      );
+    };
+
+
+    modalRecognition.onend = () => {
+
+      modalVoiceInput.value =
+        normalizeModalText(
+          modalVoiceInput.value
+        );
+
+
+      if (
+        modalHasText &&
+        modalVoiceInput.value
+      ) {
+
+        setModalVoiceState(
+          true,
+          false,
+          voiceSuccess,
+          modalVoiceInput.value
+        );
+
+        hideModalVoiceState(
+          1700
+        );
+
+      } else {
+
+        setModalVoiceState(
+          true,
+          false,
+          voiceErrorStatus,
+          voiceErrorText
+        );
+
+        hideModalVoiceState(
+          1800
+        );
+      }
+    };
+  }
+
+
+  modalVoiceButton?.addEventListener(
+    'click',
+    () => {
+
+      clearModalPopoverTimer();
+
+
+      if (!modalRecognition) {
+
+        setModalVoiceState(
+          true,
+          false,
+          voiceFallbackStatus,
+          voiceFallbackText
+        );
+
+
+        hideModalVoiceState(
+          2200
+        );
+
+        return;
+      }
+
+
+      try {
+
+        if (modalListening) {
+
+          modalRecognition.stop();
+
+        } else {
+
+          modalRecognition.start();
+
+        }
+
+      } catch (error) {
+
+        setModalVoiceState(
+          true,
+          false,
+          voiceErrorStatus,
+          voiceErrorText
+        );
+
+
+        hideModalVoiceState(
+          1800
+        );
+      }
+    }
+  );
+
+
+  document
+    .querySelectorAll(
+      '[data-project-lead-form]'
+    )
+    .forEach(form => {
+      form.addEventListener(
+        'submit',
+        event => {
+          event.preventDefault();
+
+          const btn =
+            form.querySelector(
+              '.pd-lead-submit'
+            );
+
+          if (!btn) return;
+
+          btn.textContent =
+            btn.dataset.successLabel ||
+            btn.textContent;
+
+          btn.classList.add(
+            'is-done'
+          );
+
+          setTimeout(() => {
+            btn.textContent =
+              btn.dataset.submitLabel ||
+              btn.textContent;
+
+            btn.classList.remove(
+              'is-done'
+            );
+
+            closeModal();
+          }, 1400);
+        }
+      );
+    });
+
+})();
+</script>
+
+</body>
+</html>

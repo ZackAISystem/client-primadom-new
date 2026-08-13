@@ -1,0 +1,27 @@
+{{- $d := partial "primadom/page-types/project/_data.html" . -}}
+{{- $p := $d.p -}}
+{{- $lang := $d.lang -}}
+{{- $dir := index $p.direction $lang | default "ltr" -}}
+
+{{- $nameMap := $p.entity.name | default dict -}}
+{{- $name := index $nameMap $lang | default (index $nameMap "en") | default "Primadom project" -}}
+
+{{- $subtitleMap := $p.hero.subtitle | default dict -}}
+{{- $description := index $subtitleMap $lang | default (index $subtitleMap "en") | default (printf "%s by Primadom AI." $name) -}}
+
+{{- $title := printf "%s — Primadom AI" $name -}}
+
+<!doctype html>
+<html lang="{{ .Site.Language.Lang | default $lang }}" dir="{{ $dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}">
+  <link rel="stylesheet" href="{{ "css/primadom/page-project.css" | relURL }}">
+  {{ partial "primadom/page-types/project/schema.html" . }}
+</head>
+<body class="pd-page pd-project-page{{ if eq $dir "rtl" }} rtl{{ end }}">
+  {{ partial "primadom/page-types/project/project_page.html" . }}
+</body>
+</html>

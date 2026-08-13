@@ -1,0 +1,11 @@
+{{- $d := partial "primadom/page-types/intent/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pi-mini-row" aria-label="{{ $t.decision_cards_aria }}">
+  {{ range $t.decision_cards }}
+    <article class="pi-mini-card{{ if .dark }} pi-mini-card--dark{{ end }}">
+      <span>{{ .eyebrow }}</span>
+      <strong>{{ .title }}</strong>
+      <p>{{ .text }}</p>
+    </article>
+  {{ end }}
+</div>

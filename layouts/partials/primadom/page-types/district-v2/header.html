@@ -1,0 +1,22 @@
+{{- $d := partial "primadom/page-types/district-v2/_data.html" . -}}
+{{- $h := $d.t.header -}}
+<header class="pa-header">
+  <div class="pa-header__inner">
+    <a class="pa-header__badge" href="{{ $h.brand_url }}" aria-label="{{ $h.brand }}">
+      <span class="pa-header__badge-dot" aria-hidden="true"></span>
+      <span>{{ $h.brand }}</span>
+    </a>
+
+    <nav class="pa-header__nav" aria-label="District navigation">
+      {{ range $h.nav }}
+        <a class="pa-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pa-header__nav-link--ai{{ end }}" href="{{ .href }}">
+          {{ .label }}
+        </a>
+      {{ end }}
+    </nav>
+
+    <div class="pa-header__right">
+      <a class="pa-header__cta" href="{{ $h.cta_url }}" data-pa-modal="open">{{ $h.cta_label }}</a>
+    </div>
+  </div>
+</header>

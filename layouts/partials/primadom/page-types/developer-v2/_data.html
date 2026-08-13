@@ -1,0 +1,268 @@
+{{/*
+  Primadom AI — Developer Page V2
+
+  Production source:
+  data/primadom/developer_pages_v2/<slug>.json
+
+  JSON stays untouched:
+  envelope
+  + block_order
+  + blocks.block_01 ... block_17
+
+  This partial only adapts production blocks to the
+  existing Developer visual components.
+*/}}
+
+{{- $slug := .Params.developer_slug | default "" -}}
+
+{{- if not $slug -}}
+  {{- errorf "Developer V2: developer_slug missing for %s" .RelPermalink -}}
+{{- end -}}
+
+{{- $page := index site.Data.primadom.developer_pages_v2 $slug -}}
+
+{{- if not $page -}}
+  {{- errorf "Developer V2 data not found for slug: %s" $slug -}}
+{{- end -}}
+
+{{- $blocks := $page.blocks -}}
+
+{{- $b01 := index $blocks "block_01_header" -}}
+{{- $b02 := index $blocks "block_02_breadcrumbs" -}}
+{{- $b03 := index $blocks "block_03_hero" -}}
+{{- $b04 := index $blocks "block_04_ai_search" -}}
+{{- $b05 := index $blocks "block_05_short_summary" -}}
+{{- $b06 := index $blocks "block_06_developer_facts" -}}
+{{- $b07 := index $blocks "block_07_buyer_fit_logic" -}}
+{{- $b08 := index $blocks "block_08_decision_cards" -}}
+{{- $b09 := index $blocks "block_09_projects_portfolio" -}}
+{{- $b10 := index $blocks "block_10_districts_segment" -}}
+{{- $b11 := index $blocks "block_11_similar_developers" -}}
+{{- $b12 := index $blocks "block_12_faq" -}}
+{{- $b13 := index $blocks "block_13_trust_sources" -}}
+{{- $b14 := index $blocks "block_14_source_notes" -}}
+{{- $b15 := index $blocks "block_15_cta" -}}
+{{- $b16 := index $blocks "block_16_lead_modal" -}}
+{{- $b17 := index $blocks "block_17_footer" -}}
+
+
+{{/* ---------------------------------------------------------
+   HERO
+   Production hero itself is deliberately minimal.
+   Supporting copy comes from other production blocks,
+   never from the old fixture.
+--------------------------------------------------------- */}}
+
+{{- $hero := dict
+  "breadcrumbs" $b02.breadcrumbs
+  "breadcrumbs_aria" $b02.breadcrumbs_aria
+
+  "image" (dict
+    "src" ""
+    "alt" ""
+  )
+
+  "visual_aria" (printf "%s developer overview" $b03.developer_name)
+
+  "title" $b03.title
+  "subtitle" $b05.body_text
+
+  "facts_aria" "Developer overview"
+  "facts" $b05.chips
+
+  "ai_aria" $b04.form_aria_label
+  "ai_badge" $b04.ai_badge
+  "ai_placeholder" $b04.placeholder
+  "ai_hints" $b04.hints
+  "ai_typing_examples" $b04.prompts
+  "ai_examples" $b04.prompts
+
+  "voice_label" $b04.voice_button_label
+
+  "ai_voice_status" $b04.voice_status
+  "ai_voice_text" $b04.voice_text
+
+  "voice_status" $b04.voice_status
+  "voice_text" $b04.voice_text
+  "voice_success_status" $b04.voice_success_status
+  "voice_error_status" $b04.voice_error_status
+  "voice_error_text" $b04.voice_error_text
+  "voice_fallback_status" $b04.voice_fallback_status
+  "voice_fallback_text" $b04.voice_fallback_text
+
+  "ai_submit" $b04.button_label
+-}}
+
+
+{{/* ---------------------------------------------------------
+   PROJECT PORTFOLIO
+--------------------------------------------------------- */}}
+
+{{- $projects := dict
+  "active" (dict
+    "title" $b09.active_title
+    "eyebrow" $b09.active_eyebrow
+    "items" $b09.active_items
+  )
+
+  "known" (dict
+    "title" $b09.known_title
+    "eyebrow" $b09.known_eyebrow
+    "items" $b09.known_items
+  )
+
+  "total_project_count" $b09.total_project_count
+-}}
+
+
+{{/* ---------------------------------------------------------
+   SOURCE NOTES
+--------------------------------------------------------- */}}
+
+{{- $sourceNotes := dict
+  "title" $b14.title
+  "eyebrow" $b14.eyebrow
+  "text" $b14.body
+  "body" $b14.body
+  "items" $b14.signals
+  "meta_aria" $b14.title
+-}}
+
+
+{{/* ---------------------------------------------------------
+   MODAL FIELDS
+--------------------------------------------------------- */}}
+
+{{- $nameField := dict
+  "label" "Name"
+  "placeholder" ""
+-}}
+
+{{- $phoneField := dict
+  "label" "Phone / WhatsApp"
+  "placeholder" ""
+-}}
+
+{{- $emailField := dict
+  "label" "Email optional"
+  "placeholder" ""
+-}}
+
+{{- $commentField := dict
+  "label" "Request"
+  "placeholder" ""
+-}}
+
+
+{{- $matches := where $b16.fields "key" "name" -}}
+{{- if gt (len $matches) 0 -}}
+  {{- $nameField = index $matches 0 -}}
+{{- end -}}
+
+{{- $matches = where $b16.fields "key" "phone" -}}
+{{- if gt (len $matches) 0 -}}
+  {{- $phoneField = index $matches 0 -}}
+{{- end -}}
+
+{{- $matches = where $b16.fields "key" "email" -}}
+{{- if gt (len $matches) 0 -}}
+  {{- $emailField = index $matches 0 -}}
+{{- end -}}
+
+{{- $matches = where $b16.fields "key" "comment" -}}
+{{- if gt (len $matches) 0 -}}
+  {{- $commentField = index $matches 0 -}}
+{{- end -}}
+
+
+{{- $modal := dict
+  "aria" $b16.aria
+  "close_label" $b16.close_label
+  "eyebrow" $b16.eyebrow
+  "title" $b16.title
+  "text" $b16.text
+
+  "fields" (dict
+    "name" $nameField.label
+    "phone" $phoneField.label
+    "email" $emailField.label
+    "comment" $commentField.label
+  )
+
+  "placeholders" (dict
+    "name" $nameField.placeholder
+    "phone" $phoneField.placeholder
+    "email" $emailField.placeholder
+    "comment" $commentField.placeholder
+  )
+
+  "comment" $b16.prefilled_request
+
+  "submit" $b16.submit_label
+  "success" $b16.success_title
+
+  "success_title" $b16.success_title
+  "success_text" $b16.success_text
+
+  "modal_id" $b16.modal_id
+  "title_id" $b16.title_id
+  "hidden_fields" $b16.hidden_fields
+-}}
+
+
+{{/* ---------------------------------------------------------
+   EXISTING VISUAL CONTRACT
+--------------------------------------------------------- */}}
+
+{{- $t := dict
+
+  "developer_slug" $page.primary_entity_slug
+  "developer_name" $b03.developer_name
+
+  "city" $b17.market_context.city
+  "country" $b17.market_context.country
+
+  "header" $b01
+  "hero" $hero
+
+  "short_summary" $b05
+  "facts" $b06
+
+  "buyer_fit" $b07.buyer_fit
+  "developer_logic" $b07.developer_logic
+
+  "decision_cards_aria" $b08.decision_cards_aria
+  "decision_cards" $b08.decision_cards
+
+  "projects" $projects
+
+  "districts" $b10.districts
+  "segment_profile" $b10.segment_profile
+
+  "similar_developers" $b11
+
+  "faq" $b12
+
+  "trust_sources" $b13
+
+  "source_notes" $sourceNotes
+
+  "cta" $b15
+
+  "modal" $modal
+
+  "footer" $b17
+-}}
+
+
+{{- return (
+  dict
+    "page" $page
+    "blocks" $blocks
+    "t" $t
+    "lang" $page.language_code
+    "slug" $page.primary_entity_slug
+    "developer_name" $b03.developer_name
+    "city" $b17.market_context.city
+    "country" $b17.market_context.country
+) -}}

@@ -1,0 +1,8 @@
+{{- $slug := .Params.property_type_slug | default "branded-residences-dubai" -}}
+{{- $raw := index site.Data.primadom.property_type_pages $slug -}}
+{{- if not $raw -}}
+  {{- errorf "Property type page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $t := index $raw.i18n $lang | default (index $raw.i18n "en") -}}
+{{- return (dict "raw" $raw "t" $t "lang" $lang "slug" $slug) -}}

@@ -1,0 +1,34 @@
+{{- $d := partial "primadom/page-types/property-type-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pt-grid-2 pt-grid-2--reverse" id="projects">
+  <article class="pt-card">
+    <div class="pt-card__head">
+      <h2>{{ $t.projects.title }}</h2>
+      <span>{{ $t.projects.eyebrow }}</span>
+    </div>
+    <div class="pt-card__body pt-list">
+      {{ range $t.projects.items }}
+        <a href="{{ .href }}">{{ .label }}<small>{{ .meta }}</small></a>
+      {{ end }}
+    </div>
+  </article>
+
+  <article class="pt-card">
+    <div class="pt-card__head">
+      <h2>{{ $t.pros_cons.title }}</h2>
+      <span>{{ $t.pros_cons.eyebrow }}</span>
+    </div>
+    <div class="pt-card__body">
+      <div class="pt-fit-columns">
+        <div class="pt-fit-box">
+          <h3>{{ $t.pros_cons.pros_title }}</h3>
+          <ul>{{ range $t.pros_cons.pros_items }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        <div class="pt-fit-box">
+          <h3>{{ $t.pros_cons.cons_title }}</h3>
+          <ul>{{ range $t.pros_cons.cons_items }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>

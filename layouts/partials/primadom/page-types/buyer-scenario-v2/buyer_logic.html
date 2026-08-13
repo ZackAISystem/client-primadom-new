@@ -1,0 +1,21 @@
+{{- $d := partial "primadom/page-types/buyer-scenario-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="bs-grid-2 bs-grid-2--reverse">
+  <article class="bs-card">
+    <div class="bs-card__head"><h2>{{ $t.buyer_fit.title }}</h2><span>{{ $t.buyer_fit.eyebrow }}</span></div>
+    <div class="bs-card__body">
+      <div class="bs-fit-columns">
+        <div class="bs-fit-box"><h3>{{ $t.buyer_fit.good_title }}</h3><ul>{{ range $t.buyer_fit.good_items }}<li>{{ . }}</li>{{ end }}</ul></div>
+        <div class="bs-fit-box"><h3>{{ $t.buyer_fit.bad_title }}</h3><ul>{{ range $t.buyer_fit.bad_items }}<li>{{ . }}</li>{{ end }}</ul></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="bs-card">
+    <div class="bs-card__head"><h2>{{ $t.scenario_logic.title }}</h2><span>{{ $t.scenario_logic.eyebrow }}</span></div>
+    <div class="bs-card__body">
+      <p class="bs-desc">{{ $t.scenario_logic.body }}</p>
+      <div class="bs-tags">{{ range $t.scenario_logic.tags }}<span>{{ . }}</span>{{ end }}</div>
+    </div>
+  </article>
+</div>

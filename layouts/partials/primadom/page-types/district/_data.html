@@ -1,0 +1,10 @@
+{{- $slug := .Params.district_slug | default "palm-jumeirah" -}}
+{{- $pages := site.Data.primadom.district_pages -}}
+{{- $page := index $pages $slug -}}
+{{- if not $page -}}
+  {{- errorf "District page data not found for slug: %s" $slug -}}
+{{- end -}}
+{{- $lang := site.Language.Lang | default "en" -}}
+{{- $i18n := $page.i18n | default dict -}}
+{{- $t := index $i18n $lang | default (index $i18n "en") -}}
+{{- return (dict "page" $page "t" $t "lang" $lang "slug" $slug) -}}

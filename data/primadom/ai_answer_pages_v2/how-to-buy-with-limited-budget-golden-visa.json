@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-buy-with-limited-budget__context__golden-visa__en",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/how-to-buy-with-limited-budget-golden-visa/",
+  "canonical_url_path": "/en/ai-answers/how-to-buy-with-limited-budget-golden-visa/",
+  "canonical_group_key": "ai_answer:how-to-buy-with-limited-budget:context:golden-visa",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-buy-with-limited-budget",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/how-to-buy-with-limited-budget-golden-visa/",
+          "label": "How can I buy with a limited budget? — Golden Visa",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Golden Visa",
+        "Cost check",
+        "Total cost",
+        "Cost inputs",
+        "Compare terms"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "How can I buy with a limited budget? — Golden Visa",
+      "subtitle": "Review buying within a limited budget when a Golden Visa is part of the buying goal, including the main cost drivers, cost inputs and trade-offs to compare.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for How can I buy with a limited budget? — Golden Visa",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which compromises preserve value within a limited budget",
+        "Compare location, size and payment flexibility for visa-focused buyers",
+        "Explain which lower-cost options need extra scrutiny before deciding"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Help me prioritise options within constraints for visa-focused buyers",
+      "placeholder": "Help me prioritise options within constraints for visa-focused buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Limited budget",
+        "Visa-focused buyers",
+        "Trade-offs",
+        "Total cost",
+        "Value check"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>A limited budget works best when the trade-offs are chosen deliberately.</strong> For visa-focused buyers, compare location, property type, unit quality, payment timing, total purchase costs and the trade-offs attached to the advertised price. Protect the overall buying case rather than stretching to a headline price, discount or low initial payment.",
+      "body_text": "A limited budget works best when the trade-offs are chosen deliberately. For visa-focused buyers, compare location, property type, unit quality, payment timing, total purchase costs and the trade-offs attached to the advertised price. Protect the overall buying case rather than stretching to a headline price, discount or low initial payment.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "How can I buy with a limited budget? — Golden Visa"
+        },
+        {
+          "label": "Context",
+          "value": "Golden Visa"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Depends on value after trade-offs"
+        },
+        {
+          "label": "Main checks",
+          "value": "Trade-offs · Total cost · Value check"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Overpaying · hidden trade-offs"
+        },
+        {
+          "label": "Best next step",
+          "value": "Compare credible alternatives"
+        },
+        {
+          "label": "Verification",
+          "value": "Current pricing check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "How To Buy With Limited Budget",
+      "market": "UAE",
+      "context": "Golden Visa",
+      "eyebrow": "Key facts",
+      "question": "How to buy with a limited budget for Golden Visa?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "A lower price is offset by weaker location, layout, quality, service costs or resale depth.",
+            "title": "The headline price hides major compromises"
+          },
+          {
+            "text": "Transaction costs or later payments would create pressure because nearly all available cash is committed.",
+            "title": "The budget leaves no flexibility"
+          },
+          {
+            "text": "Comparable options offer meaningfully stronger fundamentals without requiring a large additional budget.",
+            "title": "A better alternative is close in price"
+          },
+          {
+            "text": "For visa-focused buyers, revisit the limited-budget purchase plan if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Comparable properties support the asking price once location, size, quality and payment timing are considered.",
+            "title": "The price is competitive for the trade-offs"
+          },
+          {
+            "text": "Fees, furnishing, financing and ownership costs fit without pushing the buyer beyond a comfortable limit.",
+            "title": "The full purchase budget still works"
+          },
+          {
+            "text": "The buyer clearly understands what is being sacrificed in location, size, quality or timing to reach the price.",
+            "title": "The compromise is deliberate"
+          },
+          {
+            "text": "For visa-focused buyers, the limited-budget purchase plan still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For visa-focused buyers, compare location, property type, unit quality, payment timing, total purchase costs and the trade-offs attached to the advertised price.",
+          "title": "Trade-offs · Total cost · Value check",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the headline price hides major compromises, the budget leaves no flexibility, or a better alternative is close in price.",
+          "title": "Budget constraint",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Protect the overall buying case rather than stretching to a headline price, discount or low initial payment.",
+          "title": "Compare credible alternatives",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the headline price hides major compromises, the budget leaves no flexibility, or a better alternative is close in price. For visa-focused buyers, protect the overall buying case rather than stretching to a headline price, discount or low initial payment.",
+        "tags": [
+          "Entry price",
+          "Total cost",
+          "Cash buffer",
+          "Value comparison",
+          "Budget constraint"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For visa-focused buyers, define the maximum all-in commitment after transaction costs, financing, furnishing and a sensible cash reserve rather than using price alone.",
+            "title": "Set the true purchase ceiling"
+          },
+          {
+            "text": "Normalise unit size, location, condition, payment timing and included features before deciding that one option offers a better entry price.",
+            "title": "Compare value on like terms"
+          },
+          {
+            "text": "Check how much liquidity remains after the transaction so the purchase does not consume cash needed for fees, delays or unexpected costs.",
+            "title": "Protect the post-purchase buffer"
+          },
+          {
+            "text": "Identify whether a cheaper option gives up location quality, layout, delivery certainty, demand or another feature that matters to the buyer.",
+            "title": "Test what the lower price sacrifices"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-avoid-overpaying-golden-visa/",
+          "label": "How can I avoid overpaying?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-low-entry-price-golden-visa/",
+          "label": "How should I check a low entry price?"
+        },
+        {
+          "href": "/en/ai-answers/what-is-good-entry-price-golden-visa/",
+          "label": "What is a good entry price?"
+        },
+        {
+          "href": "/en/ai-answers/how-much-down-payment-golden-visa/",
+          "label": "How much down payment should I plan for?"
+        },
+        {
+          "href": "/en/ai-answers/what-hidden-costs-golden-visa/",
+          "label": "What hidden costs should I check?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "A limited budget works best when the trade-offs are chosen deliberately. For visa-focused buyers, define the maximum all-in commitment after transaction costs, financing, furnishing and a sensible cash reserve rather than using price alone.",
+          "question": "How do I buy with a limited budget?"
+        },
+        {
+          "answer": "Avoiding overpayment starts with comparing the property against credible alternatives. Normalise unit size, location, condition, payment timing and included features before deciding that one option offers a better entry price.",
+          "question": "How do I avoid overpaying?"
+        },
+        {
+          "answer": "A low entry price is useful only when the reason for the discount is understood. Check how much liquidity remains after the transaction so the purchase does not consume cash needed for fees, delays or unexpected costs.",
+          "question": "How should I assess a low entry price?"
+        },
+        {
+          "answer": "A good entry price is one that is defensible against comparable alternatives and the asset’s risks. Identify whether a cheaper option gives up location quality, layout, delivery certainty, demand or another feature that matters to the buyer.",
+          "question": "What counts as a good entry price?"
+        },
+        {
+          "answer": "The required down payment varies by buyer, lender, property and purchase structure. Do not treat a sales conversation or initial indication as final lender approval. Confirm current lender terms and property eligibility before relying on mortgage funding for the purchase.",
+          "question": "How much down payment should I plan for?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Price and value should be judged against comparable alternatives, total purchase costs and the trade-offs attached to the property. Recheck current comparable evidence and transaction inputs before relying on a headline price, discount or entry-cost assumption.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Golden Visa · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Trade-offs · Total cost · Value check"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Current comparable evidence · transaction cost inputs"
+        },
+        {
+          "label": "Live check",
+          "value": "Current comparable pricing and purchase costs"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "pricing_value",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to test this answer against your property-and-residency case, including your budget, comparable options, total costs and the trade-offs behind the headline price before you move forward.",
+      "title": "Want to check whether the price makes sense?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your property-and-residency case, focusing on comparable options, total costs and the pricing trade-offs an advisor should review with you.",
+      "title": "Check whether the price makes sense for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check whether this price makes sense for my purchase.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}

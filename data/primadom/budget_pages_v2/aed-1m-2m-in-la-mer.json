@@ -1,0 +1,706 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_budget_district_aed_1m_2m_la_mer_en",
+  "page_type_id": "budget_page",
+  "language_code": "en",
+  "url_path": "/en/budgets/aed-1m-2m-in-la-mer/",
+  "canonical_url_path": "/en/budgets/aed-1m-2m-in-la-mer/",
+  "canonical_group_key": "budget_district:aed_1m_2m:la-mer",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "la-mer",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Can buy",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Payment plan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costs",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Budget page navigation",
+      "cta_label": "Check budget",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "budgets",
+          "href": "/en/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/la-mer/",
+          "label": "La Mer"
+        },
+        {
+          "key": "current",
+          "href": "/en/budgets/aed-1m-2m-in-la-mer/",
+          "label": "Property for AED 1M–2M in La Mer"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "La Mer",
+        "All property types",
+        "Project starting prices above range",
+        "Broaden location or format"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Property for AED 1M–2M in La Mer",
+      "subtitle": "Project entry prices for property in La Mer exceed the AED 1M–2M band; broaden the search through nearby locations, more compact layouts or different property formats.",
+      "facts_aria": "Budget page highlights",
+      "section_id": "overview",
+      "visual_aria": "Budget overview for Property for AED 1M–2M in La Mer",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Ask about realistic property options, trade-offs and buying costs in La Mer. Current prices and availability require a project check.",
+      "hints": [
+        "What can this budget buy here?",
+        "Which alternatives come closer to budget?",
+        "What trade-offs should I compare first?"
+      ],
+      "title": "Check what AED 1M–2M can buy in La Mer",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Assess realistic options for property in La Mer within AED 1M–2M. Use project entry prices as orientation, compare layouts, locations and delivery profiles, and confirm exact unit prices before shortlisting.",
+        "Find realistic alternatives to property in La Mer within AED 1M–2M, including nearby districts, more compact layouts or different property formats. Explain the main compromise in each option.",
+        "Explain the main trade-offs for property in La Mer within AED 1M–2M: space, location, delivery timing, developer record, fees and resale flexibility."
+      ],
+      "hint_items": [
+        {
+          "label": "What can this budget buy here?",
+          "prompt": "Assess realistic options for property in La Mer within AED 1M–2M. Use project entry prices as orientation, compare layouts, locations and delivery profiles, and confirm exact unit prices before shortlisting."
+        },
+        {
+          "label": "Which alternatives come closer to budget?",
+          "prompt": "Find realistic alternatives to property in La Mer within AED 1M–2M, including nearby districts, more compact layouts or different property formats. Explain the main compromise in each option."
+        },
+        {
+          "label": "What trade-offs should I compare first?",
+          "prompt": "Explain the main trade-offs for property in La Mer within AED 1M–2M: space, location, delivery timing, developer record, fees and resale flexibility."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Ask what AED 1M–2M can buy in La Mer",
+      "placeholder": "Ask what AED 1M–2M can buy in La Mer",
+      "voice_label": "Start voice input",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Compare my case",
+      "voice_error_text": "Type your request or try again",
+      "voice_active_label": "Stop voice input",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "live_check_required": true,
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "submit_loading_label": "Asking AI",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode",
+      "voice_processing_label": "Processing voice input"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "La Mer",
+        "Mixed property types",
+        "Starting prices above range",
+        "Compare lower-cost options"
+      ],
+      "title": "What you can buy",
+      "eyebrow": "Direct answer",
+      "body_html": "<p><strong>Recorded project starting prices for property in La Mer are above the AED 1M–2M target range.</strong> Compare property type, usable size, developer execution, completion profile, payment terms and total ownership costs within the district. The likely compromise is property type, usable size or location. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.</p>",
+      "body_text": "Recorded project starting prices for property in La Mer are above the AED 1M–2M target range. Compare property type, usable size, developer execution, completion profile, payment terms and total ownership costs within the district. The likely compromise is property type, usable size or location. Current unit pricing, payment terms, incentives and availability should be checked for every project that reaches the shortlist.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Market",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "value": "La Mer"
+        },
+        {
+          "key": "property_type",
+          "label": "Property type",
+          "value": "Mixed property types"
+        },
+        {
+          "key": "current_signal",
+          "label": "Current signal",
+          "value": "Starting prices above range"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Main trade-off",
+          "value": "Size vs location"
+        },
+        {
+          "key": "next_check",
+          "label": "Next check",
+          "value": "Lower-cost options"
+        },
+        {
+          "key": "unit_status",
+          "label": "Unit status",
+          "value": "Verify live availability"
+        }
+      ],
+      "title": "Budget details",
+      "eyebrow": "Key facts",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "No recorded project start currently fits this budget; compare exact units and nearby areas.",
+            "title": "La Mer"
+          },
+          {
+            "text": "18 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "12 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Mohammed Bin Rashid City"
+          },
+          {
+            "text": "11 projects have recorded starting prices in this budget; compare exact units and live availability.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Districts to compare",
+        "eyebrow": "Area logic"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "6 projects have recorded starting prices in the wider market; verify this format in La Mer.",
+            "title": "Townhouses"
+          },
+          {
+            "text": "1 project has a recorded starting price in the wider market; verify this format in La Mer.",
+            "title": "Villas"
+          },
+          {
+            "text": "This format appears in the area, but recorded starting prices currently sit outside the budget.",
+            "title": "Apartments"
+          },
+          {
+            "text": "This format appears in the area, but recorded starting prices currently sit outside the budget.",
+            "title": "Studios"
+          }
+        ],
+        "title": "Property types to compare",
+        "eyebrow": "Property logic"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Budget decision notes",
+      "items": [
+        {
+          "text": "Recorded starting prices in La Mer sit above AED 1M–2M. Check the extra amount and the full payment schedule before treating the option as workable.",
+          "title": "The budget gap needs an honest check",
+          "eyebrow": "Payment plan logic"
+        },
+        {
+          "text": "In La Mer, compare the location premium with the extra space or specification the same budget may buy elsewhere.",
+          "title": "Location and usable space compete",
+          "eyebrow": "Tradeoffs"
+        },
+        {
+          "text": "For a purchase in La Mer, include registration, agency or finance costs where applicable, service or community charges, furnishing and maintenance.",
+          "title": "Leave room for the costs around the deal",
+          "eyebrow": "Hidden costs"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can weigh the budget, property type, district, timeline and risk profile before an advisor checks live options.",
+          "title": "Turn budget into a shortlist",
+          "eyebrow": "AI context"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "No selected project starts inside AED 1M–2M while also matching the location and property criteria. The projects shown start just outside AED 1M–2M and should be treated as comparison options.",
+        "items": [
+          {
+            "href": "/en/projects/la-sirene-phase-2/",
+            "meta": "Near range · AED 2.2M",
+            "label": "La Sirene Phase 2",
+            "item_type": "project_match",
+            "match_status": "near_budget",
+            "project_slug": "la-sirene-phase-2",
+            "district_name": "La Mer",
+            "handover_year": 2024,
+            "property_type": "Apartment",
+            "developer_name": "Meraas Holding",
+            "project_page_id": "page_project_la_sirene_phase_2_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2200000
+          },
+          {
+            "href": "/en/projects/la-rive-la-mer/",
+            "meta": "Near range · AED 2.3M",
+            "label": "La Rive La Mer",
+            "item_type": "project_match",
+            "match_status": "near_budget",
+            "project_slug": "la-rive-la-mer",
+            "district_name": "La Mer",
+            "handover_year": 2023,
+            "property_type": "Apartment",
+            "developer_name": "Meraas Holding",
+            "project_page_id": "page_project_la_rive_la_mer_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2300000
+          },
+          {
+            "href": "/en/areas/la-mer/",
+            "meta": "district guide",
+            "label": "Explore more projects in La Mer",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "price & availability",
+            "label": "Check live units for projects in La Mer",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI budget check",
+            "label": "Ask Primadom AI to build a live shortlist",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Projects to compare",
+        "eyebrow": "Shortlist entry"
+      },
+      "buyer_fit": {
+        "title": "Buyer fit",
+        "eyebrow": "Who this budget suits",
+        "bad_items": [
+          "Buyers committed to another district and unwilling to compare this location",
+          "Buyers who require every project to start strictly inside the stated price range",
+          "Buyers unwilling to account for registration, furnishing and ongoing ownership costs"
+        ],
+        "bad_title": "May not fit",
+        "good_items": [
+          "Buyers comparing projects in La Mer within AED 1M–2M",
+          "Buyers willing to trade some internal space for stronger location or everyday access",
+          "Buyers open to reviewing nearby recorded price points when no exact project clears every filter"
+        ],
+        "good_title": "Good fit for"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "In La Mer, a budget of AED 1M–2M produces a workable shortlist, but headline prices do not show the full differences between the properties. More internal space may require a less central location, while stronger access can reduce the size available within the same budget. No selected project starts inside AED 1M–2M. The nearby options start just outside the range and are useful only as comparison points.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Size vs location",
+          "Property format",
+          "Range flexibility",
+          "Total cash exposure",
+          "Ongoing costs"
+        ],
+        "title": "Tradeoffs",
+        "eyebrow": "Reality check"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "The property price is only part of the cash requirement in La Mer. Confirm transaction, financing, handover and ongoing ownership costs for the exact purchase.",
+        "items": [
+          {
+            "text": "Confirm registration and transaction charges for the exact Dubai purchase before reserving. The final amount depends on the property and transaction type.",
+            "title": "Registration and transaction costs"
+          },
+          {
+            "text": "When financing is used, confirm bank, valuation and mortgage-related charges together with the cash required before completion.",
+            "title": "Financing and valuation costs"
+          },
+          {
+            "text": "Check building or community charges, maintenance responsibilities and recurring ownership costs for the exact property.",
+            "title": "Service charges and property upkeep"
+          },
+          {
+            "text": "Plan separately for snagging, furnishing, utilities, moving and any costs due around handover or completion.",
+            "title": "Handover, furnishing and move-in costs"
+          }
+        ],
+        "title": "Costs to verify",
+        "eyebrow": "Check before buying",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/en/budgets/under-aed-1m-in-la-mer/",
+          "label": "Property under AED 1M in La Mer",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/aed-2m-3m-in-la-mer/",
+          "label": "Property AED 2M–3M in La Mer",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/apartments-aed-1m-2m-in-la-mer/",
+          "label": "Apartments AED 1M–2M in La Mer",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        },
+        {
+          "href": "/en/budgets/studios-aed-1m-2m-in-la-mer/",
+          "label": "Studios AED 1M–2M in La Mer",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        }
+      ],
+      "title": "Related budget pages",
+      "eyebrow": "Related searches",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "No exact starting-price match is currently recorded for property in La Mer within AED 1M–2M, but 2 nearby project matches can be used to test the brief. The practical adjustment may involve budget, unit type, size or location, and every option still requires a live price and availability check.",
+          "question": "How much recorded property choice is there in La Mer within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in La Mer within AED 1M–2M, the strongest comparison paths currently shown are Townhouses, Villas, Apartments. 6 projects have recorded starting prices in the wider market; verify this format in La Mer. These are discovery signals based on recorded starting prices, not confirmation that every unit type is currently available.",
+          "question": "Which property types should buyers compare in La Mer within AED 1M–2M?"
+        },
+        {
+          "answer": "The property price is only part of the cash requirement in La Mer. Confirm transaction, financing, handover and ongoing ownership costs for the exact purchase. For property in La Mer within AED 1M–2M, check registration and transaction costs, financing and valuation costs, service charges and property upkeep, and handover, furnishing and move-in costs. Exact amounts should be calculated for the selected unit, financing structure and transaction before treating the budget as complete.",
+          "question": "Which additional costs should buyers calculate for property in La Mer within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in La Mer within AED 1M–2M, compare the booking or down payment, construction instalments, handover balance, any post-handover obligations and the total amount due before completion. This page does not confirm a live developer payment plan, so the current schedule must be checked separately for every shortlisted unit. A lower instalment or longer schedule does not automatically mean lower total exposure.",
+          "question": "How should buyers compare payment plans for property in La Mer within AED 1M–2M?"
+        },
+        {
+          "answer": "For property in La Mer within AED 1M–2M, Primadom AI can compare the 2 nearby project matches and show which single constraint—budget, location, property type, size or completion timing—needs to change. The resulting shortlist still requires current price, payment-term and availability checks.",
+          "question": "How can Primadom AI refine a search for property in La Mer within AED 1M–2M?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "Budget questions",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Planning details for property options in La Mer within AED 1M–2M are not live inventory. Confirm current project prices and availability, payment schedules, handover status, fees, service charges and project terms using developer materials, official records, current listings and a Primadom advisor review.",
+      "items": [
+        {
+          "label": "Price / availability",
+          "value": "Needs live check"
+        },
+        {
+          "label": "Payment plan",
+          "value": "Needs developer material"
+        },
+        {
+          "label": "Fees / service charges",
+          "value": "Must be calculated"
+        },
+        {
+          "label": "District / project fit",
+          "value": "Needs source review"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Ask Primadom AI to compare property options in La Mer within AED 1M–2M by property type, current price, payment plan and total cost, then prepare a shortlist for live review.",
+      "title": "Want to check what your budget really buys?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Get budget shortlist",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Budget enquiry form",
+      "note": "Current prices and availability will be checked before recommendations are shared.",
+      "text": "Share your details. Primadom AI will prepare your budget request for a Primadom advisor to review.",
+      "title": "Check what your budget can buy",
+      "fields": {
+        "name": "Your name",
+        "phone": "Phone / WhatsApp",
+        "budget": "Budget range",
+        "comment": "Prepared request"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Send",
+      "comment": "Check property options in La Mer, AED 1M–2M.",
+      "eyebrow": "AI budget handoff",
+      "success": "Sent",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Close",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Request draft",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Your name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budget range",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Prepared request",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Prepared from this page",
+          "single_line": true,
+          "default_value": "Check property options in La Mer, AED 1M–2M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Prepared from this page"
+      },
+      "submit_label": "Send",
+      "hidden_fields": {
+        "page_id": "page_budget_district_aed_1m_2m_la_mer_en",
+        "page_layer": "budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 1M–2M",
+        "district_name": "La Mer",
+        "canonical_url_path": "/en/budgets/aed-1m-2m-in-la-mer/",
+        "content_version_id": "22fc22cf-4a6d-4ff0-a9bb-2b808714ba31",
+        "property_type_name": null
+      },
+      "success_label": "Sent",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Voice search",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explore property options in La Mer within AED 1M–2M by property type, current price, payment plan and total cost before requesting a live market review.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Budget search, converted into realistic property options",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom social links",
+      "url_section": "/en/budgets/aed-1m-2m-in-la-mer/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Book a call",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Ask AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

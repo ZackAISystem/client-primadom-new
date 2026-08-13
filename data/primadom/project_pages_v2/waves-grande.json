@@ -1,0 +1,831 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_waves_grande_en",
+  "page_type_id": "project_page",
+  "language_code": "en",
+  "url_path": "/en/projects/waves-grande/",
+  "canonical_url_path": "/en/projects/waves-grande/",
+  "canonical_group_key": "project:waves-grande",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "waves-grande",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "Book a call",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Overview",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "Details"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "Location"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "is_ai": true,
+          "label": "Ask AI"
+        }
+      ],
+      "brand_href": "/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Primadom AI navigation",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "projects",
+          "href": "/en/projects/",
+          "label": "UAE Off-plan Projects"
+        },
+        {
+          "key": "district",
+          "href": "/en/areas/sobha-hartland/",
+          "label": "Sobha Hartland",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/en/projects/waves-grande/",
+          "label": "Waves Grande",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Waves Grande",
+      "price_label": "Price from",
+      "promo_image": "",
+      "price_amount": 1600000,
+      "price_status": "available",
+      "hero_subtitle": "Waterfront off-plan residential project with apartments and duplexes in Sobha Hartland by Sobha Realty.",
+      "price_display": "AED 1,600,000",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Waves Grande gallery",
+      "gallery_next_label": "Next image",
+      "gallery_prev_label": "Previous image"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Compare Waves Grande with similar Sobha Hartland projects",
+        "Show payment plan, unit options and handover logic",
+        "Is Waves Grande better for living or investment?",
+        "Explain Sobha Hartland location value"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Ask about this project",
+      "placeholder": "Ask about Waves Grande, payment plan, location, risks or similar projects",
+      "button_label": "Ask",
+      "voice_status": "Listening…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Ask Primadom AI about Waves Grande",
+      "voice_error_text": "Type your request or try again",
+      "submit_aria_label": "Ask Primadom AI",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "This page gives a compact view of Waves Grande: price, handover, payment plan, location and similar projects. Availability, floor plans and payment terms should be checked before a buyer decision.",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "Waterfront",
+        "Sobha Hartland",
+        "Off-plan",
+        "By Sobha Realty",
+        "From AED 1.6M"
+      ],
+      "short_answer_title": "Project snapshot",
+      "short_answer_kicker": "Quick buyer overview",
+      "short_answer_summary": "Waves Grande is an off-plan apartment and duplex project by Sobha Realty located in Sobha Hartland, Dubai, Mohammed Bin Rashid City. The project has confirmed waterfront and city view positioning and is within a master community."
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "Price from",
+          "value": "AED 1,600,000",
+          "value_ref": "price_from_aed",
+          "value_status": "available"
+        },
+        {
+          "key": "status",
+          "label": "Status",
+          "value": "Off-plan",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "Handover",
+          "value": "December 2024",
+          "value_ref": "handover_text",
+          "value_status": "available"
+        },
+        {
+          "key": "payment_plan",
+          "label": "Payment plan",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "Developer",
+          "value": "Sobha Realty",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "District",
+          "value": "Sobha Hartland",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "Type",
+          "value": "Apartment · Duplex",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "Units",
+          "value": "1 | 2 | 3 | 4 BR",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "Size from",
+          "value": "from 710 sqft",
+          "value_ref": "size_min_sqft",
+          "value_status": "available"
+        },
+        {
+          "key": "last_checked",
+          "label": "Last checked",
+          "value": "June 2026",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "Project details",
+      "keyfacts_note": "Key facts for Waves Grande are shown early so buyers, search engines and AI systems can understand the project quickly. Price, payment plan and availability should be verified before a buyer decision.",
+      "details_kicker": "Key facts",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "Buyers planning to use the property as a primary residence",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "Buyers considering a residential investment purchase",
+            "evidence": "use_case_tags.investment",
+            "priority": 20,
+            "semantic_group": "investment"
+          },
+          {
+            "item": "Buyers prioritising waterfront living",
+            "evidence": "confirmed_waterfront_signal",
+            "priority": 25,
+            "semantic_group": "waterfront"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "Buyers looking specifically for villas",
+            "evidence": "property_types.apartment_only",
+            "priority": 50,
+            "semantic_group": "no_villas"
+          }
+        ]
+      },
+      "best_for_items": [
+        "Buyers planning to use the property as a primary residence",
+        "Buyers considering a residential investment purchase",
+        "Buyers prioritising waterfront living"
+      ],
+      "best_for_title": "Good fit for",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "Buyer profile",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "Fit check",
+      "not_best_for_items": [
+        "Buyers looking specifically for villas"
+      ],
+      "not_best_for_title": "May not suit",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Waves Grande is a residential project by Sobha Realty in Sobha Hartland, Dubai, offering one-to-four-bedroom apartments and duplexes with a stated handover date of December 2024. Its positioning reflects a waterfront urban-core setting that supports family-oriented primary residence and investment use cases within a master-community environment.",
+      "project_logic_title": "Project positioning",
+      "project_logic_kicker": "How to read it"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Review Waves Grande against its recorded AED 1,600,000 starting price, recorded project timeline and comparable projects in Sobha Hartland.",
+          "title": "Needs data check",
+          "eyebrow": "Investment view",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "Waves Grande offers apartments and duplexes in Sobha Hartland, with a family-oriented use case supported by its residential format and unit mix.",
+          "title": "Buyer use case",
+          "eyebrow": "Lifestyle view",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "title": "Availability, fees, plan",
+          "eyebrow": "Check before buying",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI can compare Waves Grande with alternatives and prepare the key questions to check with an advisor.",
+          "title": "Ask before you decide",
+          "eyebrow": "AI support",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 24.4667,
+      "lng": 54.3667,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/en/areas/sobha-hartland/",
+          "label": "Area guide",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=24.466700,54.366700",
+          "label": "Open map",
+          "action_status": "source_coordinates"
+        }
+      ],
+      "address": "Sobha Hartland, Dubai, UAE",
+      "map_point": "District-level location",
+      "nearby_title": "Nearby landmarks",
+      "address_label": "Address",
+      "nearby_status": "city_fallback",
+      "address_status": "available",
+      "location_title": "Location",
+      "schema_version": "location_v1",
+      "map_point_label": "Location scope",
+      "location_context": "Location details for Waves Grande are based on its listed area in Sobha Hartland. Exact building position, drive times and nearby landmarks should be confirmed before a buyer decision.",
+      "map_point_status": "source_coordinates",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Downtown Dubai",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "Dubai Marina",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "DXB Airport",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "Drive time",
+      "map_context_kicker": "Area context",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "Projects are selected deterministically using district, developer, city, property type, price band, bedroom range and handover. Weak matches are excluded, so some pages may show fewer than four projects.",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/en/areas/sobha-hartland/projects/",
+          "label": "More projects in Sobha Hartland",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/en/developers/sobha-realty/projects/",
+          "label": "More projects by Sobha Realty",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "Related projects",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "Internal links",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/en/projects/the-crest-by-sobha/",
+          "project_id": "the-crest-by-sobha",
+          "match_score": 280,
+          "project_name": "The Crest By Sobha",
+          "district_name": "Sobha Hartland",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Sobha Realty",
+          "price_from_aed": 1200000
+        },
+        {
+          "href": "/en/projects/sobha-one/",
+          "project_id": "sobha-one",
+          "match_score": 275,
+          "project_name": "Sobha One",
+          "district_name": "Sobha Hartland",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap"
+          ],
+          "property_type": "Apartment,Duplex",
+          "developer_name": "Sobha Realty",
+          "price_from_aed": 1600000
+        },
+        {
+          "href": "/en/projects/the-element/",
+          "project_id": "the-element",
+          "match_score": 275,
+          "project_name": "The Element",
+          "district_name": "Sobha Hartland",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Sobha Realty",
+          "price_from_aed": 1800000
+        },
+        {
+          "href": "/en/projects/one-park-avenue/",
+          "project_id": "one-park-avenue",
+          "match_score": 265,
+          "project_name": "One Park Avenue",
+          "district_name": "Sobha Hartland",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Sobha Realty",
+          "price_from_aed": 1000000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Waves Grande is a real estate project by Sobha Realty in Sobha Hartland, offering apartments and duplexes.",
+          "question": "What is Waves Grande?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Waves Grande is located in Sobha Hartland, Dubai, UAE.",
+          "question": "Where is Waves Grande located?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "The recorded starting price is AED 1,600,000. Current pricing and availability should be confirmed before making a decision.",
+          "question": "What is the starting price for Waves Grande?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "The current project data lists apartments and duplexes, including 1–4-bedroom units.",
+          "question": "What property types and bedroom options are available in Waves Grande?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "The source data records December 2024. The current completion status requires separate verification.",
+          "question": "What is the recorded project timeline for Waves Grande?",
+          "answer_status": "timeline_needs_verification"
+        }
+      ],
+      "faq_title": "FAQ",
+      "faq_kicker": "Quick answers",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "Show answer",
+      "faq_collapse_label": "Hide answer"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "Verification",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Official developer materials",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "Current price and availability",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "Project registration status",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Primadom advisor verification",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "Data freshness",
+      "freshness_value": "High-change data",
+      "source_note_text": "Before relying on Waves Grande data, buyers should confirm current price, availability, payment terms, floor plans, handover, service charges and official project documents.",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "Last updated",
+      "last_updated_value": "June 2026",
+      "source_notes_title": "What should be verified",
+      "trust_sources_title": "Source check",
+      "verification_summary": [
+        {
+          "label": "Official materials",
+          "value": "required"
+        },
+        {
+          "label": "Price and availability",
+          "value": "required"
+        },
+        {
+          "label": "Authority status",
+          "value": "recommended"
+        },
+        {
+          "label": "Advisor verification",
+          "value": "internal"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Ask Primadom AI",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "Request project PDF",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "Book a call",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Use Primadom AI to compare Waves Grande, review price and payment logic, and prepare the right questions for a Primadom advisor.",
+      "cta_title": "Check this project before you decide",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "We’ll check the details before sharing your request.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Your name"
+        },
+        "phone": {
+          "label": "Phone",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Request",
+          "html_name": "request_type",
+          "placeholder": "Timing, unit type or question"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "Close",
+      "modal_title": "Ask about Waves Grande",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "Request draft",
+      "modal_status": "formula_generated",
+      "submit_label": "Send",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "Project request",
+      "success_label": "Sent",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Interested in Waves Grande. Send details.",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "Tell us what you’re looking for. Primadom will help check availability, prices, floor plans and next steps.",
+      "voice_button_label": "Use voice"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/en/projects/",
+          "label": "Projects"
+        },
+        {
+          "key": "areas",
+          "href": "/en/areas/",
+          "label": "Areas"
+        },
+        {
+          "key": "developers",
+          "href": "/en/developers/",
+          "label": "Developers"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI search"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "copyright": "© Primadom AI",
+      "brand_href": "/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "This page helps you review Waves Grande, compare key details, understand the area and prepare the right questions before speaking with a Primadom advisor.",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "Book a call",
+        "action_intent": "call_request"
+      },
+      "statement_title": "Find the right Dubai property with clearer project data and AI guidance.",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Ask AI",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

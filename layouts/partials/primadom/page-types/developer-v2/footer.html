@@ -1,0 +1,78 @@
+{{- $d := partial "primadom/page-types/developer-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+{{- $f := $t.footer -}}
+
+<footer class="site-footer">
+  <span class="site-footer__glow site-footer__glow--left"></span>
+  <span class="site-footer__glow site-footer__glow--right"></span>
+
+  <div class="site-footer__inner">
+
+    <div class="site-footer__left">
+
+      <a
+        class="site-footer__brand"
+        href="{{ $t.header.brand_url }}"
+        aria-label="{{ $f.brand }}"
+      >
+        <span class="site-footer__brand-dot"></span>
+
+        <span class="site-footer__brand-copy">
+          <span class="site-footer__brand-title">
+            {{ $f.brand }}
+          </span>
+        </span>
+      </a>
+
+
+      <div class="site-footer__statement">
+
+        <h2>{{ $f.title }}</h2>
+
+        <p>{{ $f.text }}</p>
+
+        {{- if gt (len $f.navigation) 0 }}
+          <div class="site-footer__chips">
+            {{- range $f.navigation }}
+              <span>{{ .label }}</span>
+            {{- end }}
+          </div>
+        {{- end }}
+
+      </div>
+    </div>
+
+
+    <div class="site-footer__right">
+
+      <div class="site-footer__contacts">
+
+        {{- range first 2 $f.actions }}
+          <a
+            class="footer-pill"
+            href="{{ .href }}"
+            {{ if .modal }}data-open-developer-lead{{ end }}
+          >
+            {{ .label }}
+          </a>
+        {{- end }}
+
+      </div>
+
+    </div>
+
+
+    <div class="site-footer__bottom">
+
+      <div class="site-footer__copyright">
+        {{ $f.copyright }}
+      </div>
+
+      <div class="site-footer__address">
+        {{ $f.address }}
+      </div>
+
+    </div>
+
+  </div>
+</footer>

@@ -1,0 +1,33 @@
+{{- $d := partial "primadom/page-types/district-v2/_data.html" . -}}
+{{- $t := $d.t -}}
+<div class="pa-grid pa-grid--equal" id="top-projects">
+  <article class="pa-card">
+    <header class="pa-card__head">
+      <h2>{{ $t.projects.title }}</h2>
+      <span>{{ $t.projects.eyebrow }}</span>
+    </header>
+    <div class="pa-card__body">
+      <div class="pa-project-list">
+        {{ range $t.projects.items }}
+          <a class="pa-project" href="{{ .href }}">
+            <strong>{{ .title }}</strong>
+            <span>{{ .meta }}</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+
+  <article class="pa-card">
+    <header class="pa-card__head">
+      <h2>{{ $t.developer_presence.title }}</h2>
+      <span>{{ $t.developer_presence.eyebrow }}</span>
+    </header>
+    <div class="pa-card__body">
+      <p class="pa-answer">{{ $t.developer_presence.body }}</p>
+      <div class="pa-tags">
+        {{ range $t.developer_presence.tags }}<span>{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </article>
+</div>

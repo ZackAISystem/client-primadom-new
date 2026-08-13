@@ -1,0 +1,10 @@
+---
+title: "Nasim Al Bahr Residences"
+layout: "primadom-project-page-v2"
+project_slug: "nasim-al-bahr-residences"
+page_id: "page_project_nasim_al_bahr_residences_en"
+url: "/en/projects/nasim-al-bahr-residences/"
+build:
+  render: always
+  list: never
+---

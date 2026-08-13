@@ -1,0 +1,10 @@
+---
+title: "Aldar Cassia 5"
+layout: "primadom-project-page-v2"
+project_slug: "aldar-cassia-5"
+page_id: "page_project_aldar_cassia_5_en"
+url: "/en/projects/aldar-cassia-5/"
+build:
+  render: always
+  list: never
+---

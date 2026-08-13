@@ -1,0 +1,153 @@
+{{/*
+  Primadom AI
+  Budget Page V2
+
+  Production source:
+  data/primadom/budget_pages_v2/<slug>.json
+*/}}
+
+{{- $slug := .Params.budget_slug | default "aed-5m-10m-in-dubai-hills-estate" -}}
+
+{{- $page := index site.Data.primadom.budget_pages_v2 $slug -}}
+
+{{- if not $page -}}
+  {{- errorf "Budget Page V2 data not found: %s" $slug -}}
+{{- end -}}
+
+{{- $b := $page.blocks -}}
+
+{{- $b01 := index $b "block_01_header" -}}
+{{- $b02 := index $b "block_02_breadcrumbs" -}}
+{{- $b03 := index $b "block_03_hero" -}}
+{{- $b04 := index $b "block_04_ai_budget_check" -}}
+{{- $b05 := index $b "block_05_direct_answer" -}}
+{{- $b06 := index $b "block_06_budget_facts" -}}
+{{- $b07 := index $b "block_07_districts_types" -}}
+{{- $b08 := index $b "block_08_decision_cards" -}}
+{{- $b09 := index $b "block_09_projects_fit" -}}
+{{- $b10 := index $b "block_10_costs_tradeoffs" -}}
+{{- $b11 := index $b "block_11_related_budget_pages" -}}
+{{- $b12 := index $b "block_12_faq" -}}
+{{- $b13 := index $b "block_13_source_notes" -}}
+{{- $b14 := index $b "block_14_cta" -}}
+{{- $b15 := index $b "block_15_lead_modal" -}}
+{{- $b16 := index $b "block_16_footer" -}}
+
+
+{{/* ======================================================
+     HEADER
+     ====================================================== */}}
+
+{{- $header := dict
+  "brand" $b01.brand_label
+  "brand_url" $b01.brand_href
+  "cta_label" $b01.cta_label
+  "cta_url" $b01.cta_href
+  "nav_aria" $b01.nav_aria
+  "nav" $b01.nav
+-}}
+
+
+{{/* ======================================================
+     HERO + AI
+     ====================================================== */}}
+
+{{- $hero := dict
+
+  "breadcrumbs" $b02.breadcrumbs
+  "breadcrumbs_aria" $b02.breadcrumbs_aria
+
+  "visual_aria" $b03.visual_aria
+  "image" $b03.image
+
+  "title" $b03.title
+  "subtitle" $b03.subtitle
+
+  "facts" $b03.facts
+  "facts_aria" $b03.facts_aria
+
+  "ai_aria" $b04.title
+  "ai_badge" $b04.eyebrow
+
+  "ai_placeholder" $b04.placeholder
+
+  "ai_hints" $b04.hints
+  "ai_typing_examples" $b04.hints
+  "ai_examples" $b04.hints
+
+  "voice_label" $b04.voice_button_label
+
+  "ai_voice_status" $b04.voice_status
+  "ai_voice_text" $b04.voice_text
+
+  "voice_success_status" $b04.voice_success_status
+  "voice_error_status" $b04.voice_error_status
+  "voice_error_text" $b04.voice_error_text
+  "voice_fallback_status" $b04.voice_fallback_status
+  "voice_fallback_text" $b04.voice_fallback_text
+
+  "ai_submit" $b04.submit_label
+-}}
+
+
+{{/* ======================================================
+     SEO COMPATIBILITY
+     ====================================================== */}}
+
+{{- $seo := dict
+  "title" (printf "%s — Primadom AI" $b03.title)
+  "description" $b05.body_text
+  "canonical" ($page.canonical_url_path | absURL)
+-}}
+
+{{- $schema := dict
+  "recommended_options_name" (printf "Property options for %s" $b03.title)
+-}}
+
+
+{{/* ======================================================
+     OLD VISUAL CONTRACT ← PRODUCTION BLOCKS
+     ====================================================== */}}
+
+{{- $t := dict
+
+  "seo" $seo
+  "schema" $schema
+
+  "header" $header
+  "hero" $hero
+
+  "answer" $b05
+  "facts" $b06
+
+  "districts" $b07.districts
+  "property_types" $b07.property_types
+
+  "decision_cards_aria" $b08.aria
+  "decision_cards" $b08.items
+
+  "projects" $b09.projects
+  "buyer_fit" $b09.buyer_fit
+
+  "hidden_costs" $b10.hidden_costs
+  "tradeoffs" $b10.tradeoffs
+
+  "related_pages" $b11
+
+  "faq" $b12
+  "source_notes" $b13
+
+  "cta" $b14
+  "modal" $b15
+  "footer" $b16
+-}}
+
+{{- return (
+  dict
+    "raw" $page
+    "page" $page
+    "blocks" $b
+    "t" $t
+    "lang" $page.language_code
+    "slug" $slug
+) -}}

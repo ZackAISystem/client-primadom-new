@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_0e125999d523408b52d5e0f39bbd",
+  "page_type_id": "ai_answer_page",
+  "language_code": "en",
+  "url_path": "/en/ai-answers/what-hidden-costs-off-plan/",
+  "canonical_url_path": "/en/ai-answers/what-hidden-costs-off-plan/",
+  "canonical_group_key": "ai_answer:what-hidden-costs:context:off-plan",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "what-hidden-costs",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Answer",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Checks",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risks",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Ask AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI answer navigation",
+      "cta_label": "Check my fit",
+      "brand_href": "/en/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/en/",
+          "label": "Home"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/en/ai-answers/",
+          "label": "AI answers"
+        },
+        {
+          "key": "current",
+          "href": "/en/ai-answers/what-hidden-costs-off-plan/",
+          "label": "What hidden costs should I check? — Off Plan",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Breadcrumb"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Off Plan",
+        "Cost check",
+        "Total cost",
+        "Cost inputs",
+        "Compare terms"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "What hidden costs should I check? — Off Plan",
+      "subtitle": "Review additional purchase and ownership costs when buying off-plan, including the main cost drivers, cost inputs and trade-offs to compare.",
+      "facts_aria": "Answer highlights",
+      "section_id": "hero",
+      "visual_aria": "Property decision visual for What hidden costs should I check? — Off Plan",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Show which purchase fees sit beyond price before buying",
+        "Compare upfront charges with recurring ownership costs for off-plan buyers",
+        "Explain which costs need current confirmation before buying"
+      ],
+      "ai_aria": "Ask Primadom AI a follow-up question",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Explain the hidden ownership costs for off-plan buyers",
+      "placeholder": "Explain the hidden ownership costs for off-plan buyers",
+      "voice_label": "Voice search",
+      "block_status": "final",
+      "submit_label": "Ask AI",
+      "voice_status": "Listening…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Type your request or try again",
+      "voice_button_label": "Start voice search",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Speech recognition is not supported here",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Hidden costs",
+        "Off-plan",
+        "Purchase fees",
+        "Ownership costs",
+        "Budget"
+      ],
+      "title": "Direct answer",
+      "eyebrow": "Answer-first",
+      "body_html": "<strong>Hidden costs are usually the expenses omitted from the headline property price.</strong> For off-plan buyers, check applicable registration, agency, financing, developer, service, maintenance, furnishing, fit-out and ongoing ownership costs before setting the final budget. Use transaction-specific figures because the mix and amount of costs can differ materially between properties.",
+      "body_text": "Hidden costs are usually the expenses omitted from the headline property price. For off-plan buyers, check applicable registration, agency, financing, developer, service, maintenance, furnishing, fit-out and ongoing ownership costs before setting the final budget. Use transaction-specific figures because the mix and amount of costs can differ materially between properties.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "What hidden costs should I check? — Off Plan"
+        },
+        {
+          "label": "Context",
+          "value": "Off Plan"
+        },
+        {
+          "label": "Market",
+          "value": "UAE"
+        },
+        {
+          "label": "Decision",
+          "value": "Budget extends beyond headline price"
+        },
+        {
+          "label": "Main checks",
+          "value": "Purchase fees · Ownership costs · Budget"
+        },
+        {
+          "label": "Risk focus",
+          "value": "Fees · maintenance · furnishing"
+        },
+        {
+          "label": "Best next step",
+          "value": "Build a full ownership-cost budget"
+        },
+        {
+          "label": "Verification",
+          "value": "Current cost check required"
+        }
+      ],
+      "title": "Answer details",
+      "topic": "What Hidden Costs",
+      "market": "UAE",
+      "context": "Off Plan",
+      "eyebrow": "Key facts",
+      "question": "What Hidden Costs for Off Plan?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Major transaction or ownership costs have not been included in the affordability calculation.",
+            "title": "The budget stops at purchase price"
+          },
+          {
+            "text": "Furnishing, fit-out, service or financing costs will still need cash soon after the initial purchase.",
+            "title": "Later expenses are being postponed mentally"
+          },
+          {
+            "text": "The buyer is using broad percentages instead of transaction-specific figures for the actual property.",
+            "title": "The cost estimate is generic"
+          },
+          {
+            "text": "For off-plan buyers, revisit the hidden-cost review if key assumptions remain unconfirmed or a stronger alternative emerges.",
+            "title": "The wider picture needs another look"
+          }
+        ],
+        "title": "When no",
+        "eyebrow": "Needs more checks"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Registration, agency, financing and developer-related charges are included before the purchase limit is set.",
+            "title": "The budget includes transaction costs"
+          },
+          {
+            "text": "Service, maintenance, insurance or management expenses are understood for the intended holding period.",
+            "title": "Recurring ownership costs are visible"
+          },
+          {
+            "text": "The buyer has allowed for the practical cost of making the property usable or rentable.",
+            "title": "Fit-out and furnishing are realistic"
+          },
+          {
+            "text": "For off-plan buyers, the hidden-cost review still holds up after the main risks and realistic alternatives are considered.",
+            "title": "The wider picture still works"
+          }
+        ],
+        "title": "When yes",
+        "eyebrow": "Good fit"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "For off-plan buyers, check applicable registration, agency, financing, developer, service, maintenance, furnishing, fit-out and ongoing ownership costs before setting the final budget.",
+          "title": "Purchase fees · Ownership costs · Budget",
+          "eyebrow": "What to check"
+        },
+        {
+          "dark": false,
+          "text": "Risk increases when the budget stops at purchase price, later expenses are being postponed mentally, or the cost estimate is generic.",
+          "title": "Hidden-cost exposure",
+          "eyebrow": "Risk"
+        },
+        {
+          "dark": false,
+          "text": "Use transaction-specific figures because the mix and amount of costs can differ materially between properties.",
+          "title": "Build a full ownership-cost budget",
+          "eyebrow": "Next step"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI can turn this answer into a case-specific checklist based on your priorities, constraints and what still needs confirmation.",
+          "title": "Check your exact case",
+          "eyebrow": "AI follow-up"
+        }
+      ],
+      "cards_aria": "Decision guidance",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Risk increases when the budget stops at purchase price, later expenses are being postponed mentally, or the cost estimate is generic. For off-plan buyers, use transaction-specific figures because the mix and amount of costs can differ materially between properties.",
+        "tags": [
+          "Registration costs",
+          "Financing fees",
+          "Service charges",
+          "Exit costs",
+          "Hidden-cost exposure"
+        ],
+        "title": "Risks",
+        "eyebrow": "Be careful if"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "For off-plan buyers, itemise registration, agency, trustee, developer and administrative charges instead of treating the purchase price as the full acquisition cost.",
+            "title": "List transaction costs separately"
+          },
+          {
+            "text": "Where borrowing is used, include lender fees, valuation, insurance and other financing-related cash requirements in the purchase budget.",
+            "title": "Add financing expenses"
+          },
+          {
+            "text": "Include service charges, maintenance, utilities or management expenses that continue after completion and affect the real holding cost.",
+            "title": "Model recurring ownership costs"
+          },
+          {
+            "text": "Consider furnishing, moving, repairs and eventual sale costs where relevant so the budget is not built only around the day of purchase.",
+            "title": "Allow for one-off and exit costs"
+          }
+        ],
+        "title": "What to check",
+        "eyebrow": "Decision checklist"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/en/ai-answers/how-to-compare-total-cost-off-plan/",
+          "label": "How should I compare total cost?"
+        },
+        {
+          "href": "/en/ai-answers/what-affects-final-price-off-plan/",
+          "label": "What affects the final price?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-dld-and-fees-off-plan/",
+          "label": "How should I check DLD fees and charges?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-check-service-charges-off-plan/",
+          "label": "How should I check service charges?"
+        },
+        {
+          "href": "/en/ai-answers/how-to-avoid-overpaying-off-plan/",
+          "label": "How can I avoid overpaying?"
+        }
+      ],
+      "title": "Explore next",
+      "eyebrow": "Next pages",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Hidden costs are usually the expenses omitted from the headline property price. For off-plan buyers, itemise registration, agency, trustee, developer and administrative charges instead of treating the purchase price as the full acquisition cost.",
+          "question": "What hidden costs should I budget for?"
+        },
+        {
+          "answer": "Total cost is broader than the advertised property price. Include registration, agency, trustee, developer, valuation and other applicable transaction expenses rather than using one fee as the total.",
+          "question": "How do I compare total cost?"
+        },
+        {
+          "answer": "The final purchase price can differ materially from the advertised property price. Where financing is relevant, add lender fees, valuation, insurance and the cash impact created by the financing structure.",
+          "question": "What can affect the final purchase price?"
+        },
+        {
+          "answer": "Transaction fees should be checked against the authority and structure governing the purchase. Use current official or transaction-level information before budgeting costs rather than relying on an old article, listing or sales estimate.",
+          "question": "How do I check DLD fees and transaction costs?"
+        },
+        {
+          "answer": "Service charges should be checked because they directly affect the ongoing ownership cost. You are relying on an old listing, sales message or broad market assumption instead of current project information. Use current project or building documents for the final figure rather than relying on a broad market assumption.",
+          "question": "How do I verify service charges?"
+        }
+      ],
+      "title": "FAQ",
+      "eyebrow": "AI-search questions",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Fees, service charges, tax treatment and transaction costs can depend on the jurisdiction, property and transaction structure. Use this page as decision guidance, then recheck the applicable authority information and current transaction documents before relying on exact amounts or requirements.",
+      "items": [
+        {
+          "label": "Context",
+          "value": "Off Plan · UAE"
+        },
+        {
+          "label": "Verification focus",
+          "value": "Purchase fees · Ownership costs · Budget"
+        },
+        {
+          "label": "Sources to check",
+          "value": "Relevant authority · current fee guidance"
+        },
+        {
+          "label": "Live check",
+          "value": "Current fees, charges and applicable requirements"
+        },
+        {
+          "label": "Source review",
+          "value": "Recheck before decision"
+        }
+      ],
+      "title": "Source notes",
+      "eyebrow": "Verification notes",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "fees_costs",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Ask Primadom AI to apply this answer to your off-plan purchase, including the purchase structure, relevant charges and authority-specific details that should be verified before you rely on the final cost.",
+      "title": "Want to check the real transaction costs?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Ask Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Check my fit",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Request a call",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI answer follow-up form",
+      "text": "Primadom AI will apply this answer to your off-plan purchase, focusing on transaction charges, property-specific costs and the authority details that should be confirmed before you proceed.",
+      "title": "Check the transaction costs for your case",
+      "fields": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "comment": "Prepared request"
+      },
+      "submit": "Send",
+      "comment": "Check the total transaction costs for my property purchase.",
+      "eyebrow": "AI follow-up handoff",
+      "success": "Sent",
+      "close_label": "Close",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI turns property questions into checks, risks, next pages and advisor-ready requests.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projects",
+        "Areas",
+        "Developers",
+        "AI search"
+      ],
+      "title": "Answer-first search, connected to real property decisions",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "Real estate intelligence",
+      "brand_url": "/en/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Book a call"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Ask AI"
+      }
+    }
+  }
+}
