@@ -1,0 +1,10 @@
+---
+title: "al-walid-tower"
+layout: "primadom-project-page-v2"
+project_slug: "al-walid-tower"
+page_id: "page_project_al_walid_tower_ru"
+url: "/ru/projects/al-walid-tower/"
+build:
+  render: always
+  list: never
+---

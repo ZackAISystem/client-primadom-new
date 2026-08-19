@@ -1,0 +1,10 @@
+---
+title: "the-borough"
+layout: "primadom-project-page-v2"
+project_slug: "the-borough"
+page_id: "page_project_the_borough_ru"
+url: "/ru/projects/the-borough/"
+build:
+  render: always
+  list: never
+---

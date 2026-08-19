@@ -1,0 +1,721 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__coventry-curves__vs__samana-hills-south__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/coventry-curves-vs-samana-hills-south/",
+  "canonical_url_path": "/en/compare-projects/coventry-curves-vs-samana-hills-south/",
+  "canonical_group_key": "project_comparison:coventry-curves:vs:samana-hills-south",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "coventry-curves",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/coventry-curves-vs-samana-hills-south/",
+          "label": "Coventry Curves vs Samana Hills South",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Coventry Curves",
+        "Проект B: Samana Hills South",
+        "Сравнение: Dubai Industrial City",
+        "AED 509K vs AED 570K",
+        "Стартовая цена и соответствие покупателю"
+      ],
+      "title": "Coventry Curves vs Samana Hills South",
+      "subtitle": "Два проекта в Dubai Industrial City от GFS Developers и Samana Developers сравниваются по следующим параметрам: стартовые цены AED 509K и AED 570K.",
+      "project_a": {
+        "name": "Coventry Curves",
+        "slug": "coventry-curves",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Samana Hills South",
+        "slug": "samana-hills-south",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Coventry Curves и Samana Hills South",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Coventry Curves и Samana Hills South",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Coventry Curves или Samana Hills South — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Coventry Curves и Samana Hills South",
+      "ai_aria": "Попросить Primadom AI сравнить Coventry Curves и Samana Hills South",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Coventry Curves и Samana Hills South под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Coventry Curves и Samana Hills South по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Coventry Curves и Samana Hills South? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Coventry Curves и Samana Hills South под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Coventry Curves и Samana Hills South",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Разные застройщики",
+        "AED 509K vs AED 570K",
+        "Срок сдачи указан у одного проекта"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Coventry Curves</strong> может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а <strong>Samana Hills South</strong> — тем, для кого важнее более широкий выбор по количеству спален. <strong>Coventry Curves</strong> предлагает квартиры, от студий до объектов с 1 спальнями, от AED 509K, срок сдачи 2027, а <strong>Samana Hills South</strong> — квартиры, от студий до объектов с 2 спальнями, от AED 570K.",
+      "body_text": "Coventry Curves может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а Samana Hills South — тем, для кого важнее более широкий выбор по количеству спален. Coventry Curves предлагает квартиры, от студий до объектов с 1 спальнями, от AED 509K, срок сдачи 2027, а Samana Hills South — квартиры, от студий до объектов с 2 спальнями, от AED 570K.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Coventry Curves"
+        },
+        {
+          "label": "Проект B",
+          "value": "Samana Hills South"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Dubai Industrial City"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "GFS Developers vs Samana Developers"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 509K vs AED 570K"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "Оба проекта: квартиры"
+        },
+        {
+          "label": "Спальни",
+          "value": "Студии–1 спальня vs Студии–2 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2027 / проверить срок"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Coventry Curves",
+          "slug": "coventry-curves",
+          "text": "Coventry Curves позиционируется как проект в Dubai Industrial City с акцентом на зелёное окружение; застройщик — GFS Developers. По текущим данным типы недвижимости — квартиры; диапазон — от студий до объектов с 1 спальней; стартовая цена — от AED 509K; срок сдачи — 2027. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Dubai Industrial City · Застройщик: GFS Developers",
+            "квартира · студии–1 спальня",
+            "От AED 509K · Сдача 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Samana Hills South",
+          "slug": "samana-hills-south",
+          "text": "Samana Hills South позиционируется как проект в Dubai Industrial City с акцентом на семейный формат; застройщик — Samana Developers. По текущим данным типы недвижимости — квартиры; диапазон — от студий до объектов с 2 спальнями; стартовая цена — от AED 570K; срок сдачи нужно подтвердить. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Dubai Industrial City · Застройщик: Samana Developers",
+            "квартира · студии–2 спальни",
+            "От AED 570K"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Dubai Industrial City, поэтому расположение не является главным различием. У проектов разные застройщики, поэтому сроки реализации, сервис и позиционирование продукта стоит оценивать отдельно. Зафиксированные стартовые цены: AED 509K у Coventry Curves и AED 570K у Samana Hills South. Срок сдачи зафиксирован только у одного проекта; срок второго нужно подтвердить.",
+        "tags": [
+          "Один район",
+          "Разные застройщики",
+          "Разница в стартовых ценах",
+          "Схожие типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Coventry Curves",
+        "project_b": "Samana Hills South"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 509K",
+          "project_b": "От AED 570K"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Dubai Industrial City",
+          "project_b": "Dubai Industrial City"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "GFS Developers",
+          "project_b": "Samana Developers"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "Студии–1 спальня",
+          "project_b": "Студии–2 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2027",
+          "project_b": "Срок сдачи нужно подтвердить"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Жизнь в зелёном окружении",
+          "project_b": "Семейный формат"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Coventry Curves vs Samana Hills South",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 509K у Coventry Curves и AED 570K у Samana Hills South. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Разница в стартовой цене имеет значение",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Dubai Industrial City. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Для Coventry Curves зафиксирован срок сдачи 2027. Подтвердите срок сдачи Samana Hills South, прежде чем сравнивать сроки реализации.",
+          "title": "Подтвердите оба срока сдачи",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Coventry Curves и Samana Hills South по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 509K ниже в этой паре при условии сравнения сопоставимых объектов.",
+          "Вам подходит зелёное окружение проекта в Dubai Industrial City для вашего сценария использования.",
+          "Вы рассматриваете квартиры в диапазоне от студий до вариантов с 1 спальней и предпочитаете проект с зафиксированным сроком сдачи 2027."
+        ],
+        "project_a_title": "Выбирайте Coventry Curves, если",
+        "project_b_items": [
+          "Вас устраивает более высокая зафиксированная стартовая цена AED 570K после проверки конкретного объекта и полной стоимости.",
+          "Вам подходит семейный формат проекта в Dubai Industrial City для вашего сценария использования.",
+          "Вы рассматриваете квартиры в диапазоне от студий до вариантов с 2 спальнями и готовы подтвердить срок сдачи."
+        ],
+        "project_b_title": "Выбирайте Samana Hills South, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 509K у Coventry Curves и AED 570K у Samana Hills South. Оба проекта находятся в Dubai Industrial City, поэтому расположение, скорее всего, не будет главным различием. В обоих проектах указаны схожие типы недвижимости: квартиры. Сейчас зафиксированный срок сдачи есть только у Coventry Curves — 2027.",
+        "tags": [
+          "Разница в стартовых ценах",
+          "Один район",
+          "Указанные типы объектов",
+          "Проверка срока сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/al-haseen-residence-phase-3-vs-coventry-curves/",
+            "meta": "Общий проект",
+            "label": "Al Haseen Residence Phase 3 vs Coventry Curves",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-haseen-residence-phase-3-vs-samana-hills-south/",
+            "meta": "Общий проект",
+            "label": "Al Haseen Residence Phase 3 vs Samana Hills South",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-haseen-residences-phase-4-vs-samana-hills-south/",
+            "meta": "Общий проект",
+            "label": "Al Haseen Residences Phase 4 vs Samana Hills South",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/coventry-centro-vs-coventry-curves/",
+            "meta": "Общий проект",
+            "label": "Coventry Centro vs Coventry Curves",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/coventry-curves/",
+            "meta": "Проект A",
+            "label": "Страница проекта Coventry Curves",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/samana-hills-south/",
+            "meta": "Проект B",
+            "label": "Страница проекта Samana Hills South",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/dubai-industrial-city/",
+            "meta": "Район",
+            "label": "Гид по району Dubai Industrial City",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Coventry Curves и Samana Hills South по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / семейное использование / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "предпочтительный срок около 2027",
+          "label": "Сроки"
+        },
+        {
+          "meta": "спальни / планировка / доступ к инфраструктуре района",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. У Coventry Curves ниже зафиксированная стартовая цена. В обоих проектах указаны квартиры, хотя диапазон по спальням может различаться. Для Coventry Curves указан срок сдачи 2027, а срок Samana Hills South ещё нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Coventry Curves или Samana Hills South?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "У Coventry Curves зафиксирована более низкая стартовая цена — AED 509K против AED 570K у Samana Hills South. Сравните одинаковый тип объекта, площадь и актуальные условия, прежде чем считать разницу сопоставимой.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Оба проекта находятся в Dubai Industrial City. Coventry Curves связан с застройщиком GFS Developers, а Samana Hills South — с Samana Developers.",
+          "question": "Чем отличаются Coventry Curves и Samana Hills South по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Coventry Curves указаны типы недвижимости: квартиры; диапазон — от студий до объектов с 1 спальнями. Для Coventry Curves указан срок сдачи 2027. В Samana Hills South указаны типы недвижимости: квартиры; диапазон — от студий до объектов с 2 спальнями. Срок сдачи Samana Hills South ещё нужно подтвердить.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Coventry Curves и Samana Hills South подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Coventry Curves и Samana Hills South?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Coventry Curves и Samana Hills South. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Dubai Industrial City; застройщики — GFS Developers и Samana Developers соответственно. У Coventry Curves зафиксирована более низкая стартовая цена — AED 509K против AED 570K. Для Coventry Curves указан срок сдачи 2027; срок Samana Hills South нужно подтвердить.",
+      "title": "Сравнить Coventry Curves и Samana Hills South под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Coventry Curves и Samana Hills South под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__coventry-curves__vs__samana-hills-south__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Coventry Curves",
+        "project_a_slug": "coventry-curves",
+        "project_b_name": "Samana Hills South",
+        "project_b_slug": "samana-hills-south",
+        "canonical_url_path": "/ru/compare-projects/coventry-curves-vs-samana-hills-south/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "samana-hills-south",
+  "secondary_entity_type": "project"
+}

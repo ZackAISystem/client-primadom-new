@@ -1,0 +1,10 @@
+---
+title: "Business Bay и Expo City — сравнение"
+layout: "primadom-district-comparison-page-v2"
+comparison_slug: "business-bay-vs-expo-city"
+page_id: "page_district_comparison_business_bay_vs_expo_city_ru"
+url: "/ru/compare-areas/business-bay-vs-expo-city/"
+build:
+  render: always
+  list: never
+---

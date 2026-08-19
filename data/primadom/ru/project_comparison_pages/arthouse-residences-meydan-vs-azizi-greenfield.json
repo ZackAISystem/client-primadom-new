@@ -1,0 +1,721 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_arthouse_residences_meydan_vs_azizi_greenfield_ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/arthouse-residences-meydan-vs-azizi-greenfield/",
+  "canonical_url_path": "/en/compare-projects/arthouse-residences-meydan-vs-azizi-greenfield/",
+  "canonical_group_key": "project_comparison:arthouse-residences-meydan:vs:azizi-greenfield",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "arthouse-residences-meydan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/arthouse-residences-meydan-vs-azizi-greenfield/",
+          "label": "Arthouse Residences Meydan vs Azizi Greenfield",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Arthouse Residences Meydan",
+        "Проект B: Azizi Greenfield",
+        "Сравнение: Meydan",
+        "Срок сдачи 2027 vs 2024",
+        "Сроки и соответствие шорт-листу"
+      ],
+      "title": "Arthouse Residences Meydan vs Azizi Greenfield",
+      "subtitle": "Два проекта в Meydan от Aviaan Real Estate Development и Azizi Developments сравниваются по следующим параметрам: сроки сдачи 2027 и 2024.",
+      "project_a": {
+        "name": "Arthouse Residences Meydan",
+        "slug": "arthouse-residences-meydan",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Azizi Greenfield",
+        "slug": "azizi-greenfield",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Arthouse Residences Meydan и Azizi Greenfield",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Arthouse Residences Meydan и Azizi Greenfield",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Arthouse Residences Meydan или Azizi Greenfield — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Arthouse Residences Meydan и Azizi Greenfield",
+      "ai_aria": "Попросить Primadom AI сравнить Arthouse Residences Meydan и Azizi Greenfield",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Arthouse Residences Meydan и Azizi Greenfield под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Arthouse Residences Meydan и Azizi Greenfield по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Arthouse Residences Meydan и Azizi Greenfield? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Arthouse Residences Meydan и Azizi Greenfield под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Arthouse Residences Meydan и Azizi Greenfield",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Разные застройщики",
+        "Цена указана у одного проекта",
+        "Сдача 2027 vs 2024"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Arthouse Residences Meydan</strong> может подойти покупателям, для которых важнее предложение от Aviaan Real Estate Development, а <strong>Azizi Greenfield</strong> — тем, для кого важнее более ранний зафиксированный срок сдачи. <strong>Arthouse Residences Meydan</strong> предлагает квартиры, объекты с 1–2 спальнями, срок сдачи 2027, а <strong>Azizi Greenfield</strong> — квартиры, объекты с 1–2 спальнями, от AED 1.5M, срок сдачи 2024.",
+      "body_text": "Arthouse Residences Meydan может подойти покупателям, для которых важнее предложение от Aviaan Real Estate Development, а Azizi Greenfield — тем, для кого важнее более ранний зафиксированный срок сдачи. Arthouse Residences Meydan предлагает квартиры, объекты с 1–2 спальнями, срок сдачи 2027, а Azizi Greenfield — квартиры, объекты с 1–2 спальнями, от AED 1.5M, срок сдачи 2024.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Arthouse Residences Meydan"
+        },
+        {
+          "label": "Проект B",
+          "value": "Azizi Greenfield"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Meydan"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Aviaan Real Estate Development vs Azizi Developments"
+        },
+        {
+          "label": "Цена от",
+          "value": "Проверить цену / AED 1.5M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "Оба проекта: квартиры"
+        },
+        {
+          "label": "Спальни",
+          "value": "Оба проекта: 1–2 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2027 vs 2024"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Arthouse Residences Meydan",
+          "slug": "arthouse-residences-meydan",
+          "text": "Arthouse Residences Meydan позиционируется как проект в Meydan с акцентом на семейный формат; застройщик — Aviaan Real Estate Development. По текущим данным типы недвижимости — квартиры; диапазон — 1–2 спальни; срок сдачи — 2027; актуальную цену нужно проверить. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Meydan · Застройщик: Aviaan Real Estate Development",
+            "квартира · 1–2 спальни",
+            "Сдача 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Azizi Greenfield",
+          "slug": "azizi-greenfield",
+          "text": "Azizi Greenfield позиционируется как проект в Meydan с акцентом на семейный формат; застройщик — Azizi Developments. По текущим данным типы недвижимости — квартиры; диапазон — 1–2 спальни; стартовая цена — от AED 1.5M; срок сдачи — 2024. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Meydan · Застройщик: Azizi Developments",
+            "квартира · 1–2 спальни",
+            "От AED 1.5M · Сдача 2024"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Meydan, поэтому расположение не является главным различием. У проектов разные застройщики, поэтому сроки реализации, сервис и позиционирование продукта стоит оценивать отдельно. Зафиксирована стартовая цена только одного проекта, поэтому текущие цены нужно проверить. Зафиксированные сроки сдачи — 2027 и 2024.",
+        "tags": [
+          "Один район",
+          "Разные застройщики",
+          "Цена указана у одного проекта",
+          "Схожие типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Arthouse Residences Meydan",
+        "project_b": "Azizi Greenfield"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "Проверка актуальной цены",
+          "project_b": "От AED 1.5M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Meydan",
+          "project_b": "Meydan"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Aviaan Real Estate Development",
+          "project_b": "Azizi Developments"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "1–2 спальни",
+          "project_b": "1–2 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2027",
+          "project_b": "2024"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Семейный формат",
+          "project_b": "Семейный формат"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Arthouse Residences Meydan vs Azizi Greenfield",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Для Azizi Greenfield зафиксирована стартовая цена AED 1.5M. Проверьте актуальную цену Arthouse Residences Meydan и сравните сопоставимые объекты.",
+          "title": "Одну цену нужно подтвердить",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Meydan. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У Arthouse Residences Meydan указан срок сдачи 2027, у Azizi Greenfield — 2024. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Arthouse Residences Meydan и Azizi Greenfield по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Вы готовы проверить текущую стартовую цену перед сравнением стоимости.",
+          "Вам подходит семейный формат проекта в Meydan для вашего сценария использования.",
+          "Вы рассматриваете квартиры с 1–2 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2027."
+        ],
+        "project_a_title": "Выбирайте Arthouse Residences Meydan, если",
+        "project_b_items": [
+          "У проекта указана стартовая цена AED 1.5M, которую можно использовать для сравнения; цену альтернативы ещё нужно проверить.",
+          "Вам подходит семейный формат проекта в Meydan для вашего сценария использования.",
+          "Вы рассматриваете квартиры с 1–2 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2024."
+        ],
+        "project_b_title": "Выбирайте Azizi Greenfield, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Для Azizi Greenfield зафиксирована стартовая цена AED 1.5M, а цену Arthouse Residences Meydan нужно проверить. Оба проекта находятся в Meydan, поэтому расположение, скорее всего, не будет главным различием. В обоих проектах указаны схожие типы недвижимости: квартиры. У Arthouse Residences Meydan указан срок сдачи 2027, у Azizi Greenfield — 2024.",
+        "tags": [
+          "Цена указана у одного проекта",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/alphabeta-m77-vs-arthouse-residences-meydan/",
+            "meta": "Общий проект",
+            "label": "Alphabeta M77 vs Arthouse Residences Meydan",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/alphabeta-m77-vs-azizi-greenfield/",
+            "meta": "Общий проект",
+            "label": "Alphabeta M77 vs Azizi Greenfield",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/arthouse-residences-meydan-vs-ayaan-heights-phase-2/",
+            "meta": "Общий проект",
+            "label": "Arthouse Residences Meydan vs Ayaan Heights Phase 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/arthouse-residences-meydan-vs-ayana-gardens/",
+            "meta": "Общий проект",
+            "label": "Arthouse Residences Meydan vs Ayana Gardens",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/arthouse-residences-meydan/",
+            "meta": "Проект A",
+            "label": "Страница проекта Arthouse Residences Meydan",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/azizi-greenfield/",
+            "meta": "Проект B",
+            "label": "Страница проекта Azizi Greenfield",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/meydan/",
+            "meta": "Район",
+            "label": "Гид по району Meydan",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Arthouse Residences Meydan и Azizi Greenfield по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / семейное использование / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "текущий статус vs срок 2027",
+          "label": "Сроки"
+        },
+        {
+          "meta": "спальни / планировка / доступ к инфраструктуре района",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Более подходящий вариант зависит от приоритетов покупателя. Сейчас стартовая цена, которую можно использовать для сравнения, указана только для Azizi Greenfield. В обоих проектах указаны квартиры, хотя диапазон по спальням может различаться. У Arthouse Residences Meydan указан срок сдачи 2027, у Azizi Greenfield — 2024; текущий статус проекта с уже прошедшей датой сдачи нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Arthouse Residences Meydan или Azizi Greenfield?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для Azizi Greenfield указана стартовая цена AED 1.5M, которую можно использовать для сравнения. Для Arthouse Residences Meydan в текущих данных нет сопоставимой цены, поэтому требуется актуальная проверка.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Оба проекта находятся в Meydan. Arthouse Residences Meydan связан с застройщиком Aviaan Real Estate Development, а Azizi Greenfield — с Azizi Developments.",
+          "question": "Чем отличаются Arthouse Residences Meydan и Azizi Greenfield по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Arthouse Residences Meydan указаны типы недвижимости: квартиры; диапазон — объекты с 1–2 спальнями. Для Arthouse Residences Meydan указан срок сдачи 2027. В Azizi Greenfield указаны типы недвижимости: квартиры; диапазон — объекты с 1–2 спальнями. Для Azizi Greenfield указан срок сдачи 2024, поэтому текущий статус проекта нужно подтвердить.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для корректного сравнения Arthouse Residences Meydan и Azizi Greenfield проверьте конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, планировку, вид, статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Arthouse Residences Meydan и Azizi Greenfield?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Arthouse Residences Meydan и Azizi Greenfield. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Meydan; застройщики — Aviaan Real Estate Development и Azizi Developments соответственно. Для Azizi Greenfield зафиксирована цена AED 1.5M; цену Arthouse Residences Meydan нужно проверить. Зафиксированные сроки сдачи — 2027 и 2024; подтвердите текущий статус, если указанная дата уже прошла.",
+      "title": "Сравнить Arthouse Residences Meydan и Azizi Greenfield под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Arthouse Residences Meydan и Azizi Greenfield под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_arthouse_residences_meydan_vs_azizi_greenfield_ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Arthouse Residences Meydan",
+        "project_a_slug": "arthouse-residences-meydan",
+        "project_b_name": "Azizi Greenfield",
+        "project_b_slug": "azizi-greenfield",
+        "canonical_url_path": "/ru/compare-projects/arthouse-residences-meydan-vs-azizi-greenfield/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "azizi-greenfield",
+  "secondary_entity_type": "project"
+}

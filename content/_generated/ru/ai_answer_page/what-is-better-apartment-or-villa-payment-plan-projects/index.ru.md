@@ -1,0 +1,10 @@
+---
+title: "Что лучше: квартира или вилла? — Проекты с планом оплаты"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "what-is-better-apartment-or-villa-payment-plan-projects"
+page_id: "ai_answer__what-is-better-apartment-or-villa__context__payment-plan-projects__ru"
+url: "/ru/ai-answers/what-is-better-apartment-or-villa-payment-plan-projects/"
+build:
+  render: always
+  list: never
+---

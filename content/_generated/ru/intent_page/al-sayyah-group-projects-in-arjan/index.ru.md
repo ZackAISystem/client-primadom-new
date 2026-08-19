@@ -1,0 +1,10 @@
+---
+title: "Проекты Al Sayyah Group в районе Arjan"
+layout: "primadom-intent-page-v2"
+intent_slug: "al-sayyah-group-projects-in-arjan"
+page_id: "page_developer_district_al_sayyah_group_arjan_ru"
+url: "/ru/intents/al-sayyah-group-projects-in-arjan/"
+build:
+  render: always
+  list: never
+---

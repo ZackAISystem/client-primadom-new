@@ -1,0 +1,727 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__ava__vs__omniyat-bespoke__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/ava-vs-omniyat-bespoke/",
+  "canonical_url_path": "/en/compare-projects/ava-vs-omniyat-bespoke/",
+  "canonical_group_key": "project_comparison:ava:vs:omniyat-bespoke",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "ava",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/ava-vs-omniyat-bespoke/",
+          "label": "Ava vs Omniyat Bespoke",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Ava",
+        "Проект B: Omniyat Bespoke",
+        "Сравнение: Palm Jumeirah",
+        "Срок сдачи 2025 vs 2026",
+        "Сроки и соответствие шорт-листу"
+      ],
+      "title": "Ava vs Omniyat Bespoke",
+      "subtitle": "Шорт-лист в Palm Jumeirah формируется с учётом следующих факторов: схожие стартовые цены около AED 78M, варианты квартир, и сроки сдачи 2025 и 2026.",
+      "project_a": {
+        "name": "Ava",
+        "slug": "ava",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Omniyat Bespoke",
+        "slug": "omniyat-bespoke",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Ava и Omniyat Bespoke",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Ava и Omniyat Bespoke",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Ava или Omniyat Bespoke — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Ava и Omniyat Bespoke",
+      "ai_aria": "Попросить Primadom AI сравнить Ava и Omniyat Bespoke",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Ava и Omniyat Bespoke под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Ava и Omniyat Bespoke по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Ava и Omniyat Bespoke? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Ava и Omniyat Bespoke под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Ava и Omniyat Bespoke",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Один застройщик",
+        "Близкие стартовые цены",
+        "Сдача 2025 vs 2026"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Ava</strong> может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а <strong>Omniyat Bespoke</strong> — тем, для кого важнее конкретный доступный объект и его планировка. <strong>Ava</strong> предлагает квартиры, дуплексы, пентхаусы, объекты с 3–4 спальнями, от AED 78M, срок сдачи 2025, а <strong>Omniyat Bespoke</strong> — квартиры, студии, от AED 78M, срок сдачи 2026.",
+      "body_text": "Ava может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а Omniyat Bespoke — тем, для кого важнее конкретный доступный объект и его планировка. Ava предлагает квартиры, дуплексы, пентхаусы, объекты с 3–4 спальнями, от AED 78M, срок сдачи 2025, а Omniyat Bespoke — квартиры, студии, от AED 78M, срок сдачи 2026.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Ava"
+        },
+        {
+          "label": "Проект B",
+          "value": "Omniyat Bespoke"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Palm Jumeirah"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Оба проекта от Omniyat Group"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 78M vs AED 78M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "квартира · дуплекс · пентхаус vs квартира"
+        },
+        {
+          "label": "Спальни",
+          "value": "3–4 спальни vs Студии"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2025 vs 2026"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Ava",
+          "slug": "ava",
+          "text": "Ava позиционируется как проект в Palm Jumeirah с акцентом на жизнь у воды; застройщик — Omniyat Group. По текущим данным типы недвижимости — квартиры · дуплексы · пентхаусы; диапазон — 3–4 спальни; стартовая цена — от AED 78M; срок сдачи — 2025. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Palm Jumeirah · Застройщик: Omniyat Group",
+            "квартира · дуплекс · пентхаус · 3–4 спальни",
+            "От AED 78M · Сдача 2025"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Omniyat Bespoke",
+          "slug": "omniyat-bespoke",
+          "text": "Omniyat Bespoke позиционируется как проект в Palm Jumeirah с акцентом на жизнь у воды; застройщик — Omniyat Group. По текущим данным типы недвижимости — квартиры; стартовая цена — от AED 78M; срок сдачи — 2026. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Palm Jumeirah · Застройщик: Omniyat Group",
+            "Квартира",
+            "От AED 78M · Сдача 2026"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Palm Jumeirah, поэтому расположение не является главным различием. Оба проекта от Omniyat Group, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены близки: AED 78M и AED 78M. Зафиксированные сроки сдачи — 2025 и 2026.",
+        "tags": [
+          "Один район",
+          "Один застройщик",
+          "Близкие стартовые цены",
+          "Разные типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Ava",
+        "project_b": "Omniyat Bespoke"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 78M",
+          "project_b": "От AED 78M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Palm Jumeirah",
+          "project_b": "Palm Jumeirah"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Omniyat Group",
+          "project_b": "Omniyat Group"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "квартира · дуплекс · пентхаус",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "3–4 спальни",
+          "project_b": "Диапазон по спальням нужно подтвердить"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2025",
+          "project_b": "2026"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Ориентация на жизнь у воды",
+          "project_b": "Ориентация на жизнь у воды"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Ava vs Omniyat Bespoke",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 78M у Ava и AED 78M у Omniyat Bespoke. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Зафиксированные цены близки",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Palm Jumeirah. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У Ava указан срок сдачи 2025, у Omniyat Bespoke — 2026. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Ava и Omniyat Bespoke по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 78M близка к альтернативе, поэтому выбор стоит делать по конкретному объекту и полной стоимости.",
+          "Вам подходит расположение проекта у воды в Palm Jumeirah для вашего сценария использования.",
+          "Вы рассматриваете квартиры, дуплексы и пентхаусы с 3–4 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2025."
+        ],
+        "project_a_title": "Выбирайте Ava, если",
+        "project_b_items": [
+          "Его зафиксированная стартовая цена AED 78M близка к альтернативе, поэтому выбор стоит делать по конкретному объекту и полной стоимости.",
+          "Вам подходит расположение проекта у воды в Palm Jumeirah для вашего сценария использования.",
+          "Вы рассматриваете квартиры и предпочитаете проект с зафиксированным сроком сдачи 2026."
+        ],
+        "project_b_title": "Выбирайте Omniyat Bespoke, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 78M у Ava и AED 78M у Omniyat Bespoke. Оба проекта находятся в Palm Jumeirah, поэтому расположение, скорее всего, не будет главным различием. В Ava указаны типы недвижимости: квартиры · дуплексыы · пентхаусы, а в Omniyat Bespoke — квартиры. У Ava указан срок сдачи 2025, у Omniyat Bespoke — 2026.",
+        "tags": [
+          "Близкие стартовые цены",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/alba-residences-dorchester-collection-vs-ava/",
+            "meta": "Общий проект",
+            "label": "Alba Residences Dorchester Collection vs Ava",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/alba-residences-dorchester-collection-vs-omniyat-bespoke/",
+            "meta": "Общий проект",
+            "label": "Alba Residences Dorchester Collection vs Omniyat Bespoke",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/armani-beach-residences-vs-ava/",
+            "meta": "Общий проект",
+            "label": "Armani Beach Residences vs Ava",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/ava-vs-como-residences/",
+            "meta": "Общий проект",
+            "label": "Ava vs Como Residences",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/ava/",
+            "meta": "Проект A",
+            "label": "Страница проекта Ava",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/omniyat-bespoke/",
+            "meta": "Проект B",
+            "label": "Страница проекта Omniyat Bespoke",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/palm-jumeirah/",
+            "meta": "Район",
+            "label": "Гид по району Palm Jumeirah",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/developers/omniyat-group/",
+            "meta": "Застройщик",
+            "label": "Страница застройщика Omniyat Group",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Ava и Omniyat Bespoke по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры / дуплексыы / пентхаусы",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / второе жильё / инвестиция у воды",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "текущий статус vs срок 2026",
+          "label": "Сроки"
+        },
+        {
+          "meta": "вид / приватность / доступ к набережной",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. Зафиксированные стартовые цены у проектов одинаковые. В Ava указаны типы недвижимости: квартиры / дуплексы / пентхаусы, а в Omniyat Bespoke — квартира. У Ava указан срок сдачи 2025, у Omniyat Bespoke — 2026; текущий статус проекта с уже прошедшей датой сдачи нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Ava или Omniyat Bespoke?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для Ava и Omniyat Bespoke в текущих данных указана одинаковая стартовая цена — AED 78M. Перед выводом о разнице сравните конкретные объекты, площадь и актуальные условия.",
+          "question": "Как соотносятся зафиксированные стартовые цены?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Ava и Omniyat Bespoke находятся в Palm Jumeirah и связаны с застройщиком Omniyat Group. Поскольку район и застройщик совпадают, сравнивайте конкретный объект, планировку, зафиксированную стартовую цену и срок сдачи, а не только названия проектов.",
+          "question": "Чем отличаются Ava и Omniyat Bespoke по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Ava указаны типы недвижимости: квартиры · дуплексы · пентхаусы; диапазон — объекты с 3–4 спальнями. Для Ava указан срок сдачи 2025, поэтому текущий статус проекта нужно подтвердить. Для Omniyat Bespoke указан тип недвижимости — квартира, а диапазон по спальням ещё нужно подтвердить. Для Omniyat Bespoke указан срок сдачи 2026.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Ava и Omniyat Bespoke подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Ava и Omniyat Bespoke?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Ava и Omniyat Bespoke. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Palm Jumeirah и связаны с застройщиком Omniyat Group. Для обоих проектов зафиксирована одинаковая стартовая цена — AED 78M. Зафиксированные сроки сдачи — 2025 и 2026; подтвердите текущий статус, если указанная дата уже прошла.",
+      "title": "Сравнить Ava и Omniyat Bespoke под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Ava и Omniyat Bespoke под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__ava__vs__omniyat-bespoke__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Ava",
+        "project_a_slug": "ava",
+        "project_b_name": "Omniyat Bespoke",
+        "project_b_slug": "omniyat-bespoke",
+        "canonical_url_path": "/ru/compare-projects/ava-vs-omniyat-bespoke/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "omniyat-bespoke",
+  "secondary_entity_type": "project"
+}

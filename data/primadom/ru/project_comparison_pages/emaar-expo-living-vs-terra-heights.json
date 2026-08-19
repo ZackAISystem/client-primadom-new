@@ -1,0 +1,727 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__emaar-expo-living__vs__terra-heights__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/emaar-expo-living-vs-terra-heights/",
+  "canonical_url_path": "/en/compare-projects/emaar-expo-living-vs-terra-heights/",
+  "canonical_group_key": "project_comparison:emaar-expo-living:vs:terra-heights",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "emaar-expo-living",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/emaar-expo-living-vs-terra-heights/",
+          "label": "Emaar Expo Living vs Terra Heights",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Emaar Expo Living",
+        "Проект B: Terra Heights",
+        "Сравнение: Expo City",
+        "AED 1.4M vs AED 1.5M",
+        "Стартовая цена и соответствие покупателю"
+      ],
+      "title": "Emaar Expo Living vs Terra Heights",
+      "subtitle": "В Expo City сравните варианты квартир through стартовые цены AED 1.4M и AED 1.5M и контекст застройщика.",
+      "project_a": {
+        "name": "Emaar Expo Living",
+        "slug": "emaar-expo-living",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Terra Heights",
+        "slug": "terra-heights",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Emaar Expo Living и Terra Heights",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Emaar Expo Living и Terra Heights",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Emaar Expo Living или Terra Heights — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Emaar Expo Living и Terra Heights",
+      "ai_aria": "Попросить Primadom AI сравнить Emaar Expo Living и Terra Heights",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Emaar Expo Living и Terra Heights под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Emaar Expo Living и Terra Heights по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Emaar Expo Living и Terra Heights? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Emaar Expo Living и Terra Heights под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Emaar Expo Living и Terra Heights",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Один застройщик",
+        "AED 1.4M vs AED 1.5M",
+        "Срок сдачи указан у одного проекта"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Emaar Expo Living</strong> может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а <strong>Terra Heights</strong> — тем, для кого важнее более широкий выбор по количеству спален. <strong>Emaar Expo Living</strong> предлагает квартиры, объекты с 1–2 спальнями, от AED 1.4M, а <strong>Terra Heights</strong> — квартиры, объекты с 1–3 спальнями, от AED 1.5M, срок сдачи 2029.",
+      "body_text": "Emaar Expo Living может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а Terra Heights — тем, для кого важнее более широкий выбор по количеству спален. Emaar Expo Living предлагает квартиры, объекты с 1–2 спальнями, от AED 1.4M, а Terra Heights — квартиры, объекты с 1–3 спальнями, от AED 1.5M, срок сдачи 2029.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Emaar Expo Living"
+        },
+        {
+          "label": "Проект B",
+          "value": "Terra Heights"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Expo City"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Оба проекта от Emaar Properties"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 1.4M vs AED 1.5M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "Оба проекта: квартиры"
+        },
+        {
+          "label": "Спальни",
+          "value": "1–2 спальни vs 1–3 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "Проверить срок / 2029"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Emaar Expo Living",
+          "slug": "emaar-expo-living",
+          "text": "Emaar Expo Living позиционируется как проект в Expo City с акцентом на семейный формат; застройщик — Emaar Properties. По текущим данным типы недвижимости — квартиры; диапазон — 1–2 спальни; стартовая цена — от AED 1.4M; срок сдачи нужно подтвердить. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Expo City · Застройщик: Emaar Properties",
+            "квартира · 1–2 спальни",
+            "От AED 1.4M"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Terra Heights",
+          "slug": "terra-heights",
+          "text": "Terra Heights позиционируется как проект в Expo City с акцентом на зелёное окружение; застройщик — Emaar Properties. По текущим данным типы недвижимости — квартиры; диапазон — 1–3 спальни; стартовая цена — от AED 1.5M; срок сдачи — 2029. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Expo City · Застройщик: Emaar Properties",
+            "квартира · 1–3 спальни",
+            "От AED 1.5M · Сдача 2029"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Expo City, поэтому расположение не является главным различием. Оба проекта от Emaar Properties, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены: AED 1.4M у Emaar Expo Living и AED 1.5M у Terra Heights. Срок сдачи зафиксирован только у одного проекта; срок второго нужно подтвердить.",
+        "tags": [
+          "Один район",
+          "Один застройщик",
+          "Разница в стартовых ценах",
+          "Схожие типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Emaar Expo Living",
+        "project_b": "Terra Heights"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 1.4M",
+          "project_b": "От AED 1.5M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Expo City",
+          "project_b": "Expo City"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Emaar Properties",
+          "project_b": "Emaar Properties"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "1–2 спальни",
+          "project_b": "1–3 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "Срок сдачи нужно подтвердить",
+          "project_b": "2029"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Семейный формат",
+          "project_b": "Жизнь в зелёном окружении"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Emaar Expo Living vs Terra Heights",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 1.4M у Emaar Expo Living и AED 1.5M у Terra Heights. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Разница в стартовой цене имеет значение",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Expo City. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Для Terra Heights зафиксирован срок сдачи 2029. Подтвердите срок сдачи Emaar Expo Living, прежде чем сравнивать сроки реализации.",
+          "title": "Подтвердите оба срока сдачи",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Emaar Expo Living и Terra Heights по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 1.4M ниже в этой паре при условии сравнения сопоставимых объектов.",
+          "Вам подходит семейный формат проекта в Expo City для вашего сценария использования.",
+          "Вы рассматриваете квартиры с 1–2 спальнями и готовы подтвердить срок сдачи."
+        ],
+        "project_a_title": "Выбирайте Emaar Expo Living, если",
+        "project_b_items": [
+          "Вас устраивает более высокая зафиксированная стартовая цена AED 1.5M после проверки конкретного объекта и полной стоимости.",
+          "Вам подходит зелёное окружение проекта в Expo City для вашего сценария использования.",
+          "Вы рассматриваете квартиры с 1–3 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2029."
+        ],
+        "project_b_title": "Выбирайте Terra Heights, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 1.4M у Emaar Expo Living и AED 1.5M у Terra Heights. Оба проекта находятся в Expo City, поэтому расположение, скорее всего, не будет главным различием. В обоих проектах указаны схожие типы недвижимости: квартиры. Сейчас зафиксированный срок сдачи есть только у Terra Heights — 2029.",
+        "tags": [
+          "Разница в стартовых ценах",
+          "Один район",
+          "Указанные типы объектов",
+          "Проверка срока сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/al-waha-residences-phase-2-vs-expo-city-mangrove-residences/",
+            "meta": "Один район",
+            "label": "Al Waha Residences Phase 2 vs Expo City Mangrove Residences",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-waha-residences-phase-2-vs-expo-city-residences/",
+            "meta": "Один район",
+            "label": "Al Waha Residences Phase 2 vs Expo City Residences",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-waha-residences-phase-2-vs-expo-downtown/",
+            "meta": "Один район",
+            "label": "Al Waha Residences Phase 2 vs Expo Downtown",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-waha-residences-vs-al-waha-residences-phase-2/",
+            "meta": "Один район",
+            "label": "Al Waha Residences vs Al Waha Residences Phase 2",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/emaar-expo-living/",
+            "meta": "Проект A",
+            "label": "Страница проекта Emaar Expo Living",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/terra-heights/",
+            "meta": "Проект B",
+            "label": "Страница проекта Terra Heights",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/expo-city/",
+            "meta": "Район",
+            "label": "Гид по району Expo City",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/developers/emaar-properties/",
+            "meta": "Застройщик",
+            "label": "Страница застройщика Emaar Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Emaar Expo Living и Terra Heights по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / семейное использование / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "предпочтительный срок около 2029",
+          "label": "Сроки"
+        },
+        {
+          "meta": "спальни / планировка / доступ к инфраструктуре района",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. У Emaar Expo Living ниже зафиксированная стартовая цена. В обоих проектах указаны квартиры, хотя диапазон по спальням может различаться. Для Terra Heights указан срок сдачи 2029, а срок Emaar Expo Living ещё нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Emaar Expo Living или Terra Heights?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "У Emaar Expo Living зафиксирована более низкая стартовая цена — AED 1.4M против AED 1.5M у Terra Heights. Сравните одинаковый тип объекта, площадь и актуальные условия, прежде чем считать разницу сопоставимой.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Emaar Expo Living и Terra Heights находятся в Expo City и связаны с застройщиком Emaar Properties. Поскольку район и застройщик совпадают, сравнивайте конкретный объект, планировку, зафиксированную стартовую цену и срок сдачи, а не только названия проектов.",
+          "question": "Чем отличаются Emaar Expo Living и Terra Heights по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Emaar Expo Living указаны типы недвижимости: квартиры; диапазон — объекты с 1–2 спальнями. Срок сдачи Emaar Expo Living ещё нужно подтвердить. В Terra Heights указаны типы недвижимости: квартиры; диапазон — объекты с 1–3 спальнями. Для Terra Heights указан срок сдачи 2029.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Emaar Expo Living и Terra Heights подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Emaar Expo Living и Terra Heights?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Emaar Expo Living и Terra Heights. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Expo City и связаны с застройщиком Emaar Properties. У Emaar Expo Living зафиксирована более низкая стартовая цена — AED 1.4M против AED 1.5M. Для Terra Heights указан срок сдачи 2029; срок Emaar Expo Living нужно подтвердить.",
+      "title": "Сравнить Emaar Expo Living и Terra Heights под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Emaar Expo Living и Terra Heights под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__emaar-expo-living__vs__terra-heights__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Emaar Expo Living",
+        "project_a_slug": "emaar-expo-living",
+        "project_b_name": "Terra Heights",
+        "project_b_slug": "terra-heights",
+        "canonical_url_path": "/ru/compare-projects/emaar-expo-living-vs-terra-heights/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "terra-heights",
+  "secondary_entity_type": "project"
+}

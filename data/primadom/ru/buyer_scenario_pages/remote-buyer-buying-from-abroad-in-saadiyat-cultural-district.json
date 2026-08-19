@@ -1,0 +1,555 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_remote_buyer_from_abroad_saadiyat_cultural_district_ru",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ru",
+  "url_path": "/ru/buyer-scenarios/remote-buyer-buying-from-abroad-in-saadiyat-cultural-district/",
+  "canonical_url_path": "/ru/buyer-scenarios/remote-buyer-buying-from-abroad-in-saadiyat-cultural-district/",
+  "canonical_group_key": "scenario_district:remote_buyer_from_abroad:saadiyat-cultural-district",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "saadiyat-cultural-district",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Ответ",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Процесс",
+          "active": false
+        },
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Навигация по сценарию покупателя",
+      "cta_label": "Проверить сценарий",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ru/buyer-scenarios/",
+          "label": "Сценарии покупателей"
+        },
+        {
+          "key": "current",
+          "href": "/ru/buyer-scenarios/remote-buyer-buying-from-abroad-in-saadiyat-cultural-district/",
+          "label": "Покупатель, приобретающий недвижимость удалённо из-за рубежа в Saadiyat Cultural District",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Удалённая покупка",
+        "Saadiyat Cultural District",
+        "Квартиры · Виллы · Таунхаусы",
+        "AED 1.5M+",
+        "Документы · платежи · передача"
+      ],
+      "image": {
+        "alt": "Поиск недвижимости по сценарию «Покупатель, приобретающий недвижимость удалённо из-за рубежа в Saadiyat Cultural District»",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Покупатель, приобретающий недвижимость удалённо из-за рубежа в Saadiyat Cultural District",
+      "subtitle": "Удалённая покупка требует прозрачного процесса: комплексной проверки объекта, проверяемых документов, безопасной логистики платежей, представительства и плана передачи недвижимости. Для вариантов в Saadiyat Cultural District проверяйте конкретный объект, текущие расходы и условия сделки перед формированием короткого списка.",
+      "facts_aria": "Ключевые параметры сценария покупателя",
+      "section_id": "overview",
+      "visual_aria": "Визуальный блок поиска недвижимости по сценарию «Покупатель, приобретающий недвижимость удалённо из-за рубежа в Saadiyat Cultural District»",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Сравнить варианты в Saadiyat Cultural District для сценария «Покупатель, приобретающий недвижимость удалённо из-за рубежа»",
+        "Проверить ключевые критерии: комплексная проверка объекта, документы и логистика платежей",
+        "Какие варианты лучше соответствуют этому сценарию?"
+      ],
+      "ai_aria": "Спросить Primadom AI о сценарии «Покупатель, приобретающий недвижимость удалённо из-за рубежа в Saadiyat Cultural District»",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Сравнить варианты в Saadiyat Cultural District для сценария «Покупатель, приобретающий недвижимость удалённо из-за рубежа»",
+      "placeholder": "Сравнить варианты в Saadiyat Cultural District для сценария «Покупатель, приобретающий недвижимость удалённо из-за рубежа»",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Удалённая покупка",
+        "Saadiyat Cultural District",
+        "Комплексная проверка",
+        "Документы · платежи",
+        "Спросить AI"
+      ],
+      "title": "Что важнее всего",
+      "eyebrow": "Рекомендации покупателю",
+      "body_html": "<strong>Для этого сценария в Saadiyat Cultural District</strong> ключевые критерии — комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости. Удалённая покупка требует прозрачного процесса: комплексной проверки объекта, проверяемых документов, безопасной логистики платежей, представительства и плана передачи недвижимости.",
+      "body_text": "Для этого сценария в Saadiyat Cultural District ключевые критерии — комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости. Удалённая покупка требует прозрачного процесса: комплексной проверки объекта, проверяемых документов, безопасной логистики платежей, представительства и плана передачи недвижимости.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Сценарий",
+          "value": "Покупатель, приобретающий недвижимость удалённо из-за рубежа"
+        },
+        {
+          "label": "Основная цель",
+          "value": "Удалённая покупка"
+        },
+        {
+          "label": "Расположение",
+          "value": "Saadiyat Cultural District"
+        },
+        {
+          "label": "Тип недвижимости",
+          "value": "Квартиры · Виллы · Таунхаусы"
+        },
+        {
+          "label": "Бюджетный диапазон",
+          "value": "AED 1.5M+"
+        },
+        {
+          "label": "Критерий решения",
+          "value": "Документы · платежи · передача"
+        },
+        {
+          "label": "Этап покупателя",
+          "value": "Планирование удалённой покупки"
+        },
+        {
+          "label": "Следующий шаг",
+          "value": "Проверить удалённый процесс"
+        }
+      ],
+      "title": "Параметры сценария",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Для кого эта страница",
+        "eyebrow": "Кому подходит",
+        "bad_items": [
+          "Покупатели, принимающие решение только по цене или одному маркетинговому показателю",
+          "Покупатели, переводящие средства до понимания схемы сделки",
+          "Покупатели, не готовые учитывать весь набор критериев: комплексная проверка объекта, документы и сопутствующие расходы"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели, для которых особенно важны критерии: комплексная проверка объекта и документы",
+          "Покупатели, готовые сравнивать критерии: логистика платежей, представительство и полная стоимость решения",
+          "Покупатели, которые хотят проверить конкретные варианты в Saadiyat Cultural District до принятия решения"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "В Saadiyat Cultural District начинайте сравнение с реального сценария использования и одинаковых критериев для всех вариантов. Ключевые критерии: комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости. Отдельно проверяйте текущие расходы, статус объекта и условия сделки.",
+        "tags": [
+          "Документы",
+          "Схема оплаты",
+          "Представительство",
+          "Проверка",
+          "Приоритеты покупателя"
+        ],
+        "title": "Что учитывать",
+        "eyebrow": "Логика решения"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "В Saadiyat Cultural District оцените локацию по ключевым критериям: комплексная проверка объекта, документы и логистика платежей. Само название района не заменяет проверку конкретного объекта и ежедневного сценария.",
+            "title": "Saadiyat Cultural District"
+          },
+          {
+            "text": "Сравните соседние или альтернативные районы по тем же критериям: комплексная проверка объекта, документы и логистика платежей. Это помогает увидеть реальную цену компромиссов.",
+            "title": "Сравнить альтернативы"
+          },
+          {
+            "text": "Проверяйте набор критериев вместе: комплексная проверка объекта, документы и логистика платежей. Более низкая цена или известная локация не должны скрывать слабый общий сценарий.",
+            "title": "Ключевой критерий: комплексная проверка объекта"
+          },
+          {
+            "text": "До формирования короткого списка сравните полную стоимость владения, практичность локации и соответствие объекта сценарию «Покупатель, приобретающий недвижимость удалённо из-за рубежа».",
+            "title": "Перед сужением выбора"
+          }
+        ],
+        "title": "Контекст района",
+        "eyebrow": "Подходящие районы"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Подходят как базовая точка сравнения по цене входа, удобству использования, сервисным сборам и доступности.",
+            "title": "Квартиры"
+          },
+          {
+            "text": "Дают больше приватности и пространства, но требуют отдельной оценки содержания, участка и повседневной логистики.",
+            "title": "Виллы"
+          },
+          {
+            "text": "Сочетают семейное пространство и формат сообщества; важно проверить содержание, парковку, приватность и ежедневные маршруты.",
+            "title": "Таунхаусы"
+          },
+          {
+            "text": "Сравнивайте готовый и off-plan объект по срокам использования, графику платежей, рискам исполнения и полной стоимости.",
+            "title": "Готовая или off-plan"
+          }
+        ],
+        "title": "Типы недвижимости для сравнения",
+        "eyebrow": "Соответствие недвижимости"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Сначала зафиксируйте критерии: комплексная проверка объекта, документы и логистика платежей. Затем сопоставьте их с полной стоимостью и практичностью конкретного объекта.",
+          "title": "Зафиксируйте главный критерий: комплексная проверка объекта",
+          "eyebrow": "Логика бюджета"
+        },
+        {
+          "text": "В Saadiyat Cultural District применяйте одинаковый набор критериев к каждому варианту: комплексная проверка объекта, документы, логистика платежей и представительство.",
+          "title": "Сравнивайте варианты на одной основе",
+          "eyebrow": "Этапы процесса"
+        },
+        {
+          "text": "Проверьте два риска в первую очередь: переводить средства без достаточной проверки и подписывать документы без понятного процесса. Решение должно выдерживать проверку конкретного объекта.",
+          "title": "Не скрывайте главный риск",
+          "eyebrow": "Риски"
+        },
+        {
+          "text": "Primadom AI может сопоставить варианты в Saadiyat Cultural District по набору критериев: комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости.",
+          "title": "Сравните сценарий с Primadom AI",
+          "eyebrow": "Primadom AI",
+          "dark": true
+        }
+      ],
+      "cards_aria": "Рекомендации для принятия решения",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Для этого сценария основные риски: переводить средства без достаточной проверки, подписывать документы без понятного процесса, не проверить полномочия представителей и не спланировать приёмку и передачу объекта. В Saadiyat Cultural District проверяйте каждый риск на уровне конкретного объекта и актуальных условий.",
+        "tags": [
+          "Документы",
+          "Схема оплаты",
+          "Представительство",
+          "Проверка объекта",
+          "Срок сдачи"
+        ],
+        "title": "Риски",
+        "eyebrow": "Проверить перед покупкой"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "До просмотра вариантов определите требования по критерию «комплексная проверка объекта» и зафиксируйте параметры, которыми нельзя жертвовать.",
+            "title": "Зафиксируйте критерий: комплексная проверка объекта"
+          },
+          {
+            "text": "По критерию «документы» проверьте конкретный объект, текущие расходы, документы и фактические условия.",
+            "title": "Проверьте критерий: документы"
+          },
+          {
+            "text": "В Saadiyat Cultural District сопоставьте критерии «логистика платежей» и «представительство» с повседневным использованием недвижимости.",
+            "title": "Сопоставьте критерий: логистика платежей"
+          },
+          {
+            "text": "Перед обязательством по сделке перепроверьте критерий «представительство», сроки, платежи и актуальный статус выбранного объекта.",
+            "title": "Подтвердите критерий: представительство"
+          }
+        ],
+        "title": "Документы и процесс",
+        "eyebrow": "Практические детали"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/projects/louvre-abu-dhabi-residences/",
+            "meta": "Aldar Properties PJSC · Saadiyat Cultural District",
+            "label": "Louvre Abu Dhabi Residences"
+          },
+          {
+            "href": "/ru/projects/ajwan-towers/",
+            "meta": "ESK Investments · Saadiyat Cultural District",
+            "label": "Ajwan Towers"
+          },
+          {
+            "href": "/ru/projects/the-source-terraces/",
+            "meta": "Aldar Properties PJSC · Saadiyat Cultural District",
+            "label": "The Source Terraces"
+          },
+          {
+            "href": "/ru/projects/mandarin-oriental-residences/",
+            "meta": "Aldar + Mandarin Oriental · Saadiyat Cultural District",
+            "label": "Mandarin Oriental Residences"
+          },
+          {
+            "href": "/ru/projects/mamsha-palm/",
+            "meta": "Aldar Properties PJSC · Saadiyat Cultural District",
+            "label": "Mamsha Palm"
+          }
+        ],
+        "title": "Проекты для сравнения",
+        "eyebrow": "Варианты для подбора"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Бюджетный ориентир — AED 1.5M+. Не используйте весь доступный предел только на цену недвижимости: оставьте место для расходов на покупку, регулярных платежей, обустройства и денежного резерва.",
+        "tags": [
+          "Цена покупки",
+          "Расходы на покупку",
+          "Представительство",
+          "Поездки",
+          "Денежный резерв"
+        ],
+        "title": "Логика бюджета",
+        "eyebrow": "Бюджет сценария"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ru/buyer-scenarios/second-home-buyer-in-saadiyat-cultural-district/",
+          "label": "Покупатель второго дома в Saadiyat Cultural District"
+        },
+        {
+          "href": "/ru/buyer-scenarios/business-owner-relocation-to-dubai-in-saadiyat-cultural-district/",
+          "label": "Владелец бизнеса: переезд в Дубай — Saadiyat Cultural District"
+        },
+        {
+          "href": "/ru/buyer-scenarios/golden-visa-property-buyer-in-saadiyat-cultural-district/",
+          "label": "Покупатель недвижимости для Golden Visa в Saadiyat Cultural District"
+        },
+        {
+          "href": "/ru/buyer-scenarios/ready-to-move-buyer/",
+          "label": "Покупатель готовой к заселению недвижимости"
+        }
+      ],
+      "title": "Похожие сценарии",
+      "eyebrow": "Смотреть дальше",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ключевые критерии: комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости. Их нужно оценивать вместе, а не по одному.",
+          "question": "Что важнее всего для этого сценария в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Он подходит покупателям, которые хотят принимать решение на основе набора критериев: комплексная проверка объекта, документы и полная стоимость, а не только по цене или маркетинговому обещанию.",
+          "question": "Кому подходит этот сценарий в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Перед переводом средств за покупку в Saadiyat Cultural District проверьте личности сторон, документы по владению и сделке, платёжные инструкции, полномочия на подписание, сам объект и порядок передачи.",
+          "question": "Что нужно проверить перед выбором конкретного объекта в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Считайте полную финансовую нагрузку, а не только цену объекта: расходы сделки, регулярные платежи, обустройство и денежный резерв нужно учитывать отдельно.",
+          "question": "Как учитывать бюджет и сопутствующие расходы для вариантов в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Ключевые риски: переводить средства без достаточной проверки, подписывать документы без понятного процесса, не проверить полномочия представителей и не спланировать приёмку и передачу объекта. Их нужно проверять на уровне конкретного объекта и текущих условий.",
+          "question": "Какие основные риски нужно учитывать?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы по сценарию",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Перед решением по этому сценарию в Saadiyat Cultural District перепроверьте текущие данные по объекту, расходы, сроки, документы и условия сделки. Критерии для отдельной проверки: комплексная проверка объекта, документы, логистика платежей и представительство.",
+      "items": [
+        {
+          "label": "Комплексная проверка объекта",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Документы",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Логистика платежей",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "Проверить актуальные данные перед решением"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Что проверить",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Сравните варианты в Saadiyat Cultural District, используя единый набор критериев: комплексная проверка объекта, документы, логистика платежей, представительство и передача недвижимости. Primadom AI поможет структурировать сравнение до разговора с консультантом.",
+      "title": "Хотите проверить сценарий «Покупатель, приобретающий недвижимость удалённо из-за рубежа»?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Рассмотреть варианты",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса по сценарию покупателя",
+      "text": "Укажите приоритеты по следующим критериям: комплексная проверка объекта, документы, логистика платежей и представительство. Это даст консультанту контекст для сравнения вариантов в Saadiyat Cultural District до разговора.",
+      "title": "Проверить сценарий: Покупатель, приобретающий недвижимость удалённо из-за рубежа",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Помогите сравнить варианты по ключевым критериям этого сценария",
+      "eyebrow": "AI-анализ сценария",
+      "success": "Отправлено",
+      "close_label": "Закрыть",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "В Saadiyat Cultural District используйте единый набор критериев: комплексная проверка объекта, документы, логистика платежей и представительство. Перед выбором объекта отдельно проверьте полную стоимость владения.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравните сценарий «Покупатель, приобретающий недвижимость удалённо из-за рубежа» по ключевым критериям",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Ссылки на соцсети",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Записаться на звонок"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Спросить AI"
+      }
+    }
+  }
+}

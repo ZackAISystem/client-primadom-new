@@ -1,6 +1,11 @@
 {{- $slug := .Params.property_type_slug | default "apartments-in-al-barari" -}}
 
-{{- $page := index site.Data.primadom.property_type_pages_v2 $slug -}}
+{{- $propertyTypeData := site.Data.primadom.property_type_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $propertyTypeData = index $ruData "property_type_pages" -}}
+{{- end -}}
+{{- $page := index $propertyTypeData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "Property Type V2 data not found: %s" $slug -}}

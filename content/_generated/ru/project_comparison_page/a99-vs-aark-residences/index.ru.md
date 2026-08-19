@@ -1,0 +1,10 @@
+---
+title: "A99 vs Aark Residences"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "a99-vs-aark-residences"
+page_id: "page_project_comparison_a99_vs_aark_residences_ru"
+url: "/ru/compare-projects/a99-vs-aark-residences/"
+build:
+  render: always
+  list: never
+---

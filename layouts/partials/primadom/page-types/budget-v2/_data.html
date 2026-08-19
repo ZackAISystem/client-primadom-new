@@ -8,7 +8,12 @@
 
 {{- $slug := .Params.budget_slug | default "aed-5m-10m-in-dubai-hills-estate" -}}
 
-{{- $page := index site.Data.primadom.budget_pages_v2 $slug -}}
+{{- $budgetData := site.Data.primadom.budget_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $budgetData = index $ruData "budget_pages" -}}
+{{- end -}}
+{{- $page := index $budgetData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "Budget Page V2 data not found: %s" $slug -}}

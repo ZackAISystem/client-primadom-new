@@ -1,6 +1,11 @@
 {{- $slug := .Params.comparison_slug | default "10-oxford-vs-105-residences" -}}
 
-{{- $page := index site.Data.primadom.project_comparison_pages_v2 $slug -}}
+{{- $projectComparisonData := site.Data.primadom.project_comparison_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $projectComparisonData = index $ruData "project_comparison_pages" -}}
+{{- end -}}
+{{- $page := index $projectComparisonData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "Project Comparison V2 data not found: %s" $slug -}}

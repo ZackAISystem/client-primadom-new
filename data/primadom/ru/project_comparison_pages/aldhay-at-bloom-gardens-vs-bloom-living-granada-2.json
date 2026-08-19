@@ -1,0 +1,727 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__aldhay-at-bloom-gardens__vs__bloom-living-granada-2__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-bloom-living-granada-2/",
+  "canonical_url_path": "/en/compare-projects/aldhay-at-bloom-gardens-vs-bloom-living-granada-2/",
+  "canonical_group_key": "project_comparison:aldhay-at-bloom-gardens:vs:bloom-living-granada-2",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "aldhay-at-bloom-gardens",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-bloom-living-granada-2/",
+          "label": "Aldhay at Bloom Gardens vs Bloom Living Granada 2",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Aldhay at Bloom Gardens",
+        "Проект B: Bloom Living Granada 2",
+        "Сравнение: Khalifa City",
+        "Таунхаус vs квартира",
+        "Формат недвижимости и типы объектов"
+      ],
+      "title": "Aldhay at Bloom Gardens vs Bloom Living Granada 2",
+      "subtitle": "В Khalifa City сравните таунхаусы и квартиры, сроки сдачи 2023 и 2028 и контекст застройщика.",
+      "project_a": {
+        "name": "Aldhay at Bloom Gardens",
+        "slug": "aldhay-at-bloom-gardens",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Bloom Living Granada 2",
+        "slug": "bloom-living-granada-2",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Aldhay at Bloom Gardens и Bloom Living Granada 2",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Aldhay at Bloom Gardens и Bloom Living Granada 2",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Aldhay at Bloom Gardens vs Bloom Living Granada 2?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2",
+      "ai_aria": "Попросить Primadom AI сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Aldhay at Bloom Gardens и Bloom Living Granada 2 под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Aldhay at Bloom Gardens и Bloom Living Granada 2 по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Aldhay at Bloom Gardens и Bloom Living Granada 2? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2 под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Один застройщик",
+        "Цена указана у одного проекта",
+        "Сдача 2023 vs 2028"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Aldhay at Bloom Gardens</strong> может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а <strong>Bloom Living Granada 2</strong> — тем, для кого важнее конкретный доступный объект и его планировка. <strong>Aldhay at Bloom Gardens</strong> предлагает таунхаусы, объекты с 2–5 спальнями, срок сдачи 2023, а <strong>Bloom Living Granada 2</strong> — квартиры, от студий до объектов с 3 спальнями, от AED 690K, срок сдачи 2028.",
+      "body_text": "Aldhay at Bloom Gardens может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а Bloom Living Granada 2 — тем, для кого важнее конкретный доступный объект и его планировка. Aldhay at Bloom Gardens предлагает таунхаусы, объекты с 2–5 спальнями, срок сдачи 2023, а Bloom Living Granada 2 — квартиры, от студий до объектов с 3 спальнями, от AED 690K, срок сдачи 2028.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Aldhay at Bloom Gardens"
+        },
+        {
+          "label": "Проект B",
+          "value": "Bloom Living Granada 2"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Khalifa City"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Оба проекта от Bloom Properties"
+        },
+        {
+          "label": "Цена от",
+          "value": "Проверить цену / AED 690K"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "таунхаус vs квартира"
+        },
+        {
+          "label": "Спальни",
+          "value": "2–5 спален vs Студии–3 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2023 vs 2028"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Aldhay at Bloom Gardens",
+          "slug": "aldhay-at-bloom-gardens",
+          "text": "Aldhay at Bloom Gardens позиционируется как проект в Khalifa City с акцентом на зелёное окружение; застройщик — Bloom Properties. По текущим данным типы недвижимости — таунхаусы; диапазон — 2–5 спален; срок сдачи — 2023; актуальную цену нужно проверить. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Khalifa City · Застройщик: Bloom Properties",
+            "таунхаус · 2–5 спален",
+            "Сдача 2023"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Bloom Living Granada 2",
+          "slug": "bloom-living-granada-2",
+          "text": "Bloom Living Granada 2 позиционируется как проект в Khalifa City с акцентом на зелёное окружение; застройщик — Bloom Properties. По текущим данным типы недвижимости — квартиры; диапазон — от студий до объектов с 3 спальнями; стартовая цена — от AED 690K; срок сдачи — 2028. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Khalifa City · Застройщик: Bloom Properties",
+            "квартира · студии–3 спальни",
+            "От AED 690K · Сдача 2028"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Khalifa City, поэтому расположение не является главным различием. Оба проекта от Bloom Properties, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксирована стартовая цена только одного проекта, поэтому текущие цены нужно проверить. Зафиксированные сроки сдачи — 2023 и 2028.",
+        "tags": [
+          "Один район",
+          "Один застройщик",
+          "Цена указана у одного проекта",
+          "Разные типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Aldhay at Bloom Gardens",
+        "project_b": "Bloom Living Granada 2"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "Проверка актуальной цены",
+          "project_b": "От AED 690K"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Khalifa City",
+          "project_b": "Khalifa City"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Bloom Properties",
+          "project_b": "Bloom Properties"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Таунхаус",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "2–5 спален",
+          "project_b": "Студии–3 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2023",
+          "project_b": "2028"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Жизнь в зелёном окружении",
+          "project_b": "Жизнь в зелёном окружении"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Aldhay at Bloom Gardens vs Bloom Living Granada 2",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Для Bloom Living Granada 2 зафиксирована стартовая цена AED 690K. Проверьте актуальную цену Aldhay at Bloom Gardens и сравните сопоставимые объекты.",
+          "title": "Одну цену нужно подтвердить",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Khalifa City. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У Aldhay at Bloom Gardens указан срок сдачи 2023, у Bloom Living Granada 2 — 2028. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2 по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Вы готовы проверить текущую стартовую цену перед сравнением стоимости.",
+          "Вам подходит зелёное окружение проекта в Khalifa City для вашего сценария использования.",
+          "Вы рассматриваете таунхаусы с 2–5 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2023."
+        ],
+        "project_a_title": "Выбирайте Aldhay at Bloom Gardens, если",
+        "project_b_items": [
+          "У проекта указана стартовая цена AED 690K, которую можно использовать для сравнения; цену альтернативы ещё нужно проверить.",
+          "Вам подходит зелёное окружение проекта в Khalifa City для вашего сценария использования.",
+          "Вы рассматриваете квартиры в диапазоне от студий до вариантов с 3 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2028."
+        ],
+        "project_b_title": "Выбирайте Bloom Living Granada 2, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Для Bloom Living Granada 2 зафиксирована стартовая цена AED 690K, а цену Aldhay at Bloom Gardens нужно проверить. Оба проекта находятся в Khalifa City, поэтому расположение, скорее всего, не будет главным различием. В Aldhay at Bloom Gardens указаны типы недвижимости: таунхаусыы, а в Bloom Living Granada 2 — квартиры. У Aldhay at Bloom Gardens указан срок сдачи 2023, у Bloom Living Granada 2 — 2028.",
+        "tags": [
+          "Цена указана у одного проекта",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-almeria/",
+            "meta": "Общий проект",
+            "label": "Aldhay at Bloom Gardens vs Almeria",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-bloom-gardens/",
+            "meta": "Общий проект",
+            "label": "Aldhay at Bloom Gardens vs Bloom Gardens",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-casares/",
+            "meta": "Общий проект",
+            "label": "Aldhay at Bloom Gardens vs Casares",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-cordoba/",
+            "meta": "Общий проект",
+            "label": "Aldhay at Bloom Gardens vs Cordoba",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/aldhay-at-bloom-gardens/",
+            "meta": "Проект A",
+            "label": "Страница проекта Aldhay at Bloom Gardens",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/bloom-living-granada-2/",
+            "meta": "Проект B",
+            "label": "Страница проекта Bloom Living Granada 2",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/khalifa-city/",
+            "meta": "Район",
+            "label": "Гид по району Khalifa City",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/developers/bloom-properties/",
+            "meta": "Застройщик",
+            "label": "Страница застройщика Bloom Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2 по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "таунхаусы / квартиры",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "семейное жильё / второе жильё / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "текущий статус vs срок 2028",
+          "label": "Сроки"
+        },
+        {
+          "meta": "участок / открытое пространство / планировка",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. Сейчас стартовая цена, которую можно использовать для сравнения, указана только для Bloom Living Granada 2. В Aldhay at Bloom Gardens указаны типы недвижимости: таунхаусы, а в Bloom Living Granada 2 — квартира. У Aldhay at Bloom Gardens указан срок сдачи 2023, у Bloom Living Granada 2 — 2028; текущий статус проекта с уже прошедшей датой сдачи нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Aldhay at Bloom Gardens или Bloom Living Granada 2?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для Bloom Living Granada 2 указана стартовая цена AED 690K, которую можно использовать для сравнения. Для Aldhay at Bloom Gardens в текущих данных нет сопоставимой цены, поэтому требуется актуальная проверка.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Aldhay at Bloom Gardens и Bloom Living Granada 2 находятся в Khalifa City и связаны с застройщиком Bloom Properties. Поскольку район и застройщик совпадают, сравнивайте конкретный объект, планировку, зафиксированную стартовую цену и срок сдачи, а не только названия проектов.",
+          "question": "Чем отличаются Aldhay at Bloom Gardens и Bloom Living Granada 2 по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Aldhay at Bloom Gardens указаны типы недвижимости: таунхаусы; диапазон — объекты с 2–5 спальнями. Для Aldhay at Bloom Gardens указан срок сдачи 2023, поэтому текущий статус проекта нужно подтвердить. В Bloom Living Granada 2 указаны типы недвижимости: квартиры; диапазон — от студий до объектов с 3 спальнями. Для Bloom Living Granada 2 указан срок сдачи 2028.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Aldhay at Bloom Gardens и Bloom Living Granada 2 подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Aldhay at Bloom Gardens и Bloom Living Granada 2?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Aldhay at Bloom Gardens и Bloom Living Granada 2. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Khalifa City и связаны с застройщиком Bloom Properties. Для Bloom Living Granada 2 зафиксирована цена AED 690K; цену Aldhay at Bloom Gardens нужно проверить. Зафиксированные сроки сдачи — 2023 и 2028; подтвердите текущий статус, если указанная дата уже прошла.",
+      "title": "Сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2 под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Aldhay at Bloom Gardens и Bloom Living Granada 2 под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__aldhay-at-bloom-gardens__vs__bloom-living-granada-2__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Aldhay at Bloom Gardens",
+        "project_a_slug": "aldhay-at-bloom-gardens",
+        "project_b_name": "Bloom Living Granada 2",
+        "project_b_slug": "bloom-living-granada-2",
+        "canonical_url_path": "/ru/compare-projects/aldhay-at-bloom-gardens-vs-bloom-living-granada-2/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "bloom-living-granada-2",
+  "secondary_entity_type": "project"
+}

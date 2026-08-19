@@ -1,0 +1,10 @@
+---
+title: "flora-shore"
+layout: "primadom-project-page-v2"
+project_slug: "flora-shore"
+page_id: "page_project_flora_shore_ru"
+url: "/ru/projects/flora-shore/"
+build:
+  render: always
+  list: never
+---

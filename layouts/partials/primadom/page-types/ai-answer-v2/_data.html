@@ -1,6 +1,11 @@
 {{- $slug := .Params.ai_answer_slug | default "are-service-charges-important-off-plan" -}}
 
-{{- $page := index site.Data.primadom.ai_answer_pages_v2 $slug -}}
+{{- $aiAnswerData := site.Data.primadom.ai_answer_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $aiAnswerData = index $ruData "ai_answer_pages" -}}
+{{- end -}}
+{{- $page := index $aiAnswerData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "AI Answer V2 data not found: %s" $slug -}}

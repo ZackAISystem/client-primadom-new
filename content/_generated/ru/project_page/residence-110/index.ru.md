@@ -1,0 +1,10 @@
+---
+title: "residence-110"
+layout: "primadom-project-page-v2"
+project_slug: "residence-110"
+page_id: "page_project_residence_110_ru"
+url: "/ru/projects/residence-110/"
+build:
+  render: always
+  list: never
+---

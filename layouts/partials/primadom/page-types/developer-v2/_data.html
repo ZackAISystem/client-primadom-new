@@ -19,7 +19,12 @@
   {{- errorf "Developer V2: developer_slug missing for %s" .RelPermalink -}}
 {{- end -}}
 
-{{- $page := index site.Data.primadom.developer_pages_v2 $slug -}}
+{{- $developerData := site.Data.primadom.developer_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $developerData = index $ruData "developer_pages" -}}
+{{- end -}}
+{{- $page := index $developerData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "Developer V2 data not found for slug: %s" $slug -}}

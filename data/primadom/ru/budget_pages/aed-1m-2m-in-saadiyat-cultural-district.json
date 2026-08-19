@@ -1,0 +1,714 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_budget_district_aed_1m_2m_saadiyat_cultural_district_ru",
+  "page_type_id": "budget_page",
+  "language_code": "ru",
+  "url_path": "/ru/budgets/aed-1m-2m-in-saadiyat-cultural-district/",
+  "canonical_url_path": "/ru/budgets/aed-1m-2m-in-saadiyat-cultural-district/",
+  "canonical_group_key": "budget_district:aed_1m_2m:saadiyat-cultural-district",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "saadiyat-cultural-district",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Что можно купить",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "План оплаты",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Расходы",
+          "active": false
+        },
+        {
+          "href": "#budget-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Навигация по странице бюджета",
+      "cta_label": "Проверить бюджет",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "budgets",
+          "href": "/ru/budgets/",
+          "label": "Бюджеты"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/saadiyat-cultural-district/",
+          "label": "Saadiyat Cultural District"
+        },
+        {
+          "key": "current",
+          "href": "/ru/budgets/aed-1m-2m-in-saadiyat-cultural-district/",
+          "label": "Недвижимость за AED 1M–2M в Saadiyat Cultural District"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "Saadiyat Cultural District",
+        "Все типы недвижимости",
+        "2 проекта со стартовыми ценами в диапазоне",
+        "Ограниченный выбор проектов"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Недвижимость за AED 1M–2M в Saadiyat Cultural District",
+      "subtitle": "Текущий ориентир для недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M: 2 проекта в диапазоне. Сравните конкретные варианты по цене, планировке или формату, расположению, срокам сдачи, условиям оплаты и полной стоимости владения. Ключевой компромисс — соответствие цене или конкретный объект; актуальные цены и наличие нужно подтвердить перед выбором.",
+      "facts_aria": "Ключевые параметры бюджета",
+      "section_id": "overview",
+      "visual_aria": "Обзор бюджета: Недвижимость за AED 1M–2M в Saadiyat Cultural District",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Спросите о реалистичных вариантах недвижимости, компромиссах и расходах на покупку в Saadiyat Cultural District. Актуальные цены и наличие требуют проверки по конкретному проекту.",
+      "hints": [
+        "Что можно купить здесь на этот бюджет?",
+        "Какие варианты стоит сравнить в первую очередь?",
+        "Какие компромиссы сравнить в первую очередь?"
+      ],
+      "title": "Проверить варианты в бюджете AED 1M–2M в Saadiyat Cultural District",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Оцените реалистичные варианты для запроса «варианты недвижимости в Saadiyat Cultural District» в бюджете AED 1M–2M. Используйте стартовые цены как ориентир, сравните конкретные объекты и перед формированием подборки подтвердите актуальные цены и наличие.",
+        "Объясните, какие характеристики сильнее всего влияют на выбор для запроса «варианты недвижимости в Saadiyat Cultural District»: планировка или формат, расположение, сроки сдачи, качество проекта, сервисные сборы и полная стоимость владения.",
+        "Объясните основной компромисс для запроса «варианты недвижимости в Saadiyat Cultural District» в бюджете AED 1M–2M: соответствие цене или конкретный объект. Укажите, какие цены, условия оплаты, сроки и данные по наличию нужно проверить перед решением."
+      ],
+      "hint_items": [
+        {
+          "label": "Что можно купить здесь на этот бюджет?",
+          "prompt": "Оцените реалистичные варианты для запроса «варианты недвижимости в Saadiyat Cultural District» в бюджете AED 1M–2M. Используйте стартовые цены как ориентир, сравните конкретные объекты и перед формированием подборки подтвердите актуальные цены и наличие."
+        },
+        {
+          "label": "Какие варианты стоит сравнить в первую очередь?",
+          "prompt": "Объясните, какие характеристики сильнее всего влияют на выбор для запроса «варианты недвижимости в Saadiyat Cultural District»: планировка или формат, расположение, сроки сдачи, качество проекта, сервисные сборы и полная стоимость владения."
+        },
+        {
+          "label": "Какие компромиссы сравнить в первую очередь?",
+          "prompt": "Объясните основной компромисс для запроса «варианты недвижимости в Saadiyat Cultural District» в бюджете AED 1M–2M: соответствие цене или конкретный объект. Укажите, какие цены, условия оплаты, сроки и данные по наличию нужно проверить перед решением."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Спросите, что можно купить в бюджете AED 1M–2M в Saadiyat Cultural District",
+      "placeholder": "Спросите, что можно купить в бюджете AED 1M–2M в Saadiyat Cultural District",
+      "voice_label": "Начать голосовой ввод",
+      "block_status": "final",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Сравнить под мои условия",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_active_label": "Остановить голосовой ввод",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "live_check_required": true,
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "submit_loading_label": "Отправляем запрос AI",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим",
+      "voice_processing_label": "Обрабатываем голосовой ввод"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "Saadiyat Cultural District",
+        "Разные типы недвижимости",
+        "2 проекта в диапазоне",
+        "Проверить актуальные объекты"
+      ],
+      "title": "Что можно купить",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<p><strong>Текущие данные по недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M: 2 проекта в диапазоне.</strong> Сравните тип недвижимости, полезную площадь, качество реализации застройщиком, статус готовности, условия оплаты и полную стоимость владения. Основной компромисс — соответствие цене или конкретный объект. Следующая полезная проверка — точные цены конкретных объектов. Перед формированием подборки подтвердите точную цену объекта, график платежей и актуальное наличие.</p>",
+      "body_text": "Текущие данные по недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M: 2 проекта в диапазоне. Сравните тип недвижимости, полезную площадь, качество реализации застройщиком, статус готовности, условия оплаты и полную стоимость владения. Основной компромисс — соответствие цене или конкретный объект. Следующая полезная проверка — точные цены конкретных объектов. Перед формированием подборки подтвердите точную цену объекта, график платежей и актуальное наличие.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Бюджет",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Рынок",
+          "value": "Абу-Даби"
+        },
+        {
+          "key": "area",
+          "label": "Район",
+          "value": "Saadiyat Cultural District"
+        },
+        {
+          "key": "property_type",
+          "label": "Тип недвижимости",
+          "value": "Разные типы недвижимости"
+        },
+        {
+          "key": "current_signal",
+          "label": "Текущий сигнал",
+          "value": "2 проекта в диапазоне"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Основной компромисс",
+          "value": "Совпадение по цене и конкретный объект"
+        },
+        {
+          "key": "next_check",
+          "label": "Следующая проверка",
+          "value": "Точные цены объектов"
+        },
+        {
+          "key": "unit_status",
+          "label": "Статус объекта",
+          "value": "Проверить актуальное наличие"
+        }
+      ],
+      "title": "Параметры бюджета",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "У 2 проектов есть зафиксированные стартовые цены в этом бюджете; сравните конкретные объекты и актуальное наличие.",
+            "title": "Saadiyat Cultural District"
+          },
+          {
+            "text": "У 5 проектов есть зафиксированные стартовые цены в этом бюджете; сравните конкретные объекты и актуальное наличие.",
+            "title": "Al Reem Island"
+          },
+          {
+            "text": "У 5 проектов есть зафиксированные стартовые цены в этом бюджете; сравните конкретные объекты и актуальное наличие.",
+            "title": "Masdar City"
+          },
+          {
+            "text": "У 3 проектов есть зафиксированные стартовые цены в этом бюджете; сравните конкретные объекты и актуальное наличие.",
+            "title": "Khalifa City"
+          }
+        ],
+        "title": "Районы для сравнения",
+        "eyebrow": "Логика района"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "У 2 проектов есть зафиксированные стартовые цены в этом бюджете; сравните планировки, расположение объектов и точные цены.",
+            "title": "Апартаменты"
+          },
+          {
+            "text": "У 1 проекта есть зафиксированная стартовая цена в этом бюджете; сравните конкретную планировку, расположение объекта и его цену.",
+            "title": "Студии"
+          },
+          {
+            "text": "7 проектов имеют зафиксированные стартовые цены на более широком рынке; проверьте этот формат в Saadiyat Cultural District.",
+            "title": "Таунхаусы"
+          },
+          {
+            "text": "3 проекта имеют зафиксированные стартовые цены на более широком рынке; проверьте этот формат в Saadiyat Cultural District.",
+            "title": "Виллы"
+          }
+        ],
+        "title": "Типы недвижимости для сравнения",
+        "eyebrow": "Логика типа недвижимости"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Ключевые решения по бюджету",
+      "items": [
+        {
+          "text": "Текущий сигнал по проектам — 2 проекта в диапазоне. Для бюджета AED 1M–2M сопоставьте цену конкретного объекта с графиком платежей, сроком сдачи и полной стоимостью покупки; следующая полезная проверка — точные цены конкретных объектов.",
+          "title": "Проверить структуру платежей",
+          "eyebrow": "Логика плана оплаты"
+        },
+        {
+          "text": "Основной компромисс — соответствие цене или конкретный объект. Сравнивайте площадь или формат, расположение, характеристики, сроки и условия оплаты вместе; более дорогой вариант оправдан только тогда, когда улучшает важные для покупателя параметры.",
+          "title": "Сравнить ключевой компромисс",
+          "eyebrow": "Компромиссы"
+        },
+        {
+          "text": "Для покупки в Saadiyat Cultural District учитывайте не только цену объекта, но и регистрационные расходы, финансирование при необходимости, сервисные или общественные сборы, обустройство и регулярное содержание. Точные суммы зависят от конкретного объекта и сделки.",
+          "title": "Учесть полную стоимость покупки",
+          "eyebrow": "Дополнительные расходы"
+        },
+        {
+          "text": "Primadom AI может сопоставить бюджет AED 1M–2M, тип недвижимости, район, сроки и профиль риска, а затем выделить данные, которые консультанту нужно проверить по актуальным вариантам.",
+          "title": "Сформировать подборку по бюджету",
+          "eyebrow": "AI-контекст",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "В подборке 2 варианта с зафиксированной стартовой ценой в бюджете AED 1M–2M и 1 близкий вариант для сравнения. Перед сужением выбора подтвердите конкретные объекты, актуальные цены, условия оплаты и наличие.",
+        "items": [
+          {
+            "href": "/ru/projects/louvre-abu-dhabi-residences/",
+            "meta": "Зафиксировано от AED 1.6M",
+            "label": "Louvre Abu Dhabi Residences",
+            "item_type": "project_match",
+            "live_check_required": true,
+            "match_status": "exact_budget",
+            "project_slug": "louvre-abu-dhabi-residences",
+            "district_name": "Saadiyat Cultural District",
+            "handover_year": 2025,
+            "property_type": "Апартаменты, Пентхаус",
+            "developer_name": "Aldar Properties PJSC",
+            "project_page_id": "page_project_louvre_abu_dhabi_residences_en",
+            "recorded_price_from_aed": 1600000
+          },
+          {
+            "href": "/ru/projects/manarat-living-phase-3/",
+            "meta": "Зафиксировано от AED 1.1M",
+            "label": "Manarat Living Phase 3",
+            "item_type": "project_match",
+            "live_check_required": true,
+            "match_status": "exact_budget",
+            "project_slug": "manarat-living-phase-3",
+            "district_name": "Saadiyat Cultural District",
+            "handover_year": 2028,
+            "property_type": "Апартаменты",
+            "developer_name": "Aldar Properties PJSC",
+            "project_page_id": "page_project_manarat_living_phase_3_en",
+            "recorded_price_from_aed": 1100000
+          },
+          {
+            "href": "/ru/projects/manarat-living/",
+            "meta": "Рядом с диапазоном · AED 870K",
+            "label": "Manarat Living",
+            "item_type": "project_match",
+            "live_check_required": true,
+            "match_status": "near_budget",
+            "project_slug": "manarat-living",
+            "district_name": "Saadiyat Cultural District",
+            "handover_year": 2026,
+            "property_type": "Апартаменты",
+            "developer_name": "Aldar Properties PJSC",
+            "project_page_id": "page_project_manarat_living_en",
+            "recorded_price_from_aed": 870000
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "цена и наличие",
+            "label": "Проверить актуальные объекты в проектах Saadiyat Cultural District",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI-проверка бюджета",
+            "label": "Попросить Primadom AI подготовить актуальную подборку",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Проекты для сравнения",
+        "eyebrow": "Формирование подборки"
+      },
+      "buyer_fit": {
+        "title": "Кому подходит",
+        "eyebrow": "Кому подходит этот бюджет",
+        "bad_items": [
+          "Покупатели, которые уже выбрали другой район и не готовы сравнивать эту локацию",
+          "Покупатели, не готовые сравнивать соседние районы, близкие форматы или бюджетные диапазоны при отсутствии точного совпадения",
+          "Покупатели, которые не готовы учитывать расходы на регистрацию, обустройство и регулярные расходы владения"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели, сравнивающие варианты недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M",
+          "Покупатели, готовые сопоставлять цену, планировку или формат, расположение и полную стоимость владения",
+          "Покупатели, готовые проверять актуальные цены, условия оплаты и наличие перед решением"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "В Saadiyat Cultural District бюджет AED 1M–2M задаёт границы поиска, но сам по себе не определяет лучший формат недвижимости или сроки покупки. Сравнивайте площадь, расположение, характеристики, график платежей и полную стоимость владения. Если точного совпадения нет, расширьте сравнение на соседние районы или близкие форматы.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Точная цена объекта",
+          "Формат недвижимости",
+          "Проверка конкретного объекта",
+          "Полная денежная нагрузка",
+          "Регулярные расходы"
+        ],
+        "title": "Компромиссы",
+        "eyebrow": "Проверка реалистичности"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "Цена объекта — только часть общей стоимости покупки в Saadiyat Cultural District. Подтвердите расходы на сделку, финансирование, сдачу или приёмку и регулярные расходы владения для конкретной покупки.",
+        "items": [
+          {
+            "text": "Перед бронированием подтвердите регистрационные сборы и расходы по конкретной сделке в Saadiyat Cultural District. Итоговая сумма зависит от объекта и типа сделки.",
+            "title": "Регистрационные расходы и расходы по сделке"
+          },
+          {
+            "text": "При использовании финансирования подтвердите банковские расходы, стоимость оценки и расходы по ипотеке вместе с суммой денежных средств, необходимой до завершения сделки.",
+            "title": "Расходы на финансирование и оценку"
+          },
+          {
+            "text": "Проверьте сервисные сборы, расходы на содержание здания или сообщества, обязанности по обслуживанию и регулярные расходы владения по конкретному объекту.",
+            "title": "Сервисные сборы и содержание недвижимости"
+          },
+          {
+            "text": "Отдельно заложите расходы на приёмку и устранение дефектов, мебель, коммунальные услуги, переезд и другие платежи к моменту сдачи или завершения сделки.",
+            "title": "Расходы на сдачу, обустройство и переезд"
+          }
+        ],
+        "title": "Расходы для проверки",
+        "eyebrow": "Проверить перед покупкой",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/ru/budgets/under-aed-1m-in-saadiyat-cultural-district/",
+          "label": "Недвижимость до AED 1M в Saadiyat Cultural District",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/aed-2m-3m-in-saadiyat-cultural-district/",
+          "label": "Недвижимость за AED 2M–3M в Saadiyat Cultural District",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/apartments-aed-1m-2m-in-saadiyat-cultural-district/",
+          "label": "Апартаменты за AED 1M–2M в Saadiyat Cultural District",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/studios-aed-1m-2m-in-saadiyat-cultural-district/",
+          "label": "Студии за AED 1M–2M в Saadiyat Cultural District",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        }
+      ],
+      "title": "Похожие страницы по бюджету",
+      "eyebrow": "Похожие запросы",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "В подборке 2 варианта с зафиксированной стартовой ценой в бюджете AED 1M–2M и 1 близкий вариант для сравнения. Перед сужением выбора подтвердите конкретные объекты, актуальные цены, условия оплаты и наличие.",
+          "question": "Какой выбор зафиксирован для недвижимости в Saadiyat Cultural District при бюджете AED 1M–2M?"
+        },
+        {
+          "answer": "Сравните Апартаменты, Студии, Таунхаусы, Виллы, а также конкретные объекты по цене, планировке, расположению, срокам сдачи и полной стоимости владения. Основной компромисс в текущем контексте — соответствие цене или конкретный объект.",
+          "question": "Что важнее всего сравнить для недвижимости в Saadiyat Cultural District при бюджете AED 1M–2M?"
+        },
+        {
+          "answer": "Для недвижимости в Saadiyat Cultural District учитывайте регистрацию и расходы сделки, финансирование при необходимости, сервисные сборы, обустройство, коммунальные расходы и регулярное содержание. Точные суммы рассчитываются для конкретного объекта и сделки.",
+          "question": "Какие дополнительные расходы нужно учитывать для недвижимости в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Для недвижимости в Saadiyat Cultural District сравните первоначальный взнос или бронирование, платежи на этапе строительства, сумму к сдаче и обязательства после сдачи. Текущий график нужно подтверждать отдельно для каждого объекта; более длинный план не всегда означает меньшую общую нагрузку.",
+          "question": "Как сравнивать планы оплаты для недвижимости в Saadiyat Cultural District?"
+        },
+        {
+          "answer": "Primadom AI может поочерёдно уточнить бюджет AED 1M–2M, район, тип недвижимости, сроки и приоритеты, затем выделить варианты для сравнения и данные, которые нужно подтвердить перед решением.",
+          "question": "Как Primadom AI может уточнить поиск для недвижимости в Saadiyat Cultural District при бюджете AED 1M–2M?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о бюджете",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Информация для планирования по вариантам недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M не является подтверждением актуального наличия. Подтвердите актуальные цены и наличие, графики платежей, статус сдачи, сборы, сервисные сборы и условия проектов по материалам застройщиков, официальным данным, актуальным листингам и проверке консультанта Primadom.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Нужна актуальная проверка"
+        },
+        {
+          "label": "План оплаты",
+          "value": "Нужны материалы застройщика"
+        },
+        {
+          "label": "Расходы / сервисные сборы",
+          "value": "Нужно рассчитать"
+        },
+        {
+          "label": "Соответствие района / проекта",
+          "value": "Нужна проверка источников"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Попросите Primadom AI сравнить варианты недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M по актуальной цене, плану оплаты и полной стоимости, а затем подготовить подборку для проверки актуальных данных.",
+      "title": "Хотите проверить, что реально можно купить на ваш бюджет?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Получить подборку по бюджету",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Форма запроса по бюджету",
+      "note": "Перед рекомендациями мы проверим актуальные цены и наличие.",
+      "text": "Оставьте свои данные. Primadom AI подготовит запрос по вашему бюджету для проверки консультантом Primadom.",
+      "title": "Проверить, что можно купить на ваш бюджет",
+      "fields": {
+        "name": "Ваше имя",
+        "phone": "Телефон / WhatsApp",
+        "budget": "Бюджетный диапазон",
+        "comment": "Готовый запрос"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Отправить",
+      "comment": "Проверить варианты недвижимости в Saadiyat Cultural District, бюджет AED 1M–2M.",
+      "eyebrow": "AI-подбор по бюджету",
+      "success": "Отправлено",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Закрыть",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Черновик запроса",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Ваше имя",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Имя"
+        },
+        "phone": {
+          "label": "Телефон / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Бюджетный диапазон",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Готовый запрос",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Подготовлено на основе этой страницы",
+          "single_line": true,
+          "default_value": "Проверить варианты недвижимости в Saadiyat Cultural District, бюджет AED 1M–2M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Имя",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Подготовлено на основе этой страницы"
+      },
+      "submit_label": "Отправить",
+      "hidden_fields": {
+        "page_id": "page_budget_district_aed_1m_2m_saadiyat_cultural_district_ru",
+        "page_layer": "budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 1M–2M",
+        "district_name": "Saadiyat Cultural District",
+        "canonical_url_path": "/ru/budgets/aed-1m-2m-in-saadiyat-cultural-district/",
+        "content_version_id": "76c2366a-23e3-44bf-b24d-658e9497c128",
+        "property_type_name": null
+      },
+      "success_label": "Отправлено",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Голосовой поиск",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Изучите варианты недвижимости в Saadiyat Cultural District в бюджете AED 1M–2M по актуальной цене, плану оплаты и полной стоимости перед проверкой актуальных данных рынка.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Бюджетный поиск с переходом к реалистичным вариантам недвижимости",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети Primadom",
+      "url_section": "/ru/budgets/aed-1m-2m-in-saadiyat-cultural-district/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Спросить AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

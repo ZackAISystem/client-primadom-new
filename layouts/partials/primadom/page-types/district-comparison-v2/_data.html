@@ -1,6 +1,11 @@
 {{- $slug := .Params.comparison_slug | default "al-barari-vs-downtown-dubai" -}}
 
-{{- $page := index site.Data.primadom.district_comparison_pages_v2 $slug -}}
+{{- $districtComparisonData := site.Data.primadom.district_comparison_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $districtComparisonData = index $ruData "district_comparison_pages" -}}
+{{- end -}}
+{{- $page := index $districtComparisonData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "District Comparison V2 data not found: %s" $slug -}}

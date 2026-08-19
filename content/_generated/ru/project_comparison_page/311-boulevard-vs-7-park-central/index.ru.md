@@ -1,0 +1,10 @@
+---
+title: "311 Boulevard vs 7 Park Central"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "311-boulevard-vs-7-park-central"
+page_id: "page_project_comparison_311_boulevard_vs_7_park_central_ru"
+url: "/ru/compare-projects/311-boulevard-vs-7-park-central/"
+build:
+  render: always
+  list: never
+---

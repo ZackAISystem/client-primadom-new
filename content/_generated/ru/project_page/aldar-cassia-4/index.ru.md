@@ -1,0 +1,10 @@
+---
+title: "aldar-cassia-4"
+layout: "primadom-project-page-v2"
+project_slug: "aldar-cassia-4"
+page_id: "page_project_aldar_cassia_4_ru"
+url: "/ru/projects/aldar-cassia-4/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,637 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_comparison_discovery_gardens_vs_dubai_islands_ru",
+  "page_type_id": "district_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-areas/discovery-gardens-vs-dubai-islands/",
+  "canonical_url_path": "/en/compare-areas/discovery-gardens-vs-dubai-islands/",
+  "canonical_group_key": "district_comparison:discovery-gardens:vs:dubai-islands",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "discovery-gardens",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_comparison_table",
+    "block_08_decision_cards",
+    "block_09_buyer_rental_logic",
+    "block_10_projects_by_area",
+    "block_11_related_comparisons",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#comparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_generated",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению районов",
+      "schema_version": "district_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "area_comparisons",
+          "href": "/ru/compare-areas/",
+          "label": "Сравнение районов ОАЭ"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-areas/discovery-gardens-vs-dubai-islands/",
+          "label": "Discovery Gardens и Dubai Islands — сравнение",
+          "label_ref": "comparison.name"
+        }
+      ],
+      "url_section": "compare-areas",
+      "block_status": "formula_generated",
+      "schema_version": "district_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Discovery Gardens: зелёный малоэтажный район",
+        "Dubai Islands: жизнь у воды",
+        "Образ жизни и расположение",
+        "Выбор недвижимости и проектов",
+        "Актуальные данные перед подборкой"
+      ],
+      "title": "Discovery Gardens и Dubai Islands — сравнение",
+      "area_a": {
+        "name": "Discovery Gardens",
+        "slug": "discovery-gardens",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "area_b": {
+        "name": "Dubai Islands",
+        "slug": "dubai-islands",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "kicker": "Сравнение районов",
+      "subtitle": "Сравните Discovery Gardens и Dubai Islands по образу жизни, расположению, выбору недвижимости и проектам.",
+      "facts_aria": "Ключевые факты сравнения",
+      "visual_aria": "Сравнительный визуальный блок: Discovery Gardens и Dubai Islands",
+      "block_status": "formula_generated_media_later",
+      "schema_version": "district_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "hints": [
+        "Для семьи: Discovery Gardens и Dubai Islands",
+        "Доход от аренды: Discovery Gardens и Dubai Islands",
+        "Варианты по бюджету: Discovery Gardens и Dubai Islands"
+      ],
+      "ai_aria": "Попросить Primadom AI сравнить Discovery Gardens и Dubai Islands",
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "voice_text": "Сравнить Discovery Gardens и Dubai Islands",
+      "voice_label": "Голосовой поиск",
+      "block_status": "formula_generated",
+      "voice_status": "Слушаю…",
+      "ai_placeholder": "Сравнить Discovery Gardens и Dubai Islands",
+      "schema_version": "district_comparison_ai_compare_v1",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "Образ жизни",
+        "Соответствие бюджету",
+        "Тип недвижимости",
+        "Цель по аренде"
+      ],
+      "title": "Краткий вывод",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Discovery Gardens</strong> может подойти покупателям, которые ищут зелёный малоэтажный район; <strong>Dubai Islands</strong> — тем, кто ищет жизнь у воды. Перед выбором сравните бюджет, тип недвижимости, время в пути и цели по аренде.",
+      "body_text": "Discovery Gardens может подойти покупателям, которые ищут зелёный малоэтажный район; Dubai Islands — тем, кто ищет жизнь у воды. Перед выбором сравните бюджет, тип недвижимости, время в пути и цели по аренде.",
+      "body_source": "district_profile_buyer_phrases_v2",
+      "chip_source": "buyer_decision_axes",
+      "source_status": "profile_context_no_live_market_claims",
+      "schema_version": "district_comparison_quick_verdict_v1",
+      "summary_status": "profile_based_can_enrich_later"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Тип сравнения",
+          "value": "Сравнение районов"
+        },
+        {
+          "label": "Рынок",
+          "value": "Дубай / ОАЭ"
+        },
+        {
+          "label": "Район A",
+          "value": "Discovery Gardens"
+        },
+        {
+          "label": "Район B",
+          "value": "Dubai Islands"
+        },
+        {
+          "label": "Профиль района A",
+          "value": "зелёный малоэтажный район"
+        },
+        {
+          "label": "Профиль района B",
+          "value": "жизнь у воды"
+        },
+        {
+          "label": "Проекты района A",
+          "value": "Отслеживаемых проектов: 6"
+        },
+        {
+          "label": "Проекты района B",
+          "value": "Отслеживаемых проектов: 93"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "block_status": "structured_data_generated",
+      "source_status": "structured_source_fields",
+      "schema_version": "district_comparison_facts_v1"
+    },
+    "block_07_comparison_table": {
+      "head": {
+        "area_a": "Discovery Gardens",
+        "area_b": "Dubai Islands",
+        "factor": "Критерий"
+      },
+      "rows": [
+        {
+          "area_a": "Ориентация на более доступный ценовой сегмент; проверьте актуальные цены и сервисные сборы.",
+          "area_b": "Ориентация на более доступный ценовой сегмент; проверьте актуальные цены и сервисные сборы.",
+          "factor": "Уровень цен"
+        },
+        {
+          "area_a": "Более спокойная пригородная жизнь в зелёном окружении.",
+          "area_b": "Жизнь у пляжа и воды с курортным характером.",
+          "factor": "Образ жизни"
+        },
+        {
+          "area_a": "Выбор среди отслеживаемых проектов ограничен (6); проверьте актуальное наличие.",
+          "area_b": "Широкий выбор среди отслеживаемых проектов (93); проверьте актуальное наличие.",
+          "factor": "Варианты проектов"
+        },
+        {
+          "area_a": "Оценка потенциала арендного дохода; сравните спрос арендаторов, сервисные сборы и ликвидность.",
+          "area_b": "Оценка потенциала роста стоимости; сравните объём предложения, качество и спрос при перепродаже.",
+          "factor": "Инвестиции"
+        },
+        {
+          "area_a": "Потенциально подходит для семьи; сравните школы, площадь жилья и время в пути.",
+          "area_b": "Насколько район подходит для семьи, нужно оценить подробнее: сравните площадь жилья, школы, уровень шума и удобство.",
+          "factor": "Для семьи"
+        },
+        {
+          "area_a": "Для аренды сравните спрос арендаторов, сервисные сборы, качество объектов и ликвидность.",
+          "area_b": "Для аренды проверьте сезонность, правила, расходы на управление и привлекательность объекта для арендаторов.",
+          "factor": "Логика аренды"
+        }
+      ],
+      "title": "Таблица сравнения",
+      "eyebrow": "Discovery Gardens и Dubai Islands — сравнение",
+      "table_status": "profile_enriched_structured",
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_table_v1"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "key": "entry_check",
+          "text": "Оба района ориентированы на более доступный ценовой сегмент; проверьте актуальные цены, площади объектов, сервисные сборы и условия оплаты.",
+          "title": "Схожее ценовое позиционирование",
+          "eyebrow": "Проверка входных условий",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "lifestyle_fit",
+          "text": "Discovery Gardens: зелёный малоэтажный район. Dubai Islands: жизнь у воды. Сравните время в пути, инфраструктуру и повседневный ритм.",
+          "title": "Сравнение профилей: зелёный малоэтажный район и жизнь у воды",
+          "eyebrow": "Образ жизни",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "investment_logic",
+          "text": "Discovery Gardens: оценка потенциала арендного дохода. Dubai Islands: оценка потенциала роста стоимости. Сравните расходы, спрос и ликвидность при перепродаже.",
+          "title": "Арендный доход или рост стоимости",
+          "eyebrow": "Инвестиционная логика",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "ai_support",
+          "text": "Primadom AI может сравнить Discovery Gardens и Dubai Islands по типу недвижимости, образу жизни, срокам и цели покупателя.",
+          "title": "Сравнить с учётом ваших условий",
+          "eyebrow": "AI-контекст",
+          "card_status": "ai_comparison_support",
+          "dark": true
+        }
+      ],
+      "cards_status": "profile_enriched_structured",
+      "source_status": "structured_comparison_inputs",
+      "schema_version": "district_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ключевые различия для принятия решения"
+    },
+    "block_09_buyer_rental_logic": {
+      "buyer_types": {
+        "title": "Какой район подходит вам?",
+        "eyebrow": "Кому подходит",
+        "area_a_items": [
+          "Вам подходит зелёный малоэтажный район, если это соответствует вашему повседневному ритму.",
+          "Вы проверите, насколько район подходит для семьи, сравнив школы, площадь жилья и время в пути.",
+          "Вы хотите сравнить отслеживаемые проекты (6) по арендному доходу, спросу арендаторов, сервисным сборам и ликвидности."
+        ],
+        "area_a_title": "Рассмотрите Discovery Gardens, если",
+        "area_b_items": [
+          "Вам подходит жизнь у воды, если это соответствует вашему повседневному ритму.",
+          "Вы готовы внимательно оценить площадь жилья, школы, уровень шума и удобство.",
+          "Вы хотите сравнить отслеживаемые проекты (93) по потенциалу роста стоимости, качеству и спросу при перепродаже."
+        ],
+        "area_b_title": "Рассмотрите Dubai Islands, если"
+      },
+      "block_status": "profile_enriched_structured",
+      "rental_logic": {
+        "body": "Discovery Gardens: сравните спрос арендаторов, сервисные сборы, качество объектов и ликвидность. Dubai Islands: проверьте сезонность, правила аренды, расходы на управление и привлекательность объекта для арендаторов. Перед решением проверьте данные на уровне конкретного объекта.",
+        "tags": [
+          "Спрос арендаторов",
+          "Сервисные сборы",
+          "Качество объекта",
+          "Расходы на управление",
+          "Ликвидность при перепродаже"
+        ],
+        "title": "Логика аренды и перепродажи",
+        "eyebrow": "Проверка аренды"
+      },
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_buyer_rental_logic_v1"
+    },
+    "block_10_projects_by_area": {
+      "area_a": {
+        "items": [
+          {
+            "href": "/ru/projects/beverly-gardens/",
+            "meta": "вариант проекта",
+            "label": "Beverly Gardens"
+          },
+          {
+            "href": "/ru/projects/enqlave/",
+            "meta": "вариант проекта",
+            "label": "Enqlave"
+          },
+          {
+            "href": "/ru/projects/floarea-vista/",
+            "meta": "вариант проекта",
+            "label": "Floarea Vista"
+          },
+          {
+            "href": "/ru/areas/discovery-gardens/",
+            "meta": "гид по району",
+            "label": "Гид по району Discovery Gardens"
+          }
+        ],
+        "title": "Проекты в Discovery Gardens",
+        "eyebrow": "Первый район"
+      },
+      "area_b": {
+        "items": [
+          {
+            "href": "/ru/projects/997-residences/",
+            "meta": "вариант проекта",
+            "label": "997 Residences"
+          },
+          {
+            "href": "/ru/projects/agua-residences/",
+            "meta": "вариант проекта",
+            "label": "AGUA Residences"
+          },
+          {
+            "href": "/ru/projects/allegro-park/",
+            "meta": "вариант проекта",
+            "label": "Allegro Park"
+          },
+          {
+            "href": "/ru/areas/dubai-islands/",
+            "meta": "гид по району",
+            "label": "Гид по району Dubai Islands"
+          }
+        ],
+        "title": "Проекты в Dubai Islands",
+        "eyebrow": "Второй район"
+      },
+      "source_status": "trusted_project_links_with_manual_exclusions",
+      "schema_version": "district_comparison_projects_by_area_v1",
+      "projects_status": "entity_linked_routes_structured"
+    },
+    "block_11_related_comparisons": {
+      "items": [
+        {
+          "href": "/ru/compare-areas/discovery-gardens-vs-dubai-south/",
+          "label": "Discovery Gardens и Dubai South — сравнение"
+        },
+        {
+          "href": "/ru/compare-areas/discovery-gardens-vs-dubailand/",
+          "label": "Discovery Gardens и Dubailand — сравнение"
+        },
+        {
+          "href": "/ru/compare-areas/al-barari-vs-dubai-islands/",
+          "label": "Al Barari и Dubai Islands — сравнение"
+        },
+        {
+          "href": "/ru/compare-areas/al-barsha-vs-dubai-islands/",
+          "label": "Al Barsha и Dubai Islands — сравнение"
+        }
+      ],
+      "title": "Похожие сравнения",
+      "eyebrow": "Смотреть дальше",
+      "source_status": "resolved_comparison_routes",
+      "related_status": "shared_area_priority_matched",
+      "schema_version": "district_comparison_related_v1"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Discovery Gardens может подойти покупателям, которые ищут зелёный малоэтажный район; Dubai Islands — тем, кто ищет жизнь у воды. Перед выбором сравните бюджет, тип недвижимости, время в пути и цели по аренде.",
+          "question": "В чём главное различие между Discovery Gardens и Dubai Islands?",
+          "answer_status": "from_final_verdict"
+        },
+        {
+          "answer": "Discovery Gardens: ориентация на более доступный ценовой сегмент; проверьте актуальные цены и сервисные сборы. Dubai Islands: ориентация на более доступный ценовой сегмент; проверьте актуальные цены и сервисные сборы. Перед решением по бюджету проверьте актуальные цены, доступные объекты, условия оплаты и сервисные сборы.",
+          "question": "Как Discovery Gardens и Dubai Islands различаются по ценам и соответствию бюджету?",
+          "answer_status": "from_final_price_comparison"
+        },
+        {
+          "answer": "Discovery Gardens: для аренды сравните спрос арендаторов, сервисные сборы, качество объектов и ликвидность. Dubai Islands: для аренды проверьте сезонность, правила, расходы на управление и привлекательность объекта для арендаторов. Доход от аренды следует проверять на уровне конкретного объекта и здания с учётом актуального спроса арендаторов, сервисных сборов, расходов на управление и ликвидности при перепродаже.",
+          "question": "Какой район лучше подходит для арендного дохода?",
+          "answer_status": "from_final_rental_comparison"
+        },
+        {
+          "answer": "Discovery Gardens: потенциально подходит для семьи; сравните школы, площадь жилья и время в пути. Dubai Islands: насколько район подходит для семьи, нужно оценить подробнее: сравните площадь жилья, школы, уровень шума и удобство. При окончательном выборе также учитывайте время в пути, школы или детские сады, площадь жилья, приватность, пешеходную доступность, трафик и привычный повседневный ритм.",
+          "question": "Какой район лучше для семьи и собственного проживания: Discovery Gardens или Dubai Islands?",
+          "answer_status": "from_final_family_comparison"
+        },
+        {
+          "answer": "Да. Primadom AI может сравнить Discovery Gardens и Dubai Islands по бюджету, типу недвижимости, приоритетам образа жизни, потребностям семьи, цели по аренде, желаемым срокам и актуальному наличию проектов до передачи запроса консультанту.",
+          "question": "Может ли Primadom AI сравнить Discovery Gardens и Dubai Islands под мои условия?",
+          "answer_status": "system_capability"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы покупателей",
+      "faq_status": "pair_specific_structured",
+      "source_status": "final_comparison_blocks",
+      "schema_version": "district_comparison_faq_v1"
+    },
+    "block_13_source_notes": {
+      "body": "Перед выбором между Discovery Gardens и Dubai Islands проверьте актуальные цены, наличие проектов, планы оплаты, статус сдачи, сервисные сборы и допущения по аренде, сверив их с материалами застройщиков, доступными публичными данными и результатами текущей проверки рынка.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Статус проекта",
+          "value": "Требуется официальный источник"
+        },
+        {
+          "label": "Допущения по аренде",
+          "value": "Проверка рынка и объекта"
+        },
+        {
+          "label": "Последняя проверка",
+          "value": "Ожидает проверки"
+        }
+      ],
+      "title": "Проверка источников",
+      "eyebrow": "Проверка",
+      "schema_version": "district_comparison_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "pending_source_verification",
+      "source_notes_status": "verification_notice_structured"
+    },
+    "block_14_cta": {
+      "text": "Сравните Discovery Gardens и Dubai Islands по образу жизни, типу недвижимости, цели по аренде, срокам и повседневному ритму — затем изучите актуальные варианты с Primadom AI или консультантом.",
+      "title": "Какой район лучше подходит вам?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#comparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "area_comparison_case",
+          "modal_target": "#comparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#comparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#comparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific_structured",
+      "schema_version": "district_comparison_cta_v1"
+    },
+    "block_15_lead_modal": {
+      "aria": "Форма запроса на сравнение районов",
+      "note": "Мы проверим детали перед передачей вашего запроса.",
+      "text": "Расскажите, что для вас важнее всего. Primadom AI подготовит сравнение с учётом ваших приоритетов до того, как с вами свяжется консультант.",
+      "title": "Сравнить Discovery Gardens и Dubai Islands под ваши условия",
+      "fields": {
+        "name": "Имя",
+        "phone": "Телефон / WhatsApp",
+        "budget": "Email (необязательно)",
+        "comment": "Запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти два района с учётом моих целей по недвижимости.",
+      "eyebrow": "Запрос на сравнение",
+      "success": "Отправлено",
+      "ai_badge": "Primadom AI",
+      "modal_id": "comparisonLeadModal",
+      "title_id": "comparisonLeadTitle",
+      "close_label": "Закрыть",
+      "ai_row_badge": "Черновик запроса",
+      "field_config": {
+        "name": {
+          "label": "Имя",
+          "html_name": "name",
+          "placeholder": "Ваше имя"
+        },
+        "phone": {
+          "label": "Телефон / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "budget": {
+          "label": "Email (необязательно)",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "comment": {
+          "label": "Запрос",
+          "html_name": "comment",
+          "placeholder": "Что для вас важнее всего?"
+        }
+      },
+      "modal_status": "pair_specific_structured",
+      "placeholders": {
+        "name": "Ваше имя",
+        "phone": "+971...",
+        "budget": "email@example.com"
+      },
+      "submit_label": "Отправить",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "area_a_name": {
+          "html_name": "area_a_name",
+          "value_ref": "area_a_name"
+        },
+        "area_a_slug": {
+          "html_name": "area_a_slug",
+          "value_ref": "area_a_slug"
+        },
+        "area_b_name": {
+          "html_name": "area_b_name",
+          "value_ref": "area_b_name"
+        },
+        "area_b_slug": {
+          "html_name": "area_b_slug",
+          "value_ref": "area_b_slug"
+        }
+      },
+      "success_label": "Отправлено",
+      "schema_version": "district_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Сравнить эти два района с учётом моих целей по недвижимости.",
+        "html_name": "comment",
+        "request_scope": [
+          "area_fit",
+          "lifestyle_fit",
+          "property_type",
+          "rental_goal",
+          "timing",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "Использовать голос"
+    },
+    "block_16_footer": {
+      "text": "Сравните Discovery Gardens и Dubai Islands по образу жизни, выбору недвижимости, логике аренды и соответствию вашим задачам, затем продолжите с Primadom AI или консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнивайте районы по понятным критериям для выбора недвижимости.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Ссылки на соцсети",
+      "url_section": "compare-areas",
+      "footer_status": "standard_footer_structured",
+      "schema_version": "district_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#comparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "dubai-islands",
+  "secondary_entity_type": "district"
+}

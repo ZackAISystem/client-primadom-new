@@ -1,0 +1,10 @@
+---
+title: "igo-101"
+layout: "primadom-project-page-v2"
+project_slug: "igo-101"
+page_id: "page_project_igo_101_ru"
+url: "/ru/projects/igo-101/"
+build:
+  render: always
+  list: never
+---

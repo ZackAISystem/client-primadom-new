@@ -1,0 +1,10 @@
+---
+title: "ellington-beach-house"
+layout: "primadom-project-page-v2"
+project_slug: "ellington-beach-house"
+page_id: "page_project_ellington_beach_house_ru"
+url: "/ru/projects/ellington-beach-house/"
+build:
+  render: always
+  list: never
+---

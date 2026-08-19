@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_branded_residences_aed_10m_25m_mina_al_arab_ru",
+  "page_type_id": "budget_page",
+  "language_code": "ru",
+  "url_path": "/ru/budgets/branded-residences-aed-10m-25m-in-mina-al-arab/",
+  "canonical_url_path": "/ru/budgets/branded-residences-aed-10m-25m-in-mina-al-arab/",
+  "canonical_group_key": "property_budget_district:branded-residences:aed_10m_25m:mina-al-arab",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mina-al-arab",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Что можно купить",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "План оплаты",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Расходы",
+          "active": false
+        },
+        {
+          "href": "#budget-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Навигация по странице бюджета",
+      "cta_label": "Проверить бюджет",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "budgets",
+          "href": "/ru/budgets/",
+          "label": "Бюджеты"
+        },
+        {
+          "key": "property_type",
+          "href": "/ru/property-types/branded-residences/",
+          "label": "Брендированные резиденции"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/mina-al-arab/",
+          "label": "Mina Al Arab"
+        },
+        {
+          "key": "current",
+          "href": "/ru/budgets/branded-residences-aed-10m-25m-in-mina-al-arab/",
+          "label": "Брендированные резиденции за AED 10M–25M в Mina Al Arab"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 10M–25M",
+        "Mina Al Arab",
+        "Брендированные резиденции",
+        "Оператор не подтверждён",
+        "Проверить оператора и сборы"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Брендированные резиденции за AED 10M–25M в Mina Al Arab",
+      "subtitle": "Текущий ориентир для брендированных резиденций в Mina Al Arab в бюджете AED 10M–25M: оператор пока не подтверждён. Сравните конкретные варианты по цене, планировке или формату, расположению, срокам сдачи, условиям оплаты и полной стоимости владения. Ключевой компромисс — бренд или регулярные сборы; актуальные цены и наличие нужно подтвердить перед выбором.",
+      "facts_aria": "Ключевые параметры бюджета",
+      "section_id": "overview",
+      "visual_aria": "Обзор бюджета: Брендированные резиденции за AED 10M–25M в Mina Al Arab",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Сравните брендированные резиденции в Mina Al Arab по соответствию бюджету, планировке, срокам сдачи и общей стоимости. Актуальные цены и наличие требуют проверки по конкретному проекту.",
+      "hints": [
+        "Что реально можно купить на этот бюджет?",
+        "Какие варианты стоит сравнить в первую очередь?",
+        "Что нужно проверить перед формированием подборки?"
+      ],
+      "title": "Проверить брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Оцените реалистичные варианты для запроса «брендированные резиденции в Mina Al Arab» в бюджете AED 10M–25M. Используйте стартовые цены как ориентир, сравните конкретные объекты и перед формированием подборки подтвердите актуальные цены и наличие.",
+        "Сравните для брендированных резиденций в Mina Al Arab оператора, модель сервиса, регулярные сборы, качество объекта, расположение и условия оплаты в бюджете AED 10M–25M.",
+        "Объясните основной компромисс для запроса «брендированные резиденции в Mina Al Arab» в бюджете AED 10M–25M: бренд или регулярные сборы. Укажите, какие цены, условия оплаты, сроки и данные по наличию нужно проверить перед решением."
+      ],
+      "hint_items": [
+        {
+          "label": "Что реально можно купить на этот бюджет?",
+          "prompt": "Оцените реалистичные варианты для запроса «брендированные резиденции в Mina Al Arab» в бюджете AED 10M–25M. Используйте стартовые цены как ориентир, сравните конкретные объекты и перед формированием подборки подтвердите актуальные цены и наличие."
+        },
+        {
+          "label": "Какие варианты стоит сравнить в первую очередь?",
+          "prompt": "Сравните для брендированных резиденций в Mina Al Arab оператора, модель сервиса, регулярные сборы, качество объекта, расположение и условия оплаты в бюджете AED 10M–25M."
+        },
+        {
+          "label": "Что нужно проверить перед формированием подборки?",
+          "prompt": "Объясните основной компромисс для запроса «брендированные резиденции в Mina Al Arab» в бюджете AED 10M–25M: бренд или регулярные сборы. Укажите, какие цены, условия оплаты, сроки и данные по наличию нужно проверить перед решением."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Спросите о брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M",
+      "placeholder": "Спросите о брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M",
+      "voice_label": "Начать голосовой ввод",
+      "block_status": "final",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Сравнить под мои условия",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_active_label": "Остановить голосовой ввод",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "live_check_required": true,
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "submit_loading_label": "Отправляем запрос AI",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим",
+      "voice_processing_label": "Обрабатываем голосовой ввод"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 10M–25M",
+        "Mina Al Arab",
+        "Брендированные резиденции",
+        "Оператор пока не подтверждён",
+        "Проверить оператора и сборы"
+      ],
+      "title": "Что можно купить",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<p><strong>Текущие данные по проектам для брендированных резиденций в Mina Al Arab в бюджете AED 10M–25M: оператор пока не подтверждён.</strong> Сравните оператора, модель сервиса, расположение, качество объекта, регулярные сборы, условия оплаты и полную стоимость владения. Основной компромисс — бренд или регулярные сборы. Следующая полезная проверка — оператор и сервисные сборы. Перед формированием подборки подтвердите точную цену конкретного объекта, условия оплаты и актуальное наличие.</p>",
+      "body_text": "Текущие данные по проектам для брендированных резиденций в Mina Al Arab в бюджете AED 10M–25M: оператор пока не подтверждён. Сравните оператора, модель сервиса, расположение, качество объекта, регулярные сборы, условия оплаты и полную стоимость владения. Основной компромисс — бренд или регулярные сборы. Следующая полезная проверка — оператор и сервисные сборы. Перед формированием подборки подтвердите точную цену конкретного объекта, условия оплаты и актуальное наличие.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Бюджет",
+          "value": "AED 10M–25M"
+        },
+        {
+          "key": "market",
+          "label": "Рынок",
+          "value": "Рас-эль-Хайма"
+        },
+        {
+          "key": "area",
+          "label": "Район",
+          "value": "Mina Al Arab"
+        },
+        {
+          "key": "property_type",
+          "label": "Тип недвижимости",
+          "value": "Брендированные резиденции"
+        },
+        {
+          "key": "current_signal",
+          "label": "Текущий сигнал",
+          "value": "Оператор пока не подтверждён"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Основной компромисс",
+          "value": "Бренд и регулярные сборы"
+        },
+        {
+          "key": "next_check",
+          "label": "Следующая проверка",
+          "value": "Оператор и сервисные сборы"
+        },
+        {
+          "key": "unit_status",
+          "label": "Статус объекта",
+          "value": "Проверить актуальное наличие"
+        }
+      ],
+      "title": "Параметры бюджета",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Зафиксированные стартовые цены сейчас находятся вне этого бюджета; сравните конкретные объекты и соседние районы.",
+            "title": "Mina Al Arab"
+          },
+          {
+            "text": "Подходящий район для сравнения, когда точных совпадений по зафиксированной стартовой цене немного.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Подходящий район для сравнения, когда точных совпадений по зафиксированной стартовой цене немного.",
+            "title": "Al Hamra Village"
+          },
+          {
+            "text": "Альтернатива в Дубай с 2 совпадениями по зафиксированной стартовой цене; сначала сравните соответствие рынку.",
+            "title": "The Oasis"
+          }
+        ],
+        "title": "Районы для сравнения",
+        "eyebrow": "Логика района"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "Страница посвящена этому типу недвижимости, но сейчас ни одна зафиксированная стартовая цена проекта не попадает в бюджет.",
+            "title": "Брендированные резиденции"
+          },
+          {
+            "text": "У 1 проекта есть зафиксированная стартовая цена в этом бюджете; сравните конкретную планировку, расположение объекта и его цену.",
+            "title": "Апартаменты"
+          },
+          {
+            "text": "У 1 проекта есть зафиксированная стартовая цена в этом бюджете; сравните конкретную планировку, расположение объекта и его цену.",
+            "title": "Виллы"
+          },
+          {
+            "text": "Формат для более широкого сравнения рынка, если выбор в Mina Al Arab ограничен.",
+            "title": "Премиальные апартаменты"
+          }
+        ],
+        "title": "Типы недвижимости для сравнения",
+        "eyebrow": "Логика типа недвижимости"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Ключевые решения по бюджету",
+      "items": [
+        {
+          "text": "Текущий сигнал по проектам — оператор пока не подтверждён. Для бюджета AED 10M–25M сопоставьте цену конкретного объекта с графиком платежей, сроком сдачи и полной стоимостью покупки; следующая полезная проверка — оператор и сервисные сборы.",
+          "title": "Проверить структуру платежей",
+          "eyebrow": "Логика плана оплаты"
+        },
+        {
+          "text": "Основной компромисс — бренд или регулярные сборы. Сравнивайте площадь или формат, расположение, характеристики, сроки и условия оплаты вместе; более дорогой вариант оправдан только тогда, когда улучшает важные для покупателя параметры.",
+          "title": "Сравнить ключевой компромисс",
+          "eyebrow": "Компромиссы"
+        },
+        {
+          "text": "Для покупки в Mina Al Arab учитывайте не только цену объекта, но и регистрационные расходы, финансирование при необходимости, сервисные или общественные сборы, обустройство и регулярное содержание. Точные суммы зависят от конкретного объекта и сделки.",
+          "title": "Учесть полную стоимость покупки",
+          "eyebrow": "Дополнительные расходы"
+        },
+        {
+          "text": "Primadom AI может сопоставить бюджет AED 10M–25M, тип недвижимости, район, сроки и профиль риска, а затем выделить данные, которые консультанту нужно проверить по актуальным вариантам.",
+          "title": "Сформировать подборку по бюджету",
+          "eyebrow": "AI-контекст",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "По текущим данным нет подтверждённого конкретного проекта для брендированных резиденций в Mina Al Arab в бюджете AED 10M–25M. Используйте связанные районы и актуальный поиск, чтобы уточнить подборку, затем проверьте цены конкретных объектов и наличие.",
+        "items": [
+          {
+            "href": "/ru/areas/mina-al-arab/",
+            "meta": "гид по району",
+            "label": "Посмотреть другие проекты в Mina Al Arab",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "цена и наличие",
+            "label": "Проверьте актуальный объекты для брендированных резиденций В Mina Al Arab",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "проверка диапазона",
+            "label": "Сравнить ближайшие цены за пределами диапазона",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "проверка решения",
+            "label": "Проверить график платежей и сроки покупки",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI-проверка бюджета",
+            "label": "Попросить Primadom AI подготовить актуальную подборку",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Варианты поиска проектов",
+        "eyebrow": "Формирование подборки"
+      },
+      "buyer_fit": {
+        "title": "Кому подходит",
+        "eyebrow": "Кому подходит этот бюджет",
+        "bad_items": [
+          "Покупатели, которые уже выбрали другой тип недвижимости и не готовы сравнивать этот формат",
+          "Покупатели, не готовые сравнивать соседние районы, близкие форматы или бюджетные диапазоны при отсутствии точного совпадения",
+          "Покупатели, которые не готовы учитывать расходы сделки, обустройство и регулярные расходы владения"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели, сравнивающие брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M",
+          "Покупатели, готовые сопоставлять цену, планировку или формат, расположение и полную стоимость владения",
+          "Покупатели, готовые проверять актуальные цены, условия оплаты и наличие перед решением"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Для категории «брендированные резиденции» в Mina Al Arab бюджет AED 10M–25M задаёт границы поиска, но решение зависит не только от цены. Сравните оператора, модель сервиса, регулярные сборы, качество объекта и условия эксплуатации: премия за бренд должна быть оправдана реальной ценностью.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Бренд и сборы",
+          "Условия оператора",
+          "Актуальный поиск",
+          "Полная денежная нагрузка",
+          "Регулярные расходы"
+        ],
+        "title": "Компромиссы",
+        "eyebrow": "Проверка реалистичности"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "Цена объекта — только часть общей стоимости покупки в Mina Al Arab. Подтвердите расходы на сделку, финансирование, сдачу или приёмку и регулярные расходы владения для конкретной покупки.",
+        "items": [
+          {
+            "text": "Перед бронированием подтвердите регистрационные сборы и расходы по конкретной сделке в Mina Al Arab. Итоговая сумма зависит от объекта и типа сделки.",
+            "title": "Регистрационные расходы и расходы по сделке"
+          },
+          {
+            "text": "При использовании финансирования подтвердите банковские расходы, стоимость оценки и расходы по ипотеке вместе с суммой денежных средств, необходимой до завершения сделки.",
+            "title": "Расходы на финансирование и оценку"
+          },
+          {
+            "text": "Проверьте сервисные сборы, платежи оператору, перечень включённых услуг и регулярные расходы по конкретной резиденции.",
+            "title": "Сервисные сборы и платежи оператору"
+          },
+          {
+            "text": "Отдельно заложите расходы на приёмку и устранение дефектов, мебель, коммунальные услуги, переезд и другие платежи к моменту сдачи или завершения сделки.",
+            "title": "Расходы на сдачу, обустройство и переезд"
+          }
+        ],
+        "title": "Расходы для проверки",
+        "eyebrow": "Проверить перед покупкой",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/ru/budgets/branded-residences-aed-5m-10m-in-mina-al-arab/",
+          "label": "Брендированные резиденции за AED 5M–10M в Mina Al Arab",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/branded-residences-aed-25m-plus-in-mina-al-arab/",
+          "label": "Брендированные резиденции от AED 25M в Mina Al Arab",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/aed-10m-25m-in-mina-al-arab/",
+          "label": "Недвижимость за AED 10M–25M в Mina Al Arab",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/ru/budgets/luxury-apartments-aed-10m-25m-in-mina-al-arab/",
+          "label": "Премиальные апартаменты за AED 10M–25M в Mina Al Arab",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Похожие страницы по бюджету",
+      "eyebrow": "Похожие запросы",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "По текущим данным нет подтверждённого конкретного проекта для брендированных резиденций в Mina Al Arab в бюджете AED 10M–25M. Используйте связанные районы и актуальный поиск, чтобы уточнить подборку, затем проверьте цены конкретных объектов и наличие.",
+          "question": "Какой выбор зафиксирован для брендированных резиденций в Mina Al Arab при бюджете AED 10M–25M?"
+        },
+        {
+          "answer": "Сравните Брендированные резиденции, Апартаменты, Виллы, Премиальные апартаменты, а также конкретные объекты по цене, планировке, расположению, срокам сдачи и полной стоимости владения. Основной компромисс в текущем контексте — бренд или регулярные сборы.",
+          "question": "Что важнее всего сравнить для брендированных резиденций в Mina Al Arab при бюджете AED 10M–25M?"
+        },
+        {
+          "answer": "Для брендированных резиденций в Mina Al Arab учитывайте регистрацию и расходы сделки, финансирование при необходимости, сервисные сборы, обустройство, коммунальные расходы и регулярное содержание. Точные суммы рассчитываются для конкретного объекта и сделки.",
+          "question": "Какие дополнительные расходы нужно учитывать для брендированных резиденций в Mina Al Arab?"
+        },
+        {
+          "answer": "Для брендированных резиденций в Mina Al Arab сравните первоначальный взнос или бронирование, платежи на этапе строительства, сумму к сдаче и обязательства после сдачи. Текущий график нужно подтверждать отдельно для каждого объекта; более длинный план не всегда означает меньшую общую нагрузку.",
+          "question": "Как сравнивать планы оплаты для брендированных резиденций в Mina Al Arab?"
+        },
+        {
+          "answer": "Primadom AI может поочерёдно уточнить бюджет AED 10M–25M, район, тип недвижимости, сроки и приоритеты, затем выделить варианты для сравнения и данные, которые нужно подтвердить перед решением.",
+          "question": "Как Primadom AI может уточнить поиск для брендированных резиденций в Mina Al Arab при бюджете AED 10M–25M?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о бюджете",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Информация для планирования по категории «брендированные резиденции» в Mina Al Arab в бюджете AED 10M–25M не является подтверждением актуального наличия. Подтвердите актуальные цены и наличие, графики платежей, статус сдачи, сборы, сервисные сборы и условия проектов по материалам застройщиков, официальным данным, актуальным листингам и проверке консультанта Primadom.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Нужна актуальная проверка"
+        },
+        {
+          "label": "План оплаты",
+          "value": "Нужны материалы застройщика"
+        },
+        {
+          "label": "Расходы / сервисные сборы",
+          "value": "Нужно рассчитать"
+        },
+        {
+          "label": "Соответствие объекта / проекта",
+          "value": "Нужна проверка источников"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Попросите Primadom AI сравнить брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M по актуальной цене, плану оплаты и полной стоимости, а затем подготовить подборку для проверки актуальных данных.",
+      "title": "Хотите проверить, что реально можно купить на ваш бюджет?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Получить подборку по бюджету",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Форма запроса по бюджету",
+      "note": "Перед рекомендациями мы проверим актуальные цены и наличие.",
+      "text": "Оставьте свои данные. Primadom AI подготовит запрос по вашему бюджету для проверки консультантом Primadom.",
+      "title": "Проверить, что можно купить на ваш бюджет",
+      "fields": {
+        "name": "Ваше имя",
+        "phone": "Телефон / WhatsApp",
+        "budget": "Бюджетный диапазон",
+        "comment": "Готовый запрос"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Отправить",
+      "comment": "Проверить брендированные резиденции в Mina Al Arab, бюджет AED 10M–25M.",
+      "eyebrow": "AI-подбор по бюджету",
+      "success": "Отправлено",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Закрыть",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Черновик запроса",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Ваше имя",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Имя"
+        },
+        "phone": {
+          "label": "Телефон / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Бюджетный диапазон",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 10M–25M",
+          "default_value": "AED 10M–25M"
+        },
+        "comment": {
+          "label": "Готовый запрос",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Подготовлено на основе этой страницы",
+          "single_line": true,
+          "default_value": "Проверить брендированные резиденции в Mina Al Arab, бюджет AED 10M–25M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Имя",
+        "phone": "+971",
+        "budget": "AED 10M–25M",
+        "comment": "Подготовлено на основе этой страницы"
+      },
+      "submit_label": "Отправить",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_branded_residences_aed_10m_25m_mina_al_arab_ru",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 10M–25M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 10M–25M",
+        "district_name": "Mina Al Arab",
+        "canonical_url_path": "/ru/budgets/branded-residences-aed-10m-25m-in-mina-al-arab/",
+        "content_version_id": "d7824f82-8da1-480d-be25-6b315913dd4d",
+        "property_type_name": "Брендированные резиденции"
+      },
+      "success_label": "Отправлено",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Голосовой поиск",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Изучите брендированные резиденции в Mina Al Arab в бюджете AED 10M–25M по актуальной цене, плану оплаты и полной стоимости перед проверкой актуальных данных рынка.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Бюджетный поиск с переходом к реалистичным вариантам недвижимости",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети Primadom",
+      "url_section": "/ru/budgets/branded-residences-aed-10m-25m-in-mina-al-arab/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Спросить AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

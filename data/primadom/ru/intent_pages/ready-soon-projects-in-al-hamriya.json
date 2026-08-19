@@ -1,0 +1,729 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "intent__ready-soon-projects__district__al-hamriya__ru",
+  "page_type_id": "intent_page",
+  "language_code": "ru",
+  "url_path": "/ru/intents/ready-soon-projects-in-al-hamriya/",
+  "canonical_url_path": "/ru/intents/ready-soon-projects-in-al-hamriya/",
+  "canonical_group_key": "intent:ready-soon-projects:district:al-hamriya",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "ready-soon-projects",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "Варианты",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Проверки",
+          "active": false
+        },
+        {
+          "href": "#intent-ai-search",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "Навигация по параметрам поиска",
+      "brand_url": "/ru/",
+      "cta_label": "Подобрать варианты"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "href": "/ru/intents/",
+          "label": "Поиск недвижимости"
+        },
+        {
+          "href": "/ru/intents/ready-soon-projects-in-al-hamriya/",
+          "label": "Проекты с близким сроком сдачи в районе Al Hamriya"
+        }
+      ],
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Расположение: Al Hamriya",
+        "Ключевой параметр поиска",
+        "Ключевой параметр поиска",
+        "Проверить актуальные данные"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Проекты с близким сроком сдачи в районе Al Hamriya",
+      "subtitle": "Сравните проекты с близким сроком сдачи в районе Al Hamriya по типу недвижимости, расположению, цене, условиям оплаты, срокам и параметрам, требующим актуальной проверки.",
+      "facts_aria": "Ключевые параметры поиска недвижимости",
+      "visual_aria": "Визуальный блок поиска недвижимости"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Сравнить подходящие варианты в районе Al Hamriya",
+        "Проверить цены, условия оплаты и актуальные данные",
+        "Оценить расходы, риски и соответствие цели покупки"
+      ],
+      "prompts": [
+        "Сравнить подходящие варианты в районе Al Hamriya",
+        "Проверить цены, условия оплаты и актуальные данные",
+        "Оценить расходы, риски и соответствие цели покупки"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "voice_text": "Голосовой поиск",
+      "placeholder": "Проекты с близким сроком сдачи в районе Al Hamriya",
+      "block_status": "formula_generated",
+      "button_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Проекты с близким сроком сдачи в районе Al Hamriya",
+      "ai_placeholder": "Проекты с близким сроком сдачи в районе Al Hamriya",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Спросить Primadom AI о запросе «Проекты с близким сроком сдачи в районе Al Hamriya»",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Скоро сдача",
+        "Ключевой критерий",
+        "Оставшиеся платежи",
+        "Подтверждение срока сдачи"
+      ],
+      "title": "Краткий ответ",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>По запросу «Проекты с близким сроком сдачи в районе Al Hamriya» сравнивайте конкретные объекты и проекты, а не только общие маркетинговые характеристики.</strong> Проверяйте цену, планировку, расположение, условия оплаты, стадию проекта, расходы и соответствие вашей цели покупки. Актуальные варианты нужно подтвердить перед формированием окончательной подборки.",
+      "body_text": "По запросу «Проекты с близким сроком сдачи в районе Al Hamriya» сравнивайте конкретные объекты и проекты, а не только общие маркетинговые характеристики. Проверяйте цену, планировку, расположение, условия оплаты, стадию проекта, расходы и соответствие вашей цели покупки. Актуальные варианты нужно подтвердить перед формированием окончательной подборки.",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "Цены, наличие, условия оплаты и сроки проектов необходимо подтвердить до принятия решения о покупке.",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "Поисковый запрос",
+          "value": "Проекты с близким сроком сдачи"
+        },
+        {
+          "key": "location",
+          "label": "Расположение",
+          "value": "Al Hamriya"
+        },
+        {
+          "key": "market",
+          "label": "Рынок",
+          "value": "Дубай / ОАЭ"
+        },
+        {
+          "key": "property_focus",
+          "label": "Тип недвижимости",
+          "value": "Проекты с близким сроком сдачи"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "Цель покупателя",
+          "value": "Проекты с близким сроком сдачи"
+        },
+        {
+          "key": "main_checks",
+          "label": "Основные проверки",
+          "value": "Ход строительства · оставшиеся платежи · подтверждение готовности"
+        },
+        {
+          "key": "project_match",
+          "label": "Соответствие проектов",
+          "value": "Соответствие проектов пока не подтверждено"
+        },
+        {
+          "key": "current_details",
+          "label": "Актуальные данные",
+          "value": "Подходящие проекты требуют подтверждения"
+        }
+      ],
+      "title": "Параметры поиска",
+      "eyebrow": "Ключевые факты",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "Проверьте ход строительства и ожидаемый срок сдачи.",
+          "title": "Основные варианты для сравнения"
+        },
+        {
+          "text": "Проверьте стоимость, условия оплаты и регулярные расходы.",
+          "title": "Варианты с понятными условиями"
+        },
+        {
+          "text": "Оцените расположение, качество и соответствие вашей цели.",
+          "title": "Варианты, соответствующие району"
+        },
+        {
+          "text": "Подтвердите готовность и актуальное наличие.",
+          "title": "Варианты для финальной проверки"
+        }
+      ],
+      "title": "Варианты для проверки",
+      "eyebrow": "Что сравнивать",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "insufficient_pair_evidence",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "Сравнивайте проекты с близким сроком сдачи по цене, качеству, расположению, условиям оплаты, расходам и соответствию вашей цели. Один рекламный показатель не должен определять подборку.",
+      "tags": [
+        "Подтверждённый ход строительства",
+        "Ожидаемое завершение",
+        "Оставшиеся платежи",
+        "Детали проекта",
+        "Срок заселения"
+      ],
+      "title": "Логика подбора",
+      "eyebrow": "Как сравнивать",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "Сравните цену, характеристики объекта и актуальные условия.",
+          "title": "Проверить ключевые параметры",
+          "eyebrow": "Проверка варианта"
+        },
+        {
+          "dark": false,
+          "text": "Оцените расположение, формат недвижимости и соответствие вашим задачам.",
+          "title": "Оценить соответствие цели",
+          "eyebrow": "Кому подходит"
+        },
+        {
+          "dark": false,
+          "text": "Проверьте документы, расходы, сроки и параметры конкретного проекта.",
+          "title": "Проверить детали готовности по каждому проекту",
+          "eyebrow": "Перед выбором"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI поможет сопоставить варианты по вашим приоритетам и подготовить подборку.",
+          "title": "Сравнить проекты, близкие к завершению",
+          "eyebrow": "AI-подбор"
+        }
+      ],
+      "cards_aria": "Рекомендации для принятия решения",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/intents/end-user-properties-in-al-hamriya/",
+            "meta": "для собственного проживания",
+            "label": "Недвижимость для собственного проживания в районе Al Hamriya"
+          },
+          {
+            "href": "/ru/intents/first-time-buyer-properties-in-al-hamriya/",
+            "meta": "первая покупка",
+            "label": "Недвижимость для первой покупки в районе Al Hamriya"
+          },
+          {
+            "href": "/ru/intents/family-properties-in-al-hamriya/",
+            "meta": "Для семьи",
+            "label": "Недвижимость для семьи в районе Al Hamriya"
+          },
+          {
+            "href": "/ru/intents/new-launch-projects-in-al-hamriya/",
+            "meta": "Связанные новые проекты",
+            "label": "Новые проекты в районе Al Hamriya"
+          },
+          {
+            "href": "/ru/intents/trusted-developer-projects-in-al-hamriya/",
+            "meta": "Проверки застройщика",
+            "label": "Проекты известных застройщиков в районе Al Hamriya"
+          }
+        ],
+        "title": "Проверка проектов",
+        "eyebrow": "Варианты подбора"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/ru/areas/al-hamriya/",
+            "meta": "Текущий район",
+            "label": "Al Hamriya"
+          },
+          {
+            "href": "/ru/areas/damac-islands/",
+            "meta": "Похожий прибрежный образ жизни",
+            "label": "Damac Islands"
+          },
+          {
+            "href": "/ru/areas/madinat-jumeirah-living/",
+            "meta": "Похожий прибрежный образ жизни",
+            "label": "Madinat Jumeirah Living"
+          },
+          {
+            "href": "/ru/areas/palm-jebel-ali/",
+            "meta": "Похожий прибрежный образ жизни",
+            "label": "Palm Jebel Ali"
+          },
+          {
+            "href": "/ru/areas/the-oasis/",
+            "meta": "Похожий прибрежный образ жизни",
+            "label": "Ключевой параметр"
+          }
+        ],
+        "title": "Районы для сравнения",
+        "eyebrow": "Где искать"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "Кому подходит",
+        "eyebrow": "Для кого эта страница",
+        "good_for": [
+          "Покупателям, которые ищут проекты с близким сроком сдачи в районе Al Hamriya",
+          "Покупателям, готовым сравнивать цену, условия и параметры конкретных проектов",
+          "Покупателям, которым важна проверка актуальных данных перед решением"
+        ],
+        "less_for": [
+          "Покупателям, которым нужен гарантированный результат без проверки конкретного объекта",
+          "Покупателям, выбирающим только по рекламной цене, бренду или названию проекта",
+          "Покупателям, не готовым проверять расходы, документы и актуальные условия"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "Подходит для",
+        "less_for_title": "Может не подойти"
+      },
+      "risk_notes": {
+        "body": "Для поиска «Проекты с близким сроком сдачи в районе Al Hamriya» отдельно проверьте актуальные цены, наличие, документы, расходы, сроки и условия конкретного проекта. Общие маркетинговые заявления не должны заменять проверку объекта.",
+        "tags": [
+          "Актуальная проверка",
+          "Оценка срока завершения",
+          "Оставшиеся платежи",
+          "Приёмка и проверка дефектов",
+          "Готовность к заселению"
+        ],
+        "title": "Ключевые проверки",
+        "eyebrow": "Перед выбором",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Find options approaching handover",
+        "page_group": "intent_district",
+        "intent_slug": "ready-soon-projects",
+        "main_checks": "Progress · remaining payments · completion evidence",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "al-hamriya",
+        "search_intent": "Ready-soon projects",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "Near-completion property",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/ru/intents/payment-plan-projects-in-al-hamriya/",
+          "label": "Проекты с планом оплаты в районе Al Hamriya"
+        },
+        {
+          "href": "/ru/intents/off-plan-apartments-in-al-hamriya/",
+          "label": "Апартаменты на стадии строительства в районе Al Hamriya"
+        },
+        {
+          "href": "/ru/intents/best-off-plan-projects-in-al-hamriya/",
+          "label": "Лучшие проекты на стадии строительства в районе Al Hamriya"
+        },
+        {
+          "href": "/ru/intents/apartments-for-investment-in-al-hamriya/",
+          "label": "Апартаменты для инвестиций в районе Al Hamriya"
+        }
+      ],
+      "title": "Похожие запросы",
+      "eyebrow": "Смотреть дальше",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Проверьте актуальные варианты, цену, условия оплаты, статус проекта, расходы и соответствие вашей цели по запросу «Проекты с близким сроком сдачи в районе Al Hamriya».",
+          "question": "Что важно проверить для поиска «Проекты с близким сроком сдачи в районе Al Hamriya»?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Сравнивайте типы недвижимости по планировке, полной стоимости, расположению, срокам и практичности для вашей цели.",
+          "question": "Какие типы недвижимости с близким сроком сдачи стоит сравнить в районе Al Hamriya?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Перед включением объекта в подборку проверьте документы, актуальное наличие, цену, график платежей, срок сдачи и регулярные расходы.",
+          "question": "Что проверить перед включением объекта в подборку?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Да. Сравните районы с похожим бюджетом и форматом недвижимости по инфраструктуре, спросу, расходам, зрелости и будущему предложению.",
+          "question": "Стоит ли сравнить другие районы с районом Al Hamriya?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Да. Primadom AI может сравнить актуальные варианты по типу недвижимости, цене, условиям оплаты, стадии проекта, соответствию району и цели покупки, а затем подготовить точечную подборку для района Al Hamriya, которую консультант проверит по актуальным данным.",
+          "question": "Может ли Primadom AI сравнить варианты для этого поиска в районе Al Hamriya?",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы покупателей",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Ready-soon projects in Al Hamriya",
+        "page_group": "intent_district",
+        "intent_slug": "ready-soon-projects",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Al Hamriya",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Перед тем как опираться на эту подборку проектов в районе Al Hamriya, проверьте актуальные цены и доступные объекты, полный график платежей, ход строительства, срок сдачи и официальный статус проекта по свежим материалам и вместе с консультантом.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Нужна актуальная проверка"
+        },
+        {
+          "label": "Оплата / срок сдачи",
+          "value": "Нужны актуальные условия"
+        },
+        {
+          "label": "Статус проекта",
+          "value": "Требуется официальный источник"
+        },
+        {
+          "label": "Проверка источников",
+          "value": "Ожидает проверки"
+        }
+      ],
+      "title": "Проверка источников",
+      "eyebrow": "Проверка",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_payment_terms_and_handover",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "ready-soon-projects",
+        "source_focus": "project_terms",
+        "district_name": "Al Hamriya",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "Укажите предпочитаемый тип недвижимости и желаемые сроки. Primadom AI сравнит актуальные проекты по условиям оплаты, стадии строительства, сроку сдачи и расположению, а затем подготовит подборку для проверки консультантом.",
+      "title": "Сравнить варианты с близким сроком сдачи",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "Сравнить варианты проектов",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "project_search",
+        "hero_title": "Ready-soon projects in Al Hamriya",
+        "page_group": "intent_district",
+        "intent_slug": "ready-soon-projects",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Al Hamriya",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса по поиску недвижимости",
+      "note": "Мы проверим детали перед передачей вашего запроса консультанту.",
+      "text": "Расскажите, что для вас важнее всего. Primadom AI подготовит краткий запрос на подбор проектов до того, как консультант вместе с вами проверит актуальные варианты.",
+      "title": "Найти проекты с близким сроком сдачи",
+      "fields": {
+        "name": "Имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Запрос"
+      },
+      "submit": "Отправить запрос",
+      "comment": "Сравнить актуальные варианты по типу недвижимости, району, условиям оплаты, срокам и цели покупки.",
+      "eyebrow": "Запрос по проектам",
+      "success": "Отправлено",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "Закрыть",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "project_search",
+        "page_group": "intent_district",
+        "intent_slug": "ready-soon-projects",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Al Hamriya",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "Черновик запроса",
+      "field_config": {
+        "name": {
+          "label": "Имя",
+          "html_name": "name",
+          "placeholder": "Ваше имя"
+        },
+        "email": {
+          "label": "Email (необязательно)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Телефон / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Запрос",
+          "html_name": "comment",
+          "placeholder": "Что вы ищете?"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "Ваше имя",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "Отправить запрос",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "Отправлено",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Сравнить актуальные варианты по типу недвижимости, району, условиям оплаты, срокам и цели покупки.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "property_type",
+          "area_fit",
+          "payment_plan",
+          "handover",
+          "project_stage",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "Использовать голос"
+    },
+    "block_17_footer": {
+      "text": "Сравните проекты, условия оплаты, сроки сдачи и ключевые параметры до консультации со специалистом Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Подберите подходящую недвижимость в ОАЭ с понятными ориентирами.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "ready-soon-projects",
+        "footer_focus": "project_search",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

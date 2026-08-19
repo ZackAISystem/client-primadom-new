@@ -1,0 +1,10 @@
+---
+title: "athlon"
+layout: "primadom-project-page-v2"
+project_slug: "athlon"
+page_id: "page_project_athlon_ru"
+url: "/ru/projects/athlon/"
+build:
+  render: always
+  list: never
+---

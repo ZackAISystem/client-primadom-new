@@ -1,0 +1,919 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_penthouses_mina_al_arab_ru",
+  "page_type_id": "property_type_page",
+  "language_code": "ru",
+  "url_path": "/ru/property-types/penthouses-in-mina-al-arab/",
+  "canonical_url_path": "/ru/property-types/penthouses-in-mina-al-arab/",
+  "canonical_group_key": "property_district:penthouses:mina-al-arab",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mina-al-arab",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Кратко",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Проекты",
+          "active": false
+        },
+        {
+          "href": "#type-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Навигация по странице типа недвижимости",
+      "cta_label": "Подобрать варианты",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "property_types",
+          "href": "/ru/property-types/",
+          "label": "Типы недвижимости"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/mina-al-arab/",
+          "label": "Mina Al Arab"
+        },
+        {
+          "key": "current",
+          "href": "/ru/property-types/penthouses-in-mina-al-arab/",
+          "label": "Пентхаусы в Mina Al Arab",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Тип недвижимости: Пентхаусы",
+        "Район: Mina Al Arab",
+        "Пространство + виды",
+        "Инвестиции / образ жизни",
+        "AI-подбор"
+      ],
+      "image": {
+        "alt": "Пентхаусы в Mina Al Arab — обзор типа недвижимости",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Пентхаусы в Mina Al Arab",
+      "subtitle": "Практический гид по пентхаусам в Mina Al Arab: пространство, приватность, виды и соответствие проекта, ценовой контекст, варианты проектов и AI-подбор.",
+      "facts_aria": "Ключевые факты о типе недвижимости",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Визуальный блок типа недвижимости: Пентхаусы в Mina Al Arab",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Спросить Primadom AI о пентхаусах в Mina Al Arab",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Спросите про пентхаусы в Mina Al Arab, бюджет или подходящие варианты",
+      "placeholder": "Спросите про пентхаусы в Mina Al Arab, бюджет или подходящие варианты",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Голосовой поиск",
+      "click_action": "fill_input",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Подобрать пентхаусы в Mina Al Arab под мой бюджет",
+        "Сравнить пентхаусы по видам, качеству проекта и полной стоимости",
+        "Что проверить при выборе пентхаусов в Mina Al Arab?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Голосовой режим",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Пентхаусы",
+        "Mina Al Arab",
+        "Премиум / приватность",
+        "Терраса + виды",
+        "Проверка проектов"
+      ],
+      "title": "Кратко о типе недвижимости",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Пентхаусы в Mina Al Arab</strong> стоит сравнивать по планировке, этажу, террасам, приватности и регулярным расходам. Перед решением покупателю важно проверить конкретный проект, планировку, регулярные расходы и актуальные условия.",
+      "body_text": "Пентхаусы в Mina Al Arab стоит сравнивать по планировке, этажу, террасам, приватности и регулярным расходам. Перед решением покупателю важно проверить конкретный проект, планировку, регулярные расходы и актуальные условия.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Тип",
+          "value": "Пентхаусы",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Район",
+          "value": "Mina Al Arab",
+          "fact_key": "area"
+        },
+        {
+          "label": "Рынок",
+          "value": "Ras Al Khaimah / ОАЭ",
+          "fact_key": "market"
+        },
+        {
+          "label": "Связанные страницы проектов",
+          "value": "23 страницы проектов района",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Цель покупателя",
+          "value": "Премиум · приватность · образ жизни",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Основные фильтры",
+          "value": "Терраса · лифт · виды",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Лучший следующий шаг",
+          "value": "Сравнить связанные страницы проектов",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Параметры сравнения",
+          "value": "Проекты · районы · расходы на владение",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Детали типа недвижимости",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 23,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит",
+        "eyebrow": "Кому подходит",
+        "bad_items": [
+          "Покупатели, для которых приоритетны минимальная цена входа или низкие расходы на владение",
+          "Покупатели, не готовые проверять удобство террасы, доступ к лифту и сервисные сборы",
+          "Покупатели, которые заменяют проверку качества и регулярных расходов премиальным позиционированием"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели премиальной недвижимости, которым важны приватность, большие террасы и верхние этажи",
+          "Покупатели для собственного проживания, сравнивающие необычные планировки, виды и сервисы здания",
+          "Покупатели, сравнивающие характеристики, приватность, уровень сервиса и расходы на владение в Mina Al Arab"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Mina Al Arab",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "luxury",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "penthouses"
+      },
+      "property_logic": {
+        "body": "Сравнивайте пентхаусы по внутренней планировке, удобству террасы, видам, приватности, доступу к лифту и сервисным сборам. В Mina Al Arab сравнивайте характеристики, уровень сервиса, приватность и регулярные расходы на владение, а не полагайтесь только на премиальное позиционирование. Перед решением подтвердите актуальное наличие, а где применимо — регулярные расходы, условия оплаты, сроки и условия сдачи.",
+        "tags": [
+          "Терраса",
+          "Виды",
+          "Приватность",
+          "Доступ к лифту",
+          "Премиальный контекст"
+        ],
+        "title": "Логика типа недвижимости",
+        "eyebrow": "Как сравнивать"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Mina Al Arab отличается спокойным ритмом и живописным прибрежным окружением. Для пентхаусов в этом районе учитывайте практичность террасы, виды, приватность, внутреннюю планировку, доступ к лифту и сервисные сборы.",
+            "route": "/ru/property-types/penthouses-in-mina-al-arab/",
+            "buyer_fit": "Текущий район",
+            "relationship": "current_area",
+            "district_name": "Mina Al Arab",
+            "district_slug": "mina-al-arab"
+          },
+          {
+            "text": "Al Marjan Island предлагает спокойную среду низкой плотности с акцентом на курортную жизнь у моря. Как альтернативу Mina Al Arab в том же городе оценивайте этот район по таким параметрам, как практичность террасы, виды, приватность, внутренняя планировка, доступ к лифту и сервисные сборы.",
+            "route": "/ru/property-types/penthouses-in-al-marjan-island/",
+            "buyer_fit": "Альтернатива в том же городе",
+            "relationship": "related_area",
+            "district_name": "Al Marjan Island",
+            "district_slug": "al-marjan-island"
+          },
+          {
+            "text": "Al Hamra Village предлагает спокойный ритм в прибрежной среде с низкой или средней плотностью застройки. Как альтернативу Mina Al Arab в том же городе оценивайте этот район по таким параметрам, как практичность террасы, виды, приватность, внутренняя планировка, доступ к лифту и сервисные сборы.",
+            "route": "/ru/property-types/penthouses-in-al-hamra-village/",
+            "buyer_fit": "Альтернатива в том же городе",
+            "relationship": "related_area",
+            "district_name": "Al Hamra Village",
+            "district_slug": "al-hamra-village"
+          },
+          {
+            "text": "Jumeirah Village Circle стоит оценивать по характеру жилой среды, транспортной доступности, инфраструктуре и повседневной практичности.",
+            "route": "/ru/property-types/penthouses-in-jumeirah-village-circle/",
+            "buyer_fit": "Альтернатива в ОАЭ",
+            "relationship": "related_area",
+            "district_name": "Jumeirah Village Circle",
+            "district_slug": "jumeirah-village-circle"
+          }
+        ],
+        "title": "Подходящие районы",
+        "eyebrow": "Контекст района"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Цены на пентхаусы в Mina Al Arab следует сравнивать по планировке, этажу, террасам, приватности, видам и регулярным расходам. Практичность террасы, доступ к лифту, приватность и качество вида могут сильно различать внешне похожие объекты. При сравнении полной стоимости владения учитывайте сервисные сборы, обслуживание террасы, условия оплаты и дополнительные расходы на владение. Оценивайте полную стоимость владения по актуальным данным проектов, а не только по заявленной цене покупки.",
+        "tags": [
+          "Терраса",
+          "Качество вида",
+          "Приватность",
+          "Сервисные сборы",
+          "Проверка цен"
+        ],
+        "title": "Как меняются цены",
+        "eyebrow": "Реальная картина цен"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "luxury",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 12,
+        "same_city_item_count": 2,
+        "semantic_profile_key": "penthouses",
+        "wider_uae_item_count": 1,
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "verified_supply_asserted": false,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "mina-al-arab",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 23
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "al-marjan-island",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 47
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "al-hamra-village",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 5
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "jumeirah-village-circle",
+            "location_scope": "wider_uae",
+            "selection_method": "wider_uae_route_fallback",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 214
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Для пентхаусов в Mina Al Arab сравнивайте качество проектов, стоимость владения, глубину спроса и конкуренцию при перепродаже.",
+          "title": "Оцените реалистичный сценарий выхода",
+          "eyebrow": "Инвестиционная логика"
+        },
+        {
+          "text": "Сопоставьте планировку, доступ, удобства, управление зданием и повседневные поездки с тем, как вы будете использовать жильё.",
+          "title": "Приватность определяет качество проживания",
+          "eyebrow": "Образ жизни"
+        },
+        {
+          "text": "Проверяйте полезную площадь, приватность, характеристики, сервисные сборы и глубину спроса, а не полагайтесь на заявления об ограниченном предложении.",
+          "title": "Эксклюзивность может скрывать компромиссы",
+          "eyebrow": "Риски"
+        },
+        {
+          "text": "Primadom AI может сравнить пентхаусы в Mina Al Arab по цели покупателя, статусу проекта, условиям оплаты, стоимости владения и приоритетам повседневного использования.",
+          "title": "Сформировать подборку по этой странице",
+          "eyebrow": "AI-контекст",
+          "dark": true
+        }
+      ],
+      "cards_aria": "Рекомендации по выбору типа недвижимости",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_penthouses_mina_al_arab_en",
+        "context_focus": "luxury",
+        "district_slug": "mina-al-arab",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/en/property-types/penthouses-in-mina-al-arab/",
+        "property_type_slug": "penthouses",
+        "semantic_profile_key": "penthouses",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/projects/cape-hayat/",
+            "meta": "Mina Al Arab",
+            "label": "Cape Hayat"
+          },
+          {
+            "href": "/ru/projects/mirasol/",
+            "meta": "Mina Al Arab",
+            "label": "Mirasol"
+          },
+          {
+            "href": "/ru/projects/edge-at-raha-island/",
+            "meta": "Mina Al Arab",
+            "label": "Edge at Raha Island"
+          },
+          {
+            "href": "/ru/projects/al-danah-residential-tower/",
+            "meta": "Al Marjan Island",
+            "label": "Al Danah Residential Tower"
+          },
+          {
+            "href": "/ru/projects/costa-mare/",
+            "meta": "Al Marjan Island",
+            "label": "Costa Mare"
+          }
+        ],
+        "title": "Рекомендуемые проекты",
+        "eyebrow": "Варианты проектов"
+      },
+      "pros_cons": {
+        "title": "Плюсы и минусы",
+        "eyebrow": "Проверка реалистичности",
+        "cons_items": [
+          "Высокая цена входа и расходы на содержание сужают круг потенциальных покупателей",
+          "В Mina Al Arab премиальное позиционирование может сократить выбор и увеличить расходы на владение",
+          "Более узкая аудитория при перепродаже делает выбор момента выхода особенно важным"
+        ],
+        "cons_title": "Минусы",
+        "pros_items": [
+          "Объекты на верхних этажах могут предлагать больше приватности, террасы и более широкие виды",
+          "В Mina Al Arab сравнивайте приватность, характеристики и качество сервиса отдельно по каждому проекту",
+          "Высокий уровень приватности и сервиса может сделать проживание заметно комфортнее"
+        ],
+        "pros_title": "Плюсы"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_penthouses_mina_al_arab_en",
+        "district_slug": "mina-al-arab",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "luxury",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Cape Hayat",
+            "project_slug": "cape-hayat",
+            "project_route": "/en/projects/cape-hayat/",
+            "developer_name": "RAK Properties",
+            "developer_slug": "rak-properties",
+            "location_score": 5,
+            "project_district_name": "Mina Al Arab",
+            "project_district_slug": "mina-al-arab"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Mirasol",
+            "project_slug": "mirasol",
+            "project_route": "/en/projects/mirasol/",
+            "developer_name": "RAK Properties",
+            "developer_slug": "rak-properties",
+            "location_score": 5,
+            "project_district_name": "Mina Al Arab",
+            "project_district_slug": "mina-al-arab"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Edge at Raha Island",
+            "project_slug": "edge-at-raha-island",
+            "project_route": "/en/projects/edge-at-raha-island/",
+            "developer_name": "RAK Properties",
+            "developer_slug": "rak-properties",
+            "location_score": 5,
+            "project_district_name": "Mina Al Arab",
+            "project_district_slug": "mina-al-arab"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Al Danah Residential Tower",
+            "project_slug": "al-danah-residential-tower",
+            "project_route": "/en/projects/al-danah-residential-tower/",
+            "developer_name": "Dubai Investment Properties",
+            "developer_slug": "dubai-investment-properties",
+            "location_score": 3,
+            "project_district_name": "Al Marjan Island",
+            "project_district_slug": "al-marjan-island"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Costa Mare",
+            "project_slug": "costa-mare",
+            "project_route": "/en/projects/costa-mare/",
+            "developer_name": "Ellington",
+            "developer_slug": "ellington",
+            "location_score": 3,
+            "project_district_name": "Al Marjan Island",
+            "project_district_slug": "al-marjan-island"
+          }
+        ],
+        "canonical_url_path": "/en/property-types/penthouses-in-mina-al-arab/",
+        "property_type_slug": "penthouses",
+        "semantic_profile_key": "penthouses",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/ru/property-types/duplexes-in-mina-al-arab/",
+          "label": "Дуплексы в Mina Al Arab"
+        },
+        {
+          "href": "/ru/property-types/branded-residences-in-mina-al-arab/",
+          "label": "Брендированные резиденции в Mina Al Arab"
+        },
+        {
+          "href": "/ru/property-types/luxury-apartments-in-mina-al-arab/",
+          "label": "Премиальные апартаменты в Mina Al Arab"
+        },
+        {
+          "href": "/ru/property-types/waterfront-apartments-in-mina-al-arab/",
+          "label": "Апартаменты у воды в Mina Al Arab"
+        }
+      ],
+      "title": "Похожие типы недвижимости",
+      "eyebrow": "Похожие варианты",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1390,
+            "target_label": "Duplexes in Mina Al Arab",
+            "target_route": "/en/property-types/duplexes-in-mina-al-arab/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "duplex"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Branded Residences in Mina Al Arab",
+            "target_route": "/en/property-types/branded-residences-in-mina-al-arab/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "branded_residence"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Luxury Apartments in Mina Al Arab",
+            "target_route": "/en/property-types/luxury-apartments-in-mina-al-arab/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "luxury_apartment"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1320,
+            "target_label": "Waterfront Apartments in Mina Al Arab",
+            "target_route": "/en/property-types/waterfront-apartments-in-mina-al-arab/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "waterfront_apartment"
+          }
+        ],
+        "source_route": "/en/property-types/penthouses-in-mina-al-arab/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Пентхаусы в Mina Al Arab стоит сравнивать по планировке, этажу, террасам, приватности, видам и регулярным расходам. Перед решением проверьте конкретный проект, фактические характеристики, регулярные расходы и актуальные условия.",
+          "question": "Что важно знать о пентхаусах в Mina Al Arab?"
+        },
+        {
+          "answer": "Основная аудитория этого формата — покупатели премиальной недвижимости, которым важны приватность, большие террасы и верхние этажи. Дополнительная аудитория — покупатели для собственного проживания, сравнивающие необычные планировки, виды и сервисы здания. Окончательный выбор должен учитывать конкретный проект и полную стоимость владения.",
+          "question": "Кому могут быть важны премиальные характеристики пентхаусов в Mina Al Arab?"
+        },
+        {
+          "answer": "Ключевое преимущество: объекты на верхних этажах могут предлагать больше приватности, террасы и более широкие виды. Ключевой компромисс: высокая цена входа и расходы на содержание сужают круг потенциальных покупателей. В Mina Al Arab сравнивайте эти параметры на уровне конкретных проектов.",
+          "question": "Какие ценовые премии и практические риски важны для пентхаусов в Mina Al Arab?"
+        },
+        {
+          "answer": "На этой странице для сравнения показаны Cape Hayat, Mirasol и Edge at Raha Island. Также можно сравнить Дуплексы в Mina Al Arab и Брендированные резиденции в Mina Al Arab, чтобы проверить другой формат недвижимости на том же или сопоставимом рынке. Эти ссылки служат для навигации и не являются рейтингом или подтверждением актуального наличия объектов.",
+          "question": "Что ещё можно сравнить с пентхаусами в Mina Al Arab?"
+        },
+        {
+          "answer": "Цены, наличие объектов, сборы, планы оплаты и сроки сдачи могут меняться. Для пентхаусов в Mina Al Arab подтвердите планировку, террасу, приватность, фактический вид и регулярные расходы, статус объекта и условия оплаты по официальным материалам застройщика и актуальным данным, проверенным консультантом. Primadom AI поможет организовать сравнение, но текущие коммерческие условия необходимо подтвердить перед решением.",
+          "question": "Как проверять цены и наличие пентхаусов в Mina Al Arab?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о типе недвижимости",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "luxury",
+        "semantic_profile_key": "penthouses",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Информацию о пентхаусах в Mina Al Arab следует использовать как ориентир для сравнения, а не как актуальное предложение. Перед решением у застройщика или уполномоченного консультанта подтвердите планировку, террасу, приватность, фактический вид и регулярные расходы, актуальную цену и наличие, условия оплаты, статус сдачи или завершения строительства и полную стоимость владения.",
+      "items": [
+        {
+          "label": "Планировка и расположение",
+          "value": "Проверить площадь, планировку и этаж"
+        },
+        {
+          "label": "Цена и наличие",
+          "value": "Подтвердить актуальные условия по объекту"
+        },
+        {
+          "label": "Сборы и расходы на владение",
+          "value": "Проверить сервисные расходы и премию"
+        },
+        {
+          "label": "Оплата и срок сдачи",
+          "value": "Проверить статус, даты и условия договора"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Перед решением",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Попросите Primadom AI сравнить пентхаусы в Mina Al Arab по планировке, этажу, террасам, приватности, видам и регулярным расходам, а затем обсудите подходящие варианты с консультантом.",
+      "title": "Ищете пентхаусы в Mina Al Arab?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Подобрать подходящие варианты",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "luxury",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "penthouses",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Форма запроса по типу недвижимости",
+      "text": "Укажите предпочтения по пентхаусам в Mina Al Arab. Primadom AI структурирует запрос по ключевым параметрам — планировке, этажу, террасам, приватности, видам и регулярным расходам — перед проверкой консультантом.",
+      "title": "Подобрать пентхаусы в Mina Al Arab",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Ищу подходящие варианты пентхаусов на этой странице.",
+      "eyebrow": "Продолжить с AI-подбором",
+      "success": "Отправлено",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Закрыть",
+      "source_meta": {
+        "source_route": "/en/property-types/penthouses-in-mina-al-arab/",
+        "source_page_id": "page_property_district_penthouses_mina_al_arab_en",
+        "shortlist_claim": false,
+        "context_focus_key": "luxury",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "penthouses",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Имя",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI помогает сравнивать пентхаусы в Mina Al Arab по планировке, этажу, террасам, приватности, видам и регулярным расходам перед консультацией со специалистом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Пентхаусы в Mina Al Arab: связанные проекты и сценарии покупателей",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, ОАЭ",
+      "subtitle": "Аналитика недвижимости",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/en/property-types/penthouses-in-mina-al-arab/",
+        "source_page_id": "page_property_district_penthouses_mina_al_arab_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "luxury",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "penthouses",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Записаться на звонок"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Спросить AI"
+      }
+    }
+  },
+  "secondary_entity_slug": "penthouses",
+  "secondary_entity_type": "property_type"
+}

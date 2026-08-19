@@ -1,0 +1,10 @@
+---
+title: "Апартаменты для краткосрочной аренды"
+layout: "primadom-intent-page-v2"
+intent_slug: "short-term-rental-apartments"
+page_id: "page_intent_subcluster_short_term_rental_apartments_ru"
+url: "/ru/intents/short-term-rental-apartments/"
+build:
+  render: always
+  list: never
+---

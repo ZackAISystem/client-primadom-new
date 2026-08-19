@@ -1,0 +1,824 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_meydan_horizon_ru",
+  "page_type_id": "project_page",
+  "language_code": "ru",
+  "url_path": "/ru/projects/meydan-horizon/",
+  "canonical_url_path": "/en/projects/meydan-horizon/",
+  "canonical_group_key": "project:meydan-horizon",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "meydan-horizon",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "Записаться на звонок",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "Детали"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "Расположение"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация Primadom AI",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "projects",
+          "href": "/ru/projects/",
+          "label": "Проекты ОАЭ на стадии строительства"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/meydan/",
+          "label": "Meydan",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/ru/projects/meydan-horizon/",
+          "label": "Meydan Horizon",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Meydan Horizon",
+      "price_label": "Цена",
+      "promo_image": "",
+      "price_amount": null,
+      "price_status": "on_request",
+      "hero_subtitle": "Строящийся жилой проект с квартирами в Meydan от Nakheel.",
+      "price_display": "Цена по запросу",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Галерея Meydan Horizon",
+      "gallery_next_label": "Следующее изображение",
+      "gallery_prev_label": "Предыдущее изображение"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Сравни Meydan Horizon с похожими проектами в Meydan",
+        "Покажи план оплаты, варианты объектов и логику срока сдачи",
+        "Meydan Horizon лучше подходит для проживания или инвестиций?",
+        "Объясни преимущества расположения в Meydan"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Спросить об этом проекте",
+      "placeholder": "Спросите о Meydan Horizon: план оплаты, расположение, риски или похожие проекты",
+      "button_label": "Спросить",
+      "voice_status": "Слушаю…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Спросить Primadom AI о Meydan Horizon",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "На странице — краткий обзор Meydan Horizon: цена, срок сдачи, план оплаты, расположение и похожие проекты. Перед принятием решения следует проверить актуальное наличие, планировки и условия оплаты.",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "Вид на парк",
+        "Meydan",
+        "На стадии строительства",
+        "Застройщик: Nakheel"
+      ],
+      "short_answer_title": "Кратко о проекте",
+      "short_answer_kicker": "Краткий обзор для покупателя",
+      "short_answer_summary": "Meydan Horizon — проект на стадии строительства от Nakheel в Meydan, Дубай, near Downtown Dubai and Dubai International Airport, где представлены квартиры. Ключевые подтверждённые характеристики: мастер-комьюнити, виды на парк, виды на лагуну."
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "Цена от",
+          "value": "Цена по запросу",
+          "value_ref": "price_from_aed",
+          "value_status": "on_request"
+        },
+        {
+          "key": "status",
+          "label": "Статус",
+          "value": "На стадии строительства",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "Срок сдачи",
+          "value": "—",
+          "value_ref": "handover_text",
+          "value_status": "missing"
+        },
+        {
+          "key": "payment_plan",
+          "label": "План оплаты",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "Застройщик",
+          "value": "Nakheel",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "Район",
+          "value": "Meydan",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "Тип недвижимости",
+          "value": "квартиры",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "Спальни",
+          "value": "Студии",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "Площадь от",
+          "value": "—",
+          "value_ref": "size_min_sqft",
+          "value_status": "missing"
+        },
+        {
+          "key": "last_checked",
+          "label": "Проверено",
+          "value": "июнь 2026 года",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "Детали проекта",
+      "keyfacts_note": "Ключевые факты по Meydan Horizon вынесены в начало страницы, чтобы покупатели, поисковые системы и AI-системы быстро понимали основные параметры проекта. Перед принятием решения следует проверить цену, план оплаты и актуальное наличие.",
+      "details_kicker": "Ключевые факты",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "Покупатели, планирующие использовать недвижимость как основное жильё",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "Покупатели, ищущие жильё для семьи",
+            "evidence": "use_case_tags.family_home",
+            "priority": 15,
+            "semantic_group": "family_fit"
+          },
+          {
+            "item": "Покупатели, для которых важна жизнь у воды",
+            "evidence": "confirmed_waterfront_signal",
+            "priority": 25,
+            "semantic_group": "waterfront"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "Покупатели, которым нужно более просторное жильё для семьи",
+            "evidence": "bedrooms_max",
+            "priority": 30,
+            "semantic_group": "limited_large_units"
+          },
+          {
+            "item": "Покупатели, которые ищут именно виллы",
+            "evidence": "property_types.apartment_only",
+            "priority": 50,
+            "semantic_group": "no_villas"
+          }
+        ]
+      },
+      "best_for_items": [
+        "Покупатели, планирующие использовать недвижимость как основное жильё",
+        "Покупатели, ищущие жильё для семьи",
+        "Покупатели, для которых важна жизнь у воды"
+      ],
+      "best_for_title": "Подходит для",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "Профиль покупателя",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "Оценка соответствия",
+      "not_best_for_items": [
+        "Покупатели, которым нужно более просторное жильё для семьи",
+        "Покупатели, которые ищут именно виллы"
+      ],
+      "not_best_for_title": "Может не подойти",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Meydan Horizon — жилой проект на стадии строительства от Nakheel в Meydan. Представлены квартиры; по числу спален — студии. Ключевые особенности позиционирования: семейная среда, мастер-комьюнити, виды на парк, виды на лагуну. Основной сценарий — собственное проживание.",
+      "project_logic_title": "Позиционирование проекта",
+      "project_logic_kicker": "Как это понимать"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Оцените Meydan Horizon с учётом расположения, доступных форматов и сопоставимых проектов в Meydan.",
+          "title": "Требуется проверка данных",
+          "eyebrow": "Инвестиционная оценка",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "В Meydan Horizon представлены квартиры в Meydan; формат проекта и набор объектов могут подойти для семейного проживания.",
+          "title": "Сценарий покупателя",
+          "eyebrow": "Образ жизни",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Перед принятием решения подтвердите актуальное наличие, текущую цену, сервисные сборы, условия оплаты, планировки и официальные документы проекта.",
+          "title": "Наличие, расходы, план оплаты",
+          "eyebrow": "Проверить перед покупкой",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI может сравнить Meydan Horizon с альтернативами и подготовить ключевые вопросы для проверки с консультантом.",
+          "title": "Спросить перед принятием решения",
+          "eyebrow": "Поддержка AI",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 24.4667,
+      "lng": 54.3667,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/areas/meydan/",
+          "label": "Гид по району",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=24.466700,54.366700",
+          "label": "Открыть карту",
+          "action_status": "source_coordinates"
+        }
+      ],
+      "address": "Meydan, Дубай, ОАЭ",
+      "map_point": "Расположение на уровне района",
+      "nearby_title": "Что рядом",
+      "address_label": "Адрес",
+      "nearby_status": "district_context",
+      "address_status": "available",
+      "location_title": "Расположение",
+      "schema_version": "location_v1",
+      "map_point_label": "Уровень расположения",
+      "location_context": "Данные о расположении Meydan Horizon основаны на указанном районе Meydan. Перед принятием решения следует подтвердить точное положение здания, время в пути и ближайшие ориентиры.",
+      "map_point_status": "source_coordinates",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Meydan Racecourse",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "Downtown Dubai",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "Dubai Mall",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "Время в пути",
+      "map_context_kicker": "Контекст района",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "Проекты подбираются детерминированно по району, застройщику, городу, типу недвижимости, ценовому диапазону, числу спален и сроку сдачи. Слабые совпадения исключаются, поэтому на некоторых страницах может быть меньше четырёх проектов.",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/ru/areas/meydan/projects/",
+          "label": "Другие проекты в Meydan",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/ru/developers/nakheel/projects/",
+          "label": "Другие проекты от Nakheel",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "Похожие проекты",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "Внутренние ссылки",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/ru/projects/meydan-avenue-b/",
+          "project_id": "meydan-avenue-b",
+          "match_score": 250,
+          "project_name": "Meydan Avenue B",
+          "district_name": "Meydan",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type"
+          ],
+          "property_type": "квартиры",
+          "developer_name": "Nakheel"
+        },
+        {
+          "href": "/ru/projects/meydan-avenue-a/",
+          "project_id": "meydan-avenue-a",
+          "match_score": 240,
+          "project_name": "Meydan Avenue A",
+          "district_name": "Meydan",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "bedroom_overlap"
+          ],
+          "developer_name": "Nakheel"
+        },
+        {
+          "href": "/ru/projects/ayaan-heights-phase-2/",
+          "project_id": "ayaan-heights-phase-2",
+          "match_score": 110,
+          "project_name": "Ayaan Heights Phase 2",
+          "district_name": "Meydan",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "bedroom_overlap"
+          ],
+          "property_type": "квартиры",
+          "developer_name": "Invest Group Overseas"
+        },
+        {
+          "href": "/ru/projects/ayana-gardens/",
+          "project_id": "ayana-gardens",
+          "match_score": 110,
+          "project_name": "Ayana Gardens",
+          "district_name": "Meydan",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "bedroom_overlap"
+          ],
+          "property_type": "квартиры, пентхаусы",
+          "developer_name": "Tuscany Real Estate Development",
+          "price_from_aed": 900000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Meydan Horizon — проект от Nakheel в Meydan, где представлены квартиры.",
+          "question": "Что представляет собой Meydan Horizon?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Meydan Horizon расположен в Meydan, Дубай, ОАЭ.",
+          "question": "Где расположен Meydan Horizon?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Застройщик Meydan Horizon — Nakheel.",
+          "question": "Кто застройщик Meydan Horizon?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "По текущим данным проекта представлены квартиры, включая студии.",
+          "question": "Какие типы недвижимости и планировки по числу спален представлены в Meydan Horizon?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "К похожим проектам относятся Meydan Avenue B, Meydan Avenue A и Ayaan Heights Phase 2. Они подобраны по доступным параметрам проектов.",
+          "question": "Какие проекты похожи на Meydan Horizon?",
+          "answer_status": "formula_generated"
+        }
+      ],
+      "faq_title": "Частые вопросы",
+      "faq_kicker": "Краткие ответы",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "Показать ответ",
+      "faq_collapse_label": "Скрыть ответ"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "Проверка",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Официальные материалы застройщика",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "Актуальная цена и наличие",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "Статус регистрации проекта",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Проверка консультантом Primadom",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "Актуальность данных",
+      "freshness_value": "Часто меняющиеся данные",
+      "source_note_text": "Перед тем как опираться на данные по Meydan Horizon, покупателю следует подтвердить текущую цену, наличие, условия оплаты, планировки, срок сдачи, сервисные сборы и официальные документы проекта.",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "Обновлено",
+      "last_updated_value": "июнь 2026 года",
+      "source_notes_title": "Что нужно проверить",
+      "trust_sources_title": "Проверка источников",
+      "verification_summary": [
+        {
+          "label": "Официальные материалы",
+          "value": "Обязательно"
+        },
+        {
+          "label": "Цена и наличие",
+          "value": "Обязательно"
+        },
+        {
+          "label": "Статус в реестре",
+          "value": "Рекомендуется"
+        },
+        {
+          "label": "Проверка консультантом",
+          "value": "Внутренняя проверка"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Спросить Primadom AI",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "Запросить PDF проекта",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "Записаться на звонок",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Используйте Primadom AI, чтобы сравнить Meydan Horizon, проверить цену и логику плана оплаты и подготовить правильные вопросы для консультанта Primadom.",
+      "cta_title": "Проверьте проект перед принятием решения",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "Мы проверим детали перед передачей вашего запроса.",
+      "fields": {
+        "name": {
+          "label": "Имя",
+          "html_name": "name",
+          "placeholder": "Ваше имя"
+        },
+        "phone": {
+          "label": "Телефон",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Запрос",
+          "html_name": "request_type",
+          "placeholder": "Сроки, тип объекта или вопрос"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "Закрыть",
+      "modal_title": "Спросить о Meydan Horizon",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "Черновик запроса",
+      "modal_status": "formula_generated",
+      "submit_label": "Отправить",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "Запрос по проекту",
+      "success_label": "Отправлено",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Интересует Meydan Horizon. Отправьте подробности.",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "Расскажите, что вы ищете. Primadom поможет проверить наличие, цены, планировки и следующие шаги.",
+      "voice_button_label": "Использовать голос"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/projects/",
+          "label": "Проекты"
+        },
+        {
+          "key": "areas",
+          "href": "/areas/",
+          "label": "Районы"
+        },
+        {
+          "key": "developers",
+          "href": "/developers/",
+          "label": "Застройщики"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI-поиск"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "copyright": "© Primadom AI",
+      "brand_href": "/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "Эта страница помогает оценить Meydan Horizon, сравнить ключевые параметры, разобраться в районе и подготовить правильные вопросы перед разговором с консультантом Primadom.",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "Записаться на звонок",
+        "action_intent": "call_request"
+      },
+      "statement_title": "Подберите подходящую недвижимость в Дубае с понятными данными о проектах и AI-поддержкой.",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Спросить AI",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

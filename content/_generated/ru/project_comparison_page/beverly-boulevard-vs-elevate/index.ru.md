@@ -1,0 +1,10 @@
+---
+title: "Beverly Boulevard vs Elevate"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "beverly-boulevard-vs-elevate"
+page_id: "page_project_comparison_beverly_boulevard_vs_elevate_ru"
+url: "/ru/compare-projects/beverly-boulevard-vs-elevate/"
+build:
+  render: always
+  list: never
+---

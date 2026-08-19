@@ -1,0 +1,10 @@
+---
+title: "elitz-2"
+layout: "primadom-project-page-v2"
+project_slug: "elitz-2"
+page_id: "page_project_elitz_2_ru"
+url: "/ru/projects/elitz-2/"
+build:
+  render: always
+  list: never
+---

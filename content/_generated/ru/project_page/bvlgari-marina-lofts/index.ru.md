@@ -1,0 +1,10 @@
+---
+title: "bvlgari-marina-lofts"
+layout: "primadom-project-page-v2"
+project_slug: "bvlgari-marina-lofts"
+page_id: "page_project_bvlgari_marina_lofts_ru"
+url: "/ru/projects/bvlgari-marina-lofts/"
+build:
+  render: always
+  list: never
+---

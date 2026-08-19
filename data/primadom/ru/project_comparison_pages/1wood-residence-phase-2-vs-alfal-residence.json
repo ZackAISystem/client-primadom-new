@@ -1,0 +1,721 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_1wood_residence_phase_2_vs_alfal_residence_ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/1wood-residence-phase-2-vs-alfal-residence/",
+  "canonical_url_path": "/en/compare-projects/1wood-residence-phase-2-vs-alfal-residence/",
+  "canonical_group_key": "project_comparison:1wood-residence-phase-2:vs:alfal-residence",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "1wood-residence-phase-2",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/1wood-residence-phase-2-vs-alfal-residence/",
+          "label": "1WOOD Residence Phase 2 vs Alfal Residence",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: 1WOOD Residence Phase 2",
+        "Проект B: Alfal Residence",
+        "Сравнение: Jumeirah Village Circle",
+        "Срок сдачи 2027 vs 2028",
+        "Сроки и соответствие шорт-листу"
+      ],
+      "title": "1WOOD Residence Phase 2 vs Alfal Residence",
+      "subtitle": "Это сравнение в Jumeirah Village Circle объединяет варианты квартир, сроки сдачи 2027 и 2028 и соответствие покупателю.",
+      "project_a": {
+        "name": "1WOOD Residence Phase 2",
+        "slug": "1wood-residence-phase-2",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Alfal Residence",
+        "slug": "alfal-residence",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для 1WOOD Residence Phase 2 и Alfal Residence",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения 1WOOD Residence Phase 2 и Alfal Residence",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "1Wood Residence P2 или Alfal Residence — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить 1WOOD Residence Phase 2 и Alfal Residence",
+      "ai_aria": "Попросить Primadom AI сравнить 1WOOD Residence Phase 2 и Alfal Residence",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни 1WOOD Residence Phase 2 и Alfal Residence под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни 1WOOD Residence Phase 2 и Alfal Residence по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между 1WOOD Residence Phase 2 и Alfal Residence? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить 1WOOD Residence Phase 2 и Alfal Residence под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить 1WOOD Residence Phase 2 и Alfal Residence",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Разные застройщики",
+        "Цена указана у одного проекта",
+        "Сдача 2027 vs 2028"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>1WOOD Residence Phase 2</strong> может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а <strong>Alfal Residence</strong> — тем, для кого важнее более широкий выбор по количеству спален. <strong>1WOOD Residence Phase 2</strong> предлагает квартиры, от AED 788K, срок сдачи 2027, а <strong>Alfal Residence</strong> — квартиры, от студий до объектов с 3 спальнями, срок сдачи 2028.",
+      "body_text": "1WOOD Residence Phase 2 может подойти покупателям, для которых важнее более ранний зафиксированный срок сдачи, а Alfal Residence — тем, для кого важнее более широкий выбор по количеству спален. 1WOOD Residence Phase 2 предлагает квартиры, от AED 788K, срок сдачи 2027, а Alfal Residence — квартиры, от студий до объектов с 3 спальнями, срок сдачи 2028.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "1WOOD Residence Phase 2"
+        },
+        {
+          "label": "Проект B",
+          "value": "Alfal Residence"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Jumeirah Village Circle"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Object 1 vs Dubuild Development"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 788K / проверить цену"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "Оба проекта: квартиры"
+        },
+        {
+          "label": "Спальни",
+          "value": "Уточнить спальни / Студии–3 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2027 vs 2028"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "1WOOD Residence Phase 2",
+          "slug": "1wood-residence-phase-2",
+          "text": "1WOOD Residence Phase 2 позиционируется как проект в Jumeirah Village Circle с акцентом на семейный формат; застройщик — Object 1. По текущим данным типы недвижимости — квартиры; стартовая цена — от AED 788K; срок сдачи — 2027. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Jumeirah Village Circle · Застройщик: Object 1",
+            "Квартира",
+            "От AED 788K · Сдача 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Alfal Residence",
+          "slug": "alfal-residence",
+          "text": "Alfal Residence позиционируется как проект в Jumeirah Village Circle с акцентом на жизнь у воды; застройщик — Dubuild Development. По текущим данным типы недвижимости — квартиры; диапазон — от студий до объектов с 3 спальнями; срок сдачи — 2028; актуальную цену нужно проверить. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Jumeirah Village Circle · Застройщик: Dubuild Development",
+            "квартира · студии–3 спальни",
+            "Сдача 2028"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Jumeirah Village Circle, поэтому расположение не является главным различием. У проектов разные застройщики, поэтому сроки реализации, сервис и позиционирование продукта стоит оценивать отдельно. Зафиксирована стартовая цена только одного проекта, поэтому текущие цены нужно проверить. Зафиксированные сроки сдачи — 2027 и 2028.",
+        "tags": [
+          "Один район",
+          "Разные застройщики",
+          "Цена указана у одного проекта",
+          "Схожие типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "1WOOD Residence Phase 2",
+        "project_b": "Alfal Residence"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 788K",
+          "project_b": "Проверка актуальной цены"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Jumeirah Village Circle",
+          "project_b": "Jumeirah Village Circle"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Object 1",
+          "project_b": "Dubuild Development"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "Квартира"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "Диапазон по спальням нужно подтвердить",
+          "project_b": "Студии–3 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2027",
+          "project_b": "2028"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Семейный формат",
+          "project_b": "Ориентация на жизнь у воды"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "1WOOD Residence Phase 2 vs Alfal Residence",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Для 1WOOD Residence Phase 2 зафиксирована стартовая цена AED 788K. Проверьте актуальную цену Alfal Residence и сравните сопоставимые объекты.",
+          "title": "Одну цену нужно подтвердить",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Jumeirah Village Circle. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У 1WOOD Residence Phase 2 указан срок сдачи 2027, у Alfal Residence — 2028. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить 1WOOD Residence Phase 2 и Alfal Residence по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "У проекта указана стартовая цена AED 788K, которую можно использовать для сравнения; цену альтернативы ещё нужно проверить.",
+          "Вам подходит семейный формат проекта в Jumeirah Village Circle для вашего сценария использования.",
+          "Вы рассматриваете квартиры и предпочитаете проект с зафиксированным сроком сдачи 2027."
+        ],
+        "project_a_title": "Выбирайте 1WOOD Residence Phase 2, если",
+        "project_b_items": [
+          "Вы готовы проверить текущую стартовую цену перед сравнением стоимости.",
+          "Вам подходит расположение проекта у воды в Jumeirah Village Circle для вашего сценария использования.",
+          "Вы рассматриваете квартиры в диапазоне от студий до вариантов с 3 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2028."
+        ],
+        "project_b_title": "Выбирайте Alfal Residence, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Для 1WOOD Residence Phase 2 зафиксирована стартовая цена AED 788K, а цену Alfal Residence нужно проверить. Оба проекта находятся в Jumeirah Village Circle, поэтому расположение, скорее всего, не будет главным различием. В обоих проектах указаны схожие типы недвижимости: квартиры. У 1WOOD Residence Phase 2 указан срок сдачи 2027, у Alfal Residence — 2028.",
+        "tags": [
+          "Цена указана у одного проекта",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/10-oxford-vs-1wood-residence-phase-2/",
+            "meta": "Общий проект",
+            "label": "10 Oxford vs 1WOOD Residence Phase 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/10-oxford-vs-alfal-residence/",
+            "meta": "Общий проект",
+            "label": "10 Oxford vs Alfal Residence",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/105-residences-vs-1wood-residence-phase-2/",
+            "meta": "Общий проект",
+            "label": "105 Residences vs 1WOOD Residence Phase 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/105-residences-vs-alfal-residence/",
+            "meta": "Общий проект",
+            "label": "105 Residences vs Alfal Residence",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/1wood-residence-phase-2/",
+            "meta": "Проект A",
+            "label": "Страница проекта 1WOOD Residence Phase 2",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/alfal-residence/",
+            "meta": "Проект B",
+            "label": "Страница проекта Alfal Residence",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/jumeirah-village-circle/",
+            "meta": "Район",
+            "label": "Гид по району Jumeirah Village Circle",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить 1WOOD Residence Phase 2 и Alfal Residence по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / второе жильё / инвестиция у воды",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "предпочтительный срок около 2027–2028",
+          "label": "Сроки"
+        },
+        {
+          "meta": "вид / приватность / доступ к набережной",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. Сейчас стартовая цена, которую можно использовать для сравнения, указана только для 1WOOD Residence Phase 2. В обоих проектах указаны квартиры, хотя диапазон по спальням может различаться. У 1WOOD Residence Phase 2 указан срок сдачи 2027, у Alfal Residence — 2028. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: 1WOOD Residence Phase 2 или Alfal Residence?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для 1WOOD Residence Phase 2 указана стартовая цена AED 788K, которую можно использовать для сравнения. Для Alfal Residence в текущих данных нет сопоставимой цены, поэтому требуется актуальная проверка.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Оба проекта находятся в Jumeirah Village Circle. 1WOOD Residence Phase 2 связан с застройщиком Object 1, а Alfal Residence — с Dubuild Development.",
+          "question": "Чем отличаются 1WOOD Residence Phase 2 и Alfal Residence по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для 1WOOD Residence Phase 2 указан тип недвижимости — квартира, а диапазон по спальням ещё нужно подтвердить. Для 1WOOD Residence Phase 2 указан срок сдачи 2027. В Alfal Residence указаны типы недвижимости: квартиры; диапазон — от студий до объектов с 3 спальнями. Для Alfal Residence указан срок сдачи 2028.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между 1WOOD Residence Phase 2 и Alfal Residence подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между 1WOOD Residence Phase 2 и Alfal Residence?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения 1WOOD Residence Phase 2 и Alfal Residence. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Jumeirah Village Circle; застройщики — Object 1 и Dubuild Development соответственно. Для 1WOOD Residence Phase 2 зафиксирована цена AED 788K; цену Alfal Residence нужно проверить. Зафиксированные сроки сдачи — 2027 и 2028.",
+      "title": "Сравнить 1WOOD Residence Phase 2 и Alfal Residence под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить 1WOOD Residence Phase 2 и Alfal Residence под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_1wood_residence_phase_2_vs_alfal_residence_ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "1WOOD Residence Phase 2",
+        "project_a_slug": "1wood-residence-phase-2",
+        "project_b_name": "Alfal Residence",
+        "project_b_slug": "alfal-residence",
+        "canonical_url_path": "/ru/compare-projects/1wood-residence-phase-2-vs-alfal-residence/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "alfal-residence",
+  "secondary_entity_type": "project"
+}

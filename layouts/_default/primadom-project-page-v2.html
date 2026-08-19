@@ -1,5 +1,10 @@
 {{- $slug := .Params.project_slug | default "passo" -}}
-{{- $p := index site.Data.primadom.project_pages_v2 $slug -}}
+{{- $projectData := site.Data.primadom.project_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $projectData = index $ruData "project_pages" -}}
+{{- end -}}
+{{- $p := index $projectData $slug -}}
 
 {{- if not $p -}}
   {{- errorf "Primadom Project V2 data not found: %s" $slug -}}

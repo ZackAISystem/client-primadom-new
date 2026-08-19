@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_buyer_scenario_first_dubai_property_under_aed_1m_in_al_marjan_island_ru",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ru",
+  "url_path": "/ru/buyer-scenarios/first-dubai-property-under-aed-1m-in-al-marjan-island/",
+  "canonical_url_path": "/en/buyer-scenarios/first-dubai-property-under-aed-1m-in-al-marjan-island/",
+  "canonical_group_key": "buyer_scenario:first_dubai_property_under_aed_1m:district:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Ответ",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Процесс",
+          "active": false
+        },
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Навигация по сценарию покупателя",
+      "cta_label": "Проверить сценарий",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ru/buyer-scenarios/",
+          "label": "Сценарии покупателей"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/ru/buyer-scenarios/first-dubai-property-under-aed-1m-in-al-marjan-island/",
+          "label": "Первая недвижимость в Дубае до AED 1M — Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Первая покупка в Дубае",
+        "Al Marjan Island",
+        "Студии · Квартиры",
+        "До AED 1M",
+        "Этапы · расходы · компромиссы"
+      ],
+      "image": {
+        "alt": "Поиск недвижимости по сценарию «Первая недвижимость в Дубае до AED 1M — Al Marjan Island»",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Первая недвижимость в Дубае до AED 1M — Al Marjan Island",
+      "subtitle": "Для первой покупки держите в фокусе не только цену: первоначальные средства, расходы сделки, тип квартиры, состояние объекта и запас денег после покупки. Для вариантов в Al Marjan Island проверяйте конкретный объект, текущие расходы и условия сделки перед формированием короткого списка.",
+      "facts_aria": "Ключевые параметры сценария покупателя",
+      "section_id": "overview",
+      "visual_aria": "Визуальный блок поиска недвижимости по сценарию «Первая недвижимость в Дубае до AED 1M — Al Marjan Island»",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Сравнить варианты в Al Marjan Island для сценария «Первая недвижимость в Дубае до AED 1M»",
+        "Проверить ключевые критерии: цена объекта, первоначальные средства и расходы сделки",
+        "Какие варианты лучше соответствуют этому сценарию?"
+      ],
+      "ai_aria": "Спросить Primadom AI о сценарии «Первая недвижимость в Дубае до AED 1M — Al Marjan Island»",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Сравнить варианты в Al Marjan Island для сценария «Первая недвижимость в Дубае до AED 1M»",
+      "placeholder": "Сравнить варианты в Al Marjan Island для сценария «Первая недвижимость в Дубае до AED 1M»",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Первая покупка",
+        "Al Marjan Island",
+        "До AED 1M",
+        "Первоначальные расходы · этапы",
+        "Спросить AI"
+      ],
+      "title": "Что важнее всего",
+      "eyebrow": "Рекомендации покупателю",
+      "body_html": "<strong>Для этого сценария в Al Marjan Island</strong> ключевые критерии — цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв. Для первой покупки держите в фокусе не только цену: первоначальные средства, расходы сделки, тип квартиры, состояние объекта и запас денег после покупки. Бюджетный ориентир: до AED 1M.",
+      "body_text": "Для этого сценария в Al Marjan Island ключевые критерии — цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв. Для первой покупки держите в фокусе не только цену: первоначальные средства, расходы сделки, тип квартиры, состояние объекта и запас денег после покупки. Бюджетный ориентир: до AED 1M.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Сценарий",
+          "value": "Первая недвижимость в Дубае до AED 1M"
+        },
+        {
+          "label": "Основная цель",
+          "value": "Первая покупка"
+        },
+        {
+          "label": "Расположение",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Тип недвижимости",
+          "value": "Студии · Квартиры"
+        },
+        {
+          "label": "Бюджетный диапазон",
+          "value": "До AED 1M"
+        },
+        {
+          "label": "Критерий решения",
+          "value": "Первоначальные средства · этапы · тип"
+        },
+        {
+          "label": "Этап покупателя",
+          "value": "Планирование первой покупки"
+        },
+        {
+          "label": "Следующий шаг",
+          "value": "Сопоставить с целями в Дубае"
+        }
+      ],
+      "title": "Параметры сценария",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Для кого эта страница",
+        "eyebrow": "Кому подходит",
+        "bad_items": [
+          "Покупатели, принимающие решение только по цене или одному маркетинговому показателю. Бюджетный ориентир: AED 1M.",
+          "Покупатели, оценивающие доступность покупки только по размеру первоначального взноса",
+          "Покупатели, не готовые учитывать весь набор критериев: цена объекта, первоначальные средства и сопутствующие расходы"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели, для которых особенно важны критерии: цена объекта и первоначальные средства. Бюджетный ориентир: AED 1M.",
+          "Покупатели, готовые сравнивать критерии: расходы сделки, тип квартиры и полная стоимость решения",
+          "Покупатели, которые хотят проверить конкретные варианты в Al Marjan Island до принятия решения"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "В Al Marjan Island начинайте сравнение с реального сценария использования и одинаковых критериев для всех вариантов. Ключевые критерии: цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв. Отдельно проверяйте текущие расходы, статус объекта и условия сделки. Бюджетный ориентир: AED 1M.",
+        "tags": [
+          "Бюджет входа",
+          "Первоначальные средства",
+          "Тип недвижимости",
+          "Расходы на покупку",
+          "Компромиссы по району"
+        ],
+        "title": "Что учитывать",
+        "eyebrow": "Логика решения"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "В Al Marjan Island оцените локацию по ключевым критериям: цена объекта, первоначальные средства и расходы сделки. Само название района не заменяет проверку конкретного объекта и ежедневного сценария. Бюджетный ориентир: AED 1M.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Сравните соседние или альтернативные районы по тем же критериям: цена объекта, первоначальные средства и расходы сделки. Это помогает увидеть реальную цену компромиссов.",
+            "title": "Сравнить альтернативы"
+          },
+          {
+            "text": "Проверяйте набор критериев вместе: цена объекта, первоначальные средства и расходы сделки. Более низкая цена или известная локация не должны скрывать слабый общий сценарий.",
+            "title": "Ключевой критерий: цена объекта"
+          },
+          {
+            "text": "До формирования короткого списка сравните полную стоимость владения, практичность локации и соответствие объекта сценарию «Первая недвижимость в Дубае до AED 1M».",
+            "title": "Перед сужением выбора"
+          }
+        ],
+        "title": "Контекст района",
+        "eyebrow": "Подходящие районы"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Минимальный формат входа, где особенно важны планировка, расходы, ликвидность и соответствие реальному сценарию использования.",
+            "title": "Студии"
+          },
+          {
+            "text": "Подходят как базовая точка сравнения по цене входа, удобству использования, сервисным сборам и доступности.",
+            "title": "Квартиры"
+          },
+          {
+            "text": "Позволяет заранее проверить фактическое состояние, планировку, расходы и сроки сделки до покупки.",
+            "title": "Готовая недвижимость"
+          },
+          {
+            "text": "Может дать поэтапную оплату и более поздний вход, но требует отдельной проверки графика, сроков строительства и условий передачи.",
+            "title": "Недвижимость off-plan"
+          }
+        ],
+        "title": "Типы недвижимости для сравнения",
+        "eyebrow": "Соответствие недвижимости"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Сначала зафиксируйте критерии: цена объекта, первоначальные средства и расходы сделки. Затем сопоставьте их с полной стоимостью и практичностью конкретного объекта. Бюджетный ориентир: AED 1M.",
+          "title": "Зафиксируйте главный критерий: цена объекта",
+          "eyebrow": "Логика бюджета"
+        },
+        {
+          "text": "В Al Marjan Island применяйте одинаковый набор критериев к каждому варианту: цена объекта, первоначальные средства, расходы сделки и тип квартиры. Бюджетный ориентир: AED 1M.",
+          "title": "Сравнивайте варианты на одной основе",
+          "eyebrow": "Этапы процесса"
+        },
+        {
+          "text": "Проверьте два риска в первую очередь: считать первоначальный взнос полной стоимостью покупки и использовать весь бюджет на цену объекта. Решение должно выдерживать проверку конкретного объекта.",
+          "title": "Не скрывайте главный риск",
+          "eyebrow": "Риски"
+        },
+        {
+          "text": "Primadom AI может сопоставить варианты в Al Marjan Island по набору критериев: цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв.",
+          "title": "Сравните сценарий с Primadom AI",
+          "eyebrow": "Primadom AI",
+          "dark": true
+        }
+      ],
+      "cards_aria": "Рекомендации для принятия решения",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Для этого сценария основные риски: считать первоначальный взнос полной стоимостью покупки, использовать весь бюджет на цену объекта, не проверить состояние и статус и не оставить резерв на первые расходы. В Al Marjan Island проверяйте каждый риск на уровне конкретного объекта и актуальных условий. Бюджетный ориентир: AED 1M.",
+        "tags": [
+          "Лимит AED 1M",
+          "Первоначальные средства",
+          "Расходы на покупку",
+          "Тип недвижимости",
+          "Цели в Дубае"
+        ],
+        "title": "Риски",
+        "eyebrow": "Проверить перед покупкой"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "До просмотра вариантов определите требования по критерию «цена объекта» и зафиксируйте параметры, которыми нельзя жертвовать.",
+            "title": "Зафиксируйте критерий: цена объекта. Бюджетный ориентир: AED 1M."
+          },
+          {
+            "text": "По критерию «первоначальные средства» проверьте конкретный объект, текущие расходы, документы и фактические условия.",
+            "title": "Проверьте критерий: первоначальные средства"
+          },
+          {
+            "text": "В Al Marjan Island сопоставьте критерии «расходы сделки» и «тип квартиры» с повседневным использованием недвижимости.",
+            "title": "Сопоставьте критерий: расходы сделки"
+          },
+          {
+            "text": "Перед обязательством по сделке перепроверьте критерий «тип квартиры», сроки, платежи и актуальный статус выбранного объекта.",
+            "title": "Подтвердите критерий: тип квартиры"
+          }
+        ],
+        "title": "Документы и процесс",
+        "eyebrow": "Практические детали"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/projects/the-art-of-trio/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "The Art of Trio"
+          },
+          {
+            "href": "/ru/projects/island-heights/",
+            "meta": "Range Developments · Al Marjan Island",
+            "label": "Island Heights"
+          },
+          {
+            "href": "/ru/projects/sunshine-bay/",
+            "meta": "Source of Fate · Al Marjan Island",
+            "label": "Sunshine Bay"
+          },
+          {
+            "href": "/ru/projects/uno-luxe/",
+            "meta": "Wow Red · Al Marjan Island",
+            "label": "Uno Luxe"
+          },
+          {
+            "href": "/ru/projects/gianfranco-ferre-residences/",
+            "meta": "Mira Developments · Al Marjan Island",
+            "label": "Gianfranco Ferre Residences"
+          }
+        ],
+        "title": "Проекты для сравнения",
+        "eyebrow": "Варианты для подбора"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Бюджетный ориентир — До AED 1M. Не используйте весь доступный предел только на цену недвижимости: оставьте место для расходов на покупку, регулярных платежей, обустройства и денежного резерва.",
+        "tags": [
+          "Потолок цены",
+          "Расходы на покупку",
+          "Первоначальные средства",
+          "Меблировка",
+          "Денежный резерв"
+        ],
+        "title": "Логика бюджета",
+        "eyebrow": "Бюджет сценария"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ru/buyer-scenarios/budget-buyer-under-aed-2m-in-al-marjan-island/",
+          "label": "Покупатель с бюджетом до AED 2M в Al Marjan Island"
+        },
+        {
+          "href": "/ru/buyer-scenarios/first-time-buyer-needs-payment-plan-in-al-marjan-island/",
+          "label": "Покупатель первой недвижимости с планом оплаты в Al Marjan Island"
+        },
+        {
+          "href": "/ru/buyer-scenarios/low-down-payment-buyer-in-al-marjan-island/",
+          "label": "Покупатель с небольшим первоначальным взносом в Al Marjan Island"
+        },
+        {
+          "href": "/ru/buyer-scenarios/ready-to-move-buyer-in-al-marjan-island/",
+          "label": "Покупатель готовой к заселению недвижимости в Al Marjan Island"
+        }
+      ],
+      "title": "Похожие сценарии",
+      "eyebrow": "Смотреть дальше",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ключевые критерии: цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв. Их нужно оценивать вместе, а не по одному. Бюджетный ориентир: AED 1M.",
+          "question": "Что важнее всего для этого сценария в Al Marjan Island — ориентир: до AED 1M?"
+        },
+        {
+          "answer": "Он подходит покупателям, которые хотят принимать решение на основе набора критериев: цена объекта, первоначальные средства и полная стоимость, а не только по цене или маркетинговому обещанию. Бюджетный ориентир: AED 1M.",
+          "question": "Кому подходит этот сценарий в Al Marjan Island — ориентир: до AED 1M?"
+        },
+        {
+          "answer": "Перед выбором в Al Marjan Island проверьте конкретный объект, документы по владению и оплате, регулярные сборы, состояние или стадию готовности и сумму средств, необходимую для завершения сделки.",
+          "question": "Что нужно проверить перед выбором конкретного объекта в Al Marjan Island?"
+        },
+        {
+          "answer": "Бюджетный ориентир — AED 1M. Считайте полную финансовую нагрузку: цена, расходы сделки, регулярные платежи, обустройство и резерв.",
+          "question": "Как учитывать бюджет и сопутствующие расходы для вариантов в Al Marjan Island при ориентире до AED 1M?"
+        },
+        {
+          "answer": "Ключевые риски: считать первоначальный взнос полной стоимостью покупки, использовать весь бюджет на цену объекта, не проверить состояние и статус и не оставить резерв на первые расходы. Их нужно проверять на уровне конкретного объекта и текущих условий.",
+          "question": "Какие основные риски нужно учитывать — ориентир: до AED 1M?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы по сценарию",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Перед решением по этому сценарию в Al Marjan Island перепроверьте текущие данные по объекту, расходы, сроки, документы и условия сделки. Критерии для отдельной проверки: цена объекта, первоначальные средства, расходы сделки и тип квартиры. Бюджетный ориентир: AED 1M.",
+      "items": [
+        {
+          "label": "Цена объекта",
+          "value": "Проверить актуальные данные перед решением. Бюджетный ориентир: AED 1M."
+        },
+        {
+          "label": "Первоначальные средства",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Расходы сделки",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Тип недвижимости",
+          "value": "Проверить актуальные данные перед решением"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Что проверить",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Сравните варианты в Al Marjan Island, используя единый набор критериев: цена объекта, первоначальные средства, расходы сделки, тип квартиры и денежный резерв. Primadom AI поможет структурировать сравнение до разговора с консультантом. Бюджетный ориентир: AED 1M.",
+      "title": "Хотите проверить сценарий «Первая недвижимость в Дубае до AED 1M»?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Рассмотреть варианты",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса по сценарию покупателя",
+      "text": "Укажите приоритеты по следующим критериям: цена объекта, первоначальные средства, расходы сделки и тип квартиры. Это даст консультанту контекст для сравнения вариантов в Al Marjan Island до разговора. Бюджетный ориентир: AED 1M.",
+      "title": "Проверить сценарий: Первая недвижимость в Дубае до AED 1M",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Помогите сравнить варианты по ключевым критериям в бюджете AED 1M",
+      "eyebrow": "AI-анализ сценария",
+      "success": "Отправлено",
+      "close_label": "Закрыть",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "В Al Marjan Island используйте единый набор критериев: цена объекта, первоначальные средства, расходы сделки и тип квартиры. Перед выбором объекта отдельно проверьте полную стоимость владения. Бюджетный ориентир: AED 1M.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравните сценарий «Первая недвижимость в Дубае до AED 1M» по ключевым критериям",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Ссылки на соцсети",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Записаться на звонок"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Спросить AI"
+      }
+    }
+  }
+}

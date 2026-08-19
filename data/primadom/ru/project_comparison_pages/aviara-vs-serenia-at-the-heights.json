@@ -1,0 +1,727 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__aviara__vs__serenia-at-the-heights__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/aviara-vs-serenia-at-the-heights/",
+  "canonical_url_path": "/en/compare-projects/aviara-vs-serenia-at-the-heights/",
+  "canonical_group_key": "project_comparison:aviara:vs:serenia-at-the-heights",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "aviara",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/aviara-vs-serenia-at-the-heights/",
+          "label": "Aviara vs Serenia at The Heights",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Aviara",
+        "Проект B: Serenia at The Heights",
+        "Сравнение: The Heights",
+        "вилла vs таунхаус",
+        "Формат недвижимости и типы объектов"
+      ],
+      "title": "Aviara vs Serenia at The Heights",
+      "subtitle": "Для шорт-листа в The Heights сравните схожие стартовые цены около AED 2.5M, виллы и таунхаусы, и общий срок сдачи 2029.",
+      "project_a": {
+        "name": "Aviara",
+        "slug": "aviara",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Serenia at The Heights",
+        "slug": "serenia-at-the-heights",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Aviara и Serenia at The Heights",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Aviara и Serenia at The Heights",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Aviara или Serenia at The Heights — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Aviara и Serenia at The Heights",
+      "ai_aria": "Попросить Primadom AI сравнить Aviara и Serenia at The Heights",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Aviara и Serenia at The Heights под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Aviara и Serenia at The Heights по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Aviara и Serenia at The Heights? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Aviara и Serenia at The Heights под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Aviara и Serenia at The Heights",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Один застройщик",
+        "Близкие стартовые цены",
+        "Одинаковый год сдачи"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Aviara</strong> может подойти покупателям, для которых важнее конкретный доступный объект и его планировка, а <strong>Serenia at The Heights</strong> — тем, для кого важнее более широкий выбор типов недвижимости. <strong>Aviara</strong> предлагает виллы, объекты с 3–4 спальнями, от AED 2.5M, срок сдачи 2029, а <strong>Serenia at The Heights</strong> — таунхаусы, виллы, объекты с 3–4 спальнями, от AED 2.5M, срок сдачи 2029.",
+      "body_text": "Aviara может подойти покупателям, для которых важнее конкретный доступный объект и его планировка, а Serenia at The Heights — тем, для кого важнее более широкий выбор типов недвижимости. Aviara предлагает виллы, объекты с 3–4 спальнями, от AED 2.5M, срок сдачи 2029, а Serenia at The Heights — таунхаусы, виллы, объекты с 3–4 спальнями, от AED 2.5M, срок сдачи 2029.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Aviara"
+        },
+        {
+          "label": "Проект B",
+          "value": "Serenia at The Heights"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в The Heights"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Оба проекта от Emaar Properties"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 2.5M vs AED 2.5M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "вилла vs таунхаус · вилла"
+        },
+        {
+          "label": "Спальни",
+          "value": "Оба проекта: 3–4 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "Для обоих указан срок сдачи 2029"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Aviara",
+          "slug": "aviara",
+          "text": "Aviara позиционируется как проект в The Heights с акцентом на зелёное окружение; застройщик — Emaar Properties. По текущим данным типы недвижимости — виллы; диапазон — 3–4 спальни; стартовая цена — от AED 2.5M; срок сдачи — 2029. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "The Heights · Застройщик: Emaar Properties",
+            "вилла · 3–4 спальни",
+            "От AED 2.5M · Сдача 2029"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Serenia at The Heights",
+          "slug": "serenia-at-the-heights",
+          "text": "Serenia at The Heights позиционируется как проект в The Heights с акцентом на зелёное окружение; застройщик — Emaar Properties. По текущим данным типы недвижимости — таунхаусы · виллы; диапазон — 3–4 спальни; стартовая цена — от AED 2.5M; срок сдачи — 2029. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "The Heights · Застройщик: Emaar Properties",
+            "таунхаус · вилла · 3–4 спальни",
+            "От AED 2.5M · Сдача 2029"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в The Heights, поэтому расположение не является главным различием. Оба проекта от Emaar Properties, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены близки: AED 2.5M и AED 2.5M. Для обоих проектов указан срок сдачи 2029.",
+        "tags": [
+          "Один район",
+          "Один застройщик",
+          "Близкие стартовые цены",
+          "Разные типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Aviara",
+        "project_b": "Serenia at The Heights"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 2.5M",
+          "project_b": "От AED 2.5M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "The Heights",
+          "project_b": "The Heights"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "Emaar Properties",
+          "project_b": "Emaar Properties"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Вилла",
+          "project_b": "таунхаус · вилла"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "3–4 спальни",
+          "project_b": "3–4 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2029",
+          "project_b": "2029"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Жизнь в зелёном окружении",
+          "project_b": "Жизнь в зелёном окружении"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Aviara vs Serenia at The Heights",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 2.5M у Aviara и AED 2.5M у Serenia at The Heights. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Зафиксированные цены близки",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в The Heights. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Для обоих проектов указан срок сдачи 2029. Сравните фактическую стадию строительства, предполагаемое использование и актуальные изменения по срокам.",
+          "title": "Зафиксированные сроки похожи",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Aviara и Serenia at The Heights по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 2.5M близка к альтернативе, поэтому выбор стоит делать по конкретному объекту и полной стоимости.",
+          "Вам подходит зелёное окружение проекта в The Heights для вашего сценария использования.",
+          "Вы рассматриваете виллы с 3–4 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2029."
+        ],
+        "project_a_title": "Выбирайте Aviara, если",
+        "project_b_items": [
+          "Его зафиксированная стартовая цена AED 2.5M близка к альтернативе, поэтому выбор стоит делать по конкретному объекту и полной стоимости.",
+          "Вам подходит зелёное окружение проекта в The Heights для вашего сценария использования.",
+          "Вы рассматриваете таунхаусы и виллы с 3–4 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2029."
+        ],
+        "project_b_title": "Выбирайте Serenia at The Heights, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 2.5M у Aviara и AED 2.5M у Serenia at The Heights. Оба проекта находятся в The Heights, поэтому расположение, скорее всего, не будет главным различием. В Aviara указаны типы недвижимости: виллы, а в Serenia at The Heights — таунхаусы · виллы. Для обоих проектов указан срок сдачи 2029.",
+        "tags": [
+          "Близкие стартовые цены",
+          "Один район",
+          "Указанные типы объектов",
+          "Одинаковый срок сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/399-hills-park-vs-address-hillcrest/",
+            "meta": "Один застройщик",
+            "label": "399 Hills Park vs Address Hillcrest",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/399-hills-park-vs-address-residences/",
+            "meta": "Один застройщик",
+            "label": "399 Hills Park vs Address Residences",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/399-hills-park-vs-address-residences-at-dubai-hills-estate/",
+            "meta": "Один застройщик",
+            "label": "399 Hills Park vs Address Residences at Dubai Hills Estate",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/399-hills-park-vs-club-drive/",
+            "meta": "Один застройщик",
+            "label": "399 Hills Park vs Club Drive",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/aviara/",
+            "meta": "Проект A",
+            "label": "Страница проекта Aviara",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/serenia-at-the-heights/",
+            "meta": "Проект B",
+            "label": "Страница проекта Serenia at The Heights",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/the-heights/",
+            "meta": "Район",
+            "label": "Гид по району The Heights",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/developers/emaar-properties/",
+            "meta": "Застройщик",
+            "label": "Страница застройщика Emaar Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Aviara и Serenia at The Heights по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "виллы / таунхаусыы",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "семейное жильё / второе жильё / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "предпочтительный срок около 2029",
+          "label": "Сроки"
+        },
+        {
+          "meta": "участок / открытое пространство / планировка",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Более подходящий вариант зависит от приоритетов покупателя. Зафиксированные стартовые цены у проектов одинаковые. В Aviara указаны типы недвижимости: виллы, а в Serenia at The Heights — таунхаусы / виллы. Для обоих проектов указан срок сдачи 2029. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Aviara или Serenia at The Heights?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для Aviara и Serenia at The Heights в текущих данных указана одинаковая стартовая цена — AED 2.5M. Перед выводом о разнице сравните конкретные объекты, площадь и актуальные условия.",
+          "question": "Как соотносятся зафиксированные стартовые цены?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Aviara и Serenia at The Heights находятся в The Heights и связаны с застройщиком Emaar Properties. Поскольку район и застройщик совпадают, сравнивайте конкретный объект, планировку, зафиксированную стартовую цену и срок сдачи, а не только названия проектов.",
+          "question": "Чем отличаются Aviara и Serenia at The Heights по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Aviara указаны типы недвижимости: виллы; диапазон — объекты с 3–4 спальнями. Для Aviara указан срок сдачи 2029. В Serenia at The Heights указаны типы недвижимости: таунхаусы · виллы; диапазон — объекты с 3–4 спальнями. Для Serenia at The Heights указан срок сдачи 2029.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для корректного сравнения Aviara и Serenia at The Heights проверьте конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, планировку, вид, статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Aviara и Serenia at The Heights?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Aviara и Serenia at The Heights. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в The Heights и связаны с застройщиком Emaar Properties. Для обоих проектов зафиксирована одинаковая стартовая цена — AED 2.5M. Для обоих проектов указан срок сдачи 2029.",
+      "title": "Сравнить Aviara и Serenia at The Heights под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Aviara и Serenia at The Heights под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__aviara__vs__serenia-at-the-heights__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Aviara",
+        "project_a_slug": "aviara",
+        "project_b_name": "Serenia at The Heights",
+        "project_b_slug": "serenia-at-the-heights",
+        "canonical_url_path": "/ru/compare-projects/aviara-vs-serenia-at-the-heights/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "serenia-at-the-heights",
+  "secondary_entity_type": "project"
+}

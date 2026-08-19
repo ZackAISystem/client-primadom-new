@@ -1,0 +1,10 @@
+---
+title: "reem-hills-villas"
+layout: "primadom-project-page-v2"
+project_slug: "reem-hills-villas"
+page_id: "page_project_reem_hills_villas_ru"
+url: "/ru/projects/reem-hills-villas/"
+build:
+  render: always
+  list: never
+---

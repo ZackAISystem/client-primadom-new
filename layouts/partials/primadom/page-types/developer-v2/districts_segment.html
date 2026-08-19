@@ -8,7 +8,10 @@
     </div>
     <div class="pd-card__body pd-list">
       {{ range $t.districts.items }}
-        <a href="{{ .href }}">{{ .label }} <small>{{ .meta }}</small></a>
+        <a
+          href="{{ .href }}"
+          {{ if eq .href "#developerLeadModal" }}data-open-developer-lead{{ end }}
+        >{{ .label }} <small>{{ .meta }}</small></a>
       {{ end }}
     </div>
   </article>

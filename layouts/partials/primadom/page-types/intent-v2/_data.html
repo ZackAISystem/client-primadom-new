@@ -15,7 +15,12 @@
   {{- errorf "Intent V2: intent_slug missing for %s" .RelPermalink -}}
 {{- end -}}
 
-{{- $page := index site.Data.primadom.intent_pages_v2 $slug -}}
+{{- $intentData := site.Data.primadom.intent_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ru" -}}
+  {{- $ruData := index site.Data.primadom "ru" -}}
+  {{- $intentData = index $ruData "intent_pages" -}}
+{{- end -}}
+{{- $page := index $intentData $slug -}}
 
 {{- if not $page -}}
   {{- errorf "Intent V2 data not found: %s" $slug -}}

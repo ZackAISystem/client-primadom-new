@@ -4,7 +4,12 @@
     {{- errorf "District V2: district_slug missing for %s" .RelPermalink -}}
   {{- end -}}
 
-  {{- $p := index site.Data.primadom.district_pages_v2 $slug -}}
+  {{- $districtData := site.Data.primadom.district_pages_v2 -}}
+  {{- if eq .Site.Language.Lang "ru" -}}
+    {{- $ruData := index site.Data.primadom "ru" -}}
+    {{- $districtData = index $ruData "district_pages" -}}
+  {{- end -}}
+  {{- $p := index $districtData $slug -}}
   {{- if not $p -}}
     {{- errorf "District V2 data not found for slug: %s" $slug -}}
   {{- end -}}

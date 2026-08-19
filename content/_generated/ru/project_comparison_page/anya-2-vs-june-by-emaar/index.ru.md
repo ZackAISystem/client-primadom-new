@@ -1,0 +1,10 @@
+---
+title: "Anya 2 vs June By Emaar"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "anya-2-vs-june-by-emaar"
+page_id: "project_comparison__anya-2__vs__june-by-emaar__ru"
+url: "/ru/compare-projects/anya-2-vs-june-by-emaar/"
+build:
+  render: always
+  list: never
+---

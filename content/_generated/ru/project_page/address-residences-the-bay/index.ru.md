@@ -1,0 +1,10 @@
+---
+title: "address-residences-the-bay"
+layout: "primadom-project-page-v2"
+project_slug: "address-residences-the-bay"
+page_id: "page_project_address_residences_the_bay_ru"
+url: "/ru/projects/address-residences-the-bay/"
+build:
+  render: always
+  list: never
+---

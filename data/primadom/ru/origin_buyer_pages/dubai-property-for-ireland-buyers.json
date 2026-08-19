@@ -1,0 +1,603 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_origin_buyer_ireland_goal_dubai_property_ru",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "ru",
+  "url_path": "/ru/buyer-scenarios/dubai-property-for-ireland-buyers/",
+  "canonical_url_path": "/en/buyer-scenarios/dubai-property-for-ireland-buyers/",
+  "canonical_group_key": "origin:ireland:goal:dubai-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "ireland",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Могу ли я купить?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Процесс",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#origin-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "Навигация по гиду для иностранного покупателя",
+      "cta_label": "Получить консультацию",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ru/buyer-scenarios/",
+          "label": "Сценарии покупателей"
+        },
+        {
+          "key": "current",
+          "href": "/ru/buyer-scenarios/dubai-property-for-ireland-buyers/",
+          "label": "Недвижимость в Дубае для покупателей из Ирландии"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Из Ирландии",
+        "Цель и бюджет",
+        "Тип недвижимости",
+        "Процесс покупки",
+        "Данные для проверки"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Недвижимость в Дубае для покупателей из Ирландии",
+      "subtitle": "Для покупателей из Ирландии, которые рассматривают недвижимость в Дубае, важно сравнить бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+      "facts_aria": "Ключевые пункты этого сценария покупателя",
+      "section_id": "overview",
+      "visual_aria": "Визуальный блок планирования: недвижимость в дубае для покупателей из ирландии",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Сравнить районы и типы недвижимости, подходящие под мой план",
+        "Проверить процесс покупки, условия оплаты и расходы до бронирования",
+        "Что проверить перед выбором недвижимости в Дубае"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Спросить о вашем плане покупки недвижимости в Дубае",
+      "placeholder": "Сравнить варианты по сценарию «недвижимость в Дубае» для покупателя из Ирландии",
+      "block_status": "final",
+      "button_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Спросить Primadom AI о сценарии «недвижимость в Дубае» для покупателя из Ирландии",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Покупатели из Ирландии",
+        "Цель и бюджет",
+        "Тип недвижимости",
+        "Процесс покупки",
+        "Актуальные правила"
+      ],
+      "title": "Могут ли покупатели из Ирландии купить недвижимость в Дубае?",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Да — покупатели из Ирландии в целом могут покупать недвижимость в Дубае в районах, где иностранцам разрешено владение, с учётом актуальных правил и проверки конкретного объекта.</strong> Для этого сценария сравните бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+      "body_text": "Да — покупатели из Ирландии в целом могут покупать недвижимость в Дубае в районах, где иностранцам разрешено владение, с учётом актуальных правил и проверки конкретного объекта. Для этого сценария сравните бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Страна покупателя",
+          "value": "Ирландия"
+        },
+        {
+          "label": "Целевой рынок",
+          "value": "Дубай / ОАЭ"
+        },
+        {
+          "label": "Цель покупателя",
+          "value": "Недвижимость в Дубае"
+        },
+        {
+          "label": "Основной фокус",
+          "value": "Цель, бюджет и соответствие недвижимости запросу"
+        },
+        {
+          "label": "Ключевые проверки",
+          "value": "Район · тип недвижимости · полные расходы"
+        },
+        {
+          "label": "Условия владения",
+          "value": "Проверить актуальные правила владения для иностранцев"
+        },
+        {
+          "label": "Этап принятия решения",
+          "value": "До бронирования"
+        },
+        {
+          "label": "Следующий шаг",
+          "value": "Сначала определить план покупки, затем сравнивать варианты"
+        }
+      ],
+      "title": "Параметры иностранного покупателя",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "До сравнения конкретных вариантов зафиксируйте основные критерии: бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+            "title": "1. Определите план покупки"
+          },
+          {
+            "text": "Если часть сделки вы планируете проводить из Ирландии, заранее уточните, какие этапы можно пройти удалённо и где потребуется дополнительное разрешение или действие в ОАЭ.",
+            "title": "2. Спланируйте процесс покупки"
+          },
+          {
+            "text": "Подтвердите данные удостоверения личности, формы покупателя, источник средств, маршрут перевода и проверки, требуемые для конкретной сделки.",
+            "title": "3. Подтвердите документы и платёжный маршрут"
+          },
+          {
+            "text": "Перед бронированием ещё раз проверьте ключевые параметры сценария — бюджет, тип недвижимости, район, процесс покупки и полные расходы — и актуальные условия по конкретному объекту.",
+            "title": "4. Повторно проверьте актуальные условия до бронирования"
+          }
+        ],
+        "title": "Процесс удалённой покупки",
+        "eyebrow": "Логика процесса"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Подготовьте действующий документ, удостоверяющий личность, и данные покупателя, которые требуются для конкретной сделки.",
+            "title": "Паспорт и данные покупателя"
+          },
+          {
+            "text": "Держите актуальные адрес и контактные данные под рукой, если их запросит застройщик, банк или участник сделки.",
+            "title": "Адрес и контактные данные"
+          },
+          {
+            "text": "До отправки средств подтвердите их источник, маршрут перевода и возможные банковские или комплаенс-проверки.",
+            "title": "Источник средств и маршрут перевода"
+          },
+          {
+            "text": "Проверьте актуальные сведения по конкретному объекту и ключевым параметрам сценария: бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+            "title": "Документы по конкретному объекту"
+          }
+        ],
+        "title": "Документы",
+        "eyebrow": "Практический чек-лист"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Для этого сценария сопоставьте бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+          "title": "Начните с полного плана покупки",
+          "eyebrow": "Логика бюджета"
+        },
+        {
+          "dark": false,
+          "text": "Если часть сделки проходит из Ирландии, подтвердите платёжный маршрут, подписание, идентификационные проверки и любые действия, которые нужно выполнить в ОАЭ.",
+          "title": "Спланируйте проведение трансграничной сделки",
+          "eyebrow": "Покупка из Ирландии"
+        },
+        {
+          "dark": false,
+          "text": "Перед выбором подтвердите актуальные данные по объекту и проверьте бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+          "title": "Сначала соответствие объекта, потом бронирование",
+          "eyebrow": "Проверка решения"
+        },
+        {
+          "dark": true,
+          "text": "Используйте Primadom AI, чтобы сравнить цель, бюджет, процесс покупки и ключевые проверки перед разговором с консультантом.",
+          "title": "Превратите сценарий в понятное сравнение",
+          "eyebrow": "AI-консультация",
+          "href": "#origin-ai"
+        }
+      ],
+      "cards_aria": "Ключевые решения по этому сценарию покупателя",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Для Dubai Hills Estate сравните тип сообщества, формат недвижимости, расположение, сервисные сборы и общие расходы владения.",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "Для Business Bay сравните тип сообщества, формат недвижимости, расположение, сервисные сборы и общие расходы владения.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "Для Dubai Marina сравните тип сообщества, формат недвижимости, расположение, сервисные сборы и общие расходы владения.",
+            "title": "Dubai Marina"
+          },
+          {
+            "text": "Для Dubai Creek Harbour сравните тип сообщества, формат недвижимости, расположение, сервисные сборы и общие расходы владения.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Районы для сравнения",
+        "eyebrow": "Варианты районов"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "Для покупателей из Ирландии, рассматривающих недвижимость в Дубае, важно сравнить бюджет, тип недвижимости, район, процесс покупки и полные расходы до выбора конкретного варианта.",
+        "tags": [
+          "Цель и бюджет",
+          "Тип недвижимости",
+          "Процесс покупки",
+          "Данные для проверки",
+          "Проверка"
+        ],
+        "title": "Вопросы покупателя",
+        "eyebrow": "Что проверить"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Откройте реальные страницы проектов, связанных с районами этого сценария, а затем проверьте актуальные цены, наличие, условия оплаты и соответствие конкретного объекта перед тем, как опираться на вариант.",
+        "items": [
+          {
+            "href": "/ru/projects/399-hills-park/",
+            "meta": "Dubai Hills Estate",
+            "label": "399 Hills Park"
+          },
+          {
+            "href": "/ru/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/ru/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/ru/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/ru/projects/address-hillcrest/",
+            "meta": "Dubai Hills Estate",
+            "label": "Address Hillcrest"
+          }
+        ],
+        "title": "Проекты для проверки",
+        "eyebrow": "Варианты проектов",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "Если резидентство ОАЭ входит в ваш план, проверяйте актуальные критерии Golden Visa отдельно от решения по недвижимости. Наличие проекта в этом списке не означает подтверждённого права на визу.",
+        "tags": [
+          "Отдельная проверка",
+          "Актуальные критерии",
+          "Стоимость недвижимости",
+          "Статус владения",
+          "Статус оплаты"
+        ],
+        "title": "Проверять визовые условия отдельно",
+        "eyebrow": "Проверка визовых условий",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/ru/buyer-scenarios/dubai-investment-property-for-ireland-buyers/",
+          "label": "Инвестиционная недвижимость в Дубае для покупателей из Ирландии"
+        },
+        {
+          "href": "/ru/buyer-scenarios/dubai-family-relocation-property-for-ireland-buyers/",
+          "label": "Недвижимость для переезда семьи в Дубай — для покупателей из Ирландии"
+        },
+        {
+          "href": "/ru/buyer-scenarios/dubai-off-plan-property-for-ireland-buyers/",
+          "label": "Недвижимость на стадии строительства (off-plan) в Дубае для покупателей из Ирландии"
+        },
+        {
+          "href": "/ru/buyer-scenarios/dubai-apartments-for-ireland-buyers/",
+          "label": "Квартиры в Дубае для покупателей из Ирландии"
+        }
+      ],
+      "title": "Смотреть дальше",
+      "eyebrow": "Похожие сценарии",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Да — покупатели из Ирландии в целом могут покупать недвижимость в Дубае в районах, где иностранцам разрешено владение, с учётом актуальных правил и проверки конкретного объекта. Для этого сценария сравните бюджет, тип недвижимости, район, процесс покупки и полные расходы.",
+          "question": "Могут ли покупатели из Ирландии купить недвижимость в Дубае?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Сначала превратите широкий поиск в конкретный запрос: цель использования, общий бюджет, тип недвижимости и расположение. Затем сравнивайте статус проекта, условия оплаты и детали конкретного объекта.",
+          "question": "Что покупателям из Ирландии проверить в первую очередь, если они рассматривают недвижимость в Дубае?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "Для этого сценария начните с Dubai Hills Estate, Business Bay, Dubai Marina и Dubai Creek Harbour. Это ориентиры, а не рейтинг; перед решением проверьте конкретный объект и его практическое соответствие вашему запросу.",
+          "question": "Какие районы Дубая стоит сравнить покупателям из Ирландии, если их цель — недвижимость в Дубае?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "Если покупка координируется из Ирландии, заранее определите, кто подписывает документы, как переводятся средства, какие идентификационные проверки применяются и какие этапы требуют действий в ОАЭ. Подтвердите маршрут для конкретной сделки до перевода средств.",
+          "question": "Что проверить покупателям из Ирландии, если часть сделки по покупке в Дубае оформляется дистанционно?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Начните с цели использования, бюджета, типа недвижимости и района, затем сравните статус проекта, условия оплаты и детали конкретного объекта. Широкий поиск становится полезным только после применения этих фильтров.",
+          "question": "Как покупателям из Ирландии сузить широкий поиск недвижимости в Дубае?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы покупателей",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Для покупателей из Ирландии, рассматривающих недвижимость в Дубае, эта страница отделяет рекомендации покупателю от утверждений, которые требуют внешней проверки. Перед решением по покупке следует сверить по официальным или актуальным источникам правила владения, международный процесс сделки, статус недвижимости, условия владения и детали конкретной сделки.",
+      "items": [
+        {
+          "label": "Правила владения",
+          "value": "Ожидается официальная проверка"
+        },
+        {
+          "label": "Международный процесс покупки",
+          "value": "Проверка зависит от конкретного случая"
+        },
+        {
+          "label": "Проверки по конкретному объекту",
+          "value": "Требуется проверка источников"
+        },
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка проекта"
+        },
+        {
+          "label": "Статус источников",
+          "value": "Ожидается проверка источников"
+        }
+      ],
+      "title": "Примечания по проверке",
+      "eyebrow": "Источники и проверка",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Если вы покупатель из Ирландии, сравните бюджет, тип недвижимости, район, процесс покупки и полные расходы перед тем, как переходить к конкретным вариантам и проверке с Primadom AI или консультантом.",
+      "title": "Готовы спланировать покупку недвижимости в Дубае из Ирландии?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Проверить мой план",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Форма консультации для иностранного покупателя",
+      "text": "Если вы покупатель из Ирландии, расскажите о предпочтительном типе недвижимости, расположении, сроках и ключевых приоритетах. Primadom AI подготовит контекст по сценарию «недвижимость в Дубае» перед проверкой консультантом.",
+      "title": "Проверить план покупки из Ирландии: недвижимость в Дубае",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Проверить мой план покупки: недвижимость в Дубае — из Ирландии",
+      "eyebrow": "Проверка плана покупки",
+      "success": "Отправлено",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Закрыть",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Имя",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI помогает покупателям из Ирландии сравнить бюджет, тип недвижимости, район, процесс покупки и полные расходы перед выбором конкретного объекта.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Недвижимость в Дубае для покупателей из Ирландии",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "subtitle": "Аналитика недвижимости",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Ссылки Primadom AI в социальных сетях",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Записаться на звонок"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Спросить AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  },
+  "secondary_entity_slug": "dubai-property",
+  "secondary_entity_type": "origin_goal"
+}

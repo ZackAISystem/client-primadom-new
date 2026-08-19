@@ -1,0 +1,715 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__eden-house-zaabeel__vs__four-seasons-private-residences-difc__ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/eden-house-zaabeel-vs-four-seasons-private-residences-difc/",
+  "canonical_url_path": "/en/compare-projects/eden-house-zaabeel-vs-four-seasons-private-residences-difc/",
+  "canonical_group_key": "project_comparison:eden-house-zaabeel:vs:four-seasons-private-residences-difc",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "eden-house-zaabeel",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/eden-house-zaabeel-vs-four-seasons-private-residences-difc/",
+          "label": "Eden House Zaabeel vs Four Seasons Private Residences DIFC",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Eden House Zaabeel",
+        "Проект B: Four Seasons Private Residences DIFC",
+        "Сравнение: DIFC",
+        "AED 4.7M vs AED 34M",
+        "Стартовая цена и срок сдачи"
+      ],
+      "title": "Eden House Zaabeel vs Four Seasons Private Residences DIFC",
+      "subtitle": "Это сравнение в DIFC объединяет варианты квартир, стартовые цены AED 4.7M и AED 34M, и сроки сдачи 2028 и 2027.",
+      "project_a": {
+        "name": "Eden House Zaabeel",
+        "slug": "eden-house-zaabeel",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Four Seasons Private Residences DIFC",
+        "slug": "four-seasons-private-residences-difc",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Eden House Zaabeel и Four Seasons Private Residences DIFC",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Eden House Zaabeel и Four Seasons Private Residences DIFC",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Eden House Zaabeel или Four Seasons DIFC — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC",
+      "ai_aria": "Попросить Primadom AI сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Eden House Zaabeel и Four Seasons Private Residences DIFC под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Eden House Zaabeel и Four Seasons Private Residences DIFC по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Eden House Zaabeel и Four Seasons Private Residences DIFC? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Один застройщик",
+        "AED 4.7M vs AED 34M",
+        "Сдача 2028 vs 2027"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Eden House Zaabeel</strong> может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а <strong>Four Seasons Private Residences DIFC</strong> — тем, для кого важнее более ранний зафиксированный срок сдачи. <strong>Eden House Zaabeel</strong> предлагает квартиры, объекты с 1–3 спальнями, от AED 4.7M, срок сдачи 2028, а <strong>Four Seasons Private Residences DIFC</strong> — квартиры, пентхаусы, от AED 34M, срок сдачи 2027.",
+      "body_text": "Eden House Zaabeel может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а Four Seasons Private Residences DIFC — тем, для кого важнее более ранний зафиксированный срок сдачи. Eden House Zaabeel предлагает квартиры, объекты с 1–3 спальнями, от AED 4.7M, срок сдачи 2028, а Four Seasons Private Residences DIFC — квартиры, пентхаусы, от AED 34M, срок сдачи 2027.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Eden House Zaabeel"
+        },
+        {
+          "label": "Проект B",
+          "value": "Four Seasons Private Residences DIFC"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в DIFC"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "Оба проекта от H&H Development"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 4.7M vs AED 34M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "квартира vs квартира · пентхаус"
+        },
+        {
+          "label": "Спальни",
+          "value": "1–3 спальни / уточнить спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2028 vs 2027"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Eden House Zaabeel",
+          "slug": "eden-house-zaabeel",
+          "text": "Eden House Zaabeel позиционируется как проект в DIFC с акцентом на зелёное окружение; застройщик — H&H Development. По текущим данным типы недвижимости — квартиры; диапазон — 1–3 спальни; стартовая цена — от AED 4.7M; срок сдачи — 2028. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "DIFC · Застройщик: H&H Development",
+            "квартира · 1–3 спальни",
+            "От AED 4.7M · Сдача 2028"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Four Seasons Private Residences DIFC",
+          "slug": "four-seasons-private-residences-difc",
+          "text": "Four Seasons Private Residences DIFC позиционируется как проект в DIFC с акцентом на семейный формат; застройщик — H&H Development. По текущим данным типы недвижимости — квартиры · пентхаусы; стартовая цена — от AED 34M; срок сдачи — 2027. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "DIFC · Застройщик: H&H Development",
+            "квартира · пентхаус",
+            "От AED 34M · Сдача 2027"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в DIFC, поэтому расположение не является главным различием. Оба проекта от H&H Development, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены: AED 4.7M у Eden House Zaabeel и AED 34M у Four Seasons Private Residences DIFC. Зафиксированные сроки сдачи — 2028 и 2027.",
+        "tags": [
+          "Один район",
+          "Один застройщик",
+          "Разница в стартовых ценах",
+          "Разные типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Eden House Zaabeel",
+        "project_b": "Four Seasons Private Residences DIFC"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 4.7M",
+          "project_b": "От AED 34M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "DIFC",
+          "project_b": "DIFC"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "H&H Development",
+          "project_b": "H&H Development"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "квартира · пентхаус"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "1–3 спальни",
+          "project_b": "Диапазон по спальням нужно подтвердить"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2028",
+          "project_b": "2027"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Жизнь в зелёном окружении",
+          "project_b": "Семейный формат"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Eden House Zaabeel vs Four Seasons Private Residences DIFC",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 4.7M у Eden House Zaabeel и AED 34M у Four Seasons Private Residences DIFC. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Разница в стартовой цене имеет значение",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в DIFC. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У Eden House Zaabeel указан срок сдачи 2028, у Four Seasons Private Residences DIFC — 2027. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 4.7M ниже в этой паре при условии сравнения сопоставимых объектов.",
+          "Вам подходит зелёное окружение проекта в DIFC для вашего сценария использования.",
+          "Вы рассматриваете квартиры с 1–3 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2028."
+        ],
+        "project_a_title": "Выбирайте Eden House Zaabeel, если",
+        "project_b_items": [
+          "Вас устраивает более высокая зафиксированная стартовая цена AED 34M после проверки конкретного объекта и полной стоимости.",
+          "Вам подходит семейный формат проекта в DIFC для вашего сценария использования.",
+          "Вы рассматриваете квартиры и пентхаусы и предпочитаете проект с зафиксированным сроком сдачи 2027."
+        ],
+        "project_b_title": "Выбирайте Four Seasons Private Residences DIFC, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 4.7M у Eden House Zaabeel и AED 34M у Four Seasons Private Residences DIFC. Оба проекта находятся в DIFC, поэтому расположение, скорее всего, не будет главным различием. В Eden House Zaabeel указаны типы недвижимости: квартиры, а в Four Seasons Private Residences DIFC — квартиры · пентхаусы. У Eden House Zaabeel указан срок сдачи 2028, у Four Seasons Private Residences DIFC — 2027.",
+        "tags": [
+          "Разница в стартовых ценах",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/difc-heights-tower-vs-eden-house-zaabeel/",
+            "meta": "Общий проект",
+            "label": "DIFC Heights Tower vs Eden House Zaabeel",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/difc-heights-tower-vs-four-seasons-private-residences-difc/",
+            "meta": "Общий проект",
+            "label": "DIFC Heights Tower vs Four Seasons Private Residences DIFC",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/difc-living-vs-eden-house-zaabeel/",
+            "meta": "Общий проект",
+            "label": "DIFC Living vs Eden House Zaabeel",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/eden-house-zaabeel-vs-janu-dubai/",
+            "meta": "Общий проект",
+            "label": "Eden House Zaabeel vs Janu Dubai",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/eden-house-zaabeel/",
+            "meta": "Проект A",
+            "label": "Страница проекта Eden House Zaabeel",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/four-seasons-private-residences-difc/",
+            "meta": "Проект B",
+            "label": "Страница проекта Four Seasons Private Residences DIFC",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры / пентхаусыы",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / второе жильё / инвестиция",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "предпочтительный срок около 2027–2028",
+          "label": "Сроки"
+        },
+        {
+          "meta": "приватность / вид / тип резиденции",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. У Eden House Zaabeel ниже зафиксированная стартовая цена. В Eden House Zaabeel указаны типы недвижимости: квартиры, а в Four Seasons Private Residences DIFC — квартиры / пентхаусы. У Eden House Zaabeel указан срок сдачи 2028, у Four Seasons Private Residences DIFC — 2027. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Eden House Zaabeel или Four Seasons Private Residences DIFC?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "У Eden House Zaabeel зафиксирована более низкая стартовая цена — AED 4.7M против AED 34M у Four Seasons Private Residences DIFC. Сравните одинаковый тип объекта, площадь и актуальные условия, прежде чем считать разницу сопоставимой.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Eden House Zaabeel и Four Seasons Private Residences DIFC находятся в DIFC и связаны с застройщиком H&H Development. Поскольку район и застройщик совпадают, сравнивайте конкретный объект, планировку, зафиксированную стартовую цену и срок сдачи, а не только названия проектов.",
+          "question": "Чем отличаются Eden House Zaabeel и Four Seasons Private Residences DIFC по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "В Eden House Zaabeel указаны типы недвижимости: квартиры; диапазон — объекты с 1–3 спальнями. Для Eden House Zaabeel указан срок сдачи 2028. Для Four Seasons Private Residences DIFC указан тип недвижимости — квартиры / пентхаусы, а диапазон по спальням ещё нужно подтвердить. Для Four Seasons Private Residences DIFC указан срок сдачи 2027.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Eden House Zaabeel и Four Seasons Private Residences DIFC подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Eden House Zaabeel и Four Seasons Private Residences DIFC?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Eden House Zaabeel и Four Seasons Private Residences DIFC. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в DIFC и связаны с застройщиком H&H Development. У Eden House Zaabeel зафиксирована более низкая стартовая цена — AED 4.7M против AED 34M. Зафиксированные сроки сдачи — 2028 и 2027.",
+      "title": "Сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Eden House Zaabeel и Four Seasons Private Residences DIFC под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__eden-house-zaabeel__vs__four-seasons-private-residences-difc__ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Eden House Zaabeel",
+        "project_a_slug": "eden-house-zaabeel",
+        "project_b_name": "Four Seasons Private Residences DIFC",
+        "project_b_slug": "four-seasons-private-residences-difc",
+        "canonical_url_path": "/ru/compare-projects/eden-house-zaabeel-vs-four-seasons-private-residences-difc/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "four-seasons-private-residences-difc",
+  "secondary_entity_type": "project"
+}

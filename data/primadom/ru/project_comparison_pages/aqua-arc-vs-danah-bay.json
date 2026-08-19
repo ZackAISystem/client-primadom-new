@@ -1,0 +1,721 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_aqua_arc_vs_danah_bay_ru",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ru",
+  "url_path": "/ru/compare-projects/aqua-arc-vs-danah-bay/",
+  "canonical_url_path": "/en/compare-projects/aqua-arc-vs-danah-bay/",
+  "canonical_group_key": "project_comparison:aqua-arc:vs:danah-bay",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "aqua-arc",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Сравнить под мои условия",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Обзор",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Проекты"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Сравнить"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить AI",
+          "is_ai": true
+        }
+      ],
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Навигация по сравнению проектов",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ru/compare-projects/",
+          "label": "Сравнение проектов"
+        },
+        {
+          "key": "comparison",
+          "href": "/ru/compare-projects/aqua-arc-vs-danah-bay/",
+          "label": "Aqua Arc vs Danah Bay",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Проект A: Aqua Arc",
+        "Проект B: Danah Bay",
+        "Сравнение: Al Marjan Island",
+        "AED 2.3M vs AED 2.7M",
+        "Стартовая цена и срок сдачи"
+      ],
+      "title": "Aqua Arc vs Danah Bay",
+      "subtitle": "В Al Marjan Island варианты различаются по цене и срокам: AED 2.3M vs AED 2.7M, сдача 2027/2024.",
+      "project_a": {
+        "name": "Aqua Arc",
+        "slug": "aqua-arc",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Danah Bay",
+        "slug": "danah-bay",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Ключевой контекст для Aqua Arc и Danah Bay",
+      "section_id": "overview",
+      "visual_aria": "Главный блок сравнения Aqua Arc и Danah Bay",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Спросите о цене, типах объектов, сроках сдачи или соответствии вашим задачам.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Aqua Arc или Danah Bay — что подходит лучше?",
+        "Сравнить цену, объекты и сроки сдачи",
+        "Что проверить перед выбором?"
+      ],
+      "title": "Сравнить Aqua Arc и Danah Bay",
+      "ai_aria": "Попросить Primadom AI сравнить Aqua Arc и Danah Bay",
+      "eyebrow": "Спросить AI",
+      "prompts": [
+        "Сравни Aqua Arc и Danah Bay под мою цель покупки. Учти доступные данные о ценах, типы недвижимости, диапазон по спальням и сроки сдачи и чётко отметь всё, что требует актуальной проверки.",
+        "Сравни Aqua Arc и Danah Bay по стартовым ценам, типам объектов, диапазону по спальням и плановым срокам сдачи. Чётко укажите отсутствующую или непроверенную информацию.",
+        "Что покупателю нужно проверить перед выбором между Aqua Arc и Danah Bay? Учти текущие цены, наличие, условия оплаты, статус сдачи и соответствие цели покупателя."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "input_aria": "Вопрос AI о сравнении проектов",
+      "section_id": "compare-ai-search",
+      "voice_text": "Спросите об этом сравнении проектов",
+      "placeholder": "Попросите AI сравнить эти два проекта",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "button_label": "Спросить",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Сравнить Aqua Arc и Danah Bay под мою цель покупки",
+      "ai_placeholder": "Попросите AI сравнить эти два проекта",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Попросить Primadom AI сравнить Aqua Arc и Danah Bay",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Один район",
+        "Разные застройщики",
+        "AED 2.3M vs AED 2.7M",
+        "Сдача 2027 vs 2024"
+      ],
+      "title": "Краткая рекомендация",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>Aqua Arc</strong> может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а <strong>Danah Bay</strong> — тем, для кого важнее более ранний зафиксированный срок сдачи. <strong>Aqua Arc</strong> предлагает квартиры, студии, от AED 2.3M, срок сдачи 2027, а <strong>Danah Bay</strong> — таунхаусы, виллы, от студий до объектов с 4 спальнями, от AED 2.7M, срок сдачи 2024.",
+      "body_text": "Aqua Arc может подойти покупателям, для которых важнее более низкая зафиксированная стартовая цена, а Danah Bay — тем, для кого важнее более ранний зафиксированный срок сдачи. Aqua Arc предлагает квартиры, студии, от AED 2.3M, срок сдачи 2027, а Danah Bay — таунхаусы, виллы, от студий до объектов с 4 спальнями, от AED 2.7M, срок сдачи 2024.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Проект A",
+          "value": "Aqua Arc"
+        },
+        {
+          "label": "Проект B",
+          "value": "Danah Bay"
+        },
+        {
+          "label": "Контекст района",
+          "value": "Оба проекта в Al Marjan Island"
+        },
+        {
+          "label": "Контекст застройщиков",
+          "value": "BNW Developments vs Dubai Investment Properties"
+        },
+        {
+          "label": "Цена от",
+          "value": "AED 2.3M vs AED 2.7M"
+        },
+        {
+          "label": "Типы недвижимости",
+          "value": "квартира vs таунхаус · вилла"
+        },
+        {
+          "label": "Спальни",
+          "value": "Студии vs Студии–4 спальни"
+        },
+        {
+          "label": "Срок сдачи",
+          "value": "2027 vs 2024"
+        }
+      ],
+      "title": "Детали сравнения",
+      "eyebrow": "Ключевые факты",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Aqua Arc",
+          "slug": "aqua-arc",
+          "text": "Aqua Arc позиционируется как проект в Al Marjan Island с акцентом на жизнь у воды; застройщик — BNW Developments. По текущим данным типы недвижимости — квартиры; стартовая цена — от AED 2.3M; срок сдачи — 2027. По текущему профилю проект подходит покупателям, которые планируют использовать недвижимость как основное жильё.",
+          "points": [
+            "Al Marjan Island · Застройщик: BNW Developments",
+            "Квартира",
+            "От AED 2.3M · Сдача 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Danah Bay",
+          "slug": "danah-bay",
+          "text": "Danah Bay позиционируется как проект в Al Marjan Island с акцентом на жизнь у воды; застройщик — Dubai Investment Properties. По текущим данным типы недвижимости — таунхаусы · виллы; диапазон — от студий до объектов с 4 спальнями; стартовая цена — от AED 2.7M; срок сдачи — 2024. По текущему профилю проект подходит покупателям, которые ищут жильё для семьи.",
+          "points": [
+            "Al Marjan Island · Застройщик: Dubai Investment Properties",
+            "таунхаус · вилла · студии–4 спальни",
+            "От AED 2.7M · Сдача 2024"
+          ]
+        }
+      ],
+      "title": "Кратко о проектах",
+      "eyebrow": "Кратко",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Оба проекта находятся в Al Marjan Island, поэтому расположение не является главным различием. У проектов разные застройщики, поэтому сроки реализации, сервис и позиционирование продукта стоит оценивать отдельно. Зафиксированные стартовые цены: AED 2.3M у Aqua Arc и AED 2.7M у Danah Bay. Зафиксированные сроки сдачи — 2027 и 2024.",
+        "tags": [
+          "Один район",
+          "Разные застройщики",
+          "Разница в стартовых ценах",
+          "Разные типы недвижимости",
+          "Проверка наличия"
+        ],
+        "title": "Логика на уровне проектов",
+        "eyebrow": "Как сравнивать"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Критерий",
+        "project_a": "Aqua Arc",
+        "project_b": "Danah Bay"
+      },
+      "rows": [
+        {
+          "factor": "Цена от",
+          "project_a": "От AED 2.3M",
+          "project_b": "От AED 2.7M"
+        },
+        {
+          "factor": "Расположение",
+          "project_a": "Al Marjan Island",
+          "project_b": "Al Marjan Island"
+        },
+        {
+          "factor": "Застройщик",
+          "project_a": "BNW Developments",
+          "project_b": "Dubai Investment Properties"
+        },
+        {
+          "factor": "Типы недвижимости",
+          "project_a": "Квартира",
+          "project_b": "таунхаус · вилла"
+        },
+        {
+          "factor": "Спальни",
+          "project_a": "Диапазон по спальням нужно подтвердить",
+          "project_b": "Студии–4 спальни"
+        },
+        {
+          "factor": "Срок сдачи",
+          "project_a": "2027",
+          "project_b": "2024"
+        },
+        {
+          "factor": "Профиль проекта",
+          "project_a": "Ориентация на жизнь у воды",
+          "project_b": "Ориентация на жизнь у воды"
+        }
+      ],
+      "title": "Таблица сравнения проектов",
+      "eyebrow": "Aqua Arc vs Danah Bay",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Зафиксированные стартовые цены: AED 2.3M у Aqua Arc и AED 2.7M у Danah Bay. Сравните одинаковый тип объекта, площадь и полную стоимость, прежде чем оценивать выгоду.",
+          "title": "Разница в стартовой цене имеет значение",
+          "eyebrow": "Цена и объекты",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Оба проекта находятся в Al Marjan Island. Сравните доступность, расположение здания или участка, предложение поблизости и удобство для повседневной жизни.",
+          "title": "Один район — сравните конкретное расположение",
+          "eyebrow": "Соответствие локации",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "У Aqua Arc указан срок сдачи 2027, у Danah Bay — 2024. Сравните, насколько каждый срок соответствует вашим планам по заселению или инвестиционному использованию.",
+          "title": "Разные сроки сдачи влияют на выбор",
+          "eyebrow": "Сроки",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "text": "Попросите Primadom AI сравнить Aqua Arc и Danah Bay по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "title": "Сравнить под вашу цель",
+          "eyebrow": "Спросить AI",
+          "card_status": "pair_specific_handoff",
+          "dark": true
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Ориентиры для выбора проекта"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Кому подходит каждый проект",
+        "eyebrow": "Кому подходит",
+        "project_a_items": [
+          "Его зафиксированная стартовая цена AED 2.3M ниже в этой паре при условии сравнения сопоставимых объектов.",
+          "Вам подходит расположение проекта у воды в Al Marjan Island для вашего сценария использования.",
+          "Вы рассматриваете квартиры и предпочитаете проект с зафиксированным сроком сдачи 2027."
+        ],
+        "project_a_title": "Выбирайте Aqua Arc, если",
+        "project_b_items": [
+          "Вас устраивает более высокая зафиксированная стартовая цена AED 2.7M после проверки конкретного объекта и полной стоимости.",
+          "Вам подходит расположение проекта у воды в Al Marjan Island для вашего сценария использования.",
+          "Вы рассматриваете таунхаусы и виллы в диапазоне от студий до вариантов с 4 спальнями и предпочитаете проект с зафиксированным сроком сдачи 2024."
+        ],
+        "project_b_title": "Выбирайте Danah Bay, если"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Зафиксированные стартовые цены: AED 2.3M у Aqua Arc и AED 2.7M у Danah Bay. Оба проекта находятся в Al Marjan Island, поэтому расположение, скорее всего, не будет главным различием. В Aqua Arc указаны типы недвижимости: квартиры, а в Danah Bay — таунхаусы · виллы. У Aqua Arc указан срок сдачи 2027, у Danah Bay — 2024.",
+        "tags": [
+          "Разница в стартовых ценах",
+          "Один район",
+          "Указанные типы объектов",
+          "Разница в сроках сдачи",
+          "Проверка полной стоимости"
+        ],
+        "title": "Инвестиционная логика",
+        "eyebrow": "Логика решения"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ru/compare-projects/address-residences-al-marjan-island-vs-aqua-arc/",
+            "meta": "Общий проект",
+            "label": "Address Residences Al Marjan Island vs Aqua Arc",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/address-residences-al-marjan-island-vs-danah-bay/",
+            "meta": "Общий проект",
+            "label": "Address Residences Al Marjan Island vs Danah Bay",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-danah-residential-tower-vs-aqua-arc/",
+            "meta": "Общий проект",
+            "label": "Al Danah Residential Tower vs Aqua Arc",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ru/compare-projects/al-danah-residential-tower-vs-danah-bay/",
+            "meta": "Общий проект",
+            "label": "Al Danah Residential Tower vs Danah Bay",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Другие сравнения проектов",
+        "eyebrow": "Смотреть дальше"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ru/projects/aqua-arc/",
+            "meta": "Проект A",
+            "label": "Страница проекта Aqua Arc",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/projects/danah-bay/",
+            "meta": "Проект B",
+            "label": "Страница проекта Danah Bay",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ru/areas/al-marjan/",
+            "meta": "Район",
+            "label": "Гид по району Al Marjan Island",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Открыть страницы проектов",
+        "eyebrow": "Страницы проектов"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Укажите эти данные, чтобы сравнить Aqua Arc и Danah Bay по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "items": [
+        {
+          "meta": "Диапазон AED или максимальная стартовая цена",
+          "label": "Диапазон цены"
+        },
+        {
+          "meta": "квартиры / таунхаусыы / виллы",
+          "label": "Тип объекта"
+        },
+        {
+          "meta": "основное жильё / второе жильё / инвестиция у воды",
+          "label": "Цель покупателя"
+        },
+        {
+          "meta": "текущий статус vs срок 2027",
+          "label": "Сроки"
+        },
+        {
+          "meta": "вид / приватность / доступ к набережной",
+          "label": "Ключевое предпочтение"
+        }
+      ],
+      "title": "Данные для AI-сравнения",
+      "eyebrow": "Полезные данные",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "В этом сравнении нет универсального победителя. У Aqua Arc ниже зафиксированная стартовая цена. В Aqua Arc указаны типы недвижимости: квартиры, а в Danah Bay — таунхаусы / виллы. У Aqua Arc указан срок сдачи 2027, у Danah Bay — 2024; текущий статус проекта с уже прошедшей датой сдачи нужно подтвердить. Лучший вариант зависит от вашей цели покупки и конкретного объекта, доступного на момент сравнения.",
+          "question": "Какой проект может подойти мне лучше: Aqua Arc или Danah Bay?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "У Aqua Arc зафиксирована более низкая стартовая цена — AED 2.3M против AED 2.7M у Danah Bay. Сравните одинаковый тип объекта, площадь и актуальные условия, прежде чем считать разницу сопоставимой.",
+          "question": "У какого проекта ниже зафиксированная стартовая цена?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Оба проекта находятся в Al Marjan Island. Aqua Arc связан с застройщиком BNW Developments, а Danah Bay — с Dubai Investment Properties.",
+          "question": "Чем отличаются Aqua Arc и Danah Bay по расположению и застройщику?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Для Aqua Arc указан тип недвижимости — квартира, а диапазон по спальням ещё нужно подтвердить. Для Aqua Arc указан срок сдачи 2027. В Danah Bay указаны типы недвижимости: таунхаусы · виллы; диапазон — от студий до объектов с 4 спальнями. Для Danah Bay указан срок сдачи 2024, поэтому текущий статус проекта нужно подтвердить.",
+          "question": "Какие типы недвижимости, диапазоны по спальням и сроки сдачи зафиксированы?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Перед выбором между Aqua Arc и Danah Bay подтвердите конкретный объект, текущую цену, условия оплаты, полную стоимость покупки, этаж, планировку, вид, текущий статус проекта, срок сдачи и наличие. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "question": "Что проверить перед выбором между Aqua Arc и Danah Bay?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы о проектах",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Используйте эту страницу как отправную точку для сравнения Aqua Arc и Danah Bay. Зафиксированные данные могут измениться и не заменяют актуальные документы застройщика или официальные открытые источники. Перед принятием решения подтвердите актуальные цены, доступные объекты, условия оплаты, планировки, сервисные сборы, сроки сдачи и статус проекта.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Требуется актуальная проверка"
+        },
+        {
+          "label": "Условия оплаты",
+          "value": "Проверить актуальные документы"
+        },
+        {
+          "label": "Срок сдачи / статус",
+          "value": "Подтвердить текущий статус"
+        },
+        {
+          "label": "Контент обновлён",
+          "value": "Июль 2026"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Проверка",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Оба проекта находятся в Al Marjan Island; застройщики — BNW Developments и Dubai Investment Properties соответственно. У Aqua Arc зафиксирована более низкая стартовая цена — AED 2.3M против AED 2.7M. Зафиксированные сроки сдачи — 2027 и 2024; подтвердите текущий статус, если указанная дата уже прошла.",
+      "title": "Сравнить Aqua Arc и Danah Bay под ваши условия?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Сравнить под мои условия",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "project_comparison_case",
+          "modal_target": "#projectComparisonLeadModal"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "action_intent": "call_request",
+          "modal_target": "#projectComparisonLeadModal"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса на сравнение проектов",
+      "text": "Укажите ваши предпочтения и контактные данные. Primadom AI подготовит предметное сравнение до того, как с вами свяжется консультант.",
+      "error": "Попробуйте ещё раз",
+      "title": "Сравнить Aqua Arc и Danah Bay под ваши условия",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+      "eyebrow": "AI-сравнение",
+      "success": "Запрос отправлен",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Закрыть",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971",
+        "comment": "Добавьте важные детали"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_aqua_arc_vs_danah_bay_ru",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Aqua Arc",
+        "project_a_slug": "aqua-arc",
+        "project_b_name": "Danah Bay",
+        "project_b_slug": "danah-bay",
+        "canonical_url_path": "/ru/compare-projects/aqua-arc-vs-danah-bay/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Отправить",
+        "error": "Попробуйте ещё раз",
+        "success": "Запрос отправлен",
+        "submitting": "Отправляем…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Готовый запрос",
+        "value": "Сравнить эти проекты по типу объекта, виду, актуальным условиям, срокам и цели покупателя.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI помогает покупателям сравнивать проекты, локации, застройщиков и ключевые факторы выбора до разговора с консультантом.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравнение проектов с учётом реальных задач покупателя",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Социальные сети",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  },
+  "secondary_entity_slug": "danah-bay",
+  "secondary_entity_type": "project"
+}

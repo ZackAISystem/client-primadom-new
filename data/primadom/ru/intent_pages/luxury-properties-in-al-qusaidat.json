@@ -1,0 +1,729 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "intent__luxury-properties__district__al-qusaidat__ru",
+  "page_type_id": "intent_page",
+  "language_code": "ru",
+  "url_path": "/ru/intents/luxury-properties-in-al-qusaidat/",
+  "canonical_url_path": "/ru/intents/luxury-properties-in-al-qusaidat/",
+  "canonical_group_key": "intent:luxury-properties:district:al-qusaidat",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "luxury-properties",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "Варианты",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Проверки",
+          "active": false
+        },
+        {
+          "href": "#intent-ai-search",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "Навигация по параметрам поиска",
+      "brand_url": "/ru/",
+      "cta_label": "Подобрать варианты"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "href": "/ru/intents/",
+          "label": "Поиск недвижимости"
+        },
+        {
+          "href": "/ru/intents/luxury-properties-in-al-qusaidat/",
+          "label": "Премиальная недвижимость в районе Al Qusaidat"
+        }
+      ],
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Расположение: Al Qusaidat",
+        "Ключевой параметр поиска",
+        "Позиционирование проекта",
+        "Проверить актуальные данные"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Премиальная недвижимость в районе Al Qusaidat",
+      "subtitle": "Сравните премиальную недвижимость в районе Al Qusaidat по типу недвижимости, расположению, цене, условиям оплаты, срокам и параметрам, требующим актуальной проверки.",
+      "facts_aria": "Ключевые параметры поиска недвижимости",
+      "visual_aria": "Визуальный блок поиска недвижимости"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Сравнить премиальные варианты недвижимости поблизости",
+        "Проверить позиционирование, планировки и застройщиков",
+        "Оценить расходы, риски и соответствие цели покупки"
+      ],
+      "prompts": [
+        "Сравнить премиальные варианты недвижимости поблизости",
+        "Проверить позиционирование, планировки и застройщиков",
+        "Оценить расходы, риски и соответствие цели покупки"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Спросить AI",
+      "voice_text": "Голосовой поиск",
+      "placeholder": "Премиальная недвижимость в районе Al Qusaidat",
+      "block_status": "formula_generated",
+      "button_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "ai_voice_text": "Премиальная недвижимость в районе Al Qusaidat",
+      "ai_placeholder": "Премиальная недвижимость в районе Al Qusaidat",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "Слушаю…",
+      "form_aria_label": "Спросить Primadom AI о запросе «Премиальная недвижимость в районе Al Qusaidat»",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "submit_aria_label": "Спросить Primadom AI",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Премиальная недвижимость",
+        "Премиальное позиционирование",
+        "Приватность и планировка",
+        "Расходы на владение"
+      ],
+      "title": "Краткий ответ",
+      "eyebrow": "Прямой ответ",
+      "body_html": "<strong>По запросу «Премиальная недвижимость в районе Al Qusaidat» сравнивайте конкретные объекты и проекты, а не только общие маркетинговые характеристики.</strong> Проверяйте цену, планировку, расположение, условия оплаты, стадию проекта, расходы и соответствие вашей цели покупки. Актуальные варианты нужно подтвердить перед формированием окончательной подборки.",
+      "body_text": "По запросу «Премиальная недвижимость в районе Al Qusaidat» сравнивайте конкретные объекты и проекты, а не только общие маркетинговые характеристики. Проверяйте цену, планировку, расположение, условия оплаты, стадию проекта, расходы и соответствие вашей цели покупки. Актуальные варианты нужно подтвердить перед формированием окончательной подборки.",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "Цены, наличие, условия оплаты и сроки проектов необходимо подтвердить до принятия решения о покупке.",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "Поисковый запрос",
+          "value": "Премиальная недвижимость"
+        },
+        {
+          "key": "location",
+          "label": "Расположение",
+          "value": "Al Qusaidat"
+        },
+        {
+          "key": "market",
+          "label": "Рынок",
+          "value": "Ras Al Khaimah / UAE"
+        },
+        {
+          "key": "property_focus",
+          "label": "Тип недвижимости",
+          "value": "Премиальную недвижимость"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "Цель покупателя",
+          "value": "Проверка условий владения"
+        },
+        {
+          "key": "main_checks",
+          "label": "Основные проверки",
+          "value": "Премиальную недвижимость"
+        },
+        {
+          "key": "project_match",
+          "label": "Соответствие проектов",
+          "value": "Соответствие проектов пока не подтверждено"
+        },
+        {
+          "key": "current_details",
+          "label": "Актуальные данные",
+          "value": "Подходящие проекты требуют подтверждения"
+        }
+      ],
+      "title": "Параметры поиска",
+      "eyebrow": "Ключевые факты",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "Сравните приватность, доступность и позиционирование.",
+          "title": "Жильё в премиальных локациях"
+        },
+        {
+          "text": "Проверьте площадь, качество отделки и практичность.",
+          "title": "Варианты с понятными условиями"
+        },
+        {
+          "text": "Проверьте инфраструктуру и регулярные расходы.",
+          "title": "Варианты, соответствующие району"
+        },
+        {
+          "text": "Сверьте актуальные данные перед включением варианта в подборку.",
+          "title": "Варианты для финальной проверки"
+        }
+      ],
+      "title": "Варианты для проверки",
+      "eyebrow": "Что сравнивать",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "insufficient_pair_evidence",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "Сравнивайте премиальную недвижимость по цене, качеству, расположению, условиям оплаты, расходам и соответствию вашей цели. Один рекламный показатель не должен определять подборку.",
+      "tags": [
+        "Расположение",
+        "Приватность",
+        "Планировка",
+        "Сервисы",
+        "Регулярные расходы"
+      ],
+      "title": "Логика подбора",
+      "eyebrow": "Как сравнивать",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "Сравните цену, характеристики объекта и актуальные условия.",
+          "title": "Проверить ключевые параметры",
+          "eyebrow": "Премиальный контекст"
+        },
+        {
+          "dark": false,
+          "text": "Оцените расположение, формат недвижимости и соответствие вашим задачам.",
+          "title": "Оценить соответствие цели",
+          "eyebrow": "Кому подходит"
+        },
+        {
+          "dark": false,
+          "text": "Проверьте документы, расходы, сроки и параметры конкретного проекта.",
+          "title": "Проверить риски и расходы",
+          "eyebrow": "Перед выбором"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI поможет сопоставить варианты по вашим приоритетам и подготовить подборку.",
+          "title": "Сравнить премиальные варианты недвижимости",
+          "eyebrow": "AI-подбор"
+        }
+      ],
+      "cards_aria": "Рекомендации для принятия решения",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/intents/branded-residences-in-al-qusaidat/",
+            "meta": "брендированные резиденции",
+            "label": "Брендированные резиденции в районе Al Qusaidat"
+          },
+          {
+            "href": "/ru/intents/golden-visa-properties-in-al-qusaidat/",
+            "meta": "вариант для планирования резидентства",
+            "label": "Недвижимость для планирования Golden Visa в районе Al Qusaidat"
+          },
+          {
+            "href": "/ru/intents/capital-growth-properties-in-al-qusaidat/",
+            "meta": "фокус на росте стоимости",
+            "label": "Недвижимость с потенциалом роста стоимости в районе Al Qusaidat"
+          },
+          {
+            "href": "/ru/intents/trusted-developer-projects-in-al-qusaidat/",
+            "meta": "Проверки застройщика",
+            "label": "Проекты известных застройщиков в районе Al Qusaidat"
+          },
+          {
+            "href": "/ru/intents/off-plan-villas-in-al-qusaidat/",
+            "meta": "Вариант для сравнения · актуальные данные требуют проверки",
+            "label": "Виллы на стадии строительства в районе Al Qusaidat"
+          }
+        ],
+        "title": "Проверка проектов",
+        "eyebrow": "Варианты подбора"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/ru/areas/al-qusaidat/",
+            "meta": "Текущий район",
+            "label": "Al Qusaidat"
+          },
+          {
+            "href": "/ru/areas/al-seer/",
+            "meta": "Похожий профиль района",
+            "label": "Al Seer"
+          },
+          {
+            "href": "/ru/areas/al-mamourah/",
+            "meta": "Похожий профиль района",
+            "label": "Al Mamourah"
+          },
+          {
+            "href": "/ru/areas/al-nakheel/",
+            "meta": "Похожий профиль района",
+            "label": "Al Nakheel"
+          },
+          {
+            "href": "/ru/areas/seih-al-uraibi/",
+            "meta": "Похожий профиль района",
+            "label": "Seih Al Uraibi"
+          }
+        ],
+        "title": "Районы для сравнения",
+        "eyebrow": "Где искать"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "Кому подходит",
+        "eyebrow": "Для кого эта страница",
+        "good_for": [
+          "Покупателям, которые ищут премиальную недвижимость в районе Al Qusaidat",
+          "Покупателям, готовым сравнивать цену, условия и параметры конкретных проектов",
+          "Покупателям, которым важна проверка актуальных данных перед решением"
+        ],
+        "less_for": [
+          "Покупателям, которым нужен гарантированный результат без проверки конкретного объекта",
+          "Покупателям, выбирающим только по рекламной цене, бренду или названию проекта",
+          "Покупателям, не готовым проверять расходы, документы и актуальные условия"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "Подходит для",
+        "less_for_title": "Может не подойти"
+      },
+      "risk_notes": {
+        "body": "Для поиска «Премиальная недвижимость в районе Al Qusaidat» отдельно проверьте актуальные цены, наличие, документы, расходы, сроки и условия конкретного проекта. Общие маркетинговые заявления не должны заменять проверку объекта.",
+        "tags": [
+          "Точное расположение",
+          "Приватность",
+          "Актуальная проверка",
+          "Регулярные расходы",
+          "Глубина рынка перепродажи"
+        ],
+        "title": "Ключевые проверки",
+        "eyebrow": "Перед выбором",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Compare high-end ownership options",
+        "page_group": "intent_district",
+        "intent_slug": "luxury-properties",
+        "main_checks": "Location · privacy · services · costs",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "al-qusaidat",
+        "search_intent": "Luxury property",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "Premium property",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/ru/intents/long-term-investment-properties-in-al-qusaidat/",
+          "label": "Недвижимость для долгосрочных инвестиций в районе Al Qusaidat"
+        },
+        {
+          "href": "/ru/intents/new-launch-projects-in-al-qusaidat/",
+          "label": "Новые проекты в районе Al Qusaidat"
+        },
+        {
+          "href": "/ru/intents/best-off-plan-projects-in-al-qusaidat/",
+          "label": "Лучшие проекты на стадии строительства в районе Al Qusaidat"
+        },
+        {
+          "href": "/ru/intents/off-plan-apartments-in-al-qusaidat/",
+          "label": "Апартаменты на стадии строительства в районе Al Qusaidat"
+        }
+      ],
+      "title": "Похожие запросы",
+      "eyebrow": "Смотреть дальше",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Проверьте актуальные варианты, цену, условия оплаты, статус проекта, расходы и соответствие вашей цели по запросу «Премиальная недвижимость в районе Al Qusaidat».",
+          "question": "Что важно проверить для поиска «Премиальная недвижимость в районе Al Qusaidat»?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Сравнивайте типы недвижимости по планировке, полной стоимости, расположению, срокам и практичности для вашей цели.",
+          "question": "Какие типы премиальной недвижимости стоит сравнить в районе Al Qusaidat?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Перед включением объекта в подборку проверьте документы, актуальное наличие, цену, график платежей, срок сдачи и регулярные расходы.",
+          "question": "Что нужно проверить перед включением премиальной недвижимости в подборку?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Да. Сравните районы с похожим бюджетом и форматом недвижимости по инфраструктуре, спросу, расходам, зрелости и будущему предложению.",
+          "question": "Стоит ли сравнить другие премиальные районы с районом Al Qusaidat?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Да. Primadom AI может сравнить актуальные варианты по типу недвижимости, цене, условиям оплаты, стадии проекта, соответствию району и цели покупки, а затем подготовить точечную подборку для района Al Qusaidat, которую консультант проверит по актуальным данным.",
+          "question": "Может ли Primadom AI сравнить варианты для этого поиска в районе Al Qusaidat?",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы покупателей",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Luxury properties in Al Qusaidat",
+        "page_group": "intent_district",
+        "intent_slug": "luxury-properties",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Al Qusaidat",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Перед тем как опираться на эту подборку премиальной недвижимости в районе Al Qusaidat, проверьте конкретный объект, актуальную цену и наличие, модель сервиса, регулярные платежи, условия управления, статус проекта и детали сдачи по актуальным официальным материалам и вместе с консультантом.",
+      "items": [
+        {
+          "label": "Цена / наличие",
+          "value": "Нужна актуальная проверка"
+        },
+        {
+          "label": "Услуги / расходы",
+          "value": "Нужны условия конкретного проекта"
+        },
+        {
+          "label": "Статус проекта",
+          "value": "Требуется официальный источник"
+        },
+        {
+          "label": "Проверка источников",
+          "value": "Ожидает проверки"
+        }
+      ],
+      "title": "Проверка источников",
+      "eyebrow": "Проверка",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_services_management_and_recurring_charges",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "luxury-properties",
+        "source_focus": "luxury",
+        "district_name": "Al Qusaidat",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "Укажите предпочитаемый формат недвижимости, сроки и приоритеты. Primadom AI сравнит актуальные премиальные варианты по расположению, услугам, расходам и стадии проекта, а затем подготовит подборку для актуальной проверки.",
+      "title": "Изучить премиальные варианты",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "Получить подборку премиальных вариантов",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Спросить Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "Заказать звонок",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "luxury",
+        "hero_title": "Luxury properties in Al Qusaidat",
+        "page_group": "intent_district",
+        "intent_slug": "luxury-properties",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Al Qusaidat",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса по поиску недвижимости",
+      "note": "Мы проверим детали перед передачей вашего запроса консультанту.",
+      "text": "Расскажите, что для вас важнее всего. Primadom AI подготовит краткий запрос по премиальной недвижимости до того, как консультант вместе с вами проверит актуальные варианты.",
+      "title": "Найти варианты премиальной недвижимости",
+      "fields": {
+        "name": "Имя",
+        "email": "Email (необязательно)",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Запрос"
+      },
+      "submit": "Отправить запрос",
+      "comment": "Сравнить актуальные варианты по типу недвижимости, району, условиям оплаты, срокам и цели покупки.",
+      "eyebrow": "Запрос по проектам",
+      "success": "Отправлено",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "Закрыть",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "luxury",
+        "page_group": "intent_district",
+        "intent_slug": "luxury-properties",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Al Qusaidat",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "Черновик запроса",
+      "field_config": {
+        "name": {
+          "label": "Имя",
+          "html_name": "name",
+          "placeholder": "Ваше имя"
+        },
+        "email": {
+          "label": "Email (необязательно)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Телефон / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Запрос",
+          "html_name": "comment",
+          "placeholder": "Что вы ищете?"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "Ваше имя",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "Отправить запрос",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "Отправлено",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Сравнить актуальные варианты по типу недвижимости, району, условиям оплаты, срокам и цели покупки.",
+        "html_name": "comment",
+        "request_scope": [
+          "luxury_property",
+          "property_format",
+          "location_fit",
+          "services",
+          "recurring_charges",
+          "project_stage",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "Использовать голос"
+    },
+    "block_17_footer": {
+      "text": "Сравните премиальные варианты, расположение, сервис и ключевые параметры до консультации со специалистом Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Подберите подходящую недвижимость в ОАЭ с понятными ориентирами.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, ОАЭ",
+      "subtitle": "Аналитика недвижимости ОАЭ",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "luxury-properties",
+        "footer_focus": "luxury",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "Записаться на звонок",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "Спросить AI",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

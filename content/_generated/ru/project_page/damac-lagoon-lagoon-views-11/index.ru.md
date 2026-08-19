@@ -1,0 +1,10 @@
+---
+title: "damac-lagoon-lagoon-views-11"
+layout: "primadom-project-page-v2"
+project_slug: "damac-lagoon-lagoon-views-11"
+page_id: "page_project_damac_lagoon_lagoon_views_11_ru"
+url: "/ru/projects/damac-lagoon-lagoon-views-11/"
+build:
+  render: always
+  list: never
+---

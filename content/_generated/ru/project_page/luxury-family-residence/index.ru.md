@@ -1,0 +1,10 @@
+---
+title: "luxury-family-residence"
+layout: "primadom-project-page-v2"
+project_slug: "luxury-family-residence"
+page_id: "page_project_luxury_family_residence_ru"
+url: "/ru/projects/luxury-family-residence/"
+build:
+  render: always
+  list: never
+---

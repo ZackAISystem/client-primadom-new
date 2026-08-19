@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_ready_to_move_buyer_al_marjan_island_ru",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ru",
+  "url_path": "/ru/buyer-scenarios/ready-to-move-buyer-in-al-marjan-island/",
+  "canonical_url_path": "/ru/buyer-scenarios/ready-to-move-buyer-in-al-marjan-island/",
+  "canonical_group_key": "scenario_district:ready_to_move_buyer:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Ответ",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Районы",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Процесс",
+          "active": false
+        },
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить AI",
+          "active": false,
+          "ai": true
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Навигация по сценарию покупателя",
+      "cta_label": "Проверить сценарий",
+      "brand_href": "/ru/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ru/",
+          "label": "Главная"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ru/buyer-scenarios/",
+          "label": "Сценарии покупателей"
+        },
+        {
+          "key": "district",
+          "href": "/ru/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/ru/buyer-scenarios/ready-to-move-buyer-in-al-marjan-island/",
+          "label": "Покупатель готовой к заселению недвижимости в Al Marjan Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Навигационная цепочка"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Готовая недвижимость",
+        "Al Marjan Island",
+        "Квартиры · Таунхаусы · Виллы",
+        "Просмотр и состояние",
+        "Статус · сроки · состояние"
+      ],
+      "image": {
+        "alt": "Поиск недвижимости по сценарию «Покупатель готовой к заселению недвижимости в Al Marjan Island»",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Покупатель готовой к заселению недвижимости в Al Marjan Island",
+      "subtitle": "Для готового объекта решение строится на фактах: просмотре, состоянии, текущем статусе, сроках сделки, возможности быстрого использования и необходимых расходах после покупки. Для вариантов в Al Marjan Island проверяйте конкретный объект, текущие расходы и условия сделки перед формированием короткого списка.",
+      "facts_aria": "Ключевые параметры сценария покупателя",
+      "section_id": "overview",
+      "visual_aria": "Визуальный блок поиска недвижимости по сценарию «Покупатель готовой к заселению недвижимости в Al Marjan Island»",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Сравнить варианты в Al Marjan Island для сценария «Покупатель готовой к заселению недвижимости»",
+        "Проверить ключевые критерии: фактическое состояние, просмотр объекта и текущий статус",
+        "Какие варианты лучше соответствуют этому сценарию?"
+      ],
+      "ai_aria": "Спросить Primadom AI о сценарии «Покупатель готовой к заселению недвижимости в Al Marjan Island»",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Сравнить варианты в Al Marjan Island для сценария «Покупатель готовой к заселению недвижимости»",
+      "placeholder": "Сравнить варианты в Al Marjan Island для сценария «Покупатель готовой к заселению недвижимости»",
+      "voice_label": "Голосовой поиск",
+      "block_status": "final",
+      "submit_label": "Спросить AI",
+      "voice_status": "Слушаю…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Введите запрос или попробуйте снова",
+      "voice_button_label": "Начать голосовой поиск",
+      "voice_error_status": "Голосовой ввод приостановлен",
+      "voice_fallback_text": "Распознавание речи здесь не поддерживается",
+      "voice_success_status": "Готово",
+      "voice_fallback_status": "Голосовой режим"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Готовность к заселению",
+        "Al Marjan Island",
+        "Состояние объекта",
+        "Просмотр · сроки · статус",
+        "Спросить AI"
+      ],
+      "title": "Что важнее всего",
+      "eyebrow": "Рекомендации покупателю",
+      "body_html": "<strong>Для этого сценария в Al Marjan Island</strong> ключевые критерии — фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию. Для готового объекта решение строится на фактах: просмотре, состоянии, текущем статусе, сроках сделки, возможности быстрого использования и необходимых расходах после покупки.",
+      "body_text": "Для этого сценария в Al Marjan Island ключевые критерии — фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию. Для готового объекта решение строится на фактах: просмотре, состоянии, текущем статусе, сроках сделки, возможности быстрого использования и необходимых расходах после покупки.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Сценарий",
+          "value": "Покупатель готовой к заселению недвижимости"
+        },
+        {
+          "label": "Основная цель",
+          "value": "Готовая недвижимость"
+        },
+        {
+          "label": "Расположение",
+          "value": "Al Marjan Island"
+        },
+        {
+          "label": "Тип недвижимости",
+          "value": "Квартиры · Таунхаусы · Виллы"
+        },
+        {
+          "label": "Бюджетный диапазон",
+          "value": "Без фиксированного диапазона"
+        },
+        {
+          "label": "Критерий решения",
+          "value": "Состояние · сроки · статус"
+        },
+        {
+          "label": "Этап покупателя",
+          "value": "Проверка / покупка"
+        },
+        {
+          "label": "Следующий шаг",
+          "value": "Проверить текущий статус объекта"
+        }
+      ],
+      "title": "Параметры сценария",
+      "eyebrow": "Ключевые факты",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Для кого эта страница",
+        "eyebrow": "Кому подходит",
+        "bad_items": [
+          "Покупатели, принимающие решение только по цене или одному маркетинговому показателю",
+          "Покупатели, ставящие скорость сделки выше состояния объекта или соответствия локации",
+          "Покупатели, не готовые учитывать весь набор критериев: фактическое состояние, просмотр объекта и сопутствующие расходы"
+        ],
+        "bad_title": "Может не подойти",
+        "good_items": [
+          "Покупатели, для которых особенно важны критерии: фактическое состояние и просмотр объекта",
+          "Покупатели, готовые сравнивать критерии: текущий статус, сроки сделки и полная стоимость решения",
+          "Покупатели, которые хотят проверить конкретные варианты в Al Marjan Island до принятия решения"
+        ],
+        "good_title": "Подходит для"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "В Al Marjan Island начинайте сравнение с реального сценария использования и одинаковых критериев для всех вариантов. Ключевые критерии: фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию. Отдельно проверяйте текущие расходы, статус объекта и условия сделки.",
+        "tags": [
+          "Статус объекта",
+          "Состояние",
+          "Сроки заселения",
+          "Стоимость владения",
+          "Комплексная проверка"
+        ],
+        "title": "Что учитывать",
+        "eyebrow": "Логика решения"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "В Al Marjan Island оцените локацию по ключевым критериям: фактическое состояние, просмотр объекта и текущий статус. Само название района не заменяет проверку конкретного объекта и ежедневного сценария.",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "Сравните соседние или альтернативные районы по тем же критериям: фактическое состояние, просмотр объекта и текущий статус. Это помогает увидеть реальную цену компромиссов.",
+            "title": "Сравнить альтернативы"
+          },
+          {
+            "text": "Проверяйте набор критериев вместе: фактическое состояние, просмотр объекта и текущий статус. Более низкая цена или известная локация не должны скрывать слабый общий сценарий.",
+            "title": "Ключевой критерий: фактическое состояние"
+          },
+          {
+            "text": "До формирования короткого списка сравните полную стоимость владения, практичность локации и соответствие объекта сценарию «Покупатель готовой к заселению недвижимости».",
+            "title": "Перед сужением выбора"
+          }
+        ],
+        "title": "Контекст района",
+        "eyebrow": "Подходящие районы"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Позволяют проверить фактическую квартиру, состояние, сервисные сборы и готовность к использованию или сдаче.",
+            "title": "Готовые квартиры"
+          },
+          {
+            "text": "Удобны для проверки реального пространства, парковки, состояния и расходов сообщества до покупки.",
+            "title": "Готовые таунхаусы"
+          },
+          {
+            "text": "Позволяют проверить состояние, приватность, участок и расходы на содержание до заключения сделки.",
+            "title": "Готовые виллы"
+          },
+          {
+            "text": "Сравнивайте готовый и off-plan объект по срокам использования, графику платежей, рискам исполнения и полной стоимости.",
+            "title": "Готовая или off-plan"
+          }
+        ],
+        "title": "Типы недвижимости для сравнения",
+        "eyebrow": "Соответствие недвижимости"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Сначала зафиксируйте критерии: фактическое состояние, просмотр объекта и текущий статус. Затем сопоставьте их с полной стоимостью и практичностью конкретного объекта.",
+          "title": "Зафиксируйте главный критерий: фактическое состояние",
+          "eyebrow": "Логика бюджета"
+        },
+        {
+          "text": "В Al Marjan Island применяйте одинаковый набор критериев к каждому варианту: фактическое состояние, просмотр объекта, текущий статус и сроки сделки.",
+          "title": "Сравнивайте варианты на одной основе",
+          "eyebrow": "Этапы процесса"
+        },
+        {
+          "text": "Проверьте два риска в первую очередь: считать готовность объекта подтверждённой без проверки и не заметить расходы на ремонт и обустройство. Решение должно выдерживать проверку конкретного объекта.",
+          "title": "Не скрывайте главный риск",
+          "eyebrow": "Риски"
+        },
+        {
+          "text": "Primadom AI может сопоставить варианты в Al Marjan Island по набору критериев: фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию.",
+          "title": "Сравните сценарий с Primadom AI",
+          "eyebrow": "Primadom AI",
+          "dark": true
+        }
+      ],
+      "cards_aria": "Рекомендации для принятия решения",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Для этого сценария основные риски: считать готовность объекта подтверждённой без проверки, не заметить расходы на ремонт и обустройство, недооценить сроки сделки и не проверить документы и состояние. В Al Marjan Island проверяйте каждый риск на уровне конкретного объекта и актуальных условий.",
+        "tags": [
+          "Состояние",
+          "Владение",
+          "Расходы на заселение",
+          "Повседневная доступность",
+          "Сроки"
+        ],
+        "title": "Риски",
+        "eyebrow": "Проверить перед покупкой"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "До просмотра вариантов определите требования по критерию «фактическое состояние» и зафиксируйте параметры, которыми нельзя жертвовать.",
+            "title": "Зафиксируйте критерий: фактическое состояние"
+          },
+          {
+            "text": "По критерию «просмотр объекта» проверьте конкретный объект, текущие расходы, документы и фактические условия.",
+            "title": "Проверьте критерий: просмотр объекта"
+          },
+          {
+            "text": "В Al Marjan Island сопоставьте критерии «текущий статус» и «сроки сделки» с повседневным использованием недвижимости.",
+            "title": "Сопоставьте критерий: текущий статус"
+          },
+          {
+            "text": "Перед обязательством по сделке перепроверьте критерий «сроки сделки», сроки, платежи и актуальный статус выбранного объекта.",
+            "title": "Подтвердите критерий: сроки сделки"
+          }
+        ],
+        "title": "Документы и процесс",
+        "eyebrow": "Практические детали"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ru/projects/address-residences-al-marjan-island/",
+            "meta": "Emaar Properties · Al Marjan Island",
+            "label": "Address Residences Al Marjan Island"
+          },
+          {
+            "href": "/ru/projects/costa-mare/",
+            "meta": "Ellington · Al Marjan Island",
+            "label": "Costa Mare"
+          },
+          {
+            "href": "/ru/projects/danah-bay/",
+            "meta": "Dubai Investment Properties · Al Marjan Island",
+            "label": "Danah Bay"
+          },
+          {
+            "href": "/ru/projects/masa-residence/",
+            "meta": "Durar Group · Al Marjan Island",
+            "label": "Masa Residence"
+          },
+          {
+            "href": "/ru/projects/shoreline/",
+            "meta": "Damac Properties · Al Marjan Island",
+            "label": "Shoreline"
+          }
+        ],
+        "title": "Проекты для сравнения",
+        "eyebrow": "Варианты для подбора"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "В этом сценарии нет фиксированного ценового диапазона. Заранее задайте собственный предел полной финансовой нагрузки и отдельно учитывайте цену объекта, расходы на покупку, регулярные платежи, обустройство и денежный резерв.",
+        "tags": [
+          "Цена покупки",
+          "Расходы на покупку",
+          "Ремонт",
+          "Меблировка",
+          "Расходы на заселение"
+        ],
+        "title": "Логика бюджета",
+        "eyebrow": "Бюджет сценария"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ru/buyer-scenarios/off-plan-payment-plan-buyer-in-al-marjan-island/",
+          "label": "Покупатель недвижимости off-plan с планом оплаты в Al Marjan Island"
+        },
+        {
+          "href": "/ru/buyer-scenarios/comparison-decision-buyer-in-al-marjan-island/",
+          "label": "Покупатель на этапе сравнения в Al Marjan Island"
+        },
+        {
+          "href": "/ru/buyer-scenarios/family-relocation-buyer/",
+          "label": "Покупатель недвижимости для семейного переезда"
+        },
+        {
+          "href": "/ru/buyer-scenarios/remote-buyer-buying-from-abroad-in-al-marjan-island/",
+          "label": "Покупатель, приобретающий недвижимость удалённо из-за рубежа в Al Marjan Island"
+        }
+      ],
+      "title": "Похожие сценарии",
+      "eyebrow": "Смотреть дальше",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ключевые критерии: фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию. Их нужно оценивать вместе, а не по одному.",
+          "question": "Что важнее всего для этого сценария в Al Marjan Island?"
+        },
+        {
+          "answer": "Он подходит покупателям, которые хотят принимать решение на основе набора критериев: фактическое состояние, просмотр объекта и полная стоимость, а не только по цене или маркетинговому обещанию.",
+          "question": "Кому подходит этот сценарий в Al Marjan Island?"
+        },
+        {
+          "answer": "Перед выбором готового объекта в Al Marjan Island осмотрите конкретный объект, его состояние и включённое оснащение, проверьте сборы здания или сообщества, документы на владение и передачу, а также ближайшие расходы на необходимые работы.",
+          "question": "Что нужно проверить перед выбором конкретного объекта в Al Marjan Island?"
+        },
+        {
+          "answer": "Считайте полную финансовую нагрузку, а не только цену объекта: расходы сделки, регулярные платежи, обустройство и денежный резерв нужно учитывать отдельно.",
+          "question": "Как учитывать бюджет и сопутствующие расходы для вариантов в Al Marjan Island?"
+        },
+        {
+          "answer": "Ключевые риски: считать готовность объекта подтверждённой без проверки, не заметить расходы на ремонт и обустройство, недооценить сроки сделки и не проверить документы и состояние. Их нужно проверять на уровне конкретного объекта и текущих условий.",
+          "question": "Какие основные риски нужно учитывать?"
+        }
+      ],
+      "title": "Частые вопросы",
+      "eyebrow": "Вопросы по сценарию",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Перед решением по этому сценарию в Al Marjan Island перепроверьте текущие данные по объекту, расходы, сроки, документы и условия сделки. Критерии для отдельной проверки: фактическое состояние, просмотр объекта, текущий статус и сроки сделки.",
+      "items": [
+        {
+          "label": "Фактическое состояние",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Просмотр объекта",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Текущий статус",
+          "value": "Проверить актуальные данные перед решением"
+        },
+        {
+          "label": "Сроки сделки",
+          "value": "Проверить актуальные данные перед решением"
+        }
+      ],
+      "title": "Источники и проверка",
+      "eyebrow": "Что проверить",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Сравните варианты в Al Marjan Island, используя единый набор критериев: фактическое состояние, просмотр объекта, текущий статус, сроки сделки и готовность к использованию. Primadom AI поможет структурировать сравнение до разговора с консультантом.",
+      "title": "Хотите проверить сценарий «Покупатель готовой к заселению недвижимости»?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Спросить Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Рассмотреть варианты",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Заказать звонок",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Форма запроса по сценарию покупателя",
+      "text": "Укажите приоритеты по следующим критериям: фактическое состояние, просмотр объекта, текущий статус и сроки сделки. Это даст консультанту контекст для сравнения вариантов в Al Marjan Island до разговора.",
+      "title": "Проверить сценарий: Покупатель готовой к заселению недвижимости",
+      "fields": {
+        "name": "Ваше имя",
+        "email": "Email",
+        "phone": "Телефон / WhatsApp",
+        "comment": "Готовый запрос"
+      },
+      "submit": "Отправить",
+      "comment": "Помогите сравнить варианты по ключевым критериям этого сценария",
+      "eyebrow": "AI-анализ сценария",
+      "success": "Отправлено",
+      "close_label": "Закрыть",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Имя",
+        "email": "Email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "В Al Marjan Island используйте единый набор критериев: фактическое состояние, просмотр объекта, текущий статус и сроки сделки. Перед выбором объекта отдельно проверьте полную стоимость владения.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Проекты",
+        "Районы",
+        "Застройщики",
+        "AI-поиск"
+      ],
+      "title": "Сравните сценарий «Покупатель готовой к заселению недвижимости» по ключевым критериям",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Дубай, Объединённые Арабские Эмираты",
+      "subtitle": "Аналитика недвижимости",
+      "brand_url": "/ru/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Ссылки на соцсети",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Записаться на звонок"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Спросить AI"
+      }
+    }
+  }
+}
