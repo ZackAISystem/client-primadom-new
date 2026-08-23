@@ -1,37 +1,54 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT="$(pwd)"
-
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TMP="$(mktemp -d)"
 HOLD="$ROOT/.build-hold-$$"
 
-mkdir -p "$HOLD"
+mkdir -p "$HOLD/hi"
+mkdir -p "$HOLD/enru-data"
+mkdir -p "$HOLD/enru-content"
 
 ENRU_OUT="$TMP/enru"
 HI_OUT="$TMP/hi"
 
-HI_DATA="$ROOT/data/primadom/hi"
-HI_CONTENT="$ROOT/content/_generated/hi"
-
-HI_DATA_HOLD="$HOLD/hi-data"
-HI_CONTENT_HOLD="$HOLD/hi-content"
-
 restore_hi() {
-  if [ -d "$HI_DATA_HOLD" ] && [ ! -d "$HI_DATA" ]; then
-    mv "$HI_DATA_HOLD" "$HI_DATA"
+  if [ -d "$HOLD/hi/data" ] && [ ! -d "$ROOT/data/primadom/hi" ]; then
+    mv "$HOLD/hi/data" "$ROOT/data/primadom/hi"
   fi
 
-  if [ -d "$HI_CONTENT_HOLD" ] && [ ! -d "$HI_CONTENT" ]; then
-    mv "$HI_CONTENT_HOLD" "$HI_CONTENT"
+  if [ -d "$HOLD/hi/content" ] && [ ! -d "$ROOT/content/_generated/hi" ]; then
+    mv "$HOLD/hi/content" "$ROOT/content/_generated/hi"
+  fi
+}
+
+restore_enru() {
+  if [ -d "$HOLD/enru-data/ru" ] && [ ! -d "$ROOT/data/primadom/ru" ]; then
+    mv "$HOLD/enru-data/ru" "$ROOT/data/primadom/ru"
   fi
 
-  rmdir "$HOLD" 2>/dev/null || true
+  for D in "$HOLD"/enru-data/*_pages_v2; do
+    [ -e "$D" ] || continue
+    mv "$D" "$ROOT/data/primadom/"
+  done
+
+  if [ -d "$HOLD/enru-content/en" ] && [ ! -d "$ROOT/content/_generated/en" ]; then
+    mv "$HOLD/enru-content/en" "$ROOT/content/_generated/en"
+  fi
+
+  if [ -d "$HOLD/enru-content/ru" ] && [ ! -d "$ROOT/content/_generated/ru" ]; then
+    mv "$HOLD/enru-content/ru" "$ROOT/content/_generated/ru"
+  fi
 }
 
 cleanup() {
   restore_hi
+  restore_enru
   rm -rf "$TMP"
+  rmdir "$HOLD/hi" 2>/dev/null || true
+  rmdir "$HOLD/enru-data" 2>/dev/null || true
+  rmdir "$HOLD/enru-content" 2>/dev/null || true
+  rmdir "$HOLD" 2>/dev/null || true
 }
 
 trap cleanup EXIT INT TERM
@@ -50,28 +67,54 @@ echo "======================================"
 echo "BUILD 1/2 — EN + RU + AR"
 echo "======================================"
 
-mv "$HI_DATA" "$HI_DATA_HOLD"
-mv "$HI_CONTENT" "$HI_CONTENT_HOLD"
+mv "$ROOT/data/primadom/hi" "$HOLD/hi/data"
+mv "$ROOT/content/_generated/hi" "$HOLD/hi/content"
+
+echo "DATA VISIBLE TO BUILD 1:"
+du -sh "$ROOT/data"
 
 hugo \
-  --config hugo.toml,"$TMP/enru.toml" \
+  --config "$ROOT/hugo.toml","$TMP/enru.toml" \
   --minify \
   --destination "$ENRU_OUT"
 
 echo ""
-echo "RESTORE HI SOURCE — START"
+echo "BUILD 1 DONE"
+
 restore_hi
-echo "RESTORE HI SOURCE — DONE"
 
 echo ""
 echo "======================================"
-echo "BUILD 2/2 — HI"
+echo "PREPARE HI-ONLY SOURCE"
+echo "======================================"
+
+mv "$ROOT/data/primadom/ru" "$HOLD/enru-data/ru"
+
+for D in "$ROOT"/data/primadom/*_pages_v2; do
+  [ -e "$D" ] || continue
+  mv "$D" "$HOLD/enru-data/"
+done
+
+mv "$ROOT/content/_generated/en" "$HOLD/enru-content/en"
+mv "$ROOT/content/_generated/ru" "$HOLD/enru-content/ru"
+
+echo "DATA VISIBLE TO BUILD 2:"
+du -sh "$ROOT/data"
+
+echo ""
+echo "======================================"
+echo "BUILD 2/2 — HI ONLY"
 echo "======================================"
 
 hugo \
-  --config hugo.toml,"$TMP/hi.toml" \
+  --config "$ROOT/hugo.toml","$TMP/hi.toml" \
   --minify \
   --destination "$HI_OUT"
+
+echo ""
+echo "BUILD 2 DONE"
+
+restore_enru
 
 echo ""
 echo "======================================"
