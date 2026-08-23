@@ -2,7 +2,11 @@
 set -euo pipefail
 
 ROOT="$(pwd)"
+
 TMP="$(mktemp -d)"
+HOLD="$ROOT/.build-hold-$$"
+
+mkdir -p "$HOLD"
 
 ENRU_OUT="$TMP/enru"
 HI_OUT="$TMP/hi"
@@ -10,8 +14,8 @@ HI_OUT="$TMP/hi"
 HI_DATA="$ROOT/data/primadom/hi"
 HI_CONTENT="$ROOT/content/_generated/hi"
 
-HI_DATA_HOLD="$TMP/hi-data"
-HI_CONTENT_HOLD="$TMP/hi-content"
+HI_DATA_HOLD="$HOLD/hi-data"
+HI_CONTENT_HOLD="$HOLD/hi-content"
 
 restore_hi() {
   if [ -d "$HI_DATA_HOLD" ] && [ ! -d "$HI_DATA" ]; then
@@ -21,9 +25,16 @@ restore_hi() {
   if [ -d "$HI_CONTENT_HOLD" ] && [ ! -d "$HI_CONTENT" ]; then
     mv "$HI_CONTENT_HOLD" "$HI_CONTENT"
   fi
+
+  rmdir "$HOLD" 2>/dev/null || true
 }
 
-trap restore_hi EXIT INT TERM
+cleanup() {
+  restore_hi
+  rm -rf "$TMP"
+}
+
+trap cleanup EXIT INT TERM
 
 cat > "$TMP/enru.toml" <<'CFG'
 disableLanguages = ["hi"]
@@ -47,7 +58,10 @@ hugo \
   --minify \
   --destination "$ENRU_OUT"
 
+echo ""
+echo "RESTORE HI SOURCE — START"
 restore_hi
+echo "RESTORE HI SOURCE — DONE"
 
 echo ""
 echo "======================================"
