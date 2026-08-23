@@ -1,0 +1,10 @@
+---
+title: "Aljada बनाम Dubailand"
+layout: "primadom-district-comparison-page-v2"
+comparison_slug: "aljada-vs-dubailand"
+page_id: "page_district_comparison_aljada_vs_dubailand_hi"
+url: "/hi/compare-areas/aljada-vs-dubailand/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "Dubai Properties बनाम Alef Group"
+layout: "primadom-developer-comparison-page-v2"
+comparison_slug: "dubai-properties-vs-alef-group"
+page_id: "page_developer_comparison_dubai_properties_vs_alef_group_hi"
+url: "/hi/compare-developers/dubai-properties-vs-alef-group/"
+build:
+  render: always
+  list: never
+---

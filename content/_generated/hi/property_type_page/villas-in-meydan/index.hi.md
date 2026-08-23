@@ -1,0 +1,10 @@
+---
+title: "Meydan में विला"
+layout: "primadom-property-type-page-v2"
+property_type_slug: "villas-in-meydan"
+page_id: "page_property_district_villas_meydan_hi"
+url: "/hi/property-types/villas-in-meydan/"
+build:
+  render: always
+  list: never
+---

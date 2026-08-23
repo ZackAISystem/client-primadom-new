@@ -1,0 +1,10 @@
+---
+title: "Al Raha Gardens में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-al-raha-gardens"
+page_id: "intent__branded-residences__district__al-raha-gardens__hi"
+url: "/hi/intents/branded-residences-in-al-raha-gardens/"
+build:
+  render: always
+  list: never
+---

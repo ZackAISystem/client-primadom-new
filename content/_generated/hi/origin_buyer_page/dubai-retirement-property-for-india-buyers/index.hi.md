@@ -1,0 +1,10 @@
+---
+title: "भारत के खरीदारों के लिए Dubai में रिटायरमेंट के लिए प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-retirement-property-for-india-buyers"
+page_id: "pg_bfb07fb70b0a7209b319b552f5ff"
+url: "/hi/buyer-scenarios/dubai-retirement-property-for-india-buyers/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "Siniyah Island में प्रवासी खरीदारों के लिए प्रॉपर्टी विकल्प"
+layout: "primadom-intent-page-v2"
+intent_slug: "expat-property-buyers-in-siniyah-island"
+page_id: "pg_3888607c4b25670ac9b9d625e061"
+url: "/hi/intents/expat-property-buyers-in-siniyah-island/"
+build:
+  render: always
+  list: never
+---

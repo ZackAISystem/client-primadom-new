@@ -1,0 +1,10 @@
+---
+title: "Aquamarine Beach Residences बनाम Delphine Beach Residences"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "aquamarine-beach-residences-vs-delphine-beach-residences"
+page_id: "project_comparison__aquamarine-beach-residences__vs__delphine-beach-residences__hi"
+url: "/hi/compare-projects/aquamarine-beach-residences-vs-delphine-beach-residences/"
+build:
+  render: always
+  list: never
+---

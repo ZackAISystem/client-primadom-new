@@ -1,0 +1,10 @@
+---
+title: "Palm Jebel Ali में प्रॉपर्टी"
+layout: "primadom-budget-page-v2"
+budget_slug: "under-aed-1m-in-palm-jebel-ali"
+page_id: "page_budget_district_under_aed_1m_palm_jebel_ali_hi"
+url: "/hi/budgets/under-aed-1m-in-palm-jebel-ali/"
+build:
+  render: always
+  list: never
+---

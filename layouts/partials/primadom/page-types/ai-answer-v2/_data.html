@@ -5,6 +5,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $aiAnswerData = index $ruData "ai_answer_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $aiAnswerData = index $hiData "ai_answer_pages" -}}
+{{- end -}}
 {{- $page := index $aiAnswerData $slug -}}
 
 {{- if not $page -}}

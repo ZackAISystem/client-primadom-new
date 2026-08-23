@@ -1,6 +1,10 @@
 {{- $slug := .Params.origin_buyer_slug | default "dubai-apartments-for-india-buyers" -}}
 
 {{- $originBuyerData := site.Data.primadom.origin_buyer_pages_v2 -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $originBuyerData = index $hiData "origin_buyer_pages" -}}
+{{- end -}}
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $originBuyerData = index $ruData "origin_buyer_pages" -}}

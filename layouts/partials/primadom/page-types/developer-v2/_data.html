@@ -23,6 +23,9 @@
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $developerData = index $ruData "developer_pages" -}}
+{{- else if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $developerData = index $hiData "developer_pages" -}}
 {{- end -}}
 {{- $page := index $developerData $slug -}}
 

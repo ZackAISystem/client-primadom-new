@@ -1,0 +1,10 @@
+---
+title: "District One West Phase 2 बनाम District One West Phase 1"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "disctrict-one-west-phase-2-vs-district-one-west-phase-1"
+page_id: "project_comparison__disctrict-one-west-phase-2__vs__district-one-west-phase-1__hi"
+url: "/hi/compare-projects/disctrict-one-west-phase-2-vs-district-one-west-phase-1/"
+build:
+  render: always
+  list: never
+---

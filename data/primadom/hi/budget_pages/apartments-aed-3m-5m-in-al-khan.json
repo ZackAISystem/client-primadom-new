@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_apartments_aed_3m_5m_al_khan_hi",
+  "page_type_id": "budget_page",
+  "language_code": "hi",
+  "url_path": "/hi/budgets/apartments-aed-3m-5m-in-al-khan/",
+  "canonical_url_path": "/hi/budgets/apartments-aed-3m-5m-in-al-khan/",
+  "canonical_group_key": "property_budget_district:apartments:aed_3m_5m:al-khan",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-khan",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "क्या खरीद सकते हैं",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "भुगतान योजना",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "लागत",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "बजट पेज नेविगेशन",
+      "cta_label": "बजट जाँचें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "budgets",
+          "href": "/hi/budgets/",
+          "label": "बजट"
+        },
+        {
+          "key": "property_type",
+          "href": "/hi/property-types/apartments/",
+          "label": "अपार्टमेंट्स"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/al-khan/",
+          "label": "Al Khan"
+        },
+        {
+          "key": "current",
+          "href": "/hi/budgets/apartments-aed-3m-5m-in-al-khan/",
+          "label": "Al Khan में AED 3M–5M के लिए Apartments"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 3M–5M",
+        "Al Khan",
+        "अपार्टमेंट्स",
+        "प्रोजेक्ट शुरू करने की कीमत नीचे रेंज",
+        "प्रीमियम स्पेसिफिकेशन की तुलना करें"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Al Khan में AED 3M–5M के लिए Apartments",
+      "subtitle": "Al Khan में अपार्टमेंट के लिए प्रोजेक्ट की शुरुआती कीमतें AED 3M–5M बैंड के नीचे शुरू होती हैं; तुलना करें कि उच्च बजट जगह, स्थिति, स्पेसिफिकेशन और स्वामित्व की लागत में क्या जोड़ता है।",
+      "facts_aria": "बजट पेज की मुख्य बातें",
+      "section_id": "overview",
+      "visual_aria": "Al Khan में AED 3M–5M के लिए बजट अवलोकन",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "बजट फिट, लेआउट, डिलीवरी प्रोफ़ाइल और कुल लागत से Al Khan में अपार्टमेंट की तुलना करें। वर्तमान कीमतों और उपलब्धता के लिए एक प्रोजेक्ट जांच की आवश्यकता होती है।",
+      "hints": [
+        "कौन से अपार्टमेंट प्रोजेक्ट इस बजट को फिट करते हैं?",
+        "क्या उच्च बजट अनलॉक करता है?",
+        "क्या स्वामित्व की लागत की उम्मीद है?"
+      ],
+      "title": "Al Khan में AED 3M–5M के भीतर अपार्टमेंट की जाँच करें",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए यथार्थवादी विकल्प का आकलन करें। प्रोजेक्ट की शुरुआती कीमतों का उपयोग ओरिएंटेशन के रूप में करें, लेआउट, स्थानों और डिलीवरी प्रोफ़ाइल की तुलना करें, और शॉर्टलिस्ट करने से पहले सटीक यूनिट की कीमतों की पुष्टि करें।",
+        "समझाओ कि क्या एक उच्च बजट Al Khan में अपार्टमेंट के लिए जोड़ सकता है: बड़े लेआउट, मजबूत स्थिति, उन्नत स्पेसिफिकेशन, व्यू, सुविधाओं और स्थान पर कम समझौता।",
+        "वर्तमान शुल्क, इंसेंटिव या उपलब्धता को सुनिश्चित किए बिना, Al Khan में अपार्टमेंट के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें।"
+      ],
+      "hint_items": [
+        {
+          "label": "कौन से अपार्टमेंट प्रोजेक्ट इस बजट को फिट करते हैं?",
+          "prompt": "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए यथार्थवादी विकल्प का आकलन करें। प्रोजेक्ट की शुरुआती कीमतों का उपयोग ओरिएंटेशन के रूप में करें, लेआउट, स्थानों और डिलीवरी प्रोफ़ाइल की तुलना करें, और शॉर्टलिस्ट करने से पहले सटीक यूनिट की कीमतों की पुष्टि करें।"
+        },
+        {
+          "label": "क्या उच्च बजट अनलॉक करता है?",
+          "prompt": "समझाओ कि क्या एक उच्च बजट Al Khan में अपार्टमेंट के लिए जोड़ सकता है: बड़े लेआउट, मजबूत स्थिति, उन्नत स्पेसिफिकेशन, व्यू, सुविधाओं और स्थान पर कम समझौता।"
+        },
+        {
+          "label": "क्या स्वामित्व की लागत की उम्मीद है?",
+          "prompt": "वर्तमान शुल्क, इंसेंटिव या उपलब्धता को सुनिश्चित किए बिना, Al Khan में अपार्टमेंट के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें।"
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Al Khan में AED 3M–5M के भीतर अपार्टमेंट के बारे में पूछो",
+      "placeholder": "Al Khan में AED 3M–5M के भीतर अपार्टमेंट के बारे में पूछो",
+      "voice_label": "वॉइस इनपुट शुरू करें",
+      "block_status": "final",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "मेरी स्थिति के अनुसार तुलना करें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "voice_active_label": "वॉइस इनपुट बंद करें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "live_check_required": true,
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "submit_loading_label": "AI से पूछा जा रहा है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड",
+      "voice_processing_label": "वॉइस इनपुट प्रोसेस हो रहा है"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 3M–5M",
+        "Al Khan",
+        "अपार्टमेंट्स",
+        "नीचे की कीमत शुरू करना",
+        "बड़े लेआउट की तुलना करें"
+      ],
+      "title": "आप क्या खरीद सकते हैं",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<p>Al Khan में अपार्टमेंट के लिए रिकॉर्ड प्रोजेक्ट शुरू की कीमतें AED 3M–5M लक्ष्य सीमा से नीचे हैं। लेआउट दक्षता, उपयोग योग्य क्षेत्रफल, फर्श और दृश्य, कम्प्लीशन प्रोफ़ाइल, सेवा शुल्क, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। बड़े लेआउट, मजबूत व्यू या बेहतर यूनिट पोज़िशन की तुलना करने के लिए अतिरिक्त बजट का उपयोग करें। केवल उन्मुखीकरण के रूप में कीमतों का इलाज करें और शॉर्टलिस्ट करने से पहले सटीक यूनिट कीमत, इंसेंटिव, भुगतान की शर्तें और उपलब्धता की पुष्टि करें।</p>",
+      "body_text": "Al Khan में अपार्टमेंट के लिए रिकॉर्ड प्रोजेक्ट शुरू की कीमतें AED 3M–5M लक्ष्य सीमा से नीचे हैं। लेआउट दक्षता, उपयोग योग्य क्षेत्रफल, फर्श और दृश्य, कम्प्लीशन प्रोफ़ाइल, सेवा शुल्क, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। बड़े लेआउट, मजबूत व्यू या बेहतर यूनिट पोज़िशन की तुलना करने के लिए अतिरिक्त बजट का उपयोग करें। केवल उन्मुखीकरण के रूप में कीमतों का इलाज करें और शॉर्टलिस्ट करने से पहले सटीक यूनिट कीमत, इंसेंटिव, भुगतान की शर्तें और उपलब्धता की पुष्टि करें।",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "बजट",
+          "value": "AED 3M–5M"
+        },
+        {
+          "key": "market",
+          "label": "बाज़ार",
+          "value": "शारजाह"
+        },
+        {
+          "key": "area",
+          "label": "क्षेत्र",
+          "value": "Al Khan"
+        },
+        {
+          "key": "property_type",
+          "label": "प्रॉपर्टी प्रकार",
+          "value": "अपार्टमेंट्स"
+        },
+        {
+          "key": "current_signal",
+          "label": "मौजूदा संकेत",
+          "value": "नीचे की कीमत शुरू करना"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "मुख्य समझौता",
+          "value": "लेआउट बनाम यूनिट स्थिति"
+        },
+        {
+          "key": "next_check",
+          "label": "अगली जाँच",
+          "value": "बड़े लेआउट"
+        },
+        {
+          "key": "unit_status",
+          "label": "यूनिट की स्थिति",
+          "value": "लाइव उपलब्धता सत्यापित करें"
+        }
+      ],
+      "title": "बजट का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "दर्ज शुरुआती कीमतें इस बजट बैंड के नीचे बैठती हैं; बड़े या उन्नत इकाइयों की तुलना करें।",
+            "title": "Al Khan"
+          },
+          {
+            "text": "सटीक शुरुआती मैचों को सीमित होने पर तुलना करने के लिए एक प्रासंगिक क्षेत्र।",
+            "title": "Maryam Island"
+          },
+          {
+            "text": "सटीक शुरुआती मैचों को सीमित होने पर तुलना करने के लिए एक प्रासंगिक क्षेत्र।",
+            "title": "Al Mamsha"
+          },
+          {
+            "text": "सटीक शुरुआती मैचों को सीमित होने पर तुलना करने के लिए एक प्रासंगिक क्षेत्र।",
+            "title": "Aljada"
+          }
+        ],
+        "title": "तुलना करने के लिए जिले",
+        "eyebrow": "क्षेत्र का संदर्भ"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "यह पृष्ठ इस प्रॉपर्टी प्रकार को लक्षित करता है, लेकिन वर्तमान में कोई दर्ज प्रोजेक्ट शुरू करने की कीमत बजट के अंदर गिरती है।",
+            "title": "अपार्टमेंट्स"
+          },
+          {
+            "text": "4 प्रोजेक्ट्स ने व्यापक बाजार में शुरुआती कीमतों को दर्ज किया है; इस प्रारूप को Al Khan में सत्यापित करें।",
+            "title": "स्टूडियो"
+          },
+          {
+            "text": "यह सत्यापित करने के लिए एक व्यापक बाजार प्रारूप है कि क्या Al Khan में विकल्प सीमित हैं।",
+            "title": "ब्रांडेड रेजिडेंस"
+          },
+          {
+            "text": "यह सत्यापित करने के लिए एक व्यापक बाजार प्रारूप है कि क्या Al Khan में विकल्प सीमित हैं।",
+            "title": "लक्ज़री अपार्टमेंट्स"
+          }
+        ],
+        "title": "तुलना के लिए प्रॉपर्टी प्रकार",
+        "eyebrow": "प्रॉपर्टी तर्क"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "बजट निर्णय नोट",
+      "items": [
+        {
+          "text": "Al Khan में अपार्टमेंट के लिए दर्ज शुरुआती कीमतें AED 3M–5M के नीचे बैठती हैं। यह तय करें कि लेआउट, स्थिति या विनिर्देश को बेहतर बनाने के लिए अधिक भुगतान का भुगतान करना है या नहीं, फिर पूर्ण भुगतान शेड्यूल की जांच करें।",
+          "title": "प्रवेश बिंदु से ऊपर जानबूझकर खर्च करें",
+          "eyebrow": "भुगतान योजना तर्क"
+        },
+        {
+          "text": "Al Khan के भीतर, फर्श, ओरिएंटेशन, दृश्य और शोर या साझा सुविधाओं के निकट उपयोग योग्य लेआउट की तुलना करें।",
+          "title": "योजना केवल तभी काम करती है जब स्थिति होती है",
+          "eyebrow": "समझौते"
+        },
+        {
+          "text": "Al Khan में अपार्टमेंट के लिए पंजीकरण, सेवा शुल्क, प्रस्तुतीकरण, पार्किंग या भंडारण, शीतलन की अनुमति देता है जहां लागू और नियमित रखरखाव होता है।",
+          "title": "आवर्ती शुल्क प्रारंभिक जांच के योग्य हैं",
+          "eyebrow": "छिपी हुई लागत"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI एक सलाहकार चेक लाइव विकल्प से पहले बजट, प्रॉपर्टी प्रकार, जिला, समयरेखा और जोखिम प्रोफ़ाइल का वजन कर सकते हैं।",
+          "title": "एक शॉर्टलिस्ट में बजट चालू करें",
+          "eyebrow": "एआई संदर्भ"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "AED 3M–5M के भीतर Al Khan में वर्तमान डेटा मैच अपार्टमेंट में कोई नामित प्रोजेक्ट नहीं है। शॉर्टलिस्ट को परिष्कृत करने के लिए नीचे जिला गाइड और लाइव खोज का उपयोग करें।",
+        "items": [
+          {
+            "href": "/hi/areas/al-khan/",
+            "meta": "जिला गाइड",
+            "label": "Al Khan में अधिक प्रोजेक्ट्स का अन्वेषण करें",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "मूल्य और उपलब्धता",
+            "label": "Al Khan में अपार्टमेंट के लिए लाइव यूनिटों की जांच करें",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "रेंज चेक",
+            "label": "रेंज के बाहर निकटतम कीमतों की तुलना करें",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "निर्णय जांच",
+            "label": "भुगतान की समीक्षा और खरीद समय",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI बजट चेक",
+            "label": "एक लाइव शॉर्टलिस्ट बनाने के लिए Primadom AI से पूछें",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "प्रोजेक्ट खोज पथ",
+        "eyebrow": "शॉर्टलिस्ट प्रविष्टि"
+      },
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "यह बजट किनके लिए उपयुक्त है",
+        "bad_items": [
+          "वे खरीदार जो किसी दूसरे प्रॉपर्टी प्रकार पर तय हैं और इस प्रारूप की तुलना नहीं करना चाहते",
+          "वे खरीदार जिन्हें मौजूदा खोज मानदंड बदले बिना नामित प्रोजेक्ट्स की तैयार सूची चाहिए",
+          "वे खरीदार जो सर्विस चार्ज, फर्निशिंग और हैंडओवर लागत को शामिल नहीं करना चाहते"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "Al Khan में AED 3M–5M के भीतर अपार्टमेंट्स विकल्पों की तुलना करने वाले खरीदार",
+          "वे खरीदार जो उपयोगी लेआउट, फ्लोर, ओरिएंटेशन और व्यू को एक साथ आँक रहे हैं",
+          "वे खरीदार जो लाइव विकल्प माँगने से पहले क्षेत्र, प्रॉपर्टी प्रकार या बजट को परिष्कृत करने को तैयार हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Al Khan में अपार्टमेंट के लिए AED 3M–5M के बजट के साथ, मूल्य एक सीमा निर्धारित करता है, लेकिन सटीक प्रॉपर्टी अभी भी इस बात पर निर्भर करती है कि किस तरह की विशेषताएं सबसे ज्यादा हैं। उपयोग योग्य लेआउट, फर्श, ओरिएंटेशन और दृश्य की तुलना एक साथ की जानी चाहिए; एक बड़ा हेडलाइन आकार स्वचालित रूप से बेहतर घर नहीं बनाती है। वर्तमान में नामित प्रोजेक्ट पूरी आवश्यकता से मिलती है। चेक करें कि क्या एक बड़ा लेआउट उच्च बजट या किसी अन्य जिले में जाने से पहले पसंदीदा क्षेत्र में मौजूद है।",
+        "mode": "contextual_editorial",
+        "tags": [
+          "लेआउट और स्थिति",
+          "भवन लागत",
+          "लाइव खोज",
+          "कुल नकदी जोखिम",
+          "चली लागत"
+        ],
+        "title": "समझौते",
+        "eyebrow": "व्यावहारिक जाँच"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "पूछ मूल्य केवल Al Khan में अपार्टमेंट के लिए नकदी आवश्यकता का हिस्सा है। आरक्षण से पहले सटीक यूनिट और लेनदेन से जुड़ी लागतों की पुष्टि करें।",
+        "items": [
+          {
+            "text": "आरक्षण से पहले सटीक शारजाह खरीद के लिए पंजीकरण और लेनदेन शुल्क की पुष्टि करें। अंतिम राशि प्रॉपर्टी और लेनदेन के प्रकार पर निर्भर करती है।",
+            "title": "पंजीकरण और लेनदेन की लागत"
+          },
+          {
+            "text": "जब वित्तपोषण का उपयोग किया जाता है, तो बैंक, मूल्यांकन और बंधक से संबंधित शुल्क की पुष्टि करने के लिए पूरा होने से पहले आवश्यक नकदी के साथ की जाती है।",
+            "title": "वित्त पोषण और मूल्यांकन लागत"
+          },
+          {
+            "text": "सटीक यूनिट के लिए भवन सेवा शुल्क, शीतलन व्यवस्था, साझा सुविधाओं और रखरखाव जिम्मेदारियों की समीक्षा करें।",
+            "title": "सेवा प्रभार और भवन की स्थापना"
+          },
+          {
+            "text": "स्नैगिंग, प्रस्तुतीकरण, उपयोगिताओं, चलती और किसी भी लागत के लिए अलग से योजना बनाई गई है क्योंकि हैंडओवर या पूरा होने के कारण होता है।",
+            "title": "हैंडओवर, प्रस्तुतीकरण और चाल-इन लागत"
+          }
+        ],
+        "title": "सत्यापित करने योग्य लागत",
+        "eyebrow": "खरीदने से पहले जाँचें",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/hi/budgets/apartments-aed-2m-3m-in-al-khan/",
+          "label": "Al Khan में AED 2M–3M अपार्टमेंट्स",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/apartments-aed-5m-10m-in-al-khan/",
+          "label": "Al Khan में AED 5M–10M अपार्टमेंट्स",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/aed-3m-5m-in-al-khan/",
+          "label": "Al Khan में AED 3M–5M प्रॉपर्टी",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/luxury-apartments-aed-3m-5m-in-al-khan/",
+          "label": "Al Khan में AED 3M–5M लक्ज़री अपार्टमेंट्स",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "संबंधित बजट पेज",
+      "eyebrow": "संबंधित खोजें",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "वर्तमान में कोई नामित प्रोजेक्ट दर्ज किए गए डेटा में AED 3M–5M के भीतर Al Khan में अपार्टमेंट की खोज से मेल नहीं खाता। नज़दीकी बजट श्रेणियों, आसपास के प्रॉपर्टी प्रकारों या व्यापक क्षेत्र की खोज की तुलना करें, और किसी भी विकल्प को उपलब्ध मानने से पहले लाइव जाँच का अनुरोध करें।",
+          "question": "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए वर्तमान प्रोजेक्ट डेटा क्या दिखाता है?"
+        },
+        {
+          "answer": "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए, वर्तमान प्रोजेक्ट संकेत रेंज से नीचे की कीमतों शुरू कर रहा है, जबकि मुख्य व्यापार बंद लेआउट बनाम यूनिट स्थिति है। इस पृष्ठ को इस प्रॉपर्टी प्रकार को लक्षित करता है, लेकिन वर्तमान में कोई दर्ज प्रोजेक्ट शुरू करने की कीमत बजट के अंदर गिरती है। अगले उपयोगी चेक बड़े लेआउट है।",
+          "question": "क्या खरीदार AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए पहले सत्यापित करना चाहिए?"
+        },
+        {
+          "answer": "पूछ मूल्य केवल Al Khan में अपार्टमेंट के लिए नकदी की आवश्यकता का हिस्सा है। आरक्षण से पहले सटीक यूनिट और लेनदेन से जुड़ी लागतों की पुष्टि करें। AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए पंजीकरण और लेनदेन लागत, वित्तपोषण और मूल्यांकन लागत, सेवा शुल्क और भवन निर्माण, और हथौड़े, प्रस्तुत करने और चाल में लागत की जांच करें। चयनित इकाई, वित्तपोषण संरचना और लेनदेन के लिए एकदम सही राशि की गणना पूरी तरह से बजट के इलाज से पहले की जानी चाहिए।",
+          "question": "कौन से अतिरिक्त लागत को खरीददारों को Al Khan में अपार्टमेंट की गणना AED 3M–5M के भीतर करनी चाहिए?"
+        },
+        {
+          "answer": "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए, बुकिंग या भुगतान के नीचे, निर्माण किस्तों, हैंडओवर संतुलन, किसी भी पोस्ट-हैंडओवर दायित्वों और पूर्ण होने से पहले की कुल राशि की तुलना करें। यह पृष्ठ लाइव डेवलपर भुगतान योजना की पुष्टि नहीं करता है, इसलिए वर्तमान अनुसूची को प्रत्येक शॉर्टलिस्ट यूनिट के लिए अलग से जांच की जानी चाहिए। एक कम किस्तों या लंबे समय तक अनुसूची स्वचालित रूप से कम कुल जोखिम का मतलब नहीं है।",
+          "question": "कैसे खरीदार AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए भुगतान योजनाओं की तुलना करना चाहिए?"
+        },
+        {
+          "answer": "Al Khan में अपार्टमेंट के लिए AED 3M–5M के भीतर, Primadom AI एक समय में एक बाधा को चौड़ा कर सकता है-बजट, स्थान, प्रॉपर्टी प्रकार, आकार या समाप्ति समय-समय पर खरीदार के लक्ष्यों और कुल नकदी एक्सपोजर को दिखाई देता है। किसी भी परिणामी प्रोजेक्ट्स को अभी भी इकाई की कीमतों, शर्तों और उपलब्धता के लाइव सत्यापन की आवश्यकता होती है।",
+          "question": "कैसे Primadom AI में अपार्टमेंट के लिए एक खोज को परिष्कृत कर सकते हैं AED 3M–5M के भीतर?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "बजट से जुड़े प्रश्न",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "AED 3M–5M के भीतर Al Khan में अपार्टमेंट के लिए योजना विवरण लाइव सूची नहीं हैं। डेवलपर सामग्री, आधिकारिक रिकॉर्ड, वर्तमान लिस्टिंग और प्राइमाड सलाहकार समीक्षा का उपयोग करके मौजूदा यूनिट कीमत और उपलब्धता, भुगतान शेड्यूल, हैंडओवर स्थिति, शुल्क, सेवा शुल्क और प्रोजेक्ट शर्तों की पुष्टि करें।",
+      "items": [
+        {
+          "label": "मूल्य / उपलब्धता",
+          "value": "लाइव जाँच की आवश्यकता"
+        },
+        {
+          "label": "भुगतान योजना",
+          "value": "डेवलपर सामग्री की आवश्यकता है"
+        },
+        {
+          "label": "शुल्क/सेवा प्रभार",
+          "value": "गणना करना"
+        },
+        {
+          "label": "यूनिट / प्रोजेक्ट फिट",
+          "value": "आवश्यकताएँ स्रोत समीक्षा"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "सत्यापन",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Primadom AI से पूछिए कि वर्तमान कीमत, यूनिट फिट, भुगतान योजना और कुल लागत के अनुसार Al Khan में अपार्टमेंट की तुलना करने के लिए Al Khan से पूछिए, फिर लाइव समीक्षा के लिए एक शॉर्टलिस्ट तैयार करें।",
+      "title": "क्या आपका बजट वास्तव में खरीदता है?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "बजट के अनुसार शॉर्टलिस्ट पाएँ",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "बजट पूछताछ फ़ॉर्म",
+      "note": "वर्तमान कीमतों और उपलब्धता की जांच की जाएगी, इससे पहले कि सिफारिश साझा की जा रही है।",
+      "text": "अपना विवरण साझा करें। Primadom AI समीक्षा के लिए एक प्राइमोम सलाहकार के लिए अपना बजट अनुरोध तैयार करेगा।",
+      "title": "क्या आपके बजट खरीद सकते हैं?",
+      "fields": {
+        "name": "आपका नाम",
+        "phone": "फ़ोन / WhatsApp",
+        "budget": "बजट सीमा",
+        "comment": "तैयार अनुरोध"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "भेजें",
+      "comment": "Al Khan, AED 3M–5M, में अपार्टमेंट की जाँच करें।",
+      "eyebrow": "AI बजट चयन",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "बंद करें",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "आपका नाम",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "नाम"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "बजट सीमा",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 3M–5M",
+          "default_value": "AED 3M–5M"
+        },
+        "comment": {
+          "label": "तैयार अनुरोध",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "इस पृष्ठ से तैयार",
+          "single_line": true,
+          "default_value": "Al Khan, AED 3M–5M, में अपार्टमेंट की जाँच करें।"
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "नाम",
+        "phone": "+971",
+        "budget": "AED 3M–5M",
+        "comment": "इस पृष्ठ से तैयार"
+      },
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_apartments_aed_3m_5m_al_khan_hi",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 3M–5M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 3M–5M",
+        "district_name": "Al Khan",
+        "canonical_url_path": "/hi/budgets/apartments-aed-3m-5m-in-al-khan/",
+        "content_version_id": "77b3a34c-923d-44b7-a064-dfd545b79da0",
+        "property_type_name": "अपार्टमेंट्स"
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "वॉइस सर्च",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "वर्तमान मूल्य, भुगतान योजना, कुल लागत और प्रोजेक्ट के लिए एक लाइव बाजार समीक्षा का अनुरोध करने से पहले फिट Al Khan में अपार्टमेंट का अन्वेषण करें।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "बजट खोज, यथार्थवादी प्रॉपर्टी विकल्पों में परिवर्तित",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom सामाजिक कड़ियों",
+      "url_section": "/hi/budgets/apartments-aed-3m-5m-in-al-khan/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "AI से पूछें",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

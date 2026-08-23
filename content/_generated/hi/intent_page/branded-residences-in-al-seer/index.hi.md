@@ -1,0 +1,10 @@
+---
+title: "Al Seer में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-al-seer"
+page_id: "intent__branded-residences__district__al-seer__hi"
+url: "/hi/intents/branded-residences-in-al-seer/"
+build:
+  render: always
+  list: never
+---

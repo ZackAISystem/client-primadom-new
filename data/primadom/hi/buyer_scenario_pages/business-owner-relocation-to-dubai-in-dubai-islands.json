@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_business_owner_relocation_dubai_islands_hi",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "hi",
+  "url_path": "/hi/buyer-scenarios/business-owner-relocation-to-dubai-in-dubai-islands/",
+  "canonical_url_path": "/hi/buyer-scenarios/business-owner-relocation-to-dubai-in-dubai-islands/",
+  "canonical_group_key": "scenario_district:business_owner_relocation:dubai-islands",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-islands",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "जवाब",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "क्षेत्र",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "प्रक्रिया",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "खरीदार परिदृश्य नेविगेशन",
+      "cta_label": "परिदृश्य जाँचें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/hi/buyer-scenarios/",
+          "label": "खरीदार परिदृश्य"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/dubai-islands/",
+          "label": "Dubai Islands"
+        },
+        {
+          "key": "current",
+          "href": "/hi/buyer-scenarios/business-owner-relocation-to-dubai-in-dubai-islands/",
+          "label": "Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "व्यवसाय मालिक का स्थानांतरण",
+        "Dubai Islands बाज़ार",
+        "अपार्टमेंट · विला · टाउनहाउस",
+        "AED 3M+",
+        "आवागमन · परिवार · समय"
+      ],
+      "image": {
+        "alt": "Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक प्रॉपर्टी खोज",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक",
+      "subtitle": "Dubai Islands में व्यवसाय मालिक के रूप में स्थानांतरित होते समय घर को केवल कार्यालय की दूरी से न चुनें।",
+      "facts_aria": "खरीदार परिदृश्य की मुख्य बातें",
+      "section_id": "overview",
+      "visual_aria": "Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक प्रॉपर्टी खोज विज़ुअल",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना करें",
+        "काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत की जाँच करें",
+        "मेरी स्थिति के लिए कौन-से समझौते सबसे महत्वपूर्ण हैं?"
+      ],
+      "ai_aria": "Primadom AI से Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक के बारे में पूछें",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना करें",
+      "placeholder": "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना करें",
+      "voice_label": "वॉइस सर्च",
+      "block_status": "final",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "व्यवसाय मालिक का स्थानांतरण",
+        "Dubai Islands बाज़ार",
+        "मुख्य प्राथमिकताएँ",
+        "लागत और शर्तें",
+        "AI से पूछें"
+      ],
+      "title": "सबसे महत्वपूर्ण क्या है",
+      "eyebrow": "खरीदार मार्गदर्शन",
+      "body_html": "<strong>Dubai Islands में व्यवसाय मालिक के रूप में स्थानांतरित होते समय घर को केवल कार्यालय की दूरी से न चुनें</strong>। काम का आवागमन, परिवार की जरूरतें, घर का प्रकार, दैनिक दिनचर्या, स्थानांतरण समय और कुल लागत को एक साथ देखें।",
+      "body_text": "Dubai Islands में व्यवसाय मालिक के रूप में स्थानांतरित होते समय घर को केवल कार्यालय की दूरी से न चुनें। काम का आवागमन, परिवार की जरूरतें, घर का प्रकार, दैनिक दिनचर्या, स्थानांतरण समय और कुल लागत को एक साथ देखें।",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "परिदृश्य",
+          "value": "Dubai Islands में Dubai स्थानांतरित होने वाला व्यवसाय मालिक"
+        },
+        {
+          "label": "मुख्य लक्ष्य",
+          "value": "व्यवसाय और घर के बीच व्यावहारिक संतुलन"
+        },
+        {
+          "label": "स्थान",
+          "value": "Dubai Islands"
+        },
+        {
+          "label": "प्रॉपर्टी फोकस",
+          "value": "अपार्टमेंट · विला · टाउनहाउस"
+        },
+        {
+          "label": "बजट सीमा",
+          "value": "AED 3M+"
+        },
+        {
+          "label": "निर्णय का मुख्य आधार",
+          "value": "आवागमन · घर का प्रकार · समय"
+        },
+        {
+          "label": "खरीदार का चरण",
+          "value": "स्थानांतरण योजना"
+        },
+        {
+          "label": "अगला कदम",
+          "value": "Dubai की जरूरतों के अनुसार तुलना करें"
+        }
+      ],
+      "title": "परिदृश्य का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "यह पेज किनके लिए है",
+        "eyebrow": "खरीदार के लिए उपयुक्तता",
+        "bad_items": [
+          "वे खरीदार जो केवल शुरुआती कीमत या एक आकर्षक फीचर के आधार पर निर्णय लेना चाहते हैं",
+          "वे खरीदार जो नियमित लागत और वास्तविक दैनिक उपयोग को नज़रअंदाज़ कर रहे हैं",
+          "वे खरीदार जो ज़रूरी प्रॉपर्टी-विशिष्ट जाँच पूरी किए बिना जल्दी निर्णय लेना चाहते हैं"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "वे खरीदार जिनका मुख्य लक्ष्य व्यवसाय और घर के बीच व्यावहारिक संतुलन है",
+          "वे खरीदार जो काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत की तुलना एक ही आधार पर करना चाहते हैं",
+          "वे खरीदार जो अंतिम निर्णय से पहले लागत, समय और प्रॉपर्टी-विशिष्ट शर्तें जाँचना चाहते हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Dubai Islands में निर्णय को वास्तविक उपयोग के आधार पर रखें। काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत की तुलना समान मानदंडों पर करें और किसी एक आकर्षक फीचर को पूरे निर्णय पर हावी न होने दें।",
+        "tags": [
+          "काम की यात्रा",
+          "घर का प्रकार",
+          "मूव समय",
+          "स्वामित्व लागत",
+          "स्थानांतरण की उपयुक्तता"
+        ],
+        "title": "क्या ध्यान में रखें",
+        "eyebrow": "निर्णय का तर्क"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Dubai Islands में इस परिदृश्य के लिए क्षेत्र की उपयुक्तता को काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत के आधार पर जाँचें।",
+            "title": "Dubai Islands का संदर्भ"
+          },
+          {
+            "text": "यदि दूसरे क्षेत्र खरीदार की प्राथमिकताओं, दैनिक पहुँच और कुल लागत का बेहतर संतुलन देते हों तो उनकी भी तुलना करें।",
+            "title": "विकल्पों की तुलना करें"
+          },
+          {
+            "text": "दैनिक यात्रा, उपयोगिता और स्वामित्व लागत क्षेत्र के नाम से अधिक महत्वपूर्ण हो सकती हैं।",
+            "title": "दैनिक उपयोग की जाँच"
+          },
+          {
+            "text": "शॉर्टलिस्ट घटाने से पहले क्षेत्र और प्रॉपर्टी के निर्णय को एक ही व्यावहारिक दिनचर्या के आधार पर जाँचें।",
+            "title": "शॉर्टलिस्ट घटाने से पहले"
+          }
+        ],
+        "title": "क्षेत्र का संदर्भ",
+        "eyebrow": "उपयुक्त क्षेत्र"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "अपार्टमेंट की तुलना लेआउट, बिल्डिंग गुणवत्ता, सर्विस चार्ज, पार्किंग और दैनिक पहुँच के आधार पर करें।",
+            "title": "अपार्टमेंट"
+          },
+          {
+            "text": "टाउनहाउस निजी जगह और कम्युनिटी जीवन के बीच संतुलन दे सकता है। लेआउट, पार्किंग, रखरखाव और रोज़मर्रा की यात्रा की तुलना करें।",
+            "title": "टाउनहाउस"
+          },
+          {
+            "text": "विला में गोपनीयता और अतिरिक्त जगह मिल सकती है, लेकिन रखरखाव, यूटिलिटी, कम्युनिटी और दैनिक पहुँच की लागत भी साथ जाँचें।",
+            "title": "विला"
+          },
+          {
+            "text": "तैयार बनाम ऑफ-प्लान उन खरीदारों के लिए उपयोगी है जो वास्तविक प्रॉपर्टी की स्थिति जाँचकर समय को अधिक स्पष्ट रखना चाहते हैं। लेआउट, लागत और मौजूदा स्थिति सत्यापित करें।",
+            "title": "तैयार बनाम ऑफ-प्लान"
+          }
+        ],
+        "title": "तुलना के लिए प्रॉपर्टी प्रकार",
+        "eyebrow": "प्रॉपर्टी की उपयुक्तता"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "प्रॉपर्टी बजट को व्यवसाय स्थानांतरण की बाकी नकद जरूरतों से अलग रखें। खरीद लागत, फर्निशिंग, मूविंग खर्च और शुरुआती संचालन या परिवार खर्च एक ही अवधि में आ सकते हैं।",
+          "title": "पूरी लागत के आधार पर बजट देखें",
+          "eyebrow": "बजट का तर्क"
+        },
+        {
+          "text": "Dubai Islands में काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत को एक ही निर्णय ढाँचे में रखें और हर विकल्प के लिए समान मानदंड अपनाएँ।",
+          "title": "एक ही मानदंड पर निर्णय लें",
+          "eyebrow": "प्रक्रिया नोट्स"
+        },
+        {
+          "text": "मुख्य जोखिम हैं—केवल काम की निकटता के आधार पर घर चुनना, परिवार की दिनचर्या न देखना, स्थानांतरण की तारीख और प्रॉपर्टी की समय-सीमा में टकराव, या शुरुआती नकद जरूरतें कम आँकना।",
+          "title": "मुख्य जोखिम अलग से जाँचें",
+          "eyebrow": "जोखिम"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना बजट, उपयुक्तता, समय और सत्यापन के समान मानदंडों पर करने में मदद कर सकता है।",
+          "title": "एक ही प्राथमिकताओं पर विकल्पों की तुलना करें",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "परिदृश्य निर्णय नोट्स",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "मुख्य जोखिम हैं—केवल काम की निकटता के आधार पर घर चुनना, परिवार की दिनचर्या न देखना, स्थानांतरण की तारीख और प्रॉपर्टी की समय-सीमा में टकराव, या शुरुआती नकद जरूरतें कम आँकना।",
+        "tags": [
+          "काम की यात्रा",
+          "मूव समय",
+          "गोपनीयता",
+          "प्रॉपर्टी की उपयुक्तता",
+          "कुल लागत"
+        ],
+        "title": "जोखिम",
+        "eyebrow": "खरीदने से पहले जाँचें"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "खरीद से पहले उन जरूरतों को स्पष्ट करें जो वास्तव में निर्णय बदलेंगी: काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत।",
+            "title": "मुख्य प्राथमिकताएँ तय करें"
+          },
+          {
+            "text": "प्रॉपर्टी बजट को व्यवसाय स्थानांतरण की बाकी नकद जरूरतों से अलग रखें। खरीद लागत, फर्निशिंग, मूविंग खर्च और शुरुआती संचालन या परिवार खर्च एक ही अवधि में आ सकते हैं।",
+            "title": "पूरी लागत लिखें"
+          },
+          {
+            "text": "काम के वास्तविक मार्ग, परिवार की दैनिक जरूरतें, प्रॉपर्टी की उपलब्ध स्थिति, खरीद प्रक्रिया और स्थानांतरण समय-सीमा को अंतिम निर्णय से पहले सत्यापित करें।",
+            "title": "प्रॉपर्टी-विशिष्ट विवरण जाँचें"
+          },
+          {
+            "text": "रिज़र्वेशन या प्रतिबद्धता से पहले मौजूदा समय, शर्तें और आवश्यक सत्यापन पूरे करें।",
+            "title": "समय और अगले कदम की पुष्टि करें"
+          }
+        ],
+        "title": "दस्तावेज़ और प्रक्रिया",
+        "eyebrow": "व्यावहारिक विवरण"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/hi/projects/villa-del-gavi/",
+            "meta": "Mr Eight Development · Dubai Islands",
+            "label": "Villa del Gavi"
+          },
+          {
+            "href": "/hi/projects/beach-isle/",
+            "meta": "Emaar Properties · Dubai Islands",
+            "label": "Beach Isle"
+          },
+          {
+            "href": "/hi/projects/rixos-hotel-residences/",
+            "meta": "Nakheel · Dubai Islands",
+            "label": "Rixos Hotel & Residences"
+          },
+          {
+            "href": "/hi/projects/damac-islands/",
+            "meta": "Damac Properties · Dubai Islands",
+            "label": "Damac Islands"
+          },
+          {
+            "href": "/hi/projects/rena/",
+            "meta": "Avenew Properties · Dubai Islands",
+            "label": "Rena"
+          }
+        ],
+        "title": "तुलना के लिए प्रोजेक्ट्स",
+        "eyebrow": "शॉर्टलिस्ट की शुरुआत"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "प्रॉपर्टी बजट को व्यवसाय स्थानांतरण की बाकी नकद जरूरतों से अलग रखें। खरीद लागत, फर्निशिंग, मूविंग खर्च और शुरुआती संचालन या परिवार खर्च एक ही अवधि में आ सकते हैं।",
+        "tags": [
+          "खरीद कीमत",
+          "स्थानांतरण",
+          "फर्निशिंग",
+          "अस्थायी निवास",
+          "नकद रिज़र्व"
+        ],
+        "title": "बजट का तर्क",
+        "eyebrow": "परिदृश्य बजट"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/hi/buyer-scenarios/remote-buyer-buying-from-abroad-in-dubai-islands/",
+          "label": "Dubai Islands में विदेश से रिमोट खरीद करने वाला खरीदार"
+        },
+        {
+          "href": "/hi/buyer-scenarios/golden-visa-property-buyer-in-dubai-islands/",
+          "label": "Dubai Islands में Golden Visa प्रॉपर्टी खरीदार"
+        },
+        {
+          "href": "/hi/buyer-scenarios/ready-to-move-buyer-in-dubai-islands/",
+          "label": "Dubai Islands में रेडी-टू-मूव खरीदार"
+        },
+        {
+          "href": "/hi/buyer-scenarios/family-relocation-buyer/",
+          "label": "परिवार के साथ स्थानांतरित होने वाला खरीदार"
+        }
+      ],
+      "title": "संबंधित परिदृश्य",
+      "eyebrow": "आगे देखें",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Dubai Islands में व्यवसाय मालिक के रूप में स्थानांतरित होते समय घर को केवल कार्यालय की दूरी से न चुनें। काम का आवागमन, परिवार की जरूरतें, घर का प्रकार, दैनिक दिनचर्या, स्थानांतरण समय और कुल लागत को एक साथ देखें।",
+          "question": "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना करते समय सबसे महत्वपूर्ण क्या है?"
+        },
+        {
+          "answer": "यह पेज उन खरीदारों के लिए उपयोगी है जिनका लक्ष्य व्यवसाय और घर के बीच व्यावहारिक संतुलन है और जो काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत को एक साथ समझना चाहते हैं।",
+          "question": "व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों पर विचार करना किन खरीदारों के लिए उपयोगी है?"
+        },
+        {
+          "answer": "काम के वास्तविक मार्ग, परिवार की दैनिक जरूरतें, प्रॉपर्टी की उपलब्ध स्थिति, खरीद प्रक्रिया और स्थानांतरण समय-सीमा को अंतिम निर्णय से पहले सत्यापित करें।",
+          "question": "Dubai Islands में निर्णय से पहले क्या जाँचना चाहिए?"
+        },
+        {
+          "answer": "प्रॉपर्टी बजट को व्यवसाय स्थानांतरण की बाकी नकद जरूरतों से अलग रखें। खरीद लागत, फर्निशिंग, मूविंग खर्च और शुरुआती संचालन या परिवार खर्च एक ही अवधि में आ सकते हैं।",
+          "question": "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों के लिए पूरा बजट कैसे बनाना चाहिए?"
+        },
+        {
+          "answer": "मुख्य जोखिम हैं—केवल काम की निकटता के आधार पर घर चुनना, परिवार की दिनचर्या न देखना, स्थानांतरण की तारीख और प्रॉपर्टी की समय-सीमा में टकराव, या शुरुआती नकद जरूरतें कम आँकना।",
+          "question": "व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना में किन मुख्य जोखिमों की जाँच करनी चाहिए?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "परिदृश्य से जुड़े प्रश्न",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "काम के वास्तविक मार्ग, परिवार की दैनिक जरूरतें, प्रॉपर्टी की उपलब्ध स्थिति, खरीद प्रक्रिया और स्थानांतरण समय-सीमा को अंतिम निर्णय से पहले सत्यापित करें।",
+      "items": [
+        {
+          "label": "काम की यात्रा",
+          "value": "मौजूदा विवरण सत्यापित करें"
+        },
+        {
+          "label": "मूव समय",
+          "value": "मौजूदा लागत और शर्तों की पुष्टि करें"
+        },
+        {
+          "label": "प्रॉपर्टी शर्तें",
+          "value": "प्रॉपर्टी-विशिष्ट स्थिति जाँचें"
+        },
+        {
+          "label": "स्थानांतरण लागत",
+          "value": "प्रतिबद्धता से पहले अंतिम सत्यापन करें"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "क्या सत्यापित करें",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत के आधार पर करें और अंतिम निर्णय से पहले प्रॉपर्टी-विशिष्ट विवरण सत्यापित करें। Primadom AI तुलना को व्यवस्थित करने में मदद कर सकता है।",
+      "title": "अपनी प्रॉपर्टी शॉर्टलिस्ट की तुलना करें",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "विकल्पों की समीक्षा करें",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "खरीदार परिदृश्य पूछताछ फ़ॉर्म",
+      "text": "Dubai Islands में इस खरीदार परिदृश्य पर विचार करते समय काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत से जुड़ी अपनी प्राथमिकताएँ साझा करें। इससे सलाहकार को बातचीत से पहले उपयोगी संदर्भ मिलेगा।",
+      "title": "व्यवसाय और घर के बीच व्यावहारिक संतुलन: उपयुक्तता जाँच",
+      "fields": {
+        "name": "आपका नाम",
+        "email": "ईमेल (वैकल्पिक)",
+        "phone": "फ़ोन / WhatsApp",
+        "comment": "तैयार अनुरोध"
+      },
+      "submit": "भेजें",
+      "comment": "व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की स्पष्ट तुलना करने में मेरी मदद करें",
+      "eyebrow": "AI परिदृश्य विश्लेषण",
+      "success": "भेज दिया गया",
+      "close_label": "बंद करें",
+      "block_status": "final",
+      "placeholders": {
+        "name": "नाम",
+        "email": "ईमेल पता",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Dubai Islands में व्यवसाय मालिक के स्थानांतरण के लिए प्रॉपर्टी विकल्पों की तुलना काम का आवागमन, घर का प्रकार, परिवार की जरूरतें, स्थानांतरण समय और कुल लागत के आधार पर एक ही जगह पर करें।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "व्यवसाय मालिक का स्थानांतरण: मुख्य निर्णय बिंदुओं की तुलना करें",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "रियल एस्टेट इंटेलिजेंस",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "social_aria": "सोशल लिंक",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "कॉल बुक करें"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "AI से पूछें"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "शॉर्ट-टर्म किराये के अपार्टमेंट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "short-term-rental-apartments"
+page_id: "page_intent_subcluster_short_term_rental_apartments_hi"
+url: "/hi/intents/short-term-rental-apartments/"
+build:
+  render: always
+  list: never
+---

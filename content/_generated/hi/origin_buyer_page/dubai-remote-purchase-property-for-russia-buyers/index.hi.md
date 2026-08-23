@@ -1,0 +1,10 @@
+---
+title: "रूस के खरीदारों के लिए Dubai प्रॉपर्टी की दूरस्थ खरीद"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-remote-purchase-property-for-russia-buyers"
+page_id: "pg_00a10fff56a1ba300bb9ddd9f4fa"
+url: "/hi/buyer-scenarios/dubai-remote-purchase-property-for-russia-buyers/"
+build:
+  render: always
+  list: never
+---

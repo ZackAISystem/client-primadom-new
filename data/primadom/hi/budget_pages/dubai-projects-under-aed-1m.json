@@ -1,0 +1,722 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_intent_subcluster_dubai_projects_under_aed_1m_hi",
+  "page_type_id": "budget_page",
+  "language_code": "hi",
+  "url_path": "/hi/budgets/dubai-projects-under-aed-1m/",
+  "canonical_url_path": "/hi/budgets/dubai-projects-under-aed-1m/",
+  "canonical_group_key": "intent_subcluster:dubai_projects_under_aed_1m",
+  "primary_entity_type": null,
+  "primary_entity_slug": null,
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "क्या खरीद सकते हैं",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "भुगतान योजना",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "लागत",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "बजट पेज नेविगेशन",
+      "cta_label": "बजट जाँचें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "budgets",
+          "href": "/hi/budgets/",
+          "label": "बजट"
+        },
+        {
+          "key": "property_type",
+          "href": "/hi/property-types/dubai-projects/",
+          "label": "Dubai Projects"
+        },
+        {
+          "key": "current",
+          "href": "/hi/budgets/dubai-projects-under-aed-1m/",
+          "label": "Dubai Projects के तहत AED 1M"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Under AED 1M",
+        "Dubai market",
+        "सभी प्रॉपर्टी प्रकार",
+        "255 सटीक नामित प्रोजेक्ट मैच",
+        "व्यापक प्रोजेक्ट विकल्प"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "AED 1M के तहत दुबई प्रोजेक्ट्स",
+      "subtitle": "255 सटीक नाम की प्रोजेक्ट्स ने वर्तमान में दुबई में प्रॉपर्टी के लिए AED 1M के तहत शुरुआती कीमतों को दर्ज किया है। इकाई प्रकार, लेआउट, भुगतान की शर्तें और वर्तमान में शॉर्टलिस्टिंग से पहले उपलब्धता की तुलना करें।",
+      "facts_aria": "बजट पेज की मुख्य बातें",
+      "section_id": "overview",
+      "visual_aria": "बजट अवलोकन के लिए दुबई प्रोजेक्ट्स के तहत AED 1M",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "इस बजट के लिए यथार्थवादी प्रॉपर्टी विकल्प, स्थान, भुगतान संरचना और खरीद लागत की तुलना करें। वर्तमान कीमतों और उपलब्धता के लिए प्रोजेक्ट की जांच की आवश्यकता होती है।",
+      "hints": [
+        "दुबई की कौन सी प्रोजेक्टएँ इस बजट को फिट करती हैं?",
+        "मैं शॉर्टलिस्ट को कैसे संकीर्ण करूं?",
+        "मैं शॉर्टलिस्ट करने से पहले क्या सत्यापित करना चाहिए?"
+      ],
+      "title": "AED 1M के तहत दुबई प्रोजेक्ट्स की जाँच करें",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "AED 1M के तहत दुबई प्रॉपर्टी के लिए सबसे मजबूत वर्तमान प्रोजेक्ट विकल्प की तुलना करें। स्थान, लेआउट, डिलीवरी प्रोफ़ाइल, डेवलपर रिकॉर्ड और कुल खरीद लागत पर ध्यान केंद्रित करें।",
+        "Across Dubai में Under AED 1M के लिए स्थान, लेआउट, कम्प्लीशन प्रोफ़ाइल, डेवलपर गुणवत्ता और कुल स्वामित्व लागत के आधार पर विकल्पों को संकीर्ण करने का तरीका बताएँ।",
+        "AED 1M के तहत दुबई प्रोजेक्ट्स के लिए एक शॉर्टलिस्ट से पहले की चेकलिस्ट सूची बनाएं, वर्तमान मूल्य, उपलब्धता, लेआउट, स्थान, डिलीवरी प्रोफ़ाइल, डेवलपर रिकॉर्ड और लागत खरीदने को कवर करें।"
+      ],
+      "hint_items": [
+        {
+          "label": "दुबई की कौन सी प्रोजेक्टएँ इस बजट को फिट करती हैं?",
+          "prompt": "AED 1M के तहत दुबई प्रॉपर्टी के लिए सबसे मजबूत वर्तमान प्रोजेक्ट विकल्प की तुलना करें। स्थान, लेआउट, डिलीवरी प्रोफ़ाइल, डेवलपर रिकॉर्ड और कुल खरीद लागत पर ध्यान केंद्रित करें।"
+        },
+        {
+          "label": "मैं शॉर्टलिस्ट को कैसे संकीर्ण करूं?",
+          "prompt": "Across Dubai में Under AED 1M के लिए स्थान, लेआउट, कम्प्लीशन प्रोफ़ाइल, डेवलपर गुणवत्ता और कुल स्वामित्व लागत के आधार पर विकल्पों को संकीर्ण करने का तरीका बताएँ।"
+        },
+        {
+          "label": "मैं शॉर्टलिस्ट करने से पहले क्या सत्यापित करना चाहिए?",
+          "prompt": "AED 1M के तहत दुबई प्रोजेक्ट्स के लिए एक शॉर्टलिस्ट से पहले की चेकलिस्ट सूची बनाएं, वर्तमान मूल्य, उपलब्धता, लेआउट, स्थान, डिलीवरी प्रोफ़ाइल, डेवलपर रिकॉर्ड और लागत खरीदने को कवर करें।"
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "पूछो कि दुबई प्रोजेक्टएं AED 1M के तहत फिट हैं",
+      "placeholder": "पूछो कि दुबई प्रोजेक्टएं AED 1M के तहत फिट हैं",
+      "voice_label": "वॉइस इनपुट शुरू करें",
+      "block_status": "final",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "मेरी स्थिति के अनुसार तुलना करें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "voice_active_label": "वॉइस इनपुट बंद करें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "live_check_required": true,
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "submit_loading_label": "AI से पूछा जा रहा है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड",
+      "voice_processing_label": "वॉइस इनपुट प्रोसेस हो रहा है"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Under AED 1M",
+        "दुबई",
+        "मिश्रित प्रॉपर्टी प्रकार",
+        "रेंज में 270 प्रोजेक्टएं",
+        "वर्तमान इकाइयों की जाँच करें"
+      ],
+      "title": "आप क्या खरीद सकते हैं",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<p><strong>Current प्रोजेक्ट डेटा 270 प्रोजेक्ट्स को दुबई प्रॉपर्टी के लिए AED 1M से नीचे की कीमतों को शुरू करने के साथ दिखाता है, एक स्पष्ट विकल्प के बजाय एक व्यापक तुलना सेट बनाता है।</strong> जिलों, प्रॉपर्टी प्रकार, प्रयोज्य आकार, डेवलपर का निष्पादन रिकॉर्ड, पूरा करने का प्रोफाइल, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। केवल सबसे कम विज्ञापन वाली शुरुआती कीमत के बजाय गुणवत्ता और खरीदार फिट की तुलना करने के लिए व्यापक विकल्प का उपयोग करें। केवल उन्मुखीकरण के रूप में शुरुआती कीमतों का इलाज करें और लघु सूचीकरण से पहले सटीक यूनिट कीमत, इंसेंटिव, भुगतान की शर्तें और उपलब्धता की पुष्टि करें।",
+      "body_text": "वर्तमान प्रोजेक्ट डेटा दुबई प्रॉपर्टी के लिए AED 1M से नीचे की कीमतों को शुरू करने के साथ 270 प्रोजेक्ट्स को दिखाता है, जो एक स्पष्ट विकल्प के बजाय एक व्यापक तुलना सेट बनाता है। शॉर्टलिस्टिंग से पहले जिलों, प्रॉपर्टी प्रकार, उपयोग योग्य क्षेत्रफल, डेवलपर का निष्पादन रिकॉर्ड, कम्प्लीशन प्रोफ़ाइल, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। केवल सबसे कम विज्ञापन वाली शुरुआती कीमत के बजाय गुणवत्ता और खरीदार फिट की तुलना करने के लिए व्यापक विकल्प का उपयोग करें। केवल उन्मुखीकरण के रूप में शुरू होने वाली कीमतों का इलाज करें और शॉर्टलिस्टिंग से पहले सटीक यूनिट कीमत, इंसेंटिव, भुगतान की शर्तें और उपलब्धता की पुष्टि करें।",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "बजट",
+          "value": "Under AED 1M"
+        },
+        {
+          "key": "market",
+          "label": "बाज़ार",
+          "value": "दुबई"
+        },
+        {
+          "key": "area",
+          "label": "क्षेत्र",
+          "value": "दुबई में"
+        },
+        {
+          "key": "property_type",
+          "label": "प्रॉपर्टी प्रकार",
+          "value": "मिश्रित प्रॉपर्टी प्रकार"
+        },
+        {
+          "key": "current_signal",
+          "label": "मौजूदा संकेत",
+          "value": "255 सटीक नामित प्रोजेक्ट मैच"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "मुख्य समझौता",
+          "value": "विकल्प गहराई बनाम खरीदार फिट"
+        },
+        {
+          "key": "next_check",
+          "label": "अगली जाँच",
+          "value": "एक इकाई की कीमतें"
+        },
+        {
+          "key": "unit_status",
+          "label": "यूनिट की स्थिति",
+          "value": "लाइव उपलब्धता सत्यापित करें"
+        }
+      ],
+      "title": "बजट का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "इस बजट में 28 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Arjan"
+          },
+          {
+            "text": "22 प्रोजेक्ट्स ने इस बजट में शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Meydan"
+          },
+          {
+            "text": "इस बजट में 15 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Jumeirah Village Circle"
+          },
+          {
+            "text": "14 प्रोजेक्ट्स ने इस बजट में शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Majan"
+          }
+        ],
+        "title": "तुलना करने के लिए जिले",
+        "eyebrow": "क्षेत्र का संदर्भ"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "इस बजट में 262 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; लेआउट और सटीक यूनिट कीमतों की तुलना करें।",
+            "title": "अपार्टमेंट्स"
+          },
+          {
+            "text": "इस बजट में 212 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; लेआउट और सटीक यूनिट कीमतों की तुलना करें।",
+            "title": "स्टूडियो"
+          },
+          {
+            "text": "इस बजट में 1 प्रोजेक्ट की एक रिकॉर्ड की गई शुरुआती कीमत है; सटीक लेआउट और यूनिट की कीमत की तुलना करें।",
+            "title": "विला"
+          },
+          {
+            "text": "इस बजट में 1 प्रोजेक्ट की एक रिकॉर्ड की गई शुरुआती कीमत है; सटीक लेआउट और यूनिट की कीमत की तुलना करें।",
+            "title": "टाउनहाउस"
+          }
+        ],
+        "title": "तुलना के लिए प्रॉपर्टी प्रकार",
+        "eyebrow": "प्रॉपर्टी तर्क"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "बजट निर्णय नोट",
+      "items": [
+        {
+          "text": "एक प्रोजेक्ट कागज पर बजट फिट कर सकती है लेकिन फिर भी एक मंच पर बहुत अधिक नकदी की मांग कर सकती है। शॉर्टलिस्ट करने से पहले पूरे शेड्यूल को पढ़ें।",
+          "title": "प्रत्येक चरण के माध्यम से नकदी का पालन करें",
+          "eyebrow": "भुगतान योजना तर्क"
+        },
+        {
+          "text": "Arjan और Apartments के साथ शुरू करें, फिर यह जांच लें कि स्थान, उपयोग योग्य स्थान, समय और भुगतान शेड्यूल खरीदार की प्राथमिकताओं को फिट करती है।",
+          "title": "शॉर्टलिस्ट खरीदार को प्रतिबिंबित करना चाहिए",
+          "eyebrow": "समझौते"
+        },
+        {
+          "text": "पंजीकरण, वित्तपोषण, प्रस्तुतीकरण, सेवा शुल्क और रखरखाव को शॉर्टलिस्ट को मंजूरी देने से पहले दिखाई देना चाहिए।",
+          "title": "शुल्क शॉर्टलिस्ट में संबंधित है, इसके बाद नहीं",
+          "eyebrow": "छिपी हुई लागत"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI एक सलाहकार चेक लाइव विकल्प से पहले बजट, प्रॉपर्टी प्रकार, जिला, समयरेखा और जोखिम प्रोफ़ाइल का वजन कर सकते हैं।",
+          "title": "एक शॉर्टलिस्ट में बजट चालू करें",
+          "eyebrow": "एआई संदर्भ"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "project_matches",
+        "text": "यह शॉर्टलिस्ट 4 255 सटीक दर्ज की गई प्रारंभिक कीमत से मेलों को दुबई में AED 1M के तहत सूचीबद्ध करता है। शॉर्टलिस्ट को संकीर्ण करने से पहले सटीक इकाइयों, वर्तमान कीमतों और लाइव उपलब्धता की पुष्टि करें।",
+        "items": [
+          {
+            "href": "/hi/projects/damac-riverside-views-capri/",
+            "meta": "AED 993K से दर्ज",
+            "label": "Damac Riverside Views Capri",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "damac-riverside-views-capri",
+            "district_name": "Dubai Investment Park",
+            "handover_year": 2029,
+            "property_type": "Apartment",
+            "developer_name": "Damac Properties",
+            "project_page_id": "page_project_damac_riverside_views_capri_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 993000
+          },
+          {
+            "href": "/hi/projects/evergrin-house-phase-2/",
+            "meta": "AED 992K से दर्ज",
+            "label": "Evergrin House Phase 2",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "evergrin-house-phase-2",
+            "district_name": "Al Satwa",
+            "handover_year": 2026,
+            "property_type": "Apartment",
+            "developer_name": "Object 1",
+            "project_page_id": "page_project_evergrin_house_phase_2_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 992000
+          },
+          {
+            "href": "/hi/projects/grove-on-the-park/",
+            "meta": "AED 990K से दर्ज",
+            "label": "Grove on the Park",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "grove-on-the-park",
+            "district_name": "Town Square",
+            "handover_year": 2026,
+            "property_type": "Apartment",
+            "developer_name": "Nshama",
+            "project_page_id": "page_project_grove_on_the_park_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 990000
+          },
+          {
+            "href": "/hi/projects/mint/",
+            "meta": "AED 990K से दर्ज",
+            "label": "Mint",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "mint",
+            "district_name": "Dubailand",
+            "handover_year": 2028,
+            "property_type": "Apartment",
+            "developer_name": "Aldar Properties PJSC",
+            "project_page_id": "page_project_mint_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 990000
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI बजट चेक",
+            "label": "एक लाइव शॉर्टलिस्ट बनाने के लिए Primadom AI से पूछें",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "तुलना करने के लिए प्रोजेक्टएं",
+        "eyebrow": "शॉर्टलिस्ट प्रविष्टि"
+      },
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "यह बजट किनके लिए उपयुक्त है",
+        "bad_items": [
+          "वे खरीदार जिन्हें बजट-आधारित तुलना के बजाय पहले से एक निश्चित प्रोजेक्ट चाहिए",
+          "वे खरीदार जिन्हें दर्ज शुरुआती कीमतों वाले विकल्प देखने से पहले पुष्टि की गई लाइव इन्वेंटरी चाहिए",
+          "वे खरीदार जो पंजीकरण, फर्निशिंग और नियमित स्वामित्व लागत को शामिल नहीं करना चाहते"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "Across Dubai में Under AED 1M के भीतर मिश्रित प्रॉपर्टी प्रकार विकल्पों की तुलना करने वाले खरीदार",
+          "वे खरीदार जो व्यावहारिक प्राथमिकताओं के आधार पर बड़े प्रोजेक्ट सेट को संकीर्ण करना चाहते हैं",
+          "वे खरीदार जो लाइव यूनिट और मौजूदा शर्तें जाँचने से पहले कई नामित प्रोजेक्ट्स की तुलना करना चाहते हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "दुबई के पार, AED 1M के नीचे एक बजट एक व्यापक शॉर्टलिस्ट बनाता है, लेकिन स्थान, प्रॉपर्टी प्रारूप और सटीक प्रॉपर्टी परिणाम को भौतिक रूप से बदल सकती है। एक लंबी प्रोजेक्ट सूची केवल तभी उपयोगी हो जाती है जब यह खरीदार लक्ष्य, समय, प्रॉपर्टी प्रारूप और चल रही लागत के लिए सहनशीलता द्वारा संकुचित हो जाती है। कई प्रोजेक्टएं AED 1M से नीचे शुरू होती हैं। शॉर्टलिस्ट को संकीर्ण करने से पहले सटीक प्रॉपर्टीयों, कुल नकदी एक्सपोजर और चल रही लागत को सत्यापित करें।",
+        "mode": "contextual_editorial",
+        "tags": [
+          "क्रेता प्राथमिकताएं",
+          "प्रॉपर्टी प्रारूप",
+          "एक इकाई की जांच",
+          "कुल नकदी जोखिम",
+          "चली लागत"
+        ],
+        "title": "समझौते",
+        "eyebrow": "व्यावहारिक जाँच"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "प्रॉपर्टी की कीमत दुबई में नकदी की आवश्यकता का एकमात्र हिस्सा है। सटीक खरीद के लिए लेनदेन, वित्तपोषण, हैंडओवर और चल रहे स्वामित्व की लागत की पुष्टि करें।",
+        "items": [
+          {
+            "text": "आरक्षण से पहले दुबई की खरीद के लिए पंजीकरण और लेनदेन शुल्क की पुष्टि करें। अंतिम राशि प्रॉपर्टी और लेनदेन के प्रकार पर निर्भर करती है।",
+            "title": "पंजीकरण और लेनदेन की लागत"
+          },
+          {
+            "text": "जब वित्तपोषण का उपयोग किया जाता है, तो बैंक, मूल्यांकन और बंधक से संबंधित शुल्क की पुष्टि करने के लिए पूरा होने से पहले आवश्यक नकदी के साथ की जाती है।",
+            "title": "वित्त पोषण और मूल्यांकन लागत"
+          },
+          {
+            "text": "इमारत या सामुदायिक शुल्क, रखरखाव जिम्मेदारियों और सटीक प्रॉपर्टी के लिए स्वामित्व की लागत की जाँच करें।",
+            "title": "सेवा प्रभार और प्रॉपर्टी upkeep"
+          },
+          {
+            "text": "स्नैगिंग, प्रस्तुतीकरण, उपयोगिताओं, चलती और किसी भी लागत के लिए अलग से योजना बनाई गई है क्योंकि हैंडओवर या पूरा होने के कारण होता है।",
+            "title": "हैंडओवर, प्रस्तुतीकरण और चाल-इन लागत"
+          }
+        ],
+        "title": "सत्यापित करने योग्य लागत",
+        "eyebrow": "खरीदने से पहले जाँचें",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/hi/budgets/dubai-projects-under-aed-2m/",
+          "label": "Dubai में AED 2M से कम के प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/dubai-projects-aed-1m-2m/",
+          "label": "Dubai में AED 1M–2M के प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/apartments-under-aed-2m-in-dubai/",
+          "label": "Dubai में AED 2M से कम के अपार्टमेंट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/off-plan-projects-under-aed-2m-in-dubai/",
+          "label": "Dubai में AED 2M से कम के ऑफ-प्लान प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        }
+      ],
+      "title": "संबंधित बजट पेज",
+      "eyebrow": "संबंधित खोजें",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "वर्तमान प्रोजेक्ट के दर्ज डेटा में 255 सटीक प्रारंभिक कीमत से मेल के लिए दुबई प्रोजेक्ट्स के तहत AED 1M, प्लस 37 पास मैचों के लिए। ये दर्ज किए गए तुलना मैच हैं, नहीं सूची रहते हैं। शॉर्टलिस्टिंग से पहले सटीक यूनिट, लेआउट, भुगतान की शर्तें, हैंडओवर स्थिति और मौजूदा उपलब्धता की पुष्टि करें।",
+          "question": "कौन से दुबई प्रोजेक्ट्स को AED 1M के तहत तुलना करनी चाहिए?"
+        },
+        {
+          "answer": "AED 1M के तहत दुबई प्रोजेक्ट्स के लिए, वर्तमान तुलना पथ पहले Arjan, Meydan, Jumeirah Village Circle जैसे जिलों को इंगित करते हैं, Apartments, Studios, Villas के साथ प्रासंगिक प्रॉपर्टी प्रारूपों के रूप में। ब्रॉडर्स रिकॉर्ड किए गए शुरुआती कीमत संकेत प्रॉपर्टी प्रारूप खोज के लिए उपलब्ध हैं; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें। सटीक इकाइयों, स्पेसिफिकेशन, भुगतान शर्तों और उपलब्धता अभी भी जाँच की आवश्यकता है।",
+          "question": "कौन से जिलों और प्रॉपर्टी प्रकारों को खरीदारों को पहले AED 1M के तहत दुबई प्रोजेक्ट्स के लिए तुलना करना चाहिए?"
+        },
+        {
+          "answer": "प्रॉपर्टी की कीमत दुबई में नकदी की आवश्यकता का एकमात्र हिस्सा है। सटीक खरीद के लिए लेनदेन, वित्तपोषण, हथौड़े और चल रहे स्वामित्व की लागत की पुष्टि करें। AED 1M के तहत दुबई प्रोजेक्ट्स के लिए, पंजीकरण और लेनदेन की लागत, वित्तपोषण और मूल्यांकन लागत, सेवा शुल्क और प्रॉपर्टी की खरीद, और हथौड़े, प्रस्तुत करने और चाल-इन लागत। चयनित इकाई, वित्तपोषण संरचना और लेनदेन के लिए एकदम सही राशि की गणना पूरी तरह से बजट के इलाज से पहले की जानी चाहिए।",
+          "question": "कौन से अतिरिक्त लागत खरीदारों को AED 1M के तहत दुबई प्रोजेक्ट्स की गणना करनी चाहिए?"
+        },
+        {
+          "answer": "AED 1M के तहत दुबई प्रोजेक्ट्स के लिए, बुकिंग या नीचे भुगतान, निर्माण किस्तों, हैंडओवर संतुलन, किसी भी पोस्ट-हैंडओवर दायित्वों और पूरा होने से पहले की कुल राशि की तुलना करें। यह पृष्ठ लाइव डेवलपर भुगतान योजना की पुष्टि नहीं करता है, इसलिए वर्तमान अनुसूची को प्रत्येक शॉर्टलिस्ट यूनिट के लिए अलग से जांच करनी चाहिए। एक कम किस्त या लंबे समय तक अनुसूची स्वचालित रूप से कम कुल जोखिम का मतलब नहीं है।",
+          "question": "कैसे खरीदार को AED 1M के तहत दुबई प्रोजेक्ट्स के लिए भुगतान योजना की तुलना करनी चाहिए?"
+        },
+        {
+          "answer": "AED 1M के तहत दुबई प्रोजेक्ट्स के लिए, Primadom AI 255 सटीक प्रारंभिक-मूल्य वाले मैचों और 37 पास के मैचों को डेवलपर, यूनिट टाइप, उपयोग योग्य आकार, कम्प्लीशन प्रोफ़ाइल, भुगतान एक्सपोजर और स्वामित्व की लागत से रैंक कर सकता है। इसके बाद इसे कीमतों, यूनिट उपलब्धता और प्रोजेक्ट के नियमों को ध्वजांकित करना चाहिए, जो अभी भी सलाहकार समीक्षा से पहले लाइव जाँच की आवश्यकता है।",
+          "question": "कैसे Primadom AI के तहत दुबई प्रोजेक्ट्स के लिए एक खोज को परिष्कृत कर सकते हैं?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "बजट से जुड़े प्रश्न",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "AED 1M अंतर्गत दुबई प्रोजेक्ट्स के लिए परिणाम योजना बना रहे हैं, जो लाइव सूची नहीं है। डेवलपर सामग्री, आधिकारिक रिकॉर्ड, वर्तमान लिस्टिंग और प्राइमाम सलाहकार समीक्षा का उपयोग करके वर्तमान शुरुआती कीमतों और उपलब्धता, भुगतान शेड्यूल, हैंडओवर स्थिति, फीस और प्रोजेक्ट शर्तों की पुष्टि करें।",
+      "items": [
+        {
+          "label": "मूल्य / उपलब्धता",
+          "value": "लाइव जाँच की आवश्यकता"
+        },
+        {
+          "label": "भुगतान योजना",
+          "value": "डेवलपर सामग्री की आवश्यकता है"
+        },
+        {
+          "label": "शुल्क/सेवा प्रभार",
+          "value": "गणना करना"
+        },
+        {
+          "label": "प्रोजेक्ट शॉर्टलिस्ट",
+          "value": "आवश्यकताएँ स्रोत समीक्षा"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "सत्यापन",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "डेवलपर, वर्तमान शुरुआती मूल्य, भुगतान योजना और हैंडओवर द्वारा AED 1M के तहत दुबई प्रोजेक्ट्स की तुलना के लिए Primadom AI से पूछें, फिर लाइव समीक्षा के लिए एक शॉर्टलिस्ट तैयार करें।",
+      "title": "क्या आपका बजट वास्तव में खरीदता है?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "बजट के अनुसार शॉर्टलिस्ट पाएँ",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "बजट पूछताछ फ़ॉर्म",
+      "note": "वर्तमान कीमतों और उपलब्धता की जांच की जाएगी, इससे पहले कि सिफारिश साझा की जा रही है।",
+      "text": "अपना विवरण साझा करें। Primadom AI समीक्षा के लिए एक प्राइमोम सलाहकार के लिए अपना बजट अनुरोध तैयार करेगा।",
+      "title": "क्या आपके बजट खरीद सकते हैं?",
+      "fields": {
+        "name": "आपका नाम",
+        "phone": "फ़ोन / WhatsApp",
+        "budget": "बजट सीमा",
+        "comment": "तैयार अनुरोध"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "भेजें",
+      "comment": "मेरे लिए AED 1M के तहत दुबई प्रोजेक्ट विकल्प की जाँच करें।",
+      "eyebrow": "AI बजट चयन",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "बंद करें",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "आपका नाम",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "नाम"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "बजट सीमा",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "Under AED 1M",
+          "default_value": "Under AED 1M"
+        },
+        "comment": {
+          "label": "तैयार अनुरोध",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "इस पृष्ठ से तैयार",
+          "single_line": true,
+          "default_value": "मेरे लिए AED 1M के तहत दुबई प्रोजेक्ट विकल्प की जाँच करें।"
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "नाम",
+        "phone": "+971",
+        "budget": "Under AED 1M",
+        "comment": "इस पृष्ठ से तैयार"
+      },
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "page_id": "page_intent_subcluster_dubai_projects_under_aed_1m_hi",
+        "page_layer": "intent_seed_candidate",
+        "budget_name": "Under AED 1M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "under AED 1M",
+        "district_name": null,
+        "canonical_url_path": "/hi/budgets/dubai-projects-under-aed-1m/",
+        "content_version_id": "7406d340-7ae6-49f9-9412-28c4267571be",
+        "property_type_name": null
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "वॉइस सर्च",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "एक लाइव मार्केट समीक्षा का अनुरोध करने से पहले डेवलपर, शुरुआती कीमत, भुगतान योजना और हैंडओवर द्वारा AED 1M के तहत दुबई प्रोजेक्ट्स का अन्वेषण करें।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "बजट खोज, यथार्थवादी प्रॉपर्टी विकल्पों में परिवर्तित",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom सामाजिक कड़ियों",
+      "url_section": "/hi/budgets/dubai-projects-under-aed-1m/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "AI से पूछें",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

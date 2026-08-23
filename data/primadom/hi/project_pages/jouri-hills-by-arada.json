@@ -1,0 +1,843 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_jouri_hills_by_arada_hi",
+  "page_type_id": "project_page",
+  "language_code": "hi",
+  "url_path": "/hi/projects/jouri-hills-by-arada/",
+  "canonical_url_path": "/hi/projects/jouri-hills-by-arada/",
+  "canonical_group_key": "project:jouri-hills-by-arada",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "jouri-hills-by-arada",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "कॉल बुक करें",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "अवलोकन",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "विवरण"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "स्थान"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "is_ai": true,
+          "label": "AI से पूछें"
+        }
+      ],
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Primadom AI नेविगेशन",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "projects",
+          "href": "/hi/projects/",
+          "label": "UAE ऑफ-प्लान प्रोजेक्ट्स"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/jumeirah-golf-estates/",
+          "label": "Jumeirah Golf Estates",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/hi/projects/jouri-hills-by-arada/",
+          "label": "Jouri Hills By Arada",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Jouri Hills By Arada",
+      "price_label": "कीमत से",
+      "promo_image": "",
+      "price_amount": 5000000,
+      "price_status": "available",
+      "hero_subtitle": "Jumeirah Golf Estates में ARADA - Sale का गोल्फ-साइड ऑफ-प्लान टाउनहाउस · विला प्रोजेक्ट।",
+      "price_display": "AED 5,000,000",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Jouri Hills By Arada गैलरी",
+      "gallery_next_label": "अगली इमेज",
+      "gallery_prev_label": "पिछली इमेज"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Jouri Hills By Arada की समान Jumeirah Golf Estates प्रोजेक्ट्स से तुलना करें",
+        "भुगतान योजना, यूनिट विकल्प और हैंडओवर का तर्क दिखाएँ",
+        "Jouri Hills By Arada रहने के लिए बेहतर है या निवेश के लिए?",
+        "Jumeirah Golf Estates लोकेशन का महत्व समझाएँ"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "इस प्रोजेक्ट के बारे में पूछें",
+      "placeholder": "Jouri Hills By Arada, भुगतान योजना, लोकेशन, जोखिम या मिलते-जुलते प्रोजेक्ट्स के बारे में पूछें",
+      "button_label": "पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Primadom AI से Jouri Hills By Arada के बारे में पूछें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "submit_aria_label": "Primadom AI से पूछें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "यह पेज Jouri Hills By Arada का संक्षिप्त अवलोकन देता है: कीमत, हैंडओवर, भुगतान योजना, लोकेशन और मिलते-जुलते प्रोजेक्ट्स। खरीदार के निर्णय से पहले उपलब्धता, फ्लोर प्लान और भुगतान शर्तों की जाँच की जानी चाहिए।",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "मास्टर कम्युनिटी",
+        "Jumeirah Golf Estates",
+        "ऑफ-प्लान",
+        "ARADA - Sale द्वारा",
+        "AED 5M से"
+      ],
+      "short_answer_title": "प्रोजेक्ट का संक्षिप्त विवरण",
+      "short_answer_kicker": "खरीदार के लिए संक्षिप्त अवलोकन",
+      "short_answer_summary": "Jouri Hills By Arada, Jumeirah Golf Estates में ARADA - Sale का ऑफ-प्लान टाउनहाउस और विला प्रोजेक्ट है। उपलब्ध प्रोजेक्ट डेटा में लक्ज़री, गोल्फ-साइड, मास्टर कम्युनिटी विशेषताएँ दर्ज हैं।"
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "कीमत से",
+          "value": "AED 5,000,000",
+          "value_ref": "price_from_aed",
+          "value_status": "available"
+        },
+        {
+          "key": "status",
+          "label": "स्थिति",
+          "value": "ऑफ-प्लान",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "हैंडओवर",
+          "value": "जून 2025",
+          "value_ref": "handover_text",
+          "value_status": "available"
+        },
+        {
+          "key": "payment_plan",
+          "label": "भुगतान योजना",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "डेवलपर",
+          "value": "ARADA - Sale",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "क्षेत्र",
+          "value": "Jumeirah Golf Estates",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "प्रकार",
+          "value": "टाउनहाउस · विला",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "यूनिट्स",
+          "value": "3 | 4 | 5 | 6 बेडरूम",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "क्षेत्रफल से",
+          "value": "3,160 वर्ग फुट से",
+          "value_ref": "size_min_sqft",
+          "value_status": "available"
+        },
+        {
+          "key": "last_checked",
+          "label": "अंतिम जाँच",
+          "value": "जून 2026",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "प्रोजेक्ट का विवरण",
+      "keyfacts_note": "Jouri Hills By Arada के मुख्य तथ्य ऊपर दिए गए हैं ताकि खरीदार, सर्च इंजन और AI सिस्टम प्रोजेक्ट को जल्दी समझ सकें। खरीदार के निर्णय से पहले कीमत, भुगतान योजना और उपलब्धता की पुष्टि की जानी चाहिए।",
+      "details_kicker": "मुख्य तथ्य",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "प्रॉपर्टी को प्राथमिक निवास के रूप में उपयोग करने की योजना बना रहे खरीदार",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "फैमिली-ओरिएंटेड घर खोज रहे खरीदार",
+            "evidence": "use_case_tags.family_home",
+            "priority": 15,
+            "semantic_group": "family_fit"
+          },
+          {
+            "item": "अधिक स्पेशियस लेआउट खोज रहे खरीदार",
+            "evidence": "family_tags.spacious_layouts",
+            "priority": 45,
+            "semantic_group": "spacious_layout"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "कम खरीद बजट वाले खरीदार",
+            "evidence": "confirmed_entry_price",
+            "priority": 20,
+            "semantic_group": "high_entry_price"
+          },
+          {
+            "item": "विशेष रूप से स्टूडियो या कॉम्पैक्ट यूनिट खोज रहे खरीदार",
+            "evidence": "bedrooms_min",
+            "priority": 40,
+            "semantic_group": "no_compact_units"
+          },
+          {
+            "item": "विशेष रूप से अपार्टमेंट खोज रहे खरीदार",
+            "evidence": "property_types.villa_only",
+            "priority": 60,
+            "semantic_group": "no_apartments"
+          }
+        ]
+      },
+      "best_for_items": [
+        "प्रॉपर्टी को प्राथमिक निवास के रूप में उपयोग करने की योजना बना रहे खरीदार",
+        "फैमिली-ओरिएंटेड घर खोज रहे खरीदार",
+        "अधिक स्पेशियस लेआउट खोज रहे खरीदार"
+      ],
+      "best_for_title": "इनके लिए उपयुक्त",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "खरीदार प्रोफ़ाइल",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "उपयुक्तता जाँच",
+      "not_best_for_items": [
+        "कम खरीद बजट वाले खरीदार",
+        "विशेष रूप से स्टूडियो या कॉम्पैक्ट यूनिट खोज रहे खरीदार",
+        "विशेष रूप से अपार्टमेंट खोज रहे खरीदार"
+      ],
+      "not_best_for_title": "शायद उपयुक्त न हो",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Jouri Hills By Arada, Jumeirah Golf Estates में ARADA - Sale का ऑफ-प्लान टाउनहाउस और विला प्रोजेक्ट है। उपलब्ध डेटा में यूनिट विकल्प 3 | 4 | 5 | 6 बेडरूम, यूनिट आकार 3,160 वर्ग फुट से और हैंडओवर जून 2025 दर्ज हैं। इसकी पोज़िशनिंग गोल्फ-साइड, फैमिली-ओरिएंटेड, मास्टर कम्युनिटी, उपनगरीय, प्राइवेसी विशेषताओं के साथ प्राथमिक निवास के उपयोग पर केंद्रित है।",
+      "project_logic_title": "प्रोजेक्ट की स्थिति",
+      "project_logic_kicker": "इसे कैसे समझें"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "निवेश दृष्टिकोण बनाने से पहले Jouri Hills By Arada के लिए दर्ज शुरुआती कीमत AED 5,000,000, दर्ज हैंडओवर जून 2025, Jumeirah Golf Estates की लोकेशन, यूनिट मिक्स और तुलनीय प्रोजेक्ट्स की समीक्षा करें।",
+          "title": "डेटा जाँच आवश्यक है",
+          "eyebrow": "निवेश दृष्टिकोण",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "Jouri Hills By Arada Jumeirah Golf Estates में टाउनहाउस · विला विकल्प देता है; इसका रेज़िडेंशियल फॉर्मेट और यूनिट मिक्स फैमिली-ओरिएंटेड उपयोग परिदृश्य का समर्थन करता है।",
+          "title": "खरीदार उपयोग परिदृश्य",
+          "eyebrow": "जीवनशैली दृष्टिकोण",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "निर्णय लेने से पहले लाइव उपलब्धता, मौजूदा कीमत, सर्विस चार्ज, भुगतान शर्तें, फ्लोर प्लान और आधिकारिक प्रोजेक्ट दस्तावेज़ सत्यापित करें।",
+          "title": "उपलब्धता, शुल्क और भुगतान योजना",
+          "eyebrow": "खरीदने से पहले जाँचें",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI Jouri Hills By Arada की तुलना अन्य विकल्पों से कर सकता है और एडवाइज़र से जाँचने के लिए मुख्य प्रश्न तैयार कर सकता है।",
+          "title": "निर्णय से पहले पूछें",
+          "eyebrow": "AI सहायता",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 24.35058,
+      "lng": 53.93918,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/hi/areas/jumeirah-golf-estates/",
+          "label": "क्षेत्र गाइड",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=24.350580,53.939180",
+          "label": "मानचित्र खोलें",
+          "action_status": "source_coordinates"
+        }
+      ],
+      "address": "Jumeirah Golf Estates, Dubai, UAE",
+      "map_point": "क्षेत्र-स्तरीय स्थान",
+      "nearby_title": "आसपास के प्रमुख स्थान",
+      "address_label": "पता",
+      "nearby_status": "city_fallback",
+      "address_status": "available",
+      "location_title": "स्थान",
+      "schema_version": "location_v1",
+      "map_point_label": "स्थान का दायरा",
+      "location_context": "Jouri Hills By Arada की लोकेशन जानकारी Jumeirah Golf Estates में दर्ज क्षेत्र पर आधारित है। खरीदार के निर्णय से पहले भवन की सटीक स्थिति, ड्राइव समय और आसपास के प्रमुख स्थानों की पुष्टि की जानी चाहिए।",
+      "map_point_status": "source_coordinates",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Downtown Dubai",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "Dubai Marina",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "DXB Airport",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "ड्राइव समय",
+      "map_context_kicker": "क्षेत्र का संदर्भ",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "प्रोजेक्ट्स का चयन क्षेत्र, डेवलपर, शहर, प्रॉपर्टी प्रकार, कीमत बैंड, बेडरूम रेंज और हैंडओवर के आधार पर निर्धारित नियमों से किया जाता है। कमजोर मैच हटाए जाते हैं, इसलिए कुछ पेजों पर चार से कम प्रोजेक्ट दिख सकते हैं।",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/hi/areas/jumeirah-golf-estates/projects/",
+          "label": "Jumeirah Golf Estates में और प्रोजेक्ट्स",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/hi/developers/arada-sale/projects/",
+          "label": "ARADA - Sale के और प्रोजेक्ट्स",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "संबंधित प्रोजेक्ट्स",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "आंतरिक लिंक",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/hi/projects/jouri-hills/",
+          "project_id": "jouri-hills",
+          "match_score": 280,
+          "project_name": "Jouri Hills",
+          "district_name": "Jumeirah Golf Estates",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "टाउनहाउस,विला",
+          "developer_name": "ARADA - Sale",
+          "price_from_aed": 5800000
+        },
+        {
+          "href": "/hi/projects/jasmine-lane/",
+          "project_id": "jasmine-lane",
+          "match_score": 130,
+          "project_name": "Jasmine Lane",
+          "district_name": "Jumeirah Golf Estates",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "विला",
+          "developer_name": "Durar Group",
+          "price_from_aed": 4000000
+        },
+        {
+          "href": "/hi/projects/dar-global-villas/",
+          "project_id": "dar-global-villas",
+          "match_score": 125,
+          "project_name": "Dar Global Villas",
+          "district_name": "Jumeirah Golf Estates",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap"
+          ],
+          "property_type": "विला",
+          "developer_name": "Dar Global",
+          "price_from_aed": 5300000
+        },
+        {
+          "href": "/hi/projects/pinewood-estate/",
+          "project_id": "pinewood-estate",
+          "match_score": 125,
+          "project_name": "Pinewood Estate",
+          "district_name": "Jumeirah Golf Estates",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap"
+          ],
+          "property_type": "टाउनहाउस",
+          "developer_name": "Wasl Properties",
+          "price_from_aed": 5600000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Jouri Hills By Arada, Jumeirah Golf Estates में ARADA - Sale का ऑफ-प्लान रियल एस्टेट प्रोजेक्ट है। उपलब्ध डेटा में प्रॉपर्टी प्रकार के रूप में टाउनहाउस · विला दर्ज हैं।",
+          "question": "Jouri Hills By Arada क्या है?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Jouri Hills By Arada की लोकेशन Jumeirah Golf Estates, Dubai, UAE में है।",
+          "question": "Jouri Hills By Arada कहाँ स्थित है?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "दर्ज शुरुआती कीमत AED 5,000,000 है। निर्णय लेने से पहले मौजूदा कीमत और उपलब्धता की पुष्टि की जानी चाहिए।",
+          "question": "Jouri Hills By Arada की शुरुआती कीमत क्या है?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "मौजूदा प्रोजेक्ट डेटा में प्रॉपर्टी प्रकार टाउनहाउस · विला और बेडरूम विकल्प 3 | 4 | 5 | 6 बेडरूम दर्ज हैं।",
+          "question": "Jouri Hills By Arada में कौन-से प्रॉपर्टी प्रकार और बेडरूम विकल्प उपलब्ध हैं?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "स्रोत डेटा में जून 2025 दर्ज है। मौजूदा पूर्णता स्थिति का अलग से सत्यापन आवश्यक है।",
+          "question": "Jouri Hills By Arada के लिए दर्ज प्रोजेक्ट टाइमलाइन क्या है?",
+          "answer_status": "timeline_needs_verification"
+        }
+      ],
+      "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
+      "faq_kicker": "संक्षिप्त जवाब",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "जवाब दिखाएँ",
+      "faq_collapse_label": "जवाब छिपाएँ"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "सत्यापन",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "आधिकारिक डेवलपर सामग्री",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "मौजूदा कीमत और उपलब्धता",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "प्रोजेक्ट रजिस्ट्रेशन स्थिति",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Primadom एडवाइज़र सत्यापन",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "डेटा की अद्यतन स्थिति",
+      "freshness_value": "तेज़ी से बदलने वाला डेटा",
+      "source_note_text": "Jouri Hills By Arada के डेटा पर भरोसा करने से पहले खरीदारों को मौजूदा कीमत, उपलब्धता, भुगतान शर्तें, फ्लोर प्लान, हैंडओवर, सर्विस चार्ज और आधिकारिक प्रोजेक्ट दस्तावेज़ों की पुष्टि करनी चाहिए।",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "अंतिम अपडेट",
+      "last_updated_value": "जून 2026",
+      "source_notes_title": "क्या सत्यापित करना चाहिए",
+      "trust_sources_title": "स्रोतों की जाँच",
+      "verification_summary": [
+        {
+          "label": "आधिकारिक सामग्री",
+          "value": "आवश्यक"
+        },
+        {
+          "label": "कीमत और उपलब्धता",
+          "value": "आवश्यक"
+        },
+        {
+          "label": "प्राधिकरण स्थिति",
+          "value": "सुझाया गया"
+        },
+        {
+          "label": "एडवाइज़र सत्यापन",
+          "value": "आंतरिक"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Primadom AI से पूछें",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "प्रोजेक्ट PDF का अनुरोध करें",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "कॉल बुक करें",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Jouri Hills By Arada की तुलना करने, कीमत और भुगतान संरचना की समीक्षा करने तथा Primadom एडवाइज़र से पूछने के सही प्रश्न तैयार करने के लिए Primadom AI का उपयोग करें।",
+      "cta_title": "निर्णय लेने से पहले इस प्रोजेक्ट की जाँच करें",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "आपका अनुरोध साझा करने से पहले हम विवरण की जाँच करेंगे।",
+      "fields": {
+        "name": {
+          "label": "नाम",
+          "html_name": "name",
+          "placeholder": "आपका नाम"
+        },
+        "phone": {
+          "label": "फ़ोन",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "अनुरोध",
+          "html_name": "request_type",
+          "placeholder": "समय, यूनिट प्रकार या प्रश्न"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "बंद करें",
+      "modal_title": "Jouri Hills By Arada के बारे में पूछें",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "modal_status": "formula_generated",
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "प्रोजेक्ट अनुरोध",
+      "success_label": "भेज दिया गया",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Jouri Hills By Arada में रुचि है। विवरण भेजें।",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "बताएँ कि आप क्या खोज रहे हैं। Primadom उपलब्धता, कीमतों, फ्लोर प्लान और अगले कदमों की जाँच में मदद करेगा।",
+      "voice_button_label": "वॉइस का उपयोग करें"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/hi/projects/",
+          "label": "प्रोजेक्ट्स"
+        },
+        {
+          "key": "areas",
+          "href": "/hi/areas/",
+          "label": "क्षेत्र"
+        },
+        {
+          "key": "developers",
+          "href": "/hi/developers/",
+          "label": "डेवलपर्स"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI सर्च"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "copyright": "© Primadom AI",
+      "brand_href": "/hi/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "यह पेज Jouri Hills By Arada की समीक्षा करने, मुख्य विवरणों की तुलना करने, क्षेत्र को समझने और Primadom एडवाइज़र से बात करने से पहले सही प्रश्न तैयार करने में मदद करता है।",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "कॉल बुक करें",
+        "action_intent": "call_request"
+      },
+      "statement_title": "स्पष्ट प्रोजेक्ट डेटा और AI मार्गदर्शन के साथ सही Dubai प्रॉपर्टी खोजें।",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "AI से पूछें",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

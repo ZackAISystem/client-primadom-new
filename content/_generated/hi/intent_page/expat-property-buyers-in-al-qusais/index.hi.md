@@ -1,0 +1,10 @@
+---
+title: "Al Qusais में प्रवासी खरीदारों के लिए प्रॉपर्टी विकल्प"
+layout: "primadom-intent-page-v2"
+intent_slug: "expat-property-buyers-in-al-qusais"
+page_id: "pg_ca015efeba7adb0a7228e8505e7d"
+url: "/hi/intents/expat-property-buyers-in-al-qusais/"
+build:
+  render: always
+  list: never
+---

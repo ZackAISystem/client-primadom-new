@@ -1,0 +1,10 @@
+---
+title: "Meydan में कम शुरुआती भुगतान वाले प्रोजेक्ट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "low-down-payment-projects-in-meydan"
+page_id: "intent__low-down-payment-projects__district__meydan__hi"
+url: "/hi/intents/low-down-payment-projects-in-meydan/"
+build:
+  render: always
+  list: never
+---

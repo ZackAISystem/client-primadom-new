@@ -1,0 +1,10 @@
+---
+title: "IMPZ में भुगतान योजना वाले प्रोजेक्ट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "payment-plan-projects-in-impz"
+page_id: "intent__payment-plan-projects__district__impz__hi"
+url: "/hi/intents/payment-plan-projects-in-impz/"
+build:
+  render: always
+  list: never
+---

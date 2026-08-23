@@ -1,0 +1,10 @@
+---
+title: "रूस के खरीदारों के लिए Dubai में किराये की आय के लिए प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-rental-income-property-for-russia-buyers"
+page_id: "pg_270937cfd8bc47dbff4c5048e56c"
+url: "/hi/buyer-scenarios/dubai-rental-income-property-for-russia-buyers/"
+build:
+  render: always
+  list: never
+---

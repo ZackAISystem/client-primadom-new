@@ -1,0 +1,10 @@
+---
+title: "Samana Hills South 3"
+layout: "primadom-project-page-v2"
+project_slug: "samana-hills-south-3"
+page_id: "page_project_samana_hills_south_3_hi"
+url: "/hi/projects/samana-hills-south-3/"
+build:
+  render: always
+  list: never
+---

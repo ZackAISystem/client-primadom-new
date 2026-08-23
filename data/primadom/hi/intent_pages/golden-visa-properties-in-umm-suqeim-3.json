@@ -1,0 +1,727 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_8a407d14436fddde9474dc8cd285",
+  "page_type_id": "intent_page",
+  "language_code": "hi",
+  "url_path": "/hi/intents/golden-visa-properties-in-umm-suqeim-3/",
+  "canonical_url_path": "/hi/intents/golden-visa-properties-in-umm-suqeim-3/",
+  "canonical_group_key": "intent:golden-visa-properties:district:umm-suqeim-3",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "golden-visa-properties",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "विकल्प",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "क्षेत्र",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "जाँच",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#intent-ai-search",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "प्रॉपर्टी खोज नेविगेशन",
+      "brand_url": "/hi/",
+      "cta_label": "मेरे लिए विकल्प खोजें"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "href": "/hi/intents/",
+          "label": "प्रॉपर्टी खोज"
+        },
+        {
+          "href": "/hi/intents/golden-visa-properties-in-umm-suqeim-3/",
+          "label": "Umm Suqeim 3 में Golden Visa के लिए प्रॉपर्टीज़"
+        }
+      ],
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "स्थान: Umm Suqeim 3",
+        "Golden Visa योजना",
+        "पात्रता की जाँच",
+        "पात्रता पुष्टिकरण"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Umm Suqeim 3 में Golden Visa के लिए प्रॉपर्टीज़",
+      "subtitle": "Umm Suqeim 3 में उन प्रॉपर्टी विकल्पों को देखें जो मौजूदा पात्रता नियमों, मूल्य सीमा और आधिकारिक पुष्टि के अधीन UAE Golden Visa योजना के लिए प्रासंगिक हो सकते हैं।",
+      "facts_aria": "प्रॉपर्टी खोज की मुख्य बातें",
+      "visual_aria": "प्रॉपर्टी खोज का मुख्य दृश्य"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "वीज़ा योजना के लिए विकल्प देखें",
+        "मूल्य सीमा और पात्रता नियमों की जाँच करें",
+        "आगे बढ़ने से पहले मौजूदा आवश्यकताओं की पुष्टि करें"
+      ],
+      "prompts": [
+        "वीज़ा योजना के लिए विकल्प देखें",
+        "मूल्य सीमा और पात्रता नियमों की जाँच करें",
+        "आगे बढ़ने से पहले मौजूदा आवश्यकताओं की पुष्टि करें"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI से पूछें",
+      "voice_text": "वॉइस सर्च",
+      "placeholder": "Umm Suqeim 3 में Golden Visa के लिए प्रॉपर्टीज़",
+      "block_status": "formula_generated",
+      "button_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "ai_voice_text": "Umm Suqeim 3 में Golden Visa के लिए प्रॉपर्टीज़",
+      "ai_placeholder": "Umm Suqeim 3 में Golden Visa के लिए प्रॉपर्टीज़",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "सुन रहा हूँ…",
+      "form_aria_label": "Umm Suqeim 3 में Golden Visa के लिए उपयुक्त प्रॉपर्टीज़ के बारे में Primadom AI से पूछें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "submit_aria_label": "Primadom AI से पूछें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Golden Visa",
+        "मूल्य सीमा",
+        "स्वामित्व संरचना",
+        "आधिकारिक नियम"
+      ],
+      "title": "संक्षिप्त जवाब",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<strong>Umm Suqeim 3 की प्रॉपर्टी Golden Visa योजना के लिए प्रासंगिक हो सकती है, लेकिन केवल लोकेशन से पात्रता तय नहीं होती।</strong> प्रत्येक खरीद के लिए निवेश मूल्य, स्वामित्व संरचना, प्रॉपर्टी की स्थिति और मौजूदा आधिकारिक आवश्यकताओं की जाँच करनी होगी। विश्वसनीय शॉर्टलिस्ट तैयार करने से पहले इस क्षेत्र में उपयुक्त प्रोजेक्ट्स की पुष्टि करना अभी बाकी है।",
+      "body_text": "Umm Suqeim 3 की प्रॉपर्टी Golden Visa योजना के लिए प्रासंगिक हो सकती है, लेकिन केवल लोकेशन से पात्रता तय नहीं होती। प्रत्येक खरीद के लिए निवेश मूल्य, स्वामित्व संरचना, प्रॉपर्टी की स्थिति और मौजूदा आधिकारिक आवश्यकताओं की जाँच करनी होगी। विश्वसनीय शॉर्टलिस्ट तैयार करने से पहले इस क्षेत्र में उपयुक्त प्रोजेक्ट्स की पुष्टि करना अभी बाकी है।",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "खरीद का निर्णय लेने से पहले कीमत, उपलब्धता, भुगतान की शर्तों और प्रोजेक्ट की समय-सीमा की पुष्टि करें।",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "खोज का उद्देश्य",
+          "value": "Golden Visa प्रॉपर्टी"
+        },
+        {
+          "key": "location",
+          "label": "स्थान",
+          "value": "Umm Suqeim 3"
+        },
+        {
+          "key": "market",
+          "label": "बाज़ार",
+          "value": "Dubai / UAE"
+        },
+        {
+          "key": "property_focus",
+          "label": "प्रॉपर्टी फोकस",
+          "value": "संभावित पात्र प्रॉपर्टीज़"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "खरीदार का लक्ष्य",
+          "value": "रेज़िडेंसी योजना में सहायता"
+        },
+        {
+          "key": "main_checks",
+          "label": "मुख्य जाँच",
+          "value": "मूल्य · स्वामित्व · आधिकारिक आवश्यकताएँ"
+        },
+        {
+          "key": "project_match",
+          "label": "प्रोजेक्ट उपयुक्तता",
+          "value": "प्रोजेक्ट से मेल की अभी पुष्टि नहीं हुई है"
+        },
+        {
+          "key": "current_details",
+          "label": "मौजूदा विवरण",
+          "value": "उपयुक्त प्रोजेक्ट्स की पुष्टि आवश्यक है"
+        }
+      ],
+      "title": "खोज का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "मौजूदा नियमों के विरुद्ध मूल्य सत्यापित करें।",
+          "title": "आधिकारिक सीमा के आसपास की प्रॉपर्टीज़"
+        },
+        {
+          "text": "शीर्षक स्थिति और संरचना की जाँच करें।",
+          "title": "स्पष्ट स्वामित्व वाले विकल्प"
+        },
+        {
+          "text": "अनुबंधों और आधिकारिक रिकॉर्डों की समीक्षा करें।",
+          "title": "स्पष्ट दस्तावेज़ों वाले प्रोजेक्ट्स"
+        },
+        {
+          "text": "मूल्य और स्वामित्व संरचना की पुष्टि करें।",
+          "title": "रेज़िडेंसी योजना से मेल खाने वाले विकल्प"
+        }
+      ],
+      "title": "जाँचने योग्य विकल्प",
+      "eyebrow": "क्या तुलना करें",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "insufficient_pair_evidence",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "निवास-योग्यता से जुड़ी संभावित प्रॉपर्टीज़ की तुलना मौजूदा मूल्य आवश्यकताओं, स्वामित्व संरचना, प्रॉपर्टी की स्थिति, दस्तावेज़ और आधिकारिक पात्रता जाँच के आधार पर करें। पात्रता की पुष्टि मौजूदा आधिकारिक आवश्यकताओं के अनुसार करनी होगी।",
+      "tags": [
+        "मूल्य की आवश्यकता",
+        "स्वामित्व संरचना",
+        "प्रॉपर्टी की स्थिति",
+        "दस्तावेज़",
+        "आधिकारिक जांच"
+      ],
+      "title": "शॉर्टलिस्ट का तर्क",
+      "eyebrow": "तुलना कैसे करें",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "मूल्य, स्वामित्व संरचना, स्थिति और दस्तावेज़ की समीक्षा करें।",
+          "title": "शुरुआत मौजूदा आधिकारिक नियमों से करें",
+          "eyebrow": "पात्रता की जाँच"
+        },
+        {
+          "dark": false,
+          "text": "रेज़िडेंसी लक्ष्यों के तहत प्रॉपर्टी पर विचार करने वाले खरीदारों के लिए उपयोगी।",
+          "title": "व्यापक निवास योजना का समर्थन करता है",
+          "eyebrow": "खरीदार से मेल"
+        },
+        {
+          "dark": false,
+          "text": "आवश्यकताओं को मौजूदा आधिकारिक मार्गदर्शन के अनुसार जाँचना होगा।",
+          "title": "खरीद से पहले पात्रता की पुष्टि करें",
+          "eyebrow": "चुनने से पहले"
+        },
+        {
+          "dark": true,
+          "text": "मूल्य, स्वामित्व, दस्तावेज़ और खरीदार प्राथमिकताओं की तुलना करें।",
+          "title": "उपयुक्त प्रॉपर्टी विकल्प छाँटें",
+          "eyebrow": "AI शॉर्टलिस्ट"
+        }
+      ],
+      "cards_aria": "प्रॉपर्टी खोज के लिए निर्णय मार्गदर्शन",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/hi/intents/luxury-properties-in-umm-suqeim-3/",
+            "meta": "प्रीमियम विकल्प",
+            "label": "Umm Suqeim 3 में लक्ज़री प्रॉपर्टीज़"
+          },
+          {
+            "href": "/hi/intents/branded-residences-in-umm-suqeim-3/",
+            "meta": "ब्रांडेड घर",
+            "label": "Umm Suqeim 3 में ब्रांडेड रेज़िडेंस"
+          },
+          {
+            "href": "/hi/intents/capital-growth-properties-in-umm-suqeim-3/",
+            "meta": "वृद्धि पर केंद्रित",
+            "label": "Umm Suqeim 3 में पूँजी वृद्धि की संभावना वाली प्रॉपर्टीज़"
+          },
+          {
+            "href": "/hi/intents/expat-property-buyers-in-umm-suqeim-3/",
+            "meta": "प्रवासी खरीदार मार्ग",
+            "label": "Umm Suqeim 3 में प्रवासी खरीदारों के लिए प्रॉपर्टी विकल्प"
+          },
+          {
+            "href": "/hi/intents/trusted-developer-projects-in-umm-suqeim-3/",
+            "meta": "डेवलपर की जाँच",
+            "label": "Umm Suqeim 3 में स्थापित डेवलपर्स के प्रोजेक्ट्स"
+          }
+        ],
+        "title": "प्रोजेक्ट जाँच",
+        "eyebrow": "शॉर्टलिस्ट विकल्प"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/hi/areas/umm-suqeim-3/",
+            "meta": "मौजूदा क्षेत्र",
+            "label": "Umm Suqeim 3"
+          },
+          {
+            "href": "/hi/areas/jumeirah-1/",
+            "meta": "मिलती-जुलती वॉटरफ्रंट जीवनशैली",
+            "label": "Jumeirah 1"
+          },
+          {
+            "href": "/hi/areas/jumeirah-2/",
+            "meta": "मिलती-जुलती वॉटरफ्रंट जीवनशैली",
+            "label": "Jumeirah 2"
+          },
+          {
+            "href": "/hi/areas/jumeirah-3/",
+            "meta": "मिलती-जुलती वॉटरफ्रंट जीवनशैली",
+            "label": "Jumeirah 3"
+          },
+          {
+            "href": "/hi/areas/umm-suqeim/",
+            "meta": "मिलती-जुलती वॉटरफ्रंट जीवनशैली",
+            "label": "Umm Suqeim"
+          }
+        ],
+        "title": "तुलना के लिए क्षेत्र",
+        "eyebrow": "कहाँ देखें"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "यह पेज किनके लिए है",
+        "good_for": [
+          "Umm Suqeim 3 में प्रॉपर्टी खोज को व्यापक रेज़िडेंसी योजना से जोड़ने वाले खरीदार",
+          "क्वालिफाइंग वैल्यू, स्वामित्व संरचना और प्रोजेक्ट की स्थिति की तुलना में पर्याप्त लचीलेपन वाले खरीदार",
+          "आधिकारिक चैनलों से नवीनतम आवश्यकताओं की पुष्टि करने के लिए तैयार खरीदार"
+        ],
+        "less_for": [
+          "प्रॉपर्टी खरीदने पर स्वतः रेज़िडेंसी मिलने की अपेक्षा रखने वाले खरीदार",
+          "केवल इसलिए चयन करने वाले खरीदार क्योंकि कोई लिस्टिंग मूल्य सीमा पूरी करती हुई दिखती है",
+          "खरीदार स्वामित्व, दस्तावेज़ और मौजूदा पात्रता नियमों की पुष्टि करने के लिए तैयार नहीं हैं"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "इनके लिए उपयुक्त",
+        "less_for_title": "इनके लिए कम उपयुक्त हो सकता है"
+      },
+      "risk_notes": {
+        "body": "Umm Suqeim 3 में Golden Visa योजना से जुड़ी प्रॉपर्टी खोज के लिए मौजूदा पात्रता नियमों, आकलन में प्रयुक्त मूल्य, स्वामित्व संरचना, प्रोजेक्ट की स्थिति और आवश्यक दस्तावेज़ों की आधिकारिक माध्यमों से पुष्टि करें। केवल प्रॉपर्टी की कीमत से पात्रता तय नहीं होती।",
+        "tags": [
+          "मौजूदा नियम",
+          "पात्रता के लिए आवश्यक मूल्य",
+          "स्वामित्व संरचना",
+          "प्रोजेक्ट की स्थिति",
+          "दस्तावेज़"
+        ],
+        "title": "मुख्य जाँच",
+        "eyebrow": "चुनने से पहले",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Support residency planning",
+        "page_group": "intent_district",
+        "intent_slug": "golden-visa-properties",
+        "main_checks": "Value · ownership · official requirements",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "umm-suqeim-3",
+        "search_intent": "Golden Visa property",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "Eligible property candidates",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/hi/intents/long-term-investment-properties-in-umm-suqeim-3/",
+          "label": "Umm Suqeim 3 में दीर्घकालिक निवेश के लिए प्रॉपर्टीज़"
+        },
+        {
+          "href": "/hi/intents/new-launch-projects-in-umm-suqeim-3/",
+          "label": "Umm Suqeim 3 में नए लॉन्च प्रोजेक्ट्स"
+        },
+        {
+          "href": "/hi/intents/off-plan-apartments-in-umm-suqeim-3/",
+          "label": "Umm Suqeim 3 में ऑफ-प्लान अपार्टमेंट्स"
+        },
+        {
+          "href": "/hi/intents/ready-soon-projects-in-umm-suqeim-3/",
+          "label": "Umm Suqeim 3 में जल्द तैयार होने वाले प्रोजेक्ट्स"
+        }
+      ],
+      "title": "संबंधित खोजें",
+      "eyebrow": "आगे देखें",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "पात्र प्रॉपर्टी आवेदन में सहायक हो सकती है, लेकिन पात्रता मौजूदा आधिकारिक नियमों, प्रॉपर्टी मूल्य, स्वामित्व संरचना, प्रोजेक्ट की स्थिति और दस्तावेज़ों पर निर्भर करती है। स्वीकृति की कोई गारंटी नहीं है।",
+          "question": "क्या Umm Suqeim 3 में प्रॉपर्टी Golden Visa आवेदन की पात्रता में सहायक हो सकती है?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "मौजूदा नियमों की जाँच के बाद ही तैयार प्रॉपर्टीज़ और पात्र ऑफ-प्लान विकल्पों की तुलना करें। प्रॉपर्टी मूल्य, स्वामित्व हिस्सेदारी, फाइनेंसिंग संरचना और आधिकारिक प्रोजेक्ट स्थिति पात्रता को प्रभावित कर सकते हैं।",
+          "question": "Golden Visa के उद्देश्य से खरीदने वाले खरीदारों को Umm Suqeim 3 में किन प्रॉपर्टी प्रकारों की तुलना करनी चाहिए?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "आधिकारिक चैनलों से मौजूदा पात्रता सीमा, स्वीकार्य स्वामित्व संरचना, प्रोजेक्ट की पात्रता, टाइटल या पंजीकरण दस्तावेज़, फाइनेंसिंग का प्रभाव और आवेदन आवश्यकताओं की पुष्टि करें।",
+          "question": "Golden Visa के उद्देश्य से शॉर्टलिस्ट बनाने से पहले मुझे क्या सत्यापित करना चाहिए?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "हाँ। प्रॉपर्टी मूल्य, प्रोजेक्ट स्थिति, स्वामित्व संरचना, जीवन शैली या निवेश फिट और सहायक दस्तावेजों की विश्वसनीयता द्वारा क्षेत्रों में योग्यता विकल्पों की तुलना करें।",
+          "question": "क्या मुझे Umm Suqeim 3 के साथ अन्य क्षेत्रों की तुलना करनी चाहिए?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "हाँ। Primadom AI प्रॉपर्टी प्रकार, कीमत, भुगतान की शर्तें, प्रोजेक्ट चरण, लोकेशन की उपयुक्तता और उपयोग के उद्देश्य के आधार पर मौजूदा विकल्पों की तुलना कर सकता है, फिर सलाहकार द्वारा लाइव विवरण सत्यापित करने से पहले Umm Suqeim 3 के लिए केंद्रित शॉर्टलिस्ट तैयार कर सकता है।",
+          "question": "क्या Primadom AI Umm Suqeim 3 में इस खोज के विकल्पों की तुलना करने में मदद कर सकता है?",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "खरीदारों के प्रश्न",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Golden Visa properties in Umm Suqeim 3",
+        "page_group": "intent_district",
+        "intent_slug": "golden-visa-properties",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Umm Suqeim 3",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Umm Suqeim 3 में इस Golden Visa प्रॉपर्टी खोज पर भरोसा करने से पहले मौजूदा प्रॉपर्टी मूल्य, स्वामित्व संरचना, प्रोजेक्ट की स्थिति, दस्तावेज़ और नवीनतम आधिकारिक पात्रता नियमों की पुष्टि करें। प्रॉपर्टी की उपलब्धता और आवेदन की पात्रता के लिए अलग-अलग लाइव जाँच आवश्यक है।",
+      "items": [
+        {
+          "label": "प्रॉपर्टी मूल्य",
+          "value": "मौजूदा प्रमाण आवश्यक"
+        },
+        {
+          "label": "पात्रता नियम",
+          "value": "आधिकारिक जाँच आवश्यक"
+        },
+        {
+          "label": "प्रोजेक्ट / स्वामित्व की स्थिति",
+          "value": "आधिकारिक स्रोत आवश्यक है"
+        },
+        {
+          "label": "स्रोत समीक्षा",
+          "value": "सत्यापन लंबित है"
+        }
+      ],
+      "title": "स्रोतों की जाँच",
+      "eyebrow": "सत्यापन",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_current_official_eligibility_rules",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "golden-visa-properties",
+        "source_focus": "golden_visa",
+        "district_name": "Umm Suqeim 3",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "अपनी स्वामित्व योजना, प्रॉपर्टी पसंद और समय बताएँ। Primadom AI मौजूदा विकल्पों को छाँटेगा, जबकि सलाहकार प्रोजेक्ट विवरण और मौजूदा आधिकारिक पात्रता नियमों की जाँच करेगा।",
+      "title": "उपयुक्त प्रॉपर्टी विकल्पों की जाँच करें",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "उपयुक्त विकल्प चेक करें",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Primadom AI से पूछें",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "golden_visa",
+        "hero_title": "Golden Visa properties in Umm Suqeim 3",
+        "page_group": "intent_district",
+        "intent_slug": "golden-visa-properties",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Umm Suqeim 3",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "प्रॉपर्टी खोज पूछताछ फ़ॉर्म",
+      "note": "आपका अनुरोध सलाहकार के साथ साझा करने से पहले हम विवरण की समीक्षा करेंगे।",
+      "text": "हमें अपनी मुख्य प्राथमिकताएँ बताएँ। सलाहकार मौजूदा विकल्पों और आधिकारिक नियमों की जाँच करे, उससे पहले Primadom AI संक्षिप्त प्रॉपर्टी अनुरोध तैयार करेगा।",
+      "title": "उपयुक्त प्रॉपर्टी विकल्पों की जाँच करें",
+      "fields": {
+        "name": "नाम",
+        "email": "ईमेल (वैकल्पिक)",
+        "phone": "फ़ोन / WhatsApp",
+        "comment": "अनुरोध"
+      },
+      "submit": "अनुरोध भेजें",
+      "comment": "उपयुक्त प्रॉपर्टीज़ खोजें और प्रोजेक्ट विवरण तथा मौजूदा पात्रता नियमों की जाँच करें।",
+      "eyebrow": "प्रोजेक्ट अनुरोध",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "बंद करें",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "golden_visa",
+        "page_group": "intent_district",
+        "intent_slug": "golden-visa-properties",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Umm Suqeim 3",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "field_config": {
+        "name": {
+          "label": "नाम",
+          "html_name": "name",
+          "placeholder": "आपका नाम"
+        },
+        "email": {
+          "label": "ईमेल (वैकल्पिक)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "अनुरोध",
+          "html_name": "comment",
+          "placeholder": "आप क्या खोज रहे हैं?"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "आपका नाम",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "अनुरोध भेजें",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "उपयुक्त प्रॉपर्टीज़ खोजें और प्रोजेक्ट विवरण तथा मौजूदा पात्रता नियमों की जाँच करें।",
+        "html_name": "comment",
+        "request_scope": [
+          "property_matching",
+          "project_status",
+          "ownership_plan",
+          "official_eligibility_check",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "वॉइस का उपयोग करें"
+    },
+    "block_17_footer": {
+      "text": "Primadom सलाहकार से बात करने से पहले उपयुक्त प्रॉपर्टी विकल्पों, प्रोजेक्ट की स्थिति और आधिकारिक पात्रता जाँच की समीक्षा करें।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "स्पष्ट मार्गदर्शन के साथ सही UAE प्रॉपर्टी खोजें।",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "UAE प्रॉपर्टी इंटेलिजेंस",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "golden-visa-properties",
+        "footer_focus": "golden_visa",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "AI से पूछें",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

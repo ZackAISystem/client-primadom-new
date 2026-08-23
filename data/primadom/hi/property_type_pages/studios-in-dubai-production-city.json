@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_studios_dubai_production_city_hi",
+  "page_type_id": "property_type_page",
+  "language_code": "hi",
+  "url_path": "/hi/property-types/studios-in-dubai-production-city/",
+  "canonical_url_path": "/hi/property-types/studios-in-dubai-production-city/",
+  "canonical_group_key": "property_district:studios:dubai-production-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-production-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "संक्षिप्त विवरण",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "क्षेत्र",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "प्रोजेक्ट्स",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "प्रॉपर्टी प्रकार पेज नेविगेशन",
+      "cta_label": "मेरे लिए विकल्प खोजें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "property_types",
+          "href": "/hi/property-types/",
+          "label": "प्रॉपर्टी प्रकार"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/dubai-production-city/",
+          "label": "Dubai Production City"
+        },
+        {
+          "key": "current",
+          "href": "/hi/property-types/studios-in-dubai-production-city/",
+          "label": "Dubai Production City में स्टूडियो",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "प्रॉपर्टी प्रकार: स्टूडियो",
+        "क्षेत्र: Dubai Production City",
+        "कॉम्पैक्ट लेआउट",
+        "स्वयं उपयोग / निवेश उद्देश्य",
+        "AI खोज"
+      ],
+      "image": {
+        "alt": "Dubai Production City में स्टूडियो — प्रॉपर्टी प्रकार का अवलोकन",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Dubai Production City में स्टूडियो",
+      "subtitle": "Dubai Production City में स्टूडियो के लिए व्यावहारिक गाइड: उपयोगी क्षेत्रफल, लिविंग और स्लीपिंग ज़ोन का विभाजन, स्टोरेज, सर्विस चार्ज और बिल्डिंग की गुणवत्ता, कीमत का संदर्भ, प्रोजेक्ट विकल्प और AI के साथ तुलना।",
+      "facts_aria": "प्रॉपर्टी प्रकार के मुख्य तथ्य",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Dubai Production City में स्टूडियो का विज़ुअल अवलोकन",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Primadom AI से Dubai Production City में स्टूडियो के बारे में पूछें",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Dubai Production City में स्टूडियो, बजट, प्रोजेक्ट या उपयुक्तता के बारे में पूछें",
+      "placeholder": "Dubai Production City में स्टूडियो, बजट, प्रोजेक्ट या उपयुक्तता के बारे में पूछें",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "वॉइस सर्च",
+      "click_action": "fill_input",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "मेरे बजट के लिए Dubai Production City में स्टूडियो खोजें",
+        "स्टूडियो के लिए इन बिंदुओं पर तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत",
+        "Dubai Production City में स्टूडियो चुनते समय मुझे क्या जाँचना चाहिए?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "voice_success_status": "समझ लिया",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "वॉइस मोड",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "स्टूडियो",
+        "Dubai Production City",
+        "कॉम्पैक्ट निवास",
+        "दक्षता + लागत",
+        "प्रोजेक्ट जाँच"
+      ],
+      "title": "प्रॉपर्टी प्रकार का संक्षिप्त विवरण",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<strong>Dubai Production City में स्टूडियो</strong> का मूल्यांकन इन बिंदुओं से करें: उपयोगी क्षेत्रफल, लिविंग और स्लीपिंग ज़ोन का विभाजन, स्टोरेज, सर्विस चार्ज और बिल्डिंग की गुणवत्ता। निर्णय से पहले इन बिंदुओं की मौजूदा जानकारी सत्यापित करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें।",
+      "body_text": "Dubai Production City में स्टूडियो का मूल्यांकन इन बिंदुओं से करें: उपयोगी क्षेत्रफल, लिविंग और स्लीपिंग ज़ोन का विभाजन, स्टोरेज, सर्विस चार्ज और बिल्डिंग की गुणवत्ता। निर्णय से पहले इन बिंदुओं की मौजूदा जानकारी सत्यापित करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें।",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "प्रॉपर्टी प्रकार",
+          "value": "स्टूडियो",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "क्षेत्र",
+          "value": "Dubai Production City",
+          "fact_key": "area"
+        },
+        {
+          "label": "बाज़ार",
+          "value": "Dubai / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "लिंक किए गए प्रोजेक्ट पेज",
+          "value": "17 क्षेत्र-स्तरीय प्रोजेक्ट पेज",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "खरीदार का उद्देश्य",
+          "value": "कॉम्पैक्ट निवास · निवेश",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "मुख्य फ़िल्टर",
+          "value": "उपयोगी क्षेत्रफल · स्टोरेज · फीस",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "अगला सर्वोत्तम कदम",
+          "value": "लिंक किए गए प्रोजेक्ट पेज की तुलना करें",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "तुलना का दायरा",
+          "value": "प्रोजेक्ट्स · क्षेत्र · स्वामित्व लागत",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "प्रॉपर्टी प्रकार का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 17,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "यह किनके लिए है",
+        "eyebrow": "खरीदार के लिए उपयुक्तता",
+        "bad_items": [
+          "जोड़े या परिवार जिन्हें अलग बेडरूम और अधिक स्टोरेज चाहिए",
+          "वे खरीदार जो लेआउट और बिल्डिंग की गुणवत्ता जाँचे बिना सभी स्टूडियो को समान मानते हैं",
+          "वे खरीदार जो केवल विज्ञापित कीमत देखते हैं और लेआउट, शुल्क तथा प्रोजेक्ट की स्थिति को अनदेखा करते हैं"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "अकेले रहने वाले खरीदार या निवेशक जो कॉम्पैक्ट और कम रखरखाव वाला फॉर्मेट चाहते हैं",
+          "वे खरीदार जो कमरों की संख्या से अधिक जगह के कुशल उपयोग और लोकेशन को महत्व देते हैं",
+          "वे खरीदार जो Dubai Production City में कुल लागत, यूनिट की दक्षता और प्रोजेक्ट की गुणवत्ता की तुलना कर रहे हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Dubai Production City",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "value",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "studios"
+      },
+      "property_logic": {
+        "body": "स्टूडियो के लिए इन बिंदुओं की तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत। Dubai Production City में सिर्फ शुरुआती कीमत नहीं, बल्कि उपयोगी स्पेस, प्रोजेक्ट की गुणवत्ता और कुल लागत की तुलना करें। निर्णय से पहले इन बिंदुओं की मौजूदा जानकारी सत्यापित करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें।",
+        "tags": [
+          "उपयोगी क्षेत्रफल",
+          "लेआउट की दक्षता",
+          "स्टोरेज",
+          "सर्विस चार्ज",
+          "वैल्यू पर फोकस"
+        ],
+        "title": "प्रॉपर्टी प्रकार का तर्क",
+        "eyebrow": "तुलना कैसे करें"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Dubai Production City में आवासीय संदर्भ, पहुँच और दैनिक उपयोगिता प्रमुख तुलना-बिंदु हैं। स्टूडियो के लिए इन बिंदुओं की तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत।",
+            "route": "/hi/property-types/studios-in-dubai-production-city/",
+            "buyer_fit": "वर्तमान क्षेत्र",
+            "relationship": "current_area",
+            "district_name": "Dubai Production City",
+            "district_slug": "dubai-production-city"
+          },
+          {
+            "text": "Majan में आवासीय संदर्भ, पहुँच और दैनिक उपयोगिता प्रमुख तुलना-बिंदु हैं। Dubai Production City के विकल्प के रूप में स्टूडियो के लिए इन बिंदुओं की तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत।",
+            "route": "/hi/property-types/studios-in-majan/",
+            "buyer_fit": "उसी शहर का विकल्प",
+            "relationship": "related_area",
+            "district_name": "Majan",
+            "district_slug": "majan"
+          },
+          {
+            "text": "Dubai Science Park में टेक्नोलॉजी, विज्ञान या हेल्थकेयर से जुड़ा संदर्भ प्रमुख तुलना-बिंदु हैं। Dubai Production City के विकल्प के रूप में स्टूडियो के लिए इन बिंदुओं की तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत।",
+            "route": "/hi/property-types/studios-in-dubai-science-park/",
+            "buyer_fit": "उसी शहर का विकल्प",
+            "relationship": "related_area",
+            "district_name": "Dubai Science Park",
+            "district_slug": "dubai-science-park"
+          },
+          {
+            "text": "City of Arabia में आवासीय संदर्भ, पहुँच और दैनिक उपयोगिता प्रमुख तुलना-बिंदु हैं। Dubai Production City के विकल्प के रूप में स्टूडियो के लिए इन बिंदुओं की तुलना करें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत।",
+            "route": "/hi/property-types/studios-in-city-of-arabia/",
+            "buyer_fit": "उसी शहर का विकल्प",
+            "relationship": "related_area",
+            "district_name": "City of Arabia",
+            "district_slug": "city-of-arabia"
+          }
+        ],
+        "title": "उपयुक्त क्षेत्र",
+        "eyebrow": "क्षेत्र का संदर्भ"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Dubai Production City में स्टूडियो की कीमत देखते समय इन बिंदुओं को साथ रखें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत। केवल विज्ञापित शुरुआती कीमत पर निर्भर न रहें: यूनिट की स्थिति, प्रोजेक्ट की गुणवत्ता, भुगतान की शर्तें और नियमित स्वामित्व लागत कुल परिणाम बदल सकती हैं। बजट तय करने से पहले मौजूदा प्रोजेक्ट कीमतें, शुल्क और भुगतान शर्तें जाँचें।",
+        "tags": [
+          "उपयोगी क्षेत्रफल",
+          "लेआउट की दक्षता",
+          "सर्विस चार्ज",
+          "किराये के लिए उपयुक्तता",
+          "कीमत की जाँच"
+        ],
+        "title": "कीमतें कैसे बदलती हैं",
+        "eyebrow": "वास्तविक कीमत परिदृश्य"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "value",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 4,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 0,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "studios",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "dubai-production-city",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 17
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "majan",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 31
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-science-park",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 14
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "city-of-arabia",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 9
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 0,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Dubai Production City में स्टूडियो की तुलना करते समय खरीद कीमत के साथ नियमित स्वामित्व लागत, प्रोजेक्ट की गुणवत्ता और वास्तविक मांग के संदर्भ को भी देखें।",
+          "title": "लागत और बाजार संदर्भ देखें",
+          "eyebrow": "निवेश का तर्क"
+        },
+        {
+          "text": "सिर्फ शुरुआती कीमत नहीं, बल्कि उपयोगी स्पेस, प्रोजेक्ट की गुणवत्ता और कुल लागत की तुलना करें। लेआउट, पहुँच और रोजमर्रा की उपयोगिता को अपने वास्तविक उपयोग से मिलाएँ।",
+          "title": "दैनिक उपयोग जाँचें",
+          "eyebrow": "जीवनशैली के लिए उपयुक्तता"
+        },
+        {
+          "text": "कम एंट्री कीमत कमजोर लेआउट, सीमित स्टोरेज या अधिक प्रतिस्पर्धी सप्लाई को छिपा सकती है। इन बिंदुओं की मौजूदा जानकारी जाँचें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें।",
+          "title": "निर्णय से पहले सत्यापित करें",
+          "eyebrow": "जोखिम"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI Dubai Production City में स्टूडियो को बजट, प्रोजेक्ट, लोकेशन, स्वामित्व लागत और खरीदार के उद्देश्य के अनुसार तुलना करने में मदद कर सकता है।",
+          "title": "अपनी स्थिति के अनुसार विकल्प देखें",
+          "eyebrow": "AI संदर्भ"
+        }
+      ],
+      "cards_aria": "प्रॉपर्टी प्रकार चुनने के लिए निर्णय बिंदु",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_studios_dubai_production_city_en",
+        "context_focus": "value",
+        "district_slug": "dubai-production-city",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/hi/property-types/studios-in-dubai-production-city/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/hi/projects/samana-resorts-phase-2/",
+            "meta": "Dubai Production City",
+            "label": "Samana Resorts Phase 2"
+          },
+          {
+            "href": "/hi/projects/samana-lake-views/",
+            "meta": "Dubai Production City",
+            "label": "Samana Lake Views"
+          },
+          {
+            "href": "/hi/projects/samana-sky-views/",
+            "meta": "Dubai Production City",
+            "label": "Samana Sky Views"
+          },
+          {
+            "href": "/hi/projects/jannat/",
+            "meta": "Dubai Production City",
+            "label": "Jannat"
+          },
+          {
+            "href": "/hi/projects/elm-at-park-five/",
+            "meta": "Dubai Production City",
+            "label": "Elm at Park Five"
+          }
+        ],
+        "title": "सुझाए गए प्रोजेक्ट्स",
+        "eyebrow": "प्रोजेक्ट विकल्प"
+      },
+      "pros_cons": {
+        "title": "फायदे और नुकसान",
+        "eyebrow": "व्यावहारिक जाँच",
+        "cons_items": [
+          "सीमित स्टोरेज और कम अलगाव लंबे समय तक रहने के लिए उपयुक्त नहीं हो सकते",
+          "Dubai Production City में कम कीमत के साथ फिनिश या भविष्य की सप्लाई से जुड़े समझौते हो सकते हैं",
+          "कम कीमत वाले प्रोजेक्ट अधिक सप्लाई और कमजोर विशिष्टता का सामना कर सकते हैं"
+        ],
+        "cons_title": "नुकसान",
+        "pros_items": [
+          "कॉम्पैक्ट लेआउट शुरुआती लागत घटा सकते हैं और फर्निशिंग आसान बना सकते हैं",
+          "Dubai Production City में विज्ञापित कीमत की तुलना लेआउट की गुणवत्ता और स्वामित्व लागत से करें",
+          "अधिक विकल्प खरीदारों को केवल ब्रांड या पते के लिए अतिरिक्त कीमत देने से बचा सकते हैं"
+        ],
+        "pros_title": "फायदे"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_studios_dubai_production_city_en",
+        "district_slug": "dubai-production-city",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "value",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Samana Resorts Phase 2",
+            "project_slug": "samana-resorts-phase-2",
+            "project_route": "/hi/projects/samana-resorts-phase-2/",
+            "developer_name": "Samana Developers",
+            "developer_slug": "samana-developers",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Samana Lake Views",
+            "project_slug": "samana-lake-views",
+            "project_route": "/hi/projects/samana-lake-views/",
+            "developer_name": "Samana Developers",
+            "developer_slug": "samana-developers",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Samana Sky Views",
+            "project_slug": "samana-sky-views",
+            "project_route": "/hi/projects/samana-sky-views/",
+            "developer_name": "Samana Developers",
+            "developer_slug": "samana-developers",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Jannat",
+            "project_slug": "jannat",
+            "project_route": "/hi/projects/jannat/",
+            "developer_name": "Deyaar Development",
+            "developer_slug": "deyaar-development",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Elm at Park Five",
+            "project_slug": "elm-at-park-five",
+            "project_route": "/hi/projects/elm-at-park-five/",
+            "developer_name": "Deyaar Development",
+            "developer_slug": "deyaar-development",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          }
+        ],
+        "canonical_url_path": "/hi/property-types/studios-in-dubai-production-city/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/hi/property-types/one-bedroom-apartments-in-dubai-production-city/",
+          "label": "Dubai Production City में 1 बेडरूम अपार्टमेंट्स"
+        },
+        {
+          "href": "/hi/property-types/apartments-in-dubai-production-city/",
+          "label": "Dubai Production City में अपार्टमेंट्स"
+        },
+        {
+          "href": "/hi/property-types/serviced-apartments-in-dubai-production-city/",
+          "label": "Dubai Production City में सर्विस्ड अपार्टमेंट्स"
+        },
+        {
+          "href": "/hi/property-types/hotel-apartments-in-dubai-production-city/",
+          "label": "Dubai Production City में होटल अपार्टमेंट्स"
+        }
+      ],
+      "title": "मिलते-जुलते प्रॉपर्टी प्रकार",
+      "eyebrow": "संबंधित विकल्प",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Dubai Production City",
+            "target_route": "/hi/property-types/one-bedroom-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "Apartments in Dubai Production City",
+            "target_route": "/hi/property-types/apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Serviced Apartments in Dubai Production City",
+            "target_route": "/hi/property-types/serviced-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "serviced_apartment"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Hotel Apartments in Dubai Production City",
+            "target_route": "/hi/property-types/hotel-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "hotel_apartment"
+          }
+        ],
+        "source_route": "/hi/property-types/studios-in-dubai-production-city/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Dubai Production City में स्टूडियो का मूल्यांकन इन बिंदुओं से करें: उपयोगी क्षेत्रफल, लिविंग और स्लीपिंग ज़ोन का विभाजन, स्टोरेज, सर्विस चार्ज और बिल्डिंग की गुणवत्ता। निर्णय से पहले इन बिंदुओं की मौजूदा जानकारी सत्यापित करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें।",
+          "question": "Dubai Production City में स्टूडियो चुनते समय खरीदारों को क्या जानना चाहिए?"
+        },
+        {
+          "answer": "Dubai Production City में यह पेज उन खरीदारों के लिए उपयोगी हो सकता है जो इन बिंदुओं की तुलना करना चाहते हैं: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत। अंतिम चुनाव में वास्तविक उपयोग, लोकेशन, प्रोजेक्ट की गुणवत्ता और कुल स्वामित्व लागत को साथ देखें।",
+          "question": "Dubai Production City में स्टूडियो किन खरीदारों के लिए उपयुक्त हो सकते हैं?"
+        },
+        {
+          "answer": "एक संभावित फायदा: कॉम्पैक्ट लेआउट शुरुआती लागत कम कर सकते हैं और फर्निशिंग आसान बना सकते हैं। मुख्य समझौता: कम एंट्री कीमत कमजोर लेआउट, सीमित स्टोरेज या अधिक प्रतिस्पर्धी सप्लाई को छिपा सकती है। Dubai Production City में इन बातों को प्रोजेक्ट स्तर पर जाँचें।",
+          "question": "Dubai Production City में स्टूडियो की तुलना करते समय कौन-से फायदे और समझौते महत्वपूर्ण हैं?"
+        },
+        {
+          "answer": "इस पेज पर तुलना के लिए Samana Resorts Phase 2, Samana Lake Views, Samana Sky Views जैसे प्रोजेक्ट दिखाए गए हैं। साथ ही Dubai Production City में 1 बेडरूम अपार्टमेंट्स और Dubai Production City में अपार्टमेंट्स जैसे दूसरे प्रॉपर्टी फॉर्मेट भी देखे जा सकते हैं। ये लिंक नेविगेशन के लिए हैं; इन्हें रैंकिंग या मौजूदा उपलब्धता की पुष्टि न मानें।",
+          "question": "Dubai Production City में स्टूडियो के साथ और क्या तुलना की जा सकती है?"
+        },
+        {
+          "answer": "Dubai Production City में कीमत, यूनिट उपलब्धता, शुल्क, भुगतान योजना और हैंडओवर विवरण बदल सकते हैं। आधिकारिक डेवलपर सामग्री और मौजूदा सलाहकार जाँच के आधार पर इन बिंदुओं की पुष्टि करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें। Primadom AI तुलना व्यवस्थित कर सकता है, लेकिन निर्णय से पहले मौजूदा कमर्शियल शर्तों की पुष्टि जरूरी है।",
+          "question": "Dubai Production City में स्टूडियो की कीमत और उपलब्धता कैसे सत्यापित करें?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "प्रॉपर्टी प्रकार से जुड़े प्रश्न",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "value",
+        "semantic_profile_key": "studios",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Dubai Production City में स्टूडियो से जुड़ी जानकारी को तुलना के मार्गदर्शन के रूप में उपयोग करें, लाइव ऑफर के रूप में नहीं। निर्णय से पहले डेवलपर या अधिकृत सलाहकार से इन बिंदुओं की पुष्टि करें: उपयोगी क्षेत्रफल, लेआउट, स्टोरेज, बिल्डिंग की गुणवत्ता, सर्विस चार्ज और मौजूदा शर्तें; साथ ही मौजूदा कीमत, उपलब्धता, भुगतान की शर्तें और कुल स्वामित्व लागत सत्यापित करें।",
+      "items": [
+        {
+          "label": "प्रॉपर्टी विवरण",
+          "value": "लेआउट, क्षेत्रफल और प्रोजेक्ट विवरण जाँचें"
+        },
+        {
+          "label": "कीमत और उपलब्धता",
+          "value": "मौजूदा यूनिट शर्तों की पुष्टि करें"
+        },
+        {
+          "label": "शुल्क और स्वामित्व लागत",
+          "value": "नियमित स्वामित्व खर्च जाँचें"
+        },
+        {
+          "label": "भुगतान और हैंडओवर",
+          "value": "स्थिति, तारीखें और कॉन्ट्रैक्ट शर्तें सत्यापित करें"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "निर्णय से पहले",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Primadom AI से Dubai Production City में स्टूडियो को इन बिंदुओं पर तुलना करने को कहें: उपयोगी क्षेत्रफल, लेआउट की दक्षता, स्टोरेज, बिल्डिंग की गुणवत्ता और कुल लागत; साथ में बजट, स्वामित्व लागत और खरीदार के उद्देश्य को भी शामिल करें। फिर उपयुक्त विकल्प सलाहकार के साथ देखें।",
+      "title": "Dubai Production City में स्टूडियो खोज रहे हैं?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "मेरे लिए विकल्प खोजें",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "value",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "studios",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "प्रॉपर्टी प्रकार अनुरोध फॉर्म",
+      "text": "Dubai Production City में स्टूडियो के लिए अपनी प्राथमिकताएँ साझा करें। Primadom AI अनुरोध को प्रॉपर्टी फॉर्मेट, प्रोजेक्ट, लोकेशन, स्वामित्व लागत और व्यावहारिक उपयोग के अनुसार व्यवस्थित करेगा, फिर सलाहकार इसकी समीक्षा करेगा।",
+      "title": "Dubai Production City में स्टूडियो खोजें",
+      "fields": {
+        "name": "आपका नाम",
+        "email": "ईमेल (वैकल्पिक)",
+        "phone": "फ़ोन / WhatsApp",
+        "comment": "तैयार अनुरोध"
+      },
+      "submit": "भेजें",
+      "comment": "मैं इस पेज पर स्टूडियो के उपयुक्त विकल्प खोज रहा/रही हूँ।",
+      "eyebrow": "AI के साथ आगे की जाँच",
+      "success": "भेज दिया गया",
+      "section_id": "property-type-lead-modal",
+      "close_label": "बंद करें",
+      "source_meta": {
+        "source_route": "/hi/property-types/studios-in-dubai-production-city/",
+        "source_page_id": "page_property_district_studios_dubai_production_city_en",
+        "shortlist_claim": false,
+        "context_focus_key": "value",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "studios",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "नाम",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI सलाहकार से बात करने से पहले खरीदारों को Dubai Production City में स्टूडियो की प्रॉपर्टी फॉर्मेट, प्रोजेक्ट, लोकेशन, स्वामित्व लागत और व्यावहारिक उपयुक्तता के आधार पर तुलना करने में मदद करता है।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "Dubai Production City में स्टूडियो — प्रोजेक्ट्स और खरीदार परिदृश्यों से जुड़े विकल्प",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "रियल एस्टेट इंटेलिजेंस",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/hi/property-types/studios-in-dubai-production-city/",
+        "source_page_id": "page_property_district_studios_dubai_production_city_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "value",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "studios",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "कॉल बुक करें"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "AI से पूछें"
+      }
+    }
+  }
+}

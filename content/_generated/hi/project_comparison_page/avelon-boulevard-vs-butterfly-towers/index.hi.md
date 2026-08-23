@@ -1,0 +1,10 @@
+---
+title: "Avelon Boulevard बनाम Butterfly Towers"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "avelon-boulevard-vs-butterfly-towers"
+page_id: "page_project_comparison_avelon_boulevard_vs_butterfly_towers_hi"
+url: "/hi/compare-projects/avelon-boulevard-vs-butterfly-towers/"
+build:
+  render: always
+  list: never
+---

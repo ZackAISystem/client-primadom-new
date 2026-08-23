@@ -1,0 +1,10 @@
+---
+title: "Hatta में कम शुरुआती भुगतान वाले प्रोजेक्ट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "low-down-payment-projects-in-hatta"
+page_id: "intent__low-down-payment-projects__district__hatta__hi"
+url: "/hi/intents/low-down-payment-projects-in-hatta/"
+build:
+  render: always
+  list: never
+---

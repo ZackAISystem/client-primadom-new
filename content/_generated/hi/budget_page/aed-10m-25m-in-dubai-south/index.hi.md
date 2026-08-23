@@ -1,0 +1,10 @@
+---
+title: "Dubai South में AED 10M–25M के लिए प्रॉपर्टी"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-10m-25m-in-dubai-south"
+page_id: "page_budget_district_aed_10m_25m_dubai_south_hi"
+url: "/hi/budgets/aed-10m-25m-in-dubai-south/"
+build:
+  render: always
+  list: never
+---

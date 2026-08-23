@@ -1,0 +1,10 @@
+---
+title: "Siniyah Island में वाटरफ्रंट अपार्टमेंट खरीदार"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "waterfront-apartment-buyer-in-siniyah-island"
+page_id: "page_scenario_district_waterfront_apartment_buyer_siniyah_island_hi"
+url: "/hi/buyer-scenarios/waterfront-apartment-buyer-in-siniyah-island/"
+build:
+  render: always
+  list: never
+---

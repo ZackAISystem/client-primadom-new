@@ -1,0 +1,10 @@
+---
+title: "Al Amerah में पहली बार खरीदने वालों के लिए प्रॉपर्टीज़"
+layout: "primadom-intent-page-v2"
+intent_slug: "first-time-buyer-properties-in-al-amerah"
+page_id: "pg_0a95a1950a324946c2b18cc2ada1"
+url: "/hi/intents/first-time-buyer-properties-in-al-amerah/"
+build:
+  render: always
+  list: never
+---

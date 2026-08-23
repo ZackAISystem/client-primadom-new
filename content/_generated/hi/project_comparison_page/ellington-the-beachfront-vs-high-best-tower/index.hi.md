@@ -1,0 +1,10 @@
+---
+title: "Ellington The Beachfront बनाम High Best Tower"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "ellington-the-beachfront-vs-high-best-tower"
+page_id: "page_project_comparison_ellington_the_beachfront_vs_high_best_tower_hi"
+url: "/hi/compare-projects/ellington-the-beachfront-vs-high-best-tower/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "Al Qusais Industrial में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-al-qusais-industrial"
+page_id: "intent__branded-residences__district__al-qusais-industrial__hi"
+url: "/hi/intents/branded-residences-in-al-qusais-industrial/"
+build:
+  render: always
+  list: never
+---

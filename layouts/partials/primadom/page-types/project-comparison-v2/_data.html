@@ -1,6 +1,10 @@
 {{- $slug := .Params.comparison_slug | default "10-oxford-vs-105-residences" -}}
 
 {{- $projectComparisonData := site.Data.primadom.project_comparison_pages_v2 -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $projectComparisonData = index $hiData "project_comparison_pages" -}}
+{{- end -}}
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $projectComparisonData = index $ruData "project_comparison_pages" -}}

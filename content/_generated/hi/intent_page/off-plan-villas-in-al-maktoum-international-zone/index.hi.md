@@ -1,0 +1,10 @@
+---
+title: "Al Maktoum International Zone में ऑफ-प्लान विला"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-al-maktoum-international-zone"
+page_id: "intent__off-plan-villas__district__al-maktoum-international-zone__hi"
+url: "/hi/intents/off-plan-villas-in-al-maktoum-international-zone/"
+build:
+  render: always
+  list: never
+---

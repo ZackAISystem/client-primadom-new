@@ -12,6 +12,10 @@
 {{- $slug := .Params.comparison_slug | default "acube-developers-vs-emaar-properties" -}}
 
 {{- $developerComparisonData := site.Data.primadom.developer_comparison_pages_v2 -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $developerComparisonData = index $hiData "developer_comparison_pages" -}}
+{{- end -}}
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $developerComparisonData = index $ruData "developer_comparison_pages" -}}

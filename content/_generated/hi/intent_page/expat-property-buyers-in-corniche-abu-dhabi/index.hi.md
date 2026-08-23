@@ -1,0 +1,10 @@
+---
+title: "Corniche Abu Dhabi में प्रवासी खरीदारों के लिए प्रॉपर्टी विकल्प"
+layout: "primadom-intent-page-v2"
+intent_slug: "expat-property-buyers-in-corniche-abu-dhabi"
+page_id: "pg_06f4165eb2c08f94d7dba62196a0"
+url: "/hi/intents/expat-property-buyers-in-corniche-abu-dhabi/"
+build:
+  render: always
+  list: never
+---

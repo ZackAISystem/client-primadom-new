@@ -1,0 +1,10 @@
+---
+title: "यूक्रेन के खरीदारों के लिए Dubai में रिटायरमेंट के लिए प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-retirement-property-for-ukraine-buyers"
+page_id: "pg_e96909827c1eb9fdbed4ac1c4d17"
+url: "/hi/buyer-scenarios/dubai-retirement-property-for-ukraine-buyers/"
+build:
+  render: always
+  list: never
+---

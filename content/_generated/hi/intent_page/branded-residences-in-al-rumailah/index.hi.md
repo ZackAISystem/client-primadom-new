@@ -1,0 +1,10 @@
+---
+title: "Al Rumailah में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-al-rumailah"
+page_id: "intent__branded-residences__district__al-rumailah__hi"
+url: "/hi/intents/branded-residences-in-al-rumailah/"
+build:
+  render: always
+  list: never
+---

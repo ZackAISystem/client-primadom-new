@@ -1,0 +1,10 @@
+---
+title: "Business Bay में पुनर्विक्रय लचीलेपन पर ध्यान देने वाला खरीदार"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "resale-liquidity-buyer-in-business-bay"
+page_id: "page_scenario_district_resale_liquidity_buyer_business_bay_hi"
+url: "/hi/buyer-scenarios/resale-liquidity-buyer-in-business-bay/"
+build:
+  render: always
+  list: never
+---

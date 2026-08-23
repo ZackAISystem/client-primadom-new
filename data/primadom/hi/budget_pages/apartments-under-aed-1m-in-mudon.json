@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_apartments_under_aed_1m_mudon_hi",
+  "page_type_id": "budget_page",
+  "language_code": "hi",
+  "url_path": "/hi/budgets/apartments-under-aed-1m-in-mudon/",
+  "canonical_url_path": "/hi/budgets/apartments-under-aed-1m-in-mudon/",
+  "canonical_group_key": "property_budget_district:apartments:under_aed_1m:mudon",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mudon",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "क्या खरीद सकते हैं",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "भुगतान योजना",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "लागत",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "बजट पेज नेविगेशन",
+      "cta_label": "बजट जाँचें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "budgets",
+          "href": "/hi/budgets/",
+          "label": "बजट"
+        },
+        {
+          "key": "property_type",
+          "href": "/hi/property-types/apartments/",
+          "label": "अपार्टमेंट्स"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/mudon/",
+          "label": "Mudon"
+        },
+        {
+          "key": "current",
+          "href": "/hi/budgets/apartments-under-aed-1m-in-mudon/",
+          "label": "Mudon में AED 1M के तहत Apartments"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Under AED 1M",
+        "Mudon",
+        "अपार्टमेंट्स",
+        "कोई स्पष्ट प्रॉपर्टी-प्रकार मैच नहीं",
+        "पास के विकल्पों की तुलना करें"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Mudon में AED 1M के तहत Apartments",
+      "subtitle": "वर्तमान में Mudon के नीचे स्पष्ट रूप से पहचाने जाने वाले अपार्टमेंट की प्रोजेक्ट को दर्शाता है; निकटवर्ती क्षेत्रों की खोज को व्यापक रूप से विस्तारित करें और यूनिट प्रकार, लेआउट और स्पेसिफिकेशन को सत्यापित करें।",
+      "facts_aria": "बजट पेज की मुख्य बातें",
+      "section_id": "overview",
+      "visual_aria": "Mudon में AED 1M के तहत Apartments के लिए बजट अवलोकन",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "बजट फिट, लेआउट, डिलीवरी प्रोफ़ाइल और कुल लागत से Mudon में अपार्टमेंट की तुलना करें। वर्तमान कीमतों और उपलब्धता के लिए एक प्रोजेक्ट जांच की आवश्यकता होती है।",
+      "hints": [
+        "कौन से अपार्टमेंट प्रोजेक्ट इस बजट को फिट करते हैं?",
+        "कौन से विकल्प निकटवर्ती तुलना के योग्य हैं?",
+        "क्या स्वामित्व की लागत की उम्मीद है?"
+      ],
+      "title": "Mudon में AED 1M के तहत चेक अपार्टमेंट",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "AED 1M के तहत Mudon में अपार्टमेंट के लिए यथार्थवादी विकल्प का आकलन करें। उपलब्धता नहीं मानो; तुलना के लिए निकटतम जिलों, प्रॉपर्टी प्रारूपों और प्रोजेक्ट श्रेणियों की पहचान करें।",
+        "AED 1M के तहत Mudon में अपार्टमेंट के लिए पास के जिलों या वैकल्पिक प्रोजेक्ट श्रेणियों की पहचान करें। समझाएं कि इकाई मिश्रण और वर्तमान मूल्य निर्धारण के बारे में क्या सत्यापित किया जाना चाहिए।",
+        "वर्तमान शुल्क, इंसेंटिव या उपलब्धता को सुनिश्चित किए बिना, Mudon में अपार्टमेंट के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें।"
+      ],
+      "hint_items": [
+        {
+          "label": "कौन से अपार्टमेंट प्रोजेक्ट इस बजट को फिट करते हैं?",
+          "prompt": "AED 1M के तहत Mudon में अपार्टमेंट के लिए यथार्थवादी विकल्प का आकलन करें। उपलब्धता नहीं मानो; तुलना के लिए निकटतम जिलों, प्रॉपर्टी प्रारूपों और प्रोजेक्ट श्रेणियों की पहचान करें।"
+        },
+        {
+          "label": "कौन से विकल्प निकटवर्ती तुलना के योग्य हैं?",
+          "prompt": "AED 1M के तहत Mudon में अपार्टमेंट के लिए पास के जिलों या वैकल्पिक प्रोजेक्ट श्रेणियों की पहचान करें। समझाएं कि इकाई मिश्रण और वर्तमान मूल्य निर्धारण के बारे में क्या सत्यापित किया जाना चाहिए।"
+        },
+        {
+          "label": "क्या स्वामित्व की लागत की उम्मीद है?",
+          "prompt": "वर्तमान शुल्क, इंसेंटिव या उपलब्धता को सुनिश्चित किए बिना, Mudon में अपार्टमेंट के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें।"
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Mudon में AED 1M के तहत अपार्टमेंट के बारे में पूछो",
+      "placeholder": "Mudon में AED 1M के तहत अपार्टमेंट के बारे में पूछो",
+      "voice_label": "वॉइस इनपुट शुरू करें",
+      "block_status": "final",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "मेरी स्थिति के अनुसार तुलना करें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "voice_active_label": "वॉइस इनपुट बंद करें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "live_check_required": true,
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "submit_loading_label": "AI से पूछा जा रहा है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड",
+      "voice_processing_label": "वॉइस इनपुट प्रोसेस हो रहा है"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Under AED 1M",
+        "Mudon",
+        "अपार्टमेंट्स",
+        "कोई पुष्टि की श्रेणी मैच नहीं",
+        "पास के विकल्पों की तुलना करें"
+      ],
+      "title": "आप क्या खरीद सकते हैं",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<p>वर्तमान प्रोजेक्ट डेटा AED 1M के नीचे Mudon में अपार्टमेंट के लिए कोई स्पष्ट मेल नहीं दिखाता। लेआउट दक्षता, उपयोग योग्य क्षेत्रफल, फर्श और दृश्य, कम्प्लीशन प्रोफ़ाइल, सेवा शुल्क, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। आसपास के क्षेत्रों पर विचार करें जहां यह श्रेणी बेहतर प्रतिनिधित्व करती है, या उसी क्षेत्र में किसी अन्य प्रॉपर्टी प्रारूप की तुलना करती है। किसी भी शॉर्टलिस्ट प्रोजेक्ट के लिए इस श्रेणी में मौजूदा उपलब्धता, सटीक यूनिट कीमत और भुगतान की शर्तों की पुष्टि करें।</p>",
+      "body_text": "वर्तमान प्रोजेक्ट डेटा AED 1M के नीचे Mudon में अपार्टमेंट के लिए कोई स्पष्ट मेल नहीं दिखाता। लेआउट दक्षता, उपयोग योग्य क्षेत्रफल, फर्श और दृश्य, कम्प्लीशन प्रोफ़ाइल, सेवा शुल्क, भुगतान की शर्तें और स्वामित्व की कुल लागत की तुलना करें। आसपास के क्षेत्रों पर विचार करें जहां यह श्रेणी बेहतर प्रतिनिधित्व करती है, या उसी क्षेत्र में किसी अन्य प्रॉपर्टी प्रारूप की तुलना करती है। किसी भी शॉर्टलिस्ट प्रोजेक्ट के लिए इस श्रेणी में मौजूदा उपलब्धता, सटीक यूनिट कीमत और भुगतान की शर्तों की पुष्टि करें।",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "बजट",
+          "value": "Under AED 1M"
+        },
+        {
+          "key": "market",
+          "label": "बाज़ार",
+          "value": "दुबई"
+        },
+        {
+          "key": "area",
+          "label": "क्षेत्र",
+          "value": "Mudon"
+        },
+        {
+          "key": "property_type",
+          "label": "प्रॉपर्टी प्रकार",
+          "value": "अपार्टमेंट्स"
+        },
+        {
+          "key": "current_signal",
+          "label": "मौजूदा संकेत",
+          "value": "कोई पुष्टि की श्रेणी मैच नहीं"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "मुख्य समझौता",
+          "value": "क्षेत्र बनाम प्रॉपर्टी प्रारूप"
+        },
+        {
+          "key": "next_check",
+          "label": "अगली जाँच",
+          "value": "निकट विकल्प"
+        },
+        {
+          "key": "unit_status",
+          "label": "यूनिट की स्थिति",
+          "value": "लाइव उपलब्धता सत्यापित करें"
+        }
+      ],
+      "title": "बजट का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "वर्तमान में इस बजट के बाहर आने वाली रिकॉर्ड्स की शुरुआती कीमतें; सटीक इकाइयों और आसपास के क्षेत्रों की तुलना करें।",
+            "title": "Mudon"
+          },
+          {
+            "text": "इस बजट में 28 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Arjan"
+          },
+          {
+            "text": "22 प्रोजेक्ट्स ने इस बजट में शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Meydan"
+          },
+          {
+            "text": "इस बजट में 15 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; सटीक इकाइयों और लाइव उपलब्धता की तुलना करें।",
+            "title": "Jumeirah Village Circle"
+          }
+        ],
+        "title": "तुलना करने के लिए जिले",
+        "eyebrow": "क्षेत्र का संदर्भ"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "यह पृष्ठ इस प्रॉपर्टी प्रकार को लक्षित करता है, लेकिन वर्तमान में कोई दर्ज प्रोजेक्ट शुरू करने की कीमत बजट के अंदर गिरती है।",
+            "title": "अपार्टमेंट्स"
+          },
+          {
+            "text": "1 प्रोजेक्ट में व्यापक बाजार में एक रिकॉर्ड की गई शुरुआती कीमत है; इस प्रारूप को Mudon में सत्यापित करें।",
+            "title": "विला"
+          },
+          {
+            "text": "1 प्रोजेक्ट में व्यापक बाजार में एक रिकॉर्ड की गई शुरुआती कीमत है; इस प्रारूप को Mudon में सत्यापित करें।",
+            "title": "टाउनहाउस"
+          },
+          {
+            "text": "यह सत्यापित करने के लिए एक व्यापक बाजार प्रारूप है कि क्या Mudon में विकल्प सीमित हैं।",
+            "title": "स्टूडियो"
+          }
+        ],
+        "title": "तुलना के लिए प्रॉपर्टी प्रकार",
+        "eyebrow": "प्रॉपर्टी तर्क"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "बजट निर्णय नोट",
+      "items": [
+        {
+          "text": "भुगतान योजनाओं की तुलना करने से पहले, पुष्टि करें कि अपार्टमेंट वास्तव में Mudon में प्रतिनिधित्व किए जाते हैं। फिर बुकिंग राशि, बाद में किस्तों, हैंडओवर भुगतान और बाद में किसी भी शेष राशि की समीक्षा करें।",
+          "title": "शर्तों की तुलना करने से पहले उत्पाद की पुष्टि करें",
+          "eyebrow": "भुगतान योजना तर्क"
+        },
+        {
+          "text": "Mudon स्थान संक्षिप्त के अनुरूप हो सकता है, लेकिन पहले अपार्टमेंट की आपूर्ति की पुष्टि करता है। फिर उपयोग योग्य लेआउट, निर्माण की गुणवत्ता, यूनिट स्थिति और भुगतान की शर्तों की तुलना करें।",
+          "title": "अपार्टमेंट के पहले जिले फिट हो सकता है",
+          "eyebrow": "समझौते"
+        },
+        {
+          "text": "Mudon में अपार्टमेंट के लिए पंजीकरण, सेवा शुल्क, प्रस्तुतीकरण, पार्किंग या भंडारण, शीतलन की अनुमति देता है जहां लागू और नियमित रखरखाव होता है।",
+          "title": "सेवा शुल्क बजट को फिर से आकार दे सकता है",
+          "eyebrow": "छिपी हुई लागत"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI एक सलाहकार चेक लाइव विकल्प से पहले बजट, प्रॉपर्टी प्रकार, जिला, समयरेखा और जोखिम प्रोफ़ाइल का वजन कर सकते हैं।",
+          "title": "एक शॉर्टलिस्ट में बजट चालू करें",
+          "eyebrow": "एआई संदर्भ"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "AED 1M के तहत Mudon में वर्तमान डेटा मैच अपार्टमेंट में कोई नामित प्रोजेक्ट नहीं है। शॉर्टलिस्ट को परिष्कृत करने के लिए नीचे जिला गाइड और लाइव खोज का उपयोग करें।",
+        "items": [
+          {
+            "href": "/hi/areas/mudon/",
+            "meta": "जिला गाइड",
+            "label": "Mudon में अधिक प्रोजेक्ट्स का अन्वेषण करें",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "मूल्य और उपलब्धता",
+            "label": "Mudon में अपार्टमेंट के लिए लाइव यूनिटों की जांच करें",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "रेंज चेक",
+            "label": "बजट कैप के ऊपर और सिर्फ प्रोजेक्ट्स की तुलना करें",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "निर्णय जांच",
+            "label": "भुगतान की समीक्षा और खरीद समय",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI बजट चेक",
+            "label": "एक लाइव शॉर्टलिस्ट बनाने के लिए Primadom AI से पूछें",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "प्रोजेक्ट खोज पथ",
+        "eyebrow": "शॉर्टलिस्ट प्रविष्टि"
+      },
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "यह बजट किनके लिए उपयुक्त है",
+        "bad_items": [
+          "वे खरीदार जो किसी दूसरे प्रॉपर्टी प्रकार पर तय हैं और इस प्रारूप की तुलना नहीं करना चाहते",
+          "वे खरीदार जिन्हें मौजूदा प्रोजेक्ट मिश्रण जाँचे बिना ही श्रेणी की पुष्टि चाहिए",
+          "वे खरीदार जो सर्विस चार्ज, फर्निशिंग और हैंडओवर लागत को शामिल नहीं करना चाहते"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "Mudon में Under AED 1M के भीतर अपार्टमेंट्स विकल्पों की तुलना करने वाले खरीदार",
+          "वे खरीदार जो शॉर्टलिस्ट घटाने से पहले स्थानीय प्रॉपर्टी मिश्रण की पुष्टि करना चाहते हैं",
+          "वे खरीदार जो प्रोजेक्ट की शर्तों पर चर्चा से पहले माँगे गए प्रॉपर्टी प्रकार की पुष्टि करना चाहते हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Mudon में अपार्टमेंट के लिए, AED 1M के नीचे एक बजट के साथ, मूल्य एक सीमा निर्धारित करता है, लेकिन सटीक प्रॉपर्टी अभी भी इस बात पर निर्भर करती है कि किस तरह की विशेषताएं सबसे ज्यादा हैं। एक बेहतर लोकेशन का मतलब एक छोटा घर या एक संकीर्ण प्रॉपर्टी विकल्प हो सकता है, जबकि अधिक स्थान को एक अलग जिला या इमारत की आवश्यकता हो सकती है। कोई नामित प्रोजेक्ट वर्तमान में Mudon में अपार्टमेंट के लिए पूरी आवश्यकता बैठक नहीं है। बजट बदलने से पहले एक पास के जिले या किसी अन्य प्रॉपर्टी प्रारूप की तुलना करें।",
+        "mode": "contextual_editorial",
+        "tags": [
+          "एरिया बनाम प्रारूप",
+          "भवन लागत",
+          "लाइव खोज",
+          "कुल नकदी जोखिम",
+          "चली लागत"
+        ],
+        "title": "समझौते",
+        "eyebrow": "व्यावहारिक जाँच"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "पूछ मूल्य केवल Mudon में अपार्टमेंट के लिए नकदी आवश्यकता का हिस्सा है। आरक्षण से पहले सटीक यूनिट और लेनदेन से जुड़ी लागतों की पुष्टि करें।",
+        "items": [
+          {
+            "text": "आरक्षण से पहले दुबई की खरीद के लिए पंजीकरण और लेनदेन शुल्क की पुष्टि करें। अंतिम राशि प्रॉपर्टी और लेनदेन के प्रकार पर निर्भर करती है।",
+            "title": "पंजीकरण और लेनदेन की लागत"
+          },
+          {
+            "text": "जब वित्तपोषण का उपयोग किया जाता है, तो बैंक, मूल्यांकन और बंधक से संबंधित शुल्क की पुष्टि करने के लिए पूरा होने से पहले आवश्यक नकदी के साथ की जाती है।",
+            "title": "वित्त पोषण और मूल्यांकन लागत"
+          },
+          {
+            "text": "सटीक यूनिट के लिए भवन सेवा शुल्क, शीतलन व्यवस्था, साझा सुविधाओं और रखरखाव जिम्मेदारियों की समीक्षा करें।",
+            "title": "सेवा प्रभार और भवन की स्थापना"
+          },
+          {
+            "text": "स्नैगिंग, प्रस्तुतीकरण, उपयोगिताओं, चलती और किसी भी लागत के लिए अलग से योजना बनाई गई है क्योंकि हैंडओवर या पूरा होने के कारण होता है।",
+            "title": "हैंडओवर, प्रस्तुतीकरण और चाल-इन लागत"
+          }
+        ],
+        "title": "सत्यापित करने योग्य लागत",
+        "eyebrow": "खरीदने से पहले जाँचें",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/hi/budgets/apartments-aed-1m-2m-in-mudon/",
+          "label": "Mudon में AED 1M–2M अपार्टमेंट्स",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/apartments-aed-2m-3m-in-mudon/",
+          "label": "Mudon में AED 2M–3M अपार्टमेंट्स",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/under-aed-1m-in-mudon/",
+          "label": "Mudon में AED 1M से कम प्रॉपर्टी",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/studios-under-aed-1m-in-mudon/",
+          "label": "Mudon में AED 1M से कम स्टूडियो",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "संबंधित बजट पेज",
+      "eyebrow": "संबंधित खोजें",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "वर्तमान में कोई नामित प्रोजेक्ट दर्ज किए गए डेटा में AED 1M के तहत Mudon में अपार्टमेंट की खोज से मेल नहीं खाता। नज़दीकी बजट श्रेणियों, आसपास के प्रॉपर्टी प्रकारों या व्यापक क्षेत्र की खोज की तुलना करें, और किसी भी विकल्प को उपलब्ध मानने से पहले लाइव जाँच का अनुरोध करें।",
+          "question": "AED 1M के तहत Mudon में अपार्टमेंट के लिए कितना दर्ज विकल्प है?"
+        },
+        {
+          "answer": "Mudon में अपार्टमेंट के लिए, वर्तमान प्रोजेक्ट संकेत की पुष्टि नहीं की गई श्रेणी मैच है, जबकि मुख्य व्यापार बंद क्षेत्र बनाम प्रॉपर्टी प्रारूप है। यह पृष्ठ इस प्रॉपर्टी प्रकार को लक्षित करता है, लेकिन वर्तमान में कोई रिकॉर्ड प्रोजेक्ट शुरू करने की कीमत बजट के अंदर गिरती है। अगले उपयोगी चेक पास के विकल्प हैं।",
+          "question": "कौन सा कारक AED 1M के तहत Mudon में अपार्टमेंट को प्रभावित करता है?"
+        },
+        {
+          "answer": "पूछ मूल्य केवल Mudon में अपार्टमेंट के लिए नकदी की आवश्यकता का हिस्सा है। आरक्षण से पहले सटीक यूनिट और लेनदेन से जुड़ी लागतों की पुष्टि करें। AED 1M के तहत Mudon में अपार्टमेंट के लिए पंजीकरण और लेनदेन लागत, वित्तपोषण और मूल्यांकन लागत, सेवा शुल्क और भवन निर्माण, और हथौड़े, प्रस्तुत करने और चाल में लागत की जांच करें। चयनित इकाई, वित्तपोषण संरचना और लेनदेन के लिए एकदम सही राशि की गणना पूरी तरह से बजट के इलाज से पहले की जानी चाहिए।",
+          "question": "कौन से अतिरिक्त लागत को खरीददारों को Mudon में अपार्टमेंट की गणना AED 1M के तहत करनी चाहिए?"
+        },
+        {
+          "answer": "Mudon में अपार्टमेंट के लिए, बुकिंग या डाउन पेमेंट, निर्माण किस्तों, हैंडओवर बैलेंस, किसी भी पोस्ट-हैंडओवर दायित्व और पूरा होने से पहले की कुल राशि की तुलना करें। यह पृष्ठ लाइव डेवलपर भुगतान योजना की पुष्टि नहीं करता है, इसलिए वर्तमान अनुसूची को प्रत्येक शॉर्टलिस्ट यूनिट के लिए अलग से जाँच की जानी चाहिए। एक कम किस्त या लंबे समय तक अनुसूची स्वचालित रूप से कम कुल जोखिम का मतलब नहीं है।",
+          "question": "कैसे खरीदार AED 1M के तहत Mudon में अपार्टमेंट के लिए भुगतान योजनाओं की तुलना करना चाहिए?"
+        },
+        {
+          "answer": "Mudon में अपार्टमेंट के लिए AED 1M के तहत, Primadom AI एक समय में एक बाधा को चौड़ा कर सकता है-बजट, स्थान, प्रॉपर्टी प्रकार, आकार या समाप्ति समय-समय पर खरीदार के लक्ष्यों और कुल नकदी एक्सपोजर को दिखाई देता है। किसी भी परिणामी प्रोजेक्ट्स को अभी भी इकाई की कीमतों, शर्तों और उपलब्धता के लाइव सत्यापन की आवश्यकता होती है।",
+          "question": "Primadom AI में अपार्टमेंट के लिए एक खोज को कैसे परिष्कृत कर सकता है AED 1M के तहत?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "बजट से जुड़े प्रश्न",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "AED 1M के तहत Mudon में अपार्टमेंट के लिए योजना विवरण लाइव सूची नहीं हैं। डेवलपर सामग्री, आधिकारिक रिकॉर्ड, वर्तमान लिस्टिंग और प्राइमाड सलाहकार समीक्षा का उपयोग करके मौजूदा यूनिट कीमत और उपलब्धता, भुगतान शेड्यूल, हैंडओवर स्थिति, शुल्क, सेवा शुल्क और प्रोजेक्ट शर्तों की पुष्टि करें।",
+      "items": [
+        {
+          "label": "मूल्य / उपलब्धता",
+          "value": "लाइव जाँच की आवश्यकता"
+        },
+        {
+          "label": "भुगतान योजना",
+          "value": "डेवलपर सामग्री की आवश्यकता है"
+        },
+        {
+          "label": "शुल्क/सेवा प्रभार",
+          "value": "गणना करना"
+        },
+        {
+          "label": "यूनिट / प्रोजेक्ट फिट",
+          "value": "आवश्यकताएँ स्रोत समीक्षा"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "सत्यापन",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "वर्तमान मूल्य, यूनिट फिट, भुगतान योजना और कुल लागत द्वारा Mudon में अपार्टमेंट की तुलना करने के लिए Primadom AI से पूछें, फिर लाइव समीक्षा के लिए एक शॉर्टलिस्ट तैयार करें।",
+      "title": "क्या आपका बजट वास्तव में खरीदता है?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "बजट के अनुसार शॉर्टलिस्ट पाएँ",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "बजट पूछताछ फ़ॉर्म",
+      "note": "वर्तमान कीमतों और उपलब्धता की जांच की जाएगी, इससे पहले कि सिफारिश साझा की जा रही है।",
+      "text": "अपना विवरण साझा करें। Primadom AI समीक्षा के लिए एक प्राइमोम सलाहकार के लिए अपना बजट अनुरोध तैयार करेगा।",
+      "title": "क्या आपके बजट खरीद सकते हैं?",
+      "fields": {
+        "name": "आपका नाम",
+        "phone": "फ़ोन / WhatsApp",
+        "budget": "बजट सीमा",
+        "comment": "तैयार अनुरोध"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "भेजें",
+      "comment": "Mudon में अपार्टमेंट की जाँच करें, AED 1M के तहत, मेरे लिए।",
+      "eyebrow": "AI बजट चयन",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "बंद करें",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "आपका नाम",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "नाम"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "बजट सीमा",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "Under AED 1M",
+          "default_value": "Under AED 1M"
+        },
+        "comment": {
+          "label": "तैयार अनुरोध",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "इस पृष्ठ से तैयार",
+          "single_line": true,
+          "default_value": "Mudon में अपार्टमेंट की जाँच करें, AED 1M के तहत, मेरे लिए।"
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "नाम",
+        "phone": "+971",
+        "budget": "Under AED 1M",
+        "comment": "इस पृष्ठ से तैयार"
+      },
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_apartments_under_aed_1m_mudon_hi",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "Under AED 1M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "under AED 1M",
+        "district_name": "Mudon",
+        "canonical_url_path": "/hi/budgets/apartments-under-aed-1m-in-mudon/",
+        "content_version_id": "7520bc05-c989-48a3-a8ca-da5978aa13a4",
+        "property_type_name": "अपार्टमेंट्स"
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "वॉइस सर्च",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "वर्तमान मूल्य, भुगतान योजना, कुल लागत और प्रोजेक्ट के लिए एक लाइव बाजार समीक्षा का अनुरोध करने से पहले फिट Mudon में अपार्टमेंट का अन्वेषण करें।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "बजट खोज, यथार्थवादी प्रॉपर्टी विकल्पों में परिवर्तित",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom सामाजिक कड़ियों",
+      "url_section": "/hi/budgets/apartments-under-aed-1m-in-mudon/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "AI से पूछें",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

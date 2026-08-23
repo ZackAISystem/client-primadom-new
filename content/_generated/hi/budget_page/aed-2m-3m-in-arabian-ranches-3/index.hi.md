@@ -1,0 +1,10 @@
+---
+title: "Arabian Ranches 3 में AED 2M–3M के लिए प्रॉपर्टी"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-2m-3m-in-arabian-ranches-3"
+page_id: "page_budget_district_aed_2m_3m_arabian_ranches_3_hi"
+url: "/hi/budgets/aed-2m-3m-in-arabian-ranches-3/"
+build:
+  render: always
+  list: never
+---

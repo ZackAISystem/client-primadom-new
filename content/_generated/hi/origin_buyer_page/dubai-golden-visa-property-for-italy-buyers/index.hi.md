@@ -1,0 +1,10 @@
+---
+title: "इटली के खरीदारों के लिए Dubai में Golden Visa लक्ष्य वाली प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-golden-visa-property-for-italy-buyers"
+page_id: "pg_af2dd795aecd82c9620582f79a48"
+url: "/hi/buyer-scenarios/dubai-golden-visa-property-for-italy-buyers/"
+build:
+  render: always
+  list: never
+---

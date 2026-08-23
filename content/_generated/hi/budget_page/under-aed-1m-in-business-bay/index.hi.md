@@ -1,0 +1,10 @@
+---
+title: "Business Bay में प्रॉपर्टी"
+layout: "primadom-budget-page-v2"
+budget_slug: "under-aed-1m-in-business-bay"
+page_id: "page_budget_district_under_aed_1m_business_bay_hi"
+url: "/hi/budgets/under-aed-1m-in-business-bay/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "Majan में Chaimaa Holding Limited के प्रोजेक्ट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "chaimaa-holding-limited-projects-in-majan"
+page_id: "page_developer_district_chaimaa_holding_limited_majan_hi"
+url: "/hi/intents/chaimaa-holding-limited-projects-in-majan/"
+build:
+  render: always
+  list: never
+---

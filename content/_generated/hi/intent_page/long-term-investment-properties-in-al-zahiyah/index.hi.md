@@ -1,0 +1,10 @@
+---
+title: "Al Zahiyah में दीर्घकालिक निवेश के लिए प्रॉपर्टीज़"
+layout: "primadom-intent-page-v2"
+intent_slug: "long-term-investment-properties-in-al-zahiyah"
+page_id: "pg_1ff3d2f6ddff455b1641a0ba93a4"
+url: "/hi/intents/long-term-investment-properties-in-al-zahiyah/"
+build:
+  render: always
+  list: never
+---

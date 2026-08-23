@@ -1,0 +1,10 @@
+---
+title: "Wadi Al Shabak में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-wadi-al-shabak"
+page_id: "intent__branded-residences__district__wadi-al-shabak__hi"
+url: "/hi/intents/branded-residences-in-wadi-al-shabak/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "Al Karama में प्रवासी खरीदारों के लिए प्रॉपर्टी विकल्प"
+layout: "primadom-intent-page-v2"
+intent_slug: "expat-property-buyers-in-al-karama"
+page_id: "pg_02710a4bb2096f52c7882a881431"
+url: "/hi/intents/expat-property-buyers-in-al-karama/"
+build:
+  render: always
+  list: never
+---

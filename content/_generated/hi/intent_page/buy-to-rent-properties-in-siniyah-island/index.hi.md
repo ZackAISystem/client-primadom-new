@@ -1,0 +1,10 @@
+---
+title: "Siniyah Island में किराये की आय के लिए प्रॉपर्टीज़"
+layout: "primadom-intent-page-v2"
+intent_slug: "buy-to-rent-properties-in-siniyah-island"
+page_id: "pg_ab0cf0bd43c7af22f7f44619e162"
+url: "/hi/intents/buy-to-rent-properties-in-siniyah-island/"
+build:
+  render: always
+  list: never
+---

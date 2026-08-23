@@ -1,0 +1,10 @@
+---
+title: "Ellington Villa Collection बनाम The Ellington Collection"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "ellington-villa-collection-vs-the-ellington-collection"
+page_id: "project_comparison__ellington-villa-collection__vs__the-ellington-collection__hi"
+url: "/hi/compare-projects/ellington-villa-collection-vs-the-ellington-collection/"
+build:
+  render: always
+  list: never
+---

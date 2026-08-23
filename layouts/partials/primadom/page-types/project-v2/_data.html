@@ -1,11 +1,16 @@
 {{- $slug := .Params.project_slug | default "passo-by-beyond" -}}
-{{- $p := index site.Data.primadom.project_pages $slug -}}
+{{- $projectData := site.Data.primadom.project_pages -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $projectData = index $hiData "project_pages" -}}
+{{- end -}}
+{{- $p := index $projectData $slug -}}
 {{- if not $p -}}
   {{- errorf "Primadom project data not found: %s" $slug -}}
 {{- end -}}
 
 {{- $lang := site.Language.Lang | default "en" -}}
-{{- if not (in $p.languages $lang) -}}
+{{- if and (ne $lang "hi") (not (in $p.languages $lang)) -}}
   {{- $lang = "en" -}}
 {{- end -}}
 

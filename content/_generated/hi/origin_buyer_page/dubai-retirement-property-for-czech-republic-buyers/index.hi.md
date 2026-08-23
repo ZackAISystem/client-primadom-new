@@ -1,0 +1,10 @@
+---
+title: "चेक गणराज्य के खरीदारों के लिए Dubai में रिटायरमेंट के लिए प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-retirement-property-for-czech-republic-buyers"
+page_id: "pg_969c02f569409db03ae31fa68a27"
+url: "/hi/buyer-scenarios/dubai-retirement-property-for-czech-republic-buyers/"
+build:
+  render: always
+  list: never
+---

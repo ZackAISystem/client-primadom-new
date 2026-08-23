@@ -1,0 +1,10 @@
+---
+title: "District 11 में भुगतान योजना वाले प्रोजेक्ट्स"
+layout: "primadom-intent-page-v2"
+intent_slug: "payment-plan-projects-in-district-11"
+page_id: "intent__payment-plan-projects__district__district-11__hi"
+url: "/hi/intents/payment-plan-projects-in-district-11/"
+build:
+  render: always
+  list: never
+---

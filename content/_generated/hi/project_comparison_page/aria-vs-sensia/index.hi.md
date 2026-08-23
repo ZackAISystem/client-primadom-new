@@ -1,0 +1,10 @@
+---
+title: "Aria बनाम Sensia"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "aria-vs-sensia"
+page_id: "project_comparison__aria__vs__sensia__hi"
+url: "/hi/compare-projects/aria-vs-sensia/"
+build:
+  render: always
+  list: never
+---

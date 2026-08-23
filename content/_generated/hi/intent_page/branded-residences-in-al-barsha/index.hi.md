@@ -1,0 +1,10 @@
+---
+title: "Al Barsha में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-al-barsha"
+page_id: "intent__branded-residences__district__al-barsha__hi"
+url: "/hi/intents/branded-residences-in-al-barsha/"
+build:
+  render: always
+  list: never
+---

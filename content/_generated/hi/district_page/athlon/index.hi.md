@@ -1,0 +1,10 @@
+---
+title: "Athlon क्षेत्र गाइड"
+layout: "primadom-district-page-v2"
+district_slug: "athlon"
+page_id: "page_district_athlon_hi"
+url: "/hi/areas/athlon/"
+build:
+  render: always
+  list: never
+---

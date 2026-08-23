@@ -1,0 +1,10 @@
+---
+title: "The Lakes में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-the-lakes"
+page_id: "intent__branded-residences__district__the-lakes__hi"
+url: "/hi/intents/branded-residences-in-the-lakes/"
+build:
+  render: always
+  list: never
+---

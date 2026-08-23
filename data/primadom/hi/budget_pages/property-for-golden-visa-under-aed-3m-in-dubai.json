@@ -1,0 +1,717 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_search_pattern_golden_visa_budget_property_hi",
+  "page_type_id": "budget_page",
+  "language_code": "hi",
+  "url_path": "/hi/budgets/property-for-golden-visa-under-aed-3m-in-dubai/",
+  "canonical_url_path": "/hi/budgets/property-for-golden-visa-under-aed-3m-in-dubai/",
+  "canonical_group_key": "search_pattern:golden_visa_budget_property",
+  "primary_entity_type": null,
+  "primary_entity_slug": null,
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "क्या खरीद सकते हैं",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "भुगतान योजना",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "लागत",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "बजट पेज नेविगेशन",
+      "cta_label": "बजट जाँचें",
+      "brand_href": "/hi/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "budgets",
+          "href": "/hi/budgets/",
+          "label": "बजट"
+        },
+        {
+          "key": "current",
+          "href": "/hi/budgets/property-for-golden-visa-under-aed-3m-in-dubai/",
+          "label": "दुबई में AED 3M के तहत गोल्डन वीज़ा के लिए प्रॉपर्टी"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "नेविगेशन पथ"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Under AED 3M",
+        "Dubai market",
+        "सभी प्रॉपर्टी प्रकार",
+        "पात्रता सत्यापित करनी होगी",
+        "मौजूदा नियम लागू होते हैं"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "गोल्डन वीज़ा प्लानिंग के लिए AED 3M से नीचे दुबई प्रॉपर्टी",
+      "subtitle": "AED 3M के नीचे एक बजट दुबई प्रॉपर्टी खोज को तैयार कर सकता है, लेकिन गोल्डन वीज़ा पात्रता वर्तमान निवेश सीमा, स्वामित्व संरचना और लागू नियमों पर निर्भर करती है।",
+      "facts_aria": "बजट पेज की मुख्य बातें",
+      "section_id": "overview",
+      "visual_aria": "गोल्डन वीज़ा प्लानिंग के लिए AED 3M के नीचे दुबई प्रॉपर्टी के लिए बजट अवलोकन",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "उपयुक्त दुबई प्रॉपर्टी विकल्प, पात्रता जांच और स्वामित्व की लागत के बारे में पूछो। वर्तमान गोल्डन वीज़ा नियमों और प्रोजेक्ट की उपलब्धता के लिए अलग सत्यापन की आवश्यकता होती है।",
+      "hints": [
+        "दुबई के गुण इस बजट को किस बजट में फिट हैं?",
+        "कौन से पात्रता नियमों को वर्तमान सत्यापन की आवश्यकता है?",
+        "क्या स्वामित्व की लागत के लिए मैं योजना बना सकता हूँ?"
+      ],
+      "title": "चेक दुबई प्रॉपर्टी के तहत AED 3M गोल्डन वीज़ा प्लानिंग के लिए",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "गोल्डन वीज़ा योजना के लिए AED 3M के तहत यथार्थवादी दुबई प्रॉपर्टी विकल्प दिखाएं। अलग प्रॉपर्टी पात्रता से फिट होती है और वर्तमान कानूनी या प्रोजेक्ट सत्यापन की आवश्यकता होती है।",
+        "समझाओ कि कौन सा गोल्डन वीज़ा की स्थिति, स्वामित्व संरचना, न्यूनतम निवेश नियम और दस्तावेज अंक खरीद से पहले वर्तमान पेशेवर सत्यापन की आवश्यकता होती है।",
+        "AED 3M के तहत दुबई प्रॉपर्टी के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें, जबकि गोल्डन वीज़ा पात्रता को अलग रखा गया है और वर्तमान सत्यापन के अधीन है।"
+      ],
+      "hint_items": [
+        {
+          "label": "दुबई के गुण इस बजट को किस बजट में फिट हैं?",
+          "prompt": "गोल्डन वीज़ा योजना के लिए AED 3M के तहत यथार्थवादी दुबई प्रॉपर्टी विकल्प दिखाएं। अलग प्रॉपर्टी पात्रता से फिट होती है और वर्तमान कानूनी या प्रोजेक्ट सत्यापन की आवश्यकता होती है।"
+        },
+        {
+          "label": "कौन से पात्रता नियमों को वर्तमान सत्यापन की आवश्यकता है?",
+          "prompt": "समझाओ कि कौन सा गोल्डन वीज़ा की स्थिति, स्वामित्व संरचना, न्यूनतम निवेश नियम और दस्तावेज अंक खरीद से पहले वर्तमान पेशेवर सत्यापन की आवश्यकता होती है।"
+        },
+        {
+          "label": "क्या स्वामित्व की लागत के लिए मैं योजना बना सकता हूँ?",
+          "prompt": "AED 3M के तहत दुबई प्रॉपर्टी के लिए मुख्य खरीद और स्वामित्व की लागत श्रेणियों को रेखांकित करें, जबकि गोल्डन वीज़ा पात्रता को अलग रखा गया है और वर्तमान सत्यापन के अधीन है।"
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "के तहत दुबई प्रॉपर्टी के बारे में पूछने के लिए AED 3M गोल्डन वीज़ा योजना",
+      "placeholder": "के तहत दुबई प्रॉपर्टी के बारे में पूछने के लिए AED 3M गोल्डन वीज़ा योजना",
+      "voice_label": "वॉइस इनपुट शुरू करें",
+      "block_status": "final",
+      "submit_label": "AI से पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "मेरी स्थिति के अनुसार तुलना करें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "voice_active_label": "वॉइस इनपुट बंद करें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "live_check_required": true,
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "submit_loading_label": "AI से पूछा जा रहा है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड",
+      "voice_processing_label": "वॉइस इनपुट प्रोसेस हो रहा है"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Under AED 3M",
+        "दुबई",
+        "मिश्रित प्रॉपर्टी प्रकार",
+        "पात्रता अलग से जाँच की",
+        "वर्तमान वीज़ा नियमों को सत्यापित करें"
+      ],
+      "title": "आप क्या खरीद सकते हैं",
+      "eyebrow": "सीधा जवाब",
+      "body_html": "<p><strong>A बजट के तहत AED 3M एक दुबई प्रॉपर्टी खोज फ्रेम कर सकते हैं, लेकिन यह गोल्डन वीज़ा पात्रता निर्धारित नहीं करता है। </strong> प्रॉपर्टी मूल्य, स्वामित्व संरचना, प्रोजेक्ट स्थिति, अधिग्रहण लागत और मौजूदा पात्रता नियमों को अलग-अलग चेक के रूप में निर्धारित करता है। खरीदार पर प्रॉपर्टी का चयन पहले फिट होता है और एक स्वतंत्र पेशेवर सत्यापन के रूप में निवास योग्यता का इलाज करता है। वर्तमान पात्रता नियमों की पुष्टि करें, मूल्य निर्धारण, स्वामित्व संरचना, सटीक मूल्य निर्धारण और उपलब्धता अलग से। </p>",
+      "body_text": "AED 3M के तहत एक बजट एक दुबई प्रॉपर्टी खोज को तैयार कर सकता है, लेकिन यह गोल्डन वीज़ा पात्रता निर्धारित नहीं करता है। अलग-अलग चेकों के रूप में प्रॉपर्टी मूल्य, स्वामित्व संरचना, प्रोजेक्ट स्थिति, अधिग्रहण लागत और वर्तमान पात्रता नियमों का आकलन करें। खरीदार पर प्रॉपर्टी का चयन पहले फिट होता है और एक स्वतंत्र पेशेवर सत्यापन के रूप में रेजीडेंसी पात्रता का इलाज करता है। वर्तमान पात्रता नियमों, योग्यता मूल्य, स्वामित्व संरचना, सटीक मूल्य निर्धारण और उपलब्धता को अलग से पुष्टि करता है।",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "बजट",
+          "value": "Under AED 3M"
+        },
+        {
+          "key": "market",
+          "label": "बाज़ार",
+          "value": "दुबई"
+        },
+        {
+          "key": "area",
+          "label": "क्षेत्र",
+          "value": "दुबई में"
+        },
+        {
+          "key": "property_type",
+          "label": "प्रॉपर्टी प्रकार",
+          "value": "मिश्रित प्रॉपर्टी प्रकार"
+        },
+        {
+          "key": "current_signal",
+          "label": "मौजूदा संकेत",
+          "value": "पात्रता अलग से जाँच की"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "मुख्य समझौता",
+          "value": "प्रॉपर्टी के लिए वीजा नियमों बनाम फिट"
+        },
+        {
+          "key": "next_check",
+          "label": "अगली जाँच",
+          "value": "वर्तमान पात्रता नियम"
+        },
+        {
+          "key": "unit_status",
+          "label": "यूनिट की स्थिति",
+          "value": "लाइव उपलब्धता सत्यापित करें"
+        }
+      ],
+      "title": "बजट का विवरण",
+      "eyebrow": "मुख्य तथ्य",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "29 प्रोजेक्ट्स ने इस बजट में प्रारंभिक कीमतों को दर्ज किया है; वीजा पात्रता को अलग से जांचना होगा।",
+            "title": "Arjan"
+          },
+          {
+            "text": "इस बजट में 24 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता को अलग से जांचना होगा।",
+            "title": "Meydan"
+          },
+          {
+            "text": "इस बजट में 21 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता को अलग से जांचना होगा।",
+            "title": "Town Square"
+          },
+          {
+            "text": "इस बजट में 20 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता को अलग से जांचना होगा।",
+            "title": "Dubailand"
+          }
+        ],
+        "title": "तुलना करने के लिए जिले",
+        "eyebrow": "क्षेत्र का संदर्भ"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "इस बजट में 531 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता अभी भी एक अलग जांच की जरूरत है।",
+            "title": "अपार्टमेंट्स"
+          },
+          {
+            "text": "इस बजट में 271 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता अभी भी एक अलग जांच की जरूरत है।",
+            "title": "स्टूडियो"
+          },
+          {
+            "text": "इस बजट में 62 प्रोजेक्ट्स ने शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता अभी भी एक अलग जांच की जरूरत है।",
+            "title": "टाउनहाउस"
+          },
+          {
+            "text": "35 प्रोजेक्ट्स ने इस बजट में शुरुआती कीमतों को दर्ज किया है; वीजा पात्रता अभी भी एक अलग जांच की जरूरत है।",
+            "title": "विला"
+          }
+        ],
+        "title": "तुलना के लिए प्रॉपर्टी प्रकार",
+        "eyebrow": "प्रॉपर्टी तर्क"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "बजट निर्णय नोट",
+      "items": [
+        {
+          "text": "पहले बुकिंग, पंजीकरण और शेष प्रॉपर्टी भुगतान की योजना बनाएं; आवेदन करने के बाद पात्रता नियमों के तहत जांच की जानी चाहिए।",
+          "title": "वीजा समय से अलग खरीद समय रखें",
+          "eyebrow": "भुगतान योजना तर्क"
+        },
+        {
+          "text": "मूल्य, स्थान और उपयोग के मामले पर प्रॉपर्टी का चयन करें, फिर खरीद के बजाय मौजूदा नियमों के खिलाफ पात्रता की जांच करें।",
+          "title": "प्रॉपर्टी के लिए फिट और वीजा नियम अलग-अलग परीक्षण हैं",
+          "eyebrow": "समझौते"
+        },
+        {
+          "text": "पंजीकरण, वित्तपोषण, सेवा शुल्क और प्रस्तुत करने का प्रॉपर्टी बजट में संबंधित है; आवेदन लागत और पात्रता जांच अलग से इलाज किया जाना चाहिए।",
+          "title": "खरीदी लागत वीजा पात्रता के बाहर बैठो",
+          "eyebrow": "छिपी हुई लागत"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI एक सलाहकार चेक लाइव विकल्प से पहले बजट, प्रॉपर्टी प्रकार, जिला, समयरेखा और जोखिम प्रोफ़ाइल का वजन कर सकते हैं।",
+          "title": "एक शॉर्टलिस्ट में बजट चालू करें",
+          "eyebrow": "एआई संदर्भ"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "project_matches",
+        "text": "वर्तमान दर्ज मूल्य डेटा 4 प्रॉपर्टी विकल्प को कड़ाई से AED 3M से नीचे पहचानता है। अपनी योग्यता पर प्रत्येक प्रॉपर्टी की तुलना करें, फिर मौजूदा नियमों के तहत वीजा पात्रता को अलग से चेक करें।",
+        "items": [
+          {
+            "href": "/hi/projects/address-residences-the-bay/",
+            "meta": "AED 2.9M से दर्ज",
+            "label": "Address Residences The Bay",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "address-residences-the-bay",
+            "district_name": "Dubai Harbour",
+            "handover_year": 2026,
+            "property_type": "Apartment,Penthouse,Townhouse",
+            "developer_name": "Emaar Properties",
+            "project_page_id": "page_project_address_residences_the_bay_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2900000
+          },
+          {
+            "href": "/hi/projects/bluewaters-bay/",
+            "meta": "AED 2.9M से दर्ज",
+            "label": "Bluewaters Bay",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "bluewaters-bay",
+            "district_name": "Bluewaters",
+            "handover_year": 2027,
+            "property_type": "Apartment,Penthouse",
+            "developer_name": "Meraas Holding",
+            "project_page_id": "page_project_bluewaters_bay_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2900000
+          },
+          {
+            "href": "/hi/projects/damac-lagoons-mykonos/",
+            "meta": "AED 2.9M से दर्ज",
+            "label": "Damac Lagoons - Mykonos",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "damac-lagoons-mykonos",
+            "district_name": "Damac Lagoons",
+            "handover_year": 2026,
+            "property_type": "Townhouse,Villa",
+            "developer_name": "Damac Properties",
+            "project_page_id": "page_project_damac_lagoons_mykonos_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2900000
+          },
+          {
+            "href": "/hi/projects/la-vie/",
+            "meta": "AED 2.9M से दर्ज",
+            "label": "La Vie",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "la-vie",
+            "district_name": "Jumeirah Beach Residence",
+            "handover_year": 2023,
+            "property_type": "Apartment",
+            "developer_name": "Dubai Properties",
+            "project_page_id": "page_project_la_vie_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 2900000
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI बजट चेक",
+            "label": "एक लाइव शॉर्टलिस्ट बनाने के लिए Primadom AI से पूछें",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "तुलना करने के लिए प्रोजेक्टएं",
+        "eyebrow": "शॉर्टलिस्ट प्रविष्टि"
+      },
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "यह बजट किनके लिए उपयुक्त है",
+        "bad_items": [
+          "वे खरीदार जो प्रॉपर्टी खरीद को स्वतः वीज़ा पात्रता मान रहे हैं",
+          "वे खरीदार जिन्हें दर्ज शुरुआती कीमतों वाले विकल्प देखने से पहले पुष्टि की गई लाइव इन्वेंटरी चाहिए",
+          "वे खरीदार जो प्रॉपर्टी लागत को आवेदन और पात्रता जाँच से अलग नहीं करना चाहते"
+        ],
+        "bad_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "good_items": [
+          "Across Dubai में Under AED 3M के भीतर मिश्रित प्रॉपर्टी प्रकार विकल्पों की तुलना करने वाले खरीदार",
+          "वे खरीदार जो प्रॉपर्टी गुणवत्ता और वीज़ा पात्रता को अलग निर्णय मानते हैं",
+          "वे खरीदार जो लाइव यूनिट और मौजूदा शर्तें जाँचने से पहले कई नामित प्रोजेक्ट्स की तुलना करना चाहते हैं"
+        ],
+        "good_title": "इनके लिए उपयुक्त"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "एक प्रॉपर्टी खरीद के लिए एक गोल्डन वीज़ा लक्ष्य से जुड़ा हुआ है जिसमें AED 3M, प्रॉपर्टी की गुणवत्ता, लेनदेन की लागत और मौजूदा पात्रता नियमों का अलग से आकलन करने की आवश्यकता है। एक उपयुक्त प्रॉपर्टी और वर्तमान वीज़ा पात्रता अलग-अलग सवाल हैं, और न ही अकेले मूल्य से मानी जानी चाहिए। शॉर्टलिस्ट में AED 3M के नीचे 4 गुण शामिल हैं। सटीक प्रॉपर्टी लागत और मौजूदा पात्रता नियमों को अलग-अलग चेक के रूप में सत्यापित करें।",
+        "mode": "contextual_editorial",
+        "tags": [
+          "प्रॉपर्टी और पात्रता",
+          "प्रॉपर्टी प्रारूप",
+          "एक इकाई की जांच",
+          "कुल नकदी जोखिम",
+          "चली लागत"
+        ],
+        "title": "समझौते",
+        "eyebrow": "व्यावहारिक जाँच"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "प्रॉपर्टी खरीद लागत को वीज़ा से संबंधित लागत और पात्रता जांच से अलग रखें। लेनदेन योजना पर भरोसा करने से पहले दोनों हिस्सों की पुष्टि करें।",
+        "items": [
+          {
+            "text": "आवेदन या पात्रता से संबंधित खर्चों से अलग प्रॉपर्टी पंजीकरण और लेनदेन शुल्क की पुष्टि करें।",
+            "title": "पंजीकरण और लेनदेन की लागत"
+          },
+          {
+            "text": "जब वित्तपोषण का उपयोग किया जाता है, तो बैंक, मूल्यांकन और बंधक से संबंधित शुल्क की पुष्टि करने के लिए पूरा होने से पहले आवश्यक नकदी के साथ की जाती है।",
+            "title": "वित्त पोषण और मूल्यांकन लागत"
+          },
+          {
+            "text": "इमारत या सामुदायिक शुल्क, रखरखाव जिम्मेदारियों और सटीक प्रॉपर्टी के लिए स्वामित्व की लागत की जाँच करें।",
+            "title": "सेवा प्रभार और प्रॉपर्टी upkeep"
+          },
+          {
+            "text": "स्नैगिंग, प्रस्तुतीकरण, उपयोगिताओं, चलती और किसी भी लागत के लिए अलग से योजना बनाई गई है क्योंकि हैंडओवर या पूरा होने के कारण होता है।",
+            "title": "हैंडओवर, प्रस्तुतीकरण और चाल-इन लागत"
+          }
+        ],
+        "title": "सत्यापित करने योग्य लागत",
+        "eyebrow": "खरीदने से पहले जाँचें",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/hi/budgets/dubai-projects-aed-2m-3m/",
+          "label": "Dubai में AED 2M–3M के प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/dubai-projects-under-aed-2m/",
+          "label": "Dubai में AED 2M से कम के प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/dubai-projects-aed-1m-2m/",
+          "label": "Dubai में AED 1M–2M के प्रोजेक्ट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        },
+        {
+          "href": "/hi/budgets/apartments-under-aed-2m-in-dubai/",
+          "label": "Dubai में AED 2M से कम के अपार्टमेंट्स",
+          "relation_type": "curated_related_search",
+          "route_verified": true
+        }
+      ],
+      "title": "संबंधित बजट पेज",
+      "eyebrow": "संबंधित खोजें",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "वर्तमान प्रोजेक्ट डेटा प्रारंभिक बजट स्क्रीनिंग के लिए AED 3M के तहत शुरुआती कीमतों के साथ 598 प्रोजेक्ट्स को रिकॉर्ड करता है, साथ ही 25 पास के बजट मैचों की पुष्टि नहीं करता है। यह गोल्डन वीज़ा पात्रता या लाइव उपलब्धता की पुष्टि नहीं करता है। खरीद पर भरोसा करने से पहले योग्यता प्रॉपर्टी मूल्य, स्वामित्व संरचना, मूल्यांकन, प्रलेखन, सटीक यूनिट कीमत और वर्तमान आधिकारिक नियमों की पुष्टि करता है।",
+          "question": "मुझे दुबई में गोल्डन वीज़ा प्लानिंग के लिए AED 3M के तहत क्या प्रॉपर्टी विकल्प की तुलना करनी चाहिए?"
+        },
+        {
+          "answer": "नहीं, यह पृष्ठ केवल प्रॉपर्टी खोज का आयोजन करता है। योग्यता वर्तमान आधिकारिक नियमों, योग्यता प्रॉपर्टी मूल्य, स्वामित्व संरचना, मूल्यांकन और प्रलेखन पर निर्भर करती है। उन स्थितियों को प्रासंगिक अधिकारियों और योग्य सलाहकारों के साथ सत्यापित किया जाना चाहिए ताकि रेजीडेंसी योजना की खरीद पर भरोसा किया जा सके।",
+          "question": "क्या AED 3M के तहत प्रॉपर्टी खरीदना स्वचालित रूप से गोल्डन वीज़ा पात्रता स्थापित करता है?"
+        },
+        {
+          "answer": "प्रॉपर्टी खरीद लागत को वीज़ा से संबंधित लागत और पात्रता जांच से अलग रखें। लेनदेन योजना पर भरोसा करने से पहले दोनों हिस्सों की पुष्टि करें। दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी के लिए, पंजीकरण और लेनदेन लागत, वित्तपोषण और मूल्यांकन लागत, सेवा शुल्क और प्रॉपर्टी upkeep, और हथकर, प्रस्तुत करने और चाल में लागत की जांच करें। चयनित इकाई, वित्तपोषण संरचना और लेनदेन के लिए बजट को पूरा करने से पहले सटीक राशि की गणना की जानी चाहिए।",
+          "question": "कौन से अतिरिक्त लागत खरीदारों को दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी की गणना करनी चाहिए?"
+        },
+        {
+          "answer": "दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी के लिए, बुकिंग या भुगतान, निर्माण किस्तों, हैंडओवर बैलेंस, किसी भी पोस्ट-हैंडओवर दायित्व और पूरा होने से पहले की कुल राशि की तुलना करें। यह पृष्ठ लाइव डेवलपर भुगतान योजना की पुष्टि नहीं करता है, इसलिए वर्तमान अनुसूची को प्रत्येक शॉर्टलिस्ट यूनिट के लिए अलग से जाँच की जानी चाहिए। एक कम किस्त या लंबे समय तक अनुसूची स्वचालित रूप से कम कुल जोखिम का मतलब नहीं है।",
+          "question": "खरीदार को दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी के लिए भुगतान योजनाओं की तुलना कैसे करनी चाहिए?"
+        },
+        {
+          "answer": "दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी के लिए, Primadom AI डेवलपर, यूनिट प्रकार, प्रयोज्य आकार, कम्प्लीशन प्रोफ़ाइल, भुगतान और स्वामित्व की लागत से 598 सटीक प्रारंभिक कीमत से मेल और 25 पास के मैचों में रैंक कर सकते हैं। इसके बाद इसे कीमतों, यूनिट उपलब्धता और प्रोजेक्ट की शर्तों को ध्वजांकित करना चाहिए, जो अभी भी सलाहकार समीक्षा से पहले लाइव जाँच की आवश्यकता है।",
+          "question": "कैसे Primadom AI दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी की खोज को परिष्कृत कर सकता है?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "बजट से जुड़े प्रश्न",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी के लिए योजना विवरण पात्रता की पुष्टि नहीं करते हैं। आधिकारिक निवास नियमों, प्रॉपर्टी रिकॉर्ड, डेवलपर सामग्री और एक प्राइमाडम सलाहकार समीक्षा का उपयोग करके योग्यता प्रॉपर्टी मूल्य, स्वामित्व और मूल्यांकन आवश्यकताओं, प्रलेखन, वर्तमान मूल्य और उपलब्धता की पुष्टि करें।",
+      "items": [
+        {
+          "label": "मूल्य / उपलब्धता",
+          "value": "लाइव जाँच की आवश्यकता"
+        },
+        {
+          "label": "भुगतान योजना",
+          "value": "डेवलपर सामग्री की आवश्यकता है"
+        },
+        {
+          "label": "शुल्क/सेवा प्रभार",
+          "value": "गणना करना"
+        },
+        {
+          "label": "रेजीडेंसी पात्रता",
+          "value": "आधिकारिक जांच की आवश्यकता है"
+        }
+      ],
+      "title": "स्रोत और सत्यापन",
+      "eyebrow": "सत्यापन",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "ज़ोंकेईपी0ZX से पूछिए कि ज़ोंकेईपी1ZX के तहत प्रॉपर्टी की तुलना करने के लिए दुबई में गोल्डन वीज़ा प्लानिंग के लिए मूल्य, स्वामित्व संरचना और वर्तमान पात्रता नियमों से की जाती है, फिर आधिकारिक सत्यापन और सलाहकार समीक्षा के अनुरोध को तैयार करें।",
+      "title": "क्या आपका बजट वास्तव में खरीदता है?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Primadom AI से पूछें",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "बजट के अनुसार शॉर्टलिस्ट पाएँ",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "बजट पूछताछ फ़ॉर्म",
+      "note": "वर्तमान कीमतों और उपलब्धता की जांच की जाएगी, इससे पहले कि सिफारिश साझा की जा रही है।",
+      "text": "अपना विवरण साझा करें। Primadom AI समीक्षा के लिए एक प्राइमोम सलाहकार के लिए अपना बजट अनुरोध तैयार करेगा।",
+      "title": "क्या आपके बजट खरीद सकते हैं?",
+      "fields": {
+        "name": "आपका नाम",
+        "phone": "फ़ोन / WhatsApp",
+        "budget": "बजट सीमा",
+        "comment": "तैयार अनुरोध"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "भेजें",
+      "comment": "चेक दुबई प्रॉपर्टी के तहत AED 3M के लिए गोल्डन वीज़ा।",
+      "eyebrow": "AI बजट चयन",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "बंद करें",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "आपका नाम",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "नाम"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "बजट सीमा",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "Under AED 3M",
+          "default_value": "Under AED 3M"
+        },
+        "comment": {
+          "label": "तैयार अनुरोध",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "इस पृष्ठ से तैयार",
+          "single_line": true,
+          "default_value": "चेक दुबई प्रॉपर्टी के तहत AED 3M के लिए गोल्डन वीज़ा।"
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "नाम",
+        "phone": "+971",
+        "budget": "Under AED 3M",
+        "comment": "इस पृष्ठ से तैयार"
+      },
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "page_id": "page_search_pattern_golden_visa_budget_property_hi",
+        "page_layer": "search_pattern_seed_candidate",
+        "budget_name": "Under AED 3M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": "Golden Visa Budget Property",
+        "budget_phrase": "under AED 3M",
+        "district_name": null,
+        "canonical_url_path": "/hi/budgets/property-for-golden-visa-under-aed-3m-in-dubai/",
+        "content_version_id": "1007f030-ee6a-464c-858c-d2388800be21",
+        "property_type_name": null
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "वॉइस सर्च",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "दुबई में गोल्डन वीज़ा योजना के लिए AED 3M के तहत प्रॉपर्टी का अन्वेषण करें, पात्रता, स्वामित्व, मूल्य और उपलब्धता के साथ आधिकारिक सत्यापन और सलाहकार समीक्षा की आवश्यकता होती है।",
+      "brand": "Primadom AI",
+      "chips": [
+        "प्रोजेक्ट्स",
+        "क्षेत्र",
+        "डेवलपर्स",
+        "AI सर्च"
+      ],
+      "title": "बजट खोज, यथार्थवादी प्रॉपर्टी विकल्पों में परिवर्तित",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom सामाजिक कड़ियों",
+      "url_section": "/hi/budgets/property-for-golden-visa-under-aed-3m-in-dubai/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "AI से पूछें",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

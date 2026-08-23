@@ -1,0 +1,10 @@
+---
+title: "सऊदी अरब के खरीदारों के लिए Dubai में AED 5M से कम की प्रॉपर्टी"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-property-under-aed-5m-for-saudi-arabia-buyers"
+page_id: "pg_d73d3b210f043c4c7e3075d79f73"
+url: "/hi/buyer-scenarios/dubai-property-under-aed-5m-for-saudi-arabia-buyers/"
+build:
+  render: always
+  list: never
+---

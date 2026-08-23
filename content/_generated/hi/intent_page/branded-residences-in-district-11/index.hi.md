@@ -1,0 +1,10 @@
+---
+title: "District 11 में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-district-11"
+page_id: "intent__branded-residences__district__district-11__hi"
+url: "/hi/intents/branded-residences-in-district-11/"
+build:
+  render: always
+  list: never
+---

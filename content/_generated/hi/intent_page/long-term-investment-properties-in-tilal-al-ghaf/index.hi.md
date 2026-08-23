@@ -1,0 +1,10 @@
+---
+title: "Tilal Al Ghaf में दीर्घकालिक निवेश के लिए प्रॉपर्टीज़"
+layout: "primadom-intent-page-v2"
+intent_slug: "long-term-investment-properties-in-tilal-al-ghaf"
+page_id: "pg_6a1452ded1c0293eba81264b9b67"
+url: "/hi/intents/long-term-investment-properties-in-tilal-al-ghaf/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,669 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_discovery_gardens_hi",
+  "page_type_id": "district_page",
+  "language_code": "hi",
+  "url_path": "/hi/areas/discovery-gardens/",
+  "canonical_url_path": "/hi/areas/discovery-gardens/",
+  "canonical_group_key": "district:discovery-gardens",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "discovery-gardens",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_area_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_developers",
+    "block_10_landmarks_location",
+    "block_11_similar_districts",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#top-projects",
+          "label": "सर्वश्रेष्ठ प्रोजेक्ट्स",
+          "active": true
+        },
+        {
+          "href": "#area-fit",
+          "label": "किसके लिए उपयुक्त",
+          "active": false
+        },
+        {
+          "href": "#location",
+          "label": "स्थान",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#districtLeadModal",
+          "label": "AI से पूछें",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#districtLeadModal",
+      "brand_url": "/hi/",
+      "cta_label": "मेरे लिए विकल्प खोजें",
+      "block_status": "formula_generated",
+      "schema_version": "district_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/hi/",
+          "label": "होम"
+        },
+        {
+          "key": "areas",
+          "href": "/hi/areas/",
+          "label": "UAE के क्षेत्र"
+        },
+        {
+          "key": "city",
+          "href": "/hi/areas/dubai/",
+          "label": "दुबई",
+          "label_ref": "entity.city"
+        },
+        {
+          "key": "district",
+          "href": "/hi/areas/discovery-gardens/",
+          "label": "Discovery Gardens",
+          "label_ref": "entity.name"
+        }
+      ],
+      "url_section": "areas",
+      "block_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_breadcrumbs_v1"
+    },
+    "block_03_hero": {
+      "city": "दुबई",
+      "image": {
+        "alt": "Discovery Gardens, दुबई: अपार्टमेंट और हरित और खुले स्थान",
+        "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/90ab8cb0-f825-4b6f-8aa6-b49ae58b1800/desktop",
+        "mobile_src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/da44802b-2ba5-4c2e-9133-6894d232ed00/mobile",
+        "media_status": "available"
+      },
+      "title": "Discovery Gardens क्षेत्र गाइड",
+      "emirate": "दुबई",
+      "gallery": [],
+      "subtitle": "Discovery Gardens, दुबई में आवासीय · हरित प्रोफ़ाइल वाला क्षेत्र है। इसकी मुख्य विशेषताएँ हैं: अपार्टमेंट; हरित और खुले स्थान; परिवार और स्कूल-केंद्रित सुविधाएँ; कम ऊँचाई वाली इमारतें।",
+      "info_label": "क्षेत्र प्रोफ़ाइल",
+      "info_value": "आवासीय · हरित",
+      "hero_status": "agent_written",
+      "district_name": "Discovery Gardens",
+      "schema_version": "district_hero_v1"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "मेरे बजट और समयसीमा के अनुसार Discovery Gardens में प्रोजेक्ट खोजें",
+        "Discovery Gardens की समान UAE क्षेत्रों से तुलना करें",
+        "Discovery Gardens रहने के लिए बेहतर है या निवेश के लिए?",
+        "दुबई में स्थान का महत्व समझाएँ"
+      ],
+      "prompts": [
+        "मेरे बजट और समयसीमा के अनुसार Discovery Gardens में प्रोजेक्ट खोजें",
+        "Discovery Gardens की समान UAE क्षेत्रों से तुलना करें",
+        "Discovery Gardens रहने के लिए बेहतर है या निवेश के लिए?",
+        "दुबई में स्थान का महत्व समझाएँ"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI से पूछें",
+      "voice_text": "इस क्षेत्र के बारे में पूछें",
+      "placeholder": "Discovery Gardens, प्रोजेक्ट्स, जीवनशैली, स्थान, जोखिम या समान क्षेत्रों के बारे में पूछें",
+      "block_status": "formula_generated",
+      "button_label": "पूछें",
+      "voice_status": "सुन रहा हूँ…",
+      "ai_voice_text": "मेरे बजट, जीवनशैली और समयसीमा के अनुसार Discovery Gardens में प्रोजेक्ट खोजें...",
+      "ai_placeholder": "मेरे बजट, जीवनशैली और समयसीमा के अनुसार Discovery Gardens में प्रोजेक्ट खोजें...",
+      "schema_version": "district_ai_search_v1",
+      "ai_voice_status": "सुन रहा हूँ…",
+      "form_aria_label": "Primadom AI से Discovery Gardens के बारे में पूछें",
+      "voice_error_text": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+      "submit_aria_label": "Primadom AI से पूछें",
+      "voice_button_label": "वॉइस सर्च शुरू करें",
+      "voice_error_status": "वॉइस इनपुट रुका है",
+      "voice_fallback_text": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+      "voice_success_status": "समझ लिया",
+      "voice_fallback_status": "वॉइस मोड"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "शहरी",
+        "उपनगरीय",
+        "वैल्यू-केंद्रित",
+        "परिवार-केंद्रित"
+      ],
+      "title": "संक्षिप्त निष्कर्ष",
+      "eyebrow": "AI के लिए संक्षिप्त उत्तर",
+      "body_html": "<strong>Discovery Gardens</strong> दुबई में आवासीय · हरित प्रोफ़ाइल वाला क्षेत्र है। प्रमुख विशेषताएँ: अपार्टमेंट; हरित और खुले स्थान; परिवार और स्कूल-केंद्रित सुविधाएँ; कम ऊँचाई वाली इमारतें; लैंडस्केप्ड गार्डन।",
+      "body_source": "src_district_summary_short_fallback_src_district_overview",
+      "chip_source": "src_district_tags_src_lifestyle_tags_src_investor_tags_src_family_tags",
+      "source_status": "prototype_inputs_needs_sources",
+      "schema_version": "district_short_verdict_v1",
+      "summary_status": "source_rewritten_unique_final"
+    },
+    "block_06_area_facts": {
+      "note": "इसे क्षेत्र के शुरुआती स्नैपशॉट के रूप में उपयोग करें। खरीदार के निर्णय से पहले प्रोजेक्ट उपलब्धता, स्रोत दावों, कीमतों और सलाह से जुड़ी जानकारी की जाँच करनी चाहिए।",
+      "items": [
+        {
+          "label": "शहर",
+          "value": "दुबई"
+        },
+        {
+          "label": "अमीरात",
+          "value": "दुबई"
+        },
+        {
+          "label": "क्षेत्र प्रोफ़ाइल",
+          "value": "शहरी"
+        },
+        {
+          "label": "सबसे उपयुक्त",
+          "value": "निवेशक · परिवार · पेशेवर"
+        },
+        {
+          "label": "जीवनशैली का माहौल",
+          "value": "शांत · हरित"
+        },
+        {
+          "label": "जीवनशैली संकेत",
+          "value": "उपनगरीय · हरित · शांत"
+        },
+        {
+          "label": "निवेश दृष्टिकोण",
+          "value": "आय-केंद्रित"
+        },
+        {
+          "label": "परिवार दृष्टिकोण",
+          "value": "परिवार-केंद्रित · विशाल घर · शांत माहौल"
+        },
+        {
+          "label": "प्रोजेक्ट मैचिंग",
+          "value": "डेवलपर ग्राफ उपलब्ध"
+        }
+      ],
+      "title": "क्षेत्र के तथ्य",
+      "eyebrow": "क्या जानना ज़रूरी है",
+      "facts_status": "taxonomy_normalized",
+      "schema_version": "district_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "खरीदार के लिए उपयुक्तता",
+        "eyebrow": "खरीदार से मेल",
+        "good_for": [
+          "दुबई में शहरी क्षेत्रों की तुलना करने वाले खरीदार",
+          "जिन खरीदारों की जीवनशैली प्राथमिकताएँ शांत · हरित से मेल खाती हैं",
+          "जिनकी खोज प्राथमिकताएँ निवेशक · परिवार · पेशेवर से मेल खाती हैं"
+        ],
+        "less_for": [
+          "वे खरीदार जिन्हें शॉर्टलिस्ट बनाने से पहले प्रोजेक्ट की पुष्टि की हुई उपलब्धता चाहिए",
+          "वे खरीदार जो केवल अनुमानित कीमतों, रिटर्न या सर्विस चार्ज पर निर्भर करते हैं",
+          "वे खरीदार जिनकी पसंदीदा जीवनशैली या प्रॉपर्टी फ़ॉर्मेट क्षेत्र की प्रोफ़ाइल से मेल नहीं खाता"
+        ],
+        "good_for_title": "इनके लिए उपयुक्त",
+        "less_for_title": "इनके लिए कम उपयुक्त हो सकता है",
+        "buyer_fit_status": "source_normalized"
+      },
+      "area_logic": {
+        "body": "Discovery Gardens दुबई में आवासीय · हरित प्रोफ़ाइल वाला क्षेत्र है। प्रमुख विशेषताएँ: अपार्टमेंट; हरित और खुले स्थान; परिवार और स्कूल-केंद्रित सुविधाएँ; कम ऊँचाई वाली इमारतें; लैंडस्केप्ड गार्डन। क्षेत्र की प्रोफ़ाइल को उपनगरीय · हरित · शांत के संदर्भ में समझना उपयोगी है। शॉर्टलिस्ट बनाने से पहले खरीदार की उपयुक्तता को परिवार-केंद्रित · विशाल घर · शांत माहौल और सत्यापित प्रोजेक्ट डेटा के आधार पर जाँचें।",
+        "tags": [
+          "शहरी",
+          "शांत · हरित",
+          "परिवार-केंद्रित · विशाल घर · शांत माहौल",
+          "डेवलपर ग्राफ उपलब्ध"
+        ],
+        "title": "यह क्षेत्र क्यों महत्वपूर्ण है",
+        "eyebrow": "क्षेत्र का संदर्भ",
+        "logic_status": "source_normalized"
+      },
+      "block_status": "source_normalized_final",
+      "schema_version": "buyer_fit_logic_v1"
+    },
+    "block_08_decision_cards": {
+      "cards_status": "source_rewritten_unique_editorial_clean_final",
+      "decision_cards": [
+        {
+          "text": "Discovery Gardens में उपनगरीय · हरित · शांत जीवनशैली की लय है, जिसे इसका शहरी स्वरूप और दुबई की रोज़मर्रा की गति आकार देती है।",
+          "title": "जीवनशैली का संदर्भ",
+          "eyebrow": "जीवनशैली का तर्क",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Discovery Gardens में निवेश का निर्णय लेते समय उपलब्ध प्रॉपर्टी फ़ॉर्मेट, डेवलपर का ट्रैक रिकॉर्ड, सर्विस चार्ज, पेमेंट शर्तें और मौजूदा उपलब्ध इन्वेंट्री की तुलना करें।",
+          "title": "निवेश का संदर्भ",
+          "eyebrow": "निवेश का तर्क",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Discovery Gardens उन परिवारों के लिए उपयुक्त हो सकता है जिनकी प्राथमिकताएँ परिवार-केंद्रित माहौल, विशाल घर और शांत माहौल हैं। निर्णय से पहले स्कूल, हेल्थकेयर, यात्रा समय और उपलब्ध आवास की सत्यापित जानकारी जाँचें।",
+          "title": "परिवार का संदर्भ",
+          "eyebrow": "परिवार का तर्क",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "dark": true,
+          "text": "खरीदार के निर्णय से पहले Primadom AI Discovery Gardens के विकल्पों की तुलना बजट, यूनिट प्रकार, व्यू, पेमेंट प्लान, हैंडओवर, सर्विस चार्ज, लोकेशन की उपयुक्तता और वास्तविक उपलब्धता के आधार पर कर सकता है।",
+          "title": "AI-सहायता से मैचिंग",
+          "eyebrow": "AI संदर्भ",
+          "text_status": "formula_generated_safe_context"
+        }
+      ],
+      "schema_version": "district_decision_cards_v1"
+    },
+    "block_09_projects_developers": {
+      "projects": {
+        "items": [
+          {
+            "href": "/hi/projects/beverly-gardens/",
+            "name": "Beverly Gardens",
+            "rank": 1,
+            "context": "आवासीय डेवलपमेंट",
+            "project_id": "project_beverly_gardens",
+            "developer_id": "developer_h_m_b_development",
+            "match_status": "verified_graph_link",
+            "project_slug": "beverly-gardens",
+            "source_status": "missing",
+            "developer_name": "H M B Development",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/hi/projects/floarea-vista/",
+            "name": "Floarea Vista",
+            "rank": 2,
+            "context": "आवासीय डेवलपमेंट",
+            "project_id": "project_floarea_vista",
+            "developer_id": "developer_mashriq_elite_developments",
+            "match_status": "verified_graph_link",
+            "project_slug": "floarea-vista",
+            "source_status": "missing",
+            "developer_name": "Mashriq Elite Developments",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/hi/projects/samana-california/",
+            "name": "Samana California",
+            "rank": 3,
+            "context": "आवासीय डेवलपमेंट",
+            "project_id": "project_samana_california",
+            "developer_id": "developer_samana_developers",
+            "match_status": "verified_graph_link",
+            "project_slug": "samana-california",
+            "source_status": "missing",
+            "developer_name": "Samana Developers",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/hi/projects/serene-gardens/",
+            "name": "Serene Gardens",
+            "rank": 4,
+            "context": "आवासीय डेवलपमेंट",
+            "project_id": "project_serene_gardens",
+            "developer_id": "developer_prescott_real_estate_development",
+            "match_status": "verified_graph_link",
+            "project_slug": "serene-gardens",
+            "source_status": "missing",
+            "developer_name": "Prescott Real Estate Development",
+            "data_confidence": "medium"
+          }
+        ],
+        "title": "Discovery Gardens में शीर्ष प्रोजेक्ट्स",
+        "eyebrow": "संबंधित प्रोजेक्ट्स",
+        "ranking_method": "active_graph_links_confidence_completeness_developer_diversity",
+        "selected_count": 4,
+        "matching_source": "entities.project_district_links",
+        "projects_status": "matched_from_supabase_graph",
+        "total_linked_projects": 6
+      },
+      "block_status": "final",
+      "schema_version": "projects_developers_v1",
+      "developer_presence": {
+        "body": "Discovery Gardens में डेवलपर्स का विविध परिदृश्य है, जहाँ Prescott Real Estate Development, H M B Development और Mashriq Elite Developments सक्रिय हैं। इसलिए प्रोजेक्ट की गुणवत्ता और पोज़िशनिंग की अलग-अलग तुलना करनी चाहिए।",
+        "tags": [
+          "Prescott Real Estate Development",
+          "H M B Development",
+          "Mashriq Elite Developments",
+          "2 और संबंधित डेवलपर्स"
+        ],
+        "title": "डेवलपर संदर्भ",
+        "eyebrow": "डेवलपर उपस्थिति",
+        "matching_source": "entities.project_developer_links",
+        "developer_status": "matched_from_supabase_graph",
+        "linked_developer_count": 5
+      }
+    },
+    "block_10_landmarks_location": {
+      "map": {
+        "lat": null,
+        "lng": null,
+        "text": "Discovery Gardens दुबई में स्थित है। क्षेत्र की लोकेशन और आसपास के स्थान देखने के लिए लाइव मानचित्र का उपयोग करें।",
+        "label": "Discovery Gardens, दुबई, UAE",
+        "title": "स्थान और मानचित्र संदर्भ",
+        "eyebrow": "मानचित्र संदर्भ",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=Discovery+Gardens%2C+Dubai%2C+UAE",
+        "disclaimer": "सटीक दूरी, यात्रा समय और पहुँच की जाँच मौजूदा मानचित्रों के आधार पर करनी चाहिए।",
+        "map_status": "search_link_ready",
+        "point_label": "मानचित्र बिंदु",
+        "address_label": "पता",
+        "area_guide_url": "/hi/areas/discovery-gardens/",
+        "open_map_label": "मानचित्र खोलें",
+        "area_guide_label": "क्षेत्र गाइड"
+      },
+      "landmarks": {
+        "items": [
+          {
+            "meta": "रिटेल और रोज़मर्रा की सुविधा",
+            "type": "retail",
+            "title": "Ibn Battuta Mall",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "आसपास के क्षेत्र का संदर्भ",
+            "type": "landmark",
+            "title": "Gardens Residential Area",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "बिज़नेस या संस्थागत डेस्टिनेशन",
+            "type": "business",
+            "title": "Jebel Ali Free Zone (Jafza)",
+            "item_status": "normalized_source"
+          }
+        ],
+        "title": "प्रमुख स्थान और आसपास का संदर्भ",
+        "eyebrow": "आसपास के स्थान",
+        "landmarks_status": "normalized_source"
+      },
+      "url_section": "areas",
+      "block_status": "final_clean_verified_v4",
+      "schema_version": "landmarks_location_v4"
+    },
+    "block_11_similar_districts": {
+      "items": [
+        {
+          "href": "/hi/areas/dubai-sports-city/",
+          "rank": 1,
+          "title": "Dubai Sports City",
+          "match_reason": "समान क्षेत्र प्रोफ़ाइल",
+          "district_slug": "dubai-sports-city"
+        },
+        {
+          "href": "/hi/areas/dip/",
+          "rank": 2,
+          "title": "DIP",
+          "match_reason": "समान क्षेत्र प्रोफ़ाइल",
+          "district_slug": "dip"
+        },
+        {
+          "href": "/hi/areas/dubai-investment-park/",
+          "rank": 3,
+          "title": "Dubai Investment Park",
+          "match_reason": "समान क्षेत्र प्रोफ़ाइल",
+          "district_slug": "dubai-investment-park"
+        },
+        {
+          "href": "/hi/areas/impz/",
+          "rank": 4,
+          "title": "IMPZ",
+          "match_reason": "समान क्षेत्र प्रोफ़ाइल",
+          "district_slug": "impz"
+        }
+      ],
+      "title": "मिलते-जुलते क्षेत्र",
+      "eyebrow": "विकल्प"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Discovery Gardens दुबई में आवासीय · हरित प्रोफ़ाइल वाला क्षेत्र है। प्रमुख विशेषताएँ: अपार्टमेंट; हरित और खुले स्थान; परिवार और स्कूल-केंद्रित सुविधाएँ; कम ऊँचाई वाली इमारतें; लैंडस्केप्ड गार्डन।",
+          "question": "Discovery Gardens किस तरह की आवासीय कम्युनिटी है?"
+        },
+        {
+          "answer": "Discovery Gardens उन खरीदारों के लिए विशेष रूप से प्रासंगिक है जो दुबई में आवासीय कम्युनिटी, विला, टाउनहाउस या कम घनत्व वाले आवास विकल्पों की तुलना कर रहे हैं। अंतिम उपयुक्तता प्रॉपर्टी फ़ॉर्मेट, परिवार की ज़रूरतों, रोज़ाना आवागमन और सत्यापित उपलब्धता पर निर्भर करती है।",
+          "question": "Discovery Gardens में प्रॉपर्टी पर किसे विचार करना चाहिए?"
+        },
+        {
+          "answer": "Primadom में अभी Discovery Gardens से जुड़े 4 प्रोजेक्ट प्रोफ़ाइल हैं। उनकी तुलना प्रॉपर्टी प्रकार, डेवलपर, पेमेंट शर्तें, हैंडओवर, सर्विस चार्ज और मौजूदा सत्यापित उपलब्धता के आधार पर करें।",
+          "question": "Discovery Gardens से कौन-से प्रोजेक्ट विकल्प जुड़े हैं?"
+        },
+        {
+          "answer": "Discovery Gardens को निजी उपयोग और निवेश-केंद्रित स्वामित्व—दोनों के लिए देखा जा सकता है। सही विकल्प विला या अपार्टमेंट फ़ॉर्मेट, परिवार की ज़रूरतों, स्वामित्व लागत और मौजूदा सत्यापित उपलब्धता पर निर्भर करता है।",
+          "question": "खरीदारों को Discovery Gardens में रहने और निवेश के विकल्पों का आकलन कैसे करना चाहिए?"
+        },
+        {
+          "answer": "Discovery Gardens में प्रॉपर्टी चुनने से पहले प्रोजेक्ट, डेवलपर, विला या अपार्टमेंट फ़ॉर्मेट, प्लॉट या यूनिट विवरण, कीमत, पेमेंट शर्तें, कम्युनिटी सुविधाएँ, सर्विस चार्ज, आधिकारिक दस्तावेज़ और मौजूदा उपलब्धता की पुष्टि करें।",
+          "question": "Discovery Gardens में प्रोजेक्ट चुनने से पहले खरीदारों को क्या सत्यापित करना चाहिए?"
+        }
+      ],
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "eyebrow": "खरीदारों के प्रश्न"
+    },
+    "block_13_trust_sources": {
+      "items": [
+        {
+          "href": "",
+          "label": "आधिकारिक प्रॉपर्टी प्राधिकरण डेटा",
+          "value": "स्रोत सत्यापन के दौरान क्षेत्र और लेनदेन के रिकॉर्ड जोड़े जाएंगे।",
+          "link_status": "pending",
+          "source_type": "authority"
+        },
+        {
+          "href": "",
+          "label": "आधिकारिक डेवलपर सामग्री",
+          "value": "प्रोजेक्ट विवरण, लॉन्च और डेवलपर जानकारी की जाँच आधिकारिक सामग्री के आधार पर की जाएगी।",
+          "link_status": "pending",
+          "source_type": "developer"
+        },
+        {
+          "href": "",
+          "label": "Primadom प्रोजेक्ट मैचिंग",
+          "value": "संबंधित प्रोजेक्ट्स और डेवलपर्स को Primadom डेटाबेस के आधार पर सत्यापित किया जाएगा।",
+          "link_status": "pending",
+          "source_type": "internal_graph"
+        },
+        {
+          "href": "#districtLeadModal",
+          "label": "मौजूदा उपलब्धता",
+          "value": "यूनिट्स, कीमतों और पेमेंट प्लान के लिए मौजूदा उपलब्धता की जाँच आवश्यक है।",
+          "link_status": "check_required",
+          "source_type": "availability"
+        }
+      ],
+      "title": "स्रोत और डेटा जाँच",
+      "status": "स्रोत सत्यापन लंबित",
+      "eyebrow": "सत्यापन",
+      "source_notes": {
+        "body": "Discovery Gardens की जानकारी फिलहाल तैयार की गई क्षेत्र प्रोफ़ाइल पर आधारित है। आधिकारिक प्राधिकरण रिकॉर्ड, डेवलपर सामग्री, सत्यापित प्रोजेक्ट लिंक और मौजूदा उपलब्धता स्रोत सत्यापन चरण में जोड़ी जाएगी।",
+        "title": "स्रोत नोट",
+        "last_checked": "अभी सत्यापित नहीं"
+      }
+    },
+    "block_14_cta": {
+      "text": "Primadom AI को बताएं कि आप क्या खोज रहे हैं — हम विकल्पों को सीमित करके आपका अनुरोध एक सलाहकार तक पहुँचाएँगे।",
+      "title": "Discovery Gardens में सही प्रोजेक्ट खोजें",
+      "actions": [
+        {
+          "key": "find_projects",
+          "href": "#districtLeadModal",
+          "label": "प्रोजेक्ट खोजें",
+          "primary": true,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "area_project_search"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#ask-ai",
+          "label": "Primadom AI से पूछें",
+          "primary": false,
+          "open_modal": false,
+          "action_intent": "ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#districtLeadModal",
+          "label": "कॉल का अनुरोध करें",
+          "primary": false,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "formula_generated_final",
+      "schema_version": "district_cta_v1_1"
+    },
+    "block_15_lead_modal": {
+      "note": "आपका अनुरोध साझा करने से पहले हम विवरण की जाँच करेंगे।",
+      "text": "हमें बताएं कि आप क्या खोज रहे हैं। सलाहकार के आपसे संपर्क करने से पहले Primadom AI एक मिलान का संक्षिप्त संदर्भ तैयार करेगा।",
+      "title": "Discovery Gardens में प्रोजेक्ट खोजें",
+      "fields": {
+        "name": "नाम",
+        "phone": "फ़ोन / WhatsApp",
+        "request": "अनुरोध"
+      },
+      "submit": "भेजें",
+      "comment": "Discovery Gardens में रुचि है। प्रोजेक्ट भेजें।",
+      "eyebrow": "प्रोजेक्ट अनुरोध",
+      "success": "भेज दिया गया",
+      "ai_badge": "Primadom AI",
+      "modal_id": "districtLeadModal",
+      "title_id": "districtLeadTitle",
+      "close_label": "बंद करें",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "project_graph_ref": "supabase_project_district_links",
+        "developer_graph_ref": "supabase_project_developer_links"
+      },
+      "ai_row_badge": "अनुरोध का ड्राफ्ट",
+      "field_config": {
+        "name": {
+          "label": "नाम",
+          "html_name": "name",
+          "placeholder": "आपका नाम"
+        },
+        "phone": {
+          "label": "फ़ोन / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "request": {
+          "label": "अनुरोध",
+          "html_name": "request_type",
+          "placeholder": "प्रोजेक्ट, क्षेत्र या प्रश्न"
+        }
+      },
+      "modal_status": "formula_generated",
+      "submit_label": "भेजें",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "emirate": {
+          "html_name": "emirate",
+          "value_ref": "emirate"
+        },
+        "district_key": {
+          "html_name": "district_key",
+          "value_ref": "district_slug"
+        },
+        "district_name": {
+          "html_name": "district_name",
+          "value_ref": "district_name"
+        }
+      },
+      "success_label": "भेज दिया गया",
+      "schema_version": "district_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Discovery Gardens में रुचि है। प्रोजेक्ट भेजें।",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "unit_type",
+          "timing",
+          "view",
+          "payment_plan"
+        ]
+      },
+      "voice_button_label": "वॉइस का उपयोग करें"
+    },
+    "block_16_footer": {
+      "text": "यह पेज Discovery Gardens की समीक्षा करने, क्षेत्र का संदर्भ समझने, संबंधित प्रोजेक्ट्स की तुलना करने और Primadom सलाहकार से बात करने से पहले सही प्रश्न तैयार करने में मदद करता है।",
+      "brand": "Primadom AI",
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/hi/projects/",
+          "label": "प्रोजेक्ट्स"
+        },
+        {
+          "key": "areas",
+          "href": "/hi/areas/",
+          "label": "क्षेत्र"
+        },
+        {
+          "key": "developers",
+          "href": "/hi/developers/",
+          "label": "डेवलपर्स"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI सर्च"
+        }
+      ],
+      "title": "अधिक स्पष्ट क्षेत्रीय डेटा और AI मार्गदर्शन के साथ सही UAE प्रॉपर्टी खोजें।",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "दुबई, UAE",
+      "subtitle": "UAE प्रॉपर्टी इंटेलिजेंस",
+      "brand_url": "/hi/",
+      "copyright": "© Primadom AI",
+      "url_section": "areas",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug"
+      },
+      "footer_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_footer_v1",
+      "contact_primary": {
+        "href": "#districtLeadModal",
+        "label": "कॉल बुक करें",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "AI से पूछें",
+        "action_intent": "district_question"
+      }
+    }
+  }
+}

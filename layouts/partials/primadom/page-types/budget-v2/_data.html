@@ -13,6 +13,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $budgetData = index $ruData "budget_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $budgetData = index $hiData "budget_pages" -}}
+{{- end -}}
 {{- $page := index $budgetData $slug -}}
 
 {{- if not $page -}}

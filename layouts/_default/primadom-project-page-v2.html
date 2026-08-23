@@ -4,6 +4,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $projectData = index $ruData "project_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $projectData = index $hiData "project_pages" -}}
+{{- end -}}
 {{- $p := index $projectData $slug -}}
 
 {{- if not $p -}}

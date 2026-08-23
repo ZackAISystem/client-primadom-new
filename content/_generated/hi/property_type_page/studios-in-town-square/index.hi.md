@@ -1,0 +1,10 @@
+---
+title: "Town Square में स्टूडियो"
+layout: "primadom-property-type-page-v2"
+property_type_slug: "studios-in-town-square"
+page_id: "page_property_district_studios_town_square_hi"
+url: "/hi/property-types/studios-in-town-square/"
+build:
+  render: always
+  list: never
+---

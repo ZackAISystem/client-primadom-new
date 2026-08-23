@@ -1,0 +1,10 @@
+---
+title: "Jumeirah Beach Residence में ब्रांडेड रेज़िडेंस"
+layout: "primadom-intent-page-v2"
+intent_slug: "branded-residences-in-jumeirah-beach-residence"
+page_id: "intent__branded-residences__district__jumeirah-beach-residence__hi"
+url: "/hi/intents/branded-residences-in-jumeirah-beach-residence/"
+build:
+  render: always
+  list: never
+---

@@ -1,6 +1,10 @@
 {{- $slug := .Params.buyer_scenario_slug | default "apartment-vs-townhouse-decision-buyer-in-dubai-hills-estate" -}}
 
 {{- $buyerScenarioData := site.Data.primadom.buyer_scenario_pages_v2 -}}
+{{- if eq .Site.Language.Lang "hi" -}}
+  {{- $hiData := index site.Data.primadom "hi" -}}
+  {{- $buyerScenarioData = index $hiData "buyer_scenario_pages" -}}
+{{- end -}}
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $buyerScenarioData = index $ruData "buyer_scenario_pages" -}}

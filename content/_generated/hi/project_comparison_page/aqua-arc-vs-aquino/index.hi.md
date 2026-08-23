@@ -1,0 +1,10 @@
+---
+title: "Aqua Arc बनाम Aquino"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "aqua-arc-vs-aquino"
+page_id: "page_project_comparison_aqua_arc_vs_aquino_hi"
+url: "/hi/compare-projects/aqua-arc-vs-aquino/"
+build:
+  render: always
+  list: never
+---
