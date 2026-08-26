@@ -1,0 +1,635 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_comparison_aljada_vs_jumeirah_village_circle_zh",
+  "page_type_id": "district_comparison_page",
+  "language_code": "zh",
+  "url_path": "/zh/compare-areas/aljada-vs-jumeirah-village-circle/",
+  "canonical_url_path": "/zh/compare-areas/aljada-vs-jumeirah-village-circle/",
+  "canonical_group_key": "district_comparison:aljada:vs:jumeirah-village-circle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "aljada",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_comparison_table",
+    "block_08_decision_cards",
+    "block_09_buyer_rental_logic",
+    "block_10_projects_by_area",
+    "block_11_related_comparisons",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#comparisonLeadModal",
+      "cta_label": "根据我的情况比较",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "概览",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#table",
+          "label": "比较"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "项目"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "询问 AI"
+        }
+      ],
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_generated",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "区域比较导航",
+      "schema_version": "district_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "area_comparisons",
+          "href": "/zh/compare-areas/",
+          "label": "阿联酋区域比较"
+        },
+        {
+          "key": "comparison",
+          "href": "/zh/compare-areas/aljada-vs-jumeirah-village-circle/",
+          "label": "Aljada 与 Jumeirah Village Circle",
+          "label_ref": "comparison.name"
+        }
+      ],
+      "url_section": "compare-areas",
+      "block_status": "formula_generated",
+      "schema_version": "district_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Aljada：城市生活",
+        "Jumeirah Village Circle：综合住宅社区",
+        "生活方式与位置",
+        "房产与项目选择",
+        "列入筛选清单前核查最新信息"
+      ],
+      "title": "Aljada vs Jumeirah Village Circle",
+      "area_a": {
+        "name": "Aljada",
+        "slug": "aljada",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "area_b": {
+        "name": "Jumeirah Village Circle",
+        "slug": "jumeirah-village-circle",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "kicker": "区域比较",
+      "subtitle": "从生活方式、位置、房产选择和项目角度比较 Aljada 与 Jumeirah Village Circle。",
+      "facts_aria": "比较页核心信息",
+      "visual_aria": "Aljada 与 Jumeirah Village Circle 的分屏对比视觉",
+      "block_status": "formula_generated_media_later",
+      "schema_version": "district_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "hints": [
+        "家庭适配：Aljada 与 Jumeirah Village Circle",
+        "租金收益：Aljada 与 Jumeirah Village Circle",
+        "预算选项：Aljada 与 Jumeirah Village Circle"
+      ],
+      "ai_aria": "询问 Primadom AI，比较 Aljada 与 Jumeirah Village Circle",
+      "ai_badge": "Primadom AI",
+      "ai_submit": "询问 AI",
+      "voice_text": "比较 Aljada 与 Jumeirah Village Circle",
+      "voice_label": "语音搜索",
+      "block_status": "formula_generated",
+      "voice_status": "正在聆听…",
+      "ai_placeholder": "比较 Aljada 与 Jumeirah Village Circle",
+      "schema_version": "district_comparison_ai_compare_v1",
+      "voice_error_text": "输入您的需求或重试",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "生活方式匹配",
+        "预算匹配度",
+        "房产类型",
+        "租赁目标"
+      ],
+      "title": "快速结论",
+      "eyebrow": "直接回答",
+      "body_html": "<strong>Aljada</strong> 可能更适合偏好城市生活的买家；<strong>Jumeirah Village Circle</strong> 可能更适合偏好综合住宅社区的买家。做出选择前，请比较预算、房产类型、通勤和租赁目标。",
+      "body_text": "Aljada 可能更适合偏好城市生活的买家；Jumeirah Village Circle 可能更适合偏好综合住宅社区的买家。做出选择前，请比较预算、房产类型、通勤和租赁目标。",
+      "body_source": "district_profile_buyer_phrases_v2",
+      "chip_source": "buyer_decision_axes",
+      "source_status": "profile_context_no_live_market_claims",
+      "schema_version": "district_comparison_quick_verdict_v1",
+      "summary_status": "profile_based_can_enrich_later"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "比较类型",
+          "value": "区域比较"
+        },
+        {
+          "label": "市场",
+          "value": "迪拜 / 阿联酋"
+        },
+        {
+          "label": "区域 A",
+          "value": "Aljada"
+        },
+        {
+          "label": "区域 B",
+          "value": "Jumeirah Village Circle"
+        },
+        {
+          "label": "区域 A 特征",
+          "value": "城市生活"
+        },
+        {
+          "label": "区域 B 特征",
+          "value": "综合住宅社区"
+        },
+        {
+          "label": "区域 A 项目",
+          "value": "已收录 25 个项目"
+        },
+        {
+          "label": "区域 B 项目",
+          "value": "已收录 214 个项目"
+        }
+      ],
+      "title": "比较详情",
+      "eyebrow": "关键信息",
+      "block_status": "structured_data_generated",
+      "source_status": "structured_source_fields",
+      "schema_version": "district_comparison_facts_v1"
+    },
+    "block_07_comparison_table": {
+      "head": {
+        "area_a": "Aljada",
+        "area_b": "Jumeirah Village Circle",
+        "factor": "对比维度"
+      },
+      "rows": [
+        {
+          "area_a": "中端市场定位；请核查当前价格与费用。",
+          "area_b": "中端市场定位；请核查当前价格与费用。",
+          "factor": "价格水平"
+        },
+        {
+          "area_a": "城市化、宜步行的生活方式，日常配套近在周边。",
+          "area_b": "郊区生活方式；请比较通勤与日常配套。",
+          "factor": "生活方式"
+        },
+        {
+          "area_a": "已收录 25 个项目，可选范围已具一定规模；请核查当前可售情况。",
+          "area_b": "已收录 214 个项目，可选范围非常丰富；请核查当前可售情况。",
+          "factor": "项目选项"
+        },
+        {
+          "area_a": "以资本增值为重点进行筛选；请比较供应、品质与转售需求。",
+          "area_b": "以租金收益为重点进行筛选；请比较租客需求、费用与流动性。",
+          "factor": "投资"
+        },
+        {
+          "area_a": "可能适合家庭；请核查亲子配套、学校与通勤。",
+          "area_b": "可能适合家庭；请核查亲子配套、学校与通勤。",
+          "factor": "家庭适配"
+        },
+        {
+          "area_a": "如考虑出租，请比较需求、费用、单元品质与管理成本。",
+          "area_b": "如考虑出租，请比较租客需求、费用、单元品质与流动性。",
+          "factor": "租赁逻辑"
+        }
+      ],
+      "title": "比较表",
+      "eyebrow": "Aljada vs Jumeirah Village Circle",
+      "table_status": "profile_enriched_structured",
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_table_v1"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "key": "entry_check",
+          "text": "两个区域都属于中端市场价格定位；请核查实时价格、单元面积、服务费和付款条款。",
+          "title": "价格定位相近",
+          "eyebrow": "入场门槛核查",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "lifestyle_fit",
+          "text": "Aljada：城市生活。Jumeirah Village Circle：综合住宅社区。请比较通勤、配套与日常生活节奏。",
+          "title": "城市生活与综合住宅社区",
+          "eyebrow": "生活方式匹配",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "investment_logic",
+          "text": "Aljada：以资本增值为重点筛选。Jumeirah Village Circle：以租金收益为重点筛选。请比较成本、需求与转售流动性。",
+          "title": "资本增值导向与租金收益导向",
+          "eyebrow": "投资逻辑",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Primadom AI 可从房产类型、生活方式、时间安排和买家目标等方面比较 Aljada 与 Jumeirah Village Circle。",
+          "title": "根据您的具体情况比较",
+          "eyebrow": "AI 参考信息",
+          "card_status": "ai_comparison_support"
+        }
+      ],
+      "cards_status": "profile_enriched_structured",
+      "source_status": "structured_comparison_inputs",
+      "schema_version": "district_comparison_decision_cards_v1",
+      "decision_cards_aria": "决策差异说明"
+    },
+    "block_09_buyer_rental_logic": {
+      "buyer_types": {
+        "title": "哪个区域更适合您的情况？",
+        "eyebrow": "适合的买家",
+        "area_a_items": [
+          "您偏好城市生活，并希望它符合您的日常生活节奏。",
+          "您重视亲子配套，并会核查学校与通勤。",
+          "您希望在 25 个已收录项目中比较增值潜力、品质与转售需求。"
+        ],
+        "area_a_title": "如果符合以下情况，可考虑 Aljada",
+        "area_b_items": [
+          "您偏好综合住宅社区，并希望它符合您的日常生活节奏。",
+          "您重视亲子配套，并会核查学校与通勤。",
+          "您希望在 214 个已收录项目中比较租金收益、租客需求、费用与流动性。"
+        ],
+        "area_b_title": "如果符合以下情况，可考虑 Jumeirah Village Circle"
+      },
+      "block_status": "profile_enriched_structured",
+      "rental_logic": {
+        "body": "Aljada：比较租赁需求、服务费、单元品质与管理成本。Jumeirah Village Circle：比较租客需求、服务费、单元品质与流动性。做出决定前，请核查具体单元层面的数据。",
+        "tags": [
+          "租客需求",
+          "服务费",
+          "单元品质",
+          "管理成本",
+          "转售流动性"
+        ],
+        "title": "租赁与转售逻辑",
+        "eyebrow": "租赁核查"
+      },
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_buyer_rental_logic_v1"
+    },
+    "block_10_projects_by_area": {
+      "area_a": {
+        "items": [
+          {
+            "href": "/zh/projects/anber/",
+            "meta": "项目选项",
+            "label": "Anber"
+          },
+          {
+            "href": "/zh/projects/il-teatro/",
+            "meta": "项目选项",
+            "label": "IL Teatro"
+          },
+          {
+            "href": "/zh/projects/nasaq-1/",
+            "meta": "项目选项",
+            "label": "Nasaq 1"
+          },
+          {
+            "href": "/zh/areas/aljada/",
+            "meta": "区域指南",
+            "label": "Aljada 区域指南"
+          }
+        ],
+        "title": "Aljada 的项目",
+        "eyebrow": "第一区域"
+      },
+      "area_b": {
+        "items": [
+          {
+            "href": "/zh/projects/10-oxford/",
+            "meta": "项目选项",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/zh/projects/105-residences/",
+            "meta": "项目选项",
+            "label": "105 Residences"
+          },
+          {
+            "href": "/zh/projects/1wood-residence/",
+            "meta": "项目选项",
+            "label": "1Wood Residence"
+          },
+          {
+            "href": "/zh/areas/jumeirah-village-circle/",
+            "meta": "区域指南",
+            "label": "Jumeirah Village Circle 区域指南"
+          }
+        ],
+        "title": "Jumeirah Village Circle 的项目",
+        "eyebrow": "第二区域"
+      },
+      "source_status": "trusted_project_links_with_manual_exclusions",
+      "schema_version": "district_comparison_projects_by_area_v1",
+      "projects_status": "entity_linked_routes_structured"
+    },
+    "block_11_related_comparisons": {
+      "items": [
+        {
+          "href": "/zh/compare-areas/aljada-vs-dubailand/",
+          "label": "Aljada vs Dubailand"
+        },
+        {
+          "href": "/zh/compare-areas/aljada-vs-business-bay/",
+          "label": "Aljada vs Business Bay"
+        },
+        {
+          "href": "/zh/compare-areas/al-barari-vs-jumeirah-village-circle/",
+          "label": "Al Barari vs Jumeirah Village Circle"
+        },
+        {
+          "href": "/zh/compare-areas/al-barsha-vs-jumeirah-village-circle/",
+          "label": "Al Barsha vs Jumeirah Village Circle"
+        }
+      ],
+      "title": "相关比较",
+      "eyebrow": "继续查看",
+      "source_status": "resolved_comparison_routes",
+      "related_status": "shared_area_priority_matched",
+      "schema_version": "district_comparison_related_v1"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Aljada 可能更适合偏好城市生活的买家；Jumeirah Village Circle 可能更适合偏好综合住宅社区的买家。做出选择前，请比较预算、房产类型、通勤和租赁目标。",
+          "question": "Aljada 与 Jumeirah Village Circle 的主要区别是什么？",
+          "answer_status": "from_final_verdict"
+        },
+        {
+          "answer": "Aljada：中端市场定位；请核查当前价格与费用。Jumeirah Village Circle：中端市场定位；请核查当前价格与费用。确定预算前，请核查当前价格、可售单元、付款条款和服务费。",
+          "question": "Aljada 与 Jumeirah Village Circle 在价格和预算匹配度方面有何不同？",
+          "answer_status": "from_final_price_comparison"
+        },
+        {
+          "answer": "Aljada：如考虑出租，请比较需求、费用、单元品质与管理成本。Jumeirah Village Circle：如考虑出租，请比较租客需求、费用、单元品质与流动性。租金收益仍应结合当前租客需求、服务费、管理成本和转售流动性，在具体单元和楼宇层面进行核查。",
+          "question": "哪个区域更适合获得租金收益？",
+          "answer_status": "from_final_rental_comparison"
+        },
+        {
+          "answer": "Aljada：可能适合家庭；请核查亲子配套、学校与通勤。Jumeirah Village Circle：可能适合家庭；请核查亲子配套、学校与通勤。最终选择还应结合通勤、学校或幼儿园、住房面积、私密性、步行便利度、交通状况和偏好的日常生活节奏。",
+          "question": "对于家庭自住而言，Aljada 还是 Jumeirah Village Circle 更合适？",
+          "answer_status": "from_final_family_comparison"
+        },
+        {
+          "answer": "可以。Primadom AI 可在需求转交顾问前，根据预算、房产类型、生活方式偏好、家庭需求、租赁目标、期望时间安排和当前项目可售情况比较 Aljada 与 Jumeirah Village Circle。",
+          "question": "Primadom AI 可以根据我的情况比较 Aljada 与 Jumeirah Village Circle 吗？",
+          "answer_status": "system_capability"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "买家常见问题",
+      "faq_status": "pair_specific_structured",
+      "source_status": "final_comparison_blocks",
+      "schema_version": "district_comparison_faq_v1"
+    },
+    "block_13_source_notes": {
+      "body": "在 Aljada 与 Jumeirah Village Circle 之间做出选择前，请结合开发商资料、相关公开记录和当前市场核查，确认最新价格、项目可售情况、付款计划、交付状态、服务费和租赁假设。",
+      "items": [
+        {
+          "label": "价格 / 可售情况",
+          "value": "需实时核查"
+        },
+        {
+          "label": "项目状态",
+          "value": "需官方来源核查"
+        },
+        {
+          "label": "租赁假设",
+          "value": "需核查市场与具体单元"
+        },
+        {
+          "label": "最后审核",
+          "value": "待核实"
+        }
+      ],
+      "title": "来源核查",
+      "eyebrow": "核实",
+      "schema_version": "district_comparison_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "pending_source_verification",
+      "source_notes_status": "verification_notice_structured"
+    },
+    "block_14_cta": {
+      "text": "从生活方式、房产类型、租赁目标、时间安排和日常生活节奏比较 Aljada 与 Jumeirah Village Circle，然后通过 Primadom AI 或顾问核查当前可选方案。",
+      "title": "哪个区域更适合您的具体情况？",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "询问 Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#comparisonLeadModal",
+          "label": "根据我的情况比较",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "area_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#comparisonLeadModal",
+          "label": "申请回电",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific_structured",
+      "schema_version": "district_comparison_cta_v1"
+    },
+    "block_15_lead_modal": {
+      "aria": "区域比较需求表单",
+      "note": "在转交您的需求前，我们会先核查相关详情。",
+      "text": "告诉我们您最看重什么。Primadom AI 会先准备一份有针对性的比较，再由顾问与您联系。",
+      "title": "根据您的情况比较 Aljada 与 Jumeirah Village Circle",
+      "fields": {
+        "name": "姓名",
+        "phone": "电话 / WhatsApp",
+        "budget": "电子邮箱（可选）",
+        "comment": "需求"
+      },
+      "submit": "发送",
+      "comment": "根据我的购房目标比较这两个区域。",
+      "eyebrow": "比较需求",
+      "success": "已发送",
+      "ai_badge": "Primadom AI",
+      "modal_id": "comparisonLeadModal",
+      "title_id": "comparisonLeadTitle",
+      "close_label": "关闭",
+      "ai_row_badge": "需求草稿",
+      "field_config": {
+        "name": {
+          "label": "姓名",
+          "html_name": "name",
+          "placeholder": "您的姓名"
+        },
+        "phone": {
+          "label": "电话 / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "budget": {
+          "label": "电子邮箱（可选）",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "comment": {
+          "label": "需求",
+          "html_name": "comment",
+          "placeholder": "您最看重什么？"
+        }
+      },
+      "modal_status": "pair_specific_structured",
+      "placeholders": {
+        "name": "您的姓名",
+        "phone": "+971...",
+        "budget": "email@example.com"
+      },
+      "submit_label": "发送",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "area_a_name": {
+          "html_name": "area_a_name",
+          "value_ref": "area_a_name"
+        },
+        "area_a_slug": {
+          "html_name": "area_a_slug",
+          "value_ref": "area_a_slug"
+        },
+        "area_b_name": {
+          "html_name": "area_b_name",
+          "value_ref": "area_b_name"
+        },
+        "area_b_slug": {
+          "html_name": "area_b_slug",
+          "value_ref": "area_b_slug"
+        }
+      },
+      "success_label": "已发送",
+      "schema_version": "district_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "根据我的购房目标比较这两个区域。",
+        "html_name": "comment",
+        "request_scope": [
+          "area_fit",
+          "lifestyle_fit",
+          "property_type",
+          "rental_goal",
+          "timing",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "使用语音"
+    },
+    "block_16_footer": {
+      "text": "从生活方式、房产选择、租赁逻辑和买家匹配度比较 Aljada 与 Jumeirah Village Circle，然后继续使用 Primadom AI 或咨询顾问。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "通过更清晰的房产指引比较不同区域。",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "迪拜，阿联酋",
+      "subtitle": "阿联酋房产智能洞察",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "social_aria": "社交媒体链接",
+      "url_section": "compare-areas",
+      "footer_status": "standard_footer_structured",
+      "schema_version": "district_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#comparisonLeadModal",
+        "label": "预约通话",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "询问 AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

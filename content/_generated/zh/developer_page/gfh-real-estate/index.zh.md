@@ -1,0 +1,10 @@
+---
+title: "GFH Real Estate"
+layout: "primadom-developer-page-v2"
+developer_slug: "gfh-real-estate"
+page_id: "page_developer_gfh_real_estate_zh"
+url: "/zh/developers/gfh-real-estate/"
+build:
+  render: always
+  list: never
+---

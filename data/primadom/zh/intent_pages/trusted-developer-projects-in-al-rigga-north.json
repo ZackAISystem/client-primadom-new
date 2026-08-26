@@ -1,0 +1,729 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "intent__trusted-developer-projects__district__al-rigga-north__zh",
+  "page_type_id": "intent_page",
+  "language_code": "zh",
+  "url_path": "/zh/intents/trusted-developer-projects-in-al-rigga-north/",
+  "canonical_url_path": "/zh/intents/trusted-developer-projects-in-al-rigga-north/",
+  "canonical_group_key": "intent:trusted-developer-projects:district:al-rigga-north",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "trusted-developer-projects",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "选项",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "区域",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "检查项",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#intent-ai-search",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "房产搜索导航",
+      "brand_url": "/zh/",
+      "cta_label": "匹配适合我的选项"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "href": "/zh/intents/",
+          "label": "房产搜索"
+        },
+        {
+          "href": "/zh/intents/trusted-developer-projects-in-al-rigga-north/",
+          "label": "Trusted developer 在 Al Rigga North 的项目"
+        }
+      ],
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "位置：Al Rigga North",
+        "开发商交付记录",
+        "交付背景",
+        "比较项目"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Al Rigga North 成熟开发商项目",
+      "subtitle": "比较 Al Rigga North 的成熟开发商项目，重点查看开发商记录、已交付项目、施工进度、合同条款和具体项目质量，并核实当前价格、房源情况、付款条款和项目状态。",
+      "facts_aria": "房产搜索要点",
+      "visual_aria": "房产搜索主视觉"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "比较 Al Rigga North 的成熟开发商项目",
+        "核查交付记录、文件、项目阶段",
+        "比较商业条款、区位匹配并核实当前项目条件"
+      ],
+      "prompts": [
+        "比较 Al Rigga North 的成熟开发商项目",
+        "核查交付记录、文件、项目阶段",
+        "比较商业条款、区位匹配并核实当前项目条件"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "询问 AI",
+      "voice_text": "语音搜索",
+      "placeholder": "Al Rigga North 成熟开发商项目",
+      "block_status": "formula_generated",
+      "button_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "ai_voice_text": "Al Rigga North 成熟开发商项目",
+      "ai_placeholder": "Al Rigga North 成熟开发商项目",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "正在聆听…",
+      "form_aria_label": "向 Primadom AI 询问：Al Rigga North 成熟开发商项目",
+      "voice_error_text": "输入您的需求或重试",
+      "submit_aria_label": "询问 Primadom AI",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "成熟开发商项目",
+        "交付记录",
+        "合同条款",
+        "区位匹配"
+      ],
+      "title": "结论先行摘要",
+      "eyebrow": "直接回答",
+      "body_html": "<strong>在 Al Rigga North 筛选成熟开发商项目时，不应只看单一价格或营销标签。</strong> 应综合比较开发商记录、已交付项目、施工进度、合同条款和具体项目质量。在形成可靠的筛选清单前，具体项目、当前价格、房源和商业条款仍需逐项确认。",
+      "body_text": "在 Al Rigga North 筛选成熟开发商项目时，不应只看单一价格或营销标签。应综合比较开发商记录、已交付项目、施工进度、合同条款和具体项目质量。在形成可靠的筛选清单前，具体项目、当前价格、房源和商业条款仍需逐项确认。",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "在买家做出决定前，应确认当前价格、房源、付款条款和项目时间表。",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "搜索意图",
+          "value": "成熟开发商项目"
+        },
+        {
+          "key": "location",
+          "label": "位置",
+          "value": "Al Rigga North"
+        },
+        {
+          "key": "market",
+          "label": "市场",
+          "value": "迪拜 / 阿联酋"
+        },
+        {
+          "key": "property_focus",
+          "label": "房产类型",
+          "value": "成熟开发商项目"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "买家目标",
+          "value": "比较开发商背景与项目选择"
+        },
+        {
+          "key": "main_checks",
+          "label": "主要检查项",
+          "value": "交付记录、项目质量、条款与当前状态"
+        },
+        {
+          "key": "project_match",
+          "label": "项目匹配度",
+          "value": "项目匹配尚未确认"
+        },
+        {
+          "key": "current_details",
+          "label": "当前信息",
+          "value": "合适项目仍需确认"
+        }
+      ],
+      "title": "搜索参数",
+      "eyebrow": "关键信息",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "同时查看交付记录、文件、项目阶段。",
+          "title": "重点比较交付记录"
+        },
+        {
+          "text": "结合文件、项目阶段、商业条款判断具体项目的实际匹配度。",
+          "title": "核查文件、项目阶段"
+        },
+        {
+          "text": "核查合同条款、售后服务以及当前项目条件，不只看单一宣传指标。",
+          "title": "比较合同条款、售后服务"
+        },
+        {
+          "text": "按预算、区位匹配和实际用途缩小筛选范围，再核实当前房源与条款。",
+          "title": "结合区位匹配缩小范围"
+        }
+      ],
+      "title": "待核查选项",
+      "eyebrow": "比较要点",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "insufficient_pair_evidence",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "筛选 Al Rigga North 的成熟开发商项目时，应综合比较开发商记录、已交付项目、施工进度、合同条款和具体项目质量；任何单一价格、收益或营销标签都不应单独决定最终筛选。",
+      "tags": [
+        "交付记录",
+        "文件",
+        "项目阶段",
+        "商业条款",
+        "区位匹配"
+      ],
+      "title": "筛选逻辑",
+      "eyebrow": "比较要点",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "比较交付记录、文件、项目阶段、商业条款，不要只依赖单一营销指标。",
+          "title": "先看交付记录",
+          "eyebrow": "开发商核查"
+        },
+        {
+          "dark": false,
+          "text": "当开发商记录与具体项目质量是主要决策目标时，这类比较更有参考价值。",
+          "title": "适合关注开发商记录与具体项目质量的买家",
+          "eyebrow": "适合的买家"
+        },
+        {
+          "dark": false,
+          "text": "同时核查交付记录、项目阶段、合同条款、售后服务。",
+          "title": "选择前核查交付记录",
+          "eyebrow": "选择前须知"
+        },
+        {
+          "dark": true,
+          "text": "让 AI 按预算、交付记录、区位匹配和实际用途缩小范围。",
+          "title": "比较成熟开发商项目选择",
+          "eyebrow": "AI 筛选清单"
+        }
+      ],
+      "cards_aria": "房产搜索决策指引",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "insufficient_pair_evidence",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/zh/intents/end-user-properties-in-al-rigga-north/",
+            "meta": "自住匹配",
+            "label": "Al Rigga North 自住型房产"
+          },
+          {
+            "href": "/zh/intents/family-properties-in-al-rigga-north/",
+            "meta": "家庭需求",
+            "label": "Al Rigga North 家庭型房产"
+          },
+          {
+            "href": "/zh/intents/long-term-investment-properties-in-al-rigga-north/",
+            "meta": "长期策略",
+            "label": "Al Rigga North 长期投资房产"
+          },
+          {
+            "href": "/zh/intents/branded-residences-in-al-rigga-north/",
+            "meta": "品牌住宅",
+            "label": "Al Rigga North 品牌住宅"
+          },
+          {
+            "href": "/zh/intents/ready-soon-projects-in-al-rigga-north/",
+            "meta": "交付时间",
+            "label": "Al Rigga North 即将交付项目"
+          }
+        ],
+        "title": "项目核查",
+        "eyebrow": "筛选路径"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/zh/areas/al-rigga-north/",
+            "meta": "当前区域",
+            "label": "Al Rigga North"
+          },
+          {
+            "href": "/zh/areas/al-muteena-east/",
+            "meta": "相似区域概况",
+            "label": "Al Muteena East"
+          },
+          {
+            "href": "/zh/areas/al-satwa/",
+            "meta": "相似区域概况",
+            "label": "Al Satwa"
+          },
+          {
+            "href": "/zh/areas/al-nahda-1/",
+            "meta": "相似区域概况",
+            "label": "Al Nahda 1"
+          },
+          {
+            "href": "/zh/areas/al-raffa/",
+            "meta": "相似区域概况",
+            "label": "Al Raffa"
+          }
+        ],
+        "title": "待比较区域",
+        "eyebrow": "去哪里找"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "适合的买家",
+        "eyebrow": "本页面适合谁",
+        "good_for": [
+          "正在比较 Al Rigga North 成熟开发商项目的买家",
+          "愿意同时比较交付记录、文件、项目阶段、商业条款的买家",
+          "愿意先建立筛选清单，再核实当前价格、房源、付款条款和项目状态的买家"
+        ],
+        "less_for": [
+          "把熟悉的开发商品牌当作项目尽调替代品的买家",
+          "只依据单一价格或营销标签、而不同时比较交付记录、项目阶段的买家",
+          "不愿核实合同条款、售后服务以及当前项目细节的买家"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "适合",
+        "less_for_title": "可能不适合"
+      },
+      "risk_notes": {
+        "body": "评估 Al Rigga North 的成熟开发商项目时，应重点比较交付记录、项目阶段、合同条款、售后服务、房产匹配度。这些因素必须结合具体项目、当前价格、房源和商业条款一起核实，不能由单一营销指标替代。",
+        "tags": [
+          "交付记录",
+          "项目阶段",
+          "合同条款",
+          "售后服务",
+          "房产匹配度"
+        ],
+        "title": "关键检查项",
+        "eyebrow": "选择前须知",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Compare projects by developer",
+        "page_group": "intent_district",
+        "intent_slug": "trusted-developer-projects",
+        "main_checks": "Project terms · stage · current documentation",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "al-rigga-north",
+        "search_intent": "Developer-led project search",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "Projects by selected developers",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/zh/intents/new-launch-projects-in-al-rigga-north/",
+          "label": "Al Rigga North 新盘项目"
+        },
+        {
+          "href": "/zh/intents/best-off-plan-projects-in-al-rigga-north/",
+          "label": "Al Rigga North 优质期房项目"
+        },
+        {
+          "href": "/zh/intents/payment-plan-projects-in-al-rigga-north/",
+          "label": "Al Rigga North 付款计划项目"
+        },
+        {
+          "href": "/zh/intents/capital-growth-properties-in-al-rigga-north/",
+          "label": "Al Rigga North 资本增值型房产"
+        }
+      ],
+      "title": "相关搜索",
+      "eyebrow": "继续查看",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "先比较交付记录、项目阶段、合同条款、售后服务、房产匹配度，并确认当前价格、具体单元、房源、付款条件和项目状态；页面中的筛选逻辑不等于实时房源或结果承诺。",
+          "question": "在 Al Rigga North 筛选成熟开发商项目时，首先应确认什么？",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "可先比较具有较成熟交付记录的开发商项目，但每个项目仍需单独核查房产形式、位置、阶段和商业条款。具体选择还应结合总成本、付款压力、交付时间和实际用途判断。",
+          "question": "在 Al Rigga North，哪些房产或项目形式更值得比较？",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "核查交付记录、项目阶段、合同条款、售后服务、房产匹配度，同时确认官方项目状态、准确位置、当前价格、房源和合同条款。",
+          "question": "将成熟开发商项目列入筛选清单前应核查什么？",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "应该。可比较具有相似房产供应和预算水平的区域，并结合交付记录、文件、项目阶段、商业条款、区位匹配判断哪个区域更符合购房目标。",
+          "question": "是否应该将 Al Rigga North 与其他相关区域进行比较？",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "可以。Primadom AI 可按房产类型、价格、付款条款、项目阶段、区位匹配和实际用途比较 Al Rigga North 的当前选择，再形成供顾问实时核实的重点筛选清单。",
+          "question": "Primadom AI 能帮助比较 Al Rigga North 的这些选择吗？",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "买家常见问题",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Projects by established developers in Al Rigga North",
+        "page_group": "intent_district",
+        "intent_slug": "trusted-developer-projects",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Al Rigga North",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "在依赖 Al Rigga North 的成熟开发商项目搜索结果前，应通过当前官方资料和实时核查确认价格、房源、交付记录、项目阶段、合同条款、项目状态、付款条款和交付信息。所有动态信息都应以最新官方资料和具体项目数据为准。",
+      "items": [
+        {
+          "label": "价格 / 房源",
+          "value": "需要实时核查"
+        },
+        {
+          "label": "付款 / 交付",
+          "value": "需要当前条款"
+        },
+        {
+          "label": "项目状态",
+          "value": "需要官方来源"
+        },
+        {
+          "label": "来源核查",
+          "value": "待核实"
+        }
+      ],
+      "title": "来源核查",
+      "eyebrow": "核实",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_payment_terms_and_handover",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "trusted-developer-projects",
+        "source_focus": "project_terms",
+        "district_name": "Al Rigga North",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "告诉 Primadom AI 你的预算、房产偏好、时间和购房目标。系统会围绕开发商记录、已交付项目、施工进度、合同条款和具体项目质量比较当前选择，并准备供顾问实时复核的筛选清单。",
+      "title": "筛选 Al Rigga North 的成熟开发商项目",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "比较项目选项",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "询问 Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "申请回电",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "project_search",
+        "hero_title": "Projects by established developers in Al Rigga North",
+        "page_group": "intent_district",
+        "intent_slug": "trusted-developer-projects",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Al Rigga North",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "房产搜索咨询表单",
+      "note": "我们会先审核这些信息，再将你的需求交给顾问。",
+      "text": "告诉我们你最看重的条件。Primadom AI 会整理简洁的房产筛选需求，再由顾问与你一起核查当前选择。",
+      "title": "查找匹配的成熟开发商项目",
+      "fields": {
+        "name": "姓名",
+        "email": "电子邮箱（可选）",
+        "phone": "电话 / WhatsApp",
+        "comment": "需求"
+      },
+      "submit": "发送需求",
+      "comment": "查找 Al Rigga North 的成熟开发商项目，并按预算、房产类型、位置、时间和当前项目条件进行比较。",
+      "eyebrow": "房产需求",
+      "success": "已发送",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "关闭",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "project_search",
+        "page_group": "intent_district",
+        "intent_slug": "trusted-developer-projects",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Al Rigga North",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "需求草稿",
+      "field_config": {
+        "name": {
+          "label": "姓名",
+          "html_name": "name",
+          "placeholder": "您的姓名"
+        },
+        "email": {
+          "label": "电子邮箱（可选）",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "电话 / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "需求",
+          "html_name": "comment",
+          "placeholder": "您在寻找什么？"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "您的姓名",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "发送需求",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "已发送",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "查找 Al Rigga North 的成熟开发商项目，并按预算、房产类型、位置、时间和当前项目条件进行比较。",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "property_type",
+          "area_fit",
+          "payment_plan",
+          "handover",
+          "project_stage",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "使用语音"
+    },
+    "block_17_footer": {
+      "text": "在与 Primadom 顾问沟通前，先比较 Al Rigga North 的成熟开发商项目、交付记录、文件和关键核查事项。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "通过更清晰的指引找到合适的阿联酋房产。",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "迪拜，阿联酋",
+      "subtitle": "阿联酋房产智能",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "trusted-developer-projects",
+        "footer_focus": "project_search",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "预约通话",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "询问 AI",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_comparison_london_gate_vs_mag_property_development_zh",
+  "page_type_id": "developer_comparison_page",
+  "language_code": "zh",
+  "url_path": "/zh/compare-developers/london-gate-vs-mag-property-development/",
+  "canonical_url_path": "/zh/compare-developers/london-gate-vs-mag-property-development/",
+  "canonical_group_key": "developer_comparison:london-gate:vs:mag-property-development",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "london-gate",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_developer_profiles_segment_logic",
+    "block_08_segment_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_by_developer",
+    "block_12_related_comparisons",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#developerComparisonLeadModal",
+      "cta_label": "匹配适合我的选项",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "概览",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#compare",
+          "label": "比较"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "项目"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "询问 AI"
+        }
+      ],
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "开发商比较导航",
+      "schema_version": "developer_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "developer_comparisons",
+          "href": "/zh/compare-developers/",
+          "label": "开发商比较"
+        },
+        {
+          "key": "comparison",
+          "href": "/zh/compare-developers/london-gate-vs-mag-property-development/",
+          "label": "London Gate vs MAG Property Development",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "schema_version": "developer_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "London Gate：豪华 · 设计导向",
+        "MAG Property Development：中端市场 · 豪华",
+        "London Gate 区域：Al Furjan · Dubai Marina",
+        "MAG Property Development 区域：Meydan · Mohammed Bin Rashid City",
+        "在加入筛选清单前比较当前项目。"
+      ],
+      "title": "London Gate vs MAG Property Development",
+      "ai_aria": "询问 Primadom AI 比较 London Gate 与 MAG Property Development",
+      "ai_badge": "Primadom AI",
+      "subtitle": "对比 London Gate 在 Al Furjan、Dubai Marina 的设计导向豪华项目与 MAG Property Development 在 Meydan、Mohammed Bin Rashid City 的优质中端市场项目，并结合当前项目、区域匹配和具体条款做最终判断。",
+      "ai_submit": "询问 AI",
+      "facts_aria": "开发商比较核心信息",
+      "section_id": "overview",
+      "developer_a": {
+        "name": "London Gate",
+        "slug": "london-gate",
+        "image": {
+          "alt": "London Gate 开发商比较图片",
+          "src": "/img/primadom/developer-comparisons/developer-a-placeholder.svg",
+          "media_status": "pending"
+        }
+      },
+      "developer_b": {
+        "name": "MAG Property Development",
+        "slug": "mag-property-development",
+        "image": {
+          "alt": "MAG Property Development 开发商比较图片",
+          "src": "/img/primadom/developer-comparisons/developer-b-placeholder.svg",
+          "media_status": "pending"
+        }
+      },
+      "visual_aria": "London Gate 与 MAG Property Development 的分屏比较图",
+      "voice_label": "语音搜索",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "ai_placeholder": "按我的买家目标、房产类型和时间安排比较 London Gate 与 MAG Property Development",
+      "schema_version": "developer_comparison_hero_v1",
+      "ai_listening_label": "正在聆听…"
+    },
+    "block_04_ai_compare": {
+      "text": "描述您偏好的区域、房产类型、时间安排和购房目标。Primadom AI 可先整理比较背景，再由顾问核查当前可选项目。",
+      "badge": "Primadom AI",
+      "hints": [
+        "哪个更符合我的买家目标？",
+        "比较项目和区域",
+        "我应该先核查什么？"
+      ],
+      "title": "根据您的情况比较 London Gate 与 MAG Property Development",
+      "ai_aria": "询问 Primadom AI 比较 London Gate 与 MAG Property Development",
+      "eyebrow": "询问 AI",
+      "prompts": [
+        "哪个更符合我的买家目标？",
+        "比较项目和区域",
+        "我应该先核查什么？"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "询问 AI",
+      "input_aria": "开发商比较 AI 问题",
+      "section_id": "compare-ai-search",
+      "voice_text": "询问这项开发商比较",
+      "placeholder": "按预算、区域或买家目标比较",
+      "voice_label": "语音搜索",
+      "block_status": "final",
+      "button_label": "询问 AI",
+      "submit_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "ai_voice_text": "按区域、房产类型、付款计划和买家目标比较 London Gate 与 MAG Property Development",
+      "ai_placeholder": "按预算、区域或买家目标比较",
+      "schema_version": "developer_comparison_ai_compare_v1",
+      "ai_voice_status": "正在聆听…",
+      "form_aria_label": "询问 Primadom AI 比较 London Gate 与 MAG Property Development",
+      "voice_error_text": "输入您的需求或重试",
+      "submit_aria_label": "询问 Primadom AI",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "设计导向豪华",
+        "优质中端市场",
+        "区域匹配",
+        "当前条款"
+      ],
+      "title": "快速结论",
+      "eyebrow": "直接回答",
+      "body_html": "<strong>London Gate</strong> 偏向设计导向豪华项目，重点区域包括 Al Furjan、Dubai Marina；<strong>MAG Property Development</strong> 偏向优质中端市场项目，重点区域包括 Meydan、Mohammed Bin Rashid City。应比较具体项目、条款、交付时间和当前房源情况。",
+      "body_text": "London Gate 偏向设计导向豪华项目，重点区域包括 Al Furjan、Dubai Marina；MAG Property Development 偏向优质中端市场项目，重点区域包括 Meydan、Mohammed Bin Rashid City。应比较具体项目、条款、交付时间和当前房源情况。",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_quick_verdict_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "第一家开发商",
+          "value": "London Gate"
+        },
+        {
+          "label": "第一家定位",
+          "value": "豪华 · 设计导向"
+        },
+        {
+          "label": "第一家覆盖",
+          "value": "10 个项目资料 · 7 个区域"
+        },
+        {
+          "label": "第一家重点区域",
+          "value": "Al Furjan · Dubai Marina"
+        },
+        {
+          "label": "第二家开发商",
+          "value": "MAG Property Development"
+        },
+        {
+          "label": "第二家定位",
+          "value": "中端市场 · 豪华"
+        },
+        {
+          "label": "第二家覆盖",
+          "value": "20 个项目资料 · 10 个区域"
+        },
+        {
+          "label": "第二家重点区域",
+          "value": "Meydan · Mohammed Bin Rashid City"
+        }
+      ],
+      "title": "比较详情",
+      "eyebrow": "关键信息",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_facts_v1"
+    },
+    "block_07_developer_profiles_segment_logic": {
+      "items": [
+        {
+          "key": "developer_a",
+          "name": "London Gate",
+          "slug": "london-gate",
+          "text": "London Gate 目前呈现设计导向豪华定位，共有 10 个项目，覆盖 7 个区域，重点包括 Al Furjan、Dubai Marina。",
+          "points": [
+            "定位：设计导向豪华",
+            "覆盖：10 个项目 · 7 个区域",
+            "重点区域：Al Furjan、Dubai Marina"
+          ]
+        },
+        {
+          "key": "developer_b",
+          "name": "MAG Property Development",
+          "slug": "mag-property-development",
+          "text": "MAG Property Development 目前呈现优质中端市场定位，共有 20 个项目，覆盖 10 个区域，重点包括 Meydan、Mohammed Bin Rashid City。",
+          "points": [
+            "定位：优质中端市场",
+            "覆盖：20 个项目 · 10 个区域",
+            "重点区域：Meydan、Mohammed Bin Rashid City"
+          ]
+        }
+      ],
+      "title": "开发商概况",
+      "eyebrow": "开发商摘要",
+      "section_id": "profiles",
+      "block_status": "final",
+      "segment_logic": {
+        "body": "根据买家目标、项目组合和区域重点比较 London Gate 与 MAG Property Development。最终选择应落实到具体项目，并核查付款条款、交付时间和当前房源情况。",
+        "tags": [
+          "设计导向豪华",
+          "优质中端市场",
+          "区域重点",
+          "项目核查",
+          "当前条款"
+        ],
+        "title": "细分市场逻辑",
+        "eyebrow": "如何比较"
+      },
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_profiles_v1"
+    },
+    "block_08_segment_comparison_table": {
+      "head": {
+        "factor": "比较因素",
+        "developer_a": "London Gate",
+        "developer_b": "MAG Property Development"
+      },
+      "rows": [
+        {
+          "factor": "项目覆盖",
+          "developer_a": "London Gate：10 个项目，覆盖 7 个区域；请确认当前房源情况。",
+          "developer_b": "MAG Property Development：20 个项目，覆盖 10 个区域；请确认当前房源情况。"
+        },
+        {
+          "factor": "区域重点",
+          "developer_a": "London Gate：重点区域包括 Al Furjan、Dubai Marina；请在具体项目层面检查匹配度。",
+          "developer_b": "MAG Property Development：重点区域包括 Meydan、Mohammed Bin Rashid City；请在具体项目层面检查匹配度。"
+        },
+        {
+          "factor": "适合的买家",
+          "developer_a": "London Gate：可能适合寻求设计导向豪华选择的买家；请确认具体项目和条款。",
+          "developer_b": "MAG Property Development：可能适合寻求优质中端市场选择的买家；请确认具体项目和条款。"
+        },
+        {
+          "factor": "付款与时间安排",
+          "developer_a": "London Gate：核查付款计划、施工阶段、交付时间和尾款风险。",
+          "developer_b": "MAG Property Development：核查付款计划、施工阶段、交付时间和尾款风险。"
+        },
+        {
+          "factor": "信息核查",
+          "developer_a": "London Gate：核查官方资料、项目状态、登记信息和当前房源情况。",
+          "developer_b": "MAG Property Development：核查官方资料、项目状态、登记信息和当前房源情况。"
+        },
+        {
+          "factor": "投资逻辑",
+          "developer_a": "London Gate：逐个项目比较入场价格、服务费、租赁假设和转售客群。",
+          "developer_b": "MAG Property Development：逐个项目比较入场价格、服务费、租赁假设和转售客群。"
+        }
+      ],
+      "title": "细分市场比较",
+      "eyebrow": "London Gate vs MAG Property Development",
+      "block_status": "final",
+      "table_status": "validated_full_enrichment",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "project_level",
+          "text": "应通过当前项目、房产类型、付款计划、交付时间和当前房源情况比较 London Gate 与 MAG Property Development。",
+          "title": "比较当前项目",
+          "eyebrow": "项目核查"
+        },
+        {
+          "key": "area_fit",
+          "text": "London Gate：Al Furjan、Dubai Marina。MAG Property Development：Meydan、Mohammed Bin Rashid City。请在具体项目层面比较位置匹配度。",
+          "title": "检查区域覆盖",
+          "eyebrow": "区域匹配"
+        },
+        {
+          "key": "verification",
+          "text": "核查两家开发商的官方资料、项目状态、登记信息、付款条款、交付时间和当前房源情况。",
+          "title": "核查当前信息",
+          "eyebrow": "来源核查"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "Primadom AI 可按项目类型、区域、付款计划、时间安排和买家目标比较 London Gate 与 MAG Property Development。",
+          "title": "按您的目标比较",
+          "eyebrow": "询问 AI"
+        }
+      ],
+      "block_status": "final",
+      "schema_version": "developer_comparison_decision_cards_v1",
+      "decision_cards_aria": "开发商决策要点"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "各类买家适合的选择",
+        "eyebrow": "适合的买家",
+        "developer_a_items": [
+          "您的筛选清单包含设计导向豪华项目",
+          "您正在考虑位于 Al Furjan、Dubai Marina 的项目",
+          "您会逐个项目核查价格、付款计划、交付时间和当前房源情况"
+        ],
+        "developer_a_title": "以下情况可考虑 London Gate",
+        "developer_b_items": [
+          "您的筛选清单包含优质中端市场项目",
+          "您正在考虑位于 Meydan、Mohammed Bin Rashid City 的项目",
+          "您会逐个项目核查价格、付款计划、交付时间和当前房源情况"
+        ],
+        "developer_b_title": "以下情况可考虑 MAG Property Development"
+      },
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "现有项目组合显示，London Gate 偏向设计导向豪华，而 MAG Property Development 偏向优质中端市场。仅将这些信号用于形成初步筛选清单。应逐个项目比较入场价格、付款计划、交付时间、服务费、租赁假设、转售客群和当前房源情况。",
+        "tags": [
+          "入场价格",
+          "付款计划",
+          "交付时间",
+          "服务费",
+          "租赁与转售核查"
+        ],
+        "title": "投资逻辑",
+        "eyebrow": "决策逻辑"
+      }
+    },
+    "block_11_projects_by_developer": {
+      "section_id": "projects",
+      "developer_a": {
+        "items": [
+          {
+            "href": "/zh/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/zh/projects/franck-muller-vanguard/",
+            "meta": "Dubai Marina",
+            "label": "Franck Muller Vanguard"
+          },
+          {
+            "href": "/zh/developers/london-gate/",
+            "meta": "开发商资料",
+            "label": "London Gate 开发商指南"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "AI 比较",
+            "label": "向 AI 询问 London Gate"
+          }
+        ],
+        "title": "查看 London Gate 的项目",
+        "eyebrow": "第一家开发商"
+      },
+      "developer_b": {
+        "items": [
+          {
+            "href": "/zh/projects/eiwan-heights/",
+            "meta": "Meydan",
+            "label": "Eiwan Heights"
+          },
+          {
+            "href": "/zh/projects/keturah-reserve/",
+            "meta": "Mohammed Bin Rashid City",
+            "label": "Keturah Reserve"
+          },
+          {
+            "href": "/zh/developers/mag-property-development/",
+            "meta": "开发商资料",
+            "label": "MAG Property Development 开发商指南"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "AI 比较",
+            "label": "向 AI 询问 MAG Property Development"
+          }
+        ],
+        "title": "查看 MAG Property Development 的项目",
+        "eyebrow": "第二家开发商"
+      },
+      "block_status": "final",
+      "source_status": "project_routes_and_developer_profiles",
+      "schema_version": "developer_comparison_projects_by_developer_v1",
+      "projects_status": "project_routes_available"
+    },
+    "block_12_related_comparisons": {
+      "items": [
+        {
+          "href": "/zh/compare-developers/azizi-developments-vs-london-gate/",
+          "label": "Azizi Developments vs London Gate"
+        },
+        {
+          "href": "/zh/compare-developers/azizi-developments-vs-mag-property-development/",
+          "label": "Azizi Developments vs MAG Property Development"
+        },
+        {
+          "href": "/zh/compare-developers/",
+          "label": "Dubai 开发商比较"
+        },
+        {
+          "href": "#compare-ai-search",
+          "label": "询问 AI 获取相似开发商"
+        }
+      ],
+      "title": "相关比较",
+      "eyebrow": "继续查看",
+      "section_id": "related-comparisons",
+      "block_status": "final",
+      "source_status": "balanced_page_index_routes",
+      "related_status": "page_index_routes_ready",
+      "schema_version": "developer_comparison_related_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "如果您的筛选清单包含设计导向豪华项目，London Gate 可能更适合；如果您的筛选清单包含优质中端市场项目，MAG Property Development 可能更适合。没有哪一家在所有情况下都更优；选择前应比较实际项目、区域、付款条款和时间安排。",
+          "question": "London Gate 和 MAG Property Development 哪个更适合？",
+          "answer_status": "pair_buyer_goal_guidance"
+        },
+        {
+          "answer": "如果是家庭购房，应在具体项目和社区层面对比 London Gate 与 MAG Property Development。重点查看户型面积与布局、学校、公园、日常配套、通勤、交付时间、服务费和社区成熟度。仅凭开发商名称无法判断是否适合家庭。",
+          "question": "对于家庭买家，London Gate 和 MAG Property Development 哪个可能更合适？",
+          "answer_status": "family_fit_guidance"
+        },
+        {
+          "answer": "现有项目组合显示，London Gate 偏向设计导向豪华，而 MAG Property Development 偏向优质中端市场。仅将这些信号用于形成初步筛选清单。应逐个项目比较入场价格、付款计划、交付时间、服务费、租赁假设、转售客群和当前房源情况。",
+          "question": "对于投资，London Gate 和 MAG Property Development 哪个可能更合适？",
+          "answer_status": "investment_fit_guidance"
+        },
+        {
+          "answer": "在 London Gate 与 MAG Property Development 之间做选择前，应逐一核查入围项目的官方项目状态、登记信息、当前房源、价格、付款计划、交付时间、服务费、户型图和合同条款。",
+          "question": "在 London Gate 和 MAG Property Development 之间选择前，买家应该核查什么？",
+          "answer_status": "verification_guidance"
+        },
+        {
+          "answer": "可以。Primadom AI 可按预算、房产类型、区域、付款计划、交付时间以及家庭或投资目标比较 London Gate 与 MAG Property Development，并整理项目级筛选清单供顾问进一步核查。",
+          "question": "Primadom AI 能否根据我的预算和买家目标比较 London Gate 与 MAG Property Development？",
+          "answer_status": "ai_comparison_guidance"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "开发商相关问题",
+      "faq_status": "final",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "final_buyer_fit_and_investment_context",
+      "schema_version": "developer_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "本页面尚未附上 London Gate 与 MAG Property Development 的已核实来源链接。请将本比较视为初步参考；在采取行动前，应通过官方资料确认开发商、项目、价格和当前房源等全部细节。",
+      "items": [
+        {
+          "label": "London Gate 核查",
+          "value": "通过 London Gate 的官方资料确认开发商概况、当前项目和已公布条款。"
+        },
+        {
+          "label": "MAG Property Development 核查",
+          "value": "通过 MAG Property Development 的官方资料确认开发商概况、当前项目和已公布条款。"
+        },
+        {
+          "label": "项目信息",
+          "value": "确认项目状态、登记信息、单元房源、付款计划、交付时间、服务费和合同条款。"
+        },
+        {
+          "label": "来源更新",
+          "value": "在来源资料包可用后将补充已核实链接。在此之前，本页面仅作为比较参考。"
+        }
+      ],
+      "title": "核查说明",
+      "eyebrow": "核实",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verified_sources_pending",
+      "schema_version": "developer_comparison_source_notes_v1",
+      "source_notes_status": "final_safe_placeholder"
+    },
+    "block_15_cta": {
+      "text": "询问 Primadom AI 按买家目标、区域、项目类型、付款计划、交付时间和风险偏好比较两家开发商，然后将需求转给顾问进行实时核查。",
+      "title": "希望根据您的情况比较 London Gate 与 MAG Property Development 吗？",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "询问 Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "developer_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#developerComparisonLeadModal",
+          "label": "根据我的情况比较",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "developer_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerComparisonLeadModal",
+          "label": "申请回电",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "final",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "developer_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "开发商比较咨询表单",
+      "note": "顾问会先核查相关详情，再与您联系。",
+      "text": "请留下联系方式，并补充一项简短偏好。",
+      "title": "根据您的情况比较 London Gate 与 MAG Property Development",
+      "fields": {
+        "name": "姓名",
+        "email": "电子邮箱（可选）",
+        "phone": "电话 / WhatsApp",
+        "comment": "已准备的需求"
+      },
+      "submit": "发送",
+      "comment": "比较 London Gate 与 MAG Property Development。",
+      "eyebrow": "AI 比较衔接",
+      "success": "已发送",
+      "ai_badge": "Primadom AI",
+      "modal_id": "developerComparisonLeadModal",
+      "title_id": "developerComparisonLeadTitle",
+      "close_label": "关闭",
+      "ai_row_badge": "已准备的需求",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "label": "姓名",
+          "html_name": "name",
+          "placeholder": "您的姓名"
+        },
+        "email": {
+          "label": "电子邮箱（可选）",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "电话 / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971 50 123 4567"
+        },
+        "comment": {
+          "label": "已准备的需求",
+          "html_name": "comment",
+          "placeholder": "补充一项简短偏好"
+        }
+      },
+      "modal_status": "final",
+      "placeholders": {
+        "name": "您的姓名",
+        "email": "email@example.com",
+        "phone": "+971 50 123 4567",
+        "comment": "补充一项简短偏好"
+      },
+      "submit_label": "发送",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type_id"
+        },
+        "developer_a_name": {
+          "html_name": "developer_a_name",
+          "value_ref": "developer_a_name"
+        },
+        "developer_a_slug": {
+          "html_name": "developer_a_slug",
+          "value_ref": "developer_a_slug"
+        },
+        "developer_b_name": {
+          "html_name": "developer_b_name",
+          "value_ref": "developer_b_name"
+        },
+        "developer_b_slug": {
+          "html_name": "developer_b_slug",
+          "value_ref": "developer_b_slug"
+        }
+      },
+      "success_label": "已发送",
+      "schema_version": "developer_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 1,
+        "prefill": "比较 London Gate 与 MAG Property Development。",
+        "html_name": "comment",
+        "max_length": 160,
+        "display_mode": "single_line",
+        "request_scope": [
+          "developer_comparison",
+          "buyer_goal",
+          "area_fit",
+          "property_type",
+          "payment_plan",
+          "handover_timing",
+          "risk_profile",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "使用语音"
+    },
+    "block_17_footer": {
+      "text": "本页面帮助您比较 London Gate 与 MAG Property Development，查看开发商背景、当前项目、买家匹配、投资逻辑，以及在与 Primadom 顾问沟通前需要提出的关键问题。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "借助更清晰的项目数据和 AI 指引比较开发商。",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "阿联酋房地产智能",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "social_aria": "社交媒体链接",
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "footer_status": "final",
+      "schema_version": "developer_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#developerComparisonLeadModal",
+        "label": "预约通话",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "询问 AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

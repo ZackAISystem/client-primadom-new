@@ -1,0 +1,703 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_waterfront_apartments_aed_5m_10m_al_marjan_island_zh",
+  "page_type_id": "budget_page",
+  "language_code": "zh",
+  "url_path": "/zh/budgets/waterfront-apartments-aed-5m-10m-in-al-marjan-island/",
+  "canonical_url_path": "/zh/budgets/waterfront-apartments-aed-5m-10m-in-al-marjan-island/",
+  "canonical_group_key": "property_budget_district:waterfront-apartments:aed_5m_10m:al-marjan-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-marjan-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "可购买",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "付款计划",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "费用",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "预算页面导航",
+      "cta_label": "检查预算",
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "budgets",
+          "href": "/zh/budgets/",
+          "label": "预算"
+        },
+        {
+          "key": "property_type",
+          "href": "/zh/property-types/waterfront-apartments/",
+          "label": "滨水公寓"
+        },
+        {
+          "key": "district",
+          "href": "/zh/areas/al-marjan-island/",
+          "label": "Al Marjan Island"
+        },
+        {
+          "key": "current",
+          "href": "/zh/budgets/waterfront-apartments-aed-5m-10m-in-al-marjan-island/",
+          "label": "Al Marjan Island 的 AED 5M–10M 滨水公寓"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 5M–10M",
+        "Al Marjan Island",
+        "滨水公寓",
+        "项目起价低于预算范围",
+        "比较更高端配置"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Al Marjan Island 的 AED 5M–10M 滨水公寓",
+      "subtitle": "Al Marjan Island 的滨水公寓的记录起价低于 AED 5M–10M 预算范围；可利用预算余量比较更大户型、更优位置、更高配置和更合适的付款条件，并在筛选前核实具体单元价格。",
+      "facts_aria": "预算页面重点信息",
+      "section_id": "overview",
+      "visual_aria": "预算概览：Al Marjan Island 的 AED 5M–10M 滨水公寓",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "可以询问Al Marjan Island 的滨水公寓的现实房产选择、关键权衡和购房成本。当前价格和房源情况仍需针对具体项目核查。",
+      "hints": [
+        "哪些滨水公寓符合这个预算？",
+        "提高预算可以带来哪些选择？",
+        "需要考虑哪些服务费？"
+      ],
+      "title": "查看 Al Marjan Island 的滨水公寓 在 AED 5M–10M 预算下有哪些选择",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "评估Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的现实选择。以已记录的项目起价作为参考，比较户型、位置、交付情况、开发商履约和总购置成本，并在筛选前核实具体单元价格与实时房源。",
+        "说明在 AED 5M–10M 基础上提高预算可能为Al Marjan Island 的滨水公寓带来哪些改善，包括更大户型、更优位置、更高配置、景观、设施以及更少的位置妥协。",
+        "比较Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的具体选项、价格、付款条件、费用和实时房源情况。"
+      ],
+      "hint_items": [
+        {
+          "label": "哪些滨水公寓符合这个预算？",
+          "prompt": "评估Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的现实选择。以已记录的项目起价作为参考，比较户型、位置、交付情况、开发商履约和总购置成本，并在筛选前核实具体单元价格与实时房源。"
+        },
+        {
+          "label": "提高预算可以带来哪些选择？",
+          "prompt": "说明在 AED 5M–10M 基础上提高预算可能为Al Marjan Island 的滨水公寓带来哪些改善，包括更大户型、更优位置、更高配置、景观、设施以及更少的位置妥协。"
+        },
+        {
+          "label": "需要考虑哪些服务费？",
+          "prompt": "比较Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的具体选项、价格、付款条件、费用和实时房源情况。"
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "询问 Al Marjan Island 的滨水公寓 在 AED 5M–10M 预算下有哪些选择",
+      "placeholder": "询问 Al Marjan Island 的滨水公寓 在 AED 5M–10M 预算下有哪些选择",
+      "voice_label": "开始语音输入",
+      "block_status": "final",
+      "submit_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "根据我的情况比较",
+      "voice_error_text": "输入您的需求或重试",
+      "voice_active_label": "停止语音输入",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "live_check_required": true,
+      "voice_fallback_text": "此处不支持语音识别",
+      "submit_loading_label": "正在询问 AI",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式",
+      "voice_processing_label": "正在处理语音输入"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 5M–10M",
+        "Al Marjan Island",
+        "滨水公寓",
+        "起价低于预算范围",
+        "比较更优景观"
+      ],
+      "title": "您可以买什么",
+      "eyebrow": "直接回答",
+      "body_html": "<p><strong>记录中的Al Marjan Island 的滨水公寓项目起价低于 AED 5M–10M 目标范围。</strong>比较具体房产类型、可用面积、开发商履约、交付情况、付款条款和总持有成本。预算余量可用于比较更大空间、更优位置或更高配置。在纳入筛选清单前，核实具体单元价格、付款计划、当前优惠和实时房源情况。</p>",
+      "body_text": "记录中的Al Marjan Island 的滨水公寓项目起价低于 AED 5M–10M 目标范围。比较具体房产类型、可用面积、开发商履约、交付情况、付款条款和总持有成本。预算余量可用于比较更大空间、更优位置或更高配置。在纳入筛选清单前，核实具体单元价格、付款计划、当前优惠和实时房源情况。",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "预算",
+          "value": "AED 5M–10M"
+        },
+        {
+          "key": "market",
+          "label": "市场",
+          "value": "Ras Al Khaimah"
+        },
+        {
+          "key": "area",
+          "label": "区域",
+          "value": "Al Marjan Island"
+        },
+        {
+          "key": "property_type",
+          "label": "房产类型",
+          "value": "滨水公寓"
+        },
+        {
+          "key": "current_signal",
+          "label": "当前信号",
+          "value": "起价低于预算范围"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "主要权衡",
+          "value": "景观与单元位置"
+        },
+        {
+          "key": "next_check",
+          "label": "下一步核查",
+          "value": "更优景观"
+        },
+        {
+          "key": "unit_status",
+          "label": "房源状态",
+          "value": "核实实时房源情况"
+        }
+      ],
+      "title": "预算详情",
+      "eyebrow": "关键信息",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "记录起价低于该预算档；可比较更大或升级后的单元。",
+            "title": "Al Marjan Island"
+          },
+          {
+            "text": "该预算范围内有 1 个项目记录了起价；请比较具体单元并核实实时房源情况。",
+            "title": "Mina Al Arab"
+          },
+          {
+            "text": "该预算范围内有 1 个项目记录了起价；请比较具体单元并核实实时房源情况。",
+            "title": "Al Hamra Village"
+          },
+          {
+            "text": "这是一个 Dubai 替代区域，有 1 个已记录起价匹配；应先比较市场匹配度。",
+            "title": "Dubai Harbour"
+          }
+        ],
+        "title": "可比较的区域",
+        "eyebrow": "区域逻辑"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "可将这种房产形式纳入比较，并核实其在 Al Marjan Island 的具体价格和实时供应。",
+            "title": "滨水公寓"
+          },
+          {
+            "text": "该房产形式在区域内有供应，但记录起价目前位于预算范围之外。",
+            "title": "公寓"
+          },
+          {
+            "text": "该房产形式在区域内有供应，但记录起价目前位于预算范围之外。",
+            "title": "单间公寓"
+          },
+          {
+            "text": "该房产形式在区域内有供应，但记录起价目前位于预算范围之外。",
+            "title": "别墅"
+          }
+        ],
+        "title": "可比较的房产类型",
+        "eyebrow": "房产类型逻辑"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "预算决策说明",
+      "items": [
+        {
+          "text": "Al Marjan Island 的记录起价低于 AED 5M–10M。应确认增加预算是否真正改善户型、位置、配置或付款条款，并梳理完整现金支付时间表。",
+          "title": "有目的地使用更高预算",
+          "eyebrow": "付款计划逻辑"
+        },
+        {
+          "text": "在Al Marjan Island 的 AED 5M–10M 预算下，应把景观与单元位置与具体户型、位置、品质、景观、付款条件和持续持有成本一起比较，不能只依据项目起价做决定。",
+          "title": "围绕“景观与单元位置”做取舍",
+          "eyebrow": "权衡"
+        },
+        {
+          "text": "购买Al Marjan Island 的滨水公寓时，应计入适用的登记、代理或融资费用，以及服务或社区费用、家具、维护和交付准备成本。",
+          "title": "把交易及持有成本纳入预算",
+          "eyebrow": "隐藏成本"
+        },
+        {
+          "dark": true,
+          "text": "在顾问核查实时选项之前，Primadom AI 可以综合预算、房产类型、区域、时间线和风险偏好进行初步筛选。",
+          "title": "将预算转化为筛选清单",
+          "eyebrow": "AI 背景"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "对于 Al Marjan Island 的滨水公寓，在 AED 5M–10M 预算下，当前没有项目记录起价落在目标范围内，但显示了 1 个接近预算的比较选项。这些选项仍需核实具体单元、当前价格和实时房源情况。",
+        "items": [
+          {
+            "href": "/zh/projects/shoreline/",
+            "meta": "接近预算范围 · AED 4.5M",
+            "label": "Shoreline",
+            "item_type": "project_match",
+            "match_status": "near_budget",
+            "project_slug": "shoreline",
+            "district_name": "Al Marjan Island",
+            "handover_year": 2028,
+            "property_type": "公寓,联排别墅",
+            "developer_name": "Damac Properties",
+            "project_page_id": "page_project_shoreline_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 4500000
+          },
+          {
+            "href": "/zh/areas/al-marjan-island/",
+            "meta": "区域指南",
+            "label": "查看更多 Al Marjan Island 项目",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "价格与房源情况",
+            "label": "核查 Al Marjan Island 的滨水公寓实时房源",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "预算范围核查",
+            "label": "比较预算范围外最接近的价格",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI 预算核查",
+            "label": "让 Primadom AI 生成实时筛选清单",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "可比较的项目",
+        "eyebrow": "筛选入口"
+      },
+      "buyer_fit": {
+        "title": "适合的买家",
+        "eyebrow": "此预算适合谁",
+        "bad_items": [
+          "已锁定其他房产类型且不愿比较当前形式的买家",
+          "要求每个项目起价都严格位于所述价格范围内的买家",
+          "不愿比较服务、制冷及滨水物业维护成本的买家"
+        ],
+        "bad_title": "可能不适合",
+        "good_items": [
+          "正在比较Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下项目的买家",
+          "会把景观、朝向、私密性和单元位置一起比较的买家",
+          "当没有项目同时满足所有条件时，愿意查看附近记录价格点的买家"
+        ],
+        "good_title": "适合"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Al Marjan Island 的滨水公寓的 AED 5M–10M 预算可以界定搜索范围，但预算本身不能决定哪一套房产最合适。主要应围绕“景观与单元位置”进行比较。应把可用户型、楼层或位置、朝向、景观、建筑品质和服务费用放在一起比较。在 AED 5M–10M 预算下，当前项目列表包含1 个接近预算的比较选项。缩小筛选范围前，请核实具体单元、当前价格、付款条款和实时房源情况。不要只依据广告起价，应核实具体房产和总现金支出。",
+        "mode": "contextual_editorial",
+        "tags": [
+          "景观与朝向",
+          "滨水物业维护",
+          "预算范围灵活性",
+          "总现金支出",
+          "服务费"
+        ],
+        "title": "权衡",
+        "eyebrow": "现实性检查"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "房产价格只是购买Al Marjan Island 的滨水公寓所需现金的一部分。请针对具体交易核实登记、交易、融资、交付以及持续持有成本。",
+        "items": [
+          {
+            "text": "预订前确认此次 Ras Al Khaimah 购房的登记和交易费用；最终金额取决于具体房产和交易类型。",
+            "title": "登记和交易费用"
+          },
+          {
+            "text": "如使用融资，应同时核查银行、估值和按揭相关费用，以及完工前需要准备的现金。",
+            "title": "融资与估值费用"
+          },
+          {
+            "text": "核查具体房产的服务费、维护责任和持续持有成本。",
+            "title": "服务费与物业维护"
+          },
+          {
+            "text": "单独预留验房、装修或家具、公用事业、搬家以及交付或完工前后可能发生的费用。",
+            "title": "交付、家具和入住成本"
+          }
+        ],
+        "title": "需核查的费用",
+        "eyebrow": "购买前检查",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/zh/budgets/waterfront-apartments-aed-3m-5m-in-al-marjan-island/",
+          "label": "Al Marjan Island 的 AED 3M–5M 滨水公寓",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/zh/budgets/waterfront-apartments-aed-10m-25m-in-al-marjan-island/",
+          "label": "Al Marjan Island 的 AED 10M–25M 滨水公寓",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/zh/budgets/aed-5m-10m-in-al-marjan-island/",
+          "label": "Al Marjan Island 的 AED 5M–10M 房产",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/zh/budgets/apartments-aed-5m-10m-in-al-marjan-island/",
+          "label": "Al Marjan Island 的 AED 5M–10M 公寓",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "相关预算页面",
+      "eyebrow": "相关搜索",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "当前没有 Al Marjan Island 的滨水公寓 的AED 5M–10M 预算起价精确匹配项目，但有 1 个接近预算的项目可用于检验筛选条件。实际调整可能涉及预算、单元类型、面积或位置；所有选项仍需核实实时价格和房源情况。",
+          "question": "Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下，目前有哪些已记录的房产选择？"
+        },
+        {
+          "answer": "对于 Al Marjan Island 的滨水公寓，在 AED 5M–10M 预算下，当前信号为“起价低于预算范围”，主要权衡是“景观与单元位置”。下一步应重点核查“更优景观”，并确认具体项目、单元价格、条款和实时房源。",
+          "question": "在 AED 5M–10M 预算下，买家应如何比较Al Marjan Island 的滨水公寓的房产选项？"
+        },
+        {
+          "answer": "在 AED 5M–10M 预算下，房产价格只是购买Al Marjan Island 的滨水公寓所需现金的一部分。请针对具体交易核实登记、交易、融资、交付以及持续持有成本。应核查登记和交易费用、融资与估值费用、服务费与物业维护，以及交付、家具和入住成本。具体金额应根据选定单元、融资结构和交易方式计算后，才能判断预算是否完整。",
+          "question": "购买Al Marjan Island 的滨水公寓并控制在 AED 5M–10M 预算内，还应计算哪些额外费用？"
+        },
+        {
+          "answer": "对于 Al Marjan Island 的滨水公寓，在 AED 5M–10M 预算下，应比较预订款或首付款、施工期分期、交付款、任何交付后余额以及完工前总应付款。本页面不确认实时开发商付款计划，因此每个入围单元的当前付款时间表都需单独核查。较低分期或更长付款期并不自动意味着更低的总现金压力。",
+          "question": "买家应如何比较Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的付款计划？"
+        },
+        {
+          "answer": "对于 Al Marjan Island 的滨水公寓，在 AED 5M–10M 预算下，Primadom AI 可以比较 1 个接近预算的项目，并指出需要调整的单一约束条件——预算、位置、房产类型、面积或交付时间。调整后的筛选清单仍需核实当前价格、付款条款和房源情况。",
+          "question": "Primadom AI 如何优化Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的搜索？"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "预算相关问题",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的规划信息并非实时库存。应通过开发商资料、官方记录、当前房源信息和 Primadom 顾问复核，确认项目现价与房源、付款计划、交付状态、费用、服务费和项目条款。",
+      "items": [
+        {
+          "label": "价格 / 房源情况",
+          "value": "需要实时核查"
+        },
+        {
+          "label": "付款计划",
+          "value": "需要开发商资料"
+        },
+        {
+          "label": "费用 / 服务费",
+          "value": "需要计算"
+        },
+        {
+          "label": "单元 / 项目匹配度",
+          "value": "需要核查来源"
+        }
+      ],
+      "title": "来源与核查",
+      "eyebrow": "核实",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "让 Primadom AI 按房产类型、当前价格、付款计划和总成本比较Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的选项，并生成供实时核查的筛选清单。",
+      "title": "想确认您的预算真正可以买到什么？",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "询问 Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "获取预算筛选清单",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "申请回电",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "预算咨询表单",
+      "note": "分享推荐前会先核查当前价格和房源情况。",
+      "text": "请提供您的信息。Primadom AI 会整理预算需求，供 Primadom 顾问进一步审核。",
+      "title": "查看您的预算可以买到什么",
+      "fields": {
+        "name": "您的姓名",
+        "phone": "电话 / WhatsApp",
+        "budget": "预算范围",
+        "comment": "已准备的需求"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "发送",
+      "comment": "核查Al Marjan Island 的滨水公寓选项，预算 AED 5M–10M。",
+      "eyebrow": "AI 预算匹配衔接",
+      "success": "已发送",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "关闭",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "需求草稿",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "您的姓名",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "姓名"
+        },
+        "phone": {
+          "label": "电话 / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "预算范围",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 5M–10M",
+          "default_value": "AED 5M–10M"
+        },
+        "comment": {
+          "label": "已准备的需求",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "根据本页面生成",
+          "single_line": true,
+          "default_value": "核查Al Marjan Island 的滨水公寓选项，预算 AED 5M–10M。"
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "姓名",
+        "phone": "+971",
+        "budget": "AED 5M–10M",
+        "comment": "根据本页面生成"
+      },
+      "submit_label": "发送",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_waterfront_apartments_aed_5m_10m_al_marjan_island_zh",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 5M–10M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 5M–10M",
+        "district_name": "Al Marjan Island",
+        "canonical_url_path": "/zh/budgets/waterfront-apartments-aed-5m-10m-in-al-marjan-island/",
+        "content_version_id": "68b37eb9-de0f-424c-a925-bd3f63954d03",
+        "property_type_name": "Waterfront Apartments"
+      },
+      "success_label": "已发送",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "语音搜索",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "在申请实时市场核查前，可按房产类型、当前价格、付款计划和总成本探索Al Marjan Island 的滨水公寓在 AED 5M–10M 预算下的选项。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "把预算搜索转化为现实可行的房产选择",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom 社交媒体链接",
+      "url_section": "/zh/budgets/waterfront-apartments-aed-5m-10m-in-al-marjan-island/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "预约通话",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "询问 AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

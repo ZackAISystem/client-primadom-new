@@ -26,6 +26,10 @@
 {{- else if eq .Site.Language.Lang "hi" -}}
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $developerData = index $hiData "developer_pages" -}}
+{{- else if eq .Site.Language.Lang "zh" -}}
+{{- $zhData := index site.Data.primadom "zh" -}}
+{{- $developerData = index $zhData "developer_pages" -}}
+
 {{- end -}}
 {{- $page := index $developerData $slug -}}
 

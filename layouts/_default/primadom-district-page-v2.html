@@ -11,6 +11,9 @@
   {{- else if eq .Site.Language.Lang "hi" -}}
     {{- $hiData := index site.Data.primadom "hi" -}}
     {{- $districtData = index $hiData "district_pages" -}}
+  {{- else if eq .Site.Language.Lang "zh" -}}
+    {{- $zhData := index site.Data.primadom "zh" -}}
+    {{- $districtData = index $zhData "district_pages" -}}
   {{- end -}}
   {{- $p := index $districtData $slug -}}
   {{- if not $p -}}

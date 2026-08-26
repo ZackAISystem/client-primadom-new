@@ -1,0 +1,912 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_townhouses_jumeirah_lake_towers_zh",
+  "page_type_id": "property_type_page",
+  "language_code": "zh",
+  "url_path": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+  "canonical_url_path": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+  "canonical_group_key": "property_district:townhouses:jumeirah-lake-towers",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-lake-towers",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "概览",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "区域",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "项目",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "房产类型页面导航",
+      "cta_label": "匹配适合我的选项",
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "property_types",
+          "href": "/zh/property-types/",
+          "label": "房产类型"
+        },
+        {
+          "key": "district",
+          "href": "/zh/areas/jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers"
+        },
+        {
+          "key": "current",
+          "href": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers的联排别墅",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "房产类型：联排别墅",
+        "区域：Jumeirah Lake Towers",
+        "社区 + 户外空间",
+        "自住 / 家庭意向",
+        "AI 匹配工具"
+      ],
+      "image": {
+        "alt": "Jumeirah Lake Towers的联排别墅房产类型概览",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Jumeirah Lake Towers的联排别墅",
+      "subtitle": "Jumeirah Lake Towers的联排别墅实用指南，涵盖户型、户外空间与社区匹配、价格背景、项目选项和 AI 匹配工具。",
+      "facts_aria": "房产类型重点",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Jumeirah Lake Towers的联排别墅房产类型主视觉",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "向 Primadom AI 询问Jumeirah Lake Towers的联排别墅",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "询问Jumeirah Lake Towers的联排别墅、预算或匹配度",
+      "placeholder": "询问Jumeirah Lake Towers的联排别墅、预算或匹配度",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "语音搜索",
+      "click_action": "fill_input",
+      "submit_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "按我的预算查找Jumeirah Lake Towers的联排别墅",
+        "按空间、私密性和社区匹配度比较联排别墅",
+        "购买Jumeirah Lake Towers的联排别墅时应核查什么？"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "输入您的需求或重试",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "语音模式",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "联排别墅",
+        "Jumeirah Lake Towers",
+        "家庭 / 长期居住",
+        "空间 + 社区",
+        "项目核查"
+      ],
+      "title": "房产类型概览",
+      "eyebrow": "直接回答",
+      "body_html": "<strong>Jumeirah Lake Towers的联排别墅</strong>可从社区、户型或地块、房屋状况和持有成本等维度进行比较。决定前，应核实具体项目、户型、持续性费用和当前条款。",
+      "body_text": "Jumeirah Lake Towers的联排别墅可从社区、户型或地块、房屋状况和持有成本等维度进行比较。决定前，应核实具体项目、户型、持续性费用和当前条款。",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "房产类型",
+          "value": "联排别墅",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "区域",
+          "value": "Jumeirah Lake Towers",
+          "fact_key": "area"
+        },
+        {
+          "label": "市场",
+          "value": "Dubai / UAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "关联项目页面",
+          "value": "20 个区域项目页面",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "买家意向",
+          "value": "家庭 · 社区 · 价值",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "主要筛选条件",
+          "value": "地块 · 停车 · 服务费用",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "最佳下一步",
+          "value": "比较关联项目页面",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "比较范围",
+          "value": "项目 · 区域 · 持有成本",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "房产类型详情",
+      "eyebrow": "关键信息",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 20,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_growth_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "适合谁",
+        "eyebrow": "适合的买家",
+        "bad_items": [
+          "需要大型独立地块或与邻居完全分隔的买家",
+          "不愿比较地块面积、停车、服务费用和通达性的买家",
+          "没有把通勤模式、噪音或工作日活动强度纳入比较的买家"
+        ],
+        "bad_title": "可能不适合",
+        "good_items": [
+          "希望获得比公寓更多空间和私密性、但不需要完整独立别墅尺度的家庭",
+          "希望平衡社区生活、户外空间和持有成本的买家",
+          "重视Jumeirah Lake Towers通达性、通勤便利和日常便捷性的专业人士或投资者"
+        ],
+        "good_title": "适合"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Jumeirah Lake Towers",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "townhouses"
+      },
+      "property_logic": {
+        "body": "比较联排别墅时，应关注内部布局、地块面积、停车、户外空间、服务费用和社区通达性。在Jumeirah Lake Towers，应考虑通勤模式、工作日活动、通达性以及便利性与私密性之间的权衡。决定前，应核实当前房源情况，并在相关情况下确认持续性费用、付款条款和交付详情。",
+        "tags": [
+          "地块",
+          "停车",
+          "服务费用",
+          "社区通达性",
+          "通达性与通勤"
+        ],
+        "title": "房产类型逻辑",
+        "eyebrow": "如何比较"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "在Jumeirah Lake Towers 比较联排别墅时，重点关注内部布局、地块面积、停车、户外空间、服务费用和社区通达性。",
+            "route": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+            "buyer_fit": "当前区域背景",
+            "relationship": "current_area",
+            "district_name": "Jumeirah Lake Towers",
+            "district_slug": "jumeirah-lake-towers"
+          },
+          {
+            "text": "将Jumeirah Lake Towers与Dubai Sports City作为同城替代选项比较时，重点关注内部布局、地块面积、停车、户外空间、服务费用和社区通达性。",
+            "route": "/zh/property-types/townhouses-in-dubai-sports-city/",
+            "buyer_fit": "同城替代选项",
+            "relationship": "related_area",
+            "district_name": "Dubai Sports City",
+            "district_slug": "dubai-sports-city"
+          },
+          {
+            "text": "将Jumeirah Lake Towers与Dubai Hills Estate作为同城替代选项比较时，重点关注内部布局、地块面积、停车、户外空间、服务费用和社区通达性。",
+            "route": "/zh/property-types/townhouses-in-dubai-hills-estate/",
+            "buyer_fit": "同城替代选项",
+            "relationship": "related_area",
+            "district_name": "Dubai Hills Estate",
+            "district_slug": "dubai-hills-estate"
+          },
+          {
+            "text": "将Jumeirah Lake Towers与Jumeirah Village Circle作为同城替代选项比较时，重点关注内部布局、地块面积、停车、户外空间、服务费用和社区通达性。",
+            "route": "/zh/property-types/townhouses-in-jumeirah-village-circle/",
+            "buyer_fit": "同城替代选项",
+            "relationship": "related_area",
+            "district_name": "Jumeirah Village Circle",
+            "district_slug": "jumeirah-village-circle"
+          }
+        ],
+        "title": "相关区域",
+        "eyebrow": "区域背景"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Jumeirah Lake Towers的联排别墅价格主要受建筑面积、地块配置、卧室布局、停车和社区位置影响。通达性、通勤效率和日常便利性可能使其他条件相近的项目产生价格差异。比较总持有成本时，应同时计入服务费用、维护、景观养护、升级以及融资或付款条款。应使用当前项目信息核算完整持有成本，而不是只看购房总价。",
+        "tags": [
+          "建筑面积",
+          "地块",
+          "停车",
+          "服务费用",
+          "价格核查"
+        ],
+        "title": "价格如何变化",
+        "eyebrow": "实际价格情况"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "townhouses",
+        "wider_uae_item_count": 0,
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "verified_supply_asserted": false,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "jumeirah-lake-towers",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 20
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "dubai-sports-city",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 20
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-hills-estate",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 49
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "jumeirah-village-circle",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 214
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "对于Jumeirah Lake Towers的联排别墅，应比较项目品质、持有成本、买家需求深度和转售竞争。",
+          "title": "平衡空间与总成本",
+          "eyebrow": "投资逻辑"
+        },
+        {
+          "text": "户型、停车、户外空间、社区规则和维护责任共同决定实际居住体验。",
+          "title": "社区规则很重要",
+          "eyebrow": "生活方式逻辑"
+        },
+        {
+          "text": "决定前，应比较开发商、项目状态、交付时间、具体户型、费用和总持有成本。",
+          "title": "不要只看表面卖点",
+          "eyebrow": "风险提示"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI 可以根据买家目标、项目状态、付款条款、持有成本和日常使用优先级比较Jumeirah Lake Towers的联排别墅。",
+          "title": "把本页转化为筛选清单",
+          "eyebrow": "AI 背景"
+        }
+      ],
+      "cards_aria": "房产类型决策提示",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_townhouses_jumeirah_lake_towers_en",
+        "context_focus": "business",
+        "district_slug": "jumeirah-lake-towers",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+        "property_type_slug": "townhouses",
+        "semantic_profile_key": "townhouses",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/zh/projects/mag-kingdom/",
+            "meta": "Jumeirah Lake Towers",
+            "label": "MAG Kingdom"
+          },
+          {
+            "href": "/zh/projects/elvira/",
+            "meta": "Dubai Hills Estate",
+            "label": "Elvira"
+          },
+          {
+            "href": "/zh/projects/olympia-at-athlon/",
+            "meta": "Dubailand",
+            "label": "Olympia at Athlon"
+          },
+          {
+            "href": "/zh/projects/nad-al-sheba-gardens-phase-8/",
+            "meta": "Nad Al Sheba",
+            "label": "Nad Al Sheba Gardens Phase 8"
+          },
+          {
+            "href": "/zh/projects/mudon-al-ranim-7/",
+            "meta": "Mudon",
+            "label": "Mudon Al Ranim 7"
+          }
+        ],
+        "title": "推荐项目",
+        "eyebrow": "项目选项"
+      },
+      "pros_cons": {
+        "title": "优缺点",
+        "eyebrow": "现实性检查",
+        "cons_items": [
+          "不同社区的地块面积、私密性和停车条件差异很大",
+          "在 Jumeirah Lake Towers，更强的通达性也可能伴随交通、噪音或更高物业服务费",
+          "位置便利有时需要以噪音或私密性为代价"
+        ],
+        "cons_title": "缺点",
+        "pros_items": [
+          "联排别墅可以在私人空间与共享社区配套之间取得平衡",
+          "在 Jumeirah Lake Towers，停车、通达性和通勤模式应放在一起比较",
+          "交通便利的区域更适合专业人士和频繁通勤者"
+        ],
+        "pros_title": "优点"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_townhouses_jumeirah_lake_towers_en",
+        "district_slug": "jumeirah-lake-towers",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "business",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "MAG Kingdom",
+            "project_slug": "mag-kingdom",
+            "project_route": "/zh/projects/mag-kingdom/",
+            "developer_name": "MAG Property Development",
+            "developer_slug": "mag-property-development",
+            "location_score": 5,
+            "project_district_name": "Jumeirah Lake Towers",
+            "project_district_slug": "jumeirah-lake-towers"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Elvira",
+            "project_slug": "elvira",
+            "project_route": "/zh/projects/elvira/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 3,
+            "project_district_name": "Dubai Hills Estate",
+            "project_district_slug": "dubai-hills-estate"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Olympia at Athlon",
+            "project_slug": "olympia-at-athlon",
+            "project_route": "/zh/projects/olympia-at-athlon/",
+            "developer_name": "Aldar Properties PJSC",
+            "developer_slug": "aldar-properties-pjsc",
+            "location_score": 3,
+            "project_district_name": "Dubailand",
+            "project_district_slug": "dubailand"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Nad Al Sheba Gardens Phase 8",
+            "project_slug": "nad-al-sheba-gardens-phase-8",
+            "project_route": "/zh/projects/nad-al-sheba-gardens-phase-8/",
+            "developer_name": "Meraas Holding",
+            "developer_slug": "meraas-holding",
+            "location_score": 3,
+            "project_district_name": "Nad Al Sheba",
+            "project_district_slug": "nad-al-sheba"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Mudon Al Ranim 7",
+            "project_slug": "mudon-al-ranim-7",
+            "project_route": "/zh/projects/mudon-al-ranim-7/",
+            "developer_name": "Dubai Properties",
+            "developer_slug": "dubai-properties",
+            "location_score": 3,
+            "project_district_name": "Mudon",
+            "project_district_slug": "mudon"
+          }
+        ],
+        "canonical_url_path": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+        "property_type_slug": "townhouses",
+        "semantic_profile_key": "townhouses",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/zh/property-types/family-villas-in-jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers的家庭别墅"
+        },
+        {
+          "href": "/zh/property-types/villas-in-jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers的别墅"
+        },
+        {
+          "href": "/zh/property-types/duplexes-in-jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers的复式住宅"
+        },
+        {
+          "href": "/zh/property-types/three-bedroom-apartments-in-jumeirah-lake-towers/",
+          "label": "Jumeirah Lake Towers的三居室公寓"
+        }
+      ],
+      "title": "类似房产类型",
+      "eyebrow": "相关选项",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1415,
+            "target_label": "Family Villas in Jumeirah Lake Towers",
+            "target_route": "/zh/property-types/family-villas-in-jumeirah-lake-towers/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "family_villa"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1415,
+            "target_label": "Villas in Jumeirah Lake Towers",
+            "target_route": "/zh/property-types/villas-in-jumeirah-lake-towers/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "villa"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1320,
+            "target_label": "Duplexes in Jumeirah Lake Towers",
+            "target_route": "/zh/property-types/duplexes-in-jumeirah-lake-towers/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "duplex"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1225,
+            "target_label": "3 Bedroom Apartments in Jumeirah Lake Towers",
+            "target_route": "/zh/property-types/three-bedroom-apartments-in-jumeirah-lake-towers/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 400,
+            "target_profile_family": "three_bedroom"
+          }
+        ],
+        "source_route": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Jumeirah Lake Towers的联排别墅可从社区、户型或地块、房屋状况和持有成本等维度进行比较。决定前，应核实具体项目、户型、持续性费用和当前条款。",
+          "question": "关于Jumeirah Lake Towers的联排别墅，买家需要了解什么？"
+        },
+        {
+          "answer": "本页更适合希望获得比公寓更多空间和私密性、但不需要完整独立别墅尺度的家庭，也适合希望平衡社区生活、户外空间和持有成本的买家。此外，Jumeirah Lake Towers 的具体选择还应结合通勤效率和总持有成本判断。",
+          "question": "哪些买家可能适合Jumeirah Lake Towers的联排别墅？"
+        },
+        {
+          "answer": "主要优势：联排别墅可以在私人空间与共享社区配套之间取得平衡。主要取舍：不同社区的地块面积、私密性和停车条件差异很大。在Jumeirah Lake Towers，停车、通达性和通勤模式应放在一起比较；同时要注意更强的通达性也可能伴随交通、噪音或更高物业服务费。",
+          "question": "比较Jumeirah Lake Towers的联排别墅时需要权衡什么？"
+        },
+        {
+          "answer": "本页可用于比较的项目包括MAG Kingdom、Elvira、Olympia at Athlon。也可以查看Jumeirah Lake Towers的家庭别墅、Jumeirah Lake Towers的别墅等相关房产类型页面。以上链接仅用于导航和比较，不代表项目排名，也不确认当前房源供应。",
+          "question": "除了Jumeirah Lake Towers的联排别墅，还可以比较哪些选项？"
+        },
+        {
+          "answer": "价格、房源、费用、付款计划和交付信息都可能变化。对于Jumeirah Lake Towers的联排别墅，应依据开发商官方资料和当前顾问核查确认内部布局、地块、停车、户外空间、服务费用和社区通达性、单元状态和付款条款。Primadom AI 可以整理比较，但当前商业条款应在决定前再次核实。",
+          "question": "应如何核实Jumeirah Lake Towers的联排别墅的价格和房源情况？"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "房产类型问题",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "business",
+        "semantic_profile_key": "townhouses",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "关于Jumeirah Lake Towers的联排别墅的信息应作为比较指南，而非实时房源报价。决定前，请与开发商或获授权顾问核实内部布局、地块、停车、户外空间、服务费用和社区通达性、当前价格与房源情况、付款条款、交付或完工状态以及总持有成本。",
+      "items": [
+        {
+          "label": "房产与地块详情",
+          "value": "核查房屋状况、地块和社区规则"
+        },
+        {
+          "label": "价格与房源情况",
+          "value": "核实当前单元条款"
+        },
+        {
+          "label": "费用与持有成本",
+          "value": "审查持续持有成本"
+        },
+        {
+          "label": "付款与交付",
+          "value": "核实状态、日期和合同条款"
+        }
+      ],
+      "title": "来源与核查",
+      "eyebrow": "选择前须知",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "让 Primadom AI 按社区、户型或地块、房屋状况和持有成本、预算和买家目标比较Jumeirah Lake Towers的联排别墅，重点关注通勤效率和总持有成本，再与顾问一起查看合适选项。",
+      "title": "正在寻找Jumeirah Lake Towers的联排别墅？",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "询问 Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "查找匹配选项",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "申请回电",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "townhouses",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "房产类型咨询表单",
+      "text": "告诉我们您对Jumeirah Lake Towers的联排别墅的偏好。Primadom AI 会围绕房产形式、项目、位置、持有成本和实际使用整理需求，再交由顾问审核。",
+      "title": "查找Jumeirah Lake Towers的联排别墅",
+      "fields": {
+        "name": "您的姓名",
+        "email": "电子邮箱（可选）",
+        "phone": "电话 / WhatsApp",
+        "comment": "已准备的需求"
+      },
+      "submit": "发送",
+      "comment": "我正在寻找本页中合适的联排别墅选项。",
+      "eyebrow": "AI 匹配衔接",
+      "success": "已发送",
+      "section_id": "property-type-lead-modal",
+      "close_label": "关闭",
+      "source_meta": {
+        "source_route": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+        "source_page_id": "page_property_district_townhouses_jumeirah_lake_towers_en",
+        "shortlist_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "townhouses",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "姓名",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI 帮助买家从房产形式、项目、位置、持有成本和实际匹配度比较Jumeirah Lake Towers的联排别墅，再与顾问沟通。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "Jumeirah Lake Towers的联排别墅：关联项目与买家场景",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai，阿拉伯联合酋长国",
+      "subtitle": "房地产智能",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/zh/property-types/townhouses-in-jumeirah-lake-towers/",
+        "source_page_id": "page_property_district_townhouses_jumeirah_lake_towers_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "business",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "townhouses",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "预约通话"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "询问 AI"
+      }
+    }
+  }
+}

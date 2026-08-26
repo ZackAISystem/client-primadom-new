@@ -1,0 +1,10 @@
+---
+title: "期房和现房哪个更适合？ — 现房"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "what-is-better-off-plan-or-ready-ready-property"
+page_id: "ai_answer__what-is-better-off-plan-or-ready__context__ready-property__zh"
+url: "/zh/ai-answers/what-is-better-off-plan-or-ready-ready-property/"
+build:
+  render: always
+  list: never
+---

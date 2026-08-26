@@ -1,0 +1,10 @@
+---
+title: "Amari 与 Chevalia Estate Phase 2"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "amari-vs-chevalia-estate-phase-2"
+page_id: "page_project_comparison_amari_vs_chevalia_estate_phase_2_zh"
+url: "/zh/compare-projects/amari-vs-chevalia-estate-phase-2/"
+build:
+  render: always
+  list: never
+---

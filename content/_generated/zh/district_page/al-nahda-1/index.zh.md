@@ -1,0 +1,10 @@
+---
+title: "Al Nahda 1 区域指南"
+layout: "primadom-district-page-v2"
+district_slug: "al-nahda-1"
+page_id: "page_district_al_nahda_1_zh"
+url: "/zh/areas/al-nahda-1/"
+build:
+  render: always
+  list: never
+---

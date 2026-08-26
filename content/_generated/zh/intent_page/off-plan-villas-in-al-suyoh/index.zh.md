@@ -1,0 +1,10 @@
+---
+title: "Al Suyoh 期房别墅"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-al-suyoh"
+page_id: "intent__off-plan-villas__district__al-suyoh__zh"
+url: "/zh/intents/off-plan-villas-in-al-suyoh/"
+build:
+  render: always
+  list: never
+---

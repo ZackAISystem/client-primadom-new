@@ -1,0 +1,10 @@
+---
+title: "Coral 与 Narenj"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "coral-vs-narenj"
+page_id: "project_comparison__coral__vs__narenj__zh"
+url: "/zh/compare-projects/coral-vs-narenj/"
+build:
+  render: always
+  list: never
+---

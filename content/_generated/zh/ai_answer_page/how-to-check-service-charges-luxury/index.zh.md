@@ -1,0 +1,10 @@
+---
+title: "如何核查物业服务费？ — 豪宅"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-check-service-charges-luxury"
+page_id: "ai_answer__how-to-check-service-charges__context__luxury__zh"
+url: "/zh/ai-answers/how-to-check-service-charges-luxury/"
+build:
+  render: always
+  list: never
+---

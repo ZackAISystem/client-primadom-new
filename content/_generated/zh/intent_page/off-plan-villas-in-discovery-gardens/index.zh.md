@@ -1,0 +1,10 @@
+---
+title: "Discovery Gardens 期房别墅"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-discovery-gardens"
+page_id: "intent__off-plan-villas__district__discovery-gardens__zh"
+url: "/zh/intents/off-plan-villas-in-discovery-gardens/"
+build:
+  render: always
+  list: never
+---

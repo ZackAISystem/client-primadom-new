@@ -4,13 +4,17 @@
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $projectData = index $hiData "project_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $projectData = index $zhData "project_pages" -}}
+{{- end -}}
 {{- $p := index $projectData $slug -}}
 {{- if not $p -}}
   {{- errorf "Primadom project data not found: %s" $slug -}}
 {{- end -}}
 
 {{- $lang := site.Language.Lang | default "en" -}}
-{{- if and (ne $lang "hi") (not (in $p.languages $lang)) -}}
+{{- if and (ne $lang "hi") (ne $lang "zh") (not (in $p.languages $lang)) -}}
   {{- $lang = "en" -}}
 {{- end -}}
 

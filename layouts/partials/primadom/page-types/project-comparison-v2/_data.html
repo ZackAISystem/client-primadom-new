@@ -9,6 +9,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $projectComparisonData = index $ruData "project_comparison_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $projectComparisonData = index $zhData "project_comparison_pages" -}}
+{{- end -}}
 {{- $page := index $projectComparisonData $slug -}}
 
 {{- if not $page -}}

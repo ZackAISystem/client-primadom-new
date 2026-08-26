@@ -9,6 +9,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $originBuyerData = index $ruData "origin_buyer_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $originBuyerData = index $zhData "origin_buyer_pages" -}}
+{{- end -}}
 {{- $page := index $originBuyerData $slug -}}
 
 {{- if not $page -}}

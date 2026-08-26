@@ -1,0 +1,10 @@
+---
+title: "Al Garhoud South 期房公寓"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-apartments-in-al-garhoud-south"
+page_id: "intent__off-plan-apartments__district__al-garhoud-south__zh"
+url: "/zh/intents/off-plan-apartments-in-al-garhoud-south/"
+build:
+  render: always
+  list: never
+---

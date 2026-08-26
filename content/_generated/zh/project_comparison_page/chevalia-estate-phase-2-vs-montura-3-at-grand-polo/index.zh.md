@@ -1,0 +1,10 @@
+---
+title: "Chevalia Estate Phase 2 与 Montura 3 at Grand Polo"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "chevalia-estate-phase-2-vs-montura-3-at-grand-polo"
+page_id: "project_comparison__chevalia-estate-phase-2__vs__montura-3-at-grand-polo__zh"
+url: "/zh/compare-projects/chevalia-estate-phase-2-vs-montura-3-at-grand-polo/"
+build:
+  render: always
+  list: never
+---

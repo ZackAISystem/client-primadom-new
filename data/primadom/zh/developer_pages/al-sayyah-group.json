@@ -1,0 +1,597 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_al_sayyah_group_zh",
+  "page_type_id": "developer_page",
+  "language_code": "zh",
+  "url_path": "/zh/developers/al-sayyah-group/",
+  "canonical_url_path": "/zh/developers/al-sayyah-group/",
+  "canonical_group_key": "developer:al-sayyah-group",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "al-sayyah-group",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_summary",
+    "block_06_developer_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_portfolio",
+    "block_10_districts_segment",
+    "block_11_similar_developers",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#portfolio",
+          "label": "项目",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "区域",
+          "active": false
+        },
+        {
+          "href": "#trust",
+          "label": "核查",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#developer-ai-search",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#developerLeadModal",
+      "nav_aria": "开发商导航",
+      "brand_url": "/zh/",
+      "cta_label": "预约通话",
+      "block_status": "formula_generated",
+      "schema_version": "developer_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "href": "/zh/developers/",
+          "label": "阿联酋开发商"
+        },
+        {
+          "href": "/zh/developers/dubai/",
+          "label": "Dubai"
+        },
+        {
+          "href": "/zh/developers/al-sayyah-group/",
+          "label": "Al Sayyah Group"
+        }
+      ],
+      "block_status": "formula_generated",
+      "schema_version": "developer_breadcrumbs_v2",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "title": "Al Sayyah Group",
+      "developer_name": "Al Sayyah Group"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "按区域和预算查找 Al Sayyah Group 的项目",
+        "检查 Al Sayyah Group 是否符合我的购房目标",
+        "比较 Al Sayyah Group 的项目、区域和关键检查项"
+      ],
+      "prompts": [
+        "按区域和预算查找 Al Sayyah Group 的项目",
+        "检查 Al Sayyah Group 是否符合我的购房目标",
+        "比较 Al Sayyah Group 的项目、区域和关键检查项"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "询问这家开发商",
+      "placeholder": "询问有关 Al Sayyah Group 的项目、区域、买家匹配度、核查事项或来源说明",
+      "block_status": "formula_generated",
+      "button_label": "询问",
+      "voice_status": "正在聆听…",
+      "ai_voice_text": "按区域、预算和买家目标查找 Al Sayyah Group 的项目...",
+      "ai_placeholder": "按区域、预算和买家目标查找 Al Sayyah Group 的项目...",
+      "schema_version": "developer_ai_search_v1",
+      "ai_voice_status": "正在聆听…",
+      "form_aria_label": "向 Primadom AI 询问有关 Al Sayyah Group 的问题",
+      "voice_error_text": "输入您的需求或重试",
+      "submit_aria_label": "询问 Primadom AI",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_short_summary": {
+      "chips": [
+        "Dubai 市场",
+        "适合的买家",
+        "来源核查"
+      ],
+      "title": "开发商概览",
+      "eyebrow": "快速概览",
+      "body_html": "<strong>Al Sayyah Group</strong> — Al Sayyah Group 被列为在 Dubai, UAE 开展业务的房地产开发商。本页面汇总可用的项目、区域、买家匹配和来源核查信息，便于买家在一个页面中了解该开发商。",
+      "body_text": "Al Sayyah Group 被列为在 Dubai, UAE 开展业务的房地产开发商。本页面汇总可用的项目、区域、买家匹配和来源核查信息，便于买家在一个页面中了解该开发商。",
+      "source_used": "neutral_fallback",
+      "schema_version": "developer_short_summary_v1",
+      "summary_status": "agent_written"
+    },
+    "block_06_developer_facts": {
+      "items": [
+        {
+          "label": "开发商",
+          "value": "Al Sayyah Group"
+        },
+        {
+          "label": "成立年份",
+          "value": "2000"
+        },
+        {
+          "label": "市场",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "细分市场",
+          "value": "待核实"
+        },
+        {
+          "label": "项目组合",
+          "value": "项目数据待补充"
+        },
+        {
+          "label": "主要区域",
+          "value": "待核实"
+        },
+        {
+          "label": "买家意向",
+          "value": "买家匹配 · 来源核查"
+        },
+        {
+          "label": "最后核查",
+          "value": "2026年6月"
+        }
+      ],
+      "title": "开发商详情",
+      "eyebrow": "关键信息",
+      "facts_status": "agent_written",
+      "schema_version": "developer_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "适合的买家",
+        "eyebrow": "适合",
+        "good_for": [
+          "希望在 Dubai 市场了解 Al Sayyah Group 的买家",
+          "希望在咨询前先评估项目与区域匹配度的买家",
+          "希望在一个页面中查看价格、买家匹配度和来源核查信息的买家"
+        ],
+        "less_for": [
+          "只关注最低入场价格、但不全面评估项目匹配度的买家",
+          "在初步评估前就必须获得已确认的实时房源或付款条款的买家",
+          "倾向于不核查项目详情、位置和开发商信息就直接决策的买家"
+        ],
+        "good_for_title": "适合",
+        "less_for_title": "可能不适合"
+      },
+      "block_status": "agent_written",
+      "schema_version": "developer_buyer_fit_logic_v1",
+      "developer_logic": {
+        "body": "可通过本资料在 Dubai 市场评估 Al Sayyah Group。做出决定前，请核查当前项目、价格、付款条款、交付信息和来源依据。",
+        "tags": [
+          "Dubai 市场",
+          "来源核查"
+        ],
+        "title": "市场概览",
+        "eyebrow": "如何理解"
+      }
+    },
+    "block_08_decision_cards": {
+      "cards_status": "agent_written",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "评估 Al Sayyah Group 的投资匹配度时，应比较入场价格、付款结构、交付时间、租赁需求以及市场中的相关替代选项。",
+          "title": "投资背景",
+          "eyebrow": "投资视角",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "生活方式匹配度取决于项目、区域、建筑类型、户型组合、配套设施以及在 Dubai 市场中的日常通达性。",
+          "title": "生活方式背景",
+          "eyebrow": "生活方式视角",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "做出决定前，请确认当前房源、价格、服务费、付款条款、户型图、交付时间、开发商文件以及最新项目信息。",
+          "title": "需要核查的内容",
+          "eyebrow": "购买前检查",
+          "card_status": "standard_verified_copy"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "在与顾问沟通前，Primadom AI 可按预算、区域、户型、付款计划、交付时间、位置匹配和买家目标，将 Al Sayyah Group 的项目与相关替代项目进行比较。",
+          "title": "比较开发商项目",
+          "eyebrow": "AI 支持",
+          "card_status": "standard_product_copy"
+        }
+      ],
+      "schema_version": "developer_decision_cards_v1",
+      "decision_cards_aria": "开发商决策卡片"
+    },
+    "block_09_projects_portfolio": {
+      "known_items": [
+        {
+          "meta": "确认当前房源和价格",
+          "label": "当前房源情况"
+        },
+        {
+          "meta": "查看开发商当前官方资料",
+          "label": "官方项目文件"
+        },
+        {
+          "meta": "核查区域与买家匹配度",
+          "label": "位置与户型组合"
+        },
+        {
+          "meta": "确认当前条款和时间安排",
+          "label": "付款计划与交付"
+        }
+      ],
+      "known_title": "需要核查的内容",
+      "active_items": [
+        {
+          "href": "/zh/projects/butterfly-towers/",
+          "meta": "项目资料",
+          "label": "Butterfly Towers"
+        }
+      ],
+      "active_title": "值得核查的项目",
+      "block_status": "agent_written",
+      "known_eyebrow": "买家检查项",
+      "active_eyebrow": "项目组合",
+      "schema_version": "developer_projects_portfolio_v1",
+      "matching_source": "entities.project_developer_links",
+      "portfolio_status": "graph_connected",
+      "active_empty_text": null,
+      "total_project_count": 1
+    },
+    "block_10_districts_segment": {
+      "districts": {
+        "items": [
+          {
+            "href": "#developerLeadModal",
+            "meta": "项目位置待核查",
+            "label": "区域重点核查"
+          }
+        ],
+        "title": "主要区域",
+        "eyebrow": "区域重点"
+      },
+      "schema_version": "developer_districts_segment_v1",
+      "segment_profile": {
+        "body": "在做出购房决定前，可从项目位置、产品类型、区域匹配度、交付记录和当前房源等方面评估 Al Sayyah Group。",
+        "tags": [
+          "Dubai 市场",
+          "区域匹配",
+          "项目核查",
+          "买家评估"
+        ],
+        "title": "市场定位",
+        "eyebrow": "开发商概览"
+      },
+      "districts_status": "content_ready"
+    },
+    "block_11_similar_developers": {
+      "items": [
+        {
+          "href": "#developerLeadModal",
+          "meta": "位置与项目匹配",
+          "label": "按区域匹配度比较"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "房源与交付",
+          "label": "查看替代项目"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "预算与条款",
+          "label": "比较价格与付款计划"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "面向买家的比较",
+          "label": "申请匹配的筛选清单"
+        }
+      ],
+      "title": "比较开发商选项",
+      "eyebrow": "比较选项",
+      "schema_version": "developer_similar_developers_v1",
+      "similar_status": "comparison_fallback_ready",
+      "matching_source": "buyer_comparison_flow"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "评估 Al Sayyah Group 时，应结合其当前项目组合、区域重点、交付记录、付款条款以及在阿联酋的可用房源情况。",
+          "question": "买家需要了解 Al Sayyah Group 的哪些信息？",
+          "answer_status": "safe_fallback"
+        },
+        {
+          "answer": "Al Sayyah Group 可能适合正在比较位置、预算、户型、付款条款、交付时间和整体项目匹配度的买家。",
+          "question": "Al Sayyah Group 可能适合哪些买家？",
+          "answer_status": "safe_fallback"
+        },
+        {
+          "answer": "在确定区域前，买家应核查 Al Sayyah Group 当前项目的位置、可用房源、交付时间以及附近的替代项目。",
+          "question": "买家应重点查看 Al Sayyah Group 的哪些区域和项目？",
+          "answer_status": "safe_fallback"
+        },
+        {
+          "answer": "将 Al Sayyah Group 与相关替代开发商比较，有助于买家评估价格、付款计划、位置、房产类型、交付时间、服务费和整体买家匹配度。",
+          "question": "为什么要将 Al Sayyah Group 与其他开发商比较？",
+          "answer_status": "buyer_comparison_guidance"
+        },
+        {
+          "answer": "在顾问审核前，Primadom AI 可按区域、预算、户型、付款计划、交付时间和买家目标，对 Al Sayyah Group 的项目及相关替代项目进行结构化比较。",
+          "question": "Primadom AI 如何帮助评估 Al Sayyah Group？",
+          "answer_status": "ai_support_guidance"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "买家常见问题",
+      "faq_status": "content_ready",
+      "schema_version": "developer_faq_v1",
+      "personalization": {
+        "areas_used": false,
+        "style_used": false,
+        "tier_available": false
+      }
+    },
+    "block_13_trust_sources": {
+      "body": "在依据 Al Sayyah Group 的信息做出房产决策前，买家应核实开发商官方资料、项目或主管机构状态、实时房源情况以及当前商业条款。",
+      "items": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "开发商官方资料",
+          "value": "必需",
+          "link_status": "pending_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "authority_project_status",
+          "href": "",
+          "label": "主管机构 / 项目状态",
+          "value": "建议",
+          "link_status": "pending_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "project_availability",
+          "href": "#developerLeadModal",
+          "label": "当前项目房源",
+          "value": "实时核查",
+          "link_status": "available",
+          "source_type": "availability"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#developerLeadModal",
+          "label": "Primadom 顾问核查",
+          "value": "可提供",
+          "link_status": "available",
+          "source_type": "advisor"
+        }
+      ],
+      "title": "来源与核查",
+      "eyebrow": "核实",
+      "trust_status": "source_links_pending",
+      "schema_version": "developer_trust_sources_v1",
+      "source_confidence": "pending_verification",
+      "source_enrichment": {
+        "market": "Dubai, UAE",
+        "last_checked": "2026年6月",
+        "advisor_check_available": true,
+        "official_source_attached": false,
+        "authority_status_attached": false,
+        "availability_check_available": true
+      }
+    },
+    "block_14_source_notes": {
+      "body": "随着项目、房源、价格、付款计划和交付时间的更新，关于 Al Sayyah Group 的信息也可能发生变化。买家应在做出决定前确认当前最新详情。",
+      "title": "当前信息",
+      "eyebrow": "数据时效性",
+      "signals": [
+        {
+          "label": "当前数据",
+          "value": "决策前重新核查"
+        },
+        {
+          "label": "买家核查",
+          "value": "确认当前条款"
+        },
+        {
+          "label": "最后审核",
+          "value": "2026年6月"
+        }
+      ],
+      "notes_status": "safe_fallback",
+      "schema_version": "developer_source_notes_v1",
+      "freshness_status": "review_required_before_decision",
+      "source_notes_enrichment": {
+        "last_checked": "2026年6月",
+        "trust_note_available": false
+      }
+    },
+    "block_15_cta": {
+      "text": "在与 Primadom 顾问沟通前，可使用 Primadom AI 按区域、预算、付款计划、交付时间和买家目标整理并比较 Al Sayyah Group 的项目信息。",
+      "title": "需要帮助比较 Al Sayyah Group 的项目吗？",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "比较 Al Sayyah Group 的项目",
+          "modal": true,
+          "action_intent": "developer_project_comparison"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "询问 Primadom AI",
+          "modal": false,
+          "action_intent": "developer_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerLeadModal",
+          "label": "申请回电",
+          "modal": true,
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "content_ready",
+      "schema_version": "developer_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": {
+        "modal": true,
+        "labelledby": "developerLeadTitle"
+      },
+      "text": "请提供您偏好的区域、房产类型、时间安排或付款计划。我们会围绕 Al Sayyah Group 整理需求，随后由顾问跟进。",
+      "title": "使用 Primadom AI 比较 Al Sayyah Group 的项目",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "姓名",
+          "required": true,
+          "placeholder": "您的姓名"
+        },
+        {
+          "key": "phone",
+          "type": "tel",
+          "label": "电话 / WhatsApp",
+          "required": true,
+          "placeholder": "您的电话或 WhatsApp"
+        },
+        {
+          "key": "email",
+          "type": "email",
+          "label": "电子邮箱（可选）",
+          "required": false,
+          "placeholder": "您的电子邮箱"
+        },
+        {
+          "key": "comment",
+          "type": "textarea",
+          "label": "需求",
+          "required": false,
+          "placeholder": "请告诉我们您希望比较的内容"
+        }
+      ],
+      "eyebrow": "开发商咨询需求",
+      "modal_id": "developerLeadModal",
+      "title_id": "developerLeadTitle",
+      "close_label": "关闭",
+      "field_config": {
+        "name": {
+          "html_name": "name"
+        },
+        "email": {
+          "html_name": "email"
+        },
+        "phone": {
+          "html_name": "phone"
+        },
+        "comment": {
+          "html_name": "comment"
+        }
+      },
+      "modal_status": "content_ready",
+      "submit_label": "发送",
+      "success_text": "谢谢。Primadom 顾问将审核您的需求，并以当前最新信息跟进。",
+      "hidden_fields": {
+        "city": "Dubai",
+        "country": "UAE",
+        "page_type": "developer_page",
+        "request_scope": "developer_project_comparison",
+        "developer_name": "Al Sayyah Group",
+        "developer_slug": "al-sayyah-group"
+      },
+      "success_title": "已收到需求",
+      "schema_version": "developer_lead_modal_v1",
+      "prefilled_request": "我希望按区域匹配度、当前房源、付款计划、交付时间和买家目标比较 Al Sayyah Group 的项目。"
+    },
+    "block_17_footer": {
+      "text": "继续查看 Dubai 的项目、区域和其他开发商，或在与顾问沟通前使用 Primadom AI 比较不同选项。",
+      "brand": "Primadom AI",
+      "title": "继续探索 Al Sayyah Group 之外的选择",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "预约通话",
+          "modal": true
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "询问 AI",
+          "modal": false
+        }
+      ],
+      "address": "Dubai, UAE",
+      "eyebrow": "查看更多",
+      "copyright": "© Primadom AI",
+      "navigation": [
+        {
+          "key": "projects",
+          "href": "/zh/projects/",
+          "label": "项目"
+        },
+        {
+          "key": "districts",
+          "href": "/zh/areas/",
+          "label": "区域"
+        },
+        {
+          "key": "developers",
+          "href": "/zh/developers/",
+          "label": "开发商"
+        },
+        {
+          "key": "ai_search",
+          "href": "#developer-ai-search",
+          "label": "AI 搜索"
+        }
+      ],
+      "footer_status": "content_ready",
+      "market_context": {
+        "city": "Dubai",
+        "country": "UAE"
+      },
+      "schema_version": "developer_footer_v1"
+    }
+  }
+}

@@ -9,6 +9,10 @@
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $propertyTypeData = index $hiData "property_type_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $propertyTypeData = index $zhData "property_type_pages" -}}
+{{- end -}}
 {{- $page := index $propertyTypeData $slug -}}
 
 {{- if not $page -}}

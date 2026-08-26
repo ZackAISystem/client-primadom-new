@@ -24,6 +24,10 @@
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $intentData = index $hiData "intent_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $intentData = index $zhData "intent_pages" -}}
+{{- end -}}
 {{- $page := index $intentData $slug -}}
 
 {{- if not $page -}}

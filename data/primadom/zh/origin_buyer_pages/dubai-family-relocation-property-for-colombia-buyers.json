@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_origin_buyer_colombia_goal_family_relocation_property_zh",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "zh",
+  "url_path": "/zh/buyer-scenarios/dubai-family-relocation-property-for-colombia-buyers/",
+  "canonical_url_path": "/zh/buyer-scenarios/dubai-family-relocation-property-for-colombia-buyers/",
+  "canonical_group_key": "origin:colombia:goal:family-relocation-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "colombia",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "可以购买吗？",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "流程",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "区域",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "国际买家指南导航",
+      "cta_label": "获取咨询",
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/zh/buyer-scenarios/",
+          "label": "买家场景"
+        },
+        {
+          "key": "current",
+          "href": "/zh/buyer-scenarios/dubai-family-relocation-property-for-colombia-buyers/",
+          "label": "面向从哥伦比亚搬迁家庭的迪拜房产"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "来自哥伦比亚",
+        "学校与通勤",
+        "空间与时间",
+        "社区匹配",
+        "搬迁预算"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "面向从哥伦比亚搬迁家庭的迪拜房产",
+      "subtitle": "对于来自哥伦比亚的买家，家庭从海外搬到迪拜时，应在选择区域或房产前比较学校与通勤、入住时间、空间、社区成熟度以及整体搬迁成本。",
+      "facts_aria": "此买家场景的关键信息",
+      "section_id": "overview",
+      "visual_aria": "面向从哥伦比亚搬迁家庭的迪拜房产购房规划示意",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "比较适合我的用于家庭搬迁的迪拜房产选项和关键差异",
+        "选择前核查学校、通勤、空间、时间",
+        "哪些选项更符合我的实际目标和预算"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "咨询您的迪拜购房计划",
+      "placeholder": "作为来自哥伦比亚的买家，请帮我比较用于家庭搬迁的迪拜房产",
+      "block_status": "final",
+      "button_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "向 Primadom AI 咨询哥伦比亚买家的用于家庭搬迁的迪拜房产",
+      "voice_error_text": "输入您的需求或重试",
+      "submit_aria_label": "询问 Primadom AI",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "哥伦比亚买家",
+        "学校与通勤",
+        "空间与时间",
+        "社区匹配",
+        "搬迁预算"
+      ],
+      "title": "哥伦比亚买家可以在迪拜购买房产吗？",
+      "eyebrow": "直接回答",
+      "body_html": "<strong>可以——哥伦比亚买家通常可以在迪拜指定的外国人可持有产权区域购买房产</strong>，但仍须遵守现行规则并核查具体房产。对于家庭搬迁，应在选择前比较学校、通勤、空间、社区成熟度、入住时间和整体搬迁成本。",
+      "body_text": "可以——哥伦比亚买家通常可以在迪拜指定的外国人可持有产权区域购买房产，但仍须遵守现行规则并核查具体房产。对于家庭搬迁，应在选择前比较学校、通勤、空间、社区成熟度、入住时间和整体搬迁成本。",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "买家来源市场",
+          "value": "哥伦比亚"
+        },
+        {
+          "label": "目标市场",
+          "value": "迪拜 / 阿联酋"
+        },
+        {
+          "label": "买家目标",
+          "value": "家庭搬迁"
+        },
+        {
+          "label": "主要重点",
+          "value": "长期家庭居住"
+        },
+        {
+          "label": "关键检查项",
+          "value": "学校 · 通勤 · 空间 · 时间"
+        },
+        {
+          "label": "所有权背景",
+          "value": "核查现行外国人房产所有权规则"
+        },
+        {
+          "label": "决策阶段",
+          "value": "预订前"
+        },
+        {
+          "label": "下一步",
+          "value": "围绕家庭日常需求比较社区"
+        }
+      ],
+      "title": "海外买家信息",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "关键信息",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "先明确长期家庭居住，并把学校、通勤、空间、时间作为比较和筛选标准。",
+            "title": "1. 明确购房需求"
+          },
+          {
+            "text": "如果计划从哥伦比亚远程完成部分购房步骤，应确认哪些环节可以远程办理，以及是否需要额外授权或在当地办理相关手续。",
+            "title": "2. 规划购房路径"
+          },
+          {
+            "text": "根据具体购房交易要求，确认身份信息、买家资料表、资金来源、汇款路径及相关核查要求。",
+            "title": "3. 确认文件与付款路径"
+          },
+          {
+            "text": "预订前重新核查学校和通勤相关信息、入住时间、项目状态、付款和具体房产条款，避免依赖过时信息。",
+            "title": "4. 预订前重新核查最新条款"
+          }
+        ],
+        "title": "远程购房流程",
+        "eyebrow": "流程逻辑"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "准备具体交易要求的有效身份证明及买家资料。",
+            "title": "护照与买家信息"
+          },
+          {
+            "text": "如开发商、银行或交易流程要求，请准备最新住址和联系方式。",
+            "title": "地址与联系方式"
+          },
+          {
+            "text": "汇款前确认资金来源、汇款路径以及银行或合规核查要求。",
+            "title": "资金来源与汇款路径"
+          },
+          {
+            "text": "核查并保留与学校和通勤相关信息、入住时间、项目状态、付款和具体房产条款相关的最新资料。",
+            "title": "房产与交易相关资料"
+          }
+        ],
+        "title": "文件",
+        "eyebrow": "实用清单"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "应把房产成本与学校、通勤、空间、入住时间和其他实际搬迁需求一起权衡。",
+          "title": "为整个家庭搬迁做预算",
+          "eyebrow": "搬迁预算"
+        },
+        {
+          "dark": false,
+          "text": "如果部分购房步骤需要从哥伦比亚远程完成，应确认付款路径、签署、身份核验以及任何需在当地办理的交易步骤。",
+          "title": "规划跨境购房流程",
+          "eyebrow": "从哥伦比亚购房"
+        },
+        {
+          "dark": false,
+          "text": "应围绕学校、通勤、空间和长期居住比较社区，而不是只依据房产营销选择。",
+          "title": "日常生活应决定位置选择",
+          "eyebrow": "家庭匹配"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "与顾问沟通前，可使用 Primadom AI 梳理购房目标、预算、购房路径及需要核查的事项。",
+          "title": "将买家场景转化为清晰的比较框架",
+          "eyebrow": "AI 咨询"
+        }
+      ],
+      "cards_aria": "此买家场景的关键决策",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "比较空间、日常便利、通勤、社区匹配度和入住时间。",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "比较别墅生活方式、通勤、空间、社区需求和持有成本。",
+            "title": "Arabian Ranches"
+          },
+          {
+            "text": "比较住房形态、空间、通勤和长期居住需求。",
+            "title": "Jumeirah Golf Estates"
+          },
+          {
+            "text": "比较公寓生活方式、社区发展成熟度、通勤和家庭空间需求。",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "待比较区域",
+        "eyebrow": "区域选项"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "对于来自哥伦比亚的买家，针对家庭搬迁，应让学校、通勤、空间、入住时间、付款路径和当前所有权核查与整个家庭搬迁计划保持一致。",
+        "tags": [
+          "可购买？",
+          "学校与通勤",
+          "空间与时间",
+          "付款路径",
+          "现行规则"
+        ],
+        "title": "买家关注点",
+        "eyebrow": "需要核查的内容"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "打开与该买家场景涉及区域相关的项目页面，并在据此作出判断前核查当前价格、可售情况、付款条款和具体单元匹配度。",
+        "items": [
+          {
+            "href": "/zh/projects/399-hills-park/",
+            "meta": "Dubai Hills Estate",
+            "label": "399 Hills Park"
+          },
+          {
+            "href": "/zh/projects/alta-view-skyhomes/",
+            "meta": "Jumeirah Golf Estates",
+            "label": "Alta View Skyhomes"
+          },
+          {
+            "href": "/zh/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/zh/projects/address-hillcrest/",
+            "meta": "Dubai Hills Estate",
+            "label": "Address Hillcrest"
+          },
+          {
+            "href": "/zh/projects/dar-global-villas/",
+            "meta": "Jumeirah Golf Estates",
+            "label": "Dar Global Villas"
+          }
+        ],
+        "title": "待核查项目",
+        "eyebrow": "项目选项",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "如果阿联酋居留是购房计划的一部分，应将当前黄金签证条件与房产选择分开核查。项目出现在本清单中并不意味着具备签证资格。",
+        "tags": [
+          "单独核查",
+          "当前条件",
+          "房产价值",
+          "所有权状态",
+          "付款状态"
+        ],
+        "title": "签证资格需单独核查",
+        "eyebrow": "签证条件核查",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/zh/buyer-scenarios/dubai-apartments-for-colombia-buyers/",
+          "label": "面向哥伦比亚买家的迪拜公寓"
+        },
+        {
+          "href": "/zh/buyer-scenarios/dubai-first-time-buyer-property-for-colombia-buyers/",
+          "label": "面向哥伦比亚首次购房者的迪拜房产"
+        },
+        {
+          "href": "/zh/buyer-scenarios/dubai-property-for-colombia-buyers/",
+          "label": "面向哥伦比亚买家的迪拜房产"
+        },
+        {
+          "href": "/zh/buyer-scenarios/dubai-property-under-aed-5m-for-colombia-buyers/",
+          "label": "面向哥伦比亚买家的 AED 5M 以下迪拜房产"
+        }
+      ],
+      "title": "继续查看",
+      "eyebrow": "相关买家来源国页面",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "哥伦比亚买家通常可以在迪拜指定的外国人可持有产权区域购买房产，但仍须遵守现行规则并核查具体房产。对于家庭搬迁，应在选择前比较学校、通勤、空间、社区成熟度、入住时间和整体搬迁成本。",
+          "question": "哥伦比亚买家可以购买用于家庭搬迁的迪拜房产吗？",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "先比较学校、日常通勤、住房空间、入住时间和社区成熟度，再判断具体房产是否符合长期家庭生活。",
+          "question": "家庭搬到迪拜时，哥伦比亚买家首先应比较什么？",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "在此场景下，可比较 Dubai Hills Estate、Arabian Ranches、Jumeirah Golf Estates 和 Dubai Creek Harbour。这些只是比较起点，并非排名；决定前还应核查具体房产和实际匹配度。",
+          "question": "哥伦比亚买家在此场景下应比较哪些迪拜区域？",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "从哥伦比亚远程协调迪拜购房时，应明确由谁签署、资金如何转移、适用哪些身份核验，以及是否有任何步骤需要在当地办理。在投入资金前，应确认具体交易流程。",
+          "question": "来自哥伦比亚的买家在安排迪拜购房时应核查什么？",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "应把学校、通勤、空间、社区成熟度、日常便利性和入住时间放在同一套家庭生活需求中比较。",
+          "question": "哥伦比亚家庭应如何判断迪拜社区是否适合长期搬迁？",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "海外买家问题",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "对于来自哥伦比亚、正在考虑家庭搬迁的买家，本页将购房指引与仍需外部核实的信息明确区分。所有权规则、跨境交易步骤以及学校和通勤相关信息、入住时间、项目状态、付款和具体房产条款都应在作出购房决定前，通过相关官方或实时来源核查。",
+      "items": [
+        {
+          "label": "所有权规则",
+          "value": "待官方核实"
+        },
+        {
+          "label": "跨境购房流程",
+          "value": "需按具体情况核实"
+        },
+        {
+          "label": "搬迁相关信息",
+          "value": "需要当地核查"
+        },
+        {
+          "label": "价格 / 可售情况",
+          "value": "需实时核查项目"
+        },
+        {
+          "label": "来源状态",
+          "value": "待完成来源审核"
+        }
+      ],
+      "title": "核查说明",
+      "eyebrow": "来源与核查",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "在交由顾问审核购房计划前，先按空间、学校、通勤和入住时间比较社区。",
+      "title": "计划从哥伦比亚举家搬到迪拜？",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "询问 Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "核查我的计划",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "申请回电",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "海外买家咨询表单",
+      "text": "请提供对您家庭最重要的空间、社区和入住时间要求。Primadom AI 会先整理搬迁背景，再交由顾问审核。",
+      "title": "核查您从哥伦比亚搬迁家庭到迪拜的购房计划",
+      "fields": {
+        "name": "您的姓名",
+        "email": "电子邮箱（可选）",
+        "phone": "电话 / WhatsApp",
+        "comment": "已准备的需求"
+      },
+      "submit": "发送",
+      "comment": "核查我从哥伦比亚搬迁家庭到迪拜的购房计划",
+      "eyebrow": "购房计划核查",
+      "success": "已发送",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "关闭",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "姓名",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI 帮助哥伦比亚买家在与顾问审核迪拜住房前比较社区、空间、通勤、家庭需求和购房核查事项。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "面向哥伦比亚买家的迪拜家庭搬迁规划",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "阿联酋迪拜",
+      "subtitle": "房地产智能洞察",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Primadom AI 社交媒体链接",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "预约通话"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "询问 AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

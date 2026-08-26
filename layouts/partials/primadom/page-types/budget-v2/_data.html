@@ -17,6 +17,10 @@
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $budgetData = index $hiData "budget_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $budgetData = index $zhData "budget_pages" -}}
+{{- end -}}
 {{- $page := index $budgetData $slug -}}
 
 {{- if not $page -}}

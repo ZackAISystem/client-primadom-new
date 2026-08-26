@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-waterfront-fit__context__townhouses__zh",
+  "page_type_id": "ai_answer_page",
+  "language_code": "zh",
+  "url_path": "/zh/ai-answers/how-to-check-waterfront-fit-townhouses/",
+  "canonical_url_path": "/zh/ai-answers/how-to-check-waterfront-fit-townhouses/",
+  "canonical_group_key": "ai_answer:how-to-check-waterfront-fit:context:townhouses",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-waterfront-fit",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "回答",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "检查项",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "风险",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "AI 回答导航",
+      "cta_label": "根据我的情况检查",
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/zh/ai-answers/",
+          "label": "AI 回答"
+        },
+        {
+          "key": "current",
+          "href": "/zh/ai-answers/how-to-check-waterfront-fit-townhouses/",
+          "label": "如何判断滨水房产是否适合我？ — 联排别墅",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "联排别墅",
+        "适合的买家",
+        "权衡",
+        "房产选择",
+        "比较选项"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "如何判断滨水房产是否适合我？ — 联排别墅",
+      "subtitle": "购买联排别墅时，围绕“如何判断滨水房产是否适合我”进行判断，重点比较买家目标、房产选择、实际使用、成本与主要权衡。",
+      "facts_aria": "回答要点",
+      "section_id": "hero",
+      "visual_aria": "关于“如何判断滨水房产是否适合我？ — 联排别墅”的房产决策示意",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "说明“如何判断滨水房产是否适合我”的关键判断逻辑",
+        "列出购买联排别墅时最需要核查的信息",
+        "把这个问题与相关成本、风险和替代选项一起比较"
+      ],
+      "ai_aria": "向 Primadom AI 追问",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "帮我判断：如何判断滨水房产是否适合我？",
+      "placeholder": "帮我判断：如何判断滨水房产是否适合我？",
+      "voice_label": "语音搜索",
+      "block_status": "final",
+      "submit_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "输入您的需求或重试",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "比较选项",
+        "联排别墅",
+        "位置溢价",
+        "遮挡风险",
+        "转售"
+      ],
+      "title": "直接回答",
+      "eyebrow": "先给答案",
+      "body_html": "<strong>“如何判断滨水房产是否适合我”没有适用于所有买家的唯一答案，关键是把预算、用途、位置、户型、成本和退出需求放在同一基础上比较。</strong> 购买联排别墅时，重点核查位置溢价 · 遮挡风险 · 转售，并确保比较建立在当前、可验证的信息之上。下一步建议：比较溢价与可持续价值。",
+      "body_text": "“如何判断滨水房产是否适合我”没有适用于所有买家的唯一答案，关键是把预算、用途、位置、户型、成本和退出需求放在同一基础上比较。购买联排别墅时，重点核查位置溢价 · 遮挡风险 · 转售，并确保比较建立在当前、可验证的信息之上。下一步建议：比较溢价与可持续价值。",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "问题",
+          "value": "如何判断滨水房产是否适合我？ — 联排别墅"
+        },
+        {
+          "label": "背景",
+          "value": "联排别墅"
+        },
+        {
+          "label": "市场",
+          "value": "UAE"
+        },
+        {
+          "label": "决策",
+          "value": "溢价必须有可持续价值支撑"
+        },
+        {
+          "label": "主要检查项",
+          "value": "位置溢价 · 遮挡风险 · 转售"
+        },
+        {
+          "label": "主要风险",
+          "value": "溢价 · 遮挡 · 转售"
+        },
+        {
+          "label": "最佳下一步",
+          "value": "比较溢价与可持续价值"
+        },
+        {
+          "label": "核实",
+          "value": "需要核查当前房源"
+        }
+      ],
+      "title": "回答详情",
+      "topic": "如何判断滨水房产是否适合我",
+      "market": "UAE",
+      "context": "联排别墅",
+      "eyebrow": "关键信息",
+      "question": "如何判断滨水房产是否适合我？",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "位置溢价 · 遮挡风险 · 转售中的关键事实仍依赖估算、旧资料或未经核实的信息，无法支撑最终判断。",
+            "title": "关键依据仍未确认"
+          },
+          {
+            "text": "溢价 · 遮挡 · 转售对成本、可负担性、时间安排或退出条件产生了实质影响。",
+            "title": "风险改变整体判断"
+          },
+          {
+            "text": "有可信替代方案能够以更低成本、更低风险或更好的买家匹配度满足同一目标。",
+            "title": "替代方案更有优势"
+          },
+          {
+            "text": "针对联排别墅，如果完成“比较溢价与可持续价值”后关键假设仍未确认，应重新评估当前结论。",
+            "title": "需要重新评估"
+          }
+        ],
+        "title": "当答案为“否”时",
+        "eyebrow": "需要进一步核查"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "已用当前资料核实位置溢价 · 遮挡风险 · 转售，关键数字、规则和文件不存在影响判断的实质缺口。",
+            "title": "核心信息已核实"
+          },
+          {
+            "text": "把相关费用、时间安排和交易条件纳入后，整体判断仍符合“溢价必须有可持续价值支撑”这一决策逻辑。",
+            "title": "完整条件仍然成立"
+          },
+          {
+            "text": "针对联排别墅，当前方案与买家的预算、用途、时间线和主要优先级保持一致。",
+            "title": "选择与目标匹配"
+          },
+          {
+            "text": "完成“比较溢价与可持续价值”后，溢价 · 遮挡 · 转售等主要风险仍处于可接受范围，且可信替代方案没有明显更优。",
+            "title": "主要风险仍可控"
+          }
+        ],
+        "title": "当答案为“是”时",
+        "eyebrow": "适合"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "针对联排别墅，重点比较位置溢价 · 遮挡风险 · 转售，并确保不同选项使用同一时间点和同一计算口径。",
+          "title": "位置溢价 · 遮挡风险 · 转售",
+          "eyebrow": "需要核查的内容"
+        },
+        {
+          "dark": false,
+          "text": "当溢价 · 遮挡 · 转售中的关键假设没有得到确认，或其影响足以改变成本、时间或退出结果时，风险会上升。",
+          "title": "溢价 · 遮挡 · 转售",
+          "eyebrow": "风险"
+        },
+        {
+          "dark": false,
+          "text": "下一步先比较溢价与可持续价值，再根据当前证据判断是否继续，而不是只依据营销口径或单一指标。",
+          "title": "比较溢价与可持续价值",
+          "eyebrow": "下一步"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI 可以根据你的优先级、约束条件和仍待确认的信息，把这份回答转化为针对具体情况的核查清单。",
+          "title": "核查你的具体情况",
+          "eyebrow": "AI 后续衔接"
+        }
+      ],
+      "cards_aria": "决策指南",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "主要风险集中在溢价 · 遮挡 · 转售。针对联排别墅，如果这些假设没有当前证据支持，或比较口径不一致，应在完成“比较溢价与可持续价值”之前避免把当前结论视为最终答案。",
+        "tags": [
+          "溢价",
+          "遮挡",
+          "转售",
+          "预算",
+          "用途"
+        ],
+        "title": "风险",
+        "eyebrow": "如果出现以下情况需谨慎"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "针对联排别墅，使用当前官方、项目或一手资料确认位置溢价，不要依赖旧挂牌、销售话术或宽泛市场假设。",
+            "title": "核查位置溢价"
+          },
+          {
+            "text": "把遮挡风险单独核对，并确认其计算口径、适用条件和时间点与其他选项一致。",
+            "title": "核查遮挡风险"
+          },
+          {
+            "text": "核实转售是否会改变总成本、可负担性、使用体验或未来退出条件。",
+            "title": "核查转售"
+          },
+          {
+            "text": "做决定前先比较溢价与可持续价值，并记录核查日期和来源；涉及动态信息时按“需要核查当前房源”重新确认。",
+            "title": "完成下一步核查"
+          }
+        ],
+        "title": "需要核查的内容",
+        "eyebrow": "决策清单"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/zh/ai-answers/how-to-check-view-premium-townhouses/",
+          "label": "如何判断景观溢价是否合理？"
+        },
+        {
+          "href": "/zh/ai-answers/how-to-check-floor-plan-townhouses/",
+          "label": "如何核查户型图？"
+        },
+        {
+          "href": "/zh/ai-answers/how-to-compare-unit-size-townhouses/",
+          "label": "如何比较单元面积？"
+        },
+        {
+          "href": "/zh/ai-answers/how-to-check-project-location-townhouses/",
+          "label": "如何核查项目位置？"
+        },
+        {
+          "href": "/zh/ai-answers/how-to-check-master-community-townhouses/",
+          "label": "如何评估大型综合社区？"
+        }
+      ],
+      "title": "继续查看",
+      "eyebrow": "后续页面",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "购买联排别墅时，应使用当前项目、市场和交易资料核实关键事实，并把成本、风险和可信替代方案放在同一基础上比较。",
+          "question": "如何判断滨水房产是否适合我？"
+        },
+        {
+          "answer": "核查这一问题时，重点确认位置溢价 · 遮挡风险 · 转售，并使用当前项目、市场或官方资料，而不是依赖过时信息或单一销售口径。",
+          "question": "如何判断景观溢价是否合理？"
+        },
+        {
+          "answer": "比较不同方案时，应统一成本、时间和风险口径，并特别关注溢价 · 遮挡 · 转售是否会改变最终判断。",
+          "question": "如何核查户型图？"
+        },
+        {
+          "answer": "凡涉及价格、房源、资格、规则或项目状态等动态信息，都应按照“需要核查当前房源”的要求重新核实，并记录来源和时间。",
+          "question": "如何比较单元面积？"
+        },
+        {
+          "answer": "最终决定前，先比较溢价与可持续价值；如果关键假设仍未确认，或可信替代方案更优，就不应仅凭营销材料或历史数据行动。",
+          "question": "如何评估项目位置？"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "AI 搜索问题",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "位置价值取决于实际通达性、配套、未来供应和买家需求。应结合当前现场、区域数据和真实可选房源进行核实。",
+      "items": [
+        {
+          "label": "背景",
+          "value": "联排别墅 · UAE"
+        },
+        {
+          "label": "核实重点",
+          "value": "位置溢价 · 遮挡风险 · 转售"
+        },
+        {
+          "label": "需要核查的来源",
+          "value": "官方社区/项目信息 · 当前市场证据"
+        },
+        {
+          "label": "实时核查",
+          "value": "当前社区和项目信息"
+        },
+        {
+          "label": "来源复核",
+          "value": "决策前再次核查"
+        }
+      ],
+      "title": "来源与核查",
+      "eyebrow": "核查说明",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "location_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "让 Primadom AI 将这份回答应用到你的联排别墅购房情境，结合你的目标、主要风险、位置溢价 · 遮挡风险 · 转售以及仍需确认的信息。",
+      "title": "想核查你的具体情况吗？",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "询问 Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "根据我的情况检查",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "申请回电",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "AI 回答后续表单",
+      "text": "Primadom AI 会将这份回答应用到你的联排别墅购房情境，重点核查位置溢价 · 遮挡风险 · 转售和仍需确认的交易信息。",
+      "title": "根据你的情况核查这份回答",
+      "fields": {
+        "name": "您的姓名",
+        "email": "电子邮箱",
+        "phone": "电话 / WhatsApp",
+        "comment": "已准备的需求"
+      },
+      "submit": "发送",
+      "comment": "请根据我的情况核查：如何判断滨水房产是否适合我？",
+      "eyebrow": "AI 后续衔接",
+      "success": "已发送",
+      "close_label": "关闭",
+      "block_status": "final",
+      "placeholders": {
+        "name": "姓名",
+        "email": "电子邮箱（可选）",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI 将房产问题转化为核查项、风险、后续页面和可直接交给顾问的需求。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "结论先行的搜索，连接真实房产决策",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, United Arab Emirates",
+      "subtitle": "房地产智能",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "social_aria": "社交媒体链接",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "预约通话"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "询问 AI"
+      }
+    }
+  }
+}

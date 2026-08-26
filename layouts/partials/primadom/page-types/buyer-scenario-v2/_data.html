@@ -9,6 +9,10 @@
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $buyerScenarioData = index $ruData "buyer_scenario_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $buyerScenarioData = index $zhData "buyer_scenario_pages" -}}
+{{- end -}}
 {{- $page := index $buyerScenarioData $slug -}}
 
 {{- if not $page -}}

@@ -1,0 +1,10 @@
+---
+title: "Maritime City 外籍买家房产选择"
+layout: "primadom-intent-page-v2"
+intent_slug: "expat-property-buyers-in-maritime-city"
+page_id: "pg_14ce7217d5c652e186b4b0e77a04"
+url: "/zh/intents/expat-property-buyers-in-maritime-city/"
+build:
+  render: always
+  list: never
+---

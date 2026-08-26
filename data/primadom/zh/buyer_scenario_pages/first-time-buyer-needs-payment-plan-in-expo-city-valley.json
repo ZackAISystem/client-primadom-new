@@ -1,0 +1,555 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_payment_plan_first_time_buyer_expo_city_valley_zh",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "zh",
+  "url_path": "/zh/buyer-scenarios/first-time-buyer-needs-payment-plan-in-expo-city-valley/",
+  "canonical_url_path": "/zh/buyer-scenarios/first-time-buyer-needs-payment-plan-in-expo-city-valley/",
+  "canonical_group_key": "scenario_district:payment_plan_first_time_buyer:expo-city-valley",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "expo-city-valley",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "回答",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "区域",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "流程",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "询问 AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "买家场景导航",
+      "cta_label": "检查场景",
+      "brand_href": "/zh/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/zh/",
+          "label": "首页"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/zh/buyer-scenarios/",
+          "label": "买家场景"
+        },
+        {
+          "key": "current",
+          "href": "/zh/buyer-scenarios/first-time-buyer-needs-payment-plan-in-expo-city-valley/",
+          "label": "需要付款计划的首次购房者 — Expo City Valley",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "面包屑导航"
+    },
+    "block_03_hero": {
+      "facts": [
+        "首次购房",
+        "Expo City Valley",
+        "公寓 · 联排别墅",
+        "低于 AED 3M",
+        "现金 · 分期 · 时间"
+      ],
+      "image": {
+        "alt": "需要付款计划的首次购房者 — Expo City Valley 房产搜索",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "需要付款计划的首次购房者 — Expo City Valley",
+      "subtitle": "在 Expo City Valley，首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。",
+      "facts_aria": "买家场景关键信息",
+      "section_id": "overview",
+      "visual_aria": "需要付款计划的首次购房者 — Expo City Valley 房产搜索视觉信息",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "比较 Expo City Valley 的“首次购房付款计划”房产选项",
+        "重点比较现金 · 分期 · 时间",
+        "哪些因素最可能改变我的选择？"
+      ],
+      "ai_aria": "向 Primadom AI 询问 Expo City Valley 的“首次购房付款计划”场景",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "比较 Expo City Valley 的“首次购房付款计划”房产选项",
+      "placeholder": "比较 Expo City Valley 的“首次购房付款计划”房产选项",
+      "voice_label": "语音搜索",
+      "block_status": "final",
+      "submit_label": "询问 AI",
+      "voice_status": "正在聆听…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "输入您的需求或重试",
+      "voice_button_label": "开始语音搜索",
+      "voice_error_status": "语音输入已暂停",
+      "voice_fallback_text": "此处不支持语音识别",
+      "voice_success_status": "明白了",
+      "voice_fallback_status": "语音模式"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "首次购房",
+        "Expo City Valley",
+        "付款计划",
+        "现金 · 分期 · 时间",
+        "询问 AI"
+      ],
+      "title": "最重要的因素",
+      "eyebrow": "买家指南",
+      "body_html": "<strong>Expo City Valley：首次购房付款计划</strong>，首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。",
+      "body_text": "在 Expo City Valley 评估“首次购房付款计划”场景时，首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "场景",
+          "value": "需要付款计划的首次购房者"
+        },
+        {
+          "label": "主要目标",
+          "value": "付款计划购房"
+        },
+        {
+          "label": "位置",
+          "value": "Expo City Valley"
+        },
+        {
+          "label": "房产类型",
+          "value": "公寓 · 联排别墅"
+        },
+        {
+          "label": "预算范围",
+          "value": "最高 AED 3M"
+        },
+        {
+          "label": "决策重点",
+          "value": "现金 · 分期 · 时间"
+        },
+        {
+          "label": "买家阶段",
+          "value": "融资 / 比较"
+        },
+        {
+          "label": "下一步",
+          "value": "比较完整付款计划"
+        }
+      ],
+      "title": "场景详情",
+      "eyebrow": "关键信息",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "本页面适合谁",
+        "eyebrow": "适合的买家",
+        "bad_items": [
+          "只根据单一卖点或最低价格做决定，而不核查具体房产和完整成本的买家",
+          "忽略现金、分期、时间等关键取舍的买家",
+          "不准备核查当前房产信息、交易条件或长期持有影响的买家"
+        ],
+        "bad_title": "可能不适合",
+        "good_items": [
+          "正在 Expo City Valley 评估“首次购房付款计划”场景的买家",
+          "希望把现金、分期、时间放在同一框架中比较的买家",
+          "适合首次购房、希望利用分阶段付款降低初期压力，同时需要完整看清未来现金承诺的买家。"
+        ],
+        "good_title": "适合"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "在 Expo City Valley，首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。",
+        "tags": [
+          "付款计划",
+          "现金流",
+          "前期现金",
+          "购房成本",
+          "时间表"
+        ],
+        "title": "需要考虑的事项",
+        "eyebrow": "决策逻辑"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "在 Expo City Valley 评估该场景时，应重点看现金 · 分期 · 时间，并确认区域是否支持实际生活或投资目标。",
+            "title": "Expo City Valley"
+          },
+          {
+            "text": "如果其他区域在预算、日常便利、房型或长期灵活性上更匹配，也应纳入比较。",
+            "title": "比较替代区域"
+          },
+          {
+            "text": "不要只看地图、面积或营销标签，应把真实通勤、使用方式和持续成本放在同一判断中。",
+            "title": "日常使用与长期适配"
+          },
+          {
+            "text": "先确认区域与买家核心需求匹配，再进入具体项目和单元比较。",
+            "title": "缩小范围前"
+          }
+        ],
+        "title": "区域背景",
+        "eyebrow": "相关区域"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "适合重视管理便利、楼宇设施和较低维护负担的买家，但仍要核查服务费、户型和具体楼宇品质。",
+            "title": "公寓"
+          },
+          {
+            "text": "适合需要更多私人空间和家庭使用面积的买家，但应同时考虑维护、社区布局和日常交通。",
+            "title": "联排别墅"
+          },
+          {
+            "text": "适合可以接受建设周期并利用分阶段付款的买家，但必须核查交付时间、合同条款和项目状态。",
+            "title": "期房"
+          },
+          {
+            "text": "适合希望尽快使用房产并核查实际成品的买家，应在成交前确认房屋状况和当前交易状态。",
+            "title": "现房"
+          }
+        ],
+        "title": "可比较的房产类型",
+        "eyebrow": "房产匹配度"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "按整个付款周期规划现金流，为后续分期、交易费用和时间变化预留缓冲，避免只看初始付款。",
+          "title": "先看完整预算",
+          "eyebrow": "预算逻辑"
+        },
+        {
+          "text": "核查首付款、每一阶段分期、交付前后现金需求、合同条款、额外购房成本和项目时间。",
+          "title": "按实际使用方式核查",
+          "eyebrow": "流程说明"
+        },
+        {
+          "text": "主要风险是初始付款可负担，但后续分期或交付时间与现金流不匹配。",
+          "title": "把主要风险提前看清",
+          "eyebrow": "风险"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI 可根据现金 · 分期 · 时间、预算和时间要求比较 Expo City Valley 的具体选项。",
+          "title": "用同一标准比较选项",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "场景决策说明",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "在 Expo City Valley 评估该场景时，主要风险是初始付款可负担，但后续分期或交付时间与现金流不匹配。",
+        "tags": [
+          "付款日期",
+          "前期现金",
+          "购房成本",
+          "交付付款",
+          "现金流"
+        ],
+        "title": "风险",
+        "eyebrow": "购买前检查"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "在比较具体房产前，先列出真正影响决定的需求、预算、时间和现金、分期、时间。",
+            "title": "明确必须条件"
+          },
+          {
+            "text": "按整个付款周期规划现金流，为后续分期、交易费用和时间变化预留缓冲，避免只看初始付款。",
+            "title": "核查完整成本"
+          },
+          {
+            "text": "核查首付款、每一阶段分期、交付前后现金需求、合同条款、额外购房成本和项目时间。",
+            "title": "核查具体资产"
+          },
+          {
+            "text": "在承诺资金前，确认当前可售情况、付款安排、交付或搬入时间，以及具体交易条款。",
+            "title": "确认时间与交易条件"
+          }
+        ],
+        "title": "文件与流程说明",
+        "eyebrow": "实操信息"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/zh/projects/golf-meadow/",
+            "meta": "Emaar Properties · Dubai South",
+            "label": "Golf Meadow"
+          },
+          {
+            "href": "/zh/projects/olympia-at-athlon/",
+            "meta": "Aldar Properties PJSC · Dubailand",
+            "label": "Olympia at Athlon"
+          },
+          {
+            "href": "/zh/projects/central-park-plaza/",
+            "meta": "Meraas Holding · City Walk",
+            "label": "Central Park Plaza"
+          },
+          {
+            "href": "/zh/projects/residences-du-port/",
+            "meta": "The Devmark Group · Dubai Marina",
+            "label": "Residences Du Port"
+          },
+          {
+            "href": "/zh/projects/rena/",
+            "meta": "Avenew Properties · Dubai Islands",
+            "label": "Rena"
+          }
+        ],
+        "title": "可比较的项目",
+        "eyebrow": "筛选入口"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "按整个付款周期规划现金流，为后续分期、交易费用和时间变化预留缓冲，避免只看初始付款。",
+        "tags": [
+          "首期付款",
+          "分期付款",
+          "购房成本",
+          "交付付款",
+          "现金缓冲"
+        ],
+        "title": "预算逻辑",
+        "eyebrow": "场景预算"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/zh/buyer-scenarios/low-down-payment-buyer/",
+          "label": "低首付款买家"
+        },
+        {
+          "href": "/zh/buyer-scenarios/off-plan-payment-plan-buyer/",
+          "label": "期房付款计划买家"
+        },
+        {
+          "href": "/zh/buyer-scenarios/budget-buyer-under-aed-2m/",
+          "label": "AED 2M 以下预算买家"
+        },
+        {
+          "href": "/zh/buyer-scenarios/first-dubai-property-under-aed-1m/",
+          "label": "AED 1M 以下首套迪拜房产买家"
+        }
+      ],
+      "title": "相关场景",
+      "eyebrow": "继续查看",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。",
+          "question": "在 Expo City Valley 考虑“首次购房付款计划”场景时，最重要的是什么？"
+        },
+        {
+          "answer": "适合首次购房、希望利用分阶段付款降低初期压力，同时需要完整看清未来现金承诺的买家。",
+          "question": "这种买家场景适合谁？"
+        },
+        {
+          "answer": "核查首付款、每一阶段分期、交付前后现金需求、合同条款、额外购房成本和项目时间。",
+          "question": "在 Expo City Valley 缩小选择范围前应核查什么？"
+        },
+        {
+          "answer": "按整个付款周期规划现金流，为后续分期、交易费用和时间变化预留缓冲，避免只看初始付款。",
+          "question": "这类购房应如何规划预算？"
+        },
+        {
+          "answer": "主要风险是初始付款可负担，但后续分期或交付时间与现金流不匹配。",
+          "question": "在 Expo City Valley 评估这类房产的主要风险是什么？"
+        }
+      ],
+      "title": "常见问题",
+      "eyebrow": "场景相关问题",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "对于 Expo City Valley 的需要付款计划的首次购房者，核查首付款、每一阶段分期、交付前后现金需求、合同条款、额外购房成本和项目时间。同时确认最新价格、可售情况和具体交易条件。",
+      "items": [
+        {
+          "label": "具体房产",
+          "value": "核查实际资产"
+        },
+        {
+          "label": "当前费用",
+          "value": "确认最新成本"
+        },
+        {
+          "label": "交易条件",
+          "value": "核查当前条款"
+        },
+        {
+          "label": "房产匹配度",
+          "value": "承诺前确认"
+        }
+      ],
+      "title": "来源与核查",
+      "eyebrow": "需要核查的内容",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "在 Expo City Valley 进一步比较具体房产前，首次购房使用付款计划时，应看完整付款时间表、首期现金、后续分期、购房费用和交付时间，而不只看低首付。Primadom AI 可帮助按同一标准整理选项和关键核查项。",
+      "title": "准备好核查 Expo City Valley 的“首次购房付款计划”场景了吗？",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "询问 Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "查看选项",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "申请回电",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "买家场景咨询表单",
+      "text": "请提供您在 Expo City Valley 的预算、时间安排和最重要的比较条件，顾问可据此更有针对性地讨论该场景。",
+      "title": "核查 Expo City Valley 的购房场景",
+      "fields": {
+        "name": "您的姓名",
+        "email": "电子邮箱",
+        "phone": "电话 / WhatsApp",
+        "comment": "已准备的需求"
+      },
+      "submit": "发送",
+      "comment": "请帮我比较 Expo City Valley 的“首次购房付款计划”房产选项",
+      "eyebrow": "AI 场景分析衔接",
+      "success": "已发送",
+      "close_label": "关闭",
+      "block_status": "final",
+      "placeholders": {
+        "name": "姓名",
+        "email": "电子邮箱地址",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "在同一页面比较 Expo City Valley 的需要付款计划的首次购房者：现金 · 分期 · 时间、预算、时间和长期持有成本。",
+      "brand": "Primadom AI",
+      "chips": [
+        "项目",
+        "区域",
+        "开发商",
+        "AI 搜索"
+      ],
+      "title": "用同一标准比较 Expo City Valley 的房产选择",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai，阿拉伯联合酋长国",
+      "subtitle": "房地产智能洞察",
+      "brand_url": "/zh/",
+      "copyright": "© Primadom AI",
+      "social_aria": "社交媒体链接",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "预约通话"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "询问 AI"
+      }
+    }
+  }
+}
