@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_apartments_dubai_production_city_es",
+  "page_type_id": "property_type_page",
+  "language_code": "es",
+  "url_path": "/es/property-types/apartments-in-dubai-production-city/",
+  "canonical_url_path": "/es/property-types/apartments-in-dubai-production-city/",
+  "canonical_group_key": "property_district:apartments:dubai-production-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-production-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Resumen",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Zonas",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Proyectos",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Navegación",
+      "cta_label": "Ver mis opciones",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "brand_display": "Primadom AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "property_types",
+          "href": "/es/property-types/",
+          "label": "Tipos de propiedad"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/dubai-production-city/",
+          "label": "Dubai Production City"
+        },
+        {
+          "key": "current",
+          "href": "/es/property-types/apartments-in-dubai-production-city/",
+          "label": "Apartamentos en Dubai Production City",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Tipo de propiedad: Apartamentos",
+        "Zona: Dubai Production City",
+        "Distribución + adecuación del edificio",
+        "Uso propio / inversión",
+        "Buscador con AI"
+      ],
+      "image": {
+        "alt": "Apartamentos en Dubai Production City",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Apartamentos en Dubai Production City",
+      "subtitle": "Guía práctica de apartamentos en Dubai Production City: distribución, calidad del edificio y adecuación de la ubicación, contexto de precios, opciones de proyectos y buscador con AI.",
+      "facts_aria": "Datos principales",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Información visual sobre apartamentos en Dubai Production City",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Preguntar a Primadom AI sobre apartamentos en Dubai Production City",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Pregunta sobre apartamentos en Dubai Production City, presupuesto o adecuación",
+      "placeholder": "Pregunta sobre apartamentos en Dubai Production City, presupuesto o adecuación",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Búsqueda por voz",
+      "click_action": "fill_input",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Buscar apartamentos en Dubai Production City para mi presupuesto",
+        "Comparar apartamentos por distribución, calidad del edificio, servicios, acceso y costes de propiedad",
+        "¿Qué debo comprobar al comparar apartamentos en Dubai Production City?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Modo de voz",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Apartamentos",
+        "Dubai Production City",
+        "Uso propio / inversión",
+        "Distribución + edificio",
+        "Verificación del proyecto"
+      ],
+      "title": "Resumen del tipo de propiedad",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Apartamentos en Dubai Production City</strong> se pueden comparar por distribución, calidad del edificio, servicios, acceso y costes de propiedad. Antes de decidir, verifica el proyecto concreto, la distribución, los costes recurrentes y las condiciones actuales.",
+      "body_text": "Apartamentos en Dubai Production City se pueden comparar por distribución, calidad del edificio, servicios, acceso y costes de propiedad. Antes de decidir, verifica el proyecto concreto, la distribución, los costes recurrentes y las condiciones actuales.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Zona",
+          "value": "Dubai Production City",
+          "fact_key": "area"
+        },
+        {
+          "label": "Mercado",
+          "value": "Dubai / EAU",
+          "fact_key": "market"
+        },
+        {
+          "label": "Páginas de proyectos vinculadas",
+          "value": "17 páginas de proyectos de la zona",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Intención del comprador",
+          "value": "Uso propio · inversión",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Filtros principales",
+          "value": "Distribución · edificio · gastos",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Mejor siguiente paso",
+          "value": "Comparar páginas de proyectos vinculadas",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Alcance de la comparación",
+          "value": "Proyectos · zonas · costes de propiedad",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Detalles del tipo de propiedad",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 17,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Para quién es adecuado",
+        "eyebrow": "Adecuación al comprador",
+        "bad_items": [
+          "Compradores que necesitan la privacidad o el espacio exterior de una villa",
+          "Compradores que no quieren comparar gastos de servicio, calidad del edificio y servicios compartidos",
+          "Compradores que comparan solo el precio anunciado e ignoran distribución, gastos y estado del proyecto"
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que equilibran distribución, calidad del edificio y coste total de propiedad",
+          "Usuarios finales o inversores que quieren una amplia oferta de tamaños de unidad y ubicaciones",
+          "Compradores que comparan coste total, eficiencia de la unidad y calidad del proyecto en Dubai Production City"
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Dubai Production City",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "value",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "apartments"
+      },
+      "property_logic": {
+        "body": "Compara los apartamentos por distribución útil, calidad del edificio, gastos de servicio, servicios comunes y ubicación dentro de la zona. En Dubai Production City, compara el coste total, la distribución útil y la calidad del proyecto, no solo el precio anunciado. Confirma la disponibilidad actual y, cuando corresponda, los costes recurrentes, las condiciones de pago y los detalles de entrega antes de decidir.",
+        "tags": [
+          "Distribución",
+          "Calidad del edificio",
+          "Gastos de servicio",
+          "Servicios",
+          "Control de valor y coste"
+        ],
+        "title": "Lógica del tipo de propiedad",
+        "eyebrow": "Qué comparar"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Para apartamentos en Dubai Production City, compara distribución, calidad del edificio, servicios, acceso y costes de propiedad.",
+            "route": "/es/property-types/apartments-in-dubai-production-city/",
+            "buyer_fit": "Contexto de la zona actual",
+            "relationship": "current_area",
+            "district_name": "Dubai Production City",
+            "district_slug": "dubai-production-city"
+          },
+          {
+            "text": "Compara Majan con Dubai Production City como alternativa en la misma ciudad, revisando distribución, calidad del edificio, servicios, acceso y costes de propiedad.",
+            "route": "/es/property-types/apartments-in-majan/",
+            "buyer_fit": "Alternativa en la misma ciudad",
+            "relationship": "related_area",
+            "district_name": "Majan",
+            "district_slug": "majan"
+          },
+          {
+            "text": "Compara Dubai Science Park con Dubai Production City como alternativa en la misma ciudad, revisando distribución, calidad del edificio, servicios, acceso y costes de propiedad.",
+            "route": "/es/property-types/apartments-in-dubai-science-park/",
+            "buyer_fit": "Alternativa en la misma ciudad",
+            "relationship": "related_area",
+            "district_name": "Dubai Science Park",
+            "district_slug": "dubai-science-park"
+          },
+          {
+            "text": "Compara City of Arabia con Dubai Production City como alternativa en la misma ciudad, revisando distribución, calidad del edificio, servicios, acceso y costes de propiedad.",
+            "route": "/es/property-types/apartments-in-city-of-arabia/",
+            "buyer_fit": "Alternativa en la misma ciudad",
+            "relationship": "related_area",
+            "district_name": "City of Arabia",
+            "district_slug": "city-of-arabia"
+          }
+        ],
+        "title": "Zonas relevantes",
+        "eyebrow": "Opciones relacionadas"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "El precio de apartamentos en Dubai Production City depende de la calidad del edificio, la planta, la distribución útil, las vistas, el aparcamiento y los gastos de servicio. El espacio útil, la calidad del proyecto y los gastos recurrentes importan más que el precio inicial más bajo. Incluye los gastos recurrentes, las condiciones de pago y el estado del proyecto al comparar el coste total de propiedad. Comprueba precios y condiciones actuales antes de fijar un presupuesto.",
+        "tags": [
+          "Distribución",
+          "Calidad del edificio",
+          "Gastos de servicio",
+          "Aparcamiento",
+          "Verificación de precios"
+        ],
+        "title": "Cómo varían los precios",
+        "eyebrow": "Realidad de los precios"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "value",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 4,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 0,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "apartments",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "dubai-production-city",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 17
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "majan",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 31
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-science-park",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 14
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "city-of-arabia",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 9
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 0,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Para apartamentos en Dubai Production City, compara la calidad del proyecto, el coste de propiedad, la profundidad de la demanda y la competencia en reventa.",
+          "title": "Comparar el coste con la profundidad de la demanda",
+          "eyebrow": "Lógica de inversión"
+        },
+        {
+          "text": "Compara la distribución, el acceso, los servicios, la gestión del edificio y los desplazamientos diarios con la forma en que el comprador utilizará la vivienda.",
+          "title": "Ajustar la vivienda al uso diario",
+          "eyebrow": "Uso cotidiano"
+        },
+        {
+          "text": "Antes de decidir, compara el desarrollador, el estado del proyecto, el plazo de entrega, la distribución, los gastos y el coste total de propiedad.",
+          "title": "El atractivo inicial no es suficiente",
+          "eyebrow": "Antes de elegir"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede comparar apartamentos en Dubai Production City por objetivo del comprador, estado del proyecto, condiciones de pago, costes de propiedad y prioridades de uso diario.",
+          "title": "Convertir esta página en una selección",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Criterios de decisión",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_apartments_dubai_production_city_en",
+        "context_focus": "value",
+        "district_slug": "dubai-production-city",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/es/property-types/apartments-in-dubai-production-city/",
+        "property_type_slug": "apartments",
+        "semantic_profile_key": "apartments",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/es/projects/samana-portofino/",
+            "meta": "Dubai Production City",
+            "label": "Samana Portofino"
+          },
+          {
+            "href": "/es/projects/elm-at-park-five/",
+            "meta": "Dubai Production City",
+            "label": "Elm at Park Five"
+          },
+          {
+            "href": "/es/projects/ember-park-five/",
+            "meta": "Dubai Production City",
+            "label": "Ember Park Five"
+          },
+          {
+            "href": "/es/projects/samana-sky-views/",
+            "meta": "Dubai Production City",
+            "label": "Samana Sky Views"
+          },
+          {
+            "href": "/es/projects/midtown-noor/",
+            "meta": "Dubai Production City",
+            "label": "Midtown Noor"
+          }
+        ],
+        "title": "Proyectos recomendados",
+        "eyebrow": "Opciones de proyectos"
+      },
+      "pros_cons": {
+        "title": "Ventajas y desventajas",
+        "eyebrow": "Comprobación de viabilidad",
+        "cons_items": [
+          "La calidad del edificio, la gestión y los gastos de servicio pueden variar considerablemente",
+          "En Dubai Production City, un precio más bajo puede implicar compromisos en acabados o en la oferta futura.",
+          "La comparación debe hacerse a nivel de proyecto y unidad, no solo por tipología"
+        ],
+        "cons_title": "Desventajas",
+        "pros_items": [
+          "Amplia oferta entre distintas distribuciones, edificios y niveles de precio",
+          "En Dubai Production City, conviene comparar el precio anunciado con la calidad de la distribución y los costes de propiedad.",
+          "La comparación entre proyectos permite valorar mejor ubicación, distribución y costes"
+        ],
+        "pros_title": "Ventajas"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_apartments_dubai_production_city_en",
+        "district_slug": "dubai-production-city",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "value",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 5,
+            "match_level": "same_district_strong_type",
+            "project_name": "Samana Portofino",
+            "project_slug": "samana-portofino",
+            "project_route": "/es/projects/samana-portofino/",
+            "developer_name": "Samana Developers",
+            "developer_slug": "samana-developers",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 2,
+            "type_score": 5,
+            "match_level": "same_district_strong_type",
+            "project_name": "Elm at Park Five",
+            "project_slug": "elm-at-park-five",
+            "project_route": "/es/projects/elm-at-park-five/",
+            "developer_name": "Deyaar Development",
+            "developer_slug": "deyaar-development",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 3,
+            "type_score": 5,
+            "match_level": "same_district_strong_type",
+            "project_name": "Ember Park Five",
+            "project_slug": "ember-park-five",
+            "project_route": "/es/projects/ember-park-five/",
+            "developer_name": "Deyaar Development",
+            "developer_slug": "deyaar-development",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 4,
+            "type_score": 5,
+            "match_level": "same_district_strong_type",
+            "project_name": "Samana Sky Views",
+            "project_slug": "samana-sky-views",
+            "project_route": "/es/projects/samana-sky-views/",
+            "developer_name": "Samana Developers",
+            "developer_slug": "samana-developers",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          },
+          {
+            "rank": 5,
+            "type_score": 5,
+            "match_level": "same_district_strong_type",
+            "project_name": "Midtown Noor",
+            "project_slug": "midtown-noor",
+            "project_route": "/es/projects/midtown-noor/",
+            "developer_name": "Deyaar Development",
+            "developer_slug": "deyaar-development",
+            "location_score": 5,
+            "project_district_name": "Dubai Production City",
+            "project_district_slug": "dubai-production-city"
+          }
+        ],
+        "canonical_url_path": "/es/property-types/apartments-in-dubai-production-city/",
+        "property_type_slug": "apartments",
+        "semantic_profile_key": "apartments",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/es/property-types/studios-in-dubai-production-city/",
+          "label": "Estudios en Dubai Production City"
+        },
+        {
+          "href": "/es/property-types/one-bedroom-apartments-in-dubai-production-city/",
+          "label": "Apartamentos de 1 dormitorio en Dubai Production City"
+        },
+        {
+          "href": "/es/property-types/two-bedroom-apartments-in-dubai-production-city/",
+          "label": "Apartamentos de 2 dormitorios en Dubai Production City"
+        },
+        {
+          "href": "/es/property-types/three-bedroom-apartments-in-dubai-production-city/",
+          "label": "Apartamentos de 3 dormitorios en Dubai Production City"
+        }
+      ],
+      "title": "Tipos de propiedad similares",
+      "eyebrow": "Opciones relacionadas",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "Studios in Dubai Production City",
+            "target_route": "/es/property-types/studios-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "studio"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Dubai Production City",
+            "target_route": "/es/property-types/one-bedroom-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "2 Bedroom Apartments in Dubai Production City",
+            "target_route": "/es/property-types/two-bedroom-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "two_bedroom"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1315,
+            "target_label": "Three Bedroom Apartments in Dubai Production City",
+            "target_route": "/es/property-types/three-bedroom-apartments-in-dubai-production-city/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 420,
+            "target_profile_family": "three_bedroom"
+          }
+        ],
+        "source_route": "/es/property-types/apartments-in-dubai-production-city/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Al comparar apartamentos en Dubai Production City, céntrate en distribución, calidad del edificio, servicios, acceso y costes de propiedad. Verifica el proyecto concreto, la distribución, los costes recurrentes y las condiciones actuales antes de decidir.",
+          "question": "¿Qué deberían saber los compradores sobre apartamentos en Dubai Production City?"
+        },
+        {
+          "answer": "En Dubai Production City, esta página puede ser adecuada para compradores que equilibran distribución, calidad del edificio y coste total de propiedad. También puede ser relevante para usuarios finales o inversores que quieren una amplia oferta de tamaños de unidad y ubicaciones. La elección final debe reflejar el espacio útil, la calidad del edificio y el coste total de propiedad.",
+          "question": "¿Qué compradores pueden considerar apartamentos en Dubai Production City una opción adecuada?"
+        },
+        {
+          "answer": "Ventaja clave: Amplia oferta entre distintas distribuciones, edificios y niveles de precio. Compromiso clave: La calidad del edificio, la gestión y los gastos de servicio pueden variar considerablemente. En Dubai Production City, conviene comparar el precio anunciado con la calidad de la distribución y los costes de propiedad. Otra consideración local es que un precio más bajo puede implicar compromisos en acabados o en la oferta futura.",
+          "question": "¿Qué compromisos conviene valorar al comparar apartamentos en Dubai Production City?"
+        },
+        {
+          "answer": "Los proyectos que se muestran para comparar en esta página incluyen Samana Portofino, Elm at Park Five y Ember Park Five. Los compradores también pueden comparar estudios en Dubai Production City y apartamentos de 1 dormitorio en Dubai Production City para valorar un formato de propiedad diferente en el mismo mercado o en uno cercano. Estos enlaces sirven únicamente para navegar; no constituyen un ranking ni confirman la disponibilidad actual de unidades.",
+          "question": "¿Qué pueden comparar los compradores junto con apartamentos en Dubai Production City?"
+        },
+        {
+          "answer": "Los precios, la disponibilidad de unidades, los gastos, los planes de pago y los detalles de entrega pueden cambiar. Para apartamentos en Dubai Production City, confirma la distribución, la superficie interior, el estado del edificio, los gastos de servicio, el estado de la unidad y las condiciones de pago con los materiales oficiales del desarrollador y las comprobaciones actuales del asesor. Primadom AI puede organizar la comparación, pero las condiciones comerciales vigentes deben verificarse antes de decidir.",
+          "question": "¿Cómo deberían verificar los compradores los precios y la disponibilidad de apartamentos en Dubai Production City?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas sobre el tipo de propiedad",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "value",
+        "semantic_profile_key": "apartments",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "La información sobre apartamentos en Dubai Production City debe utilizarse como guía de comparación, no como una oferta en tiempo real. Antes de decidir, confirma la distribución, la superficie útil, el estado del edificio y los gastos recurrentes, el precio y la disponibilidad actuales, las condiciones de pago, la entrega o finalización y el coste total de propiedad con el desarrollador o un asesor autorizado.",
+      "items": [
+        {
+          "label": "Detalles de la propiedad",
+          "value": "Comprobar distribución, superficie y datos del edificio"
+        },
+        {
+          "label": "Precio y disponibilidad",
+          "value": "Confirmar condiciones actuales de la unidad"
+        },
+        {
+          "label": "Gastos y costes de propiedad",
+          "value": "Revisar los costes recurrentes de propiedad"
+        },
+        {
+          "label": "Pago y entrega",
+          "value": "Verificar estado, fechas y condiciones contractuales"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Antes de decidir",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Pide a Primadom AI que compare apartamentos en Dubai Production City por distribución, proyecto, ubicación, presupuesto, costes de propiedad y objetivo del comprador, prestando atención al uso práctico y el coste total de propiedad, y después revisa las opciones adecuadas con un asesor.",
+      "title": "¿Buscas apartamentos en Dubai Production City?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Encontrar opciones adecuadas",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "value",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "apartments",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulario de consulta sobre el tipo de propiedad",
+      "text": "Comparte tus preferencias para apartamentos en Dubai Production City. Primadom AI organizará la solicitud en torno a distribución, calidad del edificio, servicios, acceso y costes de propiedad antes de que la revise un asesor.",
+      "title": "Encontrar apartamentos en Dubai Production City",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email (opcional)",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Busco opciones adecuadas de apartamentos en Dubai Production City.",
+      "eyebrow": "Continuar la selección con AI",
+      "success": "Enviado",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Cerrar",
+      "source_meta": {
+        "source_route": "/es/property-types/apartments-in-dubai-production-city/",
+        "source_page_id": "page_property_district_apartments_dubai_production_city_en",
+        "shortlist_claim": false,
+        "context_focus_key": "value",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "apartments",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Nombre",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI ayuda a los compradores a comparar apartamentos en Dubai Production City por formato de propiedad, proyecto, ubicación, costes de propiedad y adecuación práctica antes de hablar con un asesor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Apartamentos en Dubai Production City, con enlaces a proyectos y escenarios de comprador",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/es/property-types/apartments-in-dubai-production-city/",
+        "source_page_id": "page_property_district_apartments_dubai_production_city_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "value",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "apartments",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

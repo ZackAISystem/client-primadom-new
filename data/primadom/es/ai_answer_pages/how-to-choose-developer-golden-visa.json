@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_6586a26f5f204cd24321150012bb",
+  "page_type_id": "ai_answer_page",
+  "language_code": "es",
+  "url_path": "/es/ai-answers/how-to-choose-developer-golden-visa/",
+  "canonical_url_path": "/es/ai-answers/how-to-choose-developer-golden-visa/",
+  "canonical_group_key": "ai_answer:how-to-choose-developer:context:golden-visa",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-choose-developer",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Comprobaciones",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Riesgos",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navegación de respuestas de AI",
+      "cta_label": "Revisar mi caso",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/es/ai-answers/",
+          "label": "Respuestas de AI"
+        },
+        {
+          "key": "current",
+          "href": "/es/ai-answers/how-to-choose-developer-golden-visa/",
+          "label": "¿Cómo elegir un desarrollador? — Golden Visa",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Golden Visa",
+        "Desarrollador",
+        "Desarrollador",
+        "Entregas",
+        "Verificación"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "¿Cómo elegir un desarrollador? — Golden Visa",
+      "subtitle": "Analiza esta cuestión cuando la Golden Visa forma parte del objetivo de compra, prestando atención a historial, proyectos entregados, calidad, documentación, capacidad de ejecución y comportamiento del desarrollador antes de decidir.",
+      "facts_aria": "Puntos clave de la respuesta",
+      "section_id": "hero",
+      "visual_aria": "Visual de decisión inmobiliaria para ¿Cómo elegir un desarrollador? — Golden Visa",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Explícame qué debo comprobar antes de decidir",
+        "Muéstrame qué detalles importan más cuando la Golden Visa forma parte del objetivo de compra",
+        "Compara las alternativas y los riesgos relevantes para mi caso"
+      ],
+      "ai_aria": "Hacer una pregunta de seguimiento a Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Ayúdame a revisar esta cuestión cuando la Golden Visa forma parte del objetivo de compra",
+      "placeholder": "Ayúdame a revisar esta cuestión cuando la Golden Visa forma parte del objetivo de compra",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Elección de desarrollador",
+        "Golden Visa",
+        "Historial",
+        "Entregas",
+        "Documentos"
+      ],
+      "title": "Respuesta directa",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>La elección debe partir del objetivo y de una comparación con criterios verificables y alternativas equivalentes.</strong> Evalúa al desarrollador con evidencia verificable: historial de entregas, proyectos comparables, documentación y capacidad para ejecutar el proyecto concreto. Cuando la Golden Visa forma parte del objetivo de compra, confirma los datos que puedan cambiar antes de reservar, firmar o transferir fondos.",
+      "body_text": "La elección debe partir del objetivo y de una comparación con criterios verificables y alternativas equivalentes. Evalúa al desarrollador con evidencia verificable: historial de entregas, proyectos comparables, documentación y capacidad para ejecutar el proyecto concreto. Cuando la Golden Visa forma parte del objetivo de compra, confirma los datos que puedan cambiar antes de reservar, firmar o transferir fondos.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Pregunta",
+          "value": "¿Cómo elegir un desarrollador? — Golden Visa"
+        },
+        {
+          "label": "Contexto",
+          "value": "Golden Visa"
+        },
+        {
+          "label": "Mercado",
+          "value": "EAU"
+        },
+        {
+          "label": "Decisión",
+          "value": "Evaluación del desarrollador"
+        },
+        {
+          "label": "Comprobaciones principales",
+          "value": "Historial · Entregas · Documentos"
+        },
+        {
+          "label": "Riesgo principal",
+          "value": "Confiar en reputación sin evidencia del proyecto"
+        },
+        {
+          "label": "Mejor siguiente paso",
+          "value": "Revisar historial y proyecto actual"
+        },
+        {
+          "label": "Verificación",
+          "value": "Requiere una comprobación actual"
+        }
+      ],
+      "title": "Detalles de la respuesta",
+      "topic": "Elección de desarrollador",
+      "market": "EAU",
+      "context": "Golden Visa",
+      "eyebrow": "Datos clave",
+      "question": "¿Cómo elegir un desarrollador?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Los datos o documentos clave sobre elección de desarrollador siguen sin verificarse.",
+            "title": "Faltan datos actuales"
+          },
+          {
+            "text": "El riesgo aumenta cuando la decisión se apoya solo en marca o marketing y no en entregas verificables, documentos y ejecución del proyecto actual.",
+            "title": "El riesgo no compensa"
+          },
+          {
+            "text": "Una alternativa comparable ofrece un mejor equilibrio de coste, claridad, calendario o riesgo para tu objetivo.",
+            "title": "Hay una alternativa más sólida"
+          },
+          {
+            "text": "Cuando se evalúa la Golden Visa, revisa la decisión si una suposición importante sigue sin confirmarse o aparece una alternativa más adecuada.",
+            "title": "Conviene revisar el conjunto"
+          }
+        ],
+        "title": "Cuando la respuesta es «no»",
+        "eyebrow": "Requiere más comprobaciones"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Los datos y documentos críticos sobre elección de desarrollador están actualizados y son coherentes.",
+            "title": "Los datos están verificados"
+          },
+          {
+            "text": "El coste total y las obligaciones siguen siendo asumibles después de incluir las partidas y condiciones relevantes.",
+            "title": "El coste total encaja"
+          },
+          {
+            "text": "Las características reales de la opción responden al uso, horizonte y prioridades definidos para la compra.",
+            "title": "La opción encaja con el objetivo"
+          },
+          {
+            "text": "Cuando se evalúa la Golden Visa, la conclusión sigue siendo razonable después de considerar riesgos y alternativas realistas.",
+            "title": "El conjunto sigue funcionando"
+          }
+        ],
+        "title": "Cuando la respuesta es «sí»",
+        "eyebrow": "Adecuado"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Compara proyectos terminados, fechas de entrega y calidad con lo prometido originalmente.",
+          "title": "Historial · Entregas · Documentos",
+          "eyebrow": "Qué comprobar"
+        },
+        {
+          "dark": false,
+          "text": "El riesgo aumenta cuando la decisión se apoya solo en marca o marketing y no en entregas verificables, documentos y ejecución del proyecto actual.",
+          "title": "Ejecución",
+          "eyebrow": "Riesgo"
+        },
+        {
+          "dark": false,
+          "text": "Contrasta al desarrollador con otros que operen en un segmento y producto similares.",
+          "title": "Revisar historial y proyecto actual",
+          "eyebrow": "Siguiente paso"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede convertir esta respuesta en una lista de comprobación adaptada a tus prioridades, restricciones y puntos pendientes de confirmar.",
+          "title": "Revisar mi caso",
+          "eyebrow": "Continuar con AI"
+        }
+      ],
+      "cards_aria": "Orientación para la decisión",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "El riesgo aumenta cuando la decisión se apoya solo en marca o marketing y no en entregas verificables, documentos y ejecución del proyecto actual. Cuando se evalúa la Golden Visa, utiliza información actual y evita convertir una estimación o promesa comercial en un dato confirmado.",
+        "tags": [
+          "Historial",
+          "Entrega",
+          "Calidad",
+          "Documentos",
+          "Ejecución"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Ten cuidado si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Compara proyectos terminados, fechas de entrega y calidad con lo prometido originalmente.",
+            "title": "Revisar proyectos entregados"
+          },
+          {
+            "text": "Comprueba estado, documentación, contratistas, hitos y cualquier información pública relevante del proyecto concreto.",
+            "title": "Examinar el proyecto actual"
+          },
+          {
+            "text": "No sustituyas la verificación por reputación, marketing o el tamaño de la cartera.",
+            "title": "Separar marca y evidencia"
+          },
+          {
+            "text": "Contrasta al desarrollador con otros que operen en un segmento y producto similares.",
+            "title": "Comparar con alternativas"
+          }
+        ],
+        "title": "Qué comprobar",
+        "eyebrow": "Lista de comprobación para decidir"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/es/ai-answers/how-to-check-developer-golden-visa/",
+          "label": "¿Cómo comprobar un desarrollador?"
+        },
+        {
+          "href": "/es/ai-answers/how-to-check-developer-track-record-golden-visa/",
+          "label": "¿Cómo comprobar el historial de un desarrollador?"
+        },
+        {
+          "href": "/es/ai-answers/how-to-check-live-availability-golden-visa/",
+          "label": "¿Cómo comprobar la disponibilidad actual?"
+        },
+        {
+          "href": "/es/ai-answers/what-questions-to-ask-developer-golden-visa/",
+          "label": "¿Qué preguntas debo hacer al desarrollador?"
+        },
+        {
+          "href": "/es/ai-answers/how-to-check-handover-date-golden-visa/",
+          "label": "¿Cómo comprobar la fecha de entrega?"
+        }
+      ],
+      "title": "Seguir explorando",
+      "eyebrow": "Siguientes páginas",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "La elección debe partir del objetivo y de una comparación con criterios verificables y alternativas equivalentes. Evalúa al desarrollador con evidencia verificable: historial de entregas, proyectos comparables, documentación y capacidad para ejecutar el proyecto concreto.",
+          "question": "¿Cómo elegir un desarrollador?"
+        },
+        {
+          "answer": "Compara proyectos terminados, fechas de entrega y calidad con lo prometido originalmente.",
+          "question": "¿Cómo comprobar un desarrollador?"
+        },
+        {
+          "answer": "Comprueba estado, documentación, contratistas, hitos y cualquier información pública relevante del proyecto concreto.",
+          "question": "¿Cómo comprobar el historial de un desarrollador?"
+        },
+        {
+          "answer": "El riesgo aumenta cuando la decisión se apoya solo en marca o marketing y no en entregas verificables, documentos y ejecución del proyecto actual.",
+          "question": "¿Cómo comprobar la disponibilidad actual?"
+        },
+        {
+          "answer": "El siguiente paso práctico es revisar historial y proyecto actual y volver a comprobar cualquier dato que pueda cambiar antes de actuar.",
+          "question": "¿Qué preguntas debo hacer al desarrollador?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas para búsqueda con AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "El estado del proyecto, los términos de pago, la entrega y otras condiciones específicas pueden cambiar. Utiliza esta página como orientación y vuelve a comprobar la documentación vigente del proyecto y las condiciones contractuales antes de actuar.",
+      "items": [
+        {
+          "label": "Contexto",
+          "value": "EAU"
+        },
+        {
+          "label": "Enfoque de verificación",
+          "value": "Historial · Entregas · Documentos"
+        },
+        {
+          "label": "Fuentes que comprobar",
+          "value": "Documentos actuales del proyecto · contrato · información del desarrollador"
+        },
+        {
+          "label": "Comprobación actual",
+          "value": "Estado, términos, pagos y entrega actuales"
+        },
+        {
+          "label": "Revisión de fuentes",
+          "value": "Volver a comprobar antes de decidir"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Notas de verificación",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "project_terms",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Pide a Primadom AI que aplique esta respuesta sobre elección de desarrollador a tu compra vinculada a una posible Golden Visa, revisando historial, proyectos entregados, calidad, documentación, capacidad de ejecución y comportamiento del desarrollador. Confirma también los datos que todavía puedan cambiar antes de decidir.",
+      "title": "¿Quieres aplicar esta respuesta a tu caso?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Revisar mi caso",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulario de seguimiento de una respuesta de AI",
+      "text": "Primadom AI aplicará esta respuesta a tu compra vinculada a una posible Golden Visa, centrando la revisión en historial, proyectos entregados, calidad, documentación, capacidad de ejecución y comportamiento del desarrollador y en los puntos que deben confirmarse antes de continuar.",
+      "title": "Aplicar esta respuesta a tu caso",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Quiero aplicar esta respuesta sobre elección de desarrollador a mi caso.",
+      "eyebrow": "Continuar con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Email (opcional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI convierte preguntas sobre propiedades en comprobaciones, riesgos, siguientes páginas y solicitudes listas para un asesor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Búsqueda con respuesta directa, conectada con decisiones inmobiliarias reales",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

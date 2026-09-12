@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_waterfront_apartment_buyer_palm_jebel_ali_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/waterfront-apartment-buyer-in-palm-jebel-ali/",
+  "canonical_url_path": "/ar/buyer-scenarios/waterfront-apartment-buyer-in-palm-jebel-ali/",
+  "canonical_group_key": "scenario_district:waterfront_apartment_buyer:palm-jebel-ali",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "palm-jebel-ali",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/palm-jebel-ali/",
+          "label": "Palm Jebel Ali"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/waterfront-apartment-buyer-in-palm-jebel-ali/",
+          "label": "مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "شقة على الواجهة المائية",
+        "Palm Jebel Ali",
+        "شقق",
+        "AED 2.5M+",
+        "واجهة مائية تحقق"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+      "subtitle": "قارن الخيارات في Palm Jebel Ali مع التركيز على الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Palm Jebel Ali وفق الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية",
+        "تحقق من الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في شراء شقة على الواجهة المائية؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+      "placeholder": "قارن خيارات مشتري شقة على الواجهة المائية في Palm Jebel Ali",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "شقة على الواجهة المائية",
+        "Palm Jebel Ali",
+        "اختيار الوحدة",
+        "الوصول · الرسوم · الصيانة",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali</strong>، ركّز على الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية بدل الاعتماد على عامل واحد فقط. اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali، ركّز على الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية بدل الاعتماد على عامل واحد فقط. اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري شقة على الواجهة المائية"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "شقة على الواجهة المائية"
+        },
+        {
+          "label": "الموقع",
+          "value": "Palm Jebel Ali"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "AED 2.5M+"
+        },
+        {
+          "label": "محور القرار",
+          "value": "الوصول · الرسوم · الصيانة"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "مقارنة نمط الحياة"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "تحقق من ملاءمة الواجهة المائية"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار شراء شقة على الواجهة المائية اعتمادًا على عامل واحد مع تجاهل الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية.",
+          "المشترون الذين لا يريدون مراجعة الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل دفع علاوة لمجرد وصف «واجهة مائية» من دون التحقق من الإطلالة والوصول والرسوم على مستوى الوحدة."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط في Palm Jebel Ali.",
+          "المشترون الذين يريدون مقارنة الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Palm Jebel Ali، قارن الخيارات وفق الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "ملاءمة الواجهة المائية",
+          "التوقعات",
+          "سهولة الوصول اليومية",
+          "خدمات تكاليف",
+          "جاذبية إعادة البيع"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Palm Jebel Ali، قيّم المنطقة وفق مدى دعمها لـ اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Palm Jebel Ali"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية في واقع الواجهة المائية قبل تضييق الاختيار.",
+            "title": "واقع الواجهة المائية"
+          },
+          {
+            "text": "ضيّق نطاق المناطق فقط بعد التحقق من الإطلالة المحددة وسهولة الوصول والمخطط والرسوم المتكررة.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن شقق أكبر من حيث الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "شقق أكبر"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث الإطلالة والوصول والخصوصية ورسوم المبنى وجودة الوحدة والقيمة الفعلية للواجهة المائية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "أضف علاوة الموقع ورسوم الخدمات والصيانة والتأثيث إلى سعر الشقة عند المقارنة.",
+          "title": "اختبر ملاءمة شراء شقة على الواجهة المائية",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Palm Jebel Ali، قارن الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى دفع علاوة لمجرد وصف «واجهة مائية» من دون التحقق من الإطلالة والوصول والرسوم على مستوى الوحدة.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Palm Jebel Ali باستخدام المعايير نفسها: الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Palm Jebel Ali، تشمل المخاطر الرئيسية دفع علاوة لمجرد وصف «واجهة مائية» من دون التحقق من الإطلالة والوصول والرسوم على مستوى الوحدة. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "موقع على الواجهة المائية",
+          "أدلة الإطلالة",
+          "تكاليف المبنى",
+          "الوصول",
+          "إعادة البيع"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات شراء شقة على الواجهة المائية"
+          },
+          {
+            "text": "أضف علاوة الموقع ورسوم الخدمات والصيانة والتأثيث إلى سعر الشقة عند المقارنة.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "تحقق في Palm Jebel Ali من سهولة الوصول والخصوصية والإطلالة الخاصة بالشقة المحددة، لأن هذه العناصر قد تختلف بدرجة كبيرة داخل المبنى أو المشروع نفسه.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "حدّد ما إذا كانت علاوة الواجهة المائية منطقية لاستخدام المشتري الشخصي، مع النظر بشكل منفصل إلى كيفية تقييم مشتري آخر للشقة نفسها لاحقًا.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/palm-jebel-ali-frond-b/",
+            "meta": "Nakheel · Palm Jebel Ali",
+            "label": "Palm Jebel Ali Frond B"
+          },
+          {
+            "href": "/ar/projects/the-eden-at-sobha-central/",
+            "meta": "Sobha Realty · Palm Jebel Ali",
+            "label": "The Eden at Sobha Central"
+          },
+          {
+            "href": "/ar/projects/bellatrix-hotel/",
+            "meta": "Bellatrix Development · Palm Jebel Ali",
+            "label": "Bellatrix Hotel"
+          },
+          {
+            "href": "/ar/projects/equiti-gate/",
+            "meta": "Refine Development · Palm Jebel Ali",
+            "label": "Equiti Gate"
+          },
+          {
+            "href": "/ar/projects/wares-jebel-ali-azizi/",
+            "meta": "Azizi Developments · Palm Jebel Ali",
+            "label": "Wares Jebel Ali Azizi"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "أضف علاوة الموقع ورسوم الخدمات والصيانة والتأثيث إلى سعر الشقة عند المقارنة. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "سعر الشراء",
+          "تكاليف الشراء",
+          "رسوم الخدمات",
+          "التأثيث",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/waterfront-lifestyle-buyer-in-palm-jebel-ali/",
+          "label": "مشتري يركز على نمط الحياة على الواجهة المائية في Palm Jebel Ali"
+        },
+        {
+          "href": "/ar/buyer-scenarios/luxury-sea-view-buyer-aed-10m-plus-in-palm-jebel-ali/",
+          "label": "مشتري عقار فاخر بإطلالة بحرية بميزانية AED 10M+ في Palm Jebel Ali"
+        },
+        {
+          "href": "/ar/buyer-scenarios/international-second-home-near-the-beach-in-palm-jebel-ali/",
+          "label": "منزل ثانٍ دولي بالقرب من الشاطئ في Palm Jebel Ali"
+        },
+        {
+          "href": "/ar/buyer-scenarios/rental-yield-apartment-investor-in-palm-jebel-ali/",
+          "label": "مستثمر شقق يقيّم العائد الإيجاري في Palm Jebel Ali"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Palm Jebel Ali، ركّز على الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية. اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali؟"
+        },
+        {
+          "answer": "في Palm Jebel Ali، يناسب المشترين الذين يريدون اختيار شقة على الواجهة المائية بناءً على الاستخدام الفعلي والتكاليف لا الوصف فقط ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري شقة على الواجهة المائية في Palm Jebel Ali؟"
+        },
+        {
+          "answer": "في Palm Jebel Ali، تحقق من العقار المحدد وشروطه الحالية، ثم راجع الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Palm Jebel Ali؟"
+        },
+        {
+          "answer": "في Palm Jebel Ali، أضف علاوة الموقع ورسوم الخدمات والصيانة والتأثيث إلى سعر الشقة عند المقارنة. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في Palm Jebel Ali؟"
+        },
+        {
+          "answer": "في Palm Jebel Ali، تتمثل المخاطر الرئيسية في دفع علاوة لمجرد وصف «واجهة مائية» من دون التحقق من الإطلالة والوصول والرسوم على مستوى الوحدة. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Palm Jebel Ali؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري شقة على الواجهة المائية في Palm Jebel Ali، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "موقع على الواجهة المائية",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "إطلالة / وصول",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "رسوم الخدمات",
+          "value": "تحقق من التكاليف الحالية"
+        },
+        {
+          "label": "شروط العقار",
+          "value": "تحقق قبل الالتزام"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري شقة على الواجهة المائية في Palm Jebel Ali وفق الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مشتري شقة على الواجهة المائية؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية أثناء مقارنة الخيارات في Palm Jebel Ali. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري شقة على الواجهة المائية",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري شقة على الواجهة المائية بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري شقة على الواجهة المائية في Palm Jebel Ali مع وضع الوصول الفعلي إلى الواجهة المائية والإطلالة والرسوم وجودة المبنى والصيانة والحياة اليومية والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري شقة على الواجهة المائية بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

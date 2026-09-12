@@ -13,6 +13,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $projectComparisonData = index $zhData "project_comparison_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $projectComparisonData = index $esData "project_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $projectComparisonData = index $frData "project_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $projectComparisonData = index $deData "project_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $projectComparisonData = index $arData "project_comparison_pages" -}}
+{{- end -}}
 {{- $page := index $projectComparisonData $slug -}}
 
 {{- if not $page -}}

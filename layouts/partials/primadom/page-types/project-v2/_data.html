@@ -8,6 +8,14 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $projectData = index $zhData "project_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $projectData = index $deData "project_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $projectData = index $arData "project_pages" -}}
+{{- end -}}
 {{- $p := index $projectData $slug -}}
 {{- if not $p -}}
   {{- errorf "Primadom project data not found: %s" $slug -}}

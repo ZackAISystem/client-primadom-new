@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_low_down_payment_buyer_mudon_fr",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/low-down-payment-buyer-in-mudon/",
+  "canonical_url_path": "/fr/buyer-scenarios/low-down-payment-buyer-in-mudon/",
+  "canonical_group_key": "scenario_district:low_down_payment_buyer:mudon",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mudon",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation du scénario d’acheteur",
+      "cta_label": "Vérifier le scénario",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/mudon/",
+          "label": "Mudon"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/low-down-payment-buyer-in-mudon/",
+          "label": "Acheteur recherchant un faible apport initial — Mudon",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Acheteur recherchant un faible apport initial",
+        "Mudon · EAU",
+        "Appartements",
+        "Jusqu’à AED 3M",
+        "Dépôt · étapes · coût total"
+      ],
+      "image": {
+        "alt": "Recherche immobilière — Acheteur recherchant un faible apport initial — Mudon",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Acheteur recherchant un faible apport initial — Mudon",
+      "subtitle": "À Mudon, comparez apport initial, versements ultérieurs, coût total, calendrier et réserve de liquidités.",
+      "facts_aria": "Points clés du scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Visuel de recherche immobilière — Acheteur recherchant un faible apport initial — Mudon",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparer ce scénario à Mudon",
+        "Comparer l’apport initial, l’échéancier des paiements et le coût total",
+        "Quels compromis comptent le plus pour mon usage ?"
+      ],
+      "ai_aria": "Demander à Primadom AI à propos du scénario « Acheteur recherchant un faible apport initial — Mudon »",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparer ce scénario à Mudon",
+      "placeholder": "Comparer ce scénario à Mudon",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Acheteur recherchant un faible apport initial",
+        "Mudon",
+        "Paiement initial",
+        "Versements ultérieurs",
+        "Demander à AI"
+      ],
+      "title": "Ce qui compte le plus",
+      "eyebrow": "Conseils pour l’acheteur",
+      "body_html": "<strong>Acheteur recherchant un faible apport initial — Mudon</strong> — Pour un achat avec un faible apport initial à Mudon, comparez le premier paiement avec les versements ultérieurs, le coût total et le calendrier de la transaction. Un apport réduit n’est utile que si l’ensemble du plan de paiement reste compatible avec les liquidités de l’acheteur.",
+      "body_text": "Pour un achat avec un faible apport initial à Mudon, comparez le premier paiement avec les versements ultérieurs, le coût total et le calendrier de la transaction. Un apport réduit n’est utile que si l’ensemble du plan de paiement reste compatible avec les liquidités de l’acheteur.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scénario",
+          "value": "Acheteur recherchant un faible apport initial — Mudon"
+        },
+        {
+          "label": "Objectif principal",
+          "value": "Réduire le paiement initial"
+        },
+        {
+          "label": "Localisation",
+          "value": "Mudon"
+        },
+        {
+          "label": "Type de bien",
+          "value": "Appartements"
+        },
+        {
+          "label": "Fourchette de budget",
+          "value": "Jusqu’à AED 3M"
+        },
+        {
+          "label": "Critère de décision",
+          "value": "Dépôt · étapes · coût total"
+        },
+        {
+          "label": "Étape de l’acheteur",
+          "value": "Financement / comparaison"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Vérifier l’engagement total"
+        }
+      ],
+      "title": "Paramètres du scénario",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cette page s’adresse",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs dont la décision est déjà arrêtée et qui n’ont plus besoin de comparer l’apport initial, l’échéancier des paiements et le coût total.",
+          "Acheteurs qui se fient à un seul indicateur — prix, image du projet, réputation du quartier ou autre signal isolé — sans vérifier le bien précis.",
+          "Acheteurs qui ne souhaitent pas vérifier l’apport initial, l’échéancier des paiements et le coût total ou les coûts récurrents avant de décider."
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs pour lesquels l’apport initial, l’échéancier des paiements et le coût total sont déterminants à Mudon.",
+          "Acheteurs qui veulent comparer l’apport initial, l’échéancier des paiements, le coût total et la date de livraison sur une base cohérente plutôt que de décider à partir d’un seul avantage.",
+          "Acheteurs prêts à vérifier les données susceptibles de changer, les coûts et le calendrier avant de s’engager."
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Pour un achat avec un faible apport initial à Mudon, comparez le premier paiement avec les versements ultérieurs, le coût total et le calendrier de la transaction. Un apport réduit n’est utile que si l’ensemble du plan de paiement reste compatible avec les liquidités de l’acheteur. Utilisez ensuite les mêmes critères pour comparer l’apport initial, l’échéancier des paiements, le coût total et la date de livraison à Mudon, afin que chaque option soit évaluée sur une base cohérente.",
+        "tags": [
+          "Paiement initial",
+          "Versements ultérieurs",
+          "Engagement total",
+          "Frais d’acquisition",
+          "Adéquation du logement"
+        ],
+        "title": "Points à prendre en compte",
+        "eyebrow": "Logique de décision"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Mudon, évaluez dans quelle mesure le quartier répond aux priorités suivantes : l’apport initial, l’échéancier des paiements et le coût total. Tenez aussi compte de la vie quotidienne de l’acheteur.",
+            "title": "Contexte local"
+          },
+          {
+            "text": "Comparez d’autres quartiers s’ils offrent un meilleur équilibre entre ces priorités, l’usage quotidien et le budget total.",
+            "title": "Comparer les alternatives"
+          },
+          {
+            "text": "Vérifiez les trajets, les services et les conditions réelles du bien : un seul avantage visible ne suffit pas à confirmer l’adéquation du quartier à ce scénario.",
+            "title": "Usage quotidien"
+          },
+          {
+            "text": "Gardez le choix du quartier cohérent avec l’apport initial et l’échéancier des paiements ; un meilleur emplacement peut compenser certains compromis, et l’inverse.",
+            "title": "Avant d’affiner la sélection"
+          }
+        ],
+        "title": "Contexte du quartier",
+        "eyebrow": "Quartiers pertinents"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Appartements : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "Appartements"
+          },
+          {
+            "text": "Agencements compacts : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "Agencements compacts"
+          },
+          {
+            "text": "Bien sur plan : comparez l’échéancier, l’avancement du projet, la date de livraison, les conditions contractuelles et l’adéquation à votre calendrier.",
+            "title": "Bien sur plan"
+          },
+          {
+            "text": "Bien prêt : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Bien prêt"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Adéquation du bien"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Un faible apport initial ne suffit pas à rendre le plan abordable. Cartographiez tous les versements, les frais d’acquisition, le solde à la livraison et la réserve de liquidités nécessaire jusqu’à la fin de la transaction.",
+          "title": "Cadrez le budget complet",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "text": "À Mudon, comparez l’apport initial, l’échéancier des paiements, le coût total et la date de livraison avec la même méthode et vérifiez ce que chaque option change réellement dans l’usage quotidien.",
+          "title": "Comparez l’usage réel",
+          "eyebrow": "Notes sur le processus"
+        },
+        {
+          "text": "Les principaux risques sont de privilégier un faible apport sans regarder les versements suivants, de sous-estimer le coût total, de mal aligner l’échéancier avec les liquidités disponibles ou de dépendre d’un calendrier de livraison non vérifié.",
+          "title": "Gardez les risques visibles",
+          "eyebrow": "Risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut organiser la comparaison à Mudon selon l’apport initial, l’échéancier des paiements, le coût total et la date de livraison, avec le budget comme contrainte commune, sans supposer les données susceptibles de changer.",
+          "title": "Comparer avec Primadom AI",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notes de décision du scénario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Les principaux risques sont de privilégier un faible apport sans regarder les versements suivants, de sous-estimer le coût total, de mal aligner l’échéancier avec les liquidités disponibles ou de dépendre d’un calendrier de livraison non vérifié.",
+        "tags": [
+          "Premier paiement",
+          "Versements ultérieurs",
+          "Prix total",
+          "Frais d’acquisition",
+          "Trésorerie"
+        ],
+        "title": "Risques",
+        "eyebrow": "À vérifier avant d’acheter"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Hiérarchisez l’apport initial, l’échéancier des paiements, le coût total et la date de livraison avant d’affiner la sélection.",
+            "title": "Définir les priorités"
+          },
+          {
+            "text": "Mettez le prix d’achat, les frais d’acquisition, les coûts récurrents et la réserve de liquidités dans la même comparaison.",
+            "title": "Comparer le coût total"
+          },
+          {
+            "text": "Vérifiez chaque échéance de paiement, les frais d’acquisition, le solde final, la date de livraison et les conditions contractuelles.",
+            "title": "Vérifier les données du bien"
+          },
+          {
+            "text": "Faites correspondre les paiements, la transaction, la livraison ou l’emménagement avec votre propre calendrier avant de vous engager.",
+            "title": "Valider le calendrier"
+          }
+        ],
+        "title": "Documents et notes sur le processus",
+        "eyebrow": "Aspects pratiques"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/azizi-717-tower/",
+            "meta": "Azizi Developments · Dubai Trade Centre District",
+            "label": "Azizi 717 Tower"
+          },
+          {
+            "href": "/fr/projects/golf-meadow/",
+            "meta": "Emaar Properties · Dubai South",
+            "label": "Golf Meadow"
+          },
+          {
+            "href": "/fr/projects/jadeel-at-madinat-jumeirah-living/",
+            "meta": "Meraas Holding · Madinat Jumeirah Living",
+            "label": "Jadeel at Madinat Jumeirah Living"
+          },
+          {
+            "href": "/fr/projects/jumeirah-peninsula-gardens/",
+            "meta": "Beyond · Maritime City",
+            "label": "Jumeirah Peninsula Gardens"
+          },
+          {
+            "href": "/fr/projects/kempinski-residences/",
+            "meta": "Swiss Property · Al Jaddaf",
+            "label": "Kempinski Residences"
+          }
+        ],
+        "title": "Projets à comparer",
+        "eyebrow": "Entrée dans la sélection"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Un faible apport initial ne suffit pas à rendre le plan abordable. Cartographiez tous les versements, les frais d’acquisition, le solde à la livraison et la réserve de liquidités nécessaire jusqu’à la fin de la transaction.",
+        "tags": [
+          "Premier paiement",
+          "Versements ultérieurs",
+          "Frais d’acquisition",
+          "Livraison",
+          "Marge de liquidités"
+        ],
+        "title": "Logique du budget",
+        "eyebrow": "Budget du scénario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/first-time-buyer-needs-payment-plan-in-mudon/",
+          "label": "Primo-accédant recherchant un plan de paiement — Mudon"
+        },
+        {
+          "href": "/fr/buyer-scenarios/off-plan-payment-plan-buyer-in-mudon/",
+          "label": "Acheteur sur plan avec plan de paiement — Mudon"
+        },
+        {
+          "href": "/fr/buyer-scenarios/budget-buyer-under-aed-2m/",
+          "label": "Acheteur avec budget inférieur à 2 M AED"
+        },
+        {
+          "href": "/fr/buyer-scenarios/first-dubai-property-under-aed-1m/",
+          "label": "Premier achat à Dubaï à moins de 1 M AED"
+        }
+      ],
+      "title": "Scénarios associés",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Pour un achat avec un faible apport initial à Mudon, comparez le premier paiement avec les versements ultérieurs, le coût total et le calendrier de la transaction. Un apport réduit n’est utile que si l’ensemble du plan de paiement reste compatible avec les liquidités de l’acheteur.",
+          "question": "Quels sont les critères essentiels pour ce scénario à Mudon ?"
+        },
+        {
+          "answer": "Ce scénario convient surtout aux acheteurs pour lesquels l’apport initial, l’échéancier des paiements, le coût total et la date de livraison doivent être comparés ensemble avant de choisir un bien.",
+          "question": "À qui ce scénario convient-il ?"
+        },
+        {
+          "answer": "Vérifiez chaque échéance de paiement, les frais d’acquisition, le solde final, la date de livraison et les conditions contractuelles. Confirmez aussi les coûts, le statut du bien et les conditions susceptibles de changer avant tout engagement.",
+          "question": "Que faut-il vérifier avant de choisir un bien ?"
+        },
+        {
+          "answer": "Un faible apport initial ne suffit pas à rendre le plan abordable. Cartographiez tous les versements, les frais d’acquisition, le solde à la livraison et la réserve de liquidités nécessaire jusqu’à la fin de la transaction.",
+          "question": "Comment aborder le budget ?"
+        },
+        {
+          "answer": "Les principaux risques sont de privilégier un faible apport sans regarder les versements suivants, de sous-estimer le coût total, de mal aligner l’échéancier avec les liquidités disponibles ou de dépendre d’un calendrier de livraison non vérifié.",
+          "question": "Quels sont les principaux risques ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le scénario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Vérifiez chaque échéance de paiement, les frais d’acquisition, le solde final, la date de livraison et les conditions contractuelles. Revérifiez les données susceptibles de changer, les coûts, le calendrier et les documents avant de décider.",
+      "items": [
+        {
+          "label": "Paiement initial",
+          "value": "Vérifier paiement initial"
+        },
+        {
+          "label": "Versements ultérieurs",
+          "value": "Confirmer versements ultérieurs"
+        },
+        {
+          "label": "Engagement total",
+          "value": "Comparer engagement total"
+        },
+        {
+          "label": "Frais d’acquisition",
+          "value": "Valider frais d’acquisition"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Ce qu’il faut vérifier",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Comparez l’apport initial, l’échéancier des paiements, le coût total et la date de livraison à Mudon avec la même méthode. Primadom AI peut aider à structurer les compromis avant l’examen de biens précis.",
+      "title": "Prêt à comparer ce scénario ?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Examiner les options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande pour le scénario d’acheteur",
+      "text": "Pour ce scénario à Mudon, indiquez vos priorités concernant l’apport initial, l’échéancier des paiements, le coût total et la date de livraison, ainsi que votre budget et votre calendrier. Cela donne à l’équipe un contexte utile avant l’échange.",
+      "title": "Comparer les options pour ce scénario",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Aidez-moi à comparer ce scénario selon l’apport initial, l’échéancier des paiements et le coût total",
+      "eyebrow": "Continuer l’analyse du scénario avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "À Mudon, comparez l’apport initial, l’échéancier des paiements, le coût total et la date de livraison dans le cadre du coût total avant d’affiner la sélection.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparer ce scénario avec des critères cohérents",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

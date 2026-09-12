@@ -1,0 +1,606 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_urban_properties_development_fr",
+  "page_type_id": "developer_page",
+  "language_code": "fr",
+  "url_path": "/fr/developers/urban-properties-development/",
+  "canonical_url_path": "/fr/developers/urban-properties-development/",
+  "canonical_group_key": "developer:urban-properties-development",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "urban-properties-development",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_summary",
+    "block_06_developer_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_portfolio",
+    "block_10_districts_segment",
+    "block_11_similar_developers",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#portfolio",
+          "label": "Projets",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#trust",
+          "label": "Vérification",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#developer-ai-search",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#developerLeadModal",
+      "nav_aria": "Navigation du développeur",
+      "brand_url": "/fr/",
+      "cta_label": "Réserver un appel",
+      "block_status": "formula_generated",
+      "schema_version": "developer_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "href": "/fr/developers/",
+          "label": "Développeurs des EAU"
+        },
+        {
+          "href": "/fr/developers/dubai/",
+          "label": "Dubai"
+        },
+        {
+          "href": "/fr/developers/urban-properties-development/",
+          "label": "Urban Properties Development"
+        }
+      ],
+      "block_status": "formula_generated",
+      "schema_version": "developer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "title": "Urban Properties Development",
+      "developer_name": "Urban Properties Development"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Trouver les projets d’Urban Properties Development par quartier et budget",
+        "Vérifier si Urban Properties Development correspond à mon objectif d’achat",
+        "Comparer les projets et quartiers liés à Urban Properties Development ainsi que les vérifications clés"
+      ],
+      "prompts": [
+        "Trouver les projets d’Urban Properties Development par quartier et budget",
+        "Vérifier si Urban Properties Development correspond à mon objectif d’achat",
+        "Comparer les projets et quartiers liés à Urban Properties Development ainsi que les vérifications clés"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Poser une question sur ce développeur",
+      "placeholder": "Posez une question sur les projets d’Urban Properties Development, les quartiers, l’adéquation à l’acheteur, les vérifications ou les notes de vérification",
+      "block_status": "formula_generated",
+      "button_label": "Demander",
+      "voice_status": "Écoute…",
+      "ai_voice_text": "Trouver les projets d’Urban Properties Development par quartier, budget et objectif d’achat…",
+      "ai_placeholder": "Trouver les projets d’Urban Properties Development par quartier, budget et objectif d’achat…",
+      "schema_version": "developer_ai_search_v1",
+      "ai_voice_status": "Écoute…",
+      "form_aria_label": "Demander à Primadom AI au sujet d’Urban Properties Development",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_short_summary": {
+      "chips": [
+        "Focus sur Dubai",
+        "Segment intermédiaire",
+        "Quartiers clés",
+        "Adéquation à l’acheteur",
+        "Vérifications des sources"
+      ],
+      "title": "Résumé du développeur",
+      "eyebrow": "Aperçu rapide",
+      "body_html": "<strong>Urban Properties Development</strong> est présenté comme un développeur immobilier actif à Dubai, avec un intérêt particulier pour les projets résidentiels. Son profil met notamment l’accent sur un positionnement de segment intermédiaire et une logique portée par la demande locative. Les zones actuellement associées comprennent Business Bay.",
+      "body_text": "Urban Properties Development est présenté comme un développeur immobilier actif à Dubai, avec un intérêt particulier pour les projets résidentiels. Son profil met notamment l’accent sur un positionnement de segment intermédiaire et une logique portée par la demande locative. Les zones actuellement associées comprennent Business Bay.",
+      "source_used": "src_developer_positioning",
+      "schema_version": "developer_short_summary_v1",
+      "summary_status": "agent_written"
+    },
+    "block_06_developer_facts": {
+      "items": [
+        {
+          "label": "Développeur",
+          "value": "Urban Properties Development"
+        },
+        {
+          "label": "Année de fondation",
+          "value": "2014"
+        },
+        {
+          "label": "Marché",
+          "value": "Dubai / EAU"
+        },
+        {
+          "label": "Segment",
+          "value": "Segment intermédiaire"
+        },
+        {
+          "label": "Portefeuille",
+          "value": "Données de projets en attente"
+        },
+        {
+          "label": "Zones principales",
+          "value": "Business Bay"
+        },
+        {
+          "label": "Intention de l’acheteur",
+          "value": "Adéquation à l’acheteur · vérifications des sources"
+        },
+        {
+          "label": "Dernière vérification",
+          "value": "juin 2026"
+        }
+      ],
+      "title": "Détails du développeur",
+      "eyebrow": "Données clés",
+      "facts_status": "agent_written",
+      "schema_version": "developer_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "Adéquation à l’acheteur",
+        "eyebrow": "Adapté à",
+        "good_for": [
+          "Acheteurs qui explorent des options immobilières correspondant à un profil de segment intermédiaire sur le marché de Dubai",
+          "Acheteurs qui envisagent des projets liés à Business Bay",
+          "Acheteurs qui souhaitent vérifier au même endroit les prix, l’adéquation à leur profil et les informations de vérification"
+        ],
+        "less_for": [
+          "Acheteurs qui recherchent uniquement le prix d’entrée le plus bas sans examiner l’adéquation globale du projet",
+          "Acheteurs qui ont besoin d’une disponibilité ou de modalités de paiement confirmées avant une première analyse",
+          "Acheteurs qui préfèrent décider sans vérifier les détails du projet, la localisation et les informations sur le développeur"
+        ],
+        "good_for_title": "Adapté à",
+        "less_for_title": "Peut ne pas convenir"
+      },
+      "block_status": "agent_written",
+      "schema_version": "developer_buyer_fit_logic_v1",
+      "developer_logic": {
+        "body": "Le profil disponible situe Urban Properties Development sur un positionnement de segment intermédiaire, avec des liens connus vers Business Bay. Vérifiez les projets actuels, les prix, les modalités de paiement, les informations sur la livraison et les sources disponibles avant de prendre une décision.",
+        "tags": [
+          "Marché de Dubai",
+          "Profil boutique",
+          "Orientation résidentielle",
+          "Vérification des sources"
+        ],
+        "title": "Vue du marché",
+        "eyebrow": "Comment l’interpréter"
+      }
+    },
+    "block_08_decision_cards": {
+      "cards_status": "agent_written",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Pour Urban Properties Development, les acheteurs doivent vérifier si son positionnement de segment intermédiaire correspond à leur budget, à la durée de détention envisagée, à leur stratégie locative et au niveau de risque de projet qu’ils acceptent.",
+          "title": "Contexte d’investissement",
+          "eyebrow": "Perspective d’investissement",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "L’adéquation au style de vie dépend du projet et de sa localisation. Les zones connues comprennent Business Bay, mais les acheteurs doivent aussi examiner l’accès, les équipements, la typologie des unités et les besoins du quotidien.",
+          "title": "Contexte de style de vie",
+          "eyebrow": "Perspective de style de vie",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Confirmez les unités disponibles, le prix, les charges de service, les modalités de paiement, les plans, le calendrier de livraison, les documents du développeur et les dernières informations sur le projet avant de prendre une décision.",
+          "title": "Ce qu’il faut vérifier",
+          "eyebrow": "À vérifier avant d’acheter",
+          "card_status": "standard_verified_copy"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "Primadom AI peut comparer les projets d’Urban Properties Development avec des alternatives pertinentes selon le budget, la zone, le type d’unité, le plan de paiement, le calendrier de livraison, l’adéquation de la localisation et l’objectif de l’acheteur avant un échange avec un conseiller.",
+          "title": "Comparer les projets du développeur",
+          "eyebrow": "Assistance AI",
+          "card_status": "standard_product_copy"
+        }
+      ],
+      "schema_version": "developer_decision_cards_v1",
+      "decision_cards_aria": "Cartes de décision sur le développeur"
+    },
+    "block_09_projects_portfolio": {
+      "known_items": [
+        {
+          "meta": "Confirmer les unités et les prix actuels",
+          "label": "Disponibilité actuelle"
+        },
+        {
+          "meta": "Examiner les documents actuels du développeur",
+          "label": "Documents officiels du projet"
+        },
+        {
+          "meta": "Vérifier l’adéquation de la zone et de l’acheteur",
+          "label": "Localisation et typologie des unités"
+        },
+        {
+          "meta": "Confirmer les conditions et le calendrier actuels",
+          "label": "Plan de paiement et livraison"
+        }
+      ],
+      "known_title": "Ce qu’il faut vérifier",
+      "active_items": [
+        {
+          "href": "/fr/projects/urban-life/",
+          "meta": "Profil du projet",
+          "label": "Urban Life"
+        },
+        {
+          "href": "/fr/projects/urban-life-residences/",
+          "meta": "Profil du projet",
+          "label": "Urban Life residences"
+        }
+      ],
+      "active_title": "Projets à vérifier",
+      "block_status": "agent_written",
+      "known_eyebrow": "Vérifications de l’acheteur",
+      "active_eyebrow": "Portefeuille de projets",
+      "schema_version": "developer_projects_portfolio_v1",
+      "matching_source": "entities.project_developer_links",
+      "portfolio_status": "graph_connected",
+      "active_empty_text": null,
+      "total_project_count": 2
+    },
+    "block_10_districts_segment": {
+      "districts": {
+        "items": [
+          {
+            "href": "/fr/areas/business-bay/",
+            "meta": "Zone principale",
+            "label": "Business Bay"
+          }
+        ],
+        "title": "Zones principales",
+        "eyebrow": "Priorités géographiques"
+      },
+      "schema_version": "developer_districts_segment_v1",
+      "segment_profile": {
+        "body": "Urban Properties Development est présenté comme un développeur immobilier actif à Dubai, avec un intérêt particulier pour les projets résidentiels. Son profil met notamment l’accent sur un positionnement de segment intermédiaire et une logique portée par la demande locative. Les zones actuellement associées comprennent Business Bay.",
+        "tags": [
+          "Profil boutique",
+          "Orientation résidentielle",
+          "Orientation investissement",
+          "Marché de Dubai"
+        ],
+        "title": "Profil de marché",
+        "eyebrow": "Profil du développeur"
+      },
+      "districts_status": "content_ready"
+    },
+    "block_11_similar_developers": {
+      "items": [
+        {
+          "href": "#developerLeadModal",
+          "meta": "Adéquation de la localisation et du projet",
+          "label": "Comparer selon l’adéquation géographique"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "Disponibilité et livraison",
+          "label": "Vérifier les alternatives de projets"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "Budget et conditions",
+          "label": "Comparer le prix et le plan de paiement"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "Comparaison adaptée à l’acheteur",
+          "label": "Demander une sélection adaptée"
+        }
+      ],
+      "title": "Comparer les options des développeurs",
+      "eyebrow": "Comparer les options",
+      "schema_version": "developer_similar_developers_v1",
+      "similar_status": "comparison_fallback_ready",
+      "matching_source": "buyer_comparison_flow"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Urban Properties Development présente un profil de segment intermédiaire, orienté vers l’investissement sur le marché de Dubai. Les acheteurs doivent examiner ses projets actuels, son historique de livraison, ses modalités de paiement et les disponibilités actuelles avant de prendre une décision.",
+          "question": "Que doivent savoir les acheteurs sur Urban Properties Development ?",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "Urban Properties Development peut convenir aux acheteurs qui privilégient des options pratiques de segment intermédiaire et des critères de décision orientés vers l’investissement. L’adéquation finale dépend du budget, de la localisation recherchée, du type de bien, du calendrier et de l’objectif d’achat.",
+          "question": "À quels acheteurs Urban Properties Development peut-il convenir ?",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "Le contexte géographique actuel comprend Business Bay. Les acheteurs doivent confirmer les projets actifs, la disponibilité des unités, le calendrier de livraison et les alternatives proches dans ces zones.",
+          "question": "Quelles zones et quels projets les acheteurs devraient-ils examiner pour Urban Properties Development ?",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "Comparer Urban Properties Development avec des alternatives pertinentes aide les acheteurs à évaluer le prix, le plan de paiement, la localisation, le type de bien, le calendrier de livraison, les charges de service et l’adéquation globale à leur profil.",
+          "question": "Pourquoi comparer Urban Properties Development avec d’autres développeurs ?",
+          "answer_status": "buyer_comparison_guidance"
+        },
+        {
+          "answer": "Primadom AI peut organiser une comparaison structurée des projets d’Urban Properties Development et d’alternatives pertinentes selon la zone, le budget, le type d’unité, le plan de paiement, le calendrier de livraison et l’objectif de l’acheteur avant l’analyse d’un conseiller.",
+          "question": "Comment Primadom AI peut-il aider à évaluer Urban Properties Development ?",
+          "answer_status": "ai_support_guidance"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions des acheteurs",
+      "faq_status": "content_ready",
+      "schema_version": "developer_faq_v1",
+      "personalization": {
+        "areas_used": true,
+        "style_used": true,
+        "tier_available": true
+      }
+    },
+    "block_13_trust_sources": {
+      "body": "Avant de vous appuyer sur les informations concernant Urban Properties Development pour une décision immobilière, vérifiez les documents officiels du développeur, le statut du projet ou auprès des autorités, la disponibilité actuelle et les conditions commerciales en vigueur.",
+      "items": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Documents officiels du développeur",
+          "value": "Requis",
+          "link_status": "pending_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "authority_project_status",
+          "href": "",
+          "label": "Statut auprès des autorités / du projet",
+          "value": "Recommandé",
+          "link_status": "pending_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "project_availability",
+          "href": "#developerLeadModal",
+          "label": "Disponibilité actuelle des projets",
+          "value": "Vérification en temps réel",
+          "link_status": "available",
+          "source_type": "availability"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#developerLeadModal",
+          "label": "Vérification par un conseiller Primadom",
+          "value": "Disponible",
+          "link_status": "available",
+          "source_type": "advisor"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Vérification",
+      "trust_status": "source_links_pending",
+      "schema_version": "developer_trust_sources_v1",
+      "source_confidence": "pending_verification",
+      "source_enrichment": {
+        "market": "Dubai, EAU",
+        "last_checked": "juin 2026",
+        "advisor_check_available": true,
+        "official_source_attached": false,
+        "authority_status_attached": false,
+        "availability_check_available": true
+      }
+    },
+    "block_14_source_notes": {
+      "body": "Les informations concernant Urban Properties Development peuvent évoluer avec les projets, les disponibilités, les prix, les plans de paiement et les calendriers de livraison. Les acheteurs doivent confirmer les données actuelles avant de prendre une décision.",
+      "title": "Informations à jour",
+      "eyebrow": "Actualité des données",
+      "signals": [
+        {
+          "label": "Données actuelles",
+          "value": "Revérifier avant toute décision"
+        },
+        {
+          "label": "Vérification par l’acheteur",
+          "value": "Confirmer les conditions actuelles"
+        },
+        {
+          "label": "Dernière révision",
+          "value": "juin 2026"
+        }
+      ],
+      "notes_status": "safe_fallback",
+      "schema_version": "developer_source_notes_v1",
+      "freshness_status": "review_required_before_decision",
+      "source_notes_enrichment": {
+        "last_checked": "juin 2026",
+        "trust_note_available": false
+      }
+    },
+    "block_15_cta": {
+      "text": "Utilisez Primadom AI pour organiser une comparaison des informations sur les projets d’Urban Properties Development selon la zone, le budget, le plan de paiement, le calendrier de livraison et l’objectif de l’acheteur avant de parler avec un conseiller Primadom.",
+      "title": "Besoin d’aide pour comparer les projets d’Urban Properties Development ?",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "Comparer les projets d’Urban Properties Development",
+          "modal": true,
+          "action_intent": "developer_project_comparison"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "Demander à Primadom AI",
+          "modal": false,
+          "action_intent": "developer_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerLeadModal",
+          "label": "Demander un appel",
+          "modal": true,
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "content_ready",
+      "schema_version": "developer_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": {
+        "modal": true,
+        "labelledby": "developerLeadTitle"
+      },
+      "text": "Indiquez votre zone préférée, le type de bien, votre calendrier ou le plan de paiement recherché. Nous organiserons la demande autour d’Urban Properties Development avant le suivi d’un conseiller.",
+      "title": "Comparer les projets d’Urban Properties Development avec Primadom AI",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Nom",
+          "required": true,
+          "placeholder": "Votre nom"
+        },
+        {
+          "key": "phone",
+          "type": "tel",
+          "label": "Téléphone / WhatsApp",
+          "required": true,
+          "placeholder": "Votre téléphone ou WhatsApp"
+        },
+        {
+          "key": "email",
+          "type": "email",
+          "label": "E-mail (facultatif)",
+          "required": false,
+          "placeholder": "Votre e-mail"
+        },
+        {
+          "key": "comment",
+          "type": "textarea",
+          "label": "Demande",
+          "required": false,
+          "placeholder": "Indiquez-nous ce que vous souhaitez comparer"
+        }
+      ],
+      "eyebrow": "Demande concernant le développeur",
+      "modal_id": "developerLeadModal",
+      "title_id": "developerLeadTitle",
+      "close_label": "Fermer",
+      "field_config": {
+        "name": {
+          "html_name": "name"
+        },
+        "email": {
+          "html_name": "email"
+        },
+        "phone": {
+          "html_name": "phone"
+        },
+        "comment": {
+          "html_name": "comment"
+        }
+      },
+      "modal_status": "content_ready",
+      "submit_label": "Envoyer",
+      "success_text": "Merci. Un conseiller Primadom examinera la demande et vous recontactera avec des informations à jour.",
+      "hidden_fields": {
+        "city": "Dubai",
+        "country": "UAE",
+        "page_type": "developer_page",
+        "request_scope": "developer_project_comparison",
+        "developer_name": "Urban Properties Development",
+        "developer_slug": "urban-properties-development"
+      },
+      "success_title": "Demande reçue",
+      "schema_version": "developer_lead_modal_v1",
+      "prefilled_request": "Je souhaite comparer les projets d’Urban Properties Development selon la zone, la disponibilité actuelle, le plan de paiement, le calendrier de livraison et mon objectif d’achat."
+    },
+    "block_17_footer": {
+      "text": "Explorez les projets, les quartiers et d’autres développeurs à Dubai, ou utilisez Primadom AI pour comparer les options avant de parler avec un conseiller.",
+      "brand": "Primadom AI",
+      "title": "Poursuivez votre recherche au-delà d’Urban Properties Development",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "Réserver un appel",
+          "modal": true
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "Demander à AI",
+          "modal": false
+        }
+      ],
+      "address": "Dubai, EAU",
+      "eyebrow": "Explorer davantage",
+      "copyright": "© Primadom AI",
+      "navigation": [
+        {
+          "key": "projects",
+          "href": "/fr/projects/",
+          "label": "Projets"
+        },
+        {
+          "key": "districts",
+          "href": "/fr/areas/",
+          "label": "Quartiers"
+        },
+        {
+          "key": "developers",
+          "href": "/fr/developers/",
+          "label": "Développeurs"
+        },
+        {
+          "key": "ai_search",
+          "href": "#developer-ai-search",
+          "label": "Recherche avec AI"
+        }
+      ],
+      "footer_status": "content_ready",
+      "market_context": {
+        "city": "Dubai",
+        "country": "EAU"
+      },
+      "schema_version": "developer_footer_v1"
+    }
+  }
+}

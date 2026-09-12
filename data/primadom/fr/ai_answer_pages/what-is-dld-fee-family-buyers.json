@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_e2fe1287d7453ae1c790901e3626",
+  "page_type_id": "ai_answer_page",
+  "language_code": "fr",
+  "url_path": "/fr/ai-answers/what-is-dld-fee-family-buyers/",
+  "canonical_url_path": "/fr/ai-answers/what-is-dld-fee-family-buyers/",
+  "canonical_group_key": "ai_answer:what-is-dld-fee:context:family-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "what-is-dld-fee",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Vérifications",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risques",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navigation des réponses AI",
+      "cta_label": "Vérifier mon cas",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/fr/ai-answers/",
+          "label": "Réponses AI"
+        },
+        {
+          "key": "current",
+          "href": "/fr/ai-answers/what-is-dld-fee-family-buyers/",
+          "label": "Que sont les frais DLD ? — Acheteurs familiaux",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Acheteurs familiaux",
+        "Frais d’enregistrement applicables",
+        "Documents",
+        "Financement et mise en place",
+        "Vérification des sources"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Que sont les frais DLD ? — Acheteurs familiaux",
+      "subtitle": "Budgétez le coût total de la transaction et de la détention, pas un seul frais : enregistrement, services professionnels, financement, charges récurrentes et dépenses de mise en place peuvent s’ajouter. Appliquez ces critères dans le cadre d’un achat familial et confirmez les éléments susceptibles d’évoluer avant de décider.",
+      "facts_aria": "Points clés de la réponse",
+      "section_id": "hero",
+      "visual_aria": "Visuel de décision immobilière : Que sont les frais DLD ? — Acheteurs familiaux",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Quels sont les points essentiels pour répondre à « Que sont les frais DLD ? » dans le cadre d’un achat familial ?",
+        "Quels risques dois-je comparer avant de décider dans le cadre d’un achat familial ?",
+        "Quelles données actuelles dois-je confirmer pour mon cas ?"
+      ],
+      "ai_aria": "Poser une question complémentaire à Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Aidez-moi à répondre à « Que sont les frais DLD ? » dans le cadre d’un achat familial",
+      "placeholder": "Demander à AI : Que sont les frais DLD ?",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Acheteurs familiaux",
+        "Frais d’enregistrement applicables",
+        "Autres frais de transaction",
+        "Financement et mise en place",
+        "Charges récurrentes après achat"
+      ],
+      "title": "Réponse directe",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Budgétez le coût total de la transaction et de la détention, pas un seul frais : enregistrement, services professionnels, financement, charges récurrentes et dépenses de mise en place peuvent s’ajouter.</strong> Appliquez cette analyse dans le cadre d’un achat familial. L’étape suivante consiste à construire un budget poste par poste adapté à la transaction exacte.",
+      "body_text": "Budgétez le coût total de la transaction et de la détention, pas un seul frais : enregistrement, services professionnels, financement, charges récurrentes et dépenses de mise en place peuvent s’ajouter. Appliquez cette analyse dans le cadre d’un achat familial. L’étape suivante consiste à construire un budget poste par poste adapté à la transaction exacte.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Que sont les frais DLD ? — Acheteurs familiaux"
+        },
+        {
+          "label": "Contexte",
+          "value": "Acheteurs familiaux"
+        },
+        {
+          "label": "Marché",
+          "value": "Dubaï / EAU"
+        },
+        {
+          "label": "Décision",
+          "value": "Les frais DLD applicables à la transaction"
+        },
+        {
+          "label": "Vérifications principales",
+          "value": "Frais d’enregistrement applicables · Autres frais de transaction · Financement et mise en place"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Un seul frais traité comme coût total"
+        },
+        {
+          "label": "Meilleure prochaine étape",
+          "value": "Construire un budget poste par poste adapté à la transaction exacte."
+        },
+        {
+          "label": "Vérification",
+          "value": "Vérification actuelle requise"
+        }
+      ],
+      "title": "Détails de la réponse",
+      "topic": "Les frais DLD applicables à la transaction",
+      "market": "Dubaï / EAU",
+      "context": "Acheteurs familiaux",
+      "eyebrow": "Données clés",
+      "question": "Que sont les frais DLD ? — Acheteurs familiaux",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Le point « Un seul frais traité comme coût total » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Un seul frais traité comme coût total"
+          },
+          {
+            "text": "Le point « Mauvaise règle d’émirat appliquée » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Mauvaise règle d’émirat appliquée"
+          },
+          {
+            "text": "Le point « Frais annexes oubliés » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Frais annexes oubliés"
+          },
+          {
+            "text": "Une alternative comparable peut offrir un meilleur équilibre si le point « Budget sans réserve » reste défavorable.",
+            "title": "La situation globale mérite un nouvel examen"
+          }
+        ],
+        "title": "Lorsque la réponse est « non »",
+        "eyebrow": "Nécessite davantage de vérifications"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Le point « Frais d’enregistrement applicables » est confirmé à partir d’informations actuelles et adaptées au cas.",
+            "title": "Frais d’enregistrement applicables"
+          },
+          {
+            "text": "Le point « Autres frais de transaction » a été comparé sur une base cohérente avec vos priorités et votre budget.",
+            "title": "Autres frais de transaction"
+          },
+          {
+            "text": "Le point « Financement et mise en place » est compris et documenté avant toute réservation ou signature.",
+            "title": "Financement et mise en place"
+          },
+          {
+            "text": "Après prise en compte des principaux risques et d’alternatives réalistes, l’analyse reste cohérente dans le cadre d’un achat familial.",
+            "title": "La situation globale reste cohérente"
+          }
+        ],
+        "title": "Lorsque la réponse est « oui »",
+        "eyebrow": "Adapté"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Budgétez le coût total de la transaction et de la détention, pas un seul frais : enregistrement, services professionnels, financement, charges récurrentes et dépenses de mise en place peuvent s’ajouter. Ces critères doivent être appliqués dans le cadre d’un achat familial.",
+          "title": "Frais d’enregistrement applicables · Autres frais de transaction · Financement et mise en place",
+          "eyebrow": "Ce qu’il faut vérifier"
+        },
+        {
+          "dark": false,
+          "text": "Le risque augmente lorsque plusieurs hypothèses importantes restent non confirmées ou que le coût total et les compromis ne sont pas comparés sur la même base.",
+          "title": "Un seul frais traité comme coût total",
+          "eyebrow": "Risque"
+        },
+        {
+          "dark": false,
+          "text": "Construire un budget poste par poste adapté à la transaction exacte.",
+          "title": "Construire un budget poste par poste adapté à la transaction exacte.",
+          "eyebrow": "Étape suivante"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut transformer cette réponse en une liste de vérification adaptée à vos priorités, contraintes et éléments restant à confirmer.",
+          "title": "Vérifier votre cas précis",
+          "eyebrow": "Suivi avec AI"
+        }
+      ],
+      "cards_aria": "Conseils pour décider",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Soyez prudent si les points « Un seul frais traité comme coût total », « Mauvaise règle d’émirat appliquée » ou « Frais annexes oubliés » apparaissent dans votre cas. Construire un budget poste par poste adapté à la transaction exacte.",
+        "tags": [
+          "Un seul frais traité comme coût total",
+          "Mauvaise règle d’émirat appliquée",
+          "Frais annexes oubliés",
+          "Budget sans réserve",
+          "Un seul frais traité comme coût total"
+        ],
+        "title": "Risques",
+        "eyebrow": "Soyez prudent si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Vérifiez le point « Frais d’enregistrement applicables » à partir de sources ou documents actuels dans le cadre d’un achat familial.",
+            "title": "Frais d’enregistrement applicables"
+          },
+          {
+            "text": "Comparez le point « Autres frais de transaction » avec des alternatives réellement comparables.",
+            "title": "Autres frais de transaction"
+          },
+          {
+            "text": "Confirmez le point « Financement et mise en place » et son effet sur le coût, le calendrier ou les obligations de l’acheteur.",
+            "title": "Financement et mise en place"
+          },
+          {
+            "text": "Intégrez le point « Charges récurrentes après achat » à la décision avant de réserver, signer ou verser des fonds.",
+            "title": "Charges récurrentes après achat"
+          }
+        ],
+        "title": "Ce qu’il faut vérifier",
+        "eyebrow": "Liste de vérification pour décider"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/fr/ai-answers/how-to-check-dld-and-fees-family-buyers/",
+          "label": "Comment vérifier les frais DLD et autres frais ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-compare-total-cost-family-buyers/",
+          "label": "Comment comparer le coût total ?"
+        },
+        {
+          "href": "/fr/ai-answers/what-affects-final-price-family-buyers/",
+          "label": "Qu’est-ce qui influence le prix final ?"
+        },
+        {
+          "href": "/fr/ai-answers/what-hidden-costs-family-buyers/",
+          "label": "Quels coûts cachés faut-il prévoir ?"
+        },
+        {
+          "href": "/fr/ai-answers/what-documents-needed-family-buyers/",
+          "label": "Quels documents sont nécessaires ?"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages suivantes",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Budgétez le coût total de la transaction et de la détention, pas un seul frais : enregistrement, services professionnels, financement, charges récurrentes et dépenses de mise en place peuvent s’ajouter. L’étape suivante consiste à construire un budget poste par poste adapté à la transaction exacte.",
+          "question": "Que sont les frais DLD ?"
+        },
+        {
+          "answer": "Commencez par le point « Frais d’enregistrement applicables », puis vérifiez « Autres frais de transaction » et « Financement et mise en place ». Utilisez des informations actuelles et adaptées au bien ou au projet concerné.",
+          "question": "Quels éléments faut-il vérifier en priorité dans le cadre d’un achat familial ?"
+        },
+        {
+          "answer": "Comparez le coût total, les modalités applicables et les compromis réels. Pour ce sujet, surveillez particulièrement les points « Autres frais de transaction » et « Charges récurrentes après achat ».",
+          "question": "Quels coûts et quelles conditions faut-il comparer avant de décider ?"
+        },
+        {
+          "answer": "Les principaux signaux d’alerte sont « Un seul frais traité comme coût total », « Mauvaise règle d’émirat appliquée » et « Frais annexes oubliés ». Si l’un de ces points reste incertain, ne traitez pas une hypothèse comme un fait confirmé.",
+          "question": "Quels risques doivent être confirmés dans les documents ou les données actuelles ?"
+        },
+        {
+          "answer": "Construire un budget poste par poste adapté à la transaction exacte. Ensuite, comparez les alternatives pertinentes sur la même base avant de prendre une décision engageante.",
+          "question": "Quelle est la prochaine étape de vérification la plus utile ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions pour la recherche avec AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Utilisez cette page comme aide à la décision, puis vérifiez les informations susceptibles d’évoluer dans les documents officiels, les sources de première partie ou les données de marché actuelles avant de vous engager.",
+      "items": [
+        {
+          "label": "Contexte",
+          "value": "Acheteurs familiaux"
+        },
+        {
+          "label": "Axe de vérification",
+          "value": "Frais d’enregistrement applicables · Autres frais de transaction · Financement et mise en place"
+        },
+        {
+          "label": "Sources à vérifier",
+          "value": "Documents officiels du projet ou du bien · sources de première partie · informations pertinentes des autorités ou registres"
+        },
+        {
+          "label": "Vérification actuelle",
+          "value": "Construire un budget poste par poste adapté à la transaction exacte."
+        },
+        {
+          "label": "Vérification des sources",
+          "value": "Revérifier avant de décider"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Notes de vérification",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "fees_costs",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Demandez à Primadom AI d’appliquer cette réponse à votre situation dans le cadre d’un achat familial, en tenant compte de votre budget, de vos priorités et des éléments qui doivent encore être confirmés.",
+      "title": "Vous souhaitez vérifier votre cas avant de décider ?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Vérifier mon cas",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulaire de suivi de réponse AI",
+      "text": "Primadom AI appliquera cette réponse à votre situation dans le cadre d’un achat familial et préparera les principaux points à vérifier avant qu’un conseiller ne vous contacte.",
+      "title": "Vérifier cette réponse pour votre cas",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Je souhaite approfondir les frais DLD applicables à la transaction pour mon cas.",
+      "eyebrow": "Continuer avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "E-mail (facultatif)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI transforme les questions immobilières en vérifications, risques, pages suivantes et demandes prêtes à transmettre à un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Recherche axée sur la réponse, reliée aux décisions immobilières concrètes",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

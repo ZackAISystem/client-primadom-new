@@ -1,0 +1,10 @@
+---
+title: "Appartements à Dubai Silicon Oasis"
+layout: "primadom-property-type-page-v2"
+property_type_slug: "apartments-in-dubai-silicon-oasis"
+page_id: "page_property_district_apartments_dubai_silicon_oasis_fr"
+url: "/fr/property-types/apartments-in-dubai-silicon-oasis/"
+build:
+  render: always
+  list: never
+---

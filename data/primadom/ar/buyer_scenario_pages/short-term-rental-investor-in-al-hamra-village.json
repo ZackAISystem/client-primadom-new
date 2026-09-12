@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_short_term_rental_investor_al_hamra_village_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/short-term-rental-investor-in-al-hamra-village/",
+  "canonical_url_path": "/ar/buyer-scenarios/short-term-rental-investor-in-al-hamra-village/",
+  "canonical_group_key": "scenario_district:short_term_rental_investor:al-hamra-village",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-hamra-village",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/al-hamra-village/",
+          "label": "Al Hamra Village"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/short-term-rental-investor-in-al-hamra-village/",
+          "label": "مستثمر في التأجير قصير الأجل في Al Hamra Village",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "تأجير قصير الأجل",
+        "Al Hamra Village",
+        "شقق · شقق فندقية",
+        "AED 1M–5M",
+        "التكاليف · إشغال · قواعد"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مستثمر في التأجير قصير الأجل في Al Hamra Village",
+      "subtitle": "قارن الخيارات في Al Hamra Village مع التركيز على الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Al Hamra Village وفق الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث",
+        "تحقق من الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في استثمار للتأجير قصير الأجل؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مستثمر في التأجير قصير الأجل في Al Hamra Village",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مستثمر في التأجير قصير الأجل في Al Hamra Village",
+      "placeholder": "قارن خيارات مستثمر في التأجير قصير الأجل في Al Hamra Village",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "تأجير قصير الأجل",
+        "Al Hamra Village",
+        "عقار استثماري",
+        "الإشغال · التكاليف · القواعد",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village</strong>، ركّز على الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث بدل الاعتماد على عامل واحد فقط. تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village، ركّز على الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث بدل الاعتماد على عامل واحد فقط. تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مستثمر في التأجير قصير الأجل"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "تأجير قصير الأجل"
+        },
+        {
+          "label": "الموقع",
+          "value": "Al Hamra Village"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق · شقق فندقية"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "AED 1M–5M"
+        },
+        {
+          "label": "محور القرار",
+          "value": "الإشغال · التكاليف · القواعد"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "تقييم استثماري"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "تحقق من افتراضات التأجير"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار استثمار للتأجير قصير الأجل اعتمادًا على عامل واحد مع تجاهل الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية.",
+          "المشترون الذين لا يريدون مراجعة الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل الاعتماد على معدلات يومية أو إشغال متفائل من دون احتساب الإدارة والشواغر والقواعد."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية في Al Hamra Village.",
+          "المشترون الذين يريدون مقارنة الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Al Hamra Village، قارن الخيارات وفق الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "الإشغال",
+          "تكاليف التشغيل",
+          "التأثيث",
+          "استخدام التأجير",
+          "الجدوى الصافية"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Al Hamra Village، قيّم المنطقة وفق مدى دعمها لـ تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Al Hamra Village"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية في جدوى الإقامة القصيرة قبل تضييق الاختيار.",
+            "title": "جدوى الإقامة القصيرة"
+          },
+          {
+            "text": "قبل تضييق نطاق المناطق، تحقّق من متطلبات التشغيل وأعد حساب الأرقام بعد تكاليف الإدارة وفترات الشغور.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن شقق فندقية من حيث الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "شقق فندقية"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث الإشغال الواقعي والطلب وإدارة التأجير والرسوم والقواعد والتكاليف التشغيلية، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "أضف التأثيث والإدارة والتشغيل والرسوم وفترات الشغور إلى سعر الشراء قبل تقييم الدخل.",
+          "title": "اختبر ملاءمة استثمار للتأجير قصير الأجل",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Al Hamra Village، قارن الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى الاعتماد على معدلات يومية أو إشغال متفائل من دون احتساب الإدارة والشواغر والقواعد.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Al Hamra Village باستخدام المعايير نفسها: الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Al Hamra Village، تشمل المخاطر الرئيسية الاعتماد على معدلات يومية أو إشغال متفائل من دون احتساب الإدارة والشواغر والقواعد. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "تأجير قواعد",
+          "الإشغال",
+          "الإدارة",
+          "التأثيث",
+          "التكاليف المتكررة"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات استثمار للتأجير قصير الأجل"
+          },
+          {
+            "text": "أضف التأثيث والإدارة والتشغيل والرسوم وفترات الشغور إلى سعر الشراء قبل تقييم الدخل.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قارن في Al Hamra Village الإشغال الواقعي وطلب الضيوف واحتياجات الإدارة والتكاليف المتكررة بدل الاعتماد على أعلى الأسعار الليلية.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "أدرج تكاليف التجهيز والتأثيث والإدارة قبل تقرير ما إذا كان العقار مناسبًا للتأجير قصير الأجل.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/ellington-views-phase-2/",
+            "meta": "Ellington · Al Hamra Village",
+            "label": "Ellington Views Phase 2"
+          },
+          {
+            "href": "/ar/projects/al-hamra-waterfront/",
+            "meta": "Al Hamra Real Estate Management Services · Al Hamra Village",
+            "label": "Al Hamra Waterfront"
+          },
+          {
+            "href": "/ar/projects/ellington-views/",
+            "meta": "Ellington · Al Hamra Village",
+            "label": "Ellington Views"
+          },
+          {
+            "href": "/ar/projects/azizi-717-tower/",
+            "meta": "Azizi Developments · Dubai Trade Centre District",
+            "label": "Azizi 717 Tower"
+          },
+          {
+            "href": "/ar/projects/damac-casa/",
+            "meta": "Damac Properties · Naseej District",
+            "label": "Damac Casa"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "أضف التأثيث والإدارة والتشغيل والرسوم وفترات الشغور إلى سعر الشراء قبل تقييم الدخل. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "سعر الشراء",
+          "التأثيث",
+          "الإدارة",
+          "الشواغر",
+          "تكاليف التشغيل"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/rental-yield-apartment-investor-in-al-hamra-village/",
+          "label": "مستثمر شقق يقيّم العائد الإيجاري في Al Hamra Village"
+        },
+        {
+          "href": "/ar/buyer-scenarios/entry-level-rental-income-investor/",
+          "label": "مستثمر مبتدئ يستهدف دخلًا إيجاريًا"
+        },
+        {
+          "href": "/ar/buyer-scenarios/resale-liquidity-buyer/",
+          "label": "مشتري يركز على سيولة إعادة البيع"
+        },
+        {
+          "href": "/ar/buyer-scenarios/ready-to-move-buyer/",
+          "label": "مشتري عقار جاهز للسكن"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Al Hamra Village، ركّز على الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث. تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village؟"
+        },
+        {
+          "answer": "في Al Hamra Village، يناسب المشترين الذين يريدون تقييم استثمار التأجير قصير الأجل على أساس التشغيل والتكاليف والقواعد الحالية ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مستثمر في التأجير قصير الأجل في Al Hamra Village؟"
+        },
+        {
+          "answer": "في Al Hamra Village، تحقق من العقار المحدد وشروطه الحالية، ثم راجع الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Al Hamra Village؟"
+        },
+        {
+          "answer": "في Al Hamra Village، أضف التأثيث والإدارة والتشغيل والرسوم وفترات الشغور إلى سعر الشراء قبل تقييم الدخل. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في Al Hamra Village؟"
+        },
+        {
+          "answer": "في Al Hamra Village، تتمثل المخاطر الرئيسية في الاعتماد على معدلات يومية أو إشغال متفائل من دون احتساب الإدارة والشواغر والقواعد. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Al Hamra Village؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مستثمر في التأجير قصير الأجل في Al Hamra Village، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "استخدام التأجير",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "الإشغال",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "الإدارة",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "تفصيل يحتاج إلى تحقق",
+          "value": "تحقق من التفاصيل الحالية"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مستثمر في التأجير قصير الأجل في Al Hamra Village وفق الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مستثمر في التأجير قصير الأجل؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث أثناء مقارنة الخيارات في Al Hamra Village. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مستثمر في التأجير قصير الأجل",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مستثمر في التأجير قصير الأجل بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مستثمر في التأجير قصير الأجل في Al Hamra Village مع وضع الإشغال والإدارة والتشغيل والرسوم والقواعد الحالية وتكاليف التأثيث والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مستثمر في التأجير قصير الأجل بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

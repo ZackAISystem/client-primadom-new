@@ -1,0 +1,712 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_comparison_darglobal_vs_meraas_holding_es",
+  "page_type_id": "developer_comparison_page",
+  "language_code": "es",
+  "url_path": "/es/compare-developers/darglobal-vs-meraas-holding/",
+  "canonical_url_path": "/es/compare-developers/darglobal-vs-meraas-holding/",
+  "canonical_group_key": "developer_comparison:darglobal:vs:meraas-holding",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "darglobal",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_developer_profiles_segment_logic",
+    "block_08_segment_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_by_developer",
+    "block_12_related_comparisons",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#developerComparisonLeadModal",
+      "cta_label": "Ver mis opciones",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Resumen",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#compare",
+          "label": "Comparar"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Proyectos"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Preguntar a AI"
+        }
+      ],
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navegación de comparación de desarrolladores",
+      "schema_version": "developer_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "developer_comparisons",
+          "href": "/es/compare-developers/",
+          "label": "Comparaciones de desarrolladores"
+        },
+        {
+          "key": "comparison",
+          "href": "/es/compare-developers/darglobal-vs-meraas-holding/",
+          "label": "Darglobal vs Meraas Holding",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "schema_version": "developer_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Darglobal: un perfil de ultralujo con residencias de marca",
+        "Meraas Holding: un perfil de lujo con un marcado enfoque en el diseño",
+        "Zonas de Darglobal: Living Legends",
+        "Zonas de Meraas Holding: City Walk · La Mer",
+        "Compara los proyectos actuales antes de preparar la selección."
+      ],
+      "title": "Darglobal vs Meraas Holding",
+      "ai_aria": "Pedir a Primadom AI que compare Darglobal y Meraas Holding",
+      "ai_badge": "Primadom AI",
+      "subtitle": "Darglobal presenta un perfil de ultralujo con residencias de marca, mientras que Meraas Holding presenta un perfil de lujo con un marcado enfoque en el diseño; compara proyectos, ubicaciones y condiciones.",
+      "ai_submit": "Preguntar a AI",
+      "facts_aria": "Datos clave de la comparación de desarrolladores",
+      "section_id": "overview",
+      "developer_a": {
+        "name": "Darglobal",
+        "slug": "darglobal",
+        "image": {
+          "alt": "Imagen de Trump International Hotel & Tower Dubai utilizada en la comparación de Darglobal",
+          "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/e865d5a6-afa3-413b-f749-d7363d216b00/desktop",
+          "media_status": "developer_media_available"
+        }
+      },
+      "developer_b": {
+        "name": "Meraas Holding",
+        "slug": "meraas-holding",
+        "image": {
+          "alt": "Imagen de Jumeirah Residences Emirates Towers utilizada en la comparación de Meraas Holding",
+          "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/efdbf08f-811c-4ea1-4cbe-1429fe4e3f00/desktop",
+          "media_status": "developer_media_available"
+        }
+      },
+      "visual_aria": "Comparación visual entre Darglobal y Meraas Holding",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "ai_placeholder": "Comparar Darglobal vs Meraas Holding según mi objetivo de compra, tipo de propiedad y plazo",
+      "schema_version": "developer_comparison_hero_v1",
+      "ai_listening_label": "Escuchando…"
+    },
+    "block_04_ai_compare": {
+      "text": "Describe tu zona preferida, tipo de propiedad, plazo y objetivo de compra. Primadom AI puede preparar el contexto de comparación antes de que un asesor revise las opciones actuales.",
+      "badge": "Primadom AI",
+      "hints": [
+        "¿Cuál encaja mejor con mi objetivo de compra?",
+        "Comparar proyectos y zonas",
+        "¿Qué debería verificar primero?"
+      ],
+      "title": "Comparar Darglobal y Meraas Holding para mi caso",
+      "ai_aria": "Pedir a Primadom AI que compare Darglobal y Meraas Holding",
+      "eyebrow": "Preguntar a AI",
+      "prompts": [
+        "¿Cuál encaja mejor con mi objetivo de compra?",
+        "Comparar proyectos y zonas",
+        "¿Qué debería verificar primero?"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Preguntar a AI",
+      "input_aria": "Pregunta de AI para comparar desarrolladores",
+      "section_id": "compare-ai-search",
+      "voice_text": "Preguntar sobre esta comparación de desarrolladores",
+      "placeholder": "Comparar por presupuesto, zona u objetivo de compra",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "button_label": "Preguntar a AI",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "ai_voice_text": "Comparar Darglobal vs Meraas Holding por zona, tipo de propiedad, plan de pago y objetivo de compra",
+      "ai_placeholder": "Comparar por presupuesto, zona u objetivo de compra",
+      "schema_version": "developer_comparison_ai_compare_v1",
+      "ai_voice_status": "Escuchando…",
+      "form_aria_label": "Pedir a Primadom AI que compare Darglobal y Meraas Holding",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "submit_aria_label": "Preguntar a Primadom AI",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "Ultralujo con residencias de marca",
+        "Lujo con enfoque en el diseño",
+        "Adecuación de la zona",
+        "Condiciones actuales"
+      ],
+      "title": "Conclusión rápida",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Darglobal</strong> presenta un perfil de ultralujo con residencias de marca y tiene como zonas clave Living Legends. <strong>Meraas Holding</strong> presenta un perfil de lujo con un marcado enfoque en el diseño y tiene como zonas clave City Walk, La Mer. Compara proyectos concretos, condiciones, entrega y disponibilidad actual.",
+      "body_text": "Darglobal presenta un perfil de ultralujo con residencias de marca y tiene como zonas clave Living Legends. Meraas Holding presenta un perfil de lujo con un marcado enfoque en el diseño y tiene como zonas clave City Walk, La Mer. Compara proyectos concretos, condiciones, entrega y disponibilidad actual.",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_quick_verdict_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Primer desarrollador",
+          "value": "Darglobal"
+        },
+        {
+          "label": "Perfil del primer desarrollador",
+          "value": "Ultralujo · Residencias de marca"
+        },
+        {
+          "label": "Cobertura del primer desarrollador",
+          "value": "1 perfil de proyecto · 1 zona"
+        },
+        {
+          "label": "Zonas clave del primer desarrollador",
+          "value": "Living Legends"
+        },
+        {
+          "label": "Segundo desarrollador",
+          "value": "Meraas Holding"
+        },
+        {
+          "label": "Perfil del segundo desarrollador",
+          "value": "Lujo · Enfoque en el diseño"
+        },
+        {
+          "label": "Cobertura del segundo desarrollador",
+          "value": "75 fichas de proyectos · 13 zonas"
+        },
+        {
+          "label": "Zonas clave del segundo desarrollador",
+          "value": "City Walk · La Mer"
+        }
+      ],
+      "title": "Detalles de la comparación",
+      "eyebrow": "Datos clave",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_facts_v1"
+    },
+    "block_07_developer_profiles_segment_logic": {
+      "items": [
+        {
+          "key": "developer_a",
+          "name": "Darglobal",
+          "slug": "darglobal",
+          "text": "Darglobal presenta actualmente un perfil de ultralujo con residencias de marca, con 1 proyecto en 1 zona, incluida Living Legends.",
+          "points": [
+            "Perfil: Ultralujo con residencias de marca",
+            "Cobertura: 1 proyecto · 1 zona",
+            "Zonas clave: Living Legends"
+          ]
+        },
+        {
+          "key": "developer_b",
+          "name": "Meraas Holding",
+          "slug": "meraas-holding",
+          "text": "Meraas Holding presenta actualmente un perfil de lujo con un marcado enfoque en el diseño, con 75 proyectos en 13 zonas, entre ellas City Walk, La Mer.",
+          "points": [
+            "Perfil: Lujo con enfoque en el diseño",
+            "Cobertura: 75 proyectos · 13 zonas",
+            "Zonas clave: City Walk, La Mer"
+          ]
+        }
+      ],
+      "title": "Perfiles de desarrolladores",
+      "eyebrow": "Resumen de los desarrolladores",
+      "section_id": "profiles",
+      "block_status": "final",
+      "segment_logic": {
+        "body": "Compara Darglobal y Meraas Holding según el objetivo del comprador, la cartera de proyectos y el enfoque por zonas. Confirma la elección final a nivel de proyecto, revisando las condiciones de pago, la entrega y la disponibilidad actual.",
+        "tags": [
+          "Ultralujo con residencias de marca",
+          "Lujo con enfoque en el diseño",
+          "Enfoque por zonas",
+          "Comprobación del proyecto",
+          "Condiciones actuales"
+        ],
+        "title": "Lógica del segmento",
+        "eyebrow": "Cómo comparar"
+      },
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_profiles_v1"
+    },
+    "block_08_segment_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "developer_a": "Darglobal",
+        "developer_b": "Meraas Holding"
+      },
+      "rows": [
+        {
+          "factor": "Cobertura de la cartera",
+          "developer_a": "Darglobal: 1 proyecto en 1 zona; confirma la disponibilidad actual.",
+          "developer_b": "Meraas Holding: 75 proyectos en 13 zonas; confirma la disponibilidad actual."
+        },
+        {
+          "factor": "Enfoque por zonas",
+          "developer_a": "Darglobal: entre las zonas clave figuran Living Legends; comprueba la adecuación de cada proyecto.",
+          "developer_b": "Meraas Holding: entre las zonas clave figuran City Walk, La Mer; comprueba la adecuación de cada proyecto."
+        },
+        {
+          "factor": "Adecuación al comprador",
+          "developer_a": "Darglobal: puede encajar con compradores que buscan proyectos de ultralujo con residencias de marca; confirma el proyecto y las condiciones.",
+          "developer_b": "Meraas Holding: puede encajar con compradores que buscan proyectos de lujo con enfoque en el diseño; confirma el proyecto y las condiciones."
+        },
+        {
+          "factor": "Pagos y plazos",
+          "developer_a": "Darglobal: revisa el plan de pago, la fase de construcción, la entrega y la exposición al pago final.",
+          "developer_b": "Meraas Holding: revisa el plan de pago, la fase de construcción, la entrega y la exposición al pago final."
+        },
+        {
+          "factor": "Verificación",
+          "developer_a": "Darglobal: verifica materiales oficiales, estado del proyecto, registro y disponibilidad actual.",
+          "developer_b": "Meraas Holding: verifica materiales oficiales, estado del proyecto, registro y disponibilidad actual."
+        },
+        {
+          "factor": "Lógica de inversión",
+          "developer_a": "Darglobal: compara precio de entrada, gastos de servicio, supuestos de alquiler y público objetivo de reventa proyecto por proyecto.",
+          "developer_b": "Meraas Holding: compara precio de entrada, gastos de servicio, supuestos de alquiler y público objetivo de reventa proyecto por proyecto."
+        }
+      ],
+      "title": "Comparación de segmentos",
+      "eyebrow": "Darglobal vs Meraas Holding",
+      "block_status": "final",
+      "table_status": "validated_full_enrichment",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "project_level",
+          "text": "Compara Darglobal y Meraas Holding tomando como referencia sus proyectos actuales, el tipo de propiedad, el plan de pago, la entrega y la disponibilidad.",
+          "title": "Comparar proyectos actuales",
+          "eyebrow": "Comprobación del proyecto"
+        },
+        {
+          "key": "area_fit",
+          "text": "Darglobal: Living Legends. Meraas Holding: City Walk, La Mer. Compara la adecuación de la ubicación a nivel de proyecto.",
+          "title": "Comprobar cobertura por zonas",
+          "eyebrow": "Adecuación de la zona"
+        },
+        {
+          "key": "verification",
+          "text": "Comprueba materiales oficiales, estado y registro del proyecto, condiciones de pago, entrega y disponibilidad para ambos desarrolladores.",
+          "title": "Verificar datos actuales",
+          "eyebrow": "Verificación de fuentes"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "Primadom AI puede comparar Darglobal y Meraas Holding por tipo de proyecto, zona, plan de pago, plazos y objetivo del comprador.",
+          "title": "Comparar según tu objetivo",
+          "eyebrow": "Preguntar a AI"
+        }
+      ],
+      "block_status": "final",
+      "schema_version": "developer_comparison_decision_cards_v1",
+      "decision_cards_aria": "Notas para decidir entre desarrolladores"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Mejor opción para cada tipo de comprador",
+        "eyebrow": "Adecuación al comprador",
+        "developer_a_items": [
+          "Tu selección incluye proyectos de ultralujo con residencias de marca",
+          "Estás considerando proyectos en Living Legends",
+          "Verificarás precio, plan de pago, entrega y disponibilidad proyecto por proyecto"
+        ],
+        "developer_a_title": "Considera Darglobal cuando",
+        "developer_b_items": [
+          "Tu selección incluye proyectos de lujo con enfoque en el diseño",
+          "Estás considerando proyectos en City Walk, La Mer",
+          "Verificarás precio, plan de pago, entrega y disponibilidad proyecto por proyecto"
+        ],
+        "developer_b_title": "Considera Meraas Holding cuando"
+      },
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Darglobal presenta un perfil de ultralujo con residencias de marca y Meraas Holding presenta un perfil de lujo con un marcado enfoque en el diseño. Utiliza estas señales solo para orientar la selección. Compara precio de entrada, plan de pago, entrega, gastos de servicio, supuestos de alquiler, público objetivo de reventa y disponibilidad actual de cada proyecto.",
+        "tags": [
+          "Precio de entrada",
+          "Plan de pago",
+          "Plazo de entrega",
+          "Gastos de servicio",
+          "Comprobaciones de alquiler y reventa"
+        ],
+        "title": "Lógica de inversión",
+        "eyebrow": "Lógica de decisión"
+      }
+    },
+    "block_11_projects_by_developer": {
+      "section_id": "projects",
+      "developer_a": {
+        "items": [
+          {
+            "href": "/es/projects/d-villas/",
+            "meta": "Living Legends",
+            "label": "D Villas"
+          },
+          {
+            "href": "/es/developers/darglobal/",
+            "meta": "Perfil del desarrollador",
+            "label": "Guía de Darglobal"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "Comparación con AI",
+            "label": "Preguntar a AI sobre Darglobal"
+          }
+        ],
+        "title": "Explorar proyectos de Darglobal",
+        "eyebrow": "Primer desarrollador"
+      },
+      "developer_b": {
+        "items": [
+          {
+            "href": "/es/projects/al-jazi/",
+            "meta": "Madinat Jumeirah Living",
+            "label": "Al Jazi"
+          },
+          {
+            "href": "/es/projects/asayel/",
+            "meta": "Madinat Jumeirah Living",
+            "label": "Asayel"
+          },
+          {
+            "href": "/es/developers/meraas-holding/",
+            "meta": "Perfil del desarrollador",
+            "label": "Guía de Meraas Holding"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "Comparación con AI",
+            "label": "Preguntar a AI sobre Meraas Holding"
+          }
+        ],
+        "title": "Explorar proyectos de Meraas Holding",
+        "eyebrow": "Segundo desarrollador"
+      },
+      "block_status": "final",
+      "source_status": "project_routes_and_developer_profiles",
+      "schema_version": "developer_comparison_projects_by_developer_v1",
+      "projects_status": "project_routes_available"
+    },
+    "block_12_related_comparisons": {
+      "items": [
+        {
+          "href": "/es/compare-developers/aldar-properties-pjsc-vs-darglobal/",
+          "label": "Aldar Properties PJSC vs Darglobal"
+        },
+        {
+          "href": "/es/compare-developers/ab-developers-vs-meraas-holding/",
+          "label": "AB Developers vs Meraas Holding"
+        },
+        {
+          "href": "/es/compare-developers/",
+          "label": "Comparaciones de desarrolladores en Dubai"
+        },
+        {
+          "href": "#compare-ai-search",
+          "label": "Preguntar a AI por desarrolladores similares"
+        }
+      ],
+      "title": "Comparaciones relacionadas",
+      "eyebrow": "Seguir explorando",
+      "section_id": "related-comparisons",
+      "block_status": "final",
+      "source_status": "balanced_page_index_routes",
+      "related_status": "page_index_routes_ready",
+      "schema_version": "developer_comparison_related_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Darglobal puede encajar cuando buscas proyectos de ultralujo con residencias de marca. Meraas Holding puede encajar cuando buscas proyectos de lujo con enfoque en el diseño. Ninguno es mejor en todos los casos; compara los proyectos concretos, las zonas, las condiciones de pago y los plazos antes de elegir.",
+          "question": "¿Es Darglobal mejor que Meraas Holding?",
+          "answer_status": "pair_buyer_goal_guidance"
+        },
+        {
+          "answer": "Para una compra familiar, compara Darglobal y Meraas Holding a nivel de proyecto y comunidad. Revisa el tamaño y la distribución de la unidad, colegios, parques, servicios cotidianos, desplazamientos, entrega, gastos de servicio y madurez de la comunidad. El nombre del desarrollador por sí solo no determina la adecuación para una familia.",
+          "question": "¿Qué desarrollador puede ser mejor para familias, Darglobal o Meraas Holding?",
+          "answer_status": "family_fit_guidance"
+        },
+        {
+          "answer": "Darglobal presenta un perfil de ultralujo con residencias de marca y Meraas Holding presenta un perfil de lujo con un marcado enfoque en el diseño. Utiliza estas señales solo para orientar la selección. Compara precio de entrada, plan de pago, entrega, gastos de servicio, supuestos de alquiler, público objetivo de reventa y disponibilidad actual de cada proyecto.",
+          "question": "¿Qué desarrollador puede ser mejor para inversión, Darglobal o Meraas Holding?",
+          "answer_status": "investment_fit_guidance"
+        },
+        {
+          "answer": "Antes de elegir entre Darglobal y Meraas Holding, verifica el estado oficial y el registro de cada proyecto, la disponibilidad actual de unidades, el precio, el plan de pago, la entrega, los gastos de servicio, los planos y las condiciones contractuales de cada proyecto seleccionado.",
+          "question": "¿Qué deberían verificar los compradores antes de elegir entre Darglobal y Meraas Holding?",
+          "answer_status": "verification_guidance"
+        },
+        {
+          "answer": "Sí. Primadom AI puede comparar Darglobal y Meraas Holding por presupuesto, tipo de propiedad, zona, plan de pago, entrega y objetivo familiar o de inversión, y ayudar a organizar una selección a nivel de proyecto para que la revise un asesor.",
+          "question": "¿Puede Primadom AI comparar Darglobal y Meraas Holding según mi presupuesto y objetivo de compra?",
+          "answer_status": "ai_comparison_guidance"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas sobre desarrolladores",
+      "faq_status": "final",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "final_buyer_fit_and_investment_context",
+      "schema_version": "developer_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Las referencias verificadas para Darglobal y Meraas Holding todavía no están vinculadas a esta página. Utiliza la comparación como orientación y confirma todos los datos sobre desarrolladores, proyectos, precios y disponibilidad en materiales oficiales antes de actuar.",
+      "items": [
+        {
+          "label": "Verificación de Darglobal",
+          "value": "Confirma el perfil del desarrollador, los proyectos actuales y las condiciones publicadas con los materiales oficiales de Darglobal."
+        },
+        {
+          "label": "Verificación de Meraas Holding",
+          "value": "Confirma el perfil del desarrollador, los proyectos actuales y las condiciones publicadas con los materiales oficiales de Meraas Holding."
+        },
+        {
+          "label": "Información del proyecto",
+          "value": "Confirma el estado y registro del proyecto, la disponibilidad de unidades, el plan de pago, la entrega, los gastos de servicio y las condiciones contractuales."
+        },
+        {
+          "label": "Actualización de fuentes",
+          "value": "Los enlaces a fuentes verificadas se añadirán cuando esté disponible el paquete de fuentes. Hasta entonces, utiliza esta página únicamente como guía comparativa."
+        }
+      ],
+      "title": "Notas de verificación",
+      "eyebrow": "Verificación",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verified_sources_pending",
+      "schema_version": "developer_comparison_source_notes_v1",
+      "source_notes_status": "final_safe_placeholder"
+    },
+    "block_15_cta": {
+      "text": "Pide a Primadom AI que compare ambos desarrolladores según tu objetivo de compra, la zona, el tipo de proyecto, el plan de pago, el plazo de entrega y el perfil de riesgo; después, un asesor puede revisar la solicitud con información actualizada.",
+      "title": "¿Quieres comparar Darglobal y Meraas Holding para tu situación?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Preguntar a Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "developer_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#developerComparisonLeadModal",
+          "label": "Comparar con mi caso",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "developer_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerComparisonLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "final",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "developer_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta para comparar desarrolladores",
+      "note": "Un asesor comprobará los datos antes de ponerse en contacto contigo.",
+      "text": "Comparte tus datos de contacto y añade una preferencia breve.",
+      "title": "Comparar Darglobal y Meraas Holding para tu caso",
+      "fields": {
+        "name": "Nombre",
+        "email": "Email (opcional)",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Comparar Darglobal vs Meraas Holding.",
+      "eyebrow": "Continuar la comparación con AI",
+      "success": "Enviado",
+      "ai_badge": "Primadom AI",
+      "modal_id": "developerComparisonLeadModal",
+      "title_id": "developerComparisonLeadTitle",
+      "close_label": "Cerrar",
+      "ai_row_badge": "Solicitud preparada",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "label": "Nombre",
+          "html_name": "name",
+          "placeholder": "Tu nombre"
+        },
+        "email": {
+          "label": "Email (opcional)",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Teléfono / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971 50 123 4567"
+        },
+        "comment": {
+          "label": "Solicitud preparada",
+          "html_name": "comment",
+          "placeholder": "Añade una preferencia breve"
+        }
+      },
+      "modal_status": "final",
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "email@example.com",
+        "phone": "+971 50 123 4567",
+        "comment": "Añade una preferencia breve"
+      },
+      "submit_label": "Enviar",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type_id"
+        },
+        "developer_a_name": {
+          "html_name": "developer_a_name",
+          "value_ref": "developer_a_name"
+        },
+        "developer_a_slug": {
+          "html_name": "developer_a_slug",
+          "value_ref": "developer_a_slug"
+        },
+        "developer_b_name": {
+          "html_name": "developer_b_name",
+          "value_ref": "developer_b_name"
+        },
+        "developer_b_slug": {
+          "html_name": "developer_b_slug",
+          "value_ref": "developer_b_slug"
+        }
+      },
+      "success_label": "Enviado",
+      "schema_version": "developer_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 1,
+        "prefill": "Comparar Darglobal vs Meraas Holding.",
+        "html_name": "comment",
+        "max_length": 160,
+        "display_mode": "single_line",
+        "request_scope": [
+          "developer_comparison",
+          "buyer_goal",
+          "area_fit",
+          "property_type",
+          "payment_plan",
+          "handover_timing",
+          "risk_profile",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "Usar voz"
+    },
+    "block_17_footer": {
+      "text": "Esta página te ayuda a comparar Darglobal y Meraas Holding, revisar el contexto de cada desarrollador, los proyectos disponibles, la adecuación al comprador, la lógica de inversión y las preguntas clave antes de hablar con un asesor de Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Compara desarrolladores con datos de proyectos más claros y orientación con AI.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, EAU",
+      "subtitle": "Información inmobiliaria de EAU",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "footer_status": "final",
+      "schema_version": "developer_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#developerComparisonLeadModal",
+        "label": "Reservar una llamada",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Preguntar a AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

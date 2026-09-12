@@ -9,7 +9,7 @@
 
     <nav class="pa-header__nav" aria-label="District navigation">
       {{ range $h.nav }}
-        <a class="pa-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pa-header__nav-link--ai{{ end }}" href="{{ .href }}">
+        <a class="pa-header__nav-link{{ if .active }} is-active{{ end }}{{ if .ai }} pa-header__nav-link--ai{{ end }}" href="{{ if .ai }}#ask-ai{{ else }}{{ .href }}{{ end }}">
           {{ .label }}
         </a>
       {{ end }}

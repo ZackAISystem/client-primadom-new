@@ -1,0 +1,10 @@
+---
+title: "Gebietsleitfaden für Khuzam"
+layout: "primadom-district-page-v2"
+district_slug: "khuzam"
+page_id: "page_district_khuzam_de"
+url: "/de/areas/khuzam/"
+build:
+  render: always
+  list: never
+---

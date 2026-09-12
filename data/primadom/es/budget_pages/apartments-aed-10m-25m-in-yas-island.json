@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_apartments_aed_10m_25m_yas_island_es",
+  "page_type_id": "budget_page",
+  "language_code": "es",
+  "url_path": "/es/budgets/apartments-aed-10m-25m-in-yas-island/",
+  "canonical_url_path": "/es/budgets/apartments-aed-10m-25m-in-yas-island/",
+  "canonical_group_key": "property_budget_district:apartments:aed_10m_25m:yas-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "yas-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Qué puedes comprar",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Plan de pago",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costes",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Navegación de la página de presupuesto",
+      "cta_label": "Revisar presupuesto",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "budgets",
+          "href": "/es/budgets/",
+          "label": "Presupuestos"
+        },
+        {
+          "key": "property_type",
+          "href": "/es/property-types/apartments/",
+          "label": "Apartamentos"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/yas-island/",
+          "label": "Yas Island"
+        },
+        {
+          "key": "current",
+          "href": "/es/budgets/apartments-aed-10m-25m-in-yas-island/",
+          "label": "Apartamentos por AED 10M–25M en Yas Island"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 10M–25M",
+        "Yas Island",
+        "Apartamentos",
+        "Precios iniciales de proyectos por debajo del rango",
+        "Comparar especificaciones premium"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Apartamentos por AED 10M–25M en Yas Island",
+      "subtitle": "Los precios de entrada de los proyectos para apartamentos en Yas Island begin por debajo del AED 10M–25M rango; compara qué aportal presupuesto más alto en espacio, ubicación, especificaciones y costes de propiedad.",
+      "facts_aria": "Aspectos destacados de la página de presupuesto",
+      "section_id": "overview",
+      "visual_aria": "Resumen del presupuesto para Apartamentos por AED 10M–25M en Yas Island",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compara apartamentos en Yas Island según su encaje en el presupuesto, la distribución, el perfil de entrega y los costes totales. Los precios y la disponibilidad actuales requieren una comprobación del proyecto.",
+      "hints": [
+        "¿Qué proyectos de apartamentos encajan en este presupuesto?",
+        "¿Qué permite un presupuesto más alto?",
+        "¿Qué costes de propiedad debo prever?"
+      ],
+      "title": "Revisar apartamentos en Yas Island con un presupuesto de AED 10M–25M",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Evalúa opciones realistas de apartamentos en Yas Island con un presupuesto de AED 10M–25M. Utiliza los precios iniciales de los proyectos como referencia, compara distribuciones, ubicaciones y perfiles de entrega, y confirma los precios exactos de las unidades antes de hacer una selección.",
+        "Explica qué puede aportar un presupuesto más alto para apartamentos en Yas Island: distribuciones más amplias, mejores ubicaciones dentro del proyecto, especificaciones superiores, vistas, instalaciones y menos compromisos en la ubicación.",
+        "Resume las principales categorías de costes de compra y propiedad para apartamentos en Yas Island con un presupuesto de AED 10M–25M, sin asumir comisiones, incentivos ni disponibilidad actuales."
+      ],
+      "hint_items": [
+        {
+          "label": "¿Qué proyectos de apartamentos encajan en este presupuesto?",
+          "prompt": "Evalúa opciones realistas de apartamentos en Yas Island con un presupuesto de AED 10M–25M. Utiliza los precios iniciales de los proyectos como referencia, compara distribuciones, ubicaciones y perfiles de entrega, y confirma los precios exactos de las unidades antes de hacer una selección."
+        },
+        {
+          "label": "¿Qué permite un presupuesto más alto?",
+          "prompt": "Explica qué puede aportar un presupuesto más alto para apartamentos en Yas Island: distribuciones más amplias, mejores ubicaciones dentro del proyecto, especificaciones superiores, vistas, instalaciones y menos compromisos en la ubicación."
+        },
+        {
+          "label": "¿Qué costes de propiedad debo prever?",
+          "prompt": "Resume las principales categorías de costes de compra y propiedad para apartamentos en Yas Island con un presupuesto de AED 10M–25M, sin asumir comisiones, incentivos ni disponibilidad actuales."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Pregunta por apartamentos en Yas Island con un presupuesto de AED 10M–25M",
+      "placeholder": "Pregunta por apartamentos en Yas Island con un presupuesto de AED 10M–25M",
+      "voice_label": "Iniciar entrada de voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Comparar con mi caso",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_active_label": "Detener entrada de voz",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "live_check_required": true,
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "submit_loading_label": "Consultando a AI",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz",
+      "voice_processing_label": "Procesando entrada de voz"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 10M–25M",
+        "Yas Island",
+        "Apartamentos",
+        "Precios iniciales por debajo del rango",
+        "Comparar distribuciones más amplias"
+      ],
+      "title": "Qué puedes comprar",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<p><strong>Los precios iniciales de proyectos registrados para apartamentos en Yas Island están por debajo del rango objetivo AED 10M–25M.</strong> Compara la eficiencia de la distribución, la superficie útil, la planta y las vistas, el perfil de finalización, los gastos de servicio, las condiciones de pago y los costes totales de propiedad. Utiliza el presupuesto adicional para comparar distribuciones más amplias, mejores vistas o ubicaciones de unidad superiores. Antes de hacer una selección, verifica el precio exacto de la unidad, el calendario de pagos, los incentivos actuales y la disponibilidad del proyecto concreto.</p>",
+      "body_text": "Los precios iniciales de proyectos registrados para apartamentos en Yas Island están por debajo del rango objetivo AED 10M–25M. Compara la eficiencia de la distribución, la superficie útil, la planta y las vistas, el perfil de finalización, los gastos de servicio, las condiciones de pago y los costes totales de propiedad. Utiliza el presupuesto adicional para comparar distribuciones más amplias, mejores vistas o ubicaciones de unidad superiores. Antes de hacer una selección, verifica el precio exacto de la unidad, el calendario de pagos, los incentivos actuales y la disponibilidad del proyecto concreto.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Presupuesto",
+          "value": "AED 10M–25M"
+        },
+        {
+          "key": "market",
+          "label": "Mercado",
+          "value": "Abu Dhabi"
+        },
+        {
+          "key": "area",
+          "label": "Zona",
+          "value": "Yas Island"
+        },
+        {
+          "key": "property_type",
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos"
+        },
+        {
+          "key": "current_signal",
+          "label": "Señal actual",
+          "value": "Precios iniciales por debajo del rango"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Principal compromiso",
+          "value": "Distribución frente a ubicación de la unidad"
+        },
+        {
+          "key": "next_check",
+          "label": "Siguiente comprobación",
+          "value": "Distribuciones más amplias"
+        },
+        {
+          "key": "unit_status",
+          "label": "Estado de la unidad",
+          "value": "Verificar disponibilidad actual"
+        }
+      ],
+      "title": "Parámetros del presupuesto",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Los precios iniciales registrados se sitúan por debajo de este rango de presupuesto; compara unidades más grandes o mejoradas.",
+            "title": "Yas Island"
+          },
+          {
+            "text": "Una zona relevante para comparar cuando las coincidencias exactas de precio inicial son limitadas.",
+            "title": "Al Reem Island"
+          },
+          {
+            "text": "Una zona relevante para comparar cuando las coincidencias exactas de precio inicial son limitadas.",
+            "title": "Saadiyat Island"
+          },
+          {
+            "text": "Una zona relevante para comparar cuando las coincidencias exactas de precio inicial son limitadas.",
+            "title": "Masdar City"
+          }
+        ],
+        "title": "Zonas para comparar",
+        "eyebrow": "Lógica de la zona"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "Esta página se centra en este tipo de propiedad, pero actualmente ningún precio inicial de proyecto registrado entra en el presupuesto.",
+            "title": "Apartamentos"
+          },
+          {
+            "text": "1 proyecto tiene un precio inicial registrado dentro de este presupuesto; compara la distribución, la ubicación y el precio exacto de la unidad.",
+            "title": "Villas"
+          },
+          {
+            "text": "Este formato aparece en la zona, pero los precios iniciales registrados se sitúan actualmente fuera del presupuesto.",
+            "title": "Apartamentos frente al agua"
+          },
+          {
+            "text": "Este formato aparece en la zona, pero los precios iniciales registrados se sitúan actualmente fuera del presupuesto.",
+            "title": "Apartamentos de lujo"
+          }
+        ],
+        "title": "Tipos de propiedad para comparar",
+        "eyebrow": "Lógica del tipo de propiedad"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Notas para la decisión de presupuesto",
+      "items": [
+        {
+          "text": "Los precios iniciales registrados para apartamentos en Yas Island están por debajo de AED 10M–25M. Decide si pagar más mejora la distribución, la ubicación o las especificaciones y, después, comprueba todo el calendario de pagos.",
+          "title": "Supera el precio de entrada con un propósito claro",
+          "eyebrow": "Lógica del plan de pago"
+        },
+        {
+          "text": "En Yas Island, compara la distribución útil con la planta, la orientación, las vistas y la proximidad a fuentes de ruido o instalaciones compartidas.",
+          "title": "El plan solo funciona si la ubicación también encaja",
+          "eyebrow": "Compromisos"
+        },
+        {
+          "text": "Para apartamentos en Yas Island, ten en cuenta el registro, los gastos de servicio, el amueblamiento, el aparcamiento o almacenamiento, la refrigeración cuando corresponda y el mantenimiento habitual.",
+          "title": "Los gastos recurrentes merecen una comprobación temprana",
+          "eyebrow": "Costes adicionales"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede valorar el presupuesto, el tipo de propiedad, la zona, el plazo y el perfil de riesgo antes de que un asesor compruebe las opciones actuales.",
+          "title": "Convertir el presupuesto en una selección",
+          "eyebrow": "Contexto de AI"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "Ningún proyecto identificado en los datos actuales coincide con apartamentos en Yas Island con un presupuesto de AED 10M–25M. Utiliza la guía de la zona y la búsqueda actual que aparecen a continuación para afinar la selección.",
+        "items": [
+          {
+            "href": "/es/areas/yas-island/",
+            "meta": "guía de la zona",
+            "label": "Explorar más proyectos en Yas Island",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "precio y disponibilidad",
+            "label": "Comprobar unidades disponibles actualmente de apartamentos en Yas Island",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "comprobación del rango",
+            "label": "Comparar los precios más cercanos fuera del rango",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "comprobación de decisión",
+            "label": "Revisar el desembolso de pagos y el momento de compra",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "Comprobación de presupuesto con AI",
+            "label": "Pide a Primadom AI que prepare una selección con opciones actuales",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Opciones de búsqueda de proyectos",
+        "eyebrow": "Punto de partida para la selección"
+      },
+      "buyer_fit": {
+        "title": "Adecuación al comprador",
+        "eyebrow": "Para quién es adecuado este presupuesto",
+        "bad_items": [
+          "Compradores decididos por otro tipo de propiedad y que no quieren comparar este formato",
+          "Compradores que necesitan una lista ya preparada de proyectos identificados sin ajustar los criterios de búsqueda actuales",
+          "Compradores que no quieren tener en cuenta los gastos de servicio, el amueblamiento y los costes de entrega"
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que comparan apartamentos en Yas Island con un presupuesto de AED 10M–25M",
+          "Compradores que evalúan conjuntamente la distribución útil, la planta, la orientación y las vistas",
+          "Compradores dispuestos a ajustar la zona, el tipo de propiedad o el presupuesto antes de solicitar opciones actuales"
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Para apartamentos en Yas Island con un presupuesto de AED 10M–25M, el precio marca un límite, pero la propiedad concreta sigue dependiendo de las características que más importen. La distribución útil, la planta, la orientación y las vistas deben compararse conjuntamente; una mayor superficie anunciada no implica automáticamente una vivienda mejor. Actualmente ningún proyecto identificado cumple todos los criterios. Comprueba si existe una distribución más amplia en la zona preferida antes de aumentar el presupuesto o cambiar de zona.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Distribución y ubicación",
+          "Costes del edificio",
+          "Búsqueda actual",
+          "Desembolso total de efectivo",
+          "Costes recurrentes"
+        ],
+        "title": "Compromisos",
+        "eyebrow": "Comprobación de viabilidad"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "El precio anunciado es solo una parte del efectivo necesario para apartamentos en Yas Island. Confirma los costes asociados a la unidad concreta y a la operación antes de reservar.",
+        "items": [
+          {
+            "text": "Confirma los gastos de registro y transacción de la compra concreta en Abu Dhabi antes de reservar. El importe final depende de la propiedad y del tipo de operación.",
+            "title": "Costes de registro y transacción"
+          },
+          {
+            "text": "Cuando se utilice financiación, confirma los gastos bancarios, de tasación y relacionados con la hipoteca junto con el efectivo necesario antes de la finalización.",
+            "title": "Costes de financiación y tasación"
+          },
+          {
+            "text": "Revisa los gastos de servicio del edificio, los sistemas de refrigeración, las instalaciones compartidas y las responsabilidades de mantenimiento de la unidad concreta.",
+            "title": "Gastos de servicio y mantenimiento del edificio"
+          },
+          {
+            "text": "Planifica por separado la inspección de defectos, el amueblamiento, los suministros, la mudanza y cualquier coste debido en torno a la entrega o finalización.",
+            "title": "Costes de entrega, amueblamiento y mudanza"
+          }
+        ],
+        "title": "Costes que hay que verificar",
+        "eyebrow": "Qué comprobar antes de comprar",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/es/budgets/apartments-aed-5m-10m-in-yas-island/",
+          "label": "Apartamentos por AED 5M–10M en Yas Island",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/apartments-aed-25m-plus-in-yas-island/",
+          "label": "Apartamentos por desde AED 25M en Yas Island",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/aed-10m-25m-in-yas-island/",
+          "label": "Propiedades por AED 10M–25M en Yas Island",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/luxury-apartments-aed-10m-25m-in-yas-island/",
+          "label": "Apartamentos de lujo por AED 10M–25M en Yas Island",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Páginas de presupuesto relacionadas",
+      "eyebrow": "Búsquedas relacionadas",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Actualmente ningún proyecto identificado coincide con la búsqueda de apartamentos en Yas Island con un presupuesto de AED 10M–25M según los datos registrados. Compara rangos de presupuesto adyacentes, tipos de propiedad cercanos o una búsqueda geográfica más amplia y, después, solicita una comprobación actual antes de considerar disponible cualquier opción.",
+          "question": "¿Cuánta oferta registrada hay de apartamentos en Yas Island con un presupuesto de AED 10M–25M?"
+        },
+        {
+          "answer": "Para apartamentos en Yas Island con un presupuesto de AED 10M–25M, el señal actual de proyectos is precios iniciales por debajo del rango, mientras el principal compromiso is distribución frente un ubicación de la unidad. Esta página se centra en este tipo de propiedad, pero actualmente ningún precio inicial de proyecto registrado entra dentro del presupuesto. La siguiente comprobación útil son distribuciones más amplias.",
+          "question": "¿Qué factor influye más en apartamentos en Yas Island con un presupuesto de AED 10M–25M?"
+        },
+        {
+          "answer": "El precio anunciado es solo una parte del efectivo necesario para apartamentos en Yas Island. Confirma los costes asociados a la unidad concreta y a la operación antes de reservar. Para apartamentos en Yas Island con un presupuesto de AED 10M–25M, comprueba los costes de registro y transacción, los costes de financiación y tasación, los gastos de servicio y mantenimiento del edificio, y los costes de entrega, amueblamiento y mudanza. Los importes exactos deben calcularse para la unidad seleccionada, la estructura de financiación y la operación antes de considerar completo el presupuesto.",
+          "question": "¿Qué costes adicionales deberían calcular los compradores para apartamentos en Yas Island con un presupuesto de AED 10M–25M?"
+        },
+        {
+          "answer": "Para apartamentos en Yas Island con un presupuesto de AED 10M–25M, compara la reserva o el pago inicial, las cuotas durante la construcción, el saldo en la entrega, cualquier obligación posterior a la entrega y el importe total exigible antes de la finalización. Esta página no confirma un plan de pago vigente del desarrollador, por lo que el calendario actual debe comprobarse por separado para cada unidad seleccionada. Una cuota menor o un calendario más largo no implica automáticamente un menor desembolso total.",
+          "question": "¿Cómo deberían comparar los compradores los planes de pago para apartamentos en Yas Island con un presupuesto de AED 10M–25M?"
+        },
+        {
+          "answer": "Para apartamentos en Yas Island con un presupuesto de AED 10M–25M, Primadom AI puede ampliar una restricción cada vez —presupuesto, ubicación, tipo de propiedad, tamaño o fecha de finalización— manteniendo visibles los objetivos del comprador y el desembolso total de efectivo. Cualquier proyecto resultante sigue requiriendo una verificación actualizada de los precios de las unidades, las condiciones y la disponibilidad.",
+          "question": "¿Cómo puede Primadom AI afinar una búsqueda de apartamentos en Yas Island con un presupuesto de AED 10M–25M?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas sobre presupuesto",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Los datos de planificación para apartamentos en Yas Island con un presupuesto de AED 10M–25M no constituyen inventario en tiempo real. Confirma el precio y la disponibilidad actuales de la unidad, el calendario de pagos, el estado de entrega, las comisiones, los gastos de servicio y las condiciones del proyecto mediante materiales del desarrollador, registros oficiales, anuncios actuales y la revisión de un asesor de Primadom.",
+      "items": [
+        {
+          "label": "Precio / disponibilidad",
+          "value": "Requiere comprobación actual"
+        },
+        {
+          "label": "Plan de pago",
+          "value": "Requiere documentación del desarrollador"
+        },
+        {
+          "label": "Comisiones / gastos de servicio",
+          "value": "Debe calcularse"
+        },
+        {
+          "label": "Adecuación de unidad / proyecto",
+          "value": "Requiere revisión de fuentes"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Verificación",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Pide a Primadom AI que compare apartamentos en Yas Island con un presupuesto de AED 10M–25M por precio actual, adecuación de la unidad, plan de pago y coste total, y que después prepare una selección para una revisión actualizada.",
+      "title": "¿Quieres comprobar qué puedes comprar realmente con tu presupuesto?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Obtener una selección por presupuesto",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulario de consulta de presupuesto",
+      "note": "Los precios y la disponibilidad actuales se comprobarán antes de compartir recomendaciones.",
+      "text": "Comparte tus datos. Primadom AI preparará tu solicitud de presupuesto para que la revise un asesor de Primadom.",
+      "title": "Comprueba qué puedes comprar con tu presupuesto",
+      "fields": {
+        "name": "Tu nombre",
+        "phone": "Teléfono / WhatsApp",
+        "budget": "Rango de presupuesto",
+        "comment": "Solicitud preparada"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Enviar",
+      "comment": "Revisa apartamentos en Yas Island, AED 10M–25M, para mi caso.",
+      "eyebrow": "Continuar la selección por presupuesto con AI",
+      "success": "Enviado",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Cerrar",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Borrador de solicitud",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Tu nombre",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Nombre"
+        },
+        "phone": {
+          "label": "Teléfono / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Rango de presupuesto",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 10M–25M",
+          "default_value": "AED 10M–25M"
+        },
+        "comment": {
+          "label": "Solicitud preparada",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Preparado desde esta página",
+          "single_line": true,
+          "default_value": "Revisa apartamentos en Yas Island, AED 10M–25M, para mi caso."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Nombre",
+        "phone": "+971",
+        "budget": "AED 10M–25M",
+        "comment": "Preparado desde esta página"
+      },
+      "submit_label": "Enviar",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_apartments_aed_10m_25m_yas_island_es",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 10M–25M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "dentro del rango AED 10M–25M",
+        "district_name": "Yas Island",
+        "canonical_url_path": "/es/budgets/apartments-aed-10m-25m-in-yas-island/",
+        "content_version_id": "1f418670-3871-44cd-be38-96e6b0cdc874",
+        "property_type_name": "Apartments"
+      },
+      "success_label": "Enviado",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Búsqueda por voz",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explora apartamentos en Yas Island con un presupuesto de AED 10M–25M por precio actual, plan de pago, coste total y adecuación del proyecto antes de solicitar una revisión actualizada del mercado.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Búsqueda por presupuesto convertida en opciones inmobiliarias realistas",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubái, Emiratos Árabes Unidos",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Enlaces sociales de Primadom",
+      "url_section": "/es/budgets/apartments-aed-10m-25m-in-yas-island/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Reservar una llamada",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Preguntar a AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

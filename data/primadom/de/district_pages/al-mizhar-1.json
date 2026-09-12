@@ -1,0 +1,611 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_al_mizhar_1_de",
+  "page_type_id": "district_page",
+  "language_code": "de",
+  "url_path": "/de/areas/al-mizhar-1/",
+  "canonical_url_path": "/de/areas/al-mizhar-1/",
+  "canonical_group_key": "district:al-mizhar-1",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-mizhar-1",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_area_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_developers",
+    "block_10_landmarks_location",
+    "block_11_similar_districts",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#top-projects",
+          "label": "Beste Projekte",
+          "active": true
+        },
+        {
+          "href": "#area-fit",
+          "label": "Für wen es geeignet ist",
+          "active": false
+        },
+        {
+          "href": "#location",
+          "label": "Lage",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#districtLeadModal",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#districtLeadModal",
+      "brand_url": "/de/",
+      "cta_label": "Meine Optionen ansehen",
+      "block_status": "formula_generated",
+      "schema_version": "district_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "areas",
+          "href": "/de/areas/",
+          "label": "Gebiete in den VAE"
+        },
+        {
+          "key": "city",
+          "href": "/de/areas/dubai/",
+          "label": "Dubai",
+          "label_ref": "entity.city"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/al-mizhar-1/",
+          "label": "Al Mizhar 1",
+          "label_ref": "entity.name"
+        }
+      ],
+      "url_section": "areas",
+      "block_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_breadcrumbs_v1"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "image": {
+        "alt": "Ansicht von Al Mizhar 1 in Dubai",
+        "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/44c54d93-9245-4b73-6efb-3cbaf2985600/desktop",
+        "mobile_src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/2c7cf087-27b5-41fe-6861-732d3335b900/mobile",
+        "media_status": "available"
+      },
+      "title": "Gebietsleitfaden für Al Mizhar 1",
+      "emirate": "Dubai",
+      "gallery": [],
+      "subtitle": "Ein vorstädtisches Wohngebiet mit niedriger bis mittlerer Bebauungsdichte, das ruhiges und großzügiges Familienwohnen im Osten Dubais bietet.",
+      "info_label": "Gebietsprofil",
+      "info_value": "Von Villen geprägt · Familienorientiert",
+      "hero_status": "agent_written",
+      "district_name": "Al Mizhar 1",
+      "schema_version": "district_hero_v1"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Projekte in Al Mizhar 1 für mein Budget und meinen Zeitrahmen finden",
+        "Al Mizhar 1 mit ähnlichen Stadtteilen in den VAE vergleichen",
+        "Ist Al Mizhar 1 besser zum Wohnen oder als Investition geeignet?",
+        "Die Bedeutung der Lage in Dubai erklären"
+      ],
+      "prompts": [
+        "Projekte in Al Mizhar 1 für mein Budget und meinen Zeitrahmen finden",
+        "Al Mizhar 1 mit ähnlichen Stadtteilen in den VAE vergleichen",
+        "Ist Al Mizhar 1 besser zum Wohnen oder als Investition geeignet?",
+        "Die Bedeutung der Lage in Dubai erklären"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "voice_text": "Zu diesem Stadtteil fragen",
+      "placeholder": "Fragen Sie nach Al Mizhar 1, Projekten, Lebensstil, Lage, Risiken oder ähnlichen Stadtteilen",
+      "block_status": "formula_generated",
+      "button_label": "Fragen",
+      "voice_status": "Listening…",
+      "ai_voice_text": "Projekte in Al Mizhar 1 passend zu meinem Budget, Lebensstil und Zeitrahmen finden...",
+      "ai_placeholder": "Projekte in Al Mizhar 1 passend zu meinem Budget, Lebensstil und Zeitrahmen finden...",
+      "schema_version": "district_ai_search_v1",
+      "ai_voice_status": "Listening…",
+      "form_aria_label": "Primadom AI zu Al Mizhar 1 fragen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Voice paused",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Got it",
+      "voice_fallback_status": "Voice mode"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Urban",
+        "Vorstädtisch",
+        "Etabliert",
+        "Familienorientiert"
+      ],
+      "title": "Kurzfazit",
+      "eyebrow": "AI-optimierte Kurzantwort",
+      "body_html": "<strong>Al Mizhar 1</strong> ist ein Wohngebiet im Osten Dubais mit Villen, Reihenhäusern und niedriggeschossigen Apartments. Der Schwerpunkt liegt auf komfortablem Wohnen in Vorstadtlage mit guter Anbindung an Einrichtungen.",
+      "body_source": "src_district_summary_short_fallback_src_district_overview",
+      "chip_source": "src_district_tags_src_lifestyle_tags_src_investor_tags_src_family_tags",
+      "source_status": "prototype_inputs_needs_sources",
+      "schema_version": "district_short_verdict_v1",
+      "summary_status": "source_rewritten_unique_final"
+    },
+    "block_06_area_facts": {
+      "note": "Nutzen Sie dies als erste Übersicht zum Stadtteil. Projektverfügbarkeit, Quellenangaben, Preise und Beratungsdetails sollten vor einer Kaufentscheidung geprüft werden.",
+      "items": [
+        {
+          "label": "Stadt",
+          "value": "Dubai"
+        },
+        {
+          "label": "Emirat",
+          "value": "Dubai"
+        },
+        {
+          "label": "Stadtteilprofil",
+          "value": "Urban"
+        },
+        {
+          "label": "Beste Eignung",
+          "value": "Familien · Berufstätige · Investoren"
+        },
+        {
+          "label": "Lebensstil",
+          "value": "Ruhig · Grün"
+        },
+        {
+          "label": "Lebensstilmerkmale",
+          "value": "Vorstädtisch · Ruhig · Grün"
+        },
+        {
+          "label": "Investitionsperspektive",
+          "value": "Langfristiges Eigentum"
+        },
+        {
+          "label": "Familienperspektive",
+          "value": "Familienorientiert · Schulen in der Nähe · Großzügige Wohnflächen"
+        },
+        {
+          "label": "Projektzuordnung",
+          "value": "Projektzuordnung erforderlich"
+        }
+      ],
+      "title": "Fakten zum Stadtteil",
+      "eyebrow": "Wissenswertes",
+      "facts_status": "taxonomy_normalized",
+      "schema_version": "district_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "Eignung für Käufer",
+        "eyebrow": "Eignung für Käufer",
+        "good_for": [
+          "Käufer, die Lagen mit dem Profil „Urban“ in Dubai vergleichen",
+          "Lebensstil-Prioritäten passend zu „Ruhig · Grün“",
+          "Suchprofile passend zu „Familien · Berufstätige · Investoren“"
+        ],
+        "less_for": [
+          "Käufer, die vor der Vorauswahl eine bestätigte Projektverfügbarkeit benötigen",
+          "Käufer, die sich ausschließlich auf angenommene Preise, Renditen oder Servicegebühren verlassen",
+          "Kunden, deren bevorzugter Lebensstil oder Immobilienformat nicht zum Stadtteilprofil passt"
+        ],
+        "good_for_title": "Gut geeignet für",
+        "less_for_title": "Möglicherweise nicht geeignet für",
+        "buyer_fit_status": "source_normalized"
+      },
+      "area_logic": {
+        "body": "Al Mizhar 1 ist ein Wohngebiet im Osten Dubais mit Villen, Reihenhäusern und niedriggeschossigen Apartments. Der Schwerpunkt liegt auf komfortablem Wohnen in Vorstadtlage mit guter Anbindung an Einrichtungen. Das Stadtteilprofil lässt sich am besten durch „Vorstädtisch · Ruhig · Grün“ einordnen. Vor der Vorauswahl sollte die Käuferzuordnung anhand der Aspekte „Familienorientiert · Schulen in der Nähe · Großzügige Wohnflächen“ und bestätigter Projektdaten geprüft werden.",
+        "tags": [
+          "Urban",
+          "Ruhig · Grün",
+          "Familienorientiert · Schulen in der Nähe · Großzügige Wohnflächen",
+          "Projektzuordnung erforderlich"
+        ],
+        "title": "Warum dieser Stadtteil relevant ist",
+        "eyebrow": "Gebietslogik",
+        "logic_status": "source_normalized"
+      },
+      "block_status": "source_normalized_final",
+      "schema_version": "buyer_fit_logic_v1"
+    },
+    "block_08_decision_cards": {
+      "cards_status": "source_rewritten_unique_editorial_clean_final",
+      "decision_cards": [
+        {
+          "text": "Der Alltag in Al Mizhar 1 spiegelt das Profil „Urban“ wider. Prägend sind außerdem die Merkmale „Vorstädtisch · Ruhig · Grün“ und ein klarer lokaler Charakter.",
+          "title": "Lifestyle-Kontext",
+          "eyebrow": "Lifestyle-Logik",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Bei Investitionsentscheidungen in Al Mizhar 1 sollten verfügbare Immobilien, die Leistungsbilanz des Bauträgers, Servicegebühren, Zahlungsbedingungen und der aktuelle Bestand verglichen werden.",
+          "title": "Investitionskontext",
+          "eyebrow": "Investitionslogik",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "Al Mizhar 1 kann für Haushalte geeignet sein, die Wert auf ein familienorientiertes Umfeld, Zugang zu Bildung und großzügige Wohnflächen legen; vorausgesetzt, Schulen, Gesundheitsversorgung, Fahrzeiten und verfügbarer Wohnraum werden geprüft.",
+          "title": "Familienkontext",
+          "eyebrow": "Familienlogik",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Optionen in Al Mizhar 1 nach Budget, Einheitentyp, Aussicht, Zahlungsplan, Übergabe, Servicegebühren, Lageeignung und tatsächlicher Verfügbarkeit vergleichen, bevor eine Kaufentscheidung getroffen wird.",
+          "title": "AI-gestützte Auswahl",
+          "eyebrow": "AI-Kontext",
+          "text_status": "formula_generated_safe_context"
+        }
+      ],
+      "schema_version": "district_decision_cards_v1"
+    },
+    "block_09_projects_developers": {
+      "projects": {
+        "items": [],
+        "title": "Beste Projekte in Al Mizhar 1",
+        "eyebrow": "Kommerzieller Graph",
+        "ranking_method": "active_graph_links_confidence_completeness_developer_diversity",
+        "selected_count": 0,
+        "matching_source": "entities.project_district_links",
+        "projects_status": "no_verified_linked_projects",
+        "total_linked_projects": 0
+      },
+      "block_status": "final_no_graph_matches",
+      "schema_version": "projects_developers_v1",
+      "developer_presence": {
+        "body": "Al Mizhar 1 weist eine Bebauungsstruktur mit geringerer Dichte auf. Wohngebietsplanung, Bauqualität, Lage des Grundstücks und langfristige Instandhaltung sind hier wichtiger als die Größe des Bauträgers.",
+        "tags": [],
+        "title": "Bauträgerlogik",
+        "eyebrow": "Präsenz von Bauträgern",
+        "matching_source": "entities.project_developer_links",
+        "developer_status": "district_development_logic",
+        "linked_developer_count": 0
+      }
+    },
+    "block_10_landmarks_location": {
+      "map": {
+        "lat": null,
+        "lng": null,
+        "text": "Al Mizhar 1 liegt in Dubai. Nutzen Sie die interaktive Karte, um die Lage des Stadtteils und Orte in der Nähe zu prüfen.",
+        "label": "Al Mizhar 1, Dubai, UAE",
+        "title": "Lage- und Kartenkontext",
+        "eyebrow": "Kartenkontext",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=Al+Mizhar+1%2C+Dubai%2C+UAE",
+        "disclaimer": "Genaue Entfernungen, Fahrzeiten und Zufahrtsmöglichkeiten sollten anhand aktueller Karten geprüft werden.",
+        "map_status": "search_link_ready",
+        "point_label": "Kartenpunkt",
+        "address_label": "Adresse",
+        "area_guide_url": "/de/areas/al-mizhar-1/",
+        "open_map_label": "Karte öffnen",
+        "area_guide_label": "Gebietsleitfaden"
+      },
+      "landmarks": {
+        "items": [
+          {
+            "meta": "Umgebung des Stadtteils",
+            "type": "landmark",
+            "title": "Local mosques",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "Einzelhandel und Alltagseinrichtungen",
+            "type": "retail",
+            "title": "Local retail",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "Umgebung des Stadtteils",
+            "type": "landmark",
+            "title": "Community parks",
+            "item_status": "normalized_source"
+          }
+        ],
+        "title": "Sehenswürdigkeiten und Umgebung",
+        "eyebrow": "Orte in der Nähe",
+        "landmarks_status": "normalized_source"
+      },
+      "url_section": "areas",
+      "block_status": "final_clean_verified_v4",
+      "schema_version": "landmarks_location_v4"
+    },
+    "block_11_similar_districts": {
+      "items": [
+        {
+          "href": "/de/areas/al-barsha-south/",
+          "rank": 1,
+          "title": "Al Barsha South",
+          "match_reason": "Ähnliches Stadtteilprofil",
+          "district_slug": "al-barsha-south"
+        },
+        {
+          "href": "/de/areas/al-khawaneej-2/",
+          "rank": 2,
+          "title": "Al Khawaneej 2",
+          "match_reason": "Ähnliches Stadtteilprofil",
+          "district_slug": "al-khawaneej-2"
+        },
+        {
+          "href": "/de/areas/al-mizhar-2/",
+          "rank": 3,
+          "title": "Al Mizhar 2",
+          "match_reason": "Ähnliches Stadtteilprofil",
+          "district_slug": "al-mizhar-2"
+        },
+        {
+          "href": "/de/areas/wadi-al-safa-3/",
+          "rank": 4,
+          "title": "Wadi Al Safa 3",
+          "match_reason": "Ähnliches Stadtteilprofil",
+          "district_slug": "wadi-al-safa-3"
+        }
+      ],
+      "title": "Ähnliche Stadtteile",
+      "eyebrow": "Alternativen"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Al Mizhar 1 ist ein Wohngebiet im Osten Dubais mit Villen, Reihenhäusern und niedriggeschossigen Apartments. Der Schwerpunkt liegt auf komfortablem Wohnen in Vorstadtlage mit guter Anbindung an Einrichtungen.",
+          "question": "Welche Art von Wohngebiet ist Al Mizhar 1?"
+        },
+        {
+          "answer": "Al Mizhar 1 ist besonders relevant für Käufer, die Wohngebiete, Villen, Reihenhäuser oder Wohnraum mit geringerer Dichte in Dubai vergleichen. Entscheidend für die Eignung sind Immobilienformat, Bedürfnisse des Haushalts, tägliche Wege und bestätigte Verfügbarkeit.",
+          "question": "Wer sollte Immobilien in Al Mizhar 1 in Betracht ziehen?"
+        },
+        {
+          "answer": "Konkrete Projektoptionen in Al Mizhar 1 sollten anhand aktueller Angebote und offizieller Quellen bestätigt werden. Käufer können zunächst das Stadtteilprofil nutzen, um den bevorzugten Immobilientyp und das passende Käuferszenario festzulegen.",
+          "question": "Wie sollten Käufer nach Immobilien in Al Mizhar 1 suchen?"
+        },
+        {
+          "answer": "Al Mizhar 1 kommt sowohl für Eigennutzung als auch für investitionsorientierten Eigentumserwerb infrage. Entscheidend sind Villen- oder Apartmentformat, Bedürfnisse des Haushalts, Eigentumskosten und aktuell bestätigte Verfügbarkeit.",
+          "question": "Wie sollten Käufer Wohn- und Investitionsoptionen in Al Mizhar 1 bewerten?"
+        },
+        {
+          "answer": "Prüfen Sie Projekt, Bauträger, Villen- oder Apartmentformat, Grundstücks- oder Einheitendetails, Preis, Zahlungsbedingungen, Einrichtungen der Wohnanlage, Servicegebühren, offizielle Dokumente und aktuelle Verfügbarkeit, bevor Sie sich für eine Immobilie in Al Mizhar 1 entscheiden.",
+          "question": "Was sollten Käufer prüfen, bevor sie Al Mizhar 1 in die engere Auswahl nehmen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen von Käufern"
+    },
+    "block_13_trust_sources": {
+      "items": [
+        {
+          "href": "",
+          "label": "Daten der offiziellen Immobilienbehörden",
+          "value": "Stadtteil- und Transaktionsdaten werden im Rahmen der Quellenprüfung ergänzt.",
+          "link_status": "pending",
+          "source_type": "authority"
+        },
+        {
+          "href": "",
+          "label": "Offizielle Unterlagen der Bauträger",
+          "value": "Projektdetails, Markteinführungen und Angaben zu Bauträgern werden mit offiziellen Unterlagen abgeglichen.",
+          "link_status": "pending",
+          "source_type": "developer"
+        },
+        {
+          "href": "",
+          "label": "Primadom-Projektzuordnung",
+          "value": "Verknüpfte Projekte und Bauträger werden mit der Primadom-Datenbank abgeglichen.",
+          "link_status": "pending",
+          "source_type": "internal_graph"
+        },
+        {
+          "href": "#districtLeadModal",
+          "label": "Aktuelle Verfügbarkeit",
+          "value": "Einheiten, Preise und Zahlungspläne erfordern eine aktuelle Verfügbarkeitsprüfung.",
+          "link_status": "check_required",
+          "source_type": "availability"
+        }
+      ],
+      "title": "Quellen und Datenprüfung",
+      "status": "Quellenprüfung ausstehend",
+      "eyebrow": "Überprüfung",
+      "source_notes": {
+        "body": "Die Informationen zu Al Mizhar 1 basieren derzeit auf dem vorbereiteten Stadtteilprofil. Offizielle Behördenunterlagen, Unterlagen der Bauträger, bestätigte Projektverknüpfungen und aktuelle Verfügbarkeitsdaten werden in der Phase der Quellenprüfung ergänzt.",
+        "title": "Quellenhinweis",
+        "last_checked": "Noch nicht überprüft"
+      }
+    },
+    "block_14_cta": {
+      "text": "Sagen Sie Primadom AI, wonach Sie suchen — wir grenzen die Optionen ein und leiten Ihre Anfrage an einen Berater weiter.",
+      "title": "Passende Projekte in Al Mizhar 1 finden",
+      "actions": [
+        {
+          "key": "find_projects",
+          "href": "#districtLeadModal",
+          "label": "Projekte finden",
+          "primary": true,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "area_project_search"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#ask-ai",
+          "label": "Primadom AI fragen",
+          "primary": false,
+          "open_modal": false,
+          "action_intent": "ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#districtLeadModal",
+          "label": "Rückruf anfordern",
+          "primary": false,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "formula_generated_final",
+      "schema_version": "district_cta_v1_1"
+    },
+    "block_15_lead_modal": {
+      "note": "Wir prüfen die Details, bevor wir Ihre Anfrage weitergeben.",
+      "text": "Sagen Sie uns, wonach Sie suchen. Primadom AI erstellt einen kurzen passenden Kontext, bevor sich ein Berater bei Ihnen meldet.",
+      "title": "Projekte in Al Mizhar 1 finden",
+      "fields": {
+        "name": "Name",
+        "phone": "Telefon / WhatsApp",
+        "request": "Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Ich interessiere mich für Al Mizhar 1. Bitte senden Sie mir passende Projekte.",
+      "eyebrow": "Projektanfrage",
+      "success": "Gesendet",
+      "ai_badge": "Primadom AI",
+      "modal_id": "districtLeadModal",
+      "title_id": "districtLeadTitle",
+      "close_label": "Schließen",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "project_graph_ref": "supabase_project_district_links",
+        "developer_graph_ref": "supabase_project_developer_links"
+      },
+      "ai_row_badge": "Anfrageentwurf",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Ihr Name"
+        },
+        "phone": {
+          "label": "Telefon / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "request": {
+          "label": "Anfrage",
+          "html_name": "request_type",
+          "placeholder": "Projekt, Gebiet oder Frage"
+        }
+      },
+      "modal_status": "formula_generated",
+      "submit_label": "Senden",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "emirate": {
+          "html_name": "emirate",
+          "value_ref": "emirate"
+        },
+        "district_key": {
+          "html_name": "district_key",
+          "value_ref": "district_slug"
+        },
+        "district_name": {
+          "html_name": "district_name",
+          "value_ref": "district_name"
+        }
+      },
+      "success_label": "Gesendet",
+      "schema_version": "district_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Ich interessiere mich für Al Mizhar 1. Bitte senden Sie mir passende Projekte.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "unit_type",
+          "timing",
+          "view",
+          "payment_plan"
+        ]
+      },
+      "voice_button_label": "Spracheingabe verwenden"
+    },
+    "block_16_footer": {
+      "text": "Diese Seite hilft Ihnen, Al Mizhar 1 zu prüfen, den Stadtteilkontext zu verstehen, verknüpfte Projekte zu vergleichen und die richtigen Fragen vorzubereiten, bevor Sie mit einem Primadom-Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/de/projects/",
+          "label": "Projekte"
+        },
+        {
+          "key": "areas",
+          "href": "/de/areas/",
+          "label": "Stadtteile"
+        },
+        {
+          "key": "developers",
+          "href": "/de/developers/",
+          "label": "Bauträger"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI-Suche"
+        }
+      ],
+      "title": "Finden Sie mit klareren Stadtteildaten und AI-Unterstützung die passende Immobilie in den VAE.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE.",
+      "subtitle": "Immobilieninformationen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "url_section": "areas",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug"
+      },
+      "footer_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_footer_v1",
+      "contact_primary": {
+        "href": "#districtLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "AI fragen",
+        "action_intent": "district_question"
+      }
+    }
+  }
+}

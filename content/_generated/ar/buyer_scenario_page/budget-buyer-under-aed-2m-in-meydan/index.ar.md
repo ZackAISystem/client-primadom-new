@@ -1,0 +1,10 @@
+---
+title: "مشتري بميزانية أقل من AED 2M في Meydan"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "budget-buyer-under-aed-2m-in-meydan"
+page_id: "page_buyer_scenario_budget_buyer_under_aed_2m_in_meydan_ar"
+url: "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-meydan/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,729 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_e58b31a51b8206615ed8f3de158c",
+  "page_type_id": "intent_page",
+  "language_code": "de",
+  "url_path": "/de/intents/buy-to-rent-properties-in-al-satwa/",
+  "canonical_url_path": "/de/intents/buy-to-rent-properties-in-al-satwa/",
+  "canonical_group_key": "intent:buy-to-rent-properties:district:al-satwa",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "buy-to-rent-properties",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "Optionen",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Prüfungen",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#intent-ai-search",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "Navigation zur Immobiliensuche",
+      "brand_url": "/de/",
+      "cta_label": "Passende Optionen finden"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "href": "/de/intents/",
+          "label": "Immobiliensuchen"
+        },
+        {
+          "href": "/de/intents/buy-to-rent-properties-in-al-satwa/",
+          "label": "Immobilien zur Vermietung in Al Satwa"
+        }
+      ],
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Lage: Al Satwa",
+        "Vermietungsfokus",
+        "Immobilien vergleichen",
+        "Aktuelle Details prüfen"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Immobilien zur Vermietung in Al Satwa",
+      "subtitle": "Vergleichen Sie Immobilien zur Vermietung in Al Satwa anhand der für diese Suche wichtigsten Faktoren. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+      "facts_aria": "Wichtige Punkte der Immobiliensuche",
+      "visual_aria": "Visualisierung der Immobiliensuche"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Welche Immobilien zur Vermietung passen in Al Satwa zu meinem Ziel?",
+        "Welche Faktoren sollte ich bei Immobilien zur Vermietung zuerst vergleichen?",
+        "Welche aktuellen Details muss ich vor einer Auswahl in Al Satwa prüfen?"
+      ],
+      "prompts": [
+        "Welche Immobilien zur Vermietung passen in Al Satwa zu meinem Ziel?",
+        "Welche Faktoren sollte ich bei Immobilien zur Vermietung zuerst vergleichen?",
+        "Welche aktuellen Details muss ich vor einer Auswahl in Al Satwa prüfen?"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "voice_text": "Sprachsuche",
+      "placeholder": "Fragen Sie nach passenden Optionen für „Immobilien zur Vermietung in Al Satwa“",
+      "block_status": "formula_generated",
+      "button_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "ai_voice_text": "Fragen Sie nach passenden Optionen für „Immobilien zur Vermietung in Al Satwa“",
+      "ai_placeholder": "Fragen Sie nach passenden Optionen für „Immobilien zur Vermietung in Al Satwa“",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "Hört zu…",
+      "form_aria_label": "Primadom AI zu dieser Immobiliensuche fragen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Mieternachfrage",
+        "Betriebskosten",
+        "Gebäuderegeln",
+        "Wiederverkauf"
+      ],
+      "title": "Direkte Zusammenfassung",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Immobilien zur Vermietung in Al Satwa sollten anhand mehrerer Faktoren und nicht nur eines einzelnen Kennwerts verglichen werden.</strong> Prüfen Sie realistische Mieternachfrage, zulässige Nutzung, laufende Kosten, Grundriss und Wiederverkaufsliquidität, bevor Sie eine Vermietungsimmobilie auswählen. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+      "body_text": "Immobilien zur Vermietung in Al Satwa sollten anhand mehrerer Faktoren und nicht nur eines einzelnen Kennwerts verglichen werden. Prüfen Sie realistische Mieternachfrage, zulässige Nutzung, laufende Kosten, Grundriss und Wiederverkaufsliquidität, bevor Sie eine Vermietungsimmobilie auswählen. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "Preise, Verfügbarkeit, Zahlungsbedingungen und Projektzeitpläne sollten vor einer Käuferentscheidung aktuell bestätigt werden.",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "Suchabsicht",
+          "value": "Immobilien zur Vermietung"
+        },
+        {
+          "key": "location",
+          "label": "Lage",
+          "value": "Al Satwa"
+        },
+        {
+          "key": "market",
+          "label": "Markt",
+          "value": "Dubai / VAE"
+        },
+        {
+          "key": "property_focus",
+          "label": "Immobilientyp",
+          "value": "Vermietungsorientierte Immobilien"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "Ziel des Käufers",
+          "value": "Eine Auswahl für Vermietung aufbauen"
+        },
+        {
+          "key": "main_checks",
+          "label": "Wichtigste Prüfungen",
+          "value": "Mieternachfrage · Kosten · Gebäuderegeln"
+        },
+        {
+          "key": "project_match",
+          "label": "Projekteignung",
+          "value": "Projekteignung noch nicht bestätigt"
+        },
+        {
+          "key": "current_details",
+          "label": "Aktuelle Details",
+          "value": "Geeignete Projekte müssen aktuell bestätigt werden"
+        }
+      ],
+      "title": "Suchparameter",
+      "eyebrow": "Wichtige Fakten",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "Vergleichen Sie konkrete Optionen nach Mieternachfrage, Mietniveau und Eignung für das Suchziel.",
+          "title": "Optionen mit Schwerpunkt: Mieternachfrage"
+        },
+        {
+          "text": "Prüfen Sie Mietniveau, Servicegebühren und die praktische Nutzbarkeit.",
+          "title": "Optionen mit passendem Mietniveau-Profil"
+        },
+        {
+          "text": "Bestätigen Sie aktuelle Preise, Verfügbarkeit, Zahlungsbedingungen und laufende Kosten.",
+          "title": "Gesamtkosten und Bedingungen prüfen"
+        },
+        {
+          "text": "Vergleichen Sie Gebäuderegeln und Wiederverkaufsliquidität, bevor Sie eine Auswahl treffen.",
+          "title": "Passende Optionen für die engere Auswahl"
+        }
+      ],
+      "title": "Zu prüfende Optionen",
+      "eyebrow": "Was verglichen werden sollte",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "district_context_supported_needs_intent_review",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "Vergleichen Sie Immobilien zur Vermietung in Al Satwa anhand von Mieternachfrage, Mietniveau, Servicegebühren, Gebäuderegeln und Wiederverkaufsliquidität. Ein einzelner Kennwert sollte die Auswahl nicht bestimmen.",
+      "tags": [
+        "Mieternachfrage",
+        "Mietniveau",
+        "Servicegebühren",
+        "Gebäuderegeln",
+        "Wiederverkaufsliquidität"
+      ],
+      "title": "Auswahllogik",
+      "eyebrow": "So sollte verglichen werden",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "Vergleichen Sie Mieternachfrage, Mietniveau und Servicegebühren für die konkrete Immobilie.",
+          "title": "Mit Mieternachfrage beginnen",
+          "eyebrow": "Entscheidungsschwerpunkt"
+        },
+        {
+          "dark": false,
+          "text": "Prüfen Sie, ob Immobilien zur Vermietung in Al Satwa zur geplanten Nutzung und zum Zeithorizont passen.",
+          "title": "Eignung für das Käuferziel prüfen",
+          "eyebrow": "Eignung für Käufer"
+        },
+        {
+          "dark": false,
+          "text": "Bestätigen Sie Gebäuderegeln, Wiederverkaufsliquidität, Preise, Verfügbarkeit und Vertragsbedingungen.",
+          "title": "Aktuelle Bedingungen separat bestätigen",
+          "eyebrow": "Vor der Auswahl"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Suchkriterien strukturieren und eine Auswahl für die anschließende aktuelle Prüfung vorbereiten.",
+          "title": "Optionen mit AI vergleichen",
+          "eyebrow": "AI-Auswahl"
+        }
+      ],
+      "cards_aria": "Entscheidungshilfe zur Immobiliensuche",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/intents/apartments-for-investment-in-al-satwa/",
+            "meta": "Verwandte Suchoption",
+            "label": "Apartments als Kapitalanlage in Al Satwa"
+          },
+          {
+            "href": "/de/intents/high-yield-properties-in-al-satwa/",
+            "meta": "Verwandte Suchoption",
+            "label": "Immobilien mit Fokus auf Mietrendite in Al Satwa"
+          },
+          {
+            "href": "/de/intents/long-term-investment-properties-in-al-satwa/",
+            "meta": "Verwandte Suchoption",
+            "label": "Immobilien für langfristige Kapitalanlage in Al Satwa"
+          },
+          {
+            "href": "/de/intents/capital-growth-properties-in-al-satwa/",
+            "meta": "Verwandte Suchoption",
+            "label": "Immobilien mit Wertsteigerungspotenzial in Al Satwa"
+          },
+          {
+            "href": "/de/intents/ready-soon-projects-in-al-satwa/",
+            "meta": "Verwandte Suchoption",
+            "label": "Projekte mit baldiger Übergabe in Al Satwa"
+          }
+        ],
+        "title": "Projektprüfung",
+        "eyebrow": "Auswahlmöglichkeiten"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/de/areas/al-satwa/",
+            "meta": "Aktueller Stadtteil",
+            "label": "Al Satwa"
+          },
+          {
+            "href": "/de/areas/al-muteena-east/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Al Muteena East"
+          },
+          {
+            "href": "/de/areas/al-rigga-north/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Al Rigga North"
+          },
+          {
+            "href": "/de/areas/al-nahda-1/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Al Nahda 1"
+          },
+          {
+            "href": "/de/areas/al-raffa/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Al Raffa"
+          }
+        ],
+        "title": "Zu vergleichende Stadtteile",
+        "eyebrow": "Wo man suchen sollte"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "Eignung für Käufer",
+        "eyebrow": "Für wen diese Seite geeignet ist",
+        "good_for": [
+          "Käufer, die Immobilien zur Vermietung in Al Satwa strukturiert vergleichen möchten",
+          "Käufer, die Mieternachfrage, Mietniveau und Servicegebühren gegeneinander abwägen",
+          "Käufer, die vor einer Entscheidung aktuelle Projekt- und Einheitsdetails bestätigen lassen möchten"
+        ],
+        "less_for": [
+          "Käufer, die eine garantierte Rendite, Verfügbarkeit oder Preiszusage erwarten",
+          "Käufer, die Gebäuderegeln und Wiederverkaufsliquidität nicht in die Entscheidung einbeziehen möchten",
+          "Käufer, die ohne Prüfung der konkreten Immobilie oder Vertragsbedingungen entscheiden möchten"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "Gut geeignet für",
+        "less_for_title": "Möglicherweise nicht geeignet für"
+      },
+      "risk_notes": {
+        "body": "Für die Suche „Immobilien zur Vermietung in Al Satwa“ sollten Mieternachfrage, Mietniveau, Servicegebühren, Gebäuderegeln und Wiederverkaufsliquidität gemeinsam geprüft werden. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+        "tags": [
+          "Mieternachfrage",
+          "Mietniveau",
+          "Servicegebühren",
+          "Gebäuderegeln",
+          "Wiederverkaufsliquidität"
+        ],
+        "title": "Wichtige Prüfungen",
+        "eyebrow": "Vor der Auswahl",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Build a rental shortlist",
+        "page_group": "intent_district",
+        "intent_slug": "buy-to-rent-properties",
+        "main_checks": "Tenant demand · costs · building rules",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "al-satwa",
+        "search_intent": "Rental-income property",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "Income-focused property",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/de/intents/off-plan-apartments-in-al-satwa/",
+          "label": "Apartments in der Bauphase in Al Satwa"
+        },
+        {
+          "href": "/de/intents/payment-plan-projects-in-al-satwa/",
+          "label": "Projekte mit Zahlungsplan in Al Satwa"
+        },
+        {
+          "href": "/de/intents/trusted-developer-projects-in-al-satwa/",
+          "label": "Projekte etablierter Bauträger in Al Satwa"
+        },
+        {
+          "href": "/de/intents/new-launch-projects-in-al-satwa/",
+          "label": "Neue Projektstarts in Al Satwa"
+        }
+      ],
+      "title": "Verwandte Suchanfragen",
+      "eyebrow": "Weiter erkunden",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Nutzen Sie diese Seite als Ausgangspunkt und vergleichen Sie konkrete Optionen nach Mieternachfrage, Mietniveau, Servicegebühren. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+          "question": "Was sollte ich über Immobilien zur Vermietung in Al Satwa wissen?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Vergleichen Sie Optionen, die zum Suchziel passen, und prüfen Sie anschließend Mieternachfrage, Mietniveau, Servicegebühren, Gesamtpreis und Zahlungsbedingungen.",
+          "question": "Welche Optionen sollte ich für diese Suche in Al Satwa vergleichen?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Wesentlich sind Mieternachfrage, Mietniveau, Servicegebühren, Gebäuderegeln und Wiederverkaufsliquidität. Gewichten Sie diese Faktoren nach geplanter Nutzung und Zeithorizont.",
+          "question": "Welche Faktoren sind für die Suche „Immobilien zur Vermietung in Al Satwa“ besonders wichtig?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Prüfen Sie den Preis der konkreten Einheit, aktuelle Verfügbarkeit, Projekt- oder Eigentumsstatus, Zahlungsbedingungen, Übergabeangaben, Gebühren und Vertragsunterlagen.",
+          "question": "Was sollte ich vor einer engeren Auswahl aktuell prüfen?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Ja. Primadom AI kann aktuelle Optionen nach Immobilientyp, Lage, Preisrahmen, Zahlungsbedingungen, Projektphase und geplanter Nutzung strukturieren und eine Auswahl für die anschließende Prüfung durch einen Berater vorbereiten.",
+          "question": "Kann Primadom AI diese Suche für meine Anforderungen strukturieren?",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen von Käufern",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Buy-to-rent properties in Al Satwa",
+        "page_group": "intent_district",
+        "intent_slug": "buy-to-rent-properties",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Al Satwa",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Bevor Sie sich auf die Suche „Immobilien zur Vermietung in Al Satwa“ stützen, bestätigen Sie aktuelle Preise, verfügbare Einheiten, Zahlungsbedingungen, Projektstatus und relevante Kosten anhand aktueller offizieller Unterlagen und einer aktuellen Prüfung. Mieteinnahmen, Belegung und Rendite dürfen nicht als garantiert angesehen werden und benötigen eine aktuelle Prüfung.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Miet- / Renditeannahmen",
+          "value": "Markt- und Einheitsprüfung"
+        },
+        {
+          "label": "Projektstatus",
+          "value": "Offizielle Quelle erforderlich"
+        },
+        {
+          "label": "Quellenprüfung",
+          "value": "Überprüfung ausstehend"
+        }
+      ],
+      "title": "Quellenprüfung",
+      "eyebrow": "Überprüfung",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_rent_service_charges_and_return_assumptions",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "buy-to-rent-properties",
+        "source_focus": "investment",
+        "district_name": "Al Satwa",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "Teilen Sie Primadom AI Ihre Prioritäten mit. Die Suche wird nach Mieternachfrage, Mietniveau, Servicegebühren und aktuellen Projektdetails strukturiert und für die Prüfung durch einen Berater vorbereitet.",
+      "title": "Passende Optionen vergleichen",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "Passende Optionen finden",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Primadom AI fragen",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "investment",
+        "hero_title": "Buy-to-rent properties in Al Satwa",
+        "page_group": "intent_district",
+        "intent_slug": "buy-to-rent-properties",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Al Satwa",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Anfrageformular",
+      "note": "Wir prüfen die Angaben, bevor wir Ihre Anfrage an einen Berater weiterleiten.",
+      "text": "Teilen Sie uns mit, was Ihnen am wichtigsten ist. Primadom AI bereitet daraus eine präzise Anfrage vor, bevor ein Berater aktuelle Optionen mit Ihnen prüft.",
+      "title": "Passende Immobilienoptionen vergleichen",
+      "fields": {
+        "name": "Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Anfrage"
+      },
+      "submit": "Anfrage senden",
+      "comment": "Vergleichen Sie Immobilien zur Vermietung in Al Satwa nach Mieternachfrage, Mietniveau, Servicegebühren, Preis und aktuellen Projektbedingungen.",
+      "eyebrow": "Projektanfrage",
+      "success": "Gesendet",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "Schließen",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "investment",
+        "page_group": "intent_district",
+        "intent_slug": "buy-to-rent-properties",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Al Satwa",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "Anfrageentwurf",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Ihr Name"
+        },
+        "email": {
+          "label": "E-Mail (optional)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Telefon / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Anfrage",
+          "html_name": "comment",
+          "placeholder": "Wonach suchen Sie?"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "Ihr Name",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "Anfrage senden",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "Gesendet",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Vergleichen Sie Immobilien zur Vermietung in Al Satwa nach Mieternachfrage, Mietniveau, Servicegebühren, Preis und aktuellen Projektbedingungen.",
+        "html_name": "comment",
+        "request_scope": [
+          "investment_property",
+          "property_type",
+          "area_fit",
+          "rental_logic",
+          "service_charges",
+          "project_status",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "Spracheingabe verwenden"
+    },
+    "block_17_footer": {
+      "text": "Vergleichen Sie Immobilien zur Vermietung in Al Satwa, prüfen Sie die entscheidenden Faktoren und bereiten Sie die richtigen Fragen für die aktuelle Projektprüfung vor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Stadtteile",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Finden Sie mit klarerer Orientierung die passende Immobilie in den VAE.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, VAE",
+      "subtitle": "Immobilienwissen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "buy-to-rent-properties",
+        "footer_focus": "investment",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "AI fragen",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

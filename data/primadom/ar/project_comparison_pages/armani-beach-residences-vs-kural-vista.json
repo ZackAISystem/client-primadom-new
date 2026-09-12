@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_armani_beach_residences_vs_kural_vista_ar",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ar",
+  "url_path": "/ar/compare-projects/armani-beach-residences-vs-kural-vista/",
+  "canonical_url_path": "/ar/compare-projects/armani-beach-residences-vs-kural-vista/",
+  "canonical_group_key": "project_comparison:armani-beach-residences:vs:kural-vista",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "armani-beach-residences",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "قارن حالتي",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "نظرة عامة",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "المشاريع"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "مقارنة"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "اسأل AI"
+        }
+      ],
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "التنقل في مقارنة المشاريع",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ar/compare-projects/",
+          "label": "مقارنات المشاريع"
+        },
+        {
+          "key": "comparison",
+          "href": "/ar/compare-projects/armani-beach-residences-vs-kural-vista/",
+          "label": "Armani Beach Residences مقابل Kural Vista",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "المشروع A: Armani Beach Residences",
+        "المشروع B: Kural Vista",
+        "مقارنة في Palm Jumeirah",
+        "شقق مقابل فلل",
+        "نوع العقار ومزيج الوحدات"
+      ],
+      "title": "Armani Beach Residences مقابل Kural Vista",
+      "subtitle": "مقارنة عملية في Palm Jumeirah تركز على نوع العقار، ونطاق غرف النوم، وسياق المطور العقاري.",
+      "project_a": {
+        "name": "Armani Beach Residences",
+        "slug": "armani-beach-residences",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Kural Vista",
+        "slug": "kural-vista",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "السياق الرئيسي لمقارنة Armani Beach Residences وKural Vista",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لمقارنة Armani Beach Residences وKural Vista",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "اسأل عن السعر أو مزيج الوحدات أو التسليم أو ملاءمة المشتري.",
+      "badge": "Primadom AI",
+      "hints": [
+        "أيهما أنسب: Armani Beach Residences أم Kural Vista؟",
+        "قارن السعر والوحدات وموعد التسليم",
+        "ما الذي يجب التحقق منه قبل الاختيار؟"
+      ],
+      "title": "قارن Armani Beach Residences وKural Vista",
+      "ai_aria": "اسأل Primadom AI لمقارنة Armani Beach Residences وKural Vista",
+      "eyebrow": "اسأل AI",
+      "prompts": [
+        "قارن Armani Beach Residences وKural Vista وفق هدفي الشرائي. راجع سياق السعر المتاح وأنواع العقارات ونطاق غرف النوم وموعد التسليم، وحدد بوضوح أي معلومات تحتاج إلى تحقق مباشر.",
+        "قارن Armani Beach Residences وKural Vista حسب سياق السعر الابتدائي وأنواع الوحدات ونطاق غرف النوم وموعد التسليم المخطط. حدد بوضوح المعلومات الناقصة أو غير المتحقق منها.",
+        "ما الذي ينبغي للمشتري التحقق منه قبل الاختيار بين Armani Beach Residences وKural Vista؟ راجع الأسعار الحالية والتوافر وشروط الدفع وحالة التسليم ومدى الملاءمة لهدف المشتري."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "اسأل AI",
+      "input_aria": "سؤال مقارنة المشاريع عبر AI",
+      "section_id": "compare-ai-search",
+      "voice_text": "اسأل عن مقارنة هذه المشاريع",
+      "placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "button_label": "اسأل",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "ai_voice_text": "قارن Armani Beach Residences وKural Vista وفق هدفي الشرائي",
+      "ai_placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "جارٍ الاستماع…",
+      "form_aria_label": "اسأل Primadom AI لمقارنة Armani Beach Residences وKural Vista",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "الحي نفسه",
+        "مطورون عقاريون مختلفون",
+        "سعر مسجل واحد",
+        "موعد تسليم واحد مسجل"
+      ],
+      "title": "توصية سريعة",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "قد يناسب <strong>Armani Beach Residences</strong> المشترين الذين يعطون أولوية لمزيج عقاري أوسع، بينما قد يناسب <strong>Kural Vista</strong> من يركزون على العرض العقاري من Alpago properties. <strong>Armani Beach Residences</strong> يقدم شقق · بنتهاوس، 2–5 غرف نوم، من AED 26M، التسليم 2026، بينما <strong>Kural Vista</strong> يقدم فلل، 5 غرف نوم.",
+      "body_text": "قد يناسب Armani Beach Residences المشترين الذين يعطون أولوية لمزيج عقاري أوسع، بينما قد يناسب Kural Vista من يركزون على العرض العقاري من Alpago properties. Armani Beach Residences يقدم شقق · بنتهاوس، 2–5 غرف نوم، من AED 26M، التسليم 2026، بينما Kural Vista يقدم فلل، 5 غرف نوم.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "المشروع A",
+          "value": "Armani Beach Residences"
+        },
+        {
+          "label": "المشروع B",
+          "value": "Kural Vista"
+        },
+        {
+          "label": "سياق المنطقة",
+          "value": "كلاهما في Palm Jumeirah"
+        },
+        {
+          "label": "سياق المطور العقاري",
+          "value": "ARADA مقابل Alpago properties"
+        },
+        {
+          "label": "السعر الابتدائي",
+          "value": "AED 26M مقابل تحقق مباشر"
+        },
+        {
+          "label": "أنواع العقارات",
+          "value": "شقق · بنتهاوس مقابل فلل"
+        },
+        {
+          "label": "غرف النوم",
+          "value": "2–5 غرف نوم مقابل 5 غرف نوم"
+        },
+        {
+          "label": "التسليم",
+          "value": "2026 مقابل تحقق مباشر"
+        }
+      ],
+      "title": "تفاصيل المقارنة",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Armani Beach Residences",
+          "slug": "armani-beach-residences",
+          "text": "يتموضع Armani Beach Residences حول معيشة بطابع الواجهة البحرية في Palm Jumeirah من تطوير ARADA، مع مزيج مسجل من شقق · بنتهاوس ضمن 2–5 غرف نوم وسعر ابتدائي مسجل يبدأ من AED 26M وتسليم مسجل في 2026. وتشير ملاءمته الحالية إلى المشترين الذين يفكرون في شراء عقار سكني للاستثمار.",
+          "points": [
+            "Palm Jumeirah · من تطوير ARADA - Sale",
+            "شقق · بنتهاوس · 2–5 غرف نوم",
+            "من AED 26M · التسليم 2026"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Kural Vista",
+          "slug": "kural-vista",
+          "text": "يتموضع Kural Vista حول معيشة بطابع الواجهة البحرية في Palm Jumeirah من تطوير Alpago properties، مع مزيج مسجل من فلل ضمن 5 غرف نوم بينما يحتاج كل من السعر الحالي وموعد التسليم إلى تحقق مباشر. وتشير ملاءمته الحالية إلى المشترين الباحثين عن منزل مناسب للعائلة.",
+          "points": [
+            "Palm Jumeirah · من تطوير Alpago properties",
+            "فلل · 5 غرف نوم",
+            "تحقق مباشر من السعر وموعد التسليم"
+          ]
+        }
+      ],
+      "title": "ملخصات المشاريع",
+      "eyebrow": "نظرة سريعة",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "يقع المشروعان في Palm Jumeirah، لذلك لا يُعد الموقع العامل الفاصل الرئيسي. يأتي المشروعان من مطورين مختلفين، لذلك ينبغي مراجعة التنفيذ والخدمات وتموضع المنتج لكل منهما بشكل مستقل. يتوفر سعر ابتدائي مسجل واحد فقط، لذا تحتاج الأسعار الحالية إلى تحقق مباشر. يتوفر موعد تسليم مسجل واحد فقط؛ تحقق من الجدول الزمني الآخر.",
+        "tags": [
+          "الحي نفسه",
+          "مطورون عقاريون مختلفون",
+          "سعر مسجل واحد",
+          "مزيج عقاري مختلف",
+          "التوافر الحالي"
+        ],
+        "title": "منطق على مستوى المشروع",
+        "eyebrow": "كيفية المقارنة"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "العامل",
+        "project_a": "Armani Beach Residences",
+        "project_b": "Kural Vista"
+      },
+      "rows": [
+        {
+          "factor": "السعر الابتدائي",
+          "project_a": "من AED 26M",
+          "project_b": "تحقق مباشر من السعر"
+        },
+        {
+          "factor": "الموقع",
+          "project_a": "Palm Jumeirah",
+          "project_b": "Palm Jumeirah"
+        },
+        {
+          "factor": "المطور العقاري",
+          "project_a": "ARADA",
+          "project_b": "Alpago properties"
+        },
+        {
+          "factor": "أنواع العقارات",
+          "project_a": "شقق · بنتهاوس",
+          "project_b": "فلل"
+        },
+        {
+          "factor": "غرف النوم",
+          "project_a": "2–5 غرف نوم",
+          "project_b": "5 غرف نوم"
+        },
+        {
+          "factor": "التسليم",
+          "project_a": "2026",
+          "project_b": "موعد التسليم يحتاج إلى تأكيد"
+        },
+        {
+          "factor": "تموضع المشروع",
+          "project_a": "بطابع واجهة بحرية",
+          "project_b": "بطابع واجهة بحرية"
+        }
+      ],
+      "title": "جدول مقارنة المشاريع",
+      "eyebrow": "Armani Beach Residences مقابل Kural Vista",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "لدى Armani Beach Residences سعر ابتدائي مسجل يبلغ AED 26M. تحقق من السعر الحالي لـ Kural Vista وقارن وحدات متماثلة.",
+          "title": "أحد السعرين يحتاج إلى تأكيد",
+          "eyebrow": "السعر والوحدات",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "يقع المشروعان في Palm Jumeirah. قارن سهولة الوصول والموقع الدقيق للمبنى أو قطعة الأرض والمعروض القريب وملاءمة الاستخدام اليومي.",
+          "title": "الحي نفسه، قارن الموقع الدقيق",
+          "eyebrow": "ملاءمة الموقع",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "لدى Armani Beach Residences موعد تسليم مسجل في 2026. تحقق من الجدول الزمني لـ Kural Vista قبل مقارنة التوقيت.",
+          "title": "تحقق من موعدي التسليم",
+          "eyebrow": "الجدول الزمني",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "اطلب من Primadom AI مقارنة Armani Beach Residences وKural Vista حسب نوع الوحدة والسعر المسجل والموقع وموعد التسليم والاستخدام المقصود، ثم إعداد أهم الأسئلة للمستشار.",
+          "title": "قارن وفق هدفك",
+          "eyebrow": "اسأل AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "ملاحظات قرار المشروع"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "لمن يناسب كل مشروع",
+        "eyebrow": "ملاءمة المشتري",
+        "project_a_items": [
+          "لديه سعر ابتدائي مسجل يبلغ AED 26M، بينما يحتاج البديل إلى تحقق مباشر من السعر.",
+          "تفضّل طابع الواجهة البحرية في Palm Jumeirah بما يناسب استخدامك المقصود.",
+          "تريد شقق · بنتهاوس ضمن 2–5 غرف نوم مع تسليم مسجل في 2026."
+        ],
+        "project_a_title": "اختر Armani Beach Residences إذا",
+        "project_b_items": [
+          "أنت مستعد للتحقق من سعره الابتدائي الحالي قبل مقارنة القيمة.",
+          "تفضّل طابع الواجهة البحرية في Palm Jumeirah بما يناسب استخدامك المقصود.",
+          "تريد فلل ضمن 5 غرف نوم ويمكنك التحقق من جدول التسليم."
+        ],
+        "project_b_title": "اختر Kural Vista إذا"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "لدى Armani Beach Residences سعر ابتدائي مسجل يبلغ AED 26M، بينما يحتاج Kural Vista إلى تحقق مباشر من السعر. يقع المشروعان في Palm Jumeirah، لذلك يقل احتمال أن يكون الموقع العامل الفاصل الرئيسي. يختلف مزيج العقارات المسجل: شقق · بنتهاوس في Armani Beach Residences مقابل فلل في Kural Vista. لدى Armani Beach Residences سنة تسليم مسجلة هي 2026، بينما يحتاج موعد Kural Vista إلى تأكيد.",
+        "tags": [
+          "سعر مسجل واحد",
+          "الحي نفسه",
+          "مزيج الوحدات المسجل",
+          "تحقق من موعد التسليم",
+          "تحقق من التكلفة الإجمالية"
+        ],
+        "title": "منطق الاستثمار",
+        "eyebrow": "طبقة القرار"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ar/compare-projects/alba-residences-dorchester-collection-vs-armani-beach-residences/",
+            "meta": "مشروع مشترك",
+            "label": "Alba Residences Dorchester Collection مقابل Armani Beach Residences",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/alba-residences-dorchester-collection-vs-kural-vista/",
+            "meta": "مشروع مشترك",
+            "label": "Alba Residences Dorchester Collection مقابل Kural Vista",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/armani-beach-residences-vs-ava/",
+            "meta": "مشروع مشترك",
+            "label": "Armani Beach Residences مقابل Ava",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/armani-beach-residences-vs-como-residences/",
+            "meta": "مشروع مشترك",
+            "label": "Armani Beach Residences مقابل Como Residences",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "المزيد من مقارنات المشاريع",
+        "eyebrow": "استكشف التالي"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ar/projects/armani-beach-residences/",
+            "meta": "المشروع A",
+            "label": "صفحة مشروع Armani Beach Residences",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/projects/kural-vista/",
+            "meta": "المشروع B",
+            "label": "صفحة مشروع Kural Vista",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/areas/palm-jumeirah/",
+            "meta": "المنطقة",
+            "label": "دليل منطقة Palm Jumeirah",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "افتح صفحات المشاريع",
+        "eyebrow": "صفحات المشاريع"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "شارك هذه التفاصيل لمقارنة Armani Beach Residences وKural Vista وفق الأولويات نفسها. تساعد معلومات المشاريع المسجلة على تضييق الخيارات، بينما تظل الوحدات الدقيقة والأسعار الحالية والتوافر بحاجة إلى تحقق مباشر.",
+      "items": [
+        {
+          "meta": "نطاق AED أو الحد الأقصى لسعر الدخول",
+          "label": "نطاق السعر"
+        },
+        {
+          "meta": "شقق / بنتهاوس / فلل",
+          "label": "نوع الوحدة"
+        },
+        {
+          "meta": "سكن / منزل ثانٍ / استثمار على الواجهة البحرية",
+          "label": "هدف المشتري"
+        },
+        {
+          "meta": "التوقيت المفضل حول 2026",
+          "label": "الجدول الزمني"
+        },
+        {
+          "meta": "الإطلالة / الخصوصية / الوصول إلى الواجهة البحرية",
+          "label": "الأولوية الرئيسية"
+        }
+      ],
+      "title": "مدخلات المقارنة لـ AI",
+      "eyebrow": "تفاصيل مفيدة",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "يناسب كل من المشروعين أولويات مختلفة، ولا يوجد خيار أفضل في جميع الحالات. لدى Armani Beach Residences فقط سعر ابتدائي مسجل قابل للاستخدام حاليًا. يسجل Armani Beach Residences شقق · بنتهاوس، بينما يسجل Kural Vista فلل. يسجل Armani Beach Residences التسليم في 2026، بينما يحتاج موعد تسليم Kural Vista إلى تأكيد. يعتمد الخيار الأنسب على الاستخدام المقصود والوحدة الفعلية المتاحة وقت المقارنة.",
+          "question": "أي المشروعين قد يناسبني أكثر: Armani Beach Residences أم Kural Vista؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "لدى Armani Beach Residences سعر ابتدائي مسجل قابل للاستخدام يبلغ AED 26M. لا يتوفر لـ Kural Vista سعر قابل للاستخدام في السجل الحالي، لذا يلزم إجراء مقارنة مباشرة.",
+          "question": "أي المشروعين لديه السعر الابتدائي المسجل الأقل؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يقع المشروعان في Palm Jumeirah. يرتبط Armani Beach Residences بـ ARADA، بينما يرتبط Kural Vista بـ Alpago properties.",
+          "question": "كيف يختلف Armani Beach Residences وKural Vista من حيث الموقع والمطور العقاري؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يسجل Armani Beach Residences شقق · بنتهاوس، بما في ذلك وحدات من 2–5 غرف نوم. يسجل Armani Beach Residences التسليم في 2026. يسجل Kural Vista فلل، بما في ذلك وحدات من 5 غرف نوم. لا يزال موعد تسليم Kural Vista بحاجة إلى تأكيد.",
+          "question": "ما أنواع العقارات ونطاقات غرف النوم وسنوات التسليم المسجلة؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يجب أن تستند القائمة النهائية بين Armani Beach Residences وKural Vista إلى الوحدة الدقيقة والسعر الحالي وشروط الدفع والتكلفة الإجمالية للشراء والمخطط والإطلالة وحالة المشروع والتسليم والتوافر. تفيد الأرقام المسجلة على مستوى المشروع في إعداد القائمة المختصرة، لكنها لا تغني عن التحقق المباشر على مستوى الوحدة.",
+          "question": "ما الذي يجب التحقق منه قبل الاختيار بين Armani Beach Residences وKural Vista؟",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن المشاريع",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "استخدم هذه الصفحة كنقطة بداية لمقارنة Armani Beach Residences وKural Vista. قد تتغير التفاصيل المسجلة ولا تحل محل مستندات المطور الحالية أو السجلات العامة. تحقق من الأسعار الحالية والوحدات المتاحة وشروط الدفع والمخططات ورسوم الخدمات وتفاصيل التسليم وحالة المشروع قبل اتخاذ القرار.",
+      "items": [
+        {
+          "label": "السعر / التوافر",
+          "value": "يلزم تحقق مباشر"
+        },
+        {
+          "label": "شروط الدفع",
+          "value": "تحقق من المستندات الحالية"
+        },
+        {
+          "label": "التسليم / الحالة",
+          "value": "تحقق من الحالة الحالية"
+        },
+        {
+          "label": "تحديث المحتوى",
+          "value": "يوليو 2026"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "التحقق",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "يقع المشروعان في Palm Jumeirah؛ ويرتبط Armani Beach Residences بـ ARADA، بينما يرتبط Kural Vista بـ Alpago Properties. يسجل Armani Beach Residences سعرًا ابتدائيًا قدره AED 26M، بينما يحتاج سعر Kural Vista إلى تحقق مباشر. يسجل Armani Beach Residences التسليم في 2026، بينما يحتاج موعد تسليم Kural Vista إلى تأكيد.",
+      "title": "هل تريد مقارنة Armani Beach Residences وKural Vista وفق حالتك؟",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "اسأل Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "قارن حالتي",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن مقارنة المشاريع",
+      "text": "شارك تفضيلاتك وبيانات التواصل. سيُعد Primadom AI مقارنة مركزة قبل أن يتواصل معك مستشار.",
+      "error": "يرجى المحاولة مرة أخرى",
+      "title": "قارن Armani Beach Residences وKural Vista وفق حالتك",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+      "eyebrow": "متابعة المقارنة مع AI",
+      "success": "تم إرسال الطلب",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "إغلاق",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971",
+        "comment": "أضف أي تفاصيل مفيدة"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_armani_beach_residences_vs_kural_vista_ar",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Armani Beach Residences",
+        "project_a_slug": "armani-beach-residences",
+        "project_b_name": "Kural Vista",
+        "project_b_slug": "kural-vista",
+        "canonical_url_path": "/ar/compare-projects/armani-beach-residences-vs-kural-vista/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "إرسال",
+        "error": "يرجى المحاولة مرة أخرى",
+        "success": "تم إرسال الطلب",
+        "submitting": "جارٍ الإرسال…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "طلب مُعدّ مسبقًا",
+        "value": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "يساعد Primadom AI المشترين على مقارنة المشاريع والمواقع والمطورين العقاريين وعوامل القرار الرئيسية قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "مقارنة المشاريع المرتبطة باحتياجات المشتري الفعلية",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري في الإمارات",
+      "brand_url": "/ar/",
+      "copyright": "© نظام Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "احجز مكالمة",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "اسأل AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "مشتري يركز على نمط الحياة على الواجهة المائية في Creek Beach"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "waterfront-lifestyle-buyer-in-creek-beach"
+page_id: "page_scenario_district_waterfront_lifestyle_buyer_creek_beach_ar"
+url: "/ar/buyer-scenarios/waterfront-lifestyle-buyer-in-creek-beach/"
+build:
+  render: always
+  list: never
+---

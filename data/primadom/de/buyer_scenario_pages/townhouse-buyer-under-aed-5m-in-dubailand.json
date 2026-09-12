@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_buyer_scenario_townhouse_buyer_under_aed_5m_in_dubailand_de",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "de",
+  "url_path": "/de/buyer-scenarios/townhouse-buyer-under-aed-5m-in-dubailand/",
+  "canonical_url_path": "/de/buyer-scenarios/townhouse-buyer-under-aed-5m-in-dubailand/",
+  "canonical_group_key": "buyer_scenario:townhouse_buyer_under_aed_5m:district:dubailand",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubailand",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Antwort",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Ablauf",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation des Käuferszenarios",
+      "cta_label": "Szenario prüfen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/de/buyer-scenarios/",
+          "label": "Käuferszenarien"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/dubailand/",
+          "label": "Dubailand"
+        },
+        {
+          "key": "current",
+          "href": "/de/buyer-scenarios/townhouse-buyer-under-aed-5m-in-dubailand/",
+          "label": "Reihenhauskäufer unter 5 Mio. AED in Dubailand",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Familienwohnen im Reihenhaus",
+        "Dubailand",
+        "Reihenhäuser",
+        "Bis zu 5 Mio. AED",
+        "Platz · Pflegeaufwand · Kosten"
+      ],
+      "image": {
+        "alt": "Reihenhauskäufer unter 5 Mio. AED in Dubailand – Immobiliensuche",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Reihenhauskäufer unter 5 Mio. AED in Dubailand",
+      "subtitle": "Für dieses Käuferszenario in Dubailand stehen Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten im Mittelpunkt. Prüfen Sie die konkrete Immobilie und die aktuellen Bedingungen, bevor Sie die Auswahl eingrenzen.",
+      "facts_aria": "Wichtige Punkte des Käuferszenarios",
+      "section_id": "overview",
+      "visual_aria": "Visualisierung zur Immobiliensuche: Reihenhauskäufer unter 5 Mio. AED in Dubailand",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten in Dubailand vergleichen",
+        "Aktuelle Preise, Verfügbarkeit und Bedingungen prüfen",
+        "Optionen passend zum Ziel „Familienwohnen im Reihenhaus“ strukturieren"
+      ],
+      "ai_aria": "Primadom AI zu „Reihenhauskäufer unter 5 Mio. AED in Dubailand“ fragen",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Optionen für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand vergleichen",
+      "placeholder": "Optionen für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Familienwohnen im Reihenhaus",
+        "Dubailand",
+        "Bis zu 5 Mio. AED",
+        "Platz · Pflegeaufwand · Kosten",
+        "AI fragen"
+      ],
+      "title": "Was am wichtigsten ist",
+      "eyebrow": "Hinweise für Käufer",
+      "body_html": "<strong>Für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand sollten Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten gemeinsam geprüft werden.</strong> Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "body_text": "Für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand sollten Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten gemeinsam geprüft werden. Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Szenario",
+          "value": "Reihenhauskäufer unter 5 Mio. AED"
+        },
+        {
+          "label": "Hauptziel",
+          "value": "Familienwohnen im Reihenhaus"
+        },
+        {
+          "label": "Lage",
+          "value": "Dubailand"
+        },
+        {
+          "label": "Immobilientyp",
+          "value": "Reihenhäuser"
+        },
+        {
+          "label": "Budgetrahmen",
+          "value": "Bis zu 5 Mio. AED"
+        },
+        {
+          "label": "Entscheidungsschwerpunkt",
+          "value": "Platz · Pflegeaufwand · Kosten"
+        },
+        {
+          "label": "Phase des Käufers",
+          "value": "Planung / Entscheidung"
+        },
+        {
+          "label": "Nächster Schritt",
+          "value": "Reihenhausoptionen nach Alltag und Gesamtkosten vergleichen"
+        }
+      ],
+      "title": "Szenarioparameter",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Für wen diese Seite gedacht ist",
+        "eyebrow": "Eignung für Käufer",
+        "bad_items": [
+          "Käufer, die ihre Entscheidung nur auf einen einzelnen Preis-, Lebensstil- oder Renditefaktor stützen",
+          "Käufer, die aktuelle Objekt-, Projekt- oder Kostenangaben nicht separat prüfen möchten",
+          "Käufer, deren Budget keinen ausreichenden Spielraum für Transaktionskosten und eine Liquiditätsreserve lässt"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Käufer mit dem Hauptziel „Familienwohnen im Reihenhaus“ in Dubailand",
+          "Käufer, die Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten strukturiert vergleichen möchten",
+          "Käufer, die aktuelle Preise, Verfügbarkeit und objektspezifische Angaben vor der Entscheidung bestätigen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "In Dubailand sollte das Szenario „Reihenhauskäufer unter 5 Mio. AED“ anhand von Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten bewertet werden. Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden.",
+        "tags": [
+          "Platz",
+          "Privatsphäre",
+          "Wohngebiet",
+          "Pflegeaufwand",
+          "Gesamtkosten"
+        ],
+        "title": "Was zu beachten ist",
+        "eyebrow": "Entscheidungslogik"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Prüfen Sie in Dubailand, wie gut Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten zur konkreten Immobilie und zum vorgesehenen Nutzungszweck passen.",
+            "title": "Dubailand"
+          },
+          {
+            "text": "Vergleichen Sie alternative Gebiete mit denselben Kriterien: Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten.",
+            "title": "Alternativen vergleichen"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Platz und Pflegeaufwand“ anhand der konkreten Immobilie und von Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten.",
+            "title": "Platz und Pflegeaufwand"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Vor der engeren Auswahl“ anhand der konkreten Immobilie und von Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten.",
+            "title": "Vor der engeren Auswahl"
+          }
+        ],
+        "title": "Kontext des Stadtteils",
+        "eyebrow": "Relevante Stadtteile"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Reihenhäuser"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Reihenhausgrundrisse"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Bezugsfertige Reihenhäuser"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Reihenhäuser vor Fertigstellung"
+          }
+        ],
+        "title": "Zu vergleichende Immobilientypen",
+        "eyebrow": "Eignung der Immobilie"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Halten Sie den tatsächlichen Gesamtaufwand inklusive Transaktionskosten, Einrichtung und erster Instandhaltung unter dem geplanten Rahmen von 5 Mio. AED.",
+          "title": "Budget vollständig betrachten",
+          "eyebrow": "Budgetlogik"
+        },
+        {
+          "text": "Prüfen Sie in Dubailand, wie gut Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten zum tatsächlichen Nutzungszweck und zum geplanten Zeitpunkt passen.",
+          "title": "Praktische Eignung prüfen",
+          "eyebrow": "Prozesshinweise"
+        },
+        {
+          "text": "Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden.",
+          "title": "Risiken getrennt prüfen",
+          "eyebrow": "Risiken"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Optionen in Dubailand anhand von Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten in einem einheitlichen Vergleichsrahmen gegenüberstellen.",
+          "title": "Vergleich mit Primadom AI strukturieren",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Entscheidungshinweise zum Käuferszenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden.",
+        "tags": [
+          "Platz",
+          "Privatsphäre",
+          "Wohngebiet",
+          "Pflegeaufwand",
+          "Gesamtkosten"
+        ],
+        "title": "Risiken",
+        "eyebrow": "Vor dem Kauf prüfen"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Definieren Sie zuerst das Hauptziel „Familienwohnen im Reihenhaus“ und priorisieren Sie Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten, bevor Sie einzelne Immobilien vergleichen.",
+            "title": "Ziel und Kriterien festlegen"
+          },
+          {
+            "text": "Halten Sie den tatsächlichen Gesamtaufwand inklusive Transaktionskosten, Einrichtung und erster Instandhaltung unter dem geplanten Rahmen von 5 Mio. AED.",
+            "title": "Gesamtbudget und Zahlungsweg klären"
+          },
+          {
+            "text": "Vergleichen Sie die konkrete Immobilie in Dubailand mit Alternativen und prüfen Sie dabei Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten.",
+            "title": "Immobilie und Lage prüfen"
+          },
+          {
+            "text": "Bestätigen Sie aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen unmittelbar vor einer Reservierung oder verbindlichen Entscheidung.",
+            "title": "Aktuelle Angaben vor der Entscheidung bestätigen"
+          }
+        ],
+        "title": "Dokumente und Prozesshinweise",
+        "eyebrow": "Praktische Aspekte"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/california-village-dubai/",
+            "meta": "GFH Real Estate · Dubailand",
+            "label": "California Village Dubai"
+          },
+          {
+            "href": "/de/projects/elan/",
+            "meta": "Majid Al Futtaim · Dubailand",
+            "label": "Elan"
+          },
+          {
+            "href": "/de/projects/paradise-hills/",
+            "meta": "Gulf Land Property Developers · Dubailand",
+            "label": "Paradise Hills"
+          },
+          {
+            "href": "/de/projects/la-rosa-phase-5/",
+            "meta": "Dubai Properties · Dubailand",
+            "label": "La Rosa Phase 5"
+          },
+          {
+            "href": "/de/projects/cherrywoods/",
+            "meta": "Meraas Holding · Dubailand",
+            "label": "Cherrywoods"
+          }
+        ],
+        "title": "Zu vergleichende Projekte",
+        "eyebrow": "Einstieg in die Auswahl"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Halten Sie den tatsächlichen Gesamtaufwand inklusive Transaktionskosten, Einrichtung und erster Instandhaltung unter dem geplanten Rahmen von 5 Mio. AED.",
+        "tags": [
+          "Kaufpreis",
+          "Transaktionskosten",
+          "Laufende Kosten",
+          "Liquiditätsreserve",
+          "Aktuelle Bedingungen"
+        ],
+        "title": "Budgetlogik",
+        "eyebrow": "Budget im Szenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/de/buyer-scenarios/villa-vs-townhouse-decision-buyer/",
+          "label": "Entscheidung zwischen Villa und Reihenhaus in den VAE"
+        },
+        {
+          "href": "/de/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-dubailand/",
+          "label": "Entscheidung zwischen Apartment und Reihenhaus in Dubailand"
+        },
+        {
+          "href": "/de/buyer-scenarios/family-relocation-buyer/",
+          "label": "Familie beim Umzug nach Dubai in den VAE"
+        },
+        {
+          "href": "/de/buyer-scenarios/budget-buyer-under-aed-2m-in-dubailand/",
+          "label": "Käufer mit Budget unter 2 Mio. AED in Dubailand"
+        }
+      ],
+      "title": "Verwandte Szenarien",
+      "eyebrow": "Weiter erkunden",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Vergleichen Sie Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten. Die Entscheidung sollte auf der konkreten Immobilie und aktuellen Bedingungen beruhen.",
+          "question": "Was ist bei „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand am wichtigsten?"
+        },
+        {
+          "answer": "Es passt vor allem zu Käufern mit dem Ziel „Familienwohnen im Reihenhaus“, die bereit sind, Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten strukturiert miteinander zu vergleichen.",
+          "question": "Für wen passt dieses Käuferszenario in Dubailand?"
+        },
+        {
+          "answer": "Prüfen Sie Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten an der konkreten Immobilie. Bestätigen Sie außerdem aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen vor der Entscheidung.",
+          "question": "Was sollte bei diesem Käuferszenario in Dubailand vor der Auswahl konkret geprüft werden?"
+        },
+        {
+          "answer": "Halten Sie den tatsächlichen Gesamtaufwand inklusive Transaktionskosten, Einrichtung und erster Instandhaltung unter dem geplanten Rahmen von 5 Mio. AED.",
+          "question": "Wie sollte das Budget für dieses Käuferszenario in Dubailand geplant werden?"
+        },
+        {
+          "answer": "Mehr private Fläche kann mit höheren Instandhaltungs- oder Fahrtkosten verbunden sein; Wohngebiet und Alltagstauglichkeit sollten mitgeprüft werden.",
+          "question": "Welche wesentlichen Risiken sollten Käufer bei diesem Szenario in Dubailand berücksichtigen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Käuferszenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand sollten aktuelle Preise, Verfügbarkeit, Projekt- oder Objektstatus, Gebühren, Zahlungsbedingungen und alle Angaben zu Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten vor der Entscheidung anhand der jeweils aktuellen und objektspezifischen Unterlagen überprüft werden.",
+      "items": [
+        {
+          "label": "Aktuelle Preise",
+          "value": "Vor der Entscheidung erneut prüfen"
+        },
+        {
+          "label": "Verfügbarkeit",
+          "value": "Für die konkrete Immobilie bestätigen"
+        },
+        {
+          "label": "Projekt- / Objektstatus",
+          "value": "Aktuelle Angaben und Unterlagen prüfen"
+        },
+        {
+          "label": "Gebühren / Bedingungen",
+          "value": "Objektspezifisch bestätigen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Was zu prüfen ist",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Vergleichen Sie Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten, bevor Sie die Auswahl eingrenzen. Primadom AI kann den Vergleich strukturieren und die Punkte für eine weitere Prüfung vorbereiten.",
+      "title": "„Reihenhauskäufer unter 5 Mio. AED“ in Dubailand prüfen?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Optionen prüfen",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formular zur Prüfung des Käuferszenarios",
+      "text": "Teilen Sie Budget, Prioritäten, Nutzungsziel und Zeitplan mit. So kann der Vergleich für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand vor einem Gespräch strukturiert vorbereitet werden.",
+      "title": "Käuferszenario in Dubailand prüfen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Mein Käuferszenario „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand prüfen",
+      "eyebrow": "Szenarioanalyse mit AI fortsetzen",
+      "success": "Gesendet",
+      "close_label": "Schließen",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Primadom AI hilft, Platz, Privatsphäre, Wohngebiet, Pflegeaufwand und Gesamtkosten für „Reihenhauskäufer unter 5 Mio. AED“ in Dubailand strukturiert zu vergleichen, bevor einzelne Immobilien weiter geprüft werden.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Entscheidung in Dubailand strukturiert prüfen",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social-Media-Links von Primadom AI",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

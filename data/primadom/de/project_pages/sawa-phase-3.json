@@ -1,0 +1,830 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_sawa_phase_3_de",
+  "page_type_id": "project_page",
+  "language_code": "de",
+  "url_path": "/de/projects/sawa-phase-3/",
+  "canonical_url_path": "/de/projects/sawa-phase-3/",
+  "canonical_group_key": "project:sawa-phase-3",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "sawa-phase-3",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "Gespräch buchen",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Überblick",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "Details"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "Lage"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "is_ai": true,
+          "label": "AI fragen"
+        }
+      ],
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Primadom AI Navigation",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "projects",
+          "href": "/de/projects/",
+          "label": "Off-Plan-Projekte in den VAE"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/al-mamsha/",
+          "label": "Al Mamsha",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/de/projects/sawa-phase-3/",
+          "label": "Sawa phase 3",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Sawa phase 3",
+      "price_label": "Preis ab",
+      "promo_image": "",
+      "price_amount": 590000,
+      "price_status": "available",
+      "hero_subtitle": "Off-Plan-Apartmentprojekt in Al Mamsha von Alef Group.",
+      "price_display": "AED 590,000",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Sawa phase 3 Galerie",
+      "gallery_next_label": "Nächstes Bild",
+      "gallery_prev_label": "Vorheriges Bild"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Sawa phase 3 mit ähnlichen Projekten in Al Mamsha vergleichen",
+        "Zahlungsplan, Einheitenoptionen und Übergabelogik anzeigen",
+        "Ist Sawa phase 3 besser zum Wohnen oder als Investment geeignet?",
+        "Standortwert von Al Mamsha erklären"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Zu diesem Projekt fragen",
+      "placeholder": "Fragen Sie zu Sawa phase 3, Zahlungsplan, Lage, Risiken oder ähnlichen Projekten",
+      "button_label": "Fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Primadom AI zu Sawa phase 3 fragen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "Diese Seite bietet einen kompakten Überblick über Sawa phase 3: Preis, Übergabe, Zahlungsplan, Lage und ähnliche Projekte. Verfügbarkeit, Grundrisse und Zahlungsbedingungen sollten vor einer Kaufentscheidung geprüft werden.",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "Al Mamsha",
+        "Off-Plan",
+        "Von Alef Group",
+        "Ab AED 590,000"
+      ],
+      "short_answer_title": "Projektübersicht",
+      "short_answer_kicker": "Kurzübersicht für Käufer",
+      "short_answer_summary": "Die Projektpositionierung beschreibt das Wohnkonzept und den vorgesehenen Nutzungskontext auf Grundlage der verfügbaren Projektdaten. Die Projektpositionierung beschreibt das Wohnkonzept und den vorgesehenen Nutzungskontext auf Grundlage der verfügbaren Projektdaten."
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "Preis ab",
+          "value": "AED 590,000",
+          "value_ref": "price_from_aed",
+          "value_status": "available"
+        },
+        {
+          "key": "status",
+          "label": "Status",
+          "value": "Off-Plan",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "Übergabe",
+          "value": "Dezember 2026",
+          "value_ref": "handover_text",
+          "value_status": "available"
+        },
+        {
+          "key": "payment_plan",
+          "label": "Zahlungsplan",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "Bauträger",
+          "value": "Alef Group",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "Stadtteil",
+          "value": "Al Mamsha",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "Typ",
+          "value": "Apartment",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "Einheiten",
+          "value": "1 | 2 | 3 Schlafzimmer",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "Fläche ab",
+          "value": "ab 566 sqft",
+          "value_ref": "size_min_sqft",
+          "value_status": "available"
+        },
+        {
+          "key": "last_checked",
+          "label": "Zuletzt geprüft",
+          "value": "Juni 2026",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "Projektdetails",
+      "keyfacts_note": "Die wichtigsten Fakten zu Sawa phase 3 werden früh angezeigt, damit Käufer, Suchmaschinen und AI-Systeme das Projekt schnell einordnen können. Preis, Zahlungsplan und Verfügbarkeit sollten vor einer Kaufentscheidung überprüft werden.",
+      "details_kicker": "Wichtige Fakten",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "Käufer, die die Immobilie als Hauptwohnsitz nutzen möchten",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "Käufer, die eine Wohnimmobilie als Investment erwerben möchten",
+            "evidence": "use_case_tags.investment",
+            "priority": 20,
+            "semantic_group": "investment"
+          },
+          {
+            "item": "Käufer, die einen urbanen Lebensstil bevorzugen",
+            "evidence": "lifestyle_tags.city_living",
+            "priority": 30,
+            "semantic_group": "urban_lifestyle"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "Käufer, die gezielt nach Villen suchen",
+            "evidence": "property_types.apartment_only",
+            "priority": 50,
+            "semantic_group": "no_villas"
+          }
+        ]
+      },
+      "best_for_items": [
+        "Käufer, die die Immobilie als Hauptwohnsitz nutzen möchten",
+        "Käufer, die eine Wohnimmobilie als Investment erwerben möchten",
+        "Käufer, die einen urbanen Lebensstil bevorzugen"
+      ],
+      "best_for_title": "Gut geeignet für",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "Käuferprofil",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "Eignungsprüfung",
+      "not_best_for_items": [
+        "Käufer, die gezielt nach Villen suchen"
+      ],
+      "not_best_for_title": "Möglicherweise nicht geeignet für",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Sawa phase 3 ist ein Off-Plan-Apartmentprojekt von Alef Group in Al Mamsha. Erfasst sind eine Einheit mit einem Schlafzimmer, Einheiten mit 2 Schlafzimmern und Einheiten mit 3 Schlafzimmern. Die erfasste Mindestgröße beträgt 566 sqft. Als Übergabe ist Dezember 2026 angegeben. Die Positionierung verbindet zentrale Stadtlage, Familienfreundlichkeit, aufstrebendes Umfeld und ruhiges Umfeld und eignet sich sowohl zur Eigennutzung als auch als Investment.",
+      "project_logic_title": "Projektpositionierung",
+      "project_logic_kicker": "So ist es einzuordnen"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Prüfen Sie Sawa phase 3 anhand von Preis, Lage, Zeitplan, Einheitenmix und relevanten Vergleichsprojekten, soweit diese Daten verfügbar sind.",
+          "title": "Datenprüfung erforderlich",
+          "eyebrow": "Investitionsperspektive",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "Sawa phase 3 bietet Apartments in Al Mamsha; die Eignung für Familien hängt vom Einheitenmix und vom vorgesehenen Nutzungszweck ab.",
+          "title": "Anwendungsfall für Käufer",
+          "eyebrow": "Lifestyle-Perspektive",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Bestätigen Sie vor einer Entscheidung die aktuelle Verfügbarkeit, den aktuellen Preis, Servicegebühren, Zahlungsbedingungen, Grundrisse und offiziellen Projektunterlagen.",
+          "title": "Verfügbarkeit, Gebühren und Zahlungsplan",
+          "eyebrow": "Vor dem Kauf prüfen",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI kann Sawa phase 3 mit Alternativen vergleichen und die wichtigsten Fragen für die Prüfung mit einem Berater vorbereiten.",
+          "title": "Vor der Entscheidung fragen",
+          "eyebrow": "AI-Unterstützung",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 24.35058,
+      "lng": 53.93918,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/de/areas/al-mamsha/",
+          "label": "Gebietsleitfaden",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=24.350580,53.939180",
+          "label": "Karte öffnen",
+          "action_status": "source_coordinates"
+        }
+      ],
+      "address": "Al Mamsha, Dubai, UAE",
+      "map_point": "Standort auf Stadtteilebene",
+      "nearby_title": "Sehenswürdigkeiten in der Nähe",
+      "address_label": "Adresse",
+      "nearby_status": "city_fallback",
+      "address_status": "available",
+      "location_title": "Lage",
+      "schema_version": "location_v1",
+      "map_point_label": "Standortbereich",
+      "location_context": "Die Standortangaben für Sawa phase 3 basieren auf dem aufgeführten Gebiet Al Mamsha. Die genaue Gebäudeposition, Fahrzeiten und nahe gelegene Sehenswürdigkeiten sollten vor einer Kaufentscheidung bestätigt werden.",
+      "map_point_status": "source_coordinates",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Downtown Dubai",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "Dubai Marina",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "DXB Airport",
+          "item_status": "city_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "Fahrzeit",
+      "map_context_kicker": "Gebietskontext",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "Projekte werden deterministisch anhand von Stadtteil, Bauträger, Stadt, Immobilientyp, Preisspanne, Schlafzimmeranzahl und Übergabe ausgewählt. Schwache Übereinstimmungen werden ausgeschlossen, daher können einige Seiten weniger als vier Projekte anzeigen.",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/de/areas/al-mamsha/projects/",
+          "label": "Weitere Projekte in Al Mamsha",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/de/developers/alef-group/projects/",
+          "label": "Weitere Projekte von Alef Group",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "Verwandte Projekte",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "Interne Links",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/de/projects/darb-phase-5/",
+          "project_id": "darb-phase-5",
+          "match_score": 280,
+          "project_name": "Darb Phase 5",
+          "district_name": "Al Mamsha",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Alef Group",
+          "price_from_aed": 739000
+        },
+        {
+          "href": "/de/projects/nama-phase-2/",
+          "project_id": "nama-phase-2",
+          "match_score": 275,
+          "project_name": "Nama Phase 2",
+          "district_name": "Al Mamsha",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Alef Group",
+          "price_from_aed": 729000
+        },
+        {
+          "href": "/de/projects/sawa-phase-4/",
+          "project_id": "sawa-phase-4",
+          "match_score": 265,
+          "project_name": "Sawa phase 4",
+          "district_name": "Al Mamsha",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Alef Group",
+          "price_from_aed": 1500000
+        },
+        {
+          "href": "/de/projects/souq-al-mamsha/",
+          "project_id": "souq-al-mamsha",
+          "match_score": 260,
+          "project_name": "Souq Al Mamsha",
+          "district_name": "Al Mamsha",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartment",
+          "developer_name": "Alef Group",
+          "price_from_aed": 629000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Sawa phase 3 ist ein Immobilienprojekt von Alef Group in Al Mamsha mit Apartments.",
+          "question": "Was ist Sawa phase 3?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Sawa phase 3 befindet sich in Al Mamsha, Dubai, VAE.",
+          "question": "Wo befindet sich Sawa phase 3?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Der erfasste Startpreis beträgt AED 590,000. Aktuelle Preise und Verfügbarkeit sollten vor einer Entscheidung bestätigt werden.",
+          "question": "Wie hoch ist der Startpreis für Sawa phase 3?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Die aktuellen Projektdaten führen Apartments auf, darunter Einheiten mit 1–3 Schlafzimmern.",
+          "question": "Welche Immobilientypen und Schlafzimmeroptionen gibt es bei Sawa phase 3?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Als Übergabetermin ist Dezember 2026 erfasst. Dieser Zeitplan sollte anhand der neuesten offiziellen Projektaktualisierung bestätigt werden.",
+          "question": "Wann soll Sawa phase 3 voraussichtlich fertiggestellt werden?",
+          "answer_status": "formula_generated"
+        }
+      ],
+      "faq_title": "Häufige Fragen",
+      "faq_kicker": "Kurze Antworten",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "Antwort anzeigen",
+      "faq_collapse_label": "Antwort ausblenden"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "Überprüfung",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Offizielle Unterlagen des Bauträgers",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "Aktueller Preis und Verfügbarkeit",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "Registrierungsstatus des Projekts",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Überprüfung durch einen Primadom-Berater",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "Aktualität der Daten",
+      "freshness_value": "Daten mit hoher Änderungsdynamik",
+      "source_note_text": "Bevor Käufer sich auf die Daten zu Sawa phase 3 stützen, sollten sie den aktuellen Preis, die Verfügbarkeit, Zahlungsbedingungen, Grundrisse, Übergabe, Servicegebühren und offiziellen Projektunterlagen bestätigen.",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "Zuletzt aktualisiert",
+      "last_updated_value": "Juni 2026",
+      "source_notes_title": "Was überprüft werden sollte",
+      "trust_sources_title": "Quellenprüfung",
+      "verification_summary": [
+        {
+          "label": "Offizielle Unterlagen",
+          "value": "erforderlich"
+        },
+        {
+          "label": "Preis und Verfügbarkeit",
+          "value": "erforderlich"
+        },
+        {
+          "label": "Behördenstatus",
+          "value": "empfohlen"
+        },
+        {
+          "label": "Beraterprüfung",
+          "value": "intern"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Primadom AI fragen",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "Projekt-PDF anfordern",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "Gespräch buchen",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Nutzen Sie Primadom AI, um Sawa phase 3 zu vergleichen, Preis- und Zahlungslogik zu prüfen und die richtigen Fragen für einen Primadom-Berater vorzubereiten.",
+      "cta_title": "Dieses Projekt vor der Entscheidung prüfen",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "Wir prüfen die Details, bevor wir Ihre Anfrage weitergeben.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Ihr Name"
+        },
+        "phone": {
+          "label": "Telefon",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Anfrage",
+          "html_name": "request_type",
+          "placeholder": "Zeitplan, Einheitentyp oder Frage"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "Schließen",
+      "modal_title": "Zu Sawa phase 3 fragen",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "Anfrageentwurf",
+      "modal_status": "formula_generated",
+      "submit_label": "Senden",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "Projektanfrage",
+      "success_label": "Gesendet",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Interesse an Sawa phase 3. Bitte Details senden.",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "Sagen Sie uns, wonach Sie suchen. Primadom hilft dabei, Verfügbarkeit, Preise, Grundrisse und die nächsten Schritte zu prüfen.",
+      "voice_button_label": "Spracheingabe verwenden"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/de/projects/",
+          "label": "Projekte"
+        },
+        {
+          "key": "areas",
+          "href": "/de/areas/",
+          "label": "Gebiete"
+        },
+        {
+          "key": "developers",
+          "href": "/de/developers/",
+          "label": "Bauträger"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "AI-Suche"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "copyright": "© Primadom AI",
+      "brand_href": "/de/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "Diese Seite hilft Ihnen, Sawa phase 3 zu prüfen, wichtige Details zu vergleichen, das Gebiet einzuordnen und die richtigen Fragen vor einem Gespräch mit einem Primadom-Berater vorzubereiten.",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "Gespräch buchen",
+        "action_intent": "call_request"
+      },
+      "statement_title": "Passende Immobilie in Dubai mit klareren Projektdaten und AI-Unterstützung finden.",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "AI fragen",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

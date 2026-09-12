@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_remote_buyer_from_abroad_dubai_islands_fr",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/remote-buyer-buying-from-abroad-in-dubai-islands/",
+  "canonical_url_path": "/fr/buyer-scenarios/remote-buyer-buying-from-abroad-in-dubai-islands/",
+  "canonical_group_key": "scenario_district:remote_buyer_from_abroad:dubai-islands",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-islands",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation du scénario d’acheteur",
+      "cta_label": "Vérifier le scénario",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/dubai-islands/",
+          "label": "Dubai Islands"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/remote-buyer-buying-from-abroad-in-dubai-islands/",
+          "label": "Acheteur à distance depuis l’étranger — Dubai Islands",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Acheteur à distance depuis l’étranger",
+        "Dubai Islands · EAU",
+        "Appartements · Villas · Maisons de ville",
+        "AED 1.5M+",
+        "Documents · paiements · livraison"
+      ],
+      "image": {
+        "alt": "Recherche immobilière — Acheteur à distance depuis l’étranger — Dubai Islands",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Acheteur à distance depuis l’étranger — Dubai Islands",
+      "subtitle": "À Dubai Islands, cadrez l’achat à distance autour des documents, paiements, vérifications du bien, représentation et organisation de la livraison.",
+      "facts_aria": "Points clés du scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Visuel de recherche immobilière — Acheteur à distance depuis l’étranger — Dubai Islands",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparer ce scénario à Dubai Islands",
+        "Comparer les documents, les signatures et les paiements",
+        "Quels compromis comptent le plus pour mon usage ?"
+      ],
+      "ai_aria": "Demander à Primadom AI à propos du scénario « Acheteur à distance depuis l’étranger — Dubai Islands »",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparer ce scénario à Dubai Islands",
+      "placeholder": "Comparer ce scénario à Dubai Islands",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Acheteur à distance depuis l’étranger",
+        "Dubai Islands",
+        "Documents",
+        "Circuit de paiement",
+        "Demander à AI"
+      ],
+      "title": "Ce qui compte le plus",
+      "eyebrow": "Conseils pour l’acheteur",
+      "body_html": "<strong>Acheteur à distance depuis l’étranger — Dubai Islands</strong> — Pour acheter à distance depuis l’étranger à Dubai Islands, structurez le processus autour d’étapes vérifiables : contrôle du bien, documents, signature, paiements, représentation éventuelle et organisation de la livraison. Chaque étape doit être claire avant tout engagement à distance.",
+      "body_text": "Pour acheter à distance depuis l’étranger à Dubai Islands, structurez le processus autour d’étapes vérifiables : contrôle du bien, documents, signature, paiements, représentation éventuelle et organisation de la livraison. Chaque étape doit être claire avant tout engagement à distance.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scénario",
+          "value": "Acheteur à distance depuis l’étranger — Dubai Islands"
+        },
+        {
+          "label": "Objectif principal",
+          "value": "Achat à distance"
+        },
+        {
+          "label": "Localisation",
+          "value": "Dubai Islands"
+        },
+        {
+          "label": "Type de bien",
+          "value": "Appartements · Villas · Maisons de ville"
+        },
+        {
+          "label": "Fourchette de budget",
+          "value": "AED 1.5M+"
+        },
+        {
+          "label": "Critère de décision",
+          "value": "Documents · paiements · livraison"
+        },
+        {
+          "label": "Étape de l’acheteur",
+          "value": "Planification de l’achat à distance"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Vérifier le processus à distance"
+        }
+      ],
+      "title": "Paramètres du scénario",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cette page s’adresse",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs dont la décision est déjà arrêtée et qui n’ont plus besoin de comparer les documents, les signatures et les paiements.",
+          "Acheteurs qui se fient à un seul indicateur — prix, image du projet, réputation du quartier ou autre signal isolé — sans vérifier le bien précis.",
+          "Acheteurs qui ne souhaitent pas vérifier les documents, les signatures et les paiements ou les coûts récurrents avant de décider."
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs pour lesquels les documents, les signatures et les paiements sont déterminants à Dubai Islands.",
+          "Acheteurs qui veulent comparer les documents, les signatures, les paiements et la représentation sur une base cohérente plutôt que de décider à partir d’un seul avantage.",
+          "Acheteurs prêts à vérifier les données susceptibles de changer, les coûts et le calendrier avant de s’engager."
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Pour acheter à distance depuis l’étranger à Dubai Islands, structurez le processus autour d’étapes vérifiables : contrôle du bien, documents, signature, paiements, représentation éventuelle et organisation de la livraison. Chaque étape doit être claire avant tout engagement à distance. Utilisez ensuite les mêmes critères pour comparer les documents, les signatures, les paiements et la représentation à Dubai Islands, afin que chaque option soit évaluée sur une base cohérente.",
+        "tags": [
+          "Documents",
+          "Circuit de paiement",
+          "Représentation",
+          "Vérification",
+          "Priorités de l’acheteur"
+        ],
+        "title": "Points à prendre en compte",
+        "eyebrow": "Logique de décision"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Dubai Islands, évaluez dans quelle mesure le quartier répond aux priorités suivantes : les documents, les signatures et les paiements. Tenez aussi compte de la vie quotidienne de l’acheteur.",
+            "title": "Contexte local"
+          },
+          {
+            "text": "Comparez d’autres quartiers s’ils offrent un meilleur équilibre entre ces priorités, l’usage quotidien et le budget total.",
+            "title": "Comparer les alternatives"
+          },
+          {
+            "text": "Vérifiez les trajets, les services et les conditions réelles du bien : un seul avantage visible ne suffit pas à confirmer l’adéquation du quartier à ce scénario.",
+            "title": "Usage quotidien"
+          },
+          {
+            "text": "Gardez le choix du quartier cohérent avec les documents et les signatures ; un meilleur emplacement peut compenser certains compromis, et l’inverse.",
+            "title": "Avant d’affiner la sélection"
+          }
+        ],
+        "title": "Contexte du quartier",
+        "eyebrow": "Quartiers pertinents"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Appartements : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "Appartements"
+          },
+          {
+            "text": "Villas : comparez l’espace, l’intimité, le terrain, l’entretien, les accès et les coûts récurrents.",
+            "title": "Villas"
+          },
+          {
+            "text": "Maisons de ville : comparez l’espace, l’intimité, l’entretien, l’organisation du quartier et le coût total de détention.",
+            "title": "Maisons de ville"
+          },
+          {
+            "text": "Prêt à emménager ou sur plan : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Prêt à emménager ou sur plan"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Adéquation du bien"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Un achat à distance doit intégrer les frais de transaction, les coûts éventuels de représentation, les paiements programmés et une marge pour les dépenses de livraison ou d’installation. Chaque transfert doit correspondre à une étape documentée.",
+          "title": "Cadrez le budget complet",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "text": "À Dubai Islands, comparez les documents, les signatures, les paiements et la représentation avec la même méthode et vérifiez ce que chaque option change réellement dans l’usage quotidien.",
+          "title": "Comparez l’usage réel",
+          "eyebrow": "Notes sur le processus"
+        },
+        {
+          "text": "Les principaux risques sont d’envoyer des fonds avant d’avoir vérifié les documents et le bénéficiaire, de signer sans comprendre la représentation utilisée, de ne pas inspecter suffisamment le bien ou de laisser des étapes de livraison ambiguës.",
+          "title": "Gardez les risques visibles",
+          "eyebrow": "Risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut organiser la comparaison à Dubai Islands selon les documents, les signatures, les paiements et la représentation, avec le budget comme contrainte commune, sans supposer les données susceptibles de changer.",
+          "title": "Comparer avec Primadom AI",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notes de décision du scénario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Les principaux risques sont d’envoyer des fonds avant d’avoir vérifié les documents et le bénéficiaire, de signer sans comprendre la représentation utilisée, de ne pas inspecter suffisamment le bien ou de laisser des étapes de livraison ambiguës.",
+        "tags": [
+          "Documents",
+          "Circuit de paiement",
+          "Représentation",
+          "Vérifications du bien",
+          "Livraison"
+        ],
+        "title": "Risques",
+        "eyebrow": "À vérifier avant d’acheter"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Hiérarchisez les documents, les signatures, les paiements et la représentation avant d’affiner la sélection.",
+            "title": "Définir les priorités"
+          },
+          {
+            "text": "Mettez le prix d’achat, les frais d’acquisition, les coûts récurrents et la réserve de liquidités dans la même comparaison.",
+            "title": "Comparer le coût total"
+          },
+          {
+            "text": "Vérifiez l’identité des parties, les documents, les pouvoirs de représentation, les instructions de paiement, le bien précis et le processus de livraison.",
+            "title": "Vérifier les données du bien"
+          },
+          {
+            "text": "Faites correspondre les paiements, la transaction, la livraison ou l’emménagement avec votre propre calendrier avant de vous engager.",
+            "title": "Valider le calendrier"
+          }
+        ],
+        "title": "Documents et notes sur le processus",
+        "eyebrow": "Aspects pratiques"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/nautis-residences/",
+            "meta": "Stamn Real Estate Development · Dubai Islands",
+            "label": "Nautis Residences"
+          },
+          {
+            "href": "/fr/projects/cotier-house-phase-2/",
+            "meta": "Imtiaz Developments · Dubai Islands",
+            "label": "Cotier House Phase 2"
+          },
+          {
+            "href": "/fr/projects/flow-residences/",
+            "meta": "Main Realty · Dubai Islands",
+            "label": "Flow Residences"
+          },
+          {
+            "href": "/fr/projects/damac-islands/",
+            "meta": "Damac Properties · Dubai Islands",
+            "label": "Damac Islands"
+          },
+          {
+            "href": "/fr/projects/rena/",
+            "meta": "Avenew Properties · Dubai Islands",
+            "label": "Rena"
+          }
+        ],
+        "title": "Projets à comparer",
+        "eyebrow": "Entrée dans la sélection"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Un achat à distance doit intégrer les frais de transaction, les coûts éventuels de représentation, les paiements programmés et une marge pour les dépenses de livraison ou d’installation. Chaque transfert doit correspondre à une étape documentée.",
+        "tags": [
+          "Prix d’achat",
+          "Frais d’acquisition",
+          "Représentation",
+          "Déplacements",
+          "Marge de liquidités"
+        ],
+        "title": "Logique du budget",
+        "eyebrow": "Budget du scénario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/second-home-buyer-in-dubai-islands/",
+          "label": "Acheteur de résidence secondaire — Dubai Islands"
+        },
+        {
+          "href": "/fr/buyer-scenarios/business-owner-relocation-to-dubai-in-dubai-islands/",
+          "label": "Chef d’entreprise en installation à Dubaï — Dubai Islands"
+        },
+        {
+          "href": "/fr/buyer-scenarios/golden-visa-property-buyer-in-dubai-islands/",
+          "label": "Acheteur immobilier avec objectif Golden Visa — Dubai Islands"
+        },
+        {
+          "href": "/fr/buyer-scenarios/ready-to-move-buyer-in-dubai-islands/",
+          "label": "Acheteur recherchant un bien prêt à emménager — Dubai Islands"
+        }
+      ],
+      "title": "Scénarios associés",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Pour acheter à distance depuis l’étranger à Dubai Islands, structurez le processus autour d’étapes vérifiables : contrôle du bien, documents, signature, paiements, représentation éventuelle et organisation de la livraison. Chaque étape doit être claire avant tout engagement à distance.",
+          "question": "Quels sont les critères essentiels pour ce scénario à Dubai Islands ?"
+        },
+        {
+          "answer": "Ce scénario convient surtout aux acheteurs pour lesquels les documents, les signatures, les paiements et la représentation doivent être comparés ensemble avant de choisir un bien.",
+          "question": "À qui ce scénario convient-il ?"
+        },
+        {
+          "answer": "Vérifiez l’identité des parties, les documents, les pouvoirs de représentation, les instructions de paiement, le bien précis et le processus de livraison. Confirmez aussi les coûts, le statut du bien et les conditions susceptibles de changer avant tout engagement.",
+          "question": "Que faut-il vérifier avant de choisir un bien ?"
+        },
+        {
+          "answer": "Un achat à distance doit intégrer les frais de transaction, les coûts éventuels de représentation, les paiements programmés et une marge pour les dépenses de livraison ou d’installation. Chaque transfert doit correspondre à une étape documentée.",
+          "question": "Comment aborder le budget ?"
+        },
+        {
+          "answer": "Les principaux risques sont d’envoyer des fonds avant d’avoir vérifié les documents et le bénéficiaire, de signer sans comprendre la représentation utilisée, de ne pas inspecter suffisamment le bien ou de laisser des étapes de livraison ambiguës.",
+          "question": "Quels sont les principaux risques ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le scénario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Vérifiez l’identité des parties, les documents, les pouvoirs de représentation, les instructions de paiement, le bien précis et le processus de livraison. Revérifiez les données susceptibles de changer, les coûts, le calendrier et les documents avant de décider.",
+      "items": [
+        {
+          "label": "Documents",
+          "value": "Vérifier documents"
+        },
+        {
+          "label": "Circuit de paiement",
+          "value": "Confirmer circuit de paiement"
+        },
+        {
+          "label": "Représentation",
+          "value": "Comparer représentation"
+        },
+        {
+          "label": "Livraison",
+          "value": "Valider livraison"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Ce qu’il faut vérifier",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Comparez les documents, les signatures, les paiements et la représentation à Dubai Islands avec la même méthode. Primadom AI peut aider à structurer les compromis avant l’examen de biens précis.",
+      "title": "Prêt à comparer ce scénario ?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Examiner les options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande pour le scénario d’acheteur",
+      "text": "Pour ce scénario à Dubai Islands, indiquez vos priorités concernant les documents, les signatures, les paiements et la représentation, ainsi que votre budget et votre calendrier. Cela donne à l’équipe un contexte utile avant l’échange.",
+      "title": "Comparer les options pour ce scénario",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Aidez-moi à comparer ce scénario selon les documents, les signatures et les paiements",
+      "eyebrow": "Continuer l’analyse du scénario avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "À Dubai Islands, comparez les documents, les signatures, les paiements et la représentation dans le cadre du coût total avant d’affiner la sélection.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparer ce scénario avec des critères cohérents",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

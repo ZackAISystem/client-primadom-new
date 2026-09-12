@@ -1,0 +1,10 @@
+---
+title: "فلل على المخطط في Bani Yas"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-bani-yas"
+page_id: "intent__off-plan-villas__district__bani-yas__ar"
+url: "/ar/intents/off-plan-villas-in-bani-yas/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,10 @@
+---
+title: "مشاريع Samana Developers في Mohammed Bin Rashid City"
+layout: "primadom-intent-page-v2"
+intent_slug: "samana-developers-projects-in-mohammed-bin-rashid-city"
+page_id: "page_developer_district_samana_developers_mohammed_bin_rashid_city_ar"
+url: "/ar/intents/samana-developers-projects-in-mohammed-bin-rashid-city/"
+build:
+  render: always
+  list: never
+---

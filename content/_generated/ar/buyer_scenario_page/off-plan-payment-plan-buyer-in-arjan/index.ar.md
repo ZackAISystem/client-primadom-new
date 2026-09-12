@@ -1,0 +1,10 @@
+---
+title: "مشتري عقار على المخطط بخطة دفع في Arjan"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "off-plan-payment-plan-buyer-in-arjan"
+page_id: "page_scenario_district_off_plan_payment_plan_buyer_arjan_ar"
+url: "/ar/buyer-scenarios/off-plan-payment-plan-buyer-in-arjan/"
+build:
+  render: always
+  list: never
+---

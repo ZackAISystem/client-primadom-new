@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-resale-potential__context__dubai__fr",
+  "page_type_id": "ai_answer_page",
+  "language_code": "fr",
+  "url_path": "/fr/ai-answers/how-to-check-resale-potential-dubai/",
+  "canonical_url_path": "/fr/ai-answers/how-to-check-resale-potential-dubai/",
+  "canonical_group_key": "ai_answer:how-to-check-resale-potential:context:dubai",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-resale-potential",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Vérifications",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risques",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navigation des réponses AI",
+      "cta_label": "Vérifier mon cas",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/fr/ai-answers/",
+          "label": "Réponses AI"
+        },
+        {
+          "key": "current",
+          "href": "/fr/ai-answers/how-to-check-resale-potential-dubai/",
+          "label": "Comment vérifier le potentiel de revente ? — Dubaï",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Dubaï",
+        "Perspective d’investissement",
+        "Offre concurrente",
+        "Frais et délai de revente",
+        "Prime payée aujourd’hui"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Comment vérifier le potentiel de revente ? — Dubaï",
+      "subtitle": "Testez la sortie avec un scénario prudent : profondeur du bassin d’acheteurs, offre concurrente, frais, liquidité et prime éventuelle à récupérer. Appliquez ces critères pour un achat à Dubaï et confirmez les éléments susceptibles d’évoluer avant de décider.",
+      "facts_aria": "Points clés de la réponse",
+      "section_id": "hero",
+      "visual_aria": "Visuel de décision immobilière : Comment vérifier le potentiel de revente ? — Dubaï",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Quels sont les points essentiels pour répondre à « Comment vérifier le potentiel de revente ? » pour un achat à Dubaï ?",
+        "Quels risques dois-je comparer avant de décider pour un achat à Dubaï ?",
+        "Quelles données actuelles dois-je confirmer pour mon cas ?"
+      ],
+      "ai_aria": "Poser une question complémentaire à Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Aidez-moi à répondre à « Comment vérifier le potentiel de revente ? » pour un achat à Dubaï",
+      "placeholder": "Demander à AI : Comment vérifier le potentiel de revente ?",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Dubaï",
+        "Bassin d’acheteurs futurs",
+        "Offre concurrente",
+        "Frais et délai de revente",
+        "Prime payée aujourd’hui"
+      ],
+      "title": "Réponse directe",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Testez la sortie avec un scénario prudent : profondeur du bassin d’acheteurs, offre concurrente, frais, liquidité et prime éventuelle à récupérer.</strong> Appliquez cette analyse pour un achat à Dubaï. L’étape suivante consiste à comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+      "body_text": "Testez la sortie avec un scénario prudent : profondeur du bassin d’acheteurs, offre concurrente, frais, liquidité et prime éventuelle à récupérer. Appliquez cette analyse pour un achat à Dubaï. L’étape suivante consiste à comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Comment vérifier le potentiel de revente ? — Dubaï"
+        },
+        {
+          "label": "Contexte",
+          "value": "Dubaï"
+        },
+        {
+          "label": "Marché",
+          "value": "Dubaï / EAU"
+        },
+        {
+          "label": "Décision",
+          "value": "La vérification du potentiel de revente"
+        },
+        {
+          "label": "Vérifications principales",
+          "value": "Bassin d’acheteurs futurs · Offre concurrente · Frais et délai de revente"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Public de revente trop étroit"
+        },
+        {
+          "label": "Meilleure prochaine étape",
+          "value": "Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent."
+        },
+        {
+          "label": "Vérification",
+          "value": "Vérification actuelle requise"
+        }
+      ],
+      "title": "Détails de la réponse",
+      "topic": "La vérification du potentiel de revente",
+      "market": "Dubaï / EAU",
+      "context": "Dubaï",
+      "eyebrow": "Données clés",
+      "question": "Comment vérifier le potentiel de revente ? — Dubaï",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Le point « Public de revente trop étroit » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Public de revente trop étroit"
+          },
+          {
+            "text": "Le point « Nouvelle offre importante » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Nouvelle offre importante"
+          },
+          {
+            "text": "Le point « Prime difficile à récupérer » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Prime difficile à récupérer"
+          },
+          {
+            "text": "Une alternative comparable peut offrir un meilleur équilibre si le point « Liquidité surestimée » reste défavorable.",
+            "title": "La situation globale mérite un nouvel examen"
+          }
+        ],
+        "title": "Lorsque la réponse est « non »",
+        "eyebrow": "Nécessite davantage de vérifications"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Le point « Bassin d’acheteurs futurs » est confirmé à partir d’informations actuelles et adaptées au cas.",
+            "title": "Bassin d’acheteurs futurs"
+          },
+          {
+            "text": "Le point « Offre concurrente » a été comparé sur une base cohérente avec vos priorités et votre budget.",
+            "title": "Offre concurrente"
+          },
+          {
+            "text": "Le point « Frais et délai de revente » est compris et documenté avant toute réservation ou signature.",
+            "title": "Frais et délai de revente"
+          },
+          {
+            "text": "Après prise en compte des principaux risques et d’alternatives réalistes, l’analyse reste cohérente pour un achat à Dubaï.",
+            "title": "La situation globale reste cohérente"
+          }
+        ],
+        "title": "Lorsque la réponse est « oui »",
+        "eyebrow": "Adapté"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Testez la sortie avec un scénario prudent : profondeur du bassin d’acheteurs, offre concurrente, frais, liquidité et prime éventuelle à récupérer. Ces critères doivent être appliqués pour un achat à Dubaï.",
+          "title": "Bassin d’acheteurs futurs · Offre concurrente · Frais et délai de revente",
+          "eyebrow": "Ce qu’il faut vérifier"
+        },
+        {
+          "dark": false,
+          "text": "Le risque augmente lorsque plusieurs hypothèses importantes restent non confirmées ou que le coût total et les compromis ne sont pas comparés sur la même base.",
+          "title": "Public de revente trop étroit",
+          "eyebrow": "Risque"
+        },
+        {
+          "dark": false,
+          "text": "Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+          "title": "Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+          "eyebrow": "Étape suivante"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut transformer cette réponse en une liste de vérification adaptée à vos priorités, contraintes et éléments restant à confirmer.",
+          "title": "Vérifier votre cas précis",
+          "eyebrow": "Suivi avec AI"
+        }
+      ],
+      "cards_aria": "Conseils pour décider",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Soyez prudent si les points « Public de revente trop étroit », « Nouvelle offre importante » ou « Prime difficile à récupérer » apparaissent dans votre cas. Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+        "tags": [
+          "Public de revente trop étroit",
+          "Nouvelle offre importante",
+          "Prime difficile à récupérer",
+          "Liquidité surestimée",
+          "Public de revente trop étroit"
+        ],
+        "title": "Risques",
+        "eyebrow": "Soyez prudent si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Vérifiez le point « Bassin d’acheteurs futurs » à partir de sources ou documents actuels pour un achat à Dubaï.",
+            "title": "Bassin d’acheteurs futurs"
+          },
+          {
+            "text": "Comparez le point « Offre concurrente » avec des alternatives réellement comparables.",
+            "title": "Offre concurrente"
+          },
+          {
+            "text": "Confirmez le point « Frais et délai de revente » et son effet sur le coût, le calendrier ou les obligations de l’acheteur.",
+            "title": "Frais et délai de revente"
+          },
+          {
+            "text": "Intégrez le point « Prime payée aujourd’hui » à la décision avant de réserver, signer ou verser des fonds.",
+            "title": "Prime payée aujourd’hui"
+          }
+        ],
+        "title": "Ce qu’il faut vérifier",
+        "eyebrow": "Liste de vérification pour décider"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/fr/ai-answers/how-to-check-exit-strategy-dubai/",
+          "label": "Comment vérifier une stratégie de sortie ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-check-investment-logic-dubai/",
+          "label": "Comment vérifier la logique d’investissement ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-check-rental-demand-dubai/",
+          "label": "Comment vérifier la demande locative ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-estimate-rental-yield-safely-dubai/",
+          "label": "Comment estimer prudemment le rendement locatif ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-choose-area-for-capital-growth-dubai/",
+          "label": "Comment choisir une zone pour l’appréciation du capital ?"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages suivantes",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Testez la sortie avec un scénario prudent : profondeur du bassin d’acheteurs, offre concurrente, frais, liquidité et prime éventuelle à récupérer. L’étape suivante consiste à comparer la sortie probable avec des biens concurrents et un scénario de prix prudent.",
+          "question": "Comment vérifier le potentiel de revente ?"
+        },
+        {
+          "answer": "Commencez par le point « Bassin d’acheteurs futurs », puis vérifiez « Offre concurrente » et « Frais et délai de revente ». Utilisez des informations actuelles et adaptées au bien ou au projet concerné.",
+          "question": "Quels éléments faut-il vérifier en priorité pour un achat à Dubaï ?"
+        },
+        {
+          "answer": "Comparez le coût total, les modalités applicables et les compromis réels. Pour ce sujet, surveillez particulièrement les points « Offre concurrente » et « Prime payée aujourd’hui ».",
+          "question": "Quels coûts et quelles conditions faut-il comparer avant de décider ?"
+        },
+        {
+          "answer": "Les principaux signaux d’alerte sont « Public de revente trop étroit », « Nouvelle offre importante » et « Prime difficile à récupérer ». Si l’un de ces points reste incertain, ne traitez pas une hypothèse comme un fait confirmé.",
+          "question": "Quels risques doivent être confirmés dans les documents ou les données actuelles ?"
+        },
+        {
+          "answer": "Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent. Ensuite, comparez les alternatives pertinentes sur la même base avant de prendre une décision engageante.",
+          "question": "Quelle est la prochaine étape de vérification la plus utile ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions pour la recherche avec AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Utilisez cette page comme aide à la décision, puis vérifiez les informations susceptibles d’évoluer dans les documents officiels, les sources de première partie ou les données de marché actuelles avant de vous engager.",
+      "items": [
+        {
+          "label": "Contexte",
+          "value": "Dubaï"
+        },
+        {
+          "label": "Axe de vérification",
+          "value": "Bassin d’acheteurs futurs · Offre concurrente · Frais et délai de revente"
+        },
+        {
+          "label": "Sources à vérifier",
+          "value": "Documents officiels du projet ou du bien · sources de première partie · informations pertinentes des autorités ou registres"
+        },
+        {
+          "label": "Vérification actuelle",
+          "value": "Comparer la sortie probable avec des biens concurrents et un scénario de prix prudent."
+        },
+        {
+          "label": "Vérification des sources",
+          "value": "Revérifier avant de décider"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Notes de vérification",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "investment_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Demandez à Primadom AI d’appliquer cette réponse à votre situation pour un achat à Dubaï, en tenant compte de votre budget, de vos priorités et des éléments qui doivent encore être confirmés.",
+      "title": "Vous souhaitez vérifier votre cas avant de décider ?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Vérifier mon cas",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulaire de suivi de réponse AI",
+      "text": "Primadom AI appliquera cette réponse à votre situation pour un achat à Dubaï et préparera les principaux points à vérifier avant qu’un conseiller ne vous contacte.",
+      "title": "Vérifier cette réponse pour votre cas",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Je souhaite approfondir la vérification du potentiel de revente pour mon cas.",
+      "eyebrow": "Continuer avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "E-mail (facultatif)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI transforme les questions immobilières en vérifications, risques, pages suivantes et demandes prêtes à transmettre à un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Recherche axée sur la réponse, reliée aux décisions immobilières concrètes",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

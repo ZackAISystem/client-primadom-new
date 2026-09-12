@@ -1,0 +1,10 @@
+---
+title: "Biens immobiliers dans l’ensemble des EAU — AED 5M–10M"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-5m-10m"
+page_id: "page_budget_aed_5m_10m_fr"
+url: "/fr/budgets/aed-5m-10m/"
+build:
+  render: always
+  list: never
+---

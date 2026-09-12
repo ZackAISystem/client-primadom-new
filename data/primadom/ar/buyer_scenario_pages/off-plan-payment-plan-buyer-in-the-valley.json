@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_off_plan_payment_plan_buyer_the_valley_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/off-plan-payment-plan-buyer-in-the-valley/",
+  "canonical_url_path": "/ar/buyer-scenarios/off-plan-payment-plan-buyer-in-the-valley/",
+  "canonical_group_key": "scenario_district:off_plan_payment_plan_buyer:the-valley",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "the-valley",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/the-valley/",
+          "label": "The Valley"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/off-plan-payment-plan-buyer-in-the-valley/",
+          "label": "مشتري عقار على المخطط بخطة دفع في The Valley",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "خطة دفع لعقار على المخطط",
+        "The Valley",
+        "شقق · تاون هاوس",
+        "أقل من AED 5M",
+        "الدفع · التسليم · المستندات"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري عقار على المخطط بخطة دفع في The Valley",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري عقار على المخطط بخطة دفع في The Valley",
+      "subtitle": "قارن الخيارات في The Valley مع التركيز على جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري عقار على المخطط بخطة دفع في The Valley",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في The Valley وفق جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت",
+        "تحقق من جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في شراء على المخطط بخطة دفع؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري عقار على المخطط بخطة دفع في The Valley",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري عقار على المخطط بخطة دفع في The Valley",
+      "placeholder": "قارن خيارات مشتري عقار على المخطط بخطة دفع في The Valley",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "على المخطط",
+        "The Valley",
+        "خطة الدفع",
+        "التوقيت · المستندات",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري عقار على المخطط بخطة دفع في The Valley</strong>، ركّز على جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت بدل الاعتماد على عامل واحد فقط. تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري عقار على المخطط بخطة دفع في The Valley، ركّز على جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت بدل الاعتماد على عامل واحد فقط. تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري عقار على المخطط بخطة دفع"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "شراء بدفعات مرحلية"
+        },
+        {
+          "label": "الموقع",
+          "value": "The Valley"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق · تاون هاوس"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "حتى AED 5M"
+        },
+        {
+          "label": "محور القرار",
+          "value": "الدفعات · التسليم · الشروط"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "مقارنة العقارات على المخطط"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "تحقق من شروط المشروع"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار شراء على المخطط بخطة دفع اعتمادًا على عامل واحد مع تجاهل جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت.",
+          "المشترون الذين لا يريدون مراجعة جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل التركيز على القسط الأول فقط أو عدم مواءمة الدفعات اللاحقة مع توقيت التسليم والسيولة."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط في The Valley.",
+          "المشترون الذين يريدون مقارنة جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في The Valley، قارن الخيارات وفق جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "مراحل الدفع",
+          "توقيت التسليم",
+          "شروط المشروع",
+          "التدفق النقدي",
+          "هامش زمني"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في The Valley، قيّم المنطقة وفق مدى دعمها لـ تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "The Valley"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت في الموقع والتوقيت قبل تضييق الاختيار.",
+            "title": "الموقع والتوقيت"
+          },
+          {
+            "text": "وحّد بين توقيت التسليم ومراحل الدفع وسبب اختيار المنطقة قبل تضييق نطاق البحث.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق على المخطط"
+          },
+          {
+            "text": "قارن تاون هاوس على المخطط من حيث جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "تاون هاوس على المخطط"
+          },
+          {
+            "text": "قارن عقار في مرحلة مبكرة من حيث جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار في مرحلة مبكرة"
+          },
+          {
+            "text": "قارن عقار في مرحلة متقدمة من حيث جدول الدفع وموعد التسليم والمطور العقاري والعقار والموقع ومرونة التوقيت، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار في مرحلة متقدمة"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "اربط كل دفعة بتوقيتها، وأضف تكاليف الشراء ودفعة التسليم واترك هامشًا لتغير المواعيد.",
+          "title": "اختبر ملاءمة شراء على المخطط بخطة دفع",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في The Valley، قارن جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى التركيز على القسط الأول فقط أو عدم مواءمة الدفعات اللاحقة مع توقيت التسليم والسيولة.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في The Valley باستخدام المعايير نفسها: جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في The Valley، تشمل المخاطر الرئيسية التركيز على القسط الأول فقط أو عدم مواءمة الدفعات اللاحقة مع توقيت التسليم والسيولة. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "مراحل الدفع",
+          "التدفق النقدي",
+          "توقيت التسليم",
+          "ملاءمة العقار",
+          "مخاطر الاكتمال"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات شراء على المخطط بخطة دفع"
+          },
+          {
+            "text": "اربط كل دفعة بتوقيتها، وأضف تكاليف الشراء ودفعة التسليم واترك هامشًا لتغير المواعيد.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قيّم في The Valley نوع السكن والموقع وفق مزاياهما الفعلية حتى لا تصبح خطة الدفع هي السبب الرئيسي للشراء.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "اترك مرونة كافية لاحتمال ألا يتطابق موعد التسليم تمامًا مع جدول الانتقال أو التأجير أو التمويل المتوقع للمشتري.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/farm-grove-phase-2/",
+            "meta": "Emaar Properties · The Valley",
+            "label": "Farm Grove Phase 2"
+          },
+          {
+            "href": "/ar/projects/rivana-the-valley/",
+            "meta": "Emaar Properties · The Valley",
+            "label": "Rivana The Valley"
+          },
+          {
+            "href": "/ar/projects/elea-at-the-valley/",
+            "meta": "Emaar Properties · The Valley",
+            "label": "Elea at The Valley"
+          },
+          {
+            "href": "/ar/projects/velora-2/",
+            "meta": "Emaar Properties · The Valley",
+            "label": "Velora 2"
+          },
+          {
+            "href": "/ar/projects/venera/",
+            "meta": "Emaar Properties · The Valley",
+            "label": "Venera"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "اربط كل دفعة بتوقيتها، وأضف تكاليف الشراء ودفعة التسليم واترك هامشًا لتغير المواعيد. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "الدفعة الأولى",
+          "الأقساط",
+          "دفعة الاكتمال",
+          "تكاليف الشراء",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/first-time-buyer-needs-payment-plan-in-the-valley/",
+          "label": "مشتري لأول مرة يحتاج إلى خطة دفع في The Valley"
+        },
+        {
+          "href": "/ar/buyer-scenarios/low-down-payment-buyer-in-the-valley/",
+          "label": "مشتري يبحث عن دفعة أولى منخفضة في The Valley"
+        },
+        {
+          "href": "/ar/buyer-scenarios/ready-to-move-buyer/",
+          "label": "مشتري عقار جاهز للسكن"
+        },
+        {
+          "href": "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-the-valley/",
+          "label": "مشتري بميزانية أقل من AED 2M في The Valley"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في The Valley، ركّز على جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت. تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري عقار على المخطط بخطة دفع في The Valley؟"
+        },
+        {
+          "answer": "في The Valley، يناسب المشترين الذين يريدون تقييم عقار على المخطط عبر كامل جدول الدفع والتسليم لا الدفعة الأولى فقط ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري عقار على المخطط بخطة دفع في The Valley؟"
+        },
+        {
+          "answer": "في The Valley، تحقق من العقار المحدد وشروطه الحالية، ثم راجع جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في The Valley؟"
+        },
+        {
+          "answer": "في The Valley، اربط كل دفعة بتوقيتها، وأضف تكاليف الشراء ودفعة التسليم واترك هامشًا لتغير المواعيد. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في The Valley؟"
+        },
+        {
+          "answer": "في The Valley، تتمثل المخاطر الرئيسية في التركيز على القسط الأول فقط أو عدم مواءمة الدفعات اللاحقة مع توقيت التسليم والسيولة. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في The Valley؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري عقار على المخطط بخطة دفع في The Valley، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "جدول الدفع",
+          "value": "تحقق من كل مرحلة"
+        },
+        {
+          "label": "شروط المشروع",
+          "value": "راجع المستندات الحالية"
+        },
+        {
+          "label": "توقيت التسليم",
+          "value": "تحقق من الخطة الحالية"
+        },
+        {
+          "label": "ملاءمة العقار",
+          "value": "قيّمه بشكل منفصل"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري عقار على المخطط بخطة دفع في The Valley وفق جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مشتري عقار على المخطط بخطة دفع؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت أثناء مقارنة الخيارات في The Valley. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري عقار على المخطط بخطة دفع",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري عقار على المخطط بخطة دفع بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري عقار على المخطط بخطة دفع في The Valley مع وضع جدول الدفعات وتوقيت التسليم وشروط المشروع والمستندات ومخاطر تغير التوقيت والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري عقار على المخطط بخطة دفع بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

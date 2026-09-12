@@ -1,0 +1,10 @@
+---
+title: "Acheteur de maison de ville à moins de 5 M AED — Mirdif"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "townhouse-buyer-under-aed-5m-in-mirdif"
+page_id: "page_scenario_district_townhouse_buyer_under_aed_5m_mirdif_fr"
+url: "/fr/buyer-scenarios/townhouse-buyer-under-aed-5m-in-mirdif/"
+build:
+  render: always
+  list: never
+---

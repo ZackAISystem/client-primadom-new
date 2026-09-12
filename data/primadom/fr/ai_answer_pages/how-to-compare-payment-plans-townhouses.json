@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-compare-payment-plans__context__townhouses__fr",
+  "page_type_id": "ai_answer_page",
+  "language_code": "fr",
+  "url_path": "/fr/ai-answers/how-to-compare-payment-plans-townhouses/",
+  "canonical_url_path": "/fr/ai-answers/how-to-compare-payment-plans-townhouses/",
+  "canonical_group_key": "ai_answer:how-to-compare-payment-plans:context:townhouses",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-compare-payment-plans",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Vérifications",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risques",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navigation des réponses AI",
+      "cta_label": "Vérifier mon cas",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/fr/ai-answers/",
+          "label": "Réponses AI"
+        },
+        {
+          "key": "current",
+          "href": "/fr/ai-answers/how-to-compare-payment-plans-townhouses/",
+          "label": "Comment comparer des plans de paiement ? — Maisons de ville",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Maisons de ville",
+        "Calendrier complet des échéances",
+        "Prix total et éventuels écarts avec le marché",
+        "Lien entre paiements et avancement",
+        "Clauses de retard, défaut, annulation et remboursement"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Comment comparer des plans de paiement ? — Maisons de ville",
+      "subtitle": "Évaluez tout le calendrier de paiement, pas seulement le premier versement, et vérifiez le prix total, les échéances, les jalons et les conséquences d’un retard ou défaut. Appliquez ces critères pour l’achat d’une maison de ville et confirmez les éléments susceptibles d’évoluer avant de décider.",
+      "facts_aria": "Points clés de la réponse",
+      "section_id": "hero",
+      "visual_aria": "Visuel de décision immobilière : Comment comparer des plans de paiement ? — Maisons de ville",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Quels sont les points essentiels pour répondre à « Comment comparer des plans de paiement ? » pour l’achat d’une maison de ville ?",
+        "Quels risques dois-je comparer avant de décider pour l’achat d’une maison de ville ?",
+        "Quelles données actuelles dois-je confirmer pour mon cas ?"
+      ],
+      "ai_aria": "Poser une question complémentaire à Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Aidez-moi à répondre à « Comment comparer des plans de paiement ? » pour l’achat d’une maison de ville",
+      "placeholder": "Demander à AI : Comment comparer des plans de paiement ?",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Maisons de ville",
+        "Calendrier complet des échéances",
+        "Prix total et éventuels écarts avec le marché",
+        "Lien entre paiements et avancement",
+        "Clauses de retard, défaut, annulation et remboursement"
+      ],
+      "title": "Réponse directe",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Évaluez tout le calendrier de paiement, pas seulement le premier versement, et vérifiez le prix total, les échéances, les jalons et les conséquences d’un retard ou défaut.</strong> Appliquez cette analyse pour l’achat d’une maison de ville. L’étape suivante consiste à modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+      "body_text": "Évaluez tout le calendrier de paiement, pas seulement le premier versement, et vérifiez le prix total, les échéances, les jalons et les conséquences d’un retard ou défaut. Appliquez cette analyse pour l’achat d’une maison de ville. L’étape suivante consiste à modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Comment comparer des plans de paiement ? — Maisons de ville"
+        },
+        {
+          "label": "Contexte",
+          "value": "Maisons de ville"
+        },
+        {
+          "label": "Marché",
+          "value": "EAU"
+        },
+        {
+          "label": "Décision",
+          "value": "La comparaison de des plans de paiement"
+        },
+        {
+          "label": "Vérifications principales",
+          "value": "Calendrier complet des échéances · Prix total et éventuels écarts avec le marché · Lien entre paiements et avancement"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Premier versement trompeusement faible"
+        },
+        {
+          "label": "Meilleure prochaine étape",
+          "value": "Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat."
+        },
+        {
+          "label": "Vérification",
+          "value": "Vérification actuelle requise"
+        }
+      ],
+      "title": "Détails de la réponse",
+      "topic": "La comparaison de des plans de paiement",
+      "market": "EAU",
+      "context": "Maisons de ville",
+      "eyebrow": "Données clés",
+      "question": "Comment comparer des plans de paiement ? — Maisons de ville",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Le point « Premier versement trompeusement faible » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Premier versement trompeusement faible"
+          },
+          {
+            "text": "Le point « Refinancement futur non confirmé » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Refinancement futur non confirmé"
+          },
+          {
+            "text": "Le point « Échéances trop concentrées » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Échéances trop concentrées"
+          },
+          {
+            "text": "Une alternative comparable peut offrir un meilleur équilibre si le point « Conséquences contractuelles mal comprises » reste défavorable.",
+            "title": "La situation globale mérite un nouvel examen"
+          }
+        ],
+        "title": "Lorsque la réponse est « non »",
+        "eyebrow": "Nécessite davantage de vérifications"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Le point « Calendrier complet des échéances » est confirmé à partir d’informations actuelles et adaptées au cas.",
+            "title": "Calendrier complet des échéances"
+          },
+          {
+            "text": "Le point « Prix total et éventuels écarts avec le marché » a été comparé sur une base cohérente avec vos priorités et votre budget.",
+            "title": "Prix total et éventuels écarts avec le marché"
+          },
+          {
+            "text": "Le point « Lien entre paiements et avancement » est compris et documenté avant toute réservation ou signature.",
+            "title": "Lien entre paiements et avancement"
+          },
+          {
+            "text": "Après prise en compte des principaux risques et d’alternatives réalistes, l’analyse reste cohérente pour l’achat d’une maison de ville.",
+            "title": "La situation globale reste cohérente"
+          }
+        ],
+        "title": "Lorsque la réponse est « oui »",
+        "eyebrow": "Adapté"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Évaluez tout le calendrier de paiement, pas seulement le premier versement, et vérifiez le prix total, les échéances, les jalons et les conséquences d’un retard ou défaut. Ces critères doivent être appliqués pour l’achat d’une maison de ville.",
+          "title": "Calendrier complet des échéances · Prix total et éventuels écarts avec le marché · Lien entre paiements et avancement",
+          "eyebrow": "Ce qu’il faut vérifier"
+        },
+        {
+          "dark": false,
+          "text": "Le risque augmente lorsque plusieurs hypothèses importantes restent non confirmées ou que le coût total et les compromis ne sont pas comparés sur la même base.",
+          "title": "Premier versement trompeusement faible",
+          "eyebrow": "Risque"
+        },
+        {
+          "dark": false,
+          "text": "Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+          "title": "Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+          "eyebrow": "Étape suivante"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut transformer cette réponse en une liste de vérification adaptée à vos priorités, contraintes et éléments restant à confirmer.",
+          "title": "Vérifier votre cas précis",
+          "eyebrow": "Suivi avec AI"
+        }
+      ],
+      "cards_aria": "Conseils pour décider",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Soyez prudent si les points « Premier versement trompeusement faible », « Refinancement futur non confirmé » ou « Échéances trop concentrées » apparaissent dans votre cas. Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+        "tags": [
+          "Premier versement trompeusement faible",
+          "Refinancement futur non confirmé",
+          "Échéances trop concentrées",
+          "Conséquences contractuelles mal comprises",
+          "Premier versement trompeusement faible"
+        ],
+        "title": "Risques",
+        "eyebrow": "Soyez prudent si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Vérifiez le point « Calendrier complet des échéances » à partir de sources ou documents actuels pour l’achat d’une maison de ville.",
+            "title": "Calendrier complet des échéances"
+          },
+          {
+            "text": "Comparez le point « Prix total et éventuels écarts avec le marché » avec des alternatives réellement comparables.",
+            "title": "Prix total et éventuels écarts avec le marché"
+          },
+          {
+            "text": "Confirmez le point « Lien entre paiements et avancement » et son effet sur le coût, le calendrier ou les obligations de l’acheteur.",
+            "title": "Lien entre paiements et avancement"
+          },
+          {
+            "text": "Intégrez le point « Clauses de retard, défaut, annulation et remboursement » à la décision avant de réserver, signer ou verser des fonds.",
+            "title": "Clauses de retard, défaut, annulation et remboursement"
+          }
+        ],
+        "title": "Ce qu’il faut vérifier",
+        "eyebrow": "Liste de vérification pour décider"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/fr/ai-answers/how-to-check-low-down-payment-townhouses/",
+          "label": "Comment vérifier une offre avec faible apport initial ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-choose-payment-plan-townhouses/",
+          "label": "Comment choisir un plan de paiement ?"
+        },
+        {
+          "href": "/fr/ai-answers/is-payment-plan-safe-townhouses/",
+          "label": "Un plan de paiement est-il sûr ?"
+        },
+        {
+          "href": "/fr/ai-answers/what-can-go-wrong-with-payment-plan-townhouses/",
+          "label": "Quels problèmes peuvent survenir avec un plan de paiement ?"
+        },
+        {
+          "href": "/fr/ai-answers/what-is-a-good-payment-plan-townhouses/",
+          "label": "Qu’est-ce qu’un bon plan de paiement ?"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages suivantes",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Évaluez tout le calendrier de paiement, pas seulement le premier versement, et vérifiez le prix total, les échéances, les jalons et les conséquences d’un retard ou défaut. L’étape suivante consiste à modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat.",
+          "question": "Comment comparer des plans de paiement ?"
+        },
+        {
+          "answer": "Commencez par le point « Calendrier complet des échéances », puis vérifiez « Prix total et éventuels écarts avec le marché » et « Lien entre paiements et avancement ». Utilisez des informations actuelles et adaptées au bien ou au projet concerné.",
+          "question": "Quels éléments faut-il vérifier en priorité pour l’achat d’une maison de ville ?"
+        },
+        {
+          "answer": "Comparez le coût total, les modalités applicables et les compromis réels. Pour ce sujet, surveillez particulièrement les points « Prix total et éventuels écarts avec le marché » et « Clauses de retard, défaut, annulation et remboursement ».",
+          "question": "Quels coûts et quelles conditions faut-il comparer avant de décider ?"
+        },
+        {
+          "answer": "Les principaux signaux d’alerte sont « Premier versement trompeusement faible », « Refinancement futur non confirmé » et « Échéances trop concentrées ». Si l’un de ces points reste incertain, ne traitez pas une hypothèse comme un fait confirmé.",
+          "question": "Quels risques doivent être confirmés dans les documents ou les données actuelles ?"
+        },
+        {
+          "answer": "Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat. Ensuite, comparez les alternatives pertinentes sur la même base avant de prendre une décision engageante.",
+          "question": "Quelle est la prochaine étape de vérification la plus utile ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions pour la recherche avec AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Utilisez cette page comme aide à la décision, puis vérifiez les informations susceptibles d’évoluer dans les documents officiels, les sources de première partie ou les données de marché actuelles avant de vous engager.",
+      "items": [
+        {
+          "label": "Contexte",
+          "value": "Maisons de ville"
+        },
+        {
+          "label": "Axe de vérification",
+          "value": "Calendrier complet des échéances · Prix total et éventuels écarts avec le marché · Lien entre paiements et avancement"
+        },
+        {
+          "label": "Sources à vérifier",
+          "value": "Documents officiels du projet ou du bien · sources de première partie · informations pertinentes des autorités ou registres"
+        },
+        {
+          "label": "Vérification actuelle",
+          "value": "Modéliser l’ensemble des flux de trésorerie jusqu’à la livraison et après l’achat."
+        },
+        {
+          "label": "Vérification des sources",
+          "value": "Revérifier avant de décider"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Notes de vérification",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "project_terms",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Demandez à Primadom AI d’appliquer cette réponse à votre situation pour l’achat d’une maison de ville, en tenant compte de votre budget, de vos priorités et des éléments qui doivent encore être confirmés.",
+      "title": "Vous souhaitez vérifier votre cas avant de décider ?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Vérifier mon cas",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulaire de suivi de réponse AI",
+      "text": "Primadom AI appliquera cette réponse à votre situation pour l’achat d’une maison de ville et préparera les principaux points à vérifier avant qu’un conseiller ne vous contacte.",
+      "title": "Vérifier cette réponse pour votre cas",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Je souhaite approfondir la comparaison de des plans de paiement pour mon cas.",
+      "eyebrow": "Continuer avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "E-mail (facultatif)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI transforme les questions immobilières en vérifications, risques, pages suivantes et demandes prêtes à transmettre à un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Recherche axée sur la réponse, reliée aux décisions immobilières concrètes",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

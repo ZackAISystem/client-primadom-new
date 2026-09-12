@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_search_pattern_question_where_to_buy_budget_es",
+  "page_type_id": "ai_answer_page",
+  "language_code": "es",
+  "url_path": "/es/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+  "canonical_url_path": "/es/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+  "canonical_group_key": "search_pattern:question_where_to_buy_budget",
+  "primary_entity_type": null,
+  "primary_entity_slug": null,
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Comprobaciones",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Riesgos",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navegación de respuestas de AI",
+      "cta_label": "Revisar mi caso",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/es/ai-answers/",
+          "label": "Respuestas de AI"
+        },
+        {
+          "key": "current",
+          "href": "/es/ai-answers/where-should-i-buy-property-in-dubai-with-aed-2m/",
+          "label": "¿Dónde debería comprar una propiedad en Dubái con AED 2M?",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Dubái",
+        "Adecuación de la zona",
+        "Estilo de vida",
+        "Elección de propiedad",
+        "Comparar zonas"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "¿Dónde debería comprar una propiedad en Dubái con AED 2M?",
+      "subtitle": "Explora zonas y opciones de propiedad en Dubái alrededor de AED 2M, prestando atención a ubicación, tipo de propiedad, compromisos y alternativas que conviene comprobar dentro de ese rango.",
+      "facts_aria": "Puntos clave de la respuesta",
+      "section_id": "hero",
+      "visual_aria": "Visual de decisión inmobiliaria para ¿Dónde debería comprar una propiedad en Dubái con AED 2M?",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Muéstrame qué zonas de Dubái encajan con un presupuesto de AED 2M",
+        "Ayúdame a comparar tipo de propiedad, ubicación y coste total",
+        "Explícame los principales compromisos con un presupuesto de AED 2M"
+      ],
+      "ai_aria": "Hacer una pregunta de seguimiento a Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Compara zonas inmobiliarias de Dubái con un presupuesto de AED 2M",
+      "placeholder": "Compara zonas inmobiliarias de Dubái con un presupuesto de AED 2M",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Presupuesto de AED 2M",
+        "Dubái",
+        "Zonas de Dubái",
+        "Tipo de propiedad",
+        "Precios actuales"
+      ],
+      "title": "Respuesta directa",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Un presupuesto de AED 2M en Dubái puede abrir varias opciones de propiedades y ubicaciones, pero la oferta disponible cambia.</strong> Para una compra en Dubái, compara zonas, tipos de propiedad, tamaños de unidad, coste total de adquisición, estructuras de pago y si la prioridad es uso propio, ingresos o flexibilidad de reventa. Utiliza inventario y precios actuales antes de considerar cualquier zona como la mejor opción.",
+      "body_text": "Un presupuesto de AED 2M en Dubái puede abrir varias opciones de propiedades y ubicaciones, pero la oferta disponible cambia. Para una compra en Dubái, compara zonas, tipos de propiedad, tamaños de unidad, coste total de adquisición, estructuras de pago y si la prioridad es uso propio, ingresos o flexibilidad de reventa. Utiliza inventario y precios actuales antes de considerar cualquier zona como la mejor opción.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Pregunta",
+          "value": "¿Dónde debería comprar una propiedad en Dubái con AED 2M?"
+        },
+        {
+          "label": "Contexto",
+          "value": "Dubái"
+        },
+        {
+          "label": "Mercado",
+          "value": "Dubái / EAU"
+        },
+        {
+          "label": "Decisión",
+          "value": "Las opciones actuales determinan la selección"
+        },
+        {
+          "label": "Comprobaciones principales",
+          "value": "Zonas de Dubái · Tipo de propiedad · Precios actuales"
+        },
+        {
+          "label": "Riesgo principal",
+          "value": "Precios actuales · compromisos del presupuesto"
+        },
+        {
+          "label": "Mejor siguiente paso",
+          "value": "Comprobar opciones actuales en Dubái"
+        },
+        {
+          "label": "Verificación",
+          "value": "Requiere una comprobación de precios actuales"
+        }
+      ],
+      "title": "Detalles de la respuesta",
+      "topic": "Presupuesto de AED 2M en Dubái",
+      "market": "Dubái / EAU",
+      "context": "Dubái",
+      "eyebrow": "Datos clave",
+      "question": "¿Dónde debería comprar una propiedad en Dubái con AED 2M?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Todo el presupuesto de AED 2M se destina al precio de compra, sin margen para tasas ni gastos prácticos de puesta a punto.",
+            "title": "El presupuesto ignora los costes de la operación"
+          },
+          {
+            "text": "Siguen entrando demasiadas zonas y tipos de propiedad como para comparar las opciones de forma útil.",
+            "title": "La búsqueda es demasiado amplia"
+          },
+          {
+            "text": "Propiedades que ya no están disponibles o cuyo precio ya no es correcto están influyendo en la decisión sobre la ubicación.",
+            "title": "La selección se basa en anuncios desactualizados"
+          },
+          {
+            "text": "Para una compra en Dubái, revisa la selección de AED 2M si siguen sin confirmarse supuestos clave o aparece una alternativa más sólida.",
+            "title": "El conjunto necesita otra revisión"
+          }
+        ],
+        "title": "Cuando la respuesta es «no»",
+        "eyebrow": "Requiere más comprobaciones"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "El precio de la propiedad, las tasas, el amueblamiento y la financiación encajan con margen suficiente dentro del capital disponible.",
+            "title": "La selección se mantiene dentro del presupuesto total"
+          },
+          {
+            "text": "Las ubicaciones se eligen por prioridades reales de estilo de vida o inversión, no solo porque entren en el precio.",
+            "title": "Las zonas encajan con el objetivo del comprador"
+          },
+          {
+            "text": "Hay suficiente inventario actual para comparar calidad, ubicación y estructura de pagos sin forzar un compromiso.",
+            "title": "Las opciones actuales ofrecen suficiente variedad"
+          },
+          {
+            "text": "Para una compra en Dubái, la selección de AED 2M sigue siendo sólida después de considerar los principales riesgos y alternativas realistas.",
+            "title": "El conjunto sigue funcionando"
+          }
+        ],
+        "title": "Cuando la respuesta es «sí»",
+        "eyebrow": "Adecuado"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Para una compra en Dubái, compara zonas, tipos de propiedad, tamaños de unidad, coste total de adquisición, estructuras de pago y si la prioridad es uso propio, ingresos o flexibilidad de reventa.",
+          "title": "Zonas de Dubái · Tipo de propiedad · Precios actuales",
+          "eyebrow": "Qué comprobar"
+        },
+        {
+          "dark": false,
+          "text": "El riesgo aumenta cuando el presupuesto ignora los costes de la operación, la búsqueda es demasiado amplia o la selección se basa en anuncios desactualizados.",
+          "title": "Selección con AED 2M",
+          "eyebrow": "Riesgo"
+        },
+        {
+          "dark": false,
+          "text": "Utiliza inventario y precios actuales antes de considerar cualquier zona como la mejor opción.",
+          "title": "Comprobar opciones actuales en Dubái",
+          "eyebrow": "Siguiente paso"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede convertir esta respuesta en una lista de comprobación adaptada a tus prioridades, restricciones y puntos pendientes de confirmar.",
+          "title": "Revisar mi caso",
+          "eyebrow": "Continuar con AI"
+        }
+      ],
+      "cards_aria": "Orientación para la decisión",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "El riesgo aumenta cuando el presupuesto ignora los costes de la operación, la búsqueda es demasiado amplia o la selección se basa en anuncios desactualizados. Para una compra en Dubái, utiliza inventario y precios actuales antes de considerar cualquier zona como la mejor opción.",
+        "tags": [
+          "Límite de presupuesto",
+          "Elección de zona",
+          "Tipo de propiedad",
+          "Profundidad del inventario",
+          "Selección con AED 2M"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Ten cuidado si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Para una compra en Dubái, reserva margen para los gastos de la operación y otros costes de compra, en lugar de destinar los AED 2M completos solo al precio anunciado de la propiedad.",
+            "title": "Proteger el límite total de AED 2M"
+          },
+          {
+            "text": "Compara ubicaciones de Dubái donde el presupuesto permita adquirir una propiedad adecuada sin depender de descuentos poco realistas o precios iniciales que ya no estén disponibles.",
+            "title": "Elegir zonas que encajen con el presupuesto"
+          },
+          {
+            "text": "Contrasta apartamentos, casas adosadas y otros formatos realistas según espacio, ubicación y uso previsto, en lugar de forzar un único tipo de propiedad dentro del presupuesto.",
+            "title": "Comparar los compromisos entre tipos de propiedad"
+          },
+          {
+            "text": "Confirma que realmente existen unidades adecuadas cerca del precio objetivo antes de construir la selección final alrededor de un proyecto o una zona.",
+            "title": "Comprobar inventario actual antes de acotar"
+          }
+        ],
+        "title": "Qué comprobar",
+        "eyebrow": "Lista de comprobación para decidir"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/es/ai-answers/how-to-buy-with-limited-budget-dubai/",
+          "label": "¿Cómo comprar con un presupuesto limitado?"
+        },
+        {
+          "href": "/es/ai-answers/can-i-get-mortgage-dubai/",
+          "label": "¿Puedo obtener una hipoteca?"
+        },
+        {
+          "href": "/es/ai-answers/what-can-go-wrong-with-payment-plan-dubai/",
+          "label": "¿Qué puede salir mal con un plan de pago?"
+        },
+        {
+          "href": "/es/ai-answers/is-dubai-property-tax-free-dubai/",
+          "label": "¿La propiedad en Dubái está libre de impuestos?"
+        },
+        {
+          "href": "/es/ai-answers/how-to-avoid-overpaying-dubai/",
+          "label": "¿Cómo evitar pagar de más?"
+        }
+      ],
+      "title": "Seguir explorando",
+      "eyebrow": "Siguientes páginas",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Un presupuesto de AED 2M en Dubái puede abrir varias opciones de propiedades y ubicaciones, pero la oferta disponible cambia. Para una compra en Dubái, reserva margen para los gastos de la operación y otros costes de compra, en lugar de destinar los AED 2M completos solo al precio anunciado de la propiedad.",
+          "question": "¿Dónde debería comprar una propiedad en Dubái con AED 2M?"
+        },
+        {
+          "answer": "Un presupuesto limitado funciona mejor cuando los compromisos se eligen de forma deliberada. Compara con criterios equivalentes el tamaño de la unidad, la ubicación, el estado, el calendario de pagos y lo que incluye cada opción antes de concluir que una ofrece un mejor precio de entrada.",
+          "question": "¿Cómo comprar con un presupuesto limitado?"
+        },
+        {
+          "answer": "Una hipoteca puede ser posible, pero la elegibilidad depende tanto del comprador como de la propiedad. Confirma que la propiedad concreta, el estado del proyecto y la valoración permiten la vía hipotecaria que se está considerando.",
+          "question": "¿Puedo obtener una hipoteca?"
+        },
+        {
+          "answer": "Un plan de pago puede fallar cuando las cuotas posteriores, el calendario del proyecto o el flujo de caja del comprador no encajan. Revisa las consecuencias por retraso, cancelación, cesión y otras cláusulas contractuales antes de considerar que un pago inicial bajo implica poco riesgo.",
+          "question": "¿Qué puede salir mal con un plan de pago?"
+        },
+        {
+          "answer": "Tener una propiedad en Dubái no equivale a no tener impuestos, tasas u otras obligaciones financieras. Una frase comercial no sustituye una revisión adecuada de los costes de la operación y de las obligaciones específicas del comprador. Confirma el tratamiento vigente con fuentes oficiales y profesionales antes de basarte en un resultado fiscal.",
+          "question": "¿La propiedad en Dubái está libre de impuestos?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas para búsqueda con AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "El precio y el valor deben evaluarse frente a alternativas comparables, el coste total de compra y los compromisos asociados a la propiedad. Vuelve a comprobar comparables actuales y los datos de costes de la operación antes de basarte en un precio anunciado, un descuento o una estimación del coste de entrada.",
+      "items": [
+        {
+          "label": "Contexto",
+          "value": "Dubái / EAU"
+        },
+        {
+          "label": "Enfoque de verificación",
+          "value": "Zonas de Dubái · Tipo de propiedad · Precios actuales"
+        },
+        {
+          "label": "Fuentes que comprobar",
+          "value": "Comparables actuales · datos de costes de la operación"
+        },
+        {
+          "label": "Comprobación actual",
+          "value": "Precios comparables y costes de compra actuales"
+        },
+        {
+          "label": "Revisión de fuentes",
+          "value": "Volver a comprobar antes de decidir"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Notas de verificación",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "pricing_value",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Pide a Primadom AI que convierta un presupuesto de AED 2M en Dubái en una selección práctica, comparando zonas, tipos de propiedad, opciones de proyectos, coste total de compra y los compromisos que importan para tu objetivo.",
+      "title": "¿Quieres convertir tu presupuesto de AED 2M en una selección concreta?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Obtener una selección por presupuesto",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulario de seguimiento de una respuesta de AI",
+      "text": "Primadom AI aplicará esta respuesta a tu búsqueda en Dubái con AED 2M, centrándose en opciones de propiedad adecuadas, el coste total de compra y los compromisos entre ellas.",
+      "title": "Convertir mi presupuesto de AED 2M en una selección",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Encontrar opciones de propiedad que encajen con mi presupuesto de AED 2M.",
+      "eyebrow": "Continuar con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Email (opcional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI convierte preguntas sobre propiedades en comprobaciones, riesgos, siguientes páginas y solicitudes listas para un asesor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Búsqueda con respuesta directa, conectada con decisiones inmobiliarias reales",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

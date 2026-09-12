@@ -13,6 +13,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $originBuyerData = index $zhData "origin_buyer_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $originBuyerData = index $esData "origin_buyer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $originBuyerData = index $frData "origin_buyer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $originBuyerData = index $deData "origin_buyer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $originBuyerData = index $arData "origin_buyer_pages" -}}
+{{- end -}}
 {{- $page := index $originBuyerData $slug -}}
 
 {{- if not $page -}}

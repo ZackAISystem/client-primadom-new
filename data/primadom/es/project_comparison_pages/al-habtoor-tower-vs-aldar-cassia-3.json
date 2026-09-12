@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_al_habtoor_tower_vs_aldar_cassia_3_es",
+  "page_type_id": "project_comparison_page",
+  "language_code": "es",
+  "url_path": "/es/compare-projects/al-habtoor-tower-vs-aldar-cassia-3/",
+  "canonical_url_path": "/es/compare-projects/al-habtoor-tower-vs-aldar-cassia-3/",
+  "canonical_group_key": "project_comparison:al-habtoor-tower:vs:aldar-cassia-3",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "al-habtoor-tower",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Comparar con mi caso",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Resumen",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Proyectos"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Comparar"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Preguntar a AI"
+        }
+      ],
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navegación de comparación de proyectos",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/es/compare-projects/",
+          "label": "Comparaciones de proyectos"
+        },
+        {
+          "key": "comparison",
+          "href": "/es/compare-projects/al-habtoor-tower-vs-aldar-cassia-3/",
+          "label": "Al Habtoor Tower vs Aldar Cassia 3",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Proyecto A: Al Habtoor Tower",
+        "Proyecto B: Aldar Cassia 3",
+        "Comparación en Business Bay",
+        "Al Habtoor Group vs Aldar Properties PJSC",
+        "Contexto de desarrollador y producto"
+      ],
+      "title": "Al Habtoor Tower vs Aldar Cassia 3",
+      "subtitle": "Una comparación en Business Bay centrada en el tipo de propiedad, el rango de dormitorios y la adecuación al comprador.",
+      "project_a": {
+        "name": "Al Habtoor Tower",
+        "slug": "al-habtoor-tower",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Aldar Cassia 3",
+        "slug": "aldar-cassia-3",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Contexto clave de Al Habtoor Tower y Aldar Cassia 3",
+      "section_id": "overview",
+      "visual_aria": "Comparación visual de Al Habtoor Tower y Aldar Cassia 3",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Pregunta por el precio, la combinación de unidades, la entrega o la adecuación al comprador.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Al Habtoor Tower o Aldar Cassia 3: ¿cuál encaja mejor?",
+        "Compara precio, unidades y entrega",
+        "¿Qué debo verificar antes de decidir?"
+      ],
+      "title": "Compara Al Habtoor Tower y Aldar Cassia 3",
+      "ai_aria": "Pide a Primadom AI que compare Al Habtoor Tower y Aldar Cassia 3",
+      "eyebrow": "Preguntar a AI",
+      "prompts": [
+        "Compara Al Habtoor Tower y Aldar Cassia 3 según mi objetivo de compra. Revisa el contexto de precios disponible, los tipos de propiedad, el rango de dormitorios y la entrega, e indica claramente cualquier dato que requiera una comprobación vigente.",
+        "Compara Al Habtoor Tower y Aldar Cassia 3 por precio inicial, tipos de unidad, rango de dormitorios y entrega prevista. Identifica claramente la información que falte o no esté verificada.",
+        "¿Qué debe verificar un comprador antes de elegir entre Al Habtoor Tower y Aldar Cassia 3? Incluye precios actuales, disponibilidad, condiciones de pago, estado de la entrega y adecuación al objetivo del comprador."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Preguntar a AI",
+      "input_aria": "Pregunta de comparación de proyectos con AI",
+      "section_id": "compare-ai-search",
+      "voice_text": "Pregunta por esta comparación de proyectos",
+      "placeholder": "Pide a AI que compare estos dos proyectos",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "button_label": "Preguntar",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "ai_voice_text": "Compara Al Habtoor Tower y Aldar Cassia 3 según mi objetivo de compra",
+      "ai_placeholder": "Pide a AI que compare estos dos proyectos",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Escuchando…",
+      "form_aria_label": "Pide a Primadom AI que compare Al Habtoor Tower y Aldar Cassia 3",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "submit_aria_label": "Preguntar a Primadom AI",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Misma zona",
+        "Desarrolladores diferentes",
+        "Un precio registrado",
+        "Entregas registradas diferentes"
+      ],
+      "title": "Recomendación rápida",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Al Habtoor Tower</strong> puede encajar mejor con compradores que priorizan un entorno frente al agua, mientras que <strong>Aldar Cassia 3</strong> puede ser más adecuado para quienes buscan una comunidad verde. <strong>Al Habtoor Tower</strong> registra apartamentos de 1 a 3 dormitorios, con precio inicial desde AED 2.4M y entrega registrada para 2026; <strong>Aldar Cassia 3</strong> registra villas de 3 a 5 dormitorios, con el precio actual por comprobar y entrega registrada para 2029.",
+      "body_text": "Al Habtoor Tower puede encajar mejor con compradores que priorizan un entorno frente al agua, mientras que Aldar Cassia 3 puede ser más adecuado para quienes buscan una comunidad verde. Al Habtoor Tower registra apartamentos de 1 a 3 dormitorios, con precio inicial desde AED 2.4M y entrega registrada para 2026; Aldar Cassia 3 registra villas de 3 a 5 dormitorios, con el precio actual por comprobar y entrega registrada para 2029.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Proyecto A",
+          "value": "Al Habtoor Tower"
+        },
+        {
+          "label": "Proyecto B",
+          "value": "Aldar Cassia 3"
+        },
+        {
+          "label": "Contexto de la zona",
+          "value": "Ambos en Business Bay"
+        },
+        {
+          "label": "Contexto del desarrollador",
+          "value": "Al Habtoor Group vs Aldar Properties PJSC"
+        },
+        {
+          "label": "Precio inicial",
+          "value": "Desde AED 2.4M vs Comprobar precio actual"
+        },
+        {
+          "label": "Tipos de propiedad",
+          "value": "apartamentos vs villas"
+        },
+        {
+          "label": "Dormitorios",
+          "value": "1–3 dorm. vs 3–5 dorm."
+        },
+        {
+          "label": "Entrega",
+          "value": "2026 vs 2029"
+        }
+      ],
+      "title": "Detalles de la comparación",
+      "eyebrow": "Datos clave",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Al Habtoor Tower",
+          "slug": "al-habtoor-tower",
+          "text": "Al Habtoor Tower se orienta a un estilo de vida frente al agua en Business Bay, con Al Habtoor Group como desarrollador registrado. Registra apartamentos de 1 a 3 dormitorios. El precio inicial registrado parte de AED 2.4M. La entrega figura registrada para 2026; conviene confirmar el estado actual. Su perfil actual de adecuación apunta a compradores que planean usar la propiedad como residencia principal.",
+          "points": [
+            "Business Bay · Por Al Habtoor Group",
+            "apartamentos · 1–3 dorm.",
+            "Desde AED 2.4M · Entrega 2026"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Aldar Cassia 3",
+          "slug": "aldar-cassia-3",
+          "text": "Aldar Cassia 3 se orienta a la vida en una comunidad verde en Business Bay, con Aldar Properties PJSC como desarrollador registrado. Registra villas de 3 a 5 dormitorios. El precio actual requiere una comprobación vigente. La entrega está registrada para 2029. Su perfil actual de adecuación apunta a compradores que planean usar la propiedad como residencia principal.",
+          "points": [
+            "Business Bay · Por Aldar Properties PJSC",
+            "villas · 3–5 dorm.",
+            "Comprobar precio actual · Entrega 2029"
+          ]
+        }
+      ],
+      "title": "Resumen de los proyectos",
+      "eyebrow": "De un vistazo",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Ambos proyectos están en Business Bay, por lo que la ubicación general no es el principal factor diferenciador. Los proyectos están vinculados a desarrolladores distintos, Al Habtoor Group y Aldar Properties PJSC, por lo que la entrega, el servicio y el posicionamiento deben revisarse por separado. Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M, mientras que Aldar Cassia 3 requiere comprobar el precio actual. Al Habtoor Tower registra apartamentos, mientras que Aldar Cassia 3 registra villas. La entrega registrada es 2026 para Al Habtoor Tower y 2029 para Aldar Cassia 3. Confirma el estado actual de cualquier proyecto cuya fecha ya haya pasado.",
+        "tags": [
+          "Misma zona",
+          "Desarrolladores diferentes",
+          "Un precio registrado",
+          "Combinación de propiedades diferente",
+          "Disponibilidad actual por comprobar"
+        ],
+        "title": "Lógica a nivel de proyecto",
+        "eyebrow": "Cómo comparar"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Factor",
+        "project_a": "Al Habtoor Tower",
+        "project_b": "Aldar Cassia 3"
+      },
+      "rows": [
+        {
+          "factor": "Precio inicial",
+          "project_a": "Desde AED 2.4M",
+          "project_b": "Comprobar precio actual"
+        },
+        {
+          "factor": "Ubicación",
+          "project_a": "Business Bay",
+          "project_b": "Business Bay"
+        },
+        {
+          "factor": "Desarrollador",
+          "project_a": "Al Habtoor Group",
+          "project_b": "Aldar Properties PJSC"
+        },
+        {
+          "factor": "Tipos de propiedad",
+          "project_a": "apartamentos",
+          "project_b": "villas"
+        },
+        {
+          "factor": "Dormitorios",
+          "project_a": "1–3 dorm.",
+          "project_b": "3–5 dorm."
+        },
+        {
+          "factor": "Entrega",
+          "project_a": "2026",
+          "project_b": "2029"
+        },
+        {
+          "factor": "Perfil del proyecto",
+          "project_a": "Orientado a un entorno frente al agua",
+          "project_b": "Vida en una comunidad verde"
+        }
+      ],
+      "title": "Tabla comparativa de proyectos",
+      "eyebrow": "Al Habtoor Tower vs Aldar Cassia 3",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M. Confirma el precio actual de Aldar Cassia 3 y compara unidades equivalentes.",
+          "title": "Un precio requiere confirmación",
+          "eyebrow": "Precio y unidades",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Ambos proyectos están en Business Bay. Compara el acceso, la microubicación, la oferta cercana y la comodidad para el uso diario.",
+          "title": "Misma zona; compara la microubicación",
+          "eyebrow": "Adecuación de la ubicación",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "La entrega registrada es 2026 para Al Habtoor Tower y 2029 para Aldar Cassia 3. Compara cómo encaja cada calendario con tu mudanza o uso de inversión.",
+          "title": "Las fechas de entrega cambian la decisión",
+          "eyebrow": "Calendario",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Pide a Primadom AI que compare Al Habtoor Tower y Aldar Cassia 3 por tipo de unidad, precio registrado, ubicación, entrega y uso previsto, y que prepare las preguntas principales para un asesor.",
+          "title": "Compara según tu objetivo",
+          "eyebrow": "Preguntar a AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Notas para decidir entre proyectos"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Para quién es adecuado cada proyecto",
+        "eyebrow": "Adecuación al comprador",
+        "project_a_items": [
+          "Tiene un precio inicial registrado desde AED 2.4M, que sirve como referencia sujeta a comprobación vigente.",
+          "Prefieres un entorno frente al agua en Business Bay para el uso que tienes previsto.",
+          "Buscas apartamentos de 1 a 3 dormitorios y una entrega registrada para 2026."
+        ],
+        "project_a_title": "Elige Al Habtoor Tower si",
+        "project_b_items": [
+          "Estás dispuesto a confirmar el precio inicial actual antes de comparar el valor.",
+          "Prefieres una comunidad verde en Business Bay para el uso que tienes previsto.",
+          "Buscas villas de 3 a 5 dormitorios y una entrega registrada para 2029."
+        ],
+        "project_b_title": "Elige Aldar Cassia 3 si"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Al comparar Al Habtoor Tower y Aldar Cassia 3, Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M, mientras que Aldar Cassia 3 requiere comprobar el precio actual. Ambos proyectos están en Business Bay, por lo que la ubicación general no es el principal factor diferenciador. Al Habtoor Tower registra apartamentos, mientras que Aldar Cassia 3 registra villas. La entrega registrada es 2026 para Al Habtoor Tower y 2029 para Aldar Cassia 3. Confirma el estado actual de cualquier proyecto cuya fecha ya haya pasado.",
+        "tags": [
+          "Un precio registrado",
+          "Misma zona",
+          "Combinación de unidades registrada",
+          "Entregas registradas diferentes",
+          "Comprobación del coste total"
+        ],
+        "title": "Lógica de inversión",
+        "eyebrow": "Lógica de decisión"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/es/compare-projects/15-northside-vs-al-habtoor-tower/",
+            "meta": "Proyecto compartido",
+            "label": "15 Northside vs Al Habtoor Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/es/compare-projects/15-northside-vs-aldar-cassia-3/",
+            "meta": "Proyecto compartido",
+            "label": "15 Northside vs Aldar Cassia 3",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/es/compare-projects/77-shades-vs-al-habtoor-tower/",
+            "meta": "Proyecto compartido",
+            "label": "77 Shades vs Al Habtoor Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/es/compare-projects/77-shades-vs-aldar-cassia-3/",
+            "meta": "Proyecto compartido",
+            "label": "77 Shades vs Aldar Cassia 3",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Más comparaciones de proyectos",
+        "eyebrow": "Seguir explorando"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/es/projects/al-habtoor-tower/",
+            "meta": "Proyecto A",
+            "label": "Página del proyecto Al Habtoor Tower",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/es/projects/aldar-cassia-3/",
+            "meta": "Proyecto B",
+            "label": "Página del proyecto Aldar Cassia 3",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/es/areas/business-bay/",
+            "meta": "Zona",
+            "label": "Guía de la zona de Business Bay",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Abrir las páginas de los proyectos",
+        "eyebrow": "Páginas de los proyectos"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Comparte estos datos para comparar Al Habtoor Tower y Aldar Cassia 3 con las mismas prioridades. La información registrada puede ayudar a acotar la selección, pero las unidades concretas, los precios vigentes y la disponibilidad deben comprobarse.",
+      "items": [
+        {
+          "meta": "Rango en AED o precio máximo de entrada",
+          "label": "Rango de precios"
+        },
+        {
+          "meta": "apartamentos / villas",
+          "label": "Tipo de unidad"
+        },
+        {
+          "meta": "vivienda habitual / segunda residencia / inversión frente al agua",
+          "label": "Objetivo del comprador"
+        },
+        {
+          "meta": "calendario preferido en torno a 2026–2029",
+          "label": "Calendario"
+        },
+        {
+          "meta": "vistas / privacidad / acceso al agua",
+          "label": "Preferencia principal"
+        }
+      ],
+      "title": "Datos para comparación con AI",
+      "eyebrow": "Datos útiles",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Al comparar Al Habtoor Tower y Aldar Cassia 3, no hay un ganador universal: la mejor opción depende del uso previsto y de la unidad concreta. Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M, mientras que Aldar Cassia 3 requiere comprobar el precio actual. Al Habtoor Tower registra apartamentos, mientras que Aldar Cassia 3 registra villas. La entrega registrada es 2026 para Al Habtoor Tower y 2029 para Aldar Cassia 3. Confirma el estado actual de cualquier proyecto cuya fecha ya haya pasado.",
+          "question": "¿Qué proyecto puede adaptarse mejor a mi caso: Al Habtoor Tower o Aldar Cassia 3?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M. Aldar Cassia 3 no tiene un precio utilizable en el registro actual, por lo que requiere una comprobación vigente.",
+          "question": "¿Qué proyecto tiene el precio inicial registrado más bajo?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Ambos proyectos están en Business Bay. Al Habtoor Tower está vinculado a Al Habtoor Group, mientras que Aldar Cassia 3 está vinculado a Aldar Properties PJSC.",
+          "question": "¿En qué se diferencian Al Habtoor Tower y Aldar Cassia 3 en ubicación y desarrollador?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Al Habtoor Tower registra apartamentos de 1 a 3 dormitorios; la entrega figura registrada para 2026. Aldar Cassia 3 registra villas de 3 a 5 dormitorios; la entrega figura registrada para 2029.",
+          "question": "¿Qué tipos de propiedad, rangos de dormitorios y fechas de entrega están registrados?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "La selección final entre Al Habtoor Tower y Aldar Cassia 3 debe basarse en la unidad concreta, el precio vigente, las condiciones de pago, el coste total de adquisición, la distribución, las vistas, el estado del proyecto, la entrega y la disponibilidad. Los datos registrados sirven para acotar opciones, pero no sustituyen una comprobación vigente a nivel de unidad.",
+          "question": "¿Qué debo verificar antes de elegir entre Al Habtoor Tower y Aldar Cassia 3?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas sobre proyectos",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Usa esta página como punto de partida para comparar Al Habtoor Tower y Aldar Cassia 3. Los datos registrados pueden cambiar y no sustituyen los documentos actuales del desarrollador ni los registros públicos. Confirma los precios vigentes, las unidades disponibles, las condiciones de pago, los planos, los gastos de comunidad, los detalles de entrega y el estado del proyecto antes de tomar una decisión.",
+      "items": [
+        {
+          "label": "Precio / disponibilidad",
+          "value": "Requiere comprobación vigente"
+        },
+        {
+          "label": "Condiciones de pago",
+          "value": "Revisar documentos actuales"
+        },
+        {
+          "label": "Entrega / estado",
+          "value": "Confirmar el estado actual"
+        },
+        {
+          "label": "Contenido actualizado",
+          "value": "julio de 2026"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Verificación",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Ambos están en Business Bay, con Al Habtoor Group y Aldar Properties PJSC como desarrolladores registrados. Al Habtoor Tower tiene un precio inicial registrado desde AED 2.4M, mientras que Aldar Cassia 3 requiere comprobar el precio actual. La entrega registrada es 2026 para Al Habtoor Tower y 2029 para Aldar Cassia 3. Confirma el estado actual de cualquier proyecto cuya fecha ya haya pasado.",
+      "title": "¿Quieres comparar Al Habtoor Tower y Aldar Cassia 3 para tu caso?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Preguntar a Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Comparar con mi caso",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta para comparar proyectos",
+      "text": "Comparte tus preferencias y datos de contacto. Primadom AI preparará una comparación centrada en tu caso antes de que un asesor se ponga en contacto contigo.",
+      "error": "Inténtalo de nuevo",
+      "title": "Compara Al Habtoor Tower y Aldar Cassia 3 para tu caso",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email (opcional)",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Compara estos proyectos por tipo de unidad, vistas, condiciones actuales, calendario y objetivo del comprador.",
+      "eyebrow": "Continuar la comparación con AI",
+      "success": "Solicitud enviada",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Cerrar",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Dirección de email",
+        "phone": "+971",
+        "comment": "Añade cualquier dato útil"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_al_habtoor_tower_vs_aldar_cassia_3_es",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Al Habtoor Tower",
+        "project_a_slug": "al-habtoor-tower",
+        "project_b_name": "Aldar Cassia 3",
+        "project_b_slug": "aldar-cassia-3",
+        "canonical_url_path": "/es/compare-projects/al-habtoor-tower-vs-aldar-cassia-3/"
+      },
+      "request_scope": [
+        "unit_type",
+        "vistas",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Enviar",
+        "error": "Inténtalo de nuevo",
+        "success": "Solicitud enviada",
+        "submitting": "Enviando…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Solicitud preparada",
+        "value": "Compara estos proyectos por tipo de unidad, vistas, condiciones actuales, calendario y objetivo del comprador.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI ayuda a los compradores a comparar proyectos, ubicaciones, desarrolladores y factores clave de decisión antes de hablar con un asesor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Comparación de proyectos conectada con la intención real del comprador",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria de EAU",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Enlaces sociales",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Reservar una llamada",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Preguntar a AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

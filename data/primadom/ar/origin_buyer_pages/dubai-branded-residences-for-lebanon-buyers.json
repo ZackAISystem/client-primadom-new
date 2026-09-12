@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_b949acb49990b0d4fe6b33c5d174",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/dubai-branded-residences-for-lebanon-buyers/",
+  "canonical_url_path": "/ar/buyer-scenarios/dubai-branded-residences-for-lebanon-buyers/",
+  "canonical_group_key": "origin:lebanon:goal:branded-residences",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "lebanon",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "هل يمكنني الشراء؟",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "التنقل في دليل المشتري الدولي",
+      "cta_label": "احصل على استشارة",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/dubai-branded-residences-for-lebanon-buyers/",
+          "label": "مساكن تحمل علامات تجارية في دبي للمشترين من لبنان"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "من لبنان",
+        "إقامة بعلامة تجارية",
+        "العلامة + المطور العقاري",
+        "نموذج الخدمات",
+        "الرسوم + الشروط"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "مساكن تحمل علامات تجارية في دبي للمشترين من لبنان",
+      "subtitle": "إذا كنت مشتريًا من لبنان وتبحث عن مساكن تحمل علامات تجارية في دبي، فركّز على الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام وقاعدة المشترين عند إعادة البيع قبل دفع علاوة للعلامة.",
+      "facts_aria": "النقاط الرئيسية لهذا السيناريو",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لتخطيط مساكن تحمل علامات تجارية في دبي للمشترين من لبنان",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "قارن الدور الفعلي للعلامة التجارية والمطور العقاري في المساكن ذات العلامات التجارية",
+        "تحقق من نموذج الخدمات والرسوم وشروط الاستخدام قبل دفع علاوة",
+        "ما الذي ينبغي التحقق منه قبل اختيار إقامة تحمل علامة تجارية؟"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "اسأل عن خطتك العقارية في دبي",
+      "placeholder": "قارن لي خيارات مساكن تحمل علامات تجارية في دبي بصفتي مشتريًا من لبنان",
+      "block_status": "final",
+      "button_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "اسأل Primadom AI عن مساكن تحمل علامات تجارية في دبي للمشترين من لبنان",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "المشترون من لبنان",
+        "إقامة بعلامة تجارية",
+        "العلامة + المطور العقاري",
+        "الرسوم + الشروط",
+        "القواعد الحالية"
+      ],
+      "title": "هل يمكن للمشترين من لبنان شراء عقار في دبي؟",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "<strong>نعم — يمكن للمشترين من لبنان عمومًا شراء العقارات في دبي</strong> ضمن المناطق المخصصة للتملك الحر للأجانب، مع مراعاة القواعد الحالية والفحوصات الخاصة بالعقار. بالنسبة إلى المساكن ذات العلامات التجارية، قارن الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام وقاعدة المشترين المحتملين عند إعادة البيع.",
+      "body_text": "نعم — يمكن للمشترين من لبنان عمومًا شراء العقارات في دبي ضمن المناطق المخصصة للتملك الحر للأجانب، مع مراعاة القواعد الحالية والفحوصات الخاصة بالعقار. بالنسبة إلى المساكن ذات العلامات التجارية، قارن الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام وقاعدة المشترين المحتملين عند إعادة البيع.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "سوق المنشأ",
+          "value": "لبنان"
+        },
+        {
+          "label": "السوق المستهدف",
+          "value": "دبي / الإمارات العربية المتحدة"
+        },
+        {
+          "label": "هدف المشتري",
+          "value": "مساكن تحمل علامات تجارية"
+        },
+        {
+          "label": "المحور الرئيسي",
+          "value": "دور العلامة التجارية وجودة المنتج"
+        },
+        {
+          "label": "الفحوصات الرئيسية",
+          "value": "المطور العقاري · نموذج الخدمات · الرسوم · شروط الاستخدام"
+        },
+        {
+          "label": "سياق الملكية",
+          "value": "تحقق من قواعد الملكية الأجنبية الحالية"
+        },
+        {
+          "label": "مرحلة القرار",
+          "value": "قبل الحجز"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "تحقق من الدور الفعلي للعلامة وشروط الإقامة قبل الاختيار"
+        }
+      ],
+      "title": "معايير المشتري الدولي",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "حدّد توقعاتك للخدمة وجودة المنتج ونموذج الاستخدام ودور العلامة التجارية قبل مقارنة المساكن ذات العلامات التجارية.",
+            "title": "1. حدّد توقعات الإقامة ذات العلامة التجارية"
+          },
+          {
+            "text": "إذا كنت تخطط لإتمام أي خطوات من لبنان، فتحقق من الأجزاء التي يمكن تنفيذها عن بُعد وما إذا كان يلزم تفويض إضافي أو إجراء محلي.",
+            "title": "2. خطط لمسار الشراء"
+          },
+          {
+            "text": "أكد معلومات الهوية ونماذج المشتري ومصدر الأموال ومسار التحويل والفحوصات الخاصة بالمعاملة المطلوبة للشراء.",
+            "title": "3. أكد المستندات ومسار الدفع"
+          },
+          {
+            "text": "أعد التحقق من الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم والشروط الخاصة بالعقار قبل المتابعة.",
+            "title": "4. أعد التحقق من الشروط الحالية قبل الحجز"
+          }
+        ],
+        "title": "عملية الشراء عن بُعد",
+        "eyebrow": "منطق العملية"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "جهّز بيانات هوية ومعلومات مشتري سارية كما تتطلبها المعاملة المحددة.",
+            "title": "جواز السفر وبيانات المشتري"
+          },
+          {
+            "text": "احتفظ ببيانات العنوان والتواصل الحالية جاهزة إذا طلبها المطور العقاري أو البنك أو إجراءات المعاملة.",
+            "title": "بيانات العنوان والتواصل"
+          },
+          {
+            "text": "أكد مصدر الأموال ومسار التحويل وأي فحوصات مصرفية أو امتثال قبل إرسال الأموال.",
+            "title": "مصدر الأموال ومسار التحويل"
+          },
+          {
+            "text": "راجع المستندات التي توضح دور العلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام للعقار المحدد.",
+            "title": "تفاصيل العلامة والخدمات"
+          }
+        ],
+        "title": "المستندات",
+        "eyebrow": "قائمة تحقق عملية"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "قارن نموذج الخدمات والرسوم وشروط الاستخدام ودور العلامة التجارية قبل دفع علاوة مقابل الطرح ذي العلامة التجارية.",
+          "title": "قيّم ما وراء اسم العلامة",
+          "eyebrow": "منطق العلاوة"
+        },
+        {
+          "dark": false,
+          "text": "إذا نُفذت أي خطوات من لبنان، فأكد مسار الدفع والتوقيع وفحوصات الهوية وأي إجراء محلي خاص بالمعاملة.",
+          "title": "خطط لتنفيذ المعاملة عبر الحدود",
+          "eyebrow": "الشراء من لبنان"
+        },
+        {
+          "dark": false,
+          "text": "راجع المطور العقاري ونموذج التشغيل والشروط الخاصة بالإقامة بدل افتراض أن العلامة التجارية تتحكم في كل عنصر.",
+          "title": "اسم العلامة وجودة المطور عاملان منفصلان",
+          "eyebrow": "فحص العلامة التجارية"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "استخدم Primadom AI لمقارنة الهدف والميزانية والمسار والفحوصات قبل التحدث مع مستشار.",
+          "title": "حوّل السيناريو إلى مقارنة واضحة",
+          "eyebrow": "استشارة AI"
+        }
+      ],
+      "cards_aria": "القرارات الرئيسية لهذا السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "قارن دور العلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم والشروط الخاصة بالإقامة.",
+            "title": "Downtown Dubai"
+          },
+          {
+            "text": "قارن جودة المنتج والخدمات والتكاليف الجارية ومدى وضوح مسؤوليات العلامة والمطور.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "قارن عرض الخدمات وشروط الاستخدام والرسوم والمطور العقاري والدور الفعلي للعلامة التجارية.",
+            "title": "Palm Jumeirah"
+          },
+          {
+            "text": "قارن المنتجات ذات العلامات التجارية بحسب نموذج الخدمات والرسوم وتفاصيل العقار.",
+            "title": "Dubai Marina"
+          }
+        ],
+        "title": "أحياء للمقارنة",
+        "eyebrow": "خيارات الأحياء"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "للمشترين من لبنان، تحقق من الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام قبل دفع علاوة مرتبطة بالعلامة.",
+        "tags": [
+          "إمكانية الشراء",
+          "جودة المنتج",
+          "المطور العقاري",
+          "الرسوم + الشروط",
+          "نموذج الخدمات"
+        ],
+        "title": "مخاوف المشتري",
+        "eyebrow": "ما الذي يجب التحقق منه"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "افتح صفحات المشاريع الفعلية المرتبطة بالأحياء المستخدمة في هذا السيناريو، ثم تحقق من السعر الحالي والتوافر وشروط الدفع وملاءمة الوحدة قبل الاعتماد على أي خيار.",
+        "items": [
+          {
+            "href": "/ar/projects/25h-heimat-at-downtown-dubai/",
+            "meta": "Downtown Dubai",
+            "label": "25H Heimat At Downtown Dubai"
+          },
+          {
+            "href": "/ar/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/ar/projects/alba-residences-dorchester-collection/",
+            "meta": "Palm Jumeirah",
+            "label": "Alba Residences Dorchester Collection"
+          },
+          {
+            "href": "/ar/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/ar/projects/address-grand-downtown/",
+            "meta": "Downtown Dubai",
+            "label": "Address Grand Downtown"
+          }
+        ],
+        "title": "مشاريع يجب التحقق منها",
+        "eyebrow": "خيارات المشاريع",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "إذا كانت الإقامة في الإمارات جزءًا من خطتك، فتحقق من معايير التأشيرة الذهبية الحالية بشكل منفصل عن قرار العقار. ظهور مشروع في هذه القائمة لا يعني أهلية التأشيرة.",
+        "tags": [
+          "تحقق منفصل",
+          "المعايير الحالية",
+          "قيمة العقار",
+          "حالة الملكية",
+          "حالة الدفع"
+        ],
+        "title": "تحقق من أهلية التأشيرة بشكل منفصل",
+        "eyebrow": "مراجعة أهلية التأشيرة",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/dubai-luxury-property-for-lebanon-buyers/",
+          "label": "عقار فاخر في دبي للمشترين من لبنان"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-waterfront-property-for-lebanon-buyers/",
+          "label": "عقار على الواجهة المائية في دبي للمشترين من لبنان"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-off-plan-property-for-lebanon-buyers/",
+          "label": "عقار على المخطط في دبي للمشترين من لبنان"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-property-under-aed-5m-for-lebanon-buyers/",
+          "label": "عقار في دبي بميزانية أقل من AED 5M للمشترين من لبنان"
+        }
+      ],
+      "title": "استكشف التالي",
+      "eyebrow": "صفحات ذات صلة حسب بلد المنشأ",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "يمكن للمشترين من لبنان عمومًا شراء العقارات في دبي ضمن مناطق التملك الحر المخصصة، مع مراعاة القواعد الحالية والعقار المحدد. بالنسبة إلى مسكن ذي علامة تجارية في دبي، تحقق من دور العلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام الخاصة بالمسكن.",
+          "question": "هل يمكن للمشترين من لبنان شراء مساكن تحمل علامات تجارية في دبي؟",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "افصل بين وعد العلامة التجارية وأساسيات العقار. تحقق من دور العلامة أو المشغل ومعايير الخدمة والرسوم المتكررة وجودة المطور العقاري والمزايا الفعلية المرتبطة بالإقامة.",
+          "question": "ما الذي ينبغي للمشترين من لبنان التحقق منه أولًا عند التفكير في مساكن تحمل علامات تجارية في دبي؟",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "في هذا السيناريو، قارن بين Downtown Dubai، Business Bay، Palm Jumeirah وDubai Marina. هذه نقاط بداية وليست ترتيبًا للأفضلية؛ تحقق من العقار المحدد وملاءمته العملية قبل اتخاذ القرار.",
+          "question": "ما أحياء دبي التي ينبغي للمشترين من لبنان مقارنتها عند البحث عن مساكن تحمل علامات تجارية في دبي؟",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "عند تنسيق عملية الشراء من لبنان، حدّد من سيوقّع وكيف ستُحوّل الأموال وما فحوصات الهوية المطبقة وما إذا كانت أي خطوة تحتاج إلى إجراء محلي. أكد المسار الخاص بالمعاملة المحددة قبل الالتزام بالأموال.",
+          "question": "ما الذي ينبغي للمشترين من لبنان التحقق منه عند ترتيب شراء عقار في دبي من لبنان؟",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "تحقق من الدور الفعلي للعلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام. اسم علامة معروفة لا يحدد بمفرده كل جوانب الإقامة أو تجربة الملكية.",
+          "question": "ما الذي ينبغي للمشترين من لبنان التحقق منه قبل دفع علاوة مقابل إقامة تحمل علامة تجارية في دبي؟",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة المشترين الدوليين",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "بالنسبة إلى المشترين من لبنان المهتمين بـمساكن تحمل علامات تجارية في دبي، تفصل هذه الصفحة بين إرشادات المشتري والادعاءات التي لا تزال تتطلب تحققًا خارجيًا. يجب التحقق من قواعد الملكية وخطوات المعاملة عبر الحدود ودور العلامة التجارية ومسؤوليات المطور العقاري ونموذج الخدمات والرسوم والشروط الخاصة بالإقامة بالرجوع إلى المصدر الرسمي أو الحالي ذي الصلة قبل اتخاذ قرار الشراء.",
+      "items": [
+        {
+          "label": "قواعد الملكية",
+          "value": "التحقق الرسمي قيد الانتظار"
+        },
+        {
+          "label": "عملية الشراء عبر الحدود",
+          "value": "تحقق خاص بالحالة"
+        },
+        {
+          "label": "شروط العلامة التجارية / الخدمات",
+          "value": "يلزم الرجوع إلى المواد الرسمية"
+        },
+        {
+          "label": "السعر / التوافر",
+          "value": "يلزم التحقق المباشر من المشروع"
+        },
+        {
+          "label": "حالة المصدر",
+          "value": "مراجعة المصادر قيد الانتظار"
+        }
+      ],
+      "title": "ملاحظات التحقق",
+      "eyebrow": "ملاحظات المصادر والتحقق",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "للمشترين من لبنان، قارن دور العلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم وشروط الاستخدام قبل مراجعة المساكن الفردية.",
+      "title": "هل تبحث عن مساكن تحمل علامات تجارية في دبي من لبنان؟",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "راجع خطتي",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "نموذج استشارة للمشتري الدولي",
+      "text": "للمشترين من لبنان، شارك نوع المسكن المفضل والموقع وأولويات الخدمة. سيُعد Primadom AI سياق المسكن ذي العلامة التجارية قبل مراجعة المستشار.",
+      "title": "راجع خطتك بشأن مساكن تحمل علامات تجارية في دبي من لبنان",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "راجع خطتي بشأن مساكن تحمل علامات تجارية في دبي من لبنان",
+      "eyebrow": "مراجعة خطة الشراء",
+      "success": "تم الإرسال",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "إغلاق",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "يساعد Primadom AI المشترين من لبنان على مقارنة دور العلامة التجارية والمطور العقاري ونموذج الخدمات والرسوم والشروط الخاصة بالمسكن قبل مراجعة الخيارات الفردية.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قرارات بشأن مساكن تحمل علامات تجارية في دبي للمشترين من لبنان",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "معلومات عقارية ذكية",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط Primadom AI على شبكات التواصل",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "اسأل AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

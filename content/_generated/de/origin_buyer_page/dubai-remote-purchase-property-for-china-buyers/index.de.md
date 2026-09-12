@@ -1,0 +1,10 @@
+---
+title: "Immobilien in Dubai aus der Ferne kaufen – Käufer aus China"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-remote-purchase-property-for-china-buyers"
+page_id: "pg_07936c8d7e3db21aa5dbce85fae4"
+url: "/de/buyer-scenarios/dubai-remote-purchase-property-for-china-buyers/"
+build:
+  render: always
+  list: never
+---

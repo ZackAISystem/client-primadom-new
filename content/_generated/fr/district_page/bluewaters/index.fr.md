@@ -1,0 +1,10 @@
+---
+title: "Bluewaters — Guide de la zone"
+layout: "primadom-district-page-v2"
+district_slug: "bluewaters"
+page_id: "page_district_bluewaters_fr"
+url: "/fr/areas/bluewaters/"
+build:
+  render: always
+  list: never
+---

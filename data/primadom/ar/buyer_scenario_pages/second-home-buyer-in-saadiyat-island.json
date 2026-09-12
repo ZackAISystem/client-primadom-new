@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_second_home_buyer_saadiyat_island_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/second-home-buyer-in-saadiyat-island/",
+  "canonical_url_path": "/ar/buyer-scenarios/second-home-buyer-in-saadiyat-island/",
+  "canonical_group_key": "scenario_district:second_home_buyer:saadiyat-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "saadiyat-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/saadiyat-island/",
+          "label": "Saadiyat Island"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/second-home-buyer-in-saadiyat-island/",
+          "label": "مشتري منزل ثانٍ في Saadiyat Island",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "منزل ثانٍ",
+        "Saadiyat Island",
+        "شقق · فلل",
+        "AED 2.5M+",
+        "نمط الحياة · صيانة · إعادة البيع"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري منزل ثانٍ في Saadiyat Island",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري منزل ثانٍ في Saadiyat Island",
+      "subtitle": "قارن الخيارات في Saadiyat Island مع التركيز على نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري منزل ثانٍ في Saadiyat Island",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Saadiyat Island وفق نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع",
+        "تحقق من سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في شراء منزل ثانٍ؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري منزل ثانٍ في Saadiyat Island",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري منزل ثانٍ في Saadiyat Island",
+      "placeholder": "قارن خيارات مشتري منزل ثانٍ في Saadiyat Island",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "منزل ثانٍ",
+        "Saadiyat Island",
+        "الاستخدام المرتبط بنمط الحياة",
+        "السفر · الصيانة · إعادة البيع",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري منزل ثانٍ في Saadiyat Island</strong>، ركّز على نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع بدل الاعتماد على عامل واحد فقط. اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري منزل ثانٍ في Saadiyat Island، ركّز على نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع بدل الاعتماد على عامل واحد فقط. اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري منزل ثانٍ"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "منزل ثانٍ"
+        },
+        {
+          "label": "الموقع",
+          "value": "Saadiyat Island"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق · فلل"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "AED 2.5M+"
+        },
+        {
+          "label": "محور القرار",
+          "value": "السفر · الصيانة · إعادة البيع"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "مقارنة نمط الحياة"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن ملاءمة الملكية"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار شراء منزل ثانٍ اعتمادًا على عامل واحد مع تجاهل سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع.",
+          "المشترون الذين لا يريدون مراجعة نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل اختيار منزل ثانٍ على أساس المشاعر فقط من دون حساب فترات الغياب والصيانة والتكاليف المستمرة."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب في Saadiyat Island.",
+          "المشترون الذين يريدون مقارنة نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Saadiyat Island، قارن الخيارات وفق نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "سهولة الوصول أثناء السفر",
+          "الاستخدام المرتبط بنمط الحياة",
+          "الصيانة",
+          "الإدارة",
+          "إعادة البيع"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Saadiyat Island، قيّم المنطقة وفق مدى دعمها لـ اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Saadiyat Island"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع في استخدام جزئي قبل تضييق الاختيار.",
+            "title": "استخدام جزئي"
+          },
+          {
+            "text": "قبل تضييق نطاق المناطق، قارن سهولة السفر والتكاليف المتكررة واحتياجات الإدارة ومرونة إعادة البيع مستقبلًا.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن فلل من حيث سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "فلل"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث سهولة السفر والاستخدام الشخصي والإدارة والصيانة والتكاليف المتكررة وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "أضف تكاليف السفر والصيانة ورسوم الخدمات والتأثيث إلى سعر الشراء.",
+          "title": "اختبر ملاءمة شراء منزل ثانٍ",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Saadiyat Island، قارن نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى اختيار منزل ثانٍ على أساس المشاعر فقط من دون حساب فترات الغياب والصيانة والتكاليف المستمرة.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Saadiyat Island باستخدام المعايير نفسها: نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Saadiyat Island، تشمل المخاطر الرئيسية اختيار منزل ثانٍ على أساس المشاعر فقط من دون حساب فترات الغياب والصيانة والتكاليف المستمرة. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "نمط الزيارات",
+          "الإدارة",
+          "الصيانة",
+          "سهولة الوصول أثناء السفر",
+          "إعادة البيع"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات شراء منزل ثانٍ"
+          },
+          {
+            "text": "أضف تكاليف السفر والصيانة ورسوم الخدمات والتأثيث إلى سعر الشراء.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قارن في Saadiyat Island سهولة السفر والاستخدام المرتبط بنمط الحياة ومحيط العقار بالطريقة التي يتوقع المشتري قضاء وقته فيها.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "أدرج تكاليف الملكية والإدارة المتكررة حتى يظل المنزل منطقيًا خلال الأشهر التي لا يُستخدم فيها شخصيًا.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/ethir/",
+            "meta": "Aldar Properties PJSC · Saadiyat Island",
+            "label": "Ethir"
+          },
+          {
+            "href": "/ar/projects/four-seasons-saadiyat/",
+            "meta": "Al Ain Asset Management · Saadiyat Island",
+            "label": "Four Seasons Saadiyat"
+          },
+          {
+            "href": "/ar/projects/nobu-residences/",
+            "meta": "Aldar Properties PJSC · Saadiyat Island",
+            "label": "Nobu Residences"
+          },
+          {
+            "href": "/ar/projects/murjan-al-saadiyat/",
+            "meta": "AMS Real Estate Management · Saadiyat Island",
+            "label": "Murjan Al Saadiyat"
+          },
+          {
+            "href": "/ar/projects/solea/",
+            "meta": "Taraf Properties · Saadiyat Island",
+            "label": "Solea"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "أضف تكاليف السفر والصيانة ورسوم الخدمات والتأثيث إلى سعر الشراء. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "سعر الشراء",
+          "التأثيث",
+          "الإدارة",
+          "الصيانة",
+          "تكاليف السفر"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/international-second-home-near-the-beach-in-saadiyat-island/",
+          "label": "منزل ثانٍ دولي بالقرب من الشاطئ في Saadiyat Island"
+        },
+        {
+          "href": "/ar/buyer-scenarios/waterfront-lifestyle-buyer-in-saadiyat-island/",
+          "label": "مشتري يركز على نمط الحياة على الواجهة المائية في Saadiyat Island"
+        },
+        {
+          "href": "/ar/buyer-scenarios/remote-buyer-buying-from-abroad-in-saadiyat-island/",
+          "label": "مشتري عن بُعد من الخارج في Saadiyat Island"
+        },
+        {
+          "href": "/ar/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-saadiyat-island/",
+          "label": "مشتري يركز على الحفاظ على رأس المال بميزانية AED 3M+ في Saadiyat Island"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Saadiyat Island، ركّز على نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع. اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري منزل ثانٍ في Saadiyat Island؟"
+        },
+        {
+          "answer": "في Saadiyat Island، يناسب المشترين الذين يريدون اختيار منزل ثانٍ يظل عمليًا أثناء الزيارات وفترات الغياب ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري منزل ثانٍ في Saadiyat Island؟"
+        },
+        {
+          "answer": "في Saadiyat Island، تحقق من العقار المحدد وشروطه الحالية، ثم راجع نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Saadiyat Island؟"
+        },
+        {
+          "answer": "في Saadiyat Island، أضف تكاليف السفر والصيانة ورسوم الخدمات والتأثيث إلى سعر الشراء. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في Saadiyat Island؟"
+        },
+        {
+          "answer": "في Saadiyat Island، تتمثل المخاطر الرئيسية في اختيار منزل ثانٍ على أساس المشاعر فقط من دون حساب فترات الغياب والصيانة والتكاليف المستمرة. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Saadiyat Island؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري منزل ثانٍ في Saadiyat Island، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "الإدارة",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "تكاليف الملكية",
+          "value": "تحقق من الرسوم الحالية"
+        },
+        {
+          "label": "سهولة الوصول أثناء السفر",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "حالة العقار",
+          "value": "تحقق من التفاصيل الحالية"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري منزل ثانٍ في Saadiyat Island وفق نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مشتري منزل ثانٍ؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع أثناء مقارنة الخيارات في Saadiyat Island. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري منزل ثانٍ",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري منزل ثانٍ بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري منزل ثانٍ في Saadiyat Island مع وضع نمط الزيارات وسهولة السفر والصيانة والتكاليف أثناء الغياب ومرونة إعادة البيع والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري منزل ثانٍ بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

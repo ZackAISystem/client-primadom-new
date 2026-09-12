@@ -1,0 +1,10 @@
+---
+title: "Muwaileh — Guide de la zone"
+layout: "primadom-district-page-v2"
+district_slug: "muwaileh"
+page_id: "page_district_muwaileh_fr"
+url: "/fr/areas/muwaileh/"
+build:
+  render: always
+  list: never
+---

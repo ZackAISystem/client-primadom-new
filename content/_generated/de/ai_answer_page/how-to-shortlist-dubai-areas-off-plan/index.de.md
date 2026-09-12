@@ -1,0 +1,10 @@
+---
+title: "Wie wählt man geeignete Gebiete in Dubai aus — Off-Plan"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-shortlist-dubai-areas-off-plan"
+page_id: "ai_answer__how-to-shortlist-dubai-areas__context__off-plan__de"
+url: "/de/ai-answers/how-to-shortlist-dubai-areas-off-plan/"
+build:
+  render: always
+  list: never
+---

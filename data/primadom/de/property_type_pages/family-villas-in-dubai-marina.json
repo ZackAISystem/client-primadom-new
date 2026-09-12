@@ -1,0 +1,912 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_family_villas_dubai_marina_de",
+  "page_type_id": "property_type_page",
+  "language_code": "de",
+  "url_path": "/de/property-types/family-villas-in-dubai-marina/",
+  "canonical_url_path": "/de/property-types/family-villas-in-dubai-marina/",
+  "canonical_group_key": "property_district:family-villas:dubai-marina",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-marina",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Überblick",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projekte",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Navigation der Immobilientyp-Seite",
+      "cta_label": "Optionen finden",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "property_types",
+          "href": "/de/property-types/",
+          "label": "Immobilientypen"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/dubai-marina/",
+          "label": "Dubai Marina"
+        },
+        {
+          "key": "current",
+          "href": "/de/property-types/family-villas-in-dubai-marina/",
+          "label": "Familienvillen in Dubai Marina",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Immobilientyp: Familienvillen",
+        "Gebiet: Dubai Marina",
+        "Familiengrundriss + Garten",
+        "Familie / langfristig",
+        "AI-Suche"
+      ],
+      "image": {
+        "alt": "Übersicht zu Familienvillen in Dubai Marina",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Familienvillen in Dubai Marina",
+      "subtitle": "Ein praktischer Leitfaden zu Familienvillen in Dubai Marina mit Fokus auf Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege, Preiskontext, Projektoptionen und AI-gestützte Suche.",
+      "facts_aria": "Hauptmerkmale des Immobilientyps",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Übersichtsgrafik für Familienvillen in Dubai Marina",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Primadom AI zu Familienvillen in Dubai Marina fragen",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Fragen zu Familienvillen in Dubai Marina, Budget oder Eignung",
+      "placeholder": "Fragen zu Familienvillen in Dubai Marina, Budget oder Eignung",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Sprachsuche",
+      "click_action": "fill_input",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Welche Familienvillen in Dubai Marina passen zu meinem Budget?",
+        "Wie unterscheiden sich Familienvillen bei Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege?",
+        "Was sollte ich bei Familienvillen in Dubai Marina prüfen?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Sprachmodus",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Familienvillen",
+        "Dubai Marina",
+        "Familie / langfristig",
+        "Familiengrundriss + Garten",
+        "Projektprüfung"
+      ],
+      "title": "Zusammenfassung des Immobilientyps",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Familienvillen in Dubai Marina</strong> lassen sich nach Kriterien wie Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege vergleichen. Käufer sollten vor einer Entscheidung das konkrete Projekt, den Grundriss, laufende Kosten und aktuelle Bedingungen prüfen.",
+      "body_text": "Familienvillen in Dubai Marina lassen sich nach Kriterien wie Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege vergleichen. Käufer sollten vor einer Entscheidung das konkrete Projekt, den Grundriss, laufende Kosten und aktuelle Bedingungen prüfen.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Immobilientyp",
+          "value": "Familienvillen",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Gebiet",
+          "value": "Dubai Marina",
+          "fact_key": "area"
+        },
+        {
+          "label": "Markt",
+          "value": "Dubai / VAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Verknüpfte Projektseiten",
+          "value": "20 verknüpfte Projektseiten",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Kaufabsicht",
+          "value": "Familie · langfristiges Wohnen",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Wichtigste Filter",
+          "value": "Schulen · Grundriss · Garten",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Bester nächster Schritt",
+          "value": "Verknüpfte Projektseiten vergleichen",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Vergleichsumfang",
+          "value": "Projekte · Gebiete · Eigentumskosten",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Details zum Immobilientyp",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 20,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_growth_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Für wen es geeignet ist",
+        "eyebrow": "Eignung für Käufer",
+        "bad_items": [
+          "Käufer, die ein kompaktes und wartungsarmes Zuhause bevorzugen",
+          "Käufer, die Schulzugang, Pendelwege und Instandhaltung nicht prüfen möchten",
+          "Käufer, die ohne Prüfung von Verfügbarkeit, Kosten und Projektbedingungen entscheiden möchten"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Familien, die flexible Schlafzimmer, Außenfläche und langfristige Nutzbarkeit priorisieren",
+          "Käufer, die Schulzugang, tägliche Wege und Gemeinschaftsangebote vergleichen möchten",
+          "Käufer, die aktuelle Projekte nach praktischen Eigentumskriterien vergleichen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Dubai Marina",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "family_villas"
+      },
+      "property_logic": {
+        "body": "Beim Vergleich von Familienvillen sind insbesondere folgende Punkte wichtig: Schlafzimmerflexibilität, Außenbereich, Schulzugang, tägliche Wege und Gebietseignung. Für Dubai Marina sollten außerdem Grundriss, Lage, Projektstatus und Gesamtkosten berücksichtigt werden. Prüfen Sie vor einer Entscheidung die aktuelle Verfügbarkeit sowie gegebenenfalls laufende Kosten, Zahlungsbedingungen und Übergabedetails.",
+        "tags": [
+          "Schlafzimmerflexibilität",
+          "Außenbereich",
+          "Schulzugang",
+          "Tägliche Wege",
+          "Zugang und Pendelwege"
+        ],
+        "title": "Logik des Immobilientyps",
+        "eyebrow": "So vergleichen Sie"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Für Familienvillen in Dubai Marina sind beim Projektvergleich insbesondere folgende Punkte wichtig: Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege. Prüfen Sie zusätzlich die aktuellen Projektbedingungen vor einer Entscheidung.",
+            "route": "/de/property-types/family-villas-in-dubai-marina/",
+            "buyer_fit": "Aktueller Gebietskontext",
+            "relationship": "current_area",
+            "district_name": "Dubai Marina",
+            "district_slug": "dubai-marina"
+          },
+          {
+            "text": "Business Bay bietet zusätzlichen Gebietskontext für den Vergleich von Familienvillen. Berücksichtigen Sie dort insbesondere Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/family-villas-in-business-bay/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Business Bay",
+            "district_slug": "business-bay"
+          },
+          {
+            "text": "Dubai Hills Estate bietet zusätzlichen Gebietskontext für den Vergleich von Familienvillen. Berücksichtigen Sie dort insbesondere Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/family-villas-in-dubai-hills-estate/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Dubai Hills Estate",
+            "district_slug": "dubai-hills-estate"
+          },
+          {
+            "text": "Jumeirah Village Circle bietet zusätzlichen Gebietskontext für den Vergleich von Familienvillen. Berücksichtigen Sie dort insbesondere Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/family-villas-in-jumeirah-village-circle/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Jumeirah Village Circle",
+            "district_slug": "jumeirah-village-circle"
+          }
+        ],
+        "title": "Relevante Stadtteile",
+        "eyebrow": "Gebietskontext"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Die Preise für Familienvillen in Dubai Marina hängen insbesondere von Grundstück, Schlafzimmeranzahl, Außenbereich, Lage, Schulzugang und Instandhaltung ab. Vergleichen Sie nicht nur den Angebotspreis, sondern auch Projektqualität, laufende Gebühren, Zahlungsbedingungen und die praktische Eignung der Immobilie. Prüfen Sie aktuelle Projektpreise, wiederkehrende Kosten und Zahlungsbedingungen, bevor Sie ein Budget festlegen.",
+        "tags": [
+          "Familiengrundriss",
+          "Außenbereich",
+          "Gemeinschaftsgebühren",
+          "Instandhaltung",
+          "Preisprüfung"
+        ],
+        "title": "Wie sich die Preise unterscheiden",
+        "eyebrow": "Preisrealität"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "business",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "family_villas",
+        "wider_uae_item_count": 0,
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "verified_supply_asserted": false,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "dubai-marina",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 20
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "business-bay",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 71
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "dubai-hills-estate",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 49
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "jumeirah-village-circle",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 214
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Vergleichen Sie Gesamtkosten, Familiennachfrage und langfristige Nutzbarkeit in Dubai Marina, statt sich nur am Einstiegspreis oder an der Vermarktung zu orientieren.",
+          "title": "Kosten und Nachfrage realistisch vergleichen",
+          "eyebrow": "Investitionslogik"
+        },
+        {
+          "text": "Prüfen Sie, ob Schulzugang, Außenbereich, Privatsphäre und tägliche Wege zum tatsächlichen Alltag und zum Käuferziel passen.",
+          "title": "Alltagstauglichkeit prüfen",
+          "eyebrow": "Lifestyle-Logik"
+        },
+        {
+          "text": "Prüfen Sie vor der Entscheidung insbesondere Instandhaltung, Fahrzeiten, Gemeinschaftsgebühren und langfristige Haushaltsbedürfnisse und bestätigen Sie die aktuellen Projektbedingungen.",
+          "title": "Risiken nicht übersehen",
+          "eyebrow": "Risikohinweise"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Familienvillen in Dubai Marina nach Käuferziel, Projektstatus, Zahlungsbedingungen, Eigentumskosten und Alltagsanforderungen vergleichen.",
+          "title": "Passende Optionen mit AI vergleichen",
+          "eyebrow": "AI-Kontext"
+        }
+      ],
+      "cards_aria": "Entscheidungshinweise zum Immobilientyp",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_family_villas_dubai_marina_en",
+        "context_focus": "business",
+        "district_slug": "dubai-marina",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/de/property-types/family-villas-in-dubai-marina/",
+        "property_type_slug": "family-villas",
+        "semantic_profile_key": "family_villas",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/liv-waterside/",
+            "meta": "Dubai Marina",
+            "label": "LIV Waterside"
+          },
+          {
+            "href": "/de/projects/greenwoods/",
+            "meta": "Damac Hills",
+            "label": "GreenWoods"
+          },
+          {
+            "href": "/de/projects/cavalli-estates/",
+            "meta": "Damac Hills",
+            "label": "Cavalli Estates"
+          },
+          {
+            "href": "/de/projects/bora-bora-phase-2/",
+            "meta": "Damac Islands",
+            "label": "Bora Bora Phase 2"
+          },
+          {
+            "href": "/de/projects/sea-mirror-residences/",
+            "meta": "Jumeirah Bay Island",
+            "label": "Sea Mirror Residences"
+          }
+        ],
+        "title": "Empfohlene Projekte",
+        "eyebrow": "Projektoptionen"
+      },
+      "pros_cons": {
+        "title": "Vor- und Nachteile",
+        "eyebrow": "Machbarkeitsprüfung",
+        "cons_items": [
+          "Instandhaltung von Haus und Garten erfordert laufenden Aufwand",
+          "Schulwege und tägliche Fahrzeiten sollten vor dem Kauf realistisch geprüft werden",
+          "Größere Familienformate können höhere Gesamt- und Betriebskosten haben"
+        ],
+        "cons_title": "Nachteile",
+        "pros_items": [
+          "Flexible Schlafzimmer und Außenbereiche können langfristig für Familien funktionieren",
+          "Mehr Privatsphäre und Platz unterstützen unterschiedliche Haushaltsroutinen",
+          "Nähe zu Schulen und Gemeinschaftsangeboten kann die Alltagstauglichkeit verbessern"
+        ],
+        "pros_title": "Vorteile"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_family_villas_dubai_marina_en",
+        "district_slug": "dubai-marina",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "business",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "LIV Waterside",
+            "project_slug": "liv-waterside",
+            "project_route": "/de/projects/liv-waterside/",
+            "developer_name": "L I V PROPERTY SERVICES",
+            "developer_slug": "l-i-v-property-services",
+            "location_score": 5,
+            "project_district_name": "Dubai Marina",
+            "project_district_slug": "dubai-marina"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "GreenWoods",
+            "project_slug": "greenwoods",
+            "project_route": "/de/projects/greenwoods/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 3,
+            "project_district_name": "Damac Hills",
+            "project_district_slug": "damac-hills"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Cavalli Estates",
+            "project_slug": "cavalli-estates",
+            "project_route": "/de/projects/cavalli-estates/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 3,
+            "project_district_name": "Damac Hills",
+            "project_district_slug": "damac-hills"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Bora Bora Phase 2",
+            "project_slug": "bora-bora-phase-2",
+            "project_route": "/de/projects/bora-bora-phase-2/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 3,
+            "project_district_name": "Damac Islands",
+            "project_district_slug": "damac-islands"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Sea Mirror Residences",
+            "project_slug": "sea-mirror-residences",
+            "project_route": "/de/projects/sea-mirror-residences/",
+            "developer_name": "Lamar Development",
+            "developer_slug": "lamar-development",
+            "location_score": 3,
+            "project_district_name": "Jumeirah Bay Island",
+            "project_district_slug": "jumeirah-bay-island"
+          }
+        ],
+        "canonical_url_path": "/de/property-types/family-villas-in-dubai-marina/",
+        "property_type_slug": "family-villas",
+        "semantic_profile_key": "family_villas",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/de/property-types/villas-in-dubai-marina/",
+          "label": "Villen in Dubai Marina"
+        },
+        {
+          "href": "/de/property-types/three-bedroom-apartments-in-dubai-marina/",
+          "label": "Apartments mit drei Schlafzimmern in Dubai Marina"
+        },
+        {
+          "href": "/de/property-types/townhouses-in-dubai-marina/",
+          "label": "Reihenhäuser in Dubai Marina"
+        },
+        {
+          "href": "/de/property-types/duplexes-in-dubai-marina/",
+          "label": "Maisonette-Wohnungen in Dubai Marina"
+        }
+      ],
+      "title": "Ähnliche Immobilientypen",
+      "eyebrow": "Verwandte Optionen",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1415,
+            "target_label": "Villas in Dubai Marina",
+            "target_route": "/de/property-types/villas-in-dubai-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "villa"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "3 Bedroom Apartments in Dubai Marina",
+            "target_route": "/de/property-types/three-bedroom-apartments-in-dubai-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "three_bedroom"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Townhouses in Dubai Marina",
+            "target_route": "/de/property-types/townhouses-in-dubai-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "townhouse"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1200,
+            "target_label": "Duplexes in Dubai Marina",
+            "target_route": "/de/property-types/duplexes-in-dubai-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 400,
+            "target_profile_family": "duplex"
+          }
+        ],
+        "source_route": "/de/property-types/family-villas-in-dubai-marina/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Bei Familienvillen in Dubai Marina sollten Käufer vor allem Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege vergleichen. Das konkrete Projekt, der Grundriss, laufende Kosten und aktuelle Bedingungen sollten vor einer Entscheidung geprüft werden.",
+          "question": "Was kennzeichnet Familienvillen in Dubai Marina?"
+        },
+        {
+          "answer": "Der Immobilientyp kann besonders für folgende Käuferprofile relevant sein: Familien, die flexible Schlafzimmer, Außenfläche und langfristige Nutzbarkeit priorisieren; Käufer, die Schulzugang, tägliche Wege und Gemeinschaftsangebote vergleichen möchten. Zusätzlich sollten Käufer in Dubai Marina prüfen, ob Nutzung, Budget und laufende Kosten zu ihrem konkreten Fall passen.",
+          "question": "Für wen können Familienvillen in Dubai Marina geeignet sein?"
+        },
+        {
+          "answer": "Ein möglicher Vorteil ist: Flexible Schlafzimmer und Außenbereiche können langfristig für Familien funktionieren. Ein wichtiger Nachteil ist: Instandhaltung von Haus und Garten erfordert laufenden Aufwand. In Dubai Marina sollten Käufer zusätzlich Projektqualität, laufende Kosten und Alltagstauglichkeit vergleichen.",
+          "question": "Welche Vor- und Nachteile sollten Käufer bei Familienvillen in Dubai Marina beachten?"
+        },
+        {
+          "answer": "Auf dieser Seite sind unter anderem LIV Waterside, GreenWoods und Cavalli Estates als Projektoptionen verknüpft. Zusätzlich können Käufer Villen in Dubai Marina und Apartments mit drei Schlafzimmern in Dubai Marina vergleichen. Diese Links dienen der Navigation und sind weder ein Ranking noch eine Bestätigung aktueller Einheitenverfügbarkeit.",
+          "question": "Was können Käufer neben Familienvillen in Dubai Marina noch vergleichen?"
+        },
+        {
+          "answer": "Preise, Einheitenverfügbarkeit, Gebühren, Zahlungspläne und Übergabedetails können sich ändern. Für Familienvillen in Dubai Marina sollten Käufer Grundriss, Außenbereich, Schulzugang, tägliche Wege und laufende Instandhaltungskosten sowie aktuelle kommerzielle Bedingungen anhand offizieller Unterlagen des Bauträgers und aktueller Beraterprüfungen bestätigen. Primadom AI kann den Vergleich strukturieren; aktuelle Konditionen sollten jedoch vor einer Entscheidung verifiziert werden.",
+          "question": "Wie sollten Käufer Preise und Verfügbarkeit für Familienvillen in Dubai Marina prüfen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Immobilientyp",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "business",
+        "semantic_profile_key": "family_villas",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Die Informationen zu Familienvillen in Dubai Marina dienen als Vergleichsleitfaden und nicht als aktuelles Angebot. Vor einer Entscheidung sollten Käufer Grundriss, Außenbereich, Schulzugang, tägliche Wege und laufende Instandhaltungskosten, den aktuellen Preis und die Verfügbarkeit, Zahlungsbedingungen, den Übergabe- oder Fertigstellungsstatus sowie die gesamten Eigentumskosten beim Bauträger oder einem autorisierten Berater bestätigen.",
+      "items": [
+        {
+          "label": "Immobilien- und Grundstücksdaten",
+          "value": "Zustand, Grundstück und Gemeinschaftsregeln prüfen"
+        },
+        {
+          "label": "Preis und Verfügbarkeit",
+          "value": "Aktuelle Bedingungen der Einheit bestätigen"
+        },
+        {
+          "label": "Gebühren und Eigentumskosten",
+          "value": "Laufende Eigentumskosten prüfen"
+        },
+        {
+          "label": "Zahlung und Übergabe",
+          "value": "Status, Termine und Vertragsbedingungen prüfen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Vor der Entscheidung",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Primadom AI kann Familienvillen in Dubai Marina anhand folgender Kriterien vergleichen: Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege. Berücksichtigen Sie zusätzlich Budget und Käuferziel und prüfen Sie passende Optionen anschließend mit einem Berater.",
+      "title": "Suchen Sie Familienvillen in Dubai Marina?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Passende Optionen finden",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "family_villas",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Anfrageformular zum Immobilientyp",
+      "text": "Teilen Sie Ihre Präferenzen für Familienvillen in Dubai Marina mit. Primadom AI strukturiert die Anfrage nach folgenden Punkten: Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege, Budget und aktuelle Projektbedingungen. Anschließend kann ein Berater die Anfrage prüfen.",
+      "title": "Passende Familienvillen in Dubai Marina finden",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Ich suche passende Optionen für Familienvillen auf dieser Seite.",
+      "eyebrow": "Mit AI fortfahren",
+      "success": "Gesendet",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Schließen",
+      "source_meta": {
+        "source_route": "/de/property-types/family-villas-in-dubai-marina/",
+        "source_page_id": "page_property_district_family_villas_dubai_marina_en",
+        "shortlist_claim": false,
+        "context_focus_key": "business",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "family_villas",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI unterstützt Käufer dabei, Familienvillen in Dubai Marina anhand von Schlafzimmerflexibilität, Außenbereich, Schulzugang und tägliche Wege sowie der praktischen Eignung zu vergleichen, bevor sie mit einem Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Familienvillen in Dubai Marina – mit Projekten und Käuferszenarien verknüpft",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilienwissen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/de/property-types/family-villas-in-dubai-marina/",
+        "source_page_id": "page_property_district_family_villas_dubai_marina_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "business",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "family_villas",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

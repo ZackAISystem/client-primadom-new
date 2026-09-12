@@ -1,0 +1,841 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_teal_es",
+  "page_type_id": "project_page",
+  "language_code": "es",
+  "url_path": "/es/projects/teal/",
+  "canonical_url_path": "/es/projects/teal/",
+  "canonical_group_key": "project:teal",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "teal",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "Reservar una llamada",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Resumen",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "Detalles"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "Ubicación"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "is_ai": true,
+          "label": "Preguntar a AI"
+        }
+      ],
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navegación de Primadom AI",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "projects",
+          "href": "/es/projects/",
+          "label": "Proyectos sobre plano en EAU"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/dubailand/",
+          "label": "Dubailand",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/es/projects/teal/",
+          "label": "Teal",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Teal",
+      "price_label": "Precio desde",
+      "promo_image": "",
+      "price_amount": 990000,
+      "price_status": "available",
+      "hero_subtitle": "Proyecto de apartamentos sobre plano en Dubailand, de Aldar Properties PJSC.",
+      "price_display": "AED 990,000",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Galería de Teal",
+      "gallery_next_label": "Imagen siguiente",
+      "gallery_prev_label": "Imagen anterior"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Compara Teal con proyectos similares en Dubailand",
+        "Muestra el plan de pago, las opciones de unidades y la lógica de entrega",
+        "¿Es Teal más adecuado para vivir o invertir?",
+        "Explica el valor de la ubicación en Dubailand"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Pregunta por este proyecto",
+      "placeholder": "Pregunta por Teal, el plan de pago, la ubicación, los riesgos o proyectos similares",
+      "button_label": "Preguntar",
+      "voice_status": "Escuchando…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Pregunta a Primadom AI por Teal",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "submit_aria_label": "Preguntar a Primadom AI",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "Esta página ofrece un resumen conciso de Teal: precio, entrega, plan de pago, ubicación y proyectos similares. La disponibilidad, los planos y las condiciones de pago deben comprobarse antes de que el comprador tome una decisión.",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "Vistas al mar",
+        "Dubailand",
+        "Sobre plano",
+        "De Aldar Properties PJSC",
+        "Desde AED 990,000"
+      ],
+      "short_answer_title": "Resumen del proyecto",
+      "short_answer_kicker": "Resumen rápido para el comprador",
+      "short_answer_summary": "Teal es un proyecto sobre plano de apartamentos de Aldar Properties PJSC en Dubailand. El proyecto presenta vistas al mar confirmadas."
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "Precio desde",
+          "value": "AED 990,000",
+          "value_ref": "price_from_aed",
+          "value_status": "available"
+        },
+        {
+          "key": "status",
+          "label": "Estado",
+          "value": "Sobre plano",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "Entrega",
+          "value": "junio de 2028\n",
+          "value_ref": "handover_text",
+          "value_status": "available"
+        },
+        {
+          "key": "payment_plan",
+          "label": "Plan de pago",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "Desarrollador",
+          "value": "Aldar Properties PJSC",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "Zona",
+          "value": "Dubailand",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "Tipo",
+          "value": "Apartamento",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "Dormitorios",
+          "value": "1 | 2 | 3 dorm.",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "Superficie desde",
+          "value": "desde 750 sqft",
+          "value_ref": "size_min_sqft",
+          "value_status": "available"
+        },
+        {
+          "key": "last_checked",
+          "label": "Última comprobación",
+          "value": "junio de 2026",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "Detalles del proyecto",
+      "keyfacts_note": "Los datos clave de Teal se muestran al principio para que compradores, motores de búsqueda y sistemas de AI puedan entender rápidamente el proyecto. El precio, el plan de pago y la disponibilidad deben verificarse antes de que el comprador tome una decisión.",
+      "details_kicker": "Datos clave",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "Compradores que planean usar la propiedad como residencia principal",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "Compradores que valoran una compra residencial como inversión",
+            "evidence": "use_case_tags.investment",
+            "priority": 20,
+            "semantic_group": "investment"
+          },
+          {
+            "item": "Compradores que prefieren un estilo de vida urbano",
+            "evidence": "lifestyle_tags.city_living",
+            "priority": 30,
+            "semantic_group": "urban_lifestyle"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "Compradores que necesitan una propiedad lista de inmediato",
+            "evidence": "future_handover",
+            "priority": 10,
+            "semantic_group": "future_handover"
+          },
+          {
+            "item": "Compradores que buscan específicamente villas",
+            "evidence": "property_types.apartment_only",
+            "priority": 50,
+            "semantic_group": "no_villas"
+          }
+        ]
+      },
+      "best_for_items": [
+        "Compradores que planean usar la propiedad como residencia principal",
+        "Compradores que valoran una compra residencial como inversión",
+        "Compradores que prefieren un estilo de vida urbano"
+      ],
+      "best_for_title": "Adecuado para",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "Perfil del comprador",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "Evaluación de adecuación",
+      "not_best_for_items": [
+        "Compradores que necesitan una propiedad lista de inmediato",
+        "Compradores que buscan específicamente villas"
+      ],
+      "not_best_for_title": "Puede no ser adecuado",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Teal es un proyecto de apartamentos de Aldar Properties PJSC en Dubailand, Dubai, con unidades de uno a tres dormitorios, con entrega prevista para junio de 2028. Su posicionamiento destaca vistas al mar y resulta adecuado tanto para residencia principal como para inversión, especialmente para familias.",
+      "project_logic_title": "Posicionamiento del proyecto",
+      "project_logic_kicker": "Cómo interpretarlo"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Evalúa Teal teniendo en cuenta su precio inicial registrado de AED 990,000, la entrega prevista para 2028 y proyectos comparables en Dubailand.",
+          "title": "Requiere verificación de datos",
+          "eyebrow": "Perspectiva de inversión",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "Teal ofrece apartamentos en Dubailand, y su adecuación al estilo de vida depende de la combinación de unidades y del uso previsto.",
+          "title": "Caso de uso del comprador",
+          "eyebrow": "Perspectiva de estilo de vida",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Confirma la disponibilidad actual, el precio vigente, los gastos de servicio, las condiciones de pago, los planos y la documentación oficial del proyecto antes de tomar una decisión.",
+          "title": "Disponibilidad, costes y plan de pago",
+          "eyebrow": "Qué comprobar antes de comprar",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI puede comparar Teal con alternativas y preparar las preguntas clave para revisar con un asesor.",
+          "title": "Pregunta antes de decidir",
+          "eyebrow": "Soporte con AI",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 24.4667,
+      "lng": 54.3667,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/es/areas/dubailand/",
+          "label": "Guía de la zona",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=24.466700,54.366700",
+          "label": "Abrir mapa",
+          "action_status": "source_coordinates"
+        }
+      ],
+      "address": "Dubailand, Dubai, EAU",
+      "map_point": "Ubicación a nivel de zona",
+      "nearby_title": "Lugares de interés cercanos",
+      "address_label": "Dirección",
+      "nearby_status": "district_context",
+      "address_status": "available",
+      "location_title": "Ubicación",
+      "schema_version": "location_v1",
+      "map_point_label": "Alcance de la ubicación",
+      "location_context": "Los datos de ubicación de Teal se basan en la zona indicada, Dubailand. La ubicación exacta del edificio, los tiempos en coche y los lugares de interés cercanos deben confirmarse antes de que el comprador tome una decisión.",
+      "map_point_status": "source_coordinates",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Global Village",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "IMG Worlds of Adventure",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "Dubai Hills Mall",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "Tiempo en coche",
+      "map_context_kicker": "Contexto de la zona",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "Los proyectos se seleccionan de forma determinista según la zona, el desarrollador, la ciudad, el tipo de propiedad, el rango de precios, el número de dormitorios y la entrega. Las coincidencias débiles se excluyen, por lo que algunas páginas pueden mostrar menos de cuatro proyectos.",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/es/areas/dubailand/projects/",
+          "label": "Más proyectos en Dubailand",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/es/developers/aldar-properties-pjsc/projects/",
+          "label": "Más proyectos de Aldar Properties PJSC",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "Proyectos relacionados",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "Enlaces internos",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/es/projects/alfal-residence-aldar/",
+          "project_id": "alfal-residence-aldar",
+          "match_score": 280,
+          "project_name": "Alfal Residence Aldar",
+          "district_name": "Dubailand",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartamento",
+          "developer_name": "Aldar Properties PJSC",
+          "price_from_aed": 755000
+        },
+        {
+          "href": "/es/projects/mint/",
+          "project_id": "mint",
+          "match_score": 280,
+          "project_name": "Mint",
+          "district_name": "Dubailand",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartamento",
+          "developer_name": "Aldar Properties PJSC",
+          "price_from_aed": 990000
+        },
+        {
+          "href": "/es/projects/moss/",
+          "project_id": "moss",
+          "match_score": 280,
+          "project_name": "Moss",
+          "district_name": "Dubailand",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartamento",
+          "developer_name": "Aldar Properties PJSC",
+          "price_from_aed": 990000
+        },
+        {
+          "href": "/es/projects/pine/",
+          "project_id": "pine",
+          "match_score": 280,
+          "project_name": "Pine",
+          "district_name": "Dubailand",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Apartamento",
+          "developer_name": "Aldar Properties PJSC",
+          "price_from_aed": 990000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Teal es un proyecto inmobiliario de Aldar Properties PJSC en Dubailand, con apartamentos.",
+          "question": "¿Qué es Teal?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Teal se encuentra en Dubailand, Dubai, EAU.",
+          "question": "¿Dónde se encuentra Teal?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "El precio inicial registrado es AED 990,000. El precio actual y la disponibilidad deben confirmarse antes de tomar una decisión.",
+          "question": "¿Cuál es el precio inicial de Teal?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Los datos actuales del proyecto indican apartamentos. Las unidades incluyen unidades de 1 a 3 dormitorios.",
+          "question": "¿Qué tipos de propiedad y opciones de dormitorios hay disponibles en Teal?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "La entrega registrada está prevista para junio de 2028. Este plazo debe confirmarse con la última actualización oficial del proyecto.",
+          "question": "¿Cuándo está prevista la finalización de Teal?",
+          "answer_status": "formula_generated"
+        }
+      ],
+      "faq_title": "Preguntas frecuentes",
+      "faq_kicker": "Respuestas rápidas",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "Mostrar respuesta",
+      "faq_collapse_label": "Ocultar respuesta"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "Verificación",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Materiales oficiales del desarrollador",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "Precio y disponibilidad actuales",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "Estado de registro del proyecto",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Verificación con un asesor de Primadom",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "Actualidad de los datos",
+      "freshness_value": "Datos sujetos a cambios frecuentes",
+      "source_note_text": "Antes de basarte en los datos de Teal, confirma el precio actual, la disponibilidad, las condiciones de pago, los planos, la entrega, los gastos de servicio y la documentación oficial del proyecto.",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "Última actualización",
+      "last_updated_value": "junio de 2026",
+      "source_notes_title": "Qué debe verificarse",
+      "trust_sources_title": "Verificación de fuentes",
+      "verification_summary": [
+        {
+          "label": "Materiales oficiales",
+          "value": "Obligatorio"
+        },
+        {
+          "label": "Precio y disponibilidad",
+          "value": "Obligatorio"
+        },
+        {
+          "label": "Estado ante la autoridad",
+          "value": "Recomendado"
+        },
+        {
+          "label": "Verificación con un asesor",
+          "value": "Interno"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Preguntar a Primadom AI",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "Solicitar PDF del proyecto",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "Reservar una llamada",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Utiliza Primadom AI para comparar Teal, revisar el precio y la lógica del plan de pago, y preparar las preguntas adecuadas para un asesor de Primadom.",
+      "cta_title": "Revisa este proyecto antes de decidir",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "Revisaremos los detalles antes de compartir tu solicitud.",
+      "fields": {
+        "name": {
+          "label": "Nombre",
+          "html_name": "name",
+          "placeholder": "Tu nombre"
+        },
+        "phone": {
+          "label": "Teléfono",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Solicitud",
+          "html_name": "request_type",
+          "placeholder": "Plazo, tipo de unidad o pregunta"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "Cerrar",
+      "modal_title": "Pregunta por Teal",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "Borrador de solicitud",
+      "modal_status": "formula_generated",
+      "submit_label": "Enviar",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "Solicitud sobre el proyecto",
+      "success_label": "Enviado",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Estoy interesado en Teal. Envíame los detalles.",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "Cuéntanos qué estás buscando. Primadom te ayudará a comprobar disponibilidad, precios, planos y próximos pasos.",
+      "voice_button_label": "Usar voz"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/es/projects/",
+          "label": "Proyectos"
+        },
+        {
+          "key": "areas",
+          "href": "/es/areas/",
+          "label": "Zonas"
+        },
+        {
+          "key": "developers",
+          "href": "/es/developers/",
+          "label": "Desarrolladores"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "Búsqueda con AI"
+        }
+      ],
+      "address": "Dubai, EAU",
+      "copyright": "© Primadom AI",
+      "brand_href": "/es/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "Esta página te ayuda a analizar Teal, comparar los datos clave, entender la zona y preparar las preguntas adecuadas antes de hablar con un asesor de Primadom.",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "Reservar una llamada",
+        "action_intent": "call_request"
+      },
+      "statement_title": "Encuentra la propiedad adecuada en Dubai con datos de proyecto más claros y orientación con AI.",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Preguntar a AI",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

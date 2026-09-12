@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_origin_buyer_uruguay_goal_property_under_aed_2m_de",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "de",
+  "url_path": "/de/buyer-scenarios/dubai-property-under-aed-2m-for-uruguay-buyers/",
+  "canonical_url_path": "/de/buyer-scenarios/dubai-property-under-aed-2m-for-uruguay-buyers/",
+  "canonical_group_key": "origin:uruguay:goal:property-under-aed-2m",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "uruguay",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Kann ich kaufen?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Ablauf",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "Navigation für internationale Käufer",
+      "cta_label": "Beratung anfragen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/de/buyer-scenarios/",
+          "label": "Käuferszenarien"
+        },
+        {
+          "key": "current",
+          "href": "/de/buyer-scenarios/dubai-property-under-aed-2m-for-uruguay-buyers/",
+          "label": "Immobilien in Dubai unter 2 Mio. AED für Käufer aus Uruguay"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Aus Uruguay",
+        "Unter 2 Mio. AED",
+        "Budgetpassung",
+        "Immobilientyp",
+        "Gesamtkosten"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Immobilien in Dubai unter 2 Mio. AED für Käufer aus Uruguay",
+      "subtitle": "Käufer aus Uruguay sollten in diesem Szenario vor allem den aktuellen Immobilienpreis, Transaktions- und Eigentumskosten, den Immobilientyp sowie die verbleibende Budgetreserve prüfen. Vor einer Reservierung sollten die konkrete Immobilie und die aktuellen Bedingungen nochmals geprüft werden.",
+      "facts_aria": "Wichtige Punkte für dieses Käuferszenario",
+      "section_id": "overview",
+      "visual_aria": "Planungsübersicht: Immobilien in Dubai unter 2 Mio. AED für Käufer aus Uruguay",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Immobilien in Dubai unter 2 Mio. AED: die wichtigsten Kriterien vergleichen",
+        "Aktuelle Preise, Zahlungsbedingungen und objektspezifische Angaben vor der Auswahl prüfen",
+        "Welche Optionen passen zu meinem Ziel und Budget als Käufer aus Uruguay?"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Fragen Sie zu Ihrem Immobilienplan für Dubai",
+      "placeholder": "Immobilien in Dubai unter 2 Mio. AED: passende Optionen für Käufer aus Uruguay vergleichen",
+      "block_status": "final",
+      "button_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Primadom AI zu Immobilien in Dubai unter 2 Mio. AED für Käufer aus Uruguay fragen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Käufer aus Uruguay",
+        "Unter 2 Mio. AED",
+        "Budgetpassung",
+        "Gesamtkosten",
+        "Aktuelle Regeln"
+      ],
+      "title": "Können Käufer aus Uruguay mit einem Budget von 2 Mio. AED Immobilien in Dubai kaufen?",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Ja — Käufer aus Uruguay können grundsätzlich Immobilien in Dubai in Gebieten erwerben, in denen ausländisches Eigentum zulässig ist</strong>, vorbehaltlich der aktuellen Regelungen und objektspezifischen Prüfungen. Ein Budget von 2 Mio. AED sollte als Gesamtbudget betrachtet werden; aktuelle Preise, Zahlungsbedingungen und Transaktionskosten müssen für die konkrete Immobilie geprüft werden.",
+      "body_text": "Ja — Käufer aus Uruguay können grundsätzlich Immobilien in Dubai in Gebieten erwerben, in denen ausländisches Eigentum zulässig ist, vorbehaltlich der aktuellen Regelungen und objektspezifischen Prüfungen. Ein Budget von 2 Mio. AED sollte als Gesamtbudget betrachtet werden; aktuelle Preise, Zahlungsbedingungen und Transaktionskosten müssen für die konkrete Immobilie geprüft werden.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Herkunftsmarkt",
+          "value": "Uruguay"
+        },
+        {
+          "label": "Zielmarkt",
+          "value": "Dubai / VAE"
+        },
+        {
+          "label": "Ziel des Käufers",
+          "value": "Immobilie unter 2 Mio. AED"
+        },
+        {
+          "label": "Hauptschwerpunkt",
+          "value": "Ein Budget von 2 Mio. AED sinnvoll einsetzen"
+        },
+        {
+          "label": "Wichtige Prüfungen",
+          "value": "Immobilientyp · Stadtteil · Gesamtkosten"
+        },
+        {
+          "label": "Eigentumskontext",
+          "value": "Aktuelle Regeln für ausländisches Eigentum prüfen"
+        },
+        {
+          "label": "Entscheidungsphase",
+          "value": "Vor der Reservierung"
+        },
+        {
+          "label": "Nächster Schritt",
+          "value": "Realistische Optionen innerhalb des Gesamtbudgets vergleichen"
+        }
+      ],
+      "title": "Parameter des internationalen Käufers",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Legen Sie fest, welcher Anteil des Budgets nach Berücksichtigung von Transaktions- und Eigentumskosten für den Immobilienpreis verfügbar ist.",
+            "title": "1. Gesamtbudget von 2 Mio. AED festlegen"
+          },
+          {
+            "text": "Wenn Sie einzelne Schritte aus Uruguay abwickeln möchten, klären Sie, welche Teile aus der Ferne möglich sind und ob eine zusätzliche Vollmacht oder eine lokale Handlung erforderlich ist.",
+            "title": "2. Kaufweg planen"
+          },
+          {
+            "text": "Bestätigen Sie Identitätsangaben, Käuferformulare, Herkunft der Mittel, Transferweg und transaktionsspezifische Prüfungen für den konkreten Kauf.",
+            "title": "3. Dokumente und Zahlungsweg bestätigen"
+          },
+          {
+            "text": "Prüfen Sie vor der Reservierung Immobilienpreis, Zahlungsbedingungen, Transaktionskosten und Objektdetails nochmals gegen das Gesamtbudget.",
+            "title": "4. Aktuelle Bedingungen vor der Reservierung erneut prüfen"
+          }
+        ],
+        "title": "Fernkaufprozess",
+        "eyebrow": "Prozesslogik"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Halten Sie gültige Identitäts- und Käuferangaben bereit, die für die konkrete Transaktion verlangt werden.",
+            "title": "Reisepass und Käuferangaben"
+          },
+          {
+            "text": "Halten Sie aktuelle Adress- und Kontaktdaten bereit, falls diese vom Bauträger, der Bank oder im Transaktionsprozess benötigt werden.",
+            "title": "Adresse und Kontaktdaten"
+          },
+          {
+            "text": "Bestätigen Sie Herkunft der Mittel, Transferweg sowie mögliche Bank- oder Compliance-Prüfungen, bevor Sie Gelder überweisen.",
+            "title": "Herkunft der Mittel und Transferweg"
+          },
+          {
+            "text": "Halten Sie Immobilienpreis und aktuelle Transaktionskosten gemeinsam fest, wenn Sie die Grenze von 2 Mio. AED prüfen.",
+            "title": "Prüfung des Gesamtbudgets von 2 Mio. AED"
+          }
+        ],
+        "title": "Dokumente",
+        "eyebrow": "Praktische Checkliste"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Berücksichtigen Sie Transaktions- und Eigentumskosten, bevor Sie festlegen, welcher Anteil des Budgets von 2 Mio. AED für den Immobilienpreis verfügbar ist.",
+          "title": "Das Gesamtbudget von 2 Mio. AED einhalten",
+          "eyebrow": "Budgetlogik"
+        },
+        {
+          "dark": false,
+          "text": "Wenn Schritte aus Uruguay erledigt werden, bestätigen Sie Zahlungsweg, Unterschrift, Identitätsprüfungen und alle transaktionsspezifischen lokalen Anforderungen.",
+          "title": "Grenzüberschreitende Abwicklung planen",
+          "eyebrow": "Kauf aus Uruguay"
+        },
+        {
+          "dark": false,
+          "text": "Vergleichen Sie Immobilientyp, Stadtteil, Zahlungsbedingungen und Gesamtkosten, bevor Sie eine Option als passend zum Budget einordnen.",
+          "title": "Der Angebotspreis ist nicht das gesamte Budget",
+          "eyebrow": "Budgetprüfung"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Nutzen Sie Primadom AI, um Ziel, Budget, Kaufweg und Prüfungen zu vergleichen, bevor Sie mit einem Berater sprechen.",
+          "title": "Das Szenario in einen klaren Vergleich überführen",
+          "eyebrow": "AI-Beratung"
+        }
+      ],
+      "cards_aria": "Wichtige Entscheidungen für dieses Käuferszenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Prüfen Sie aktuelle Immobilienoptionen gegen das Gesamtbudget von 2 Mio. AED einschließlich sämtlicher Kosten.",
+            "title": "JVC"
+          },
+          {
+            "text": "Vergleichen Sie aktuelle Einheiten, Servicegebühren, Zahlungsbedingungen und Transaktionskosten.",
+            "title": "Arjan"
+          },
+          {
+            "text": "Vergleichen Sie aktuelle Projekte und Immobilientypen mit dem vollständigen Kaufbudget.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "Vergleichen Sie aktuelle Immobilienoptionen, Zahlungsbedingungen und gesamte Transaktionskosten.",
+            "title": "Dubailand"
+          }
+        ],
+        "title": "Zu vergleichende Stadtteile",
+        "eyebrow": "Stadtteiloptionen"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "Käufer aus Uruguay mit einem Budget von 2 Mio. AED sollten den Kaufpreis zusammen mit Transaktions- und Eigentumskosten, Immobilientyp und Zahlungsbedingungen prüfen.",
+        "tags": [
+          "Kann ich kaufen?",
+          "Budget von 2 Mio. AED",
+          "Immobilientyp",
+          "Gesamtkosten",
+          "Aktuelle Preise"
+        ],
+        "title": "Anliegen des Käufers",
+        "eyebrow": "Was zu überprüfen ist"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Öffnen Sie die realen Projektseiten der für dieses Käuferszenario verwendeten Stadtteile und prüfen Sie anschließend aktuelle Preise, Verfügbarkeit, Zahlungsbedingungen und die Eignung der konkreten Einheit, bevor Sie sich auf eine Option verlassen.",
+        "items": [
+          {
+            "href": "/de/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/de/projects/48-parkside/",
+            "meta": "Arjan",
+            "label": "48 Parkside"
+          },
+          {
+            "href": "/de/projects/aero-1-residences/",
+            "meta": "Dubai South",
+            "label": "Aero 1 Residences"
+          },
+          {
+            "href": "/de/projects/a99/",
+            "meta": "Dubailand",
+            "label": "A99"
+          },
+          {
+            "href": "/de/projects/105-residences/",
+            "meta": "Jumeirah Village Circle",
+            "label": "105 Residences"
+          }
+        ],
+        "title": "Zu überprüfende Projekte",
+        "eyebrow": "Projektoptionen",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "Wenn ein Aufenthalt in den VAE Teil Ihres Plans ist, prüfen Sie die aktuellen Golden-Visa-Kriterien separat von der Immobilienentscheidung. Das Erscheinen eines Projekts in dieser Liste bedeutet keine Visaberechtigung.",
+        "tags": [
+          "Separate Prüfung",
+          "Aktuelle Kriterien",
+          "Immobilienwert",
+          "Eigentumsstatus",
+          "Zahlungsstatus"
+        ],
+        "title": "Voraussetzungen für die Visumberechtigung separat prüfen",
+        "eyebrow": "Prüfung der Visaberechtigung",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/de/buyer-scenarios/dubai-first-time-buyer-property-for-uruguay-buyers/",
+          "label": "Erste Immobilie in Dubai für Käufer aus Uruguay"
+        },
+        {
+          "href": "/de/buyer-scenarios/dubai-payment-plan-property-for-uruguay-buyers/",
+          "label": "Immobilien mit Zahlungsplan in Dubai für Käufer aus Uruguay"
+        },
+        {
+          "href": "/de/buyer-scenarios/dubai-apartments-for-uruguay-buyers/",
+          "label": "Dubai-Apartments für Käufer aus Uruguay"
+        },
+        {
+          "href": "/de/buyer-scenarios/dubai-off-plan-property-for-uruguay-buyers/",
+          "label": "Immobilien vor Fertigstellung in Dubai für Käufer aus Uruguay"
+        }
+      ],
+      "title": "Weiter erkunden",
+      "eyebrow": "Verwandte Seiten nach Herkunftsland",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Käufer aus Uruguay können grundsätzlich Immobilien in Dubai in Gebieten erwerben, in denen ausländisches Eigentum zulässig ist, vorbehaltlich der aktuellen Regelungen und objektspezifischen Prüfungen. Ein Budget von 2 Mio. AED sollte als Gesamtbudget betrachtet werden; aktuelle Preise, Zahlungsbedingungen und Transaktionskosten müssen für die konkrete Immobilie geprüft werden.",
+          "question": "Können Käufer aus Uruguay mit einem Budget von 2 Mio. AED Immobilien in Dubai kaufen?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Rechnen Sie mit dem vollständigen Erwerbsbudget und nicht nur mit dem beworbenen Preis. Berücksichtigen Sie Transaktionskosten und vergleichen Sie anschließend, welche Immobilientypen, Lagen und Zahlungsstrukturen innerhalb von 2 Mio. AED realistisch bleiben.",
+          "question": "Was sollten Käufer aus Uruguay zuerst prüfen, wenn sie Immobilien in Dubai innerhalb eines Budgets von 2 Mio. AED erwägen?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "Als Ausgangspunkte eignen sich JVC, Arjan, Dubai South, Dubailand. Diese Auswahl ist keine Rangliste; prüfen Sie die konkrete Immobilie und die praktische Eignung, bevor Sie entscheiden.",
+          "question": "Welche Stadtteile in Dubai sollten Käufer aus Uruguay in diesem Szenario vergleichen?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "Wenn der Kauf aus Uruguay koordiniert wird, sollten Unterschrift, Geldtransfer, Identitätsprüfungen und mögliche lokale Schritte festgelegt werden. Bestätigen Sie den Ablauf für die konkrete Transaktion, bevor Sie Gelder verbindlich einsetzen.",
+          "question": "Was sollten Käufer aus Uruguay prüfen, wenn sie den Kauf aus ihrem Heimatland organisieren?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Nein. Behandeln Sie 2 Mio. AED als Gesamtbudget und prüfen Sie aktuellen Preis der konkreten Einheit, Zahlungsbedingungen und Transaktionskosten, bevor Sie entscheiden, ob ein Projekt zum Budget passt.",
+          "question": "Bedeutet ein auf dieser Seite gezeigtes Projekt, dass es aktuell unter 2 Mio. AED verfügbar ist?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen internationaler Käufer",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Diese Seite trennt für Käufer aus Uruguay allgemeine Käuferhinweise von Aussagen, die weiterhin extern bestätigt werden müssen. Vor einer Kaufentscheidung sollten Eigentumsregeln und grenzüberschreitende Transaktionsschritte geprüft werden. Zusätzlich sind aktueller Immobilienpreis, Transaktionskosten, Zahlungsbedingungen und Eignung zum Gesamtbudget von 2 Mio. AED anhand der jeweils zuständigen offiziellen oder aktuellen Quelle zu prüfen.",
+      "items": [
+        {
+          "label": "Eigentumsregeln",
+          "value": "Offizielle Überprüfung ausstehend"
+        },
+        {
+          "label": "Grenzüberschreitender Kaufprozess",
+          "value": "Fallspezifische Prüfung"
+        },
+        {
+          "label": "Budgetpassung",
+          "value": "Aktuelle Preisprüfung erforderlich"
+        },
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Projektprüfung erforderlich"
+        },
+        {
+          "label": "Quellenstatus",
+          "value": "Quellenprüfung ausstehend"
+        }
+      ],
+      "title": "Hinweise zur Überprüfung",
+      "eyebrow": "Quellen und Überprüfung",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Prüfen Sie aktuelle Preise, Transaktionskosten, Zahlungsbedingungen und Immobilientypen innerhalb des vollständigen Gesamtbudgets, bevor Sie einzelne Optionen vergleichen.",
+      "title": "Suchen Sie als Käufer aus Uruguay Immobilien in Dubai innerhalb eines Gesamtbudgets von 2 Mio. AED?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Meinen Plan prüfen",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Beratungsformular für internationale Käufer",
+      "text": "Teilen Sie uns als Käufer aus Uruguay Ihren bevorzugten Immobilientyp und Ihre Kaufprioritäten mit. Primadom AI bereitet den passenden Kontext vor, bevor ein Berater Ihre Anfrage prüft.",
+      "title": "Ihr Dubai-Budget von 2 Mio. AED prüfen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Ihr Dubai-Budget von 2 Mio. AED prüfen",
+      "eyebrow": "Überprüfung des Kaufplans",
+      "success": "Gesendet",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Schließen",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI hilft Käufern aus Uruguay, Ziel, Kosten, Kaufweg und objektspezifische Prüfungen zu strukturieren, bevor konkrete Immobilien mit einem Berater geprüft werden.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Immobilien in Dubai unter 2 Mio. AED für Käufer aus Uruguay",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Social-Media-Links von Primadom AI",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "AI fragen"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

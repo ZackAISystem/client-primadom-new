@@ -1,0 +1,673 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_jumeirah_bay_island_ar",
+  "page_type_id": "district_page",
+  "language_code": "ar",
+  "url_path": "/ar/areas/jumeirah-bay-island/",
+  "canonical_url_path": "/ar/areas/jumeirah-bay-island/",
+  "canonical_group_key": "district:jumeirah-bay-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-bay-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_area_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_developers",
+    "block_10_landmarks_location",
+    "block_11_similar_districts",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#top-projects",
+          "label": "أفضل المشاريع",
+          "active": true
+        },
+        {
+          "href": "#area-fit",
+          "label": "لمن يناسب",
+          "active": false
+        },
+        {
+          "href": "#location",
+          "label": "الموقع",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#districtLeadModal",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#districtLeadModal",
+      "brand_url": "/ar/",
+      "cta_label": "اعرض خياراتي",
+      "block_status": "formula_generated",
+      "schema_version": "district_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "areas",
+          "href": "/ar/areas/",
+          "label": "مناطق الإمارات"
+        },
+        {
+          "key": "city",
+          "href": "/ar/areas/dubai/",
+          "label": "Dubai",
+          "label_ref": "entity.city"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/jumeirah-bay-island/",
+          "label": "Jumeirah Bay Island",
+          "label_ref": "entity.name"
+        }
+      ],
+      "url_section": "areas",
+      "block_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_breadcrumbs_v1"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "image": {
+        "alt": "صورة لمنطقة Jumeirah Bay Island في Dubai",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "needs_media"
+      },
+      "title": "دليل منطقة Jumeirah Bay Island",
+      "emirate": "Dubai",
+      "gallery": [],
+      "subtitle": "تقع Jumeirah Bay Island في Dubai، ويعكس ملف الحي هذه السمات: ساحلي · جزيرة. وتختلف أنماط السكن والتطوير والخدمات بحسب الموقع والمشروعات المحيطة.",
+      "info_label": "ملف المنطقة",
+      "info_value": "جزيرة · يرتكز على السكن",
+      "hero_status": "agent_written",
+      "district_name": "Jumeirah Bay Island",
+      "schema_version": "district_hero_v1"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "ابحث عن مشاريع في Jumeirah Bay Island تناسب ميزانيتي وجدولي الزمني",
+        "قارن Jumeirah Bay Island بأحياء مشابهة في الإمارات",
+        "هل Jumeirah Bay Island أفضل للسكن أم للاستثمار؟",
+        "اشرح قيمة الموقع في Dubai"
+      ],
+      "prompts": [
+        "ابحث عن مشاريع في Jumeirah Bay Island تناسب ميزانيتي وجدولي الزمني",
+        "قارن Jumeirah Bay Island بأحياء مشابهة في الإمارات",
+        "هل Jumeirah Bay Island أفضل للسكن أم للاستثمار؟",
+        "اشرح قيمة الموقع في Dubai"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "اسأل AI",
+      "voice_text": "اسأل عن هذا الحي",
+      "placeholder": "اسأل عن Jumeirah Bay Island أو المشاريع أو نمط الحياة أو الموقع أو المخاطر أو الأحياء المشابهة",
+      "block_status": "formula_generated",
+      "button_label": "اسأل",
+      "voice_status": "جارٍ الاستماع…",
+      "ai_voice_text": "ابحث عن مشاريع في Jumeirah Bay Island تناسب ميزانيتي ونمط حياتي وجدولي الزمني.",
+      "ai_placeholder": "ابحث عن مشاريع في Jumeirah Bay Island تناسب ميزانيتي ونمط حياتي وجدولي الزمني.",
+      "schema_version": "district_ai_search_v1",
+      "ai_voice_status": "جارٍ الاستماع…",
+      "form_aria_label": "اسأل Primadom AI عن Jumeirah Bay Island",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "جزيرة",
+        "واجهة مائية",
+        "يغلب عليه الطابع السكني",
+        "مناسب للعائلات"
+      ],
+      "title": "خلاصة سريعة",
+      "eyebrow": "إجابة مختصرة محسّنة لـ AI",
+      "body_html": "<strong>Jumeirah Bay Island</strong> منطقة في Dubai، ويعكس ملفها هذه السمات: ساحلي · جزيرة. وتتحدد ملاءمتها للمشترين وفق نمط الحياة (واجهة مائية · يغلب عليه طابع المنتجعات · هادئ)، واعتبارات العائلات (بيئة هادئة · مجتمع مسوّر · منازل واسعة)، وسياق الاستثمار (ملكية طويلة الأجل)، مع ضرورة التحقق من بيانات المشاريع الحالية قبل اتخاذ القرار.",
+      "body_source": "src_district_summary_short_fallback_src_district_overview",
+      "chip_source": "src_district_tags_src_lifestyle_tags_src_investor_tags_src_family_tags",
+      "source_status": "prototype_inputs_needs_sources",
+      "schema_version": "district_short_verdict_v1",
+      "summary_status": "source_rewritten_unique_final"
+    },
+    "block_06_area_facts": {
+      "note": "تحتاج الأسعار والتوافر وتفاصيل المشروعات إلى تحقق مباشر قبل اتخاذ قرار الشراء.",
+      "items": [
+        {
+          "label": "المدينة",
+          "value": "Dubai"
+        },
+        {
+          "label": "الإمارة",
+          "value": "Dubai"
+        },
+        {
+          "label": "ملف الحي",
+          "value": "ساحلي · جزيرة"
+        },
+        {
+          "label": "الملاءمة الأفضل",
+          "value": "المستثمرون · العائلات · مشترو نمط الحياة"
+        },
+        {
+          "label": "طابع نمط الحياة",
+          "value": "هادئ · راقٍ · واجهة شاطئية"
+        },
+        {
+          "label": "إشارات نمط الحياة",
+          "value": "واجهة مائية · يغلب عليه طابع المنتجعات · هادئ"
+        },
+        {
+          "label": "منظور الاستثمار",
+          "value": "ملكية طويلة الأجل"
+        },
+        {
+          "label": "منظور العائلات",
+          "value": "بيئة هادئة · مجتمع مسوّر · منازل واسعة"
+        },
+        {
+          "label": "مطابقة المشاريع",
+          "value": "بيانات المطورين المرتبطة متاحة"
+        }
+      ],
+      "title": "حقائق عن الحي",
+      "eyebrow": "ما يجب معرفته",
+      "facts_status": "taxonomy_normalized",
+      "schema_version": "district_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "ملاءمة المشتري",
+        "eyebrow": "ملاءمة المشتري",
+        "good_for": [
+          "المشترون الذين يقارنون مناطق بملف ساحلي · جزيرة في Dubai",
+          "المشترون الذين تتوافق أولويات نمط حياتهم مع مؤشرات الحي: واجهة مائية · يغلب عليه طابع المنتجعات · هادئ",
+          "ملفات بحث تستهدف هذه الشرائح: المستثمرون · العائلات · مشترو نمط الحياة"
+        ],
+        "less_for": [
+          "المشترون الذين يحتاجون إلى توافر مؤكد للمشاريع قبل إعداد القائمة المختصرة",
+          "المشترون الذين يعتمدون فقط على أسعار أو عوائد أو رسوم خدمات مفترضة",
+          "العملاء الذين لا يتوافق نمط حياتهم المفضل أو نوع العقار المطلوب لديهم مع ملف الحي"
+        ],
+        "good_for_title": "مناسب لـ",
+        "less_for_title": "قد لا يكون مناسبًا لـ",
+        "buyer_fit_status": "source_normalized"
+      },
+      "area_logic": {
+        "body": "تقع Jumeirah Bay Island في Dubai، ويعكس ملفها هذه السمات: ساحلي · جزيرة. وتظهر ملامح نمط الحياة في: واجهة مائية · يغلب عليه طابع المنتجعات · هادئ. وقبل إعداد قائمة مختصرة، ينبغي تقييم ملاءمة الحي للمشتري مع مراعاة اعتبارات العائلات (بيئة هادئة · مجتمع مسوّر · منازل واسعة) وبيانات المشاريع الموثقة.",
+        "tags": [
+          "ساحلي · جزيرة",
+          "هادئ · راقٍ · واجهة شاطئية",
+          "بيئة هادئة · مجتمع مسوّر · منازل واسعة",
+          "بيانات المطورين المرتبطة متاحة"
+        ],
+        "title": "لماذا هذه المنطقة مهمة",
+        "eyebrow": "منطق المنطقة",
+        "logic_status": "source_normalized"
+      },
+      "block_status": "source_normalized_final",
+      "schema_version": "buyer_fit_logic_v1"
+    },
+    "block_08_decision_cards": {
+      "cards_status": "source_rewritten_unique_editorial_clean_final",
+      "decision_cards": [
+        {
+          "text": "يعكس Jumeirah Bay Island نمط حياة بسمات: واجهة مائية · يغلب عليه طابع المنتجعات · هادئ، ضمن طابع الحي وإيقاع الحياة اليومية في Dubai.",
+          "title": "سياق نمط الحياة",
+          "eyebrow": "منطق نمط الحياة",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "يرتبط السياق الاستثماري في Jumeirah Bay Island بالملكية طويلة الأجل، مع ضرورة مقارنة جودة المطور ورسوم الخدمات وشروط الدفع والتوافر الموثق قبل اتخاذ القرار.",
+          "title": "سياق الاستثمار",
+          "eyebrow": "منطق الاستثمار",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "text": "تُقيَّم ملاءمة Jumeirah Bay Island للعائلات استنادًا إلى هذه المؤشرات: بيئة هادئة · مجتمع مسوّر · منازل واسعة، مع مراعاة نوع السكن والتنقل اليومي والخدمات والمساحات المفتوحة.",
+          "title": "سياق العائلات",
+          "eyebrow": "منطق العائلات",
+          "text_status": "source_rewritten_unique"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة خيارات Jumeirah Bay Island حسب الميزانية ونوع الوحدة والإطلالة وخطة الدفع والتسليم ورسوم الخدمات وملاءمة الموقع والتوافر الفعلي قبل قرار الشراء.",
+          "title": "مطابقة بمساعدة AI",
+          "eyebrow": "سياق AI",
+          "text_status": "formula_generated_safe_context"
+        }
+      ],
+      "schema_version": "district_decision_cards_v1"
+    },
+    "block_09_projects_developers": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/bulgari-lighthouse/",
+            "name": "Bulgari Lighthouse",
+            "rank": 1,
+            "context": "تطوير سكني",
+            "project_id": "project_bulgari_lighthouse",
+            "developer_id": "developer_meraas_holding",
+            "match_status": "verified_graph_link",
+            "project_slug": "bulgari-lighthouse",
+            "source_status": "missing",
+            "developer_name": "Meraas Holding",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/ar/projects/sea-mirror-residences/",
+            "name": "Sea Mirror Residences",
+            "rank": 2,
+            "context": "تطوير سكني",
+            "project_id": "project_sea_mirror_residences",
+            "developer_id": "developer_lamar_development",
+            "match_status": "verified_graph_link",
+            "project_slug": "sea-mirror-residences",
+            "source_status": "missing",
+            "developer_name": "Lamar Development",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/ar/projects/bulgari-ocean-mansions/",
+            "name": "Bulgari Ocean Mansions",
+            "rank": 3,
+            "context": "تطوير سكني",
+            "project_id": "project_bulgari_ocean_mansions",
+            "developer_id": "developer_meraas_holding",
+            "match_status": "verified_graph_link",
+            "project_slug": "bulgari-ocean-mansions",
+            "source_status": "missing",
+            "developer_name": "Meraas Holding",
+            "data_confidence": "medium"
+          },
+          {
+            "href": "/ar/projects/bvlgari-marina-lofts/",
+            "name": "BVLGARI Marina Lofts",
+            "rank": 4,
+            "context": "تطوير على الواجهة المائية",
+            "project_id": "project_bvlgari_marina_lofts",
+            "developer_id": "developer_meraas_holding",
+            "match_status": "verified_graph_link",
+            "project_slug": "bvlgari-marina-lofts",
+            "source_status": "missing",
+            "developer_name": "Meraas Holding",
+            "data_confidence": "medium"
+          }
+        ],
+        "title": "أفضل المشاريع في Jumeirah Bay Island",
+        "eyebrow": "الرسم البياني التجاري",
+        "ranking_method": "active_graph_links_confidence_completeness_developer_diversity",
+        "selected_count": 4,
+        "matching_source": "entities.project_district_links",
+        "projects_status": "matched_from_supabase_graph",
+        "total_linked_projects": 5
+      },
+      "block_status": "final",
+      "schema_version": "projects_developers_v1",
+      "developer_presence": {
+        "body": "تتضمن Jumeirah Bay Island مشروعات مرتبطة بمطورين مثل Meraas Holding، Lamar Development. وتختلف جودة المشروع والإدارة والتكاليف وشروط التسليم بين المشروعات، لذلك ينبغي تقييم كل خيار على حدة.",
+        "tags": [
+          "Meraas Holding",
+          "Lamar Development"
+        ],
+        "title": "منطق المطورين العقاريين",
+        "eyebrow": "وجود المطورين العقاريين",
+        "matching_source": "entities.project_developer_links",
+        "developer_status": "matched_from_supabase_graph",
+        "linked_developer_count": 2
+      }
+    },
+    "block_10_landmarks_location": {
+      "map": {
+        "lat": null,
+        "lng": null,
+        "text": "تقع Jumeirah Bay Island في Dubai. استخدم الخريطة الحالية لمراجعة موقع الحي والأماكن القريبة.",
+        "label": "Jumeirah Bay Island, Dubai, UAE",
+        "title": "سياق الموقع والخريطة",
+        "eyebrow": "سياق الخريطة",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=Jumeirah+Bay+Island%2C+Dubai%2C+UAE",
+        "disclaimer": "يجب التحقق من المسافة الدقيقة ووقت التنقل وسهولة الوصول باستخدام الخرائط الحالية.",
+        "map_status": "search_link_ready",
+        "point_label": "نقطة على الخريطة",
+        "address_label": "العنوان",
+        "area_guide_url": "/ar/areas/jumeirah-bay-island/",
+        "open_map_label": "افتح الخريطة",
+        "area_guide_label": "دليل المنطقة"
+      },
+      "landmarks": {
+        "items": [
+          {
+            "meta": "وجهة ترفيهية للزوار",
+            "type": "leisure",
+            "title": "Bulgari Resort Dubai",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "سياق الواجهة المائية والساحل",
+            "type": "waterfront",
+            "title": "Bulgari Marina",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "سياق أحياء قريبة",
+            "type": "landmark",
+            "title": "شواطئ خاصة",
+            "item_status": "normalized_source"
+          },
+          {
+            "meta": "سياق أحياء قريبة",
+            "type": "landmark",
+            "title": "Proximity to the Jumeirah Coastline",
+            "item_status": "normalized_source"
+          }
+        ],
+        "title": "المعالم والسياق المحيط",
+        "eyebrow": "أماكن قريبة",
+        "landmarks_status": "normalized_source"
+      },
+      "url_section": "areas",
+      "block_status": "final_clean_verified_v4",
+      "schema_version": "landmarks_location_v4"
+    },
+    "block_11_similar_districts": {
+      "items": [
+        {
+          "href": "/ar/areas/the-world-islands/",
+          "rank": 1,
+          "title": "The World Islands",
+          "match_reason": "ملف مشابه لجزيرة وواجهة مائية",
+          "district_slug": "the-world-islands"
+        },
+        {
+          "href": "/ar/areas/palm-jumeirah/",
+          "rank": 2,
+          "title": "Palm Jumeirah",
+          "match_reason": "ملف مشابه لجزيرة وواجهة مائية",
+          "district_slug": "palm-jumeirah"
+        },
+        {
+          "href": "/ar/areas/emaar-beachfront/",
+          "rank": 3,
+          "title": "Emaar Beachfront",
+          "match_reason": "ملف مشابه لجزيرة وواجهة مائية",
+          "district_slug": "emaar-beachfront"
+        },
+        {
+          "href": "/ar/areas/dubai-islands/",
+          "rank": 4,
+          "title": "Dubai Islands",
+          "match_reason": "ملف مشابه لجزيرة وواجهة مائية",
+          "district_slug": "dubai-islands"
+        }
+      ],
+      "title": "أحياء مشابهة",
+      "eyebrow": "البدائل"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "تتمتع Jumeirah Bay Island بملف ساحلي · جزيرة وسياق جزيرة، مع إشارات لنمط الحياة تشمل واجهة مائية · يغلب عليه طابع المنتجعات · هادئ. وتختلف ملاءمة الشراء حسب الموقع داخل المنطقة ونوع العقار والتكاليف والمشروعات الموثقة.",
+          "question": "ما طبيعة الحي الجزري في Jumeirah Bay Island؟"
+        },
+        {
+          "answer": "تُعد Jumeirah Bay Island أكثر ملاءمة للمشترين الذين يقارنون السكن في الجزر والواجهات المائية في Dubai. وتعتمد الملاءمة النهائية على نوع العقار وتكاليف الملكية ورسوم الخدمات والإطلالة وسهولة الوصول والتوافر الموثق.",
+          "question": "من ينبغي أن يفكر في شراء عقار في Jumeirah Bay Island؟"
+        },
+        {
+          "answer": "يتضمن Primadom حاليًا 4 ملفات مشاريع مرتبطة بمنطقة Jumeirah Bay Island. وينبغي للمشترين مقارنتها حسب نوع العقار والمطور العقاري وشروط الدفع والتسليم ورسوم الخدمات والتوافر الحالي الموثق.",
+          "question": "ما خيارات المشاريع المرتبطة بمنطقة Jumeirah Bay Island؟"
+        },
+        {
+          "answer": "ينبغي للمشترين في Jumeirah Bay Island مقارنة نوع العقار وموقعه على الواجهة المائية والإطلالة وسهولة الوصول ورسوم الخدمات وإدارة المبنى وشروط الدفع والتوافر الحالي الموثق.",
+          "question": "ما الذي ينبغي للمشترين مقارنته قبل اختيار عقار في جزيرة Jumeirah Bay Island؟"
+        },
+        {
+          "answer": "تحقق من المشروع والمطور العقاري ونوع العقار وموقعه على الواجهة المائية والإطلالة والسعر وشروط الدفع والتسليم ورسوم الخدمات والوثائق الرسمية والتوافر الحالي قبل اختيار عقار في Jumeirah Bay Island.",
+          "question": "ما الذي ينبغي للمشترين التحقق منه قبل اختيار مشروع في Jumeirah Bay Island؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة المشترين"
+    },
+    "block_13_trust_sources": {
+      "items": [
+        {
+          "href": "",
+          "label": "بيانات الجهات العقارية الرسمية",
+          "value": "ستُرفق سجلات الحي والمعاملات خلال مرحلة التحقق من المصادر.",
+          "link_status": "pending",
+          "source_type": "authority"
+        },
+        {
+          "href": "",
+          "label": "المواد الرسمية للمطور العقاري",
+          "value": "سيتم التحقق من تفاصيل المشاريع والإطلاقات ومعلومات المطورين مقابل المواد الرسمية.",
+          "link_status": "pending",
+          "source_type": "developer"
+        },
+        {
+          "href": "",
+          "label": "مطابقة المشاريع في Primadom",
+          "value": "سيتم التحقق من المشاريع والمطورين المرتبطين مقابل قاعدة بيانات Primadom.",
+          "link_status": "pending",
+          "source_type": "internal_graph"
+        },
+        {
+          "href": "#districtLeadModal",
+          "label": "التوافر الحالي",
+          "value": "تحتاج الوحدات والأسعار وخطط الدفع إلى تحقق من التوافر الحالي.",
+          "link_status": "check_required",
+          "source_type": "availability"
+        }
+      ],
+      "title": "المصادر والتحقق",
+      "status": "التحقق من المصادر قيد الانتظار",
+      "eyebrow": "التحقق",
+      "source_notes": {
+        "body": "تعتمد معلومات Jumeirah Bay Island حاليًا على ملف الحي المُعدّ. ستُضاف سجلات الجهات الرسمية ومواد المطورين وروابط المشاريع الموثقة وبيانات التوافر الحالية خلال مرحلة التحقق من المصادر.",
+        "title": "ملاحظة مصدر",
+        "last_checked": "لم يتم التحقق بعد"
+      }
+    },
+    "block_14_cta": {
+      "text": "أخبر Primadom AI بما تبحث عنه — سنضيّق الخيارات ونوجّه الطلب إلى مستشار.",
+      "title": "ابحث عن المشاريع المناسبة في Jumeirah Bay Island",
+      "actions": [
+        {
+          "key": "find_projects",
+          "href": "#districtLeadModal",
+          "label": "ابحث عن المشاريع",
+          "primary": true,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "area_project_search"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#ask-ai",
+          "label": "اسأل Primadom AI",
+          "primary": false,
+          "open_modal": false,
+          "action_intent": "ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#districtLeadModal",
+          "label": "اطلب مكالمة",
+          "primary": false,
+          "open_modal": true,
+          "modal_target": "#districtLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "formula_generated_final",
+      "schema_version": "district_cta_v1_1"
+    },
+    "block_15_lead_modal": {
+      "note": "سنتحقق من التفاصيل قبل مشاركة طلبك.",
+      "text": "أخبرنا بما تبحث عنه. سيُعد Primadom AI سياق مطابقة مختصرًا قبل أن يتواصل معك مستشار.",
+      "title": "ابحث عن مشاريع في Jumeirah Bay Island",
+      "fields": {
+        "name": "الاسم",
+        "phone": "الهاتف / WhatsApp",
+        "request": "الطلب"
+      },
+      "submit": "إرسال",
+      "comment": "أنا مهتم بمنطقة Jumeirah Bay Island. يرجى إرسال المشاريع المناسبة.",
+      "eyebrow": "طلب مشروع",
+      "success": "تم الإرسال",
+      "ai_badge": "Primadom AI",
+      "modal_id": "districtLeadModal",
+      "title_id": "districtLeadTitle",
+      "close_label": "إغلاق",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "project_graph_ref": "supabase_project_district_links",
+        "developer_graph_ref": "supabase_project_developer_links"
+      },
+      "ai_row_badge": "مسودة الطلب",
+      "field_config": {
+        "name": {
+          "label": "الاسم",
+          "html_name": "name",
+          "placeholder": "اسمك"
+        },
+        "phone": {
+          "label": "الهاتف / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "request": {
+          "label": "الطلب",
+          "html_name": "request_type",
+          "placeholder": "مشروع أو منطقة أو سؤال"
+        }
+      },
+      "modal_status": "formula_generated",
+      "submit_label": "إرسال",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "emirate": {
+          "html_name": "emirate",
+          "value_ref": "emirate"
+        },
+        "district_key": {
+          "html_name": "district_key",
+          "value_ref": "district_slug"
+        },
+        "district_name": {
+          "html_name": "district_name",
+          "value_ref": "district_name"
+        }
+      },
+      "success_label": "تم الإرسال",
+      "schema_version": "district_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "أنا مهتم بمنطقة Jumeirah Bay Island. يرجى إرسال المشاريع المناسبة.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_matching",
+          "unit_type",
+          "timing",
+          "view",
+          "payment_plan"
+        ]
+      },
+      "voice_button_label": "استخدم الإدخال الصوتي"
+    },
+    "block_16_footer": {
+      "text": "تساعدك هذه الصفحة على مراجعة Jumeirah Bay Island وفهم سياق الحي ومقارنة المشاريع المرتبطة وإعداد الأسئلة المناسبة قبل التحدث مع مستشار Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/ar/projects/",
+          "label": "المشاريع"
+        },
+        {
+          "key": "areas",
+          "href": "/ar/areas/",
+          "label": "الأحياء"
+        },
+        {
+          "key": "developers",
+          "href": "/ar/developers/",
+          "label": "المطورون العقاريون"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "بحث AI"
+        }
+      ],
+      "title": "اعثر على العقار المناسب في الإمارات ببيانات أوضح عن الأحياء وإرشادات AI.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, UAE",
+      "subtitle": "معلومات عقارية في الإمارات",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "url_section": "areas",
+      "agent_inputs": {
+        "city_ref": "city",
+        "emirate_ref": "emirate",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug"
+      },
+      "footer_status": "formula_generated_supabase_area_url",
+      "schema_version": "district_footer_v1",
+      "contact_primary": {
+        "href": "#districtLeadModal",
+        "label": "احجز مكالمة",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "اسأل AI",
+        "action_intent": "district_question"
+      }
+    }
+  }
+}

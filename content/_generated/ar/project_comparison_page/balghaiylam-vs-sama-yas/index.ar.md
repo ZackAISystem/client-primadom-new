@@ -1,0 +1,10 @@
+---
+title: "Balghaiylam مقابل Sama Yas"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "balghaiylam-vs-sama-yas"
+page_id: "project_comparison__balghaiylam__vs__sama-yas__ar"
+url: "/ar/compare-projects/balghaiylam-vs-sama-yas/"
+build:
+  render: always
+  list: never
+---

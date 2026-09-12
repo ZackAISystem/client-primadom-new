@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__artist-hotel__vs__portofino-hotel__fr",
+  "page_type_id": "project_comparison_page",
+  "language_code": "fr",
+  "url_path": "/fr/compare-projects/artist-hotel-vs-portofino-hotel/",
+  "canonical_url_path": "/fr/compare-projects/artist-hotel-vs-portofino-hotel/",
+  "canonical_group_key": "project_comparison:artist-hotel:vs:portofino-hotel",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "artist-hotel",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Comparer avec mon cas",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Aperçu",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projets"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Comparer"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Demander à AI"
+        }
+      ],
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation de comparaison de projets",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/fr/compare-projects/",
+          "label": "Comparaisons de projets"
+        },
+        {
+          "key": "comparison",
+          "href": "/fr/compare-projects/artist-hotel-vs-portofino-hotel/",
+          "label": "Artist Hotel vs Portofino Hotel",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Projet A : Artist Hotel",
+        "Projet B : Portofino Hotel",
+        "Comparaison à The World Islands",
+        "AED 3.1M vs AED 2.1M",
+        "Prix d’entrée et livraison"
+      ],
+      "title": "Artist Hotel vs Portofino Hotel",
+      "subtitle": "À The World Islands, comparez Artist Hotel et Portofino Hotel selon les types de biens, la plage de chambres, le prix d’entrée et le calendrier de livraison.",
+      "project_a": {
+        "name": "Artist Hotel",
+        "slug": "artist-hotel",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Portofino Hotel",
+        "slug": "portofino-hotel",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Contexte clé pour Artist Hotel et Portofino Hotel",
+      "section_id": "overview",
+      "visual_aria": "Bannière de comparaison pour Artist Hotel et Portofino Hotel",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Posez une question sur le prix, la typologie des unités, la livraison ou l’adéquation à l’acheteur.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Artist Hotel ou Portofino Hotel — lequel vous convient ?",
+        "Comparer le prix, les unités et la livraison",
+        "Que dois-je vérifier avant de choisir ?"
+      ],
+      "title": "Comparer Artist Hotel et Portofino Hotel",
+      "ai_aria": "Demander à Primadom AI de comparer Artist Hotel et Portofino Hotel",
+      "eyebrow": "Demander à AI",
+      "prompts": [
+        "Comparer Artist Hotel et Portofino Hotel selon mon objectif d’achat. Examiner le contexte de prix disponible, les types de biens, la plage de chambres et la livraison, et signaler clairement tout élément nécessitant une vérification en temps réel.",
+        "Comparer Artist Hotel et Portofino Hotel selon le contexte du prix de départ, les types d’unités, la plage de chambres et la livraison prévue. Identifier clairement les informations manquantes ou non vérifiées.",
+        "Que doit vérifier un acheteur avant de choisir entre Artist Hotel et Portofino Hotel ? Couvrir les prix actuels, la disponibilité, les modalités de paiement, le statut de livraison et l’adéquation à l’objectif de l’acheteur."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Demander à AI",
+      "input_aria": "Question AI sur la comparaison de projets",
+      "section_id": "compare-ai-search",
+      "voice_text": "Poser une question sur cette comparaison de projets",
+      "placeholder": "Demander à AI de comparer ces deux projets",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "button_label": "Demander",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "ai_voice_text": "Comparer Artist Hotel et Portofino Hotel selon mon objectif d’achat",
+      "ai_placeholder": "Demander à AI de comparer ces deux projets",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Écoute…",
+      "form_aria_label": "Demander à Primadom AI de comparer Artist Hotel et Portofino Hotel",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Même quartier",
+        "Même développeur",
+        "AED 3.1M vs AED 2.1M",
+        "Livraison 2027 vs 2024"
+      ],
+      "title": "Recommandation rapide",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Artist Hotel</strong> peut convenir aux acheteurs privilégiant l’unité exacte et l’agencement disponible, tandis que <strong>Portofino Hotel</strong> peut davantage convenir à ceux qui recherchent le prix d’entrée enregistré le plus bas. <strong>Artist Hotel</strong> propose des appartements, 1 chambre, à partir de AED 3.1M, livraison 2027, tandis que <strong>Portofino Hotel</strong> propose des appartements, 1 à 2 chambres, à partir de AED 2.1M, livraison 2024.",
+      "body_text": "Artist Hotel peut convenir aux acheteurs privilégiant l’unité exacte et l’agencement disponible, tandis que Portofino Hotel peut davantage convenir à ceux qui recherchent le prix d’entrée enregistré le plus bas. Artist Hotel propose des appartements, 1 chambre, à partir de AED 3.1M, livraison 2027, tandis que Portofino Hotel propose des appartements, 1 à 2 chambres, à partir de AED 2.1M, livraison 2024.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Projet A",
+          "value": "Artist Hotel"
+        },
+        {
+          "label": "Projet B",
+          "value": "Portofino Hotel"
+        },
+        {
+          "label": "Contexte de la zone",
+          "value": "Les deux projets à The World Islands"
+        },
+        {
+          "label": "Contexte des développeurs",
+          "value": "Les deux projets sont développés par Kleindienst Group"
+        },
+        {
+          "label": "Prix de départ",
+          "value": "AED 3.1M vs AED 2.1M"
+        },
+        {
+          "label": "Types de biens",
+          "value": "Les deux : Appartement"
+        },
+        {
+          "label": "Chambres",
+          "value": "1 chambre vs 1–2 chambres"
+        },
+        {
+          "label": "Livraison",
+          "value": "2027 vs 2024"
+        }
+      ],
+      "title": "Détails de la comparaison",
+      "eyebrow": "Données clés",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Artist Hotel",
+          "slug": "artist-hotel",
+          "text": "Artist Hotel est un projet orienté vers un cadre de vie en bord de mer situé à The World Islands et développé par Kleindienst Group. Les données enregistrées indiquent que la typologie enregistrée comprend des appartements; la plage enregistrée va de 1 chambre; le prix de départ enregistré est de AED 3.1M; la livraison enregistrée est prévue en 2027. Le profil actuel d’adéquation s’adresse aux acheteurs envisageant un investissement résidentiel.",
+          "points": [
+            "The World Islands · Par Kleindienst Group",
+            "Appartement · 1 chambre",
+            "À partir de AED 3.1M · Livraison 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Portofino Hotel",
+          "slug": "portofino-hotel",
+          "text": "Portofino Hotel est un projet orienté vers un cadre de vie en bord de mer situé à The World Islands et développé par Kleindienst Group. Les données enregistrées indiquent que la typologie enregistrée comprend des appartements; la plage enregistrée va de 1 à 2 chambres; le prix de départ enregistré est de AED 2.1M; la livraison enregistrée est prévue en 2024. Le profil actuel d’adéquation s’adresse aux acheteurs recherchant un logement adapté à la vie familiale.",
+          "points": [
+            "The World Islands · Par Kleindienst Group",
+            "Appartement · 1–2 chambres",
+            "À partir de AED 2.1M · Livraison 2024"
+          ]
+        }
+      ],
+      "title": "Résumé des projets",
+      "eyebrow": "En un coup d’œil",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Les deux projets sont situés à The World Islands; la localisation n’est donc pas le principal critère de différenciation. Les deux projets sont développés par Kleindienst Group; la comparaison doit surtout porter sur la typologie des unités, le prix, les services et la livraison. Les prix de départ enregistrés sont de AED 3.1M pour Artist Hotel et de AED 2.1M pour Portofino Hotel. Les livraisons enregistrées sont prévues en 2027 pour Artist Hotel et en 2024 pour Portofino Hotel.",
+        "tags": [
+          "Même quartier",
+          "Même développeur",
+          "Écart de prix enregistré",
+          "Même typologie de biens",
+          "Disponibilité en temps réel"
+        ],
+        "title": "Logique au niveau du projet",
+        "eyebrow": "Comment comparer"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Critère",
+        "project_a": "Artist Hotel",
+        "project_b": "Portofino Hotel"
+      },
+      "rows": [
+        {
+          "factor": "Prix de départ",
+          "project_a": "À partir de AED 3.1M",
+          "project_b": "À partir de AED 2.1M"
+        },
+        {
+          "factor": "Localisation",
+          "project_a": "The World Islands",
+          "project_b": "The World Islands"
+        },
+        {
+          "factor": "Développeur",
+          "project_a": "Kleindienst Group",
+          "project_b": "Kleindienst Group"
+        },
+        {
+          "factor": "Types de biens",
+          "project_a": "Appartement",
+          "project_b": "Appartement"
+        },
+        {
+          "factor": "Chambres",
+          "project_a": "1 chambre",
+          "project_b": "1–2 chambres"
+        },
+        {
+          "factor": "Livraison",
+          "project_a": "2027",
+          "project_b": "2024"
+        },
+        {
+          "factor": "Profil du projet",
+          "project_a": "Cadre de vie en bord de mer",
+          "project_b": "Cadre de vie en bord de mer"
+        }
+      ],
+      "title": "Tableau comparatif des projets",
+      "eyebrow": "Artist Hotel vs Portofino Hotel",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Les prix de départ enregistrés sont de AED 3.1M pour Artist Hotel et de AED 2.1M pour Portofino Hotel. Comparez le même type d’unité, la même surface et le coût total avant d’évaluer la valeur.",
+          "title": "L’écart de prix d’entrée compte",
+          "eyebrow": "Prix et unités",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Les deux projets sont situés à The World Islands. Comparez l’accès, la position du bâtiment ou de la parcelle, l’offre à proximité et la praticité au quotidien.",
+          "title": "Même quartier : comparer la micro-localisation",
+          "eyebrow": "Adéquation de la localisation",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "La livraison enregistrée est prévue en 2027 pour Artist Hotel et en 2024 pour Portofino Hotel. Comparez la manière dont chaque calendrier correspond à votre emménagement prévu ou à votre usage d’investissement.",
+          "title": "Des dates de livraison différentes peuvent changer le choix",
+          "eyebrow": "Calendrier",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Demandez à Primadom AI de comparer Artist Hotel et Portofino Hotel selon le type d’unité, le prix enregistré, la localisation, la livraison et l’usage prévu, puis de préparer les principales questions à poser à un conseiller.",
+          "title": "Comparer selon votre objectif",
+          "eyebrow": "Demander à AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Notes de décision sur les projets"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "À qui convient chaque projet",
+        "eyebrow": "Adéquation à l’acheteur",
+        "project_a_items": [
+          "Vous acceptez son prix de départ enregistré plus élevé de AED 3.1M après vérification de l’unité exacte et du coût total.",
+          "Vous préférez un cadre de vie en bord de mer à The World Islands pour votre usage prévu.",
+          "Vous recherchez des appartements, avec des configurations allant 1 chambre, et une livraison enregistrée en 2027."
+        ],
+        "project_a_title": "Choisissez Artist Hotel si",
+        "project_b_items": [
+          "Son prix de départ enregistré de AED 2.1M est inférieur à celui de l’alternative, sous réserve d’une comparaison d’unités équivalentes.",
+          "Vous préférez un cadre de vie en bord de mer à The World Islands pour votre usage prévu.",
+          "Vous recherchez des appartements, avec des configurations allant de 1 à 2 chambres, et une livraison enregistrée en 2024."
+        ],
+        "project_b_title": "Choisissez Portofino Hotel si"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Les prix de départ enregistrés sont de AED 3.1M pour Artist Hotel et de AED 2.1M pour Portofino Hotel. Les deux projets sont situés à The World Islands; la localisation est donc moins susceptible d’être le principal critère de différenciation. Les deux projets enregistrent une typologie de biens similaire : appartements. Les livraisons enregistrées sont prévues en 2027 pour Artist Hotel et en 2024 pour Portofino Hotel.",
+        "tags": [
+          "Écart de prix enregistré",
+          "Même quartier",
+          "Typologie d’unités enregistrée",
+          "Écart de livraison",
+          "Vérification du coût total"
+        ],
+        "title": "Logique d’investissement",
+        "eyebrow": "Logique de décision"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/fr/compare-projects/artist-hotel-vs-avatea-villas/",
+            "meta": "Projet commun",
+            "label": "Artist Hotel vs Avatea Villas",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/artist-hotel-vs-germany-island/",
+            "meta": "Projet commun",
+            "label": "Artist Hotel vs Germany Island",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/artist-hotel-vs-hygge-hotel/",
+            "meta": "Projet commun",
+            "label": "Artist Hotel vs Hygge Hotel",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/artist-hotel-vs-sweden-beach-palace/",
+            "meta": "Projet commun",
+            "label": "Artist Hotel vs Sweden Beach Palace",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Plus de comparaisons de projets",
+        "eyebrow": "Continuer l’exploration"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/fr/projects/artist-hotel/",
+            "meta": "Projet A",
+            "label": "Page du projet Artist Hotel",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/projects/portofino-hotel/",
+            "meta": "Projet B",
+            "label": "Page du projet Portofino Hotel",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/areas/the-world-islands/",
+            "meta": "Zone",
+            "label": "Guide de la zone The World Islands",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/developers/kleindienst-group/",
+            "meta": "Développeur",
+            "label": "Page du développeur Kleindienst Group",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Ouvrir les pages des projets",
+        "eyebrow": "Pages des projets"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Partagez ces informations pour comparer Artist Hotel et Portofino Hotel selon les mêmes priorités. Les informations enregistrées sur les projets peuvent aider à affiner le choix, mais les unités exactes, les prix actuels et la disponibilité doivent encore être vérifiés en temps réel.",
+      "items": [
+        {
+          "meta": "fourchette en AED ou budget d’entrée maximal",
+          "label": "Fourchette de prix"
+        },
+        {
+          "meta": "Appartements",
+          "label": "Type d’unité"
+        },
+        {
+          "meta": "résidence principale / résidence secondaire / investissement en bord de mer",
+          "label": "Objectif de l’acheteur"
+        },
+        {
+          "meta": "statut actuel vs calendrier 2027",
+          "label": "Calendrier"
+        },
+        {
+          "meta": "vue / intimité / accès au front de mer",
+          "label": "Préférence principale"
+        }
+      ],
+      "title": "Données de comparaison pour AI",
+      "eyebrow": "Données utiles",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ces projets peuvent répondre à des priorités différentes. Les prix de départ enregistrés sont de AED 3.1M pour Artist Hotel et de AED 2.1M pour Portofino Hotel. Les deux projets enregistrent une typologie de biens similaire : appartements. Les livraisons enregistrées sont prévues en 2027 pour Artist Hotel et en 2024 pour Portofino Hotel. Le meilleur choix dépend de votre usage prévu et de l’unité exacte disponible au moment de la comparaison.",
+          "question": "Quel projet pourrait le mieux me convenir : Artist Hotel ou Portofino Hotel ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Portofino Hotel affiche le prix de départ enregistré le plus bas, à AED 2.1M, contre AED 3.1M pour Artist Hotel. Comparez des unités équivalentes avant d’interpréter cet écart.",
+          "question": "Quel projet affiche le prix de départ enregistré le plus bas ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Artist Hotel et Portofino Hotel sont tous deux situés à The World Islands et développés par Kleindienst Group.",
+          "question": "Quelles sont les différences entre Artist Hotel et Portofino Hotel en matière de localisation et de développeur ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Artist Hotel indique des appartements, avec 1 chambre, et une livraison enregistrée en 2027. Portofino Hotel indique des appartements, avec 1 à 2 chambres, et une livraison enregistrée en 2024.",
+          "question": "Quels types de biens, plages de chambres et années de livraison sont enregistrés ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Avant de choisir entre Artist Hotel et Portofino Hotel, confirmez l’unité exacte, le prix actuel, les modalités de paiement, le coût total d’acquisition, l’étage, l’agencement, la vue, le statut actuel du projet, la livraison et la disponibilité. Les données enregistrées au niveau du projet sont utiles pour établir une sélection, mais elles ne remplacent pas une vérification en temps réel au niveau de l’unité.",
+          "question": "Que dois-je vérifier avant de choisir entre Artist Hotel et Portofino Hotel ?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur les projets",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Utilisez cette page comme point de départ pour comparer Artist Hotel et Portofino Hotel. Les informations enregistrées peuvent évoluer et ne remplacent pas les documents actuels du développeur ni les registres publics. Confirmez les prix en temps réel, les unités disponibles, les modalités de paiement, les plans, les charges de service, les détails de livraison et le statut du projet avant de prendre une décision.",
+      "items": [
+        {
+          "label": "Prix / disponibilité",
+          "value": "Vérification en temps réel requise"
+        },
+        {
+          "label": "Modalités de paiement",
+          "value": "Vérifier les documents actuels"
+        },
+        {
+          "label": "Livraison / statut",
+          "value": "Confirmer le statut actuel"
+        },
+        {
+          "label": "Contenu mis à jour",
+          "value": "Juillet 2026"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Vérification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Artist Hotel et Portofino Hotel sont tous deux situés à The World Islands et développés par Kleindienst Group. Les prix de départ enregistrés sont de AED 3.1M pour Artist Hotel et de AED 2.1M pour Portofino Hotel. Les livraisons enregistrées sont prévues en 2027 pour Artist Hotel et en 2024 pour Portofino Hotel.",
+      "title": "Vous souhaitez comparer Artist Hotel et Portofino Hotel selon votre situation ?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Demander à Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Comparer avec mon cas",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Demander un appel",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande de comparaison de projets",
+      "text": "Partagez vos préférences et vos coordonnées. Primadom AI préparera une comparaison ciblée avant qu’un conseiller ne vous contacte.",
+      "error": "Veuillez réessayer",
+      "title": "Comparer Artist Hotel et Portofino Hotel selon votre situation",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+      "eyebrow": "Continuer la comparaison avec AI",
+      "success": "Demande envoyée",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Fermer",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971",
+        "comment": "Ajoutez tout détail utile"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__artist-hotel__vs__portofino-hotel__fr",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Artist Hotel",
+        "project_a_slug": "artist-hotel",
+        "project_b_name": "Portofino Hotel",
+        "project_b_slug": "portofino-hotel",
+        "canonical_url_path": "/fr/compare-projects/artist-hotel-vs-portofino-hotel/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Envoyer",
+        "error": "Veuillez réessayer",
+        "success": "Demande envoyée",
+        "submitting": "Envoi…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Demande préparée",
+        "value": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI aide les acheteurs à comparer les projets, les localisations, les développeurs et les principaux critères de décision avant d’échanger avec un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparaison de projets alignée sur l’intention réelle de l’acheteur",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière des EAU",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Réserver un appel",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Demander à AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "¿Qué preguntas debo hacer al desarrollador? — Compradores rusos"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "what-questions-to-ask-developer-russian-buyers"
+page_id: "ai_answer__what-questions-to-ask-developer__context__russian-buyers__es"
+url: "/es/ai-answers/what-questions-to-ask-developer-russian-buyers/"
+build:
+  render: always
+  list: never
+---

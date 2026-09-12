@@ -1,0 +1,10 @@
+---
+title: "Vita Grande"
+layout: "primadom-project-page-v2"
+project_slug: "vita-grande"
+page_id: "page_project_vita_grande_de"
+url: "/de/projects/vita-grande/"
+build:
+  render: always
+  list: never
+---

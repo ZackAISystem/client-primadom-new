@@ -1,0 +1,10 @@
+---
+title: "District One West Phase 2 مقابل Naya Phase 3"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "disctrict-one-west-phase-2-vs-naya-phase-3"
+page_id: "project_comparison__disctrict-one-west-phase-2__vs__naya-phase-3__ar"
+url: "/ar/compare-projects/disctrict-one-west-phase-2-vs-naya-phase-3/"
+build:
+  render: always
+  list: never
+---

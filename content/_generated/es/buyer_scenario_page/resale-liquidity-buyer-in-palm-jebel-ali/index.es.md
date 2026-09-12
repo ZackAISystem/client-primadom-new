@@ -1,0 +1,10 @@
+---
+title: "Comprador centrado en la liquidez de reventa en Palm Jebel Ali"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "resale-liquidity-buyer-in-palm-jebel-ali"
+page_id: "page_scenario_district_resale_liquidity_buyer_palm_jebel_ali_es"
+url: "/es/buyer-scenarios/resale-liquidity-buyer-in-palm-jebel-ali/"
+build:
+  render: always
+  list: never
+---

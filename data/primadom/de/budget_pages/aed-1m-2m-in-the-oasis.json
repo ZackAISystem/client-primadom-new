@@ -1,0 +1,690 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_budget_district_aed_1m_2m_the_oasis_de",
+  "page_type_id": "budget_page",
+  "language_code": "de",
+  "url_path": "/de/budgets/aed-1m-2m-in-the-oasis/",
+  "canonical_url_path": "/de/budgets/aed-1m-2m-in-the-oasis/",
+  "canonical_group_key": "budget_district:aed_1m_2m:the-oasis",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "the-oasis",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Was Sie kaufen können",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Zahlungsplan",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Kosten",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Navigation der Budgetseite",
+      "cta_label": "Budget prüfen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "budgets",
+          "href": "/de/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/the-oasis/",
+          "label": "The Oasis"
+        },
+        {
+          "key": "current",
+          "href": "/de/budgets/aed-1m-2m-in-the-oasis/",
+          "label": "Immobilien für AED 1M–2M in The Oasis"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "The Oasis",
+        "Alle Immobilientypen",
+        "Starting prices oberhalb der Spanne",
+        "Broaden Lage or format"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Immobilien in The Oasis im Budgetrahmen AED 1M–2M",
+      "subtitle": "Aktuelles Marktsignal: Starting prices oberhalb der Spanne. Vergleichen Sie für Immobilien in The Oasis konkrete Einheiten, Lage, Ausstattung, Zahlungsbedingungen und gesamte Eigentumskosten, bevor Sie eine Auswahl treffen.",
+      "facts_aria": "Highlights der Budgetseite",
+      "section_id": "overview",
+      "visual_aria": "Budgetübersicht für Immobilien in The Oasis im Budgetrahmen AED 1M–2M",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Fragen Sie nach realistischen Immobilienoptionen, Abwägungen und Kaufnebenkosten in The Oasis. Aktuelle Preise und Verfügbarkeit erfordern eine Projektprüfung.",
+      "hints": [
+        "Was lässt sich hier mit diesem Budget kaufen?",
+        "Was ermöglicht dieses Budget?",
+        "Welche Abwägungen sollte ich zuerst vergleichen?"
+      ],
+      "title": "Prüfen Sie realistische Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Bewerten Sie realistische Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M. Vergleichen Sie Grundrisse, Lage, Übergabeprofil und gesamte Kaufkosten und prüfen Sie vor der Auswahl die genauen Einheitspreise.",
+        "Erläutern Sie, welchen Mehrwert das Budget in The Oasis bei Fläche, Lage, Ausstattung und Zahlungsbedingungen bieten kann, ohne aktuelle Preise oder Verfügbarkeit vorauszusetzen.",
+        "Erläutern Sie die wichtigsten Abwägungen für Immobilien in The Oasis im Budgetrahmen AED 1M–2M: Fläche, Lage, Übergabezeitpunkt, Erfolgsbilanz des Bauträgers, Gebühren und Flexibilität beim Wiederverkauf."
+      ],
+      "hint_items": [
+        {
+          "label": "Was lässt sich hier mit diesem Budget kaufen?",
+          "prompt": "Bewerten Sie realistische Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M. Vergleichen Sie Grundrisse, Lage, Übergabeprofil und gesamte Kaufkosten und prüfen Sie vor der Auswahl die genauen Einheitspreise."
+        },
+        {
+          "label": "Was ermöglicht dieses Budget?",
+          "prompt": "Erläutern Sie, welchen Mehrwert das Budget in The Oasis bei Fläche, Lage, Ausstattung und Zahlungsbedingungen bieten kann, ohne aktuelle Preise oder Verfügbarkeit vorauszusetzen."
+        },
+        {
+          "label": "Welche Abwägungen sollte ich zuerst vergleichen?",
+          "prompt": "Erläutern Sie die wichtigsten Abwägungen für Immobilien in The Oasis im Budgetrahmen AED 1M–2M: Fläche, Lage, Übergabezeitpunkt, Erfolgsbilanz des Bauträgers, Gebühren und Flexibilität beim Wiederverkauf."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Fragen Sie nach Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M",
+      "placeholder": "Fragen Sie nach Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M",
+      "voice_label": "Spracheingabe starten",
+      "block_status": "final",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Meinen Fall vergleichen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_active_label": "Spracheingabe stoppen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "live_check_required": true,
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "submit_loading_label": "AI wird gefragt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus",
+      "voice_processing_label": "Spracheingabe wird verarbeitet"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "The Oasis",
+        "Gemischte Immobilientypen",
+        "Starting prices oberhalb der Spanne",
+        "Vergleichen Sie lower-cost options"
+      ],
+      "title": "Was Sie kaufen können",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<p><strong>Aktuelles Marktsignal: Starting prices oberhalb der Spanne.</strong> Für Immobilien in The Oasis im Budgetrahmen AED 1M–2M sollten Käufer Immobilientyp, nutzbare Fläche, Lage, Umsetzung durch den Bauträger, Fertigstellungsprofil, Zahlungsbedingungen und gesamte Eigentumskosten vergleichen. Einstiegspreise dienen nur zur Orientierung und bestätigen weder den Preis einer konkreten Einheit noch ihre Verfügbarkeit. Prüfen Sie vor der Auswahl den genauen Einheitspreis, den aktuellen Zahlungsplan, mögliche Anreize und die Verfügbarkeit.</p>",
+      "body_text": "Aktuelles Marktsignal: Starting prices oberhalb der Spanne. Für Immobilien in The Oasis im Budgetrahmen AED 1M–2M sollten Käufer Immobilientyp, nutzbare Fläche, Lage, Umsetzung durch den Bauträger, Fertigstellungsprofil, Zahlungsbedingungen und gesamte Eigentumskosten vergleichen. Einstiegspreise dienen nur zur Orientierung und bestätigen weder den Preis einer konkreten Einheit noch ihre Verfügbarkeit. Prüfen Sie vor der Auswahl den genauen Einheitspreis, den aktuellen Zahlungsplan, mögliche Anreize und die Verfügbarkeit.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Markt",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Gebiet",
+          "value": "The Oasis"
+        },
+        {
+          "key": "property_type",
+          "label": "Immobilientyp",
+          "value": "Gemischte Immobilientypen"
+        },
+        {
+          "key": "current_signal",
+          "label": "Aktuelles Signal",
+          "value": "Starting prices oberhalb der Spanne"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Wichtigste Abwägung",
+          "value": "Fläche, Lage und Ausstattung"
+        },
+        {
+          "key": "next_check",
+          "label": "Nächste Prüfung",
+          "value": "Lower-cost options"
+        },
+        {
+          "key": "unit_status",
+          "label": "Status der Einheit",
+          "value": "Aktuelle Verfügbarkeit prüfen"
+        }
+      ],
+      "title": "Budgetparameter",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Derzeit passt kein erfasster Projekt-Einstiegspreis in dieses Budget; vergleichen Sie konkrete Einheiten und nahegelegene Gebiete.",
+            "title": "The Oasis"
+          },
+          {
+            "text": "18 Projekte haben erfasste Einstiegspreise in diesem Budget; vergleichen Sie konkrete Einheiten und die aktuelle Verfügbarkeit.",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "12 Projekte haben erfasste Einstiegspreise in diesem Budget; vergleichen Sie konkrete Einheiten und die aktuelle Verfügbarkeit.",
+            "title": "Mohammed Bin Rashid City"
+          },
+          {
+            "text": "11 Projekte haben erfasste Einstiegspreise in diesem Budget; vergleichen Sie konkrete Einheiten und die aktuelle Verfügbarkeit.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Zu vergleichende Stadtteile",
+        "eyebrow": "Gebietslogik"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "22 Projekte haben erfasste Einstiegspreise im breiteren Markt; prüfen Sie dieses Format in The Oasis.",
+            "title": "Apartments am Wasser"
+          },
+          {
+            "text": "6 Projekte haben erfasste Einstiegspreise im breiteren Markt; prüfen Sie dieses Format in The Oasis.",
+            "title": "Reihenhäuser"
+          },
+          {
+            "text": "1 Projekt hat einen erfassten Einstiegspreis im breiteren Markt; prüfen Sie dieses Format in The Oasis.",
+            "title": "Villen"
+          },
+          {
+            "text": "Ein Format aus dem breiteren Markt, das geprüft werden sollte, wenn die Optionen in The Oasis begrenzt sind.",
+            "title": "Apartments"
+          }
+        ],
+        "title": "Zu vergleichende Immobilientypen",
+        "eyebrow": "Immobilienlogik"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Entscheidungshinweise zum Budget",
+      "items": [
+        {
+          "text": "Prüfen Sie für einen Kauf in The Oasis im Budgetrahmen AED 1M–2M die Anfangszahlung, Registrierungsgebühren, spätere Raten und den bei Übergabe erforderlichen Betrag.",
+          "title": "Zahlungsablauf vollständig prüfen",
+          "eyebrow": "Zahlungsplanlogik"
+        },
+        {
+          "text": "In The Oasis sollte die konkrete Einheit nach Fläche, Etage, Ausblick, Lage, Ausstattung und Zahlungsplan verglichen werden; ein Einstiegspreis allein reicht für die Entscheidung nicht aus.",
+          "title": "Konkrete Einheit statt nur Einstiegspreis vergleichen",
+          "eyebrow": "Abwägungen"
+        },
+        {
+          "text": "Berücksichtigen Sie für einen Kauf in The Oasis zusätzlich Registrierungs-, Makler- oder Finanzierungskosten sowie Service- oder Community-Gebühren, Möblierung und Instandhaltung.",
+          "title": "Gesamtkosten über den Kaufpreis hinaus einplanen",
+          "eyebrow": "Zusätzliche Kosten"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Budget, Immobilientyp, Stadtteil, Zeitrahmen und Risikoprofil abwägen, bevor ein Berater aktuelle Optionen prüft.",
+          "title": "Budget in eine Auswahl umsetzen",
+          "eyebrow": "AI-Kontext"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "In den aktuellen Daten startet kein konkretes Projekt in The Oasis im Budgetrahmen AED 1M–2M. Nutzen Sie den Gebietsleitfaden und die aktuelle Suche unten, um die Auswahl zu präzisieren.",
+        "items": [
+          {
+            "href": "/de/areas/the-oasis/",
+            "meta": "Stadtteilleitfaden",
+            "label": "Weitere Projekte in The Oasis erkunden",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "Preis und Verfügbarkeit",
+            "label": "Aktuelle Einheiten für Projekte in The Oasis prüfen",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "Prüfung der Preisspanne",
+            "label": "Die nächstgelegenen Preise außerhalb der Spanne vergleichen",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "Entscheidungsprüfung",
+            "label": "Zahlungsbelastung und Kaufzeitpunkt prüfen",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "AI-Budgetprüfung",
+            "label": "Primadom AI eine aktuelle Auswahl erstellen lassen",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Wege zur Projektauswahl",
+        "eyebrow": "Einstieg in die Auswahl"
+      },
+      "buyer_fit": {
+        "title": "Eignung für Käufer",
+        "eyebrow": "Für wen dieses Budget geeignet ist",
+        "bad_items": [
+          "Käufer, die bereits auf ein bestimmtes Projekt oder einen anderen Immobilientyp festgelegt sind und keinen budgetbasierten Vergleich wünschen",
+          "Käufer, die eine fertige Liste konkreter Projekte erwarten, ohne aktuelle Suchkriterien anzupassen",
+          "Käufer, die Nebenkosten, laufende Eigentumskosten oder erforderliche Prüfungen nicht berücksichtigen möchten"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Käufer, die Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M vergleichen",
+          "Käufer, die Fläche, Ausstattung, Lage und Zahlungsbedingungen gegeneinander abwägen",
+          "Käufer, die bereit sind, Gebiet, Immobilientyp oder Budget zu präzisieren, bevor sie aktuelle Optionen anfragen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "In The Oasis grenzt der Budgetrahmen AED 1M–2M die Suche ein, zeigt aber allein noch nicht, welches Immobilienformat oder welcher Kaufzeitpunkt passt. Mehr Fläche kann eine weniger zentrale Lage oder einfachere Ausstattung bedeuten; eine kleinere Einheit kann dagegen hochwertigere Ausstattung oder bessere Erreichbarkeit bieten. Prüfen Sie den konkreten Mehrwert, bevor Sie das Budget erhöhen.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Budgetflexibilität",
+          "Immobilienformat",
+          "Lage und Fläche",
+          "Zahlungsplan",
+          "Gesamter Kapitalbedarf"
+        ],
+        "title": "Abwägungen",
+        "eyebrow": "Machbarkeitsprüfung"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "Der Immobilienpreis ist nur ein Teil des Kapitalbedarfs in The Oasis. Prüfen Sie für den konkreten Kauf Transaktions-, Finanzierungs-, Übergabe- und laufende Eigentumskosten.",
+        "items": [
+          {
+            "text": "Prüfen Sie vor einer Reservierung die Registrierungs- und Transaktionskosten für den konkreten Kauf. Der endgültige Betrag hängt von der Immobilie und der Art der Transaktion ab.",
+            "title": "Registrierungs- und Transaktionskosten"
+          },
+          {
+            "text": "Bei einer Finanzierung sind Bank-, Bewertungs- und hypothekenbezogene Gebühren zusammen mit dem bis zur Fertigstellung erforderlichen Kapital zu prüfen.",
+            "title": "Finanzierungs- und Bewertungskosten"
+          },
+          {
+            "text": "Prüfen Sie Service- oder Community-Gebühren, Instandhaltungspflichten und laufende Eigentumskosten für die konkrete Immobilie.",
+            "title": "Servicegebühren und Immobilienunterhalt"
+          },
+          {
+            "text": "Planen Sie Kosten für Mängelprüfung, Möblierung, Versorgungsanschlüsse, Umzug sowie alle rund um Übergabe oder Fertigstellung fälligen Beträge separat ein.",
+            "title": "Übergabe-, Möblierungs- und Einzugskosten"
+          }
+        ],
+        "title": "Zu prüfende Kosten",
+        "eyebrow": "Vor dem Kauf prüfen",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/de/budgets/under-aed-1m-in-the-oasis/",
+          "label": "Immobilien unter AED 1M in The Oasis",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/de/budgets/aed-2m-3m-in-the-oasis/",
+          "label": "Immobilien AED 2M–3M in The Oasis",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/de/budgets/apartments-aed-1m-2m-in-the-oasis/",
+          "label": "Apartments AED 1M–2M in The Oasis",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        },
+        {
+          "href": "/de/budgets/studios-aed-1m-2m-in-the-oasis/",
+          "label": "Studios AED 1M–2M in The Oasis",
+          "relation_type": "same_district_property_option",
+          "route_verified": true
+        }
+      ],
+      "title": "Verwandte Budgetseiten",
+      "eyebrow": "Verwandte Suchanfragen",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Nutzen Sie erfasste Einstiegspreise nur als Orientierung. Vergleichen Sie konkrete Einheiten, Grundrisse, Lage, Übergabeprofil, Zahlungsbedingungen und aktuelle Verfügbarkeit, bevor Sie eine Option als passend oder verfügbar einstufen.",
+          "question": "Welche Immobilienoptionen sollten Käufer in The Oasis im Budgetrahmen AED 1M–2M prüfen?"
+        },
+        {
+          "answer": "Vergleichen Sie die in der Auswahl vertretenen Immobilientypen nach nutzbarer Fläche, Lage, Ausstattung, Gebäudequalität und gesamtem Kapitalbedarf. Ein Einstiegspreis allein bestätigt weder die Eignung einer konkreten Einheit noch ihre aktuelle Verfügbarkeit.",
+          "question": "Welche Immobilientypen sollten Käufer in The Oasis im Budgetrahmen AED 1M–2M vergleichen?"
+        },
+        {
+          "answer": "Berücksichtigen Sie neben dem Kaufpreis Registrierungs- und Transaktionskosten, mögliche Finanzierungs- und Bewertungskosten, Servicegebühren, laufenden Immobilienunterhalt sowie Übergabe-, Möblierungs- und Einzugskosten. Die genauen Beträge müssen für die konkrete Einheit und Transaktion geprüft werden.",
+          "question": "Welche zusätzlichen Kosten sollten Käufer in The Oasis im Budgetrahmen AED 1M–2M einplanen?"
+        },
+        {
+          "answer": "Vergleichen Sie Reservierungs- oder Anzahlungsbetrag, Baufortschrittsraten, Restbetrag bei Übergabe, mögliche Verpflichtungen nach der Übergabe und den Gesamtbetrag, der vor Fertigstellung fällig wird. Der aktuell gültige Zahlungsplan muss für jede ausgewählte Einheit separat bestätigt werden.",
+          "question": "Wie sollten Käufer Zahlungspläne in The Oasis im Budgetrahmen AED 1M–2M vergleichen?"
+        },
+        {
+          "answer": "Primadom AI kann Budget, Lage, Immobilientyp, Größe oder Fertigstellungszeitpunkt einzeln variieren und die daraus entstehenden Optionen nach Käuferzielen und gesamtem Kapitalbedarf strukturieren. Einheitspreise, Bedingungen und Verfügbarkeit müssen anschließend aktuell geprüft werden.",
+          "question": "Wie kann Primadom AI eine Suche in The Oasis im Budgetrahmen AED 1M–2M verfeinern?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Budget",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Die Planungsinformationen zu Immobilienoptionen in The Oasis mit einem Budget von AED 1M–2M stellen kein aktuelles Angebot dar. Prüfen Sie anhand von Unterlagen der Bauträger, offiziellen Aufzeichnungen, aktuellen Angeboten und einer Prüfung durch einen Primadom-Berater die aktuellen Projektpreise und die Verfügbarkeit, Zahlungspläne, den Übergabestatus, Gebühren, Servicegebühren und Projektbedingungen.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Zahlungsplan",
+          "value": "Unterlagen des Bauträgers erforderlich"
+        },
+        {
+          "label": "Gebühren / Servicegebühren",
+          "value": "Muss berechnet werden"
+        },
+        {
+          "label": "Eignung von Stadtteil / Projekt",
+          "value": "Quellenprüfung erforderlich"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Überprüfung",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Bitten Sie Primadom AI, Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M nach Immobilientyp, aktuellem Preis, Zahlungsplan und Gesamtkosten zu vergleichen und anschließend eine Auswahl für die aktuelle Prüfung vorzubereiten.",
+      "title": "Möchten Sie prüfen, was Sie mit Ihrem Budget wirklich kaufen können?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Budgetbasierte Auswahl erhalten",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Anfrageformular zum Budget",
+      "note": "Aktuelle Preise und Verfügbarkeit werden geprüft, bevor Empfehlungen weitergegeben werden.",
+      "text": "Teilen Sie Ihre Kontaktdaten mit. Primadom AI bereitet Ihre Budgetanfrage zur Prüfung durch einen Primadom-Berater vor.",
+      "title": "Prüfen, was Ihr Budget ermöglicht",
+      "fields": {
+        "name": "Ihr Name",
+        "phone": "Telefon / WhatsApp",
+        "budget": "Budgetspanne",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Senden",
+      "comment": "Immobilienoptionen in The Oasis für AED 1M–2M prüfen.",
+      "eyebrow": "Budgetauswahl mit AI fortsetzen",
+      "success": "Gesendet",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Schließen",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Anfrageentwurf",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Ihr Name",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Name"
+        },
+        "phone": {
+          "label": "Telefon / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Budgetspanne",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Vorbereitete Anfrage",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Von dieser Seite vorbereitet",
+          "single_line": true,
+          "default_value": "Immobilienoptionen in The Oasis für AED 1M–2M prüfen."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Name",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Von dieser Seite vorbereitet"
+      },
+      "submit_label": "Senden",
+      "hidden_fields": {
+        "page_id": "page_budget_district_aed_1m_2m_the_oasis_de",
+        "page_layer": "budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 1M–2M",
+        "district_name": "The Oasis",
+        "canonical_url_path": "/de/budgets/aed-1m-2m-in-the-oasis/",
+        "content_version_id": "5c47916e-c0a8-46c7-bea4-786ed8c6bb80",
+        "property_type_name": null
+      },
+      "success_label": "Gesendet",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Sprachsuche",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Prüfen Sie Immobilienoptionen in The Oasis im Budgetrahmen AED 1M–2M nach Immobilientyp, aktuellem Preis, Zahlungsplan und Gesamtkosten, bevor Sie eine aktuelle Marktprüfung anfordern.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Budgetsuche, umgesetzt in realistische Immobilienoptionen",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Social-Media-Links von Primadom",
+      "url_section": "/de/budgets/aed-1m-2m-in-the-oasis/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "AI fragen",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

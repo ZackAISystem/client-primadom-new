@@ -1,0 +1,10 @@
+---
+title: "Luxusimmobilien in Mudon"
+layout: "primadom-intent-page-v2"
+intent_slug: "luxury-properties-in-mudon"
+page_id: "intent__luxury-properties__district__mudon__de"
+url: "/de/intents/luxury-properties-in-mudon/"
+build:
+  render: always
+  list: never
+---

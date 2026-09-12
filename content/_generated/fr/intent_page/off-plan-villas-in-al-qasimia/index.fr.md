@@ -1,0 +1,10 @@
+---
+title: "Villas sur plan à Al Qasimia"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-al-qasimia"
+page_id: "intent__off-plan-villas__district__al-qasimia__fr"
+url: "/fr/intents/off-plan-villas-in-al-qasimia/"
+build:
+  render: always
+  list: never
+---

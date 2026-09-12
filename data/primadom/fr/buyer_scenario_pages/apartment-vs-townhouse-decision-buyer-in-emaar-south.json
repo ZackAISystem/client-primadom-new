@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_apartment_vs_townhouse_decision_buyer_emaar_south_fr",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-emaar-south/",
+  "canonical_url_path": "/fr/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-emaar-south/",
+  "canonical_group_key": "scenario_district:apartment_vs_townhouse_decision_buyer:emaar-south",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "emaar-south",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation du scénario d’acheteur",
+      "cta_label": "Vérifier le scénario",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/emaar-south/",
+          "label": "Emaar South"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-emaar-south/",
+          "label": "Acheteur comparant appartement et maison de ville — Emaar South",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Acheteur comparant appartement et maison de ville",
+        "Emaar South · EAU",
+        "Appartements · Maisons de ville",
+        "AED 1.5M–5M",
+        "Espace · intimité · entretien"
+      ],
+      "image": {
+        "alt": "Recherche immobilière — Acheteur comparant appartement et maison de ville — Emaar South",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Acheteur comparant appartement et maison de ville — Emaar South",
+      "subtitle": "À Emaar South, comparez appartement et maison de ville selon l’espace, l’intimité, l’entretien, la vie quotidienne, les coûts d’achat et la flexibilité à la revente.",
+      "facts_aria": "Points clés du scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Visuel de recherche immobilière — Acheteur comparant appartement et maison de ville — Emaar South",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparer ce scénario à Emaar South",
+        "Comparer l’espace utilisable, l’intimité et l’entretien",
+        "Quels compromis comptent le plus pour mon usage ?"
+      ],
+      "ai_aria": "Demander à Primadom AI à propos du scénario « Acheteur comparant appartement et maison de ville — Emaar South »",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparer ce scénario à Emaar South",
+      "placeholder": "Comparer ce scénario à Emaar South",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Acheteur comparant appartement et maison de ville",
+        "Emaar South",
+        "Espace de vie",
+        "Intimité",
+        "Demander à AI"
+      ],
+      "title": "Ce qui compte le plus",
+      "eyebrow": "Conseils pour l’acheteur",
+      "body_html": "<strong>Acheteur comparant appartement et maison de ville — Emaar South</strong> — Pour choisir entre un appartement et une maison de ville à Emaar South, comparez l’espace réellement utilisable, l’intimité, l’entretien, les coûts récurrents, les déplacements quotidiens et le coût total de détention. Aucun format n’est systématiquement meilleur : le bon choix dépend de l’usage prévu du bien.",
+      "body_text": "Pour choisir entre un appartement et une maison de ville à Emaar South, comparez l’espace réellement utilisable, l’intimité, l’entretien, les coûts récurrents, les déplacements quotidiens et le coût total de détention. Aucun format n’est systématiquement meilleur : le bon choix dépend de l’usage prévu du bien.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scénario",
+          "value": "Acheteur comparant appartement et maison de ville — Emaar South"
+        },
+        {
+          "label": "Objectif principal",
+          "value": "Comparer les types de logement"
+        },
+        {
+          "label": "Localisation",
+          "value": "Emaar South"
+        },
+        {
+          "label": "Type de bien",
+          "value": "Appartements · Maisons de ville"
+        },
+        {
+          "label": "Fourchette de budget",
+          "value": "AED 1.5M–5M"
+        },
+        {
+          "label": "Critère de décision",
+          "value": "Espace · intimité · entretien"
+        },
+        {
+          "label": "Étape de l’acheteur",
+          "value": "Comparaison / décision"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Comparer les compromis de détention"
+        }
+      ],
+      "title": "Paramètres du scénario",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cette page s’adresse",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs dont la décision est déjà arrêtée et qui n’ont plus besoin de comparer l’espace utilisable, l’intimité et l’entretien.",
+          "Acheteurs qui se fient à un seul indicateur — prix, image du projet, réputation du quartier ou autre signal isolé — sans vérifier le bien précis.",
+          "Acheteurs qui ne souhaitent pas vérifier l’espace utilisable, l’intimité et l’entretien ou les coûts récurrents avant de décider."
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs pour lesquels l’espace utilisable, l’intimité et l’entretien sont déterminants à Emaar South.",
+          "Acheteurs qui veulent comparer l’espace utilisable, l’intimité, l’entretien et les coûts récurrents sur une base cohérente plutôt que de décider à partir d’un seul avantage.",
+          "Acheteurs prêts à vérifier les données susceptibles de changer, les coûts et le calendrier avant de s’engager."
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Pour choisir entre un appartement et une maison de ville à Emaar South, comparez l’espace réellement utilisable, l’intimité, l’entretien, les coûts récurrents, les déplacements quotidiens et le coût total de détention. Aucun format n’est systématiquement meilleur : le bon choix dépend de l’usage prévu du bien. Utilisez ensuite les mêmes critères pour comparer l’espace utilisable, l’intimité, l’entretien et les coûts récurrents à Emaar South, afin que chaque option soit évaluée sur une base cohérente.",
+        "tags": [
+          "Espace de vie",
+          "Intimité",
+          "Entretien",
+          "Accès quotidien",
+          "Coût de détention"
+        ],
+        "title": "Points à prendre en compte",
+        "eyebrow": "Logique de décision"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Emaar South, évaluez dans quelle mesure le quartier répond aux priorités suivantes : l’espace utilisable, l’intimité et l’entretien. Tenez aussi compte de la vie quotidienne de l’acheteur.",
+            "title": "Contexte local"
+          },
+          {
+            "text": "Comparez d’autres quartiers s’ils offrent un meilleur équilibre entre ces priorités, l’usage quotidien et le budget total.",
+            "title": "Comparer les alternatives"
+          },
+          {
+            "text": "Vérifiez les trajets, les services et les conditions réelles du bien : un seul avantage visible ne suffit pas à confirmer l’adéquation du quartier à ce scénario.",
+            "title": "Usage quotidien"
+          },
+          {
+            "text": "Gardez le choix du quartier cohérent avec l’espace utilisable et l’intimité ; un meilleur emplacement peut compenser certains compromis, et l’inverse.",
+            "title": "Avant d’affiner la sélection"
+          }
+        ],
+        "title": "Contexte du quartier",
+        "eyebrow": "Quartiers pertinents"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Appartements : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "Appartements"
+          },
+          {
+            "text": "Maisons de ville : comparez l’espace, l’intimité, l’entretien, l’organisation du quartier et le coût total de détention.",
+            "title": "Maisons de ville"
+          },
+          {
+            "text": "Bien prêt : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Bien prêt"
+          },
+          {
+            "text": "Bien sur plan : comparez l’échéancier, l’avancement du projet, la date de livraison, les conditions contractuelles et l’adéquation à votre calendrier.",
+            "title": "Bien sur plan"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Adéquation du bien"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Gardez le prix d’achat, les frais d’acquisition et les coûts récurrents dans la même comparaison. Une maison de ville peut demander davantage d’entretien et de charges d’usage, tandis qu’un appartement peut supporter des charges de copropriété plus élevées ; conservez une marge de liquidités au-delà du prix affiché.",
+          "title": "Cadrez le budget complet",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "text": "À Emaar South, comparez l’espace utilisable, l’intimité, l’entretien et les coûts récurrents avec la même méthode et vérifiez ce que chaque option change réellement dans l’usage quotidien.",
+          "title": "Comparez l’usage réel",
+          "eyebrow": "Notes sur le processus"
+        },
+        {
+          "text": "Les principaux risques sont de payer pour de l’espace peu utilisé, de sous-estimer l’entretien d’une maison de ville, d’accepter trop peu d’intimité dans un appartement ou de choisir surtout selon le prix sans tester la vie quotidienne.",
+          "title": "Gardez les risques visibles",
+          "eyebrow": "Risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut organiser la comparaison à Emaar South selon l’espace utilisable, l’intimité, l’entretien et les coûts récurrents, avec le budget comme contrainte commune, sans supposer les données susceptibles de changer.",
+          "title": "Comparer avec Primadom AI",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notes de décision du scénario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Les principaux risques sont de payer pour de l’espace peu utilisé, de sous-estimer l’entretien d’une maison de ville, d’accepter trop peu d’intimité dans un appartement ou de choisir surtout selon le prix sans tester la vie quotidienne.",
+        "tags": [
+          "Espace utilisable",
+          "Intimité",
+          "Entretien",
+          "Accès quotidien",
+          "Coût total"
+        ],
+        "title": "Risques",
+        "eyebrow": "À vérifier avant d’acheter"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Hiérarchisez l’espace utilisable, l’intimité, l’entretien et les coûts récurrents avant d’affiner la sélection.",
+            "title": "Définir les priorités"
+          },
+          {
+            "text": "Mettez le prix d’achat, les frais d’acquisition, les coûts récurrents et la réserve de liquidités dans la même comparaison.",
+            "title": "Comparer le coût total"
+          },
+          {
+            "text": "Comparez les agencements réels, le stationnement, les espaces extérieurs, les charges et les trajets quotidiens.",
+            "title": "Vérifier les données du bien"
+          },
+          {
+            "text": "Faites correspondre les paiements, la transaction, la livraison ou l’emménagement avec votre propre calendrier avant de vous engager.",
+            "title": "Valider le calendrier"
+          }
+        ],
+        "title": "Documents et notes sur le processus",
+        "eyebrow": "Aspects pratiques"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/golf-edge/",
+            "meta": "Emaar Properties · Emaar South",
+            "label": "Golf Edge"
+          },
+          {
+            "href": "/fr/projects/greenway-phase-2/",
+            "meta": "Emaar Properties · Emaar South",
+            "label": "Greenway Phase 2"
+          },
+          {
+            "href": "/fr/projects/greenridge/",
+            "meta": "Emaar Properties · Emaar South",
+            "label": "Greenridge"
+          },
+          {
+            "href": "/fr/projects/address-the-bay/",
+            "meta": "Emaar Properties · Dubai Harbour",
+            "label": "Address The Bay"
+          },
+          {
+            "href": "/fr/projects/olympia-at-athlon/",
+            "meta": "Aldar Properties PJSC · Dubailand",
+            "label": "Olympia at Athlon"
+          }
+        ],
+        "title": "Projets à comparer",
+        "eyebrow": "Entrée dans la sélection"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Gardez le prix d’achat, les frais d’acquisition et les coûts récurrents dans la même comparaison. Une maison de ville peut demander davantage d’entretien et de charges d’usage, tandis qu’un appartement peut supporter des charges de copropriété plus élevées ; conservez une marge de liquidités au-delà du prix affiché.",
+        "tags": [
+          "Prix d’achat",
+          "Frais d’acquisition",
+          "Charges de service",
+          "Entretien",
+          "Marge de liquidités"
+        ],
+        "title": "Logique du budget",
+        "eyebrow": "Budget du scénario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/villa-vs-townhouse-decision-buyer-in-emaar-south/",
+          "label": "Acheteur comparant villa et maison de ville — Emaar South"
+        },
+        {
+          "href": "/fr/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-emaar-south/",
+          "label": "Famille recherchant un appartement à moins de 3 M AED — Emaar South"
+        },
+        {
+          "href": "/fr/buyer-scenarios/townhouse-buyer-under-aed-5m-in-emaar-south/",
+          "label": "Acheteur de maison de ville à moins de 5 M AED — Emaar South"
+        },
+        {
+          "href": "/fr/buyer-scenarios/comparison-decision-buyer/",
+          "label": "Acheteur en phase de comparaison et de décision"
+        }
+      ],
+      "title": "Scénarios associés",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Pour choisir entre un appartement et une maison de ville à Emaar South, comparez l’espace réellement utilisable, l’intimité, l’entretien, les coûts récurrents, les déplacements quotidiens et le coût total de détention. Aucun format n’est systématiquement meilleur : le bon choix dépend de l’usage prévu du bien.",
+          "question": "Quels sont les critères essentiels pour ce scénario à Emaar South ?"
+        },
+        {
+          "answer": "Ce scénario convient surtout aux acheteurs pour lesquels l’espace utilisable, l’intimité, l’entretien et les coûts récurrents doivent être comparés ensemble avant de choisir un bien.",
+          "question": "À qui ce scénario convient-il ?"
+        },
+        {
+          "answer": "Comparez les agencements réels, le stationnement, les espaces extérieurs, les charges et les trajets quotidiens. Confirmez aussi les coûts, le statut du bien et les conditions susceptibles de changer avant tout engagement.",
+          "question": "Que faut-il vérifier avant de choisir un bien ?"
+        },
+        {
+          "answer": "Gardez le prix d’achat, les frais d’acquisition et les coûts récurrents dans la même comparaison. Une maison de ville peut demander davantage d’entretien et de charges d’usage, tandis qu’un appartement peut supporter des charges de copropriété plus élevées ; conservez une marge de liquidités au-delà du prix affiché.",
+          "question": "Comment aborder le budget ?"
+        },
+        {
+          "answer": "Les principaux risques sont de payer pour de l’espace peu utilisé, de sous-estimer l’entretien d’une maison de ville, d’accepter trop peu d’intimité dans un appartement ou de choisir surtout selon le prix sans tester la vie quotidienne.",
+          "question": "Quels sont les principaux risques ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le scénario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Comparez les agencements réels, le stationnement, les espaces extérieurs, les charges et les trajets quotidiens. Revérifiez les données susceptibles de changer, les coûts, le calendrier et les documents avant de décider.",
+      "items": [
+        {
+          "label": "Espace de vie",
+          "value": "Vérifier espace de vie"
+        },
+        {
+          "label": "Intimité",
+          "value": "Confirmer intimité"
+        },
+        {
+          "label": "Entretien",
+          "value": "Comparer entretien"
+        },
+        {
+          "label": "Accès quotidien",
+          "value": "Valider accès quotidien"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Ce qu’il faut vérifier",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Comparez l’espace utilisable, l’intimité, l’entretien et les coûts récurrents à Emaar South avec la même méthode. Primadom AI peut aider à structurer les compromis avant l’examen de biens précis.",
+      "title": "Prêt à comparer ce scénario ?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Examiner les options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande pour le scénario d’acheteur",
+      "text": "Pour ce scénario à Emaar South, indiquez vos priorités concernant l’espace utilisable, l’intimité, l’entretien et les coûts récurrents, ainsi que votre budget et votre calendrier. Cela donne à l’équipe un contexte utile avant l’échange.",
+      "title": "Comparer les options pour ce scénario",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Aidez-moi à comparer ce scénario selon l’espace utilisable, l’intimité et l’entretien",
+      "eyebrow": "Continuer l’analyse du scénario avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "À Emaar South, comparez l’espace utilisable, l’intimité, l’entretien et les coûts récurrents dans le cadre du coût total avant d’affiner la sélection.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparer ce scénario avec des critères cohérents",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_apartments_aed_1m_2m_dubai_silicon_oasis_es",
+  "page_type_id": "budget_page",
+  "language_code": "es",
+  "url_path": "/es/budgets/apartments-aed-1m-2m-in-dubai-silicon-oasis/",
+  "canonical_url_path": "/es/budgets/apartments-aed-1m-2m-in-dubai-silicon-oasis/",
+  "canonical_group_key": "property_budget_district:apartments:aed_1m_2m:dubai-silicon-oasis",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-silicon-oasis",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Qué puedes comprar",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Plan de pago",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Costes",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Navegación de la página de presupuesto",
+      "cta_label": "Revisar presupuesto",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "budgets",
+          "href": "/es/budgets/",
+          "label": "Presupuestos"
+        },
+        {
+          "key": "property_type",
+          "href": "/es/property-types/apartments/",
+          "label": "Apartamentos"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/dubai-silicon-oasis/",
+          "label": "Dubai Silicon Oasis"
+        },
+        {
+          "key": "current",
+          "href": "/es/budgets/apartments-aed-1m-2m-in-dubai-silicon-oasis/",
+          "label": "Apartamentos por AED 1M–2M en Dubai Silicon Oasis"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 1M–2M",
+        "Dubai Silicon Oasis",
+        "Apartamentos",
+        "2 proyectos con precios iniciales dentro del rango",
+        "Oferta limitada de proyectos"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Apartamentos por AED 1M–2M en Dubai Silicon Oasis",
+      "subtitle": "El mercado actual muestra solo 2 proyectos con precios de entrada dentro de AED 1M–2M para apartamentos en Dubai Silicon Oasis; comparar exacto especificaciones, ubicación, perfil de entrega y total costes de propiedad.",
+      "facts_aria": "Aspectos destacados de la página de presupuesto",
+      "section_id": "overview",
+      "visual_aria": "Resumen del presupuesto para Apartamentos por AED 1M–2M en Dubai Silicon Oasis",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Compara apartamentos en Dubai Silicon Oasis según su encaje en el presupuesto, la distribución, el perfil de entrega y los costes totales. Los precios y la disponibilidad actuales requieren una comprobación del proyecto.",
+      "hints": [
+        "¿Qué proyectos de apartamentos encajan en este presupuesto?",
+        "¿Qué debo verificar antes de hacer una selección?",
+        "¿Qué costes de propiedad debo prever?"
+      ],
+      "title": "Revisar apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Compara las opciones de proyectos actuales más sólidas para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M. Céntrate en la ubicación, las distribuciones, el perfil de entrega, la trayectoria del desarrollador y los costes totales de compra.",
+        "Crea una lista de comprobación previa a la selección para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, que incluya la distribución exacta, la ubicación de la unidad, el plazo de entrega, la trayectoria del desarrollador, las comisiones y la disponibilidad actual.",
+        "Resume las principales categorías de costes de compra y propiedad para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, sin asumir comisiones, incentivos ni disponibilidad actuales."
+      ],
+      "hint_items": [
+        {
+          "label": "¿Qué proyectos de apartamentos encajan en este presupuesto?",
+          "prompt": "Compara las opciones de proyectos actuales más sólidas para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M. Céntrate en la ubicación, las distribuciones, el perfil de entrega, la trayectoria del desarrollador y los costes totales de compra."
+        },
+        {
+          "label": "¿Qué debo verificar antes de hacer una selección?",
+          "prompt": "Crea una lista de comprobación previa a la selección para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, que incluya la distribución exacta, la ubicación de la unidad, el plazo de entrega, la trayectoria del desarrollador, las comisiones y la disponibilidad actual."
+        },
+        {
+          "label": "¿Qué costes de propiedad debo prever?",
+          "prompt": "Resume las principales categorías de costes de compra y propiedad para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, sin asumir comisiones, incentivos ni disponibilidad actuales."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Pregunta por apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M",
+      "placeholder": "Pregunta por apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M",
+      "voice_label": "Iniciar entrada de voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Comparar con mi caso",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_active_label": "Detener entrada de voz",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "live_check_required": true,
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "submit_loading_label": "Consultando a AI",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz",
+      "voice_processing_label": "Procesando entrada de voz"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 1M–2M",
+        "Dubai Silicon Oasis",
+        "Apartamentos",
+        "2 proyectos dentro del rango",
+        "Comprobar unidades actuales"
+      ],
+      "title": "Qué puedes comprar",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<p><strong>2 proyectos have registrado inicial precios con un presupuesto de el AED 1M–2M rango para apartamentos en Dubai Silicon Oasis.</strong> Compara la eficiencia de la distribución, la superficie útil, la planta y las vistas, el perfil de finalización, los gastos de servicio, las condiciones de pago y los costes totales de propiedad. Utiliza cada coincidencia de precio solo como punto de partida para verificar la unidad concreta, la distribución y las condiciones de pago. Utiliza los precios iniciales solo como referencia y confirma el precio exacto de la unidad, los incentivos, las condiciones de pago y la disponibilidad antes de hacer una selección.</p>",
+      "body_text": "2 proyectos have registrado inicial precios con un presupuesto de el AED 1M–2M rango para apartamentos en Dubai Silicon Oasis. Compara la eficiencia de la distribución, la superficie útil, la planta y las vistas, el perfil de finalización, los gastos de servicio, las condiciones de pago y los costes totales de propiedad. Utiliza cada coincidencia de precio solo como punto de partida para verificar la unidad concreta, la distribución y las condiciones de pago. Utiliza los precios iniciales solo como referencia y confirma el precio exacto de la unidad, los incentivos, las condiciones de pago y la disponibilidad antes de hacer una selección.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Presupuesto",
+          "value": "AED 1M–2M"
+        },
+        {
+          "key": "market",
+          "label": "Mercado",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "Zona",
+          "value": "Dubai Silicon Oasis"
+        },
+        {
+          "key": "property_type",
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos"
+        },
+        {
+          "key": "current_signal",
+          "label": "Señal actual",
+          "value": "2 proyectos dentro del rango"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Principal compromiso",
+          "value": "Coincidencia de precio frente a unidad concreta"
+        },
+        {
+          "key": "next_check",
+          "label": "Siguiente comprobación",
+          "value": "Precios exactos de las unidades"
+        },
+        {
+          "key": "unit_status",
+          "label": "Estado de la unidad",
+          "value": "Verificar disponibilidad actual"
+        }
+      ],
+      "title": "Parámetros del presupuesto",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "2 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las unidades concretas y la disponibilidad actual.",
+            "title": "Dubai Silicon Oasis"
+          },
+          {
+            "text": "18 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las unidades concretas y la disponibilidad actual.",
+            "title": "Dubai Hills Estate"
+          },
+          {
+            "text": "12 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las unidades concretas y la disponibilidad actual.",
+            "title": "Mohammed Bin Rashid City"
+          },
+          {
+            "text": "11 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las unidades concretas y la disponibilidad actual.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Zonas para comparar",
+        "eyebrow": "Lógica de la zona"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "2 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las distribuciones, la ubicación y los precios exactos de las unidades.",
+            "title": "Apartamentos"
+          },
+          {
+            "text": "22 proyectos tienen precios iniciales registrados en el mercado más amplio; verifica este formato en Dubai Silicon Oasis.",
+            "title": "Apartamentos frente al agua"
+          },
+          {
+            "text": "6 proyectos tienen precios iniciales registrados en el mercado más amplio; verifica este formato en Dubai Silicon Oasis.",
+            "title": "Casas adosadas"
+          },
+          {
+            "text": "1 proyecto tiene un precio inicial registrado en el mercado más amplio; verifica este formato en Dubai Silicon Oasis.",
+            "title": "Villas"
+          }
+        ],
+        "title": "Tipos de propiedad para comparar",
+        "eyebrow": "Lógica del tipo de propiedad"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Notas para la decisión de presupuesto",
+      "items": [
+        {
+          "text": "Para opciones de apartamentos en Dubai Silicon Oasis, compara el pago inicial, cuotas durante la construcción, importe en la entrega y cualquier saldo pendiente posterior.",
+          "title": "Organiza el presupuesto en torno a las fechas de pago",
+          "eyebrow": "Lógica del plan de pago"
+        },
+        {
+          "text": "Un proyecto puede partir dentro de AED 1M–2M en Dubai Silicon Oasis, pero la unidad relevante puede salir del rango al comprobar el tamaño, la planta, las vistas, la ubicación y el calendario de pagos.",
+          "title": "El precio de entrada aún requiere comprobar la unidad exacta",
+          "eyebrow": "Compromisos"
+        },
+        {
+          "text": "Para apartamentos en Dubai Silicon Oasis, ten en cuenta el registro, los gastos de servicio, el amueblamiento, el aparcamiento o almacenamiento, la refrigeración cuando corresponda y el mantenimiento habitual.",
+          "title": "El precio del apartamento no representa el coste total",
+          "eyebrow": "Costes adicionales"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede valorar el presupuesto, el tipo de propiedad, la zona, el plazo y el perfil de riesgo antes de que un asesor compruebe las opciones actuales.",
+          "title": "Convertir el presupuesto en una selección",
+          "eyebrow": "Contexto de AI"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "Para apartamentos en Dubai Silicon Oasis, la lista combina 2 coincidencias exactas de precio registrado con 1 cercano opción. Confirma las unidades concretas, los precios actuales y la disponibilidad actual antes de acotar la selección.",
+        "items": [
+          {
+            "href": "/es/projects/the-hillgate/",
+            "meta": "Registrado desde AED 1.3M",
+            "label": "The Hillgate",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "the-hillgate",
+            "district_name": "Dubai Silicon Oasis",
+            "handover_year": 2027,
+            "property_type": "Apartment,Duplex",
+            "developer_name": "Ellington",
+            "project_page_id": "page_project_the_hillgate_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 1300000
+          },
+          {
+            "href": "/es/projects/mas-tower/",
+            "meta": "Registrado: desde AED 1.1M",
+            "label": "Mas Tower",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "mas-tower",
+            "district_name": "Dubai Silicon Oasis",
+            "handover_year": 2023,
+            "property_type": "Apartment",
+            "developer_name": "REVI Realty",
+            "project_page_id": "page_project_mas_tower_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 1100000
+          },
+          {
+            "href": "/es/projects/aura-elegance/",
+            "meta": "Cerca del rango · AED 960K",
+            "label": "Aura Elegance",
+            "item_type": "project_match",
+            "match_status": "near_budget",
+            "project_slug": "aura-elegance",
+            "district_name": "Dubai Silicon Oasis",
+            "handover_year": 2025,
+            "property_type": "Apartment",
+            "developer_name": "Aura Infinite Real Estate Development",
+            "project_page_id": "page_project_aura_elegance_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 960000
+          },
+          {
+            "href": "/es/areas/dubai-silicon-oasis/",
+            "meta": "guía de la zona",
+            "label": "Explorar más proyectos en Dubai Silicon Oasis",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "Comprobación de presupuesto con AI",
+            "label": "Pide a Primadom AI que prepare una selección con opciones actuales",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Proyectos para comparar",
+        "eyebrow": "Punto de partida para la selección"
+      },
+      "buyer_fit": {
+        "title": "Adecuación al comprador",
+        "eyebrow": "Para quién es adecuado este presupuesto",
+        "bad_items": [
+          "Compradores decididos por otro tipo de propiedad y que no quieren comparar este formato",
+          "Compradores que necesitan inventario actual confirmado antes de revisar opciones basadas en precios iniciales registrados",
+          "Compradores que no quieren tener en cuenta los gastos de servicio, el amueblamiento y los costes de entrega"
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que comparan apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M",
+          "Compradores dispuestos a comparar el precio de entrada registrado con la unidad, distribución y ubicación exactas",
+          "Compradores cómodos empezando con 3 opciones de proyectos concretos antes de comprobar unidades y condiciones actuales"
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, la selección es solo el punto de partida; proyectos con precios similares pueden dar lugar a propiedades muy distintas. Los proyectos pueden partir de precios similares, pero la distribución, la ubicación, el estado y el calendario de pagos pueden hacer que las propiedades concretas sean muy distintas. El selección combina 2 opciones dentro de AED 1M–2M con 1 opción just fuera de it. Utiliza las opciones cercanas como puntos de comparación, no como coincidencias exactas de presupuesto.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Precio exacto de la unidad",
+          "Costes del edificio",
+          "Comprobación de la unidad exacta",
+          "Desembolso total de efectivo",
+          "Costes recurrentes"
+        ],
+        "title": "Compromisos",
+        "eyebrow": "Comprobación de viabilidad"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "El precio anunciado es solo una parte del efectivo necesario para apartamentos en Dubai Silicon Oasis. Confirma los costes asociados a la unidad concreta y a la operación antes de reservar.",
+        "items": [
+          {
+            "text": "Confirma los gastos de registro y transacción de la compra concreta en Dubai antes de reservar. El importe final depende de la propiedad y del tipo de operación.",
+            "title": "Costes de registro y transacción"
+          },
+          {
+            "text": "Cuando se utilice financiación, confirma los gastos bancarios, de tasación y relacionados con la hipoteca junto con el efectivo necesario antes de la finalización.",
+            "title": "Costes de financiación y tasación"
+          },
+          {
+            "text": "Revisa los gastos de servicio del edificio, los sistemas de refrigeración, las instalaciones compartidas y las responsabilidades de mantenimiento de la unidad concreta.",
+            "title": "Gastos de servicio y mantenimiento del edificio"
+          },
+          {
+            "text": "Planifica por separado la inspección de defectos, el amueblamiento, los suministros, la mudanza y cualquier coste debido en torno a la entrega o finalización.",
+            "title": "Costes de entrega, amueblamiento y mudanza"
+          }
+        ],
+        "title": "Costes que hay que verificar",
+        "eyebrow": "Qué comprobar antes de comprar",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/es/budgets/apartments-under-aed-1m-in-dubai-silicon-oasis/",
+          "label": "Apartamentos por por debajo de AED 1M en Dubai Silicon Oasis",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/apartments-aed-2m-3m-in-dubai-silicon-oasis/",
+          "label": "Apartamentos por AED 2M–3M en Dubai Silicon Oasis",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/aed-1m-2m-in-dubai-silicon-oasis/",
+          "label": "Propiedades por AED 1M–2M en Dubai Silicon Oasis",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/es/budgets/studios-aed-1m-2m-in-dubai-silicon-oasis/",
+          "label": "Apartamentos por AED 1M–2M en Dubai Silicon Oasis",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Páginas de presupuesto relacionadas",
+      "eyebrow": "Búsquedas relacionadas",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Los datos actuales de proyectos registran 2 coincidencias exactas de precio inicial para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, plus 1 coincidencia cercana. Son coincidencias de comparación registradas, no inventario en tiempo real. Verifica la unidad concreta, la distribución, las condiciones de pago, la situación de entrega y la disponibilidad actual antes de hacer una selección.",
+          "question": "¿Qué muestran los datos actuales de proyectos sobre apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M?"
+        },
+        {
+          "answer": "Para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, el señal actual de proyectos is 2 proyectos en rango, mientras el principal compromiso is coincidencia de precio frente un unidad concreta. 2 proyectos tienen precios iniciales registrados dentro de este presupuesto; compara las distribuciones, la ubicación y los precios exactos de las unidades. La siguiente comprobación útil son los precios exactos de las unidades.",
+          "question": "¿Qué deberían verificar primero los compradores para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M?"
+        },
+        {
+          "answer": "El precio anunciado es solo una parte del efectivo necesario para apartamentos en Dubai Silicon Oasis. Confirma los costes asociados a la unidad concreta y a la operación antes de reservar. Para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, comprueba los costes de registro y transacción, los costes de financiación y tasación, los gastos de servicio y mantenimiento del edificio, y los costes de entrega, amueblamiento y mudanza. Los importes exactos deben calcularse para la unidad seleccionada, la estructura de financiación y la operación antes de considerar completo el presupuesto.",
+          "question": "¿Qué costes adicionales deberían calcular los compradores para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M?"
+        },
+        {
+          "answer": "Para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, compara la reserva o el pago inicial, las cuotas durante la construcción, el saldo en la entrega, cualquier obligación posterior a la entrega y el importe total exigible antes de la finalización. Esta página no confirma un plan de pago vigente del desarrollador, por lo que el calendario actual debe comprobarse por separado para cada unidad seleccionada. Una cuota menor o un calendario más largo no implica automáticamente un menor desembolso total.",
+          "question": "¿Cómo deberían comparar los compradores los planes de pago para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M?"
+        },
+        {
+          "answer": "Para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M, Primadom AI puede ordenar el 2 coincidencias exactas de precio inicial y 1 coincidencia cercana por desarrollador, tipo de unidad, tamaño útil, perfil de finalización, exposición de pagos y costes de propiedad. Después debería señalar los precios, la disponibilidad de unidades y las condiciones del proyecto que aún requieren una comprobación actual antes de la revisión del asesor.",
+          "question": "¿Cómo puede Primadom AI afinar una búsqueda de apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas sobre presupuesto",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Los datos de planificación para apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M no constituyen inventario en tiempo real. Confirma el precio y la disponibilidad actuales de la unidad, el calendario de pagos, el estado de entrega, las comisiones, los gastos de servicio y las condiciones del proyecto mediante materiales del desarrollador, registros oficiales, anuncios actuales y la revisión de un asesor de Primadom.",
+      "items": [
+        {
+          "label": "Precio / disponibilidad",
+          "value": "Requiere comprobación actual"
+        },
+        {
+          "label": "Plan de pago",
+          "value": "Requiere documentación del desarrollador"
+        },
+        {
+          "label": "Comisiones / gastos de servicio",
+          "value": "Debe calcularse"
+        },
+        {
+          "label": "Adecuación de unidad / proyecto",
+          "value": "Requiere revisión de fuentes"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Verificación",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Pide a Primadom AI que compare apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M por precio actual, adecuación de la unidad, plan de pago y coste total, y que después prepare una selección para una revisión actualizada.",
+      "title": "¿Quieres comprobar qué puedes comprar realmente con tu presupuesto?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Obtener una selección por presupuesto",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulario de consulta de presupuesto",
+      "note": "Los precios y la disponibilidad actuales se comprobarán antes de compartir recomendaciones.",
+      "text": "Comparte tus datos. Primadom AI preparará tu solicitud de presupuesto para que la revise un asesor de Primadom.",
+      "title": "Comprueba qué puedes comprar con tu presupuesto",
+      "fields": {
+        "name": "Tu nombre",
+        "phone": "Teléfono / WhatsApp",
+        "budget": "Rango de presupuesto",
+        "comment": "Solicitud preparada"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Enviar",
+      "comment": "Revisar apartamentos en Dubai Silicon Oasis, AED 1M–2M.",
+      "eyebrow": "Continuar la selección por presupuesto con AI",
+      "success": "Enviado",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Cerrar",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Borrador de solicitud",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Tu nombre",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Nombre"
+        },
+        "phone": {
+          "label": "Teléfono / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Rango de presupuesto",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 1M–2M",
+          "default_value": "AED 1M–2M"
+        },
+        "comment": {
+          "label": "Solicitud preparada",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Preparado desde esta página",
+          "single_line": true,
+          "default_value": "Revisar apartamentos en Dubai Silicon Oasis, AED 1M–2M."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Nombre",
+        "phone": "+971",
+        "budget": "AED 1M–2M",
+        "comment": "Preparado desde esta página"
+      },
+      "submit_label": "Enviar",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_apartments_aed_1m_2m_dubai_silicon_oasis_es",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "AED 1M–2M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "dentro del rango AED 1M–2M",
+        "district_name": "Dubai Silicon Oasis",
+        "canonical_url_path": "/es/budgets/apartments-aed-1m-2m-in-dubai-silicon-oasis/",
+        "content_version_id": "c6b6abfc-c583-41e7-990f-484db113961b",
+        "property_type_name": "Apartments"
+      },
+      "success_label": "Enviado",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Búsqueda por voz",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explora apartamentos en Dubai Silicon Oasis con un presupuesto de AED 1M–2M por precio actual, plan de pago, coste total y adecuación del proyecto antes de solicitar una revisión actualizada del mercado.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Búsqueda por presupuesto convertida en opciones inmobiliarias realistas",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubái, Emiratos Árabes Unidos",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Enlaces sociales de Primadom",
+      "url_section": "/es/budgets/apartments-aed-1m-2m-in-dubai-silicon-oasis/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Reservar una llamada",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Preguntar a AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

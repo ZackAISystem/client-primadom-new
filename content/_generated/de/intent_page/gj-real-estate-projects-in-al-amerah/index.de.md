@@ -1,0 +1,10 @@
+---
+title: "Projekte von GJ Real Estate in Al Amerah"
+layout: "primadom-intent-page-v2"
+intent_slug: "gj-real-estate-projects-in-al-amerah"
+page_id: "page_developer_district_gj_real_estate_al_amerah_de"
+url: "/de/intents/gj-real-estate-projects-in-al-amerah/"
+build:
+  render: always
+  list: never
+---

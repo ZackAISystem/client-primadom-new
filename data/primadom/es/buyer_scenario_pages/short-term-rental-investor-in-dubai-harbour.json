@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_short_term_rental_investor_dubai_harbour_es",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "es",
+  "url_path": "/es/buyer-scenarios/short-term-rental-investor-in-dubai-harbour/",
+  "canonical_url_path": "/es/buyer-scenarios/short-term-rental-investor-in-dubai-harbour/",
+  "canonical_group_key": "scenario_district:short_term_rental_investor:dubai-harbour",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-harbour",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Zonas",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Proceso",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navegación del escenario del comprador",
+      "cta_label": "Revisar escenario",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/es/buyer-scenarios/",
+          "label": "Escenarios de comprador"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/dubai-harbour/",
+          "label": "Dubai Harbour"
+        },
+        {
+          "key": "current",
+          "href": "/es/buyer-scenarios/short-term-rental-investor-in-dubai-harbour/",
+          "label": "Inversor en alquiler de corta estancia en Dubai Harbour",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Alquiler de corta estancia",
+        "Dubai Harbour",
+        "Apartamentos · Apartamentos hoteleros",
+        "AED 1M–5M",
+        "Costes · ocupación · normas"
+      ],
+      "image": {
+        "alt": "Inversor en alquiler de corta estancia en Dubai Harbour — búsqueda de propiedades",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Inversor en alquiler de corta estancia en Dubai Harbour",
+      "subtitle": "Comprueba primero las normas y el uso permitido para alquiler de corta estancia; modela ocupación, gestión, mobiliario, vacancia y costes operativos sin asumir resultados. En Dubai Harbour, verifica los datos de la propiedad concreta y las condiciones actuales antes de comprometerte.",
+      "facts_aria": "Aspectos destacados del escenario del comprador",
+      "section_id": "overview",
+      "visual_aria": "Visual de búsqueda de propiedades: Inversor en alquiler de corta estancia en Dubai Harbour",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparar opciones para «Inversor en alquiler de corta estancia» en Dubai Harbour",
+        "Revisar ocupación, costes operativos y mobiliario",
+        "¿Qué debo verificar antes de decidir?"
+      ],
+      "ai_aria": "Preguntar a Primadom AI sobre Inversor en alquiler de corta estancia en Dubai Harbour",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparar opciones para «Inversor en alquiler de corta estancia» en Dubai Harbour",
+      "placeholder": "Comparar opciones para «Inversor en alquiler de corta estancia» en Dubai Harbour",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Alquiler de corta estancia",
+        "Dubai Harbour",
+        "Ocupación · costes · normas",
+        "AED 1M–5M",
+        "Preguntar a AI"
+      ],
+      "title": "Lo que más importa",
+      "eyebrow": "Orientación para el comprador",
+      "body_html": "<strong>Inversor en alquiler de corta estancia en Dubai Harbour</strong>: Comprueba primero las normas y el uso permitido para alquiler de corta estancia; modela ocupación, gestión, mobiliario, vacancia y costes operativos sin asumir resultados. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+      "body_text": "En el escenario «Inversor en alquiler de corta estancia» en Dubai Harbour, comprueba primero las normas y el uso permitido para alquiler de corta estancia; modela ocupación, gestión, mobiliario, vacancia y costes operativos sin asumir resultados. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Escenario",
+          "value": "Inversor en alquiler de corta estancia"
+        },
+        {
+          "label": "Objetivo principal",
+          "value": "Alquiler de corta estancia"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Dubai Harbour"
+        },
+        {
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos · Apartamentos hoteleros"
+        },
+        {
+          "label": "Rango de presupuesto",
+          "value": "AED 1M–5M"
+        },
+        {
+          "label": "Criterio de decisión",
+          "value": "Ocupación · costes · normas"
+        },
+        {
+          "label": "Etapa del comprador",
+          "value": "Evaluación de inversión"
+        },
+        {
+          "label": "Siguiente paso",
+          "value": "Comprobar los supuestos de alquiler"
+        }
+      ],
+      "title": "Parámetros del escenario",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Para quién es esta página",
+        "eyebrow": "Adecuación al comprador",
+        "bad_items": [
+          "Compradores que ya han decidido sin necesitar comparar alternativas.",
+          "Compradores que eligen solo por precio o por un único indicador comercial.",
+          "Compradores que no quieren comprobar normas de alquiler, ocupación y gestión."
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que encajan con el escenario «Inversor en alquiler de corta estancia» en Dubai Harbour y quieren comparar alternativas con criterios coherentes.",
+          "Compradores que quieren contrastar ocupación, costes operativos y mobiliario antes de elegir una propiedad.",
+          "Compradores que prefieren revisar costes, condiciones y adecuación de la propiedad concreta antes de decidir."
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "En Dubai Harbour, aplica los mismos criterios a todas las opciones. Comprueba primero las normas y el uso permitido para alquiler de corta estancia; modela ocupación, gestión, mobiliario, vacancia y costes operativos sin asumir resultados. Comprueba por separado los costes actuales, el estado de la propiedad y las condiciones de la operación. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+        "tags": [
+          "Ocupación",
+          "Costes operativos",
+          "Mobiliario",
+          "Uso para alquiler",
+          "Resultado económico neto"
+        ],
+        "title": "Qué tener en cuenta",
+        "eyebrow": "Lógica de decisión"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "En Dubai Harbour, evalúa la zona por cómo afecta a ocupación, costes operativos, mobiliario y uso para alquiler y a la adecuación de la propiedad al uso previsto.",
+            "title": "Dubai Harbour"
+          },
+          {
+            "text": "Compara otras zonas cuando ofrezcan un mejor equilibrio entre ocupación, costes operativos y mobiliario y el coste total.",
+            "title": "Comparar alternativas"
+          },
+          {
+            "text": "No compares la ubicación de forma aislada: revisa cómo cambian ocupación, uso para alquiler y la rutina diaria para cada opción.",
+            "title": "Contexto práctico"
+          },
+          {
+            "text": "Mantén vinculadas la decisión de zona y la decisión de propiedad; verifica acceso, costes, plazos y uso real antes de descartar alternativas.",
+            "title": "Antes de reducir la selección"
+          }
+        ],
+        "title": "Contexto de la zona",
+        "eyebrow": "Zonas relevantes"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Suelen simplificar el mantenimiento diario; compara distribución útil, costes del edificio, servicios y adecuación al uso previsto.",
+            "title": "Apartamentos"
+          },
+          {
+            "text": "Pueden orientarse a estancias y gestión de alquiler, pero hay que verificar el uso permitido, los costes de gestión, la ocupación y las condiciones concretas.",
+            "title": "Apartamentos hoteleros"
+          },
+          {
+            "text": "Permite comprobar el estado, la distribución, los costes actuales y los plazos reales de la operación antes de comprometerse.",
+            "title": "Propiedad lista para entrar a vivir"
+          },
+          {
+            "text": "Puede ofrecer pagos por etapas y una entrada posterior, pero requiere verificar calendario, entrega, contrato y condiciones del proyecto.",
+            "title": "Propiedad sobre plano"
+          }
+        ],
+        "title": "Tipos de propiedad para comparar",
+        "eyebrow": "Adecuación de la propiedad"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Empieza por ocupación, costes operativos y mobiliario. Después contrasta esos criterios con el coste total y la practicidad de la propiedad concreta.",
+          "title": "Fija primero: ocupación",
+          "eyebrow": "Lógica del presupuesto"
+        },
+        {
+          "text": "En Dubai Harbour, aplica la misma lista de criterios a cada opción: ocupación, costes operativos, mobiliario y uso para alquiler.",
+          "title": "Compara todas las opciones con la misma base",
+          "eyebrow": "Notas del proceso"
+        },
+        {
+          "text": "Revisa especialmente normas de alquiler, ocupación, gestión y mobiliario. Una opción atractiva en un solo punto puede fallar cuando se evalúan juntos los costes y el uso real.",
+          "title": "Haz visible el riesgo principal",
+          "eyebrow": "Riesgos"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede comparar opciones en Dubai Harbour usando la misma base: ocupación, costes operativos, mobiliario, uso para alquiler y resultado económico neto.",
+          "title": "Compara con una sola lista de prioridades",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notas para la decisión del escenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "En Dubai Harbour, revisa especialmente normas de alquiler, ocupación, gestión, mobiliario y costes recurrentes. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+        "tags": [
+          "Normas de alquiler",
+          "Ocupación",
+          "Gestión",
+          "Mobiliario",
+          "Costes recurrentes"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Qué comprobar antes de comprar"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Define qué significa ocupación para tu caso antes de comparar propiedades.",
+            "title": "Define primero: ocupación"
+          },
+          {
+            "text": "Contrasta costes operativos entre opciones equivalentes y no lo evalúes de forma aislada.",
+            "title": "Compara: costes operativos"
+          },
+          {
+            "text": "En Dubai Harbour, comprueba mobiliario para la propiedad concreta y con datos actuales.",
+            "title": "Verifica: mobiliario"
+          },
+          {
+            "text": "Antes de comprometerte, confirma uso para alquiler junto con plazos, pagos y estado actual de la propiedad.",
+            "title": "Confirma: uso para alquiler"
+          }
+        ],
+        "title": "Documentos y notas del proceso",
+        "eyebrow": "Aspectos prácticos"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/es/projects/address-residences-the-bay/",
+            "meta": "Emaar Properties · Dubai Harbour",
+            "label": "Address Residences The Bay"
+          },
+          {
+            "href": "/es/projects/seahaven/",
+            "meta": "Sobha Realty · Dubai Harbour",
+            "label": "Seahaven"
+          },
+          {
+            "href": "/es/projects/skycrest-collection/",
+            "meta": "Damac Properties · Dubai Harbour",
+            "label": "Skycrest Collection"
+          },
+          {
+            "href": "/es/projects/dubai-harbour-residences/",
+            "meta": "H&H Development · Dubai Harbour",
+            "label": "Dubai Harbour Residences"
+          },
+          {
+            "href": "/es/projects/w-residences-dubai-harbour/",
+            "meta": "ARADA · Dubai Harbour",
+            "label": "W Residences Dubai Harbour"
+          }
+        ],
+        "title": "Proyectos para comparar",
+        "eyebrow": "Opciones para la selección"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Usa AED 1M–5M como marco del escenario y mantén en el mismo cálculo precio de compra, mobiliario, gestión, vacancia y costes operativos. No conviertas el límite de presupuesto en una suposición sobre precio o disponibilidad; confirma los importes y condiciones actuales y deja margen para cambios.",
+        "tags": [
+          "Precio de compra",
+          "Mobiliario",
+          "Gestión",
+          "Vacancia",
+          "Costes operativos"
+        ],
+        "title": "Lógica del presupuesto",
+        "eyebrow": "Presupuesto del escenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/es/buyer-scenarios/rental-yield-apartment-investor-in-dubai-harbour/",
+          "label": "Inversor en apartamentos que evalúa la rentabilidad del alquiler en Dubai Harbour"
+        },
+        {
+          "href": "/es/buyer-scenarios/entry-level-rental-income-investor-in-dubai-harbour/",
+          "label": "Inversor inicial orientado a ingresos por alquiler en Dubai Harbour"
+        },
+        {
+          "href": "/es/buyer-scenarios/resale-liquidity-buyer-in-dubai-harbour/",
+          "label": "Comprador centrado en la liquidez de reventa en Dubai Harbour"
+        },
+        {
+          "href": "/es/buyer-scenarios/ready-to-move-buyer-in-dubai-harbour/",
+          "label": "Comprador de propiedad lista para entrar a vivir en Dubai Harbour"
+        }
+      ],
+      "title": "Escenarios relacionados",
+      "eyebrow": "Seguir explorando",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Comprueba primero las normas y el uso permitido para alquiler de corta estancia; modela ocupación, gestión, mobiliario, vacancia y costes operativos sin asumir resultados. Compara todos los criterios juntos y verifica la propiedad concreta antes de decidir. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+          "question": "¿Cómo debo evaluar una inversión en alquiler de corta estancia en Dubai Harbour?"
+        },
+        {
+          "answer": "Es útil para compradores que encajan con el escenario «Inversor en alquiler de corta estancia» y quieren comparar ocupación, costes operativos y mobiliario con una metodología coherente.",
+          "question": "¿Quién debería considerar una inversión en alquiler de corta estancia en Dubai Harbour?"
+        },
+        {
+          "answer": "Comprueba uso para alquiler, ocupación, gestión y costes de puesta en marcha / operación y revisa los datos actuales, los documentos y las condiciones de la operación para la propiedad concreta.",
+          "question": "¿Qué debo verificar antes de basarme en el uso para estancias cortas en Dubai Harbour?"
+        },
+        {
+          "answer": "Usa AED 1M–5M como marco y suma precio de compra, mobiliario, gestión, vacancia y costes operativos. Mantén una reserva para costes o cambios no reflejados en el precio anunciado.",
+          "question": "¿Cómo debo presupuestar la puesta en marcha y operación de un alquiler de corta estancia en Dubai Harbour?"
+        },
+        {
+          "answer": "En Dubai Harbour, revisa especialmente normas de alquiler, ocupación, gestión, mobiliario y costes recurrentes. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+          "question": "¿Cuáles son los principales riesgos de una inversión en alquiler de corta estancia en Dubai Harbour?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas del escenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Antes de decidir en Dubai Harbour, confirma uso para alquiler, ocupación, gestión y costes de puesta en marcha / operación. Estos elementos pueden cambiar la comparación y deben revisarse para la propiedad concreta con información vigente. Verifica las normas actuales y cualquier requisito aplicable al uso para alquiler de corta estancia antes de basar la decisión en ingresos proyectados.",
+      "items": [
+        {
+          "label": "Uso para alquiler",
+          "value": "Verificar qué aplica"
+        },
+        {
+          "label": "Ocupación",
+          "value": "Usar supuestos realistas"
+        },
+        {
+          "label": "Gestión",
+          "value": "Confirmar la estructura acordada"
+        },
+        {
+          "label": "Costes de puesta en marcha / operación",
+          "value": "Construir el presupuesto completo"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Qué verificar",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compara «Inversor en alquiler de corta estancia» en Dubai Harbour con ocupación, costes operativos, mobiliario y uso para alquiler. Primadom AI puede ayudarte a organizar los compromisos antes de revisar propiedades concretas.",
+      "title": "¿Quieres comprobar el caso de alquiler de corta estancia antes de comprometerte?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Revisar opciones",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta del escenario del comprador",
+      "text": "Comparte tus prioridades sobre ocupación, costes operativos, mobiliario y uso para alquiler para este escenario en Dubai Harbour. Así el asesor tendrá un contexto útil antes de la conversación.",
+      "title": "Revisa tu inversión en alquiler de corta estancia",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Quiero comparar opciones para el escenario «Inversor en alquiler de corta estancia» en Dubai Harbour.",
+      "eyebrow": "Continuar el análisis del escenario con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Dirección de email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compara opciones en Dubai Harbour usando ocupación, costes operativos, mobiliario y uso para alquiler y verifica los costes y condiciones actuales antes de decidir.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Evalúa el alquiler de corta estancia con costes reales",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

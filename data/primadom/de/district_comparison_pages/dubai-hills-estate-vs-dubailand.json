@@ -1,0 +1,635 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_district_comparison_dubai_hills_estate_vs_dubailand_de",
+  "page_type_id": "district_comparison_page",
+  "language_code": "de",
+  "url_path": "/de/compare-areas/dubai-hills-estate-vs-dubailand/",
+  "canonical_url_path": "/de/compare-areas/dubai-hills-estate-vs-dubailand/",
+  "canonical_group_key": "district_comparison:dubai-hills-estate:vs:dubailand",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-hills-estate",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_comparison_table",
+    "block_08_decision_cards",
+    "block_09_buyer_rental_logic",
+    "block_10_projects_by_area",
+    "block_11_related_comparisons",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#comparisonLeadModal",
+      "cta_label": "Meinen Fall vergleichen",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Überblick",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#table",
+          "label": "Vergleichen"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projekte"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "AI fragen"
+        }
+      ],
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_generated",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation zum Gebietsvergleich",
+      "schema_version": "district_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "area_comparisons",
+          "href": "/de/compare-areas/",
+          "label": "Gebietsvergleiche in den VAE"
+        },
+        {
+          "key": "comparison",
+          "href": "/de/compare-areas/dubai-hills-estate-vs-dubailand/",
+          "label": "Dubai Hills Estate vs Dubailand",
+          "label_ref": "comparison.name"
+        }
+      ],
+      "url_section": "compare-areas",
+      "block_status": "formula_generated",
+      "schema_version": "district_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Dubai Hills Estate: Villenwohnen im Grünen",
+        "Dubailand: familienorientiertes Wohnquartier",
+        "Lebensstil und Lage",
+        "Immobilien- und Projektauswahl",
+        "Aktuelle Details vor der Vorauswahl"
+      ],
+      "title": "Dubai Hills Estate vs Dubailand",
+      "area_a": {
+        "name": "Dubai Hills Estate",
+        "slug": "dubai-hills-estate",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "area_b": {
+        "name": "Dubailand",
+        "slug": "dubailand",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "kicker": "Gebietsvergleich",
+      "subtitle": "Vergleichen Sie Dubai Hills Estate und Dubailand nach Lebensstil, Lage, Immobilienauswahl und Projekten.",
+      "facts_aria": "Fakten zum Vergleich",
+      "visual_aria": "Geteilte Ansicht zum Vergleich von Dubai Hills Estate und Dubailand",
+      "block_status": "formula_generated_media_later",
+      "schema_version": "district_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "hints": [
+        "Eignung für Familien: Dubai Hills Estate vs Dubailand",
+        "Mieteinnahmen: Dubai Hills Estate vs Dubailand",
+        "Budgetoptionen: Dubai Hills Estate vs Dubailand"
+      ],
+      "ai_aria": "Primadom AI fragen: Dubai Hills Estate und Dubailand vergleichen",
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "voice_text": "Dubai Hills Estate vs Dubailand vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "formula_generated",
+      "voice_status": "Hört zu…",
+      "ai_placeholder": "Dubai Hills Estate vs Dubailand vergleichen",
+      "schema_version": "district_comparison_ai_compare_v1",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "Eignung zum Lebensstil",
+        "Budgetpassung",
+        "Immobilientyp",
+        "Vermietungsziel"
+      ],
+      "title": "Kurzfazit",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Dubai Hills Estate</strong> kann für Käufer geeignet sein, die Villenwohnen im Grünen suchen; <strong>Dubailand</strong> kann für Käufer geeignet sein, die ein familienorientiertes Wohnquartier suchen. Vergleichen Sie vor der Entscheidung Budget, Immobilientyp, Alltagswege und Vermietungsziele.",
+      "body_text": "Dubai Hills Estate kann für Käufer geeignet sein, die Villenwohnen im Grünen suchen; Dubailand kann für Käufer geeignet sein, die ein familienorientiertes Wohnquartier suchen. Vergleichen Sie vor der Entscheidung Budget, Immobilientyp, Alltagswege und Vermietungsziele.",
+      "body_source": "district_profile_buyer_phrases_v2",
+      "chip_source": "buyer_decision_axes",
+      "source_status": "profile_context_no_live_market_claims",
+      "schema_version": "district_comparison_quick_verdict_v1",
+      "summary_status": "profile_based_can_enrich_later"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Vergleichstyp",
+          "value": "Stadtteilvergleich"
+        },
+        {
+          "label": "Markt",
+          "value": "Dubai / VAE"
+        },
+        {
+          "label": "Gebiet A",
+          "value": "Dubai Hills Estate"
+        },
+        {
+          "label": "Gebiet B",
+          "value": "Dubailand"
+        },
+        {
+          "label": "Profil Gebiet A",
+          "value": "Villenwohnen im Grünen"
+        },
+        {
+          "label": "Profil Gebiet B",
+          "value": "familienorientiertes Wohnquartier"
+        },
+        {
+          "label": "Projekte Gebiet A",
+          "value": "49 erfasste Projekte"
+        },
+        {
+          "label": "Projekte Gebiet B",
+          "value": "168 erfasste Projekte"
+        }
+      ],
+      "title": "Vergleichsdetails",
+      "eyebrow": "Wichtige Fakten",
+      "block_status": "structured_data_generated",
+      "source_status": "structured_source_fields",
+      "schema_version": "district_comparison_facts_v1"
+    },
+    "block_07_comparison_table": {
+      "head": {
+        "area_a": "Dubai Hills Estate",
+        "area_b": "Dubailand",
+        "factor": "Kriterium"
+      },
+      "rows": [
+        {
+          "area_a": "Positionierung im Mittelsegment; aktuelle Preise und Gebühren prüfen.",
+          "area_b": "Preisorientierte Positionierung; aktuelle Preise und Gebühren prüfen.",
+          "factor": "Preisniveau"
+        },
+        {
+          "area_a": "Grüner, ruhigerer Lebensstil in Vorstadtlage.",
+          "area_b": "Grüner, ruhigerer Lebensstil in Vorstadtlage.",
+          "factor": "Lebensstil"
+        },
+        {
+          "area_a": "Breite Auswahl unter 49 erfassten Projekten; aktuelle Verfügbarkeit prüfen.",
+          "area_b": "Sehr breite Auswahl unter 168 erfassten Projekten; aktuelle Verfügbarkeit prüfen.",
+          "factor": "Projektoptionen"
+        },
+        {
+          "area_a": "Prüfung mit Fokus auf Kapitalwachstum; Angebot, Qualität und Wiederverkaufsnachfrage vergleichen.",
+          "area_b": "Prüfung mit Fokus auf Kapitalwachstum; Angebot, Qualität und Wiederverkaufsnachfrage vergleichen.",
+          "factor": "Investition"
+        },
+        {
+          "area_a": "Möglicherweise für Familien geeignet; kinderfreundliche Angebote, Schulen und Alltagswege prüfen.",
+          "area_b": "Möglicherweise für Familien geeignet; kinderfreundliche Angebote, Schulen und Alltagswege prüfen.",
+          "factor": "Eignung für Familien"
+        },
+        {
+          "area_a": "Bei Vermietung sollten Nachfrage, Gebühren, Immobilienqualität und Verwaltungskosten verglichen werden.",
+          "area_b": "Bei Vermietung sollten Nachfrage, Gebühren, Immobilienqualität und Verwaltungskosten verglichen werden.",
+          "factor": "Vermietungslogik"
+        }
+      ],
+      "title": "Vergleichstabelle",
+      "eyebrow": "Dubai Hills Estate vs Dubailand",
+      "table_status": "profile_enriched_structured",
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_table_v1"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "key": "entry_check",
+          "text": "Dubai Hills Estate: Mittelsegment. Dubailand: Budgetorientiert. Prüfen Sie aktuelle Preise, Immobiliengrößen und Servicegebühren.",
+          "title": "Mittelsegment vs. Budgetorientiert",
+          "eyebrow": "Einstiegsprüfung",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "lifestyle_fit",
+          "text": "Dubai Hills Estate: Villenwohnen im Grünen. Dubailand: Familienorientiertes Wohnquartier. Vergleichen Sie Alltagswege, lokale Angebote und den Alltag.",
+          "title": "Villenwohnen im Grünen vs. familienorientiertes Wohnquartier",
+          "eyebrow": "Eignung zum Lebensstil",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "investment_logic",
+          "text": "Beide Gebiete haben ein ähnliches Profil mit Fokus auf Kapitalwachstum; vergleichen Sie Nachfrage, Kosten, Projektqualität und Wiederverkaufsliquidität.",
+          "title": "Ähnliches Investitionsprofil",
+          "eyebrow": "Investitionslogik",
+          "card_status": "structured_comparison_inputs"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Primadom AI kann Dubai Hills Estate und Dubailand nach Immobilientyp, Lebensstil, Zeitrahmen und Käuferziel vergleichen.",
+          "title": "Ihren konkreten Fall vergleichen",
+          "eyebrow": "AI-Kontext",
+          "card_status": "ai_comparison_support"
+        }
+      ],
+      "cards_status": "profile_enriched_structured",
+      "source_status": "structured_comparison_inputs",
+      "schema_version": "district_comparison_decision_cards_v1",
+      "decision_cards_aria": "Hinweise zu Entscheidungsunterschieden"
+    },
+    "block_09_buyer_rental_logic": {
+      "buyer_types": {
+        "title": "Welches Gebiet passt am besten zu Ihrem Fall?",
+        "eyebrow": "Eignung für Käufer",
+        "area_a_items": [
+          "Sie bevorzugen Villenwohnen im Grünen, das zu Ihrem Alltag passt.",
+          "Sie legen Wert auf kinderfreundliche Angebote und prüfen Schulen sowie tägliche Wege.",
+          "Sie möchten 49 erfasste Projekte hinsichtlich Wachstumspotenzial, Qualität und Wiederverkaufsnachfrage vergleichen."
+        ],
+        "area_a_title": "Dubai Hills Estate kommt infrage, wenn",
+        "area_b_items": [
+          "Sie bevorzugen ein familienorientiertes Wohnquartier, das zu Ihrem Alltag passt.",
+          "Sie legen Wert auf kinderfreundliche Angebote und prüfen Schulen sowie tägliche Wege.",
+          "Sie möchten 168 erfasste Projekte hinsichtlich Wachstumspotenzial, Qualität und Wiederverkaufsnachfrage vergleichen."
+        ],
+        "area_b_title": "Dubailand kommt infrage, wenn"
+      },
+      "block_status": "profile_enriched_structured",
+      "rental_logic": {
+        "body": "Für Dubai Hills Estate und Dubailand gilt: Nachfrage, Servicegebühren, Qualität der Immobilien und Verwaltungskosten vergleichen. Prüfen Sie vor der Entscheidung die Daten auf Ebene der Immobilie.",
+        "tags": [
+          "Mieternachfrage",
+          "Servicegebühren",
+          "Immobilienqualität",
+          "Verwaltungskosten",
+          "Wiederverkaufsliquidität"
+        ],
+        "title": "Vermietungs- und Wiederverkaufslogik",
+        "eyebrow": "Mietprüfung"
+      },
+      "source_status": "structured_district_signals",
+      "schema_version": "district_comparison_buyer_rental_logic_v1"
+    },
+    "block_10_projects_by_area": {
+      "area_a": {
+        "items": [
+          {
+            "href": "/de/projects/399-hills-park/",
+            "meta": "Projektoption",
+            "label": "399 Hills Park"
+          },
+          {
+            "href": "/de/projects/address-hillcrest/",
+            "meta": "Projektoption",
+            "label": "Address Hillcrest"
+          },
+          {
+            "href": "/de/projects/address-residences/",
+            "meta": "Projektoption",
+            "label": "Address Residences"
+          },
+          {
+            "href": "/de/areas/dubai-hills-estate/",
+            "meta": "Gebietsleitfaden",
+            "label": "Dubai Hills Estate – Gebietsleitfaden"
+          }
+        ],
+        "title": "Projekte in Dubai Hills Estate",
+        "eyebrow": "Erstes Gebiet"
+      },
+      "area_b": {
+        "items": [
+          {
+            "href": "/de/projects/a99/",
+            "meta": "Projektoption",
+            "label": "A99"
+          },
+          {
+            "href": "/de/projects/aark-residences/",
+            "meta": "Projektoption",
+            "label": "Aark Residences"
+          },
+          {
+            "href": "/de/projects/aark-terraces/",
+            "meta": "Projektoption",
+            "label": "Aark Terraces"
+          },
+          {
+            "href": "/de/areas/dubailand/",
+            "meta": "Gebietsleitfaden",
+            "label": "Dubailand – Gebietsleitfaden"
+          }
+        ],
+        "title": "Projekte in Dubailand",
+        "eyebrow": "Zweites Gebiet"
+      },
+      "source_status": "trusted_project_links_with_manual_exclusions",
+      "schema_version": "district_comparison_projects_by_area_v1",
+      "projects_status": "entity_linked_routes_structured"
+    },
+    "block_11_related_comparisons": {
+      "items": [
+        {
+          "href": "/de/compare-areas/al-furjan-vs-dubai-hills-estate/",
+          "label": "Al Furjan vs Dubai Hills Estate"
+        },
+        {
+          "href": "/de/compare-areas/arjan-vs-dubai-hills-estate/",
+          "label": "Arjan vs Dubai Hills Estate"
+        },
+        {
+          "href": "/de/compare-areas/al-barari-vs-dubailand/",
+          "label": "Al Barari vs Dubailand"
+        },
+        {
+          "href": "/de/compare-areas/al-barsha-vs-dubailand/",
+          "label": "Al Barsha vs Dubailand"
+        }
+      ],
+      "title": "Verwandte Vergleiche",
+      "eyebrow": "Weiter erkunden",
+      "source_status": "resolved_comparison_routes",
+      "related_status": "shared_area_priority_matched",
+      "schema_version": "district_comparison_related_v1"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Dubai Hills Estate kann für Käufer geeignet sein, die Villenwohnen im Grünen suchen; Dubailand kann für Käufer geeignet sein, die ein familienorientiertes Wohnquartier suchen. Vergleichen Sie vor der Entscheidung Budget, Immobilientyp, Alltagswege und Vermietungsziele.",
+          "question": "Was ist der wichtigste Unterschied zwischen Dubai Hills Estate und Dubailand?",
+          "answer_status": "from_final_verdict"
+        },
+        {
+          "answer": "Dubai Hills Estate: Positionierung im Mittelsegment; aktuelle Preise und Gebühren prüfen. Dubailand: Preisorientierte Positionierung; aktuelle Preise und Gebühren prüfen. Prüfen Sie vor einer Budgetentscheidung aktuelle Preise, verfügbare Immobilien, Zahlungsbedingungen und Servicegebühren.",
+          "question": "Wie unterscheiden sich Dubai Hills Estate und Dubailand bei Preis und Budgetpassung?",
+          "answer_status": "from_final_price_comparison"
+        },
+        {
+          "answer": "Dubai Hills Estate: Bei Vermietung sollten Nachfrage, Gebühren, Immobilienqualität und Verwaltungskosten verglichen werden. Dubailand: Bei Vermietung sollten Nachfrage, Gebühren, Immobilienqualität und Verwaltungskosten verglichen werden. Mieteinnahmen sollten dennoch auf Ebene der Immobilie und des Gebäudes anhand aktueller Mieternachfrage, Servicegebühren, Verwaltungskosten und Wiederverkaufsliquidität geprüft werden.",
+          "question": "Welches Gebiet eignet sich besser für Mieteinnahmen?",
+          "answer_status": "from_final_rental_comparison"
+        },
+        {
+          "answer": "Dubai Hills Estate: Möglicherweise für Familien geeignet; kinderfreundliche Angebote, Schulen und Alltagswege prüfen. Dubailand: Möglicherweise für Familien geeignet; kinderfreundliche Angebote, Schulen und Alltagswege prüfen. Die endgültige Wahl sollte außerdem Alltagswege, Schulen oder Kindergärten, Wohnfläche, Privatsphäre, Fußläufigkeit, Verkehr und den bevorzugten Alltag berücksichtigen.",
+          "question": "Welches Gebiet eignet sich besser für Familien und Eigennutzung – Dubai Hills Estate oder Dubailand?",
+          "answer_status": "from_final_family_comparison"
+        },
+        {
+          "answer": "Ja. Primadom AI kann Dubai Hills Estate und Dubailand nach Budget, Immobilientyp, Prioritäten beim Lebensstil, Familienbedürfnissen, Vermietungsziel, gewünschtem Zeitrahmen und aktueller Projektverfügbarkeit vergleichen, bevor die Anfrage an einen Berater weitergegeben wird.",
+          "question": "Kann Primadom AI Dubai Hills Estate und Dubailand für meinen Fall vergleichen?",
+          "answer_status": "system_capability"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen von Käufern",
+      "faq_status": "pair_specific_structured",
+      "source_status": "final_comparison_blocks",
+      "schema_version": "district_comparison_faq_v1"
+    },
+    "block_13_source_notes": {
+      "body": "Bevor Sie sich zwischen Dubai Hills Estate und Dubailand entscheiden, prüfen Sie aktuelle Preise, Projektverfügbarkeit, Zahlungspläne, Übergabestatus, Servicegebühren und Mietannahmen anhand von Unterlagen der Bauträger, relevanten öffentlichen Registern und aktuellen Marktprüfungen.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Projektstatus",
+          "value": "Offizielle Quelle erforderlich"
+        },
+        {
+          "label": "Mietannahmen",
+          "value": "Prüfung von Markt und Immobilie"
+        },
+        {
+          "label": "Zuletzt überprüft",
+          "value": "Überprüfung ausstehend"
+        }
+      ],
+      "title": "Quellenprüfung",
+      "eyebrow": "Überprüfung",
+      "schema_version": "district_comparison_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "pending_source_verification",
+      "source_notes_status": "verification_notice_structured"
+    },
+    "block_14_cta": {
+      "text": "Vergleichen Sie Dubai Hills Estate und Dubailand nach Lebensstil, Immobilientyp, Vermietungsziel, Zeitrahmen und Alltag und prüfen Sie anschließend aktuelle Optionen mit Primadom AI oder einem Berater.",
+      "title": "Welches Gebiet passt besser zu Ihrem Fall?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Primadom AI fragen",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#comparisonLeadModal",
+          "label": "Meinen Fall vergleichen",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "area_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#comparisonLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#comparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific_structured",
+      "schema_version": "district_comparison_cta_v1"
+    },
+    "block_15_lead_modal": {
+      "aria": "Formular für eine Gebietsvergleichsanfrage",
+      "note": "Wir prüfen die Angaben, bevor wir Ihre Anfrage weiterleiten.",
+      "text": "Teilen Sie uns mit, was Ihnen am wichtigsten ist. Primadom AI erstellt einen fokussierten Vergleich, bevor sich ein Berater bei Ihnen meldet.",
+      "title": "Dubai Hills Estate und Dubailand für Ihren Fall vergleichen",
+      "fields": {
+        "name": "Name",
+        "phone": "Telefon / WhatsApp",
+        "budget": "E-Mail (optional)",
+        "comment": "Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Diese beiden Gebiete im Hinblick auf meine Immobilienziele vergleichen.",
+      "eyebrow": "Vergleichsanfrage",
+      "success": "Gesendet",
+      "ai_badge": "Primadom AI",
+      "modal_id": "comparisonLeadModal",
+      "title_id": "comparisonLeadTitle",
+      "close_label": "Schließen",
+      "ai_row_badge": "Anfrageentwurf",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Ihr Name"
+        },
+        "phone": {
+          "label": "Telefon / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "budget": {
+          "label": "E-Mail (optional)",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "comment": {
+          "label": "Anfrage",
+          "html_name": "comment",
+          "placeholder": "Was ist Ihnen am wichtigsten?"
+        }
+      },
+      "modal_status": "pair_specific_structured",
+      "placeholders": {
+        "name": "Ihr Name",
+        "phone": "+971...",
+        "budget": "email@example.com"
+      },
+      "submit_label": "Senden",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "area_a_name": {
+          "html_name": "area_a_name",
+          "value_ref": "area_a_name"
+        },
+        "area_a_slug": {
+          "html_name": "area_a_slug",
+          "value_ref": "area_a_slug"
+        },
+        "area_b_name": {
+          "html_name": "area_b_name",
+          "value_ref": "area_b_name"
+        },
+        "area_b_slug": {
+          "html_name": "area_b_slug",
+          "value_ref": "area_b_slug"
+        }
+      },
+      "success_label": "Gesendet",
+      "schema_version": "district_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Diese beiden Gebiete im Hinblick auf meine Immobilienziele vergleichen.",
+        "html_name": "comment",
+        "request_scope": [
+          "area_fit",
+          "lifestyle_fit",
+          "property_type",
+          "rental_goal",
+          "timing",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "Spracheingabe verwenden"
+    },
+    "block_16_footer": {
+      "text": "Vergleichen Sie Dubai Hills Estate und Dubailand nach Lebensstil, Immobilienauswahl, Vermietungslogik und Eignung für Käufer und setzen Sie anschließend mit Primadom AI oder einem Berater fort.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Stadtteile",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Gebiete mit klaren Entscheidungshilfen für Immobilien vergleichen.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, VAE",
+      "subtitle": "Immobilieninformationen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Links zu sozialen Netzwerken",
+      "url_section": "compare-areas",
+      "footer_status": "standard_footer_structured",
+      "schema_version": "district_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#comparisonLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "AI fragen",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-buy-with-limited-budget__context__european-buyers__es",
+  "page_type_id": "ai_answer_page",
+  "language_code": "es",
+  "url_path": "/es/ai-answers/how-to-buy-with-limited-budget-european-buyers/",
+  "canonical_url_path": "/es/ai-answers/how-to-buy-with-limited-budget-european-buyers/",
+  "canonical_group_key": "ai_answer:how-to-buy-with-limited-budget:context:european-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-buy-with-limited-budget",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Comprobaciones",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Riesgos",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navegación de respuestas de AI",
+      "cta_label": "Revisar mi caso",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/es/ai-answers/",
+          "label": "Respuestas de AI"
+        },
+        {
+          "key": "current",
+          "href": "/es/ai-answers/how-to-buy-with-limited-budget-european-buyers/",
+          "label": "¿Cómo comprar con un presupuesto limitado? — Compradores europeos",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Compradores europeos",
+        "Presupuesto",
+        "Coste total",
+        "Alternativas",
+        "Margen"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "¿Cómo comprar con un presupuesto limitado? — Compradores europeos",
+      "subtitle": "Analiza esta cuestión para compradores europeos, prestando atención a presupuesto total, costes de compra, financiación, tipo de propiedad, zonas y compromisos necesarios antes de decidir.",
+      "facts_aria": "Puntos clave de la respuesta",
+      "section_id": "hero",
+      "visual_aria": "Visual de decisión inmobiliaria para ¿Cómo comprar con un presupuesto limitado? — Compradores europeos",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Explícame qué debo comprobar antes de decidir",
+        "Muéstrame qué detalles importan más para compradores europeos",
+        "Compara las alternativas y los riesgos relevantes para mi caso"
+      ],
+      "ai_aria": "Hacer una pregunta de seguimiento a Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Ayúdame a revisar esta cuestión para compradores europeos",
+      "placeholder": "Ayúdame a revisar esta cuestión para compradores europeos",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Presupuesto limitado",
+        "Compradores europeos",
+        "Presupuesto total",
+        "Alternativas",
+        "Margen"
+      ],
+      "title": "Respuesta directa",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Convierte la pregunta en comprobaciones concretas y contrástalas con datos actuales antes de decidir.</strong> Con un presupuesto limitado, la prioridad es proteger el coste total y mantener alternativas; precio, ubicación, tamaño y calendario deben equilibrarse sin depender de cifras no confirmadas. Para compradores europeos, confirma los datos que puedan cambiar antes de reservar, firmar o transferir fondos.",
+      "body_text": "Convierte la pregunta en comprobaciones concretas y contrástalas con datos actuales antes de decidir. Con un presupuesto limitado, la prioridad es proteger el coste total y mantener alternativas; precio, ubicación, tamaño y calendario deben equilibrarse sin depender de cifras no confirmadas. Para compradores europeos, confirma los datos que puedan cambiar antes de reservar, firmar o transferir fondos.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Pregunta",
+          "value": "¿Cómo comprar con un presupuesto limitado? — Compradores europeos"
+        },
+        {
+          "label": "Contexto",
+          "value": "Compradores europeos"
+        },
+        {
+          "label": "Mercado",
+          "value": "EAU"
+        },
+        {
+          "label": "Decisión",
+          "value": "Compra dentro del presupuesto"
+        },
+        {
+          "label": "Comprobaciones principales",
+          "value": "Presupuesto total · Alternativas · Margen"
+        },
+        {
+          "label": "Riesgo principal",
+          "value": "Quedarse sin margen por costes adicionales"
+        },
+        {
+          "label": "Mejor siguiente paso",
+          "value": "Crear una selección dentro del presupuesto total"
+        },
+        {
+          "label": "Verificación",
+          "value": "Requiere una comprobación actual"
+        }
+      ],
+      "title": "Detalles de la respuesta",
+      "topic": "Presupuesto limitado",
+      "market": "EAU",
+      "context": "Compradores europeos",
+      "eyebrow": "Datos clave",
+      "question": "¿Cómo comprar con un presupuesto limitado?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Los datos o documentos clave sobre presupuesto limitado siguen sin verificarse.",
+            "title": "Faltan datos actuales"
+          },
+          {
+            "text": "El riesgo aumenta cuando todo el presupuesto se destina al precio anunciado y no queda margen para costes, financiación o cambios.",
+            "title": "El riesgo no compensa"
+          },
+          {
+            "text": "Una alternativa comparable ofrece un mejor equilibrio de coste, claridad, calendario o riesgo para tu objetivo.",
+            "title": "Hay una alternativa más sólida"
+          },
+          {
+            "text": "Para compradores europeos, revisa la decisión si una suposición importante sigue sin confirmarse o aparece una alternativa más adecuada.",
+            "title": "Conviene revisar el conjunto"
+          }
+        ],
+        "title": "Cuando la respuesta es «no»",
+        "eyebrow": "Requiere más comprobaciones"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Los datos y documentos críticos sobre presupuesto limitado están actualizados y son coherentes.",
+            "title": "Los datos están verificados"
+          },
+          {
+            "text": "El coste total y las obligaciones siguen siendo asumibles después de incluir las partidas y condiciones relevantes.",
+            "title": "El coste total encaja"
+          },
+          {
+            "text": "Las características reales de la opción responden al uso, horizonte y prioridades definidos para la compra.",
+            "title": "La opción encaja con el objetivo"
+          },
+          {
+            "text": "Para compradores europeos, la conclusión sigue siendo razonable después de considerar riesgos y alternativas realistas.",
+            "title": "El conjunto sigue funcionando"
+          }
+        ],
+        "title": "Cuando la respuesta es «sí»",
+        "eyebrow": "Adecuado"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Reserva margen para tasas, financiación, servicio, mantenimiento y otros costes además del precio de compra.",
+          "title": "Presupuesto total · Alternativas · Margen",
+          "eyebrow": "Qué comprobar"
+        },
+        {
+          "dark": false,
+          "text": "El riesgo aumenta cuando todo el presupuesto se destina al precio anunciado y no queda margen para costes, financiación o cambios.",
+          "title": "Margen",
+          "eyebrow": "Riesgo"
+        },
+        {
+          "dark": false,
+          "text": "No bases la compra en financiación, descuentos o ingresos futuros que todavía no estén confirmados.",
+          "title": "Crear una selección dentro del presupuesto total",
+          "eyebrow": "Siguiente paso"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede convertir esta respuesta en una lista de comprobación adaptada a tus prioridades, restricciones y puntos pendientes de confirmar.",
+          "title": "Revisar mi caso",
+          "eyebrow": "Continuar con AI"
+        }
+      ],
+      "cards_aria": "Orientación para la decisión",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "El riesgo aumenta cuando todo el presupuesto se destina al precio anunciado y no queda margen para costes, financiación o cambios. Para compradores europeos, utiliza información actual y evita convertir una estimación o promesa comercial en un dato confirmado.",
+        "tags": [
+          "Presupuesto",
+          "Costes",
+          "Financiación",
+          "Alternativas",
+          "Margen"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Ten cuidado si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Reserva margen para tasas, financiación, servicio, mantenimiento y otros costes además del precio de compra.",
+            "title": "Fijar el presupuesto total"
+          },
+          {
+            "text": "Distingue entre requisitos obligatorios y preferencias que pueden negociarse.",
+            "title": "Priorizar lo imprescindible"
+          },
+          {
+            "text": "Compara zonas, tipos de propiedad, propiedad terminada y sobre plano cuando sean alternativas realistas.",
+            "title": "Abrir varias rutas"
+          },
+          {
+            "text": "No bases la compra en financiación, descuentos o ingresos futuros que todavía no estén confirmados.",
+            "title": "Evitar estirar el caso"
+          }
+        ],
+        "title": "Qué comprobar",
+        "eyebrow": "Lista de comprobación para decidir"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/es/ai-answers/how-to-avoid-overpaying-european-buyers/",
+          "label": "¿Cómo evitar pagar de más?"
+        },
+        {
+          "href": "/es/ai-answers/how-to-check-low-entry-price-european-buyers/",
+          "label": "¿Cómo comprobar una oferta con precio de entrada bajo?"
+        },
+        {
+          "href": "/es/ai-answers/what-is-good-entry-price-european-buyers/",
+          "label": "¿Qué se considera un buen precio de entrada?"
+        },
+        {
+          "href": "/es/ai-answers/how-much-down-payment-european-buyers/",
+          "label": "¿Cuánto necesito como pago inicial?"
+        },
+        {
+          "href": "/es/ai-answers/what-hidden-costs-european-buyers/",
+          "label": "¿Qué costes ocultos debo tener en cuenta?"
+        }
+      ],
+      "title": "Seguir explorando",
+      "eyebrow": "Siguientes páginas",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Convierte la pregunta en comprobaciones concretas y contrástalas con datos actuales antes de decidir. Con un presupuesto limitado, la prioridad es proteger el coste total y mantener alternativas; precio, ubicación, tamaño y calendario deben equilibrarse sin depender de cifras no confirmadas.",
+          "question": "¿Cómo comprar con un presupuesto limitado?"
+        },
+        {
+          "answer": "Reserva margen para tasas, financiación, servicio, mantenimiento y otros costes además del precio de compra.",
+          "question": "¿Cómo evitar pagar de más?"
+        },
+        {
+          "answer": "Distingue entre requisitos obligatorios y preferencias que pueden negociarse.",
+          "question": "¿Cómo comprobar una oferta con precio de entrada bajo?"
+        },
+        {
+          "answer": "El riesgo aumenta cuando todo el presupuesto se destina al precio anunciado y no queda margen para costes, financiación o cambios.",
+          "question": "¿Qué se considera un buen precio de entrada?"
+        },
+        {
+          "answer": "El siguiente paso práctico es crear una selección dentro del presupuesto total y volver a comprobar cualquier dato que pueda cambiar antes de actuar.",
+          "question": "¿Cuánto necesito como pago inicial?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas para búsqueda con AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "El precio y el valor relativo dependen de la unidad, el proyecto, la ubicación, las condiciones y el mercado actual. Compara propiedades equivalentes y el coste total antes de basarte en un precio anunciado o una prima.",
+      "items": [
+        {
+          "label": "Contexto",
+          "value": "EAU"
+        },
+        {
+          "label": "Enfoque de verificación",
+          "value": "Presupuesto total · Alternativas · Margen"
+        },
+        {
+          "label": "Fuentes que comprobar",
+          "value": "Precios actuales · comparables · condiciones de la propiedad"
+        },
+        {
+          "label": "Comprobación actual",
+          "value": "Precio, incentivos, comparables y coste total actuales"
+        },
+        {
+          "label": "Revisión de fuentes",
+          "value": "Volver a comprobar antes de decidir"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Notas de verificación",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "pricing_value",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Pide a Primadom AI que aplique esta respuesta sobre presupuesto limitado a tu caso como comprador europeo, revisando presupuesto total, costes de compra, financiación, tipo de propiedad, zonas y compromisos necesarios. Confirma también los datos que todavía puedan cambiar antes de decidir.",
+      "title": "¿Quieres aplicar esta respuesta a tu caso?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Revisar mi caso",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulario de seguimiento de una respuesta de AI",
+      "text": "Primadom AI aplicará esta respuesta a tu caso como comprador europeo, centrando la revisión en presupuesto total, costes de compra, financiación, tipo de propiedad, zonas y compromisos necesarios y en los puntos que deben confirmarse antes de continuar.",
+      "title": "Aplicar esta respuesta a tu caso",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Quiero aplicar esta respuesta sobre presupuesto limitado a mi caso.",
+      "eyebrow": "Continuar con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Email (opcional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI convierte preguntas sobre propiedades en comprobaciones, riesgos, siguientes páginas y solicitudes listas para un asesor.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Búsqueda con respuesta directa, conectada con decisiones inmobiliarias reales",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

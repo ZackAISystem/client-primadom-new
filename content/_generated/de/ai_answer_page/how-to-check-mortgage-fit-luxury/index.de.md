@@ -1,0 +1,10 @@
+---
+title: "Wie prüft man die Hypothekeneignung — Luxusimmobilien"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-check-mortgage-fit-luxury"
+page_id: "ai_answer__how-to-check-mortgage-fit__context__luxury__de"
+url: "/de/ai-answers/how-to-check-mortgage-fit-luxury/"
+build:
+  render: always
+  list: never
+---

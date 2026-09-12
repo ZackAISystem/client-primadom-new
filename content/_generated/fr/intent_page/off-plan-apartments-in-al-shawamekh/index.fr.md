@@ -1,0 +1,10 @@
+---
+title: "Appartements sur plan à Al Shawamekh"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-apartments-in-al-shawamekh"
+page_id: "intent__off-plan-apartments__district__al-shawamekh__fr"
+url: "/fr/intents/off-plan-apartments-in-al-shawamekh/"
+build:
+  render: always
+  list: never
+---

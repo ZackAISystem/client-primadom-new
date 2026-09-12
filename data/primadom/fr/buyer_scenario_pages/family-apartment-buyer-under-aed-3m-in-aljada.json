@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_family_apartment_buyer_under_aed_3m_aljada_fr",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-aljada/",
+  "canonical_url_path": "/fr/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-aljada/",
+  "canonical_group_key": "scenario_district:family_apartment_buyer_under_aed_3m:aljada",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "aljada",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation du scénario d’acheteur",
+      "cta_label": "Vérifier le scénario",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/aljada/",
+          "label": "Aljada"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-aljada/",
+          "label": "Famille recherchant un appartement à moins de 3 M AED — Aljada",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Famille recherchant un appartement à moins de 3 M AED",
+        "Aljada · EAU",
+        "Appartements",
+        "Jusqu’à AED 3M",
+        "Espace · trajets · coûts"
+      ],
+      "image": {
+        "alt": "Recherche immobilière — Famille recherchant un appartement à moins de 3 M AED — Aljada",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Famille recherchant un appartement à moins de 3 M AED — Aljada",
+      "subtitle": "À Aljada, comparez les appartements familiaux selon l’espace, l’agencement, les trajets, le quartier, les charges et le budget total.",
+      "facts_aria": "Points clés du scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Visuel de recherche immobilière — Famille recherchant un appartement à moins de 3 M AED — Aljada",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparer ce scénario à Aljada",
+        "Comparer l’espace utile, l’agencement et les trajets",
+        "Quels compromis comptent le plus pour mon usage ?"
+      ],
+      "ai_aria": "Demander à Primadom AI à propos du scénario « Famille recherchant un appartement à moins de 3 M AED — Aljada »",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparer ce scénario à Aljada",
+      "placeholder": "Comparer ce scénario à Aljada",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Famille recherchant un appartement à moins de 3 M AED",
+        "Aljada",
+        "Espace utilisable",
+        "Déplacements quotidiens",
+        "Demander à AI"
+      ],
+      "title": "Ce qui compte le plus",
+      "eyebrow": "Conseils pour l’acheteur",
+      "body_html": "<strong>Famille recherchant un appartement à moins de 3 M AED — Aljada</strong> — Pour une famille recherchant un appartement sous 3 M AED à Aljada, comparez l’espace réellement utilisable, l’agencement, les trajets, les services du quartier, les charges et le coût total. Le logement doit correspondre à la routine familiale plutôt qu’au seul nombre de chambres.",
+      "body_text": "Pour une famille recherchant un appartement sous 3 M AED à Aljada, comparez l’espace réellement utilisable, l’agencement, les trajets, les services du quartier, les charges et le coût total. Le logement doit correspondre à la routine familiale plutôt qu’au seul nombre de chambres.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scénario",
+          "value": "Famille recherchant un appartement à moins de 3 M AED — Aljada"
+        },
+        {
+          "label": "Objectif principal",
+          "value": "Vie familiale"
+        },
+        {
+          "label": "Localisation",
+          "value": "Aljada"
+        },
+        {
+          "label": "Type de bien",
+          "value": "Appartements"
+        },
+        {
+          "label": "Fourchette de budget",
+          "value": "Jusqu’à AED 3M"
+        },
+        {
+          "label": "Critère de décision",
+          "value": "Espace · trajets · coûts"
+        },
+        {
+          "label": "Étape de l’acheteur",
+          "value": "Planification / décision"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Comparer l’adéquation familiale"
+        }
+      ],
+      "title": "Paramètres du scénario",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cette page s’adresse",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs dont la décision est déjà arrêtée et qui n’ont plus besoin de comparer l’espace utile, l’agencement et les trajets.",
+          "Acheteurs qui se fient à un seul indicateur — prix, image du projet, réputation du quartier ou autre signal isolé — sans vérifier le bien précis.",
+          "Acheteurs qui ne souhaitent pas vérifier l’espace utile, l’agencement et les trajets ou les coûts récurrents avant de décider."
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs pour lesquels l’espace utile, l’agencement et les trajets sont déterminants à Aljada.",
+          "Acheteurs qui veulent comparer l’espace utile, l’agencement, les trajets et les services du quartier sur une base cohérente plutôt que de décider à partir d’un seul avantage.",
+          "Acheteurs prêts à vérifier les données susceptibles de changer, les coûts et le calendrier avant de s’engager."
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Pour une famille recherchant un appartement sous 3 M AED à Aljada, comparez l’espace réellement utilisable, l’agencement, les trajets, les services du quartier, les charges et le coût total. Le logement doit correspondre à la routine familiale plutôt qu’au seul nombre de chambres. Utilisez ensuite les mêmes critères pour comparer l’espace utile, l’agencement, les trajets et les services du quartier à Aljada, afin que chaque option soit évaluée sur une base cohérente.",
+        "tags": [
+          "Espace utilisable",
+          "Déplacements quotidiens",
+          "Coûts du bâtiment",
+          "Besoins en chambres",
+          "Adéquation au budget"
+        ],
+        "title": "Points à prendre en compte",
+        "eyebrow": "Logique de décision"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Aljada, évaluez dans quelle mesure le quartier répond aux priorités suivantes : l’espace utile, l’agencement et les trajets. Tenez aussi compte de la vie quotidienne de l’acheteur.",
+            "title": "Contexte local"
+          },
+          {
+            "text": "Comparez d’autres quartiers s’ils offrent un meilleur équilibre entre ces priorités, l’usage quotidien et le budget total.",
+            "title": "Comparer les alternatives"
+          },
+          {
+            "text": "Vérifiez les trajets, les services et les conditions réelles du bien : un seul avantage visible ne suffit pas à confirmer l’adéquation du quartier à ce scénario.",
+            "title": "Usage quotidien"
+          },
+          {
+            "text": "Gardez le choix du quartier cohérent avec l’espace utile et l’agencement ; un meilleur emplacement peut compenser certains compromis, et l’inverse.",
+            "title": "Avant d’affiner la sélection"
+          }
+        ],
+        "title": "Contexte du quartier",
+        "eyebrow": "Quartiers pertinents"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Appartements : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "Appartements"
+          },
+          {
+            "text": "2 ou 3 chambres : comparez l’agencement, l’espace utilisable, les charges, l’emplacement et l’adéquation à l’usage prévu.",
+            "title": "2 ou 3 chambres"
+          },
+          {
+            "text": "Bien prêt : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Bien prêt"
+          },
+          {
+            "text": "Bien sur plan : comparez l’échéancier, l’avancement du projet, la date de livraison, les conditions contractuelles et l’adéquation à votre calendrier.",
+            "title": "Bien sur plan"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Adéquation du bien"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Cadrez le budget familial sur le coût total : prix d’achat, frais d’acquisition, charges, ameublement et marge pour les dépenses d’installation. Le plafond de 3 M AED doit rester compatible avec la routine familiale après l’achat.",
+          "title": "Cadrez le budget complet",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "text": "À Aljada, comparez l’espace utile, l’agencement, les trajets et les services du quartier avec la même méthode et vérifiez ce que chaque option change réellement dans l’usage quotidien.",
+          "title": "Comparez l’usage réel",
+          "eyebrow": "Notes sur le processus"
+        },
+        {
+          "text": "Les principaux risques sont de choisir uniquement selon le nombre de chambres, de sous-estimer les trajets ou les charges, de négliger la qualité de l’agencement ou de dépasser le budget total pour gagner de la surface peu utile.",
+          "title": "Gardez les risques visibles",
+          "eyebrow": "Risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut organiser la comparaison à Aljada selon l’espace utile, l’agencement, les trajets et les services du quartier, avec le budget comme contrainte commune, sans supposer les données susceptibles de changer.",
+          "title": "Comparer avec Primadom AI",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notes de décision du scénario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Les principaux risques sont de choisir uniquement selon le nombre de chambres, de sous-estimer les trajets ou les charges, de négliger la qualité de l’agencement ou de dépasser le budget total pour gagner de la surface peu utile.",
+        "tags": [
+          "Agencement fonctionnel",
+          "Trajet vers les écoles",
+          "Trajets",
+          "Coûts du bâtiment",
+          "Calendrier d’emménagement"
+        ],
+        "title": "Risques",
+        "eyebrow": "À vérifier avant d’acheter"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Hiérarchisez l’espace utile, l’agencement, les trajets et les services du quartier avant d’affiner la sélection.",
+            "title": "Définir les priorités"
+          },
+          {
+            "text": "Mettez le prix d’achat, les frais d’acquisition, les coûts récurrents et la réserve de liquidités dans la même comparaison.",
+            "title": "Comparer le coût total"
+          },
+          {
+            "text": "Vérifiez l’agencement réel, l’espace de rangement, les trajets, les services de proximité, les charges et la date d’emménagement.",
+            "title": "Vérifier les données du bien"
+          },
+          {
+            "text": "Faites correspondre les paiements, la transaction, la livraison ou l’emménagement avec votre propre calendrier avant de vous engager.",
+            "title": "Valider le calendrier"
+          }
+        ],
+        "title": "Documents et notes sur le processus",
+        "eyebrow": "Aspects pratiques"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/safa-parkview/",
+            "meta": "ARADA · Aljada",
+            "label": "Safa Parkview"
+          },
+          {
+            "href": "/fr/projects/nasaq-phase-5/",
+            "meta": "ARADA · Aljada",
+            "label": "Nasaq Phase 5"
+          },
+          {
+            "href": "/fr/projects/rove-home-by-arada/",
+            "meta": "ARADA · Aljada",
+            "label": "Rove Home By Arada"
+          },
+          {
+            "href": "/fr/projects/safa-1/",
+            "meta": "ARADA · Aljada",
+            "label": "Safa 1"
+          },
+          {
+            "href": "/fr/projects/tiraz-phase-2/",
+            "meta": "ARADA · Aljada",
+            "label": "Tiraz Phase 2"
+          }
+        ],
+        "title": "Projets à comparer",
+        "eyebrow": "Entrée dans la sélection"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Cadrez le budget familial sur le coût total : prix d’achat, frais d’acquisition, charges, ameublement et marge pour les dépenses d’installation. Le plafond de 3 M AED doit rester compatible avec la routine familiale après l’achat.",
+        "tags": [
+          "Plafond de prix",
+          "Frais d’acquisition",
+          "Charges de service",
+          "Ameublement",
+          "Marge de liquidités"
+        ],
+        "title": "Logique du budget",
+        "eyebrow": "Budget du scénario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/family-relocation-buyer/",
+          "label": "Famille en cours d’installation"
+        },
+        {
+          "href": "/fr/buyer-scenarios/school-led-relocation-buyer/",
+          "label": "Famille s’installant en fonction des écoles"
+        },
+        {
+          "href": "/fr/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-aljada/",
+          "label": "Acheteur comparant appartement et maison de ville — Aljada"
+        },
+        {
+          "href": "/fr/buyer-scenarios/budget-buyer-under-aed-2m-in-aljada/",
+          "label": "Acheteur avec budget inférieur à 2 M AED — Aljada"
+        }
+      ],
+      "title": "Scénarios associés",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Pour une famille recherchant un appartement sous 3 M AED à Aljada, comparez l’espace réellement utilisable, l’agencement, les trajets, les services du quartier, les charges et le coût total. Le logement doit correspondre à la routine familiale plutôt qu’au seul nombre de chambres.",
+          "question": "Quels sont les critères essentiels pour ce scénario à Aljada ?"
+        },
+        {
+          "answer": "Ce scénario convient surtout aux acheteurs pour lesquels l’espace utile, l’agencement, les trajets et les services du quartier doivent être comparés ensemble avant de choisir un bien.",
+          "question": "À qui ce scénario convient-il ?"
+        },
+        {
+          "answer": "Vérifiez l’agencement réel, l’espace de rangement, les trajets, les services de proximité, les charges et la date d’emménagement. Confirmez aussi les coûts, le statut du bien et les conditions susceptibles de changer avant tout engagement.",
+          "question": "Que faut-il vérifier avant de choisir un bien ?"
+        },
+        {
+          "answer": "Cadrez le budget familial sur le coût total : prix d’achat, frais d’acquisition, charges, ameublement et marge pour les dépenses d’installation. Le plafond de 3 M AED doit rester compatible avec la routine familiale après l’achat.",
+          "question": "Comment aborder le budget ?"
+        },
+        {
+          "answer": "Les principaux risques sont de choisir uniquement selon le nombre de chambres, de sous-estimer les trajets ou les charges, de négliger la qualité de l’agencement ou de dépasser le budget total pour gagner de la surface peu utile.",
+          "question": "Quels sont les principaux risques ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le scénario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Vérifiez l’agencement réel, l’espace de rangement, les trajets, les services de proximité, les charges et la date d’emménagement. Revérifiez les données susceptibles de changer, les coûts, le calendrier et les documents avant de décider.",
+      "items": [
+        {
+          "label": "Espace utilisable",
+          "value": "Vérifier espace utilisable"
+        },
+        {
+          "label": "Déplacements quotidiens",
+          "value": "Confirmer déplacements quotidiens"
+        },
+        {
+          "label": "Coûts du bâtiment",
+          "value": "Comparer coûts du bâtiment"
+        },
+        {
+          "label": "Besoins en chambres",
+          "value": "Valider besoins en chambres"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Ce qu’il faut vérifier",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Comparez l’espace utile, l’agencement, les trajets et les services du quartier à Aljada avec la même méthode. Primadom AI peut aider à structurer les compromis avant l’examen de biens précis.",
+      "title": "Prêt à comparer ce scénario ?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Examiner les options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande pour le scénario d’acheteur",
+      "text": "Pour ce scénario à Aljada, indiquez vos priorités concernant l’espace utile, l’agencement, les trajets et les services du quartier, ainsi que votre budget et votre calendrier. Cela donne à l’équipe un contexte utile avant l’échange.",
+      "title": "Comparer les options pour ce scénario",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Aidez-moi à comparer ce scénario selon l’espace utile, l’agencement et les trajets",
+      "eyebrow": "Continuer l’analyse du scénario avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "À Aljada, comparez l’espace utile, l’agencement, les trajets et les services du quartier dans le cadre du coût total avant d’affiner la sélection.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparer ce scénario avec des critères cohérents",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

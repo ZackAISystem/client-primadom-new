@@ -1,0 +1,10 @@
+---
+title: "Résidences de marque à Dubaï pour les acheteurs tchèques"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-branded-residences-for-czech-republic-buyers"
+page_id: "pg_4be11cd9f5d6f675b8e99866a479"
+url: "/fr/buyer-scenarios/dubai-branded-residences-for-czech-republic-buyers/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,595 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_zennova_realty_ar",
+  "page_type_id": "developer_page",
+  "language_code": "ar",
+  "url_path": "/ar/developers/zennova-realty/",
+  "canonical_url_path": "/ar/developers/zennova-realty/",
+  "canonical_group_key": "developer:zennova-realty",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "zennova-realty",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_summary",
+    "block_06_developer_facts",
+    "block_07_buyer_fit_logic",
+    "block_08_decision_cards",
+    "block_09_projects_portfolio",
+    "block_10_districts_segment",
+    "block_11_similar_developers",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#portfolio",
+          "label": "المشاريع",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#trust",
+          "label": "الثقة",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#developer-ai-search",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#developerLeadModal",
+      "nav_aria": "التنقل في صفحة المطور العقاري",
+      "brand_url": "/ar/",
+      "cta_label": "احجز مكالمة",
+      "block_status": "formula_generated",
+      "schema_version": "developer_header_v1"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "href": "/ar/developers/",
+          "label": "المطورون العقاريون في الإمارات"
+        },
+        {
+          "href": "/ar/developers/dubai/",
+          "label": "Dubai"
+        },
+        {
+          "href": "/ar/developers/zennova-realty/",
+          "label": "Zennova Realty"
+        }
+      ],
+      "block_status": "formula_generated",
+      "schema_version": "developer_breadcrumbs_v2",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "city": "Dubai",
+      "title": "Zennova Realty",
+      "developer_name": "Zennova Realty"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "ابحث عن مشاريع Zennova Realty حسب الحي والميزانية",
+        "تحقق مما إذا كان Zennova Realty يناسب هدف الشراء لدي",
+        "قارن مشاريع Zennova Realty والأحياء والفحوصات الرئيسية"
+      ],
+      "prompts": [
+        "ابحث عن مشاريع Zennova Realty حسب الحي والميزانية",
+        "تحقق مما إذا كان Zennova Realty يناسب هدف الشراء لدي",
+        "قارن مشاريع Zennova Realty والأحياء والفحوصات الرئيسية"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "اسأل عن هذا المطور العقاري",
+      "placeholder": "اسأل عن مشاريع Zennova Realty والأحياء وملاءمة المشتري والفحوصات أو ملاحظات التحقق",
+      "block_status": "formula_generated",
+      "button_label": "اسأل",
+      "voice_status": "جارٍ الاستماع…",
+      "ai_voice_text": "ابحث عن مشاريع Zennova Realty حسب الحي والميزانية وهدف المشتري...",
+      "ai_placeholder": "ابحث عن مشاريع Zennova Realty حسب الحي والميزانية وهدف المشتري...",
+      "schema_version": "developer_ai_search_v1",
+      "ai_voice_status": "جارٍ الاستماع…",
+      "form_aria_label": "اسأل Primadom AI عن Zennova Realty",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_short_summary": {
+      "chips": [
+        "تركيز على Dubai",
+        "متوسط السوق",
+        "الأحياء الرئيسية",
+        "ملاءمة المشتري",
+        "فحوصات الثقة"
+      ],
+      "title": "ملخص المطور العقاري",
+      "eyebrow": "نظرة عامة سريعة",
+      "body_html": "<strong>Zennova Realty</strong> — تعمل كمطور سكني وتجاري في مرحلة مبكرة من دون مشاريع مؤكدة أو قاعدة أصول. وتتموضع كجهة متخصصة ذات حضور سوقي مضاربي يركز على Dubai من دون أنشطة تشغيلية متحقق منها.",
+      "body_text": "تعمل كمطور سكني وتجاري في مرحلة مبكرة من دون مشاريع مؤكدة أو قاعدة أصول. وتتموضع كجهة متخصصة ذات حضور سوقي مضاربي يركز على Dubai من دون أنشطة تشغيلية متحقق منها.",
+      "source_used": "src_developer_positioning",
+      "schema_version": "developer_short_summary_v1",
+      "summary_status": "agent_written"
+    },
+    "block_06_developer_facts": {
+      "items": [
+        {
+          "label": "المطور العقاري",
+          "value": "Zennova Realty"
+        },
+        {
+          "label": "سنة التأسيس",
+          "value": "2025"
+        },
+        {
+          "label": "السوق",
+          "value": "Dubai / UAE"
+        },
+        {
+          "label": "الشريحة",
+          "value": "متوسط السوق"
+        },
+        {
+          "label": "المحفظة",
+          "value": "بيانات المشاريع قيد الاستكمال"
+        },
+        {
+          "label": "المناطق الرئيسية",
+          "value": "Meydan"
+        },
+        {
+          "label": "نية الشراء",
+          "value": "ملاءمة المشتري · فحوصات الثقة"
+        },
+        {
+          "label": "آخر تحقق",
+          "value": "يونيو 2026"
+        }
+      ],
+      "title": "تفاصيل المطور العقاري",
+      "eyebrow": "حقائق رئيسية",
+      "facts_status": "agent_written",
+      "schema_version": "developer_facts_v1"
+    },
+    "block_07_buyer_fit_logic": {
+      "buyer_fit": {
+        "title": "ملاءمة المشتري",
+        "eyebrow": "الأنسب لـ",
+        "good_for": [
+          "المشترون الذين يدرسون خيارات عقارية ضمن شريحة متوسط السوق في سوق Dubai في UAE",
+          "المشترون الذين يدرسون مشاريع مرتبطة بـ Meydan",
+          "المشترون الذين يريدون مراجعة الأسعار وملاءمة المشتري ومعلومات التحقق في مكان واحد"
+        ],
+        "less_for": [
+          "المشترون الذين يبحثون فقط عن أقل سعر دخول من دون مراجعة الملاءمة الكاملة للمشروع",
+          "المشترون الذين يحتاجون إلى توافر مباشر مؤكد أو شروط دفع نهائية قبل المراجعة الأولية",
+          "المشترون الذين يفضلون اتخاذ القرار من دون التحقق من تفاصيل المشروع والموقع ومعلومات المطور العقاري"
+        ],
+        "good_for_title": "مناسب لـ",
+        "less_for_title": "قد لا يكون مناسبًا لـ"
+      },
+      "block_status": "agent_written",
+      "schema_version": "developer_buyer_fit_logic_v1",
+      "developer_logic": {
+        "body": "يضع الملف المتاح Zennova Realty ضمن الشريحة المتوسطة، مع روابط مناطق معروفة تشمل Meydan. تحقق من المشاريع الحالية والأسعار وشروط الدفع ومعلومات التسليم وأدلة المصادر قبل اتخاذ قرار.",
+        "tags": [
+          "سوق Dubai",
+          "ملف بوتيك",
+          "تركيز سكني",
+          "فحص الثقة"
+        ],
+        "title": "نظرة على السوق",
+        "eyebrow": "كيفية قراءة هذه المعلومات"
+      }
+    },
+    "block_08_decision_cards": {
+      "cards_status": "agent_written",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "بالنسبة إلى Zennova Realty، ينبغي للمشترين تقييم ما إذا كان تموضعه ضمن الشريحة المتوسطة يتوافق مع ميزانيتهم وفترة الاحتفاظ المتوقعة واستراتيجية التأجير ومستوى مخاطر المشروع الذي يناسبهم.",
+          "title": "سياق الاستثمار",
+          "eyebrow": "منظور الاستثمار",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "تعتمد ملاءمة نمط الحياة على المشروع والموقع المحددين. وتشمل روابط المناطق المعروفة Meydan، لكن ينبغي للمشترين أيضًا مراجعة سهولة الوصول والمرافق وتوزيع الوحدات واحتياجات الاستخدام اليومي.",
+          "title": "سياق نمط الحياة",
+          "eyebrow": "منظور نمط الحياة",
+          "card_status": "agent_written"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "تحقق من الوحدات الحالية والسعر ورسوم الخدمات وشروط الدفع ومخططات الطوابق وموعد التسليم ومستندات المطور العقاري وأحدث معلومات المشروع قبل اتخاذ القرار.",
+          "title": "ما يجب التحقق منه",
+          "eyebrow": "تحقق قبل الشراء",
+          "card_status": "standard_verified_copy"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة مشاريع Zennova Realty بالبدائل ذات الصلة حسب الميزانية والمنطقة ونوع الوحدة وخطة الدفع وموعد التسليم وملاءمة الموقع وهدف المشتري قبل التحدث مع مستشار.",
+          "title": "قارن مشاريع المطور العقاري",
+          "eyebrow": "دعم AI",
+          "card_status": "standard_product_copy"
+        }
+      ],
+      "schema_version": "developer_decision_cards_v1",
+      "decision_cards_aria": "بطاقات قرار المطور العقاري"
+    },
+    "block_09_projects_portfolio": {
+      "known_items": [
+        {
+          "meta": "تحقق من الوحدات والأسعار الحالية",
+          "label": "التوافر الحالي"
+        },
+        {
+          "meta": "راجع مواد المطور العقاري الحالية",
+          "label": "مستندات المشروع الرسمية"
+        },
+        {
+          "meta": "تحقق من ملاءمة المنطقة والمشتري",
+          "label": "الموقع وتوزيع الوحدات"
+        },
+        {
+          "meta": "تحقق من الشروط والمواعيد الحالية",
+          "label": "خطة الدفع والتسليم"
+        }
+      ],
+      "known_title": "ما يجب التحقق منه",
+      "active_items": [],
+      "active_title": "محفظة المشاريع",
+      "block_status": "agent_written",
+      "known_eyebrow": "فحوصات المشتري",
+      "active_eyebrow": "محفظة المشاريع",
+      "schema_version": "developer_projects_portfolio_v1",
+      "matching_source": "entities.project_developer_links",
+      "portfolio_status": "project_links_pending",
+      "active_empty_text": "يجري التحقق من روابط المشاريع. راجع الخيارات المتاحة والبدائل ذات الصلة باستخدام Primadom AI.",
+      "total_project_count": 0
+    },
+    "block_10_districts_segment": {
+      "districts": {
+        "items": [
+          {
+            "href": "/ar/areas/meydan/",
+            "meta": "المنطقة الرئيسية",
+            "label": "Meydan"
+          }
+        ],
+        "title": "المناطق الرئيسية",
+        "eyebrow": "التركيز الجغرافي"
+      },
+      "schema_version": "developer_districts_segment_v1",
+      "segment_profile": {
+        "body": "يشمل التركيز الجغرافي الحالي لـ Zennova Realty: Meydan. وينبغي للمشترين مقارنة تركيزه العقاري ومعلومات المشاريع المتاحة وسجل التسليم ومدى ملاءمته لميزانيتهم وأهداف الشراء.",
+        "tags": [
+          "ملف بوتيك",
+          "تركيز سكني",
+          "سوق Dubai",
+          "ملاءمة المنطقة"
+        ],
+        "title": "ملف السوق",
+        "eyebrow": "ملف المطور العقاري"
+      },
+      "districts_status": "content_ready"
+    },
+    "block_11_similar_developers": {
+      "items": [
+        {
+          "href": "#developerLeadModal",
+          "meta": "ملاءمة الموقع والمشروع",
+          "label": "قارن حسب ملاءمة المنطقة"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "التوافر والتسليم",
+          "label": "تحقق من بدائل المشاريع"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "الميزانية والشروط",
+          "label": "قارن السعر وخطة الدفع"
+        },
+        {
+          "href": "#developerLeadModal",
+          "meta": "مقارنة جاهزة للمشتري",
+          "label": "اطلب قائمة مختصرة مطابقة"
+        }
+      ],
+      "title": "قارن خيارات المطورين العقاريين",
+      "eyebrow": "قارن الخيارات",
+      "schema_version": "developer_similar_developers_v1",
+      "similar_status": "comparison_fallback_ready",
+      "matching_source": "buyer_comparison_flow"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "يتموضع Zennova Realty في سوق Dubai ضمن الشريحة المتوسطة. وينبغي للمشترين مراجعة مشاريعه الحالية وسجل التسليم وشروط الدفع والمخزون المتاح قبل اتخاذ قرار.",
+          "question": "ما الذي ينبغي للمشترين معرفته عن Zennova Realty؟",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "قد يناسب Zennova Realty المشترين الذين يعطون الأولوية لما يلي: خيارات عملية من الشريحة المتوسطة. وتعتمد الملاءمة النهائية على الميزانية والموقع المفضل ونوع الوحدة والتوقيت وهدف الشراء.",
+          "question": "لمن قد يكون Zennova Realty خيارًا مناسبًا؟",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "يشمل السياق الجغرافي الحالي Meydan. وينبغي للمشترين التحقق من المشاريع الحالية وتوافر الوحدات ومواعيد التسليم والبدائل القريبة في تلك المواقع.",
+          "question": "ما المناطق والمشاريع التي ينبغي للمشترين مراجعتها لدى Zennova Realty؟",
+          "answer_status": "source_personalized"
+        },
+        {
+          "answer": "تساعد مقارنة Zennova Realty بالبدائل ذات الصلة على تقييم السعر وخطة الدفع والموقع ونوع العقار وموعد التسليم ورسوم الخدمات ومدى ملاءمة الخيار للمشتري.",
+          "question": "لماذا ينبغي مقارنة Zennova Realty بمطورين عقاريين آخرين؟",
+          "answer_status": "buyer_comparison_guidance"
+        },
+        {
+          "answer": "يمكن لـ Primadom AI تنظيم مقارنة منهجية لمشاريع Zennova Realty والبدائل ذات الصلة حسب المنطقة والميزانية ونوع الوحدة وخطة الدفع وموعد التسليم وهدف المشتري قبل مراجعة المستشار.",
+          "question": "كيف يمكن لـ Primadom AI المساعدة في تقييم Zennova Realty؟",
+          "answer_status": "ai_support_guidance"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة المشترين",
+      "faq_status": "content_ready",
+      "schema_version": "developer_faq_v1",
+      "personalization": {
+        "areas_used": true,
+        "style_used": true,
+        "tier_available": true
+      }
+    },
+    "block_13_trust_sources": {
+      "body": "قبل الاعتماد على معلومات Zennova Realty لاتخاذ قرار عقاري، ينبغي للمشترين التحقق من مواد المطور العقاري الرسمية وحالة المشروع أو الجهة المختصة والتوافر الحالي والشروط التجارية المحدثة.",
+      "items": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "مواد المطور العقاري الرسمية",
+          "value": "مطلوب",
+          "link_status": "pending_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "authority_project_status",
+          "href": "",
+          "label": "حالة الجهة / المشروع",
+          "value": "موصى به",
+          "link_status": "pending_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "project_availability",
+          "href": "#developerLeadModal",
+          "label": "التوافر الحالي للمشروع",
+          "value": "تحقق مباشر",
+          "link_status": "available",
+          "source_type": "availability"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#developerLeadModal",
+          "label": "مراجعة مستشار Primadom",
+          "value": "متاح",
+          "link_status": "available",
+          "source_type": "advisor"
+        }
+      ],
+      "title": "المصادر والتحقق",
+      "eyebrow": "التحقق",
+      "trust_status": "source_links_pending",
+      "schema_version": "developer_trust_sources_v1",
+      "source_confidence": "pending_verification",
+      "source_enrichment": {
+        "market": "Dubai, UAE",
+        "last_checked": "June 2026",
+        "advisor_check_available": true,
+        "official_source_attached": false,
+        "authority_status_attached": false,
+        "availability_check_available": true
+      }
+    },
+    "block_14_source_notes": {
+      "body": "قد تتغير معلومات Zennova Realty مع تحديث المشاريع والتوافر والأسعار وخطط الدفع والجداول الزمنية للتسليم. ينبغي للمشترين التحقق من التفاصيل الحالية قبل اتخاذ القرار.",
+      "title": "المعلومات الحالية",
+      "eyebrow": "حداثة البيانات",
+      "signals": [
+        {
+          "label": "البيانات الحالية",
+          "value": "أعد التحقق قبل اتخاذ القرار"
+        },
+        {
+          "label": "فحص المشتري",
+          "value": "تحقق من الشروط الحالية"
+        },
+        {
+          "label": "آخر مراجعة",
+          "value": "يونيو 2026"
+        }
+      ],
+      "notes_status": "safe_fallback",
+      "schema_version": "developer_source_notes_v1",
+      "freshness_status": "review_required_before_decision",
+      "source_notes_enrichment": {
+        "last_checked": "June 2026",
+        "trust_note_available": false
+      }
+    },
+    "block_15_cta": {
+      "text": "استخدم Primadom AI لتنظيم مقارنة معلومات مشاريع Zennova Realty حسب المنطقة والميزانية وخطة الدفع وموعد التسليم وهدف المشتري قبل التحدث مع مستشار Primadom.",
+      "title": "هل تحتاج إلى مساعدة في مقارنة مشاريع Zennova Realty؟",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "قارن مشاريع Zennova Realty",
+          "modal": true,
+          "action_intent": "developer_project_comparison"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "اسأل Primadom AI",
+          "modal": false,
+          "action_intent": "developer_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true,
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "content_ready",
+      "schema_version": "developer_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": {
+        "modal": true,
+        "labelledby": "developerLeadTitle"
+      },
+      "text": "شارك المنطقة المفضلة ونوع العقار والتوقيت أو خطة الدفع. سننظم الطلب حول Zennova Realty قبل أن يتابع أحد المستشارين معك.",
+      "title": "قارن مشاريع Zennova Realty باستخدام Primadom AI",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "الاسم",
+          "required": true,
+          "placeholder": "اسمك"
+        },
+        {
+          "key": "phone",
+          "type": "tel",
+          "label": "الهاتف / WhatsApp",
+          "required": true,
+          "placeholder": "رقم هاتفك أو WhatsApp"
+        },
+        {
+          "key": "email",
+          "type": "email",
+          "label": "البريد الإلكتروني (اختياري)",
+          "required": false,
+          "placeholder": "بريدك الإلكتروني"
+        },
+        {
+          "key": "comment",
+          "type": "textarea",
+          "label": "الطلب",
+          "required": false,
+          "placeholder": "أخبرنا بما ترغب في مقارنته"
+        }
+      ],
+      "eyebrow": "طلب متعلق بالمطور العقاري",
+      "modal_id": "developerLeadModal",
+      "title_id": "developerLeadTitle",
+      "close_label": "إغلاق",
+      "field_config": {
+        "name": {
+          "html_name": "name"
+        },
+        "email": {
+          "html_name": "email"
+        },
+        "phone": {
+          "html_name": "phone"
+        },
+        "comment": {
+          "html_name": "comment"
+        }
+      },
+      "modal_status": "content_ready",
+      "submit_label": "إرسال",
+      "success_text": "شكرًا لك. سيراجع مستشار Primadom الطلب ويتابع معك بالمعلومات الحالية.",
+      "hidden_fields": {
+        "city": "Dubai",
+        "country": "UAE",
+        "page_type": "developer_page",
+        "request_scope": "developer_project_comparison",
+        "developer_name": "Zennova Realty",
+        "developer_slug": "zennova-realty"
+      },
+      "success_title": "تم استلام الطلب",
+      "schema_version": "developer_lead_modal_v1",
+      "prefilled_request": "أرغب في مقارنة مشاريع Zennova Realty حسب ملاءمة المنطقة والتوافر الحالي وخطة الدفع وموعد التسليم وهدف المشتري."
+    },
+    "block_17_footer": {
+      "text": "استكشف المشاريع والأحياء والمطورين العقاريين الآخرين في Dubai، أو استخدم Primadom AI لمقارنة الخيارات قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "title": "واصل بحثك عن خيارات أخرى إلى جانب Zennova Realty",
+      "actions": [
+        {
+          "key": "compare_projects",
+          "href": "#developerLeadModal",
+          "label": "احجز مكالمة",
+          "modal": true
+        },
+        {
+          "key": "ask_ai",
+          "href": "#developer-ai-search",
+          "label": "اسأل AI",
+          "modal": false
+        }
+      ],
+      "address": "Dubai, UAE",
+      "eyebrow": "استكشف المزيد",
+      "copyright": "© Primadom AI",
+      "navigation": [
+        {
+          "key": "projects",
+          "href": "/ar/projects/",
+          "label": "المشاريع"
+        },
+        {
+          "key": "districts",
+          "href": "/ar/areas/",
+          "label": "الأحياء"
+        },
+        {
+          "key": "developers",
+          "href": "/ar/developers/",
+          "label": "المطورون العقاريون"
+        },
+        {
+          "key": "ai_search",
+          "href": "#developer-ai-search",
+          "label": "بحث AI"
+        }
+      ],
+      "footer_status": "content_ready",
+      "market_context": {
+        "city": "Dubai",
+        "country": "UAE"
+      },
+      "schema_version": "developer_footer_v1"
+    }
+  }
+}

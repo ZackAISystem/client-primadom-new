@@ -1,0 +1,10 @@
+---
+title: "Villas à Business Bay — AED 1M–2M"
+layout: "primadom-budget-page-v2"
+budget_slug: "villas-aed-1m-2m-in-business-bay"
+page_id: "page_property_budget_district_villas_aed_1m_2m_business_bay_fr"
+url: "/fr/budgets/villas-aed-1m-2m-in-business-bay/"
+build:
+  render: always
+  list: never
+---

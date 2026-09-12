@@ -20,6 +20,10 @@
 {{- end -}}
 
 {{- $developerData := site.Data.primadom.developer_pages_v2 -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $developerData = index $arData "developer_pages" -}}
+{{- end -}}
 {{- if eq .Site.Language.Lang "ru" -}}
   {{- $ruData := index site.Data.primadom "ru" -}}
   {{- $developerData = index $ruData "developer_pages" -}}
@@ -27,9 +31,17 @@
   {{- $hiData := index site.Data.primadom "hi" -}}
   {{- $developerData = index $hiData "developer_pages" -}}
 {{- else if eq .Site.Language.Lang "zh" -}}
-{{- $zhData := index site.Data.primadom "zh" -}}
-{{- $developerData = index $zhData "developer_pages" -}}
-
+  {{- $zhData := index site.Data.primadom "zh" -}}
+  {{- $developerData = index $zhData "developer_pages" -}}
+{{- else if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $developerData = index $esData "developer_pages" -}}
+{{- else if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $developerData = index $frData "developer_pages" -}}
+  {{- else if eq .Site.Language.Lang "de" -}}
+    {{- $deData := index site.Data.primadom "de" -}}
+    {{- $developerData = index $deData "developer_pages" -}}
 {{- end -}}
 {{- $page := index $developerData $slug -}}
 

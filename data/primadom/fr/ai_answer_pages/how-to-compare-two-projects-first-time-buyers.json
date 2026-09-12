@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-compare-two-projects__context__first-time-buyers__fr",
+  "page_type_id": "ai_answer_page",
+  "language_code": "fr",
+  "url_path": "/fr/ai-answers/how-to-compare-two-projects-first-time-buyers/",
+  "canonical_url_path": "/fr/ai-answers/how-to-compare-two-projects-first-time-buyers/",
+  "canonical_group_key": "ai_answer:how-to-compare-two-projects:context:first-time-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-compare-two-projects",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Vérifications",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risques",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navigation des réponses AI",
+      "cta_label": "Vérifier mon cas",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/fr/ai-answers/",
+          "label": "Réponses AI"
+        },
+        {
+          "key": "current",
+          "href": "/fr/ai-answers/how-to-compare-two-projects-first-time-buyers/",
+          "label": "Comment comparer deux projets ? — Primo-accédants",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Primo-accédants",
+        "Adéquation à l’acheteur",
+        "Prix et paiement normalisés",
+        "Localisation et qualité",
+        "Comparer les options"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Comment comparer deux projets ? — Primo-accédants",
+      "subtitle": "Comparez les projets sur la même base : unité comparable, prix total, paiement, localisation, qualité, calendrier, coûts récurrents et adéquation à l’objectif. Appliquez ces critères pour un primo-accédant et confirmez les éléments susceptibles d’évoluer avant de décider.",
+      "facts_aria": "Points clés de la réponse",
+      "section_id": "hero",
+      "visual_aria": "Visuel de décision immobilière : Comment comparer deux projets ? — Primo-accédants",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Quels sont les points essentiels pour répondre à « Comment comparer deux projets ? » pour un primo-accédant ?",
+        "Quels risques dois-je comparer avant de décider pour un primo-accédant ?",
+        "Quelles données actuelles dois-je confirmer pour mon cas ?"
+      ],
+      "ai_aria": "Poser une question complémentaire à Primadom AI",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Aidez-moi à répondre à « Comment comparer deux projets ? » pour un primo-accédant",
+      "placeholder": "Demander à AI : Comment comparer deux projets ?",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Primo-accédants",
+        "Unités réellement comparables",
+        "Développeur",
+        "Localisation et qualité",
+        "Adéquation à l’acheteur"
+      ],
+      "title": "Réponse directe",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Comparez les projets sur la même base : unité comparable, prix total, paiement, localisation, qualité, calendrier, coûts récurrents et adéquation à l’objectif.</strong> Appliquez cette analyse pour un primo-accédant. L’étape suivante consiste à normaliser les données avant de classer les projets.",
+      "body_text": "Comparez les projets sur la même base : unité comparable, prix total, paiement, localisation, qualité, calendrier, coûts récurrents et adéquation à l’objectif. Appliquez cette analyse pour un primo-accédant. L’étape suivante consiste à normaliser les données avant de classer les projets.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Question",
+          "value": "Comment comparer deux projets ? — Primo-accédants"
+        },
+        {
+          "label": "Contexte",
+          "value": "Primo-accédants"
+        },
+        {
+          "label": "Marché",
+          "value": "EAU"
+        },
+        {
+          "label": "Décision",
+          "value": "La comparaison de deux projets"
+        },
+        {
+          "label": "Vérifications principales",
+          "value": "Unités réellement comparables · Prix et paiement normalisés · Localisation et qualité"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Comparaison sur des bases différentes"
+        },
+        {
+          "label": "Meilleure prochaine étape",
+          "value": "Normaliser les données avant de classer les projets."
+        },
+        {
+          "label": "Vérification",
+          "value": "Vérification actuelle requise"
+        }
+      ],
+      "title": "Détails de la réponse",
+      "topic": "La comparaison de deux projets",
+      "market": "EAU",
+      "context": "Primo-accédants",
+      "eyebrow": "Données clés",
+      "question": "Comment comparer deux projets ? — Primo-accédants",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Le point « Comparaison sur des bases différentes » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Comparaison sur des bases différentes"
+          },
+          {
+            "text": "Le point « Incitations traitées comme équivalentes » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Incitations traitées comme équivalentes"
+          },
+          {
+            "text": "Le point « Qualité ou état d’avancement ignorés » n’est pas suffisamment maîtrisé ou confirmé avant la décision.",
+            "title": "Qualité ou état d’avancement ignorés"
+          },
+          {
+            "text": "Une alternative comparable peut offrir un meilleur équilibre si le point « Objectif d’achat mal défini » reste défavorable.",
+            "title": "La situation globale mérite un nouvel examen"
+          }
+        ],
+        "title": "Lorsque la réponse est « non »",
+        "eyebrow": "Nécessite davantage de vérifications"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Le point « Unités réellement comparables » est confirmé à partir d’informations actuelles et adaptées au cas.",
+            "title": "Unités réellement comparables"
+          },
+          {
+            "text": "Le point « Prix et paiement normalisés » a été comparé sur une base cohérente avec vos priorités et votre budget.",
+            "title": "Prix et paiement normalisés"
+          },
+          {
+            "text": "Le point « Localisation et qualité » est compris et documenté avant toute réservation ou signature.",
+            "title": "Localisation et qualité"
+          },
+          {
+            "text": "Après prise en compte des principaux risques et d’alternatives réalistes, l’analyse reste cohérente pour un primo-accédant.",
+            "title": "La situation globale reste cohérente"
+          }
+        ],
+        "title": "Lorsque la réponse est « oui »",
+        "eyebrow": "Adapté"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Comparez les projets sur la même base : unité comparable, prix total, paiement, localisation, qualité, calendrier, coûts récurrents et adéquation à l’objectif. Ces critères doivent être appliqués pour un primo-accédant.",
+          "title": "Unités réellement comparables · Prix et paiement normalisés · Localisation et qualité",
+          "eyebrow": "Ce qu’il faut vérifier"
+        },
+        {
+          "dark": false,
+          "text": "Le risque augmente lorsque plusieurs hypothèses importantes restent non confirmées ou que le coût total et les compromis ne sont pas comparés sur la même base.",
+          "title": "Comparaison sur des bases différentes",
+          "eyebrow": "Risque"
+        },
+        {
+          "dark": false,
+          "text": "Normaliser les données avant de classer les projets.",
+          "title": "Normaliser les données avant de classer les projets.",
+          "eyebrow": "Étape suivante"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut transformer cette réponse en une liste de vérification adaptée à vos priorités, contraintes et éléments restant à confirmer.",
+          "title": "Vérifier votre cas précis",
+          "eyebrow": "Suivi avec AI"
+        }
+      ],
+      "cards_aria": "Conseils pour décider",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Soyez prudent si les points « Comparaison sur des bases différentes », « Incitations traitées comme équivalentes » ou « Qualité ou état d’avancement ignorés » apparaissent dans votre cas. Normaliser les données avant de classer les projets.",
+        "tags": [
+          "Comparaison sur des bases différentes",
+          "Incitations traitées comme équivalentes",
+          "Qualité ou état d’avancement ignorés",
+          "Objectif d’achat mal défini",
+          "Comparaison sur des bases différentes"
+        ],
+        "title": "Risques",
+        "eyebrow": "Soyez prudent si"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Vérifiez le point « Unités réellement comparables » à partir de sources ou documents actuels pour un primo-accédant.",
+            "title": "Unités réellement comparables"
+          },
+          {
+            "text": "Comparez le point « Prix et paiement normalisés » avec des alternatives réellement comparables.",
+            "title": "Prix et paiement normalisés"
+          },
+          {
+            "text": "Confirmez le point « Localisation et qualité » et son effet sur le coût, le calendrier ou les obligations de l’acheteur.",
+            "title": "Localisation et qualité"
+          },
+          {
+            "text": "Intégrez le point « Calendrier, coûts et adéquation » à la décision avant de réserver, signer ou verser des fonds.",
+            "title": "Calendrier, coûts et adéquation"
+          }
+        ],
+        "title": "Ce qu’il faut vérifier",
+        "eyebrow": "Liste de vérification pour décider"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/fr/ai-answers/how-to-choose-between-projects-first-time-buyers/",
+          "label": "Comment choisir entre plusieurs projets ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-compare-projects-first-time-buyers/",
+          "label": "Comment comparer des projets ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-check-live-availability-first-time-buyers/",
+          "label": "Comment vérifier la disponibilité en temps réel ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-check-developer-first-time-buyers/",
+          "label": "Comment vérifier un développeur ?"
+        },
+        {
+          "href": "/fr/ai-answers/how-to-check-developer-track-record-first-time-buyers/",
+          "label": "Comment vérifier l’historique d’un développeur ?"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages suivantes",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Comparez les projets sur la même base : unité comparable, prix total, paiement, localisation, qualité, calendrier, coûts récurrents et adéquation à l’objectif. L’étape suivante consiste à normaliser les données avant de classer les projets.",
+          "question": "Comment comparer deux projets ?"
+        },
+        {
+          "answer": "Commencez par le point « Unités réellement comparables », puis vérifiez « Prix et paiement normalisés » et « Localisation et qualité ». Utilisez des informations actuelles et adaptées au bien ou au projet concerné.",
+          "question": "Quels éléments faut-il vérifier en priorité pour un primo-accédant ?"
+        },
+        {
+          "answer": "Comparez le coût total, les modalités applicables et les compromis réels. Pour ce sujet, surveillez particulièrement les points « Prix et paiement normalisés » et « Calendrier, coûts et adéquation ».",
+          "question": "Quels coûts et quelles conditions faut-il comparer avant de décider ?"
+        },
+        {
+          "answer": "Les principaux signaux d’alerte sont « Comparaison sur des bases différentes », « Incitations traitées comme équivalentes » et « Qualité ou état d’avancement ignorés ». Si l’un de ces points reste incertain, ne traitez pas une hypothèse comme un fait confirmé.",
+          "question": "Quels risques doivent être confirmés dans les documents ou les données actuelles ?"
+        },
+        {
+          "answer": "Normaliser les données avant de classer les projets. Ensuite, comparez les alternatives pertinentes sur la même base avant de prendre une décision engageante.",
+          "question": "Quelle est la prochaine étape de vérification la plus utile ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions pour la recherche avec AI",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Utilisez cette page comme aide à la décision, puis vérifiez les informations susceptibles d’évoluer dans les documents officiels, les sources de première partie ou les données de marché actuelles avant de vous engager.",
+      "items": [
+        {
+          "label": "Contexte",
+          "value": "Primo-accédants"
+        },
+        {
+          "label": "Axe de vérification",
+          "value": "Unités réellement comparables · Prix et paiement normalisés · Localisation et qualité"
+        },
+        {
+          "label": "Sources à vérifier",
+          "value": "Documents officiels du projet ou du bien · sources de première partie · informations pertinentes des autorités ou registres"
+        },
+        {
+          "label": "Vérification actuelle",
+          "value": "Normaliser les données avant de classer les projets."
+        },
+        {
+          "label": "Vérification des sources",
+          "value": "Revérifier avant de décider"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Notes de vérification",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "general",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Demandez à Primadom AI d’appliquer cette réponse à votre situation pour un primo-accédant, en tenant compte de votre budget, de vos priorités et des éléments qui doivent encore être confirmés.",
+      "title": "Vous souhaitez vérifier votre cas avant de décider ?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Vérifier mon cas",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formulaire de suivi de réponse AI",
+      "text": "Primadom AI appliquera cette réponse à votre situation pour un primo-accédant et préparera les principaux points à vérifier avant qu’un conseiller ne vous contacte.",
+      "title": "Vérifier cette réponse pour votre cas",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Je souhaite approfondir la comparaison de deux projets pour mon cas.",
+      "eyebrow": "Continuer avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "E-mail (facultatif)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI transforme les questions immobilières en vérifications, risques, pages suivantes et demandes prêtes à transmettre à un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Recherche axée sur la réponse, reliée aux décisions immobilières concrètes",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

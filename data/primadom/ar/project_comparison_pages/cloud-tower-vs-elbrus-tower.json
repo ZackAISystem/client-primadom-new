@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_cloud_tower_vs_elbrus_tower_ar",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ar",
+  "url_path": "/ar/compare-projects/cloud-tower-vs-elbrus-tower/",
+  "canonical_url_path": "/ar/compare-projects/cloud-tower-vs-elbrus-tower/",
+  "canonical_group_key": "project_comparison:cloud-tower:vs:elbrus-tower",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "cloud-tower",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "قارن حالتي",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "نظرة عامة",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "المشاريع"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "مقارنة"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "اسأل AI"
+        }
+      ],
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "التنقل في مقارنة المشاريع",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ar/compare-projects/",
+          "label": "مقارنات المشاريع"
+        },
+        {
+          "key": "comparison",
+          "href": "/ar/compare-projects/cloud-tower-vs-elbrus-tower/",
+          "label": "Cloud Tower مقابل Elbrus Tower",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "المشروع A: Cloud Tower",
+        "المشروع B: Elbrus Tower",
+        "مقارنة في Jumeirah Village Triangle",
+        "AED 630K مقابل AED 575K",
+        "سعر الدخول وموعد التسليم"
+      ],
+      "title": "Cloud Tower مقابل Elbrus Tower",
+      "subtitle": "مقارنة عملية في Jumeirah Village Triangle تركز على أسعار الدخول AED 630K وAED 575K، ومواعيد التسليم 2025 و2026، وأنواع الفلل والشقق.",
+      "project_a": {
+        "name": "Cloud Tower",
+        "slug": "cloud-tower",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Elbrus Tower",
+        "slug": "elbrus-tower",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "السياق الرئيسي لمقارنة Cloud Tower وElbrus Tower",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لمقارنة Cloud Tower وElbrus Tower",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "اسأل عن السعر أو مزيج الوحدات أو التسليم أو ملاءمة المشتري.",
+      "badge": "Primadom AI",
+      "hints": [
+        "أيهما أنسب: Cloud Tower أم Elbrus Tower؟",
+        "قارن السعر والوحدات وموعد التسليم",
+        "ما الذي يجب التحقق منه قبل الاختيار؟"
+      ],
+      "title": "قارن Cloud Tower وElbrus Tower",
+      "ai_aria": "اسأل Primadom AI لمقارنة Cloud Tower وElbrus Tower",
+      "eyebrow": "اسأل AI",
+      "prompts": [
+        "قارن Cloud Tower وElbrus Tower وفق هدفي الشرائي. راجع سياق السعر المتاح وأنواع العقارات ونطاق غرف النوم وموعد التسليم، وحدد بوضوح أي معلومات تحتاج إلى تحقق مباشر.",
+        "قارن Cloud Tower وElbrus Tower حسب سياق السعر الابتدائي وأنواع الوحدات ونطاق غرف النوم وموعد التسليم المخطط. حدد بوضوح المعلومات الناقصة أو غير المتحقق منها.",
+        "ما الذي ينبغي للمشتري التحقق منه قبل الاختيار بين Cloud Tower وElbrus Tower؟ راجع الأسعار الحالية والتوافر وشروط الدفع وحالة التسليم ومدى الملاءمة لهدف المشتري."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "اسأل AI",
+      "input_aria": "سؤال مقارنة المشاريع عبر AI",
+      "section_id": "compare-ai-search",
+      "voice_text": "اسأل عن مقارنة هذه المشاريع",
+      "placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "button_label": "اسأل",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "ai_voice_text": "قارن Cloud Tower وElbrus Tower وفق هدفي الشرائي",
+      "ai_placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "جارٍ الاستماع…",
+      "form_aria_label": "اسأل Primadom AI لمقارنة Cloud Tower وElbrus Tower",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "الحي نفسه",
+        "المطور العقاري نفسه",
+        "AED 630K مقابل AED 575K",
+        "التسليم 2025 مقابل 2026"
+      ],
+      "title": "توصية سريعة",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "قد يناسب <strong>Cloud Tower</strong> المشترين الذين يعطون أولوية لموعد التسليم المسجل الأبكر، بينما قد يناسب <strong>Elbrus Tower</strong> من يركزون على السعر الابتدائي المسجل الأقل. <strong>Cloud Tower</strong> يقدم شقق، استوديوهات–3 غرف نوم، من AED 630K، التسليم 2025، بينما <strong>Elbrus Tower</strong> يقدم شقق، استوديوهات–2 غرف نوم، من AED 575K، التسليم 2026.",
+      "body_text": "قد يناسب Cloud Tower المشترين الذين يعطون أولوية لموعد التسليم المسجل الأبكر، بينما قد يناسب Elbrus Tower من يركزون على السعر الابتدائي المسجل الأقل. Cloud Tower يقدم شقق، استوديوهات–3 غرف نوم، من AED 630K، التسليم 2025، بينما Elbrus Tower يقدم شقق، استوديوهات–2 غرف نوم، من AED 575K، التسليم 2026.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "المشروع A",
+          "value": "Cloud Tower"
+        },
+        {
+          "label": "المشروع B",
+          "value": "Elbrus Tower"
+        },
+        {
+          "label": "سياق المنطقة",
+          "value": "كلاهما في Jumeirah Village Triangle"
+        },
+        {
+          "label": "سياق المطور العقاري",
+          "value": "كلاهما من تطوير Tiger Properties"
+        },
+        {
+          "label": "السعر الابتدائي",
+          "value": "AED 630K مقابل AED 575K"
+        },
+        {
+          "label": "أنواع العقارات",
+          "value": "كلاهما: شقق"
+        },
+        {
+          "label": "غرف النوم",
+          "value": "استوديوهات–3 غرف نوم مقابل استوديوهات–2 غرف نوم"
+        },
+        {
+          "label": "التسليم",
+          "value": "2025 مقابل 2026"
+        }
+      ],
+      "title": "تفاصيل المقارنة",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Cloud Tower",
+          "slug": "cloud-tower",
+          "text": "يتموضع Cloud Tower حول المعيشة الملائمة للعائلات في Jumeirah Village Triangle من تطوير Tiger Properties، مع مزيج مسجل من شقق ضمن استوديوهات–3 غرف نوم وسعر ابتدائي مسجل يبدأ من AED 630K وتسليم مسجل في 2025. وتشير ملاءمته الحالية إلى المشترين الذين يخططون لاستخدام العقار كسكن رئيسي.",
+          "points": [
+            "Jumeirah Village Triangle · من تطوير Tiger Properties",
+            "شقق · استوديوهات–3 غرف نوم",
+            "من AED 630K · التسليم 2025"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Elbrus Tower",
+          "slug": "elbrus-tower",
+          "text": "يتموضع Elbrus Tower حول المعيشة الملائمة للعائلات في Jumeirah Village Triangle من تطوير Tiger Properties، مع مزيج مسجل من شقق ضمن استوديوهات–2 غرف نوم وسعر ابتدائي مسجل يبدأ من AED 575K وتسليم مسجل في 2026. وتشير ملاءمته الحالية إلى المشترين الذين يخططون لاستخدام العقار كسكن رئيسي.",
+          "points": [
+            "Jumeirah Village Triangle · من تطوير Tiger Properties",
+            "شقق · استوديوهات–2 غرف نوم",
+            "من AED 575K · التسليم 2026"
+          ]
+        }
+      ],
+      "title": "ملخصات المشاريع",
+      "eyebrow": "نظرة سريعة",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "يقع المشروعان في Jumeirah Village Triangle، لذلك لا يُعد الموقع العامل الفاصل الرئيسي. كلا المشروعين من تطوير Tiger Properties، لذا تصبح فروق مزيج الوحدات والسعر والتسليم أكثر أهمية. الأسعار الابتدائية المسجلة هي AED 630K لـ Cloud Tower وAED 575K لـ Elbrus Tower. توقيت التسليم المسجل هو 2025 مقابل 2026.",
+        "tags": [
+          "الحي نفسه",
+          "المطور العقاري نفسه",
+          "فجوة السعر المسجل",
+          "مزيج عقاري متشابه",
+          "التوافر الحالي"
+        ],
+        "title": "منطق على مستوى المشروع",
+        "eyebrow": "كيفية المقارنة"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "العامل",
+        "project_a": "Cloud Tower",
+        "project_b": "Elbrus Tower"
+      },
+      "rows": [
+        {
+          "factor": "السعر الابتدائي",
+          "project_a": "من AED 630K",
+          "project_b": "من AED 575K"
+        },
+        {
+          "factor": "الموقع",
+          "project_a": "Jumeirah Village Triangle",
+          "project_b": "Jumeirah Village Triangle"
+        },
+        {
+          "factor": "المطور العقاري",
+          "project_a": "Tiger Properties",
+          "project_b": "Tiger Properties"
+        },
+        {
+          "factor": "أنواع العقارات",
+          "project_a": "شقق",
+          "project_b": "شقق"
+        },
+        {
+          "factor": "غرف النوم",
+          "project_a": "استوديوهات–3 غرف نوم",
+          "project_b": "استوديوهات–2 غرف نوم"
+        },
+        {
+          "factor": "التسليم",
+          "project_a": "2025",
+          "project_b": "2026"
+        },
+        {
+          "factor": "تموضع المشروع",
+          "project_a": "مناسب للعائلات",
+          "project_b": "مناسب للعائلات"
+        }
+      ],
+      "title": "جدول مقارنة المشاريع",
+      "eyebrow": "Cloud Tower مقابل Elbrus Tower",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "الأسعار الابتدائية المسجلة هي AED 630K لـ Cloud Tower وAED 575K لـ Elbrus Tower. قارن نوع الوحدة والمساحة والتكلفة الإجمالية قبل الحكم على القيمة.",
+          "title": "فارق سعر الدخول مهم",
+          "eyebrow": "السعر والوحدات",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "يقع المشروعان في Jumeirah Village Triangle. قارن سهولة الوصول والموقع الدقيق للمبنى أو قطعة الأرض والمعروض القريب وملاءمة الاستخدام اليومي.",
+          "title": "الحي نفسه، قارن الموقع الدقيق",
+          "eyebrow": "ملاءمة الموقع",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "يسجل Cloud Tower التسليم في 2025 وElbrus Tower في 2026. قارن تأثير كل جدول زمني في خطتك قبل اتخاذ القرار.",
+          "title": "اختلاف مواعيد التسليم يؤثر في الاختيار",
+          "eyebrow": "الجدول الزمني",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "اطلب من Primadom AI مقارنة Cloud Tower وElbrus Tower حسب نوع الوحدة والسعر المسجل والموقع وموعد التسليم والاستخدام المقصود، ثم إعداد أهم الأسئلة للمستشار.",
+          "title": "قارن وفق هدفك",
+          "eyebrow": "اسأل AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "ملاحظات قرار المشروع"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "لمن يناسب كل مشروع",
+        "eyebrow": "ملاءمة المشتري",
+        "project_a_items": [
+          "أنت مرتاح لسعره الابتدائي المسجل AED 630K بعد التحقق من الوحدة الدقيقة والتكلفة الإجمالية.",
+          "تفضّل الملاءمة للعائلات في Jumeirah Village Triangle بما يناسب استخدامك المقصود.",
+          "تريد شقق ضمن استوديوهات–3 غرف نوم مع تسليم مسجل في 2025."
+        ],
+        "project_a_title": "اختر Cloud Tower إذا",
+        "project_b_items": [
+          "سعره الابتدائي المسجل AED 575K أقل في هذه المقارنة، مع ضرورة التحقق من وحدات متماثلة.",
+          "تفضّل الملاءمة للعائلات في Jumeirah Village Triangle بما يناسب استخدامك المقصود.",
+          "تريد شقق ضمن استوديوهات–2 غرف نوم مع تسليم مسجل في 2026."
+        ],
+        "project_b_title": "اختر Elbrus Tower إذا"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "الأسعار الابتدائية المسجلة هي AED 630K لـ Cloud Tower وAED 575K لـ Elbrus Tower. يقع المشروعان في Jumeirah Village Triangle، لذلك يقل احتمال أن يكون الموقع العامل الفاصل الرئيسي. يسجل المشروعان مزيجًا عقاريًا متشابهًا: شقق. التسليم المسجل هو 2025 لـ Cloud Tower و2026 لـ Elbrus Tower.",
+        "tags": [
+          "فجوة السعر المسجل",
+          "الحي نفسه",
+          "مزيج الوحدات المسجل",
+          "فارق في موعد التسليم",
+          "تحقق من التكلفة الإجمالية"
+        ],
+        "title": "منطق الاستثمار",
+        "eyebrow": "طبقة القرار"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ar/compare-projects/altai-tower-vs-cloud-tower/",
+            "meta": "مشروع مشترك",
+            "label": "Altai Tower مقابل Cloud Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/altai-tower-vs-elbrus-tower/",
+            "meta": "مشروع مشترك",
+            "label": "Altai Tower مقابل Elbrus Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/ashwood-residences-vs-cloud-tower/",
+            "meta": "مشروع مشترك",
+            "label": "Ashwood Residences مقابل Cloud Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/ashwood-residences-vs-elbrus-tower/",
+            "meta": "مشروع مشترك",
+            "label": "Ashwood Residences مقابل Elbrus Tower",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "المزيد من مقارنات المشاريع",
+        "eyebrow": "استكشف التالي"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ar/projects/cloud-tower/",
+            "meta": "المشروع A",
+            "label": "صفحة مشروع Cloud Tower",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/projects/elbrus-tower/",
+            "meta": "المشروع B",
+            "label": "صفحة مشروع Elbrus Tower",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/areas/jumeirah-village-triangle/",
+            "meta": "المنطقة",
+            "label": "دليل منطقة Jumeirah Village Triangle",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/developers/tiger-properties/",
+            "meta": "المطور العقاري",
+            "label": "صفحة المطور العقاري Tiger Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "افتح صفحات المشاريع",
+        "eyebrow": "صفحات المشاريع"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "شارك هذه التفاصيل لمقارنة Cloud Tower وElbrus Tower وفق الأولويات نفسها. تساعد معلومات المشاريع المسجلة على تضييق الخيارات، بينما تظل الوحدات الدقيقة والأسعار الحالية والتوافر بحاجة إلى تحقق مباشر.",
+      "items": [
+        {
+          "meta": "نطاق AED أو الحد الأقصى لسعر الدخول",
+          "label": "نطاق السعر"
+        },
+        {
+          "meta": "شقق",
+          "label": "نوع الوحدة"
+        },
+        {
+          "meta": "منزل عائلي / منزل ثانٍ / استثمار",
+          "label": "هدف المشتري"
+        },
+        {
+          "meta": "الحالة الحالية مقابل توقيت 2026",
+          "label": "الجدول الزمني"
+        },
+        {
+          "meta": "قطعة الأرض / المساحة الخارجية / المخطط",
+          "label": "الأولوية الرئيسية"
+        }
+      ],
+      "title": "مدخلات المقارنة لـ AI",
+      "eyebrow": "تفاصيل مفيدة",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "لا يوجد مشروع أفضل بشكل مطلق في هذه المقارنة. يسجل Elbrus Tower السعر الابتدائي المسجل الأقل. يسجل المشروعان شقق، مع احتمال اختلاف نطاق غرف النوم. موعدا التسليم المسجلان هما 2025 لـ Cloud Tower و2026 لـ Elbrus Tower؛ ويجب التحقق من الحالة الحالية لأي مشروع تجاوز تاريخ تسليمه المسجل. يعتمد الخيار الأنسب على الاستخدام المقصود والوحدة الفعلية المتاحة وقت المقارنة.",
+          "question": "أي المشروعين قد يناسبني أكثر: Cloud Tower أم Elbrus Tower؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "لدى Elbrus Tower السعر الابتدائي المسجل الأقل عند AED 575K، مقارنة بـ AED 630K لـ Cloud Tower. قارن نوع الوحدة والمساحة والشروط الحالية نفسها قبل اعتبار الفرق قابلًا للمقارنة المباشرة.",
+          "question": "أي المشروعين لديه السعر الابتدائي المسجل الأقل؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يقع Cloud Tower وElbrus Tower في Jumeirah Village Triangle، وكلاهما مرتبط بـ Tiger Properties. وبما أن المنطقة والمطور العقاري متماثلان، فقارن الوحدة الفعلية والمخطط والسعر الابتدائي المسجل وتوقيت التسليم بدل الاعتماد على أسماء المشاريع وحدها.",
+          "question": "كيف يختلف Cloud Tower وElbrus Tower من حيث الموقع والمطور العقاري؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يسجل Cloud Tower شقق، بما في ذلك استوديوهات إلى وحدات من 3 غرف نوم. يسجل Cloud Tower سنة 2025 للتسليم، لذلك يجب التحقق من حالته الحالية. يسجل Elbrus Tower شقق، بما في ذلك استوديوهات إلى وحدات من 2 غرف نوم. يسجل Elbrus Tower التسليم في 2026.",
+          "question": "ما أنواع العقارات ونطاقات غرف النوم وسنوات التسليم المسجلة؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يجب أن تستند القائمة النهائية بين Cloud Tower وElbrus Tower إلى الوحدة الدقيقة والسعر الحالي وشروط الدفع والتكلفة الإجمالية للشراء والمخطط والإطلالة وحالة المشروع والتسليم والتوافر. تفيد الأرقام المسجلة على مستوى المشروع في إعداد القائمة المختصرة، لكنها لا تغني عن التحقق المباشر على مستوى الوحدة.",
+          "question": "ما الذي يجب التحقق منه قبل الاختيار بين Cloud Tower وElbrus Tower؟",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن المشاريع",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "استخدم هذه الصفحة كنقطة بداية لمقارنة Cloud Tower وElbrus Tower. قد تتغير التفاصيل المسجلة ولا تحل محل مستندات المطور الحالية أو السجلات العامة. تحقق من الأسعار الحالية والوحدات المتاحة وشروط الدفع والمخططات ورسوم الخدمات وتفاصيل التسليم وحالة المشروع قبل اتخاذ القرار.",
+      "items": [
+        {
+          "label": "السعر / التوافر",
+          "value": "يلزم تحقق مباشر"
+        },
+        {
+          "label": "شروط الدفع",
+          "value": "تحقق من المستندات الحالية"
+        },
+        {
+          "label": "التسليم / الحالة",
+          "value": "تحقق من الحالة الحالية"
+        },
+        {
+          "label": "تحديث المحتوى",
+          "value": "يوليو 2026"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "التحقق",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "يقع المشروعان في Jumeirah Village Triangle، وكلاهما مرتبط بـ Tiger Properties. لدى Elbrus Tower السعر الابتدائي المسجل الأقل عند AED 575K، مقابل AED 630K لـ Cloud Tower. موعدا التسليم المسجلان هما 2025 و2026؛ ويجب التحقق من الحالة الحالية لأي مشروع تجاوز تاريخ تسليمه المسجل.",
+      "title": "هل تريد مقارنة Cloud Tower وElbrus Tower وفق حالتك؟",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "اسأل Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "قارن حالتي",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن مقارنة المشاريع",
+      "text": "شارك تفضيلاتك وبيانات التواصل. سيُعد Primadom AI مقارنة مركزة قبل أن يتواصل معك مستشار.",
+      "error": "يرجى المحاولة مرة أخرى",
+      "title": "قارن Cloud Tower وElbrus Tower وفق حالتك",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+      "eyebrow": "متابعة المقارنة مع AI",
+      "success": "تم إرسال الطلب",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "إغلاق",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971",
+        "comment": "أضف أي تفاصيل مفيدة"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_cloud_tower_vs_elbrus_tower_ar",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Cloud Tower",
+        "project_a_slug": "cloud-tower",
+        "project_b_name": "Elbrus Tower",
+        "project_b_slug": "elbrus-tower",
+        "canonical_url_path": "/ar/compare-projects/cloud-tower-vs-elbrus-tower/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "إرسال",
+        "error": "يرجى المحاولة مرة أخرى",
+        "success": "تم إرسال الطلب",
+        "submitting": "جارٍ الإرسال…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "طلب مُعدّ مسبقًا",
+        "value": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "يساعد Primadom AI المشترين على مقارنة المشاريع والمواقع والمطورين العقاريين وعوامل القرار الرئيسية قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "مقارنة المشاريع المرتبطة باحتياجات المشتري الفعلية",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري في الإمارات",
+      "brand_url": "/ar/",
+      "copyright": "© نظام Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "احجز مكالمة",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "اسأل AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

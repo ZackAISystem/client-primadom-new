@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_8b8bd4f1a3e5c74466f1f36d99ad",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/dubai-property-under-aed-2m-for-qatar-buyers/",
+  "canonical_url_path": "/fr/buyer-scenarios/dubai-property-under-aed-2m-for-qatar-buyers/",
+  "canonical_group_key": "origin:qatar:goal:property-under-aed-2m",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "qatar",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Puis-je acheter ?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "Navigation du guide pour acheteurs internationaux",
+      "cta_label": "Obtenir une consultation",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/dubai-property-under-aed-2m-for-qatar-buyers/",
+          "label": "Immobilier à Dubaï à moins de 2 M AED pour les acheteurs qataris"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Depuis le Qatar",
+        "Moins de 2 M AED",
+        "Adéquation au budget",
+        "Type de bien",
+        "Coût total"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Immobilier à Dubaï à moins de 2 M AED pour les acheteurs qataris",
+      "subtitle": "Pour les acheteurs qataris disposant d’un budget inférieur à 2 M AED, comparez les types de biens réalistes, les quartiers, les modalités de paiement et le coût total de la transaction avant de considérer le prix affiché comme le budget complet.",
+      "facts_aria": "Points clés pour ce scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Immobilier à Dubaï à moins de 2 M AED pour les acheteurs qataris — visuel de planification immobilière",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Comparer les options immobilières à Dubaï dans un budget de 2 M AED",
+        "Vérifier les types de biens, les modalités de paiement et le coût total de la transaction",
+        "Quels quartiers offrent des options réalistes dans ce budget ?"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Parlez-nous de votre projet immobilier à Dubaï",
+      "placeholder": "Comparez des biens à Dubaï à moins de 2 M AED pour mon projet depuis le Qatar",
+      "block_status": "final",
+      "button_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Demander à Primadom AI au sujet de : Immobilier à Dubaï à moins de 2 M AED pour les acheteurs qataris",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Acheteurs qataris",
+        "Moins de 2 M AED",
+        "Type de bien",
+        "Coût total",
+        "Prix actuels"
+      ],
+      "title": "Les acheteurs qataris peuvent-ils acheter un bien immobilier à Dubaï ?",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Oui — les acheteurs qataris peuvent généralement acheter un bien immobilier à Dubaï</strong> dans les zones ouvertes à la propriété étrangère, sous réserve des règles en vigueur et des vérifications propres au bien. Pour un budget inférieur à 2 M AED, considérez cette limite comme un budget tout compris et vérifiez le prix actuel du logement, les modalités de paiement et les coûts de transaction.",
+      "body_text": "Oui — les acheteurs qataris peuvent généralement acheter un bien immobilier à Dubaï dans les zones ouvertes à la propriété étrangère, sous réserve des règles en vigueur et des vérifications propres au bien. Pour un budget inférieur à 2 M AED, considérez cette limite comme un budget tout compris et vérifiez le prix actuel du logement, les modalités de paiement et les coûts de transaction.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Marché d’origine",
+          "value": "Qatar"
+        },
+        {
+          "label": "Marché cible",
+          "value": "Dubai / EAU"
+        },
+        {
+          "label": "Objectif de l’acheteur",
+          "value": "Bien à moins de 2 M AED"
+        },
+        {
+          "label": "Axe principal",
+          "value": "Utilisation efficace d’un budget de 2 M AED"
+        },
+        {
+          "label": "Vérifications clés",
+          "value": "Type de bien · quartier · coûts totaux"
+        },
+        {
+          "label": "Contexte de propriété",
+          "value": "Vérifier les règles actuelles de propriété étrangère"
+        },
+        {
+          "label": "Étape de décision",
+          "value": "Avant réservation"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Comparer les options réalistes dans le budget total"
+        }
+      ],
+      "title": "Paramètres de l’acheteur international",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Définissez la part du budget pouvant être consacrée au bien lui-même après prise en compte des coûts de transaction et de détention.",
+            "title": "1. Fixer le budget tout compris de 2 M AED"
+          },
+          {
+            "text": "Si vous prévoyez d’effectuer certaines étapes depuis le Qatar, confirmez celles qui peuvent être réalisées à distance et vérifiez si une autorisation supplémentaire ou une intervention locale est nécessaire.",
+            "title": "2. Planifier le processus d’achat"
+          },
+          {
+            "text": "Confirmez les informations d’identité, les formulaires acheteur, l’origine des fonds, le circuit de transfert et les vérifications propres à la transaction demandées pour l’achat.",
+            "title": "3. Confirmer les documents et le circuit de paiement"
+          },
+          {
+            "text": "Revérifiez le prix du bien, les modalités de paiement, les coûts de transaction et les caractéristiques du logement par rapport au budget total avant de réserver.",
+            "title": "4. Revérifier les conditions actuelles avant réservation"
+          }
+        ],
+        "title": "Processus d’achat à distance",
+        "eyebrow": "Logique du processus"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Préparez les pièces d’identité valides et les informations sur l’acheteur demandées pour la transaction concernée.",
+            "title": "Passeport et informations sur l’acheteur"
+          },
+          {
+            "text": "Gardez à disposition votre adresse et vos coordonnées actuelles si elles sont demandées par le promoteur, la banque ou dans le cadre de la transaction.",
+            "title": "Adresse et coordonnées"
+          },
+          {
+            "text": "Confirmez l’origine des fonds, le circuit de transfert et les éventuels contrôles bancaires ou de conformité avant d’envoyer les fonds.",
+            "title": "Origine des fonds et circuit de transfert"
+          },
+          {
+            "text": "Regroupez le prix du bien et les données actuelles de coûts de transaction lorsque vous vérifiez la limite de 2 M AED.",
+            "title": "Vérification du budget total de 2 M AED"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Liste de vérification pratique"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Comparez le prix du bien, les coûts de transaction et le calendrier des paiements avant de décider de la part du budget à consacrer à l’actif.",
+          "title": "Utiliser le budget de 2 M AED comme limite tout compris",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "dark": false,
+          "text": "Si certaines étapes sont effectuées depuis le Qatar, confirmez le circuit de paiement, la signature, les contrôles d’identité et toute intervention locale propre à la transaction.",
+          "title": "Planifier l’exécution transfrontalière",
+          "eyebrow": "Achat depuis le Qatar"
+        },
+        {
+          "dark": false,
+          "text": "Comparez le type de bien, le quartier, les modalités de paiement et le coût total avant de considérer qu’une option respecte la limite.",
+          "title": "Le prix affiché n’est pas le budget complet",
+          "eyebrow": "Vérification du budget"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Utilisez Primadom AI pour comparer l’objectif, le budget, le processus et les vérifications avant d’échanger avec un conseiller.",
+          "title": "Transformer le scénario en comparaison claire",
+          "eyebrow": "Consultation AI"
+        }
+      ],
+      "cards_aria": "Décisions clés pour ce scénario d’acheteur",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Vérifier les options actuelles par rapport au budget total de 2 M AED et au coût total.",
+            "title": "JVC"
+          },
+          {
+            "text": "Comparer les logements actuels, les charges de service, les modalités de paiement et les coûts de transaction.",
+            "title": "Arjan"
+          },
+          {
+            "text": "Comparer les projets et types de biens actuels au budget total d’achat.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "Comparer les options actuelles, les modalités de paiement et le coût total de la transaction.",
+            "title": "Dubailand"
+          }
+        ],
+        "title": "Quartiers à comparer",
+        "eyebrow": "Options de quartiers"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "Pour les acheteurs qataris qui recherchent un bien à moins de 2 M AED, considérez 2 M AED comme une limite tout compris et vérifiez le prix actuel, les modalités de paiement et les coûts de transaction avant de supposer qu’une option convient.",
+        "tags": [
+          "Peut-on acheter ?",
+          "Budget de 2 M AED",
+          "Type de bien",
+          "Coût total",
+          "Prix actuels"
+        ],
+        "title": "Préoccupations de l’acheteur",
+        "eyebrow": "À vérifier"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Ouvrez les pages des projets réellement liés aux quartiers utilisés pour ce scénario d’acheteur, puis vérifiez les prix actuels, la disponibilité, les modalités de paiement et les données propres au projet avant de décider.",
+        "items": [
+          {
+            "href": "/fr/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/fr/projects/48-parkside/",
+            "meta": "Arjan",
+            "label": "48 Parkside"
+          },
+          {
+            "href": "/fr/projects/aero-1-residences/",
+            "meta": "Dubai South",
+            "label": "Aero 1 Residences"
+          },
+          {
+            "href": "/fr/projects/a99/",
+            "meta": "Dubailand",
+            "label": "A99"
+          },
+          {
+            "href": "/fr/projects/105-residences/",
+            "meta": "Jumeirah Village Circle",
+            "label": "105 Residences"
+          }
+        ],
+        "title": "Projets à vérifier",
+        "eyebrow": "Options de projets",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "Si la résidence aux EAU fait partie de votre projet, vérifiez les critères actuels du Golden Visa séparément de la décision immobilière. La présence d’un projet dans cette liste n’implique pas une éligibilité au visa.",
+        "tags": [
+          "Vérification distincte",
+          "Critères actuels",
+          "Valeur du bien",
+          "Statut de propriété",
+          "Statut des paiements"
+        ],
+        "title": "Vérifier séparément les conditions d’éligibilité au visa",
+        "eyebrow": "Vérification des conditions de visa",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/dubai-first-time-buyer-property-for-qatar-buyers/",
+          "label": "Premier achat immobilier à Dubaï pour les acheteurs qataris"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-payment-plan-property-for-qatar-buyers/",
+          "label": "Bien avec plan de paiement à Dubaï pour les acheteurs qataris"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-apartments-for-qatar-buyers/",
+          "label": "Appartements à Dubaï pour les acheteurs qataris"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-off-plan-property-for-qatar-buyers/",
+          "label": "Bien sur plan à Dubaï pour les acheteurs qataris"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages associées par pays d’origine",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Les acheteurs qataris peuvent généralement acheter un bien immobilier à Dubaï dans les zones en pleine propriété désignées, sous réserve des règles en vigueur et du bien concerné. Pour un bien à Dubaï avec un budget de 2 M AED, considérez la limite comme un budget tout compris et vérifiez le prix actuel du logement, les modalités de paiement et les coûts de transaction.",
+          "question": "Les acheteurs qataris peuvent-ils acheter un bien à Dubaï avec un budget de 2 M AED ?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Partez du budget d’acquisition complet, pas seulement du prix affiché. Intégrez les coûts de transaction, puis comparez les types de biens, les emplacements et les structures de paiement qui restent réalistes dans la limite de 2 M AED.",
+          "question": "Que doivent vérifier en premier les acheteurs qataris lorsqu’ils envisagent un bien à Dubaï avec un budget de 2 M AED ?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "Pour ce scénario, comparez JVC, Arjan, Dubai South et Dubailand. Il s’agit de points de départ et non d’un classement ; vérifiez le bien précis et son adéquation pratique avant de décider.",
+          "question": "Quels quartiers de Dubaï les acheteurs qataris devraient-ils comparer avec un budget de 2 M AED ?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "Lors de l’organisation de l’achat depuis le Qatar, déterminez qui signera, comment les fonds seront transférés, quels contrôles d’identité s’appliquent et si une étape nécessite une intervention locale. Confirmez le processus applicable à la transaction avant d’engager des fonds.",
+          "question": "Que doivent vérifier les acheteurs qataris lorsqu’ils organisent un achat à Dubaï depuis le Qatar ?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Non. Considérez 2 M AED comme une limite de recherche tout compris et vérifiez le prix actuel du logement, les modalités de paiement et les coûts de transaction avant de décider si un projet respecte le budget.",
+          "question": "Un projet affiché sur cette page est-il nécessairement actuellement sous 2 M AED ?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions des acheteurs internationaux",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Pour les acheteurs qataris qui envisagent un bien à Dubaï avec un budget de 2 M AED, cette page distingue les conseils à l’acheteur des affirmations qui nécessitent encore une vérification externe. Les règles de propriété et les étapes de la transaction transfrontalière doivent être vérifiées auprès des sources officielles pertinentes. Le prix actuel du logement, les modalités de paiement et le coût total de la transaction doivent également être vérifiés en direct avant de considérer qu’une option respecte le budget.",
+      "items": [
+        {
+          "label": "Règles de propriété",
+          "value": "Vérification officielle en attente"
+        },
+        {
+          "label": "Processus d’achat international",
+          "value": "Vérification au cas par cas"
+        },
+        {
+          "label": "Adéquation au budget",
+          "value": "Vérification actuelle du prix requise"
+        },
+        {
+          "label": "Prix / disponibilité",
+          "value": "Vérification actuelle du projet requise"
+        },
+        {
+          "label": "Statut des sources",
+          "value": "Vérification des sources en attente"
+        }
+      ],
+      "title": "Notes de vérification",
+      "eyebrow": "Sources et vérification",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Pour les acheteurs qataris, comparez les options au budget total d’achat de 2 M AED, puis vérifiez les prix et modalités de paiement actuels avant l’examen par un conseiller.",
+      "title": "Vous recherchez un bien à Dubaï à moins de 2 M AED depuis le Qatar ?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Réviser mon projet",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulaire de consultation pour acheteur international",
+      "text": "Pour les acheteurs qataris, indiquez votre type de bien et vos priorités d’achat. Primadom AI préparera le contexte budgétaire avant la vérification des prix et conditions actuels.",
+      "title": "Réviser votre projet immobilier à Dubaï à moins de 2 M AED depuis le Qatar",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Réviser mon budget de 2 M AED à Dubaï depuis le Qatar",
+      "eyebrow": "Révision du projet d’achat",
+      "success": "Envoyé",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Fermer",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI aide les acheteurs qataris à comparer les options au budget total de 2 M AED et à vérifier les prix et modalités de paiement actuels avant l’examen par un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Immobilier à Dubaï à moins de 2 M AED pour les acheteurs qataris",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux de Primadom AI",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Demander à AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

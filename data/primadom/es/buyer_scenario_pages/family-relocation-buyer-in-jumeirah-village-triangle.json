@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_family_relocation_buyer_jumeirah_village_triangle_es",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "es",
+  "url_path": "/es/buyer-scenarios/family-relocation-buyer-in-jumeirah-village-triangle/",
+  "canonical_url_path": "/es/buyer-scenarios/family-relocation-buyer-in-jumeirah-village-triangle/",
+  "canonical_group_key": "scenario_district:family_relocation_buyer:jumeirah-village-triangle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-village-triangle",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Zonas",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Proceso",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navegación del escenario del comprador",
+      "cta_label": "Revisar escenario",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/es/buyer-scenarios/",
+          "label": "Escenarios de comprador"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/jumeirah-village-triangle/",
+          "label": "Jumeirah Village Triangle"
+        },
+        {
+          "key": "current",
+          "href": "/es/buyer-scenarios/family-relocation-buyer-in-jumeirah-village-triangle/",
+          "label": "Comprador por traslado familiar en Jumeirah Village Triangle",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Traslado familiar",
+        "Jumeirah Village Triangle",
+        "Apartamentos · Casas adosadas · Villas",
+        "AED 2M–5M",
+        "Colegios · desplazamiento · espacio"
+      ],
+      "image": {
+        "alt": "Comprador por traslado familiar en Jumeirah Village Triangle — búsqueda de propiedades",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Comprador por traslado familiar en Jumeirah Village Triangle",
+      "subtitle": "Organiza la decisión alrededor de colegios, desplazamientos, tamaño de la vivienda, calendario de entrada y coste total del traslado. En Jumeirah Village Triangle, verifica los datos de la propiedad concreta y las condiciones actuales antes de comprometerte.",
+      "facts_aria": "Aspectos destacados del escenario del comprador",
+      "section_id": "overview",
+      "visual_aria": "Visual de búsqueda de propiedades: Comprador por traslado familiar en Jumeirah Village Triangle",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparar opciones para «Comprador por traslado familiar» en Jumeirah Village Triangle",
+        "Revisar acceso a colegios, desplazamiento y tamaño de la vivienda",
+        "¿Qué debo verificar antes de decidir?"
+      ],
+      "ai_aria": "Preguntar a Primadom AI sobre Comprador por traslado familiar en Jumeirah Village Triangle",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparar opciones para «Comprador por traslado familiar» en Jumeirah Village Triangle",
+      "placeholder": "Comparar opciones para «Comprador por traslado familiar» en Jumeirah Village Triangle",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Traslado familiar",
+        "Jumeirah Village Triangle",
+        "Colegios · desplazamiento · espacio",
+        "AED 2M–5M",
+        "Preguntar a AI"
+      ],
+      "title": "Lo que más importa",
+      "eyebrow": "Orientación para el comprador",
+      "body_html": "<strong>Comprador por traslado familiar en Jumeirah Village Triangle</strong>: Organiza la decisión alrededor de colegios, desplazamientos, tamaño de la vivienda, calendario de entrada y coste total del traslado. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir.",
+      "body_text": "En el escenario «Comprador por traslado familiar» en Jumeirah Village Triangle, organiza la decisión alrededor de colegios, desplazamientos, tamaño de la vivienda, calendario de entrada y coste total del traslado. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Escenario",
+          "value": "Comprador por traslado familiar"
+        },
+        {
+          "label": "Objetivo principal",
+          "value": "Traslado familiar"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Jumeirah Village Triangle"
+        },
+        {
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos · Casas adosadas · Villas"
+        },
+        {
+          "label": "Rango de presupuesto",
+          "value": "AED 2M–5M"
+        },
+        {
+          "label": "Criterio de decisión",
+          "value": "Colegios · desplazamiento · espacio"
+        },
+        {
+          "label": "Etapa del comprador",
+          "value": "Planificación del traslado"
+        },
+        {
+          "label": "Siguiente paso",
+          "value": "Comprobar la adecuación a la vida diaria"
+        }
+      ],
+      "title": "Parámetros del escenario",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Para quién es esta página",
+        "eyebrow": "Adecuación al comprador",
+        "bad_items": [
+          "Compradores que ya han decidido sin necesitar comparar alternativas.",
+          "Compradores que eligen solo por precio o por un único indicador comercial.",
+          "Compradores que no quieren comprobar trayecto al colegio, desplazamiento y calendario del traslado."
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que encajan con el escenario «Comprador por traslado familiar» en Jumeirah Village Triangle y quieren comparar alternativas con criterios coherentes.",
+          "Compradores que quieren contrastar acceso a colegios, desplazamiento y tamaño de la vivienda antes de elegir una propiedad.",
+          "Compradores que prefieren revisar costes, condiciones y adecuación de la propiedad concreta antes de decidir."
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "En Jumeirah Village Triangle, aplica los mismos criterios a todas las opciones. Organiza la decisión alrededor de colegios, desplazamientos, tamaño de la vivienda, calendario de entrada y coste total del traslado. Comprueba por separado los costes actuales, el estado de la propiedad y las condiciones de la operación.",
+        "tags": [
+          "Acceso a colegios",
+          "Desplazamiento",
+          "Tamaño de la vivienda",
+          "Fecha de entrada",
+          "Coste total"
+        ],
+        "title": "Qué tener en cuenta",
+        "eyebrow": "Lógica de decisión"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "En Jumeirah Village Triangle, evalúa la zona por cómo afecta a acceso a colegios, desplazamiento, tamaño de la vivienda y fecha de entrada y a la adecuación de la propiedad al uso previsto.",
+            "title": "Jumeirah Village Triangle"
+          },
+          {
+            "text": "Compara otras zonas cuando ofrezcan un mejor equilibrio entre acceso a colegios, desplazamiento y tamaño de la vivienda y el coste total.",
+            "title": "Comparar alternativas"
+          },
+          {
+            "text": "No compares la ubicación de forma aislada: revisa cómo cambian acceso a colegios, fecha de entrada y la rutina diaria para cada opción.",
+            "title": "Contexto práctico"
+          },
+          {
+            "text": "Mantén vinculadas la decisión de zona y la decisión de propiedad; verifica acceso, costes, plazos y uso real antes de descartar alternativas.",
+            "title": "Antes de reducir la selección"
+          }
+        ],
+        "title": "Contexto de la zona",
+        "eyebrow": "Zonas relevantes"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Suelen simplificar el mantenimiento diario; compara distribución útil, costes del edificio, servicios y adecuación al uso previsto.",
+            "title": "Apartamentos"
+          },
+          {
+            "text": "Aportan más espacio y, a menudo, zona exterior privada; compara mantenimiento, aparcamiento, costes de comunidad y acceso diario.",
+            "title": "Casas adosadas"
+          },
+          {
+            "text": "Ofrecen más privacidad y espacio, pero requieren revisar parcela, mantenimiento, suministros, desplazamientos y coste total.",
+            "title": "Villas"
+          },
+          {
+            "text": "Compara estado actual y certeza de uso frente a calendario, pagos y condiciones de una opción sobre plano.",
+            "title": "Terminada vs sobre plano"
+          }
+        ],
+        "title": "Tipos de propiedad para comparar",
+        "eyebrow": "Adecuación de la propiedad"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Empieza por acceso a colegios, desplazamiento y tamaño de la vivienda. Después contrasta esos criterios con el coste total y la practicidad de la propiedad concreta.",
+          "title": "Fija primero: acceso a colegios",
+          "eyebrow": "Lógica del presupuesto"
+        },
+        {
+          "text": "En Jumeirah Village Triangle, aplica la misma lista de criterios a cada opción: acceso a colegios, desplazamiento, tamaño de la vivienda y fecha de entrada.",
+          "title": "Compara todas las opciones con la misma base",
+          "eyebrow": "Notas del proceso"
+        },
+        {
+          "text": "Revisa especialmente trayecto al colegio, desplazamiento, calendario del traslado y costes de entrada. Una opción atractiva en un solo punto puede fallar cuando se evalúan juntos los costes y el uso real.",
+          "title": "Haz visible el riesgo principal",
+          "eyebrow": "Riesgos"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede comparar opciones en Jumeirah Village Triangle usando la misma base: acceso a colegios, desplazamiento, tamaño de la vivienda, fecha de entrada y coste total.",
+          "title": "Compara con una sola lista de prioridades",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notas para la decisión del escenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "En Jumeirah Village Triangle, revisa especialmente trayecto al colegio, desplazamiento, calendario del traslado, costes de entrada y adecuación de la vivienda. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales.",
+        "tags": [
+          "Trayecto al colegio",
+          "Desplazamiento",
+          "Calendario del traslado",
+          "Costes de entrada",
+          "Adecuación de la vivienda"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Qué comprobar antes de comprar"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Define qué significa acceso a colegios para tu caso antes de comparar propiedades.",
+            "title": "Define primero: acceso a colegios"
+          },
+          {
+            "text": "Contrasta desplazamiento entre opciones equivalentes y no lo evalúes de forma aislada.",
+            "title": "Compara: desplazamiento"
+          },
+          {
+            "text": "En Jumeirah Village Triangle, comprueba tamaño de la vivienda para la propiedad concreta y con datos actuales.",
+            "title": "Verifica: tamaño de la vivienda"
+          },
+          {
+            "text": "Antes de comprometerte, confirma fecha de entrada junto con plazos, pagos y estado actual de la propiedad.",
+            "title": "Confirma: fecha de entrada"
+          }
+        ],
+        "title": "Documentos y notas del proceso",
+        "eyebrow": "Aspectos prácticos"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/es/projects/treppan-tower/",
+            "meta": "Fakhruddin Properties · Jumeirah Village Triangle",
+            "label": "Treppan Tower"
+          },
+          {
+            "href": "/es/projects/bliss-phase-2/",
+            "meta": "Emaar Properties · Jumeirah Village Triangle",
+            "label": "Bliss Phase 2"
+          },
+          {
+            "href": "/es/projects/lum1nar-tower-2/",
+            "meta": "Object 1 · Jumeirah Village Triangle",
+            "label": "Lum1nar Tower 2"
+          },
+          {
+            "href": "/es/projects/volga-tower/",
+            "meta": "Tiger Properties · Jumeirah Village Triangle",
+            "label": "Volga Tower"
+          },
+          {
+            "href": "/es/projects/the-ivy/",
+            "meta": "Metrical Real Estate Development · Jumeirah Village Triangle",
+            "label": "The Ivy"
+          }
+        ],
+        "title": "Proyectos para comparar",
+        "eyebrow": "Opciones para la selección"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Usa AED 2M–5M como marco del escenario y mantén en el mismo cálculo precio de la propiedad, costes de compra, mobiliario, traslado y reserva de efectivo. No conviertas el límite de presupuesto en una suposición sobre precio o disponibilidad; confirma los importes y condiciones actuales y deja margen para cambios.",
+        "tags": [
+          "Precio de la propiedad",
+          "Costes de compra",
+          "Mobiliario",
+          "Traslado",
+          "Reserva de efectivo"
+        ],
+        "title": "Lógica del presupuesto",
+        "eyebrow": "Presupuesto del escenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/es/buyer-scenarios/school-led-relocation-buyer-in-jumeirah-village-triangle/",
+          "label": "Comprador que se traslada por colegios en Jumeirah Village Triangle"
+        },
+        {
+          "href": "/es/buyer-scenarios/family-villas-near-schools-in-jumeirah-village-triangle/",
+          "label": "Villas familiares cerca de colegios en Jumeirah Village Triangle"
+        },
+        {
+          "href": "/es/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-jumeirah-village-triangle/",
+          "label": "Comprador de apartamento familiar por menos de AED 3M en Jumeirah Village Triangle"
+        },
+        {
+          "href": "/es/buyer-scenarios/ready-to-move-buyer-in-jumeirah-village-triangle/",
+          "label": "Comprador de propiedad lista para entrar a vivir en Jumeirah Village Triangle"
+        }
+      ],
+      "title": "Escenarios relacionados",
+      "eyebrow": "Seguir explorando",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Organiza la decisión alrededor de colegios, desplazamientos, tamaño de la vivienda, calendario de entrada y coste total del traslado. Compara todos los criterios juntos y verifica la propiedad concreta antes de decidir.",
+          "question": "¿Qué debe guiar la búsqueda de vivienda para un traslado familiar en Jumeirah Village Triangle?"
+        },
+        {
+          "answer": "Es útil para compradores que encajan con el escenario «Comprador por traslado familiar» y quieren comparar acceso a colegios, desplazamiento y tamaño de la vivienda con una metodología coherente.",
+          "question": "¿Quién se beneficia más de una búsqueda orientada al traslado familiar en Jumeirah Village Triangle?"
+        },
+        {
+          "answer": "Comprueba colegio / desplazamiento, precio / condiciones, fecha de entrada y costes de compra y revisa los datos actuales, los documentos y las condiciones de la operación para la propiedad concreta.",
+          "question": "¿Qué debe verificar una familia antes de elegir vivienda en Jumeirah Village Triangle?"
+        },
+        {
+          "answer": "Usa AED 2M–5M como marco y suma precio de la propiedad, costes de compra, mobiliario, traslado y reserva de efectivo. Mantén una reserva para costes o cambios no reflejados en el precio anunciado.",
+          "question": "¿Cómo debe presupuestar una familia una compra vinculada al traslado en Jumeirah Village Triangle?"
+        },
+        {
+          "answer": "En Jumeirah Village Triangle, revisa especialmente trayecto al colegio, desplazamiento, calendario del traslado, costes de entrada y adecuación de la vivienda. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales.",
+          "question": "¿Cuáles son los principales riesgos al trasladar una familia a Jumeirah Village Triangle?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas del escenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Antes de decidir en Jumeirah Village Triangle, confirma colegio / desplazamiento, precio / condiciones, fecha de entrada y costes de compra. Estos elementos pueden cambiar la comparación y deben revisarse para la propiedad concreta con información vigente.",
+      "items": [
+        {
+          "label": "Colegio / desplazamiento",
+          "value": "Comprobar la ruta real"
+        },
+        {
+          "label": "Precio / condiciones",
+          "value": "Confirmar los datos actuales"
+        },
+        {
+          "label": "Fecha de entrada",
+          "value": "Verificarlo para la vivienda elegida"
+        },
+        {
+          "label": "Costes de compra",
+          "value": "Incluirlo antes de comprometerse"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Qué verificar",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compara «Comprador por traslado familiar» en Jumeirah Village Triangle con acceso a colegios, desplazamiento, tamaño de la vivienda y fecha de entrada. Primadom AI puede ayudarte a organizar los compromisos antes de revisar propiedades concretas.",
+      "title": "¿Necesitas ayuda para planificar una mudanza familiar?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Revisar opciones",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta del escenario del comprador",
+      "text": "Comparte tus prioridades sobre acceso a colegios, desplazamiento, tamaño de la vivienda y fecha de entrada para este escenario en Jumeirah Village Triangle. Así el asesor tendrá un contexto útil antes de la conversación.",
+      "title": "Revisa tu escenario de traslado familiar",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Quiero comparar opciones para el escenario «Comprador por traslado familiar» en Jumeirah Village Triangle.",
+      "eyebrow": "Continuar el análisis del escenario con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Dirección de email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compara opciones en Jumeirah Village Triangle usando acceso a colegios, desplazamiento, tamaño de la vivienda y fecha de entrada y verifica los costes y condiciones actuales antes de decidir.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Planifica la mudanza familiar en torno a la vida cotidiana",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

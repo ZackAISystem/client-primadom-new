@@ -1,0 +1,835 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_mi_casa_fr",
+  "page_type_id": "project_page",
+  "language_code": "fr",
+  "url_path": "/fr/projects/mi-casa/",
+  "canonical_url_path": "/fr/projects/mi-casa/",
+  "canonical_group_key": "project:mi-casa",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "mi-casa",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_answer",
+    "block_06_key_facts",
+    "block_07_buyer_fit",
+    "block_08_project_logic",
+    "block_09_decision_cards",
+    "block_10_location",
+    "block_11_similar_projects",
+    "block_12_faq",
+    "block_13_trust_sources",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectLeadModal",
+      "cta_label": "Réserver un appel",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Aperçu",
+          "is_active": true
+        },
+        {
+          "key": "details",
+          "href": "#key-facts",
+          "label": "Détails"
+        },
+        {
+          "key": "location",
+          "href": "#location",
+          "label": "Localisation"
+        },
+        {
+          "key": "ai",
+          "href": "#ask-ai",
+          "is_ai": true,
+          "label": "Demander à AI"
+        }
+      ],
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation Primadom AI",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "projects",
+          "href": "/fr/projects/",
+          "label": "Projets sur plan aux EAU"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/jumeirah-village-circle/",
+          "label": "Jumeirah Village Circle",
+          "label_ref": "entity.district"
+        },
+        {
+          "key": "project",
+          "href": "/fr/projects/mi-casa/",
+          "label": "Mi Casa",
+          "label_ref": "entity.name"
+        }
+      ]
+    },
+    "block_03_hero": {
+      "gallery": [],
+      "image_alt": "",
+      "hero_title": "Mi Casa",
+      "price_label": "Prix à partir de",
+      "promo_image": "",
+      "price_amount": 750000,
+      "price_status": "available",
+      "hero_subtitle": "Projet d’appartements sur plan à Jumeirah Village Circle, par London Gate.",
+      "price_display": "AED 750,000",
+      "hero_title_ref": "entity.name",
+      "price_currency": "AED",
+      "schema_version": "hero_v1",
+      "price_value_ref": "price_from_aed",
+      "subtitle_status": "formula_written",
+      "gallery_aria_label": "Galerie de Mi Casa",
+      "gallery_next_label": "Image suivante",
+      "gallery_prev_label": "Image précédente"
+    },
+    "block_04_ai_search": {
+      "hints": [
+        "Comparer Mi Casa avec des projets similaires à Jumeirah Village Circle",
+        "Afficher le plan de paiement, les options d’unités et la logique de livraison",
+        "Mi Casa est-il plus adapté à un usage résidentiel ou à l’investissement ?",
+        "Expliquer l’intérêt de la localisation à Jumeirah Village Circle"
+      ],
+      "ai_badge": "Primadom AI",
+      "voice_text": "Demander des informations sur ce projet",
+      "placeholder": "Demander à AI des informations sur Mi Casa, le plan de paiement, la localisation, les risques ou des projets similaires",
+      "button_label": "Demander",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Demander à Primadom AI des informations sur Mi Casa",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_short_answer": {
+      "agent_inputs": {
+        "tags_ref": "canonical_tags",
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "developer_name_ref": "developer_name",
+        "property_types_ref": "property_types"
+      },
+      "chips_status": "formula_written",
+      "page_type_note": "Cette page présente une vue synthétique de Mi Casa : prix, livraison, plan de paiement, localisation et projets similaires. La disponibilité, les plans d’étage et les modalités de paiement doivent être vérifiés avant toute décision d’achat.",
+      "schema_version": "short_answer_v1",
+      "summary_status": "agent_written",
+      "short_answer_chips": [
+        "Faible hauteur",
+        "Jumeirah Village Circle",
+        "Sur plan",
+        "Par London Gate",
+        "À partir de AED 750,000"
+      ],
+      "short_answer_title": "Aperçu du projet",
+      "short_answer_kicker": "Aperçu rapide pour l’acheteur",
+      "short_answer_summary": "Mi Casa est un projet d’appartements sur plan, développé par London Gate, situé à Jumeirah Village Circle. Les données disponibles indiquent un développement de faible hauteur et une communauté fermée."
+    },
+    "block_06_key_facts": {
+      "key_facts": [
+        {
+          "key": "price_from",
+          "label": "Prix à partir de",
+          "value": "AED 750,000",
+          "value_ref": "price_from_aed",
+          "value_status": "available"
+        },
+        {
+          "key": "status",
+          "label": "Statut",
+          "value": "Sur plan",
+          "value_ref": "project_status",
+          "value_status": "system_default"
+        },
+        {
+          "key": "handover",
+          "label": "Livraison",
+          "value": "décembre 2027",
+          "value_ref": "handover_text",
+          "value_status": "available"
+        },
+        {
+          "key": "payment_plan",
+          "label": "Plan de paiement",
+          "value": "—",
+          "value_ref": "payment_plan",
+          "value_status": "missing"
+        },
+        {
+          "key": "developer",
+          "label": "Développeur",
+          "value": "London Gate",
+          "value_ref": "entity.developer",
+          "value_status": "available"
+        },
+        {
+          "key": "district",
+          "label": "Quartier",
+          "value": "Jumeirah Village Circle",
+          "value_ref": "entity.district",
+          "value_status": "available"
+        },
+        {
+          "key": "type",
+          "label": "Type",
+          "value": "Appartement",
+          "value_ref": "property_types",
+          "value_status": "available"
+        },
+        {
+          "key": "units",
+          "label": "Unités",
+          "value": "Studio | 1 | 2 | 3 ch.",
+          "value_ref": "bedrooms_range",
+          "value_status": "available"
+        },
+        {
+          "key": "size_from",
+          "label": "Surface à partir de",
+          "value": "à partir de 433 sqft",
+          "value_ref": "size_min_sqft",
+          "value_status": "available"
+        },
+        {
+          "key": "last_checked",
+          "label": "Dernière vérification",
+          "value": "juin 2026",
+          "value_ref": "last_checked",
+          "value_status": "system_default"
+        }
+      ],
+      "details_title": "Détails du projet",
+      "keyfacts_note": "Les données clés de Mi Casa sont présentées en priorité afin que les acheteurs, les moteurs de recherche et les systèmes AI puissent comprendre rapidement le projet. Le prix, le plan de paiement et la disponibilité doivent être vérifiés avant toute décision d’achat.",
+      "details_kicker": "Données clés",
+      "schema_version": "key_facts_v1"
+    },
+    "block_07_buyer_fit": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "fit_evidence": {
+        "best_for": [
+          {
+            "item": "Acheteurs prévoyant d’utiliser le bien comme résidence principale",
+            "evidence": "use_case_tags.primary_residence",
+            "priority": 10,
+            "semantic_group": "primary_residence"
+          },
+          {
+            "item": "Acheteurs recherchant un logement adapté aux familles",
+            "evidence": "use_case_tags.family_home",
+            "priority": 15,
+            "semantic_group": "family_fit"
+          },
+          {
+            "item": "Acheteurs recherchant des agencements plus spacieux",
+            "evidence": "family_tags.spacious_layouts",
+            "priority": 45,
+            "semantic_group": "spacious_layout"
+          }
+        ],
+        "not_best_for": [
+          {
+            "item": "Acheteurs ayant besoin d’un bien prêt immédiatement",
+            "evidence": "future_handover",
+            "priority": 10,
+            "semantic_group": "future_handover"
+          },
+          {
+            "item": "Acheteurs recherchant spécifiquement des villas",
+            "evidence": "property_types.apartment_only",
+            "priority": 50,
+            "semantic_group": "no_villas"
+          }
+        ]
+      },
+      "best_for_items": [
+        "Acheteurs prévoyant d’utiliser le bien comme résidence principale",
+        "Acheteurs recherchant un logement adapté aux familles",
+        "Acheteurs recherchant des agencements plus spacieux"
+      ],
+      "best_for_title": "Adapté à",
+      "schema_version": "buyer_fit_v1",
+      "best_for_status": "formula_written",
+      "buyer_fit_title": "Profil de l’acheteur",
+      "formula_version": "buyer_fit_rules_v2",
+      "buyer_fit_kicker": "Évaluation de l’adéquation",
+      "not_best_for_items": [
+        "Acheteurs ayant besoin d’un bien prêt immédiatement",
+        "Acheteurs recherchant spécifiquement des villas"
+      ],
+      "not_best_for_title": "Peut ne pas convenir",
+      "not_best_for_status": "formula_written"
+    },
+    "block_08_project_logic": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "logic_status": "agent_written",
+      "schema_version": "project_logic_v1",
+      "project_logic_text": "Mi Casa est un projet d’appartements sur plan, développé par London Gate, situé à Jumeirah Village Circle, proposant des studios et des logements de 1 à 3 chambres, avec une livraison prévue en décembre 2027. Il s’agit d’un développement de faible hauteur. Son positionnement associe un environnement adapté aux familles, un environnement verdoyant et un cadre suburbain. Le positionnement vise principalement un usage en résidence principale.",
+      "project_logic_title": "Positionnement du projet",
+      "project_logic_kicker": "Comment l’interpréter"
+    },
+    "block_09_decision_cards": {
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "size_min_ref": "size_min_sqft",
+        "area_tags_ref": "area_tags",
+        "price_from_ref": "price_from_aed",
+        "family_tags_ref": "family_tags",
+        "invest_tags_ref": "invest_tags",
+        "bedrooms_max_ref": "bedrooms_max",
+        "bedrooms_min_ref": "bedrooms_min",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "district_name_ref": "district_name",
+        "use_case_tags_ref": "use_case_tags",
+        "canonical_tags_ref": "canonical_tags",
+        "developer_name_ref": "developer_name",
+        "lifestyle_tags_ref": "lifestyle_tags",
+        "property_types_ref": "property_types"
+      },
+      "agent_status": "can_improve_later",
+      "decision_cards": [
+        {
+          "key": "investment_view",
+          "text": "Pour évaluer Mi Casa, prenez en compte le prix de départ enregistré de AED 750,000, la livraison annoncée pour 2027 et les projets comparables à Jumeirah Village Circle avant de vous faire une opinion sur son potentiel d’investissement.",
+          "title": "Nécessite une vérification des données",
+          "eyebrow": "Perspective d’investissement",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "lifestyle_view",
+          "text": "Mi Casa propose des appartements à Jumeirah Village Circle, avec un usage adapté aux familles, soutenu par son format résidentiel et la composition des unités.",
+          "title": "Cas d’usage de l’acheteur",
+          "eyebrow": "Perspective de style de vie",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "check_before_buying",
+          "text": "Confirmez la disponibilité en temps réel, le prix actuel, les charges de service, les modalités de paiement, les plans d’étage et les documents officiels du projet avant toute décision.",
+          "title": "Disponibilité, frais et plan de paiement",
+          "eyebrow": "À vérifier avant d’acheter",
+          "card_status": "formula_enriched"
+        },
+        {
+          "key": "ai_context",
+          "text": "Primadom AI peut comparer Mi Casa avec des alternatives et préparer les principales questions à vérifier avec un conseiller.",
+          "title": "Questions à poser avant de décider",
+          "eyebrow": "Assistance AI",
+          "card_status": "system_default"
+        }
+      ],
+      "schema_version": "decision_cards_v1"
+    },
+    "block_10_location": {
+      "lat": 25.204849,
+      "lng": 55.270783,
+      "actions": [
+        {
+          "key": "area_guide",
+          "href": "/fr/areas/jumeirah-village-circle/",
+          "label": "Guide de la zone",
+          "action_status": "available"
+        },
+        {
+          "key": "open_map",
+          "href": "https://www.google.com/maps/search/?api=1&query=25.204849,55.270783",
+          "label": "Ouvrir la carte",
+          "action_status": "city_fallback"
+        }
+      ],
+      "address": "Jumeirah Village Circle, Dubaï, EAU",
+      "map_point": "Référence à la ville de Dubaï",
+      "nearby_title": "Points d’intérêt à proximité",
+      "address_label": "Adresse",
+      "nearby_status": "district_context",
+      "address_status": "available",
+      "location_title": "Localisation",
+      "schema_version": "location_v1",
+      "map_point_label": "Portée de la localisation",
+      "location_context": "Les informations de localisation de Mi Casa reposent sur la zone enregistrée à Jumeirah Village Circle. La position exacte du bâtiment, les temps de trajet et les points d’intérêt à proximité doivent être confirmés avant toute décision d’achat.",
+      "map_point_status": "city_fallback",
+      "nearby_landmarks": [
+        {
+          "key": "landmark_1",
+          "name": "Circle Mall",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_2",
+          "name": "Dubai Hills Mall",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        },
+        {
+          "key": "landmark_3",
+          "name": "Dubai Marina",
+          "item_status": "district_landmark",
+          "drive_time_label": "—"
+        }
+      ],
+      "drive_time_kicker": "Temps de trajet en voiture",
+      "map_context_kicker": "Contexte de la zone",
+      "location_context_status": "system_default"
+    },
+    "block_11_similar_projects": {
+      "agent_status": "formula_generated",
+      "target_count": 4,
+      "matching_note": "Les projets sont sélectionnés de manière déterministe selon le quartier, le développeur, la ville, le type de bien, la fourchette de prix, le nombre de chambres et la livraison. Les correspondances faibles sont exclues ; certaines pages peuvent donc afficher moins de quatre projets.",
+      "related_links": [
+        {
+          "key": "area_projects",
+          "href": "/fr/areas/jumeirah-village-circle/projects/",
+          "label": "Plus de projets à Jumeirah Village Circle",
+          "link_type": "district_projects",
+          "link_status": "available"
+        },
+        {
+          "key": "developer_projects",
+          "href": "/fr/developers/london-gate/projects/",
+          "label": "Plus de projets de London Gate",
+          "link_type": "developer_projects",
+          "link_status": "available"
+        }
+      ],
+      "similar_title": "Projets associés",
+      "schema_version": "similar_projects_v1",
+      "similar_kicker": "Liens internes",
+      "similar_status": "matched",
+      "matching_version": "similar_projects_rules_v1",
+      "similar_projects": [
+        {
+          "href": "/fr/projects/maxi-lilio-residences/",
+          "project_id": "maxi-lilio-residences",
+          "match_score": 260,
+          "project_name": "Maxi Lilio Residences",
+          "district_name": "Jumeirah Village Circle",
+          "match_reasons": [
+            "same_district",
+            "same_developer",
+            "same_city",
+            "similar_property_type",
+            "bedroom_overlap"
+          ],
+          "property_type": "Appartement,Penthouse",
+          "developer_name": "London Gate"
+        },
+        {
+          "href": "/fr/projects/311-boulevard/",
+          "project_id": "311-boulevard",
+          "match_score": 130,
+          "project_name": "311 Boulevard",
+          "district_name": "Jumeirah Village Circle",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Appartement",
+          "developer_name": "Bam Eskan Real Estate",
+          "price_from_aed": 699000
+        },
+        {
+          "href": "/fr/projects/allura-residences/",
+          "project_id": "allura-residences",
+          "match_score": 130,
+          "project_name": "Allura Residences",
+          "district_name": "Jumeirah Village Circle",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Appartement",
+          "developer_name": "Citi Developers",
+          "price_from_aed": 619000
+        },
+        {
+          "href": "/fr/projects/alta/",
+          "project_id": "alta",
+          "match_score": 130,
+          "project_name": "Alta",
+          "district_name": "Jumeirah Village Circle",
+          "match_reasons": [
+            "same_district",
+            "same_city",
+            "similar_property_type",
+            "similar_price_band",
+            "bedroom_overlap",
+            "similar_handover"
+          ],
+          "property_type": "Appartement",
+          "developer_name": "Meteora Developers",
+          "price_from_aed": 539000
+        }
+      ],
+      "related_links_status": "formula_generated"
+    },
+    "block_12_faq": {
+      "faq_items": [
+        {
+          "answer": "Mi Casa est un projet immobilier développé par London Gate à Jumeirah Village Circle, proposant des appartements.",
+          "question": "Qu’est-ce que Mi Casa ?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Mi Casa est situé à Jumeirah Village Circle, Dubaï, EAU.",
+          "question": "Où se situe Mi Casa ?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Le prix de départ enregistré est de AED 750,000. Le prix actuel et la disponibilité doivent être confirmés avant toute décision.",
+          "question": "Quel est le prix de départ de Mi Casa ?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "Les données actuelles du projet indiquent des appartements, notamment des studios et des unités de 1 à 3 chambres.",
+          "question": "Quels types de biens et quelles configurations de chambres sont disponibles à Mi Casa ?",
+          "answer_status": "formula_generated"
+        },
+        {
+          "answer": "La livraison enregistrée est prévue en décembre 2027. Ce calendrier doit être confirmé à partir de la dernière mise à jour officielle du projet.",
+          "question": "Quand la livraison de Mi Casa est-elle prévue ?",
+          "answer_status": "formula_generated"
+        }
+      ],
+      "faq_title": "Questions fréquentes",
+      "faq_kicker": "Réponses rapides",
+      "faq_status": "formula_generated_can_improve_later",
+      "schema_version": "faq_v1",
+      "formula_version": "faq_rules_v3",
+      "faq_expand_label": "Afficher la réponse",
+      "faq_collapse_label": "Masquer la réponse"
+    },
+    "block_13_trust_sources": {
+      "agent_tasks": [
+        "attach_developer_source",
+        "attach_brochure_or_price_list",
+        "check_authority_status",
+        "verify_price_and_availability"
+      ],
+      "agent_inputs": {
+        "city_ref": "city",
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "trust_kicker": "Vérification",
+      "trust_sources": [
+        {
+          "key": "official_developer_materials",
+          "href": "",
+          "label": "Documents officiels du développeur",
+          "status": "required",
+          "link_status": "needs_source",
+          "source_type": "developer"
+        },
+        {
+          "key": "price_availability_check",
+          "href": "",
+          "label": "Prix et disponibilité actuels",
+          "status": "required",
+          "link_status": "needs_live_check",
+          "source_type": "availability"
+        },
+        {
+          "key": "authority_status",
+          "href": "",
+          "label": "Statut d’enregistrement du projet",
+          "status": "recommended",
+          "link_status": "needs_source",
+          "source_type": "authority"
+        },
+        {
+          "key": "primadom_advisor_check",
+          "href": "#projectLeadModal",
+          "label": "Vérification par un conseiller Primadom",
+          "status": "internal",
+          "link_status": "available",
+          "source_type": "internal_check"
+        }
+      ],
+      "schema_version": "trust_sources_v1",
+      "evidence_status": "needs_sources",
+      "freshness_label": "Actualité des données",
+      "freshness_value": "Données susceptibles d’évoluer rapidement",
+      "source_note_text": "Avant de vous appuyer sur les données de Mi Casa, confirmez le prix actuel, la disponibilité, les modalités de paiement, les plans d’étage, la livraison, les charges de service et les documents officiels du projet.",
+      "source_confidence": "placeholder_until_verified",
+      "last_updated_label": "Dernière mise à jour",
+      "last_updated_value": "juin 2026",
+      "source_notes_title": "Ce qui doit être vérifié",
+      "trust_sources_title": "Vérification des sources",
+      "verification_summary": [
+        {
+          "label": "Documents officiels",
+          "value": "obligatoire"
+        },
+        {
+          "label": "Prix et disponibilité",
+          "value": "obligatoire"
+        },
+        {
+          "label": "Statut auprès des autorités",
+          "value": "recommandé"
+        },
+        {
+          "label": "Vérification par un conseiller",
+          "value": "interne"
+        }
+      ]
+    },
+    "block_14_cta": {
+      "actions": [
+        {
+          "key": "ask_project",
+          "label": "Demander à Primadom AI",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "project_question"
+        },
+        {
+          "key": "get_pdf",
+          "label": "Demander le PDF du projet",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "pdf_request"
+        },
+        {
+          "key": "request_call",
+          "label": "Réserver un appel",
+          "open_modal": true,
+          "modal_target": "#projectLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_text": "Utilisez Primadom AI pour comparer Mi Casa, examiner la logique de prix et de paiement et préparer les bonnes questions à poser à un conseiller Primadom.",
+      "cta_title": "Vérifier ce projet avant de décider",
+      "cta_status": "formula_generated",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "schema_version": "cta_v1"
+    },
+    "block_15_lead_modal": {
+      "note": "Nous vérifierons les détails avant de transmettre votre demande.",
+      "fields": {
+        "name": {
+          "label": "Nom",
+          "html_name": "name",
+          "placeholder": "Votre nom"
+        },
+        "phone": {
+          "label": "Téléphone",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Demande",
+          "html_name": "request_type",
+          "placeholder": "Calendrier, type d’unité ou question"
+        }
+      },
+      "modal_id": "projectLeadModal",
+      "title_id": "projectLeadTitle",
+      "close_label": "Fermer",
+      "modal_title": "Demander des informations sur Mi Casa",
+      "agent_inputs": {
+        "handover_ref": "handover_year",
+        "price_from_ref": "price_from_aed",
+        "payment_plan_ref": "payment_plan",
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug",
+        "property_types_ref": "property_types"
+      },
+      "ai_row_badge": "Brouillon de demande",
+      "modal_status": "formula_generated",
+      "submit_label": "Envoyer",
+      "hidden_fields": {
+        "location": {
+          "html_name": "location",
+          "value_ref": "district_name"
+        },
+        "price_from": {
+          "html_name": "price_from",
+          "value_ref": "price_from_aed",
+          "display_ref": "block_03_hero_json.price_display"
+        },
+        "project_key": {
+          "html_name": "project_key",
+          "value_ref": "project_slug"
+        },
+        "project_name": {
+          "html_name": "project_name",
+          "value_ref": "project_name"
+        }
+      },
+      "modal_eyebrow": "Demande de projet",
+      "success_label": "Envoyé",
+      "schema_version": "lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Je souhaite obtenir des informations sur Mi Casa. Merci de m’envoyer les détails.",
+        "html_name": "comment",
+        "request_scope": [
+          "availability",
+          "prices",
+          "floor_plans",
+          "payment_plan"
+        ]
+      },
+      "modal_description": "Indiquez-nous ce que vous recherchez. Primadom vous aidera à vérifier la disponibilité, les prix, les plans d’étage et les prochaines étapes.",
+      "voice_button_label": "Utiliser la voix"
+    },
+    "block_16_footer": {
+      "chips": [
+        {
+          "key": "projects",
+          "href": "/fr/projects/",
+          "label": "Projets"
+        },
+        {
+          "key": "areas",
+          "href": "/fr/areas/",
+          "label": "Zones"
+        },
+        {
+          "key": "developers",
+          "href": "/fr/developers/",
+          "label": "Développeurs"
+        },
+        {
+          "key": "ai_search",
+          "href": "#ask-ai",
+          "label": "Recherche avec AI"
+        }
+      ],
+      "address": "Dubaï, EAU",
+      "copyright": "© Primadom AI",
+      "brand_href": "/fr/",
+      "brand_title": "Primadom AI",
+      "agent_inputs": {
+        "project_name_ref": "project_name",
+        "project_slug_ref": "project_slug",
+        "district_name_ref": "district_name",
+        "district_slug_ref": "district_slug",
+        "developer_name_ref": "developer_name",
+        "developer_slug_ref": "developer_slug"
+      },
+      "social_links": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "label": "LinkedIn"
+        }
+      ],
+      "footer_status": "formula_generated",
+      "schema_version": "footer_v1",
+      "statement_text": "Cette page vous aide à examiner Mi Casa, à comparer les données clés, à comprendre la zone et à préparer les bonnes questions avant d’échanger avec un conseiller Primadom.",
+      "contact_primary": {
+        "href": "#projectLeadModal",
+        "label": "Réserver un appel",
+        "action_intent": "call_request"
+      },
+      "statement_title": "Trouvez le bien adapté à Dubaï grâce à des données de projet plus claires et aux conseils fournis par AI.",
+      "contact_secondary": {
+        "href": "#ask-ai",
+        "label": "Demander à AI",
+        "action_intent": "project_question"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "Immobilier à Dubaï à moins de 2 M AED pour les acheteurs koweïtiens"
+layout: "primadom-origin-buyer-page-v2"
+origin_buyer_slug: "dubai-property-under-aed-2m-for-kuwait-buyers"
+page_id: "pg_e0a965aa6ebd4e751da4895ba9c8"
+url: "/fr/buyer-scenarios/dubai-property-under-aed-2m-for-kuwait-buyers/"
+build:
+  render: always
+  list: never
+---

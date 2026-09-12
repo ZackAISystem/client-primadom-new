@@ -1,0 +1,10 @@
+---
+title: "Wie prüft man die Eignung im Luxussegment — Immobilien am Wasser"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-check-luxury-fit-waterfront"
+page_id: "ai_answer__how-to-check-luxury-fit__context__waterfront__de"
+url: "/de/ai-answers/how-to-check-luxury-fit-waterfront/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_ready_to_move_buyer_jumeirah_village_circle_fr",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/ready-to-move-buyer-in-jumeirah-village-circle/",
+  "canonical_url_path": "/fr/buyer-scenarios/ready-to-move-buyer-in-jumeirah-village-circle/",
+  "canonical_group_key": "scenario_district:ready_to_move_buyer:jumeirah-village-circle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-village-circle",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Réponse",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation du scénario d’acheteur",
+      "cta_label": "Vérifier le scénario",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/jumeirah-village-circle/",
+          "label": "Jumeirah Village Circle"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/ready-to-move-buyer-in-jumeirah-village-circle/",
+          "label": "Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Acheteur recherchant un bien prêt à emménager",
+        "Jumeirah Village Circle · EAU",
+        "Appartements · Maisons de ville · Villas",
+        "Aucune fourchette fixe",
+        "État · calendrier · statut"
+      ],
+      "image": {
+        "alt": "Recherche immobilière — Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle",
+      "subtitle": "À Jumeirah Village Circle, vérifiez état, disponibilité à la visite, calendrier, usage immédiat, coûts et statut actuel d’un bien prêt à emménager.",
+      "facts_aria": "Points clés du scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Visuel de recherche immobilière — Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparer ce scénario à Jumeirah Village Circle",
+        "Comparer l’état réel, la possibilité de visite et la date de disponibilité",
+        "Quels compromis comptent le plus pour mon usage ?"
+      ],
+      "ai_aria": "Demander à Primadom AI à propos du scénario « Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle »",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparer ce scénario à Jumeirah Village Circle",
+      "placeholder": "Comparer ce scénario à Jumeirah Village Circle",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Acheteur recherchant un bien prêt à emménager",
+        "Jumeirah Village Circle",
+        "Statut du bien",
+        "État",
+        "Demander à AI"
+      ],
+      "title": "Ce qui compte le plus",
+      "eyebrow": "Conseils pour l’acheteur",
+      "body_html": "<strong>Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle</strong> — Pour un bien prêt à emménager à Jumeirah Village Circle, la décision doit porter sur la propriété réelle : état, accès pour la visite, calendrier de transaction, adéquation à l’usage immédiat, charges et statut actuel. Vérifiez ces éléments avant de réduire la sélection.",
+      "body_text": "Pour un bien prêt à emménager à Jumeirah Village Circle, la décision doit porter sur la propriété réelle : état, accès pour la visite, calendrier de transaction, adéquation à l’usage immédiat, charges et statut actuel. Vérifiez ces éléments avant de réduire la sélection.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Scénario",
+          "value": "Acheteur recherchant un bien prêt à emménager — Jumeirah Village Circle"
+        },
+        {
+          "label": "Objectif principal",
+          "value": "Bien prêt"
+        },
+        {
+          "label": "Localisation",
+          "value": "Jumeirah Village Circle"
+        },
+        {
+          "label": "Type de bien",
+          "value": "Appartements · Maisons de ville · Villas"
+        },
+        {
+          "label": "Fourchette de budget",
+          "value": "Aucune fourchette fixe"
+        },
+        {
+          "label": "Critère de décision",
+          "value": "État · calendrier · statut"
+        },
+        {
+          "label": "Étape de l’acheteur",
+          "value": "Vérifications préalables / achat"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Vérifier le statut actuel du bien"
+        }
+      ],
+      "title": "Paramètres du scénario",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cette page s’adresse",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs dont la décision est déjà arrêtée et qui n’ont plus besoin de comparer l’état réel, la possibilité de visite et la date de disponibilité.",
+          "Acheteurs qui se fient à un seul indicateur — prix, image du projet, réputation du quartier ou autre signal isolé — sans vérifier le bien précis.",
+          "Acheteurs qui ne souhaitent pas vérifier l’état réel, la possibilité de visite et la date de disponibilité ou les coûts récurrents avant de décider."
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs pour lesquels l’état réel, la possibilité de visite et la date de disponibilité sont déterminants à Jumeirah Village Circle.",
+          "Acheteurs qui veulent comparer l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction sur une base cohérente plutôt que de décider à partir d’un seul avantage.",
+          "Acheteurs prêts à vérifier les données susceptibles de changer, les coûts et le calendrier avant de s’engager."
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "Pour un bien prêt à emménager à Jumeirah Village Circle, la décision doit porter sur la propriété réelle : état, accès pour la visite, calendrier de transaction, adéquation à l’usage immédiat, charges et statut actuel. Vérifiez ces éléments avant de réduire la sélection. Utilisez ensuite les mêmes critères pour comparer l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction à Jumeirah Village Circle, afin que chaque option soit évaluée sur une base cohérente.",
+        "tags": [
+          "Statut du bien",
+          "État",
+          "Date d’emménagement",
+          "Coût de détention",
+          "Vérifications préalables"
+        ],
+        "title": "Points à prendre en compte",
+        "eyebrow": "Logique de décision"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Jumeirah Village Circle, évaluez dans quelle mesure le quartier répond aux priorités suivantes : l’état réel, la possibilité de visite et la date de disponibilité. Tenez aussi compte de la vie quotidienne de l’acheteur.",
+            "title": "Contexte local"
+          },
+          {
+            "text": "Comparez d’autres quartiers s’ils offrent un meilleur équilibre entre ces priorités, l’usage quotidien et le budget total.",
+            "title": "Comparer les alternatives"
+          },
+          {
+            "text": "Vérifiez les trajets, les services et les conditions réelles du bien : un seul avantage visible ne suffit pas à confirmer l’adéquation du quartier à ce scénario.",
+            "title": "Usage quotidien"
+          },
+          {
+            "text": "Gardez le choix du quartier cohérent avec l’état réel et la possibilité de visite ; un meilleur emplacement peut compenser certains compromis, et l’inverse.",
+            "title": "Avant d’affiner la sélection"
+          }
+        ],
+        "title": "Contexte du quartier",
+        "eyebrow": "Quartiers pertinents"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Appartements prêts : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Appartements prêts"
+          },
+          {
+            "text": "Maisons de ville prêtes : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Maisons de ville prêtes"
+          },
+          {
+            "text": "Villas prêtes : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Villas prêtes"
+          },
+          {
+            "text": "Prêt à emménager ou sur plan : vérifiez l’état réel, les charges, la date de disponibilité, les conditions de transaction et l’usage prévu.",
+            "title": "Prêt à emménager ou sur plan"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Adéquation du bien"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Pour un bien prêt à emménager, gardez le prix, les frais d’acquisition, les éventuels travaux ou l’ameublement et les charges récurrentes dans le même budget. L’avantage de calendrier ne doit pas masquer le coût réel du bien.",
+          "title": "Cadrez le budget complet",
+          "eyebrow": "Logique du budget"
+        },
+        {
+          "text": "À Jumeirah Village Circle, comparez l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction avec la même méthode et vérifiez ce que chaque option change réellement dans l’usage quotidien.",
+          "title": "Comparez l’usage réel",
+          "eyebrow": "Notes sur le processus"
+        },
+        {
+          "text": "Les principaux risques sont de traiter un bien comme immédiatement disponible sans confirmation, de sous-estimer son état ou ses charges, de négliger les documents de transaction ou de faire coïncider l’emménagement avec une date non vérifiée.",
+          "title": "Gardez les risques visibles",
+          "eyebrow": "Risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut organiser la comparaison à Jumeirah Village Circle selon l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction, avec le budget comme contrainte commune, sans supposer les données susceptibles de changer.",
+          "title": "Comparer avec Primadom AI",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notes de décision du scénario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Les principaux risques sont de traiter un bien comme immédiatement disponible sans confirmation, de sous-estimer son état ou ses charges, de négliger les documents de transaction ou de faire coïncider l’emménagement avec une date non vérifiée.",
+        "tags": [
+          "État",
+          "Propriété",
+          "Coût d’emménagement",
+          "Accès quotidien",
+          "Calendrier"
+        ],
+        "title": "Risques",
+        "eyebrow": "À vérifier avant d’acheter"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Hiérarchisez l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction avant d’affiner la sélection.",
+            "title": "Définir les priorités"
+          },
+          {
+            "text": "Mettez le prix d’achat, les frais d’acquisition, les coûts récurrents et la réserve de liquidités dans la même comparaison.",
+            "title": "Comparer le coût total"
+          },
+          {
+            "text": "Inspectez le logement, confirmez son statut et sa disponibilité, vérifiez les documents, les charges et le calendrier réel de transaction.",
+            "title": "Vérifier les données du bien"
+          },
+          {
+            "text": "Faites correspondre les paiements, la transaction, la livraison ou l’emménagement avec votre propre calendrier avant de vous engager.",
+            "title": "Valider le calendrier"
+          }
+        ],
+        "title": "Documents et notes sur le processus",
+        "eyebrow": "Aspects pratiques"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/eleganz/",
+            "meta": "Danube Properties · Jumeirah Village Circle",
+            "label": "Eleganz"
+          },
+          {
+            "href": "/fr/projects/hyati-avenue/",
+            "meta": "Aurora Real Estate Development · Jumeirah Village Circle",
+            "label": "Hyati Avenue"
+          },
+          {
+            "href": "/fr/projects/la-perla-homes-12/",
+            "meta": "GHD Developments · Jumeirah Village Circle",
+            "label": "La Perla Homes 12"
+          },
+          {
+            "href": "/fr/projects/lucky-royale-residence/",
+            "meta": "Lucky Aeon Real Estate Development · Jumeirah Village Circle",
+            "label": "Lucky Royale Residence"
+          },
+          {
+            "href": "/fr/projects/the-autograph/",
+            "meta": "Green Group · Jumeirah Village Circle",
+            "label": "The Autograph"
+          }
+        ],
+        "title": "Projets à comparer",
+        "eyebrow": "Entrée dans la sélection"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Pour un bien prêt à emménager, gardez le prix, les frais d’acquisition, les éventuels travaux ou l’ameublement et les charges récurrentes dans le même budget. L’avantage de calendrier ne doit pas masquer le coût réel du bien.",
+        "tags": [
+          "Prix d’achat",
+          "Frais d’acquisition",
+          "Travaux",
+          "Ameublement",
+          "Coûts d’emménagement"
+        ],
+        "title": "Logique du budget",
+        "eyebrow": "Budget du scénario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/off-plan-payment-plan-buyer-in-jumeirah-village-circle/",
+          "label": "Acheteur sur plan avec plan de paiement — Jumeirah Village Circle"
+        },
+        {
+          "href": "/fr/buyer-scenarios/comparison-decision-buyer-in-jumeirah-village-circle/",
+          "label": "Acheteur en phase de comparaison et de décision — Jumeirah Village Circle"
+        },
+        {
+          "href": "/fr/buyer-scenarios/family-relocation-buyer-in-jumeirah-village-circle/",
+          "label": "Famille en cours d’installation — Jumeirah Village Circle"
+        },
+        {
+          "href": "/fr/buyer-scenarios/remote-buyer-buying-from-abroad-in-jumeirah-village-circle/",
+          "label": "Acheteur à distance depuis l’étranger — Jumeirah Village Circle"
+        }
+      ],
+      "title": "Scénarios associés",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Pour un bien prêt à emménager à Jumeirah Village Circle, la décision doit porter sur la propriété réelle : état, accès pour la visite, calendrier de transaction, adéquation à l’usage immédiat, charges et statut actuel. Vérifiez ces éléments avant de réduire la sélection.",
+          "question": "Quels sont les critères essentiels pour ce scénario à Jumeirah Village Circle ?"
+        },
+        {
+          "answer": "Ce scénario convient surtout aux acheteurs pour lesquels l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction doivent être comparés ensemble avant de choisir un bien.",
+          "question": "À qui ce scénario convient-il ?"
+        },
+        {
+          "answer": "Inspectez le logement, confirmez son statut et sa disponibilité, vérifiez les documents, les charges et le calendrier réel de transaction. Confirmez aussi les coûts, le statut du bien et les conditions susceptibles de changer avant tout engagement.",
+          "question": "Que faut-il vérifier avant de choisir un bien ?"
+        },
+        {
+          "answer": "Pour un bien prêt à emménager, gardez le prix, les frais d’acquisition, les éventuels travaux ou l’ameublement et les charges récurrentes dans le même budget. L’avantage de calendrier ne doit pas masquer le coût réel du bien.",
+          "question": "Comment aborder le budget ?"
+        },
+        {
+          "answer": "Les principaux risques sont de traiter un bien comme immédiatement disponible sans confirmation, de sous-estimer son état ou ses charges, de négliger les documents de transaction ou de faire coïncider l’emménagement avec une date non vérifiée.",
+          "question": "Quels sont les principaux risques ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le scénario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Inspectez le logement, confirmez son statut et sa disponibilité, vérifiez les documents, les charges et le calendrier réel de transaction. Revérifiez les données susceptibles de changer, les coûts, le calendrier et les documents avant de décider.",
+      "items": [
+        {
+          "label": "Statut du bien",
+          "value": "Vérifier statut du bien"
+        },
+        {
+          "label": "État",
+          "value": "Confirmer état"
+        },
+        {
+          "label": "Date d’emménagement",
+          "value": "Comparer date d’emménagement"
+        },
+        {
+          "label": "Coût de détention",
+          "value": "Valider coût de détention"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Ce qu’il faut vérifier",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Comparez l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction à Jumeirah Village Circle avec la même méthode. Primadom AI peut aider à structurer les compromis avant l’examen de biens précis.",
+      "title": "Prêt à comparer ce scénario ?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Examiner les options",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande pour le scénario d’acheteur",
+      "text": "Pour ce scénario à Jumeirah Village Circle, indiquez vos priorités concernant l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction, ainsi que votre budget et votre calendrier. Cela donne à l’équipe un contexte utile avant l’échange.",
+      "title": "Comparer les options pour ce scénario",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Aidez-moi à comparer ce scénario selon l’état réel, la possibilité de visite et la date de disponibilité",
+      "eyebrow": "Continuer l’analyse du scénario avec AI",
+      "success": "Envoyé",
+      "close_label": "Fermer",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "À Jumeirah Village Circle, comparez l’état réel, la possibilité de visite, la date de disponibilité et le calendrier de transaction dans le cadre du coût total avant d’affiner la sélection.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparer ce scénario avec des critères cohérents",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens sociaux",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

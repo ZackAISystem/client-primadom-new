@@ -1,0 +1,10 @@
+---
+title: "Proyectos de nuevo lanzamiento en Al Reef"
+layout: "primadom-intent-page-v2"
+intent_slug: "new-launch-projects-in-al-reef"
+page_id: "intent__new-launch-projects__district__al-reef__es"
+url: "/es/intents/new-launch-projects-in-al-reef/"
+build:
+  render: always
+  list: never
+---

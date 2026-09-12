@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_low_down_payment_buyer_al_mamsha_de",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "de",
+  "url_path": "/de/buyer-scenarios/low-down-payment-buyer-in-al-mamsha/",
+  "canonical_url_path": "/de/buyer-scenarios/low-down-payment-buyer-in-al-mamsha/",
+  "canonical_group_key": "scenario_district:low_down_payment_buyer:al-mamsha",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "al-mamsha",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Antwort",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Ablauf",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation des Käuferszenarios",
+      "cta_label": "Szenario prüfen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/de/buyer-scenarios/",
+          "label": "Käuferszenarien"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/al-mamsha/",
+          "label": "Al Mamsha"
+        },
+        {
+          "key": "current",
+          "href": "/de/buyer-scenarios/low-down-payment-buyer-in-al-mamsha/",
+          "label": "Käufer mit niedriger Anzahlung in Al Mamsha",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Niedrige Einstiegsauszahlung",
+        "Al Mamsha",
+        "Apartments",
+        "Bis zu 3 Mio. AED",
+        "Anzahlung · Raten · Gesamtkosten"
+      ],
+      "image": {
+        "alt": "Käufer mit niedriger Anzahlung in Al Mamsha – Immobiliensuche",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Käufer mit niedriger Anzahlung in Al Mamsha",
+      "subtitle": "Für dieses Käuferszenario in Al Mamsha stehen Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve im Mittelpunkt. Prüfen Sie die konkrete Immobilie und die aktuellen Bedingungen, bevor Sie die Auswahl eingrenzen.",
+      "facts_aria": "Wichtige Punkte des Käuferszenarios",
+      "section_id": "overview",
+      "visual_aria": "Visualisierung zur Immobiliensuche: Käufer mit niedriger Anzahlung in Al Mamsha",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve in Al Mamsha vergleichen",
+        "Aktuelle Preise, Verfügbarkeit und Bedingungen prüfen",
+        "Optionen passend zum Ziel „Niedrige Einstiegsauszahlung“ strukturieren"
+      ],
+      "ai_aria": "Primadom AI zu „Käufer mit niedriger Anzahlung in Al Mamsha“ fragen",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Optionen für „Käufer mit niedriger Anzahlung“ in Al Mamsha vergleichen",
+      "placeholder": "Optionen für „Käufer mit niedriger Anzahlung“ in Al Mamsha vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Niedrige Einstiegsauszahlung",
+        "Al Mamsha",
+        "Bis zu 3 Mio. AED",
+        "Anzahlung · Raten · Gesamtkosten",
+        "AI fragen"
+      ],
+      "title": "Was am wichtigsten ist",
+      "eyebrow": "Hinweise für Käufer",
+      "body_html": "<strong>Für „Käufer mit niedriger Anzahlung“ in Al Mamsha sollten Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve gemeinsam geprüft werden.</strong> Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "body_text": "Für „Käufer mit niedriger Anzahlung“ in Al Mamsha sollten Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve gemeinsam geprüft werden. Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Szenario",
+          "value": "Käufer mit niedriger Anzahlung"
+        },
+        {
+          "label": "Hauptziel",
+          "value": "Niedrige Einstiegsauszahlung"
+        },
+        {
+          "label": "Lage",
+          "value": "Al Mamsha"
+        },
+        {
+          "label": "Immobilientyp",
+          "value": "Apartments"
+        },
+        {
+          "label": "Budgetrahmen",
+          "value": "Bis zu 3 Mio. AED"
+        },
+        {
+          "label": "Entscheidungsschwerpunkt",
+          "value": "Anzahlung · Raten · Gesamtkosten"
+        },
+        {
+          "label": "Phase des Käufers",
+          "value": "Finanzierungs- / Vergleichsphase"
+        },
+        {
+          "label": "Nächster Schritt",
+          "value": "Gesamte Zahlungsverpflichtung statt nur der Anzahlung prüfen"
+        }
+      ],
+      "title": "Szenarioparameter",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Für wen diese Seite gedacht ist",
+        "eyebrow": "Eignung für Käufer",
+        "bad_items": [
+          "Käufer, die ihre Entscheidung nur auf einen einzelnen Preis-, Lebensstil- oder Renditefaktor stützen",
+          "Käufer, die aktuelle Objekt-, Projekt- oder Kostenangaben nicht separat prüfen möchten",
+          "Käufer, deren Budget keinen ausreichenden Spielraum für Transaktionskosten und eine Liquiditätsreserve lässt"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Käufer mit dem Hauptziel „Niedrige Einstiegsauszahlung“ in Al Mamsha",
+          "Käufer, die Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve strukturiert vergleichen möchten",
+          "Käufer, die aktuelle Preise, Verfügbarkeit und objektspezifische Angaben vor der Entscheidung bestätigen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "In Al Mamsha sollte das Szenario „Käufer mit niedriger Anzahlung“ anhand von Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve bewertet werden. Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten.",
+        "tags": [
+          "Anzahlung",
+          "Raten",
+          "Fälligkeiten",
+          "Gesamtpreis",
+          "Liquidität"
+        ],
+        "title": "Was zu beachten ist",
+        "eyebrow": "Entscheidungslogik"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Prüfen Sie in Al Mamsha, wie gut Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve zur konkreten Immobilie und zum vorgesehenen Nutzungszweck passen.",
+            "title": "Al Mamsha"
+          },
+          {
+            "text": "Vergleichen Sie alternative Gebiete mit denselben Kriterien: Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve.",
+            "title": "Alternativen vergleichen"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Gesamtverpflichtung“ anhand der konkreten Immobilie und von Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve.",
+            "title": "Gesamtverpflichtung"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Vor der engeren Auswahl“ anhand der konkreten Immobilie und von Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve.",
+            "title": "Vor der engeren Auswahl"
+          }
+        ],
+        "title": "Kontext des Stadtteils",
+        "eyebrow": "Relevante Stadtteile"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Kompakte Grundrisse"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Immobilien vor Fertigstellung"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Bezugsfertige Immobilien"
+          }
+        ],
+        "title": "Zu vergleichende Immobilientypen",
+        "eyebrow": "Eignung der Immobilie"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Stellen Sie alle Raten, Kaufnebenkosten und Zahlungen bis zur Fertigstellung nebeneinander und halten Sie eine Reserve, statt das Budget nur an der ersten Anzahlung auszurichten.",
+          "title": "Budget vollständig betrachten",
+          "eyebrow": "Budgetlogik"
+        },
+        {
+          "text": "Prüfen Sie in Al Mamsha, wie gut Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve zum tatsächlichen Nutzungszweck und zum geplanten Zeitpunkt passen.",
+          "title": "Praktische Eignung prüfen",
+          "eyebrow": "Prozesshinweise"
+        },
+        {
+          "text": "Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten.",
+          "title": "Risiken getrennt prüfen",
+          "eyebrow": "Risiken"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Optionen in Al Mamsha anhand von Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve in einem einheitlichen Vergleichsrahmen gegenüberstellen.",
+          "title": "Vergleich mit Primadom AI strukturieren",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Entscheidungshinweise zum Käuferszenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten.",
+        "tags": [
+          "Anzahlung",
+          "Raten",
+          "Fälligkeiten",
+          "Gesamtpreis",
+          "Liquidität"
+        ],
+        "title": "Risiken",
+        "eyebrow": "Vor dem Kauf prüfen"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Definieren Sie zuerst das Hauptziel „Niedrige Einstiegsauszahlung“ und priorisieren Sie Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve, bevor Sie einzelne Immobilien vergleichen.",
+            "title": "Ziel und Kriterien festlegen"
+          },
+          {
+            "text": "Stellen Sie alle Raten, Kaufnebenkosten und Zahlungen bis zur Fertigstellung nebeneinander und halten Sie eine Reserve, statt das Budget nur an der ersten Anzahlung auszurichten.",
+            "title": "Gesamtbudget und Zahlungsweg klären"
+          },
+          {
+            "text": "Vergleichen Sie die konkrete Immobilie in Al Mamsha mit Alternativen und prüfen Sie dabei Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve.",
+            "title": "Immobilie und Lage prüfen"
+          },
+          {
+            "text": "Bestätigen Sie aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen unmittelbar vor einer Reservierung oder verbindlichen Entscheidung.",
+            "title": "Aktuelle Angaben vor der Entscheidung bestätigen"
+          }
+        ],
+        "title": "Dokumente und Prozesshinweise",
+        "eyebrow": "Praktische Aspekte"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/verde/",
+            "meta": "Sobha Realty · Al Mamsha",
+            "label": "Verde"
+          },
+          {
+            "href": "/de/projects/sawa-phase-4/",
+            "meta": "Alef Group · Al Mamsha",
+            "label": "Sawa phase 4"
+          },
+          {
+            "href": "/de/projects/darb-phase-4/",
+            "meta": "Alef Group · Al Mamsha",
+            "label": "Darb Phase 4"
+          },
+          {
+            "href": "/de/projects/darb-phase-5/",
+            "meta": "Alef Group · Al Mamsha",
+            "label": "Darb Phase 5"
+          },
+          {
+            "href": "/de/projects/nama-phase-2/",
+            "meta": "Alef Group · Al Mamsha",
+            "label": "Nama Phase 2"
+          }
+        ],
+        "title": "Zu vergleichende Projekte",
+        "eyebrow": "Einstieg in die Auswahl"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Stellen Sie alle Raten, Kaufnebenkosten und Zahlungen bis zur Fertigstellung nebeneinander und halten Sie eine Reserve, statt das Budget nur an der ersten Anzahlung auszurichten.",
+        "tags": [
+          "Kaufpreis",
+          "Transaktionskosten",
+          "Laufende Kosten",
+          "Übergabe",
+          "Aktuelle Bedingungen"
+        ],
+        "title": "Budgetlogik",
+        "eyebrow": "Budget im Szenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/de/buyer-scenarios/first-time-buyer-needs-payment-plan-in-al-mamsha/",
+          "label": "Erstkäufer mit Bedarf an einem Zahlungsplan in Al Mamsha"
+        },
+        {
+          "href": "/de/buyer-scenarios/off-plan-payment-plan-buyer-in-al-mamsha/",
+          "label": "Käufer einer Immobilie vor Fertigstellung mit Zahlungsplan in Al Mamsha"
+        },
+        {
+          "href": "/de/buyer-scenarios/budget-buyer-under-aed-2m-in-al-mamsha/",
+          "label": "Käufer mit Budget unter 2 Mio. AED in Al Mamsha"
+        },
+        {
+          "href": "/de/buyer-scenarios/first-dubai-property-under-aed-1m-in-al-mamsha/",
+          "label": "Erster Immobilienkauf in Dubai unter 1 Mio. AED in Al Mamsha"
+        }
+      ],
+      "title": "Verwandte Szenarien",
+      "eyebrow": "Weiter erkunden",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Vergleichen Sie Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve. Die Entscheidung sollte auf der konkreten Immobilie und aktuellen Bedingungen beruhen.",
+          "question": "Was ist bei „Käufer mit niedriger Anzahlung“ in Al Mamsha am wichtigsten?"
+        },
+        {
+          "answer": "Es passt vor allem zu Käufern mit dem Ziel „Niedrige Einstiegsauszahlung“, die bereit sind, Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve strukturiert miteinander zu vergleichen.",
+          "question": "Für wen passt dieses Käuferszenario in Al Mamsha?"
+        },
+        {
+          "answer": "Prüfen Sie Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve an der konkreten Immobilie. Bestätigen Sie außerdem aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen vor der Entscheidung.",
+          "question": "Was sollte bei diesem Käuferszenario in Al Mamsha vor der Auswahl konkret geprüft werden?"
+        },
+        {
+          "answer": "Stellen Sie alle Raten, Kaufnebenkosten und Zahlungen bis zur Fertigstellung nebeneinander und halten Sie eine Reserve, statt das Budget nur an der ersten Anzahlung auszurichten.",
+          "question": "Wie sollte das Budget für dieses Käuferszenario in Al Mamsha geplant werden?"
+        },
+        {
+          "answer": "Eine niedrige erste Zahlung reduziert die Gesamtverpflichtung nicht; spätere Raten oder Zahlungen rund um die Fertigstellung können die Liquidität stärker belasten.",
+          "question": "Welche wesentlichen Risiken sollten Käufer bei diesem Szenario in Al Mamsha berücksichtigen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Käuferszenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Für „Käufer mit niedriger Anzahlung“ in Al Mamsha sollten aktuelle Preise, Verfügbarkeit, Projekt- oder Objektstatus, Gebühren, Zahlungsbedingungen und alle Angaben zu Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve vor der Entscheidung anhand der jeweils aktuellen und objektspezifischen Unterlagen überprüft werden.",
+      "items": [
+        {
+          "label": "Aktuelle Preise",
+          "value": "Vor der Entscheidung erneut prüfen"
+        },
+        {
+          "label": "Verfügbarkeit",
+          "value": "Für die konkrete Immobilie bestätigen"
+        },
+        {
+          "label": "Projekt- / Objektstatus",
+          "value": "Aktuelle Angaben und Unterlagen prüfen"
+        },
+        {
+          "label": "Gebühren / Bedingungen",
+          "value": "Objektspezifisch bestätigen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Was zu prüfen ist",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Vergleichen Sie Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve, bevor Sie die Auswahl eingrenzen. Primadom AI kann den Vergleich strukturieren und die Punkte für eine weitere Prüfung vorbereiten.",
+      "title": "„Käufer mit niedriger Anzahlung“ in Al Mamsha prüfen?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Optionen prüfen",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formular zur Prüfung des Käuferszenarios",
+      "text": "Teilen Sie Budget, Prioritäten, Nutzungsziel und Zeitplan mit. So kann der Vergleich für „Käufer mit niedriger Anzahlung“ in Al Mamsha vor einem Gespräch strukturiert vorbereitet werden.",
+      "title": "Käuferszenario in Al Mamsha prüfen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Mein Käuferszenario „Käufer mit niedriger Anzahlung“ in Al Mamsha prüfen",
+      "eyebrow": "Szenarioanalyse mit AI fortsetzen",
+      "success": "Gesendet",
+      "close_label": "Schließen",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Primadom AI hilft, Anzahlung, spätere Raten, Gesamtpreis, Zahlungszeitpunkte und Liquiditätsreserve für „Käufer mit niedriger Anzahlung“ in Al Mamsha strukturiert zu vergleichen, bevor einzelne Immobilien weiter geprüft werden.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Entscheidung in Al Mamsha strukturiert prüfen",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social-Media-Links von Primadom AI",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

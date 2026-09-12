@@ -1,0 +1,10 @@
+---
+title: "Guía de la zona de Al Barsha"
+layout: "primadom-district-page-v2"
+district_slug: "al-barsha"
+page_id: "page_district_al_barsha_es"
+url: "/es/areas/al-barsha/"
+build:
+  render: always
+  list: never
+---

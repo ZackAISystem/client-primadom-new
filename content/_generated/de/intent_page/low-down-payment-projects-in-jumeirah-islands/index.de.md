@@ -1,0 +1,10 @@
+---
+title: "Projekte mit niedriger Anfangszahlung in Jumeirah Islands"
+layout: "primadom-intent-page-v2"
+intent_slug: "low-down-payment-projects-in-jumeirah-islands"
+page_id: "intent__low-down-payment-projects__district__jumeirah-islands__de"
+url: "/de/intents/low-down-payment-projects-in-jumeirah-islands/"
+build:
+  render: always
+  list: never
+---

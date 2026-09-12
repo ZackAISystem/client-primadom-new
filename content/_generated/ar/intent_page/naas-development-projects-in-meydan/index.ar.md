@@ -1,0 +1,10 @@
+---
+title: "مشاريع NAAS Development في Meydan"
+layout: "primadom-intent-page-v2"
+intent_slug: "naas-development-projects-in-meydan"
+page_id: "page_developer_district_naas_development_meydan_ar"
+url: "/ar/intents/naas-development-projects-in-meydan/"
+build:
+  render: always
+  list: never
+---

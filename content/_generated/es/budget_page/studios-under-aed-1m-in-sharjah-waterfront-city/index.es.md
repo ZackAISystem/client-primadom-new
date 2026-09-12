@@ -1,0 +1,10 @@
+---
+title: "Estudios por por debajo de AED 1M en Sharjah Waterfront City"
+layout: "primadom-budget-page-v2"
+budget_slug: "studios-under-aed-1m-in-sharjah-waterfront-city"
+page_id: "page_property_budget_district_studios_under_aed_1m_sharjah_waterfront_city_es"
+url: "/es/budgets/studios-under-aed-1m-in-sharjah-waterfront-city/"
+build:
+  render: always
+  list: never
+---

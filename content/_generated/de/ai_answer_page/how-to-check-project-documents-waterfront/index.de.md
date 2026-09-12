@@ -1,0 +1,10 @@
+---
+title: "Wie prüft man Projektunterlagen — Immobilien am Wasser"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-check-project-documents-waterfront"
+page_id: "ai_answer__how-to-check-project-documents__context__waterfront__de"
+url: "/de/ai-answers/how-to-check-project-documents-waterfront/"
+build:
+  render: always
+  list: never
+---

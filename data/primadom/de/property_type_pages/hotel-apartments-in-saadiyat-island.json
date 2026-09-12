@@ -1,0 +1,922 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_hotel_apartments_saadiyat_island_de",
+  "page_type_id": "property_type_page",
+  "language_code": "de",
+  "url_path": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+  "canonical_url_path": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+  "canonical_group_key": "property_district:hotel-apartments:saadiyat-island",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "saadiyat-island",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Überblick",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projekte",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Navigation der Immobilientyp-Seite",
+      "cta_label": "Optionen finden",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "property_types",
+          "href": "/de/property-types/",
+          "label": "Immobilientypen"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/saadiyat-island/",
+          "label": "Saadiyat Island"
+        },
+        {
+          "key": "current",
+          "href": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+          "label": "Hotelapartments in Saadiyat Island",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Immobilientyp: Hotelapartments",
+        "Gebiet: Saadiyat Island",
+        "Gemanagtes Hotelkonzept",
+        "Betreiber + Nutzung",
+        "AI-Suche"
+      ],
+      "image": {
+        "alt": "Übersicht zu Hotelapartments in Saadiyat Island",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Hotelapartments in Saadiyat Island",
+      "subtitle": "Ein praktischer Leitfaden zu Hotelapartments in Saadiyat Island mit Fokus auf Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren, Preiskontext, Projektoptionen und AI-gestützte Suche.",
+      "facts_aria": "Hauptmerkmale des Immobilientyps",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Übersichtsgrafik für Hotelapartments in Saadiyat Island",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Primadom AI zu Hotelapartments in Saadiyat Island fragen",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Fragen zu Hotelapartments in Saadiyat Island, Budget oder Eignung",
+      "placeholder": "Fragen zu Hotelapartments in Saadiyat Island, Budget oder Eignung",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Sprachsuche",
+      "click_action": "fill_input",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Welche Hotelapartments in Saadiyat Island passen zu meinem Budget?",
+        "Wie unterscheiden sich Hotelapartments bei Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren?",
+        "Was sollte ich bei Hotelapartments in Saadiyat Island prüfen?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Sprachmodus",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Hotelapartments",
+        "Saadiyat Island",
+        "Betreiber + Nutzung",
+        "Gemanagtes Hotelkonzept",
+        "Projektprüfung"
+      ],
+      "title": "Zusammenfassung des Immobilientyps",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Hotelapartments in Saadiyat Island</strong> lassen sich nach Kriterien wie Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren vergleichen. Käufer sollten vor einer Entscheidung das konkrete Projekt, den Grundriss, laufende Kosten und aktuelle Bedingungen prüfen.",
+      "body_text": "Hotelapartments in Saadiyat Island lassen sich nach Kriterien wie Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren vergleichen. Käufer sollten vor einer Entscheidung das konkrete Projekt, den Grundriss, laufende Kosten und aktuelle Bedingungen prüfen.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Immobilientyp",
+          "value": "Hotelapartments",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Gebiet",
+          "value": "Saadiyat Island",
+          "fact_key": "area"
+        },
+        {
+          "label": "Markt",
+          "value": "Abu Dhabi / VAE",
+          "fact_key": "market"
+        },
+        {
+          "label": "Verknüpfte Projektseiten",
+          "value": "19 verknüpfte Projektseiten",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Kaufabsicht",
+          "value": "Gemanagte Nutzung · Investment",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Wichtigste Filter",
+          "value": "Betreiber · Nutzung · Vermietungsregeln",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Bester nächster Schritt",
+          "value": "Verknüpfte Projektseiten vergleichen",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Vergleichsumfang",
+          "value": "Projekte · Gebiete · Eigentumskosten",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Details zum Immobilientyp",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 19,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_growth_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Für wen es geeignet ist",
+        "eyebrow": "Eignung für Käufer",
+        "bad_items": [
+          "Käufer, die volle wohnwirtschaftliche Flexibilität ohne Betreiberregeln wünschen",
+          "Käufer, die Gebühren, Vermietungsmodell und Eigennutzungsbeschränkungen nicht vergleichen möchten",
+          "Käufer, die ohne Prüfung von Verfügbarkeit, Kosten und Projektbedingungen entscheiden möchten"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Käufer, die ein gemanagtes Hotelkonzept mit operativer Unterstützung suchen",
+          "Investoren oder gelegentliche Nutzer, die Betreiber- und Nutzungsbedingungen prüfen möchten",
+          "Käufer, die aktuelle Projekte nach praktischen Eigentumskriterien vergleichen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Saadiyat Island",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "hotel_apartments"
+      },
+      "property_logic": {
+        "body": "Beim Vergleich von Hotelapartments sind insbesondere folgende Punkte wichtig: Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell, laufende Gebühren und Gebietseignung. Für Saadiyat Island sollten außerdem Grundriss, Lage, Projektstatus und Gesamtkosten berücksichtigt werden. Prüfen Sie vor einer Entscheidung die aktuelle Verfügbarkeit sowie gegebenenfalls laufende Kosten, Zahlungsbedingungen und Übergabedetails.",
+        "tags": [
+          "Betreiberbedingungen",
+          "Nutzungsregeln",
+          "Vermietungsmodell",
+          "Laufende Gebühren",
+          "Vermietungskontext"
+        ],
+        "title": "Logik des Immobilientyps",
+        "eyebrow": "So vergleichen Sie"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "Für Hotelapartments in Saadiyat Island sind beim Projektvergleich insbesondere folgende Punkte wichtig: Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren. Prüfen Sie zusätzlich die aktuellen Projektbedingungen vor einer Entscheidung.",
+            "route": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+            "buyer_fit": "Aktueller Gebietskontext",
+            "relationship": "current_area",
+            "district_name": "Saadiyat Island",
+            "district_slug": "saadiyat-island"
+          },
+          {
+            "text": "Yas Island bietet zusätzlichen Gebietskontext für den Vergleich von Hotelapartments. Berücksichtigen Sie dort insbesondere Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/hotel-apartments-in-yas-island/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Yas Island",
+            "district_slug": "yas-island"
+          },
+          {
+            "text": "Al Reem Island bietet zusätzlichen Gebietskontext für den Vergleich von Hotelapartments. Berücksichtigen Sie dort insbesondere Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/hotel-apartments-in-al-reem-island/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Al Reem Island",
+            "district_slug": "al-reem-island"
+          },
+          {
+            "text": "Khalifa City bietet zusätzlichen Gebietskontext für den Vergleich von Hotelapartments. Berücksichtigen Sie dort insbesondere Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren und prüfen Sie die aktuellen Projektbedingungen.",
+            "route": "/de/property-types/hotel-apartments-in-khalifa-city/",
+            "buyer_fit": "Alternative in derselben Stadt",
+            "relationship": "related_area",
+            "district_name": "Khalifa City",
+            "district_slug": "khalifa-city"
+          }
+        ],
+        "title": "Relevante Stadtteile",
+        "eyebrow": "Gebietskontext"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Die Preise für Hotelapartments in Saadiyat Island hängen insbesondere von Betreiber, Serviceumfang, Nutzungsregeln, Einheitengröße, Projektstatus und laufenden Gebühren ab. Vergleichen Sie nicht nur den Angebotspreis, sondern auch Projektqualität, laufende Gebühren, Zahlungsbedingungen und die praktische Eignung der Immobilie. Prüfen Sie aktuelle Projektpreise, wiederkehrende Kosten und Zahlungsbedingungen, bevor Sie ein Budget festlegen.",
+        "tags": [
+          "Betreiberbedingungen",
+          "Nutzungsregeln",
+          "Vermietungsmodell",
+          "Laufende Gebühren",
+          "Preisprüfung"
+        ],
+        "title": "Wie sich die Preise unterscheiden",
+        "eyebrow": "Preisrealität"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 2,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 2,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 12,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "hotel_apartments",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "saadiyat-island",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 19
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "yas-island",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 22
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "al-reem-island",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 17
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "khalifa-city",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 9
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 2,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Vergleichen Sie Betreiberbedingungen, laufende Gebühren und realistische Nutzung oder Vermietung in Saadiyat Island, statt sich nur am Einstiegspreis oder an der Vermarktung zu orientieren.",
+          "title": "Kosten und Nachfrage realistisch vergleichen",
+          "eyebrow": "Investitionslogik"
+        },
+        {
+          "text": "Prüfen Sie, ob Serviceumfang, Flexibilität der Eigennutzung und tägliche Betreuung zum tatsächlichen Alltag und zum Käuferziel passen.",
+          "title": "Alltagstauglichkeit prüfen",
+          "eyebrow": "Lifestyle-Logik"
+        },
+        {
+          "text": "Prüfen Sie vor der Entscheidung insbesondere Betreibervertrag, Gebühren, Nutzungsbeschränkungen und Projektstatus und bestätigen Sie die aktuellen Projektbedingungen.",
+          "title": "Risiken nicht übersehen",
+          "eyebrow": "Risikohinweise"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Hotelapartments in Saadiyat Island nach Käuferziel, Projektstatus, Zahlungsbedingungen, Eigentumskosten und Alltagsanforderungen vergleichen.",
+          "title": "Passende Optionen mit AI vergleichen",
+          "eyebrow": "AI-Kontext"
+        }
+      ],
+      "cards_aria": "Entscheidungshinweise zum Immobilientyp",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_hotel_apartments_saadiyat_island_en",
+        "context_focus": "rental",
+        "district_slug": "saadiyat-island",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+        "property_type_slug": "hotel-apartments",
+        "semantic_profile_key": "hotel_apartments",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/rixos-hotel-residences/",
+            "meta": "Dubai Islands",
+            "label": "Rixos Hotel & Residences"
+          },
+          {
+            "href": "/de/projects/rixos-hotel-and-residences-phase-3-by-nakheel/",
+            "meta": "Dubai Islands",
+            "label": "Rixos Hotel and Residences Phase 3 By Nakheel"
+          },
+          {
+            "href": "/de/projects/nobu-residences/",
+            "meta": "Saadiyat Island",
+            "label": "Nobu Residences"
+          },
+          {
+            "href": "/de/projects/cavalli-tower/",
+            "meta": "Dubai Marina",
+            "label": "Cavalli Tower"
+          },
+          {
+            "href": "/de/projects/address-residences-al-marjan-island/",
+            "meta": "Al Marjan Island",
+            "label": "Address Residences Al Marjan Island"
+          }
+        ],
+        "title": "Empfohlene Projekte",
+        "eyebrow": "Projektoptionen"
+      },
+      "pros_cons": {
+        "title": "Vor- und Nachteile",
+        "eyebrow": "Machbarkeitsprüfung",
+        "cons_items": [
+          "Betreiberregeln können Eigennutzung und Vermietung einschränken",
+          "Laufende Gebühren und Erlösaufteilung müssen genau verstanden werden",
+          "Die wirtschaftliche Logik hängt stark von Vertrag und Betreiberqualität ab"
+        ],
+        "cons_title": "Nachteile",
+        "pros_items": [
+          "Gemanagte Services können Nutzung und Betreuung vereinfachen",
+          "Ein Betreiberkonzept kann für gelegentliche Eigennutzung oder bestimmte Investmentziele praktisch sein",
+          "Service und Vermietungsorganisation können stärker strukturiert sein als bei Standardapartments"
+        ],
+        "pros_title": "Vorteile"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_hotel_apartments_saadiyat_island_en",
+        "district_slug": "saadiyat-island",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "rental",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 8,
+            "match_level": "uae_strong_type",
+            "project_name": "Rixos Hotel & Residences",
+            "project_slug": "rixos-hotel-residences",
+            "project_route": "/de/projects/rixos-hotel-residences/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 1,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          },
+          {
+            "rank": 2,
+            "type_score": 8,
+            "match_level": "uae_strong_type",
+            "project_name": "Rixos Hotel and Residences Phase 3 By Nakheel",
+            "project_slug": "rixos-hotel-and-residences-phase-3-by-nakheel",
+            "project_route": "/de/projects/rixos-hotel-and-residences-phase-3-by-nakheel/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 1,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          },
+          {
+            "rank": 3,
+            "type_score": 7,
+            "match_level": "same_district_strong_type",
+            "project_name": "Nobu Residences",
+            "project_slug": "nobu-residences",
+            "project_route": "/de/projects/nobu-residences/",
+            "developer_name": "Aldar Properties PJSC",
+            "developer_slug": "aldar-properties-pjsc",
+            "location_score": 5,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Saadiyat Island",
+            "project_district_slug": "saadiyat-island"
+          },
+          {
+            "rank": 4,
+            "type_score": 7,
+            "match_level": "uae_strong_type",
+            "project_name": "Cavalli Tower",
+            "project_slug": "cavalli-tower",
+            "project_route": "/de/projects/cavalli-tower/",
+            "developer_name": "Damac Properties",
+            "developer_slug": "damac-properties",
+            "location_score": 1,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Marina",
+            "project_district_slug": "dubai-marina"
+          },
+          {
+            "rank": 5,
+            "type_score": 7,
+            "match_level": "uae_strong_type",
+            "project_name": "Address Residences Al Marjan Island",
+            "project_slug": "address-residences-al-marjan-island",
+            "project_route": "/de/projects/address-residences-al-marjan-island/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 1,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Al Marjan Island",
+            "project_district_slug": "al-marjan-island"
+          }
+        ],
+        "canonical_url_path": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+        "property_type_slug": "hotel-apartments",
+        "semantic_profile_key": "hotel_apartments",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/de/property-types/serviced-apartments-in-saadiyat-island/",
+          "label": "Apartments mit Service in Saadiyat Island"
+        },
+        {
+          "href": "/de/property-types/studios-in-saadiyat-island/",
+          "label": "Studios in Saadiyat Island"
+        },
+        {
+          "href": "/de/property-types/apartments-in-saadiyat-island/",
+          "label": "Apartments in Saadiyat Island"
+        },
+        {
+          "href": "/de/property-types/branded-residences-in-saadiyat-island/",
+          "label": "Markenresidenzen in Saadiyat Island"
+        }
+      ],
+      "title": "Ähnliche Immobilientypen",
+      "eyebrow": "Verwandte Optionen",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1415,
+            "target_label": "Serviced Apartments in Saadiyat Island",
+            "target_route": "/de/property-types/serviced-apartments-in-saadiyat-island/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "serviced_apartment"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Studios in Saadiyat Island",
+            "target_route": "/de/property-types/studios-in-saadiyat-island/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "studio"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1320,
+            "target_label": "Apartments in Saadiyat Island",
+            "target_route": "/de/property-types/apartments-in-saadiyat-island/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1320,
+            "target_label": "Branded Residences in Saadiyat Island",
+            "target_route": "/de/property-types/branded-residences-in-saadiyat-island/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "branded_residence"
+          }
+        ],
+        "source_route": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Bei Hotelapartments in Saadiyat Island sollten Käufer vor allem Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren vergleichen. Das konkrete Projekt, der Grundriss, laufende Kosten und aktuelle Bedingungen sollten vor einer Entscheidung geprüft werden.",
+          "question": "Was kennzeichnet Hotelapartments in Saadiyat Island?"
+        },
+        {
+          "answer": "Der Immobilientyp kann besonders für folgende Käuferprofile relevant sein: Käufer, die ein gemanagtes Hotelkonzept mit operativer Unterstützung suchen; Investoren oder gelegentliche Nutzer, die Betreiber- und Nutzungsbedingungen prüfen möchten. Zusätzlich sollten Käufer in Saadiyat Island prüfen, ob Nutzung, Budget und laufende Kosten zu ihrem konkreten Fall passen.",
+          "question": "Für wen können Hotelapartments in Saadiyat Island geeignet sein?"
+        },
+        {
+          "answer": "Ein möglicher Vorteil ist: Gemanagte Services können Nutzung und Betreuung vereinfachen. Ein wichtiger Nachteil ist: Betreiberregeln können Eigennutzung und Vermietung einschränken. In Saadiyat Island sollten Käufer zusätzlich Projektqualität, laufende Kosten und Alltagstauglichkeit vergleichen.",
+          "question": "Welche Vor- und Nachteile sollten Käufer bei Hotelapartments in Saadiyat Island beachten?"
+        },
+        {
+          "answer": "Auf dieser Seite sind unter anderem Rixos Hotel & Residences, Rixos Hotel and Residences Phase 3 By Nakheel und Nobu Residences als Projektoptionen verknüpft. Zusätzlich können Käufer Apartments mit Service in Saadiyat Island und Studios in Saadiyat Island vergleichen. Diese Links dienen der Navigation und sind weder ein Ranking noch eine Bestätigung aktueller Einheitenverfügbarkeit.",
+          "question": "Was können Käufer neben Hotelapartments in Saadiyat Island noch vergleichen?"
+        },
+        {
+          "answer": "Preise, Einheitenverfügbarkeit, Gebühren, Zahlungspläne und Übergabedetails können sich ändern. Für Hotelapartments in Saadiyat Island sollten Käufer Betreibervertrag, Serviceumfang, Eigennutzungsregeln, Vermietungsmodell und laufende Gebühren sowie aktuelle kommerzielle Bedingungen anhand offizieller Unterlagen des Bauträgers und aktueller Beraterprüfungen bestätigen. Primadom AI kann den Vergleich strukturieren; aktuelle Konditionen sollten jedoch vor einer Entscheidung verifiziert werden.",
+          "question": "Wie sollten Käufer Preise und Verfügbarkeit für Hotelapartments in Saadiyat Island prüfen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Immobilientyp",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "rental",
+        "semantic_profile_key": "hotel_apartments",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Die Informationen zu Hotelapartments in Saadiyat Island dienen als Vergleichsleitfaden und nicht als aktuelles Angebot. Vor einer Entscheidung sollten Käufer Betreibervertrag, Serviceumfang, Eigennutzungsregeln, Vermietungsmodell und laufende Gebühren, den aktuellen Preis und die Verfügbarkeit, Zahlungsbedingungen, den Übergabe- oder Fertigstellungsstatus sowie die gesamten Eigentumskosten beim Bauträger oder einem autorisierten Berater bestätigen.",
+      "items": [
+        {
+          "label": "Marke und Betriebsmodell",
+          "value": "Marke, Betreiber und Nutzungsbedingungen prüfen"
+        },
+        {
+          "label": "Preis und Verfügbarkeit",
+          "value": "Aktuelle Bedingungen der Einheit bestätigen"
+        },
+        {
+          "label": "Gebühren und Eigentumskosten",
+          "value": "Laufende und wiederkehrende Kosten prüfen"
+        },
+        {
+          "label": "Zahlung und Übergabe",
+          "value": "Status, Termine und Vertragsbedingungen prüfen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Vor der Entscheidung",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Primadom AI kann Hotelapartments in Saadiyat Island anhand folgender Kriterien vergleichen: Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren. Berücksichtigen Sie zusätzlich Budget und Käuferziel und prüfen Sie passende Optionen anschließend mit einem Berater.",
+      "title": "Suchen Sie Hotelapartments in Saadiyat Island?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Passende Optionen finden",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "hotel_apartments",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Anfrageformular zum Immobilientyp",
+      "text": "Teilen Sie Ihre Präferenzen für Hotelapartments in Saadiyat Island mit. Primadom AI strukturiert die Anfrage nach folgenden Punkten: Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren, Budget und aktuelle Projektbedingungen. Anschließend kann ein Berater die Anfrage prüfen.",
+      "title": "Passende Hotelapartments in Saadiyat Island finden",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Ich suche passende Optionen für Hotelapartments auf dieser Seite.",
+      "eyebrow": "Mit AI fortfahren",
+      "success": "Gesendet",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Schließen",
+      "source_meta": {
+        "source_route": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+        "source_page_id": "page_property_district_hotel_apartments_saadiyat_island_en",
+        "shortlist_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "hotel_apartments",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI unterstützt Käufer dabei, Hotelapartments in Saadiyat Island anhand von Betreiberbedingungen, Nutzungsregeln, Vermietungsmodell und laufende Gebühren sowie der praktischen Eignung zu vergleichen, bevor sie mit einem Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Hotelapartments in Saadiyat Island – mit Projekten und Käuferszenarien verknüpft",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilienwissen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/de/property-types/hotel-apartments-in-saadiyat-island/",
+        "source_page_id": "page_property_district_hotel_apartments_saadiyat_island_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "rental",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "hotel_apartments",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

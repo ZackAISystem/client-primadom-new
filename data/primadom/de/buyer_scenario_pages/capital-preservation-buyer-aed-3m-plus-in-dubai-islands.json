@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_capital_preservation_buyer_dubai_islands_de",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "de",
+  "url_path": "/de/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-dubai-islands/",
+  "canonical_url_path": "/de/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-dubai-islands/",
+  "canonical_group_key": "scenario_district:capital_preservation_buyer:dubai-islands",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-islands",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Antwort",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Ablauf",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navigation des Käuferszenarios",
+      "cta_label": "Szenario prüfen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/de/buyer-scenarios/",
+          "label": "Käuferszenarien"
+        },
+        {
+          "key": "district",
+          "href": "/de/areas/dubai-islands/",
+          "label": "Dubai Islands"
+        },
+        {
+          "key": "current",
+          "href": "/de/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-dubai-islands/",
+          "label": "Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED in Dubai Islands",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Kapitalerhalt",
+        "Dubai Islands",
+        "Apartments · Villen",
+        "Ab 3 Mio. AED",
+        "Risiko · Kosten · Wiederverkauf"
+      ],
+      "image": {
+        "alt": "Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED in Dubai Islands – Immobiliensuche",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED in Dubai Islands",
+      "subtitle": "Für dieses Käuferszenario in Dubai Islands stehen Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken im Mittelpunkt. Prüfen Sie die konkrete Immobilie und die aktuellen Bedingungen, bevor Sie die Auswahl eingrenzen.",
+      "facts_aria": "Wichtige Punkte des Käuferszenarios",
+      "section_id": "overview",
+      "visual_aria": "Visualisierung zur Immobiliensuche: Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED in Dubai Islands",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken in Dubai Islands vergleichen",
+        "Aktuelle Preise, Verfügbarkeit und Bedingungen prüfen",
+        "Optionen passend zum Ziel „Kapitalerhalt“ strukturieren"
+      ],
+      "ai_aria": "Primadom AI zu „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED in Dubai Islands“ fragen",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Optionen für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands vergleichen",
+      "placeholder": "Optionen für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Kapitalerhalt",
+        "Dubai Islands",
+        "Ab 3 Mio. AED",
+        "Risiko · Kosten · Wiederverkauf",
+        "AI fragen"
+      ],
+      "title": "Was am wichtigsten ist",
+      "eyebrow": "Hinweise für Käufer",
+      "body_html": "<strong>Für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands sollten Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken gemeinsam geprüft werden.</strong> Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "body_text": "Für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands sollten Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken gemeinsam geprüft werden. Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden. Treffen Sie die Entscheidung anhand der konkreten Immobilie und aktuell bestätigter Angaben.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Szenario",
+          "value": "Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED"
+        },
+        {
+          "label": "Hauptziel",
+          "value": "Kapitalerhalt"
+        },
+        {
+          "label": "Lage",
+          "value": "Dubai Islands"
+        },
+        {
+          "label": "Immobilientyp",
+          "value": "Apartments · Villen"
+        },
+        {
+          "label": "Budgetrahmen",
+          "value": "Ab 3 Mio. AED"
+        },
+        {
+          "label": "Entscheidungsschwerpunkt",
+          "value": "Risiko · Kosten · Wiederverkauf"
+        },
+        {
+          "label": "Phase des Käufers",
+          "value": "Anlageprüfung"
+        },
+        {
+          "label": "Nächster Schritt",
+          "value": "Abwärtsrisiken und Wiederverkaufsflexibilität prüfen"
+        }
+      ],
+      "title": "Szenarioparameter",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Für wen diese Seite gedacht ist",
+        "eyebrow": "Eignung für Käufer",
+        "bad_items": [
+          "Käufer, die ihre Entscheidung nur auf einen einzelnen Preis-, Lebensstil- oder Renditefaktor stützen",
+          "Käufer, die aktuelle Objekt-, Projekt- oder Kostenangaben nicht separat prüfen möchten",
+          "Käufer, deren Budget keinen ausreichenden Spielraum für Transaktionskosten und eine Liquiditätsreserve lässt"
+        ],
+        "bad_title": "Möglicherweise nicht geeignet für",
+        "good_items": [
+          "Käufer mit dem Hauptziel „Kapitalerhalt“ in Dubai Islands",
+          "Käufer, die Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken strukturiert vergleichen möchten",
+          "Käufer, die aktuelle Preise, Verfügbarkeit und objektspezifische Angaben vor der Entscheidung bestätigen"
+        ],
+        "good_title": "Gut geeignet für"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "In Dubai Islands sollte das Szenario „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ anhand von Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken bewertet werden. Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden.",
+        "tags": [
+          "Objektqualität",
+          "Abwärtsrisiko",
+          "Laufende Kosten",
+          "Nachfrage",
+          "Wiederverkauf"
+        ],
+        "title": "Was zu beachten ist",
+        "eyebrow": "Entscheidungslogik"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Prüfen Sie in Dubai Islands, wie gut Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken zur konkreten Immobilie und zum vorgesehenen Nutzungszweck passen.",
+            "title": "Dubai Islands"
+          },
+          {
+            "text": "Vergleichen Sie alternative Gebiete mit denselben Kriterien: Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken.",
+            "title": "Alternativen vergleichen"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Wiederverkaufsflexibilität“ anhand der konkreten Immobilie und von Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken.",
+            "title": "Wiederverkaufsflexibilität"
+          },
+          {
+            "text": "Bewerten Sie den Aspekt „Vor der engeren Auswahl“ anhand der konkreten Immobilie und von Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken.",
+            "title": "Vor der engeren Auswahl"
+          }
+        ],
+        "title": "Kontext des Stadtteils",
+        "eyebrow": "Relevante Stadtteile"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Apartments"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Villen"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Bezugsfertige Immobilien"
+          },
+          {
+            "text": "Prüfen Sie diese Option im Hinblick auf Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken. Entscheidend ist die konkrete Immobilie und nicht allein die Bezeichnung der Wohnform.",
+            "title": "Immobilien vor Fertigstellung"
+          }
+        ],
+        "title": "Zu vergleichende Immobilientypen",
+        "eyebrow": "Eignung der Immobilie"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Lassen Sie neben dem Kaufpreis genügend Reserve für Transaktions- und laufende Kosten und vermeiden Sie ein Budget, das nur bei einem schnellen Wiederverkauf oder steigenden Preisen funktioniert.",
+          "title": "Budget vollständig betrachten",
+          "eyebrow": "Budgetlogik"
+        },
+        {
+          "text": "Prüfen Sie in Dubai Islands, wie gut Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken zum tatsächlichen Nutzungszweck und zum geplanten Zeitpunkt passen.",
+          "title": "Praktische Eignung prüfen",
+          "eyebrow": "Prozesshinweise"
+        },
+        {
+          "text": "Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden.",
+          "title": "Risiken getrennt prüfen",
+          "eyebrow": "Risiken"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann Optionen in Dubai Islands anhand von Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken in einem einheitlichen Vergleichsrahmen gegenüberstellen.",
+          "title": "Vergleich mit Primadom AI strukturieren",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Entscheidungshinweise zum Käuferszenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden.",
+        "tags": [
+          "Objektqualität",
+          "Abwärtsrisiko",
+          "Laufende Kosten",
+          "Nachfrage",
+          "Wiederverkauf"
+        ],
+        "title": "Risiken",
+        "eyebrow": "Vor dem Kauf prüfen"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Definieren Sie zuerst das Hauptziel „Kapitalerhalt“ und priorisieren Sie Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken, bevor Sie einzelne Immobilien vergleichen.",
+            "title": "Ziel und Kriterien festlegen"
+          },
+          {
+            "text": "Lassen Sie neben dem Kaufpreis genügend Reserve für Transaktions- und laufende Kosten und vermeiden Sie ein Budget, das nur bei einem schnellen Wiederverkauf oder steigenden Preisen funktioniert.",
+            "title": "Gesamtbudget und Zahlungsweg klären"
+          },
+          {
+            "text": "Vergleichen Sie die konkrete Immobilie in Dubai Islands mit Alternativen und prüfen Sie dabei Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken.",
+            "title": "Immobilie und Lage prüfen"
+          },
+          {
+            "text": "Bestätigen Sie aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen unmittelbar vor einer Reservierung oder verbindlichen Entscheidung.",
+            "title": "Aktuelle Angaben vor der Entscheidung bestätigen"
+          }
+        ],
+        "title": "Dokumente und Prozesshinweise",
+        "eyebrow": "Praktische Aspekte"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/villa-del-gavi/",
+            "meta": "Mr Eight Development · Dubai Islands",
+            "label": "Villa del Gavi"
+          },
+          {
+            "href": "/de/projects/beach-isle/",
+            "meta": "Emaar Properties · Dubai Islands",
+            "label": "Beach Isle"
+          },
+          {
+            "href": "/de/projects/rixos-hotel-residences/",
+            "meta": "Nakheel · Dubai Islands",
+            "label": "Rixos Hotel & Residences"
+          },
+          {
+            "href": "/de/projects/ayamore-residence/",
+            "meta": "Ayat Development · Dubai Islands",
+            "label": "Ayamore Residence"
+          },
+          {
+            "href": "/de/projects/treppan-serenique-residences/",
+            "meta": "Fakhruddin Properties · Dubai Islands",
+            "label": "Treppan Serenique Residences"
+          }
+        ],
+        "title": "Zu vergleichende Projekte",
+        "eyebrow": "Einstieg in die Auswahl"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Lassen Sie neben dem Kaufpreis genügend Reserve für Transaktions- und laufende Kosten und vermeiden Sie ein Budget, das nur bei einem schnellen Wiederverkauf oder steigenden Preisen funktioniert.",
+        "tags": [
+          "Kaufpreis",
+          "Transaktionskosten",
+          "Laufende Kosten",
+          "Liquiditätsreserve",
+          "Aktuelle Bedingungen"
+        ],
+        "title": "Budgetlogik",
+        "eyebrow": "Budget im Szenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/de/buyer-scenarios/resale-liquidity-buyer-in-dubai-islands/",
+          "label": "Käufer mit Fokus auf Wiederverkaufsliquidität in Dubai Islands"
+        },
+        {
+          "href": "/de/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-dubai-islands/",
+          "label": "Barkäufer im höchsten Luxussegment ab 10 Mio. AED in Dubai Islands"
+        },
+        {
+          "href": "/de/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-dubai-islands/",
+          "label": "Käufer einer Markenresidenz ab 3 Mio. AED in Dubai Islands"
+        },
+        {
+          "href": "/de/buyer-scenarios/golden-visa-property-buyer-in-dubai-islands/",
+          "label": "Immobilienkäufer mit Golden-Visa-Ziel in Dubai Islands"
+        }
+      ],
+      "title": "Verwandte Szenarien",
+      "eyebrow": "Weiter erkunden",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Vergleichen Sie Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken. Die Entscheidung sollte auf der konkreten Immobilie und aktuellen Bedingungen beruhen.",
+          "question": "Was ist bei „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands am wichtigsten?"
+        },
+        {
+          "answer": "Es passt vor allem zu Käufern mit dem Ziel „Kapitalerhalt“, die bereit sind, Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken strukturiert miteinander zu vergleichen.",
+          "question": "Für wen passt dieses Käuferszenario in Dubai Islands?"
+        },
+        {
+          "answer": "Prüfen Sie Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken an der konkreten Immobilie. Bestätigen Sie außerdem aktuelle Preise, Verfügbarkeit, Status, Gebühren, Zahlungsbedingungen und objektspezifische Unterlagen vor der Entscheidung.",
+          "question": "Was sollte bei diesem Käuferszenario in Dubai Islands vor der Auswahl konkret geprüft werden?"
+        },
+        {
+          "answer": "Lassen Sie neben dem Kaufpreis genügend Reserve für Transaktions- und laufende Kosten und vermeiden Sie ein Budget, das nur bei einem schnellen Wiederverkauf oder steigenden Preisen funktioniert.",
+          "question": "Wie sollte das Budget für dieses Käuferszenario in Dubai Islands geplant werden?"
+        },
+        {
+          "answer": "Kapitalerhalt kann nicht garantiert werden; Preisposition, Objektqualität, laufende Kosten und spätere Marktliquidität müssen als Risikofaktoren geprüft werden.",
+          "question": "Welche wesentlichen Risiken sollten Käufer bei diesem Szenario in Dubai Islands berücksichtigen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zum Käuferszenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands sollten aktuelle Preise, Verfügbarkeit, Projekt- oder Objektstatus, Gebühren, Zahlungsbedingungen und alle Angaben zu Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken vor der Entscheidung anhand der jeweils aktuellen und objektspezifischen Unterlagen überprüft werden.",
+      "items": [
+        {
+          "label": "Aktuelle Preise",
+          "value": "Vor der Entscheidung erneut prüfen"
+        },
+        {
+          "label": "Verfügbarkeit",
+          "value": "Für die konkrete Immobilie bestätigen"
+        },
+        {
+          "label": "Eignung der Immobilie",
+          "value": "Aktuelle Angaben und Unterlagen prüfen"
+        },
+        {
+          "label": "Gebühren / Bedingungen",
+          "value": "Objektspezifisch bestätigen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Was zu prüfen ist",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Vergleichen Sie Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken, bevor Sie die Auswahl eingrenzen. Primadom AI kann den Vergleich strukturieren und die Punkte für eine weitere Prüfung vorbereiten.",
+      "title": "„Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands prüfen?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Optionen prüfen",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formular zur Prüfung des Käuferszenarios",
+      "text": "Teilen Sie Budget, Prioritäten, Nutzungsziel und Zeitplan mit. So kann der Vergleich für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands vor einem Gespräch strukturiert vorbereitet werden.",
+      "title": "Käuferszenario in Dubai Islands prüfen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Mein Käuferszenario „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands prüfen",
+      "eyebrow": "Szenarioanalyse mit AI fortsetzen",
+      "success": "Gesendet",
+      "close_label": "Schließen",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Primadom AI hilft, Objektqualität, laufende Kosten, Nachfragetiefe, Wiederverkaufsflexibilität und Abwärtsrisiken für „Käufer mit Fokus auf Kapitalerhalt ab 3 Mio. AED“ in Dubai Islands strukturiert zu vergleichen, bevor einzelne Immobilien weiter geprüft werden.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Entscheidung in Dubai Islands strukturiert prüfen",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social-Media-Links von Primadom AI",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "Propiedades por desde AED 25M en Al Sufouh"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-25m-plus-in-al-sufouh"
+page_id: "page_budget_district_aed_25m_plus_al_sufouh_es"
+url: "/es/budgets/aed-25m-plus-in-al-sufouh/"
+build:
+  render: always
+  list: never
+---

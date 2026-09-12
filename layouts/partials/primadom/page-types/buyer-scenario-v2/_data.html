@@ -13,6 +13,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $buyerScenarioData = index $zhData "buyer_scenario_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $buyerScenarioData = index $esData "buyer_scenario_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $buyerScenarioData = index $frData "buyer_scenario_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $buyerScenarioData = index $deData "buyer_scenario_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $buyerScenarioData = index $arData "buyer_scenario_pages" -}}
+{{- end -}}
 {{- $page := index $buyerScenarioData $slug -}}
 
 {{- if not $page -}}

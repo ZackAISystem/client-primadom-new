@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_school_led_relocation_buyer_mirdif_es",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "es",
+  "url_path": "/es/buyer-scenarios/school-led-relocation-buyer-in-mirdif/",
+  "canonical_url_path": "/es/buyer-scenarios/school-led-relocation-buyer-in-mirdif/",
+  "canonical_group_key": "scenario_district:school_led_relocation_buyer:mirdif",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "mirdif",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Respuesta",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Zonas",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "Proceso",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "Navegación del escenario del comprador",
+      "cta_label": "Revisar escenario",
+      "brand_href": "/es/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/es/buyer-scenarios/",
+          "label": "Escenarios de comprador"
+        },
+        {
+          "key": "district",
+          "href": "/es/areas/mirdif/",
+          "label": "Mirdif"
+        },
+        {
+          "key": "current",
+          "href": "/es/buyer-scenarios/school-led-relocation-buyer-in-mirdif/",
+          "label": "Comprador que se traslada por colegios en Mirdif",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Traslado por colegios",
+        "Mirdif",
+        "Apartamentos · Casas adosadas · Villas",
+        "AED 2M+",
+        "Colegios · desplazamiento · ubicación"
+      ],
+      "image": {
+        "alt": "Comprador que se traslada por colegios en Mirdif — búsqueda de propiedades",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "Comprador que se traslada por colegios en Mirdif",
+      "subtitle": "Empieza por el trayecto real a los colegios y al trabajo; después compara tamaño de vivienda, calendario de traslado, presupuesto y rutina diaria. En Mirdif, verifica los datos de la propiedad concreta y las condiciones actuales antes de comprometerte.",
+      "facts_aria": "Aspectos destacados del escenario del comprador",
+      "section_id": "overview",
+      "visual_aria": "Visual de búsqueda de propiedades: Comprador que se traslada por colegios en Mirdif",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "Comparar opciones para «Comprador que se traslada por colegios» en Mirdif",
+        "Revisar trayecto al colegio, desplazamiento y tamaño de la vivienda",
+        "¿Qué debo verificar antes de decidir?"
+      ],
+      "ai_aria": "Preguntar a Primadom AI sobre Comprador que se traslada por colegios en Mirdif",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "Comparar opciones para «Comprador que se traslada por colegios» en Mirdif",
+      "placeholder": "Comparar opciones para «Comprador que se traslada por colegios» en Mirdif",
+      "voice_label": "Búsqueda por voz",
+      "block_status": "final",
+      "submit_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "Traslado por colegios",
+        "Mirdif",
+        "Colegios · desplazamiento · plazos",
+        "AED 2M+",
+        "Preguntar a AI"
+      ],
+      "title": "Lo que más importa",
+      "eyebrow": "Orientación para el comprador",
+      "body_html": "<strong>Comprador que se traslada por colegios en Mirdif</strong>: Empieza por el trayecto real a los colegios y al trabajo; después compara tamaño de vivienda, calendario de traslado, presupuesto y rutina diaria. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir.",
+      "body_text": "En el escenario «Comprador que se traslada por colegios» en Mirdif, empieza por el trayecto real a los colegios y al trabajo; después compara tamaño de vivienda, calendario de traslado, presupuesto y rutina diaria. Compara las opciones sobre la misma base y confirma costes, plazos y condiciones para la propiedad concreta antes de decidir.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "Escenario",
+          "value": "Comprador que se traslada por colegios"
+        },
+        {
+          "label": "Objetivo principal",
+          "value": "Traslado por colegios"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Mirdif"
+        },
+        {
+          "label": "Tipo de propiedad",
+          "value": "Apartamentos · Casas adosadas · Villas"
+        },
+        {
+          "label": "Rango de presupuesto",
+          "value": "AED 2M+"
+        },
+        {
+          "label": "Criterio de decisión",
+          "value": "Colegios · desplazamiento · plazos"
+        },
+        {
+          "label": "Etapa del comprador",
+          "value": "Planificación del traslado"
+        },
+        {
+          "label": "Siguiente paso",
+          "value": "Verificar el acceso a colegios"
+        }
+      ],
+      "title": "Parámetros del escenario",
+      "eyebrow": "Datos clave",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "Para quién es esta página",
+        "eyebrow": "Adecuación al comprador",
+        "bad_items": [
+          "Compradores que ya han decidido sin necesitar comparar alternativas.",
+          "Compradores que eligen solo por precio o por un único indicador comercial.",
+          "Compradores que no quieren comprobar trayecto al colegio, trayecto al trabajo y tamaño de la vivienda."
+        ],
+        "bad_title": "Puede no ser adecuado",
+        "good_items": [
+          "Compradores que encajan con el escenario «Comprador que se traslada por colegios» en Mirdif y quieren comparar alternativas con criterios coherentes.",
+          "Compradores que quieren contrastar trayecto al colegio, desplazamiento y tamaño de la vivienda antes de elegir una propiedad.",
+          "Compradores que prefieren revisar costes, condiciones y adecuación de la propiedad concreta antes de decidir."
+        ],
+        "good_title": "Adecuado para"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "En Mirdif, aplica los mismos criterios a todas las opciones. Empieza por el trayecto real a los colegios y al trabajo; después compara tamaño de vivienda, calendario de traslado, presupuesto y rutina diaria. Comprueba por separado los costes actuales, el estado de la propiedad y las condiciones de la operación.",
+        "tags": [
+          "Trayecto al colegio",
+          "Desplazamiento",
+          "Tamaño de la vivienda",
+          "Calendario del traslado",
+          "Presupuesto de vivienda"
+        ],
+        "title": "Qué tener en cuenta",
+        "eyebrow": "Lógica de decisión"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "En Mirdif, evalúa la zona por cómo afecta a trayecto al colegio, desplazamiento, tamaño de la vivienda y calendario del traslado y a la adecuación de la propiedad al uso previsto.",
+            "title": "Mirdif"
+          },
+          {
+            "text": "Compara otras zonas cuando ofrezcan un mejor equilibrio entre trayecto al colegio, desplazamiento y tamaño de la vivienda y el coste total.",
+            "title": "Comparar alternativas"
+          },
+          {
+            "text": "No compares la ubicación de forma aislada: revisa cómo cambian trayecto al colegio, calendario del traslado y la rutina diaria para cada opción.",
+            "title": "Contexto práctico"
+          },
+          {
+            "text": "Mantén vinculadas la decisión de zona y la decisión de propiedad; verifica acceso, costes, plazos y uso real antes de descartar alternativas.",
+            "title": "Antes de reducir la selección"
+          }
+        ],
+        "title": "Contexto de la zona",
+        "eyebrow": "Zonas relevantes"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "Suelen simplificar el mantenimiento diario; compara distribución útil, costes del edificio, servicios y adecuación al uso previsto.",
+            "title": "Apartamentos"
+          },
+          {
+            "text": "Aportan más espacio y, a menudo, zona exterior privada; compara mantenimiento, aparcamiento, costes de comunidad y acceso diario.",
+            "title": "Casas adosadas"
+          },
+          {
+            "text": "Ofrecen más privacidad y espacio, pero requieren revisar parcela, mantenimiento, suministros, desplazamientos y coste total.",
+            "title": "Villas"
+          },
+          {
+            "text": "Compara estado actual y certeza de uso frente a calendario, pagos y condiciones de una opción sobre plano.",
+            "title": "Terminada vs sobre plano"
+          }
+        ],
+        "title": "Tipos de propiedad para comparar",
+        "eyebrow": "Adecuación de la propiedad"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Empieza por trayecto al colegio, desplazamiento y tamaño de la vivienda. Después contrasta esos criterios con el coste total y la practicidad de la propiedad concreta.",
+          "title": "Fija primero: trayecto al colegio",
+          "eyebrow": "Lógica del presupuesto"
+        },
+        {
+          "text": "En Mirdif, aplica la misma lista de criterios a cada opción: trayecto al colegio, desplazamiento, tamaño de la vivienda y calendario del traslado.",
+          "title": "Compara todas las opciones con la misma base",
+          "eyebrow": "Notas del proceso"
+        },
+        {
+          "text": "Revisa especialmente trayecto al colegio, trayecto al trabajo, tamaño de la vivienda y calendario del traslado. Una opción atractiva en un solo punto puede fallar cuando se evalúan juntos los costes y el uso real.",
+          "title": "Haz visible el riesgo principal",
+          "eyebrow": "Riesgos"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede comparar opciones en Mirdif usando la misma base: trayecto al colegio, desplazamiento, tamaño de la vivienda, calendario del traslado y presupuesto de vivienda.",
+          "title": "Compara con una sola lista de prioridades",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "Notas para la decisión del escenario",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "En Mirdif, revisa especialmente trayecto al colegio, trayecto al trabajo, tamaño de la vivienda, calendario del traslado y rutina diaria. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales.",
+        "tags": [
+          "Trayecto al colegio",
+          "Trayecto al trabajo",
+          "Tamaño de la vivienda",
+          "Calendario del traslado",
+          "Rutina diaria"
+        ],
+        "title": "Riesgos",
+        "eyebrow": "Qué comprobar antes de comprar"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "Define qué significa trayecto al colegio para tu caso antes de comparar propiedades.",
+            "title": "Define primero: trayecto al colegio"
+          },
+          {
+            "text": "Contrasta desplazamiento entre opciones equivalentes y no lo evalúes de forma aislada.",
+            "title": "Compara: desplazamiento"
+          },
+          {
+            "text": "En Mirdif, comprueba tamaño de la vivienda para la propiedad concreta y con datos actuales.",
+            "title": "Verifica: tamaño de la vivienda"
+          },
+          {
+            "text": "Antes de comprometerte, confirma calendario del traslado junto con plazos, pagos y estado actual de la propiedad.",
+            "title": "Confirma: calendario del traslado"
+          }
+        ],
+        "title": "Documentos y notas del proceso",
+        "eyebrow": "Aspectos prácticos"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/es/projects/asayel-avenue/",
+            "meta": "Dubai Investment Properties · Mirdif",
+            "label": "Asayel Avenue"
+          },
+          {
+            "href": "/es/projects/liv-waterside/",
+            "meta": "L I V PROPERTY SERVICES · Dubai Marina",
+            "label": "LIV Waterside"
+          },
+          {
+            "href": "/es/projects/nad-al-sheba-gardens-phase-7/",
+            "meta": "Meraas Holding · Nad Al Sheba",
+            "label": "Nad Al Sheba Gardens Phase 7"
+          },
+          {
+            "href": "/es/projects/waldorf-astoria-residences-business-bay/",
+            "meta": "Nabni Real Estate Development · Business Bay",
+            "label": "Waldorf Astoria Residences Business Bay"
+          },
+          {
+            "href": "/es/projects/expo-city-residences/",
+            "meta": "Expo City Dubai · Expo City",
+            "label": "Expo City Residences"
+          }
+        ],
+        "title": "Proyectos para comparar",
+        "eyebrow": "Opciones para la selección"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "Usa AED 2M+ como marco del escenario y mantén en el mismo cálculo precio de compra, traslado, mobiliario, costes escolares y reserva de efectivo. No conviertas el límite de presupuesto en una suposición sobre precio o disponibilidad; confirma los importes y condiciones actuales y deja margen para cambios.",
+        "tags": [
+          "Precio de compra",
+          "Traslado",
+          "Mobiliario",
+          "Costes escolares",
+          "Reserva de efectivo"
+        ],
+        "title": "Lógica del presupuesto",
+        "eyebrow": "Presupuesto del escenario"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/es/buyer-scenarios/family-relocation-buyer-in-mirdif/",
+          "label": "Comprador por traslado familiar en Mirdif"
+        },
+        {
+          "href": "/es/buyer-scenarios/family-villas-near-schools-in-mirdif/",
+          "label": "Villas familiares cerca de colegios en Mirdif"
+        },
+        {
+          "href": "/es/buyer-scenarios/family-apartment-buyer-under-aed-3m/",
+          "label": "Comprador de apartamento familiar por menos de AED 3M"
+        },
+        {
+          "href": "/es/buyer-scenarios/ready-to-move-buyer/",
+          "label": "Comprador de propiedad lista para entrar a vivir"
+        }
+      ],
+      "title": "Escenarios relacionados",
+      "eyebrow": "Seguir explorando",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Empieza por el trayecto real a los colegios y al trabajo; después compara tamaño de vivienda, calendario de traslado, presupuesto y rutina diaria. Compara todos los criterios juntos y verifica la propiedad concreta antes de decidir.",
+          "question": "¿Cómo deben influir las necesidades escolares en una búsqueda familiar de propiedad en Mirdif?"
+        },
+        {
+          "answer": "Es útil para compradores que encajan con el escenario «Comprador que se traslada por colegios» y quieren comparar trayecto al colegio, desplazamiento y tamaño de la vivienda con una metodología coherente.",
+          "question": "¿Quién debería situar el acceso a colegios en el centro de una búsqueda de traslado en Mirdif?"
+        },
+        {
+          "answer": "Comprueba trayecto al colegio, trayecto al trabajo, calendario del traslado y costes de vivienda y revisa los datos actuales, los documentos y las condiciones de la operación para la propiedad concreta.",
+          "question": "¿Qué debe verificar una familia sobre los desplazamientos diarios antes de elegir vivienda en Mirdif?"
+        },
+        {
+          "answer": "Usa AED 2M+ como marco y suma precio de compra, traslado, mobiliario, costes escolares y reserva de efectivo. Mantén una reserva para costes o cambios no reflejados en el precio anunciado.",
+          "question": "¿Cómo debe presupuestar una familia una compra vinculada a un traslado por colegios en Mirdif?"
+        },
+        {
+          "answer": "En Mirdif, revisa especialmente trayecto al colegio, trayecto al trabajo, tamaño de la vivienda, calendario del traslado y rutina diaria. No tomes la decisión con un solo indicador: comprueba cada punto para la propiedad concreta y con las condiciones actuales.",
+          "question": "¿Cuáles son los principales riesgos cuando el acceso a colegios guía la búsqueda de propiedad en Mirdif?"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas del escenario",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "Antes de decidir en Mirdif, confirma trayecto al colegio, trayecto al trabajo, calendario del traslado y costes de vivienda. Estos elementos pueden cambiar la comparación y deben revisarse para la propiedad concreta con información vigente.",
+      "items": [
+        {
+          "label": "Trayecto al colegio",
+          "value": "Comprobar el trayecto real"
+        },
+        {
+          "label": "Trayecto al trabajo",
+          "value": "Probar la ruta diaria"
+        },
+        {
+          "label": "Calendario del traslado",
+          "value": "Alinear con el plan familiar"
+        },
+        {
+          "label": "Costes de vivienda",
+          "value": "Mantener un margen práctico"
+        }
+      ],
+      "title": "Fuentes y verificación",
+      "eyebrow": "Qué verificar",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "Compara «Comprador que se traslada por colegios» en Mirdif con trayecto al colegio, desplazamiento, tamaño de la vivienda y calendario del traslado. Primadom AI puede ayudarte a organizar los compromisos antes de revisar propiedades concretas.",
+      "title": "¿Estás planificando una mudanza en torno al acceso a colegios?",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "Preguntar a Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Revisar opciones",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta del escenario del comprador",
+      "text": "Comparte tus prioridades sobre trayecto al colegio, desplazamiento, tamaño de la vivienda y calendario del traslado para este escenario en Mirdif. Así el asesor tendrá un contexto útil antes de la conversación.",
+      "title": "Revisa tu traslado en función del acceso a colegios",
+      "fields": {
+        "name": "Tu nombre",
+        "email": "Email",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud preparada"
+      },
+      "submit": "Enviar",
+      "comment": "Quiero comparar opciones para el escenario «Comprador que se traslada por colegios» en Mirdif.",
+      "eyebrow": "Continuar el análisis del escenario con AI",
+      "success": "Enviado",
+      "close_label": "Cerrar",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nombre",
+        "email": "Dirección de email",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "Compara opciones en Mirdif usando trayecto al colegio, desplazamiento, tamaño de la vivienda y calendario del traslado y verifica los costes y condiciones actuales antes de decidir.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Empieza la mudanza por el colegio y los desplazamientos",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Emiratos Árabes Unidos",
+      "subtitle": "Inteligencia inmobiliaria",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Enlaces sociales",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "Reservar una llamada"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "Preguntar a AI"
+      }
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_chevalia_estate_vs_damac_riverside_views_capri_2_fr",
+  "page_type_id": "project_comparison_page",
+  "language_code": "fr",
+  "url_path": "/fr/compare-projects/chevalia-estate-vs-damac-riverside-views-capri-2/",
+  "canonical_url_path": "/fr/compare-projects/chevalia-estate-vs-damac-riverside-views-capri-2/",
+  "canonical_group_key": "project_comparison:chevalia-estate:vs:damac-riverside-views-capri-2",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "chevalia-estate",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Comparer avec mon cas",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Aperçu",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projets"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Comparer"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Demander à AI"
+        }
+      ],
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation de comparaison de projets",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/fr/compare-projects/",
+          "label": "Comparaisons de projets"
+        },
+        {
+          "key": "comparison",
+          "href": "/fr/compare-projects/chevalia-estate-vs-damac-riverside-views-capri-2/",
+          "label": "Chevalia Estate vs Damac Riverside Views Capri 2",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Projet A : Chevalia Estate",
+        "Projet B : Damac Riverside Views Capri 2",
+        "Comparaison à Dubai Investment Park",
+        "AED 9M vs AED 1.2M",
+        "Prix d’entrée et livraison"
+      ],
+      "title": "Chevalia Estate vs Damac Riverside Views Capri 2",
+      "subtitle": "À Dubai Investment Park, comparez Chevalia Estate et Damac Riverside Views Capri 2 selon les types de biens, la plage de chambres, le prix d’entrée et le calendrier de livraison.",
+      "project_a": {
+        "name": "Chevalia Estate",
+        "slug": "chevalia-estate",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Damac Riverside Views Capri 2",
+        "slug": "damac-riverside-views-capri-2",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Contexte clé pour Chevalia Estate et Damac Riverside Views Capri 2",
+      "section_id": "overview",
+      "visual_aria": "Bannière de comparaison pour Chevalia Estate et Damac Riverside Views Capri 2",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Posez une question sur le prix, la typologie des unités, la livraison ou l’adéquation à l’acheteur.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Chevalia Estate ou Damac Riverside Views Capri 2 — lequel vous convient ?",
+        "Comparer le prix, les unités et la livraison",
+        "Que dois-je vérifier avant de choisir ?"
+      ],
+      "title": "Comparer Chevalia Estate et Damac Riverside Views Capri 2",
+      "ai_aria": "Demander à Primadom AI de comparer Chevalia Estate et Damac Riverside Views Capri 2",
+      "eyebrow": "Demander à AI",
+      "prompts": [
+        "Comparer Chevalia Estate et Damac Riverside Views Capri 2 selon mon objectif d’achat. Examiner le contexte de prix disponible, les types de biens, la plage de chambres et la livraison, et signaler clairement tout élément nécessitant une vérification en temps réel.",
+        "Comparer Chevalia Estate et Damac Riverside Views Capri 2 selon le contexte du prix de départ, les types d’unités, la plage de chambres et la livraison prévue. Identifier clairement les informations manquantes ou non vérifiées.",
+        "Que doit vérifier un acheteur avant de choisir entre Chevalia Estate et Damac Riverside Views Capri 2 ? Couvrir les prix actuels, la disponibilité, les modalités de paiement, le statut de livraison et l’adéquation à l’objectif de l’acheteur."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Demander à AI",
+      "input_aria": "Question AI sur la comparaison de projets",
+      "section_id": "compare-ai-search",
+      "voice_text": "Poser une question sur cette comparaison de projets",
+      "placeholder": "Demander à AI de comparer ces deux projets",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "button_label": "Demander",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "ai_voice_text": "Comparer Chevalia Estate et Damac Riverside Views Capri 2 selon mon objectif d’achat",
+      "ai_placeholder": "Demander à AI de comparer ces deux projets",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Écoute…",
+      "form_aria_label": "Demander à Primadom AI de comparer Chevalia Estate et Damac Riverside Views Capri 2",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Même quartier",
+        "Développeurs différents",
+        "AED 9M vs AED 1.2M",
+        "Même année de livraison"
+      ],
+      "title": "Recommandation rapide",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Chevalia Estate</strong> peut convenir aux acheteurs privilégiant une plage de chambres plus large, tandis que <strong>Damac Riverside Views Capri 2</strong> peut davantage convenir à ceux qui recherchent le prix d’entrée enregistré le plus bas. <strong>Chevalia Estate</strong> propose des villas, 3 à 6 chambres, à partir de AED 9M, livraison 2029, tandis que <strong>Damac Riverside Views Capri 2</strong> propose des appartements, 1 à 2 chambres, à partir de AED 1.2M, livraison 2029.",
+      "body_text": "Chevalia Estate peut convenir aux acheteurs privilégiant une plage de chambres plus large, tandis que Damac Riverside Views Capri 2 peut davantage convenir à ceux qui recherchent le prix d’entrée enregistré le plus bas. Chevalia Estate propose des villas, 3 à 6 chambres, à partir de AED 9M, livraison 2029, tandis que Damac Riverside Views Capri 2 propose des appartements, 1 à 2 chambres, à partir de AED 1.2M, livraison 2029.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Projet A",
+          "value": "Chevalia Estate"
+        },
+        {
+          "label": "Projet B",
+          "value": "Damac Riverside Views Capri 2"
+        },
+        {
+          "label": "Contexte de la zone",
+          "value": "Les deux projets à Dubai Investment Park"
+        },
+        {
+          "label": "Contexte des développeurs",
+          "value": "Emaar Properties vs Damac Properties"
+        },
+        {
+          "label": "Prix de départ",
+          "value": "AED 9M vs AED 1.2M"
+        },
+        {
+          "label": "Types de biens",
+          "value": "Villa vs Appartement"
+        },
+        {
+          "label": "Chambres",
+          "value": "3–6 chambres vs 1–2 chambres"
+        },
+        {
+          "label": "Livraison",
+          "value": "Livraison enregistrée en 2029 pour les deux"
+        }
+      ],
+      "title": "Détails de la comparaison",
+      "eyebrow": "Données clés",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Chevalia Estate",
+          "slug": "chevalia-estate",
+          "text": "Chevalia Estate est un projet axé sur un environnement résidentiel verdoyant situé à Dubai Investment Park et développé par Emaar Properties. Les données enregistrées indiquent que la typologie enregistrée comprend des villas; la plage enregistrée va de 3 à 6 chambres; le prix de départ enregistré est de AED 9M; la livraison enregistrée est prévue en 2029. Le profil actuel d’adéquation s’adresse surtout aux acheteurs envisageant d’utiliser le bien comme résidence principale.",
+          "points": [
+            "Dubai Investment Park · Par Emaar Properties",
+            "Villa · 3–6 chambres",
+            "À partir de AED 9M · Livraison 2029"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Damac Riverside Views Capri 2",
+          "slug": "damac-riverside-views-capri-2",
+          "text": "Damac Riverside Views Capri 2 est un projet orienté vers un cadre de vie en bord de mer situé à Dubai Investment Park et développé par Damac Properties. Les données enregistrées indiquent que la typologie enregistrée comprend des appartements; la plage enregistrée va de 1 à 2 chambres; le prix de départ enregistré est de AED 1.2M; la livraison enregistrée est prévue en 2029. Le profil actuel d’adéquation s’adresse surtout aux acheteurs envisageant d’utiliser le bien comme résidence principale.",
+          "points": [
+            "Dubai Investment Park · Par Damac Properties",
+            "Appartement · 1–2 chambres",
+            "À partir de AED 1.2M · Livraison 2029"
+          ]
+        }
+      ],
+      "title": "Résumé des projets",
+      "eyebrow": "En un coup d’œil",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Les deux projets sont situés à Dubai Investment Park; la localisation n’est donc pas le principal critère de différenciation. Ils sont développés par des développeurs différents; la qualité d’exécution, les services et le positionnement du produit doivent donc être examinés séparément. Les prix de départ enregistrés sont de AED 9M pour Chevalia Estate et de AED 1.2M pour Damac Riverside Views Capri 2. Les deux projets indiquent une livraison enregistrée en 2029.",
+        "tags": [
+          "Même quartier",
+          "Développeurs différents",
+          "Écart de prix enregistré",
+          "Typologies de biens différentes",
+          "Disponibilité en temps réel"
+        ],
+        "title": "Logique au niveau du projet",
+        "eyebrow": "Comment comparer"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Critère",
+        "project_a": "Chevalia Estate",
+        "project_b": "Damac Riverside Views Capri 2"
+      },
+      "rows": [
+        {
+          "factor": "Prix de départ",
+          "project_a": "À partir de AED 9M",
+          "project_b": "À partir de AED 1.2M"
+        },
+        {
+          "factor": "Localisation",
+          "project_a": "Dubai Investment Park",
+          "project_b": "Dubai Investment Park"
+        },
+        {
+          "factor": "Développeur",
+          "project_a": "Emaar Properties",
+          "project_b": "Damac Properties"
+        },
+        {
+          "factor": "Types de biens",
+          "project_a": "Villa",
+          "project_b": "Appartement"
+        },
+        {
+          "factor": "Chambres",
+          "project_a": "3–6 chambres",
+          "project_b": "1–2 chambres"
+        },
+        {
+          "factor": "Livraison",
+          "project_a": "2029",
+          "project_b": "2029"
+        },
+        {
+          "factor": "Profil du projet",
+          "project_a": "Cadre de vie verdoyant",
+          "project_b": "Cadre de vie en bord de mer"
+        }
+      ],
+      "title": "Tableau comparatif des projets",
+      "eyebrow": "Chevalia Estate vs Damac Riverside Views Capri 2",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Les prix de départ enregistrés sont de AED 9M pour Chevalia Estate et de AED 1.2M pour Damac Riverside Views Capri 2. Comparez le même type d’unité, la même surface et le coût total avant d’évaluer la valeur.",
+          "title": "L’écart de prix d’entrée compte",
+          "eyebrow": "Prix et unités",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Les deux projets sont situés à Dubai Investment Park. Comparez l’accès, la position du bâtiment ou de la parcelle, l’offre à proximité et la praticité au quotidien.",
+          "title": "Même quartier : comparer la micro-localisation",
+          "eyebrow": "Adéquation de la localisation",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Les deux projets indiquent actuellement une livraison en 2029. Comparez l’état exact d’avancement des travaux, l’usage prévu et toute mise à jour du calendrier.",
+          "title": "Le calendrier enregistré est similaire",
+          "eyebrow": "Calendrier",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Demandez à Primadom AI de comparer Chevalia Estate et Damac Riverside Views Capri 2 selon le type d’unité, le prix enregistré, la localisation, la livraison et l’usage prévu, puis de préparer les principales questions à poser à un conseiller.",
+          "title": "Comparer selon votre objectif",
+          "eyebrow": "Demander à AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Notes de décision sur les projets"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "À qui convient chaque projet",
+        "eyebrow": "Adéquation à l’acheteur",
+        "project_a_items": [
+          "Vous acceptez son prix de départ enregistré plus élevé de AED 9M après vérification de l’unité exacte et du coût total.",
+          "Vous préférez un environnement résidentiel verdoyant à Dubai Investment Park pour votre usage prévu.",
+          "Vous recherchez des villas, avec des configurations allant de 3 à 6 chambres, et une livraison enregistrée en 2029."
+        ],
+        "project_a_title": "Choisissez Chevalia Estate si",
+        "project_b_items": [
+          "Son prix de départ enregistré de AED 1.2M est inférieur à celui de l’alternative, sous réserve d’une comparaison d’unités équivalentes.",
+          "Vous préférez un cadre de vie en bord de mer à Dubai Investment Park pour votre usage prévu.",
+          "Vous recherchez des appartements, avec des configurations allant de 1 à 2 chambres, et une livraison enregistrée en 2029."
+        ],
+        "project_b_title": "Choisissez Damac Riverside Views Capri 2 si"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Les prix de départ enregistrés sont de AED 9M pour Chevalia Estate et de AED 1.2M pour Damac Riverside Views Capri 2. Les deux projets sont situés à Dubai Investment Park; la localisation est donc moins susceptible d’être le principal critère de différenciation. Chevalia Estate indique des villas, tandis que Damac Riverside Views Capri 2 indique des appartements. Les deux projets indiquent une livraison enregistrée en 2029.",
+        "tags": [
+          "Écart de prix enregistré",
+          "Même quartier",
+          "Typologie d’unités enregistrée",
+          "Même calendrier de livraison",
+          "Vérification du coût total"
+        ],
+        "title": "Logique d’investissement",
+        "eyebrow": "Logique de décision"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/fr/compare-projects/amari-vs-chevalia-estate/",
+            "meta": "Projet commun",
+            "label": "Amari vs Chevalia Estate",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/amari-vs-damac-riverside-views-capri-2/",
+            "meta": "Projet commun",
+            "label": "Amari vs Damac Riverside Views Capri 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/chevalia-estate-phase-2-vs-damac-riverside-views-capri-2/",
+            "meta": "Projet commun",
+            "label": "Chevalia Estate Phase 2 vs Damac Riverside Views Capri 2",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/chevalia-estate-vs-chevalia-estate-phase-2/",
+            "meta": "Projet commun",
+            "label": "Chevalia Estate vs Chevalia Estate Phase 2",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Plus de comparaisons de projets",
+        "eyebrow": "Continuer l’exploration"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/fr/projects/chevalia-estate/",
+            "meta": "Projet A",
+            "label": "Page du projet Chevalia Estate",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/projects/damac-riverside-views-capri-2/",
+            "meta": "Projet B",
+            "label": "Page du projet Damac Riverside Views Capri 2",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/areas/dubai-investment-park/",
+            "meta": "Zone",
+            "label": "Guide de la zone Dubai Investment Park",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Ouvrir les pages des projets",
+        "eyebrow": "Pages des projets"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Partagez ces informations pour comparer Chevalia Estate et Damac Riverside Views Capri 2 selon les mêmes priorités. Les informations enregistrées sur les projets peuvent aider à affiner le choix, mais les unités exactes, les prix actuels et la disponibilité doivent encore être vérifiés en temps réel.",
+      "items": [
+        {
+          "meta": "fourchette en AED ou budget d’entrée maximal",
+          "label": "Fourchette de prix"
+        },
+        {
+          "meta": "Villas / Appartements",
+          "label": "Type d’unité"
+        },
+        {
+          "meta": "résidence familiale / résidence secondaire / investissement",
+          "label": "Objectif de l’acheteur"
+        },
+        {
+          "meta": "calendrier souhaité autour de 2029",
+          "label": "Calendrier"
+        },
+        {
+          "meta": "terrain / espace extérieur / agencement",
+          "label": "Préférence principale"
+        }
+      ],
+      "title": "Données de comparaison pour AI",
+      "eyebrow": "Données utiles",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ces projets peuvent répondre à des priorités différentes. Les prix de départ enregistrés sont de AED 9M pour Chevalia Estate et de AED 1.2M pour Damac Riverside Views Capri 2. Chevalia Estate indique des villas, tandis que Damac Riverside Views Capri 2 indique des appartements. Les deux projets indiquent une livraison enregistrée en 2029. Le meilleur choix dépend de votre usage prévu et de l’unité exacte disponible au moment de la comparaison.",
+          "question": "Quel projet pourrait le mieux me convenir : Chevalia Estate ou Damac Riverside Views Capri 2 ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Damac Riverside Views Capri 2 affiche le prix de départ enregistré le plus bas, à AED 1.2M, contre AED 9M pour Chevalia Estate. Comparez des unités équivalentes avant d’interpréter cet écart.",
+          "question": "Quel projet affiche le prix de départ enregistré le plus bas ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Les deux projets sont situés à Dubai Investment Park. Chevalia Estate est développé par Emaar Properties, tandis que Damac Riverside Views Capri 2 est développé par Damac Properties.",
+          "question": "Quelles sont les différences entre Chevalia Estate et Damac Riverside Views Capri 2 en matière de localisation et de développeur ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Chevalia Estate indique des villas, avec 3 à 6 chambres, et une livraison enregistrée en 2029. Damac Riverside Views Capri 2 indique des appartements, avec 1 à 2 chambres, et une livraison enregistrée en 2029.",
+          "question": "Quels types de biens, plages de chambres et années de livraison sont enregistrés ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Avant de choisir entre Chevalia Estate et Damac Riverside Views Capri 2, confirmez l’unité exacte, le prix actuel, les modalités de paiement, le coût total d’acquisition, l’étage, l’agencement, la vue, le statut actuel du projet, la livraison et la disponibilité. Les données enregistrées au niveau du projet sont utiles pour établir une sélection, mais elles ne remplacent pas une vérification en temps réel au niveau de l’unité.",
+          "question": "Que dois-je vérifier avant de choisir entre Chevalia Estate et Damac Riverside Views Capri 2 ?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur les projets",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Utilisez cette page comme point de départ pour comparer Chevalia Estate et Damac Riverside Views Capri 2. Les informations enregistrées peuvent évoluer et ne remplacent pas les documents actuels du développeur ni les registres publics. Confirmez les prix en temps réel, les unités disponibles, les modalités de paiement, les plans, les charges de service, les détails de livraison et le statut du projet avant de prendre une décision.",
+      "items": [
+        {
+          "label": "Prix / disponibilité",
+          "value": "Vérification en temps réel requise"
+        },
+        {
+          "label": "Modalités de paiement",
+          "value": "Vérifier les documents actuels"
+        },
+        {
+          "label": "Livraison / statut",
+          "value": "Confirmer le statut actuel"
+        },
+        {
+          "label": "Contenu mis à jour",
+          "value": "Juillet 2026"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Vérification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Les deux projets sont situés à Dubai Investment Park. Chevalia Estate est développé par Emaar Properties, tandis que Damac Riverside Views Capri 2 est développé par Damac Properties. Les prix de départ enregistrés sont de AED 9M pour Chevalia Estate et de AED 1.2M pour Damac Riverside Views Capri 2. Les deux projets indiquent une livraison enregistrée en 2029.",
+      "title": "Vous souhaitez comparer Chevalia Estate et Damac Riverside Views Capri 2 selon votre situation ?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Demander à Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Comparer avec mon cas",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Demander un appel",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande de comparaison de projets",
+      "text": "Partagez vos préférences et vos coordonnées. Primadom AI préparera une comparaison ciblée avant qu’un conseiller ne vous contacte.",
+      "error": "Veuillez réessayer",
+      "title": "Comparer Chevalia Estate et Damac Riverside Views Capri 2 selon votre situation",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+      "eyebrow": "Continuer la comparaison avec AI",
+      "success": "Demande envoyée",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Fermer",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971",
+        "comment": "Ajoutez tout détail utile"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_chevalia_estate_vs_damac_riverside_views_capri_2_fr",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Chevalia Estate",
+        "project_a_slug": "chevalia-estate",
+        "project_b_name": "Damac Riverside Views Capri 2",
+        "project_b_slug": "damac-riverside-views-capri-2",
+        "canonical_url_path": "/fr/compare-projects/chevalia-estate-vs-damac-riverside-views-capri-2/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Envoyer",
+        "error": "Veuillez réessayer",
+        "success": "Demande envoyée",
+        "submitting": "Envoi…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Demande préparée",
+        "value": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI aide les acheteurs à comparer les projets, les localisations, les développeurs et les principaux critères de décision avant d’échanger avec un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparaison de projets alignée sur l’intention réelle de l’acheteur",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière des EAU",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Réserver un appel",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Demander à AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

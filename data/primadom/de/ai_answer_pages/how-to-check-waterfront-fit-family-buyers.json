@@ -1,0 +1,498 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "ai_answer__how-to-check-waterfront-fit__context__family-buyers__de",
+  "page_type_id": "ai_answer_page",
+  "language_code": "de",
+  "url_path": "/de/ai-answers/how-to-check-waterfront-fit-family-buyers/",
+  "canonical_url_path": "/de/ai-answers/how-to-check-waterfront-fit-family-buyers/",
+  "canonical_group_key": "ai_answer:how-to-check-waterfront-fit:context:family-buyers",
+  "primary_entity_type": "ai_answer",
+  "primary_entity_slug": "how-to-check-waterfront-fit",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_followup",
+    "block_05_direct_answer",
+    "block_06_answer_facts",
+    "block_07_yes_no",
+    "block_08_decision_cards",
+    "block_09_checks_risks",
+    "block_10_next_pages",
+    "block_11_faq",
+    "block_12_source_notes",
+    "block_13_cta",
+    "block_14_lead_modal",
+    "block_15_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Antwort",
+          "active": true
+        },
+        {
+          "href": "#checks",
+          "label": "Prüfungen",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Risiken",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#answer-ai",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "cta_href": "#aiAnswerLeadModal",
+      "nav_aria": "Navigation zur AI-Antwort",
+      "cta_label": "Eignung prüfen",
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "ai_answer_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "ai_answers",
+          "href": "/de/ai-answers/",
+          "label": "AI-Antworten"
+        },
+        {
+          "key": "current",
+          "href": "/de/ai-answers/how-to-check-waterfront-fit-family-buyers/",
+          "label": "Wie prüft man die Eignung einer Wasserlage — Familienkäufer",
+          "label_ref": "ai_answer_page_name"
+        }
+      ],
+      "url_section": "ai-answers",
+      "block_status": "final",
+      "schema_version": "ai_answer_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Familienkäufer",
+        "Lageaufschlag",
+        "Verbauungsrisiko",
+        "Wiederverkauf",
+        "Aktuelle Prüfung"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Wie prüft man die Eignung einer Wasserlage — Familienkäufer",
+      "subtitle": "Einordnung der Frage „Wie prüft man die Eignung einer Wasserlage?“ für Familienkäufer, mit Fokus auf Lageaufschlag · Verbauungsrisiko · Wiederverkauf sowie die wichtigsten Risiken und Abwägungen.",
+      "facts_aria": "Wichtige Punkte zur Antwort",
+      "section_id": "hero",
+      "visual_aria": "Visualisierung zur Immobilienentscheidung: Wie prüft man die Eignung einer Wasserlage — Familienkäufer",
+      "block_status": "final",
+      "schema_version": "ai_answer_hero_v2"
+    },
+    "block_04_ai_followup": {
+      "hints": [
+        "Die Frage „Wie prüft man die Eignung einer Wasserlage?“ für Familienkäufer genauer einordnen",
+        "Die wichtigsten Risiken, Bedingungen und Alternativen für Familienkäufer vergleichen",
+        "Welche aktuellen Angaben sollte ich vor der Entscheidung prüfen?"
+      ],
+      "ai_aria": "Stellen Sie Primadom AI eine Folgefrage",
+      "ai_badge": "Primadom AI",
+      "section_id": "answer-ai",
+      "voice_text": "Hilf mir, die Frage „Wie prüft man die Eignung einer Wasserlage?“ für Familienkäufer zu beurteilen.",
+      "placeholder": "Hilf mir, die Frage „Wie prüft man die Eignung einer Wasserlage?“ für Familienkäufer zu beurteilen.",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "schema_version": "ai_answer_followup_v4",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "Familienkäufer",
+        "Lageaufschlag",
+        "Verbauungsrisiko",
+        "Wiederverkauf",
+        "Aktuelle Prüfung"
+      ],
+      "title": "Direkte Antwort",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Die Eignung einer Wasserlage hängt von tatsächlichem Zugang, Qualität, laufenden Kosten, möglichem Aufpreis und der Relevanz für den Käufer ab.</strong> Besonders wichtig sind für Familienkäufer die Punkte Lageaufschlag · Verbauungsrisiko · Wiederverkauf. Nutzen Sie für veränderliche Angaben aktuelle offizielle, primäre oder objektspezifische Quellen.",
+      "body_text": "Die Eignung einer Wasserlage hängt von tatsächlichem Zugang, Qualität, laufenden Kosten, möglichem Aufpreis und der Relevanz für den Käufer ab. Besonders wichtig sind für Familienkäufer die Punkte Lageaufschlag · Verbauungsrisiko · Wiederverkauf. Nutzen Sie für veränderliche Angaben aktuelle offizielle, primäre oder objektspezifische Quellen.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "ai_answer_direct_answer_v2"
+    },
+    "block_06_answer_facts": {
+      "items": [
+        {
+          "label": "Frage",
+          "value": "Wie prüft man die Eignung einer Wasserlage — Familienkäufer?"
+        },
+        {
+          "label": "Kontext",
+          "value": "Familienkäufer"
+        },
+        {
+          "label": "Markt",
+          "value": "VAE"
+        },
+        {
+          "label": "Entscheidung",
+          "value": "Der Aufpreis braucht einen nachhaltigen Mehrwert"
+        },
+        {
+          "label": "Wichtigste Prüfungen",
+          "value": "Lageaufschlag · Verbauungsrisiko · Wiederverkauf"
+        },
+        {
+          "label": "Risikoschwerpunkt",
+          "value": "Unbestätigte Kosten, Bedingungen oder veraltete projektspezifische Angaben"
+        },
+        {
+          "label": "Bester nächster Schritt",
+          "value": "Aktuelle Angaben für den konkreten Fall prüfen"
+        },
+        {
+          "label": "Überprüfung",
+          "value": "Aktuelle projektspezifische Prüfung erforderlich"
+        }
+      ],
+      "title": "Antwortdetails",
+      "topic": "Wie prüft man die Eignung einer Wasserlage",
+      "market": "VAE",
+      "context": "Familienkäufer",
+      "eyebrow": "Wichtige Fakten",
+      "question": "Wie prüft man die Eignung einer Wasserlage — Familienkäufer?",
+      "section_id": "facts",
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "needs_live_sources",
+      "schema_version": "ai_answer_facts_v2"
+    },
+    "block_07_yes_no": {
+      "when_no": {
+        "items": [
+          {
+            "text": "Dieser Punkt erhöht das Risiko, wenn die zugrunde liegenden Angaben veraltet, unbestätigt oder nur als Verkaufsannahme verfügbar sind.",
+            "title": "Risikopunkt 1"
+          },
+          {
+            "text": "Dieser Faktor sollte neu bewertet werden, wenn Kosten, Bedingungen oder Zeitplan die Tragfähigkeit des Kaufs wesentlich schwächen.",
+            "title": "Risikopunkt 2"
+          },
+          {
+            "text": "Die Entscheidung wird unsicherer, wenn wichtige Vertrags-, Projekt- oder Marktdaten noch nicht verifiziert sind.",
+            "title": "Risikopunkt 3"
+          },
+          {
+            "text": "Das Gesamtbild sollte neu geprüft werden, wenn mehrere Unsicherheiten gleichzeitig bestehen oder eine belastbarere Alternative verfügbar ist.",
+            "title": "Das Gesamtbild muss erneut geprüft werden"
+          }
+        ],
+        "title": "Wenn die Antwort „Nein“ lautet",
+        "eyebrow": "Weitere Prüfungen erforderlich"
+      },
+      "when_yes": {
+        "items": [
+          {
+            "text": "Dieser Punkt spricht für die Option, sofern die zugrunde liegenden Angaben aktuell bestätigt und für den konkreten Fall tragfähig sind.",
+            "title": "Positiver Prüfpunkt 1"
+          },
+          {
+            "text": "Dieser Faktor ist positiv, wenn er durch aktuelle Unterlagen oder belastbare objektspezifische Daten gestützt wird.",
+            "title": "Positiver Prüfpunkt 2"
+          },
+          {
+            "text": "Die Annahme bleibt tragfähig, wenn Kosten, Bedingungen und Zeitplan auch im Gesamtbild zum Käuferprofil passen.",
+            "title": "Positiver Prüfpunkt 3"
+          },
+          {
+            "text": "Die Option bleibt plausibel, wenn die wesentlichen Risiken geprüft und realistische Alternativen berücksichtigt wurden.",
+            "title": "Das Gesamtbild bleibt stimmig"
+          }
+        ],
+        "title": "Wenn die Antwort „Ja“ lautet",
+        "eyebrow": "Gut geeignet"
+      },
+      "section_id": "yes-no",
+      "block_status": "final",
+      "schema_version": "ai_answer_yes_no_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Prüfen Sie für Familienkäufer insbesondere die Bereiche Lageaufschlag · Verbauungsrisiko · Wiederverkauf.",
+          "title": "Lageaufschlag · Verbauungsrisiko · Wiederverkauf",
+          "eyebrow": "Was zu prüfen ist"
+        },
+        {
+          "dark": false,
+          "text": "Achten Sie auf unbestätigte Annahmen, Kosten, Bedingungen und veraltete Informationen.",
+          "title": "Zentraler Risikopunkt",
+          "eyebrow": "Risiko"
+        },
+        {
+          "dark": false,
+          "text": "Bestätigen Sie die aktuellen projektspezifischen Angaben, bevor Sie die Auswahl eingrenzen.",
+          "title": "Nächster sinnvoller Schritt",
+          "eyebrow": "Nächster Schritt"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI kann diese Antwort anhand Ihrer Prioritäten und noch offenen Punkte in eine fallspezifische Checkliste umwandeln.",
+          "title": "Prüfen Sie Ihren konkreten Fall",
+          "eyebrow": "AI"
+        }
+      ],
+      "cards_aria": "Entscheidungshilfe",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "ai_answer_decision_cards_v2"
+    },
+    "block_09_checks_risks": {
+      "risks": {
+        "body": "Das Risiko steigt, wenn zentrale Annahmen in den Bereichen Lageaufschlag · Verbauungsrisiko · Wiederverkauf, bei Kosten, Bedingungen oder aktuellen Projektdaten nicht bestätigt sind. Prüfen Sie diese Punkte für Familienkäufer anhand aktueller und nachvollziehbarer Quellen.",
+        "tags": [
+          "Lageaufschlag",
+          "Verbauungsrisiko",
+          "Wiederverkauf",
+          "Aktualität der Daten",
+          "Gesamtrisiko"
+        ],
+        "title": "Risiken",
+        "eyebrow": "Vorsicht, wenn"
+      },
+      "checks": {
+        "items": [
+          {
+            "text": "Prüfen Sie diesen Punkt anhand aktueller Unterlagen und objektspezifischer Angaben, bevor Sie entscheiden.",
+            "title": "Prüfpunkt 1"
+          },
+          {
+            "text": "Vergleichen Sie die relevanten Konditionen auf derselben Basis und berücksichtigen Sie die Auswirkungen auf Kosten, Zeitplan und Käuferziel.",
+            "title": "Prüfpunkt 2"
+          },
+          {
+            "text": "Bestätigen Sie die aktuellen Angaben aus einer nachvollziehbaren Quelle und verlassen Sie sich nicht nur auf eine Verkaufszusammenfassung.",
+            "title": "Prüfpunkt 3"
+          },
+          {
+            "text": "Dokumentieren Sie offene Punkte und klären Sie sie vor einer Reservierung oder Zahlung.",
+            "title": "Prüfpunkt 4"
+          }
+        ],
+        "title": "Was zu prüfen ist",
+        "eyebrow": "Entscheidungs-Checkliste"
+      },
+      "section_id": "checks-risks",
+      "block_status": "final",
+      "schema_version": "ai_answer_checks_risks_v2"
+    },
+    "block_10_next_pages": {
+      "items": [
+        {
+          "href": "/de/ai-answers/how-to-check-view-premium-family-buyers/",
+          "label": "Wie prüft man einen Aufpreis für die Aussicht"
+        },
+        {
+          "href": "/de/ai-answers/how-to-check-floor-plan-family-buyers/",
+          "label": "Wie prüft man einen Grundriss"
+        },
+        {
+          "href": "/de/ai-answers/how-to-compare-unit-size-family-buyers/",
+          "label": "Wie vergleicht man Wohnungsgrößen"
+        },
+        {
+          "href": "/de/ai-answers/how-to-check-project-location-family-buyers/",
+          "label": "Wie prüft man die Projektlage"
+        },
+        {
+          "href": "/de/ai-answers/how-to-check-master-community-family-buyers/",
+          "label": "Wie prüft man ein Masterplan-Wohngebiet"
+        }
+      ],
+      "title": "Weiter erkunden",
+      "eyebrow": "Nächste Seiten",
+      "section_id": "next-pages",
+      "block_status": "final",
+      "schema_version": "ai_answer_next_pages_v42",
+      "route_validation_status": "validated",
+      "route_validation_required": false
+    },
+    "block_11_faq": {
+      "items": [
+        {
+          "answer": "Prüfen Sie diesen Punkt anhand aktueller Projekt-, Vertrags- oder Marktinformationen. Bei veränderlichen Angaben sollten die neuesten verfügbaren Quellen bestätigt werden, bevor Sie entscheiden.",
+          "question": "Was sollte ich zu „Wie prüft man die Eignung einer Wasserlage?“ konkret prüfen?"
+        },
+        {
+          "answer": "Die Antwort hängt von der konkreten Immobilie und Transaktionsstruktur ab. Vergleichen Sie die relevanten Kosten, Bedingungen und Nachweise auf derselben Basis und bestätigen Sie aktuelle Details.",
+          "question": "Welche aktuellen Angaben sind für diese Entscheidung wichtig?"
+        },
+        {
+          "answer": "Entscheidend sind belastbare, aktuelle Angaben statt allgemeiner Verkaufsannahmen. Prüfen Sie die für Ihren Fall relevanten Unterlagen und die Auswirkungen auf Kosten, Risiko und Käuferziel.",
+          "question": "Welche Kosten und Bedingungen sollte ich vergleichen?"
+        },
+        {
+          "answer": "Berücksichtigen Sie auch realistische Alternativen und prüfen Sie, wie empfindlich die Entscheidung auf Änderungen bei Preis, Zeitplan, Finanzierung oder laufenden Kosten reagiert.",
+          "question": "Welche Risiken können die Entscheidung beeinflussen?"
+        },
+        {
+          "answer": "Nutzen Sie offizielle, primäre oder objektspezifische Quellen und bestätigen Sie veränderliche Angaben erneut, bevor Sie sich auf sie verlassen.",
+          "question": "Welche Quellen sollte ich vor der Entscheidung bestätigen?"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen für die AI-Suche",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "ai_answer_faq_v35"
+    },
+    "block_12_source_notes": {
+      "body": "Nutzen Sie diese Seite als Entscheidungshilfe und nicht als Ersatz für eine aktuelle Quellenprüfung. Angaben, die sich ändern können, sollten vor einer Entscheidung anhand relevanter offizieller, primärer oder objektspezifischer Informationen erneut bestätigt werden.",
+      "items": [
+        {
+          "label": "Kontext",
+          "value": "Familienkäufer"
+        },
+        {
+          "label": "Prüfschwerpunkt",
+          "value": "Lageaufschlag · Verbauungsrisiko · Wiederverkauf"
+        },
+        {
+          "label": "Zu prüfende Quellen",
+          "value": "Relevante offizielle, primäre oder objektspezifische Quellen"
+        },
+        {
+          "label": "Aktuelle Prüfung",
+          "value": "Aktuelle Angaben zum konkreten Fall"
+        },
+        {
+          "label": "Quellenprüfung",
+          "value": "Vor der Entscheidung erneut prüfen"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Hinweise zur Überprüfung",
+      "confidence": null,
+      "section_id": "source-notes",
+      "source_ids": [],
+      "block_status": "final",
+      "last_checked": null,
+      "source_status": "verification_required",
+      "schema_version": "ai_answer_source_notes_v2",
+      "source_profile": "location_market",
+      "live_check_required": true
+    },
+    "block_13_cta": {
+      "text": "Primadom AI kann diese Antwort für Familienkäufer auf Ihren konkreten Fall anwenden und die wichtigsten Prüfungen, Risiken und offenen Punkte in den Bereichen Lageaufschlag · Verbauungsrisiko · Wiederverkauf strukturieren.",
+      "title": "Möchten Sie Ihren konkreten Fall prüfen?",
+      "actions": [
+        {
+          "href": "#answer-ai",
+          "label": "Primadom AI fragen",
+          "modal": false
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Eignung prüfen",
+          "modal": true
+        },
+        {
+          "href": "#aiAnswerLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "ai_answer_cta_v2"
+    },
+    "block_14_lead_modal": {
+      "aria": "Formular zur AI-Fortsetzung",
+      "text": "Primadom AI überträgt diese Antwort für Familienkäufer auf Ihren konkreten Fall und strukturiert die wichtigsten Punkte in den Bereichen Lageaufschlag · Verbauungsrisiko · Wiederverkauf, einschließlich Kosten, Bedingungen und noch offener Bestätigungen.",
+      "title": "Konkreten Fall mit Primadom AI prüfen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Bitte prüfen Sie meinen Fall zur Frage „Wie prüft man die Eignung einer Wasserlage?“ für Familienkäufer.",
+      "eyebrow": "Mit AI fortfahren",
+      "success": "Gesendet",
+      "close_label": "Schließen",
+      "block_status": "final",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail (optional)",
+        "phone": "+971"
+      },
+      "schema_version": "ai_answer_lead_modal_v21"
+    },
+    "block_15_footer": {
+      "text": "Primadom AI verwandelt Immobilienfragen in konkrete Prüfungen, Risiken, nächste Schritte und beraterfertige Anfragen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Antwortorientierte Suche, verknüpft mit realen Immobilienentscheidungen",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilienintelligenz",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Social-Media-Links",
+      "block_status": "final",
+      "schema_version": "ai_answer_footer_v2",
+      "contact_primary": {
+        "href": "#aiAnswerLeadModal",
+        "label": "Gespräch buchen"
+      },
+      "contact_secondary": {
+        "href": "#answer-ai",
+        "label": "AI fragen"
+      }
+    }
+  }
+}

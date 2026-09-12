@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_buyer_scenario_branded_residence_buyer_aed_3m_plus_in_dubai_south_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-dubai-south/",
+  "canonical_url_path": "/ar/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-dubai-south/",
+  "canonical_group_key": "buyer_scenario:branded_residence_buyer:district:dubai-south",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-south",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/dubai-south/",
+          "label": "Dubai South"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/branded-residence-buyer-aed-3m-plus-in-dubai-south/",
+          "label": "مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+ في Dubai South",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "مسكن يحمل علامة تجارية",
+        "Dubai South",
+        "مساكن تحمل علامات تجارية · شقق",
+        "AED 3M+",
+        "العلامة التجارية · الرسوم · إعادة البيع"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+ في Dubai South",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+ في Dubai South",
+      "subtitle": "قارن الخيارات في Dubai South مع التركيز على جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+ في Dubai South",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Dubai South وفق جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع",
+        "تحقق من قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في شراء مسكن بعلامة تجارية؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+ في Dubai South",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري مساكن تحمل علامة تجارية في Dubai South",
+      "placeholder": "قارن خيارات مشتري مساكن تحمل علامة تجارية في Dubai South",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "مساكن تحمل علامات تجارية",
+        "Dubai South",
+        "AED 3M+",
+        "العلامة التجارية · الرسوم · إعادة البيع",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري مساكن تحمل علامة تجارية في Dubai South</strong>، ركّز على جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع بدل الاعتماد على عامل واحد فقط. تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية البالغة AED 3M والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري مساكن تحمل علامة تجارية في Dubai South، ركّز على جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع بدل الاعتماد على عامل واحد فقط. تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية البالغة AED 3M والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري مساكن تحمل علامة تجارية بميزانية AED 3M+"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "مسكن يحمل علامة تجارية"
+        },
+        {
+          "label": "الموقع",
+          "value": "Dubai South"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "مساكن تحمل علامات تجارية · شقق"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "AED 3M+"
+        },
+        {
+          "label": "محور القرار",
+          "value": "العلامة التجارية · الرسوم · إعادة البيع"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "مقارنة الخيارات الفاخرة"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن نموذج الخدمات"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار شراء مسكن بعلامة تجارية اعتمادًا على عامل واحد مع تجاهل قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع.",
+          "المشترون الذين لا يريدون مراجعة جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل دفع علاوة للعلامة التجارية من دون أن تبررها جودة الوحدة أو الخدمات أو الرسوم أو طلب إعادة البيع."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا في Dubai South.",
+          "المشترون الذين يريدون مقارنة جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Dubai South، قارن الخيارات وفق جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "علاوة العلامة التجارية",
+          "نموذج الخدمات",
+          "التكاليف المستمرة",
+          "الموقع",
+          "طلب إعادة البيع"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Dubai South، قيّم المنطقة وفق مدى دعمها لـ تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "تحقق مما إذا كان الموقع يحسّن فعليًا الاستخدام اليومي أو سهولة الوصول أو جاذبية إعادة البيع، بدل أن يقتصر أثره على منح المسكن طابعًا أكثر حصرية.",
+            "title": "موقع علاوة"
+          },
+          {
+            "text": "أبقِ المسكن والموقع والتكاليف المتكررة ضمن مقارنة واحدة قبل تحديد ما إذا كانت علاوة العلامة التجارية مبررة.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع ومدى ملاءمته للاستخدام المقصود.",
+            "title": "مساكن تحمل علامات تجارية"
+          },
+          {
+            "text": "قارن شقق تقليدية من حيث قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "شقق تقليدية"
+          },
+          {
+            "text": "قارن مساكن جاهزة تحمل علامات تجارية من حيث قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "مساكن جاهزة تحمل علامات تجارية"
+          },
+          {
+            "text": "قارن مساكن على المخطط تحمل علامات تجارية من حيث قيمة العلامة التجارية ومستوى الخدمات والرسوم المتكررة وجودة المسكن وإعادة البيع، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "مساكن على المخطط تحمل علامات تجارية"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "أضف تكاليف المعاملة والتأثيث أو التجهيز والرسوم المستمرة إلى سعر الشراء قبل تقييم علاوة العلامة.",
+          "title": "اختبر ملاءمة شراء مسكن بعلامة تجارية",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Dubai South، قارن جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى دفع علاوة للعلامة التجارية من دون أن تبررها جودة الوحدة أو الخدمات أو الرسوم أو طلب إعادة البيع.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Dubai South باستخدام المعايير نفسها: جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Dubai South، تشمل المخاطر الرئيسية دفع علاوة للعلامة التجارية من دون أن تبررها جودة الوحدة أو الخدمات أو الرسوم أو طلب إعادة البيع. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "علاوة العلامة التجارية",
+          "رسوم الخدمات",
+          "الإدارة",
+          "جودة التشطيب",
+          "طلب إعادة البيع"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات شراء مسكن بعلامة تجارية"
+          },
+          {
+            "text": "أضف تكاليف المعاملة والتأثيث أو التجهيز والرسوم المستمرة إلى سعر الشراء قبل تقييم علاوة العلامة.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قيّم في Dubai South مدى دعم الموقع للاستخدام المقصود للمسكن، بدل افتراض أن العلامة التجارية تجعل كل عنوان قويًا بالقدر نفسه.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "بالنسبة إلى الوحدات الجاهزة، عاين المسكن وبيئة الخدمات؛ وبالنسبة إلى العقارات على المخطط، أبقِ توقيت التسليم وعدم اليقين بشأن المسكن النهائي ضمن القرار.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/golf-meadow/",
+            "meta": "Emaar Properties · Dubai South",
+            "label": "Golf Meadow"
+          },
+          {
+            "href": "/ar/projects/south-bay-1/",
+            "meta": "Dubai South · Dubai South",
+            "label": "South Bay 1"
+          },
+          {
+            "href": "/ar/projects/canal-bay/",
+            "meta": "NED · Dubai South",
+            "label": "Canal Bay"
+          },
+          {
+            "href": "/ar/projects/waada/",
+            "meta": "BT Holdings · Dubai South",
+            "label": "Waada"
+          },
+          {
+            "href": "/ar/projects/trafford-residence/",
+            "meta": "Deviate for Real Estate Development · Dubai South",
+            "label": "Trafford Residence"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "أضف تكاليف المعاملة والتأثيث أو التجهيز والرسوم المستمرة إلى سعر الشراء قبل تقييم علاوة العلامة. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "سعر الشراء",
+          "علاوة العلامة التجارية",
+          "رسوم الخدمات",
+          "التأثيث",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/ultra-prime-cash-buyer-aed-10m-plus-in-dubai-south/",
+          "label": "مشتري نقدي في الفئة فائقة الفخامة بميزانية AED 10M+ في Dubai South"
+        },
+        {
+          "href": "/ar/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-dubai-south/",
+          "label": "مشتري يركز على الحفاظ على رأس المال بميزانية AED 3M+ في Dubai South"
+        },
+        {
+          "href": "/ar/buyer-scenarios/second-home-buyer-in-dubai-south/",
+          "label": "مشتري منزل ثانٍ في Dubai South"
+        },
+        {
+          "href": "/ar/buyer-scenarios/golden-visa-property-buyer-in-dubai-south/",
+          "label": "مشتري عقار مع مراعاة أهلية التأشيرة الذهبية في Dubai South"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Dubai South، ركّز على جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع. تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري مساكن تحمل علامة تجارية في Dubai South؟"
+        },
+        {
+          "answer": "في Dubai South، يناسب المشترين الذين يريدون تقييم ما إذا كانت علاوة المسكن ذي العلامة التجارية مبررة عمليًا ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري مساكن تحمل علامة تجارية في Dubai South؟"
+        },
+        {
+          "answer": "في Dubai South، تحقق من العقار المحدد وشروطه الحالية، ثم راجع جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Dubai South؟"
+        },
+        {
+          "answer": "في Dubai South، أضف تكاليف المعاملة والتأثيث أو التجهيز والرسوم المستمرة إلى سعر الشراء قبل تقييم علاوة العلامة. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في Dubai South؟"
+        },
+        {
+          "answer": "في Dubai South، تتمثل المخاطر الرئيسية في دفع علاوة للعلامة التجارية من دون أن تبررها جودة الوحدة أو الخدمات أو الرسوم أو طلب إعادة البيع. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Dubai South؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري مساكن تحمل علامة تجارية في Dubai South، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "علاوة العلامة التجارية",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "نموذج الخدمات",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "الرسوم المتكررة",
+          "value": "تحقق من التكاليف الحالية"
+        },
+        {
+          "label": "المسكن المحدد",
+          "value": "تحقق من التفاصيل الحالية"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري مساكن تحمل علامة تجارية في Dubai South وفق جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مشتري مساكن تحمل علامة تجارية؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع أثناء مقارنة الخيارات في Dubai South. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري مساكن تحمل علامة تجارية",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري مساكن تحمل علامة تجارية بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري مساكن تحمل علامة تجارية في Dubai South مع وضع جودة الوحدة ومستوى الخدمات والرسوم المتكررة ودور العلامة التجارية ومرونة إعادة البيع والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري مساكن تحمل علامة تجارية بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

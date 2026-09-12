@@ -1,0 +1,10 @@
+---
+title: "Guía de la zona de Al Wathba"
+layout: "primadom-district-page-v2"
+district_slug: "al-wathba"
+page_id: "page_district_al_wathba_es"
+url: "/es/areas/al-wathba/"
+build:
+  render: always
+  list: never
+---

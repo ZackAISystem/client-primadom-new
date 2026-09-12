@@ -21,6 +21,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $budgetData = index $zhData "budget_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $budgetData = index $esData "budget_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $budgetData = index $frData "budget_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $budgetData = index $deData "budget_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $budgetData = index $arData "budget_pages" -}}
+{{- end -}}
 {{- $page := index $budgetData $slug -}}
 
 {{- if not $page -}}

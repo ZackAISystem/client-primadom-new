@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_apartment_vs_townhouse_decision_buyer_dubai_production_city_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-dubai-production-city/",
+  "canonical_url_path": "/ar/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-dubai-production-city/",
+  "canonical_group_key": "scenario_district:apartment_vs_townhouse_decision_buyer:dubai-production-city",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "dubai-production-city",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/dubai-production-city/",
+          "label": "Dubai Production City"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-dubai-production-city/",
+          "label": "مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "شقة مقابل تاون هاوس",
+        "Dubai Production City",
+        "شقق · تاون هاوس",
+        "AED 1.5M–5M",
+        "مساحة · صيانة · إعادة البيع"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+      "subtitle": "قارن الخيارات في Dubai Production City مع التركيز على المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Dubai Production City وفق المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية",
+        "تحقق من المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في المقارنة بين الشقة والتاون هاوس؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+      "placeholder": "قارن خيارات مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "شقة مقابل تاون هاوس",
+        "Dubai Production City",
+        "مساحة · خصوصية",
+        "التكاليف · صيانة",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City</strong>، ركّز على المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية بدل الاعتماد على عامل واحد فقط. المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City، ركّز على المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية بدل الاعتماد على عامل واحد فقط. المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري يقارن بين الشقة والتاون هاوس"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "مقارنة أنواع المنازل"
+        },
+        {
+          "label": "الموقع",
+          "value": "Dubai Production City"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق · تاون هاوس"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "AED 1.5M–5M"
+        },
+        {
+          "label": "محور القرار",
+          "value": "المساحة · الخصوصية · الصيانة"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "المقارنة / القرار"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن مفاضلات الملكية"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار المقارنة بين الشقة والتاون هاوس اعتمادًا على عامل واحد مع تجاهل المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي.",
+          "المشترون الذين لا يريدون مراجعة المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل دفع مقابل مساحة لا تحتاجها الأسرة، أو التقليل من تكاليف صيانة التاون هاوس، أو التضحية بالخصوصية في الشقة."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس في Dubai Production City.",
+          "المشترون الذين يريدون مقارنة المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Dubai Production City، قارن الخيارات وفق المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "مساحة المعيشة",
+          "الخصوصية",
+          "الصيانة",
+          "سهولة الوصول اليومية",
+          "تكلفة الملكية"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Dubai Production City، قيّم المنطقة وفق مدى دعمها لـ المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Dubai Production City"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي في مفاضلة الاستخدام اليومي قبل تضييق الاختيار.",
+            "title": "مفاضلة الاستخدام اليومي"
+          },
+          {
+            "text": "أبقِ قرار المنطقة ونوع المنزل مترابطين؛ فقد يعوّض الموقع الأفضل عن مساحة إضافية، بينما قد تبرّر خصوصية أكبر مسافة تنقّل مختلفة.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن تاون هاوس من حيث المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "تاون هاوس"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث المساحة القابلة للاستخدام والخصوصية والمساحات الخارجية ومواقف السيارات والصيانة والتنقل اليومي، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "قارن سعر الشراء وتكاليف المعاملة ورسوم الخدمات والصيانة وأي تجهيزات مطلوبة، لا السعر وحده.",
+          "title": "اختبر ملاءمة المقارنة بين الشقة والتاون هاوس",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Dubai Production City، قارن المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى دفع مقابل مساحة لا تحتاجها الأسرة، أو التقليل من تكاليف صيانة التاون هاوس، أو التضحية بالخصوصية في الشقة.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Dubai Production City باستخدام المعايير نفسها: المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Dubai Production City، تشمل المخاطر الرئيسية دفع مقابل مساحة لا تحتاجها الأسرة، أو التقليل من تكاليف صيانة التاون هاوس، أو التضحية بالخصوصية في الشقة. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "المساحة القابلة للاستخدام",
+          "الخصوصية",
+          "الصيانة",
+          "سهولة الوصول اليومية",
+          "إجمالي التكلفة"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات المقارنة بين الشقة والتاون هاوس"
+          },
+          {
+            "text": "قارن سعر الشراء وتكاليف المعاملة ورسوم الخدمات والصيانة وأي تجهيزات مطلوبة، لا السعر وحده.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قارن في Dubai Production City بين سهولة الوصول ومواقف السيارات والخصوصية والمساحة القابلة للاستخدام والتنقل اليومي لكلا نوعي السكن قبل الاختيار.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "لا تُدخل الخيارات الجاهزة وعلى المخطط في القرار إلا بعد أن يعرف المشتري أي نوع سكن يناسب الأسرة فعليًا.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/elm-at-park-five/",
+            "meta": "Deyaar Development · Dubai Production City",
+            "label": "Elm at Park Five"
+          },
+          {
+            "href": "/ar/projects/binghatti-elite/",
+            "meta": "Binghatti Developers · Dubai Production City",
+            "label": "Binghatti Elite"
+          },
+          {
+            "href": "/ar/projects/samana-portofino/",
+            "meta": "Samana Developers · Dubai Production City",
+            "label": "Samana Portofino"
+          },
+          {
+            "href": "/ar/projects/coventry-place/",
+            "meta": "GFS Developers · Dubai Production City",
+            "label": "Coventry Place"
+          },
+          {
+            "href": "/ar/projects/soul-by-vision/",
+            "meta": "Vision Development · Dubai Production City",
+            "label": "Soul by Vision"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "قارن سعر الشراء وتكاليف المعاملة ورسوم الخدمات والصيانة وأي تجهيزات مطلوبة، لا السعر وحده. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "سعر الشراء",
+          "تكاليف الشراء",
+          "رسوم الخدمات",
+          "الصيانة",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/villa-vs-townhouse-decision-buyer/",
+          "label": "مشتري يقارن بين الفيلا والتاون هاوس"
+        },
+        {
+          "href": "/ar/buyer-scenarios/family-apartment-buyer-under-aed-3m/",
+          "label": "مشتري شقة عائلية بميزانية أقل من AED 3M"
+        },
+        {
+          "href": "/ar/buyer-scenarios/townhouse-buyer-under-aed-5m/",
+          "label": "مشتري تاون هاوس بميزانية أقل من AED 5M"
+        },
+        {
+          "href": "/ar/buyer-scenarios/comparison-decision-buyer/",
+          "label": "مشتري في مرحلة المقارنة واتخاذ القرار"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Dubai Production City، ركّز على المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية. المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City؟"
+        },
+        {
+          "answer": "في Dubai Production City، يناسب المشترين الذين يريدون المفاضلة بين سهولة امتلاك الشقة والمساحة والخصوصية الإضافية في التاون هاوس ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City؟"
+        },
+        {
+          "answer": "في Dubai Production City، تحقق من العقار المحدد وشروطه الحالية، ثم راجع المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Dubai Production City؟"
+        },
+        {
+          "answer": "في Dubai Production City، قارن سعر الشراء وتكاليف المعاملة ورسوم الخدمات والصيانة وأي تجهيزات مطلوبة، لا السعر وحده. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية في هذا السيناريو في Dubai Production City؟"
+        },
+        {
+          "answer": "في Dubai Production City، تتمثل المخاطر الرئيسية في دفع مقابل مساحة لا تحتاجها الأسرة، أو التقليل من تكاليف صيانة التاون هاوس، أو التضحية بالخصوصية في الشقة. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Dubai Production City؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "مخطط / مساحة",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "التكاليف المتكررة",
+          "value": "تحقق من الرسوم الحالية"
+        },
+        {
+          "label": "سهولة الوصول اليومية",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "توقيت العقار",
+          "value": "تحقق قبل الالتزام"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City وفق المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد مراجعة خيارات مشتري يقارن بين الشقة والتاون هاوس؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية أثناء مقارنة الخيارات في Dubai Production City. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري يقارن بين الشقة والتاون هاوس",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري يقارن بين الشقة والتاون هاوس بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري يقارن بين الشقة والتاون هاوس في Dubai Production City مع وضع المساحة القابلة للاستخدام والخصوصية والصيانة وتكاليف الملكية وسهولة الحياة اليومية والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري يقارن بين الشقة والتاون هاوس بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

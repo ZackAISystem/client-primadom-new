@@ -1,0 +1,921 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_studios_umm_al_quwain_marina_ar",
+  "page_type_id": "property_type_page",
+  "language_code": "ar",
+  "url_path": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+  "canonical_url_path": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+  "canonical_group_key": "property_district:studios:umm-al-quwain-marina",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "umm-al-quwain-marina",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "الملخص",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "المشاريع",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "التنقل في صفحة نوع العقار",
+      "cta_label": "اعرض الخيارات",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "property_types",
+          "href": "/ar/property-types/",
+          "label": "أنواع العقارات"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/umm-al-quwain-marina/",
+          "label": "Umm Al Quwain Marina"
+        },
+        {
+          "key": "current",
+          "href": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+          "label": "استوديوهات في Umm Al Quwain Marina",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "نوع العقار: استوديوهات",
+        "المنطقة: Umm Al Quwain Marina",
+        "تخطيط مدمج",
+        "السكن / الاستثمار",
+        "البحث بمساعدة AI"
+      ],
+      "image": {
+        "alt": "نظرة عامة على استوديوهات في Umm Al Quwain Marina",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "استوديوهات في Umm Al Quwain Marina",
+      "subtitle": "دليل عملي إلى استوديوهات في Umm Al Quwain Marina، يغطي كفاءة التخطيط والمساحة القابلة للاستخدام وسياق الأسعار وخيارات المشاريع وأداة بحث بمساعدة AI.",
+      "facts_aria": "أبرز معلومات نوع العقار",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "عنصر مرئي لصفحة نوع العقار: استوديوهات في Umm Al Quwain Marina",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "اسأل Primadom AI عن استوديوهات في Umm Al Quwain Marina",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "اسأل عن استوديوهات في Umm Al Quwain Marina أو الميزانية أو الملاءمة",
+      "placeholder": "اسأل عن استوديوهات في Umm Al Quwain Marina أو الميزانية أو الملاءمة",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "البحث الصوتي",
+      "click_action": "fill_input",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "ابحث عن استوديوهات في Umm Al Quwain Marina ضمن ميزانيتي",
+        "قارن استوديوهات حسب كفاءة التخطيط والمساحة القابلة للاستخدام وإجمالي التكلفة",
+        "ما الذي يجب التحقق منه عند مقارنة استوديوهات في Umm Al Quwain Marina؟"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "الوضع الصوتي",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "المساحة القابلة للاستخدام",
+        "التخزين",
+        "رسوم الخدمات",
+        "جودة المبنى",
+        "التحقق من السعر"
+      ],
+      "title": "ملخص نوع العقار",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "<strong>استوديوهات في Umm Al Quwain Marina</strong> — يمكن مقارنة هذا النوع من حيث كفاءة التخطيط والمساحة القابلة للاستخدام وعوامل المشروع والتكلفة. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+      "body_text": "يمكن مقارنة استوديوهات في Umm Al Quwain Marina من حيث كفاءة التخطيط والمساحة القابلة للاستخدام وجودة المبنى ورسوم الخدمات. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "النوع",
+          "value": "استوديوهات",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "المنطقة",
+          "value": "Umm Al Quwain Marina",
+          "fact_key": "area"
+        },
+        {
+          "label": "السوق",
+          "value": "أم القيوين / الإمارات",
+          "fact_key": "market"
+        },
+        {
+          "label": "صفحات المشاريع المرتبطة",
+          "value": "12 صفحات مشاريع على مستوى الحي",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "نية الشراء",
+          "value": "السكن المدمج · الاستثمار",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "أهم عوامل التصفية",
+          "value": "المساحة القابلة للاستخدام · التخزين · الرسوم",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "أفضل خطوة تالية",
+          "value": "قارن صفحات المشاريع المرتبطة",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "نطاق المقارنة",
+          "value": "المشاريع · المناطق · تكاليف الملكية",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "تفاصيل نوع العقار",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 12,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_growth_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن يناسب",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "من يحتاجون إلى فصل واضح بين غرف المعيشة والنوم أو إلى مساحة تخزين كبيرة",
+          "من يقارنون الاستوديوهات بالمساحة الإجمالية فقط من دون فحص التخطيط",
+          "المشترون الذين يتجاهلون رسوم الخدمات وجودة المبنى"
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون مساحة مدمجة مع تكلفة دخول وإدارة أبسط",
+          "المستخدمون الفرديون أو المستثمرون الذين يركزون على الكفاءة وسهولة التأثيث",
+          "المشترون المستعدون لمقارنة المساحة القابلة للاستخدام ورسوم الخدمات بعناية"
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Umm Al Quwain Marina",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "studios"
+      },
+      "property_logic": {
+        "body": "قارن الاستوديوهات بحسب المساحة القابلة للاستخدام والفصل بين منطقتي المعيشة والنوم والتخزين ورسوم الخدمات وجودة المبنى. في Umm Al Quwain Marina، قارن الطلب الإيجاري والمنافسة والتكاليف المتكررة وقابلية إعادة البيع بالاستناد إلى بيانات حديثة قبل اتخاذ القرار. تحقق من التوافر الحالي، وعند الاقتضاء من التكاليف المتكررة وشروط الدفع وتفاصيل التسليم قبل اتخاذ القرار.",
+        "tags": [
+          "المساحة القابلة للاستخدام",
+          "التخزين",
+          "رسوم الخدمات",
+          "جودة المبنى",
+          "التحقق من السعر"
+        ],
+        "title": "منطق نوع العقار",
+        "eyebrow": "كيفية المقارنة"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "عند مقارنة استوديوهات في Umm Al Quwain Marina، راجع جودة المشروع والتخطيط القابل للاستخدام والرسوم والمرافق وسهولة الوصول اليومي، مع التحقق من التفاصيل الحالية قبل اتخاذ القرار.",
+            "route": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+            "buyer_fit": "سياق المنطقة الحالية",
+            "relationship": "current_area",
+            "district_name": "Umm Al Quwain Marina",
+            "district_slug": "umm-al-quwain-marina"
+          },
+          {
+            "text": "باعتبار Siniyah Island خيارًا بديلًا للمقارنة مع Umm Al Quwain Marina، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/studios-in-siniyah-island/",
+            "buyer_fit": "بديل في المدينة نفسها",
+            "relationship": "related_area",
+            "district_name": "Siniyah Island",
+            "district_slug": "siniyah-island"
+          },
+          {
+            "text": "باعتبار Al Raudah خيارًا بديلًا للمقارنة مع Umm Al Quwain Marina، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/studios-in-al-raudah/",
+            "buyer_fit": "بديل أوسع داخل الإمارات",
+            "relationship": "related_area",
+            "district_name": "Al Raudah",
+            "district_slug": "al-raudah"
+          },
+          {
+            "text": "باعتبار Jumeirah Village Circle خيارًا بديلًا للمقارنة مع Umm Al Quwain Marina، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/studios-in-jumeirah-village-circle/",
+            "buyer_fit": "بديل أوسع داخل الإمارات",
+            "relationship": "related_area",
+            "district_name": "Jumeirah Village Circle",
+            "district_slug": "jumeirah-village-circle"
+          }
+        ],
+        "title": "أحياء ذات صلة",
+        "eyebrow": "سياق المنطقة"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "تعتمد أسعار استوديوهات في Umm Al Quwain Marina على المساحة القابلة للاستخدام وكفاءة التخطيط والطابق والإطلالة وجودة المبنى ورسوم الخدمات. قد تؤثر الفروق الصغيرة في التخطيط القابل للاستخدام والتخزين وجودة المبنى بصورة ملموسة في قيمة الوحدة المدمجة. عند مقارنة إجمالي تكلفة الملكية، أدرج رسوم الخدمات والتأثيث والمواقف وشروط الدفع وتكاليف التشغيل. ينبغي أن تستند الميزانية الواقعية إلى أسعار المشاريع الحالية مع احتساب جميع تكاليف الملكية المتكررة.",
+        "tags": [
+          "المساحة القابلة للاستخدام",
+          "كفاءة التخطيط",
+          "رسوم الخدمات",
+          "ملاءمة التأجير",
+          "التحقق من السعر"
+        ],
+        "title": "كيف تختلف الأسعار",
+        "eyebrow": "واقع الأسعار"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "rental",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 4,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 0,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 12,
+        "same_city_item_count": 2,
+        "semantic_profile_key": "studios",
+        "wider_uae_item_count": 1,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "umm-al-quwain-marina",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 12
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "siniyah-island",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 6
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "al-raudah",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 1
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "jumeirah-village-circle",
+            "location_scope": "wider_uae",
+            "selection_method": "wider_uae_route_fallback",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 214
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 0,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "بالنسبة إلى استوديوهات في Umm Al Quwain Marina، قارن التخطيط القابل للاستخدام وتكلفة الملكية وجودة المبنى وعمق قاعدة المشترين.",
+          "title": "تحقق من عمق الطلب على الوحدات الصغيرة",
+          "eyebrow": "منطق الاستثمار"
+        },
+        {
+          "text": "التخزين ومسارات الحركة والضوء الطبيعي ومناطق الأثاث القابلة للاستخدام أهم من المساحة المعلنة وحدها.",
+          "title": "التخطيط القابل للاستخدام هو الأهم",
+          "eyebrow": "منطق نمط الحياة"
+        },
+        {
+          "text": "قارن المطور العقاري وحالة المشروع وتوقيت التسليم والمخطط والرسوم وإجمالي تكلفة الملكية قبل اتخاذ القرار.",
+          "title": "انخفاض سعر الدخول قد يخفي ضعف قابلية الاستخدام",
+          "eyebrow": "ملاحظات المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة استوديوهات في Umm Al Quwain Marina بحسب هدف المشتري وحالة المشروع وشروط الدفع وتكلفة الملكية وأولويات الاستخدام اليومي.",
+          "title": "ابحث عن أفضل ملاءمة للوحدات الصغيرة",
+          "eyebrow": "سياق AI"
+        }
+      ],
+      "cards_aria": "ملاحظات القرار لنوع العقار",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_studios_umm_al_quwain_marina_en",
+        "context_focus": "rental",
+        "district_slug": "umm-al-quwain-marina",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/stamn-yuni/",
+            "meta": "Al Satwa",
+            "label": "Stamn Yuni"
+          },
+          {
+            "href": "/ar/projects/diamondz/",
+            "meta": "Jumeirah Lake Towers",
+            "label": "Diamondz"
+          },
+          {
+            "href": "/ar/projects/the-gate-masdar-city/",
+            "meta": "Masdar City",
+            "label": "The Gate Masdar City"
+          },
+          {
+            "href": "/ar/projects/boutique-phase-12/",
+            "meta": "Culture Village",
+            "label": "Boutique Phase 12"
+          },
+          {
+            "href": "/ar/projects/azizi-wasel/",
+            "meta": "Dubai Islands",
+            "label": "Azizi Wasel"
+          }
+        ],
+        "title": "مشاريع موصى بها",
+        "eyebrow": "خيارات أوسع في الإمارات"
+      },
+      "pros_cons": {
+        "title": "الإيجابيات والسلبيات",
+        "eyebrow": "فحص الواقعية",
+        "cons_items": [
+          "قد لا يناسب محدودية التخزين والفصل الداخلي السكن طويل الأجل.",
+          "في Umm Al Quwain Marina، قد يختلف طلب المستأجرين بحسب المبنى وحجم المعروض المنافس.",
+          "يمكن للمعروض المنافس أن يضعف القدرة التسعيرية للوحدات المتشابهة."
+        ],
+        "cons_title": "السلبيات",
+        "pros_items": [
+          "يمكن للتخطيطات المدمجة أن تخفض تكلفة الدخول وتبسط التأثيث.",
+          "في Umm Al Quwain Marina، قارن ملاءمة المستأجر والتخطيط والتكاليف المتكررة بين المباني.",
+          "يمكن لتموضع واضح للمستأجر المستهدف أن يساعد الوحدة على المنافسة بفعالية أكبر."
+        ],
+        "pros_title": "الإيجابيات"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_studios_umm_al_quwain_marina_en",
+        "district_slug": "umm-al-quwain-marina",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "rental",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "uae_strong_type",
+            "project_name": "Stamn Yuni",
+            "project_slug": "stamn-yuni",
+            "project_route": "/ar/projects/stamn-yuni/",
+            "developer_name": "Stamn Real Estate Development",
+            "developer_slug": "stamn-real-estate-development",
+            "location_score": 1,
+            "project_district_name": "Al Satwa",
+            "project_district_slug": "al-satwa"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "uae_strong_type",
+            "project_name": "Diamondz",
+            "project_slug": "diamondz",
+            "project_route": "/ar/projects/diamondz/",
+            "developer_name": "Danube Properties",
+            "developer_slug": "danube-properties",
+            "location_score": 1,
+            "project_district_name": "Jumeirah Lake Towers",
+            "project_district_slug": "jumeirah-lake-towers"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "uae_strong_type",
+            "project_name": "The Gate Masdar City",
+            "project_slug": "the-gate-masdar-city",
+            "project_route": "/ar/projects/the-gate-masdar-city/",
+            "developer_name": "Reportage Real Estate",
+            "developer_slug": "reportage-real-estate",
+            "location_score": 1,
+            "project_district_name": "Masdar City",
+            "project_district_slug": "masdar-city"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "uae_strong_type",
+            "project_name": "Boutique Phase 12",
+            "project_slug": "boutique-phase-12",
+            "project_route": "/ar/projects/boutique-phase-12/",
+            "developer_name": "Structure Real Estate Development",
+            "developer_slug": "structure-real-estate-development",
+            "location_score": 1,
+            "project_district_name": "Culture Village",
+            "project_district_slug": "culture-village"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "uae_strong_type",
+            "project_name": "Azizi Wasel",
+            "project_slug": "azizi-wasel",
+            "project_route": "/ar/projects/azizi-wasel/",
+            "developer_name": "Azizi Developments",
+            "developer_slug": "azizi-developments",
+            "location_score": 1,
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          }
+        ],
+        "canonical_url_path": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+        "property_type_slug": "studios",
+        "semantic_profile_key": "studios",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "quality_patch_completed": true,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/ar/property-types/one-bedroom-apartments-in-umm-al-quwain-marina/",
+          "label": "شقق بغرفة نوم واحدة في Umm Al Quwain Marina"
+        },
+        {
+          "href": "/ar/property-types/apartments-in-umm-al-quwain-marina/",
+          "label": "شقق في Umm Al Quwain Marina"
+        },
+        {
+          "href": "/ar/property-types/hotel-apartments-in-umm-al-quwain-marina/",
+          "label": "شقق فندقية في Umm Al Quwain Marina"
+        },
+        {
+          "href": "/ar/property-types/serviced-apartments-in-umm-al-quwain-marina/",
+          "label": "شقق مخدومة في Umm Al Quwain Marina"
+        }
+      ],
+      "title": "أنواع عقارات مشابهة",
+      "eyebrow": "خيارات ذات صلة",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "1 Bedroom Apartments in Umm Al Quwain Marina",
+            "target_route": "/ar/property-types/one-bedroom-apartments-in-umm-al-quwain-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "one_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "Apartments in Umm Al Quwain Marina",
+            "target_route": "/ar/property-types/apartments-in-umm-al-quwain-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Hotel Apartments in Umm Al Quwain Marina",
+            "target_route": "/ar/property-types/hotel-apartments-in-umm-al-quwain-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "hotel_apartment"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1325,
+            "target_label": "Serviced Apartments in Umm Al Quwain Marina",
+            "target_route": "/ar/property-types/serviced-apartments-in-umm-al-quwain-marina/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "serviced_apartment"
+          }
+        ],
+        "source_route": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "يمكن مقارنة استوديوهات في Umm Al Quwain Marina من حيث كفاءة التخطيط والمساحة القابلة للاستخدام وجودة المبنى ورسوم الخدمات. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+          "question": "ما الذي يجب معرفته عن استوديوهات في Umm Al Quwain Marina؟"
+        },
+        {
+          "answer": "في Umm Al Quwain Marina، قد تناسب هذه الصفحة المشترين الذين يريدون مساحة مدمجة مع تكلفة دخول وإدارة أبسط، وكذلك المستخدمون الفرديون أو المستثمرون الذين يركزون على الكفاءة وسهولة التأثيث. ينبغي أن يعكس الاختيار النهائي ملاءمة المستأجر والتكاليف المتكررة وحجم المعروض المنافس.",
+          "question": "لمن قد يناسب استوديوهات في Umm Al Quwain Marina؟"
+        },
+        {
+          "answer": "من المزايا الرئيسية: يمكن للتخطيطات المدمجة أن تخفض تكلفة الدخول وتبسط التأثيث. ومن المفاضلات الرئيسية: قد لا يناسب محدودية التخزين والفصل الداخلي السكن طويل الأجل. في Umm Al Quwain Marina، قارن ملاءمة المستأجر والتخطيط والتكاليف المتكررة بين المباني. ومن الاعتبارات المحلية الإضافية: في Umm Al Quwain Marina، قد يختلف طلب المستأجرين بحسب المبنى وحجم المعروض المنافس.",
+          "question": "ما أبرز المزايا والمفاضلات عند مقارنة استوديوهات في Umm Al Quwain Marina؟"
+        },
+        {
+          "answer": "تشمل المشاريع المعروضة للمقارنة في هذه الصفحة Stamn Yuni، Diamondz، The Gate Masdar City. ويمكن أيضًا مراجعة شقق بغرفة نوم واحدة في Umm Al Quwain Marina وشقق في Umm Al Quwain Marina لاختبار نوع عقار مختلف في السوق نفسه أو بالقرب منه. هذه الروابط تدعم التنقل والمقارنة فقط، ولا تمثل ترتيبًا أو تأكيدًا للتوافر الحالي.",
+          "question": "ما الذي يمكن للمشترين مقارنته إلى جانب استوديوهات في Umm Al Quwain Marina؟"
+        },
+        {
+          "answer": "قد تتغير الأسعار وتوافر الوحدات والرسوم وخطط الدفع وتفاصيل التسليم. بالنسبة إلى استوديوهات في Umm Al Quwain Marina، تحقق من التخطيط والمساحة الداخلية وحالة المبنى ورسوم الخدمات وحالة الوحدة وشروط الدفع بالرجوع إلى المواد الرسمية للمطور العقاري والفحوصات الحالية لدى المستشار. يمكن لـ Primadom AI تنظيم المقارنة، لكن يجب التحقق من الشروط التجارية الحالية قبل اتخاذ القرار.",
+          "question": "كيف ينبغي التحقق من الأسعار والتوافر لـ استوديوهات في Umm Al Quwain Marina؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن نوع العقار",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "rental",
+        "semantic_profile_key": "studios",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "ينبغي استخدام المعلومات عن استوديوهات في Umm Al Quwain Marina كدليل للمقارنة لا كعرض حي. قبل اتخاذ القرار، تحقق من تفاصيل المشروع والوحدة والتخطيط والتكاليف المتكررة والسعر والتوافر الحاليين وشروط الدفع وحالة التسليم أو الإنجاز وإجمالي تكاليف الملكية مع المطور أو مستشار معتمد.",
+      "items": [
+        {
+          "label": "تفاصيل العقار",
+          "value": "تحقق من التخطيط والمساحة وتفاصيل المبنى"
+        },
+        {
+          "label": "السعر والتوافر",
+          "value": "تحقق من الشروط الحالية للوحدة"
+        },
+        {
+          "label": "الرسوم وتكاليف الملكية",
+          "value": "راجع تكاليف الاحتفاظ والتكاليف المتكررة"
+        },
+        {
+          "label": "الدفع والتسليم",
+          "value": "تحقق من الحالة والتواريخ وشروط العقد"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "قبل اتخاذ القرار",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "اطلب من Primadom AI مقارنة استوديوهات في Umm Al Quwain Marina بحسب المشروع والموقع والميزانية وتكاليف الملكية وهدف المشتري، ثم راجع الخيارات المناسبة مع مستشار.",
+      "title": "هل تبحث عن استوديوهات في Umm Al Quwain Marina؟",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "اعثر على الخيارات المناسبة",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "studios",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "نموذج استفسار عن نوع العقار",
+      "text": "شارك تفضيلاتك بشأن استوديوهات في Umm Al Quwain Marina. سينظم Primadom AI الطلب حول نوع العقار والمشروع والموقع والتكاليف والاستخدام العملي قبل أن يراجعه مستشار.",
+      "title": "اعثر على استوديوهات في Umm Al Quwain Marina",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "أبحث عن خيارات مناسبة من استوديوهات في هذه الصفحة.",
+      "eyebrow": "متابعة أداة البحث مع AI",
+      "success": "تم الإرسال",
+      "section_id": "property-type-lead-modal",
+      "close_label": "إغلاق",
+      "source_meta": {
+        "source_route": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+        "source_page_id": "page_property_district_studios_umm_al_quwain_marina_en",
+        "shortlist_claim": false,
+        "context_focus_key": "rental",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "studios",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "الاسم",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "يساعد Primadom AI المشترين على مقارنة استوديوهات في Umm Al Quwain Marina بحسب المشروع والموقع والتخطيط وتكاليف الملكية والملاءمة العملية قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "استوديوهات في Umm Al Quwain Marina، مرتبطة بالمشاريع وسيناريوهات المشترين",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/ar/property-types/studios-in-umm-al-quwain-marina/",
+        "source_page_id": "page_property_district_studios_umm_al_quwain_marina_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "rental",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "studios",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

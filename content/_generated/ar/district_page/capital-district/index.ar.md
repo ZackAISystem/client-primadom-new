@@ -1,0 +1,10 @@
+---
+title: "دليل منطقة Capital District"
+layout: "primadom-district-page-v2"
+district_slug: "capital-district"
+page_id: "page_district_capital_district_ar"
+url: "/ar/areas/capital-district/"
+build:
+  render: always
+  list: never
+---

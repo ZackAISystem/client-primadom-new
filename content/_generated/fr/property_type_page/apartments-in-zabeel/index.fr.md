@@ -1,0 +1,10 @@
+---
+title: "Appartements à Zabeel"
+layout: "primadom-property-type-page-v2"
+property_type_slug: "apartments-in-zabeel"
+page_id: "page_property_district_apartments_zabeel_fr"
+url: "/fr/property-types/apartments-in-zabeel/"
+build:
+  render: always
+  list: never
+---

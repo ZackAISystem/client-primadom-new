@@ -34,7 +34,30 @@ enableRobotsTXT = true
     disabled = false
     contentDir = "content"
 
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es"
+    weight = 6
+    disabled = false
+    contentDir = "content"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[languages.fr]
+  languageName = "Français"
+  languageCode = "fr"
+  weight = 7
+  disabled = false
+  contentDir = "content"
+
+[languages.de]
+  languageName = "Deutsch"
+  languageCode = "de"
+  weight = 8
+  disabled = false
+  contentDir = "content"
+

@@ -1,0 +1,10 @@
+---
+title: "Faradis Tower مقابل Sharjah Terraces"
+layout: "primadom-project-comparison-page-v2"
+comparison_slug: "faradis-tower-vs-sharjah-terraces"
+page_id: "project_comparison__faradis-tower__vs__sharjah-terraces__ar"
+url: "/ar/compare-projects/faradis-tower-vs-sharjah-terraces/"
+build:
+  render: always
+  list: never
+---

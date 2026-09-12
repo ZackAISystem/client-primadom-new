@@ -13,6 +13,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $aiAnswerData = index $zhData "ai_answer_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $aiAnswerData = index $esData "ai_answer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $aiAnswerData = index $frData "ai_answer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $aiAnswerData = index $deData "ai_answer_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $aiAnswerData = index $arData "ai_answer_pages" -}}
+{{- end -}}
 {{- $page := index $aiAnswerData $slug -}}
 
 {{- if not $page -}}

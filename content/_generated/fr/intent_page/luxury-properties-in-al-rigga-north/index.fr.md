@@ -1,0 +1,10 @@
+---
+title: "Biens haut de gamme à Al Rigga North"
+layout: "primadom-intent-page-v2"
+intent_slug: "luxury-properties-in-al-rigga-north"
+page_id: "intent__luxury-properties__district__al-rigga-north__fr"
+url: "/fr/intents/luxury-properties-in-al-rigga-north/"
+build:
+  render: always
+  list: never
+---

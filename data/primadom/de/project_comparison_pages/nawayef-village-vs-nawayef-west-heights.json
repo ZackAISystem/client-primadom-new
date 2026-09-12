@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__nawayef-village__vs__nawayef-west-heights__de",
+  "page_type_id": "project_comparison_page",
+  "language_code": "de",
+  "url_path": "/de/compare-projects/nawayef-village-vs-nawayef-west-heights/",
+  "canonical_url_path": "/de/compare-projects/nawayef-village-vs-nawayef-west-heights/",
+  "canonical_group_key": "project_comparison:nawayef-village:vs:nawayef-west-heights",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "nawayef-village",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Meinen Fall vergleichen",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Überblick",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projekte"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Vergleichen"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "AI fragen"
+        }
+      ],
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation zum Projektvergleich",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/de/compare-projects/",
+          "label": "Projektvergleiche"
+        },
+        {
+          "key": "comparison",
+          "href": "/de/compare-projects/nawayef-village-vs-nawayef-west-heights/",
+          "label": "Nawayef Village vs Nawayef West Heights",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Projekt A: Nawayef Village",
+        "Projekt B: Nawayef West Heights",
+        "Vergleich in Al Hudayriyat Island",
+        "Beide von Modon Properties",
+        "Bauträger- und Produktkontext"
+      ],
+      "title": "Nawayef Village vs Nawayef West Heights",
+      "subtitle": "Für die Vorauswahl in Al Hudayriyat Island sollten Immobilienangebot, Schlafzimmerbandbreite, Preisstand, Übergabe und Käuferprofil gemeinsam betrachtet werden.",
+      "project_a": {
+        "name": "Nawayef Village",
+        "slug": "nawayef-village",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Nawayef West Heights",
+        "slug": "nawayef-west-heights",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Wichtiger Kontext für Nawayef Village und Nawayef West Heights",
+      "section_id": "overview",
+      "visual_aria": "Vergleichsdarstellung für Nawayef Village und Nawayef West Heights",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Fragen Sie nach Preis, Einheitenmix, Übergabe oder Eignung für Käufer.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Nawayef Village oder Nawayef West Heights – was passt besser?",
+        "Preis, Einheiten und Übergabe vergleichen",
+        "Was sollte ich vor der Auswahl prüfen?"
+      ],
+      "title": "Nawayef Village und Nawayef West Heights vergleichen",
+      "ai_aria": "Primadom AI bitten, Nawayef Village und Nawayef West Heights zu vergleichen",
+      "eyebrow": "AI fragen",
+      "prompts": [
+        "Vergleiche Nawayef Village und Nawayef West Heights für mein Kaufziel. Prüfe den verfügbaren Preiskontext, Immobilientypen, Schlafzimmerbandbreite und Übergabe und kennzeichne klar, was aktuell bestätigt werden muss.",
+        "Vergleiche Nawayef Village und Nawayef West Heights nach Einstiegspreis, Einheitentypen, Schlafzimmerbandbreite und geplanter Übergabe. Weise fehlende oder nicht verifizierte Angaben klar aus.",
+        "Was sollte ein Käufer vor der Wahl zwischen Nawayef Village und Nawayef West Heights prüfen? Berücksichtige aktuelle Preise, Verfügbarkeit, Zahlungsbedingungen, Übergabestatus und die Eignung für das Käuferziel."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "input_aria": "AI-Frage zum Projektvergleich",
+      "section_id": "compare-ai-search",
+      "voice_text": "Zu diesem Projektvergleich fragen",
+      "placeholder": "AI bitten, diese beiden Projekte zu vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "button_label": "Fragen",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "ai_voice_text": "Nawayef Village und Nawayef West Heights für mein Kaufziel vergleichen",
+      "ai_placeholder": "AI bitten, diese beiden Projekte zu vergleichen",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Hört zu…",
+      "form_aria_label": "Primadom AI bitten, Nawayef Village und Nawayef West Heights zu vergleichen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Gleiches Gebiet",
+        "Gleicher Bauträger",
+        "AED 4.1M vs AED 20M",
+        "2029 vs 2026 Übergabe"
+      ],
+      "title": "Kurze Empfehlung",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Nawayef Village</strong> kann eher zu Käufern passen, die den niedrigeren erfassten Einstiegspreis priorisieren; <strong>Nawayef West Heights</strong> eher zu Käufern, die den früheren erfassten Übergabezeitpunkt in den Vordergrund stellen. <strong>Nawayef Village</strong> umfasst Reihenhäuser und Villen mit 3–5 Schlafzimmern. Als Einstiegspreis ist AED 4.1M erfasst. Die Übergabe ist für 2029 erfasst. <strong>Nawayef West Heights</strong> umfasst Apartments und Villen mit 5–7 Schlafzimmern. Als Einstiegspreis ist AED 20M erfasst. Die Übergabe ist für 2026 erfasst.",
+      "body_text": "Nawayef Village kann eher zu Käufern passen, die den niedrigeren erfassten Einstiegspreis priorisieren; Nawayef West Heights eher zu Käufern, die den früheren erfassten Übergabezeitpunkt in den Vordergrund stellen. Nawayef Village umfasst Reihenhäuser und Villen mit 3–5 Schlafzimmern. Als Einstiegspreis ist AED 4.1M erfasst. Die Übergabe ist für 2029 erfasst. Nawayef West Heights umfasst Apartments und Villen mit 5–7 Schlafzimmern. Als Einstiegspreis ist AED 20M erfasst. Die Übergabe ist für 2026 erfasst.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Projekt A",
+          "value": "Nawayef Village"
+        },
+        {
+          "label": "Projekt B",
+          "value": "Nawayef West Heights"
+        },
+        {
+          "label": "Gebietskontext",
+          "value": "Beide in Al Hudayriyat Island"
+        },
+        {
+          "label": "Bauträgerkontext",
+          "value": "Beide von Modon Properties"
+        },
+        {
+          "label": "Startpreis",
+          "value": "AED 4.1M vs AED 20M"
+        },
+        {
+          "label": "Immobilientypen",
+          "value": "Reihenhaus · Villa vs Apartment · Villa"
+        },
+        {
+          "label": "Schlafzimmer",
+          "value": "3–5 Schlafzimmer vs 5–7 Schlafzimmer"
+        },
+        {
+          "label": "Übergabe",
+          "value": "2029 vs 2026"
+        }
+      ],
+      "title": "Vergleichsdetails",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Nawayef Village",
+          "slug": "nawayef-village",
+          "text": "Nawayef Village ist in Al Hudayriyat Island bei Modon Properties auf Wohnen am Wasser ausgerichtet. Nawayef Village umfasst Reihenhäuser und Villen mit 3–5 Schlafzimmern. Als Einstiegspreis ist AED 4.1M erfasst. Die Übergabe ist für 2029 erfasst. Das aktuelle Eignungsprofil richtet sich an Käufer, die die Immobilie als Hauptwohnsitz nutzen möchten.",
+          "points": [
+            "Al Hudayriyat Island · Von Modon Properties",
+            "Reihenhaus · Villa · 3–5 Schlafzimmer",
+            "Ab AED 4.1M · Übergabe 2029"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Nawayef West Heights",
+          "slug": "nawayef-west-heights",
+          "text": "Nawayef West Heights ist in Al Hudayriyat Island bei Modon Properties auf Wohnen am Wasser ausgerichtet. Nawayef West Heights umfasst Apartments und Villen mit 5–7 Schlafzimmern. Als Einstiegspreis ist AED 20M erfasst. Die Übergabe ist für 2026 erfasst. Das aktuelle Eignungsprofil richtet sich an Käufer, die ein familienorientiertes Zuhause suchen.",
+          "points": [
+            "Al Hudayriyat Island · Von Modon Properties",
+            "Apartment · Villa · 5–7 Schlafzimmer",
+            "Ab AED 20M · Übergabe 2026"
+          ]
+        }
+      ],
+      "title": "Projektzusammenfassungen",
+      "eyebrow": "Auf einen Blick",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Beide Projekte liegen in Al Hudayriyat Island; die Lage auf Gebietsebene ist daher weniger trennscharf. Beide Projekte sind Modon Properties zugeordnet. Die erfassten Einstiegspreise liegen bei AED 4.1M für Nawayef Village und AED 20M für Nawayef West Heights. Nawayef Village führt Reihenhäuser und Villen, Nawayef West Heights Apartments und Villen. Die Übergabe ist für 2029 bei Nawayef Village und für 2026 bei Nawayef West Heights erfasst.",
+        "tags": [
+          "Gleiches Gebiet",
+          "Gleicher Bauträger",
+          "Erfasster Preisunterschied",
+          "Unterschiedlicher Immobilienmix",
+          "Aktuelle Verfügbarkeit"
+        ],
+        "title": "Logik auf Projektebene",
+        "eyebrow": "So vergleichen Sie"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Faktor",
+        "project_a": "Nawayef Village",
+        "project_b": "Nawayef West Heights"
+      },
+      "rows": [
+        {
+          "factor": "Startpreis",
+          "project_a": "Ab AED 4.1M",
+          "project_b": "Ab AED 20M"
+        },
+        {
+          "factor": "Lage",
+          "project_a": "Al Hudayriyat Island",
+          "project_b": "Al Hudayriyat Island"
+        },
+        {
+          "factor": "Bauträger",
+          "project_a": "Modon Properties",
+          "project_b": "Modon Properties"
+        },
+        {
+          "factor": "Immobilientypen",
+          "project_a": "Reihenhaus · Villa",
+          "project_b": "Apartment · Villa"
+        },
+        {
+          "factor": "Schlafzimmer",
+          "project_a": "3–5 Schlafzimmer",
+          "project_b": "5–7 Schlafzimmer"
+        },
+        {
+          "factor": "Übergabe",
+          "project_a": "2029",
+          "project_b": "2026"
+        },
+        {
+          "factor": "Projektprofil",
+          "project_a": "Wohnen am Wasser",
+          "project_b": "Wohnen am Wasser"
+        }
+      ],
+      "title": "Projektvergleichstabelle",
+      "eyebrow": "Nawayef Village vs Nawayef West Heights",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Die erfassten Einstiegspreise liegen bei AED 4.1M für Nawayef Village und AED 20M für Nawayef West Heights. Vergleichen Sie möglichst gleichartige Einheiten nach Typ, Größe, Etage, Aussicht und Gesamtkosten.",
+          "title": "Preise und Einheiten vergleichen",
+          "eyebrow": "Preis & Einheiten",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Beide Projekte liegen in Al Hudayriyat Island. Vergleichen Sie Erreichbarkeit, Gebäude- oder Grundstückslage, umliegendes Angebot und Alltagstauglichkeit.",
+          "title": "Gleiches Gebiet, Mikrolage vergleichen",
+          "eyebrow": "Eignung der Lage",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Die erfassten Übergabejahre sind 2029 für Nawayef Village und 2026 für Nawayef West Heights. Vergleichen Sie Baufortschritt, geplante Nutzung und mögliche Aktualisierungen des Zeitplans.",
+          "title": "Übergabezeiträume prüfen",
+          "eyebrow": "Zeitrahmen",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Bitten Sie Primadom AI, Nawayef Village und Nawayef West Heights nach Einheitentyp, erfasstem Preis, Lage, Übergabe und geplanter Nutzung zu vergleichen und die wichtigsten Fragen für einen Berater vorzubereiten.",
+          "title": "Nach Ihrem Ziel vergleichen",
+          "eyebrow": "AI fragen",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Entscheidungshinweise zum Projektvergleich"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Für wen sich welches Projekt eignet",
+        "eyebrow": "Eignung für Käufer",
+        "project_a_items": [
+          "Sie möchten einen erfassten Einstiegspreis von AED 4.1M als Ausgangspunkt nutzen und den aktuellen Preis der konkreten Einheit bestätigen.",
+          "Sie bevorzugen Wohnen am Wasser in Al Hudayriyat Island für Ihre geplante Nutzung.",
+          "Sie suchen Reihenhäuser und Villen mit 3–5 Schlafzimmern und berücksichtigen den für 2029 erfassten Übergabezeitpunkt in Ihrer Planung."
+        ],
+        "project_a_title": "Nawayef Village wählen, wenn",
+        "project_b_items": [
+          "Sie möchten einen erfassten Einstiegspreis von AED 20M als Ausgangspunkt nutzen und den aktuellen Preis der konkreten Einheit bestätigen.",
+          "Sie bevorzugen Wohnen am Wasser in Al Hudayriyat Island für Ihre geplante Nutzung.",
+          "Sie suchen Apartments und Villen mit 5–7 Schlafzimmern und berücksichtigen den für 2026 erfassten Übergabezeitpunkt in Ihrer Planung."
+        ],
+        "project_b_title": "Nawayef West Heights wählen, wenn"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Beide Projekte liegen in Al Hudayriyat Island; die Lage auf Gebietsebene ist daher weniger trennscharf. Beide Projekte sind Modon Properties zugeordnet. Die erfassten Einstiegspreise liegen bei AED 4.1M für Nawayef Village und AED 20M für Nawayef West Heights. Nawayef Village führt Reihenhäuser und Villen, Nawayef West Heights Apartments und Villen. Die Übergabe ist für 2029 bei Nawayef Village und für 2026 bei Nawayef West Heights erfasst.",
+        "tags": [
+          "Erfasster Preisunterschied",
+          "Gleiches Gebiet",
+          "Erfasster Einheitenmix",
+          "Unterschiedliche Übergabezeiten",
+          "Gesamtkosten prüfen"
+        ],
+        "title": "Investitionslogik",
+        "eyebrow": "Entscheidungslogik"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/de/compare-projects/al-naseem-villas-vs-nawayef-village/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Al Naseem Villas vs Nawayef Village",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/al-naseem-villas-vs-nawayef-west-heights/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Al Naseem Villas vs Nawayef West Heights",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/bashayer-villas-vs-nawayef-village/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Bashayer Villas vs Nawayef Village",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/bashayer-villas-vs-nawayef-west-heights/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Bashayer Villas vs Nawayef West Heights",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Weitere Projektvergleiche",
+        "eyebrow": "Weiter erkunden"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/de/projects/nawayef-village/",
+            "meta": "Projekt A",
+            "label": "Projektseite Nawayef Village",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/de/projects/nawayef-west-heights/",
+            "meta": "Projekt B",
+            "label": "Projektseite Nawayef West Heights",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/de/developers/modon-properties/",
+            "meta": "Bauträger",
+            "label": "Bauträgerseite Modon Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Projektseiten öffnen",
+        "eyebrow": "Projektseiten"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Teilen Sie diese Angaben, um Nawayef Village und Nawayef West Heights anhand derselben Prioritäten zu vergleichen. Erfasste Projektdaten helfen bei der Vorauswahl; konkrete Einheiten, aktuelle Preise und Verfügbarkeit müssen weiterhin aktuell geprüft werden.",
+      "items": [
+        {
+          "meta": "AED-Bereich oder maximaler Einstiegspreis",
+          "label": "Preisspanne"
+        },
+        {
+          "meta": "Reihenhäuser / Villen / Apartments",
+          "label": "Einheitentyp"
+        },
+        {
+          "meta": "Eigenheim / Zweitwohnsitz / Investition am Wasser",
+          "label": "Ziel des Käufers"
+        },
+        {
+          "meta": "Bevorzugter Zeitrahmen um 2026–2029",
+          "label": "Zeitrahmen"
+        },
+        {
+          "meta": "Aussicht / Privatsphäre / Zugang zum Wasser",
+          "label": "Wichtigste Präferenz"
+        }
+      ],
+      "title": "Vergleichsdaten für AI",
+      "eyebrow": "Nützliche Details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Nawayef Village kann eher zu Käufern passen, die den niedrigeren erfassten Einstiegspreis priorisieren; Nawayef West Heights eher zu Käufern, die den früheren erfassten Übergabezeitpunkt in den Vordergrund stellen. Nawayef Village umfasst Reihenhäuser und Villen mit 3–5 Schlafzimmern. Als Einstiegspreis ist AED 4.1M erfasst. Die Übergabe ist für 2029 erfasst. Nawayef West Heights umfasst Apartments und Villen mit 5–7 Schlafzimmern. Als Einstiegspreis ist AED 20M erfasst. Die Übergabe ist für 2026 erfasst. Die bessere Eignung hängt von Ihrer geplanten Nutzung und der konkret verfügbaren Einheit zum Zeitpunkt des Vergleichs ab.",
+          "question": "Welches Projekt kann besser zu mir passen: Nawayef Village oder Nawayef West Heights?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Nawayef Village hat mit AED 4.1M den niedrigeren erfassten Einstiegspreis gegenüber AED 20M bei Nawayef West Heights. Für einen belastbaren Vergleich müssen die aktuellen Preise derselben Einheitengröße und die Gesamtkosten geprüft werden.",
+          "question": "Welches Projekt hat den niedrigeren erfassten Einstiegspreis?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Beide Projekte liegen in Al Hudayriyat Island. Beide Projekte sind Modon Properties zugeordnet.",
+          "question": "Wie unterscheiden sich Nawayef Village und Nawayef West Heights nach Lage und Bauträger?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Nawayef Village führt Reihenhäuser und Villen mit 3–5 Schlafzimmern. Die Übergabe ist für 2029 erfasst. Nawayef West Heights führt Apartments und Villen mit 5–7 Schlafzimmern. Die Übergabe ist für 2026 erfasst.",
+          "question": "Welche Immobilientypen, Schlafzimmerbandbreiten und Übergabejahre sind erfasst?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Die endgültige Vorauswahl zwischen Nawayef Village und Nawayef West Heights sollte auf der konkreten Einheit, dem aktuellen Preis, Zahlungsbedingungen, gesamten Erwerbskosten, Grundriss, Aussicht, Projektstatus, Übergabe und Verfügbarkeit beruhen. Projektdaten sind für die Vorauswahl nützlich, ersetzen aber keine aktuelle Prüfung auf Einheitenebene.",
+          "question": "Was sollte ich vor der Wahl zwischen Nawayef Village und Nawayef West Heights prüfen?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zu Projekten",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Nutzen Sie diese Seite als Ausgangspunkt für den Vergleich von Nawayef Village und Nawayef West Heights. Erfasste Angaben können sich ändern und ersetzen weder aktuelle Bauträgerunterlagen noch öffentliche Register. Bestätigen Sie aktuelle Preise, verfügbare Einheiten, Zahlungsbedingungen, Grundrisse, Servicegebühren, Übergabedetails und Projektstatus vor einer Entscheidung.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Zahlungsbedingungen",
+          "value": "Aktuelle Unterlagen prüfen"
+        },
+        {
+          "label": "Übergabe / Status",
+          "value": "Aktuellen Status bestätigen"
+        },
+        {
+          "label": "Inhalt aktualisiert",
+          "value": "Juli 2026"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Überprüfung",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Beide Projekte liegen in Al Hudayriyat Island; daher ist die Lage auf Gebietsebene weniger trennscharf. Die erfassten Einstiegspreise liegen bei AED 4.1M für Nawayef Village und AED 20M für Nawayef West Heights. Die erfassten Übergabejahre sind 2029 für Nawayef Village und 2026 für Nawayef West Heights.",
+      "title": "Möchten Sie Nawayef Village und Nawayef West Heights für Ihren Fall vergleichen?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Primadom AI fragen",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Meinen Fall vergleichen",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Anfrageformular zum Projektvergleich",
+      "text": "Teilen Sie Ihre Präferenzen und Kontaktdaten mit. Primadom AI bereitet einen fokussierten Vergleich vor, bevor ein Berater Sie kontaktiert.",
+      "error": "Bitte versuchen Sie es erneut",
+      "title": "Nawayef Village und Nawayef West Heights für Ihren Fall vergleichen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Diese Projekte nach Einheitentyp, Aussicht, aktuellen Bedingungen, Zeitrahmen und Käuferziel vergleichen.",
+      "eyebrow": "Vergleich mit AI fortsetzen",
+      "success": "Anfrage gesendet",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Schließen",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "phone": "+971",
+        "comment": "Nützliche Details ergänzen"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__nawayef-village__vs__nawayef-west-heights__de",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Nawayef Village",
+        "project_a_slug": "nawayef-village",
+        "project_b_name": "Nawayef West Heights",
+        "project_b_slug": "nawayef-west-heights",
+        "canonical_url_path": "/de/compare-projects/nawayef-village-vs-nawayef-west-heights/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Senden",
+        "error": "Bitte versuchen Sie es erneut",
+        "success": "Anfrage gesendet",
+        "submitting": "Wird gesendet…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Vorbereitete Anfrage",
+        "value": "Diese Projekte nach Einheitentyp, Aussicht, aktuellen Bedingungen, Zeitrahmen und Käuferziel vergleichen.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI hilft Käufern, Projekte, Lagen, Bauträger und wichtige Entscheidungsfaktoren zu vergleichen, bevor sie mit einem Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Projektvergleich mit Bezug zum tatsächlichen Käuferziel",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social-Media-Links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "AI fragen",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

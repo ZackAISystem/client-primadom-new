@@ -28,6 +28,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $intentData = index $zhData "intent_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $intentData = index $esData "intent_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $intentData = index $frData "intent_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $intentData = index $deData "intent_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $intentData = index $arData "intent_pages" -}}
+{{- end -}}
 {{- $page := index $intentData $slug -}}
 
 {{- if not $page -}}

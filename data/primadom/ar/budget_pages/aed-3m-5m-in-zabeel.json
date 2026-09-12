@@ -1,0 +1,698 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_budget_district_aed_3m_5m_zabeel_ar",
+  "page_type_id": "budget_page",
+  "language_code": "ar",
+  "url_path": "/ar/budgets/aed-3m-5m-in-zabeel/",
+  "canonical_url_path": "/ar/budgets/aed-3m-5m-in-zabeel/",
+  "canonical_group_key": "budget_district:aed_3m_5m:zabeel",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "zabeel",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "ما يمكنك شراؤه",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "خطة الدفع",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "التكاليف",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "التنقل في صفحة الميزانية",
+      "cta_label": "تحقق من الميزانية",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "budgets",
+          "href": "/ar/budgets/",
+          "label": "الميزانيات"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/zabeel/",
+          "label": "Zabeel"
+        },
+        {
+          "key": "current",
+          "href": "/ar/budgets/aed-3m-5m-in-zabeel/",
+          "label": "عقارات ضمن AED 3M–5M في Zabeel"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "AED 3M–5M",
+        "Zabeel",
+        "جميع أنواع العقارات",
+        "وجود مشروع واحد بسعر ابتدائي ضمن النطاق",
+        "خيارات مشاريع محدودة"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "عقارات ضمن AED 3M–5M في Zabeel",
+      "subtitle": "تشير البيانات المسجلة حاليًا إلى وجود مشروع واحد ضمن النطاق بشأن عقارات في Zabeel ضمن AED 3M–5M. قارن الموقع ونوع العقار والمساحة القابلة للاستخدام وسجل المطور العقاري وحالة الإنجاز وشروط الدفع وإجمالي تكاليف الملكية. استخدم السعر الابتدائي كمرجع للمقارنة فقط، وليس كتأكيد لسعر وحدة حالية أو لتوافرها. تحقق من سعر الوحدة المحددة وشروط الدفع والحوافز والتوافر الحالي قبل إدراج أي خيار في القائمة المختصرة.",
+      "facts_aria": "أبرز معلومات صفحة الميزانية",
+      "section_id": "overview",
+      "visual_aria": "نظرة عامة على الميزانية لـ عقارات في Zabeel ضمن AED 3M–5M",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "قارن خيارات عقارية واقعية والموقع وهيكل الدفعات وتكاليف الشراء لـ عقارات في Zabeel ضمن AED 3M–5M. تتطلب الأسعار الحالية والتوافر فحصًا مباشرًا للمشروع.",
+      "hints": [
+        "ما الذي يمكن لهذه الميزانية شراؤه هنا؟",
+        "ما الذي ينبغي التحقق منه قبل إعداد القائمة المختصرة؟",
+        "ما تكاليف الشراء والملكية التي يجب احتسابها؟"
+      ],
+      "title": "تحقق مما يمكن أن تتيحه AED 3M–5M لـ العقارات في Zabeel",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "قارن أقوى الخيارات الحالية لـ عقارات في Zabeel ضمن AED 3M–5M. ركّز على الموقع والتخطيطات وحالة التسليم وسجل المطور العقاري وإجمالي تكاليف الشراء.",
+        "اشرح أهم المفاضلات لـ عقارات في Zabeel ضمن AED 3M–5M: المساحة والموقع وتوقيت التسليم وسجل المطور العقاري والرسوم ومرونة إعادة البيع.",
+        "حدد فئات تكاليف الشراء والملكية الرئيسية لـ عقارات في Zabeel ضمن AED 3M–5M دون افتراض الرسوم أو الحوافز أو التوافر الحالي."
+      ],
+      "hint_items": [
+        {
+          "label": "ما الذي يمكن لهذه الميزانية شراؤه هنا؟",
+          "prompt": "قارن أقوى الخيارات الحالية لـ عقارات في Zabeel ضمن AED 3M–5M. ركّز على الموقع والتخطيطات وحالة التسليم وسجل المطور العقاري وإجمالي تكاليف الشراء."
+        },
+        {
+          "label": "ما الذي ينبغي التحقق منه قبل إعداد القائمة المختصرة؟",
+          "prompt": "اشرح أهم المفاضلات لـ عقارات في Zabeel ضمن AED 3M–5M: المساحة والموقع وتوقيت التسليم وسجل المطور العقاري والرسوم ومرونة إعادة البيع."
+        },
+        {
+          "label": "ما تكاليف الشراء والملكية التي يجب احتسابها؟",
+          "prompt": "حدد فئات تكاليف الشراء والملكية الرئيسية لـ عقارات في Zabeel ضمن AED 3M–5M دون افتراض الرسوم أو الحوافز أو التوافر الحالي."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "اسأل عن عقارات في Zabeel ضمن AED 3M–5M",
+      "placeholder": "اسأل عن عقارات في Zabeel ضمن AED 3M–5M",
+      "voice_label": "ابدأ الإدخال الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "قارن حالتي",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_active_label": "أوقف الإدخال الصوتي",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "live_check_required": true,
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "submit_loading_label": "جارٍ سؤال AI",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي",
+      "voice_processing_label": "جارٍ معالجة الإدخال الصوتي"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "AED 3M–5M",
+        "Zabeel",
+        "أنواع عقارات متعددة",
+        "وجود مشروع واحد ضمن النطاق",
+        "تحقق من الوحدات الحالية"
+      ],
+      "title": "ما يمكنك شراؤه",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "<p><strong>تشير البيانات المسجلة حاليًا إلى وجود مشروع واحد ضمن النطاق بشأن عقارات في Zabeel ضمن AED 3M–5M.</strong> قارن الموقع ونوع العقار والمساحة القابلة للاستخدام وسجل المطور العقاري وحالة الإنجاز وشروط الدفع وإجمالي تكاليف الملكية. استخدم السعر الابتدائي كمرجع للمقارنة فقط، وليس كتأكيد لسعر وحدة حالية أو لتوافرها. تحقق من سعر الوحدة المحددة وشروط الدفع والحوافز والتوافر الحالي قبل إدراج أي خيار في القائمة المختصرة.</p>",
+      "body_text": "تشير البيانات المسجلة حاليًا إلى وجود مشروع واحد ضمن النطاق بشأن عقارات في Zabeel ضمن AED 3M–5M. قارن الموقع ونوع العقار والمساحة القابلة للاستخدام وسجل المطور العقاري وحالة الإنجاز وشروط الدفع وإجمالي تكاليف الملكية. استخدم السعر الابتدائي كمرجع للمقارنة فقط، وليس كتأكيد لسعر وحدة حالية أو لتوافرها. تحقق من سعر الوحدة المحددة وشروط الدفع والحوافز والتوافر الحالي قبل إدراج أي خيار في القائمة المختصرة.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "الميزانية",
+          "value": "AED 3M–5M"
+        },
+        {
+          "key": "market",
+          "label": "السوق",
+          "value": "Dubai"
+        },
+        {
+          "key": "area",
+          "label": "المنطقة",
+          "value": "Zabeel"
+        },
+        {
+          "key": "property_type",
+          "label": "نوع العقار",
+          "value": "أنواع عقارات متعددة"
+        },
+        {
+          "key": "current_signal",
+          "label": "المؤشر الحالي",
+          "value": "وجود مشروع واحد ضمن النطاق"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "المفاضلة الرئيسية",
+          "value": "تطابق السعر مقابل الوحدة المحددة"
+        },
+        {
+          "key": "next_check",
+          "label": "الفحص التالي",
+          "value": "أسعار الوحدات المحددة"
+        },
+        {
+          "key": "unit_status",
+          "label": "حالة الوحدة",
+          "value": "تحقق من التوافر الحالي"
+        }
+      ],
+      "title": "معايير الميزانية",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "يوجد مشروع واحد بسعر ابتدائي مسجل ضمن هذه الميزانية؛ تحقق من الوحدة المحددة والتوافر الحالي.",
+            "title": "Zabeel"
+          },
+          {
+            "text": "8 مشاريع لديها أسعار ابتدائية مسجلة ضمن هذه الميزانية؛ قارن الوحدات المحددة وتحقق من التوافر الحالي.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "6 مشاريع لديها أسعار ابتدائية مسجلة ضمن هذه الميزانية؛ قارن الوحدات المحددة وتحقق من التوافر الحالي.",
+            "title": "Nad Al Sheba"
+          },
+          {
+            "text": "5 مشاريع لديها أسعار ابتدائية مسجلة ضمن هذه الميزانية؛ قارن الوحدات المحددة وتحقق من التوافر الحالي.",
+            "title": "The Valley"
+          }
+        ],
+        "title": "أحياء للمقارنة",
+        "eyebrow": "منطق المنطقة"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "27 مشاريع لديها أسعار ابتدائية مسجلة في السوق الأوسع؛ تحقق من هذا النوع في Zabeel.",
+            "title": "شقق"
+          },
+          {
+            "text": "27 مشاريع لديها أسعار ابتدائية مسجلة في السوق الأوسع؛ تحقق من هذا النوع في Zabeel.",
+            "title": "فلل"
+          },
+          {
+            "text": "23 مشاريع لديها أسعار ابتدائية مسجلة في السوق الأوسع؛ تحقق من هذا النوع في Zabeel.",
+            "title": "تاون هاوس"
+          },
+          {
+            "text": "8 مشاريع لديها أسعار ابتدائية مسجلة في السوق الأوسع؛ تحقق من هذا النوع في Zabeel.",
+            "title": "شقق على الواجهة المائية"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "منطق نوع العقار"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "ملاحظات القرار للميزانية",
+      "items": [
+        {
+          "text": "عند الشراء في Zabeel، خصص الدفعة الأولى وتكاليف التسجيل والدفعات اللاحقة والمبلغ المطلوب عند الإنجاز.",
+          "title": "راجع توقيت الدفعات والالتزام النقدي",
+          "eyebrow": "منطق خطة الدفع"
+        },
+        {
+          "text": "قد يبدأ مشروع ضمن AED 3M–5M في Zabeel، لكن سعر الوحدة ذات الصلة قد يتغير بعد التحقق من المساحة والطابق والإطلالة وموقع الوحدة وجدول الدفع.",
+          "title": "اختبر الملاءمة العملية قبل الاختيار",
+          "eyebrow": "المفاضلات"
+        },
+        {
+          "text": "عند الشراء في Zabeel، أدرج تكاليف التسجيل والوساطة أو التمويل عند انطباقها، ورسوم الخدمات أو المجتمع، والتأثيث والصيانة.",
+          "title": "احسب التكلفة الكاملة للملكية",
+          "eyebrow": "التكاليف الخفية"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI موازنة الميزانية ونوع العقار والحي والجدول الزمني وملف المخاطر قبل أن يتحقق المستشار من الخيارات الحالية.",
+          "title": "حوّل الميزانية إلى قائمة مختصرة",
+          "eyebrow": "سياق AI"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "mixed_matches",
+        "text": "بالنسبة إلى عقارات ضمن AED 3M–5M في Zabeel، تحدد البيانات الحالية 1 من خيارات المشاريع ضمن الميزانية. تحقّق من الوحدات المحددة والأسعار الحالية والتوافر المباشر قبل تضييق القائمة.",
+        "items": [
+          {
+            "href": "/ar/projects/one-zaabeel/",
+            "meta": "مسجل ابتداءً من AED 5M",
+            "label": "One Zaabeel",
+            "item_type": "project_match",
+            "match_status": "exact_budget",
+            "project_slug": "one-zaabeel",
+            "district_name": "Zabeel",
+            "handover_year": 2023,
+            "property_type": "شقة",
+            "developer_name": "Ithra Dubai",
+            "project_page_id": "page_project_one_zaabeel_en",
+            "live_check_required": true,
+            "recorded_price_from_aed": 5000000
+          },
+          {
+            "href": "/ar/areas/zabeel/",
+            "meta": "دليل الحي",
+            "label": "استكشف المزيد من المشاريع في Zabeel",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "السعر والتوافر",
+            "label": "تحقق من الوحدات الحالية من المشاريع في Zabeel",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "فحص النطاق",
+            "label": "قارن أقرب الأسعار خارج النطاق",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "فحص الميزانية عبر AI",
+            "label": "اطلب من Primadom AI إعداد قائمة مختصرة مباشرة",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "buyer_fit": {
+        "title": "ملاءمة المشتري",
+        "eyebrow": "لمن تناسب هذه الميزانية",
+        "bad_items": [
+          "المشترون الملتزمون بحي آخر وغير الراغبين في مقارنة هذا الموقع",
+          "المشترون الذين يحتاجون إلى مخزون حالي مؤكد قبل مراجعة خيارات الأسعار الابتدائية المسجلة",
+          "المشترون غير الراغبين في احتساب رسوم التسجيل والتأثيث والتكاليف المستمرة للملكية"
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يقارنون المشاريع ضمن عقارات ضمن AED 3M–5M في Zabeel",
+          "المشترون المستعدون لمقارنة السعر الابتدائي المسجل بالوحدة المحددة وتخطيطها وموقعها",
+          "المشترون الذين يناسبهم البدء بخيار مشروع مسمى واحد قبل التحقق من الوحدات الحالية والشروط الراهنة"
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "بالنسبة إلى عقارات في Zabeel ضمن AED 3M–5M، تحدد الميزانية إطار البحث لكنها لا تحدد وحدها الخيار الأنسب. المؤشر الحالي هو وجود مشروع واحد ضمن النطاق. الفحص التالي المفيد هو أسعار الوحدات المحددة. قارن السعر مع ملاءمة العقار وتوقيت الشراء وإجمالي الالتزام النقدي والتكاليف المستمرة، ثم تحقق من الوحدة والشروط الحالية قبل تضييق القائمة.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "سعر الوحدة المحددة",
+          "صيغة العقار",
+          "فحص الوحدة المحددة",
+          "إجمالي الالتزام النقدي",
+          "التكاليف المستمرة"
+        ],
+        "title": "المفاضلات",
+        "eyebrow": "فحص الواقعية"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "السعر المعلن ليس سوى جزء من المبلغ النقدي المطلوب لشراء العقار في Zabeel. تحقق من تكاليف الصفقة والتمويل والتسليم والملكية المستمرة للعقار المحدد قبل الحجز.",
+        "items": [
+          {
+            "text": "تحقق من رسوم التسجيل والمعاملة للشراء المحدد قبل الحجز؛ إذ يعتمد المبلغ النهائي على العقار ونوع المعاملة.",
+            "title": "تكاليف التسجيل والمعاملة"
+          },
+          {
+            "text": "عند استخدام التمويل، تحقق من رسوم البنك والتقييم والرهن العقاري إلى جانب المبلغ النقدي المطلوب قبل الإنجاز.",
+            "title": "تكاليف التمويل والتقييم"
+          },
+          {
+            "text": "تحقق من رسوم الخدمات ومسؤوليات الصيانة والتكاليف المتكررة للعقار المحدد.",
+            "title": "رسوم الخدمات وصيانة العقار"
+          },
+          {
+            "text": "خطط بشكل منفصل للفحص عند التسليم والتأثيث والمرافق والانتقال وأي تكاليف مستحقة حول موعد التسليم أو الإنجاز.",
+            "title": "تكاليف التسليم والتأثيث والانتقال"
+          }
+        ],
+        "title": "تكاليف يجب التحقق منها",
+        "eyebrow": "تحقق قبل الشراء",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/ar/budgets/aed-2m-3m-in-zabeel/",
+          "label": "عقارات ضمن AED 2M–3M في Zabeel",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ar/budgets/aed-5m-10m-in-zabeel/",
+          "label": "عقارات ضمن AED 5M–10M في Zabeel",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ar/budgets/aed-1m-2m-in-zabeel/",
+          "label": "عقارات ضمن AED 1M–2M في Zabeel",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/ar/budgets/aed-10m-25m-in-zabeel/",
+          "label": "عقارات ضمن AED 10M–25M في Zabeel",
+          "relation_type": "same_district_next_budget",
+          "route_verified": true
+        }
+      ],
+      "title": "صفحات ميزانية ذات صلة",
+      "eyebrow": "عمليات بحث ذات صلة",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "تُظهر بيانات المشاريع الحالية 1 من تطابقات الأسعار الابتدائية الدقيقة المسجلة لـ عقارات ضمن AED 3M–5M في Zabeel. هذه تطابقات مسجلة للمقارنة وليست مخزونًا مباشرًا. تحقّق من الوحدة المحددة والتخطيط وشروط الدفع ووضع التسليم والتوافر الحالي قبل إدراج الخيارات في القائمة المختصرة.",
+          "question": "ما الذي تُظهره بيانات المشاريع الحالية بشأن عقارات ضمن AED 3M–5M في Zabeel؟"
+        },
+        {
+          "answer": "بالنسبة إلى عقارات ضمن AED 3M–5M في Zabeel، أقوى مسارات المقارنة المعروضة حاليًا هي Apartments, Villas, Townhouses. يوجد 27 من المشاريع بأسعار ابتدائية مسجلة في السوق الأوسع؛ تحقّق من توافر هذا النوع في Zabeel. هذه مؤشرات استكشافية وليست تأكيدًا على التوافر الحالي.",
+          "question": "ما أنواع العقارات التي ينبغي مقارنتها عند تقييم عقارات ضمن AED 3M–5M في Zabeel؟"
+        },
+        {
+          "answer": "عند تقييم عقارات ضمن AED 3M–5M في Zabeel، احسب تكاليف التسجيل والمعاملة والتمويل والتقييم ورسوم الخدمات أو المجتمع والتأثيث والتسليم والتكاليف المستمرة للملكية. يجب احتساب المبالغ الدقيقة للعقار والمعاملة المحددين قبل اعتبار الميزانية مكتملة.",
+          "question": "ما التكاليف الإضافية التي ينبغي للمشترين احتسابها عند تقييم عقارات ضمن AED 3M–5M في Zabeel؟"
+        },
+        {
+          "answer": "عند تقييم عقارات ضمن AED 3M–5M في Zabeel، قارن مبلغ الحجز أو الدفعة الأولى ودفعات الإنشاء والمبلغ المستحق عند التسليم وأي التزامات بعد التسليم وإجمالي المبلغ المستحق قبل الإنجاز. تحقّق من جدول الدفع الحالي لكل خيار على حدة.",
+          "question": "كيف ينبغي للمشترين مقارنة خطط الدفع عند تقييم عقارات ضمن AED 3M–5M في Zabeel؟"
+        },
+        {
+          "answer": "يمكن لـ Primadom AI تحسين البحث عن عقارات ضمن AED 3M–5M في Zabeel بتعديل قيد واحد في كل مرة—الميزانية أو الموقع أو نوع العقار أو المساحة أو توقيت الإنجاز—مع إبقاء أهداف المشتري وإجمالي الالتزام النقدي واضحين. وتظل الأسعار والشروط والتوافر بحاجة إلى تحقق مباشر.",
+          "question": "كيف يمكن لـ Primadom AI تحسين البحث عن عقارات ضمن AED 3M–5M في Zabeel؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن الميزانية",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "تفاصيل التخطيط لـ عقارات في Zabeel ضمن AED 3M–5M ليست مخزونًا مباشرًا. تحقق من سعر الوحدة أو المشروع الحالي والتوافر وجدول الدفع وحالة التسليم والرسوم ورسوم الخدمات وشروط المشروع باستخدام مواد المطور العقاري والسجلات الرسمية والقوائم الحالية ومراجعة مستشار Primadom.",
+      "items": [
+        {
+          "label": "السعر / التوافر",
+          "value": "يحتاج إلى تحقق مباشر"
+        },
+        {
+          "label": "خطة الدفع",
+          "value": "يحتاج إلى مواد المطور العقاري"
+        },
+        {
+          "label": "الرسوم / رسوم الخدمات",
+          "value": "يجب احتسابه"
+        },
+        {
+          "label": "ملاءمة الحي / المشروع",
+          "value": "يحتاج إلى مراجعة المصادر"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "التحقق",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "اطلب من Primadom AI مقارنة عقارات في Zabeel ضمن AED 3M–5M حسب السعر الحالي وملاءمة العقار وخطة الدفع والتكلفة الإجمالية، ثم إعداد قائمة مختصرة للمراجعة المباشرة.",
+      "title": "هل تريد التحقق مما تتيحه ميزانيتك فعليًا؟",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "احصل على قائمة مختصرة حسب الميزانية",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "نموذج استفسار عن الميزانية",
+      "note": "سيتم التحقق من الأسعار الحالية والتوافر قبل مشاركة أي توصيات.",
+      "text": "شارك بياناتك. سيُعد Primadom AI طلب الميزانية ليراجعه مستشار Primadom.",
+      "title": "تحقق مما يمكن أن تتيحه ميزانيتك",
+      "fields": {
+        "name": "اسمك",
+        "phone": "الهاتف / WhatsApp",
+        "budget": "نطاق الميزانية",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "إرسال",
+      "comment": "تحقق من خيارات عقارات في Zabeel ضمن AED 3M–5M من أجلي.",
+      "eyebrow": "متابعة اختيار الميزانية مع AI",
+      "success": "تم الإرسال",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "إغلاق",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "مسودة الطلب",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "اسمك",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "الاسم"
+        },
+        "phone": {
+          "label": "الهاتف / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "نطاق الميزانية",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "AED 3M–5M",
+          "default_value": "AED 3M–5M"
+        },
+        "comment": {
+          "label": "طلب مُعدّ مسبقًا",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "مُعدّ من هذه الصفحة",
+          "single_line": true,
+          "default_value": "تحقق من خيارات عقارات في Zabeel ضمن AED 3M–5M من أجلي."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "الاسم",
+        "phone": "+971",
+        "budget": "AED 3M–5M",
+        "comment": "مُعدّ من هذه الصفحة"
+      },
+      "submit_label": "إرسال",
+      "hidden_fields": {
+        "page_id": "page_budget_district_aed_3m_5m_zabeel_ar",
+        "page_layer": "budget_district_candidate",
+        "budget_name": "AED 3M–5M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "within AED 3M–5M",
+        "district_name": "Zabeel",
+        "canonical_url_path": "/ar/budgets/aed-3m-5m-in-zabeel/",
+        "content_version_id": "bd4c8c7f-8d9d-4689-a702-c23fce5dfe82",
+        "property_type_name": null
+      },
+      "success_label": "تم الإرسال",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "البحث الصوتي",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "استكشف عقارات في Zabeel ضمن AED 3M–5M حسب السعر الحالي وخطة الدفع والتكلفة الإجمالية وملاءمة المشروع قبل طلب مراجعة مباشرة للسوق.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "بحث الميزانية وتحويله إلى خيارات عقارية واقعية",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai، الإمارات العربية المتحدة",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط Primadom الاجتماعية",
+      "url_section": "/ar/budgets/aed-3m-5m-in-zabeel/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "احجز مكالمة",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "اسأل AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

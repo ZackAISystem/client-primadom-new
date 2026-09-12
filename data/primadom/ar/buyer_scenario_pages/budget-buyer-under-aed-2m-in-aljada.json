@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_budget_buyer_under_aed_2m_aljada_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-aljada/",
+  "canonical_url_path": "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-aljada/",
+  "canonical_group_key": "scenario_district:budget_buyer_under_aed_2m:aljada",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "aljada",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/aljada/",
+          "label": "Aljada"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-aljada/",
+          "label": "مشتري بميزانية أقل من AED 2M في Aljada",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "ملاءمة الميزانية",
+        "Aljada",
+        "شقق",
+        "أقل من AED 2M",
+        "تكاليف الدخول · المفاضلات"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري بميزانية أقل من AED 2M في Aljada",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري بميزانية أقل من AED 2M في Aljada",
+      "subtitle": "قارن الخيارات في Aljada مع التركيز على السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري بميزانية أقل من AED 2M في Aljada",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Aljada وفق السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية البالغة AED 2M",
+        "تحقق من سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في الشراء AED 2M؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري بميزانية أقل من AED 2M في Aljada",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري بميزانية أقل من AED 2M في Aljada",
+      "placeholder": "قارن خيارات مشتري بميزانية أقل من AED 2M في Aljada",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "أقل من AED 2M",
+        "Aljada",
+        "شقق",
+        "التكاليف · المفاضلات",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري بميزانية أقل من AED 2M في Aljada</strong>، ركّز على السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية بدل الاعتماد على عامل واحد فقط. العثور على خيار عملي ضمن ميزانية محدودة من دون تجاهل التكاليف الكاملة. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري بميزانية أقل من AED 2M في Aljada، ركّز على السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية بدل الاعتماد على عامل واحد فقط. العثور على خيار عملي ضمن ميزانية محدودة من دون تجاهل التكاليف الكاملة. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري بميزانية أقل من AED 2M"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "ملاءمة الميزانية"
+        },
+        {
+          "label": "الموقع",
+          "value": "Aljada"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "حتى AED 2M"
+        },
+        {
+          "label": "محور القرار",
+          "value": "السعر · التكاليف · المفاضلات"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "الاستكشاف / المقارنة"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن الخيارات ضمن النطاق"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار الشراء اعتمادًا على عامل واحد مع تجاهل سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار.",
+          "المشترون الذين لا يريدون مراجعة السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل الاعتماد على السعر المعلن فقط أو استبعاد تكاليف المعاملة والرسوم أو اختيار عقار لا يناسب الاستخدام."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون العثور على خيار عملي ضمن ميزانية محدودة من دون تجاهل التكاليف الكاملة في Aljada.",
+          "المشترون الذين يريدون مقارنة السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Aljada، قارن الخيارات وفق السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "الحد الأقصى للميزانية",
+          "السيولة المطلوبة مقدمًا",
+          "إجمالي التكلفة",
+          "المفاضلات",
+          "مرونة إعادة البيع"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Aljada، قيّم المنطقة وفق مدى دعمها لـ العثور على خيار عملي ضمن ميزانية محدودة من دون تجاهل التكاليف الكاملة، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Aljada"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار في مفاضلات الميزانية قبل تضييق الاختيار.",
+            "title": "مفاضلات الميزانية"
+          },
+          {
+            "text": "لا تتجاوز الميزانية للحفاظ على موقع مفضّل؛ قارن أولًا الصورة الكاملة لتكلفة الملكية.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن مخططات مدمجة من حيث سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "مخططات مدمجة"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث سقف الميزانية وتكاليف الشراء والمساحة والموقع وجودة المبنى ونوع العقار، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "أبقِ الالتزام المالي الكامل للشراء ضمن حد المشتري، بما يشمل تكاليف المعاملة وتكاليف الملكية المتكررة، بدل تجاوز الميزانية لمجرد الحفاظ على موقع مفضّل.",
+          "title": "اختبر ملاءمة الشراء",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Aljada، قارن السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى الاعتماد على السعر المعلن فقط أو استبعاد تكاليف المعاملة والرسوم أو اختيار عقار لا يناسب الاستخدام.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Aljada باستخدام المعايير نفسها: السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Aljada، تشمل المخاطر الرئيسية الاعتماد على السعر المعلن فقط أو استبعاد تكاليف المعاملة والرسوم أو اختيار عقار لا يناسب الاستخدام. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "إجمالي التكلفة",
+          "الحد الأقصى للميزانية",
+          "مفاضلة المساحة",
+          "التكاليف المتكررة",
+          "هامش نقدي"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات الشراء"
+          },
+          {
+            "text": "حدّد المتطلبات التي لا يمكن التضحية بها مقابل خفض السعر، مثل المساحة القابلة للاستخدام أو نوع العقار أو احتياجات الموقع أو توقيت الانتقال.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قارن في Aljada كيف تغيّر الميزانية المساحة والموقع وجودة المبنى ونوع العقار، بدل اعتبار أقل سعر هو الإجابة.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "لا تستخدم كامل الميزانية المتاحة في سعر العقار إذا كانت تكاليف التأثيث أو الانتقال أو تكاليف الملكية القريبة ما زالت بحاجة إلى السداد.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/safa-parkview/",
+            "meta": "ARADA · Aljada",
+            "label": "Safa Parkview"
+          },
+          {
+            "href": "/ar/projects/nasaq-phase-5/",
+            "meta": "ARADA · Aljada",
+            "label": "Nasaq Phase 5"
+          },
+          {
+            "href": "/ar/projects/rove-home-by-arada/",
+            "meta": "ARADA · Aljada",
+            "label": "Rove Home By Arada"
+          },
+          {
+            "href": "/ar/projects/safa-1/",
+            "meta": "ARADA · Aljada",
+            "label": "Safa 1"
+          },
+          {
+            "href": "/ar/projects/tiraz-phase-2/",
+            "meta": "ARADA · Aljada",
+            "label": "Tiraz Phase 2"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "استخدم حد AED 2M كميزانية شراء شاملة واترك هامشًا لتكاليف المعاملة والرسوم والتجهيز. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "الحد الأقصى للسعر",
+          "تكاليف الشراء",
+          "التأثيث",
+          "التكاليف الأولية",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/first-dubai-property-under-aed-1m-in-aljada/",
+          "label": "أول عقار في دبي بميزانية أقل من AED 1M في Aljada"
+        },
+        {
+          "href": "/ar/buyer-scenarios/first-time-buyer-needs-payment-plan-in-aljada/",
+          "label": "مشتري لأول مرة يحتاج إلى خطة دفع في Aljada"
+        },
+        {
+          "href": "/ar/buyer-scenarios/low-down-payment-buyer-in-aljada/",
+          "label": "مشتري يبحث عن دفعة أولى منخفضة في Aljada"
+        },
+        {
+          "href": "/ar/buyer-scenarios/entry-level-rental-income-investor-in-aljada/",
+          "label": "مستثمر مبتدئ يستهدف دخلًا إيجاريًا في Aljada"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Aljada، ركّز على السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية. العثور على خيار عملي ضمن ميزانية AED 2M من دون تجاهل التكاليف الكاملة. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري بميزانية أقل من AED 2M في Aljada؟"
+        },
+        {
+          "answer": "في Aljada، يناسب المشترين الذين يريدون العثور على خيار عملي ضمن ميزانية محدودة من دون تجاهل التكاليف الكاملة ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري بميزانية أقل من AED 2M في Aljada؟"
+        },
+        {
+          "answer": "في Aljada، تحقق من العقار المحدد وشروطه الحالية، ثم راجع السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Aljada؟"
+        },
+        {
+          "answer": "في Aljada، استخدم حد AED 2M كميزانية شراء شاملة واترك هامشًا لتكاليف المعاملة والرسوم والتجهيز. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية البالغة AED 2M في هذا السيناريو في Aljada؟"
+        },
+        {
+          "answer": "في Aljada، تتمثل المخاطر الرئيسية في الاعتماد على السعر المعلن فقط أو استبعاد تكاليف المعاملة والرسوم أو اختيار عقار لا يناسب الاستخدام. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Aljada؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري بميزانية أقل من AED 2M في Aljada، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "سعر العقار",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "تكاليف الشراء",
+          "value": "أضفها إلى الحساب قبل الالتزام"
+        },
+        {
+          "label": "التكاليف المتكررة",
+          "value": "تحقق من الرسوم الحالية"
+        },
+        {
+          "label": "المتطلبات الأساسية",
+          "value": "حافظ على المتطلبات الأساسية"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري بميزانية أقل من AED 2M في Aljada وفق السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تريد إبقاء إجمالي الشراء ضمن ميزانيتك؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية أثناء مقارنة الخيارات في Aljada. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار.",
+      "title": "راجع ملاءمة مشتري بميزانية أقل من AED 2M",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري بميزانية أقل من AED 2M بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري بميزانية أقل من AED 2M في Aljada مع وضع السعر الفعلي وتكاليف الشراء ونوع العقار والموقع والمفاضلات المطلوبة للبقاء ضمن الميزانية والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قارن خيارات مشتري بميزانية أقل من AED 2M بوضوح",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

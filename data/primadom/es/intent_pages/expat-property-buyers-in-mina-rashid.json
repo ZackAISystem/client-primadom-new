@@ -1,0 +1,729 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_a4c5b17c0276addabf01c6b4f207",
+  "page_type_id": "intent_page",
+  "language_code": "es",
+  "url_path": "/es/intents/expat-property-buyers-in-mina-rashid/",
+  "canonical_url_path": "/es/intents/expat-property-buyers-in-mina-rashid/",
+  "canonical_group_key": "intent:expat-property-buyers:district:mina-rashid",
+  "primary_entity_type": "intent",
+  "primary_entity_slug": "expat-property-buyers",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "Opciones",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Zonas",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Comprobaciones",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#intent-ai-search",
+          "label": "Preguntar a AI",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "Navegación de búsqueda",
+      "brand_url": "/es/",
+      "cta_label": "Encontrar opciones adecuadas"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/es/",
+          "label": "Inicio"
+        },
+        {
+          "href": "/es/intents/",
+          "label": "Búsquedas de propiedades"
+        },
+        {
+          "href": "/es/intents/expat-property-buyers-in-mina-rashid/",
+          "label": "Propiedades para compradores expatriados en Mina Rashid"
+        }
+      ],
+      "breadcrumbs_aria": "Ruta de navegación"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Ubicación: Mina Rashid",
+        "Propiedades para compradores expatriados",
+        "Marco de propiedad",
+        "Verificar datos actuales"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Propiedades para compradores expatriados en Mina Rashid",
+      "subtitle": "Compara propiedades para compradores expatriados en Mina Rashid según marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión. Confirma los datos actuales de cada proyecto antes de tomar una decisión.",
+      "facts_aria": "Aspectos destacados de la búsqueda de propiedades",
+      "visual_aria": "Visual principal de la búsqueda de propiedades"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Compara opciones por marco de propiedad y opciones de financiación",
+        "Comprueba costes de compra y documentación",
+        "Revisa objetivo de uso o inversión y los datos actuales antes de elegir"
+      ],
+      "prompts": [
+        "Compara opciones por marco de propiedad y opciones de financiación",
+        "Comprueba costes de compra y documentación",
+        "Revisa objetivo de uso o inversión y los datos actuales antes de elegir"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Preguntar a AI",
+      "voice_text": "Búsqueda por voz",
+      "placeholder": "Propiedades para compradores expatriados en Mina Rashid",
+      "block_status": "formula_generated",
+      "button_label": "Preguntar a AI",
+      "voice_status": "Escuchando…",
+      "ai_voice_text": "Propiedades para compradores expatriados en Mina Rashid",
+      "ai_placeholder": "Propiedades para compradores expatriados en Mina Rashid",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "Escuchando…",
+      "form_aria_label": "Preguntar a Primadom AI sobre Propiedades para compradores expatriados en Mina Rashid",
+      "voice_error_text": "Escribe tu solicitud o inténtalo de nuevo",
+      "submit_aria_label": "Preguntar a Primadom AI",
+      "voice_button_label": "Iniciar búsqueda por voz",
+      "voice_error_status": "Entrada de voz en pausa",
+      "voice_fallback_text": "El reconocimiento de voz no es compatible aquí",
+      "voice_success_status": "Entendido",
+      "voice_fallback_status": "Modo de voz"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Marco de propiedad",
+        "Opciones de financiación",
+        "Costes de compra",
+        "Documentación"
+      ],
+      "title": "Resumen directo",
+      "eyebrow": "Respuesta directa",
+      "body_html": "<strong>Al buscar propiedades para compradores expatriados en Mina Rashid, conviene comparar marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión.</strong> La selección no debería basarse únicamente en una suposición sobre financiación, titularidad o elegibilidad. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar propiedades para compradores expatriados en Mina Rashid, conviene comparar marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión. La selección no debería basarse únicamente en una suposición sobre financiación, titularidad o elegibilidad. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_source": "intent_rule_district_context_supply_guardrails",
+      "chip_source": "intent_family_rule",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "Los precios, la disponibilidad, las condiciones de pago y los plazos del proyecto deben confirmarse antes de tomar una decisión de compra.",
+      "items": [
+        {
+          "key": "search_intent",
+          "label": "Intención de búsqueda",
+          "value": "Propiedades para compradores expatriados"
+        },
+        {
+          "key": "location",
+          "label": "Ubicación",
+          "value": "Mina Rashid"
+        },
+        {
+          "key": "market",
+          "label": "Mercado",
+          "value": "Dubai / EAU"
+        },
+        {
+          "key": "property_focus",
+          "label": "Tipo de propiedad",
+          "value": "Propiedad inmobiliaria en EAU"
+        },
+        {
+          "key": "buyer_goal",
+          "label": "Objetivo del comprador",
+          "value": "Comparar propiedades para compradores expatriados"
+        },
+        {
+          "key": "main_checks",
+          "label": "Comprobaciones principales",
+          "value": "Marco de propiedad · Opciones de financiación · Costes de compra"
+        },
+        {
+          "key": "project_match",
+          "label": "Adecuación de proyectos",
+          "value": "La adecuación del proyecto aún no está confirmada"
+        },
+        {
+          "key": "current_details",
+          "label": "Datos actuales",
+          "value": "Los proyectos adecuados requieren confirmación"
+        }
+      ],
+      "title": "Parámetros de búsqueda",
+      "eyebrow": "Datos clave",
+      "facts_source": "intent_family_district_market_source_tier",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "title": "Revisar marco de propiedad"
+        },
+        {
+          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "title": "Comparar opciones de financiación"
+        },
+        {
+          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "title": "Comprobar costes de compra"
+        },
+        {
+          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "title": "Equilibrar documentación y objetivo de uso o inversión"
+        }
+      ],
+      "title": "Opciones para revisar",
+      "eyebrow": "Qué comparar",
+      "option_source": "intent_family_property_focus_buyer_goal",
+      "source_status": "district_context_supported_needs_intent_review",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "Compara las opciones por marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión. No bases la selección únicamente en una suposición sobre financiación, titularidad o elegibilidad.",
+      "tags": [
+        "marco de propiedad",
+        "opciones de financiación",
+        "costes de compra",
+        "documentación",
+        "objetivo de uso o inversión"
+      ],
+      "title": "Lógica de selección",
+      "eyebrow": "Cómo comparar",
+      "logic_source": "intent_family_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "Compara marco de propiedad, opciones de financiación y costes de compra.",
+          "title": "Empieza por marco de propiedad",
+          "eyebrow": "Enfoque principal"
+        },
+        {
+          "dark": false,
+          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "title": "Comprueba el encaje con tu objetivo",
+          "eyebrow": "Adecuación al comprador"
+        },
+        {
+          "dark": false,
+          "text": "Revisa documentación, además de los costes recurrentes y las condiciones actuales.",
+          "title": "Revisa los costes y las condiciones",
+          "eyebrow": "Antes de elegir"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI puede ordenar las opciones por marco de propiedad, opciones de financiación y objetivo de uso o inversión.",
+          "title": "Compara las mejores opciones",
+          "eyebrow": "Selección con AI"
+        }
+      ],
+      "cards_aria": "Orientación para la decisión de búsqueda",
+      "card_source": "intent_family_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "district_context_supported_needs_intent_review",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/es/intents/golden-visa-properties-in-mina-rashid/",
+            "meta": "ruta de planificación de residencia",
+            "label": "Propiedades relacionadas con la planificación de Golden Visa en Mina Rashid"
+          },
+          {
+            "href": "/es/intents/first-time-buyer-properties-in-mina-rashid/",
+            "meta": "primera compra",
+            "label": "Propiedades para compradores primerizos en Mina Rashid"
+          },
+          {
+            "href": "/es/intents/end-user-properties-in-mina-rashid/",
+            "meta": "adecuación para uso propio",
+            "label": "Propiedades para uso propio en Mina Rashid"
+          },
+          {
+            "href": "/es/intents/trusted-developer-projects-in-mina-rashid/",
+            "meta": "comprobaciones del desarrollador",
+            "label": "Proyectos de desarrolladores consolidados en Mina Rashid"
+          },
+          {
+            "href": "/es/intents/payment-plan-projects-in-mina-rashid/",
+            "meta": "condiciones de pago",
+            "label": "Proyectos con plan de pago en Mina Rashid"
+          }
+        ],
+        "title": "Comprobación de proyectos",
+        "eyebrow": "Opciones de selección"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/es/areas/mina-rashid/",
+            "meta": "Zona actual",
+            "label": "Mina Rashid"
+          },
+          {
+            "href": "/es/areas/emaar-beachfront/",
+            "meta": "Perfil similar de isla y frente al agua",
+            "label": "Emaar Beachfront"
+          },
+          {
+            "href": "/es/areas/jumeirah-islands/",
+            "meta": "Perfil similar de isla y frente al agua",
+            "label": "Jumeirah Islands"
+          },
+          {
+            "href": "/es/areas/jumeirah-bay-island/",
+            "meta": "Perfil similar de isla y frente al agua",
+            "label": "Jumeirah Bay Island"
+          },
+          {
+            "href": "/es/areas/la-mer/",
+            "meta": "Perfil similar de isla y frente al agua",
+            "label": "La Mer"
+          }
+        ],
+        "title": "Zonas para comparar",
+        "eyebrow": "Dónde buscar"
+      },
+      "source_status": "matched_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "same_district_semantic_route_matching_v2",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "Adecuación al comprador",
+        "eyebrow": "Para quién es esta página",
+        "good_for": [
+          "Compradores que buscan propiedades para compradores expatriados en Mina Rashid",
+          "Compradores dispuestos a comparar marco de propiedad, opciones de financiación y costes de compra",
+          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+        ],
+        "less_for": [
+          "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
+          "Compradores que prefieren decidir únicamente por una suposición sobre financiación, titularidad o elegibilidad",
+          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+        ],
+        "fit_status": "authored_intent_family_v2_qa_pending",
+        "good_for_title": "Adecuado para",
+        "less_for_title": "Puede no ser adecuado"
+      },
+      "risk_notes": {
+        "body": "Antes de seleccionar propiedades para compradores expatriados en Mina Rashid, revisa marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión. Confirma además los datos actuales de la opción concreta y sus condiciones de compra.",
+        "tags": [
+          "Normas de propiedad",
+          "opciones de financiación",
+          "costes de compra",
+          "documentación",
+          "objetivo de uso o inversión"
+        ],
+        "title": "Comprobaciones clave",
+        "eyebrow": "Antes de elegir",
+        "check_status": "authored_intent_family_v2_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "Purchase property as an expat",
+        "page_group": "intent_district",
+        "intent_slug": "expat-property-buyers",
+        "main_checks": "Ownership · finance · purchase costs",
+        "copy_strategy": "authored_intent_family_v2_qa_pending",
+        "district_slug": "mina-rashid",
+        "search_intent": "Property for expat buyers",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": null,
+        "property_focus": "UAE property ownership",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/es/intents/family-properties-in-mina-rashid/",
+          "label": "Propiedades para familias en Mina Rashid"
+        },
+        {
+          "href": "/es/intents/ready-soon-projects-in-mina-rashid/",
+          "label": "Proyectos próximos a entrega en Mina Rashid"
+        },
+        {
+          "href": "/es/intents/off-plan-apartments-in-mina-rashid/",
+          "label": "Apartamentos sobre plano en Mina Rashid"
+        },
+        {
+          "href": "/es/intents/luxury-properties-in-mina-rashid/",
+          "label": "Propiedades de lujo en Mina Rashid"
+        }
+      ],
+      "title": "Búsquedas relacionadas",
+      "eyebrow": "Seguir explorando",
+      "link_source": "same_district_related_intent_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Compara marco de propiedad, opciones de financiación, costes de compra, documentación y objetivo de uso o inversión. Ningún indicador aislado basta para decidir y los datos actuales deben confirmarse antes de cerrar una selección.",
+          "question": "¿Qué debería tener en cuenta al buscar propiedades para compradores expatriados en Mina Rashid?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Compara las opciones que encajen con el objetivo de esta búsqueda y revisa su tipo de propiedad, distribución, precio total, condiciones de pago, fase y uso previsto. La opción adecuada depende del caso concreto.",
+          "question": "¿Qué tipos de propiedad o proyectos debería comparar en Mina Rashid?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Confirma el precio y la disponibilidad actuales, la ubicación, la distribución o el plano, la fase del proyecto, el calendario de pagos, la entrega, los costes recurrentes y las condiciones contractuales relevantes.",
+          "question": "¿Qué debo verificar antes de incluir una opción en la selección?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Sí. Compara Mina Rashid con zonas que ofrezcan opciones similares y revisa precios de entrada, oferta, acceso, madurez de la zona y liquidez antes de decidir.",
+          "question": "¿Conviene comparar otras zonas además de Mina Rashid?",
+          "answer_status": "authored_intent_district_qa_pending"
+        },
+        {
+          "answer": "Sí. Primadom AI puede comparar opciones actuales por tipo de propiedad, precio, condiciones de pago, fase, ubicación y uso previsto, y preparar una selección centrada en Mina Rashid para su verificación con datos actuales.",
+          "question": "¿Puede Primadom AI ayudarme a comparar opciones para esta búsqueda en Mina Rashid?",
+          "answer_status": "authored_intent_district_v2_qa_pending"
+        }
+      ],
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Preguntas de compradores",
+      "faq_status": "authored_intent_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Property options for expat buyers in Mina Rashid",
+        "page_group": "intent_district",
+        "intent_slug": "expat-property-buyers",
+        "copy_strategy": "intent_family_plus_district_v2",
+        "district_name": "Mina Rashid",
+        "developer_name": null,
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Antes de basarte en esta búsqueda en Mina Rashid, confirma precios actuales, disponibilidad, ubicación exacta, datos de la unidad, costes recurrentes, estado del proyecto o título y entrega mediante fuentes oficiales actuales y una comprobación en tiempo real.",
+      "items": [
+        {
+          "label": "Precio / disponibilidad",
+          "value": "Requiere comprobación en tiempo real"
+        },
+        {
+          "label": "Datos de la unidad / ubicación",
+          "value": "Requiere datos actuales"
+        },
+        {
+          "label": "Estado del proyecto / título",
+          "value": "Requiere fuente oficial"
+        },
+        {
+          "label": "Revisión de fuentes",
+          "value": "Pendiente de verificación"
+        }
+      ],
+      "title": "Verificación de fuentes",
+      "eyebrow": "Verificación",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_unit_location_and_ownership_details",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "intent_district",
+        "intent_slug": "expat-property-buyers",
+        "source_focus": "living",
+        "district_name": "Mina Rashid",
+        "developer_name": null,
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "Comparte tus necesidades, el tipo de propiedad preferido y el calendario. Primadom AI comparará las opciones actuales por acceso cotidiano, fase del proyecto, costes de propiedad y adecuación al objetivo del comprador, y preparará una selección para revisión.",
+      "title": "Comparar opciones para esta búsqueda",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "Comparar opciones",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Preguntar a Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "Solicitar una llamada",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_intent_district_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "living",
+        "hero_title": "Property options for expat buyers in Mina Rashid",
+        "page_group": "intent_district",
+        "intent_slug": "expat-property-buyers",
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "intent_family_plus_district",
+        "district_name": "Mina Rashid",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulario de consulta de búsqueda",
+      "note": "Revisaremos los datos antes de compartir tu solicitud con un asesor.",
+      "text": "Cuéntanos qué es lo más importante. Primadom AI preparará una solicitud concisa de búsqueda de vivienda antes de que un asesor revise las opciones actuales contigo.",
+      "title": "Comparar opciones actuales",
+      "fields": {
+        "name": "Nombre",
+        "email": "Email (opcional)",
+        "phone": "Teléfono / WhatsApp",
+        "comment": "Solicitud"
+      },
+      "submit": "Enviar solicitud",
+      "comment": "Comparar opciones por tipo de propiedad, zona, acceso cotidiano, costes de propiedad y calendario.",
+      "eyebrow": "Solicitud de proyecto",
+      "success": "Enviado",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "Cerrar",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "living",
+        "page_group": "intent_district",
+        "intent_slug": "expat-property-buyers",
+        "copy_strategy": "intent_family_smart_modal",
+        "district_name": "Mina Rashid",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": null,
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "Borrador de solicitud",
+      "field_config": {
+        "name": {
+          "label": "Nombre",
+          "html_name": "name",
+          "placeholder": "Tu nombre"
+        },
+        "email": {
+          "label": "Email (opcional)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Teléfono / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Solicitud",
+          "html_name": "comment",
+          "placeholder": "¿Qué estás buscando?"
+        }
+      },
+      "modal_status": "authored_intent_family_qa_pending",
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "Enviar solicitud",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "Enviado",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Comparar opciones por tipo de propiedad, zona, acceso cotidiano, costes de propiedad y calendario.",
+        "html_name": "comment",
+        "request_scope": [
+          "home_search",
+          "property_type",
+          "area_fit",
+          "daily_access",
+          "ownership_costs",
+          "timing",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "Usar voz"
+    },
+    "block_17_footer": {
+      "text": "Compara opciones inmobiliarias, ubicaciones y comprobaciones clave antes de hablar con un asesor de Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Proyectos",
+        "Zonas",
+        "Desarrolladores",
+        "Búsqueda con AI"
+      ],
+      "title": "Encuentra la propiedad adecuada en EAU con una orientación más clara.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, EAU",
+      "subtitle": "Inteligencia inmobiliaria de EAU",
+      "brand_url": "/es/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "intent_district",
+        "country_ref": "country",
+        "intent_slug": "expat-property-buyers",
+        "footer_focus": "living",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_intent_family_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_intent_family_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "Reservar una llamada",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "Preguntar a AI",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

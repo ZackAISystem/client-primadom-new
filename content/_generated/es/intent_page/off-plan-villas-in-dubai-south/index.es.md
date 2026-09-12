@@ -1,0 +1,10 @@
+---
+title: "Villas sobre plano en Dubai South"
+layout: "primadom-intent-page-v2"
+intent_slug: "off-plan-villas-in-dubai-south"
+page_id: "intent__off-plan-villas__district__dubai-south__es"
+url: "/es/intents/off-plan-villas-in-dubai-south/"
+build:
+  render: always
+  list: never
+---

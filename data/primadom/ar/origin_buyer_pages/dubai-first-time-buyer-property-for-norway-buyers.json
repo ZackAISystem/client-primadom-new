@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_d0948de2901545a70c024bd3f059",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/dubai-first-time-buyer-property-for-norway-buyers/",
+  "canonical_url_path": "/ar/buyer-scenarios/dubai-first-time-buyer-property-for-norway-buyers/",
+  "canonical_group_key": "origin:norway:goal:first-time-buyer-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "norway",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "هل يمكنني الشراء؟",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "التنقل في دليل المشتري الدولي",
+      "cta_label": "احصل على استشارة",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/dubai-first-time-buyer-property-for-norway-buyers/",
+          "label": "أول عقار في دبي للمشترين من النرويج"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "من النرويج",
+        "الشراء الأول",
+        "إجمالي الميزانية",
+        "عملية الملكية",
+        "تفاصيل يجب التحقق منها"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "أول عقار في دبي للمشترين من النرويج",
+      "subtitle": "إذا كنت مشتريًا من النرويج وتبحث عن أول عقار في دبي، فركّز على الميزانية وعملية الملكية وإجمالي التكاليف ونوع العقار والفحوصات الواجب إتمامها قبل الحجز.",
+      "facts_aria": "النقاط الرئيسية لهذا السيناريو",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لتخطيط أول عقار في دبي للمشترين من النرويج",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "اشرح إجمالي التكاليف وخطوات الملكية لعملية شرائي الأولى",
+        "قارن أنواع العقارات والأحياء المناسبة للمشتري لأول مرة",
+        "ما الذي ينبغي التحقق منه قبل الحجز لأول مرة؟"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "اسأل عن خطتك العقارية في دبي",
+      "placeholder": "قارن لي خيارات أول عقار في دبي بصفتي مشتريًا من النرويج",
+      "block_status": "final",
+      "button_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "اسأل Primadom AI عن أول عقار في دبي للمشترين من النرويج",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "المشترون من النرويج",
+        "الشراء الأول",
+        "خطوات الملكية",
+        "إجمالي التكاليف",
+        "القواعد الحالية"
+      ],
+      "title": "هل يمكن للمشترين من النرويج شراء عقار في دبي؟",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "<strong>نعم — يمكن للمشترين من النرويج عمومًا شراء العقارات في دبي</strong> ضمن المناطق المخصصة للتملك الحر للأجانب، مع مراعاة القواعد الحالية والفحوصات الخاصة بالعقار. عند الشراء لأول مرة، افهم خطوات الملكية وإجمالي التكاليف ونوع العقار والفحوصات اللازمة قبل الحجز قبل الالتزام.",
+      "body_text": "نعم — يمكن للمشترين من النرويج عمومًا شراء العقارات في دبي ضمن المناطق المخصصة للتملك الحر للأجانب، مع مراعاة القواعد الحالية والفحوصات الخاصة بالعقار. عند الشراء لأول مرة، افهم خطوات الملكية وإجمالي التكاليف ونوع العقار والفحوصات اللازمة قبل الحجز قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "سوق المنشأ",
+          "value": "النرويج"
+        },
+        {
+          "label": "السوق المستهدف",
+          "value": "دبي / الإمارات العربية المتحدة"
+        },
+        {
+          "label": "هدف المشتري",
+          "value": "أول عقار في دبي"
+        },
+        {
+          "label": "المحور الرئيسي",
+          "value": "فهم عملية الشراء الأولى"
+        },
+        {
+          "label": "الفحوصات الرئيسية",
+          "value": "خطوات الملكية · الميزانية · إجمالي التكاليف"
+        },
+        {
+          "label": "سياق الملكية",
+          "value": "تحقق من قواعد الملكية الأجنبية الحالية"
+        },
+        {
+          "label": "مرحلة القرار",
+          "value": "قبل الحجز"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن الخيارات البسيطة بعد فهم العملية"
+        }
+      ],
+      "title": "معايير المشتري الدولي",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "حدّد إجمالي الميزانية والاستخدام المقصود ونوع العقار المفضل قبل الانتقال من البحث إلى الخيارات الفردية.",
+            "title": "1. حدّد ميزانية الشراء الأول"
+          },
+          {
+            "text": "إذا كنت تخطط لإتمام أي خطوات من النرويج، فتحقق من الأجزاء التي يمكن تنفيذها عن بُعد وما إذا كان يلزم تفويض إضافي أو إجراء محلي.",
+            "title": "2. خطط لمسار الشراء"
+          },
+          {
+            "text": "أكد معلومات الهوية ونماذج المشتري ومصدر الأموال ومسار التحويل والفحوصات الخاصة بالمعاملة المطلوبة للشراء.",
+            "title": "3. أكد المستندات ومسار الدفع"
+          },
+          {
+            "text": "أعد التحقق من إجمالي التكاليف وشروط الحجز وتوقيت الدفع وتفاصيل العقار قبل الالتزام المالي الأول.",
+            "title": "4. أعد التحقق من الشروط الحالية قبل الحجز"
+          }
+        ],
+        "title": "عملية الشراء عن بُعد",
+        "eyebrow": "منطق العملية"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "جهّز بيانات هوية ومعلومات مشتري سارية كما تتطلبها المعاملة المحددة.",
+            "title": "جواز السفر وبيانات المشتري"
+          },
+          {
+            "text": "احتفظ ببيانات العنوان والتواصل الحالية جاهزة إذا طلبها المطور العقاري أو البنك أو إجراءات المعاملة.",
+            "title": "بيانات العنوان والتواصل"
+          },
+          {
+            "text": "أكد مصدر الأموال ومسار التحويل وأي فحوصات مصرفية أو امتثال قبل إرسال الأموال.",
+            "title": "مصدر الأموال ومسار التحويل"
+          },
+          {
+            "text": "احتفظ بتفاصيل التكلفة وشروط الحجز وخطوات الملكية الخاصة بالعقار واضحة قبل أي التزام مالي.",
+            "title": "سجل الشراء الأول"
+          }
+        ],
+        "title": "المستندات",
+        "eyebrow": "قائمة تحقق عملية"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "أدرج تكاليف المعاملة وتوقيت الدفع وهامشًا عمليًا بدل اعتبار السعر المعلن للعقار كامل الالتزام المالي.",
+          "title": "احمِ ميزانية الشراء الأول",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "dark": false,
+          "text": "إذا نُفذت أي خطوات من النرويج، فأكد مسار الدفع والتوقيع وفحوصات الهوية وأي إجراء محلي خاص بالمعاملة.",
+          "title": "خطط لتنفيذ المعاملة عبر الحدود",
+          "eyebrow": "الشراء من النرويج"
+        },
+        {
+          "dark": false,
+          "text": "راجع خطوات الملكية وتفاصيل العقار وشروط الحجز قبل أول التزام مالي.",
+          "title": "افهم العملية قبل الحجز",
+          "eyebrow": "فحص الشراء الأول"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "استخدم Primadom AI لمقارنة الهدف والميزانية والمسار والفحوصات قبل التحدث مع مستشار.",
+          "title": "حوّل السيناريو إلى مقارنة واضحة",
+          "eyebrow": "استشارة AI"
+        }
+      ],
+      "cards_aria": "القرارات الرئيسية لهذا السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "قارن أنواع الشقق وجودة المبنى وإجمالي التكاليف وخطوات الملكية.",
+            "title": "JVC"
+          },
+          {
+            "text": "قارن خيارات الوحدات ورسوم الخدمات وشروط الدفع وتكاليف المعاملة.",
+            "title": "Arjan"
+          },
+          {
+            "text": "قارن أنواع العقارات وحالة المشروع وهيكل الدفع والملاءمة العملية للموقع.",
+            "title": "Dubai South"
+          },
+          {
+            "text": "قارن مدى اكتمال المجتمع ونوع العقار وتفاصيل الوحدة وإجمالي التكاليف.",
+            "title": "Dubailand"
+          }
+        ],
+        "title": "أحياء للمقارنة",
+        "eyebrow": "خيارات الأحياء"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "للمشترين من النرويج، افهم خطوات الملكية وإجمالي تكاليف الشراء وتوقيت الدفع والفحوصات الخاصة بالعقار قبل إجراء أول حجز.",
+        "tags": [
+          "إمكانية الشراء",
+          "الشراء الأول",
+          "إجمالي التكاليف",
+          "مسار الدفع",
+          "فحوصات العقار"
+        ],
+        "title": "مخاوف المشتري",
+        "eyebrow": "ما الذي يجب التحقق منه"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "افتح صفحات المشاريع الفعلية المرتبطة بالأحياء المستخدمة في هذا السيناريو، ثم تحقق من السعر الحالي والتوافر وشروط الدفع وملاءمة الوحدة قبل الاعتماد على أي خيار.",
+        "items": [
+          {
+            "href": "/ar/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/ar/projects/48-parkside/",
+            "meta": "Arjan",
+            "label": "48 Parkside"
+          },
+          {
+            "href": "/ar/projects/aero-1-residences/",
+            "meta": "Dubai South",
+            "label": "Aero 1 Residences"
+          },
+          {
+            "href": "/ar/projects/a99/",
+            "meta": "Dubailand",
+            "label": "A99"
+          },
+          {
+            "href": "/ar/projects/105-residences/",
+            "meta": "Jumeirah Village Circle",
+            "label": "105 Residences"
+          }
+        ],
+        "title": "مشاريع يجب التحقق منها",
+        "eyebrow": "خيارات المشاريع",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "إذا كانت الإقامة في الإمارات جزءًا من خطتك، فتحقق من معايير التأشيرة الذهبية الحالية بشكل منفصل عن قرار العقار. ظهور مشروع في هذه القائمة لا يعني أهلية التأشيرة.",
+        "tags": [
+          "تحقق منفصل",
+          "المعايير الحالية",
+          "قيمة العقار",
+          "حالة الملكية",
+          "حالة الدفع"
+        ],
+        "title": "تحقق من أهلية التأشيرة بشكل منفصل",
+        "eyebrow": "مراجعة أهلية التأشيرة",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/dubai-property-under-aed-2m-for-norway-buyers/",
+          "label": "عقار في دبي بميزانية أقل من AED 2M للمشترين من النرويج"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-payment-plan-property-for-norway-buyers/",
+          "label": "عقار في دبي بخطة دفع للمشترين من النرويج"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-apartments-for-norway-buyers/",
+          "label": "شقق في دبي للمشترين من النرويج"
+        },
+        {
+          "href": "/ar/buyer-scenarios/dubai-off-plan-property-for-norway-buyers/",
+          "label": "عقار على المخطط في دبي للمشترين من النرويج"
+        }
+      ],
+      "title": "استكشف التالي",
+      "eyebrow": "صفحات ذات صلة حسب بلد المنشأ",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "يمكن للمشترين من النرويج عمومًا شراء العقارات في دبي ضمن مناطق التملك الحر المخصصة، مع مراعاة القواعد الحالية والعقار المحدد. بالنسبة إلى أول عقار في دبي، راجع إجمالي تكاليف الشراء وخطوات الملكية وشروط الحجز وتوقيت الدفع قبل أول التزام مالي.",
+          "question": "هل يمكن للمشترين من النرويج شراء أول عقار في دبي؟",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "ابنِ القرار على إجمالي السيولة المطلوبة والتكاليف الجارية وخطوات الملكية وحالة استخدام واضحة. لا تختر وحدة قبل فهم عملية الشراء كاملة وما يحدث بعد التسليم.",
+          "question": "ما الذي ينبغي للمشترين من النرويج التحقق منه أولًا عند التفكير في أول عقار في دبي؟",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "في هذا السيناريو، قارن بين JVC، Arjan، Dubai South وDubailand. هذه نقاط بداية وليست ترتيبًا للأفضلية؛ تحقق من العقار المحدد وملاءمته العملية قبل اتخاذ القرار.",
+          "question": "ما أحياء دبي التي ينبغي للمشترين من النرويج مقارنتها عند البحث عن أول عقار في دبي؟",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "عند تنسيق عملية الشراء من النرويج، حدّد من سيوقّع وكيف ستُحوّل الأموال وما فحوصات الهوية المطبقة وما إذا كانت أي خطوة تحتاج إلى إجراء محلي. أكد المسار الخاص بالمعاملة المحددة قبل الالتزام بالأموال.",
+          "question": "ما الذي ينبغي للمشترين من النرويج التحقق منه عند ترتيب شراء عقار في دبي من النرويج؟",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "راجع إجمالي تكاليف الشراء وخطوات الملكية وشروط الحجز وتوقيت الدفع قبل أول التزام مالي. السعر المعلن للعقار ليس كامل قرار الشراء.",
+          "question": "ما الذي ينبغي للمشترين لأول مرة من النرويج فهمه قبل الحجز في دبي؟",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة المشترين الدوليين",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "بالنسبة إلى المشترين من النرويج المهتمين بـأول عقار في دبي، تفصل هذه الصفحة بين إرشادات المشتري والادعاءات التي لا تزال تتطلب تحققًا خارجيًا. يجب التحقق من قواعد الملكية وخطوات المعاملة عبر الحدود وشروط الحجز وتكاليف المعاملة وخطوات الشراء الخاصة بالعقار بالرجوع إلى المصدر الرسمي أو الحالي ذي الصلة قبل اتخاذ قرار الشراء.",
+      "items": [
+        {
+          "label": "قواعد الملكية",
+          "value": "التحقق الرسمي قيد الانتظار"
+        },
+        {
+          "label": "عملية الشراء عبر الحدود",
+          "value": "تحقق خاص بالحالة"
+        },
+        {
+          "label": "فحوصات الشراء الأول",
+          "value": "تلزم مراجعة المصادر"
+        },
+        {
+          "label": "السعر / التوافر",
+          "value": "يلزم التحقق المباشر من المشروع"
+        },
+        {
+          "label": "حالة المصدر",
+          "value": "مراجعة المصادر قيد الانتظار"
+        }
+      ],
+      "title": "ملاحظات التحقق",
+      "eyebrow": "ملاحظات المصادر والتحقق",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "للمشترين من النرويج، وضّح ميزانية الشراء الكاملة وخطوات الشراء ونوع العقار والأحياء قبل أول التزام مالي.",
+      "title": "هل تبحث عن أول عقار في دبي من النرويج؟",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "راجع خطتي",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "نموذج استشارة للمشتري الدولي",
+      "text": "للمشترين من النرويج، شارك نوع العقار المفضل والتوقيت وأولويات الشراء الأول. سيُعد Primadom AI سياق المشتري قبل مراجعة المستشار.",
+      "title": "راجع خطتك بشأن أول عقار في دبي من النرويج",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "راجع خطتي بشأن أول عقار في دبي من النرويج",
+      "eyebrow": "مراجعة خطة الشراء",
+      "success": "تم الإرسال",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "إغلاق",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "يساعد Primadom AI المشترين من النرويج على مقارنة ميزانية الشراء الكاملة وخطوات الملكية ونوع العقار والأحياء قبل أول التزام مالي.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "قرارات بشأن أول عقار في دبي للمشترين من النرويج",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "معلومات عقارية ذكية",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط Primadom AI على شبكات التواصل",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "اسأل AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

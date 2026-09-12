@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_project_comparison_avenue_residence_phase_7_by_nabni_vs_azizi_amir_de",
+  "page_type_id": "project_comparison_page",
+  "language_code": "de",
+  "url_path": "/de/compare-projects/avenue-residence-phase-7-by-nabni-vs-azizi-amir/",
+  "canonical_url_path": "/de/compare-projects/avenue-residence-phase-7-by-nabni-vs-azizi-amir/",
+  "canonical_group_key": "project_comparison:avenue-residence-phase-7-by-nabni:vs:azizi-amir",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "avenue-residence-phase-7-by-nabni",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Meinen Fall vergleichen",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Überblick",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projekte"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Vergleichen"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "AI fragen"
+        }
+      ],
+      "brand_href": "/de/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation zum Projektvergleich",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/de/compare-projects/",
+          "label": "Projektvergleiche"
+        },
+        {
+          "key": "comparison",
+          "href": "/de/compare-projects/avenue-residence-phase-7-by-nabni-vs-azizi-amir/",
+          "label": "Avenue Residence Phase 7 By Nabni vs Azizi Amir",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Projekt A: Avenue Residence Phase 7 By Nabni",
+        "Projekt B: Azizi Amir",
+        "Vergleich in Al Furjan",
+        "Nabni Real Estate Development vs Azizi Developments",
+        "Bauträger- und Produktkontext"
+      ],
+      "title": "Avenue Residence Phase 7 By Nabni vs Azizi Amir",
+      "subtitle": "Für die Vorauswahl in Al Furjan sollten Immobilienangebot, Schlafzimmerbandbreite, Preisstand, Übergabe und Käuferprofil gemeinsam betrachtet werden.",
+      "project_a": {
+        "name": "Avenue Residence Phase 7 By Nabni",
+        "slug": "avenue-residence-phase-7-by-nabni",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Azizi Amir",
+        "slug": "azizi-amir",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Wichtiger Kontext für Avenue Residence Phase 7 By Nabni und Azizi Amir",
+      "section_id": "overview",
+      "visual_aria": "Vergleichsdarstellung für Avenue Residence Phase 7 By Nabni und Azizi Amir",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Fragen Sie nach Preis, Einheitenmix, Übergabe oder Eignung für Käufer.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Avenue Residence Phase 7 By Nabni oder Azizi Amir – was passt besser?",
+        "Preis, Einheiten und Übergabe vergleichen",
+        "Was sollte ich vor der Auswahl prüfen?"
+      ],
+      "title": "Avenue Residence Phase 7 By Nabni und Azizi Amir vergleichen",
+      "ai_aria": "Primadom AI bitten, Avenue Residence Phase 7 By Nabni und Azizi Amir zu vergleichen",
+      "eyebrow": "AI fragen",
+      "prompts": [
+        "Vergleiche Avenue Residence Phase 7 By Nabni und Azizi Amir für mein Kaufziel. Prüfe den verfügbaren Preiskontext, Immobilientypen, Schlafzimmerbandbreite und Übergabe und kennzeichne klar, was aktuell bestätigt werden muss.",
+        "Vergleiche Avenue Residence Phase 7 By Nabni und Azizi Amir nach Einstiegspreis, Einheitentypen, Schlafzimmerbandbreite und geplanter Übergabe. Weise fehlende oder nicht verifizierte Angaben klar aus.",
+        "Was sollte ein Käufer vor der Wahl zwischen Avenue Residence Phase 7 By Nabni und Azizi Amir prüfen? Berücksichtige aktuelle Preise, Verfügbarkeit, Zahlungsbedingungen, Übergabestatus und die Eignung für das Käuferziel."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "input_aria": "AI-Frage zum Projektvergleich",
+      "section_id": "compare-ai-search",
+      "voice_text": "Zu diesem Projektvergleich fragen",
+      "placeholder": "AI bitten, diese beiden Projekte zu vergleichen",
+      "voice_label": "Sprachsuche",
+      "block_status": "final",
+      "button_label": "Fragen",
+      "submit_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "ai_voice_text": "Avenue Residence Phase 7 By Nabni und Azizi Amir für mein Kaufziel vergleichen",
+      "ai_placeholder": "AI bitten, diese beiden Projekte zu vergleichen",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Hört zu…",
+      "form_aria_label": "Primadom AI bitten, Avenue Residence Phase 7 By Nabni und Azizi Amir zu vergleichen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Gleiches Gebiet",
+        "Unterschiedliche Bauträger",
+        "AED 1.4M vs AED 1.3M",
+        "Gleiches Übergabejahr"
+      ],
+      "title": "Kurze Empfehlung",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Avenue Residence Phase 7 By Nabni</strong> kann eher zu Käufern passen, die familienorientiertes Wohnen priorisieren; <strong>Azizi Amir</strong> eher zu Käufern, die den niedrigeren erfassten Einstiegspreis in den Vordergrund stellen. <strong>Avenue Residence Phase 7 By Nabni</strong> umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.4M erfasst. Die Übergabe ist für 2027 erfasst. <strong>Azizi Amir</strong> umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.3M erfasst. Die Übergabe ist für 2027 erfasst.",
+      "body_text": "Avenue Residence Phase 7 By Nabni kann eher zu Käufern passen, die familienorientiertes Wohnen priorisieren; Azizi Amir eher zu Käufern, die den niedrigeren erfassten Einstiegspreis in den Vordergrund stellen. Avenue Residence Phase 7 By Nabni umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.4M erfasst. Die Übergabe ist für 2027 erfasst. Azizi Amir umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.3M erfasst. Die Übergabe ist für 2027 erfasst.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Projekt A",
+          "value": "Avenue Residence Phase 7 By Nabni"
+        },
+        {
+          "label": "Projekt B",
+          "value": "Azizi Amir"
+        },
+        {
+          "label": "Gebietskontext",
+          "value": "Beide in Al Furjan"
+        },
+        {
+          "label": "Bauträgerkontext",
+          "value": "Nabni Real Estate Development vs Azizi Developments"
+        },
+        {
+          "label": "Startpreis",
+          "value": "AED 1.4M vs AED 1.3M"
+        },
+        {
+          "label": "Immobilientypen",
+          "value": "Beide: Apartment"
+        },
+        {
+          "label": "Schlafzimmer",
+          "value": "Beide: 1–3 Schlafzimmer"
+        },
+        {
+          "label": "Übergabe",
+          "value": "Beide erfasst für 2027"
+        }
+      ],
+      "title": "Vergleichsdetails",
+      "eyebrow": "Wichtige Fakten",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Avenue Residence Phase 7 By Nabni",
+          "slug": "avenue-residence-phase-7-by-nabni",
+          "text": "Avenue Residence Phase 7 By Nabni ist in Al Furjan bei Nabni Real Estate Development auf familienorientiertes Wohnen ausgerichtet. Avenue Residence Phase 7 By Nabni umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.4M erfasst. Die Übergabe ist für 2027 erfasst. Das aktuelle Eignungsprofil richtet sich an Käufer, die die Immobilie als Hauptwohnsitz nutzen möchten.",
+          "points": [
+            "Al Furjan · Von Nabni Real Estate Development",
+            "Apartment · 1–3 Schlafzimmer",
+            "Ab AED 1.4M · Übergabe 2027"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Azizi Amir",
+          "slug": "azizi-amir",
+          "text": "Azizi Amir ist in Al Furjan bei Azizi Developments auf Wohnen in einer grünen Community ausgerichtet. Azizi Amir umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.3M erfasst. Die Übergabe ist für 2027 erfasst. Das aktuelle Eignungsprofil richtet sich an Käufer, die die Immobilie als Hauptwohnsitz nutzen möchten.",
+          "points": [
+            "Al Furjan · Von Azizi Developments",
+            "Apartment · 1–3 Schlafzimmer",
+            "Ab AED 1.3M · Übergabe 2027"
+          ]
+        }
+      ],
+      "title": "Projektzusammenfassungen",
+      "eyebrow": "Auf einen Blick",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Beide Projekte liegen in Al Furjan; die Lage auf Gebietsebene ist daher weniger trennscharf. Avenue Residence Phase 7 By Nabni ist Nabni Real Estate Development zugeordnet, Azizi Amir Azizi Developments; Ausführung, Service und Produktpositionierung sollten getrennt geprüft werden. Die erfassten Einstiegspreise liegen bei AED 1.4M für Avenue Residence Phase 7 By Nabni und AED 1.3M für Azizi Amir. Bei beiden Projekten sind Apartments erfasst. Für beide Projekte ist die Übergabe für 2027 erfasst.",
+        "tags": [
+          "Gleiches Gebiet",
+          "Unterschiedliche Bauträger",
+          "Erfasster Preisunterschied",
+          "Gleicher Immobilienmix",
+          "Aktuelle Verfügbarkeit"
+        ],
+        "title": "Logik auf Projektebene",
+        "eyebrow": "So vergleichen Sie"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Faktor",
+        "project_a": "Avenue Residence Phase 7 By Nabni",
+        "project_b": "Azizi Amir"
+      },
+      "rows": [
+        {
+          "factor": "Startpreis",
+          "project_a": "Ab AED 1.4M",
+          "project_b": "Ab AED 1.3M"
+        },
+        {
+          "factor": "Lage",
+          "project_a": "Al Furjan",
+          "project_b": "Al Furjan"
+        },
+        {
+          "factor": "Bauträger",
+          "project_a": "Nabni Real Estate Development",
+          "project_b": "Azizi Developments"
+        },
+        {
+          "factor": "Immobilientypen",
+          "project_a": "Apartment",
+          "project_b": "Apartment"
+        },
+        {
+          "factor": "Schlafzimmer",
+          "project_a": "1–3 Schlafzimmer",
+          "project_b": "1–3 Schlafzimmer"
+        },
+        {
+          "factor": "Übergabe",
+          "project_a": "2027",
+          "project_b": "2027"
+        },
+        {
+          "factor": "Projektprofil",
+          "project_a": "familienorientiertes Wohnen",
+          "project_b": "Wohnen in einer grünen Community"
+        }
+      ],
+      "title": "Projektvergleichstabelle",
+      "eyebrow": "Avenue Residence Phase 7 By Nabni vs Azizi Amir",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Die erfassten Einstiegspreise liegen bei AED 1.4M für Avenue Residence Phase 7 By Nabni und AED 1.3M für Azizi Amir. Vergleichen Sie möglichst gleichartige Einheiten nach Typ, Größe, Etage, Aussicht und Gesamtkosten.",
+          "title": "Preise und Einheiten vergleichen",
+          "eyebrow": "Preis & Einheiten",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Beide Projekte liegen in Al Furjan. Vergleichen Sie Erreichbarkeit, Gebäude- oder Grundstückslage, umliegendes Angebot und Alltagstauglichkeit.",
+          "title": "Gleiches Gebiet, Mikrolage vergleichen",
+          "eyebrow": "Eignung der Lage",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "Für beide Projekte ist derzeit eine Übergabe im Jahr 2027 erfasst. Vergleichen Sie Baufortschritt, geplante Nutzung und mögliche Aktualisierungen des Zeitplans.",
+          "title": "Übergabezeiträume prüfen",
+          "eyebrow": "Zeitrahmen",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Bitten Sie Primadom AI, Avenue Residence Phase 7 By Nabni und Azizi Amir nach Einheitentyp, erfasstem Preis, Lage, Übergabe und geplanter Nutzung zu vergleichen und die wichtigsten Fragen für einen Berater vorzubereiten.",
+          "title": "Nach Ihrem Ziel vergleichen",
+          "eyebrow": "AI fragen",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Entscheidungshinweise zum Projektvergleich"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Für wen sich welches Projekt eignet",
+        "eyebrow": "Eignung für Käufer",
+        "project_a_items": [
+          "Sie möchten einen erfassten Einstiegspreis von AED 1.4M als Ausgangspunkt nutzen und den aktuellen Preis der konkreten Einheit bestätigen.",
+          "Sie bevorzugen familienorientiertes Wohnen in Al Furjan für Ihre geplante Nutzung.",
+          "Sie suchen Apartments mit 1–3 Schlafzimmern und berücksichtigen den für 2027 erfassten Übergabezeitpunkt in Ihrer Planung."
+        ],
+        "project_a_title": "Avenue Residence Phase 7 By Nabni wählen, wenn",
+        "project_b_items": [
+          "Sie möchten einen erfassten Einstiegspreis von AED 1.3M als Ausgangspunkt nutzen und den aktuellen Preis der konkreten Einheit bestätigen.",
+          "Sie bevorzugen Wohnen in einer grünen Community in Al Furjan für Ihre geplante Nutzung.",
+          "Sie suchen Apartments mit 1–3 Schlafzimmern und berücksichtigen den für 2027 erfassten Übergabezeitpunkt in Ihrer Planung."
+        ],
+        "project_b_title": "Azizi Amir wählen, wenn"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Beide Projekte liegen in Al Furjan; die Lage auf Gebietsebene ist daher weniger trennscharf. Avenue Residence Phase 7 By Nabni ist Nabni Real Estate Development zugeordnet, Azizi Amir Azizi Developments; Ausführung, Service und Produktpositionierung sollten getrennt geprüft werden. Die erfassten Einstiegspreise liegen bei AED 1.4M für Avenue Residence Phase 7 By Nabni und AED 1.3M für Azizi Amir. Bei beiden Projekten sind Apartments erfasst. Für beide Projekte ist die Übergabe für 2027 erfasst.",
+        "tags": [
+          "Erfasster Preisunterschied",
+          "Gleiches Gebiet",
+          "Erfasster Einheitenmix",
+          "Gleiche Übergabe",
+          "Gesamtkosten prüfen"
+        ],
+        "title": "Investitionslogik",
+        "eyebrow": "Entscheidungslogik"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/de/compare-projects/almaara-residence-vs-avenue-residence-phase-7-by-nabni/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Almaara Residence vs Avenue Residence Phase 7 By Nabni",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/almaara-residence-vs-azizi-amir/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Almaara Residence vs Azizi Amir",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/amalia-residences-vs-avenue-residence-phase-7-by-nabni/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Amalia Residences vs Avenue Residence Phase 7 By Nabni",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/de/compare-projects/amalia-residences-vs-azizi-amir/",
+            "meta": "Gemeinsames Projekt",
+            "label": "Amalia Residences vs Azizi Amir",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Weitere Projektvergleiche",
+        "eyebrow": "Weiter erkunden"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/de/projects/avenue-residence-phase-7-by-nabni/",
+            "meta": "Projekt A",
+            "label": "Projektseite Avenue Residence Phase 7 By Nabni",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/de/projects/azizi-amir/",
+            "meta": "Projekt B",
+            "label": "Projektseite Azizi Amir",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/de/areas/al-furjan/",
+            "meta": "Gebiet",
+            "label": "Gebietsleitfaden Al Furjan",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Projektseiten öffnen",
+        "eyebrow": "Projektseiten"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Teilen Sie diese Angaben, um Avenue Residence Phase 7 By Nabni und Azizi Amir anhand derselben Prioritäten zu vergleichen. Erfasste Projektdaten helfen bei der Vorauswahl; konkrete Einheiten, aktuelle Preise und Verfügbarkeit müssen weiterhin aktuell geprüft werden.",
+      "items": [
+        {
+          "meta": "AED-Bereich oder maximaler Einstiegspreis",
+          "label": "Preisspanne"
+        },
+        {
+          "meta": "Apartments",
+          "label": "Einheitentyp"
+        },
+        {
+          "meta": "Hauptwohnsitz / Familiennutzung / Investition",
+          "label": "Ziel des Käufers"
+        },
+        {
+          "meta": "Bevorzugter Zeitrahmen um 2027",
+          "label": "Zeitrahmen"
+        },
+        {
+          "meta": "Schlafzimmer / Grundriss / Zugang zur Community",
+          "label": "Wichtigste Präferenz"
+        }
+      ],
+      "title": "Vergleichsdaten für AI",
+      "eyebrow": "Nützliche Details",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Avenue Residence Phase 7 By Nabni kann eher zu Käufern passen, die familienorientiertes Wohnen priorisieren; Azizi Amir eher zu Käufern, die den niedrigeren erfassten Einstiegspreis in den Vordergrund stellen. Avenue Residence Phase 7 By Nabni umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.4M erfasst. Die Übergabe ist für 2027 erfasst. Azizi Amir umfasst Apartments mit 1–3 Schlafzimmern. Als Einstiegspreis ist AED 1.3M erfasst. Die Übergabe ist für 2027 erfasst. Die bessere Eignung hängt von Ihrer geplanten Nutzung und der konkret verfügbaren Einheit zum Zeitpunkt des Vergleichs ab.",
+          "question": "Welches Projekt kann besser zu mir passen: Avenue Residence Phase 7 By Nabni oder Azizi Amir?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Azizi Amir hat mit AED 1.3M den niedrigeren erfassten Einstiegspreis gegenüber AED 1.4M bei Avenue Residence Phase 7 By Nabni. Für einen belastbaren Vergleich müssen die aktuellen Preise derselben Einheitengröße und die Gesamtkosten geprüft werden.",
+          "question": "Welches Projekt hat den niedrigeren erfassten Einstiegspreis?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Beide Projekte liegen in Al Furjan. Avenue Residence Phase 7 By Nabni ist Nabni Real Estate Development zugeordnet, Azizi Amir Azizi Developments.",
+          "question": "Wie unterscheiden sich Avenue Residence Phase 7 By Nabni und Azizi Amir nach Lage und Bauträger?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Avenue Residence Phase 7 By Nabni führt Apartments mit 1–3 Schlafzimmern. Die Übergabe ist für 2027 erfasst. Azizi Amir führt Apartments mit 1–3 Schlafzimmern. Die Übergabe ist für 2027 erfasst.",
+          "question": "Welche Immobilientypen, Schlafzimmerbandbreiten und Übergabejahre sind erfasst?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Die endgültige Vorauswahl zwischen Avenue Residence Phase 7 By Nabni und Azizi Amir sollte auf der konkreten Einheit, dem aktuellen Preis, Zahlungsbedingungen, gesamten Erwerbskosten, Grundriss, Aussicht, Projektstatus, Übergabe und Verfügbarkeit beruhen. Projektdaten sind für die Vorauswahl nützlich, ersetzen aber keine aktuelle Prüfung auf Einheitenebene.",
+          "question": "Was sollte ich vor der Wahl zwischen Avenue Residence Phase 7 By Nabni und Azizi Amir prüfen?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen zu Projekten",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Nutzen Sie diese Seite als Ausgangspunkt für den Vergleich von Avenue Residence Phase 7 By Nabni und Azizi Amir. Erfasste Angaben können sich ändern und ersetzen weder aktuelle Bauträgerunterlagen noch öffentliche Register. Bestätigen Sie aktuelle Preise, verfügbare Einheiten, Zahlungsbedingungen, Grundrisse, Servicegebühren, Übergabedetails und Projektstatus vor einer Entscheidung.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Zahlungsbedingungen",
+          "value": "Aktuelle Unterlagen prüfen"
+        },
+        {
+          "label": "Übergabe / Status",
+          "value": "Aktuellen Status bestätigen"
+        },
+        {
+          "label": "Inhalt aktualisiert",
+          "value": "Juli 2026"
+        }
+      ],
+      "title": "Quellen und Überprüfung",
+      "eyebrow": "Überprüfung",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Beide Projekte liegen in Al Furjan; daher ist die Lage auf Gebietsebene weniger trennscharf. Die erfassten Einstiegspreise liegen bei AED 1.4M für Avenue Residence Phase 7 By Nabni und AED 1.3M für Azizi Amir. Für beide Projekte ist derzeit eine Übergabe im Jahr 2027 erfasst.",
+      "title": "Möchten Sie Avenue Residence Phase 7 By Nabni und Azizi Amir für Ihren Fall vergleichen?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Primadom AI fragen",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Meinen Fall vergleichen",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Anfrageformular zum Projektvergleich",
+      "text": "Teilen Sie Ihre Präferenzen und Kontaktdaten mit. Primadom AI bereitet einen fokussierten Vergleich vor, bevor ein Berater Sie kontaktiert.",
+      "error": "Bitte versuchen Sie es erneut",
+      "title": "Avenue Residence Phase 7 By Nabni und Azizi Amir für Ihren Fall vergleichen",
+      "fields": {
+        "name": "Ihr Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Vorbereitete Anfrage"
+      },
+      "submit": "Senden",
+      "comment": "Diese Projekte nach Einheitentyp, Aussicht, aktuellen Bedingungen, Zeitrahmen und Käuferziel vergleichen.",
+      "eyebrow": "Vergleich mit AI fortsetzen",
+      "success": "Anfrage gesendet",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Schließen",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "phone": "+971",
+        "comment": "Nützliche Details ergänzen"
+      },
+      "hidden_fields": {
+        "page_id": "page_project_comparison_avenue_residence_phase_7_by_nabni_vs_azizi_amir_de",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Avenue Residence Phase 7 By Nabni",
+        "project_a_slug": "avenue-residence-phase-7-by-nabni",
+        "project_b_name": "Azizi Amir",
+        "project_b_slug": "azizi-amir",
+        "canonical_url_path": "/de/compare-projects/avenue-residence-phase-7-by-nabni-vs-azizi-amir/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Senden",
+        "error": "Bitte versuchen Sie es erneut",
+        "success": "Anfrage gesendet",
+        "submitting": "Wird gesendet…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Vorbereitete Anfrage",
+        "value": "Diese Projekte nach Einheitentyp, Aussicht, aktuellen Bedingungen, Zeitrahmen und Käuferziel vergleichen.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI hilft Käufern, Projekte, Lagen, Bauträger und wichtige Entscheidungsfaktoren zu vergleichen, bevor sie mit einem Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Gebiete",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Projektvergleich mit Bezug zum tatsächlichen Käuferziel",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Vereinigte Arabische Emirate",
+      "subtitle": "Immobilieninformationen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Social-Media-Links",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "AI fragen",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

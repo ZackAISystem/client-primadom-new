@@ -13,6 +13,22 @@
   {{- $zhData := index site.Data.primadom "zh" -}}
   {{- $districtComparisonData = index $zhData "district_comparison_pages" -}}
 {{- end -}}
+{{- if eq .Site.Language.Lang "es" -}}
+  {{- $esData := index site.Data.primadom "es" -}}
+  {{- $districtComparisonData = index $esData "district_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "fr" -}}
+  {{- $frData := index site.Data.primadom "fr" -}}
+  {{- $districtComparisonData = index $frData "district_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "de" -}}
+  {{- $deData := index site.Data.primadom "de" -}}
+  {{- $districtComparisonData = index $deData "district_comparison_pages" -}}
+{{- end -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- $arData := index site.Data.primadom "ar" -}}
+  {{- $districtComparisonData = index $arData "district_comparison_pages" -}}
+{{- end -}}
 {{- $page := index $districtComparisonData $slug -}}
 
 {{- if not $page -}}

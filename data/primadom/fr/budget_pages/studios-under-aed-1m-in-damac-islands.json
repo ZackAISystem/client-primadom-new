@@ -1,0 +1,695 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_budget_district_studios_under_aed_1m_damac_islands_fr",
+  "page_type_id": "budget_page",
+  "language_code": "fr",
+  "url_path": "/fr/budgets/studios-under-aed-1m-in-damac-islands/",
+  "canonical_url_path": "/fr/budgets/studios-under-aed-1m-in-damac-islands/",
+  "canonical_group_key": "property_budget_district:studios:under_aed_1m:damac-islands",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "damac-islands",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_budget_check",
+    "block_05_direct_answer",
+    "block_06_budget_facts",
+    "block_07_districts_types",
+    "block_08_decision_cards",
+    "block_09_projects_fit",
+    "block_10_costs_tradeoffs",
+    "block_11_related_budget_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#buy",
+          "label": "Ce que vous pouvez acheter",
+          "active": true
+        },
+        {
+          "href": "#decision-cards",
+          "label": "Plan de paiement",
+          "active": false
+        },
+        {
+          "href": "#costs_tradeoffs",
+          "label": "Coûts",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#budget-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#budgetLeadModal",
+      "nav_aria": "Navigation de la page budget",
+      "cta_label": "Vérifier le budget",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "formula_ready",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "budget_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "budgets",
+          "href": "/fr/budgets/",
+          "label": "Budgets"
+        },
+        {
+          "key": "property_type",
+          "href": "/fr/property-types/studios/",
+          "label": "Studios"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/damac-islands/",
+          "label": "Damac Islands"
+        },
+        {
+          "key": "current",
+          "href": "/fr/budgets/studios-under-aed-1m-in-damac-islands/",
+          "label": "Studios à Damac Islands — moins de 1M AED"
+        }
+      ],
+      "block_status": "formula_ready",
+      "schema_version": "budget_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "moins de 1M AED",
+        "Damac Islands",
+        "Studios",
+        "Aucune correspondance de catégorie confirmée",
+        "Options à proximité"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Studios à Damac Islands — moins de 1M AED",
+      "subtitle": "Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED. Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. La prochaine vérification utile concerne les options à proximité.",
+      "facts_aria": "Points clés de la page budget",
+      "section_id": "overview",
+      "visual_aria": "Aperçu du budget pour Studios à Damac Islands — moins de 1M AED",
+      "block_status": "final",
+      "schema_version": "budget_hero_v2"
+    },
+    "block_04_ai_budget_check": {
+      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à Damac Islands. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "hints": [
+        "Quels projets de studios correspondent à ce budget ?",
+        "Quelles options à proximité méritent une comparaison approfondie ?",
+        "Quels coûts de détention faut-il prévoir ?"
+      ],
+      "title": "Vérifier ce que moins de 1M AED permet d’acheter à Damac Islands",
+      "eyebrow": "PRIMADOM AI",
+      "prompts": [
+        "Évaluez les options réalistes pour des studios à Damac Islands avec un budget inférieur à 1M AED. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner.",
+        "Expliquez comment le compromis « zone / type de bien » influence le choix pour des studios à Damac Islands, et ce que la vérification de les options à proximité peut changer dans la sélection.",
+        "Comparez les principaux risques pour des studios à Damac Islands avec un budget inférieur à 1M AED : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
+      ],
+      "hint_items": [
+        {
+          "label": "Quels projets de studios correspondent à ce budget ?",
+          "prompt": "Évaluez les options réalistes pour des studios à Damac Islands avec un budget inférieur à 1M AED. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner."
+        },
+        {
+          "label": "Quelles options à proximité méritent une comparaison approfondie ?",
+          "prompt": "Expliquez comment le compromis « zone / type de bien » influence le choix pour des studios à Damac Islands, et ce que la vérification de les options à proximité peut changer dans la sélection."
+        },
+        {
+          "label": "Quels coûts de détention faut-il prévoir ?",
+          "prompt": "Comparez les principaux risques pour des studios à Damac Islands avec un budget inférieur à 1M AED : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
+        }
+      ],
+      "section_id": "budget-ai",
+      "voice_text": "Demander ce que moins de 1M AED permet d’acheter à Damac Islands",
+      "placeholder": "Demander ce que moins de 1M AED permet d’acheter à Damac Islands",
+      "voice_label": "Démarrer la saisie vocale",
+      "block_status": "final",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "budget_ai_check_v2",
+      "secondary_label": "Comparer avec mon cas",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "voice_active_label": "Arrêter la saisie vocale",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "live_check_required": true,
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "submit_loading_label": "Demande à AI…",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal",
+      "voice_processing_label": "Traitement de la saisie vocale"
+    },
+    "block_05_direct_answer": {
+      "chips": [
+        "moins de 1M AED",
+        "Damac Islands",
+        "Studios",
+        "Aucune correspondance de catégorie confirmée",
+        "Options à proximité"
+      ],
+      "title": "Ce que vous pouvez acheter",
+      "eyebrow": "Réponse directe",
+      "body_html": "<p><strong>Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED.</strong> Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Élargissez d’abord un seul critère — zone, type de bien ou budget — afin de tester les alternatives sans perdre l’objectif d’achat. Avant de présélectionner, confirmez le prix exact de l’unité, les modalités de paiement, les éventuelles incitations actuelles et la disponibilité du projet concerné.</p>",
+      "body_text": "Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED. Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Élargissez d’abord un seul critère — zone, type de bien ou budget — afin de tester les alternatives sans perdre l’objectif d’achat. Avant de présélectionner, confirmez le prix exact de l’unité, les modalités de paiement, les éventuelles incitations actuelles et la disponibilité du projet concerné.",
+      "section_id": "buy",
+      "block_status": "final",
+      "schema_version": "budget_direct_answer_v2",
+      "guidance_status": "contextual_answer",
+      "availability_status": "live_check_required",
+      "live_check_required": true
+    },
+    "block_06_budget_facts": {
+      "items": [
+        {
+          "key": "budget",
+          "label": "Budget",
+          "value": "moins de 1M AED"
+        },
+        {
+          "key": "market",
+          "label": "Marché",
+          "value": "Dubaï"
+        },
+        {
+          "key": "area",
+          "label": "Zone",
+          "value": "Damac Islands"
+        },
+        {
+          "key": "property_type",
+          "label": "Type de bien",
+          "value": "Studios"
+        },
+        {
+          "key": "current_signal",
+          "label": "Signal actuel",
+          "value": "Aucune correspondance de catégorie confirmée"
+        },
+        {
+          "key": "main_tradeoff",
+          "label": "Compromis principal",
+          "value": "zone / type de bien"
+        },
+        {
+          "key": "next_check",
+          "label": "Prochaine vérification",
+          "value": "Options à proximité"
+        },
+        {
+          "key": "unit_status",
+          "label": "Statut des unités",
+          "value": "Vérifier la disponibilité actuelle"
+        }
+      ],
+      "title": "Paramètres du budget",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "budget_facts_v2",
+      "live_check_required": true
+    },
+    "block_07_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "Les prix de départ enregistrés se situent actuellement hors de ce budget ; comparez les unités exactes et les zones à proximité.",
+            "title": "Damac Islands"
+          },
+          {
+            "text": "24 projets disposent de prix de départ enregistrés dans ce budget ; comparez les unités exactes et la disponibilité actuelle.",
+            "title": "Arjan"
+          },
+          {
+            "text": "20 projets disposent de prix de départ enregistrés dans ce budget ; comparez les unités exactes et la disponibilité actuelle.",
+            "title": "Meydan"
+          },
+          {
+            "text": "13 projets disposent de prix de départ enregistrés dans ce budget ; comparez les unités exactes et la disponibilité actuelle.",
+            "title": "Majan"
+          }
+        ],
+        "title": "Quartiers à comparer",
+        "eyebrow": "Logique de la zone"
+      },
+      "section_id": "districts_types",
+      "block_status": "agent_draft",
+      "property_types": {
+        "items": [
+          {
+            "text": "Cette page cible ce type de bien, mais aucun prix de départ de projet enregistré ne se situe actuellement dans le budget.",
+            "title": "Studios"
+          },
+          {
+            "text": "1 projet dispose d’un prix de départ enregistré sur le marché élargi ; vérifiez ce type de bien à Damac Islands.",
+            "title": "Villas"
+          },
+          {
+            "text": "1 projet dispose d’un prix de départ enregistré sur le marché élargi ; vérifiez ce type de bien à Damac Islands.",
+            "title": "Maisons de ville"
+          },
+          {
+            "text": "Un type de bien à vérifier sur le marché élargi si les options à Damac Islands sont limitées.",
+            "title": "Appartements"
+          }
+        ],
+        "title": "Types de biens à comparer",
+        "eyebrow": "Logique du type de bien"
+      },
+      "schema_version": "budget_districts_types_v2"
+    },
+    "block_08_decision_cards": {
+      "aria": "Notes de décision liées au budget",
+      "items": [
+        {
+          "text": "Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "title": "Utiliser le budget comme cadre de comparaison",
+          "eyebrow": "Logique du plan de paiement"
+        },
+        {
+          "text": "Pour des studios à Damac Islands, comparez directement les options selon le compromis « zone / type de bien ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "title": "Arbitrer : zone / type de bien",
+          "eyebrow": "Compromis"
+        },
+        {
+          "text": "Pour un achat à Damac Islands, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "title": "Le besoin de trésorerie dépasse le prix affiché",
+          "eyebrow": "Coûts cachés"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne les options à proximité.",
+          "title": "Transformer le budget en sélection",
+          "eyebrow": "Contexte AI"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "agent_draft",
+      "schema_version": "budget_decision_cards_v1"
+    },
+    "block_09_projects_fit": {
+      "projects": {
+        "mode": "route_fallback",
+        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des studios à Damac Islands avec un budget inférieur à 1M AED. Utilisez les options de recherche ci-dessous et demandez une vérification actuelle avant de considérer une unité comme disponible.",
+        "items": [
+          {
+            "href": "/fr/areas/damac-islands/",
+            "meta": "guide du quartier",
+            "label": "Explorer davantage de projets à Damac Islands",
+            "item_type": "district_route",
+            "live_check_required": false
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "prix et disponibilité",
+            "label": "Vérifier les unités actuelles des projets à Damac Islands",
+            "item_type": "live_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "vérification de la fourchette",
+            "label": "Comparer les prix les plus proches hors de la fourchette",
+            "item_type": "range_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "vérification de la décision",
+            "label": "Examiner l’exposition aux paiements et le calendrier d’achat",
+            "item_type": "decision_check",
+            "live_check_required": true
+          },
+          {
+            "href": "#budgetLeadModal",
+            "meta": "vérification du budget avec AI",
+            "label": "Demander à Primadom AI de préparer une sélection actualisée",
+            "item_type": "ai_handoff",
+            "live_check_required": true
+          }
+        ],
+        "title": "Parcours de recherche de projets",
+        "eyebrow": "Point de départ de la sélection"
+      },
+      "buyer_fit": {
+        "title": "Adéquation à l’acheteur",
+        "eyebrow": "À qui ce budget convient",
+        "bad_items": [
+          "Acheteurs engagés sur un autre type de bien et ne souhaitant pas comparer ce format",
+          "Acheteurs ayant besoin d’une correspondance de catégorie confirmée sans vérifier l’offre actuelle de projets",
+          "Acheteurs ayant besoin de beaucoup de rangement ou de plusieurs espaces de vie et de travail séparés"
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs comparant des studios à Damac Islands avec un budget inférieur à 1M AED",
+          "Acheteurs prêts à arbitrer entre « zone / type de bien » plutôt qu’à se fier uniquement au prix affiché",
+          "Acheteurs prêts à vérifier les options à proximité, les coûts, les modalités et la disponibilité avant de demander des options actuelles"
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "projects_fit",
+      "block_status": "agent_draft",
+      "schema_version": "budget_projects_fit_v3",
+      "live_check_required": true
+    },
+    "block_10_costs_tradeoffs": {
+      "tradeoffs": {
+        "body": "Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED. Un budget de moins de 1M AED définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « zone / type de bien ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les options à proximité.",
+        "mode": "contextual_editorial",
+        "tags": [
+          "Zone / type de bien",
+          "Coûts du bâtiment",
+          "Recherche actuelle",
+          "Engagement financier total",
+          "Coûts récurrents"
+        ],
+        "title": "Compromis",
+        "eyebrow": "Vérification de faisabilité"
+      },
+      "section_id": "costs_tradeoffs",
+      "block_status": "agent_draft",
+      "hidden_costs": {
+        "mode": "verification_checklist",
+        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à Damac Islands. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "items": [
+          {
+            "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Dubai avant de réserver. Le montant final dépend du bien et du type de transaction.",
+            "title": "Coûts d’enregistrement et de transaction"
+          },
+          {
+            "text": "En cas de financement, confirmez les frais bancaires, d’évaluation et liés au crédit immobilier ainsi que les liquidités requises avant l’achèvement.",
+            "title": "Coûts de financement et d’évaluation"
+          },
+          {
+            "text": "Examinez les charges de service du bâtiment, les modalités de climatisation, les équipements communs et les responsabilités d’entretien pour l’unité exacte.",
+            "title": "Charges de service et entretien du bâtiment"
+          },
+          {
+            "text": "Prévoyez séparément le contrôle des défauts, l’ameublement, les services publics, le déménagement et les coûts dus autour de la livraison ou de l’achèvement.",
+            "title": "Coûts de livraison, d’ameublement et d’emménagement"
+          }
+        ],
+        "title": "Coûts à vérifier",
+        "eyebrow": "À vérifier avant d’acheter",
+        "amounts_shown": false,
+        "source_check_required": true
+      },
+      "schema_version": "budget_costs_tradeoffs_v3",
+      "live_cost_check_required": true
+    },
+    "block_11_related_budget_pages": {
+      "items": [
+        {
+          "href": "/fr/budgets/studios-aed-1m-2m-in-damac-islands/",
+          "label": "Studios AED 1M–2M à Damac Islands",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/fr/budgets/studios-aed-2m-3m-in-damac-islands/",
+          "label": "Studios AED 2M–3M à Damac Islands",
+          "relation_type": "same_context_next_budget",
+          "route_verified": true
+        },
+        {
+          "href": "/fr/budgets/under-aed-1m-in-damac-islands/",
+          "label": "Biens immobiliers sous AED 1M à Damac Islands",
+          "relation_type": "district_budget_overview",
+          "route_verified": true
+        },
+        {
+          "href": "/fr/budgets/apartments-under-aed-1m-in-damac-islands/",
+          "label": "Appartements sous AED 1M à Damac Islands",
+          "relation_type": "same_district_alternative",
+          "route_verified": true
+        }
+      ],
+      "title": "Pages de budget associées",
+      "eyebrow": "Recherches associées",
+      "section_id": "related_budget_pages",
+      "block_status": "agent_draft",
+      "schema_version": "budget_related_pages_v2",
+      "routes_verified": true
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Les données actuelles ne confirment pas de correspondance de catégorie pour des studios à Damac Islands avec un budget inférieur à 1M AED. Les données enregistrées servent à orienter la recherche et ne confirment pas un inventaire disponible en temps réel. Comparez les unités exactes, les budgets voisins ou les zones proches, puis demandez une vérification actuelle avant de considérer une option comme disponible.",
+          "question": "Quelles options immobilières sont actuellement enregistrées pour des studios à Damac Islands avec un budget inférieur à 1M AED ?"
+        },
+        {
+          "answer": "Comparez d’abord le type de bien ciblé, puis les formats voisins présentés sur cette page. Utilisez les prix de départ enregistrés comme repères et vérifiez, pour chaque projet, l’unité, l’agencement, le prix actuel et la disponibilité.",
+          "question": "Quels types de biens et quelles alternatives faut-il comparer à Damac Islands avec un budget inférieur à 1M AED ?"
+        },
+        {
+          "answer": "Le prix affiché n’est qu’une partie du besoin de trésorerie. Vérifiez les coûts d’enregistrement et de transaction, le financement et l’évaluation le cas échéant, les charges récurrentes, ainsi que les coûts de livraison, d’ameublement et d’emménagement. Les montants exacts doivent être calculés pour l’unité et la structure de transaction retenues.",
+          "question": "Quels coûts supplémentaires faut-il calculer pour des studios à Damac Islands avec un budget inférieur à 1M AED ?"
+        },
+        {
+          "answer": "Comparez le montant de réservation ou l’apport initial, les échéances de construction, le solde à la livraison, les éventuelles obligations après livraison et le montant total dû avant l’achèvement. Cette page ne confirme pas un plan de paiement actuel du développeur : le calendrier doit être vérifié séparément pour chaque unité présélectionnée.",
+          "question": "Comment comparer les plans de paiement pour des studios à Damac Islands avec un budget inférieur à 1M AED ?"
+        },
+        {
+          "answer": "Primadom AI peut élargir un seul critère à la fois — budget, emplacement, type de bien, surface ou calendrier d’achèvement — tout en gardant visibles l’objectif de l’acheteur, le compromis « zone / type de bien » et l’engagement financier total. Les projets obtenus nécessitent toujours une vérification actuelle des prix, des conditions et de la disponibilité.",
+          "question": "Comment Primadom AI peut-il affiner une recherche pour des studios à Damac Islands avec un budget inférieur à 1M AED ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le budget",
+      "section_id": "faq",
+      "block_status": "agent_draft",
+      "schema_version": "budget_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Les informations de planification pour des studios à Damac Islands avec un budget inférieur à 1M AED ne constituent pas un inventaire en temps réel. Confirmez les prix actuels et la disponibilité, les échéanciers de paiement, le statut de livraison, les frais, les charges de service et les conditions du projet à partir des documents du développeur, des sources officielles, des annonces actuelles et d’une vérification par un conseiller Primadom.",
+      "items": [
+        {
+          "label": "Prix / disponibilité",
+          "value": "Nécessite une vérification actuelle"
+        },
+        {
+          "label": "Plan de paiement",
+          "value": "Nécessite les documents du développeur"
+        },
+        {
+          "label": "Frais / charges de service",
+          "value": "Doit être calculé"
+        },
+        {
+          "label": "Adéquation unité / projet",
+          "value": "Nécessite une vérification des sources"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Vérification",
+      "section_id": "source-notes",
+      "block_status": "agent_draft",
+      "source_status": "placeholder_until_enrichment",
+      "schema_version": "budget_source_notes_v1",
+      "live_check_required": true
+    },
+    "block_14_cta": {
+      "text": "Demandez à Primadom AI de comparer les options pour des studios à Damac Islands avec un budget inférieur à 1M AED selon le type de bien, le prix actuel, le plan de paiement et le coût total, puis de préparer une sélection pour vérification actuelle.",
+      "title": "Vous souhaitez vérifier ce que votre budget permet réellement d’acheter ?",
+      "actions": [
+        {
+          "href": "#budget-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Obtenir une sélection selon le budget",
+          "modal": true
+        },
+        {
+          "href": "#budgetLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "agent_draft",
+      "schema_version": "budget_cta_v1",
+      "live_check_required": true
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulaire de demande selon le budget",
+      "note": "Les prix actuels et la disponibilité seront vérifiés avant le partage des recommandations.",
+      "text": "Indiquez vos coordonnées. Primadom AI préparera votre demande selon le budget pour vérification par un conseiller Primadom.",
+      "title": "Vérifier ce que votre budget permet d’acheter",
+      "fields": {
+        "name": "Votre nom",
+        "phone": "Téléphone / WhatsApp",
+        "budget": "Fourchette de budget",
+        "comment": "Demande préparée"
+      },
+      "layout": {
+        "mobile_order": [
+          "name",
+          "phone",
+          "budget",
+          "comment"
+        ],
+        "desktop_row_1": [
+          "name",
+          "phone",
+          "budget"
+        ],
+        "desktop_row_2": [
+          "comment"
+        ]
+      },
+      "submit": "Envoyer",
+      "comment": "Vérifier les options pour des studios à Damac Islands, moins de 1M AED.",
+      "eyebrow": "Continuer la sélection par budget avec AI",
+      "success": "Envoyé",
+      "ai_badge": "Primadom AI",
+      "modal_id": "budgetLeadModal",
+      "title_id": "budgetLeadTitle",
+      "close_label": "Fermer",
+      "field_order": [
+        "name",
+        "phone",
+        "budget",
+        "comment"
+      ],
+      "ai_row_badge": "Brouillon de demande",
+      "block_status": "agent_draft",
+      "entry_intent": {
+        "default": "budget_shortlist",
+        "accepted_values": [
+          "budget_shortlist",
+          "request_call"
+        ],
+        "set_from_clicked_cta": true
+      },
+      "field_config": {
+        "name": {
+          "label": "Votre nom",
+          "required": true,
+          "html_name": "name",
+          "placeholder": "Nom"
+        },
+        "phone": {
+          "label": "Téléphone / WhatsApp",
+          "required": true,
+          "html_name": "phone",
+          "placeholder": "+971"
+        },
+        "budget": {
+          "label": "Fourchette de budget",
+          "required": true,
+          "html_name": "budget",
+          "placeholder": "moins de 1M AED",
+          "default_value": "moins de 1M AED"
+        },
+        "comment": {
+          "label": "Demande préparée",
+          "editable": true,
+          "required": true,
+          "html_name": "comment",
+          "input_type": "text",
+          "placeholder": "Préparée à partir de cette page",
+          "single_line": true,
+          "default_value": "Vérifier les options pour des studios à Damac Islands, moins de 1M AED."
+        }
+      },
+      "modal_status": "agent_draft",
+      "placeholders": {
+        "name": "Nom",
+        "phone": "+971",
+        "budget": "moins de 1M AED",
+        "comment": "Préparée à partir de cette page"
+      },
+      "submit_label": "Envoyer",
+      "hidden_fields": {
+        "page_id": "page_property_budget_district_studios_under_aed_1m_damac_islands_fr",
+        "page_layer": "property_budget_district_candidate",
+        "budget_name": "Under AED 1M",
+        "entry_intent": "set_from_clicked_cta",
+        "pattern_name": null,
+        "budget_phrase": "under AED 1M",
+        "district_name": "Damac Islands",
+        "canonical_url_path": "/fr/budgets/studios-under-aed-1m-in-damac-islands/",
+        "content_version_id": "d99091f9-1a57-48c5-b078-d5d80b23c1fb",
+        "property_type_name": "Studios"
+      },
+      "success_label": "Envoyé",
+      "schema_version": "budget_lead_modal_v1",
+      "comment_editable": true,
+      "comment_textarea": false,
+      "voice_button_label": "Recherche vocale",
+      "comment_single_line": true,
+      "human_review_required": true
+    },
+    "block_16_footer": {
+      "text": "Explorez les options pour des studios à Damac Islands avec un budget inférieur à 1M AED selon le type de bien, le prix actuel, le plan de paiement et le coût total avant de demander une vérification du marché actuel.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Recherche par budget, transformée en options immobilières réalistes",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux de Primadom",
+      "url_section": "/fr/budgets/studios-under-aed-1m-in-damac-islands/",
+      "block_status": "agent_draft",
+      "footer_status": "agent_draft",
+      "schema_version": "budget_footer_v1",
+      "contact_primary": {
+        "href": "#budgetLeadModal",
+        "label": "Réserver un appel",
+        "modal": true,
+        "entry_intent": "request_call"
+      },
+      "contact_secondary": {
+        "href": "#budget-ai",
+        "label": "Demander à AI",
+        "modal": false
+      },
+      "social_links_status": "pending_global_ui_enrichment"
+    }
+  }
+}

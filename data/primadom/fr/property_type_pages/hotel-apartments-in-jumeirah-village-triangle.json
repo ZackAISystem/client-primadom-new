@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_hotel_apartments_jumeirah_village_triangle_fr",
+  "page_type_id": "property_type_page",
+  "language_code": "fr",
+  "url_path": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+  "canonical_url_path": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+  "canonical_group_key": "property_district:hotel-apartments:jumeirah-village-triangle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-village-triangle",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "Résumé",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "Projets",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "Navigation de la page du type de bien",
+      "cta_label": "Voir les options",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "property_types",
+          "href": "/fr/property-types/",
+          "label": "Types de biens"
+        },
+        {
+          "key": "district",
+          "href": "/fr/areas/jumeirah-village-triangle/",
+          "label": "Appartements hôteliers à Jumeirah Village Triangle"
+        },
+        {
+          "key": "current",
+          "href": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+          "label": "Appartements hôteliers à Jumeirah Village Triangle",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Type de bien : Appartements hôteliers",
+        "Zone : Jumeirah Village Triangle",
+        "Modèle de services hôteliers",
+        "Séjour flexible / investissement",
+        "Sélection avec AI"
+      ],
+      "image": {
+        "alt": "Aperçu du type de bien Appartements hôteliers à Jumeirah Village Triangle",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "Appartements hôteliers à Jumeirah Village Triangle",
+      "subtitle": "Guide pratique des appartements hôteliers à Jumeirah Village Triangle : les services hôteliers et les règles d’usage, contexte de prix, projets à comparer et sélection avec AI.",
+      "facts_aria": "Points clés du type de bien",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "Visuel principal du type de bien Appartements hôteliers à Jumeirah Village Triangle",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "Demander à Primadom AI des informations sur les appartements hôteliers à Jumeirah Village Triangle",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "Posez une question sur les appartements hôteliers à Jumeirah Village Triangle, le budget ou l’adéquation à votre situation",
+      "placeholder": "Posez une question sur les appartements hôteliers à Jumeirah Village Triangle, le budget ou l’adéquation à votre situation",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "Recherche vocale",
+      "click_action": "fill_input",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "Trouver des appartements hôteliers à Jumeirah Village Triangle selon mon budget",
+        "Comparer les appartements hôteliers selon les conditions de l’opérateur, les règles d’usage, le modèle locatif, les conditions d’utilisation personnelle et les frais récurrents",
+        "Que dois-je vérifier pour des appartements hôteliers à Jumeirah Village Triangle ?"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "Mode vocal",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "Appartements hôteliers",
+        "Marché : Jumeirah Village Triangle",
+        "Usage géré · investissement",
+        "Coût total de détention",
+        "Vérification des projets"
+      ],
+      "title": "Résumé du type de bien",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Appartements hôteliers à Jumeirah Village Triangle</strong> : comparez les conditions de l’opérateur, les règles d’usage, le modèle locatif, les conditions d’utilisation personnelle et les frais récurrents. Avant de décider, vérifiez le projet précis, l’agencement ou la configuration, les coûts récurrents et les conditions actuelles.",
+      "body_text": "Pour les appartements hôteliers à Jumeirah Village Triangle, comparez les conditions de l’opérateur, les règles d’usage, le modèle locatif, les conditions d’utilisation personnelle et les frais récurrents. Avant de décider, vérifiez le projet précis, l’agencement ou la configuration, les coûts récurrents et les conditions actuelles.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "Type de bien",
+          "value": "Appartements hôteliers",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "Zone",
+          "value": "Jumeirah Village Triangle",
+          "fact_key": "area"
+        },
+        {
+          "label": "Marché",
+          "value": "Dubaï / EAU",
+          "fact_key": "market"
+        },
+        {
+          "label": "Pages de projets liées",
+          "value": "47 pages de projets du quartier",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "Intention de l’acheteur",
+          "value": "Usage géré · investissement",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "Filtres principaux",
+          "value": "Opérateur · usage · règles locatives",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "Meilleure prochaine étape",
+          "value": "Comparer les pages de projets liées",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "Portée de la comparaison",
+          "value": "Projets · zones · coûts de détention",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "Détails du type de bien",
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 47,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_growth_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "À qui cela convient",
+        "eyebrow": "Adéquation à l’acheteur",
+        "bad_items": [
+          "Acheteurs qui souhaitent une utilisation totalement libre sans cadre opérateur",
+          "Acheteurs qui ne veulent pas comparer les règles d’usage, de location et les frais de gestion",
+          "Acheteurs qui considèrent un service hôtelier comme une garantie de performance ou de disponibilité"
+        ],
+        "bad_title": "Peut ne pas convenir",
+        "good_items": [
+          "Acheteurs qui privilégient un format géré avec services et règles d’exploitation clairement définies",
+          "Investisseurs ou propriétaires qui acceptent de comparer les conditions de l’opérateur et le modèle locatif",
+          "Acheteurs qui évaluent l’usage personnel, les frais récurrents et les règles de gestion avant de choisir"
+        ],
+        "good_title": "Adapté à"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "Jumeirah Village Triangle",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "family",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "hotel_apartments"
+      },
+      "property_logic": {
+        "body": "Comparez les appartements hôteliers selon les conditions de l’opérateur, les règles d’usage, le modèle locatif, l’utilisation personnelle et les frais récurrents. À Jumeirah Village Triangle, distinguez clairement les services inclus des obligations contractuelles. Confirmez les conditions actuelles avant de décider.",
+        "tags": [
+          "Conditions de l’opérateur",
+          "Règles d’usage",
+          "Modèle locatif",
+          "Frais récurrents",
+          "Adéquation au quartier"
+        ],
+        "title": "Logique du type de bien",
+        "eyebrow": "Comment comparer"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "À Jumeirah Village Triangle, pour des appartements hôteliers, comparez les conditions de l’opérateur, les règles d’usage, les modalités locatives, l’utilisation personnelle et les frais récurrents au niveau du projet. Vérifiez aussi l’usage quotidien, les coûts récurrents et les conditions actuelles avant de décider.",
+            "route": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+            "buyer_fit": "Contexte actuel de la zone",
+            "relationship": "current_area",
+            "district_name": "Jumeirah Village Triangle",
+            "district_slug": "jumeirah-village-triangle"
+          },
+          {
+            "text": "À Dubai Studio City, pour des appartements hôteliers, comparez les conditions de l’opérateur, les règles d’usage, les modalités locatives, l’utilisation personnelle et les frais récurrents au niveau du projet. Vérifiez aussi l’usage quotidien, les coûts récurrents et les conditions actuelles avant de décider.",
+            "route": "/fr/property-types/hotel-apartments-in-dubai-studio-city/",
+            "buyer_fit": "Alternative dans la même ville",
+            "relationship": "related_area",
+            "district_name": "Dubai Studio City",
+            "district_slug": "dubai-studio-city"
+          },
+          {
+            "text": "À Jumeirah Garden City, pour des appartements hôteliers, comparez les conditions de l’opérateur, les règles d’usage, les modalités locatives, l’utilisation personnelle et les frais récurrents au niveau du projet. Vérifiez aussi l’usage quotidien, les coûts récurrents et les conditions actuelles avant de décider.",
+            "route": "/fr/property-types/hotel-apartments-in-jumeirah-garden-city/",
+            "buyer_fit": "Alternative dans la même ville",
+            "relationship": "related_area",
+            "district_name": "Jumeirah Garden City",
+            "district_slug": "jumeirah-garden-city"
+          },
+          {
+            "text": "À Dubai Hills Estate, pour des appartements hôteliers, comparez les conditions de l’opérateur, les règles d’usage, les modalités locatives, l’utilisation personnelle et les frais récurrents au niveau du projet. Vérifiez aussi l’usage quotidien, les coûts récurrents et les conditions actuelles avant de décider.",
+            "route": "/fr/property-types/hotel-apartments-in-dubai-hills-estate/",
+            "buyer_fit": "Alternative dans la même ville",
+            "relationship": "related_area",
+            "district_name": "Dubai Hills Estate",
+            "district_slug": "dubai-hills-estate"
+          }
+        ],
+        "title": "Quartiers pertinents",
+        "eyebrow": "Contexte de la zone"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "Le prix des appartements hôteliers à Jumeirah Village Triangle dépend du modèle d’exploitation, des services, de la taille du logement, de l’emplacement et des conditions d’utilisation. Comparez les frais de gestion, les charges de service, les règles locatives et les restrictions d’usage personnel pour évaluer le coût total.",
+        "tags": [
+          "Conditions de l’opérateur",
+          "Règles d’usage",
+          "Modèle locatif",
+          "Frais récurrents",
+          "Vérification des prix"
+        ],
+        "title": "Comment les prix varient",
+        "eyebrow": "Réalité des prix"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "family",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 0,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 4,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "hotel_apartments",
+        "wider_uae_item_count": 0,
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "verified_supply_asserted": false,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "jumeirah-village-triangle",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 47
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "dubai-studio-city",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 12
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "jumeirah-garden-city",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 11
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "dubai-hills-estate",
+            "location_scope": "same_city",
+            "selection_method": "same_city_profile_fit",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 49
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 4,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "Pour des appartements hôteliers à Jumeirah Village Triangle, comparez les conditions de l’opérateur, les règles d’usage par le propriétaire, les frais récurrents et la flexibilité de sortie.",
+          "title": "Vérifier d’abord les conditions d’exploitation",
+          "eyebrow": "Logique d’investissement"
+        },
+        {
+          "text": "Vérifiez quels services, équipements et droits d’accès sont inclus, gérés ou restreints avant d’évaluer la valeur d’usage.",
+          "title": "Les services façonnent l’usage quotidien",
+          "eyebrow": "Logique de style de vie"
+        },
+        {
+          "text": "Examinez les accords de gestion, les limites d’usage par le propriétaire, la structure des frais, le statut du projet et la flexibilité de sortie.",
+          "title": "La gestion peut limiter la flexibilité",
+          "eyebrow": "Notes sur les risques"
+        },
+        {
+          "dark": true,
+          "text": "Primadom AI peut comparer les appartements hôteliers à Jumeirah Village Triangle selon l’objectif de l’acheteur, le statut du projet, les modalités de paiement, le coût de détention et les priorités d’usage.",
+          "title": "Comparer les services et l’usage propriétaire",
+          "eyebrow": "Contexte AI"
+        }
+      ],
+      "cards_aria": "Notes de décision sur le type de bien",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_hotel_apartments_jumeirah_village_triangle_en",
+        "context_focus": "family",
+        "district_slug": "jumeirah-village-triangle",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+        "property_type_slug": "hotel-apartments",
+        "semantic_profile_key": "hotel_apartments",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/fr/projects/rixos-hotel-residences/",
+            "meta": "Dubai Islands",
+            "label": "Rixos Hotel & Residences"
+          },
+          {
+            "href": "/fr/projects/rixos-hotel-and-residences-phase-3-by-nakheel/",
+            "meta": "Dubai Islands",
+            "label": "Rixos Hotel and Residences Phase 3 By Nakheel"
+          },
+          {
+            "href": "/fr/projects/alba-residences-dorchester-collection/",
+            "meta": "Palm Jumeirah",
+            "label": "Alba Residences Dorchester Collection"
+          },
+          {
+            "href": "/fr/projects/address-residences-the-bay/",
+            "meta": "Dubai Harbour",
+            "label": "Address Residences The Bay"
+          },
+          {
+            "href": "/fr/projects/marriott-residences-sheikh-zayed-road/",
+            "meta": "Al Barsha",
+            "label": "Marriott Residences Sheikh Zayed Road"
+          }
+        ],
+        "title": "Projets recommandés",
+        "eyebrow": "Options de projets"
+      },
+      "pros_cons": {
+        "title": "Avantages et inconvénients",
+        "eyebrow": "Vérification de faisabilité",
+        "cons_items": [
+          "Les frais de gestion et les règles d’usage peuvent augmenter les coûts et limiter la flexibilité",
+          "Les conditions de location et d’utilisation personnelle varient selon l’opérateur",
+          "Le modèle géré doit être évalué sur ses conditions réelles, et non sur son seul positionnement"
+        ],
+        "cons_title": "Inconvénients",
+        "pros_items": [
+          "Un modèle géré peut simplifier certains aspects de l’usage et de l’entretien",
+          "Les services hôteliers peuvent convenir à un usage flexible selon les conditions du projet",
+          "La gestion centralisée peut clarifier les responsabilités opérationnelles"
+        ],
+        "pros_title": "Avantages"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_hotel_apartments_jumeirah_village_triangle_en",
+        "district_slug": "jumeirah-village-triangle",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "family",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 8,
+            "match_level": "same_city_strong_type",
+            "project_name": "Rixos Hotel & Residences",
+            "project_slug": "rixos-hotel-residences",
+            "project_route": "/fr/projects/rixos-hotel-residences/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 3,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          },
+          {
+            "rank": 2,
+            "type_score": 8,
+            "match_level": "same_city_strong_type",
+            "project_name": "Rixos Hotel and Residences Phase 3 By Nakheel",
+            "project_slug": "rixos-hotel-and-residences-phase-3-by-nakheel",
+            "project_route": "/fr/projects/rixos-hotel-and-residences-phase-3-by-nakheel/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 3,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          },
+          {
+            "rank": 3,
+            "type_score": 7,
+            "match_level": "same_city_strong_type",
+            "project_name": "Alba Residences Dorchester Collection",
+            "project_slug": "alba-residences-dorchester-collection",
+            "project_route": "/fr/projects/alba-residences-dorchester-collection/",
+            "developer_name": "Omniyat Group",
+            "developer_slug": "omniyat-group",
+            "location_score": 3,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Palm Jumeirah",
+            "project_district_slug": "palm-jumeirah"
+          },
+          {
+            "rank": 4,
+            "type_score": 7,
+            "match_level": "same_city_strong_type",
+            "project_name": "Address Residences The Bay",
+            "project_slug": "address-residences-the-bay",
+            "project_route": "/fr/projects/address-residences-the-bay/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 3,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Dubai Harbour",
+            "project_district_slug": "dubai-harbour"
+          },
+          {
+            "rank": 5,
+            "type_score": 7,
+            "match_level": "same_city_strong_type",
+            "project_name": "Marriott Residences Sheikh Zayed Road",
+            "project_slug": "marriott-residences-sheikh-zayed-road",
+            "project_route": "/fr/projects/marriott-residences-sheikh-zayed-road/",
+            "developer_name": "Dubai Genereal Properties",
+            "developer_slug": "dubai-genereal-properties",
+            "location_score": 3,
+            "matching_revision": "property_type_projects_v1_2",
+            "project_district_name": "Al Barsha",
+            "project_district_slug": "al-barsha"
+          }
+        ],
+        "canonical_url_path": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+        "property_type_slug": "hotel-apartments",
+        "semantic_profile_key": "hotel_apartments",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/fr/property-types/serviced-apartments-in-jumeirah-village-triangle/",
+          "label": "Appartements avec services à Jumeirah Village Triangle"
+        },
+        {
+          "href": "/fr/property-types/branded-residences-in-jumeirah-village-triangle/",
+          "label": "Résidences de marque à Jumeirah Village Triangle"
+        },
+        {
+          "href": "/fr/property-types/apartments-in-jumeirah-village-triangle/",
+          "label": "Appartements à Jumeirah Village Triangle"
+        },
+        {
+          "href": "/fr/property-types/studios-in-jumeirah-village-triangle/",
+          "label": "Studios à Jumeirah Village Triangle"
+        }
+      ],
+      "title": "Types de biens similaires",
+      "eyebrow": "Options associées",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1415,
+            "target_label": "Serviced Apartments in Jumeirah Village Triangle",
+            "target_route": "/fr/property-types/serviced-apartments-in-jumeirah-village-triangle/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "serviced_apartment"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1390,
+            "target_label": "Branded Residences in Jumeirah Village Triangle",
+            "target_route": "/fr/property-types/branded-residences-in-jumeirah-village-triangle/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "branded_residence"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1345,
+            "target_label": "Apartments in Jumeirah Village Triangle",
+            "target_route": "/fr/property-types/apartments-in-jumeirah-village-triangle/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1320,
+            "target_label": "Studios in Jumeirah Village Triangle",
+            "target_route": "/fr/property-types/studios-in-jumeirah-village-triangle/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 520,
+            "target_profile_family": "studio"
+          }
+        ],
+        "source_route": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Pour comparer des appartements hôteliers à Jumeirah Village Triangle, concentrez-vous sur les conditions de l’opérateur, les règles d’usage, le modèle locatif, les conditions d’utilisation personnelle et les frais récurrents. Vérifiez le projet précis, la configuration, les coûts récurrents et les conditions actuelles avant de décider.",
+          "question": "Que faut-il savoir sur les appartements hôteliers à Jumeirah Village Triangle ?"
+        },
+        {
+          "answer": "Cette page peut convenir aux acheteurs dont les priorités correspondent aux caractéristiques de ce type de bien. La décision finale doit tenir compte de l’usage prévu, du budget, de la qualité du projet et du coût total de détention.",
+          "question": "À quels acheteurs les appartements hôteliers à Jumeirah Village Triangle peuvent-ils convenir ?"
+        },
+        {
+          "answer": "Avantage principal : ce type de bien peut répondre à des besoins spécifiques d’usage ou de style de vie. Compromis principal : la qualité, les coûts et les conditions varient selon le projet. Comparez les options sur une base cohérente avant de choisir.",
+          "question": "Quels compromis faut-il examiner pour les appartements hôteliers à Jumeirah Village Triangle ?"
+        },
+        {
+          "answer": "Les projets affichés pour comparaison incluent Rixos Hotel & Residences, Rixos Hotel and Residences Phase 3 By Nakheel, Alba Residences Dorchester Collection. Vous pouvez aussi examiner Appartements avec services à Jumeirah Village Triangle et Résidences de marque à Jumeirah Village Triangle. Ces liens servent à la navigation : ils ne constituent ni un classement ni une confirmation de disponibilité actuelle.",
+          "question": "Quelles autres options peut-on comparer avec les appartements hôteliers à Jumeirah Village Triangle ?"
+        },
+        {
+          "answer": "Les prix, la disponibilité des unités, les frais, les plans de paiement et les détails de livraison peuvent évoluer. Vérifiez les documents officiels du développeur et les informations actuelles avant de décider. Primadom AI peut organiser la comparaison, mais les conditions commerciales doivent être confirmées.",
+          "question": "Comment vérifier les prix et la disponibilité pour les appartements hôteliers à Jumeirah Village Triangle ?"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur le type de bien",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "family",
+        "semantic_profile_key": "hotel_apartments",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Les informations sur les appartements hôteliers à Jumeirah Village Triangle doivent servir de guide de comparaison et non d’offre en temps réel. Avant de décider, confirmez les caractéristiques exactes du bien ou du projet, le prix et la disponibilité actuels, les frais, les modalités de paiement, le statut de livraison ou d’achèvement et le coût total de détention auprès du développeur ou d’un conseiller autorisé.",
+      "items": [
+        {
+          "label": "Marque et modèle d’exploitation",
+          "value": "Vérifier la marque, l’opérateur et les conditions d’usage"
+        },
+        {
+          "label": "Prix et disponibilité",
+          "value": "Confirmer les conditions actuelles de l’unité"
+        },
+        {
+          "label": "Frais et coûts de détention",
+          "value": "Examiner les coûts d’entretien et de communauté"
+        },
+        {
+          "label": "Paiement et livraison",
+          "value": "Vérifier le statut, les dates et les conditions contractuelles"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Avant de décider",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Demandez à Primadom AI de comparer les appartements hôteliers à Jumeirah Village Triangle selon la marque ou l’opérateur, le projet, le modèle de services, les frais, le plan de paiement et l’objectif de l’acheteur, en tenant compte de l’usage pratique et le coût total de détention, puis examinez les options pertinentes avec un conseiller.",
+      "title": "Vous recherchez des appartements hôteliers à Jumeirah Village Triangle ?",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Trouver des options adaptées",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "family",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "hotel_apartments",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulaire de demande pour un type de bien",
+      "text": "Indiquez vos préférences pour des appartements hôteliers à Jumeirah Village Triangle. Primadom AI structurera la demande autour de la marque ou de l’opérateur, du projet, du modèle de services, des frais et des modalités de paiement avant l’examen par un conseiller.",
+      "title": "Trouver des appartements hôteliers à Jumeirah Village Triangle",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Je recherche des options adaptées parmi les appartements hôteliers présentés sur cette page.",
+      "eyebrow": "Continuer la sélection avec AI",
+      "success": "Envoyé",
+      "section_id": "property-type-lead-modal",
+      "close_label": "Fermer",
+      "source_meta": {
+        "source_route": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+        "source_page_id": "page_property_district_hotel_apartments_jumeirah_village_triangle_en",
+        "shortlist_claim": false,
+        "context_focus_key": "family",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "hotel_apartments",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "Nom",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI aide les acheteurs à comparer les appartements hôteliers à Jumeirah Village Triangle en tenant compte de la marque ou de l’opérateur, du projet, du modèle de services, des frais et des modalités de paiement avant un échange avec un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Appartements hôteliers à Jumeirah Village Triangle : projets liés et scénarios d’acheteurs",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/fr/property-types/hotel-apartments-in-jumeirah-village-triangle/",
+        "source_page_id": "page_property_district_hotel_apartments_jumeirah_village_triangle_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "family",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "hotel_apartments",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "Demander à AI"
+      }
+    }
+  }
+}

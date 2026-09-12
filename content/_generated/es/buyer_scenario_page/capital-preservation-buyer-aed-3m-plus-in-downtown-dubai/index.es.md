@@ -1,0 +1,10 @@
+---
+title: "Comprador orientado a preservar capital desde AED 3M en Downtown Dubai"
+layout: "primadom-buyer-scenario-page-v2"
+buyer_scenario_slug: "capital-preservation-buyer-aed-3m-plus-in-downtown-dubai"
+page_id: "page_scenario_district_capital_preservation_buyer_downtown_dubai_es"
+url: "/es/buyer-scenarios/capital-preservation-buyer-aed-3m-plus-in-downtown-dubai/"
+build:
+  render: always
+  list: never
+---

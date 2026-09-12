@@ -1,0 +1,560 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_scenario_district_family_apartment_buyer_under_aed_3m_jumeirah_village_triangle_ar",
+  "page_type_id": "buyer_scenario_page",
+  "language_code": "ar",
+  "url_path": "/ar/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-jumeirah-village-triangle/",
+  "canonical_url_path": "/ar/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-jumeirah-village-triangle/",
+  "canonical_group_key": "scenario_district:family_apartment_buyer_under_aed_3m:jumeirah-village-triangle",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "jumeirah-village-triangle",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_scenario_check",
+    "block_05_scenario_answer",
+    "block_06_scenario_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_types",
+    "block_09_decision_cards",
+    "block_10_process_risks",
+    "block_11_projects_budget",
+    "block_12_related_scenarios",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "الإجابة",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#process",
+          "label": "العملية",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#scenario-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#buyerScenarioLeadModal",
+      "nav_aria": "التنقل في سيناريو المشتري",
+      "cta_label": "تحقق من السيناريو",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "buyer_scenario_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/ar/buyer-scenarios/",
+          "label": "سيناريوهات المشترين"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/jumeirah-village-triangle/",
+          "label": "Jumeirah Village Triangle"
+        },
+        {
+          "key": "current",
+          "href": "/ar/buyer-scenarios/family-apartment-buyer-under-aed-3m-in-jumeirah-village-triangle/",
+          "label": "مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+          "label_ref": "buyer_scenario_page_name"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "عائلة شقة",
+        "Jumeirah Village Triangle",
+        "شقق",
+        "أقل من AED 3M",
+        "مساحة · تنقل · ملاءمة"
+      ],
+      "image": {
+        "alt": "بحث عقاري ضمن سيناريو مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+        "src": "/img/primadom/buyer-scenarios/default-buyer-scenario.svg",
+        "media_status": "placeholder"
+      },
+      "title": "مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+      "subtitle": "قارن الخيارات في Jumeirah Village Triangle مع التركيز على المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية، وتحقق من التكاليف والتوقيت والتفاصيل الحالية قبل اتخاذ القرار.",
+      "facts_aria": "أبرز نقاط سيناريو المشتري",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لبحث عقاري ضمن سيناريو مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_hero_v2"
+    },
+    "block_04_ai_scenario_check": {
+      "hints": [
+        "قارن الخيارات في Jumeirah Village Triangle وفق المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية، مع مراعاة AED 3M",
+        "تحقق من التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال",
+        "ما المفاضلات والمخاطر التي يجب مراجعتها في شراء شقة عائلية ضمن AED 3M؟"
+      ],
+      "ai_aria": "اسأل Primadom AI عن مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+      "ai_badge": "Primadom AI",
+      "section_id": "scenario-ai",
+      "voice_text": "قارن خيارات مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+      "placeholder": "قارن خيارات مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "schema_version": "buyer_scenario_ai_check_v2",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_scenario_answer": {
+      "chips": [
+        "عائلة شقق",
+        "Jumeirah Village Triangle",
+        "أقل من AED 3M",
+        "المساحة · التنقل · التكاليف",
+        "اسأل AI"
+      ],
+      "title": "ما هو الأهم",
+      "eyebrow": "إرشادات للمشتري",
+      "body_html": "<strong>في سيناريو مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle</strong>، ركّز على المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية بدل الاعتماد على عامل واحد فقط. اختيار شقة عائلية عملية ضمن الميزانية. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "body_text": "في سيناريو مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle، ركّز على المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية بدل الاعتماد على عامل واحد فقط. اختيار شقة عائلية عملية ضمن الميزانية. ويعتمد الخيار الأنسب على الاستخدام الفعلي والميزانية والتوقيت، مع التحقق من التفاصيل الحالية قبل الالتزام.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_answer_v2"
+    },
+    "block_06_scenario_facts": {
+      "items": [
+        {
+          "label": "السيناريو",
+          "value": "مشتري شقة عائلية بميزانية أقل من AED 3M"
+        },
+        {
+          "label": "الهدف الرئيسي",
+          "value": "السكن العائلي"
+        },
+        {
+          "label": "الموقع",
+          "value": "Jumeirah Village Triangle"
+        },
+        {
+          "label": "نوع العقار",
+          "value": "شقق"
+        },
+        {
+          "label": "إطار الميزانية",
+          "value": "حتى AED 3M"
+        },
+        {
+          "label": "محور القرار",
+          "value": "المساحة · التنقل · التكاليف"
+        },
+        {
+          "label": "مرحلة المشتري",
+          "value": "التخطيط / القرار"
+        },
+        {
+          "label": "الخطوة التالية",
+          "value": "قارن ملاءمة العائلة"
+        }
+      ],
+      "title": "معايير السيناريو",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن هذه الصفحة",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "المشترون الذين يتخذون قرار شراء شقة عائلية اعتمادًا على عامل واحد مع تجاهل التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال.",
+          "المشترون الذين لا يريدون مراجعة المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية قبل الالتزام.",
+          "المشترون الذين يتجاهلون مخاطر مثل اختيار شقة أكبر لكن في موقع يصعب الروتين اليومي أو تجاهل رسوم الخدمات وملاءمة المخطط."
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "المشترون الذين يريدون اختيار شقة عائلية عملية ضمن الميزانية في Jumeirah Village Triangle.",
+          "المشترون الذين يريدون مقارنة المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية ضمن قرار واحد.",
+          "المشترون الذين يريدون تقييم التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال قبل تضييق القائمة."
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "block_status": "final",
+      "scenario_logic": {
+        "body": "في Jumeirah Village Triangle، قارن الخيارات وفق المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية. اربط قرار العقار بالاستخدام الفعلي والميزانية والتوقيت، ولا تفصل أي ميزة عن تكلفتها أو أثرها على الحياة اليومية.",
+        "tags": [
+          "المساحة القابلة للاستخدام",
+          "التنقل اليومي",
+          "تكاليف المبنى",
+          "احتياجات غرف النوم",
+          "ملاءمة الميزانية"
+        ],
+        "title": "ما يجب مراعاته",
+        "eyebrow": "منطق القرار"
+      },
+      "schema_version": "buyer_scenario_logic_v2"
+    },
+    "block_08_districts_types": {
+      "districts": {
+        "items": [
+          {
+            "text": "في Jumeirah Village Triangle، قيّم المنطقة وفق مدى دعمها لـ اختيار شقة عائلية عملية ضمن الميزانية، وليس على أساس الاسم أو السمعة وحدهما.",
+            "title": "Jumeirah Village Triangle"
+          },
+          {
+            "text": "قارن مناطق بديلة إذا كانت تحقق توازنًا أفضل بين المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية.",
+            "title": "قارن البدائل"
+          },
+          {
+            "text": "قيّم التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال في روتين العائلة قبل تضييق الاختيار.",
+            "title": "روتين العائلة"
+          },
+          {
+            "text": "تحقّق من مسار المدرسة ومدة التنقل وحجم الشقة معًا قبل تضييق نطاق الموقع.",
+            "title": "قبل تضييق نطاق الخيارات"
+          }
+        ],
+        "title": "سياق الحي",
+        "eyebrow": "أحياء ذات صلة"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "property_types": {
+        "items": [
+          {
+            "text": "قيّم هذا النوع من العقارات وفق المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية ومدى ملاءمته للاستخدام المقصود.",
+            "title": "شقق"
+          },
+          {
+            "text": "قارن قيمة الغرفة الإضافية بفارق السعر، ومدى بقاء المخطط مناسبًا لاحتياجات الأسرة على المدى المطلوب.",
+            "title": "2 غرف نوم مقابل 3 غرف نوم"
+          },
+          {
+            "text": "قارن عقار جاهز من حيث التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار جاهز"
+          },
+          {
+            "text": "قارن عقار على المخطط من حيث التصميم القابل للاستخدام والمدارس والتنقل ومواقف السيارات ورسوم المبنى وتوقيت الانتقال، وتحقق من التكاليف والتوقيت والملاءمة العملية قبل الاختيار.",
+            "title": "عقار على المخطط"
+          }
+        ],
+        "title": "أنواع العقارات للمقارنة",
+        "eyebrow": "ملاءمة العقار"
+      },
+      "schema_version": "buyer_scenario_districts_types_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "استخدم حد مع احتساب تكاليف الشراء والرسوم والتأثيث واترك هامشًا للاحتياجات العائلية.",
+          "title": "اختبر ملاءمة شراء شقة عائلية",
+          "eyebrow": "منطق الميزانية"
+        },
+        {
+          "text": "في Jumeirah Village Triangle، قارن المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية قبل تحديد الخيار الأنسب.",
+          "title": "قارن التكلفة والالتزامات كاملة",
+          "eyebrow": "ملاحظات العملية"
+        },
+        {
+          "text": "انتبه إلى اختيار شقة أكبر لكن في موقع يصعب الروتين اليومي أو تجاهل رسوم الخدمات وملاءمة المخطط.",
+          "title": "تحقق من العقار والموقع عمليًا",
+          "eyebrow": "المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة الخيارات في Jumeirah Village Triangle باستخدام المعايير نفسها: المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية.",
+          "title": "اختبر المخاطر والمرونة قبل الالتزام",
+          "eyebrow": "Primadom AI"
+        }
+      ],
+      "cards_aria": "ملاحظات قرار السيناريو",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_decision_cards_v2"
+    },
+    "block_10_process_risks": {
+      "risks": {
+        "body": "في Jumeirah Village Triangle، تشمل المخاطر الرئيسية اختيار شقة أكبر لكن في موقع يصعب الروتين اليومي أو تجاهل رسوم الخدمات وملاءمة المخطط. لذلك يجب ربط السعر والتكاليف والتوقيت بملاءمة العقار الفعلية قبل الشراء.",
+        "tags": [
+          "مخطط عملي",
+          "مسار المدرسة",
+          "مدة التنقل",
+          "تكاليف المبنى",
+          "توقيت الانتقال"
+        ],
+        "title": "المخاطر",
+        "eyebrow": "تحقق قبل الشراء"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "process_notes": {
+        "items": [
+          {
+            "text": "حدّد احتياجاتك ومعايير القرار المرتبطة بـ المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية قبل مقارنة العقارات الفردية.",
+            "title": "حدّد متطلبات شراء شقة عائلية"
+          },
+          {
+            "text": "استخدم حد AED 3M مع احتساب تكاليف الشراء والرسوم والتأثيث واترك هامشًا للاحتياجات العائلية.",
+            "title": "احسب التكلفة والالتزامات كاملة"
+          },
+          {
+            "text": "قارن في Jumeirah Village Triangle الشقة مع احتياجات المدارس والتنقل إلى العمل وسهولة دخول المبنى والروتين اليومي للعائلة قبل تضييق القائمة المختصرة.",
+            "title": "تحقق من العقار والموقع وفق الهدف"
+          },
+          {
+            "text": "قارن الشقق الجاهزة وعلى المخطط وفق الوقت الذي تحتاج فيه الأسرة إلى المنزل فعليًا، لا وفق السعر أو التشطيبات فقط.",
+            "title": "احتفظ بهامش للتوقيت والسيولة"
+          }
+        ],
+        "title": "المستندات وملاحظات العملية",
+        "eyebrow": "الجوانب العملية"
+      },
+      "schema_version": "buyer_scenario_process_risks_v2"
+    },
+    "block_11_projects_budget": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/lum1nar-tower-2/",
+            "meta": "Object 1 · Jumeirah Village Triangle",
+            "label": "Lum1nar Tower 2"
+          },
+          {
+            "href": "/ar/projects/volga-tower/",
+            "meta": "Tiger Properties · Jumeirah Village Triangle",
+            "label": "Volga Tower"
+          },
+          {
+            "href": "/ar/projects/the-ivy/",
+            "meta": "Metrical Real Estate Development · Jumeirah Village Triangle",
+            "label": "The Ivy"
+          },
+          {
+            "href": "/ar/projects/rosemont-residences/",
+            "meta": "Ellington · Jumeirah Village Triangle",
+            "label": "Rosemont Residences"
+          },
+          {
+            "href": "/ar/projects/taraf-2-residence/",
+            "meta": "Taraf Properties · Jumeirah Village Triangle",
+            "label": "Taraf 2 Residence"
+          }
+        ],
+        "title": "مشاريع للمقارنة",
+        "eyebrow": "مدخل القائمة المختصرة"
+      },
+      "section_id": "projects-budget",
+      "block_status": "final",
+      "budget_logic": {
+        "body": "استخدم حد مع احتساب تكاليف الشراء والرسوم والتأثيث واترك هامشًا للاحتياجات العائلية. اترك هامشًا للتكاليف التي قد لا تظهر في السعر المعلن، وأعد التحقق من الرسوم وشروط الدفع الحالية للعقار المحدد.",
+        "tags": [
+          "الحد الأقصى للسعر",
+          "تكاليف الشراء",
+          "رسوم الخدمات",
+          "التأثيث",
+          "هامش نقدي"
+        ],
+        "title": "منطق الميزانية",
+        "eyebrow": "ميزانية السيناريو"
+      },
+      "schema_version": "buyer_scenario_projects_budget_v2"
+    },
+    "block_12_related_scenarios": {
+      "items": [
+        {
+          "href": "/ar/buyer-scenarios/family-relocation-buyer-in-jumeirah-village-triangle/",
+          "label": "مشتري ينتقل مع عائلته في Jumeirah Village Triangle"
+        },
+        {
+          "href": "/ar/buyer-scenarios/school-led-relocation-buyer-in-jumeirah-village-triangle/",
+          "label": "مشتري ينتقل بناءً على احتياجات المدارس في Jumeirah Village Triangle"
+        },
+        {
+          "href": "/ar/buyer-scenarios/apartment-vs-townhouse-decision-buyer-in-jumeirah-village-triangle/",
+          "label": "مشتري يقارن بين الشقة والتاون هاوس في Jumeirah Village Triangle"
+        },
+        {
+          "href": "/ar/buyer-scenarios/budget-buyer-under-aed-2m-in-jumeirah-village-triangle/",
+          "label": "مشتري بميزانية أقل من AED 2M في Jumeirah Village Triangle"
+        }
+      ],
+      "title": "سيناريوهات ذات صلة",
+      "eyebrow": "استكشف التالي",
+      "section_id": "related-scenarios",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_related_scenarios_v2"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "في Jumeirah Village Triangle، ركّز على المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية. اختيار شقة عائلية عملية ضمن الميزانية البالغة AED 3M. لا تعتمد على معيار واحد بمعزل عن التكاليف والاستخدام الفعلي.",
+          "question": "ما الذي يهم أكثر في سيناريو مشتري شقة عائلية بميزانية أقل من في Jumeirah Village Triangle؟"
+        },
+        {
+          "answer": "في Jumeirah Village Triangle، يناسب المشترين الذين يريدون اختيار شقة عائلية عملية ضمن الميزانية ويرغبون في مقارنة الملاءمة العملية والتكاليف والتوقيت قبل اتخاذ القرار.",
+          "question": "لمن يناسب سيناريو مشتري شقة عائلية بميزانية أقل من في Jumeirah Village Triangle؟"
+        },
+        {
+          "answer": "في Jumeirah Village Triangle، تحقق من العقار المحدد وشروطه الحالية، ثم راجع المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية على مستوى الوحدة أو المشروع الفعلي.",
+          "question": "ما الذي يجب التحقق منه قبل اختيار عقار لهذا السيناريو في Jumeirah Village Triangle؟"
+        },
+        {
+          "answer": "في Jumeirah Village Triangle، استخدم حد AED 3M مع احتساب تكاليف الشراء والرسوم والتأثيث واترك هامشًا للاحتياجات العائلية. قارن التكلفة الكاملة بدل الاعتماد على السعر المعلن أو دفعة واحدة فقط.",
+          "question": "كيف ينبغي تقييم الميزانية البالغة AED 3M في هذا السيناريو في Jumeirah Village Triangle؟"
+        },
+        {
+          "answer": "في Jumeirah Village Triangle، تتمثل المخاطر الرئيسية في اختيار شقة أكبر لكن في موقع يصعب الروتين اليومي أو تجاهل رسوم الخدمات وملاءمة المخطط. أعد التحقق من التفاصيل الحالية قبل أي التزام مالي.",
+          "question": "ما المخاطر الرئيسية في هذا السيناريو في Jumeirah Village Triangle؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة السيناريو",
+      "section_id": "faq",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_faq_v2"
+    },
+    "block_14_source_notes": {
+      "body": "بالنسبة إلى مشتري شقة عائلية بميزانية أقل من في Jumeirah Village Triangle، تحقق من التفاصيل التي قد تغيّر القرار فعليًا: المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية. يجب مراجعة الأسعار والرسوم والشروط وحالة العقار أو المشروع من المصادر الحالية قبل الالتزام.",
+      "items": [
+        {
+          "label": "مخطط عملي",
+          "value": "تحقق من التفاصيل الحالية"
+        },
+        {
+          "label": "المدرسة / التنقل",
+          "value": "تحقق من المسار الفعلي"
+        },
+        {
+          "label": "تكاليف المبنى",
+          "value": "تحقق من الرسوم الحالية"
+        },
+        {
+          "label": "توقيت الانتقال",
+          "value": "تحقق من التفاصيل الحالية"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "ما الذي يجب التحقق منه",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_source_notes_v2"
+    },
+    "block_15_cta": {
+      "text": "قارن خيارات مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle وفق المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية. يمكن لـ Primadom AI تنظيم هذه المفاضلات قبل مراجعة العقارات الفردية.",
+      "title": "هل تحتاج إلى شقة عائلية تناسب احتياجاتك بما يتجاوز عدد غرف النوم؟",
+      "actions": [
+        {
+          "href": "#scenario-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "راجع الخيارات",
+          "modal": true
+        },
+        {
+          "href": "#buyerScenarioLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_cta_v2"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن سيناريو المشتري",
+      "text": "شارك أولوياتك المتعلقة بـ المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية أثناء مقارنة الخيارات في Jumeirah Village Triangle. يساعد ذلك على إعداد سياق واضح قبل التواصل مع المستشار، مع مراعاة AED 3M.",
+      "title": "راجع ملاءمة مشتري شقة عائلية بميزانية أقل من",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "ساعدني في مقارنة خيارات مشتري شقة عائلية بميزانية أقل من AED 3M بوضوح",
+      "eyebrow": "متابعة تحليل السيناريو مع AI",
+      "success": "تم الإرسال",
+      "close_label": "إغلاق",
+      "block_status": "final",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971"
+      },
+      "schema_version": "buyer_scenario_lead_modal_v2"
+    },
+    "block_17_footer": {
+      "text": "قارن خيارات مشتري شقة عائلية بميزانية أقل من AED 3M في Jumeirah Village Triangle مع وضع المساحة المناسبة للأسرة والمدارس ومدة التنقل ورسوم الخدمات وسهولة الحياة اليومية والتكلفة الكاملة في الصفحة نفسها.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "اختر الشقة العائلية بناءً على متطلبات الحياة اليومية",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "block_status": "final",
+      "schema_version": "buyer_scenario_footer_v2",
+      "contact_primary": {
+        "href": "#buyerScenarioLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#scenario-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

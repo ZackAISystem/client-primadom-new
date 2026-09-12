@@ -1,0 +1,10 @@
+---
+title: "Projets avec apport initial réduit à Masfout"
+layout: "primadom-intent-page-v2"
+intent_slug: "low-down-payment-projects-in-masfout"
+page_id: "intent__low-down-payment-projects__district__masfout__fr"
+url: "/fr/intents/low-down-payment-projects-in-masfout/"
+build:
+  render: always
+  list: never
+---

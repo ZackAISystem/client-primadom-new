@@ -1,0 +1,10 @@
+---
+title: "Biens immobiliers à Arjan — AED 2M–3M"
+layout: "primadom-budget-page-v2"
+budget_slug: "aed-2m-3m-in-arjan"
+page_id: "page_budget_district_aed_2m_3m_arjan_fr"
+url: "/fr/budgets/aed-2m-3m-in-arjan/"
+build:
+  render: always
+  list: never
+---

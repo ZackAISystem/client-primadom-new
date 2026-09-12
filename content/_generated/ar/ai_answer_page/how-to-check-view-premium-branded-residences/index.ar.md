@@ -1,0 +1,10 @@
+---
+title: "كيف أتحقق مما إذا كانت علاوة الإطلالة مبررة؟ — المساكن ذات العلامات التجارية"
+layout: "primadom-ai-answer-page-v2"
+ai_answer_slug: "how-to-check-view-premium-branded-residences"
+page_id: "ai_answer__how-to-check-view-premium__context__branded-residences__ar"
+url: "/ar/ai-answers/how-to-check-view-premium-branded-residences/"
+build:
+  render: always
+  list: never
+---

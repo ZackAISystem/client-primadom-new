@@ -1,0 +1,10 @@
+---
+title: "Projekte von Invest Group Overseas in Business Bay"
+layout: "primadom-intent-page-v2"
+intent_slug: "invest-group-overseas-projects-in-business-bay"
+page_id: "page_developer_district_invest_group_overseas_business_bay_de"
+url: "/de/intents/invest-group-overseas-projects-in-business-bay/"
+build:
+  render: always
+  list: never
+---

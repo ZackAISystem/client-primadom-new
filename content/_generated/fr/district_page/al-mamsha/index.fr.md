@@ -1,0 +1,10 @@
+---
+title: "Al Mamsha — Guide de la zone"
+layout: "primadom-district-page-v2"
+district_slug: "al-mamsha"
+page_id: "page_district_al_mamsha_fr"
+url: "/fr/areas/al-mamsha/"
+build:
+  render: always
+  list: never
+---

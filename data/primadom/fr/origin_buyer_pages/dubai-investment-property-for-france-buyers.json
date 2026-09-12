@@ -1,0 +1,601 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "pg_8307a16c088965d106c7031353f5",
+  "page_type_id": "origin_buyer_page",
+  "language_code": "fr",
+  "url_path": "/fr/buyer-scenarios/dubai-investment-property-for-france-buyers/",
+  "canonical_url_path": "/fr/buyer-scenarios/dubai-investment-property-for-france-buyers/",
+  "canonical_group_key": "origin:france:goal:investment-property",
+  "primary_entity_type": "origin_buyer_intent",
+  "primary_entity_slug": "france",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_consultation",
+    "block_05_can_buy_answer",
+    "block_06_origin_facts",
+    "block_07_process_documents",
+    "block_08_decision_cards",
+    "block_09_districts_concerns",
+    "block_10_projects_visa",
+    "block_11_related_origin_pages",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#answer",
+          "label": "Puis-je acheter ?",
+          "active": true
+        },
+        {
+          "href": "#process",
+          "label": "Processus",
+          "active": false
+        },
+        {
+          "href": "#districts",
+          "label": "Quartiers",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#origin-ai",
+          "label": "Demander à AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#originBuyerLeadModal",
+      "nav_aria": "Navigation du guide pour acheteurs internationaux",
+      "cta_label": "Obtenir une consultation",
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "origin_buyer_header_v2",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "buyer_scenarios",
+          "href": "/fr/buyer-scenarios/",
+          "label": "Scénarios d’acheteur"
+        },
+        {
+          "key": "current",
+          "href": "/fr/buyer-scenarios/dubai-investment-property-for-france-buyers/",
+          "label": "Bien d’investissement à Dubaï pour les acheteurs français"
+        }
+      ],
+      "url_section": "buyer-scenarios",
+      "block_status": "final",
+      "schema_version": "origin_buyer_breadcrumbs_v2",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Depuis la France",
+        "Objectif d’investissement",
+        "Coût total",
+        "Adéquation au marché",
+        "Options de sortie"
+      ],
+      "image": {
+        "alt": null,
+        "src": null,
+        "status": "pending",
+        "mobile_src": null
+      },
+      "title": "Bien d’investissement à Dubaï pour les acheteurs français",
+      "subtitle": "Pour les acheteurs français qui comparent des biens à Dubaï à des fins d’investissement, concentrez-vous sur le prix d’entrée, la demande du quartier, les coûts de détention, les modalités de paiement et les options de sortie réalistes avant de affiner la sélection.",
+      "facts_aria": "Points clés pour ce scénario d’acheteur",
+      "section_id": "overview",
+      "visual_aria": "Bien d’investissement à Dubaï pour les acheteurs français — visuel de planification immobilière",
+      "block_status": "final",
+      "schema_version": "origin_buyer_hero_v21"
+    },
+    "block_04_ai_consultation": {
+      "hints": [
+        "Comparer les quartiers, les coûts et les options de sortie pour un bien d’investissement",
+        "Vérifier les modalités de paiement et les coûts de détention avant de affiner la sélection",
+        "Que dois-je vérifier avant de choisir un bien d’investissement ?"
+      ],
+      "ai_badge": "Primadom AI",
+      "section_id": "origin-ai",
+      "voice_text": "Parlez-nous de votre projet immobilier à Dubaï",
+      "placeholder": "Comparez des biens d’investissement à Dubaï pour mon projet depuis la France",
+      "block_status": "final",
+      "button_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "schema_version": "ai_search_v1",
+      "form_aria_label": "Demander à Primadom AI au sujet de : Bien d’investissement à Dubaï pour les acheteurs français",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_can_buy_answer": {
+      "chips": [
+        "Acheteurs français",
+        "Bien d’investissement",
+        "Coûts + liquidité",
+        "Modalités de paiement",
+        "Règles en vigueur"
+      ],
+      "title": "Les acheteurs français peuvent-ils acheter un bien immobilier à Dubaï ?",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Oui — les acheteurs français peuvent généralement acheter un bien immobilier à Dubaï</strong> dans les zones ouvertes à la propriété étrangère, sous réserve des règles en vigueur et des vérifications propres au bien. Pour un achat d’investissement, comparez les coûts d’acquisition et de détention, la demande du quartier, les modalités de paiement et la flexibilité de sortie sans vous appuyer sur des hypothèses de rendement.",
+      "body_text": "Oui — les acheteurs français peuvent généralement acheter un bien immobilier à Dubaï dans les zones ouvertes à la propriété étrangère, sous réserve des règles en vigueur et des vérifications propres au bien. Pour un achat d’investissement, comparez les coûts d’acquisition et de détention, la demande du quartier, les modalités de paiement et la flexibilité de sortie sans vous appuyer sur des hypothèses de rendement.",
+      "section_id": "answer",
+      "block_status": "final",
+      "schema_version": "origin_buyer_can_buy_answer_v2"
+    },
+    "block_06_origin_facts": {
+      "items": [
+        {
+          "label": "Marché d’origine",
+          "value": "France"
+        },
+        {
+          "label": "Marché cible",
+          "value": "Dubai / EAU"
+        },
+        {
+          "label": "Objectif de l’acheteur",
+          "value": "Bien d’investissement"
+        },
+        {
+          "label": "Axe principal",
+          "value": "Coûts, demande et flexibilité de revente"
+        },
+        {
+          "label": "Vérifications clés",
+          "value": "Coût d’entrée · coûts de détention · liquidité"
+        },
+        {
+          "label": "Contexte de propriété",
+          "value": "Vérifier les règles actuelles de propriété étrangère"
+        },
+        {
+          "label": "Étape de décision",
+          "value": "Avant réservation"
+        },
+        {
+          "label": "Prochaine étape",
+          "value": "Comparer les options d’investissement sans s’appuyer sur des hypothèses de rendement"
+        }
+      ],
+      "title": "Paramètres de l’acheteur international",
+      "context": {
+        "page_type": "origin_buyer_page",
+        "parent_page_type": "buyer_scenario_page"
+      },
+      "eyebrow": "Données clés",
+      "section_id": "facts",
+      "block_status": "final",
+      "source_layer": {
+        "confidence": null,
+        "references": [],
+        "last_checked": null,
+        "verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_facts_v2"
+    },
+    "block_07_process_documents": {
+      "process": {
+        "items": [
+          {
+            "text": "Définissez le budget, la durée de détention prévue, les limites de coût, le profil de demande et la flexibilité de sortie avant de comparer les biens.",
+            "title": "1. Définir les critères d’investissement"
+          },
+          {
+            "text": "Si vous prévoyez d’effectuer certaines étapes depuis la France, confirmez celles qui peuvent être réalisées à distance et vérifiez si une autorisation supplémentaire ou une intervention locale est nécessaire.",
+            "title": "2. Planifier le processus d’achat"
+          },
+          {
+            "text": "Confirmez les informations d’identité, les formulaires acheteur, l’origine des fonds, le circuit de transfert et les vérifications propres à la transaction demandées pour l’achat.",
+            "title": "3. Confirmer les documents et le circuit de paiement"
+          },
+          {
+            "text": "Revérifiez les coûts d’acquisition, les modalités de paiement, le statut du projet, les caractéristiques du logement et les données de coût de détention avant de poursuivre.",
+            "title": "4. Revérifier les conditions actuelles avant réservation"
+          }
+        ],
+        "title": "Processus d’achat à distance",
+        "eyebrow": "Logique du processus"
+      },
+      "documents": {
+        "items": [
+          {
+            "text": "Préparez les pièces d’identité valides et les informations sur l’acheteur demandées pour la transaction concernée.",
+            "title": "Passeport et informations sur l’acheteur"
+          },
+          {
+            "text": "Gardez à disposition votre adresse et vos coordonnées actuelles si elles sont demandées par le promoteur, la banque ou dans le cadre de la transaction.",
+            "title": "Adresse et coordonnées"
+          },
+          {
+            "text": "Confirmez l’origine des fonds, le circuit de transfert et les éventuels contrôles bancaires ou de conformité avant d’envoyer les fonds.",
+            "title": "Origine des fonds et circuit de transfert"
+          },
+          {
+            "text": "Gardez les hypothèses de coût, de demande et de sortie séparées des documents de transaction confirmés et des faits immobiliers vérifiés.",
+            "title": "Dossier de comparaison d’investissement"
+          }
+        ],
+        "title": "Documents",
+        "eyebrow": "Liste de vérification pratique"
+      },
+      "section_id": "process",
+      "block_status": "final",
+      "source_layer": {
+        "process_verification_status": "pending",
+        "document_verification_status": "pending"
+      },
+      "schema_version": "origin_buyer_process_documents_v2"
+    },
+    "block_08_decision_cards": {
+      "cards": [
+        {
+          "dark": false,
+          "text": "Comparez les coûts d’acquisition, les coûts de détention, le calendrier des paiements et la flexibilité de sortie avant de vous appuyer sur des hypothèses d’investissement.",
+          "title": "Modéliser les coûts avant le potentiel de hausse",
+          "eyebrow": "Logique d’investissement"
+        },
+        {
+          "dark": false,
+          "text": "Si certaines étapes sont effectuées depuis la France, confirmez le circuit de paiement, la signature, les contrôles d’identité et toute intervention locale propre à la transaction.",
+          "title": "Planifier l’exécution transfrontalière",
+          "eyebrow": "Achat depuis la France"
+        },
+        {
+          "dark": false,
+          "text": "Comparez la demande du quartier, l’adéquation du logement et le marché de revente sans considérer les rendements projetés comme des résultats certains.",
+          "title": "La demande et la liquidité doivent être étayées",
+          "eyebrow": "Vérification de l’investissement"
+        },
+        {
+          "dark": true,
+          "href": "#origin-ai",
+          "text": "Utilisez Primadom AI pour comparer l’objectif, le budget, le processus et les vérifications avant d’échanger avec un conseiller.",
+          "title": "Transformer le scénario en comparaison claire",
+          "eyebrow": "Consultation AI"
+        }
+      ],
+      "cards_aria": "Décisions clés pour ce scénario d’acheteur",
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "schema_version": "origin_buyer_decision_cards_v2"
+    },
+    "block_09_districts_concerns": {
+      "districts": {
+        "items": [
+          {
+            "text": "Comparer le coût d’entrée, les charges de service, l’adéquation du logement et la profondeur du marché de revente sans supposer de rendement.",
+            "title": "Business Bay"
+          },
+          {
+            "text": "Comparer l’économie du logement, la qualité de l’immeuble, les coûts récurrents et la profondeur actuelle du marché.",
+            "title": "JVC"
+          },
+          {
+            "text": "Comparer le coût d’acquisition, les charges de service, le profil des locataires et le marché de revente.",
+            "title": "Dubai Marina"
+          },
+          {
+            "text": "Comparer la maturité du projet, l’exposition aux paiements, les caractéristiques du logement et le marché potentiel à la revente.",
+            "title": "Dubai Creek Harbour"
+          }
+        ],
+        "title": "Quartiers à comparer",
+        "eyebrow": "Options de quartiers"
+      },
+      "section_id": "districts",
+      "block_status": "final",
+      "buyer_concerns": {
+        "body": "Pour les acheteurs français qui ciblent un bien d’investissement, séparez les faits immobiliers vérifiés des hypothèses concernant la demande, la performance locative, l’appréciation et la liquidité à la revente.",
+        "tags": [
+          "Peut-on acheter ?",
+          "Coût total",
+          "Vérification de la demande",
+          "Liquidité de sortie",
+          "Vérification"
+        ],
+        "title": "Préoccupations de l’acheteur",
+        "eyebrow": "À vérifier"
+      },
+      "matching_layer": {
+        "ranking_claim": false,
+        "district_matching_status": "pending"
+      },
+      "schema_version": "origin_buyer_districts_concerns_v2"
+    },
+    "block_10_projects_visa": {
+      "projects": {
+        "text": "Ouvrez les pages des projets réellement liés aux quartiers utilisés pour ce scénario d’acheteur, puis vérifiez les prix actuels, la disponibilité, les modalités de paiement et les données propres au projet avant de décider.",
+        "items": [
+          {
+            "href": "/fr/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/fr/projects/10-oxford/",
+            "meta": "Jumeirah Village Circle",
+            "label": "10 Oxford"
+          },
+          {
+            "href": "/fr/projects/aeternitas/",
+            "meta": "Dubai Marina",
+            "label": "Aeternitas"
+          },
+          {
+            "href": "/fr/projects/address-harbour-point/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Harbour Point"
+          },
+          {
+            "href": "/fr/projects/77-shades/",
+            "meta": "Business Bay",
+            "label": "77 Shades"
+          }
+        ],
+        "title": "Projets à vérifier",
+        "eyebrow": "Options de projets",
+        "route_source": "pages.page_index",
+        "matching_source": "entities.project_district_links",
+        "matching_status": "verified_graph_links",
+        "availability_status": "needs_live_check"
+      },
+      "section_id": "projects-visa",
+      "visa_logic": {
+        "body": "Si la résidence aux EAU fait partie de votre projet, vérifiez les critères actuels du Golden Visa séparément de la décision immobilière. La présence d’un projet dans cette liste n’implique pas une éligibilité au visa.",
+        "tags": [
+          "Vérification distincte",
+          "Critères actuels",
+          "Valeur du bien",
+          "Statut de propriété",
+          "Statut des paiements"
+        ],
+        "title": "Vérifier séparément les conditions d’éligibilité au visa",
+        "eyebrow": "Vérification des conditions de visa",
+        "visa_verification_status": "pending"
+      },
+      "block_status": "final",
+      "matching_layer": {
+        "project_graph": "entities.project_district_links",
+        "ranking_claim": false,
+        "project_routes": "pages.page_index",
+        "visa_source_status": "pending",
+        "project_route_status": "verified",
+        "project_availability_status": "needs_live_check"
+      },
+      "schema_version": "origin_buyer_projects_visa_v2"
+    },
+    "block_11_related_origin_pages": {
+      "items": [
+        {
+          "href": "/fr/buyer-scenarios/dubai-rental-income-property-for-france-buyers/",
+          "label": "Bien locatif à Dubaï pour les acheteurs français"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-capital-preservation-property-for-france-buyers/",
+          "label": "Immobilier à Dubaï pour les acheteurs français axés sur la préservation du capital"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-off-plan-property-for-france-buyers/",
+          "label": "Bien sur plan à Dubaï pour les acheteurs français"
+        },
+        {
+          "href": "/fr/buyer-scenarios/dubai-payment-plan-property-for-france-buyers/",
+          "label": "Bien avec plan de paiement à Dubaï pour les acheteurs français"
+        }
+      ],
+      "title": "Continuer l’exploration",
+      "eyebrow": "Pages associées par pays d’origine",
+      "section_id": "related-origin-pages",
+      "block_status": "final",
+      "matching_layer": {
+        "route_source": "pages.page_index",
+        "route_status": "verified",
+        "matching_logic": "same_origin_related_goal",
+        "route_validation_required": false
+      },
+      "schema_version": "origin_buyer_related_pages_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "Les acheteurs français peuvent généralement acheter un bien immobilier à Dubaï dans les zones en pleine propriété désignées, sous réserve des règles en vigueur et du bien concerné. Pour un bien d’investissement à Dubaï, comparez les coûts d’acquisition, les coûts de détention, la demande du quartier, l’adéquation du logement et la flexibilité de sortie plutôt que de vous appuyer sur des rendements projetés.",
+          "question": "Les acheteurs français peuvent-ils acheter un bien à Dubaï à des fins d’investissement ?",
+          "answer_status": "current_rules_check_required"
+        },
+        {
+          "answer": "Commencez par la thèse d’investissement plutôt que par l’annonce : durée de détention, coûts d’acquisition, stratégie locative, liquidité et tolérance au risque. Utilisez ces filtres pour comparer les quartiers et les biens précis.",
+          "question": "Que doivent vérifier en premier les acheteurs français lorsqu’ils envisagent un bien d’investissement à Dubaï ?",
+          "answer_status": "page_context_safe"
+        },
+        {
+          "answer": "Pour ce scénario, comparez Business Bay, JVC, Dubai Marina et Dubai Creek Harbour. Il s’agit de points de départ et non d’un classement ; vérifiez le bien précis et son adéquation pratique avant de décider.",
+          "question": "Quels quartiers de Dubaï les acheteurs français devraient-ils comparer pour un bien d’investissement ?",
+          "answer_status": "district_context_safe"
+        },
+        {
+          "answer": "Lors de l’organisation de l’achat depuis la France, déterminez qui signera, comment les fonds seront transférés, quels contrôles d’identité s’appliquent et si une étape nécessite une intervention locale. Confirmez le processus applicable à la transaction avant d’engager des fonds.",
+          "question": "Que doivent vérifier les acheteurs français lorsqu’ils organisent un achat à Dubaï depuis la France ?",
+          "answer_status": "case_specific_check_required"
+        },
+        {
+          "answer": "Non. Comparez les coûts d’acquisition et de détention, la demande du quartier, l’adéquation du logement, le marché de revente et la flexibilité de sortie. Les rendements projetés doivent être traités comme des hypothèses, pas comme des résultats.",
+          "question": "Les acheteurs français doivent-ils choisir un bien d’investissement à Dubaï uniquement selon le rendement projeté ?",
+          "answer_status": "goal_specific_safe"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions des acheteurs internationaux",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_layer": {
+        "payment_route": "case_specific",
+        "ownership_rules": "verify_current_rules",
+        "visa_eligibility": "verify_current_rules",
+        "cross_border_process": "case_specific",
+        "project_price_availability": "live_check_required"
+      },
+      "schema_version": "origin_buyer_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "Pour les acheteurs français qui envisagent un bien d’investissement à Dubaï, cette page distingue les conseils à l’acheteur des affirmations qui nécessitent encore une vérification externe. Les règles de propriété, les étapes de la transaction transfrontalière, les hypothèses d’investissement, les coûts de détention et les données propres au projet doivent être vérifiés auprès de la source officielle ou actualisée pertinente avant toute décision d’achat.",
+      "items": [
+        {
+          "label": "Règles de propriété",
+          "value": "Vérification officielle en attente"
+        },
+        {
+          "label": "Processus d’achat international",
+          "value": "Vérification au cas par cas"
+        },
+        {
+          "label": "Données d’investissement",
+          "value": "Vérification des sources requise"
+        },
+        {
+          "label": "Prix / disponibilité",
+          "value": "Vérification actuelle du projet requise"
+        },
+        {
+          "label": "Statut des sources",
+          "value": "Vérification des sources en attente"
+        }
+      ],
+      "title": "Notes de vérification",
+      "eyebrow": "Sources et vérification",
+      "section_id": "source-notes",
+      "block_status": "final",
+      "source_layer": {
+        "source_ids": [],
+        "last_checked": null,
+        "source_confidence": "pending_source_enrichment",
+        "official_materials": [],
+        "live_check_required": true,
+        "source_enrichment_status": "pending",
+        "source_required_before_publish": true
+      },
+      "schema_version": "origin_buyer_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "Pour les acheteurs français, comparez les coûts d’acquisition, l’adéquation du quartier, les options de projets et la flexibilité de sortie avant de soumettre le projet à un conseiller.",
+      "title": "Prêt à affiner votre projet d’investissement à Dubaï depuis la France ?",
+      "actions": [
+        {
+          "href": "#origin-ai",
+          "label": "Demander à Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Réviser mon projet",
+          "modal": true
+        },
+        {
+          "href": "#originBuyerLeadModal",
+          "label": "Demander un appel",
+          "modal": true
+        }
+      ],
+      "section_id": "cta",
+      "block_status": "final",
+      "schema_version": "origin_buyer_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "Formulaire de consultation pour acheteur international",
+      "text": "Pour les acheteurs français, indiquez vos priorités d’investissement, le type de bien et votre calendrier. Primadom AI préparera le contexte de comparaison avant l’examen par un conseiller.",
+      "title": "Réviser votre projet d’investissement à Dubaï depuis la France",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Réviser mon projet de bien d’investissement à Dubaï depuis la France",
+      "eyebrow": "Révision du projet d’achat",
+      "success": "Envoyé",
+      "modal_id": "originBuyerLeadModal",
+      "close_label": "Fermer",
+      "form_config": {
+        "budget_field": false,
+        "email_optional": true,
+        "sensitive_fields": false,
+        "recommendation_claim": false
+      },
+      "block_status": "final",
+      "placeholders": {
+        "name": "Nom",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "origin_buyer_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "Primadom AI aide les acheteurs français à comparer leurs priorités d’investissement, les quartiers, les options de projets, les coûts et les vérifications avant d’échanger avec un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Décisions d’investissement immobilier à Dubaï pour les acheteurs français",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux de Primadom AI",
+      "block_status": "final",
+      "schema_version": "origin_buyer_footer_v2",
+      "contact_primary": {
+        "href": "#originBuyerLeadModal",
+        "label": "Réserver un appel"
+      },
+      "contact_secondary": {
+        "href": "#origin-ai",
+        "label": "Demander à AI"
+      },
+      "footer_enrichment": {
+        "legal_links": "pending",
+        "social_urls": "pending",
+        "phone_whatsapp": "pending"
+      }
+    }
+  }
+}

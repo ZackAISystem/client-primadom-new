@@ -1,0 +1,10 @@
+---
+title: "Emaar Properties مقابل Nshama"
+layout: "primadom-developer-comparison-page-v2"
+comparison_slug: "emaar-properties-vs-nshama"
+page_id: "page_developer_comparison_emaar_properties_vs_nshama_ar"
+url: "/ar/compare-developers/emaar-properties-vs-nshama/"
+build:
+  render: always
+  list: never
+---

@@ -1,0 +1,725 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__address-villas-tierra__vs__mirage-the-oasis__fr",
+  "page_type_id": "project_comparison_page",
+  "language_code": "fr",
+  "url_path": "/fr/compare-projects/address-villas-tierra-vs-mirage-the-oasis/",
+  "canonical_url_path": "/fr/compare-projects/address-villas-tierra-vs-mirage-the-oasis/",
+  "canonical_group_key": "project_comparison:address-villas-tierra:vs:mirage-the-oasis",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "address-villas-tierra",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "Comparer avec mon cas",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Aperçu",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projets"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "Comparer"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Demander à AI"
+        }
+      ],
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation de comparaison de projets",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/fr/compare-projects/",
+          "label": "Comparaisons de projets"
+        },
+        {
+          "key": "comparison",
+          "href": "/fr/compare-projects/address-villas-tierra-vs-mirage-the-oasis/",
+          "label": "Address Villas Tierra vs Mirage The Oasis",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Projet A : Address Villas Tierra",
+        "Projet B : Mirage The Oasis",
+        "Comparaison à The Oasis",
+        "AED 13M vs AED 17M",
+        "Prix d’entrée et livraison"
+      ],
+      "title": "Address Villas Tierra vs Mirage The Oasis",
+      "subtitle": "À The Oasis, comparez Address Villas Tierra et Mirage The Oasis selon les types de biens, la plage de chambres, le prix d’entrée et le calendrier de livraison.",
+      "project_a": {
+        "name": "Address Villas Tierra",
+        "slug": "address-villas-tierra",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "Mirage The Oasis",
+        "slug": "mirage-the-oasis",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "Contexte clé pour Address Villas Tierra et Mirage The Oasis",
+      "section_id": "overview",
+      "visual_aria": "Bannière de comparaison pour Address Villas Tierra et Mirage The Oasis",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "Posez une question sur le prix, la typologie des unités, la livraison ou l’adéquation à l’acheteur.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Address Villas Tierra ou Mirage The Oasis — lequel vous convient ?",
+        "Comparer le prix, les unités et la livraison",
+        "Que dois-je vérifier avant de choisir ?"
+      ],
+      "title": "Comparer Address Villas Tierra et Mirage The Oasis",
+      "ai_aria": "Demander à Primadom AI de comparer Address Villas Tierra et Mirage The Oasis",
+      "eyebrow": "Demander à AI",
+      "prompts": [
+        "Comparer Address Villas Tierra et Mirage The Oasis selon mon objectif d’achat. Examiner le contexte de prix disponible, les types de biens, la plage de chambres et la livraison, et signaler clairement tout élément nécessitant une vérification en temps réel.",
+        "Comparer Address Villas Tierra et Mirage The Oasis selon le contexte du prix de départ, les types d’unités, la plage de chambres et la livraison prévue. Identifier clairement les informations manquantes ou non vérifiées.",
+        "Que doit vérifier un acheteur avant de choisir entre Address Villas Tierra et Mirage The Oasis ? Couvrir les prix actuels, la disponibilité, les modalités de paiement, le statut de livraison et l’adéquation à l’objectif de l’acheteur."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Demander à AI",
+      "input_aria": "Question AI sur la comparaison de projets",
+      "section_id": "compare-ai-search",
+      "voice_text": "Poser une question sur cette comparaison de projets",
+      "placeholder": "Demander à AI de comparer ces deux projets",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "button_label": "Demander",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "ai_voice_text": "Comparer Address Villas Tierra et Mirage The Oasis selon mon objectif d’achat",
+      "ai_placeholder": "Demander à AI de comparer ces deux projets",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "Écoute…",
+      "form_aria_label": "Demander à Primadom AI de comparer Address Villas Tierra et Mirage The Oasis",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "Même quartier",
+        "Même développeur",
+        "AED 13M vs AED 17M",
+        "Livraison 2029 vs 2028"
+      ],
+      "title": "Recommandation rapide",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>Address Villas Tierra</strong> peut convenir aux acheteurs privilégiant le prix d’entrée enregistré le plus bas, tandis que <strong>Mirage The Oasis</strong> peut davantage convenir à ceux qui recherchent la date de livraison enregistrée la plus proche. <strong>Address Villas Tierra</strong> propose des villas, 4 à 6 chambres, à partir de AED 13M, livraison 2029, tandis que <strong>Mirage The Oasis</strong> propose des villas, 5 à 6 chambres, à partir de AED 17M, livraison 2028.",
+      "body_text": "Address Villas Tierra peut convenir aux acheteurs privilégiant le prix d’entrée enregistré le plus bas, tandis que Mirage The Oasis peut davantage convenir à ceux qui recherchent la date de livraison enregistrée la plus proche. Address Villas Tierra propose des villas, 4 à 6 chambres, à partir de AED 13M, livraison 2029, tandis que Mirage The Oasis propose des villas, 5 à 6 chambres, à partir de AED 17M, livraison 2028.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Projet A",
+          "value": "Address Villas Tierra"
+        },
+        {
+          "label": "Projet B",
+          "value": "Mirage The Oasis"
+        },
+        {
+          "label": "Contexte de la zone",
+          "value": "Les deux projets à The Oasis"
+        },
+        {
+          "label": "Contexte des développeurs",
+          "value": "Les deux projets sont développés par Emaar Properties"
+        },
+        {
+          "label": "Prix de départ",
+          "value": "AED 13M vs AED 17M"
+        },
+        {
+          "label": "Types de biens",
+          "value": "Les deux : Villa"
+        },
+        {
+          "label": "Chambres",
+          "value": "4–6 chambres vs 5–6 chambres"
+        },
+        {
+          "label": "Livraison",
+          "value": "2029 vs 2028"
+        }
+      ],
+      "title": "Détails de la comparaison",
+      "eyebrow": "Données clés",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "Address Villas Tierra",
+          "slug": "address-villas-tierra",
+          "text": "Address Villas Tierra est un projet orienté vers un cadre de vie en bord de mer situé à The Oasis et développé par Emaar Properties. Les données enregistrées indiquent que la typologie enregistrée comprend des villas; la plage enregistrée va de 4 à 6 chambres; le prix de départ enregistré est de AED 13M; la livraison enregistrée est prévue en 2029. Le profil actuel d’adéquation s’adresse surtout aux acheteurs envisageant d’utiliser le bien comme résidence principale.",
+          "points": [
+            "The Oasis · Par Emaar Properties",
+            "Villa · 4–6 chambres",
+            "À partir de AED 13M · Livraison 2029"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "Mirage The Oasis",
+          "slug": "mirage-the-oasis",
+          "text": "Mirage The Oasis est un projet orienté vers un cadre de vie en bord de mer situé à The Oasis et développé par Emaar Properties. Les données enregistrées indiquent que la typologie enregistrée comprend des villas; la plage enregistrée va de 5 à 6 chambres; le prix de départ enregistré est de AED 17M; la livraison enregistrée est prévue en 2028. Le profil actuel d’adéquation s’adresse surtout aux acheteurs envisageant d’utiliser le bien comme résidence principale.",
+          "points": [
+            "The Oasis · Par Emaar Properties",
+            "Villa · 5–6 chambres",
+            "À partir de AED 17M · Livraison 2028"
+          ]
+        }
+      ],
+      "title": "Résumé des projets",
+      "eyebrow": "En un coup d’œil",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "Les deux projets sont situés à The Oasis; la localisation n’est donc pas le principal critère de différenciation. Les deux projets sont développés par Emaar Properties; la comparaison doit surtout porter sur la typologie des unités, le prix, les services et la livraison. Les prix de départ enregistrés sont de AED 13M pour Address Villas Tierra et de AED 17M pour Mirage The Oasis. Les livraisons enregistrées sont prévues en 2029 pour Address Villas Tierra et en 2028 pour Mirage The Oasis.",
+        "tags": [
+          "Même quartier",
+          "Même développeur",
+          "Écart de prix enregistré",
+          "Même typologie de biens",
+          "Disponibilité en temps réel"
+        ],
+        "title": "Logique au niveau du projet",
+        "eyebrow": "Comment comparer"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "Critère",
+        "project_a": "Address Villas Tierra",
+        "project_b": "Mirage The Oasis"
+      },
+      "rows": [
+        {
+          "factor": "Prix de départ",
+          "project_a": "À partir de AED 13M",
+          "project_b": "À partir de AED 17M"
+        },
+        {
+          "factor": "Localisation",
+          "project_a": "The Oasis",
+          "project_b": "The Oasis"
+        },
+        {
+          "factor": "Développeur",
+          "project_a": "Emaar Properties",
+          "project_b": "Emaar Properties"
+        },
+        {
+          "factor": "Types de biens",
+          "project_a": "Villa",
+          "project_b": "Villa"
+        },
+        {
+          "factor": "Chambres",
+          "project_a": "4–6 chambres",
+          "project_b": "5–6 chambres"
+        },
+        {
+          "factor": "Livraison",
+          "project_a": "2029",
+          "project_b": "2028"
+        },
+        {
+          "factor": "Profil du projet",
+          "project_a": "Cadre de vie en bord de mer",
+          "project_b": "Cadre de vie en bord de mer"
+        }
+      ],
+      "title": "Tableau comparatif des projets",
+      "eyebrow": "Address Villas Tierra vs Mirage The Oasis",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "Les prix de départ enregistrés sont de AED 13M pour Address Villas Tierra et de AED 17M pour Mirage The Oasis. Comparez le même type d’unité, la même surface et le coût total avant d’évaluer la valeur.",
+          "title": "L’écart de prix d’entrée compte",
+          "eyebrow": "Prix et unités",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "Les deux projets sont situés à The Oasis. Comparez l’accès, la position du bâtiment ou de la parcelle, l’offre à proximité et la praticité au quotidien.",
+          "title": "Même quartier : comparer la micro-localisation",
+          "eyebrow": "Adéquation de la localisation",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "La livraison enregistrée est prévue en 2029 pour Address Villas Tierra et en 2028 pour Mirage The Oasis. Comparez la manière dont chaque calendrier correspond à votre emménagement prévu ou à votre usage d’investissement.",
+          "title": "Des dates de livraison différentes peuvent changer le choix",
+          "eyebrow": "Calendrier",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "Demandez à Primadom AI de comparer Address Villas Tierra et Mirage The Oasis selon le type d’unité, le prix enregistré, la localisation, la livraison et l’usage prévu, puis de préparer les principales questions à poser à un conseiller.",
+          "title": "Comparer selon votre objectif",
+          "eyebrow": "Demander à AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "Notes de décision sur les projets"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "À qui convient chaque projet",
+        "eyebrow": "Adéquation à l’acheteur",
+        "project_a_items": [
+          "Son prix de départ enregistré de AED 13M est inférieur à celui de l’alternative, sous réserve d’une comparaison d’unités équivalentes.",
+          "Vous préférez un cadre de vie en bord de mer à The Oasis pour votre usage prévu.",
+          "Vous recherchez des villas, avec des configurations allant de 4 à 6 chambres, et une livraison enregistrée en 2029."
+        ],
+        "project_a_title": "Choisissez Address Villas Tierra si",
+        "project_b_items": [
+          "Vous acceptez son prix de départ enregistré plus élevé de AED 17M après vérification de l’unité exacte et du coût total.",
+          "Vous préférez un cadre de vie en bord de mer à The Oasis pour votre usage prévu.",
+          "Vous recherchez des villas, avec des configurations allant de 5 à 6 chambres, et une livraison enregistrée en 2028."
+        ],
+        "project_b_title": "Choisissez Mirage The Oasis si"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Les prix de départ enregistrés sont de AED 13M pour Address Villas Tierra et de AED 17M pour Mirage The Oasis. Les deux projets sont situés à The Oasis; la localisation est donc moins susceptible d’être le principal critère de différenciation. Les deux projets enregistrent une typologie de biens similaire : villas. Les livraisons enregistrées sont prévues en 2029 pour Address Villas Tierra et en 2028 pour Mirage The Oasis.",
+        "tags": [
+          "Écart de prix enregistré",
+          "Même quartier",
+          "Typologie d’unités enregistrée",
+          "Écart de livraison",
+          "Vérification du coût total"
+        ],
+        "title": "Logique d’investissement",
+        "eyebrow": "Logique de décision"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/fr/compare-projects/address-villas-tierra-vs-lavita-the-oasis/",
+            "meta": "Projet commun",
+            "label": "Address Villas Tierra vs Lavita The Oasis",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/address-villas-tierra-vs-oasis-address-branded-villas/",
+            "meta": "Projet commun",
+            "label": "Address Villas Tierra vs Oasis Address Branded Villas",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/address-villas-tierra-vs-palace-villas-ostra/",
+            "meta": "Projet commun",
+            "label": "Address Villas Tierra vs Palace Villas Ostra",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/fr/compare-projects/address-villas-tierra-vs-palmeira-the-oasis/",
+            "meta": "Projet commun",
+            "label": "Address Villas Tierra vs Palmeira - The Oasis",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "Plus de comparaisons de projets",
+        "eyebrow": "Continuer l’exploration"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/fr/projects/address-villas-tierra/",
+            "meta": "Projet A",
+            "label": "Page du projet Address Villas Tierra",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/projects/mirage-the-oasis/",
+            "meta": "Projet B",
+            "label": "Page du projet Mirage The Oasis",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/areas/the-oasis/",
+            "meta": "Zone",
+            "label": "Guide de la zone The Oasis",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/fr/developers/emaar-properties/",
+            "meta": "Développeur",
+            "label": "Page du développeur Emaar Properties",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "Ouvrir les pages des projets",
+        "eyebrow": "Pages des projets"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "Partagez ces informations pour comparer Address Villas Tierra et Mirage The Oasis selon les mêmes priorités. Les informations enregistrées sur les projets peuvent aider à affiner le choix, mais les unités exactes, les prix actuels et la disponibilité doivent encore être vérifiés en temps réel.",
+      "items": [
+        {
+          "meta": "fourchette en AED ou budget d’entrée maximal",
+          "label": "Fourchette de prix"
+        },
+        {
+          "meta": "Villas",
+          "label": "Type d’unité"
+        },
+        {
+          "meta": "résidence principale / résidence secondaire / investissement en bord de mer",
+          "label": "Objectif de l’acheteur"
+        },
+        {
+          "meta": "calendrier souhaité autour de 2028–2029",
+          "label": "Calendrier"
+        },
+        {
+          "meta": "vue / intimité / accès au front de mer",
+          "label": "Préférence principale"
+        }
+      ],
+      "title": "Données de comparaison pour AI",
+      "eyebrow": "Données utiles",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Ces projets peuvent répondre à des priorités différentes. Les prix de départ enregistrés sont de AED 13M pour Address Villas Tierra et de AED 17M pour Mirage The Oasis. Les deux projets enregistrent une typologie de biens similaire : villas. Les livraisons enregistrées sont prévues en 2029 pour Address Villas Tierra et en 2028 pour Mirage The Oasis. Le meilleur choix dépend de votre usage prévu et de l’unité exacte disponible au moment de la comparaison.",
+          "question": "Quel projet pourrait le mieux me convenir : Address Villas Tierra ou Mirage The Oasis ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Address Villas Tierra affiche le prix de départ enregistré le plus bas, à AED 13M, contre AED 17M pour Mirage The Oasis. Comparez des unités équivalentes avant d’interpréter cet écart.",
+          "question": "Quel projet affiche le prix de départ enregistré le plus bas ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Address Villas Tierra et Mirage The Oasis sont tous deux situés à The Oasis et développés par Emaar Properties.",
+          "question": "Quelles sont les différences entre Address Villas Tierra et Mirage The Oasis en matière de localisation et de développeur ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Address Villas Tierra indique des villas, avec 4 à 6 chambres, et une livraison enregistrée en 2029. Mirage The Oasis indique des villas, avec 5 à 6 chambres, et une livraison enregistrée en 2028.",
+          "question": "Quels types de biens, plages de chambres et années de livraison sont enregistrés ?",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "Avant de choisir entre Address Villas Tierra et Mirage The Oasis, confirmez l’unité exacte, le prix actuel, les modalités de paiement, le coût total d’acquisition, l’étage, l’agencement, la vue, le statut actuel du projet, la livraison et la disponibilité. Les données enregistrées au niveau du projet sont utiles pour établir une sélection, mais elles ne remplacent pas une vérification en temps réel au niveau de l’unité.",
+          "question": "Que dois-je vérifier avant de choisir entre Address Villas Tierra et Mirage The Oasis ?",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur les projets",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Utilisez cette page comme point de départ pour comparer Address Villas Tierra et Mirage The Oasis. Les informations enregistrées peuvent évoluer et ne remplacent pas les documents actuels du développeur ni les registres publics. Confirmez les prix en temps réel, les unités disponibles, les modalités de paiement, les plans, les charges de service, les détails de livraison et le statut du projet avant de prendre une décision.",
+      "items": [
+        {
+          "label": "Prix / disponibilité",
+          "value": "Vérification en temps réel requise"
+        },
+        {
+          "label": "Modalités de paiement",
+          "value": "Vérifier les documents actuels"
+        },
+        {
+          "label": "Livraison / statut",
+          "value": "Confirmer le statut actuel"
+        },
+        {
+          "label": "Contenu mis à jour",
+          "value": "Juillet 2026"
+        }
+      ],
+      "title": "Sources et vérification",
+      "eyebrow": "Vérification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "Address Villas Tierra et Mirage The Oasis sont tous deux situés à The Oasis et développés par Emaar Properties. Les prix de départ enregistrés sont de AED 13M pour Address Villas Tierra et de AED 17M pour Mirage The Oasis. Les livraisons enregistrées sont prévues en 2029 pour Address Villas Tierra et en 2028 pour Mirage The Oasis.",
+      "title": "Vous souhaitez comparer Address Villas Tierra et Mirage The Oasis selon votre situation ?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Demander à Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "Comparer avec mon cas",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "Demander un appel",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande de comparaison de projets",
+      "text": "Partagez vos préférences et vos coordonnées. Primadom AI préparera une comparaison ciblée avant qu’un conseiller ne vous contacte.",
+      "error": "Veuillez réessayer",
+      "title": "Comparer Address Villas Tierra et Mirage The Oasis selon votre situation",
+      "fields": {
+        "name": "Votre nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+      "eyebrow": "Continuer la comparaison avec AI",
+      "success": "Demande envoyée",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "Fermer",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "+971",
+        "comment": "Ajoutez tout détail utile"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__address-villas-tierra__vs__mirage-the-oasis__fr",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "Address Villas Tierra",
+        "project_a_slug": "address-villas-tierra",
+        "project_b_name": "Mirage The Oasis",
+        "project_b_slug": "mirage-the-oasis",
+        "canonical_url_path": "/fr/compare-projects/address-villas-tierra-vs-mirage-the-oasis/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "Envoyer",
+        "error": "Veuillez réessayer",
+        "success": "Demande envoyée",
+        "submitting": "Envoi…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "Demande préparée",
+        "value": "Comparer ces projets selon le type d’unité, la vue, les conditions actuelles, le calendrier et l’objectif de l’acheteur.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "Primadom AI aide les acheteurs à comparer les projets, les localisations, les développeurs et les principaux critères de décision avant d’échanger avec un conseiller.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Zones",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparaison de projets alignée sur l’intention réelle de l’acheteur",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubaï, Émirats arabes unis",
+      "subtitle": "Intelligence immobilière des EAU",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI System",
+      "section_id": "footer",
+      "social_aria": "Liens sociaux",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "Réserver un appel",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Demander à AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

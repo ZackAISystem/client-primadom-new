@@ -1,0 +1,917 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_property_district_three_bedroom_apartments_district_one_ar",
+  "page_type_id": "property_type_page",
+  "language_code": "ar",
+  "url_path": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+  "canonical_url_path": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+  "canonical_group_key": "property_district:three-bedroom-apartments:district-one",
+  "primary_entity_type": "district",
+  "primary_entity_slug": "district-one",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_finder",
+    "block_05_property_summary",
+    "block_06_property_facts",
+    "block_07_buyer_logic",
+    "block_08_districts_price",
+    "block_09_decision_cards",
+    "block_10_projects_pros_cons",
+    "block_11_similar_property_types",
+    "block_12_faq",
+    "block_13_source_notes",
+    "block_14_cta",
+    "block_15_lead_modal",
+    "block_16_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#summary",
+          "label": "الملخص",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "الأحياء",
+          "active": false
+        },
+        {
+          "href": "#projects",
+          "label": "المشاريع",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#type-ai",
+          "label": "اسأل AI",
+          "active": false
+        }
+      ],
+      "cta_href": "#propertyTypeLeadModal",
+      "nav_aria": "التنقل في صفحة نوع العقار",
+      "cta_label": "اعرض الخيارات",
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "schema_version": "property_type_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "property_types",
+          "href": "/ar/property-types/",
+          "label": "أنواع العقارات"
+        },
+        {
+          "key": "district",
+          "href": "/ar/areas/district-one/",
+          "label": "District One"
+        },
+        {
+          "key": "current",
+          "href": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+          "label": "شقق بثلاث غرف نوم في District One",
+          "label_ref": "property_type_page_name"
+        }
+      ],
+      "url_section": "property-types",
+      "schema_version": "property_type_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "نوع العقار: شقق بثلاث غرف نوم",
+        "المنطقة: District One",
+        "تخطيط ثلاث غرف نوم",
+        "السكن / الاستثمار",
+        "البحث بمساعدة AI"
+      ],
+      "image": {
+        "alt": "نظرة عامة على شقق بثلاث غرف نوم في District One",
+        "src": "/img/primadom/property-types/default-property-type.svg"
+      },
+      "title": "شقق بثلاث غرف نوم في District One",
+      "subtitle": "دليل عملي إلى شقق بثلاث غرف نوم في District One، يغطي تخطيط ثلاث غرف نوم والمساحة العائلية وسياق الأسعار وخيارات المشاريع وأداة بحث بمساعدة AI.",
+      "facts_aria": "أبرز معلومات نوع العقار",
+      "section_id": "overview",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "visual_aria": "عنصر مرئي لصفحة نوع العقار: شقق بثلاث غرف نوم في District One",
+      "schema_version": "property_type_hero_v1"
+    },
+    "block_04_ai_finder": {
+      "ai_aria": "اسأل Primadom AI عن شقق بثلاث غرف نوم في District One",
+      "ai_badge": "Primadom AI",
+      "section_id": "type-ai",
+      "voice_text": "اسأل عن شقق بثلاث غرف نوم في District One أو الميزانية أو الملاءمة",
+      "placeholder": "اسأل عن شقق بثلاث غرف نوم في District One أو الميزانية أو الملاءمة",
+      "typing_loop": true,
+      "typing_mode": "sequential",
+      "voice_label": "البحث الصوتي",
+      "click_action": "fill_input",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "focus_display": "placeholder",
+      "hover_display": "placeholder",
+      "schema_version": "property_type_ai_finder_v3",
+      "typing_prompts": [
+        "ابحث عن شقق بثلاث غرف نوم في District One ضمن ميزانيتي",
+        "قارن شقق بثلاث غرف نوم حسب تخطيط ثلاث غرف نوم والمساحة العائلية وإجمالي التكلفة",
+        "ما الذي يجب التحقق منه عند مقارنة شقق بثلاث غرف نوم في District One؟"
+      ],
+      "default_display": "typing_prompts",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "input_start_action": "hide_placeholder",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "prompt_click_action": "fill_input",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "typing_pause_on_focus": true,
+      "typing_pause_on_hover": true,
+      "voice_fallback_status": "الوضع الصوتي",
+      "placeholder_visibility": "hover_or_focus"
+    },
+    "block_05_property_summary": {
+      "chips": [
+        "غرف النوم",
+        "التخزين",
+        "المواقف",
+        "المرافق",
+        "السكن طويل الأجل"
+      ],
+      "title": "ملخص نوع العقار",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "<strong>شقق بثلاث غرف نوم في District One</strong> — يمكن مقارنة هذا النوع من حيث تخطيط ثلاث غرف نوم والمساحة العائلية وعوامل المشروع والتكلفة. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+      "body_text": "يمكن مقارنة شقق بثلاث غرف نوم في District One من حيث التخطيط والمساحة القابلة للاستخدام وجودة المبنى والمواقف وتكاليف الملكية. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+      "section_id": "summary",
+      "source_meta": {
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true
+      },
+      "schema_version": "property_type_summary_v1"
+    },
+    "block_06_property_facts": {
+      "items": [
+        {
+          "label": "النوع",
+          "value": "شقق بثلاث غرف نوم",
+          "fact_key": "property_type"
+        },
+        {
+          "label": "المنطقة",
+          "value": "District One",
+          "fact_key": "area"
+        },
+        {
+          "label": "السوق",
+          "value": "دبي / الإمارات",
+          "fact_key": "market"
+        },
+        {
+          "label": "صفحات المشاريع المرتبطة",
+          "value": "12 صفحات مشاريع على مستوى الحي",
+          "fact_key": "linked_project_routes"
+        },
+        {
+          "label": "نية الشراء",
+          "value": "العائلة · السكن طويل الأجل",
+          "fact_key": "buyer_intent"
+        },
+        {
+          "label": "أهم عوامل التصفية",
+          "value": "التخطيط · التخزين · المرافق",
+          "fact_key": "key_filters"
+        },
+        {
+          "label": "أفضل خطوة تالية",
+          "value": "قارن صفحات المشاريع المرتبطة",
+          "fact_key": "best_next_step"
+        },
+        {
+          "label": "نطاق المقارنة",
+          "value": "المشاريع · المناطق · تكاليف الملكية",
+          "fact_key": "comparison_scope"
+        }
+      ],
+      "title": "تفاصيل نوع العقار",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "facts",
+      "source_meta": {
+        "area_source": "content.uae_property_type_page_context_current",
+        "market_source": "content.uae_property_type_page_context_current",
+        "prices_published": false,
+        "source_checked_at": "2026-08-04T16:58:01.919074+00:00",
+        "key_filters_source": "block_05_semantic_profile",
+        "buyer_intent_source": "block_05_semantic_profile",
+        "property_type_source": "content.uae_property_type_page_context_current",
+        "linked_project_routes": {
+          "count": 12,
+          "count_scope": "district_project_page_pool",
+          "source_note": "District-level project page count; not a verified property-type match or live availability claim",
+          "count_source": "context_plus_airtable_crosscheck",
+          "source_status": "needs_validation",
+          "count_available": true,
+          "route_level_only": true,
+          "validation_state": "crosschecked",
+          "live_availability": false,
+          "crosscheck_agreement": true,
+          "property_type_verified": false,
+          "district_level_pool_available": true
+        },
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "availability_published": false,
+        "content_quality_status": "final",
+        "quality_patch_completed": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "service_charges_published": false
+      },
+      "schema_version": "property_type_facts_v2"
+    },
+    "block_07_buyer_logic": {
+      "buyer_fit": {
+        "title": "لمن يناسب",
+        "eyebrow": "ملاءمة المشتري",
+        "bad_items": [
+          "من لا يحتاجون إلى المساحة الإضافية أو يريدون مرونة أعلى في الميزانية",
+          "المشترون الذين لا يراجعون توزيع الغرف والتخزين والمواقف",
+          "الأسر التي تجعلها متطلبات المدارس والتنقل أقل ملاءمة للموقع"
+        ],
+        "bad_title": "قد لا يكون مناسبًا لـ",
+        "good_items": [
+          "الأسر التي تحتاج غرفًا إضافية للضيوف أو العمل أو الأطفال",
+          "المشترون الذين يقدرون التخزين ومساحات المعيشة الأكبر",
+          "المستخدمون النهائيون الذين يخططون للسكن طويل الأجل ويراجعون التنقل والمدارس"
+        ],
+        "good_title": "مناسب لـ"
+      },
+      "section_id": "buyer-logic",
+      "source_meta": {
+        "area": "District One",
+        "page_layer": "property_type_district_candidate",
+        "claim_safety": {
+          "exact_handover": false,
+          "guaranteed_fit": false,
+          "project_ranking": false,
+          "live_availability": false,
+          "exact_payment_plan": false,
+          "exact_service_charges": false
+        },
+        "context_focus": "general",
+        "text_revision": {
+          "version": "property_type_buyer_logic_v1_4",
+          "full_v1_3_csv_reviewed": true,
+          "full_v1_3_csv_review_rows": 1398,
+          "mansion_repetition_removed": true,
+          "sea_view_repetition_removed": true,
+          "compound_property_names_fixed": true,
+          "waterfront_repetition_removed": true,
+          "managed_rental_repetition_removed": true,
+          "serviced_family_repetition_removed": true,
+          "luxury_apartment_repetition_removed": true
+        },
+        "source_depth_score": 9,
+        "search_pattern_seed": false,
+        "semantic_profile_key": "three_bedroom_numeric"
+      },
+      "property_logic": {
+        "body": "قارن الشقق بثلاث غرف نوم بحسب فصل غرف النوم ونسب مساحة المعيشة والتخزين والمواقف والمرافق المشتركة. في District One، قارن الخيارات الحالية من حيث التخطيط والموقع وحالة المشروع وإجمالي تكلفة الملكية. تحقق من التوافر الحالي، وعند الاقتضاء من التكاليف المتكررة وشروط الدفع وتفاصيل التسليم قبل اتخاذ القرار.",
+        "tags": [
+          "غرف النوم",
+          "التخزين",
+          "المواقف",
+          "المرافق",
+          "السكن طويل الأجل"
+        ],
+        "title": "منطق نوع العقار",
+        "eyebrow": "كيفية المقارنة"
+      },
+      "schema_version": "property_type_buyer_logic_v2"
+    },
+    "block_08_districts_price": {
+      "districts": {
+        "items": [
+          {
+            "text": "عند مقارنة شقق بثلاث غرف نوم في District One، راجع جودة المشروع والتخطيط القابل للاستخدام والرسوم والمرافق وسهولة الوصول اليومي، مع التحقق من التفاصيل الحالية قبل اتخاذ القرار.",
+            "route": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+            "buyer_fit": "سياق المنطقة الحالية",
+            "relationship": "current_area",
+            "district_name": "District One",
+            "district_slug": "district-one"
+          },
+          {
+            "text": "باعتبار Palm Jebel Ali خيارًا بديلًا للمقارنة مع District One، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/three-bedroom-apartments-in-palm-jebel-ali/",
+            "buyer_fit": "بديل في المدينة نفسها",
+            "relationship": "related_area",
+            "district_name": "Palm Jebel Ali",
+            "district_slug": "palm-jebel-ali"
+          },
+          {
+            "text": "باعتبار Damac Islands خيارًا بديلًا للمقارنة مع District One، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/three-bedroom-apartments-in-damac-islands/",
+            "buyer_fit": "بديل في المدينة نفسها",
+            "relationship": "related_area",
+            "district_name": "Damac Islands",
+            "district_slug": "damac-islands"
+          },
+          {
+            "text": "باعتبار The Oasis خيارًا بديلًا للمقارنة مع District One، قارن جودة المشروع والتخطيط والموقع والتكاليف المتكررة وسهولة الوصول وفق الهدف نفسه للمشتري.",
+            "route": "/ar/property-types/three-bedroom-apartments-in-the-oasis/",
+            "buyer_fit": "بديل في المدينة نفسها",
+            "relationship": "related_area",
+            "district_name": "The Oasis",
+            "district_slug": "the-oasis"
+          }
+        ],
+        "title": "أحياء ذات صلة",
+        "eyebrow": "سياق المنطقة"
+      },
+      "section_id": "districts-price",
+      "price_range": {
+        "body": "تعتمد أسعار شقق بثلاث غرف نوم في District One على المساحة القابلة للاستخدام وفصل غرف النوم والطابق والإطلالة والمواقف وجودة المبنى. ينبغي اختبار فصل غرف النوم ومساحة المعيشة العائلية والتخزين والمواقف مقابل الاحتياجات اليومية للأسرة. عند مقارنة إجمالي تكلفة الملكية، أدرج رسوم الخدمات والمواقف والصيانة وشروط الدفع ومتطلبات الترقية. أكد الأسعار وشروط الدفع على مستوى المشروع قبل مقارنة المنطقة على أساس الميزانية وحدها.",
+        "tags": [
+          "تخطيط غرف النوم",
+          "المساحة القابلة للاستخدام",
+          "المواقف",
+          "الاستخدام العائلي",
+          "التحقق من السعر"
+        ],
+        "title": "كيف تختلف الأسعار",
+        "eyebrow": "واقع الأسعار"
+      },
+      "source_meta": {
+        "page_layer": "property_type_district_candidate",
+        "context_focus": "general",
+        "text_revision": {
+          "version": "property_type_districts_price_v1_2",
+          "price_body_unchanged": true,
+          "full_v1_1_csv_reviewed": true,
+          "removed_claim_lead_count": 1,
+          "full_v1_1_csv_review_rows": 1398,
+          "approved_source_lead_count": 3,
+          "originally_empty_lead_count": 0,
+          "district_selection_unchanged": true,
+          "promotional_source_claims_removed": true
+        },
+        "price_logic_mode": "factor_based_no_exact_price",
+        "source_depth_score": 13,
+        "same_city_item_count": 3,
+        "semantic_profile_key": "three_bedroom_numeric",
+        "wider_uae_item_count": 0,
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "exact_price_claims_used": false,
+        "linked_projects_meaning": "route_level_signal_only",
+        "quality_patch_completed": true,
+        "same_emirate_item_count": 0,
+        "district_candidate_count": 4,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "verified_supply_asserted": false,
+        "full_csv_review_completed": true,
+        "district_selection_sources": [
+          {
+            "position": 1,
+            "relationship": "current_area",
+            "district_slug": "district-one",
+            "location_scope": "current_area",
+            "selection_method": "current_property_type_area",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 12
+          },
+          {
+            "position": 2,
+            "relationship": "related_area",
+            "district_slug": "palm-jebel-ali",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": true,
+            "source_material_used": false,
+            "linked_project_route_count": 27
+          },
+          {
+            "position": 3,
+            "relationship": "related_area",
+            "district_slug": "damac-islands",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 10
+          },
+          {
+            "position": 4,
+            "relationship": "related_area",
+            "district_slug": "the-oasis",
+            "location_scope": "same_city",
+            "selection_method": "same_city_similarity_profile",
+            "claim_lead_removed": false,
+            "source_material_used": true,
+            "linked_project_route_count": 9
+          }
+        ],
+        "exact_handover_claims_used": false,
+        "district_selection_is_ranked": false,
+        "district_source_material_count": 3,
+        "exact_payment_plan_claims_used": false,
+        "exact_service_charge_claims_used": false
+      },
+      "schema_version": "property_type_districts_price_v2"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "text": "بالنسبة إلى شقق بثلاث غرف نوم في District One، قارن جودة المشروع وتكلفة الملكية وعمق قاعدة المشترين والمنافسة عند إعادة البيع.",
+          "title": "قارن التكلفة بعمق قاعدة المشترين",
+          "eyebrow": "منطق الاستثمار"
+        },
+        {
+          "text": "قارن التخطيط وسهولة الوصول والمرافق وإدارة المبنى والتنقل اليومي مع طريقة استخدام المشتري للمنزل.",
+          "title": "طابق المنزل مع الاستخدام اليومي",
+          "eyebrow": "منطق نمط الحياة"
+        },
+        {
+          "text": "قارن المطور العقاري وحالة المشروع وتوقيت التسليم والمخطط والرسوم وإجمالي تكلفة الملكية قبل اتخاذ القرار.",
+          "title": "الجاذبية التسويقية وحدها لا تكفي",
+          "eyebrow": "ملاحظات المخاطر"
+        },
+        {
+          "dark": true,
+          "text": "يمكن لـ Primadom AI مقارنة شقق بثلاث غرف نوم في District One بحسب هدف المشتري وحالة المشروع وشروط الدفع وتكلفة الملكية وأولويات الاستخدام اليومي.",
+          "title": "حوّل هذه الصفحة إلى قائمة مختصرة",
+          "eyebrow": "سياق AI"
+        }
+      ],
+      "cards_aria": "ملاحظات القرار لنوع العقار",
+      "section_id": "decision-cards",
+      "source_meta": {
+        "page_id": "page_property_district_three_bedroom_apartments_district_one_en",
+        "context_focus": "general",
+        "district_slug": "district-one",
+        "fourth_card_dark": true,
+        "canonical_url_path": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+        "property_type_slug": "three-bedroom-apartments",
+        "semantic_profile_key": "three_bedroom_numeric",
+        "guaranteed_roi_asserted": false,
+        "project_ranking_asserted": false,
+        "fourth_card_is_ai_context": true,
+        "guaranteed_yield_asserted": false,
+        "final_recommendation_asserted": false,
+        "verified_availability_asserted": false
+      },
+      "schema_version": "property_type_decision_cards_v1"
+    },
+    "block_10_projects_pros_cons": {
+      "projects": {
+        "items": [
+          {
+            "href": "/ar/projects/naya-at-district-one/",
+            "meta": "District One",
+            "label": "Naya at District One"
+          },
+          {
+            "href": "/ar/projects/naya-phase-2/",
+            "meta": "District One",
+            "label": "Naya Phase 2"
+          },
+          {
+            "href": "/ar/projects/azizi-venice-13/",
+            "meta": "Dubai South",
+            "label": "Azizi Venice 13"
+          },
+          {
+            "href": "/ar/projects/agua-residences/",
+            "meta": "Dubai Islands",
+            "label": "AGUA Residences"
+          },
+          {
+            "href": "/ar/projects/address-residences-at-dubai-creek-harbour/",
+            "meta": "Dubai Creek Harbour",
+            "label": "Address Residences at Dubai Creek Harbour"
+          }
+        ],
+        "title": "مشاريع موصى بها",
+        "eyebrow": "خيارات المشاريع"
+      },
+      "pros_cons": {
+        "title": "الإيجابيات والسلبيات",
+        "eyebrow": "فحص الواقعية",
+        "cons_items": [
+          "قد يجعل العدد الأقل من الوحدات المناسبة مقارنة المشاريع أكثر صعوبة.",
+          "في District One، قد يخفي الاسم نفسه لنوع العقار فروقًا كبيرة في الجودة.",
+          "قد يشمل الاسم نفسه لنوع العقار مستويات جودة مختلفة جدًا."
+        ],
+        "cons_title": "السلبيات",
+        "pros_items": [
+          "توفر الغرف الإضافية مرونة أكبر للعائلات والضيوف والعمل.",
+          "في District One، تسهّل مقارنة المشاريع تقييم الفروق في التخطيط والموقع.",
+          "يمكن لهذا النوع أن يناسب نطاقًا واسعًا من أهداف السكن والاستخدام والملكية."
+        ],
+        "pros_title": "الإيجابيات"
+      },
+      "section_id": "projects",
+      "source_meta": {
+        "page_id": "page_property_district_three_bedroom_apartments_district_one_en",
+        "district_slug": "district-one",
+        "text_revision": "property_type_projects_pros_cons_v1_8",
+        "project_source": "content.budget_hero_project_signal_work_v3",
+        "route_registry": "pages.page_index",
+        "context_focus_key": "general",
+        "matching_revision": "property_type_projects_v1_8",
+        "project_selection": [
+          {
+            "rank": 1,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Naya at District One",
+            "project_slug": "naya-at-district-one",
+            "project_route": "/ar/projects/naya-at-district-one/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 5,
+            "project_district_name": "District One",
+            "project_district_slug": "district-one"
+          },
+          {
+            "rank": 2,
+            "type_score": 6,
+            "match_level": "same_district_strong_type",
+            "project_name": "Naya Phase 2",
+            "project_slug": "naya-phase-2",
+            "project_route": "/ar/projects/naya-phase-2/",
+            "developer_name": "Nakheel",
+            "developer_slug": "nakheel",
+            "location_score": 5,
+            "project_district_name": "District One",
+            "project_district_slug": "district-one"
+          },
+          {
+            "rank": 3,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Azizi Venice 13",
+            "project_slug": "azizi-venice-13",
+            "project_route": "/ar/projects/azizi-venice-13/",
+            "developer_name": "Azizi Developments",
+            "developer_slug": "azizi-developments",
+            "location_score": 3,
+            "project_district_name": "Dubai South",
+            "project_district_slug": "dubai-south"
+          },
+          {
+            "rank": 4,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "AGUA Residences",
+            "project_slug": "agua-residences",
+            "project_route": "/ar/projects/agua-residences/",
+            "developer_name": "Citi Developers",
+            "developer_slug": "citi-developers",
+            "location_score": 3,
+            "project_district_name": "Dubai Islands",
+            "project_district_slug": "dubai-islands"
+          },
+          {
+            "rank": 5,
+            "type_score": 6,
+            "match_level": "same_city_strong_type",
+            "project_name": "Address Residences at Dubai Creek Harbour",
+            "project_slug": "address-residences-at-dubai-creek-harbour",
+            "project_route": "/ar/projects/address-residences-at-dubai-creek-harbour/",
+            "developer_name": "Emaar Properties",
+            "developer_slug": "emaar-properties",
+            "location_score": 3,
+            "project_district_name": "Dubai Creek Harbour",
+            "project_district_slug": "dubai-creek-harbour"
+          }
+        ],
+        "canonical_url_path": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+        "property_type_slug": "three-bedroom-apartments",
+        "semantic_profile_key": "three_bedroom_numeric",
+        "district_context_added": true,
+        "live_inventory_asserted": false,
+        "project_ranking_asserted": false,
+        "project_routes_validated": true,
+        "full_csv_review_completed": false,
+        "final_review_patch_applied": true,
+        "visible_copy_review_required": true,
+        "final_recommendation_asserted": false,
+        "project_availability_asserted": false
+      },
+      "schema_version": "property_type_projects_pros_cons_v2"
+    },
+    "block_11_similar_property_types": {
+      "items": [
+        {
+          "href": "/ar/property-types/two-bedroom-apartments-in-district-one/",
+          "label": "شقق بغرفتي نوم في District One"
+        },
+        {
+          "href": "/ar/property-types/apartments-in-district-one/",
+          "label": "شقق في District One"
+        },
+        {
+          "href": "/ar/property-types/duplexes-in-district-one/",
+          "label": "وحدات دوبلكس في District One"
+        },
+        {
+          "href": "/ar/property-types/penthouses-in-district-one/",
+          "label": "بنتهاوس في District One"
+        }
+      ],
+      "title": "أنواع عقارات مشابهة",
+      "eyebrow": "خيارات ذات صلة",
+      "section_id": "similar-types",
+      "source_meta": {
+        "selection": [
+          {
+            "rank": 1,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1395,
+            "target_label": "2 Bedroom Apartments in District One",
+            "target_route": "/ar/property-types/two-bedroom-apartments-in-district-one/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "two_bedroom"
+          },
+          {
+            "rank": 2,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1370,
+            "target_label": "Apartments in District One",
+            "target_route": "/ar/property-types/apartments-in-district-one/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "apartment_general"
+          },
+          {
+            "rank": 3,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1300,
+            "target_label": "Duplexes in District One",
+            "target_route": "/ar/property-types/duplexes-in-district-one/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "duplex"
+          },
+          {
+            "rank": 4,
+            "same_city": true,
+            "match_level": "same_district_related_type",
+            "total_score": 1300,
+            "target_label": "Penthouses in District One",
+            "target_route": "/ar/property-types/penthouses-in-district-one/",
+            "same_district": true,
+            "location_score": 800,
+            "relation_score": 500,
+            "target_profile_family": "penthouse"
+          }
+        ],
+        "source_route": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+        "matching_revision": "property_type_similar_types_v2",
+        "self_link_removed": true,
+        "visible_ranking_claim": false,
+        "route_validation_passed": true
+      },
+      "schema_version": "property_type_similar_types_v2"
+    },
+    "block_12_faq": {
+      "items": [
+        {
+          "answer": "يمكن مقارنة شقق بثلاث غرف نوم في District One من حيث التخطيط والمساحة القابلة للاستخدام وجودة المبنى والمواقف وتكاليف الملكية. ينبغي التحقق من المشروع المحدد والتخطيط والتكاليف المتكررة والشروط الحالية قبل اتخاذ القرار.",
+          "question": "ما الذي يجب معرفته عن شقق بثلاث غرف نوم في District One؟"
+        },
+        {
+          "answer": "في District One، قد تناسب هذه الصفحة الأسر التي تحتاج غرفًا إضافية للضيوف أو العمل أو الأطفال، وكذلك المشترون الذين يقدرون التخزين ومساحات المعيشة الأكبر. ينبغي أن يعكس الاختيار النهائي التخطيط والموقع وجودة المبنى وإجمالي تكلفة الملكية.",
+          "question": "لمن قد يناسب شقق بثلاث غرف نوم في District One؟"
+        },
+        {
+          "answer": "من المزايا الرئيسية: توفر الغرف الإضافية مرونة أكبر للعائلات والضيوف والعمل. ومن المفاضلات الرئيسية: قد يجعل العدد الأقل من الوحدات المناسبة مقارنة المشاريع أكثر صعوبة. في District One، تسهّل مقارنة المشاريع تقييم الفروق في التخطيط والموقع. ومن الاعتبارات المحلية الإضافية: في District One، قد يخفي الاسم نفسه لنوع العقار فروقًا كبيرة في الجودة.",
+          "question": "ما أبرز المزايا والمفاضلات عند مقارنة شقق بثلاث غرف نوم في District One؟"
+        },
+        {
+          "answer": "تشمل المشاريع المعروضة للمقارنة في هذه الصفحة Naya at District One، Naya Phase 2، Azizi Venice 13. ويمكن أيضًا مراجعة شقق بغرفتي نوم في District One وشقق في District One لاختبار نوع عقار مختلف في السوق نفسه أو بالقرب منه. هذه الروابط تدعم التنقل والمقارنة فقط، ولا تمثل ترتيبًا أو تأكيدًا للتوافر الحالي.",
+          "question": "ما الذي يمكن للمشترين مقارنته إلى جانب شقق بثلاث غرف نوم في District One؟"
+        },
+        {
+          "answer": "قد تتغير الأسعار وتوافر الوحدات والرسوم وخطط الدفع وتفاصيل التسليم. بالنسبة إلى شقق بثلاث غرف نوم في District One، تحقق من التخطيط والمساحة الداخلية وحالة المبنى ورسوم الخدمات وحالة الوحدة وشروط الدفع بالرجوع إلى المواد الرسمية للمطور العقاري والفحوصات الحالية لدى المستشار. يمكن لـ Primadom AI تنظيم المقارنة، لكن يجب التحقق من الشروط التجارية الحالية قبل اتخاذ القرار.",
+          "question": "كيف ينبغي التحقق من الأسعار والتوافر لـ شقق بثلاث غرف نوم في District One؟"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن نوع العقار",
+      "section_id": "faq",
+      "source_meta": {
+        "source_safe": true,
+        "faq_revision": "property_type_faq_v2_1",
+        "source_blocks": [
+          "block_05_direct_answer",
+          "block_07_buyer_fit_logic",
+          "block_10_projects_pros_cons",
+          "block_11_similar_property_types"
+        ],
+        "guaranteed_claim": false,
+        "live_price_claim": false,
+        "context_focus_key": "general",
+        "semantic_profile_key": "three_bedroom_numeric",
+        "quality_patch_version": "property_type_full_quality_v1_3_1",
+        "content_quality_status": "final",
+        "live_availability_claim": false,
+        "quality_patch_completed": true,
+        "buyer_fit_copy_rewritten": true,
+        "quality_patch_applied_at": "2026-08-07T03:48:10.29332+00:00",
+        "full_csv_review_completed": true,
+        "pros_cons_grammar_corrected": true,
+        "project_navigation_copy_rewritten": true
+      },
+      "schema_version": "property_type_faq_v2"
+    },
+    "block_13_source_notes": {
+      "body": "ينبغي استخدام المعلومات عن شقق بثلاث غرف نوم في District One كدليل للمقارنة لا كعرض حي. قبل اتخاذ القرار، تحقق من تفاصيل المشروع والوحدة والتخطيط والتكاليف المتكررة والسعر والتوافر الحاليين وشروط الدفع وحالة التسليم أو الإنجاز وإجمالي تكاليف الملكية مع المطور أو مستشار معتمد.",
+      "items": [
+        {
+          "label": "تفاصيل العقار",
+          "value": "تحقق من التخطيط والمساحة وتفاصيل المبنى"
+        },
+        {
+          "label": "السعر والتوافر",
+          "value": "تحقق من الشروط الحالية للوحدة"
+        },
+        {
+          "label": "الرسوم وتكاليف الملكية",
+          "value": "راجع تكاليف الملكية المتكررة"
+        },
+        {
+          "label": "الدفع والتسليم",
+          "value": "تحقق من الحالة والتواريخ وشروط العقد"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "قبل اتخاذ القرار",
+      "section_id": "source-notes",
+      "source_meta": {
+        "content_mode": "human_verification_placeholder",
+        "last_checked": null,
+        "source_notes_revision": "property_type_source_notes_v2_2",
+        "internal_source_status": "verification_pending",
+        "full_csv_review_completed": false,
+        "official_sources_attached": false,
+        "source_validation_required": true,
+        "future_source_enrichment_required": true,
+        "property_type_capitalisation_corrected": true
+      },
+      "schema_version": "property_type_source_notes_v2"
+    },
+    "block_14_cta": {
+      "text": "اطلب من Primadom AI مقارنة شقق بثلاث غرف نوم في District One بحسب المشروع والموقع والميزانية وتكاليف الملكية وهدف المشتري، ثم راجع الخيارات المناسبة مع مستشار.",
+      "title": "هل تبحث عن شقق بثلاث غرف نوم في District One؟",
+      "actions": [
+        {
+          "href": "#type-ai",
+          "label": "اسأل Primadom AI",
+          "modal": false
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "اعثر على الخيارات المناسبة",
+          "modal": true
+        },
+        {
+          "href": "#propertyTypeLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true
+        }
+      ],
+      "section_id": "property-type-cta",
+      "source_meta": {
+        "copy_mode": "property_type_and_location_context",
+        "cta_revision": "property_type_cta_v2_1",
+        "best_match_claim": false,
+        "context_focus_key": "general",
+        "availability_claim": false,
+        "crm_tracking_pending": true,
+        "lead_routing_pending": true,
+        "semantic_profile_key": "three_bedroom_numeric",
+        "full_csv_review_completed": true,
+        "final_recommendation_claim": false
+      },
+      "schema_version": "property_type_cta_v2"
+    },
+    "block_15_lead_modal": {
+      "aria": "نموذج استفسار عن نوع العقار",
+      "text": "شارك تفضيلاتك بشأن شقق بثلاث غرف نوم في District One. سينظم Primadom AI الطلب حول نوع العقار والمشروع والموقع والتكاليف والاستخدام العملي قبل أن يراجعه مستشار.",
+      "title": "اعثر على شقق بثلاث غرف نوم في District One",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "أبحث عن خيارات مناسبة من شقق بثلاث غرف نوم في هذه الصفحة.",
+      "eyebrow": "متابعة أداة البحث مع AI",
+      "success": "تم الإرسال",
+      "section_id": "property-type-lead-modal",
+      "close_label": "إغلاق",
+      "source_meta": {
+        "source_route": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+        "source_page_id": "page_property_district_three_bedroom_apartments_district_one_en",
+        "shortlist_claim": false,
+        "context_focus_key": "general",
+        "availability_claim": false,
+        "crm_mapping_pending": true,
+        "lead_modal_revision": "property_type_lead_modal_v2_1",
+        "optional_email_field": true,
+        "semantic_profile_key": "three_bedroom_numeric",
+        "advisor_routing_pending": true,
+        "full_csv_review_completed": true,
+        "prepared_request_word_limit": 10,
+        "sensitive_data_fields_added": false,
+        "hidden_context_fields_pending": true
+      },
+      "placeholders": {
+        "name": "الاسم",
+        "email": "email@example.com",
+        "phone": "+971"
+      },
+      "schema_version": "property_type_lead_modal_v2"
+    },
+    "block_16_footer": {
+      "text": "يساعد Primadom AI المشترين على مقارنة شقق بثلاث غرف نوم في District One بحسب المشروع والموقع والتخطيط وتكاليف الملكية والملاءمة العملية قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "شقق بثلاث غرف نوم في District One، مرتبطة بالمشاريع وسيناريوهات المشترين",
+      "social": [
+        {
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري",
+      "brand_url": "/ar/",
+      "copyright": "© Primadom AI",
+      "section_id": "property-type-footer",
+      "source_meta": {
+        "source_route": "/ar/property-types/three-bedroom-apartments-in-district-one/",
+        "source_page_id": "page_property_district_three_bedroom_apartments_district_one_en",
+        "footer_revision": "property_type_footer_v2",
+        "context_focus_key": "general",
+        "legal_links_pending": true,
+        "social_urls_pending": true,
+        "semantic_profile_key": "three_bedroom_numeric",
+        "language_layer_pending": true,
+        "phone_whatsapp_pending": true,
+        "full_csv_review_completed": true,
+        "internal_system_label_visible": false
+      },
+      "schema_version": "property_type_footer_v2",
+      "contact_primary": {
+        "href": "#propertyTypeLeadModal",
+        "label": "احجز مكالمة"
+      },
+      "contact_secondary": {
+        "href": "#type-ai",
+        "label": "اسأل AI"
+      }
+    }
+  }
+}

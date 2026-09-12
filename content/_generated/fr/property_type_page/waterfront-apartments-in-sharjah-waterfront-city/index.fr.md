@@ -1,0 +1,10 @@
+---
+title: "Appartements en front de mer à Sharjah Waterfront City"
+layout: "primadom-property-type-page-v2"
+property_type_slug: "waterfront-apartments-in-sharjah-waterfront-city"
+page_id: "page_property_district_waterfront_apartments_sharjah_waterfront_city_fr"
+url: "/fr/property-types/waterfront-apartments-in-sharjah-waterfront-city/"
+build:
+  render: always
+  list: never
+---

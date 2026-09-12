@@ -1,0 +1,719 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "project_comparison__la-plage-tower__vs__the-bridge-collection__ar",
+  "page_type_id": "project_comparison_page",
+  "language_code": "ar",
+  "url_path": "/ar/compare-projects/la-plage-tower-vs-the-bridge-collection/",
+  "canonical_url_path": "/ar/compare-projects/la-plage-tower-vs-the-bridge-collection/",
+  "canonical_group_key": "project_comparison:la-plage-tower:vs:the-bridge-collection",
+  "primary_entity_type": "project",
+  "primary_entity_slug": "la-plage-tower",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_recommendation",
+    "block_06_comparison_facts",
+    "block_07_project_summaries_logic",
+    "block_08_project_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_alternatives",
+    "block_12_ai_inputs",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#projectComparisonLeadModal",
+      "cta_label": "قارن حالتي",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "نظرة عامة",
+          "is_active": true
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "المشاريع"
+        },
+        {
+          "key": "table",
+          "href": "#project-comparison-table",
+          "label": "مقارنة"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "اسأل AI"
+        }
+      ],
+      "brand_href": "/ar/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "التنقل في مقارنة المشاريع",
+      "schema_version": "project_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/ar/",
+          "label": "الرئيسية"
+        },
+        {
+          "key": "project_comparisons",
+          "href": "/ar/compare-projects/",
+          "label": "مقارنات المشاريع"
+        },
+        {
+          "key": "comparison",
+          "href": "/ar/compare-projects/la-plage-tower-vs-the-bridge-collection/",
+          "label": "La Plage Tower مقابل The Bridge Collection",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "schema_version": "project_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "مسار التنقل"
+    },
+    "block_03_hero": {
+      "facts": [
+        "المشروع A: La Plage Tower",
+        "المشروع B: The Bridge Collection",
+        "مقارنة في Al Mamzar",
+        "Al Thuriah مقابل Seven Tides",
+        "سياق المطور العقاري والمنتج"
+      ],
+      "title": "La Plage Tower مقابل The Bridge Collection",
+      "subtitle": "مقارنة عملية في Al Mamzar تركز على خيارات الشقق، ونطاق غرف النوم، وملاءمة المشتري.",
+      "project_a": {
+        "name": "La Plage Tower",
+        "slug": "la-plage-tower",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "project_b": {
+        "name": "The Bridge Collection",
+        "slug": "the-bridge-collection",
+        "image": {
+          "alt": "",
+          "src": "",
+          "media_status": "pending"
+        }
+      },
+      "facts_aria": "السياق الرئيسي لمقارنة La Plage Tower وThe Bridge Collection",
+      "section_id": "overview",
+      "visual_aria": "عنصر مرئي لمقارنة La Plage Tower وThe Bridge Collection",
+      "block_status": "final",
+      "schema_version": "project_comparison_hero_v1"
+    },
+    "block_04_ai_compare": {
+      "text": "اسأل عن السعر أو مزيج الوحدات أو التسليم أو ملاءمة المشتري.",
+      "badge": "Primadom AI",
+      "hints": [
+        "أيهما أنسب: La Plage Tower أم The Bridge Collection؟",
+        "قارن السعر والوحدات وموعد التسليم",
+        "ما الذي يجب التحقق منه قبل الاختيار؟"
+      ],
+      "title": "قارن La Plage Tower وThe Bridge Collection",
+      "ai_aria": "اسأل Primadom AI لمقارنة La Plage Tower وThe Bridge Collection",
+      "eyebrow": "اسأل AI",
+      "prompts": [
+        "قارن La Plage Tower وThe Bridge Collection وفق هدفي الشرائي. راجع سياق السعر المتاح وأنواع العقارات ونطاق غرف النوم وموعد التسليم، وحدد بوضوح أي معلومات تحتاج إلى تحقق مباشر.",
+        "قارن La Plage Tower وThe Bridge Collection حسب سياق السعر الابتدائي وأنواع الوحدات ونطاق غرف النوم وموعد التسليم المخطط. حدد بوضوح المعلومات الناقصة أو غير المتحقق منها.",
+        "ما الذي ينبغي للمشتري التحقق منه قبل الاختيار بين La Plage Tower وThe Bridge Collection؟ راجع الأسعار الحالية والتوافر وشروط الدفع وحالة التسليم ومدى الملاءمة لهدف المشتري."
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "اسأل AI",
+      "input_aria": "سؤال مقارنة المشاريع عبر AI",
+      "section_id": "compare-ai-search",
+      "voice_text": "اسأل عن مقارنة هذه المشاريع",
+      "placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "voice_label": "البحث الصوتي",
+      "block_status": "final",
+      "button_label": "اسأل",
+      "submit_label": "اسأل AI",
+      "voice_status": "جارٍ الاستماع…",
+      "ai_voice_text": "قارن La Plage Tower وThe Bridge Collection وفق هدفي الشرائي",
+      "ai_placeholder": "اطلب من AI مقارنة هذين المشروعين",
+      "schema_version": "project_comparison_ai_compare_v1",
+      "ai_voice_status": "جارٍ الاستماع…",
+      "form_aria_label": "اسأل Primadom AI لمقارنة La Plage Tower وThe Bridge Collection",
+      "voice_error_text": "اكتب طلبك أو حاول مرة أخرى",
+      "submit_aria_label": "اسأل Primadom AI",
+      "voice_button_label": "ابدأ البحث الصوتي",
+      "voice_error_status": "تم إيقاف الإدخال الصوتي مؤقتًا",
+      "voice_fallback_text": "التعرّف على الصوت غير مدعوم هنا",
+      "voice_success_status": "تم",
+      "voice_fallback_status": "الوضع الصوتي"
+    },
+    "block_05_quick_recommendation": {
+      "chips": [
+        "الحي نفسه",
+        "مطورون عقاريون مختلفون",
+        "سعر مسجل واحد",
+        "موعد تسليم واحد مسجل"
+      ],
+      "title": "توصية سريعة",
+      "eyebrow": "إجابة مباشرة",
+      "body_html": "قد يناسب <strong>La Plage Tower</strong> المشترين الذين يعطون أولوية للعرض العقاري من Al Thuriah، بينما قد يناسب <strong>The Bridge Collection</strong> من يركزون على العرض العقاري من Seven Tides. <strong>La Plage Tower</strong> يقدم شقق · دوبلكس، استوديوهات–3 غرف نوم، من AED 540K، التسليم 2023، بينما <strong>The Bridge Collection</strong> يقدم شقق · بنتهاوس، 1–4 غرف نوم.",
+      "body_text": "قد يناسب La Plage Tower المشترين الذين يعطون أولوية للعرض العقاري من Al Thuriah، بينما قد يناسب The Bridge Collection من يركزون على العرض العقاري من Seven Tides. La Plage Tower يقدم شقق · دوبلكس، استوديوهات–3 غرف نوم، من AED 540K، التسليم 2023، بينما The Bridge Collection يقدم شقق · بنتهاوس، 1–4 غرف نوم.",
+      "section_id": "recommendation",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profiles",
+      "schema_version": "project_comparison_quick_recommendation_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "المشروع A",
+          "value": "La Plage Tower"
+        },
+        {
+          "label": "المشروع B",
+          "value": "The Bridge Collection"
+        },
+        {
+          "label": "سياق المنطقة",
+          "value": "كلاهما في Al Mamzar"
+        },
+        {
+          "label": "سياق المطور العقاري",
+          "value": "Al Thuriah مقابل Seven Tides"
+        },
+        {
+          "label": "السعر الابتدائي",
+          "value": "AED 540K مقابل تحقق مباشر"
+        },
+        {
+          "label": "أنواع العقارات",
+          "value": "شقق · دوبلكس مقابل شقق · بنتهاوس"
+        },
+        {
+          "label": "غرف النوم",
+          "value": "استوديوهات–3 غرف نوم مقابل 1–4 غرف نوم"
+        },
+        {
+          "label": "التسليم",
+          "value": "2023 مقابل تحقق مباشر"
+        }
+      ],
+      "title": "تفاصيل المقارنة",
+      "eyebrow": "حقائق رئيسية",
+      "section_id": "comparison-facts",
+      "block_status": "final",
+      "source_status": "structured_project_facts",
+      "schema_version": "project_comparison_facts_v1"
+    },
+    "block_07_project_summaries_logic": {
+      "items": [
+        {
+          "key": "project_a",
+          "name": "La Plage Tower",
+          "slug": "la-plage-tower",
+          "text": "يتموضع La Plage Tower حول معيشة بطابع الواجهة البحرية في Al Mamzar من تطوير Al Thuriah، مع مزيج مسجل من شقق · دوبلكس ضمن استوديوهات–3 غرف نوم وسعر ابتدائي مسجل يبدأ من AED 540K وتسليم مسجل في 2023. وتشير ملاءمته الحالية إلى المشترين الذين يخططون لاستخدام العقار كسكن رئيسي.",
+          "points": [
+            "Al Mamzar · من تطوير Al Thuriah",
+            "شقق · دوبلكس · استوديوهات–3 غرف نوم",
+            "من AED 540K · التسليم 2023"
+          ]
+        },
+        {
+          "key": "project_b",
+          "name": "The Bridge Collection",
+          "slug": "the-bridge-collection",
+          "text": "يتموضع The Bridge Collection حول معيشة بطابع الواجهة البحرية في Al Mamzar من تطوير Seven Tides، مع مزيج مسجل من شقق · بنتهاوس ضمن 1–4 غرف نوم بينما يحتاج كل من السعر الحالي وموعد التسليم إلى تحقق مباشر. وتشير ملاءمته الحالية إلى المشترين الذين يخططون لاستخدام العقار كسكن رئيسي.",
+          "points": [
+            "Al Mamzar · من تطوير Seven Tides",
+            "شقق · بنتهاوس · 1–4 غرف نوم",
+            "تحقق مباشر من السعر وموعد التسليم"
+          ]
+        }
+      ],
+      "title": "ملخصات المشاريع",
+      "eyebrow": "نظرة سريعة",
+      "section_id": "projects-summary",
+      "block_status": "final",
+      "source_status": "structured_facts_plus_project_profile_signals",
+      "schema_version": "project_comparison_summaries_logic_v1",
+      "comparison_logic": {
+        "body": "يقع المشروعان في Al Mamzar، لذلك لا يُعد الموقع العامل الفاصل الرئيسي. يأتي المشروعان من مطورين مختلفين، لذلك ينبغي مراجعة التنفيذ والخدمات وتموضع المنتج لكل منهما بشكل مستقل. يتوفر سعر ابتدائي مسجل واحد فقط، لذا تحتاج الأسعار الحالية إلى تحقق مباشر. يتوفر موعد تسليم مسجل واحد فقط؛ تحقق من الجدول الزمني الآخر.",
+        "tags": [
+          "الحي نفسه",
+          "مطورون عقاريون مختلفون",
+          "سعر مسجل واحد",
+          "مزيج عقاري مختلف",
+          "التوافر الحالي"
+        ],
+        "title": "منطق على مستوى المشروع",
+        "eyebrow": "كيفية المقارنة"
+      }
+    },
+    "block_08_project_comparison_table": {
+      "head": {
+        "factor": "العامل",
+        "project_a": "La Plage Tower",
+        "project_b": "The Bridge Collection"
+      },
+      "rows": [
+        {
+          "factor": "السعر الابتدائي",
+          "project_a": "من AED 540K",
+          "project_b": "تحقق مباشر من السعر"
+        },
+        {
+          "factor": "الموقع",
+          "project_a": "Al Mamzar",
+          "project_b": "Al Mamzar"
+        },
+        {
+          "factor": "المطور العقاري",
+          "project_a": "Al Thuriah",
+          "project_b": "Seven Tides"
+        },
+        {
+          "factor": "أنواع العقارات",
+          "project_a": "شقق · دوبلكس",
+          "project_b": "شقق · بنتهاوس"
+        },
+        {
+          "factor": "غرف النوم",
+          "project_a": "استوديوهات–3 غرف نوم",
+          "project_b": "1–4 غرف نوم"
+        },
+        {
+          "factor": "التسليم",
+          "project_a": "2023",
+          "project_b": "موعد التسليم يحتاج إلى تأكيد"
+        },
+        {
+          "factor": "تموضع المشروع",
+          "project_a": "بطابع واجهة بحرية",
+          "project_b": "بطابع واجهة بحرية"
+        }
+      ],
+      "title": "جدول مقارنة المشاريع",
+      "eyebrow": "La Plage Tower مقابل The Bridge Collection",
+      "section_id": "project-comparison-table",
+      "block_status": "final",
+      "table_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "live_units",
+          "text": "لدى La Plage Tower سعر ابتدائي مسجل يبلغ AED 540K. تحقق من السعر الحالي لـ The Bridge Collection وقارن وحدات متماثلة.",
+          "title": "أحد السعرين يحتاج إلى تأكيد",
+          "eyebrow": "السعر والوحدات",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "location_position",
+          "text": "يقع المشروعان في Al Mamzar. قارن سهولة الوصول والموقع الدقيق للمبنى أو قطعة الأرض والمعروض القريب وملاءمة الاستخدام اليومي.",
+          "title": "الحي نفسه، قارن الموقع الدقيق",
+          "eyebrow": "ملاءمة الموقع",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "timeline",
+          "text": "لدى La Plage Tower موعد تسليم مسجل في 2023. تحقق من الجدول الزمني لـ The Bridge Collection قبل مقارنة التوقيت.",
+          "title": "تحقق من موعدي التسليم",
+          "eyebrow": "الجدول الزمني",
+          "card_status": "structured_project_facts"
+        },
+        {
+          "key": "ai_support",
+          "dark": true,
+          "text": "اطلب من Primadom AI مقارنة La Plage Tower وThe Bridge Collection حسب نوع الوحدة والسعر المسجل والموقع وموعد التسليم والاستخدام المقصود، ثم إعداد أهم الأسئلة للمستشار.",
+          "title": "قارن وفق هدفك",
+          "eyebrow": "اسأل AI",
+          "card_status": "pair_specific_handoff"
+        }
+      ],
+      "section_id": "decision-cards",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_safe_fallbacks",
+      "schema_version": "project_comparison_decision_cards_v1",
+      "decision_cards_aria": "ملاحظات قرار المشروع"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "لمن يناسب كل مشروع",
+        "eyebrow": "ملاءمة المشتري",
+        "project_a_items": [
+          "لديه سعر ابتدائي مسجل يبلغ AED 540K، بينما يحتاج البديل إلى تحقق مباشر من السعر.",
+          "تفضّل طابع الواجهة البحرية في Al Mamzar بما يناسب استخدامك المقصود.",
+          "تريد شقق · دوبلكس ضمن استوديوهات–3 غرف نوم مع تسليم مسجل في 2023."
+        ],
+        "project_a_title": "اختر La Plage Tower إذا",
+        "project_b_items": [
+          "أنت مستعد للتحقق من سعره الابتدائي الحالي قبل مقارنة القيمة.",
+          "تفضّل طابع الواجهة البحرية في Al Mamzar بما يناسب استخدامك المقصود.",
+          "تريد شقق · بنتهاوس ضمن 1–4 غرف نوم ويمكنك التحقق من جدول التسليم."
+        ],
+        "project_b_title": "اختر The Bridge Collection إذا"
+      },
+      "section_id": "buyer-investment-logic",
+      "block_status": "final",
+      "source_status": "structured_project_facts_plus_profile_signals",
+      "schema_version": "project_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "لدى La Plage Tower سعر ابتدائي مسجل يبلغ AED 540K، بينما يحتاج The Bridge Collection إلى تحقق مباشر من السعر. يقع المشروعان في Al Mamzar، لذلك يقل احتمال أن يكون الموقع العامل الفاصل الرئيسي. يختلف مزيج العقارات المسجل: شقق · دوبلكس في La Plage Tower مقابل شقق · بنتهاوس في The Bridge Collection. لدى La Plage Tower سنة تسليم مسجلة هي 2023، بينما يحتاج موعد The Bridge Collection إلى تأكيد.",
+        "tags": [
+          "سعر مسجل واحد",
+          "الحي نفسه",
+          "مزيج الوحدات المسجل",
+          "تحقق من موعد التسليم",
+          "تحقق من التكلفة الإجمالية"
+        ],
+        "title": "منطق الاستثمار",
+        "eyebrow": "طبقة القرار"
+      }
+    },
+    "block_11_projects_alternatives": {
+      "section_id": "projects",
+      "alternatives": {
+        "items": [
+          {
+            "href": "/ar/compare-projects/faradis-tower-vs-la-plage-tower/",
+            "meta": "مشروع مشترك",
+            "label": "Faradis Tower مقابل La Plage Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/faradis-tower-vs-the-bridge-collection/",
+            "meta": "مشروع مشترك",
+            "label": "Faradis Tower مقابل The Bridge Collection",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/la-plage-tower-vs-s1-tower/",
+            "meta": "مشروع مشترك",
+            "label": "La Plage Tower مقابل S1 Tower",
+            "item_status": "verified_existing_comparison"
+          },
+          {
+            "href": "/ar/compare-projects/la-plage-tower-vs-sharjah-terraces/",
+            "meta": "مشروع مشترك",
+            "label": "La Plage Tower مقابل Sharjah Terraces",
+            "item_status": "verified_existing_comparison"
+          }
+        ],
+        "title": "المزيد من مقارنات المشاريع",
+        "eyebrow": "استكشف التالي"
+      },
+      "block_status": "final",
+      "source_status": "verified_existing_routes",
+      "project_routes": {
+        "items": [
+          {
+            "href": "/ar/projects/la-plage-tower/",
+            "meta": "المشروع A",
+            "label": "صفحة مشروع La Plage Tower",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/projects/the-bridge-collection/",
+            "meta": "المشروع B",
+            "label": "صفحة مشروع The Bridge Collection",
+            "item_status": "verified_entity_route"
+          },
+          {
+            "href": "/ar/areas/al-mamzar/",
+            "meta": "المنطقة",
+            "label": "دليل منطقة Al Mamzar",
+            "item_status": "verified_entity_route"
+          }
+        ],
+        "title": "افتح صفحات المشاريع",
+        "eyebrow": "صفحات المشاريع"
+      },
+      "schema_version": "project_comparison_projects_alternatives_v1"
+    },
+    "block_12_ai_inputs": {
+      "text": "شارك هذه التفاصيل لمقارنة La Plage Tower وThe Bridge Collection وفق الأولويات نفسها. تساعد معلومات المشاريع المسجلة على تضييق الخيارات، بينما تظل الوحدات الدقيقة والأسعار الحالية والتوافر بحاجة إلى تحقق مباشر.",
+      "items": [
+        {
+          "meta": "نطاق AED أو الحد الأقصى لسعر الدخول",
+          "label": "نطاق السعر"
+        },
+        {
+          "meta": "شقق / دوبلكس / بنتهاوس",
+          "label": "نوع الوحدة"
+        },
+        {
+          "meta": "سكن / منزل ثانٍ / استثمار على الواجهة البحرية",
+          "label": "هدف المشتري"
+        },
+        {
+          "meta": "الحالة الحالية أو توقيت الشراء الفوري",
+          "label": "الجدول الزمني"
+        },
+        {
+          "meta": "الإطلالة / الخصوصية / الوصول إلى الواجهة البحرية",
+          "label": "الأولوية الرئيسية"
+        }
+      ],
+      "title": "مدخلات المقارنة لـ AI",
+      "eyebrow": "تفاصيل مفيدة",
+      "section_id": "ai-inputs",
+      "block_status": "final",
+      "inputs_status": "pair_adapted_guidance",
+      "source_status": "structured_project_context",
+      "schema_version": "project_comparison_ai_inputs_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "يناسب كل من المشروعين أولويات مختلفة، ولا يوجد خيار أفضل في جميع الحالات. لدى La Plage Tower فقط سعر ابتدائي مسجل قابل للاستخدام حاليًا. يسجل La Plage Tower شقق · دوبلكس، بينما يسجل The Bridge Collection شقق · بنتهاوس. يسجل La Plage Tower التسليم في 2023، بينما يحتاج موعد تسليم The Bridge Collection إلى تأكيد؛ كما يجب التحقق من الحالة الحالية لـ La Plage Tower. يعتمد الخيار الأنسب على الاستخدام المقصود والوحدة الفعلية المتاحة وقت المقارنة.",
+          "question": "أي المشروعين قد يناسبني أكثر: La Plage Tower أم The Bridge Collection؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "لدى La Plage Tower سعر ابتدائي مسجل قابل للاستخدام يبلغ AED 540K. لا يتوفر لـ The Bridge Collection سعر قابل للاستخدام في السجل الحالي، لذا يلزم إجراء مقارنة مباشرة.",
+          "question": "أي المشروعين لديه السعر الابتدائي المسجل الأقل؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يقع المشروعان في Al Mamzar. يرتبط La Plage Tower بـ Al Thuriah، بينما يرتبط The Bridge Collection بـ Seven Tides.",
+          "question": "كيف يختلف La Plage Tower وThe Bridge Collection من حيث الموقع والمطور العقاري؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يسجل La Plage Tower شقق · دوبلكس، بما في ذلك استوديوهات إلى وحدات من 3 غرف نوم. يسجل La Plage Tower سنة 2023 للتسليم، لذلك يجب التحقق من حالته الحالية. يسجل The Bridge Collection شقق · بنتهاوس، بما في ذلك وحدات من 1–4 غرف نوم. لا يزال موعد تسليم The Bridge Collection بحاجة إلى تأكيد.",
+          "question": "ما أنواع العقارات ونطاقات غرف النوم وسنوات التسليم المسجلة؟",
+          "answer_status": "structured_project_facts"
+        },
+        {
+          "answer": "يجب أن تستند القائمة النهائية بين La Plage Tower وThe Bridge Collection إلى الوحدة الدقيقة والسعر الحالي وشروط الدفع والتكلفة الإجمالية للشراء والمخطط والإطلالة وحالة المشروع والتسليم والتوافر. تفيد الأرقام المسجلة على مستوى المشروع في إعداد القائمة المختصرة، لكنها لا تغني عن التحقق المباشر على مستوى الوحدة.",
+          "question": "ما الذي يجب التحقق منه قبل الاختيار بين La Plage Tower وThe Bridge Collection؟",
+          "answer_status": "live_check_guidance"
+        }
+      ],
+      "title": "الأسئلة الشائعة",
+      "eyebrow": "أسئلة عن المشاريع",
+      "faq_status": "pair_specific",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "structured_project_facts_with_live_checks",
+      "schema_version": "project_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "استخدم هذه الصفحة كنقطة بداية لمقارنة La Plage Tower وThe Bridge Collection. قد تتغير التفاصيل المسجلة ولا تحل محل مستندات المطور الحالية أو السجلات العامة. تحقق من الأسعار الحالية والوحدات المتاحة وشروط الدفع والمخططات ورسوم الخدمات وتفاصيل التسليم وحالة المشروع قبل اتخاذ القرار.",
+      "items": [
+        {
+          "label": "السعر / التوافر",
+          "value": "يلزم تحقق مباشر"
+        },
+        {
+          "label": "شروط الدفع",
+          "value": "تحقق من المستندات الحالية"
+        },
+        {
+          "label": "التسليم / الحالة",
+          "value": "تحقق من الحالة الحالية"
+        },
+        {
+          "label": "تحديث المحتوى",
+          "value": "يوليو 2026"
+        }
+      ],
+      "title": "ملاحظات المصادر والتحقق",
+      "eyebrow": "التحقق",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verification_pending",
+      "schema_version": "project_comparison_source_notes_v1",
+      "source_notes_status": "safe_notice"
+    },
+    "block_15_cta": {
+      "text": "يقع المشروعان في Al Mamzar؛ ويرتبط La Plage Tower بـ Al Thuriah، بينما يرتبط The Bridge Collection بـ Seven Tides. يسجل La Plage Tower سعرًا ابتدائيًا قدره AED 540K، بينما يحتاج سعر The Bridge Collection إلى تحقق مباشر. يسجل La Plage Tower التسليم في 2023؛ تحقق من حالته الحالية ومن موعد تسليم The Bridge Collection.",
+      "title": "هل تريد مقارنة La Plage Tower وThe Bridge Collection وفق حالتك؟",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "اسأل Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "project_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#projectComparisonLeadModal",
+          "label": "قارن حالتي",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "project_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#projectComparisonLeadModal",
+          "label": "اطلب مكالمة",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#projectComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "pair_specific",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "project_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "نموذج استفسار عن مقارنة المشاريع",
+      "text": "شارك تفضيلاتك وبيانات التواصل. سيُعد Primadom AI مقارنة مركزة قبل أن يتواصل معك مستشار.",
+      "error": "يرجى المحاولة مرة أخرى",
+      "title": "قارن La Plage Tower وThe Bridge Collection وفق حالتك",
+      "fields": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني (اختياري)",
+        "phone": "الهاتف / WhatsApp",
+        "comment": "طلب مُعدّ مسبقًا"
+      },
+      "submit": "إرسال",
+      "comment": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+      "eyebrow": "متابعة المقارنة مع AI",
+      "success": "تم إرسال الطلب",
+      "modal_id": "projectComparisonLeadModal",
+      "title_id": "projectComparisonLeadTitle",
+      "section_id": "lead-modal",
+      "close_label": "إغلاق",
+      "form_status": "ready",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "required": true,
+          "html_name": "name",
+          "input_type": "text",
+          "autocomplete": "name"
+        },
+        "email": {
+          "required": false,
+          "html_name": "email",
+          "input_type": "email",
+          "autocomplete": "email"
+        },
+        "phone": {
+          "required": true,
+          "html_name": "phone",
+          "input_type": "tel",
+          "autocomplete": "tel"
+        },
+        "comment": {
+          "editable": true,
+          "required": false,
+          "html_name": "comment",
+          "input_type": "textarea"
+        }
+      },
+      "modal_target": "#projectComparisonLeadModal",
+      "placeholders": {
+        "name": "الاسم",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "+971",
+        "comment": "أضف أي تفاصيل مفيدة"
+      },
+      "hidden_fields": {
+        "page_id": "project_comparison__la-plage-tower__vs__the-bridge-collection__ar",
+        "page_type": "project_comparison_page",
+        "lead_source": "project_comparison_lead_modal",
+        "action_intent": "project_comparison_case",
+        "project_a_name": "La Plage Tower",
+        "project_a_slug": "la-plage-tower",
+        "project_b_name": "The Bridge Collection",
+        "project_b_slug": "the-bridge-collection",
+        "canonical_url_path": "/ar/compare-projects/la-plage-tower-vs-the-bridge-collection/"
+      },
+      "request_scope": [
+        "unit_type",
+        "view",
+        "current_terms",
+        "handover_timing",
+        "buyer_goal"
+      ],
+      "submit_states": {
+        "idle": "إرسال",
+        "error": "يرجى المحاولة مرة أخرى",
+        "success": "تم إرسال الطلب",
+        "submitting": "جارٍ الإرسال…"
+      },
+      "schema_version": "project_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 3,
+        "label": "طلب مُعدّ مسبقًا",
+        "value": "قارن هذه المشاريع حسب نوع الوحدة والإطلالة والشروط الحالية والتوقيت وهدف المشتري.",
+        "editable": true,
+        "html_name": "comment"
+      }
+    },
+    "block_17_footer": {
+      "text": "يساعد Primadom AI المشترين على مقارنة المشاريع والمواقع والمطورين العقاريين وعوامل القرار الرئيسية قبل التحدث مع مستشار.",
+      "brand": "Primadom AI",
+      "chips": [
+        "المشاريع",
+        "المناطق",
+        "المطورون العقاريون",
+        "بحث AI"
+      ],
+      "title": "مقارنة المشاريع المرتبطة باحتياجات المشتري الفعلية",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "دبي، الإمارات العربية المتحدة",
+      "subtitle": "ذكاء عقاري في الإمارات",
+      "brand_url": "/ar/",
+      "copyright": "© نظام Primadom AI",
+      "section_id": "footer",
+      "social_aria": "روابط التواصل الاجتماعي",
+      "url_section": "compare-projects",
+      "block_status": "final",
+      "footer_status": "standard",
+      "schema_version": "project_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#projectComparisonLeadModal",
+        "label": "احجز مكالمة",
+        "modal": true,
+        "modal_target": "#projectComparisonLeadModal",
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "اسأل AI",
+        "modal": false,
+        "action_intent": "project_comparison_ai_question"
+      }
+    }
+  }
+}

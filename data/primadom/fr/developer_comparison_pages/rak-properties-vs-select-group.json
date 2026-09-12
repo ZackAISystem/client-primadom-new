@@ -1,0 +1,717 @@
+{
+  "schema_version": "primadom_page_fr_v1",
+  "page_id": "page_developer_comparison_rak_properties_vs_select_group_fr",
+  "page_type_id": "developer_comparison_page",
+  "language_code": "fr",
+  "url_path": "/fr/compare-developers/rak-properties-vs-select-group/",
+  "canonical_url_path": "/fr/compare-developers/rak-properties-vs-select-group/",
+  "canonical_group_key": "developer_comparison:rak-properties:vs:select-group",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "rak-properties",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_compare",
+    "block_05_quick_verdict",
+    "block_06_comparison_facts",
+    "block_07_developer_profiles_segment_logic",
+    "block_08_segment_comparison_table",
+    "block_09_decision_cards",
+    "block_10_buyer_investment_logic",
+    "block_11_projects_by_developer",
+    "block_12_related_comparisons",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "cta_href": "#developerComparisonLeadModal",
+      "cta_label": "Voir mes options",
+      "nav_items": [
+        {
+          "key": "overview",
+          "href": "#overview",
+          "label": "Aperçu",
+          "is_active": true
+        },
+        {
+          "key": "compare",
+          "href": "#compare",
+          "label": "Comparer"
+        },
+        {
+          "key": "projects",
+          "href": "#projects",
+          "label": "Projets"
+        },
+        {
+          "key": "ai",
+          "href": "#compare-ai-search",
+          "is_ai": true,
+          "label": "Demander à AI"
+        }
+      ],
+      "brand_href": "/fr/",
+      "brand_label": "Primadom AI",
+      "block_status": "final",
+      "brand_display": "PRIMADOM AI",
+      "header_variant": "primadom_default",
+      "nav_aria_label": "Navigation de la comparaison des développeurs",
+      "schema_version": "developer_comparison_header_v1",
+      "use_global_header": true
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "key": "home",
+          "href": "/fr/",
+          "label": "Accueil"
+        },
+        {
+          "key": "developer_comparisons",
+          "href": "/fr/compare-developers/",
+          "label": "Comparaisons de développeurs"
+        },
+        {
+          "key": "comparison",
+          "href": "/fr/compare-developers/rak-properties-vs-select-group/",
+          "label": "RAK Properties vs Select Group",
+          "label_ref": "comparison_name"
+        }
+      ],
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "schema_version": "developer_comparison_breadcrumbs_v1",
+      "breadcrumbs_aria": "Fil d’Ariane"
+    },
+    "block_03_hero": {
+      "facts": [
+        "RAK Properties : Milieu de gamme adapté aux familles",
+        "Select Group : Luxe",
+        "Zones de RAK Properties : Mina Al Arab · Al Reem Island",
+        "Zones de Select Group : Business Bay · Maritime City",
+        "Comparez les projets actuels avant d’établir votre sélection."
+      ],
+      "title": "RAK Properties vs Select Group",
+      "ai_aria": "Demander à Primadom AI de comparer RAK Properties et Select Group",
+      "ai_badge": "Primadom AI",
+      "subtitle": "Comparez le positionnement « milieu de gamme adapté aux familles » de RAK Properties au positionnement « luxe » de Select Group, projet par projet.",
+      "ai_submit": "Demander à AI",
+      "facts_aria": "Données clés de la comparaison des développeurs",
+      "section_id": "overview",
+      "developer_a": {
+        "name": "RAK Properties",
+        "slug": "rak-properties",
+        "image": {
+          "alt": "RAK Properties projet côtier à Ras Al Khaimah comprenant une communauté résidentielle en bord de mer, une marina, un accès à la plage et un mode de vie urbain intégré",
+          "src": "https://imagedelivery.net/p1-SJXO2awSjvEV3gBSWEg/9153529f-cc5c-4e58-6139-fddcece2fa00/desktop",
+          "media_status": "developer_media_available"
+        }
+      },
+      "developer_b": {
+        "name": "Select Group",
+        "slug": "select-group",
+        "image": {
+          "alt": "Select Group — image de comparaison du développeur",
+          "src": "/img/primadom/developer-comparisons/developer-b-placeholder.svg",
+          "media_status": "pending"
+        }
+      },
+      "visual_aria": "Visuel comparatif présentant RAK Properties et Select Group",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "ai_placeholder": "Comparer RAK Properties et Select Group selon mon objectif d’achat, le type de bien et le calendrier",
+      "schema_version": "developer_comparison_hero_v1",
+      "ai_listening_label": "Écoute…"
+    },
+    "block_04_ai_compare": {
+      "text": "Décrivez votre zone, votre type de bien, votre calendrier et votre objectif d’achat. Primadom AI peut préparer le contexte de comparaison avant qu’un conseiller examine les options actuelles.",
+      "badge": "Primadom AI",
+      "hints": [
+        "Quel développeur correspond à mon objectif d’achat ?",
+        "Comparer les projets et les zones",
+        "Que dois-je vérifier en premier ?"
+      ],
+      "title": "Comparez RAK Properties et Select Group selon votre situation",
+      "ai_aria": "Demander à Primadom AI de comparer RAK Properties et Select Group",
+      "eyebrow": "Demander à AI",
+      "prompts": [
+        "Quel développeur correspond à mon objectif d’achat ?",
+        "Comparer les projets et les zones",
+        "Que dois-je vérifier en premier ?"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "Demander à AI",
+      "input_aria": "Question de comparaison des développeurs pour AI",
+      "section_id": "compare-ai-search",
+      "voice_text": "Poser une question sur cette comparaison de développeurs",
+      "placeholder": "Comparer selon le budget, la zone ou l’objectif d’achat",
+      "voice_label": "Recherche vocale",
+      "block_status": "final",
+      "button_label": "Demander à AI",
+      "submit_label": "Demander à AI",
+      "voice_status": "Écoute…",
+      "ai_voice_text": "Comparer RAK Properties et Select Group selon la zone, le type de bien, le plan de paiement et l’objectif d’achat",
+      "ai_placeholder": "Comparer selon le budget, la zone ou l’objectif d’achat",
+      "schema_version": "developer_comparison_ai_compare_v1",
+      "ai_voice_status": "Écoute…",
+      "form_aria_label": "Demander à Primadom AI de comparer RAK Properties et Select Group",
+      "voice_error_text": "Saisissez votre demande ou réessayez",
+      "submit_aria_label": "Demander à Primadom AI",
+      "voice_button_label": "Démarrer la recherche vocale",
+      "voice_error_status": "Saisie vocale en pause",
+      "voice_fallback_text": "La reconnaissance vocale n’est pas prise en charge ici",
+      "voice_success_status": "Compris",
+      "voice_fallback_status": "Mode vocal"
+    },
+    "block_05_quick_verdict": {
+      "chips": [
+        "Milieu de gamme adapté aux familles",
+        "Luxe",
+        "Adéquation géographique",
+        "Conditions actuelles"
+      ],
+      "title": "Conclusion rapide",
+      "eyebrow": "Réponse directe",
+      "body_html": "<strong>RAK Properties</strong> s’oriente vers des projets de milieu de gamme adaptés aux familles à Mina Al Arab et Al Reem Island. <strong>Select Group</strong> s’oriente vers des projets de luxe à Business Bay et Maritime City. Comparez les projets eux-mêmes, leurs conditions, leur livraison et leur disponibilité.",
+      "body_text": "RAK Properties s’oriente vers des projets de milieu de gamme adaptés aux familles à Mina Al Arab et Al Reem Island. Select Group s’oriente vers des projets de luxe à Business Bay et Maritime City. Comparez les projets eux-mêmes, leurs conditions, leur livraison et leur disponibilité.",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_quick_verdict_v1",
+      "summary_status": "final"
+    },
+    "block_06_comparison_facts": {
+      "items": [
+        {
+          "label": "Premier développeur",
+          "value": "RAK Properties"
+        },
+        {
+          "label": "Profil du premier développeur",
+          "value": "Milieu de gamme adapté aux familles"
+        },
+        {
+          "label": "Couverture du premier développeur",
+          "value": "25 projets répartis dans 2 zones"
+        },
+        {
+          "label": "Zones principales du premier développeur",
+          "value": "Mina Al Arab · Al Reem Island"
+        },
+        {
+          "label": "Deuxième développeur",
+          "value": "Select Group"
+        },
+        {
+          "label": "Profil du deuxième développeur",
+          "value": "Luxe"
+        },
+        {
+          "label": "Couverture du deuxième développeur",
+          "value": "15 projets répartis dans 5 zones"
+        },
+        {
+          "label": "Zones principales du deuxième développeur",
+          "value": "Business Bay · Maritime City"
+        }
+      ],
+      "title": "Détails de la comparaison",
+      "eyebrow": "Données clés",
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_facts_v1"
+    },
+    "block_07_developer_profiles_segment_logic": {
+      "items": [
+        {
+          "key": "developer_a",
+          "name": "RAK Properties",
+          "slug": "rak-properties",
+          "text": "RAK Properties présente actuellement un positionnement « milieu de gamme adapté aux familles », avec 25 projets répartis dans 2 zones, notamment Mina Al Arab et Al Reem Island.",
+          "points": [
+            "Profil : Milieu de gamme adapté aux familles",
+            "Couverture : 25 projets · 2 zones",
+            "Zones principales : Mina Al Arab, Al Reem Island"
+          ]
+        },
+        {
+          "key": "developer_b",
+          "name": "Select Group",
+          "slug": "select-group",
+          "text": "Select Group présente actuellement un positionnement « luxe », avec 15 projets répartis dans 5 zones, notamment Business Bay et Maritime City.",
+          "points": [
+            "Profil : Luxe",
+            "Couverture : 15 projets · 5 zones",
+            "Zones principales : Business Bay, Maritime City"
+          ]
+        }
+      ],
+      "title": "Profils des développeurs",
+      "eyebrow": "Résumé des développeurs",
+      "section_id": "profiles",
+      "block_status": "final",
+      "segment_logic": {
+        "body": "Comparez RAK Properties et Select Group selon l’objectif d’achat, le portefeuille de projets et les priorités géographiques. Vérifiez le choix final au niveau du projet, notamment le plan de paiement, la livraison et la disponibilité actuelle.",
+        "tags": [
+          "Milieu de gamme adapté aux familles",
+          "Luxe",
+          "Priorités géographiques",
+          "Vérification des projets",
+          "Conditions actuelles"
+        ],
+        "title": "Logique du segment",
+        "eyebrow": "Comment comparer"
+      },
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_profiles_v1"
+    },
+    "block_08_segment_comparison_table": {
+      "head": {
+        "factor": "Critère",
+        "developer_a": "RAK Properties",
+        "developer_b": "Select Group"
+      },
+      "rows": [
+        {
+          "factor": "Couverture du portefeuille",
+          "developer_a": "RAK Properties : 25 projets répartis dans 2 zones ; confirmez la disponibilité actuelle.",
+          "developer_b": "Select Group : 15 projets répartis dans 5 zones ; confirmez la disponibilité actuelle."
+        },
+        {
+          "factor": "Priorités géographiques",
+          "developer_a": "RAK Properties : les zones principales comprennent Mina Al Arab et Al Reem Island ; vérifiez l’adéquation au niveau du projet.",
+          "developer_b": "Select Group : les zones principales comprennent Business Bay et Maritime City ; vérifiez l’adéquation au niveau du projet."
+        },
+        {
+          "factor": "Adéquation à l’acheteur",
+          "developer_a": "RAK Properties : peut convenir aux acheteurs recherchant des projets de milieu de gamme adaptés aux familles ; confirmez le projet et ses conditions.",
+          "developer_b": "Select Group : peut convenir aux acheteurs recherchant des projets de luxe ; confirmez le projet et ses conditions."
+        },
+        {
+          "factor": "Paiement et calendrier",
+          "developer_a": "RAK Properties : examinez le plan de paiement, le stade de construction, la livraison et l’exposition au paiement final.",
+          "developer_b": "Select Group : examinez le plan de paiement, le stade de construction, la livraison et l’exposition au paiement final."
+        },
+        {
+          "factor": "Vérification des sources",
+          "developer_a": "RAK Properties : vérifiez les documents officiels, le statut du projet, son enregistrement et la disponibilité actuelle.",
+          "developer_b": "Select Group : vérifiez les documents officiels, le statut du projet, son enregistrement et la disponibilité actuelle."
+        },
+        {
+          "factor": "Logique d’investissement",
+          "developer_a": "RAK Properties : comparez, projet par projet, le prix d’entrée, les charges de service, les hypothèses locatives et le public cible à la revente.",
+          "developer_b": "Select Group : comparez, projet par projet, le prix d’entrée, les charges de service, les hypothèses locatives et le public cible à la revente."
+        }
+      ],
+      "title": "Comparaison des segments",
+      "eyebrow": "RAK Properties vs Select Group",
+      "block_status": "final",
+      "table_status": "validated_full_enrichment",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_table_v1"
+    },
+    "block_09_decision_cards": {
+      "cards": [
+        {
+          "key": "project_level",
+          "text": "RAK Properties et Select Group doivent être comparés à travers leurs projets actuels, le type de bien, le plan de paiement, la livraison et la disponibilité.",
+          "title": "Comparer les projets actuels",
+          "eyebrow": "Vérification des projets"
+        },
+        {
+          "key": "area_fit",
+          "text": "RAK Properties : Mina Al Arab, Al Reem Island. Select Group : Business Bay, Maritime City. Comparez l’adéquation géographique au niveau du projet.",
+          "title": "Vérifier la couverture géographique",
+          "eyebrow": "Adéquation géographique"
+        },
+        {
+          "key": "verification",
+          "text": "Vérifiez les documents officiels, le statut des projets, leur enregistrement, les conditions de paiement, la livraison et la disponibilité pour les deux développeurs.",
+          "title": "Vérifier les données actuelles",
+          "eyebrow": "Vérification des sources"
+        },
+        {
+          "key": "ai_context",
+          "dark": true,
+          "text": "Primadom AI peut comparer RAK Properties et Select Group selon le type de projet, la zone, le plan de paiement, le calendrier et l’objectif d’achat.",
+          "title": "Comparer selon votre objectif",
+          "eyebrow": "Demander à AI"
+        }
+      ],
+      "block_status": "final",
+      "schema_version": "developer_comparison_decision_cards_v1",
+      "decision_cards_aria": "Éléments de décision sur les développeurs"
+    },
+    "block_10_buyer_investment_logic": {
+      "buyer_fit": {
+        "title": "Meilleure option pour chaque type d’acheteur",
+        "eyebrow": "Adéquation à l’acheteur",
+        "developer_a_items": [
+          "Votre sélection comprend des projets de milieu de gamme adaptés aux familles",
+          "Vous envisagez des projets à Mina Al Arab et Al Reem Island",
+          "Vous vérifierez le prix, le plan de paiement, la livraison et la disponibilité pour chaque projet"
+        ],
+        "developer_a_title": "Envisagez RAK Properties si",
+        "developer_b_items": [
+          "Votre sélection comprend des projets de luxe",
+          "Vous envisagez des projets à Business Bay et Maritime City",
+          "Vous vérifierez le prix, le plan de paiement, la livraison et la disponibilité pour chaque projet"
+        ],
+        "developer_b_title": "Envisagez Select Group si"
+      },
+      "block_status": "final",
+      "source_status": "developer_profiles_projects_and_districts",
+      "schema_version": "developer_comparison_buyer_investment_logic_v1",
+      "investment_logic": {
+        "body": "Le portefeuille actuel de projets positionne RAK Properties sur le segment « milieu de gamme adapté aux familles » et Select Group sur le segment « luxe ». Ces indications servent uniquement à établir une présélection. Comparez, projet par projet, le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
+        "tags": [
+          "Prix d’entrée",
+          "Plan de paiement",
+          "Calendrier de livraison",
+          "Charges de service",
+          "Vérifications pour la location et la revente"
+        ],
+        "title": "Logique d’investissement",
+        "eyebrow": "Logique de décision"
+      }
+    },
+    "block_11_projects_by_developer": {
+      "section_id": "projects",
+      "developer_a": {
+        "items": [
+          {
+            "href": "/fr/projects/anantara-mina/",
+            "meta": "Mina Al Arab",
+            "label": "Anantara Mina"
+          },
+          {
+            "href": "/fr/projects/bay-residences/",
+            "meta": "Mina Al Arab",
+            "label": "Bay Residences"
+          },
+          {
+            "href": "/fr/developers/rak-properties/",
+            "meta": "Profil du développeur",
+            "label": "RAK Properties — guide du développeur"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "Comparaison avec AI",
+            "label": "Demander à AI des informations sur RAK Properties"
+          }
+        ],
+        "title": "Explorer les projets de RAK Properties",
+        "eyebrow": "Premier développeur"
+      },
+      "developer_b": {
+        "items": [
+          {
+            "href": "/fr/projects/15-northside/",
+            "meta": "Business Bay",
+            "label": "15 Northside"
+          },
+          {
+            "href": "/fr/projects/artistry-phase-2/",
+            "meta": "Détails du projet",
+            "label": "Artistry Phase 2"
+          },
+          {
+            "href": "/fr/developers/select-group/",
+            "meta": "Profil du développeur",
+            "label": "Select Group — guide du développeur"
+          },
+          {
+            "href": "#compare-ai-search",
+            "meta": "Comparaison avec AI",
+            "label": "Demander à AI des informations sur Select Group"
+          }
+        ],
+        "title": "Explorer les projets de Select Group",
+        "eyebrow": "Deuxième développeur"
+      },
+      "block_status": "final",
+      "source_status": "project_routes_and_developer_profiles",
+      "schema_version": "developer_comparison_projects_by_developer_v1",
+      "projects_status": "project_routes_available"
+    },
+    "block_12_related_comparisons": {
+      "items": [
+        {
+          "href": "/fr/compare-developers/alef-group-vs-rak-properties/",
+          "label": "Alef Group vs RAK Properties"
+        },
+        {
+          "href": "/fr/compare-developers/al-barari-vs-select-group/",
+          "label": "Al Barari vs Select Group"
+        },
+        {
+          "href": "/fr/compare-developers/",
+          "label": "Comparaisons de développeurs à Dubai"
+        },
+        {
+          "href": "#compare-ai-search",
+          "label": "Demander à AI des développeurs similaires"
+        }
+      ],
+      "title": "Comparaisons associées",
+      "eyebrow": "Continuer l’exploration",
+      "section_id": "related-comparisons",
+      "block_status": "final",
+      "source_status": "balanced_page_index_routes",
+      "related_status": "page_index_routes_ready",
+      "schema_version": "developer_comparison_related_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "RAK Properties peut convenir si vous recherchez des projets de milieu de gamme adaptés aux familles. Select Group peut convenir si votre sélection comprend des projets de luxe. Aucun des deux n’est systématiquement meilleur ; comparez les projets, les zones, les conditions de paiement et le calendrier avant de choisir.",
+          "question": "RAK Properties est-il meilleur que Select Group ?",
+          "answer_status": "pair_buyer_goal_guidance"
+        },
+        {
+          "answer": "Pour un achat familial, comparez RAK Properties et Select Group au niveau des projets et des communautés. Examinez la surface et l’agencement des unités, les écoles, les parcs, les services du quotidien, les temps de trajet, la livraison, les charges de service et la maturité de la communauté. Le nom du développeur ne détermine pas à lui seul l’adéquation aux familles.",
+          "question": "Quel développeur peut être le plus adapté aux familles : RAK Properties ou Select Group ?",
+          "answer_status": "family_fit_guidance"
+        },
+        {
+          "answer": "Le portefeuille actuel de projets positionne RAK Properties sur le segment « milieu de gamme adapté aux familles » et Select Group sur le segment « luxe ». Ces indications servent uniquement à établir une présélection. Comparez, projet par projet, le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
+          "question": "Quel développeur peut être le plus adapté à l’investissement : RAK Properties ou Select Group ?",
+          "answer_status": "investment_fit_guidance"
+        },
+        {
+          "answer": "Avant de choisir entre RAK Properties et Select Group, vérifiez pour chaque projet présélectionné le statut officiel, l’enregistrement, la disponibilité actuelle des unités, le prix, le plan de paiement, la livraison, les charges de service, les plans d’étage et les conditions contractuelles.",
+          "question": "Que doivent vérifier les acheteurs avant de choisir entre RAK Properties et Select Group ?",
+          "answer_status": "verification_guidance"
+        },
+        {
+          "answer": "Oui. Primadom AI peut comparer RAK Properties et Select Group selon le budget, le type de bien, la zone, le plan de paiement, la livraison et l’objectif familial ou d’investissement, puis aider à organiser une sélection de projets à faire examiner par un conseiller.",
+          "question": "Primadom AI peut-il comparer RAK Properties et Select Group selon mon budget et mon objectif d’achat ?",
+          "answer_status": "ai_comparison_guidance"
+        }
+      ],
+      "title": "Questions fréquentes",
+      "eyebrow": "Questions sur les développeurs",
+      "faq_status": "final",
+      "section_id": "faq",
+      "block_status": "final",
+      "source_status": "final_buyer_fit_and_investment_context",
+      "schema_version": "developer_comparison_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Les références de sources vérifiées pour RAK Properties et Select Group ne sont pas encore jointes à cette page. Considérez cette comparaison comme un outil d’orientation et confirmez toutes les informations sur les développeurs, les projets, les prix et la disponibilité dans les documents officiels avant toute décision.",
+      "items": [
+        {
+          "label": "Vérification de RAK Properties",
+          "value": "Confirmez le profil du développeur, les projets actuels et les conditions publiées dans les documents officiels de RAK Properties."
+        },
+        {
+          "label": "Vérification de Select Group",
+          "value": "Confirmez le profil du développeur, les projets actuels et les conditions publiées dans les documents officiels de Select Group."
+        },
+        {
+          "label": "Informations sur les projets",
+          "value": "Confirmez le statut du projet, son enregistrement, la disponibilité des unités, le plan de paiement, la livraison, les charges de service et les conditions contractuelles."
+        },
+        {
+          "label": "Mise à jour des sources",
+          "value": "Les liens vers les sources vérifiées seront ajoutés lorsque le dossier de sources sera disponible. D’ici là, utilisez cette page uniquement comme guide de comparaison."
+        }
+      ],
+      "title": "Notes de vérification",
+      "eyebrow": "Vérification",
+      "section_id": "trust-notes",
+      "block_status": "final",
+      "source_status": "verified_sources_pending",
+      "schema_version": "developer_comparison_source_notes_v1",
+      "source_notes_status": "final_safe_placeholder"
+    },
+    "block_15_cta": {
+      "text": "Demandez à Primadom AI de comparer les deux développeurs selon l’objectif d’achat, la zone, le type de projet, le plan de paiement, le calendrier de livraison et le profil de risque, puis de transmettre la demande à un conseiller pour une vérification en temps réel.",
+      "title": "Vous souhaitez comparer RAK Properties et Select Group selon votre situation ?",
+      "actions": [
+        {
+          "key": "ask_ai",
+          "href": "#compare-ai-search",
+          "label": "Demander à Primadom AI",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "developer_comparison_ai_question"
+        },
+        {
+          "key": "compare_case",
+          "href": "#developerComparisonLeadModal",
+          "label": "Comparer avec mon cas",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "developer_comparison_case"
+        },
+        {
+          "key": "request_call",
+          "href": "#developerComparisonLeadModal",
+          "label": "Demander un appel",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#developerComparisonLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "final",
+      "section_id": "final-cta",
+      "block_status": "final",
+      "schema_version": "developer_comparison_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Formulaire de demande de comparaison des développeurs",
+      "note": "Un conseiller vérifiera les informations avant de vous contacter.",
+      "text": "Indiquez vos coordonnées et ajoutez une préférence succincte.",
+      "title": "Comparez RAK Properties et Select Group selon votre situation",
+      "fields": {
+        "name": "Nom",
+        "email": "E-mail (facultatif)",
+        "phone": "Téléphone / WhatsApp",
+        "comment": "Demande préparée"
+      },
+      "submit": "Envoyer",
+      "comment": "Comparer RAK Properties et Select Group.",
+      "eyebrow": "Continuer la comparaison avec AI",
+      "success": "Envoyé",
+      "ai_badge": "Primadom AI",
+      "modal_id": "developerComparisonLeadModal",
+      "title_id": "developerComparisonLeadTitle",
+      "close_label": "Fermer",
+      "ai_row_badge": "Demande préparée",
+      "block_status": "final",
+      "field_config": {
+        "name": {
+          "label": "Nom",
+          "html_name": "name",
+          "placeholder": "Votre nom"
+        },
+        "email": {
+          "label": "E-mail (facultatif)",
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Téléphone / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971 50 123 4567"
+        },
+        "comment": {
+          "label": "Demande préparée",
+          "html_name": "comment",
+          "placeholder": "Ajoutez une préférence succincte"
+        }
+      },
+      "modal_status": "final",
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "email@example.com",
+        "phone": "+971 50 123 4567",
+        "comment": "Ajoutez une préférence succincte"
+      },
+      "submit_label": "Envoyer",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type_id"
+        },
+        "developer_a_name": {
+          "html_name": "developer_a_name",
+          "value_ref": "developer_a_name"
+        },
+        "developer_a_slug": {
+          "html_name": "developer_a_slug",
+          "value_ref": "developer_a_slug"
+        },
+        "developer_b_name": {
+          "html_name": "developer_b_name",
+          "value_ref": "developer_b_name"
+        },
+        "developer_b_slug": {
+          "html_name": "developer_b_slug",
+          "value_ref": "developer_b_slug"
+        }
+      },
+      "success_label": "Envoyé",
+      "schema_version": "developer_comparison_lead_modal_v1",
+      "comment_textarea": {
+        "rows": 1,
+        "prefill": "Comparer RAK Properties et Select Group.",
+        "html_name": "comment",
+        "max_length": 160,
+        "display_mode": "single_line",
+        "request_scope": [
+          "developer_comparison",
+          "buyer_goal",
+          "area_fit",
+          "property_type",
+          "payment_plan",
+          "handover_timing",
+          "risk_profile",
+          "shortlist_criteria"
+        ]
+      },
+      "voice_button_label": "Utiliser la voix"
+    },
+    "block_17_footer": {
+      "text": "Cette page vous aide à comparer RAK Properties et Select Group, à examiner le contexte des développeurs, les projets disponibles, l’adéquation à l’acheteur, la logique d’investissement et les bonnes questions avant de parler à un conseiller Primadom.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projets",
+        "Quartiers",
+        "Développeurs",
+        "Recherche avec AI"
+      ],
+      "title": "Comparez les développeurs grâce à des données de projets plus claires et aux recommandations fournies par AI.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, EAU",
+      "subtitle": "Intelligence immobilière des EAU",
+      "brand_url": "/fr/",
+      "copyright": "© Primadom AI",
+      "social_aria": "Liens vers les réseaux sociaux",
+      "url_section": "compare-developers",
+      "block_status": "final",
+      "footer_status": "final",
+      "schema_version": "developer_comparison_footer_v1",
+      "contact_primary": {
+        "href": "#developerComparisonLeadModal",
+        "label": "Réserver un appel",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#compare-ai-search",
+        "label": "Demander à AI",
+        "action_intent": "comparison_question"
+      }
+    }
+  }
+}

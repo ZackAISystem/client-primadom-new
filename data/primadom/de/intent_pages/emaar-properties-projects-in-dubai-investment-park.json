@@ -1,0 +1,730 @@
+{
+  "schema_version": "primadom_page_en_v1",
+  "page_id": "page_developer_district_emaar_properties_dubai_investment_park_de",
+  "page_type_id": "intent_page",
+  "language_code": "de",
+  "url_path": "/de/intents/emaar-properties-projects-in-dubai-investment-park/",
+  "canonical_url_path": "/de/intents/emaar-properties-projects-in-dubai-investment-park/",
+  "canonical_group_key": "developer_district:emaar-properties:dubai-investment-park",
+  "primary_entity_type": "developer",
+  "primary_entity_slug": "emaar-properties",
+  "block_order": [
+    "block_01_header",
+    "block_02_breadcrumbs",
+    "block_03_hero",
+    "block_04_ai_search",
+    "block_05_short_verdict",
+    "block_06_intent_facts",
+    "block_07_best_options",
+    "block_08_selection_logic",
+    "block_09_decision_cards",
+    "block_10_districts_projects",
+    "block_11_buyer_fit_risk",
+    "block_12_internal_links",
+    "block_13_faq",
+    "block_14_source_notes",
+    "block_15_cta",
+    "block_16_lead_modal",
+    "block_17_footer"
+  ],
+  "blocks": {
+    "block_01_header": {
+      "nav": [
+        {
+          "href": "#options",
+          "label": "Optionen",
+          "active": true
+        },
+        {
+          "href": "#districts",
+          "label": "Stadtteile",
+          "active": false
+        },
+        {
+          "href": "#risks",
+          "label": "Prüfungen",
+          "active": false
+        },
+        {
+          "ai": true,
+          "href": "#intent-ai-search",
+          "label": "AI fragen",
+          "active": false
+        }
+      ],
+      "brand": "Primadom AI",
+      "cta_url": "#intentLeadModal",
+      "nav_aria": "Navigation zur Immobiliensuche",
+      "brand_url": "/de/",
+      "cta_label": "Passende Optionen finden"
+    },
+    "block_02_breadcrumbs": {
+      "breadcrumbs": [
+        {
+          "href": "/de/",
+          "label": "Startseite"
+        },
+        {
+          "href": "/de/intents/",
+          "label": "Immobiliensuchen"
+        },
+        {
+          "href": "/de/intents/emaar-properties-projects-in-dubai-investment-park/",
+          "label": "Projekte von Emaar Properties in Dubai Investment Park"
+        }
+      ],
+      "breadcrumbs_aria": "Navigationspfad"
+    },
+    "block_03_hero": {
+      "facts": [
+        "Bauträger: Emaar Properties",
+        "Lage: Dubai Investment Park",
+        "Projektvergleich",
+        "Prüfungen für Käufer",
+        "Aktuelle Details prüfen"
+      ],
+      "image": {
+        "alt": "",
+        "src": "",
+        "mobile_src": "",
+        "media_status": "pending"
+      },
+      "title": "Projekte von Emaar Properties in Dubai Investment Park",
+      "subtitle": "Vergleichen Sie Projekte von Emaar Properties in Dubai Investment Park nach Immobilientyp, Lage, Zahlungsstruktur, Projektphase und aktuell zu bestätigenden Details.",
+      "facts_aria": "Wichtige Punkte der Immobiliensuche",
+      "visual_aria": "Visualisierung der Immobiliensuche"
+    },
+    "block_04_ai_search": {
+      "badge": "Primadom AI",
+      "hints": [
+        "Welche Projekte von Emaar Properties in Dubai Investment Park passen zu meinen Anforderungen?",
+        "Welche Immobilientypen, Projektphasen und Zahlungsbedingungen sollte ich vergleichen?",
+        "Welche aktuellen Details muss ich vor einer engeren Auswahl prüfen?"
+      ],
+      "prompts": [
+        "Welche Projekte von Emaar Properties in Dubai Investment Park passen zu meinen Anforderungen?",
+        "Welche Immobilientypen, Projektphasen und Zahlungsbedingungen sollte ich vergleichen?",
+        "Welche aktuellen Details muss ich vor einer engeren Auswahl prüfen?"
+      ],
+      "ai_badge": "Primadom AI",
+      "ai_submit": "AI fragen",
+      "voice_text": "Sprachsuche",
+      "placeholder": "Fragen Sie zu Projekten von Emaar Properties in Dubai Investment Park",
+      "block_status": "formula_generated",
+      "button_label": "AI fragen",
+      "voice_status": "Hört zu…",
+      "ai_voice_text": "Fragen Sie zu Projekten von Emaar Properties in Dubai Investment Park",
+      "ai_placeholder": "Fragen Sie zu Projekten von Emaar Properties in Dubai Investment Park",
+      "schema_version": "intent_ai_search_v1",
+      "ai_voice_status": "Hört zu…",
+      "form_aria_label": "Primadom AI zu dieser Immobiliensuche fragen",
+      "voice_error_text": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+      "submit_aria_label": "Primadom AI fragen",
+      "voice_button_label": "Sprachsuche starten",
+      "voice_error_status": "Spracheingabe pausiert",
+      "voice_fallback_text": "Spracherkennung wird hier nicht unterstützt",
+      "voice_success_status": "Verstanden",
+      "voice_fallback_status": "Sprachmodus"
+    },
+    "block_05_short_verdict": {
+      "chips": [
+        "Projektoptionen",
+        "Immobilienformate",
+        "Projektvergleich",
+        "Aktuelle Bedingungen"
+      ],
+      "title": "Direkte Zusammenfassung",
+      "eyebrow": "Direkte Antwort",
+      "body_html": "<strong>Emaar Properties ist mit identifizierten Projekten in Dubai Investment Park vertreten.</strong> Der Bauträgername liefert nützlichen Kontext, die Entscheidung sollte jedoch auf dem einzelnen Projekt und seinen Bedingungen beruhen. Aktuelle Verfügbarkeit, Preise, Zahlungsbedingungen und Übergabeangaben müssen für jedes Projekt bestätigt werden.",
+      "body_text": "Emaar Properties ist mit identifizierten Projekten in Dubai Investment Park vertreten. Der Bauträgername liefert nützlichen Kontext, die Entscheidung sollte jedoch auf dem einzelnen Projekt und seinen Bedingungen beruhen. Aktuelle Verfügbarkeit, Preise, Zahlungsbedingungen und Übergabeangaben müssen für jedes Projekt bestätigt werden.",
+      "body_source": "developer_district_project_context_guardrails",
+      "chip_source": "developer_district_comparison_rule",
+      "source_status": "graph_supported_needs_project_sources",
+      "schema_version": "intent_short_verdict_v1",
+      "summary_status": "formula_generated_qa_ready"
+    },
+    "block_06_intent_facts": {
+      "note": "Jedes Projekt sollte einzeln auf aktuelle Einheiten, Preise, Zahlungsbedingungen und Übergabedetails geprüft werden.",
+      "items": [
+        {
+          "key": "developer",
+          "label": "Bauträger",
+          "value": "Emaar Properties"
+        },
+        {
+          "key": "location",
+          "label": "Lage",
+          "value": "Dubai Investment Park"
+        },
+        {
+          "key": "market",
+          "label": "Markt",
+          "value": "Dubai / VAE"
+        },
+        {
+          "key": "search_focus",
+          "label": "Suchschwerpunkt",
+          "value": "Projekte eines Bauträgers im Stadtteil"
+        },
+        {
+          "key": "property_scope",
+          "label": "Projektumfang",
+          "value": "Projekte des Bauträgers"
+        },
+        {
+          "key": "linked_projects",
+          "label": "Verknüpfte Projekte",
+          "value": "11"
+        },
+        {
+          "key": "main_checks",
+          "label": "Wichtigste Prüfungen",
+          "value": "Immobilientyp · Bedingungen · Projektphase · Lage"
+        },
+        {
+          "key": "current_details",
+          "label": "Aktuelle Details",
+          "value": "Preis und Verfügbarkeit müssen bestätigt werden"
+        }
+      ],
+      "title": "Suchparameter",
+      "eyebrow": "Wichtige Fakten",
+      "facts_source": "developer_district_relationship_market_context",
+      "facts_status": "formula_generated_qa_ready",
+      "source_status": "graph_supported_needs_project_sources",
+      "schema_version": "intent_facts_v1"
+    },
+    "block_07_best_options": {
+      "items": [
+        {
+          "text": "Vergleichen Sie jedes zugehörige Projekt einzeln.",
+          "title": "Projekte des Bauträgers im Stadtteil"
+        },
+        {
+          "text": "Prüfen Sie Grundrisse, Fläche und praktische Nutzbarkeit.",
+          "title": "Passende Immobilienformate"
+        },
+        {
+          "text": "Vergleichen Sie geplante Nutzung, Projektphase und Zeitpunkt.",
+          "title": "Projekte passend zum Käuferziel"
+        },
+        {
+          "text": "Bestätigen Sie Preis, Verfügbarkeit, Zahlungsbedingungen und Übergabeangaben.",
+          "title": "Aktuelle Projektbedingungen"
+        }
+      ],
+      "title": "Zu prüfende Optionen",
+      "eyebrow": "Was verglichen werden sollte",
+      "option_source": "developer_district_relationship_buyer_checks",
+      "source_status": "graph_supported_needs_project_sources",
+      "options_status": "formula_generated_qa_ready",
+      "schema_version": "intent_best_options_v1"
+    },
+    "block_08_selection_logic": {
+      "body": "Vergleichen Sie die Projekte des Bauträgers nach Immobilienformat, Grundriss, Projektphase, Zahlungsbedingungen und Lage. Der Bauträgername allein sollte die Auswahl nicht bestimmen.",
+      "tags": [
+        "Immobilienformat",
+        "Grundriss",
+        "Projektphase",
+        "Zahlungsbedingungen",
+        "Eignung der Lage"
+      ],
+      "title": "Auswahllogik",
+      "eyebrow": "So sollte verglichen werden",
+      "logic_source": "developer_district_buyer_checks",
+      "logic_status": "formula_generated_qa_ready",
+      "source_status": "graph_supported_needs_project_sources",
+      "schema_version": "intent_selection_logic_v1"
+    },
+    "block_09_decision_cards": {
+      "items": [
+        {
+          "dark": false,
+          "text": "Der Bauträgername allein bestätigt keine Eignung für den Käufer.",
+          "title": "Jedes Projekt einzeln vergleichen",
+          "eyebrow": "Projektumfang"
+        },
+        {
+          "dark": false,
+          "text": "Sinnvoll, wenn Lage und Suchrahmen bereits festgelegt sind.",
+          "title": "Gezielter Projektvergleich",
+          "eyebrow": "Eignung für Käufer"
+        },
+        {
+          "dark": false,
+          "text": "Prüfen Sie Immobilienformat, Projektphase, Grundriss, Zahlungsbedingungen und aktuelle Details.",
+          "title": "Aktuelle Projektdetails prüfen",
+          "eyebrow": "Vor der Auswahl"
+        },
+        {
+          "dark": true,
+          "text": "Vergleichen Sie Projekte nach Budget, Nutzung, Zeitpunkt und Lage.",
+          "title": "Projektoptionen mit AI vergleichen",
+          "eyebrow": "AI-Auswahl"
+        }
+      ],
+      "cards_aria": "Entscheidungshilfe zur Immobiliensuche",
+      "card_source": "developer_district_buyer_checks",
+      "cards_status": "formula_generated_qa_ready",
+      "source_status": "graph_supported_needs_project_sources",
+      "schema_version": "intent_decision_cards_v1"
+    },
+    "block_10_districts_projects": {
+      "projects": {
+        "items": [
+          {
+            "href": "/de/projects/chevalia-estate/",
+            "meta": "Emaar Properties · Dubai Investment Park · Villa",
+            "label": "Chevalia Estate"
+          },
+          {
+            "href": "/de/projects/chevalia-estate-phase-2/",
+            "meta": "Emaar Properties · Dubai Investment Park · Villa",
+            "label": "Chevalia Estate Phase 2"
+          },
+          {
+            "href": "/de/projects/montura-2-at-grand-polo/",
+            "meta": "Emaar Properties · Dubai Investment Park · Villa",
+            "label": "Montura 2 at Grand Polo"
+          },
+          {
+            "href": "/de/projects/montura-3-at-grand-polo/",
+            "meta": "Emaar Properties · Dubai Investment Park · Villa",
+            "label": "Montura 3 at Grand Polo"
+          },
+          {
+            "href": "/de/projects/montura-at-grand-polo/",
+            "meta": "Emaar Properties · Dubai Investment Park · Villa",
+            "label": "Montura at Grand Polo"
+          }
+        ],
+        "title": "Projektprüfung",
+        "eyebrow": "Auswahlmöglichkeiten"
+      },
+      "districts": {
+        "items": [
+          {
+            "href": "/de/areas/dubai-investment-park/",
+            "meta": "Aktueller Stadtteil",
+            "label": "Dubai Investment Park"
+          },
+          {
+            "href": "/de/areas/dip/",
+            "meta": "Vergleichsstadtteil",
+            "label": "DIP"
+          },
+          {
+            "href": "/de/areas/discovery-gardens/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Discovery Gardens"
+          },
+          {
+            "href": "/de/areas/impz/",
+            "meta": "Vergleichsstadtteil",
+            "label": "IMPZ"
+          },
+          {
+            "href": "/de/areas/al-mankhool/",
+            "meta": "Vergleichsstadtteil",
+            "label": "Al Mankhool"
+          }
+        ],
+        "title": "Zu vergleichende Stadtteile",
+        "eyebrow": "Wo man suchen sollte"
+      },
+      "source_status": "linked_entities_registered_routes",
+      "schema_version": "intent_districts_projects_v1",
+      "matching_source": "supabase_entity_and_page_graph",
+      "matching_status": "formula_generated_qa_ready"
+    },
+    "block_11_buyer_fit_risk": {
+      "buyer_fit": {
+        "title": "Eignung für Käufer",
+        "eyebrow": "Für wen diese Seite geeignet ist",
+        "good_for": [
+          "Käufer, die Projekte von Emaar Properties in Dubai Investment Park vergleichen",
+          "Käufer, die Immobilientyp, Projektphase und Zahlungsbedingungen vergleichen",
+          "Eigennutzer oder Investoren, die Bauträger und Stadtteil bereits ausgewählt haben"
+        ],
+        "less_for": [
+          "Käufer, die noch nicht wissen, ob Dubai Investment Park zu ihrer Nutzung oder ihrem Investitionsplan passt",
+          "Käufer, die nur nach dem Bauträgernamen entscheiden, ohne das einzelne Projekt zu prüfen",
+          "Käufer, die vor dem Vergleich bestätigte Verfügbarkeit und endgültige Bedingungen benötigen"
+        ],
+        "fit_status": "authored_developer_district_v4_qa_pending",
+        "good_for_title": "Gut geeignet für",
+        "less_for_title": "Möglicherweise nicht geeignet für"
+      },
+      "risk_notes": {
+        "body": "Bei Projekten von Emaar Properties in Dubai Investment Park sollten Immobilientyp, genaue Lage, Projektphase, Zahlungsplan und geplante Nutzung geprüft werden. Die Erfolgsbilanz des Bauträgers ist nützlicher Kontext, jedes Projekt muss jedoch nach seinen eigenen Bedingungen bewertet werden.",
+        "tags": [
+          "Immobilienformat",
+          "Genaue Lage",
+          "Projektphase",
+          "Zahlungsplan",
+          "Geplante Nutzung"
+        ],
+        "title": "Wichtige Prüfungen",
+        "eyebrow": "Vor der Auswahl",
+        "check_status": "authored_developer_district_v4_qa_pending"
+      },
+      "agent_inputs": {
+        "buyer_goal": "compare suitable options",
+        "page_group": "developer_district",
+        "intent_slug": null,
+        "main_checks": "Property type · terms · stage · location",
+        "copy_strategy": "authored_developer_district_v4_qa_pending",
+        "district_slug": "dubai-investment-park",
+        "search_intent": "Projects by developer in district",
+        "source_blocks": [
+          "block_06_intent_facts",
+          "block_08_selection_logic"
+        ],
+        "developer_slug": "emaar-properties",
+        "property_focus": "Projects by developer",
+        "source_guardrails": [
+          "no_roi_guarantee",
+          "no_availability_claim",
+          "no_visa_guarantee",
+          "project_level_confirmation_required"
+        ]
+      },
+      "block_status": "agent_draft_qa_pending",
+      "schema_version": "intent_buyer_fit_checks_v1"
+    },
+    "block_12_internal_links": {
+      "items": [
+        {
+          "href": "/de/intents/trusted-developer-projects-in-dubai-investment-park/",
+          "label": "Projekte etablierter Bauträger in Dubai Investment Park"
+        },
+        {
+          "href": "/de/intents/capital-growth-properties-in-dubai-investment-park/",
+          "label": "Immobilien mit Wertsteigerungspotenzial in Dubai Investment Park"
+        },
+        {
+          "href": "/de/intents/apartments-for-investment-in-dubai-investment-park/",
+          "label": "Apartments als Kapitalanlage in Dubai Investment Park"
+        },
+        {
+          "href": "/de/intents/long-term-investment-properties-in-dubai-investment-park/",
+          "label": "Immobilien für langfristige Kapitalanlage in Dubai Investment Park"
+        }
+      ],
+      "title": "Verwandte Suchanfragen",
+      "eyebrow": "Weiter erkunden",
+      "link_source": "district_related_search_routes",
+      "link_status": "registered_routes_pending_publication",
+      "schema_version": "intent_internal_links_v1"
+    },
+    "block_13_faq": {
+      "items": [
+        {
+          "answer": "Primadom führt Projekte von Emaar Properties in Dubai Investment Park auf. Aktive Projekte, konkrete Einheiten, Preise, Zahlungsbedingungen und Verfügbarkeit müssen jedoch aktuell geprüft werden.",
+          "question": "Hat Emaar Properties Projekte, die ich in Dubai Investment Park vergleichen kann?",
+          "answer_status": "authored_developer_district_v2_qa_pending"
+        },
+        {
+          "answer": "Vergleichen Sie die in den einzelnen Projekten verfügbaren Apartments, Reihenhäuser oder Villen. Grundriss, Gesamtpreis, Zahlungsplan, Übergabezeitpunkt und geplante Nutzung sind wichtiger als der Bauträgername allein.",
+          "question": "Welche Immobilientypen sollte ich bei Projekten von Emaar Properties in Dubai Investment Park vergleichen?",
+          "answer_status": "authored_developer_district_v2_qa_pending"
+        },
+        {
+          "answer": "Prüfen Sie abgeschlossene Projekte, Übergabehistorie, Baufortschritt, Bauqualität, Kundenbetreuung und Vertragsbedingungen und bewerten Sie anschließend das konkrete Projekt statt nur die übergeordnete Marke.",
+          "question": "Wie sollte ich die Erfolgsbilanz von Emaar Properties für diese Suche beurteilen?",
+          "answer_status": "authored_developer_district_v2_qa_pending"
+        },
+        {
+          "answer": "Prüfen Sie offiziellen Projektstatus, genaue Lage, Immobilientyp, Grundriss, Bauphase, Zahlungsplan, geplante Übergabe, Servicegebühren, Vertragsbedingungen und aktuelle Verfügbarkeit.",
+          "question": "Was sollte ich vor einer engeren Auswahl eines Projekts von Emaar Properties in Dubai Investment Park prüfen?",
+          "answer_status": "authored_developer_district_v2_qa_pending"
+        },
+        {
+          "answer": "Ja. Primadom AI kann aktuelle Projekte nach Immobilientyp, Preis, Zahlungsbedingungen, Projektphase, Eignung der Lage und geplanter Nutzung strukturieren und eine Auswahl für die anschließende aktuelle Prüfung vorbereiten.",
+          "question": "Kann Primadom AI Projekte von Emaar Properties in Dubai Investment Park für meine Anforderungen vergleichen?",
+          "answer_status": "authored_developer_district_v2_qa_pending"
+        }
+      ],
+      "title": "Häufige Fragen",
+      "eyebrow": "Fragen von Käufern",
+      "faq_status": "authored_developer_district_v2_qa_pending",
+      "agent_inputs": {
+        "hero_title": "Emaar Properties projects in Dubai Investment Park",
+        "page_group": "developer_district",
+        "intent_slug": null,
+        "copy_strategy": "developer_plus_district_v2",
+        "district_name": "Dubai Investment Park",
+        "developer_name": "Emaar Properties",
+        "source_guardrail": "live_prices_availability_terms_and_official_rules_require_verification"
+      },
+      "schema_version": "intent_faq_v1"
+    },
+    "block_14_source_notes": {
+      "body": "Bevor Sie sich auf Projektoptionen von Emaar Properties in Dubai Investment Park stützen, bestätigen Sie aktuelle Preise, verfügbare Einheiten, Zahlungsbedingungen, Bau- oder Übergabestatus und offizielle Projektdetails anhand aktueller Bauträgerunterlagen, verfügbarer Behördenangaben und einer aktuellen Prüfung.",
+      "items": [
+        {
+          "label": "Preis / Verfügbarkeit",
+          "value": "Aktuelle Prüfung erforderlich"
+        },
+        {
+          "label": "Projektstatus",
+          "value": "Offizielle Quelle erforderlich"
+        },
+        {
+          "label": "Kommerzielle Bedingungen",
+          "value": "Aktuelle Quelle erforderlich"
+        },
+        {
+          "label": "Quellenprüfung",
+          "value": "Überprüfung ausstehend"
+        }
+      ],
+      "title": "Quellenprüfung",
+      "eyebrow": "Überprüfung",
+      "agent_tasks": [
+        "verify_price_and_availability",
+        "attach_current_developer_materials",
+        "check_project_or_authority_status",
+        "verify_payment_terms_and_handover",
+        "set_last_reviewed_after_source_check"
+      ],
+      "agent_inputs": {
+        "page_group": "developer_district",
+        "intent_slug": null,
+        "source_focus": "general",
+        "district_name": "Dubai Investment Park",
+        "developer_name": "Emaar Properties",
+        "project_graph_ref": "entities.project_district_links_and_project_developer_links",
+        "source_claims_ref": "source_claim_status_json",
+        "last_reviewed_status": "not_yet_verified"
+      },
+      "schema_version": "intent_source_notes_v1",
+      "evidence_status": "needs_sources",
+      "source_confidence": "placeholder_until_verified",
+      "source_notes_status": "safe_fallback_needs_verification"
+    },
+    "block_15_cta": {
+      "text": "Teilen Sie Ihren bevorzugten Immobilientyp und Zeitrahmen mit. Primadom AI strukturiert aktuelle Projekte nach Preis, Zahlungsbedingungen, Projektphase und Eignung der Lage und bereitet eine Auswahl für die aktuelle Prüfung vor.",
+      "title": "Aktuelle Projekte vergleichen",
+      "actions": [
+        {
+          "key": "get_matched_projects",
+          "href": "#intentLeadModal",
+          "label": "Projekte vergleichen",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "intent_project_shortlist"
+        },
+        {
+          "key": "ask_ai",
+          "href": "#intent-ai-search",
+          "label": "Primadom AI fragen",
+          "modal": false,
+          "open_modal": false,
+          "action_intent": "intent_ai_question"
+        },
+        {
+          "key": "request_call",
+          "href": "#intentLeadModal",
+          "label": "Rückruf anfordern",
+          "modal": true,
+          "open_modal": true,
+          "modal_target": "#intentLeadModal",
+          "action_intent": "call_request"
+        }
+      ],
+      "cta_status": "authored_developer_district_v2_qa_pending",
+      "agent_inputs": {
+        "cta_focus": "general",
+        "hero_title": "Emaar Properties projects in Dubai Investment Park",
+        "page_group": "developer_district",
+        "intent_slug": null,
+        "ai_search_ref": "#intent-ai-search",
+        "copy_strategy": "developer_context_hidden_from_visible_cta_v2",
+        "district_name": "Dubai Investment Park",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": "Emaar Properties",
+        "lead_modal_ref": "block_16_lead_modal",
+        "budget_range_ref": "source_input_json.budget_range"
+      },
+      "schema_version": "intent_cta_v1"
+    },
+    "block_16_lead_modal": {
+      "aria": "Anfrageformular",
+      "note": "Wir prüfen die Angaben, bevor wir Ihre Anfrage an einen Berater weiterleiten.",
+      "text": "Teilen Sie uns mit, was Ihnen am wichtigsten ist. Primadom AI bereitet daraus eine präzise Anfrage vor, bevor ein Berater aktuelle Optionen mit Ihnen prüft.",
+      "title": "Aktuelle Projektoptionen vergleichen",
+      "fields": {
+        "name": "Name",
+        "email": "E-Mail (optional)",
+        "phone": "Telefon / WhatsApp",
+        "comment": "Anfrage"
+      },
+      "submit": "Anfrage senden",
+      "comment": "Vergleichen Sie aktuelle Projekte nach Immobilientyp, Projektphase, Zahlungsbedingungen, Lage und Zeitrahmen.",
+      "eyebrow": "Projektanfrage",
+      "success": "Gesendet",
+      "ai_badge": "Primadom AI",
+      "modal_id": "intentLeadModal",
+      "title_id": "intentLeadTitle",
+      "close_label": "Schließen",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "lead_focus": "general",
+        "page_group": "developer_district",
+        "intent_slug": null,
+        "copy_strategy": "developer_context_internal_smart_modal",
+        "district_name": "Dubai Investment Park",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "developer_name": "Emaar Properties",
+        "email_optional": true,
+        "property_focus_ref": "source_input_json.property_focus",
+        "visible_budget_field": false,
+        "lead_action_intent_ref": "clicked_cta.action_intent"
+      },
+      "ai_row_badge": "Anfrageentwurf",
+      "field_config": {
+        "name": {
+          "label": "Name",
+          "html_name": "name",
+          "placeholder": "Ihr Name"
+        },
+        "email": {
+          "label": "E-Mail (optional)",
+          "required": false,
+          "html_name": "email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Telefon / WhatsApp",
+          "html_name": "phone",
+          "placeholder": "+971..."
+        },
+        "comment": {
+          "label": "Anfrage",
+          "html_name": "comment",
+          "placeholder": "Wonach suchen Sie?"
+        }
+      },
+      "modal_status": "authored_developer_district_qa_pending",
+      "placeholders": {
+        "name": "Ihr Name",
+        "email": "email@example.com",
+        "phone": "+971..."
+      },
+      "submit_label": "Anfrage senden",
+      "hidden_fields": {
+        "city": {
+          "html_name": "city",
+          "value_ref": "city"
+        },
+        "country": {
+          "html_name": "country",
+          "value_ref": "country"
+        },
+        "page_id": {
+          "html_name": "page_id",
+          "value_ref": "page_id"
+        },
+        "page_type": {
+          "html_name": "page_type",
+          "value_ref": "page_type"
+        },
+        "page_group": {
+          "html_name": "page_group",
+          "value_ref": "page_group"
+        },
+        "intent_slug": {
+          "html_name": "intent_slug",
+          "value_ref": "intent_slug"
+        },
+        "lead_source": {
+          "value": "intent_page_lead_modal",
+          "html_name": "lead_source"
+        },
+        "action_intent": {
+          "html_name": "action_intent",
+          "value_ref": "clicked_cta.action_intent"
+        },
+        "source_language": {
+          "html_name": "source_language",
+          "value_ref": "language_code"
+        }
+      },
+      "success_label": "Gesendet",
+      "schema_version": "intent_lead_modal_v1",
+      "comment_textarea": {
+        "prefill": "Vergleichen Sie aktuelle Projekte nach Immobilientyp, Projektphase, Zahlungsbedingungen, Lage und Zeitrahmen.",
+        "html_name": "comment",
+        "request_scope": [
+          "project_comparison",
+          "property_type",
+          "project_stage",
+          "payment_terms",
+          "location_fit",
+          "timing",
+          "live_project_check"
+        ]
+      },
+      "voice_button_label": "Spracheingabe verwenden"
+    },
+    "block_17_footer": {
+      "text": "Vergleichen Sie aktuelle Projekte, ordnen Sie den Gebietskontext ein und bereiten Sie die richtigen Fragen vor, bevor Sie mit einem Primadom-Berater sprechen.",
+      "brand": "Primadom AI",
+      "chips": [
+        "Projekte",
+        "Stadtteile",
+        "Bauträger",
+        "AI-Suche"
+      ],
+      "title": "Finden Sie mit klarerer Orientierung die passende Immobilie in den VAE.",
+      "social": [
+        {
+          "key": "instagram",
+          "href": "https://www.instagram.com/primadomdubai/",
+          "icon": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "key": "linkedin",
+          "href": "https://www.linkedin.com/company/primadomrealestate/",
+          "icon": "linkedin",
+          "label": "LinkedIn"
+        }
+      ],
+      "address": "Dubai, VAE",
+      "subtitle": "Immobilienwissen für die VAE",
+      "brand_url": "/de/",
+      "copyright": "© Primadom AI",
+      "url_section": "intents",
+      "agent_inputs": {
+        "cta_ref": "block_15_cta",
+        "city_ref": "city",
+        "page_group": "developer_district",
+        "country_ref": "country",
+        "intent_slug": null,
+        "footer_focus": "general",
+        "page_type_ref": "page_type",
+        "buyer_goal_ref": "source_input_json.buyer_goal",
+        "lead_modal_ref": "block_16_lead_modal",
+        "footer_strategy": "standard_footer_with_project_context",
+        "property_focus_ref": "source_input_json.property_focus"
+      },
+      "footer_status": "authored_developer_district_qa_pending",
+      "schema_version": "intent_footer_v1",
+      "contact_primary": {
+        "href": "#intentLeadModal",
+        "label": "Gespräch buchen",
+        "modal": true,
+        "action_intent": "call_request"
+      },
+      "contact_secondary": {
+        "href": "#intent-ai-search",
+        "label": "AI fragen",
+        "modal": false,
+        "action_intent": "intent_question"
+      }
+    }
+  }
+}

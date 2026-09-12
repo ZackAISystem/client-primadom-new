@@ -1,0 +1,10 @@
+---
+title: "Projets avec apport initial réduit à The Greens"
+layout: "primadom-intent-page-v2"
+intent_slug: "low-down-payment-projects-in-the-greens"
+page_id: "intent__low-down-payment-projects__district__the-greens__fr"
+url: "/fr/intents/low-down-payment-projects-in-the-greens/"
+build:
+  render: always
+  list: never
+---
