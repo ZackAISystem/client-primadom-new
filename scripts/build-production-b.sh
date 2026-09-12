@@ -103,19 +103,20 @@ for LANG in "${LANGS[@]}"; do
   echo "========================================"
 
   # Lightweight shared data only.
-  rsync -a \
-    --exclude='primadom/' \
-    "$ROOT/data/" \
-    "$STAGE/data/"
+  find "$ROOT/data" \
+    -mindepth 1 \
+    -maxdepth 1 \
+    ! -name 'primadom' \
+    -exec cp -a {} "$STAGE/data/" \;
 
   # Only current language Primadom JSON.
-  rsync -a \
-    "$ROOT/data/primadom/$LANG/" \
+  cp -a \
+    "$ROOT/data/primadom/$LANG/." \
     "$STAGE/data/primadom/$LANG/"
 
   # Only current language generated routes.
-  rsync -a \
-    "$ROOT/content/_generated/$LANG/" \
+  cp -a \
+    "$ROOT/content/_generated/$LANG/." \
     "$STAGE/content/_generated/$LANG/"
 
   # Language-specific temporary Hugo override.
@@ -250,8 +251,8 @@ TOML
   # First build seeds shared/static assets into final public.
   if [ "$BUILD_NO" -eq 1 ]; then
 
-    rsync -a \
-      "$OUT/" \
+    cp -a \
+      "$OUT/." \
       "$FINAL/"
 
   else
@@ -259,8 +260,8 @@ TOML
     mkdir -p \
       "$FINAL/$LANG"
 
-    rsync -a \
-      "$OUT/$LANG/" \
+    cp -a \
+      "$OUT/$LANG/." \
       "$FINAL/$LANG/"
 
   fi
