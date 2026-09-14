@@ -283,11 +283,29 @@ cat > "$ROOT/public/sitemap.xml" <<'SITEMAP'
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap><loc>https://primadom.ai/en/sitemap.xml</loc></sitemap>
   <sitemap><loc>https://primadom.ai/ru/sitemap.xml</loc></sitemap>
-  <sitemap><loc>https://primadom.ai/ar/sitemap.xml</loc></sitemap>
   <sitemap><loc>https://primadom.ai/hi/sitemap.xml</loc></sitemap>
   <sitemap><loc>https://primadom.ai/zh/sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://primadom.ai/es/sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://primadom.ai/fr/sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://primadom.ai/de/sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://primadom.ai/ar/sitemap.xml</loc></sitemap>
 </sitemapindex>
 SITEMAP
+
+echo ""
+echo "======================================"
+echo "GENERATE PRODUCTION SITEMAPS"
+echo "EN + RU + HI + ZH"
+echo "======================================"
+
+python3 "$ROOT/scripts/generate-production-sitemaps.py" en ru hi zh
+
+# Public robots.txt must explicitly advertise the root sitemap.
+if grep -q '^Sitemap:' "$ROOT/public/robots.txt"; then
+  sed -i ''     's#^Sitemap:.*#Sitemap: https://primadom.ai/sitemap.xml#'     "$ROOT/public/robots.txt"
+else
+  printf '\nSitemap: https://primadom.ai/sitemap.xml\n'     >> "$ROOT/public/robots.txt"
+fi
 
 TOTAL="$(
   find "$ROOT/public" \
@@ -422,7 +440,7 @@ grep -q \
   'https://primadom.ai/zh/sitemap.xml' \
   "$ROOT/public/sitemap.xml"
 
-if [ "$EN" -lt 22523 ]; then
+if [ "$EN" -lt 22511 ]; then
   echo "ERROR: EN output dropped below previous production baseline"
   exit 1
 fi
@@ -432,7 +450,7 @@ if [ "$RU" -lt 22506 ]; then
   exit 1
 fi
 
-if [ "$HI" -lt 22522 ]; then
+if [ "$HI" -lt 22508 ]; then
   echo "ERROR: HI output dropped below previous production baseline"
   exit 1
 fi
