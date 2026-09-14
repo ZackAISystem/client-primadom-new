@@ -417,6 +417,13 @@ AR_FILES="$(
 
 echo ""
 echo "========================================"
+echo "GENERATE PRODUCTION SITEMAPS"
+echo "========================================"
+
+python3 "$ROOT/scripts/generate-production-sitemaps.py" es fr de ar
+
+echo ""
+echo "========================================"
 echo "PROJECT B FINAL OUTPUT"
 echo "========================================"
 echo "TOTAL FILES: $TOTAL_FILES"
