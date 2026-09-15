@@ -4239,6 +4239,15 @@ body.rtl .pd-header__inner {
   }
 }
 
+/* 14.03 Hero Gallery */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pd-project-gallery__arrow,
+  body.rtl .pd-project-gallery__arrow {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+}
+
 html[dir="rtl"] .pd-project-gallery__info,
 body.rtl .pd-project-gallery__info {
   direction: rtl;
