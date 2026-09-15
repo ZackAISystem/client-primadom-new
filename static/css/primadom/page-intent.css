@@ -3706,7 +3706,8 @@ html.pi-modal-open {
 /* =========================
    14 RTL Helpers
 ========================= */
-html[dir="rtl"] .pi-header__inner,
+
+/* 14.00 Base */
 html[dir="rtl"] .pi-grid-2,
 html[dir="rtl"] .pi-grid-3,
 html[dir="rtl"] .pi-mini-row,
@@ -3723,6 +3724,58 @@ html[dir="rtl"] .pi-footer {
   text-align: right;
 }
 
+/* 14.01 Header */
+html[dir="rtl"] .pi-header__inner {
+  direction: ltr;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .pi-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .pi-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .pi-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+/* 14.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pi-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pi-hero-breadcrumbs i {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  html[dir="rtl"] .pi-hero-breadcrumbs i::before {
+    content: "‹";
+    transform: translateY(-1px);
+  }
+}
+
+/* Shared RTL content */
+html[dir="rtl"] .pi-card,
+html[dir="rtl"] .pi-hero__content {
+  text-align: right;
+}
+
+/* AI Search */
 html[dir="rtl"] .pi-ai {
   direction: rtl;
 }
@@ -3731,4 +3784,24 @@ html[dir="rtl"] .pi-ai input {
   direction: rtl;
   text-align: right;
   unicode-bidi: plaintext;
+}
+
+/* Lead Modal */
+html[dir="rtl"] .pi-modal__panel {
+  direction: rtl;
+  text-align: right;
+}
+
+@media (min-width: 761px) {
+  html[dir="rtl"] .pi-modal__close {
+    right: auto;
+    left: 22px;
+  }
+}
+
+/* Footer */
+html[dir="rtl"] .pi-footer__inner,
+html[dir="rtl"] .pi-footer {
+  direction: rtl;
+  text-align: right;
 }

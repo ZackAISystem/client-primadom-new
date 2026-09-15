@@ -3831,7 +3831,8 @@ html.pc-modal-open {
 /* =========================
    15 RTL Helpers
 ========================= */
-html[dir="rtl"] .pc-header__inner,
+
+/* 15.00 Base */
 html[dir="rtl"] .pc-grid-2,
 html[dir="rtl"] .pc-grid-3,
 html[dir="rtl"] .pc-mini-row,
@@ -3848,6 +3849,58 @@ html[dir="rtl"] .pc-footer {
   text-align: right;
 }
 
+/* 15.01 Header */
+html[dir="rtl"] .pc-header__inner {
+  direction: ltr;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .pc-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .pc-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .pc-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+/* 15.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pc-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pc-hero-breadcrumbs i {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  html[dir="rtl"] .pc-hero-breadcrumbs i::before {
+    content: "‹";
+    transform: translateY(-1px);
+  }
+}
+
+/* Shared RTL content */
+html[dir="rtl"] .pc-card,
+html[dir="rtl"] .pc-hero__content {
+  text-align: right;
+}
+
+/* AI Search */
 html[dir="rtl"] .pc-ai {
   direction: rtl;
 }
@@ -3856,4 +3909,24 @@ html[dir="rtl"] .pc-ai input {
   direction: rtl;
   text-align: right;
   unicode-bidi: plaintext;
+}
+
+/* Lead Modal */
+html[dir="rtl"] .pc-modal__panel {
+  direction: rtl;
+  text-align: right;
+}
+
+@media (min-width: 761px) {
+  html[dir="rtl"] .pc-modal__close {
+    right: auto;
+    left: 22px;
+  }
+}
+
+/* Footer */
+html[dir="rtl"] .pc-footer__inner,
+html[dir="rtl"] .pc-footer {
+  direction: rtl;
+  text-align: right;
 }

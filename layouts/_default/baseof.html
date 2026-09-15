@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang | default "en" }}">
+<html lang="{{ .Site.Language.Lang | default "en" }}"{{ if eq .Layout "primadom-district-page-v2" }} dir="{{ if eq (.Site.Language.Lang | default "en") "ar" }}rtl{{ else }}ltr{{ end }}"{{ end }}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,9 @@
   {{ block "scripts" . }}{{ end }}
 
   {{/* Global UI i18n */}}
-  {{ partial "shared/i18n_ui.html" . }}
+  {{ if ne .Layout "primadom-district-page-v2" }}
+    {{ partial "shared/i18n_ui.html" . }}
+  {{ end }}
 
 </body>
 </html>

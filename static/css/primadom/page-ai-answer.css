@@ -3604,7 +3604,8 @@ html.aa-modal-open {
 /* =========================
    13 RTL Helpers
 ========================= */
-html[dir="rtl"] .aa-header__inner,
+
+/* 13.00 Base */
 html[dir="rtl"] .aa-grid-2,
 html[dir="rtl"] .aa-grid-3,
 html[dir="rtl"] .aa-mini-row,
@@ -3621,6 +3622,58 @@ html[dir="rtl"] .aa-footer {
   text-align: right;
 }
 
+/* 13.01 Header */
+html[dir="rtl"] .aa-header__inner {
+  direction: ltr;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .aa-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .aa-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .aa-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+/* 13.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .aa-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .aa-hero-breadcrumbs i {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  html[dir="rtl"] .aa-hero-breadcrumbs i::before {
+    content: "‹";
+    transform: translateY(-1px);
+  }
+}
+
+/* Shared RTL content */
+html[dir="rtl"] .aa-card,
+html[dir="rtl"] .aa-hero__content {
+  text-align: right;
+}
+
+/* AI Search */
 html[dir="rtl"] .aa-ai {
   direction: rtl;
 }
@@ -3629,4 +3682,24 @@ html[dir="rtl"] .aa-ai input {
   direction: rtl;
   text-align: right;
   unicode-bidi: plaintext;
+}
+
+/* Lead Modal */
+html[dir="rtl"] .aa-modal__panel {
+  direction: rtl;
+  text-align: right;
+}
+
+@media (min-width: 761px) {
+  html[dir="rtl"] .aa-modal__close {
+    right: auto;
+    left: 22px;
+  }
+}
+
+/* Footer */
+html[dir="rtl"] .aa-footer__inner,
+html[dir="rtl"] .aa-footer {
+  direction: rtl;
+  text-align: right;
 }

@@ -4,7 +4,7 @@
 
 <!doctype html>
 
-<html lang="{{ $p.language_code }}" dir="ltr">
+<html lang="{{ $p.language_code }}" dir="{{ if eq $p.language_code "ar" }}rtl{{ else }}ltr{{ end }}">
 
 <head>
 

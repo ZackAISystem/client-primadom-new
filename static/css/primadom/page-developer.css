@@ -3433,8 +3433,10 @@ html.pd-modal-open {
 
 
 /* =========================
-   15 RTL
+   15 RTL Helpers
 ========================= */
+
+/* 15.00 Base */
 html[dir="rtl"] .pd-hero,
 body.rtl .pd-hero,
 html[dir="rtl"] .pd-content,
@@ -3442,11 +3444,62 @@ body.rtl .pd-content {
   direction: rtl;
 }
 
+
+/* 15.01 Header */
 html[dir="rtl"] .pd-header__inner,
 body.rtl .pd-header__inner {
-  direction: rtl;
+  direction: ltr;
 }
 
+@media (min-width: 1181px) {
+  html[dir="rtl"] .pd-header__badge,
+  body.rtl .pd-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .pd-header__nav,
+  body.rtl .pd-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .pd-header__right,
+  body.rtl .pd-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+
+/* 15.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pd-hero-breadcrumbs,
+  body.rtl .pd-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pd-hero-breadcrumbs i,
+  body.rtl .pd-hero-breadcrumbs i {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  html[dir="rtl"] .pd-hero-breadcrumbs i::before,
+  body.rtl .pd-hero-breadcrumbs i::before {
+    content: "‹";
+    transform: translateY(-1px);
+  }
+}
+
+
+/* 15.03–15.07 Shared content */
 html[dir="rtl"] .pd-card__head,
 html[dir="rtl"] .pd-card__body,
 body.rtl .pd-card__head,
@@ -3482,6 +3535,160 @@ body.rtl .pd-actions {
   justify-content: flex-start;
 }
 
+
+/* 15.08 Projects + Known Projects */
+html[dir="rtl"] .pd-list--projects a,
+html[dir="rtl"] .pd-list--known a,
+body.rtl .pd-list--projects a,
+body.rtl .pd-list--known a {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .pd-list--projects a > strong,
+html[dir="rtl"] .pd-list--known a > strong,
+body.rtl .pd-list--projects a > strong,
+body.rtl .pd-list--known a > strong {
+  min-width: 0;
+  max-width: 100%;
+  direction: ltr;
+  text-align: right;
+  unicode-bidi: isolate;
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+}
+
+html[dir="rtl"] .pd-list--projects a > small,
+html[dir="rtl"] .pd-list--known a > small,
+body.rtl .pd-list--projects a > small,
+body.rtl .pd-list--known a > small {
+  min-width: 0;
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+html[dir="rtl"] .pd-list--projects a::after,
+html[dir="rtl"] .pd-list--known a::after,
+body.rtl .pd-list--projects a::after,
+body.rtl .pd-list--known a::after {
+  content: "‹";
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* 15.09 Districts + Segment Profile */
+html[dir="rtl"] #districts .pd-desc,
+body.rtl #districts .pd-desc,
+html[dir="rtl"] #districts .pd-tags,
+body.rtl #districts .pd-tags {
+  text-align: right;
+}
+
+
+/* 15.10 Similar / FAQ / Trust */
+html[dir="rtl"] .pd-faq summary,
+html[dir="rtl"] .pd-faq p,
+html[dir="rtl"] .pd-source-note,
+body.rtl .pd-faq summary,
+body.rtl .pd-faq p,
+body.rtl .pd-source-note {
+  text-align: right;
+}
+
+html[dir="rtl"] .pd-source-micro div,
+body.rtl .pd-source-micro div {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .pd-source-micro strong,
+body.rtl .pd-source-micro strong {
+  unicode-bidi: plaintext;
+}
+
+
+/* 15.13 Lead Modal */
+html[dir="rtl"] .pd-lead-modal__panel,
+body.rtl .pd-lead-modal__panel {
+  direction: rtl;
+}
+
+html[dir="rtl"] .pd-lead-modal__close,
+body.rtl .pd-lead-modal__close {
+  right: auto;
+  left: 22px;
+}
+
+html[dir="rtl"] .pd-lead-modal__head,
+html[dir="rtl"] .pd-lead-modal__note,
+html[dir="rtl"] .pd-lead-field,
+body.rtl .pd-lead-modal__head,
+body.rtl .pd-lead-modal__note,
+body.rtl .pd-lead-field {
+  text-align: right;
+}
+
+html[dir="rtl"] .pd-lead-field input,
+html[dir="rtl"] .pd-lead-field textarea,
+body.rtl .pd-lead-field input,
+body.rtl .pd-lead-field textarea {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+html[dir="rtl"] .pd-lead-field input[type="tel"],
+html[dir="rtl"] .pd-lead-field input[type="email"],
+body.rtl .pd-lead-field input[type="tel"],
+body.rtl .pd-lead-field input[type="email"] {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
+html[dir="rtl"] .pd-lead-ai-row,
+body.rtl .pd-lead-ai-row {
+  direction: rtl;
+}
+
+html[dir="rtl"] .pd-lead-ai-row textarea,
+body.rtl .pd-lead-ai-row textarea {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+
+/* 15.13a Modal Head Physical Alignment */
+@media (min-width: 821px) {
+  html[dir="rtl"] .pd-lead-modal__head,
+  body.rtl .pd-lead-modal__head {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 72px;
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pd-lead-modal__eyebrow,
+  html[dir="rtl"] .pd-lead-modal__head h2,
+  html[dir="rtl"] .pd-lead-modal__head p,
+  body.rtl .pd-lead-modal__eyebrow,
+  body.rtl .pd-lead-modal__head h2,
+  body.rtl .pd-lead-modal__head p {
+    text-align: right;
+    direction: rtl;
+  }
+}
+
+/* 15.14 Footer */
+html[dir="rtl"] .footer-pill,
+html[dir="rtl"] a[href^="tel:"],
+html[dir="rtl"] a[href^="mailto:"],
 body.rtl .footer-pill,
 body.rtl a[href^="tel:"],
 body.rtl a[href^="mailto:"] {
@@ -3490,16 +3697,20 @@ body.rtl a[href^="mailto:"] {
   text-align: left;
 }
 
+html[dir="rtl"] .site-footer__address,
 body.rtl .site-footer__address {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;
 }
 
+html[dir="rtl"] .site-footer__bottom,
 body.rtl .site-footer__bottom {
   direction: rtl;
 }
 
+html[dir="rtl"] .site-footer__contacts,
+html[dir="rtl"] .site-footer__social,
 body.rtl .site-footer__contacts,
 body.rtl .site-footer__social {
   direction: ltr;

@@ -3712,7 +3712,8 @@ html.ob-modal-open {
 /* =========================
    14 RTL Helpers
 ========================= */
-html[dir="rtl"] .ob-header__inner,
+
+/* 14.00 Base */
 html[dir="rtl"] .ob-grid-2,
 html[dir="rtl"] .ob-grid-3,
 html[dir="rtl"] .ob-mini-row,
@@ -3729,6 +3730,58 @@ html[dir="rtl"] .ob-footer {
   text-align: right;
 }
 
+/* 14.01 Header */
+html[dir="rtl"] .ob-header__inner {
+  direction: ltr;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .ob-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .ob-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .ob-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+/* 14.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .ob-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .ob-hero-breadcrumbs i {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  html[dir="rtl"] .ob-hero-breadcrumbs i::before {
+    content: "‹";
+    transform: translateY(-1px);
+  }
+}
+
+/* Shared RTL content */
+html[dir="rtl"] .ob-card,
+html[dir="rtl"] .ob-hero__content {
+  text-align: right;
+}
+
+/* AI Search */
 html[dir="rtl"] .ob-ai {
   direction: rtl;
 }
@@ -3737,4 +3790,24 @@ html[dir="rtl"] .ob-ai input {
   direction: rtl;
   text-align: right;
   unicode-bidi: plaintext;
+}
+
+/* Lead Modal */
+html[dir="rtl"] .ob-modal__panel {
+  direction: rtl;
+  text-align: right;
+}
+
+@media (min-width: 761px) {
+  html[dir="rtl"] .ob-modal__close {
+    right: auto;
+    left: 22px;
+  }
+}
+
+/* Footer */
+html[dir="rtl"] .ob-footer__inner,
+html[dir="rtl"] .ob-footer {
+  direction: rtl;
+  text-align: right;
 }
