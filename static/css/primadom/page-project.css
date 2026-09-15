@@ -4302,6 +4302,8 @@ body.rtl .pd-nearby-item {
     right: auto;
     left: 20px;
     content: "\2039";
+    direction: ltr;
+    unicode-bidi: isolate;
   }
 }
 
