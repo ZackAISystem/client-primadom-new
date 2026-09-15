@@ -1,7 +1,7 @@
 <!doctype html>
 {{- $d := partial "primadom/page-types/ai-answer-v2/_data.html" . -}}
 {{- $t := $d.t -}}
-<html lang="{{ $d.lang }}" dir="{{ $t._language.dir | default "ltr" }}">
+<html lang="{{ $d.lang }}" dir="{{ if eq $d.lang "ar" }}rtl{{ else }}ltr{{ end }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">

@@ -40,8 +40,14 @@
 {{- $modalID := $b15.modal_id | default "projectLeadModal" -}}
 {{- $modalTitleID := $b15.title_id | default "projectLeadTitle" -}}
 
+{{- $htmlLang := $p.language_code | default "en" -}}
+{{- $htmlDir := "ltr" -}}
+{{- if eq $htmlLang "ar" -}}
+  {{- $htmlDir = "rtl" -}}
+{{- end -}}
+
 <!doctype html>
-<html lang="{{ $p.language_code | default "en" }}" dir="ltr">
+<html lang="{{ $htmlLang }}" dir="{{ $htmlDir }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

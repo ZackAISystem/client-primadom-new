@@ -3994,9 +3994,53 @@ body.rtl .pa-content {
   direction: rtl;
 }
 
+/* 15.01 Header */
 html[dir="rtl"] .pa-header__inner,
 body.rtl .pa-header__inner {
-  direction: rtl;
+  direction: ltr;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .pa-header__badge,
+  body.rtl .pa-header__badge {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .pa-header__nav,
+  body.rtl .pa-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .pa-header__right,
+  body.rtl .pa-header__right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    direction: rtl;
+  }
+}
+
+/* 15.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pa-hero-breadcrumbs,
+  body.rtl .pa-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pa-hero-breadcrumbs i::before,
+  body.rtl .pa-hero-breadcrumbs i::before {
+    content: "‹";
+    display: inline-block;
+    direction: ltr;
+    unicode-bidi: isolate;
+    transform: translateY(-1px);
+  }
 }
 
 html[dir="rtl"] .pa-card__head,
@@ -4033,9 +4077,46 @@ body.rtl .pa-cta {
   direction: rtl;
 }
 
+/* 15.10 Similar Districts + FAQ + Trust Sources */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pa-link,
+  body.rtl .pa-link {
+    padding-right: 22px;
+    padding-left: 50px;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pa-link::after,
+  body.rtl .pa-link::after {
+    right: auto;
+    left: 20px;
+    content: "\2039";
+  }
+}
+
+
 html[dir="rtl"] .pa-actions,
 body.rtl .pa-actions {
   justify-content: flex-start;
+}
+
+/* 15.13 Lead Modal */
+@media (min-width: 821px) {
+  html[dir="rtl"] .pa-modal__close,
+  html[dir="rtl"] .pa-lead-modal__close,
+  body.rtl .pa-modal__close,
+  body.rtl .pa-lead-modal__close {
+    right: auto;
+    left: 22px;
+  }
+
+  html[dir="rtl"] .pa-modal__head,
+  html[dir="rtl"] .pa-lead-modal__head,
+  body.rtl .pa-modal__head,
+  body.rtl .pa-lead-modal__head {
+    padding-right: 0;
+    padding-left: 72px;
+  }
 }
 
 body.rtl .footer-pill,

@@ -4194,9 +4194,49 @@ body.rtl .pd-project-content {
   direction: rtl;
 }
 
+/* 14.01 Header */
 html[dir="rtl"] .pd-header__inner,
 body.rtl .pd-header__inner {
   direction: rtl;
+}
+
+@media (min-width: 1181px) {
+  html[dir="rtl"] .pd-header__badge,
+  body.rtl .pd-header__badge {
+    grid-column: 1;
+    justify-self: start;
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .pd-header__nav,
+  body.rtl .pd-header__nav {
+    grid-column: 2;
+    direction: rtl;
+  }
+
+  html[dir="rtl"] .pd-header__right,
+  body.rtl .pd-header__right {
+    grid-column: 3;
+    justify-self: end;
+  }
+}
+
+/* 14.02 Breadcrumbs */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pd-hero-breadcrumbs,
+  body.rtl .pd-hero-breadcrumbs {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pd-hero-breadcrumbs i::before,
+  body.rtl .pd-hero-breadcrumbs i::before {
+    content: "‹";
+    display: inline-block;
+    direction: ltr;
+    unicode-bidi: isolate;
+    transform: translateY(-1px);
+  }
 }
 
 html[dir="rtl"] .pd-project-gallery__info,
@@ -4233,10 +4273,29 @@ body.rtl .pd-project-ask__input {
   unicode-bidi: plaintext;
 }
 
+/* 14.08 Nearby Landmarks + Location */
 html[dir="rtl"] .pd-nearby-item,
 body.rtl .pd-nearby-item {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
+
+/* 14.09 Similar Projects + FAQ + Trust Sources */
+@media (min-width: 761px) {
+  html[dir="rtl"] .pd-similar-links a,
+  body.rtl .pd-similar-links a {
+    padding-right: 22px;
+    padding-left: 50px;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pd-similar-links a::after,
+  body.rtl .pd-similar-links a::after {
+    right: auto;
+    left: 20px;
+    content: "\2039";
+  }
+}
+
 
 html[dir="rtl"] .pd-location-box,
 body.rtl .pd-location-box {
@@ -4252,6 +4311,22 @@ html[dir="rtl"] .pd-project-actions,
 body.rtl .pd-project-actions {
   justify-content: flex-start;
 }
+
+/* 14.12 Lead Modal */
+@media (min-width: 821px) {
+  html[dir="rtl"] .pd-lead-modal__close,
+  body.rtl .pd-lead-modal__close {
+    right: auto;
+    left: 22px;
+  }
+
+  html[dir="rtl"] .pd-lead-modal__head,
+  body.rtl .pd-lead-modal__head {
+    padding-right: 0;
+    padding-left: 72px;
+  }
+}
+
 
 body.rtl .footer-pill--ltr,
 body.rtl a[href^="tel:"],
