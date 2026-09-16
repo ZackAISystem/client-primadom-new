@@ -108,14 +108,14 @@
         {{ $t.hero.ai_badge }}
       </span>
 
-      <input
-        type="text"
+      <textarea
         name="area_q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pa-voice"
@@ -244,7 +244,7 @@
   restartAutoplay(false);
 
   const form = root.querySelector('.pa-area-ask');
-  const input = root.querySelector('.pa-area-ask input');
+  const input = root.querySelector('.pa-area-ask textarea');
   const voiceBtn = root.querySelector('.pa-voice');
   const voiceStatus = root.querySelector('.pa-voice-popover__status');
   const voiceText = root.querySelector('.pa-voice-popover__text');

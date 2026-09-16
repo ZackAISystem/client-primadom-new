@@ -94,14 +94,14 @@
         {{ $t.hero.ai_badge }}
       </div>
 
-      <input
-        type="text"
+      <textarea
         name="q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pc-ai__voice"
@@ -149,7 +149,7 @@
   root.dataset.projectComparisonHeroReady = '1';
 
   const form = root.querySelector('.pc-ai');
-  const input = root.querySelector('.pc-ai input');
+  const input = root.querySelector('.pc-ai textarea');
   const voiceBtn = root.querySelector('.pc-ai__voice');
   const voiceStatus = root.querySelector('.pc-ai__voice-status');
   const voiceText = root.querySelector('.pc-ai__voice-text');

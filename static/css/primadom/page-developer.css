@@ -257,13 +257,16 @@ html.pd-modal-open {
   }
 
   .pd-header__inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 12px;
   }
 
-  .pd-header__badge,
+  .pd-header__badge {
+    justify-self: start;
+  }
+
   .pd-header__right {
-    justify-self: center;
+    justify-self: end;
   }
 }
 
@@ -526,7 +529,7 @@ html.pd-modal-open {
     0 0 18px rgba(244,215,157,.56);
 }
 
-.pd-ai input {
+.pd-ai textarea {
   flex: 1 1 auto;
   min-width: 0;
   height: 50px;
@@ -536,9 +539,16 @@ html.pd-modal-open {
   color: rgba(255,255,255,.94);
   font-size: 15px;
   font-weight: 390;
+  margin: 0;
+  padding: 14px 0 13px;
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 1.35;
+  font-family: inherit;
 }
 
-.pd-ai input::placeholder {
+.pd-ai textarea::placeholder {
   color: rgba(255,255,255,.52);
 }
 
@@ -829,7 +839,28 @@ html.pd-modal-open {
     padding: 10px;
   }
 
-  .pd-ai__voice,
+  .pd-ai textarea {
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 5px 2px;
+    resize: none;
+    overflow: hidden;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+    font-size: 14px;
+  }
+
+  .pd-ai__voice {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    justify-self: end;
+    border-radius: 50%;
+  }
+
   .pd-ai button[type="submit"] {
     width: 100%;
     height: 44px;
@@ -1611,6 +1642,21 @@ html.pd-modal-open {
 
   .pd-list div {
     grid-template-columns: minmax(0,1fr) auto;
+  }
+
+  /* PRIMADOM MOBILE LINK ARROW FIX — developer */
+  .pd-list a {
+    position: relative;
+  }
+
+  .pd-list a::after {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    left: auto;
+    grid-column: auto;
+    justify-self: auto;
+    transform: translateY(-50%);
   }
 
   .pd-list small {
@@ -2989,15 +3035,21 @@ html.pd-modal-open {
     overflow: auto;
   }
 
-  .pd-lead-voice,
   .pd-lead-submit {
     width: 100%;
     min-width: 0;
   }
 
   .pd-lead-voice {
-    height: 52px;
-    border-radius: 999px;
+    width: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    max-height: 44px;
+    justify-self: end;
+    border-radius: 50%;
+    padding: 0;
   }
 
   .pd-lead-submit {
@@ -3451,6 +3503,13 @@ body.rtl .pd-header__inner {
   direction: ltr;
 }
 
+@media (max-width: 760px) {
+  html[dir="rtl"] .pd-header__inner,
+  body.rtl .pd-header__inner {
+    direction: rtl;
+  }
+}
+
 @media (min-width: 1181px) {
   html[dir="rtl"] .pd-header__badge,
   body.rtl .pd-header__badge {
@@ -3518,11 +3577,20 @@ body.rtl .pd-ai {
   direction: rtl;
 }
 
-html[dir="rtl"] .pd-ai input,
-body.rtl .pd-ai input {
+html[dir="rtl"] .pd-ai textarea,
+body.rtl .pd-ai textarea {
   text-align: right;
   direction: rtl;
   unicode-bidi: plaintext;
+}
+
+@media (max-width: 760px) {
+  html[dir="rtl"] .pd-ai textarea,
+  body.rtl .pd-ai textarea {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+  }
 }
 
 html[dir="rtl"] .pd-cta,
@@ -3576,6 +3644,22 @@ body.rtl .pd-list--known a::after {
   content: "‹";
   direction: ltr;
   unicode-bidi: isolate;
+}
+
+/* PRIMADOM RTL MOBILE LINK ARROW FIX — developer */
+@media (max-width: 760px) {
+  html[dir="rtl"] .pd-list a::after,
+  body.rtl .pd-list a::after {
+    right: auto;
+    left: 16px;
+    top: 50%;
+    grid-column: auto;
+    justify-self: auto;
+    content: "\2039";
+    direction: ltr;
+    unicode-bidi: isolate;
+    transform: translateY(-50%);
+  }
 }
 
 /* 15.09 Districts + Segment Profile */
@@ -3682,6 +3766,20 @@ body.rtl .pd-lead-ai-row textarea {
   body.rtl .pd-lead-modal__head p {
     text-align: right;
     direction: rtl;
+  }
+}
+
+/* 15.13b Modal Head / Mobile RTL */
+@media (max-width: 820px) {
+  html[dir="rtl"] .pd-lead-modal__head,
+  body.rtl .pd-lead-modal__head {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 44px;
+    direction: rtl;
+    text-align: right;
   }
 }
 

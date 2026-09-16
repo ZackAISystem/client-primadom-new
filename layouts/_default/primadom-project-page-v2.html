@@ -247,15 +247,15 @@
         {{ $b4.ai_badge }}
       </div>
 
-      <input
+      <textarea
         class="pd-project-ask__input"
-        type="text"
         name="project_q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $b4.placeholder }}"
         data-typing-examples='{{ (first 3 $b4.hints) | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pd-project-ask__voice"

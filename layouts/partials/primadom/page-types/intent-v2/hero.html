@@ -75,14 +75,14 @@
         {{ $t.hero.ai_badge }}
       </div>
 
-      <input
-        type="text"
+      <textarea
         name="q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pi-ai__voice"
@@ -130,7 +130,7 @@
   root.dataset.intentHeroReady = '1';
 
   const form = root.querySelector('.pi-ai');
-  const input = root.querySelector('.pi-ai input');
+  const input = root.querySelector('.pi-ai textarea');
   const voiceBtn = root.querySelector('.pi-ai__voice');
   const voiceStatus = root.querySelector('.pi-ai__voice-status');
   const voiceText = root.querySelector('.pi-ai__voice-text');

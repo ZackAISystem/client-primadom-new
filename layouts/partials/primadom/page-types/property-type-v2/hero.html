@@ -76,14 +76,14 @@
         {{ $t.hero.ai_badge }}
       </div>
 
-      <input
-        type="text"
+      <textarea
         name="q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pt-ai__voice"
@@ -131,7 +131,7 @@
   root.dataset.propertyTypeHeroReady = '1';
 
   const form = root.querySelector('.pt-ai');
-  const input = root.querySelector('.pt-ai input');
+  const input = root.querySelector('.pt-ai textarea');
   const voiceBtn = root.querySelector('.pt-ai__voice');
   const voiceStatus = root.querySelector('.pt-ai__voice-status');
   const voiceText = root.querySelector('.pt-ai__voice-text');
