@@ -82,14 +82,14 @@
         {{ $t.hero.ai_badge }}
       </div>
 
-      <input
-        type="text"
+      <textarea
         name="q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="pb-ai__voice"
@@ -137,7 +137,7 @@
   root.dataset.budgetHeroReady = '1';
 
   const form = root.querySelector('.pb-ai');
-  const input = root.querySelector('.pb-ai input');
+  const input = root.querySelector('.pb-ai textarea');
   const voiceBtn = root.querySelector('.pb-ai__voice');
   const voiceStatus = root.querySelector('.pb-ai__voice-status');
   const voiceText = root.querySelector('.pb-ai__voice-text');

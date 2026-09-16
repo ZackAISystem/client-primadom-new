@@ -82,14 +82,14 @@
         {{ $t.hero.ai_badge }}
       </div>
 
-      <input
-        type="text"
+      <textarea
         name="q"
+        rows="2"
         placeholder=""
         autocomplete="off"
         data-static-placeholder="{{ $aiPlaceholder }}"
         data-typing-examples='{{ $hints | jsonify }}'
-      >
+      ></textarea>
 
       <button
         class="ob-ai__voice"
@@ -137,7 +137,7 @@
   root.dataset.originBuyerHeroReady = '1';
 
   const form = root.querySelector('.ob-ai');
-  const input = root.querySelector('.ob-ai input');
+  const input = root.querySelector('.ob-ai textarea');
   const voiceBtn = root.querySelector('.ob-ai__voice');
   const voiceStatus = root.querySelector('.ob-ai__voice-status');
   const voiceText = root.querySelector('.ob-ai__voice-text');

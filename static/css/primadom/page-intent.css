@@ -279,13 +279,16 @@ html.pi-modal-open {
   }
 
   .pi-header__inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 12px;
   }
 
-  .pi-header__badge,
+  .pi-header__badge {
+    justify-self: start;
+  }
+
   .pi-header__right {
-    justify-self: center;
+    justify-self: end;
   }
 }
 
@@ -610,7 +613,7 @@ html.pi-modal-open {
     0 0 18px rgba(244,215,157,.56);
 }
 
-.pi-ai input {
+.pi-ai textarea {
   flex: 1 1 auto;
   min-width: 0;
   height: 50px;
@@ -622,9 +625,16 @@ html.pi-modal-open {
   color: rgba(255,255,255,.94);
   font-size: 15px;
   font-weight: 390;
+  margin: 0;
+  padding: 14px 0 13px;
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 1.35;
+  font-family: inherit;
 }
 
-.pi-ai input::placeholder {
+.pi-ai textarea::placeholder {
   color: rgba(255,255,255,.52);
 }
 
@@ -1026,16 +1036,26 @@ html.pi-modal-open {
     font-size: 10.5px;
   }
 
-  .pi-ai input {
+  .pi-ai textarea {
     width: 100%;
-    height: 42px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 5px 2px;
+    resize: none;
+    overflow: hidden;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
     font-size: 14px;
   }
 
   .pi-ai__voice {
-    width: 100%;
+    width: 44px;
     height: 44px;
-    flex-basis: auto;
+    flex: 0 0 44px;
+    justify-self: end;
+    border-radius: 50%;
   }
 
   .pi-ai button[type="submit"] {
@@ -1552,8 +1572,21 @@ html.pi-modal-open {
     flex-direction: column;
   }
 
+
+
+  /* PRIMADOM MOBILE LINK ARROW FIX — pi */
+  .pi-list a {
+    position: relative;
+    padding-right: 46px;
+  }
+
   .pi-list a::after {
-    display: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    left: auto;
+    transform: translateY(-50%);
   }
 
   .pi-list small {
@@ -3132,15 +3165,21 @@ html.pi-modal-open {
     overflow: auto;
   }
 
-  .pi-modal-voice,
   .pi-submit {
     width: 100%;
     min-width: 0;
   }
 
   .pi-modal-voice {
-    height: 52px;
-    border-radius: 999px;
+    width: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    max-height: 44px;
+    justify-self: end;
+    border-radius: 50%;
+    padding: 0;
   }
 
   .pi-submit {
@@ -3729,6 +3768,13 @@ html[dir="rtl"] .pi-header__inner {
   direction: ltr;
 }
 
+@media (max-width: 760px) {
+  html[dir="rtl"] .pi-header__inner,
+  body.rtl .pi-header__inner {
+    direction: rtl;
+  }
+}
+
 @media (min-width: 1181px) {
   html[dir="rtl"] .pi-header__badge {
     grid-column: 3;
@@ -3780,10 +3826,40 @@ html[dir="rtl"] .pi-ai {
   direction: rtl;
 }
 
-html[dir="rtl"] .pi-ai input {
+html[dir="rtl"] .pi-ai textarea {
   direction: rtl;
   text-align: right;
   unicode-bidi: plaintext;
+}
+
+@media (max-width: 760px) {
+  html[dir="rtl"] .pi-ai textarea,
+  body.rtl .pi-ai textarea {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+  }
+}
+
+/* PRIMADOM RTL MOBILE LINK ARROW FIX — pi */
+@media (max-width: 760px) {
+  html[dir="rtl"] .pi-list a,
+  body.rtl .pi-list a {
+    padding-right: 15px;
+    padding-left: 46px;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .pi-list a::after,
+  body.rtl .pi-list a::after {
+    right: auto;
+    left: 15px;
+    top: 50%;
+    content: "\2039";
+    direction: ltr;
+    unicode-bidi: isolate;
+    transform: translateY(-50%);
+  }
 }
 
 /* Lead Modal */
@@ -3796,6 +3872,20 @@ html[dir="rtl"] .pi-modal__panel {
   html[dir="rtl"] .pi-modal__close {
     right: auto;
     left: 22px;
+  }
+}
+
+@media (max-width: 820px) {
+  html[dir="rtl"] .pi-modal__close,
+  body.rtl .pi-modal__close {
+    right: auto;
+    left: 22px;
+  }
+
+  html[dir="rtl"] .pi-modal h2,
+  body.rtl .pi-modal h2 {
+    padding-right: 0;
+    padding-left: 44px;
   }
 }
 
