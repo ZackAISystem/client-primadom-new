@@ -1,0 +1,215 @@
+{{ with .Params.page_id }}
+<script>
+(() => {
+  "use strict";
+
+  const PAGE_ID = {{ . | jsonify | safeJS }};
+  const ENDPOINT = "/api/analytics/v1/collect";
+  const SESSION_TIMEOUT_MS = 30 * 60 * 1000;
+
+  const VISITOR_KEY = "primadom_analytics_visitor_id_v1";
+  const SESSION_KEY = "primadom_analytics_session_v1";
+
+  const UUID_RE =
+    /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+  function uuidV4() {
+    if (
+      window.crypto &&
+      typeof window.crypto.randomUUID === "function"
+    ) {
+      return window.crypto.randomUUID();
+    }
+
+    const bytes = new Uint8Array(16);
+    window.crypto.getRandomValues(bytes);
+
+    bytes[6] = (bytes[6] & 0x0f) | 0x40;
+    bytes[8] = (bytes[8] & 0x3f) | 0x80;
+
+    const hex = [...bytes]
+      .map((b) => b.toString(16).padStart(2, "0"))
+      .join("");
+
+    return [
+      hex.slice(0, 8),
+      hex.slice(8, 12),
+      hex.slice(12, 16),
+      hex.slice(16, 20),
+      hex.slice(20)
+    ].join("-");
+  }
+
+  function storageGet(key) {
+    try {
+      return localStorage.getItem(key);
+    } catch {
+      return null;
+    }
+  }
+
+  function storageSet(key, value) {
+    try {
+      localStorage.setItem(key, value);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  function getVisitorId() {
+    let id = storageGet(VISITOR_KEY);
+
+    if (!UUID_RE.test(id || "")) {
+      id = uuidV4();
+      storageSet(VISITOR_KEY, id);
+    }
+
+    return id;
+  }
+
+  function getSessionId(nowMs) {
+    let state = null;
+
+    try {
+      state = JSON.parse(storageGet(SESSION_KEY) || "null");
+    } catch {
+      state = null;
+    }
+
+    const reusable =
+      state &&
+      UUID_RE.test(state.id || "") &&
+      Number.isFinite(Number(state.last_activity_at)) &&
+      nowMs - Number(state.last_activity_at) >= 0 &&
+      nowMs - Number(state.last_activity_at) <= SESSION_TIMEOUT_MS;
+
+    const id = reusable ? state.id : uuidV4();
+
+    storageSet(
+      SESSION_KEY,
+      JSON.stringify({
+        id,
+        last_activity_at: nowMs
+      })
+    );
+
+    return id;
+  }
+
+  function acquisitionEvidence() {
+    const acquisition = {};
+    const params = new URLSearchParams(window.location.search);
+
+    if (document.referrer) {
+      try {
+        const ref = new URL(document.referrer);
+
+        acquisition.referrer_host =
+          ref.hostname.toLowerCase();
+
+        acquisition.referrer_path =
+          ref.pathname || "/";
+      } catch {
+        // Ignore malformed referrer.
+      }
+    }
+
+    const utmKeys = [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_id",
+      "utm_term",
+      "utm_content"
+    ];
+
+    for (const key of utmKeys) {
+      const value = params.get(key);
+
+      if (value) {
+        acquisition[key] = value.slice(0, 500);
+      }
+    }
+
+    const clickIdKeys = [
+      "gclid",
+      "gbraid",
+      "wbraid",
+      "msclkid",
+      "dclid",
+      "fbclid",
+      "ttclid",
+      "li_fat_id",
+      "twclid",
+      "yclid",
+      "epik",
+      "rdt_cid"
+    ];
+
+    const clickIds = {};
+
+    for (const key of clickIdKeys) {
+      const value = params.get(key);
+
+      if (value) {
+        clickIds[key] = value.slice(0, 500);
+      }
+    }
+
+    if (Object.keys(clickIds).length > 0) {
+      acquisition.click_ids = clickIds;
+    }
+
+    return acquisition;
+  }
+
+  const nowMs = Date.now();
+
+  const payload = {
+    schema_version: "1.0",
+    event_id: uuidV4(),
+    event_name: "page_view",
+    occurred_at: new Date(nowMs).toISOString(),
+    visitor_id: getVisitorId(),
+    session_id: getSessionId(nowMs),
+    pageview_id: uuidV4(),
+    page_id: PAGE_ID,
+    event_value: null,
+    event_context: {
+      context_version: "1.0"
+    },
+    acquisition: acquisitionEvidence()
+  };
+
+  async function send(attempt = 0) {
+    try {
+      const response = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        credentials: "omit",
+        cache: "no-store",
+        keepalive: true,
+        body: JSON.stringify(payload)
+      });
+
+      if (
+        !response.ok &&
+        response.status >= 500 &&
+        attempt === 0
+      ) {
+        window.setTimeout(() => send(1), 750);
+      }
+    } catch {
+      if (attempt === 0) {
+        window.setTimeout(() => send(1), 750);
+      }
+    }
+  }
+
+  send();
+})();
+</script>
+{{ end }}
