@@ -809,6 +809,297 @@
     return null;
   }
 
+  function isMapDestination(url) {
+    const host =
+      url.hostname.toLowerCase();
+
+    const path =
+      url.pathname.toLowerCase();
+
+    return (
+      (
+        host === "www.google.com" ||
+        host === "google.com"
+      ) &&
+      path.startsWith("/maps")
+    ) ||
+      host === "maps.google.com" ||
+      host === "maps.apple.com" ||
+      (
+        host === "goo.gl" &&
+        path.startsWith("/maps")
+      );
+  }
+
+  function faqDetailsElements() {
+    return Array.from(
+      new Set([
+        ...document.querySelectorAll(
+          '[id="faq"] details'
+        ),
+        ...document.querySelectorAll(
+          '[class*="faq"] details'
+        )
+      ])
+    );
+  }
+
+  for (const details of faqDetailsElements()) {
+    details.addEventListener(
+      "toggle",
+      () => {
+        if (!details.open) {
+          return;
+        }
+
+        const container =
+          details.closest(
+            '[id="faq"], [class*="faq"]'
+          );
+
+        if (!container) {
+          return;
+        }
+
+        const items = Array.from(
+          container.querySelectorAll(
+            "details"
+          )
+        );
+
+        const index =
+          items.indexOf(details);
+
+        const position =
+          index >= 0
+            ? index + 1
+            : null;
+
+        markMeaningfulInteraction();
+
+        emitBehaviour(
+          "faq_open",
+          null,
+          {
+            faq_key:
+              details.id ||
+              (
+                position
+                  ? `faq_${position}`
+                  : "faq"
+              ),
+            item_position: position,
+            section_key: "faq"
+          }
+        );
+      }
+    );
+  }
+
+  function galleryInteractionFromButton(
+    button
+  ) {
+    const isProjectPrev =
+      button.matches(
+        "[data-project-gallery-prev]"
+      );
+
+    const isProjectNext =
+      button.matches(
+        "[data-project-gallery-next]"
+      );
+
+    const isDistrictPrev =
+      button.matches(
+        "[data-pa-gallery-prev]"
+      );
+
+    const isDistrictNext =
+      button.matches(
+        "[data-pa-gallery-next]"
+      );
+
+    if (
+      !isProjectPrev &&
+      !isProjectNext &&
+      !isDistrictPrev &&
+      !isDistrictNext
+    ) {
+      return null;
+    }
+
+    const isProject =
+      isProjectPrev ||
+      isProjectNext;
+
+    const root = isProject
+      ? button.closest(
+          ".pd-project-gallery"
+        ) ||
+        button.closest(
+          ".pd-project-hero"
+        )
+      : button.closest(
+          ".pa-gallery"
+        ) ||
+        button.closest(
+          ".pa-hero"
+        );
+
+    if (!root) {
+      return null;
+    }
+
+    const slides = Array.from(
+      root.querySelectorAll(
+        isProject
+          ? ".pd-project-slide"
+          : ".pa-slide"
+      )
+    );
+
+    if (slides.length <= 1) {
+      return null;
+    }
+
+    let activeIndex =
+      slides.findIndex(
+        (slide) =>
+          slide.classList.contains(
+            "is-active"
+          )
+      );
+
+    if (activeIndex < 0) {
+      activeIndex = 0;
+    }
+
+    const isPrevious =
+      isProjectPrev ||
+      isDistrictPrev;
+
+    const nextIndex =
+      (
+        activeIndex +
+        (
+          isPrevious
+            ? -1
+            : 1
+        ) +
+        slides.length
+      ) % slides.length;
+
+    return {
+      action:
+        isPrevious
+          ? "previous"
+          : "next",
+      mediaPosition:
+        nextIndex + 1,
+      galleryKey:
+        isProject
+          ? "project_hero"
+          : "district_hero"
+    };
+  }
+
+  document.addEventListener(
+    "click",
+    (event) => {
+      const target =
+        event.target instanceof Element
+          ? event.target
+          : null;
+
+      const button =
+        target?.closest(
+          [
+            "[data-project-gallery-prev]",
+            "[data-project-gallery-next]",
+            "[data-pa-gallery-prev]",
+            "[data-pa-gallery-next]"
+          ].join(",")
+        );
+
+      if (!button) {
+        return;
+      }
+
+      const interaction =
+        galleryInteractionFromButton(
+          button
+        );
+
+      if (!interaction) {
+        return;
+      }
+
+      markMeaningfulInteraction();
+
+      emitBehaviour(
+        "gallery_interaction",
+        null,
+        {
+          action:
+            interaction.action,
+          media_position:
+            interaction.mediaPosition,
+          gallery_key:
+            interaction.galleryKey
+        }
+      );
+    },
+    true
+  );
+
+  document.addEventListener(
+    "click",
+    (event) => {
+      const target =
+        event.target instanceof Element
+          ? event.target
+          : null;
+
+      const anchor =
+        target?.closest("a[href]");
+
+      if (!anchor) {
+        return;
+      }
+
+      let url;
+
+      try {
+        url = new URL(
+          anchor.getAttribute("href"),
+          window.location.href
+        );
+      } catch {
+        return;
+      }
+
+      if (!isMapDestination(url)) {
+        return;
+      }
+
+      markMeaningfulInteraction();
+
+      emitBehaviour(
+        "map_interaction",
+        null,
+        {
+          action: "open_map",
+          map_key: "map",
+          section_key:
+            analyticsSectionKey(
+              anchor
+            )
+        }
+      );
+    },
+    true
+  );
+
   document.addEventListener(
     "click",
     (event) => {
@@ -857,6 +1148,10 @@
       }
 
       if (isContactDestination(url)) {
+        return;
+      }
+
+      if (isMapDestination(url)) {
         return;
       }
 
