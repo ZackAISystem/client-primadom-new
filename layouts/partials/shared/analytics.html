@@ -2447,6 +2447,481 @@
     }
 
 
+
+  /*
+   * PRIMADOM ANALYTICS V1 — AI SEARCH / VOICE
+   *
+   * Privacy contract:
+   * - never send raw AI query text
+   * - never send transcript
+   * - never send audio
+   * - never send form values / PII
+   *
+   * Covers the 12 registered page types only.
+   */
+
+  const AI_FORM_SELECTOR = [
+    "#project-ai-search",
+    "#developer-ai-search",
+    "#type-ai",
+    "#compare-ai-search",
+    "#answer-ai",
+    "#budget-ai",
+    "#area-ai-search",
+    "#scenario-ai",
+    "#intent-ai-search",
+    "#origin-ai"
+  ].join(", ");
+
+  const aiFormStates = new WeakMap();
+  const voiceStates = new WeakMap();
+
+  function aiFormState(form) {
+    let state = aiFormStates.get(form);
+
+    if (!state) {
+      state = {
+        started: false,
+        inputMethod: "text"
+      };
+
+      aiFormStates.set(form, state);
+    }
+
+    return state;
+  }
+
+  function aiInputForForm(form) {
+    if (!(form instanceof HTMLFormElement)) {
+      return null;
+    }
+
+    return form.querySelector(
+      "textarea, input[type='search'], input[type='text']"
+    );
+  }
+
+  function normalisedQueryValue(input) {
+    if (
+      !(input instanceof HTMLInputElement) &&
+      !(input instanceof HTMLTextAreaElement)
+    ) {
+      return "";
+    }
+
+    return String(input.value || "").trim();
+  }
+
+  function queryLength(value) {
+    return Array.from(value || "").length;
+  }
+
+  function queryLanguage(value) {
+    const text = String(value || "");
+
+    if (/[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]/u.test(text)) {
+      return "ar";
+    }
+
+    if (/[\u4e00-\u9fff\u3400-\u4dbf]/u.test(text)) {
+      return "zh";
+    }
+
+    if (/[\u0900-\u097f]/u.test(text)) {
+      return "hi";
+    }
+
+    if (/[\u0400-\u04ff]/u.test(text)) {
+      return "ru";
+    }
+
+    const pageLanguage =
+      String(document.documentElement.lang || "")
+        .toLowerCase()
+        .split("-")[0];
+
+    if (
+      ["en", "es", "fr", "de"].includes(
+        pageLanguage
+      )
+    ) {
+      return pageLanguage;
+    }
+
+    return "und";
+  }
+
+  function emitAiInteraction(
+    action,
+    inputMethod,
+    input
+  ) {
+    const value = normalisedQueryValue(input);
+    const length = queryLength(value);
+
+    if (length <= 0) {
+      return;
+    }
+
+    emitBehaviour(
+      "ai_search_interaction",
+      null,
+      {
+        action,
+        input_method: inputMethod,
+        query_length: length,
+        query_language: queryLanguage(value)
+      }
+    );
+  }
+
+  function registerAiForms() {
+    const forms =
+      document.querySelectorAll(
+        AI_FORM_SELECTOR
+      );
+
+    for (const form of forms) {
+      if (!(form instanceof HTMLFormElement)) {
+        continue;
+      }
+
+      const input = aiInputForForm(form);
+
+      if (!input) {
+        continue;
+      }
+
+      const state = aiFormState(form);
+
+      input.addEventListener(
+        "input",
+        (event) => {
+          if (!event.isTrusted) {
+            return;
+          }
+
+          state.inputMethod = "text";
+
+          const value =
+            normalisedQueryValue(input);
+
+          if (
+            value.length > 0 &&
+            !state.started
+          ) {
+            state.started = true;
+
+            markMeaningfulInteraction();
+
+            emitAiInteraction(
+              "input_start",
+              "text",
+              input
+            );
+          }
+        },
+        true
+      );
+
+      form.addEventListener(
+        "submit",
+        () => {
+          const value =
+            normalisedQueryValue(input);
+
+          if (!value) {
+            return;
+          }
+
+          markMeaningfulInteraction();
+
+          emitAiInteraction(
+            "submit",
+            state.inputMethod,
+            input
+          );
+        },
+        true
+      );
+    }
+  }
+
+  function voiceSurface(button) {
+    if (
+      button.closest(AI_FORM_SELECTOR)
+    ) {
+      return "hero";
+    }
+
+    if (
+      button.closest(
+        '[role="dialog"], [aria-modal="true"], [id*="Modal"], [id*="modal"]'
+      )
+    ) {
+      return "modal";
+    }
+
+    return "unknown";
+  }
+
+  function voiceInput(button) {
+    const aiForm =
+      button.closest(AI_FORM_SELECTOR);
+
+    if (aiForm) {
+      return aiInputForForm(aiForm);
+    }
+
+    const form = button.closest("form");
+
+    if (!form) {
+      return null;
+    }
+
+    return form.querySelector(
+      "textarea, input[type='search'], input[type='text']"
+    );
+  }
+
+  function voiceButtonCandidate(button) {
+    if (!(button instanceof HTMLButtonElement)) {
+      return false;
+    }
+
+    if (button.closest(AI_FORM_SELECTOR)) {
+      return (
+        button.className
+          .toString()
+          .toLowerCase()
+          .includes("voice")
+      );
+    }
+
+    return (
+      button.hasAttribute("data-lead-voice") ||
+      button.hasAttribute("data-pa-modal-voice") ||
+      button.className
+        .toString()
+        .toLowerCase()
+        .includes("modal-voice")
+    );
+  }
+
+  function clearVoiceState(button) {
+    const state = voiceStates.get(button);
+
+    if (!state) {
+      return;
+    }
+
+    if (state.timer) {
+      window.clearInterval(state.timer);
+    }
+
+    if (state.timeout) {
+      window.clearTimeout(state.timeout);
+    }
+
+    voiceStates.delete(button);
+  }
+
+  function finishVoice(
+    button,
+    outcome,
+    errorCode = null
+  ) {
+    const state = voiceStates.get(button);
+
+    if (!state || state.finished) {
+      return;
+    }
+
+    state.finished = true;
+
+    const durationMs =
+      Math.max(
+        0,
+        Date.now() - state.startedAt
+      );
+
+    const context = {
+      action: `${state.surface}_finish`,
+      outcome,
+      duration_ms: durationMs
+    };
+
+    if (errorCode) {
+      context.error_code = errorCode;
+    }
+
+    emitBehaviour(
+      "voice_interaction",
+      null,
+      context
+    );
+
+    clearVoiceState(button);
+  }
+
+  function startVoiceTracking(button) {
+    const existing =
+      voiceStates.get(button);
+
+    if (existing && !existing.finished) {
+      finishVoice(
+        button,
+        "cancelled"
+      );
+
+      return;
+    }
+
+    const surface =
+      voiceSurface(button);
+
+    const input =
+      voiceInput(button);
+
+    const originalValue =
+      normalisedQueryValue(input);
+
+    markMeaningfulInteraction();
+
+    if (
+      !(
+        window.SpeechRecognition ||
+        window.webkitSpeechRecognition
+      )
+    ) {
+      emitBehaviour(
+        "voice_interaction",
+        null,
+        {
+          action: `${surface}_start`,
+          outcome: "unsupported",
+          duration_ms: 0,
+          error_code:
+            "speech_recognition_unsupported"
+        }
+      );
+
+      return;
+    }
+
+    emitBehaviour(
+      "voice_interaction",
+      null,
+      {
+        action: `${surface}_start`,
+        outcome: "started",
+        duration_ms: 0
+      }
+    );
+
+    const state = {
+      surface,
+      input,
+      originalValue,
+      startedAt: Date.now(),
+      finished: false,
+      timer: null,
+      timeout: null
+    };
+
+    voiceStates.set(
+      button,
+      state
+    );
+
+    state.timer =
+      window.setInterval(
+        () => {
+          const currentValue =
+            normalisedQueryValue(
+              state.input
+            );
+
+          if (
+            currentValue &&
+            currentValue !==
+              state.originalValue
+          ) {
+            if (
+              state.surface === "hero"
+            ) {
+              const form =
+                button.closest(
+                  AI_FORM_SELECTOR
+                );
+
+              if (form) {
+                const aiState =
+                  aiFormState(form);
+
+                aiState.inputMethod =
+                  "voice";
+
+                if (!aiState.started) {
+                  aiState.started = true;
+
+                  emitAiInteraction(
+                    "input_start",
+                    "voice",
+                    state.input
+                  );
+                }
+              }
+            }
+
+            finishVoice(
+              button,
+              "success"
+            );
+          }
+        },
+        200
+      );
+
+    state.timeout =
+      window.setTimeout(
+        () => {
+          finishVoice(
+            button,
+            "timeout",
+            "voice_result_timeout"
+          );
+        },
+        30000
+      );
+  }
+
+  registerAiForms();
+
+  document.addEventListener(
+    "click",
+    (event) => {
+      if (!event.isTrusted) {
+        return;
+      }
+
+      const button =
+        event.target instanceof Element
+          ? event.target.closest("button")
+          : null;
+
+      if (
+        !button ||
+        !voiceButtonCandidate(button)
+      ) {
+        return;
+      }
+
+      startVoiceTracking(button);
+    },
+    true
+  );
+
   processSectionVisibility();
 
   window.setInterval(
