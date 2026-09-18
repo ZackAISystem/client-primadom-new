@@ -1437,7 +1437,6 @@
             ".pd-project-actions",
             '[class*="actions"]',
             '[class*="contacts"]',
-            '[class*="cta"]',
             "#lead",
             "#contact:not(footer)",
             "header",
@@ -1766,6 +1765,9 @@
       const impressed =
         new WeakSet();
 
+      const impressedKeys =
+        new Set();
+
       const observer =
         new IntersectionObserver(
           (entries) => {
@@ -1816,6 +1818,18 @@
 
                       const d =
                         ctaDescriptor(anchor);
+
+                      if (
+                        impressedKeys.has(
+                          d.ctaKey
+                        )
+                      ) {
+                        return;
+                      }
+
+                      impressedKeys.add(
+                        d.ctaKey
+                      );
 
                       emitBehaviour(
                         "cta_impression",
