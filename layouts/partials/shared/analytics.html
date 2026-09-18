@@ -279,6 +279,7 @@
   const sentScrollMilestones = new Set();
 
   let reachedTwentyFivePercent = false;
+  let meaningfulInteractionOccurred = false;
   let engagedSent = false;
 
   let activeVisibleMs = 0;
@@ -319,23 +320,37 @@
       activeVisibleMs >= 10 * 1000 &&
       reachedTwentyFivePercent;
 
+    const engagedByInteraction =
+      activeVisibleMs >= 10 * 1000 &&
+      meaningfulInteractionOccurred;
+
     const engagedByTime =
       activeVisibleMs >= 30 * 1000;
 
-    if (!engagedByScroll && !engagedByTime) {
+    if (
+      !engagedByScroll &&
+      !engagedByInteraction &&
+      !engagedByTime
+    ) {
       return;
     }
 
     engagedSent = true;
+
+    let actionType = "active_30s";
+
+    if (engagedByScroll) {
+      actionType = "active_10s_plus_scroll_25";
+    } else if (engagedByInteraction) {
+      actionType = "active_10s_plus_interaction";
+    }
 
     emitBehaviour(
       "engaged_view",
       null,
       {
         duration_ms: Math.round(activeVisibleMs),
-        action_type: engagedByScroll
-          ? "active_10s_plus_scroll_25"
-          : "active_30s"
+        action_type: actionType
       }
     );
   }
@@ -431,6 +446,598 @@
     "scroll",
     onScroll,
     { passive: true }
+  );
+
+  const TRACKED_LANGUAGES = new Set([
+    "en",
+    "ru",
+    "hi",
+    "zh",
+    "es",
+    "fr",
+    "de",
+    "ar"
+  ]);
+
+  function markMeaningfulInteraction() {
+    meaningfulInteractionOccurred = true;
+    maybeSendEngagedView();
+  }
+
+  function isMeaningfulSection(section) {
+    if (!(section instanceof HTMLElement)) {
+      return false;
+    }
+
+    if (!section.id) {
+      return false;
+    }
+
+    if (
+      section.closest(
+        '[role="dialog"], [aria-modal="true"]'
+      )
+    ) {
+      return false;
+    }
+
+    if (
+      section.hidden ||
+      section.getAttribute("aria-hidden") === "true"
+    ) {
+      return false;
+    }
+
+    const id = section.id.toLowerCase();
+
+    if (id.includes("modal")) {
+      return false;
+    }
+
+    return true;
+  }
+
+  function sectionVisibilityQualified(section) {
+    if (document.visibilityState !== "visible") {
+      return false;
+    }
+
+    if (
+      section.hidden ||
+      section.getAttribute("aria-hidden") === "true"
+    ) {
+      return false;
+    }
+
+    const style = window.getComputedStyle(section);
+
+    if (
+      style.display === "none" ||
+      style.visibility === "hidden"
+    ) {
+      return false;
+    }
+
+    const rect = section.getBoundingClientRect();
+
+    if (
+      rect.height <= 0 ||
+      rect.width <= 0
+    ) {
+      return false;
+    }
+
+    const visibleTop = Math.max(
+      0,
+      rect.top
+    );
+
+    const visibleBottom = Math.min(
+      window.innerHeight,
+      rect.bottom
+    );
+
+    const visiblePixels = Math.max(
+      0,
+      visibleBottom - visibleTop
+    );
+
+    const requiredPixels = Math.min(
+      rect.height * 0.5,
+      window.innerHeight * 0.5
+    );
+
+    return visiblePixels >= requiredPixels;
+  }
+
+  const trackedSections = Array.from(
+    document.querySelectorAll("section[id]")
+  ).filter(isMeaningfulSection);
+
+  const sectionPositions = new Map(
+    trackedSections.map(
+      (section, index) => [
+        section,
+        index + 1
+      ]
+    )
+  );
+
+  const sentSectionViews = new Set();
+  const sectionVisibleSince = new Map();
+
+  function processSectionVisibility() {
+    const now = Date.now();
+
+    for (const section of trackedSections) {
+      const sectionKey = section.id;
+
+      if (sentSectionViews.has(sectionKey)) {
+        continue;
+      }
+
+      if (!sectionVisibilityQualified(section)) {
+        sectionVisibleSince.delete(sectionKey);
+        continue;
+      }
+
+      const visibleSince =
+        sectionVisibleSince.get(sectionKey);
+
+      if (visibleSince === undefined) {
+        sectionVisibleSince.set(
+          sectionKey,
+          now
+        );
+
+        continue;
+      }
+
+      const durationMs =
+        now - visibleSince;
+
+      if (durationMs < 1000) {
+        continue;
+      }
+
+      sentSectionViews.add(sectionKey);
+      sectionVisibleSince.delete(sectionKey);
+
+      emitBehaviour(
+        "section_view",
+        null,
+        {
+          section_key: sectionKey,
+          section_position:
+            sectionPositions.get(section) || null,
+          duration_ms: Math.round(durationMs)
+        }
+      );
+    }
+  }
+
+  function routeInfo(pathname) {
+    const segments = pathname
+      .split("/")
+      .filter(Boolean);
+
+    let language = null;
+    let offset = 0;
+
+    if (
+      segments.length > 0 &&
+      TRACKED_LANGUAGES.has(
+        segments[0].toLowerCase()
+      )
+    ) {
+      language =
+        segments[0].toLowerCase();
+
+      offset = 1;
+    }
+
+    return {
+      language,
+      family:
+        (
+          segments[offset] || ""
+        ).toLowerCase(),
+      slug:
+        segments[offset + 1] || null
+    };
+  }
+
+  function analyticsSectionKey(element) {
+    const breadcrumb = element.closest(
+      'nav[aria-label*="breadcrumb" i], [class*="breadcrumbs"]'
+    );
+
+    if (breadcrumb) {
+      return "breadcrumbs";
+    }
+
+    const section =
+      element.closest("section[id]");
+
+    if (section?.id) {
+      return section.id;
+    }
+
+    if (element.closest("header")) {
+      return "header";
+    }
+
+    if (element.closest("footer")) {
+      return "footer";
+    }
+
+    return "page";
+  }
+
+  function anchorPosition(anchor) {
+    const container =
+      anchor.closest(
+        "section[id], nav, header, footer, main"
+      ) ||
+      document.body;
+
+    const anchors = Array.from(
+      container.querySelectorAll("a[href]")
+    );
+
+    const index =
+      anchors.indexOf(anchor);
+
+    return index >= 0
+      ? index + 1
+      : null;
+  }
+
+  function isManagedCtaAnchor(anchor) {
+    if (
+      anchor.matches(
+        "[data-open-lead], [data-scroll-ask-ai]"
+      )
+    ) {
+      return true;
+    }
+
+    for (const attribute of anchor.attributes) {
+      if (
+        attribute.name.startsWith(
+          "data-open-"
+        ) ||
+        attribute.name === "data-pa-modal"
+      ) {
+        return true;
+      }
+    }
+
+    const href =
+      anchor.getAttribute("href") || "";
+
+    return (
+      href.startsWith("#") &&
+      href.toLowerCase().includes("modal")
+    );
+  }
+
+  function isContactDestination(url) {
+    const protocol =
+      url.protocol.toLowerCase();
+
+    if (
+      protocol === "mailto:" ||
+      protocol === "tel:" ||
+      protocol === "sms:"
+    ) {
+      return true;
+    }
+
+    const host =
+      url.hostname.toLowerCase();
+
+    return (
+      host === "wa.me" ||
+      host === "api.whatsapp.com" ||
+      host.endsWith(".whatsapp.com")
+    );
+  }
+
+  function navigationEventForRoute(
+    targetRoute
+  ) {
+    const family =
+      targetRoute.family;
+
+    if (
+      family.includes("comparison") ||
+      family.startsWith("compare-")
+    ) {
+      let entityType = null;
+
+      if (family.includes("project")) {
+        entityType = "project";
+      } else if (
+        family.includes("district")
+      ) {
+        entityType = "district";
+      } else if (
+        family.includes("developer")
+      ) {
+        entityType = "developer";
+      }
+
+      if (entityType) {
+        return {
+          eventName: "comparison_click",
+          entityType
+        };
+      }
+    }
+
+    if (
+      family === "projects" ||
+      family === "project"
+    ) {
+      return {
+        eventName: "project_click",
+        entityType: "project"
+      };
+    }
+
+    if (
+      family === "districts" ||
+      family === "district"
+    ) {
+      return {
+        eventName: "district_click",
+        entityType: "district"
+      };
+    }
+
+    if (
+      family === "developers" ||
+      family === "developer"
+    ) {
+      return {
+        eventName: "developer_click",
+        entityType: "developer"
+      };
+    }
+
+    return null;
+  }
+
+  document.addEventListener(
+    "click",
+    (event) => {
+      if (
+        event.defaultPrevented ||
+        event.button !== 0
+      ) {
+        return;
+      }
+
+      const target =
+        event.target instanceof Element
+          ? event.target
+          : null;
+
+      const anchor =
+        target?.closest("a[href]");
+
+      if (!anchor) {
+        return;
+      }
+
+      if (isManagedCtaAnchor(anchor)) {
+        return;
+      }
+
+      const rawHref =
+        anchor.getAttribute("href");
+
+      if (
+        !rawHref ||
+        rawHref === "#"
+      ) {
+        return;
+      }
+
+      let url;
+
+      try {
+        url = new URL(
+          rawHref,
+          window.location.href
+        );
+      } catch {
+        return;
+      }
+
+      if (isContactDestination(url)) {
+        return;
+      }
+
+      if (
+        url.protocol !== "http:" &&
+        url.protocol !== "https:"
+      ) {
+        return;
+      }
+
+      const sectionKey =
+        analyticsSectionKey(anchor);
+
+      const itemPosition =
+        anchorPosition(anchor);
+
+      const currentRoute =
+        routeInfo(
+          window.location.pathname
+        );
+
+      const targetRoute =
+        routeInfo(url.pathname);
+
+      const isInternal =
+        url.origin ===
+        window.location.origin;
+
+      if (!isInternal) {
+        markMeaningfulInteraction();
+
+        emitBehaviour(
+          "external_link_click",
+          null,
+          {
+            section_key: sectionKey,
+            target_host:
+              url.hostname.toLowerCase(),
+            link_type: "external"
+          }
+        );
+
+        return;
+      }
+
+      const isBreadcrumb =
+        Boolean(
+          anchor.closest(
+            'nav[aria-label*="breadcrumb" i], [class*="breadcrumbs"]'
+          )
+        );
+
+      const languageChanged =
+        currentRoute.language &&
+        targetRoute.language &&
+        currentRoute.language !==
+          targetRoute.language;
+
+      const samePageAnchor =
+        url.pathname ===
+          window.location.pathname &&
+        Boolean(url.hash);
+
+      if (
+        isBreadcrumb ||
+        languageChanged ||
+        samePageAnchor
+      ) {
+        let linkType = "internal";
+
+        if (isBreadcrumb) {
+          linkType = "breadcrumb";
+        } else if (languageChanged) {
+          linkType = "language_switch";
+        } else if (samePageAnchor) {
+          linkType = "anchor";
+        }
+
+        markMeaningfulInteraction();
+
+        emitBehaviour(
+          "internal_link_click",
+          null,
+          {
+            section_key: sectionKey,
+            link_type: linkType,
+            target_path: url.pathname,
+            item_position: itemPosition
+          }
+        );
+
+        return;
+      }
+
+      const specialised =
+        navigationEventForRoute(
+          targetRoute
+        );
+
+      if (specialised) {
+        markMeaningfulInteraction();
+
+        if (
+          specialised.eventName ===
+          "comparison_click"
+        ) {
+          const context = {
+            comparison_entity_type:
+              specialised.entityType,
+            pair_key:
+              targetRoute.slug,
+            section_key: sectionKey,
+            item_position: itemPosition,
+            target_path: url.pathname
+          };
+
+          if (
+            targetRoute.slug &&
+            targetRoute.slug.includes(
+              "-vs-"
+            )
+          ) {
+            const parts =
+              targetRoute.slug.split(
+                "-vs-"
+              );
+
+            if (parts.length === 2) {
+              context.left_slug =
+                parts[0];
+
+              context.right_slug =
+                parts[1];
+            }
+          }
+
+          emitBehaviour(
+            "comparison_click",
+            null,
+            context
+          );
+
+          return;
+        }
+
+        emitBehaviour(
+          specialised.eventName,
+          null,
+          {
+            target_entity_slug:
+              targetRoute.slug,
+            section_key: sectionKey,
+            item_position: itemPosition,
+            target_path: url.pathname
+          }
+        );
+
+        return;
+      }
+
+      markMeaningfulInteraction();
+
+      emitBehaviour(
+        "internal_link_click",
+        null,
+        {
+          section_key: sectionKey,
+          link_type: "internal",
+          target_path: url.pathname,
+          item_position: itemPosition
+        }
+      );
+    },
+    true
+  );
+
+  processSectionVisibility();
+
+  window.setInterval(
+    processSectionVisibility,
+    250
   );
 
   activeTickStartedAt =
