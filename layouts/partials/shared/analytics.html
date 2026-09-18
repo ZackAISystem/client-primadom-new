@@ -696,7 +696,7 @@
   function isManagedCtaAnchor(anchor) {
     if (
       anchor.matches(
-        "[data-open-lead], [data-scroll-ask-ai]"
+        "[data-open-lead], [data-scroll-ask-ai], [data-analytics-managed-cta='1']"
       )
     ) {
       return true;
@@ -1327,6 +1327,1111 @@
     },
     true
   );
+
+
+    /*
+     * PRIMADOM ANALYTICS V1 — CTA / LEAD FORMS
+     *
+     * Production 12 page types only.
+     * No translated labels are used as identifiers.
+     * No form values / PII are sent to analytics.
+     */
+
+    let lastLeadEntry = null;
+
+    function analyticsKeyPart(value) {
+      return String(value || "")
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "_")
+        .replace(/^_+|_+$/g, "")
+        .slice(0, 80) || "unknown";
+    }
+
+    function ctaSurfaceSection(anchor) {
+      if (anchor.closest("header")) {
+        return "header";
+      }
+
+      if (anchor.closest("footer")) {
+        return "footer";
+      }
+
+      if (
+        anchor.closest(
+          [
+            ".pd-project-actions",
+            ".pa-actions",
+            ".pd-actions",
+            ".pc-actions",
+            ".pb-actions",
+            ".bs-actions",
+            ".ob-actions",
+            ".pt-actions",
+            ".pi-actions",
+            ".aa-actions",
+            "#lead"
+          ].join(",")
+        )
+      ) {
+        return "cta";
+      }
+
+      return analyticsSectionKey(anchor);
+    }
+
+    function isCtaSurfaceAnchor(anchor) {
+      if (!(anchor instanceof HTMLAnchorElement)) {
+        return false;
+      }
+
+      if (isManagedCtaAnchor(anchor)) {
+        return true;
+      }
+
+      if (
+        anchor.closest("header") &&
+        typeof anchor.className === "string" &&
+        (
+          anchor.className.includes("__cta") ||
+          anchor.className.includes("-cta")
+        )
+      ) {
+        return true;
+      }
+
+      if (
+        anchor.closest("footer") &&
+        typeof anchor.className === "string" &&
+        (
+          anchor.className.includes("footer-pill") ||
+          anchor.className.includes("footer__cta")
+        )
+      ) {
+        return true;
+      }
+
+      return Boolean(
+        anchor.closest(
+          [
+            ".pd-project-actions",
+            ".pa-actions",
+            ".pd-actions",
+            ".pc-actions",
+            ".pb-actions",
+            ".bs-actions",
+            ".ob-actions",
+            ".pt-actions",
+            ".pi-actions",
+            ".aa-actions",
+            "#lead"
+          ].join(",")
+        )
+      );
+    }
+
+    function ctaItemPosition(anchor) {
+      const container =
+        anchor.closest(
+          [
+            ".pd-project-actions",
+            '[class*="actions"]',
+            '[class*="contacts"]',
+            '[class*="cta"]',
+            "#lead",
+            "#contact:not(footer)",
+            "header",
+            "footer"
+          ].join(",")
+        ) || anchor.parentElement;
+
+      if (!container) {
+        return null;
+      }
+
+      const anchors = Array.from(
+        container.querySelectorAll("a[href]")
+      ).filter(isCtaSurfaceAnchor);
+
+      const index = anchors.indexOf(anchor);
+
+      return index >= 0
+        ? index + 1
+        : null;
+    }
+
+    function hasModalOpenMarker(anchor) {
+      if (
+        anchor.matches(
+          '[data-open-lead], [data-pa-modal="open"]'
+        )
+      ) {
+        return true;
+      }
+
+      for (const attribute of anchor.attributes) {
+        if (
+          attribute.name.startsWith("data-open-")
+        ) {
+          return true;
+        }
+      }
+
+      const href =
+        anchor.getAttribute("href") || "";
+
+      return (
+        href.startsWith("#") &&
+        href.toLowerCase().includes("modal")
+      );
+    }
+
+    function modalTargetForAnchor(anchor) {
+      if (!hasModalOpenMarker(anchor)) {
+        return null;
+      }
+
+      const rawHref =
+        anchor.getAttribute("href") || "";
+
+      if (rawHref.startsWith("#")) {
+        const id =
+          rawHref.slice(1);
+
+        if (
+          id &&
+          document.getElementById(id)
+        ) {
+          return id;
+        }
+      }
+
+      const modals = Array.from(
+        document.querySelectorAll(
+          [
+            '[id][aria-hidden]',
+            '[id*="Modal"]',
+            '[id*="modal"]',
+            '[aria-modal="true"][id]'
+          ].join(",")
+        )
+      );
+
+      return modals.length === 1
+        ? modals[0].id
+        : null;
+    }
+
+    function contactKindForUrl(url) {
+      const protocol =
+        url.protocol.toLowerCase();
+
+      if (protocol === "tel:") {
+        return "phone";
+      }
+
+      if (protocol === "mailto:") {
+        return "email";
+      }
+
+      const host =
+        url.hostname.toLowerCase();
+
+      if (
+        host === "wa.me" ||
+        host === "api.whatsapp.com" ||
+        host.endsWith(".whatsapp.com")
+      ) {
+        return "whatsapp";
+      }
+
+      return null;
+    }
+
+    function looksLikeAiEntry(
+      anchor,
+      contactKind,
+      modalTarget
+    ) {
+      if (
+        contactKind ||
+        modalTarget
+      ) {
+        return false;
+      }
+
+      if (
+        anchor.matches(
+          "[data-scroll-ask-ai]"
+        )
+      ) {
+        return true;
+      }
+
+      const rawHref =
+        (
+          anchor.getAttribute("href") || ""
+        ).toLowerCase();
+
+      if (
+        rawHref.startsWith("#") &&
+        (
+          rawHref.includes("ai") ||
+          rawHref.includes("search")
+        )
+      ) {
+        return true;
+      }
+
+      /*
+       * Some V2 footers have an unmarked second pill
+       * whose role is "Ask AI".
+       * Position is used only as a final fallback.
+       */
+      if (
+        anchor.closest("footer") &&
+        typeof anchor.className === "string" &&
+        anchor.className.includes(
+          "footer-pill"
+        )
+      ) {
+        const container =
+          anchor.closest(
+            '[class*="contacts"]'
+          );
+
+        if (container) {
+          const pills =
+            Array.from(
+              container.querySelectorAll(
+                "a[href]"
+              )
+            ).filter(
+              (item) =>
+                typeof item.className ===
+                  "string" &&
+                item.className.includes(
+                  "footer-pill"
+                )
+            );
+
+          return (
+            pills.length >= 2 &&
+            pills.indexOf(anchor) === 1
+          );
+        }
+      }
+
+      return false;
+    }
+
+    function ctaDescriptor(anchor) {
+      let url = null;
+
+      try {
+        url = new URL(
+          anchor.getAttribute("href") || "#",
+          window.location.href
+        );
+      } catch {
+        url = null;
+      }
+
+      const sectionKey =
+        ctaSurfaceSection(anchor);
+
+      const itemPosition =
+        ctaItemPosition(anchor);
+
+      const modalTarget =
+        modalTargetForAnchor(anchor);
+
+      const contactKind =
+        url
+          ? contactKindForUrl(url)
+          : null;
+
+      const aiEntry =
+        looksLikeAiEntry(
+          anchor,
+          contactKind,
+          modalTarget
+        );
+
+      let ctaType = "action";
+      let actionIntent = "activate";
+      let semanticPurpose = null;
+
+      if (modalTarget) {
+        ctaType = "lead";
+        actionIntent = "open_modal";
+      } else if (contactKind) {
+        ctaType = "contact";
+
+        actionIntent =
+          contactKind === "whatsapp"
+            ? "open_whatsapp"
+            : contactKind === "phone"
+              ? "call"
+              : "email";
+      } else if (aiEntry) {
+        ctaType = "ai";
+        actionIntent = "scroll_to_ai";
+      }
+
+      /*
+       * Project CTA block has stable structural roles:
+       * #1 lead/modal
+       * #2 brochure via WhatsApp
+       * #3 request call via WhatsApp
+       */
+      const projectActions =
+        anchor.closest(
+          ".pd-project-actions"
+        );
+
+      if (projectActions) {
+        const anchors =
+          Array.from(
+            projectActions.querySelectorAll(
+              "a[href]"
+            )
+          );
+
+        const position =
+          anchors.indexOf(anchor) + 1;
+
+        if (position === 2) {
+          ctaType = "brochure";
+          semanticPurpose = "brochure";
+        }
+
+        if (position === 3) {
+          ctaType = "call";
+          semanticPurpose = "call";
+        }
+      }
+
+      const ctaKey =
+        [
+          analyticsKeyPart(sectionKey),
+          analyticsKeyPart(ctaType),
+          itemPosition || 1
+        ].join("_");
+
+      return {
+        ctaKey,
+        ctaType,
+        actionIntent,
+        sectionKey,
+        itemPosition,
+        modalTarget,
+        contactKind,
+        semanticPurpose
+      };
+    }
+
+    const ctaAnchors =
+      Array.from(
+        document.querySelectorAll(
+          "a[href]"
+        )
+      ).filter(
+        isCtaSurfaceAnchor
+      );
+
+    /*
+     * Mark them so the existing navigation listener
+     * does not also emit internal/external click events.
+     */
+    for (const anchor of ctaAnchors) {
+      anchor.setAttribute(
+        "data-analytics-managed-cta",
+        "1"
+      );
+    }
+
+    /*
+     * CTA impression:
+     * >=50% visible continuously for >=1 second.
+     * Once per element/pageview.
+     */
+    if (
+      "IntersectionObserver" in window &&
+      ctaAnchors.length
+    ) {
+      const timers =
+        new WeakMap();
+
+      const impressed =
+        new WeakSet();
+
+      const observer =
+        new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              const anchor =
+                entry.target;
+
+              if (
+                !(anchor instanceof HTMLAnchorElement) ||
+                impressed.has(anchor)
+              ) {
+                continue;
+              }
+
+              const existing =
+                timers.get(anchor);
+
+              if (
+                entry.isIntersecting &&
+                entry.intersectionRatio >= 0.5
+              ) {
+                if (existing) {
+                  continue;
+                }
+
+                const timer =
+                  window.setTimeout(
+                    () => {
+                      timers.delete(anchor);
+
+                      if (
+                        impressed.has(anchor)
+                      ) {
+                        return;
+                      }
+
+                      const rect =
+                        anchor.getBoundingClientRect();
+
+                      if (
+                        rect.width <= 0 ||
+                        rect.height <= 0
+                      ) {
+                        return;
+                      }
+
+                      impressed.add(anchor);
+
+                      const d =
+                        ctaDescriptor(anchor);
+
+                      emitBehaviour(
+                        "cta_impression",
+                        null,
+                        {
+                          cta_key:
+                            d.ctaKey,
+                          cta_type:
+                            d.ctaType,
+                          section_key:
+                            d.sectionKey,
+                          item_position:
+                            d.itemPosition
+                        }
+                      );
+                    },
+                    1000
+                  );
+
+                timers.set(
+                  anchor,
+                  timer
+                );
+              } else if (existing) {
+                window.clearTimeout(
+                  existing
+                );
+
+                timers.delete(
+                  anchor
+                );
+              }
+            }
+          },
+          {
+            threshold: [0, 0.5, 1]
+          }
+        );
+
+      for (const anchor of ctaAnchors) {
+        observer.observe(anchor);
+      }
+    }
+
+    /*
+     * CTA and specialised contact clicks.
+     */
+    document.addEventListener(
+      "click",
+      (event) => {
+        if (event.button !== 0) {
+          return;
+        }
+
+        const target =
+          event.target instanceof Element
+            ? event.target
+            : null;
+
+        const anchor =
+          target?.closest("a[href]");
+
+        if (
+          !anchor ||
+          !isCtaSurfaceAnchor(anchor)
+        ) {
+          return;
+        }
+
+        const d =
+          ctaDescriptor(anchor);
+
+        markMeaningfulInteraction();
+
+        if (d.modalTarget) {
+          lastLeadEntry = {
+            ctaKey: d.ctaKey,
+            ctaType: d.ctaType,
+            sectionKey: d.sectionKey,
+            entryType:
+              `${d.ctaType}_${d.sectionKey}`,
+            modalTarget: d.modalTarget,
+            at: Date.now()
+          };
+        }
+
+        if (d.contactKind) {
+          let eventName = null;
+
+          if (
+            d.contactKind === "whatsapp"
+          ) {
+            eventName =
+              "whatsapp_click";
+          }
+
+          if (
+            d.contactKind === "phone"
+          ) {
+            eventName =
+              "phone_click";
+          }
+
+          if (
+            d.contactKind === "email"
+          ) {
+            eventName =
+              "email_click";
+          }
+
+          if (eventName) {
+            emitBehaviour(
+              eventName,
+              null,
+              {
+                section_key:
+                  d.sectionKey,
+                cta_key:
+                  d.ctaKey,
+                contact_purpose:
+                  d.semanticPurpose ||
+                  d.contactKind
+              }
+            );
+          }
+
+          return;
+        }
+
+        emitBehaviour(
+          "cta_click",
+          null,
+          {
+            cta_key:
+              d.ctaKey,
+            cta_type:
+              d.ctaType,
+            action_intent:
+              d.actionIntent,
+            section_key:
+              d.sectionKey,
+            item_position:
+              d.itemPosition,
+            modal_target:
+              d.modalTarget
+          }
+        );
+      },
+      true
+    );
+
+    function leadModalForForm(form) {
+      /*
+       * Prefer the outer modal wrapper because that is
+       * what existing page scripts toggle via class /
+       * aria-hidden.
+       */
+      const rooted =
+        form.closest(
+          [
+            '[id][aria-hidden]',
+            '[id*="Modal"]',
+            '[id*="modal"]',
+            '[class*="modal"][id]'
+          ].join(",")
+        );
+
+      if (rooted) {
+        return rooted;
+      }
+
+      const panel =
+        form.closest(
+          [
+            '[role="dialog"]',
+            '[aria-modal="true"]',
+            '[class*="modal"]'
+          ].join(",")
+        );
+
+      if (!panel) {
+        return null;
+      }
+
+      let current =
+        panel.parentElement;
+
+      while (
+        current &&
+        current !== document.body
+      ) {
+        const className =
+          typeof current.className === "string"
+            ? current.className.toLowerCase()
+            : "";
+
+        if (
+          current.id &&
+          (
+            current.hasAttribute(
+              "aria-hidden"
+            ) ||
+            className.includes("modal")
+          )
+        ) {
+          return current;
+        }
+
+        current =
+          current.parentElement;
+      }
+
+      return panel;
+    }
+
+    function leadForms() {
+      return Array.from(
+        document.querySelectorAll(
+          "form"
+        )
+      ).filter(
+        (form) =>
+          Boolean(
+            leadModalForForm(form)
+          )
+      );
+    }
+
+    function formKey(form) {
+      const modal =
+        leadModalForForm(form);
+
+      return (
+        analyticsKeyPart(
+          modal?.id ||
+          "lead_modal"
+        ) +
+        "_form"
+      );
+    }
+
+    const leadFormStates =
+      new WeakMap();
+
+    function freshLeadFormState() {
+      return {
+        started: false,
+        submitted: false,
+        abandoned: false,
+        startedAt: null,
+        lastFieldKey: null
+      };
+    }
+
+    function leadFormState(form) {
+      let state =
+        leadFormStates.get(form);
+
+      if (!state) {
+        state =
+          freshLeadFormState();
+
+        leadFormStates.set(
+          form,
+          state
+        );
+      }
+
+      return state;
+    }
+
+    function resetLeadFormState(form) {
+      leadFormStates.set(
+        form,
+        freshLeadFormState()
+      );
+    }
+
+    function safeFieldKey(field) {
+      if (
+        field instanceof
+          HTMLTextAreaElement
+      ) {
+        return "request_text";
+      }
+
+      if (
+        field instanceof
+          HTMLInputElement
+      ) {
+        const type =
+          (
+            field.type || "text"
+          ).toLowerCase();
+
+        if (type === "tel") {
+          return "contact_tel";
+        }
+
+        if (type === "email") {
+          return "contact_email";
+        }
+
+        if (type === "text") {
+          return "contact_text";
+        }
+
+        return (
+          "input_" +
+          analyticsKeyPart(type)
+        );
+      }
+
+      if (
+        field instanceof
+          HTMLSelectElement
+      ) {
+        return "selection";
+      }
+
+      if (
+        field instanceof
+          HTMLButtonElement
+      ) {
+        return "form_action";
+      }
+
+      return "form";
+    }
+
+    function ensureFormStarted(
+      form,
+      field
+    ) {
+      const state =
+        leadFormState(form);
+
+      if (state.started) {
+        if (field) {
+          state.lastFieldKey =
+            safeFieldKey(field);
+        }
+
+        return;
+      }
+
+      state.started = true;
+      state.startedAt =
+        Date.now();
+
+      state.lastFieldKey =
+        safeFieldKey(field);
+
+      const modal =
+        leadModalForForm(form);
+
+      const validEntry =
+        lastLeadEntry &&
+        (
+          !modal?.id ||
+          !lastLeadEntry.modalTarget ||
+          modal.id ===
+            lastLeadEntry.modalTarget
+        ) &&
+        Date.now() -
+          lastLeadEntry.at <
+          30 * 60 * 1000;
+
+      emitBehaviour(
+        "form_start",
+        null,
+        {
+          form_key:
+            formKey(form),
+          entry_cta_type:
+            validEntry
+              ? lastLeadEntry.entryType
+              : "direct",
+          section_key:
+            "modal"
+        }
+      );
+    }
+
+    for (const form of leadForms()) {
+      form.addEventListener(
+        "pointerdown",
+        (event) => {
+          if (!event.isTrusted) {
+            return;
+          }
+
+          const field =
+            event.target instanceof Element
+              ? event.target.closest(
+                  "input, textarea, select, button"
+                )
+              : null;
+
+          if (field) {
+            ensureFormStarted(
+              form,
+              field
+            );
+          }
+        },
+        true
+      );
+
+      form.addEventListener(
+        "keydown",
+        (event) => {
+          if (!event.isTrusted) {
+            return;
+          }
+
+          const field =
+            event.target instanceof Element
+              ? event.target.closest(
+                  "input, textarea, select"
+                )
+              : null;
+
+          if (field) {
+            ensureFormStarted(
+              form,
+              field
+            );
+          }
+        },
+        true
+      );
+
+      form.addEventListener(
+        "input",
+        (event) => {
+          if (!event.isTrusted) {
+            return;
+          }
+
+          ensureFormStarted(
+            form,
+            event.target
+          );
+        },
+        true
+      );
+
+      form.addEventListener(
+        "change",
+        (event) => {
+          if (!event.isTrusted) {
+            return;
+          }
+
+          ensureFormStarted(
+            form,
+            event.target
+          );
+        },
+        true
+      );
+
+      form.addEventListener(
+        "submit",
+        () => {
+          const state =
+            leadFormState(form);
+
+          if (!state.started) {
+            ensureFormStarted(
+              form,
+              null
+            );
+          }
+
+          state.submitted = true;
+
+          markMeaningfulInteraction();
+
+          emitBehaviour(
+            "form_submit",
+            null,
+            {
+              form_key:
+                formKey(form),
+              request_type:
+                "lead",
+              submission_status:
+                "attempted"
+            }
+          );
+        },
+        true
+      );
+    }
+
+    function maybeEmitFormAbandon(form) {
+      const state =
+        leadFormState(form);
+
+      if (
+        !state.started ||
+        state.submitted ||
+        state.abandoned
+      ) {
+        return;
+      }
+
+      state.abandoned = true;
+
+      emitBehaviour(
+        "form_abandon",
+        null,
+        {
+          form_key:
+            formKey(form),
+          last_field_key:
+            state.lastFieldKey ||
+            "unknown",
+          step_key:
+            "modal_closed",
+          elapsed_ms:
+            Math.max(
+              0,
+              Date.now() -
+                (
+                  state.startedAt ||
+                  Date.now()
+                )
+            )
+        }
+      );
+    }
+
+    const leadModals =
+      Array.from(
+        new Set(
+          leadForms()
+            .map(
+              (form) =>
+                leadModalForForm(form)
+            )
+            .filter(Boolean)
+        )
+      );
+
+    function modalIsOpen(modal) {
+      return (
+        modal.getAttribute(
+          "aria-hidden"
+        ) === "false" ||
+        modal.classList.contains(
+          "is-open"
+        )
+      );
+    }
+
+    for (const modal of leadModals) {
+      let wasOpen =
+        modalIsOpen(modal);
+
+      const observer =
+        new MutationObserver(
+          () => {
+            const isOpen =
+              modalIsOpen(modal);
+
+            if (
+              isOpen &&
+              !wasOpen
+            ) {
+              for (
+                const form of
+                modal.querySelectorAll(
+                  "form"
+                )
+              ) {
+                resetLeadFormState(
+                  form
+                );
+              }
+            }
+
+            if (
+              !isOpen &&
+              wasOpen
+            ) {
+              for (
+                const form of
+                modal.querySelectorAll(
+                  "form"
+                )
+              ) {
+                maybeEmitFormAbandon(
+                  form
+                );
+              }
+            }
+
+            wasOpen = isOpen;
+          }
+        );
+
+      observer.observe(
+        modal,
+        {
+          attributes: true,
+          attributeFilter: [
+            "aria-hidden",
+            "class"
+          ]
+        }
+      );
+    }
+
 
   processSectionVisibility();
 
