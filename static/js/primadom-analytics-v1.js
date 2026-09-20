@@ -1,7 +1,27 @@
+/*
+ * PRIMADOM POSTHOG SDK BOOTSTRAP
+ * Executes only after Cookiebot statistics consent because
+ * this entire asset is consent-gated.
+ */
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog&&window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}p||((p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",p.onerror=function(){p=null},(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r));var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],Object.defineProperty(u,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e}}),Object.defineProperty(u.people,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(){return u.toString(1)+".people (stub)"}}),o="vu fu pu gu bu init Hu zu qu ju Gu Xl Bu Qu Du eh ih nh sh rh oh capture getExtension Uu cu hh calculateEventProperties uh register register_once register_for_session unregister unregister_for_session gh Nu dh getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync mh identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset yh shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty fh Xu createPersonProfile setInternalOrTestUser ph wu opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ju debug Yl Os getPageViewId captureTraceFeedback captureTraceMetric Ru".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  posthog.init("phc_zV9JCANa34fjw8hgBErdhv373DujimvQeHzXfKLouB88", {
+    api_host: "https://eu.i.posthog.com",
+    defaults: "2026-05-30",
+    person_profiles: "identified_only",
+    autocapture: false,
+    capture_pageview: false,
+    capture_pageleave: false,
+    disable_session_recording: true
+  });
+
 (() => {
   "use strict";
 
-  const ANALYTICS_SCRIPT = document.currentScript;
+  const ANALYTICS_SCRIPT =
+    document.currentScript ||
+    document.querySelector(
+      'script[data-primadom-analytics="v1"]'
+    );
   const PAGE_ID = String(
     ANALYTICS_SCRIPT?.dataset.pageId || ""
   ).trim();
@@ -9,6 +29,15 @@
   if (!PAGE_ID) {
     return;
   }
+
+  /*
+   * PRIMADOM ANALYTICS V1 — STATISTICS CONSENT
+   *
+   * This tracker is activated by Cookiebot only after the
+   * visitor grants the "statistics" category.
+   */
+  window.__primadomStatisticsConsent = true;
+  window.__primadomAnalyticsEverStarted = true;
   const ENDPOINT = "/api/analytics/v1/collect";
   const SESSION_TIMEOUT_MS = 30 * 60 * 1000;
 
@@ -224,6 +253,343 @@
     }
   }
 
+  /*
+   * PRIMADOM ANALYTICS V1 — GTM / GA4 BRIDGE
+   *
+   * Supabase remains the source of truth.
+   * GA4 receives only the selected marketing events below.
+   * No raw AI query, transcript, form values or PII are sent.
+   */
+
+  const analyticsScript =
+    ANALYTICS_SCRIPT;
+
+  const GTM_CONTAINER_ID =
+    analyticsScript?.dataset.gtmId || "";
+
+  const PAGE_TYPE =
+    analyticsScript?.dataset.pageType || "unknown";
+
+  const LANGUAGE_CODE =
+    String(
+      document.documentElement.lang ||
+      "und"
+    )
+      .trim()
+      .toLowerCase() ||
+    "und";
+
+
+  const GA4_SELECTED_EVENTS =
+    new Set([
+      "engaged_view",
+      "project_click",
+      "district_click",
+      "developer_click",
+      "comparison_click",
+      "faq_open",
+      "gallery_interaction",
+      "map_interaction",
+      "cta_click",
+      "form_start",
+      "form_submit",
+      "whatsapp_click",
+      "phone_click",
+      "email_click",
+      "ai_search_interaction",
+      "voice_interaction"
+    ]);
+
+
+  window.dataLayer =
+    window.dataLayer || [];
+
+
+  function ga4Scalar(value) {
+
+    if (
+      value === null ||
+      typeof value === "undefined"
+    ) {
+      return "";
+    }
+
+    if (
+      typeof value === "string" ||
+      typeof value === "number" ||
+      typeof value === "boolean"
+    ) {
+      return value;
+    }
+
+    return "";
+  }
+
+
+  function firstGa4Value(...values) {
+
+    for (const value of values) {
+
+      const safe =
+        ga4Scalar(value);
+
+      if (
+        safe !== ""
+      ) {
+        return safe;
+      }
+    }
+
+    return "";
+  }
+
+
+  function pushGa4Event(
+    eventName,
+    eventContext = {}
+  ) {
+
+    if (
+      !GA4_SELECTED_EVENTS.has(
+        eventName
+      )
+    ) {
+      return;
+    }
+
+
+    window.dataLayer.push({
+
+      event:
+        eventName,
+
+      page_id:
+        PAGE_ID,
+
+      language_code:
+        LANGUAGE_CODE,
+
+      page_type:
+        PAGE_TYPE,
+
+      section_key:
+        ga4Scalar(
+          eventContext.section_key
+        ),
+
+      interaction_key:
+        firstGa4Value(
+          eventContext.interaction_key,
+          eventContext.cta_key,
+          eventContext.form_key,
+          eventContext.target_entity_slug,
+          eventContext.target_entity_id,
+          eventContext.faq_key,
+          eventContext.item_key,
+          eventContext.contact_purpose
+        ),
+
+      interaction_type:
+        firstGa4Value(
+          eventContext.interaction_type,
+          eventContext.cta_type,
+          eventContext.target_entity_type,
+          eventContext.request_type,
+          eventContext.contact_purpose
+        ),
+
+      action:
+        firstGa4Value(
+          eventContext.action,
+          eventContext.action_intent,
+          eventContext.submission_status,
+          eventContext.outcome
+        ),
+
+      input_method:
+        ga4Scalar(
+          eventContext.input_method
+        )
+    });
+  }
+
+
+  /*
+   * PRIMADOM ANALYTICS V1 — POSTHOG CONTROLLED EVENTS
+   *
+   * Mirrors only the same normalized selected event layer
+   * used for GA4. Supabase remains source of truth.
+   */
+
+  function postHogEventProperties(
+    eventContext = {}
+  ) {
+
+    return {
+      page_id:
+        PAGE_ID,
+
+      language_code:
+        LANGUAGE_CODE,
+
+      page_type:
+        PAGE_TYPE,
+
+      section_key:
+        ga4Scalar(
+          eventContext.section_key
+        ),
+
+      interaction_key:
+        firstGa4Value(
+          eventContext.interaction_key,
+          eventContext.cta_key,
+          eventContext.form_key,
+          eventContext.target_entity_slug,
+          eventContext.target_entity_id,
+          eventContext.faq_key,
+          eventContext.item_key,
+          eventContext.contact_purpose
+        ),
+
+      interaction_type:
+        firstGa4Value(
+          eventContext.interaction_type,
+          eventContext.cta_type,
+          eventContext.target_entity_type,
+          eventContext.request_type,
+          eventContext.contact_purpose
+        ),
+
+      action:
+        firstGa4Value(
+          eventContext.action,
+          eventContext.action_intent,
+          eventContext.submission_status,
+          eventContext.outcome
+        ),
+
+      input_method:
+        ga4Scalar(
+          eventContext.input_method
+        )
+    };
+  }
+
+
+  function pushPostHogEvent(
+    eventName,
+    eventContext = {}
+  ) {
+
+    if (
+      !GA4_SELECTED_EVENTS.has(
+        eventName
+      ) ||
+      window.__primadomStatisticsConsent === false ||
+      !window.posthog ||
+      typeof window.posthog.capture !== "function"
+    ) {
+      return;
+    }
+
+    window.posthog.capture(
+      eventName,
+      postHogEventProperties(
+        eventContext
+      )
+    );
+  }
+
+
+  function loadGtmContainer() {
+
+    if (
+      !GTM_CONTAINER_ID ||
+      window.__primadomGtmRequested
+    ) {
+      return;
+    }
+
+    window.__primadomGtmRequested =
+      true;
+
+
+    /*
+     * Seed stable page metadata before GTM initializes.
+     * The custom bootstrap event itself is NOT sent to GA4.
+     */
+
+    window.dataLayer.push({
+      event:
+        "primadom_analytics_bootstrap",
+
+      page_id:
+        PAGE_ID,
+
+      language_code:
+        LANGUAGE_CODE,
+
+      page_type:
+        PAGE_TYPE,
+
+      section_key:
+        "",
+
+      interaction_key:
+        "",
+
+      interaction_type:
+        "",
+
+      action:
+        "",
+
+      input_method:
+        ""
+    });
+
+
+    window.dataLayer.push({
+      "gtm.start":
+        Date.now(),
+
+      event:
+        "gtm.js"
+    });
+
+
+    const script =
+      document.createElement(
+        "script"
+      );
+
+    script.async =
+      true;
+
+    script.src =
+      "https://www.googletagmanager.com/gtm.js?id=" +
+      encodeURIComponent(
+        GTM_CONTAINER_ID
+      );
+
+    script.setAttribute(
+      "data-primadom-gtm",
+      GTM_CONTAINER_ID
+    );
+
+    (
+      document.head ||
+      document.documentElement
+    ).appendChild(
+      script
+    );
+  }
+
+
+  loadGtmContainer();
+
+
   const pageViewPayload = {
     schema_version: "1.0",
     event_id: uuidV4(),
@@ -242,11 +608,46 @@
 
   const pageViewReady = sendPayload(pageViewPayload);
 
+  /*
+   * PRIMADOM POSTHOG PAGE VIEW
+   */
+  pageViewReady.then((accepted) => {
+
+    if (
+      !accepted ||
+      window.__primadomStatisticsConsent === false ||
+      !window.posthog ||
+      typeof window.posthog.capture !== "function"
+    ) {
+      return;
+    }
+
+    window.posthog.capture(
+      "page_view",
+      {
+        page_id:
+          PAGE_ID,
+
+        language_code:
+          LANGUAGE_CODE,
+
+        page_type:
+          PAGE_TYPE
+      }
+    );
+  });
+
   async function emitBehaviour(
     eventName,
     eventValue = null,
     eventContext = {}
   ) {
+    if (
+      window.__primadomStatisticsConsent === false
+    ) {
+      return false;
+    }
+
     const ready = await pageViewReady;
 
     if (!ready) {
@@ -270,6 +671,16 @@
         ...eventContext
       }
     };
+
+    pushGa4Event(
+      eventName,
+      eventContext
+    );
+
+    pushPostHogEvent(
+      eventName,
+      eventContext
+    );
 
     const accepted = await sendPayload(payload);
 

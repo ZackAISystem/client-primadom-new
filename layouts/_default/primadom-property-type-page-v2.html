@@ -3,6 +3,7 @@
 {{- $t := $d.t -}}
 <html lang="{{ $d.lang }}" dir="{{ if eq $d.lang "ar" }}rtl{{ else }}ltr{{ end }}">
 <head>
+  {{ partial "shared/consent_head.html" . }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ $t.seo.title }}</title>

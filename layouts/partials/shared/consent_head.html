@@ -20,11 +20,22 @@
 {{- end -}}
 {{- $languageCode := $.Site.Language.Lang | default "en" -}}
 <script
-  type="text/plain"
-  data-cookieconsent="statistics"
-  data-primadom-analytics="v1"
-  src="/js/primadom-analytics-v1.js?v=eff4faa94fc6"
+  src="/js/primadom-consent-v1.js?v=8333b5008e89"
+  data-cookieconsent="ignore"
+></script>
+
+<script
+  id="Cookiebot"
+  src="https://consent.cookiebot.com/uc.js"
+  data-cbid="cd353fe3-52c5-4033-bbea-144d8b55abe6"
+  type="text/javascript"
+></script>
+
+<script
+  src="/js/primadom-gtm-bootstrap-v1.js?v=911fefe770f2"
+  data-cookieconsent="ignore"
   data-page-id="{{ . }}"
+  data-language-code="{{ $languageCode }}"
   data-page-type="{{ $pageType }}"
   data-gtm-id="GTM-KRVXSGT3"
 ></script>
