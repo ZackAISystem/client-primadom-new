@@ -456,6 +456,106 @@
     return key;
   }
 
+  function acquisitionContext() {
+    const params =
+      new URLSearchParams(
+        window.location.search
+      );
+
+    let referrerHost = null;
+    let referrerPath = null;
+
+    try {
+      if (document.referrer) {
+        const referrer =
+          new URL(document.referrer);
+
+        referrerHost =
+          clean(
+            referrer.hostname,
+            255
+          )?.toLowerCase() || null;
+
+        referrerPath =
+          clean(
+            referrer.pathname,
+            1000
+          ) || null;
+      }
+    } catch {}
+
+    const clickIds = {};
+
+    const clickIdKeys = [
+      "gclid",
+      "dclid",
+      "gbraid",
+      "wbraid",
+      "fbclid",
+      "ttclid",
+      "msclkid",
+      "li_fat_id"
+    ];
+
+    for (const key of clickIdKeys) {
+      const value =
+        clean(
+          params.get(key),
+          500
+        );
+
+      if (value) {
+        clickIds[key] = value;
+      }
+    }
+
+    return {
+      referrer_host: referrerHost,
+      referrer_path: referrerPath,
+
+      utm_source:
+        clean(
+          params.get("utm_source"),
+          255
+        )?.toLowerCase() || null,
+
+      utm_medium:
+        clean(
+          params.get("utm_medium"),
+          255
+        )?.toLowerCase() || null,
+
+      utm_campaign:
+        clean(
+          params.get("utm_campaign"),
+          500
+        ) || null,
+
+      utm_id:
+        clean(
+          params.get("utm_id"),
+          255
+        ) || null,
+
+      utm_term:
+        clean(
+          params.get("utm_term"),
+          500
+        ) || null,
+
+      utm_content:
+        clean(
+          params.get("utm_content"),
+          500
+        ) || null,
+
+      click_ids: clickIds
+    };
+  }
+
+  const initialAcquisition =
+    acquisitionContext();
+
   function payload(form) {
     const data =
       extract(form);
@@ -476,6 +576,9 @@
       pageview_id:
         analytics.pageview_id,
 
+
+        acquisition:
+          initialAcquisition,
       page_id:
         clean(
           tag?.dataset?.pageId,
@@ -1050,6 +1153,6 @@
 
   window.PrimadomLead =
     Object.freeze({
-      version: "1.0.1"
+      version: "1.0.2"
     });
 })();
