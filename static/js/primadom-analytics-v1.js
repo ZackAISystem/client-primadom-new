@@ -204,6 +204,12 @@
   const sessionId = getSessionId(nowMs);
   const pageviewId = uuidV4();
 
+  window.__primadomAnalyticsContextV1 = {
+    visitor_id: visitorId,
+    session_id: sessionId,
+    pageview_id: pageviewId
+  };
+
   function touchSessionActivity(activityMs = Date.now()) {
     storageSet(
       SESSION_KEY,
