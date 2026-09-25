@@ -44,7 +44,8 @@
     </nav>
 
     <article class="pt-visual" aria-label="{{ $t.hero.visual_aria }}">
-      <img src="{{ $t.hero.image.src | relURL }}" alt="{{ $t.hero.image.alt }}">
+      {{- $media := partial "primadom/media/resolve.html" (dict "src" $t.hero.image.src "fallback" "/img/primadom/fallbacks/property-type.svg") -}}
+      <img data-media-source="{{ $media.source }}" src="{{ $media.src | relURL }}" alt="{{ $t.hero.image.alt }}">
 
       <div class="pt-hero__content">
         <div class="pt-title-pill">
