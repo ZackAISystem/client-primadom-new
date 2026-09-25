@@ -45,12 +45,12 @@
 
     <article class="ob-visual" aria-label="{{ $t.hero.visual_aria }}">
 
-      {{- with $t.hero.image.src }}
+      {{- $media := partial "primadom/media/resolve.html" (dict "src" $t.hero.image.src "fallback" "/img/primadom/fallbacks/origin-buyer.svg") -}}
         <img
-          src="{{ . }}"
+          data-media-source="{{ $media.source }}" src="{{ $media.src | relURL }}"
           alt="{{ $t.hero.image.alt | default "" }}"
         >
-      {{- end }}
+
 
       <div class="ob-hero__content">
         <div class="ob-title-pill">

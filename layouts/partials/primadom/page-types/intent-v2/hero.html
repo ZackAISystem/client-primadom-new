@@ -44,9 +44,8 @@
     </nav>
 
     <article class="pi-visual" aria-label="{{ $t.hero.visual_aria }}">
-      {{- with $t.hero.image.src }}
-        <img src="{{ . | relURL }}" alt="{{ $t.hero.image.alt }}">
-      {{- end }}
+      {{- $media := partial "primadom/media/resolve.html" (dict "src" $t.hero.image.src "fallback" "/img/primadom/fallbacks/intent.svg") -}}
+      <img data-media-source="{{ $media.source }}" src="{{ $media.src | relURL }}" alt="{{ $t.hero.image.alt }}">
 
       <div class="pi-hero__content">
         <div class="pi-title-pill">

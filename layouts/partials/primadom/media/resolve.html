@@ -1,0 +1,27 @@
+{{- $src := "" -}}
+{{- with .src -}}
+  {{- $src = printf "%v" . -}}
+{{- end -}}
+
+{{- $fallback := .fallback -}}
+{{- $lower := lower $src -}}
+
+{{- $isSVG := false -}}
+{{- if $src -}}
+  {{- $isSVG = strings.Contains $lower ".svg" -}}
+{{- end -}}
+
+{{- $isReal := and $src (not $isSVG) -}}
+
+{{- $resolved := $fallback -}}
+{{- $source := "fallback" -}}
+
+{{- if $isReal -}}
+  {{- $resolved = $src -}}
+  {{- $source = "real" -}}
+{{- end -}}
+
+{{- return (dict
+  "src" $resolved
+  "source" $source
+) -}}

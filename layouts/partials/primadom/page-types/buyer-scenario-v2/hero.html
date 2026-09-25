@@ -45,12 +45,12 @@
 
     <article class="bs-visual" aria-label="{{ $t.hero.visual_aria }}">
 
-      {{- with $t.hero.image.src }}
+      {{- $media := partial "primadom/media/resolve.html" (dict "src" $t.hero.image.src "fallback" "/img/primadom/fallbacks/buyer-scenario.svg") -}}
         <img
-          src="{{ . }}"
+          data-media-source="{{ $media.source }}" src="{{ $media.src | relURL }}"
           alt="{{ $t.hero.image.alt }}"
         >
-      {{- end }}
+
 
       <div class="bs-hero__content">
         <div class="bs-title-pill">
