@@ -62,6 +62,9 @@
             data-slide="{{ $i }}"
           >
             <picture>
+              {{- with $t.hero.image.mobile_src }}
+                <source media="(max-width: 767px)" srcset="{{ . | safeURL }}">
+              {{- end }}
               <img alt="{{ $t.hero.image.alt }}" src="{{ $src | safeURL }}">
             </picture>
           </div>
