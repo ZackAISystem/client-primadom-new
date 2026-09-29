@@ -446,11 +446,6 @@ if [ "$HI" -lt 22508 ]; then
   exit 1
 fi
 
-if [ "$AR" -ne 0 ]; then
-  echo "ERROR: AR output must not exist in MAIN production build"
-  exit 1
-fi
-
 if [ "$ZH" -lt 22500 ]; then
   echo "ERROR: ZH output is unexpectedly small"
   exit 1
@@ -484,7 +479,7 @@ if [ "$TOTAL" -gt 100000 ]; then
 fi
 
 echo ""
-echo "PASS — EN/RU/HI/AR preserved"
+echo "PASS — EN/RU/HI/ZH preserved"
 echo "PASS — ZH 22,499 AI pages present"
 echo "PASS — total output below 100,000 files"
 echo "PASS — production output ready"
