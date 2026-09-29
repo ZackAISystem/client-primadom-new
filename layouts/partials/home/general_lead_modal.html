@@ -1,23 +1,28 @@
-{{ $voiceIcon := site.Data.site.home.hero.search.voice_icon | default "/img/icons/mic.svg" }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
+{{ $modal := $locale.modal }}
+{{ $a11y := $locale.a11y }}
 
-{{ $preparedText := "Hello, I would like to book a call with Primadom AI about UAE real estate." }}
-{{ $placeholderText := "Tell us what you are looking for: area, budget, lifestyle, investment goal or developer..." }}
+{{ $voiceIcon := $home.hero.search.voice_icon | default "/img/icons/mic.svg" }}
+
+{{ $preparedText := $modal.prepared_request | default "Hello, I would like to book a call with Prima AI about UAE real estate." }}
+{{ $placeholderText := $modal.request_placeholder | default "Tell us what you are looking for: area, budget, lifestyle, investment goal or developer..." }}
 
 <div class="pd-lead-modal" id="generalLeadModal" aria-hidden="true">
   <div class="pd-lead-modal__backdrop" data-general-lead-close></div>
 
-  <section class="pd-lead-modal__panel" role="dialog" aria-modal="true" aria-label="Book a call form">
-    <button class="pd-lead-modal__close" type="button" data-general-lead-close aria-label="Close enquiry form">
+  <section class="pd-lead-modal__panel" role="dialog" aria-modal="true" aria-label="{{ $a11y.modal_form | default "Book a call form" }}">
+    <button class="pd-lead-modal__close" type="button" data-general-lead-close aria-label="{{ $a11y.modal_close | default "Close enquiry form" }}">
       ×
     </button>
 
     <div class="pd-lead-modal__head">
-      <span class="pd-lead-modal__eyebrow">Primadom request</span>
+      <span class="pd-lead-modal__eyebrow">{{ $modal.eyebrow | default "Primadom request" }}</span>
 
-      <h2>Book a call with Primadom AI</h2>
+      <h2>{{ $modal.title | default "Book a call with Prima AI" }}</h2>
 
       <p>
-        Tell us what you are looking for. Add your contact details or record a short voice note.
+        {{ $modal.description | default "Tell us what you are looking for. Add your contact details or record a short voice note." }}
       </p>
     </div>
 
@@ -26,28 +31,28 @@
 
       <div class="pd-lead-form__grid">
         <label class="pd-lead-field">
-          <span>Your name</span>
-          <input type="text" name="name" placeholder="Name">
+          <span>{{ $modal.name_label | default "Your name" }}</span>
+          <input type="text" name="name" placeholder="{{ $modal.name_placeholder | default "Name" }}">
         </label>
 
         <label class="pd-lead-field">
-          <span>Phone / WhatsApp</span>
-          <input type="tel" name="phone" placeholder="+971">
+          <span>{{ $modal.phone_label | default "Phone / WhatsApp" }}</span>
+          <input type="tel" name="phone" placeholder="{{ $modal.phone_placeholder | default "+971" }}">
         </label>
 
         <label class="pd-lead-field">
-          <span>Email optional</span>
-          <input type="email" name="email" placeholder="email@example.com">
+          <span>{{ $modal.email_label | default "Email optional" }}</span>
+          <input type="email" name="email" placeholder="{{ $modal.email_placeholder | default "email@example.com" }}">
         </label>
       </div>
 
       <label class="pd-lead-field pd-lead-field--comment">
-        <span>Request</span>
+        <span>{{ $modal.request_label | default "Request" }}</span>
 
         <div class="pd-lead-ai-row">
           <div class="pd-lead-ai-row__badge">
             <i></i>
-            Primadom AI
+            Prima AI
           </div>
 
           <textarea
@@ -56,7 +61,7 @@
             placeholder="{{ $placeholderText }}"
           >{{ $preparedText }}</textarea>
 
-          <button class="pd-lead-voice" type="button" data-general-lead-voice aria-label="Dictate request by voice">
+          <button class="pd-lead-voice" type="button" data-general-lead-voice aria-label="{{ $modal.voice_aria | default "Dictate request by voice" }}">
             <span class="pd-lead-voice__aura"></span>
             <span class="pd-lead-voice__core">
               <img src="{{ $voiceIcon | relURL }}" alt="">
@@ -64,11 +69,11 @@
           </button>
 
           <button class="pd-lead-submit" type="submit">
-            Send
+            {{ $modal.send | default "Send" }}
           </button>
         </div>
 
-        <small data-general-lead-voice-status>Click the voice button to replace the request with a spoken note.</small>
+        <small data-general-lead-voice-status>{{ $modal.initial_status | default "Click the voice button to replace the request with a spoken note." }}</small>
       </label>
     </form>
   </section>
@@ -149,22 +154,18 @@
     form.addEventListener('submit', event => {
       event.preventDefault();
 
-      const data = new FormData(form);
-      const payload = Object.fromEntries(data.entries());
-
-      console.log('Primadom general lead:', payload);
-
       const submit = form.querySelector('.pd-lead-submit');
 
-      if (submit) {
-        submit.textContent = 'Sent';
-        submit.classList.add('is-done');
+      if (!submit) return;
 
-        window.setTimeout(() => {
-          submit.textContent = 'Send';
-          submit.classList.remove('is-done');
-        }, 1800);
-      }
+      submit.textContent = {{ ($modal.sent | default "Sent") | jsonify }};
+      submit.classList.add('is-done');
+
+      window.setTimeout(() => {
+        submit.textContent = {{ ($modal.send | default "Send") | jsonify }};
+        submit.classList.remove('is-done');
+        closeModal();
+      }, 1400);
     });
   }
 
@@ -184,7 +185,7 @@
         comment.focus();
       }
 
-      setVoiceState(true, 'Listening… your voice note will replace the prepared request.');
+      setVoiceState(true, {{ ($modal.listening | default "Listening… your voice note will replace the prepared request.") | jsonify }});
     };
 
     recognition.onresult = event => {
@@ -210,7 +211,7 @@
     };
 
     recognition.onerror = () => {
-      setVoiceState(false, 'Voice paused. You can type your note manually.');
+      setVoiceState(false, {{ ($modal.voice_paused | default "Voice paused. You can type your note manually.") | jsonify }});
     };
 
     recognition.onend = () => {
@@ -218,17 +219,17 @@
         comment.value = normalizeSpaces(comment.value);
       }
 
-      setVoiceState(false, 'Voice note added. You can edit the request before sending.');
+      setVoiceState(false, {{ ($modal.voice_added | default "Voice note added. You can edit the request before sending.") | jsonify }});
     };
   }
 
   if (voiceBtn) {
     voiceBtn.addEventListener('click', () => {
       if (!recognition) {
-        setVoiceState(true, 'Voice recognition is not supported in this browser.');
+        setVoiceState(true, {{ ($modal.voice_unsupported | default "Voice recognition is not supported in this browser.") | jsonify }});
 
         window.setTimeout(() => {
-          setVoiceState(false, 'You can type your note manually.');
+          setVoiceState(false, {{ ($modal.voice_manual | default "You can type your note manually.") | jsonify }});
         }, 1800);
 
         return;
@@ -241,7 +242,7 @@
           recognition.start();
         }
       } catch (e) {
-        setVoiceState(false, 'Voice is already active. Try again in a moment.');
+        setVoiceState(false, {{ ($modal.voice_already_active | default "Voice is already active. Try again in a moment.") | jsonify }});
       }
     });
   }

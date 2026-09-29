@@ -2,6 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CANONICAL_SEARCH_DICT="$ROOT/data/search/dict.json"
 
 WORK="$ROOT/.build-project-b"
 FINAL="$ROOT/public"
@@ -21,6 +22,12 @@ rm -rf "$WORK" "$FINAL"
 mkdir -p \
   "$WORK" \
   "$FINAL"
+
+if [ ! -f "$CANONICAL_SEARCH_DICT" ]; then
+  echo "ERROR — missing canonical Search dictionary:"
+  echo "$CANONICAL_SEARCH_DICT"
+  exit 1
+fi
 
 echo ""
 echo "========================================"
@@ -108,6 +115,12 @@ for LANG in "${LANGS[@]}"; do
     -maxdepth 1 \
     ! -name 'primadom' \
     -exec cp -a {} "$STAGE/data/" \;
+
+  mkdir -p "$STAGE/data/search"
+
+  cp -a \
+    "$CANONICAL_SEARCH_DICT" \
+    "$STAGE/data/search/dict.json"
 
   # Only current language Primadom JSON.
   cp -a \

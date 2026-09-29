@@ -1,37 +1,38 @@
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
+{{ $results := $locale.results }}
+{{ $a11y := $locale.a11y }}
+
 <section id="results" class="results" aria-hidden="true">
 
-  {{/* ---------- language ---------- */}}
-  {{ $lang := .Site.Language.Lang | default "en" }}
-
-  {{/* ---------- projects dataset ---------- */}}
-  {{ $projects := site.Data.projects }}
+  {{/* Search V2 — cards are rendered client-side from compact projection. */}}
 
   <!-- sticky search -->
   <div class="results__sticky">
     <div class="results__sticky-inner">
       <div class="results__bar">
 
-        <button class="results__brand" type="button" aria-label="Close results and return to Primadom AI">
+        <button class="results__brand" type="button" aria-label="{{ $results.close_return | default "Close results and return to Prima AI" }}">
           <span class="results__brand-dot"></span>
-          <span>Primadom AI</span>
+          <span>Prima AI</span>
         </button>
 
         <input
           id="resultsQuery"
           class="results__query results__query--input"
           type="text"
-          placeholder="Type your search..."
+          placeholder="{{ $results.placeholder | default "Type your search..." }}"
           autocomplete="off"
         >
 
-        <button class="results__voice" type="button" aria-label="Voice search">
+        <button class="results__voice" type="button" aria-label="{{ $results.voice_search | default "Voice search" }}">
           <span class="results__voice-aura"></span>
           <span class="results__voice-core">
-            <img src="{{ site.Data.site.home.hero.search.voice_icon | default "/img/icons/mic.svg" | relURL }}" alt="">
+            <img src="{{ $home.hero.search.voice_icon | default "/img/icons/mic.svg" | relURL }}" alt="">
           </span>
         </button>
 
-        <button class="results__clear" type="button" aria-label="Close search results">
+        <button class="results__clear" type="button" aria-label="{{ $results.close_results | default "Close search results" }}">
           <span></span>
         </button>
 
@@ -40,92 +41,12 @@
   </div>
 
   <div class="results__grid results__grid--four">
-    {{ range $key, $p := $projects }}
-
-      {{ $slug := $p.slug | default $key }}
-
-      {{ $title := $slug }}
-      {{ with $p.name }}
-        {{ $title = (index . $lang | default (index . "en") | default $title) }}
-      {{ end }}
-
-      {{ $location := "" }}
-      {{ with $p.location_text }}
-        {{ $location = (index . $lang | default (index . "en") | default "") }}
-      {{ end }}
-
-      {{ $developer := "" }}
-      {{ with $p.developer }}
-        {{ $developer = (index . $lang | default (index . "en") | default "") }}
-      {{ end }}
-
-      {{ $priceCurrency := "" }}
-      {{ $priceAmount := "" }}
-      {{ $price := "" }}
-      {{ with $p.price_from }}
-        {{ $priceCurrency = .currency }}
-        {{ $priceAmount = .amount }}
-        {{ $price = printf "%s %s" .currency .amount }}
-      {{ end }}
-
-      {{ $img := $p.promo_image | default "" }}
-      {{ if and (not $img) $p.gallery }}
-        {{ $img = index $p.gallery 0 }}
-      {{ end }}
-
-      {{ $searchText := printf "%s %s %s %s" $title $location $developer $price }}
-      {{ with $p._search }}
-        {{ $searchText = printf "%s %s %s %s %s" $searchText .area .developer .city .emirate }}
-        {{ with .tokens_extra }}
-          {{ $searchText = printf "%s %s" $searchText (delimit . " ") }}
-        {{ end }}
-      {{ end }}
-
-      <a
-        class="results-card"
-        href="{{ printf "/%s/projects/%s/" $lang $slug | relURL }}"
-        data-search="{{ $searchText | lower }}"
-        data-title="{{ $title }}"
-        data-location="{{ $location }}"
-        data-developer="{{ $developer }}"
-        data-price="{{ $price }}"
-      >
-        <div class="results-card__inner">
-          {{ if $img }}
-            <img class="results-card__img" src="{{ $img | relURL }}" alt="{{ $title }}">
-          {{ else }}
-            <div class="results-card__placeholder"></div>
-          {{ end }}
-
-          <div class="results-card__meta">
-            <h3 class="results-card__title">{{ $title }}</h3>
-
-            {{ if $location }}
-              <div class="results-card__row">
-                <span>Location:</span>
-                <strong>{{ $location }}</strong>
-              </div>
-            {{ end }}
-
-            {{ if $price }}
-              <div class="results-card__row">
-                <span>Price From:</span>
-                <strong class="price">
-                  <span class="price__currency">{{ $priceCurrency }}</span>
-                  <span class="price__value">{{ $priceAmount }}</span>
-                </strong>
-              </div>
-            {{ end }}
-          </div>
-        </div>
-      </a>
-
-    {{ end }}
   </div>
 
   <div class="results__bottom-space"></div>
 
 </section>
+
 
 <script>
 (function () {

@@ -1,0 +1,41 @@
+{{/*
+  PAGES-B Homepage canonical Project resolver.
+  Supports native and staged PAGES-B dataDir layouts.
+*/}}
+
+{{ $lang := default "es" .lang }}
+{{ $slug := .slug }}
+
+{{ $root := site.Data.primadom }}
+{{ $projects := dict }}
+
+{{ with index $root $lang }}
+  {{ with index . "project_pages" }}
+    {{ $projects = . }}
+  {{ end }}
+{{ end }}
+
+{{ if eq (len $projects) 0 }}
+  {{ with index $root "project_pages" }}
+    {{ $projects = . }}
+  {{ end }}
+{{ end }}
+
+{{ if eq (len $projects) 0 }}
+  {{ errorf
+    "PAGES-B Homepage project_pages missing: lang=%s"
+    $lang
+  }}
+{{ end }}
+
+{{ $project := index $projects $slug }}
+
+{{ if not $project }}
+  {{ errorf
+    "PAGES-B Homepage Project missing: lang=%s slug=%s"
+    $lang
+    $slug
+  }}
+{{ end }}
+
+{{ return $project }}

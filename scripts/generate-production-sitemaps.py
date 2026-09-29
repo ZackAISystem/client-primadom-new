@@ -9,6 +9,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = 22499
+SITEMAP_EXPECTED = EXPECTED + 1
 DOMAIN = "https://primadom.ai"
 
 LANGS = sys.argv[1:] or ["es", "fr", "de", "ar"]
@@ -153,6 +154,23 @@ def verify_html(lang, paths):
 
 
 def write_sitemap(lang, paths):
+    homepage_path = f"/{lang}/"
+    homepage_html = ROOT / "public" / lang / "index.html"
+
+    if not homepage_html.is_file():
+        fail(
+            f"{lang.upper()} homepage HTML missing: "
+            f"{homepage_html}"
+        )
+
+    sitemap_paths = set(paths)
+    sitemap_paths.add(homepage_path)
+
+    if len(sitemap_paths) != SITEMAP_EXPECTED:
+        fail(
+            f"{lang.upper()} sitemap source routes = "
+            f"{len(sitemap_paths)} / {SITEMAP_EXPECTED}"
+        )
     target = ROOT / "public" / lang / "sitemap.xml"
     target.parent.mkdir(parents=True, exist_ok=True)
 
@@ -161,7 +179,7 @@ def write_sitemap(lang, paths):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
 
-    for path in sorted(paths):
+    for path in sorted(sitemap_paths):
         url = DOMAIN + path
         lines.append(f"  <url><loc>{escape(url)}</loc></url>")
 
@@ -183,13 +201,13 @@ def write_sitemap(lang, paths):
         if n.text
     ]
 
-    if len(locs) != EXPECTED:
+    if len(locs) != SITEMAP_EXPECTED:
         fail(
             f"{lang.upper()} sitemap LOC count "
-            f"{len(locs)} / {EXPECTED}"
+            f"{len(locs)} / {SITEMAP_EXPECTED}"
         )
 
-    if len(set(locs)) != EXPECTED:
+    if len(set(locs)) != SITEMAP_EXPECTED:
         fail(f"{lang.upper()} sitemap contains duplicate URLs")
 
     for url in locs:
@@ -253,7 +271,7 @@ for lang in LANGS:
     grand_total += len(locs)
 
 
-expected_total = EXPECTED * len(LANGS)
+expected_total = SITEMAP_EXPECTED * len(LANGS)
 
 print("\n" + "=" * 64)
 print(f"TOTAL SITEMAP URLS: {grand_total} / {expected_total}")

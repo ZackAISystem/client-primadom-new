@@ -1,0 +1,473 @@
+<script>
+(function () {
+  if (!document.body.classList.contains("page-home")) return;
+
+  const LANGS = [
+    "en",
+    "ru",
+    "hi",
+    "zh",
+    "es",
+    "fr",
+    "de",
+    "ar"
+  ];
+
+  const SS_QUERY =
+    "primadom_home_lang_query_v1";
+
+  const SS_SOURCE =
+    "primadom_home_lang_source_v1";
+
+  const SS_OPEN_RESULTS =
+    "primadom_home_lang_open_results_v1";
+
+  const RESULTS_STORAGE_KEY =
+    "results_query";
+
+
+  const SOURCES = {
+    hero: {
+      selector: ".home-hero__input"
+    },
+
+    top_projects: {
+      selector: ".top-projects-ask__input",
+      trigger: ".top-projects-ask__trigger"
+    },
+
+    top_developers: {
+      selector: ".top-developers-ask__input",
+      trigger: ".top-developers-ask__trigger"
+    },
+
+    intent: {
+      selector: ".intent-ask__input"
+    },
+
+    results: {
+      selector: "#resultsQuery",
+      openResults: true
+    }
+  };
+
+
+  function normalizeLang(lang) {
+    const value =
+      String(lang || "")
+        .toLowerCase()
+        .trim();
+
+    return LANGS.includes(value)
+      ? value
+      : "en";
+  }
+
+
+  function getUrlLang() {
+    const first =
+      String(window.location.pathname || "/")
+        .split("/")
+        .filter(Boolean)[0]
+        ?.toLowerCase();
+
+    return LANGS.includes(first)
+      ? first
+      : "en";
+  }
+
+
+  function homepagePath(lang) {
+    return "/" + normalizeLang(lang) + "/";
+  }
+
+
+  function detectLanguage(query) {
+    const routeDetector =
+      window.__primadomDetectRouteLanguage;
+
+    if (
+      typeof routeDetector === "function"
+    ) {
+      return normalizeLang(
+        routeDetector(
+          String(query || ""),
+          getUrlLang()
+        )
+      );
+    }
+
+    const searchDetector =
+      window.__primadomDetectSearchLanguage;
+
+    if (
+      typeof searchDetector !== "function"
+    ) {
+      console.warn(
+        "[Prima Homepage] language detector unavailable"
+      );
+
+      return getUrlLang();
+    }
+
+    return normalizeLang(
+      searchDetector(
+        String(query || "")
+      )
+    );
+  }
+
+
+  function saveQuery(query) {
+    const q =
+      String(query || "").trim();
+
+    try {
+      if (q) {
+        localStorage.setItem(
+          RESULTS_STORAGE_KEY,
+          q
+        );
+      } else {
+        localStorage.removeItem(
+          RESULTS_STORAGE_KEY
+        );
+      }
+    } catch (e) {}
+  }
+
+
+  function redirectToLanguage(
+    targetLang,
+    query,
+    sourceKey,
+    openResults
+  ) {
+    const target =
+      normalizeLang(targetLang);
+
+    const current =
+      getUrlLang();
+
+    if (target === current) {
+      return false;
+    }
+
+    const q =
+      String(query || "").trim();
+
+    try {
+      sessionStorage.setItem(
+        SS_QUERY,
+        q
+      );
+
+      sessionStorage.setItem(
+        SS_SOURCE,
+        sourceKey || "hero"
+      );
+
+      sessionStorage.setItem(
+        SS_OPEN_RESULTS,
+        openResults ? "1" : "0"
+      );
+
+      localStorage.setItem(
+        "lang_pref",
+        target
+      );
+    } catch (e) {}
+
+    saveQuery(q);
+
+    window.location.assign(
+      homepagePath(target)
+    );
+
+    return true;
+  }
+
+
+  function restoreInput(
+    sourceKey,
+    query
+  ) {
+    const config =
+      SOURCES[sourceKey] ||
+      SOURCES.hero;
+
+    if (
+      config.trigger &&
+      sourceKey !== "hero"
+    ) {
+      const trigger =
+        document.querySelector(
+          config.trigger
+        );
+
+      if (trigger) {
+        trigger.click();
+      }
+    }
+
+    const apply = () => {
+      const input =
+        document.querySelector(
+          config.selector
+        );
+
+      if (!input) {
+        return false;
+      }
+
+      input.value = query || "";
+
+      // IMPORTANT:
+      // Restoring a query after a language redirect must NOT
+      // emit a synthetic input event.
+      //
+      // The input listener below owns user-driven language
+      // detection. Re-emitting "input" here can trigger a
+      // second redirect using restored/stale language state.
+      input.focus();
+
+      if (
+        typeof input.setSelectionRange ===
+          "function"
+      ) {
+        const end =
+          input.value.length;
+
+        try {
+          input.setSelectionRange(
+            end,
+            end
+          );
+        } catch (e) {}
+      }
+
+      return true;
+    };
+
+    if (!apply()) {
+      requestAnimationFrame(apply);
+    }
+  }
+
+
+  function openResultsIfNeeded(
+    openResults
+  ) {
+    if (!openResults) return;
+
+    const results =
+      document.getElementById(
+        "results"
+      );
+
+    if (!results) return;
+
+    results.classList.add(
+      "is-open"
+    );
+
+    results.setAttribute(
+      "aria-hidden",
+      "false"
+    );
+  }
+
+
+  function restoreAfterRedirect() {
+    let query = "";
+    let sourceKey = "";
+    let openResults = false;
+
+    try {
+      query =
+        sessionStorage.getItem(
+          SS_QUERY
+        ) || "";
+
+      sourceKey =
+        sessionStorage.getItem(
+          SS_SOURCE
+        ) || "";
+
+      openResults =
+        sessionStorage.getItem(
+          SS_OPEN_RESULTS
+        ) === "1";
+
+      sessionStorage.removeItem(
+        SS_QUERY
+      );
+
+      sessionStorage.removeItem(
+        SS_SOURCE
+      );
+
+      sessionStorage.removeItem(
+        SS_OPEN_RESULTS
+      );
+    } catch (e) {}
+
+    if (!sourceKey) {
+      return;
+    }
+
+    saveQuery(query);
+
+    requestAnimationFrame(() => {
+      restoreInput(
+        sourceKey,
+        query
+      );
+
+      openResultsIfNeeded(
+        openResults
+      );
+    });
+  }
+
+
+  function attachLanguageDetection(
+    sourceKey,
+    config
+  ) {
+    const input =
+      document.querySelector(
+        config.selector
+      );
+
+    if (!input) return;
+
+    let redirecting = false;
+
+    input.addEventListener(
+      "input",
+      () => {
+        if (redirecting) return;
+
+        const query =
+          String(
+            input.value || ""
+          ).trim();
+
+        if (!query) return;
+
+        const detected =
+          detectLanguage(query);
+
+        const current =
+          getUrlLang();
+
+        if (
+          !detected ||
+          detected === current
+        ) {
+          return;
+        }
+
+        redirecting = true;
+
+        redirectToLanguage(
+          detected,
+          query,
+          sourceKey,
+          !!config.openResults
+        );
+      },
+      { passive: true }
+    );
+  }
+
+
+  // URL is authoritative for the rendered Homepage language.
+  const pageLang =
+    getUrlLang();
+
+  try {
+    localStorage.setItem(
+      "lang_pref",
+      pageLang
+    );
+  } catch (e) {}
+
+  document.documentElement.setAttribute(
+    "lang",
+    pageLang
+  );
+
+  document.documentElement.setAttribute(
+    "dir",
+    pageLang === "ar"
+      ? "rtl"
+      : "ltr"
+  );
+
+  document.body.classList.toggle(
+    "rtl",
+    pageLang === "ar"
+  );
+
+
+  Object.entries(
+    SOURCES
+  ).forEach(
+    ([sourceKey, config]) => {
+      attachLanguageDetection(
+        sourceKey,
+        config
+      );
+    }
+  );
+
+
+  restoreAfterRedirect();
+
+
+  /*
+    Future manual language selector can call:
+
+      window.__primadomHomeSetLanguage("ru")
+
+    URL will remain authoritative.
+  */
+  window.__primadomHomeSetLanguage =
+    function (lang) {
+      const active =
+        document.activeElement;
+
+      let sourceKey = "hero";
+      let query = "";
+
+      for (
+        const [key, config]
+        of Object.entries(SOURCES)
+      ) {
+        const input =
+          document.querySelector(
+            config.selector
+          );
+
+        if (
+          input &&
+          input === active
+        ) {
+          sourceKey = key;
+          query = input.value || "";
+          break;
+        }
+      }
+
+      return redirectToLanguage(
+        lang,
+        query,
+        sourceKey,
+        sourceKey === "results"
+      );
+    };
+
+})();
+</script>
