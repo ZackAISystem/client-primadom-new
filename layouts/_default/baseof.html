@@ -43,8 +43,10 @@
 
   {{ block "scripts" . }}{{ end }}
 
-  {{/* Global UI i18n */}}
-  {{ if ne .Layout "primadom-district-page-v2" }}
+  {{/* UI i18n */}}
+  {{ if .IsHome }}
+    {{ partial "home/language_switch.html" . }}
+  {{ else if ne .Layout "primadom-district-page-v2" }}
     {{ partial "shared/i18n_ui.html" . }}
   {{ end }}
 

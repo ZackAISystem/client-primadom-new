@@ -480,11 +480,12 @@ h6 {
   }
 
   .site-header__inner {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
   }
 
   .site-header__badge {
+    justify-self: start;
     height: 42px;
     padding: 0 16px 0 14px;
     font-size: 11px;
@@ -492,7 +493,7 @@ h6 {
   }
 
   .site-header__right {
-    justify-self: start;
+    justify-self: end;
   }
 
   .site-header__cta {
@@ -501,6 +502,74 @@ h6 {
     font-size: 13px;
   }
 }
+/* === HOME HEADER RTL START === */
+/* =========================
+   Header / RTL Home
+========================= */
+
+/* Same geometry as EN.
+   Only direction / logical placement changes. */
+body.rtl .site-header__inner {
+  direction: rtl;
+}
+
+/* Brand is always visually LTR:
+   dot stays LEFT of PRIMADOM AI. */
+body.rtl .site-header__badge {
+  direction: ltr;
+  unicode-bidi: isolate;
+  flex-direction: row-reverse;
+}
+
+body.rtl .site-header__cta {
+  direction: rtl;
+}
+
+/* Desktop:
+   logo RIGHT / navigation CENTER / CTA LEFT */
+@media (min-width: 1181px) {
+  body.rtl .site-header__badge {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  body.rtl .site-header__nav {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    direction: rtl;
+  }
+
+  body.rtl .site-header__right {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+}
+
+/* Tablet + mobile:
+   logo RIGHT / CTA LEFT — one row */
+@media (max-width: 1180px) {
+  body.rtl .site-header__inner {
+    direction: rtl;
+  }
+
+  body.rtl .site-header__badge {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  body.rtl .site-header__right {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+  }
+}
+
+/* === HOME HEADER RTL END === */
+
 /* =========================
    Home Hero
 ========================= */
@@ -849,17 +918,22 @@ h6 {
 .home-hero__input {
   flex: 1 1 auto;
   min-width: 0;
-  height: 100%;
+  height: 50px;
 
-  padding: 0;
+  padding: 14px 0;
   border: 0;
   outline: none;
   background: transparent;
 
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  align-self: center;
+
   color: rgba(255, 255, 255, 0.94);
   font-size: 18px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 22px;
 }
 
 .home-hero__input::placeholder {
@@ -1380,11 +1454,12 @@ h6 {
   }
 
   .site-header__inner {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
   }
 
   .site-header__badge {
+    justify-self: start;
     height: 42px;
     padding: 0 16px 0 14px;
     font-size: 11px;
@@ -1392,7 +1467,7 @@ h6 {
   }
 
   .site-header__right {
-    justify-self: start;
+    justify-self: end;
   }
 
   .site-header__cta {
@@ -1403,23 +1478,60 @@ h6 {
 
   .home-hero {
     min-height: auto;
-    padding: 0 16px 54px;
+    padding: 0 16px 30px;
   }
 
   .home-hero__inner {
-    padding-top: 142px;
+    padding-top: 102px;
     gap: 18px;
   }
 
+  .home-hero__title-wrap {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    text-align: left;
+  }
+
   .home-hero__title {
-    font-size: 34px;
+    max-width: none;
+    margin: 0;
+    font-size: 30px;
     line-height: 1;
     letter-spacing: -0.035em;
   }
 
   .home-hero__featured {
-    height: 460px;
+    height: auto;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    perspective: none;
+  }
+
+  .home-hero__featured:hover {
+    transform: none;
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  .home-hero__slides {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
     border-radius: 28px;
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow:
+      0 28px 82px rgba(0, 0, 0, 0.40),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
   }
 
   .home-hero__featured-top {
@@ -1446,42 +1558,97 @@ h6 {
   }
 
   .home-hero__photo-search {
-    left: 18px;
-    right: 18px;
-    bottom: 18px;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    z-index: 8;
   }
 
   .home-hero__search {
+    position: relative;
+    width: 100%;
     height: auto;
-    min-height: 60px;
+    min-height: auto;
+
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 9px;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    grid-template-areas:
+      "badge badge"
+      "input voice"
+      "button button";
+
+    gap: 8px 10px;
     padding: 10px;
     border-radius: 26px;
+
+    background:
+      linear-gradient(
+        135deg,
+        rgba(17, 16, 14, 0.82),
+        rgba(33, 28, 24, 0.76)
+      );
+
+    border: 1px solid rgba(255, 255, 255, 0.16);
+
+    box-shadow:
+      0 24px 72px rgba(0, 0, 0, 0.26),
+      inset 0 1px 0 rgba(255, 255, 255, 0.10);
+
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
   }
 
   .home-hero__ai-badge {
-    height: 38px;
+    grid-area: badge;
     width: fit-content;
-    padding: 0 14px 0 12px;
+    height: 42px;
+    padding: 0 15px 0 13px;
     font-size: 10.5px;
     align-self: center;
   }
 
   .home-hero__input {
+    grid-area: input;
+
     width: 100%;
     min-width: 0;
-    height: 40px;
-    padding: 0 4px;
-    font-size: 15px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    padding: 6px 2px;
+
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+
+    font-size: 14px;
     font-weight: 400;
+    line-height: 1.35;
+  }
+
+  .home-hero__input::placeholder {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .home-hero__voice {
-    width: 100%;
+    grid-area: voice;
+
+    width: 44px;
     height: 44px;
-    justify-content: center;
+    flex: 0 0 44px;
+
+    justify-self: end;
+    align-self: end;
+
+    border-radius: 50%;
   }
 
   .home-hero__voice-popover {
@@ -1500,10 +1667,13 @@ h6 {
   }
 
   .home-hero__get {
+    grid-area: button;
+
     width: 100%;
     min-width: 0;
     height: 44px;
-    margin-top: 2px;
+
+    margin-top: 0;
     font-size: 15px;
   }
 
@@ -1519,6 +1689,143 @@ h6 {
     font-size: 12px;
   }
 }
+
+/* === HOME HERO RTL START === */
+/* =========================
+   Home Hero / RTL
+========================= */
+
+/* Project information mirrors Passo:
+   project title/info RIGHT, price LEFT. */
+body.rtl .home-hero__featured-top {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .home-hero__featured-info {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .home-hero__featured-title,
+body.rtl .home-hero__featured-meta {
+  text-align: right;
+}
+
+body.rtl .home-hero__featured-price {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Desktop AI search:
+   PRIMA AI RIGHT / Arabic input RTL /
+   microphone + CTA toward LEFT. */
+body.rtl .home-hero__search {
+  direction: rtl;
+}
+
+body.rtl .home-hero__ai-badge {
+  direction: ltr;
+  unicode-bidi: isolate;
+  flex-direction: row-reverse;
+}
+
+body.rtl .home-hero__input {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  text-align: right;
+}
+
+body.rtl .home-hero__input::placeholder {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .home-hero__get {
+  direction: rtl;
+}
+
+
+/* =========================
+   Home Hero / RTL Mobile
+   Geometry inherited 1:1 from EN
+========================= */
+@media (max-width: 760px) {
+
+  body.rtl .home-hero__title-wrap,
+  body.rtl .home-hero__title {
+    direction: rtl;
+    text-align: right;
+  }
+
+  /* DO NOT redefine dimensions.
+     EN mobile sizes remain canonical. */
+
+  body.rtl .home-hero__search {
+    direction: ltr;
+
+    grid-template-columns: 44px minmax(0, 1fr);
+    grid-template-areas:
+      "badge badge"
+      "voice input"
+      "button button";
+  }
+
+  /* AI badge on RIGHT */
+  body.rtl .home-hero__ai-badge {
+    grid-area: badge;
+    justify-self: end;
+
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  /* Arabic textarea on RIGHT.
+     Keep EN height/font/padding exactly as-is. */
+  body.rtl .home-hero__input {
+    grid-area: input;
+
+    direction: rtl;
+    unicode-bidi: plaintext;
+    text-align: right;
+
+    white-space: pre-wrap !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  body.rtl .home-hero__input::placeholder {
+    direction: rtl;
+    text-align: right;
+
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  /* Circular microphone LEFT.
+     Size inherited from EN = 44x44. */
+  body.rtl .home-hero__voice {
+    grid-area: voice;
+    justify-self: start;
+    align-self: end;
+  }
+
+  /* Full-width CTA, dimensions inherited from EN. */
+  body.rtl .home-hero__get {
+    grid-area: button;
+    direction: rtl;
+  }
+
+  body.rtl .home-hero__chips {
+    direction: rtl;
+  }
+}
+
+/* === HOME HERO RTL END === */
+
 /* =========================
    Home Top Projects
 ========================= */
@@ -2011,15 +2318,22 @@ h6 {
   z-index: 2;
   flex: 1 1 auto;
   min-width: 0;
-  height: 100%;
+  height: 42px;
 
+  padding: 10px 0;
   border: 0;
   outline: 0;
   background: transparent;
 
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  align-self: center;
+
   color: rgba(255,255,255,0.94);
   font-size: 17px;
   font-weight: 400;
+  line-height: 22px;
 }
 
 .top-projects-ask__input::placeholder {
@@ -2608,15 +2922,22 @@ h6 {
   z-index: 2;
   flex: 1 1 auto;
   min-width: 0;
-  height: 100%;
+  height: 42px;
 
+  padding: 10px 0;
   border: 0;
   outline: 0;
   background: transparent;
 
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  align-self: center;
+
   color: rgba(255,255,255,0.94);
   font-size: 17px;
   font-weight: 400;
+  line-height: 22px;
 }
 
 .top-developers-ask__input::placeholder {
@@ -3174,25 +3495,65 @@ h6 {
     margin-top: 24px;
   }
 
-  .top-projects-ask__trigger,
-  .top-developers-ask__trigger {
+  .top-projects-ask__trigger {
     position: relative;
-    width: 100%;
-    min-width: 0;
+    width: min(340px, 78%);
+    min-width: 236px;
     height: 58px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
   }
 
-  .top-projects-ask__form,
+  .top-developers-ask__trigger {
+    position: relative;
+    width: min(340px, 78%);
+    min-width: 236px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+
+  .top-projects-ask__form {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    grid-template-areas:
+      "badge badge"
+      "input voice"
+      "button button";
+
+    gap: 8px 10px;
+    padding: 10px;
+    border-radius: 26px;
+
+    transform:
+      translate3d(0, 10px, -40px)
+      rotateX(-5deg)
+      scale(0.96);
+  }
+
   .top-developers-ask__form {
     position: relative;
+    width: 100%;
     height: auto;
-    min-height: 66px;
+    min-height: auto;
+
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    grid-template-areas:
+      "badge badge"
+      "input voice"
+      "button button";
+
+    gap: 8px 10px;
     padding: 10px;
-    border-radius: 28px;
+    border-radius: 26px;
 
     transform:
       translate3d(0, 10px, -40px)
@@ -3206,8 +3567,30 @@ h6 {
     inset: 0;
   }
 
-  .top-projects-ask.is-open .top-projects-ask__form,
+  .top-projects-ask.is-open .top-projects-ask__trigger {
+    position: absolute;
+    inset: 0;
+  }
+
+  .top-projects-ask.is-open .top-projects-ask__form {
+    width: 100%;
+    flex: 0 0 100%;
+
+    transform:
+      translate3d(0, 0, 0)
+      rotateX(0deg)
+      scale(1);
+  }
+
+  .top-developers-ask.is-open .top-developers-ask__trigger {
+    position: absolute;
+    inset: 0;
+  }
+
   .top-developers-ask.is-open .top-developers-ask__form {
+    width: 100%;
+    flex: 0 0 100%;
+
     transform:
       translate3d(0, 0, 0)
       rotateX(0deg)
@@ -3222,21 +3605,96 @@ h6 {
     font-size: 11px;
   }
 
-  .top-projects-ask__input,
-  .top-developers-ask__input {
+  .top-projects-ask__badge {
+    grid-area: badge;
+  }
+
+  .top-developers-ask__badge {
+    grid-area: badge;
+  }
+
+  .top-projects-ask__input {
+    grid-area: input;
     width: 100%;
+    min-width: 0;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    padding: 6px 2px;
+    resize: none;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+
+    line-height: 1.35;
+    font-size: 14px;
+  }
+
+  .top-developers-ask__input {
+    grid-area: input;
+
+    width: 100%;
+    min-width: 0;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    padding: 6px 2px;
+
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+
+    line-height: 1.35;
+    font-size: 14px;
+  }
+
+  .top-projects-ask__voice {
+    grid-area: voice;
+
+    width: 44px;
     height: 44px;
+    flex: 0 0 44px;
+
+    justify-self: end;
+    align-self: end;
+
+    border-radius: 50%;
+  }
+
+  .top-developers-ask__voice {
+    grid-area: voice;
+
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+
+    justify-self: end;
+    align-self: end;
+
+    border-radius: 50%;
+  }
+
+  .top-projects-ask__button {
+    grid-area: button;
+    width: 100%;
+    height: 46px;
+    min-width: 0;
     font-size: 15px;
   }
 
-  .top-projects-ask__voice,
-  .top-developers-ask__voice {
-    width: 100%;
-    height: 44px;
-  }
-
-  .top-projects-ask__button,
   .top-developers-ask__button {
+    grid-area: button;
+
     width: 100%;
     height: 46px;
     min-width: 0;
@@ -3425,6 +3883,15 @@ h6 {
 
 .home-intent-route:hover .home-intent-route__arrow {
   transform: translateX(4px);
+}
+
+/* AR / RTL — Buyer Goals arrows */
+body.rtl .home-intent-route__arrow {
+  transform: scaleX(-1);
+}
+
+body.rtl .home-intent-route:hover .home-intent-route__arrow {
+  transform: scaleX(-1) translateX(4px);
 }
 
 .home-intent__dark-note {
@@ -3617,14 +4084,20 @@ h6 {
   min-width: 0;
   height: 46px;
 
+  padding: 12px 0;
   border: 0;
   outline: 0;
   background: transparent;
 
+  resize: none;
+  overflow: hidden;
+  white-space: nowrap;
+  align-self: center;
+
   color: rgba(255,255,255,0.94);
   font-size: 15.5px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 22px;
 }
 
 .intent-ask__input::placeholder {
@@ -4060,15 +4533,27 @@ h6 {
     min-height: 58px;
   }
 
+  .home-intent__dark-note {
+    font-size: 11px;
+  }
+
   .intent-ask__form {
     min-height: auto;
+
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    grid-template-areas:
+      "badge badge"
+      "input voice"
+      "button button";
+
+    gap: 8px 10px;
     padding: 10px;
     border-radius: 26px;
   }
 
   .intent-ask__badge {
+    grid-area: badge;
     width: fit-content;
     height: 40px;
     padding: 0 15px 0 13px;
@@ -4076,17 +4561,49 @@ h6 {
   }
 
   .intent-ask__input {
+    grid-area: input;
+
     width: 100%;
-    height: 42px;
+    min-width: 0;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    padding: 6px 2px;
+
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+
     font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .intent-ask__input::placeholder {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .intent-ask__voice {
-    width: 100%;
-    height: 42px;
+    grid-area: voice;
+
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+
+    justify-self: end;
+    align-self: end;
+
+    border-radius: 50%;
   }
 
   .intent-ask__button {
+    grid-area: button;
+
     width: 100%;
     height: 44px;
     min-width: 0;
@@ -6618,6 +7135,12 @@ html.pd-modal-open {
   border-color: rgba(255, 255, 255, 0.22);
 }
 
+/* AR / RTL — Lead Modal close button */
+body.rtl .pd-lead-modal__close {
+  right: auto;
+  left: 22px;
+}
+
 /* =========================
    Top intro block
 ========================= */
@@ -7023,7 +7546,7 @@ html.pd-modal-open {
 
   .pd-lead-modal__panel {
     max-height: calc(100vh - 36px);
-    padding: 20px;
+    padding: 24px 20px 26px;
     border-radius: 30px;
     overflow: auto;
   }
@@ -7046,37 +7569,73 @@ html.pd-modal-open {
 
   .pd-lead-ai-row {
     min-height: auto;
+
+    display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas: none;
+
+    gap: 10px;
     align-items: stretch;
-    border-radius: 24px;
+
+    border-radius: 26px;
     padding: 14px;
   }
 
   .pd-lead-ai-row__badge {
+    grid-area: auto;
+
     width: fit-content;
+    height: 42px;
+    padding: 0 16px 0 14px;
+
+    font-size: 10.5px;
   }
 
   .pd-lead-ai-row textarea {
-    height: 96px;
-    min-height: 96px;
-    max-height: 140px;
-    white-space: normal;
-    overflow: auto;
-    padding: 8px 2px;
-  }
+    grid-area: auto;
 
-  .pd-lead-voice,
-  .pd-lead-submit {
     width: 100%;
     min-width: 0;
+
+    height: 104px;
+    min-height: 104px;
+    max-height: 104px;
+
+    padding: 8px 2px;
+
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+
+    font-size: 14px;
+    line-height: 1.35;
   }
 
   .pd-lead-voice {
-    height: 52px;
-    border-radius: 999px;
+    grid-area: auto;
+
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    min-height: 44px;
+    max-height: 44px;
+
+    justify-self: end;
+    align-self: center;
+
+    border-radius: 50%;
+    padding: 0;
   }
 
   .pd-lead-submit {
+    grid-area: auto;
+
+    width: 100%;
+    min-width: 0;
     height: 52px;
   }
 }
@@ -7609,9 +8168,10 @@ html.pd-modal-open {
 
 @media (max-width: 560px) {
   .site-footer__brand {
-    width: 100%;
+    width: fit-content;
     height: auto;
     min-height: 52px;
+    padding: 0 18px 0 15px;
     align-items: center;
   }
 
@@ -7635,6 +8195,15 @@ html.pd-modal-open {
   .footer-pill {
     width: 100%;
   }
+}
+
+/* AR footer brand: PRIMADOM AI only */
+body.rtl .site-footer__brand-subtitle {
+  display: none;
+}
+
+body.rtl .site-footer__brand-copy {
+  gap: 0;
 }
 
 /* =========================

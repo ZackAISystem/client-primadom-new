@@ -1,0 +1,43 @@
+{{/*
+  Homepage canonical Project JSON resolver.
+
+  EN:
+    data/primadom/project_pages_v2
+
+  Localized:
+    first tries MAIN data/primadom/<lang>/project_pages
+    then PAGES-B client-primadom-pages-b/data/primadom/<lang>/project_pages
+
+  No project data is duplicated here.
+*/}}
+
+{{- $lang := default "en" .lang -}}
+{{- $slug := .slug -}}
+
+{{- $paths := slice
+  (printf "data/primadom/%s/project_pages/%s.json" $lang $slug)
+  (printf "client-primadom-pages-b/data/primadom/%s/project_pages/%s.json" $lang $slug)
+-}}
+
+{{- if eq $lang "en" -}}
+  {{- $paths = slice
+    (printf "data/primadom/project_pages_v2/%s.json" $slug)
+  -}}
+{{- end -}}
+
+{{- $path := "" -}}
+
+{{- range $paths -}}
+  {{- if and (eq $path "") (os.FileExists .) -}}
+    {{- $path = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if eq $path "" -}}
+  {{- errorf "Homepage canonical Project JSON missing: lang=%s slug=%s" $lang $slug -}}
+{{- end -}}
+
+{{- $raw := os.ReadFile $path -}}
+{{- $project := transform.Unmarshal (dict "format" "json") $raw -}}
+
+{{- return $project -}}

@@ -1,6 +1,10 @@
-{{ $home := site.Data.site.home }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
+{{ $lang := $locale.lang }}
 {{ $section := $home.top_projects }}
 {{ $heroSearch := $home.hero.search }}
+{{ $voice := $locale.voice }}
+{{ $a11y := $locale.a11y }}
 
 {{ if $section }}
 <section class="home-top-projects" id="projects">
@@ -18,33 +22,125 @@
     </div>
 
     <div class="home-top-projects__grid">
-      {{ range $section.cards }}
-        {{ $href := printf "/projects/%s/" .slug | relLangURL }}
 
-        <a class="top-project-card" href="{{ $href }}" aria-label="{{ .title }}">
+      {{/*
+        Same four Homepage identities in every language.
+        Only canonical language source changes.
+      */}}
+
+      {{ $cards := slice
+        (dict "slug" "passo" "gallery_index" 0)
+        (dict "slug" "jumeirah-living-business-bay" "gallery_index" 1)
+        (dict "slug" "orla-by-omniyat" "gallery_index" 0)
+        (dict "slug" "palm-central" "gallery_index" 0)
+      }}
+
+      {{ range $cards }}
+
+        {{ $card := . }}
+        {{ $slug := index $card "slug" }}
+        {{ $galleryIndex := int (index $card "gallery_index") }}
+
+        {{ $project := partial "home/project_json.html" (dict
+          "lang" $lang
+          "slug" $slug
+        ) }}
+
+        {{ $hero := index $project.blocks "block_03_hero" }}
+        {{ $short := index $project.blocks "block_05_short_answer" }}
+        {{ $facts := index $project.blocks "block_06_key_facts" }}
+
+        {{ $image := "" }}
+
+        {{ with $hero.gallery }}
+          {{ if and
+            (ge $galleryIndex 0)
+            (lt $galleryIndex (len .))
+          }}
+            {{ $image = index . $galleryIndex }}
+          {{ end }}
+        {{ end }}
+
+        {{ $district := "" }}
+        {{ $developer := "" }}
+
+        {{ with $facts.key_facts }}
+          {{ range . }}
+
+            {{ if and
+              (eq .key "district")
+              (ne .value_status "missing")
+            }}
+              {{ $district = .value | default "" }}
+            {{ end }}
+
+            {{ if and
+              (eq .key "developer")
+              (ne .value_status "missing")
+            }}
+              {{ $developer = .value | default "" }}
+            {{ end }}
+
+          {{ end }}
+        {{ end }}
+
+        {{ $meta := "" }}
+
+        {{ if and $district $developer }}
+          {{ $meta = printf "%s · %s" $district $developer }}
+        {{ else if $district }}
+          {{ $meta = $district }}
+        {{ else if $developer }}
+          {{ $meta = $developer }}
+        {{ end }}
+
+        <a
+          class="top-project-card"
+          href="{{ $project.url_path }}"
+          aria-label="{{ $hero.hero_title }}"
+        >
           <div class="top-project-card__media">
+
             <img
               class="top-project-card__img"
-              src="{{ .image }}"
-              alt="{{ .alt }}"
+              src="{{ $image }}"
+              alt="{{ $hero.image_alt | default $hero.hero_title }}"
               loading="lazy"
             >
 
-            <div class="top-project-card__overlay" aria-hidden="true"></div>
+            <div
+              class="top-project-card__overlay"
+              aria-hidden="true"
+            ></div>
 
             <div class="top-project-card__content">
-              <h3 class="top-project-card__title">{{ .title }}</h3>
-              <p class="top-project-card__meta">{{ .meta }}</p>
+
+              <h3 class="top-project-card__title">
+                {{ $hero.hero_title }}
+              </h3>
+
+              {{ if $meta }}
+                <p class="top-project-card__meta">
+                  {{ $meta }}
+                </p>
+              {{ end }}
 
               <div class="top-project-card__tags">
-                {{ range first 2 .tags }}
-                  <span class="top-project-card__tag">{{ . }}</span>
+                {{ with $short.short_answer_chips }}
+                  {{ range first 2 . }}
+                    <span class="top-project-card__tag">
+                      {{ . }}
+                    </span>
+                  {{ end }}
                 {{ end }}
               </div>
+
             </div>
           </div>
         </a>
+
       {{ end }}
+
     </div>
 
     <div class="top-projects-ask" data-top-projects-ask>
@@ -58,24 +154,24 @@
         role="search"
         aria-label="{{ $section.ask.aria }}"
       >
-        <button class="top-projects-ask__badge" type="button" aria-label="Collapse Primadom AI search">
+        <button class="top-projects-ask__badge" type="button" aria-label="{{ $a11y.collapse_project_search | default "Collapse Prima AI search" }}">
           <span class="top-projects-ask__badge-dot"></span>
           <span>{{ $section.ask.badge }}</span>
         </button>
 
-        <input
+        <textarea
           class="top-projects-ask__input"
-          type="text"
           name="top_projects_q"
           placeholder="{{ $section.ask.placeholder }}"
           autocomplete="off"
+          rows="2"
           data-typing-examples='{{ $section.ask.typing_examples | jsonify }}'
-        >
+        ></textarea>
 
         <button
           class="top-projects-ask__voice"
           type="button"
-          aria-label="Start voice search"
+          aria-label="{{ $a11y.start_voice_search | default "Start voice search" }}"
           aria-pressed="false"
         >
           <span class="top-projects-ask__voice-aura" aria-hidden="true"></span>
@@ -93,8 +189,8 @@
             <span class="top-projects-ask__voice-popover-dot"></span>
 
             <div class="top-projects-ask__voice-copy">
-              <span class="top-projects-ask__voice-status">Listening…</span>
-              <span class="top-projects-ask__voice-text">Tell Primadom AI what you want</span>
+              <span class="top-projects-ask__voice-status">{{ $voice.listening | default "Listening…" }}</span>
+              <span class="top-projects-ask__voice-text">{{ $voice.tell_prima | default "Tell Prima AI what you want" }}</span>
             </div>
 
             <span class="top-projects-ask__voice-bars" aria-hidden="true">
@@ -159,7 +255,7 @@
     recognition.continuous = false;
 
     recognition.onstart = () => {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
     };
 
     recognition.onresult = event => {
@@ -173,13 +269,13 @@
 
       if (transcript) {
         input.value = transcript;
-        if (voiceStatus) voiceStatus.textContent = 'Got it';
+        if (voiceStatus) voiceStatus.textContent = {{ ($voice.got_it | default "Got it") | jsonify }};
         if (voiceText) voiceText.textContent = transcript;
       }
     };
 
     recognition.onerror = () => {
-      if (voiceStatus) voiceStatus.textContent = 'Voice paused';
+      if (voiceStatus) voiceStatus.textContent = {{ ($voice.paused | default "Voice paused") | jsonify }};
       if (voiceText) voiceText.textContent = 'Type your request or try again';
 
       window.setTimeout(() => setVoiceState(false), 900);
@@ -218,7 +314,7 @@
     }
 
     if (!recognition) {
-      setVoiceState(true, 'Voice mode', 'Speech recognition is not supported here');
+      setVoiceState(true, {{ ($voice.mode | default "Voice mode") | jsonify }}, {{ ($voice.unsupported | default "Speech recognition is not supported here") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);
@@ -230,7 +326,7 @@
     try {
       recognition.start();
     } catch (e) {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);

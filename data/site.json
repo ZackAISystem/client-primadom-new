@@ -67,9 +67,9 @@
       "sharjah": "Sharjah",
       "ras_al_khaimah": "Ras Al Khaimah",
       "typing_examples": [
-        "Buy an apartment near a park in Dubai",
-        "Villa on Saadiyat Island with sea view",
-        "Off-plan 1–2 bedroom under 3M AED"
+        "2BR apartment in Dubai under AED 3M",
+        "Sea-view villa on Saadiyat Island",
+        "Palm Jumeirah apartment under AED 5M"
       ]
     },
     "ru": {
@@ -219,7 +219,7 @@
   ],
   "footer": {
     "title": "UAE property search, guided by real intent",
-    "subtitle": "Primadom AI helps clients move from broad interest to the right project, district, developer and advisor — faster, cleaner and with less noise.",
+    "subtitle": "Prima AI helps clients move from broad interest to the right project, district, developer and advisor — faster, cleaner and with less noise.",
     "chips": [
       "UAE off-plan",
       "AI matched search",
@@ -230,7 +230,7 @@
   "home": {
     "hero": {
       "header": {
-        "badge": "Primadom AI System",
+        "badge": "PRIMADOM AI",
         "nav_aria": "Main navigation",
         "nav": [
           {
@@ -239,8 +239,8 @@
             "active": true
           },
           {
-            "label": "Areas",
-            "href": "#areas",
+            "label": "Top developers",
+            "href": "#developers",
             "active": false
           },
           {
@@ -296,43 +296,43 @@
         }
       ],
       "search": {
-        "aria": "Primadom AI property search",
+        "aria": "Prima AI property search",
         "search_icon": "/img/search.png",
         "voice_icon": "/img/voice.png",
-        "placeholder": "Find your home by your rules…",
+        "placeholder": "Area, budget, type or lifestyle…",
         "button": "Find",
         "chips": [
           {
             "label": "Dubai",
-            "query": "Show me off-plan apartments in Dubai"
+            "query": "Apartments in Dubai"
           },
           {
             "label": "Abu Dhabi",
-            "query": "Find premium homes in Abu Dhabi"
+            "query": "Apartments in Abu Dhabi"
           },
           {
             "label": "Sea view",
-            "query": "Show me UAE properties with sea view"
+            "query": "Sea-view properties in the UAE"
           },
           {
             "label": "Payment plan",
-            "query": "Find projects with flexible payment plans"
+            "query": "Projects with payment plans"
           },
           {
             "label": "Under AED 2M",
-            "query": "Show me properties under AED 2M"
+            "query": "Properties under AED 2M"
           }
         ],
         "caption": "Search across 2,000+ off-plan projects in the UAE",
         "typing_examples": [
-          "Buy an apartment near a park in Dubai",
-          "Villa on Saadiyat Island with sea view",
-          "Off-plan 1–2 bedroom under 3M AED"
+          "2BR apartment in Dubai under AED 3M",
+          "Sea-view villa on Saadiyat Island",
+          "Palm Jumeirah apartment under AED 5M"
         ]
       }
     },
     "top_projects": {
-      "eyebrow": "Curated by Primadom AI",
+      "eyebrow": "Curated by Prima AI",
       "title": "Top projects",
       "subtitle": "A concise selection of premium UAE projects — beach, city, investment and lifestyle options matched to real buyer intent.",
       "cards": [
@@ -386,9 +386,9 @@
         }
       ],
       "ask": {
-        "collapsed_label": "Ask Primadom AI",
-        "badge": "Primadom AI",
-        "aria": "Ask Primadom AI about top projects",
+        "collapsed_label": "Ask Prima AI",
+        "badge": "Prima AI",
+        "aria": "Ask Prima AI about top projects",
         "placeholder": "Ask about top projects, budget or location…",
         "button": "Ask",
         "typing_examples": [
@@ -406,6 +406,7 @@
       "cards": [
         {
           "key": "omniyat",
+          "slug": "omniyat-group",
           "image": "/img/top_developers/omniyat.jpg",
           "alt": "Omniyat Group luxury real estate developer in Dubai",
           "founded": "Founded in 2005",
@@ -419,6 +420,7 @@
         },
         {
           "key": "emaar",
+          "slug": "emaar-properties",
           "image": "/img/top_developers/emaar.jpg",
           "alt": "Emaar Properties developer in Dubai",
           "founded": "Founded in 1997",
@@ -432,6 +434,7 @@
         },
         {
           "key": "aldar",
+          "slug": "aldar-properties-pjsc",
           "image": "/img/top_developers/aldar.jpg",
           "alt": "Aldar Properties developer in Abu Dhabi",
           "founded": "Founded in 2004",
@@ -446,8 +449,8 @@
       ],
       "ask": {
         "collapsed_label": "Ask about developers",
-        "badge": "Primadom AI",
-        "aria": "Ask Primadom AI about UAE developers",
+        "badge": "Prima AI",
+        "aria": "Ask Prima AI about UAE developers",
         "placeholder": "Ask about Emaar, Omniyat, Aldar or developer reputation…",
         "button": "Ask",
         "typing_examples": [
@@ -459,81 +462,2736 @@
       }
     },
     "intent_block": {
-      "eyebrow": "Buyer intent routes",
-      "title": "Explore by buyer intent",
-      "subtitle": "Start from the real question: budget, lifestyle, district, developer, family needs or investment logic — then Primadom AI routes the client to matching UAE projects.",
-      "routes_aria": "Popular buyer intent routes",
-      "note": "Each route opens a real search path: area pages, developer logic, budget filters and project recommendations.",
+      "eyebrow": "Popular buyer goals",
+      "title": "Start with what matters most",
+      "subtitle": "Choose your priority — budget, lifestyle, location or investment — and explore the most relevant UAE property path.",
+      "routes_aria": "Popular buyer goals",
+      "note": "Focused guides for budgets, lifestyles, locations and buying decisions across the UAE.",
       "routes": [
         {
-          "label": "Best ROI areas",
+          "label": "Best rental areas",
           "meta": "Investment",
-          "query": "Show me the best ROI areas in Dubai and Abu Dhabi"
+          "href": "/ai-answers/best-area-for-rental-income-dubai/"
         },
         {
           "label": "Family villas",
           "meta": "Lifestyle",
-          "query": "Find family villas near schools, parks and calm communities"
+          "href": "/ai-answers/best-area-for-family-villas/"
         },
         {
-          "label": "Sea view apartments",
+          "label": "Sea-view apartments",
           "meta": "Waterfront",
-          "query": "Show me sea view apartments in Dubai and Abu Dhabi"
+          "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
         },
         {
-          "label": "Payment plan projects",
+          "label": "Payment plans",
           "meta": "Budget logic",
-          "query": "Find off-plan projects with flexible payment plans"
+          "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
         },
         {
           "label": "Dubai under AED 2M",
           "meta": "Entry budget",
-          "query": "Show me Dubai projects under AED 2M"
+          "href": "/budgets/dubai-projects-under-aed-2m/"
         },
         {
           "label": "Abu Dhabi luxury",
           "meta": "Capital lifestyle",
-          "query": "Find luxury projects in Abu Dhabi near waterfront areas"
+          "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
         },
         {
-          "label": "Top developers",
-          "meta": "Trust",
-          "query": "Compare Emaar, Aldar and Omniyat projects"
+          "label": "Emaar vs Aldar",
+          "meta": "Developer match",
+          "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
         },
         {
-          "label": "Best districts to live",
+          "label": "Family areas in Dubai",
           "meta": "Area match",
-          "query": "Which UAE districts are best for lifestyle and long-term value?"
+          "href": "/ai-answers/best-area-for-family-dubai/"
         }
       ],
       "ask": {
-        "eyebrow": "Natural language search",
-        "title": "Ask Primadom AI",
-        "subtitle": "Describe what the client wants in plain language. The system detects intent, area, budget, lifestyle and routes the request to the right project logic.",
-        "badge": "Primadom AI",
-        "aria": "Ask Primadom AI by buyer intent",
-        "placeholder": "Ask by area, budget, lifestyle or investment goal…",
+        "eyebrow": "Smart property search",
+        "title": "Ask Prima AI",
+        "subtitle": "Tell Prima what you're looking for — area, budget, lifestyle or investment goal — and get matched to relevant UAE projects.",
+        "badge": "Prima AI",
+        "aria": "Ask Prima AI about UAE property goals",
+        "placeholder": "Area, budget, lifestyle or investment goal…",
         "button": "Ask",
         "typing_examples": [
-          "Find a family apartment near a park in Dubai",
-          "Which areas are best for ROI under AED 2M?",
-          "Compare waterfront projects in Dubai and Abu Dhabi",
-          "Show me trusted developers with flexible payment plans"
+          "2BR apartment in Dubai under AED 3M",
+          "Family-friendly area near schools and parks",
+          "Waterfront home with a payment plan",
+          "Best Dubai areas for rental income under AED 2M"
         ],
         "quick_examples": [
           {
-            "label": "ROI under AED 2M",
-            "query": "Which UAE areas have strong ROI under AED 2M?"
+            "label": "Dubai ROI under AED 2M",
+            "query": "Which Dubai areas offer strong rental income under AED 2M?"
           },
           {
             "label": "Family near schools",
             "query": "Find family-friendly communities near schools and parks"
           },
           {
-            "label": "Waterfront lifestyle",
-            "query": "Show me waterfront projects with lifestyle value"
+            "label": "Waterfront living",
+            "query": "Show me waterfront homes with lifestyle value"
           }
         ]
+      }
+    }
+  },
+  "home_i18n": {
+    "ar": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "التنقل الرئيسي",
+            "nav": [
+              {
+                "label": "أفضل المشاريع",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "أفضل المطورين العقاريين",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "بحث AI",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "تواصل معنا",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "احجز مكالمة",
+              "href": "#contact"
+            }
+          },
+          "title": "اكتشف أفضل العقارات في الإمارات بما يناسب أهدافك",
+          "subtitle": "استكشف أبرز المشاريع على المخطط والمناطق والمطورين العقاريين في دبي وأبوظبي ومختلف أنحاء الإمارات وفق الميزانية ونمط الحياة وأهداف الاستثمار.",
+          "featured": {
+            "aria": "مشروع مميز",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "مشروع Atelis من Meraas في Dubai Design District",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · يوليو 2029",
+            "price": "ابتداءً من AED 2.1M",
+            "controls_aria": "عناصر التحكم بالمشاريع المميزة",
+            "prev_label": "المشروع السابق",
+            "next_label": "المشروع التالي"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "مشروع Atelis من Meraas في Dubai Design District",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · يوليو 2029",
+              "price": "ابتداءً من AED 2.1M"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "The Alba Residences Dorchester Collection في Palm Jumeirah",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · مارس 2028",
+              "price": "ابتداءً من AED 43M"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Baccarat Residences في Downtown Dubai",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · مايو 2027",
+              "price": "ابتداءً من AED 18M"
+            }
+          ],
+          "search": {
+            "aria": "بحث العقارات مع Prima AI",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "المنطقة أو الميزانية أو نوع العقار أو نمط الحياة…",
+            "button": "ابحث",
+            "chips": [
+              {
+                "label": "دبي",
+                "query": "شقق في دبي"
+              },
+              {
+                "label": "أبوظبي",
+                "query": "شقق في أبوظبي"
+              },
+              {
+                "label": "إطلالة بحرية",
+                "query": "عقارات بإطلالة بحرية في الإمارات"
+              },
+              {
+                "label": "خطة الدفع",
+                "query": "مشاريع بخطط دفع"
+              },
+              {
+                "label": "أقل من AED 2M",
+                "query": "عقارات بأقل من AED 2M"
+              }
+            ],
+            "caption": "ابحث ضمن أكثر من 2,000 مشروع على المخطط في الإمارات",
+            "typing_examples": [
+              "شقة بغرفتي نوم في دبي بأقل من AED 3M",
+              "فيلا بإطلالة بحرية في Saadiyat Island",
+              "شقة في Palm Jumeirah بأقل من AED 5M"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "مختارة بواسطة Prima AI",
+          "title": "أفضل المشاريع",
+          "subtitle": "مجموعة مختصرة من المشاريع المميزة في الإمارات — شاطئية وحضرية واستثمارية وخيارات تناسب نمط الحياة — وفق نية المشتري الفعلية.",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "اسأل Prima AI",
+            "badge": "Prima AI",
+            "aria": "اسأل Prima AI عن أفضل المشاريع",
+            "placeholder": "اسأل عن المشاريع أو الميزانية أو الموقع…",
+            "button": "اسأل",
+            "typing_examples": [
+              "ما المشروع الأفضل لعائلة تريد السكن قرب الشاطئ؟",
+              "قارن مشاريع Palm Jumeirah بأقل من AED 10M",
+              "اعرض مشاريع تركز على الاستثمار في دبي",
+              "ابحث عن منازل فاخرة على الواجهة المائية بخطط دفع"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "أبرز المطورين العقاريين في الإمارات",
+          "title": "أفضل المطورين العقاريين",
+          "subtitle": "مطورون عقاريون موثوقون في الإمارات يقفون خلف مجتمعات بارزة ومساكن فاخرة.",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "Omniyat Group مطور عقاري فاخر في دبي",
+              "founded": "تأسس عام 2005",
+              "title": "Omniyat Group",
+              "description": "مطور عقاري مبتكر في منطقة الخليج، معروف بالتصميم الفني والمساكن فائقة الفخامة والشقق والبنتهاوس.",
+              "tags": [
+                "تصميم مميز",
+                "فائق الفخامة",
+                "دبي"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "Emaar Properties مطور عقاري في دبي",
+              "founded": "تأسس عام 1997",
+              "title": "Emaar Properties",
+              "description": "أحد كبار المطورين العقاريين في دبي، يقف خلف Burj Khalifa وDubai Mall، ومعروف بالمجتمعات البارزة والمعايير العالية.",
+              "tags": [
+                "معالم بارزة",
+                "مجتمعات",
+                "دبي"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "Aldar Properties مطور عقاري في أبوظبي",
+              "founded": "تأسس عام 2004",
+              "title": "Aldar Properties",
+              "description": "مطور عقاري رائد في أبوظبي، يشكل مجتمعات عالمية المستوى وتجارب سكنية فاخرة في أنحاء العاصمة.",
+              "tags": [
+                "أبوظبي",
+                "مجتمعات",
+                "نمط الحياة"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "اسأل عن المطورين العقاريين",
+            "badge": "Prima AI",
+            "aria": "اسأل Prima AI عن المطورين العقاريين في الإمارات",
+            "placeholder": "اسأل عن Emaar أو Omniyat أو Aldar أو سمعة المطور…",
+            "button": "اسأل",
+            "typing_examples": [
+              "أي مطور عقاري يناسب الفخامة على الواجهة المائية؟",
+              "قارن مشاريع Emaar وOmniyat في دبي",
+              "اعرض مجتمعات Aldar المناسبة للعائلات",
+              "أي مطور عقاري في الإمارات أقوى من حيث القيمة طويلة الأجل؟"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "أهداف المشترين الشائعة",
+          "title": "ابدأ بما يهمك أكثر",
+          "subtitle": "اختر أولويتك — الميزانية أو نمط الحياة أو الموقع أو الاستثمار — واستكشف المسار العقاري الأنسب في الإمارات.",
+          "routes_aria": "أهداف المشترين الشائعة",
+          "note": "أدلة مركزة حول الميزانيات وأنماط الحياة والمواقع وقرارات الشراء في الإمارات.",
+          "routes": [
+            {
+              "label": "أفضل المناطق للدخل الإيجاري",
+              "meta": "الاستثمار",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "فلل للعائلات",
+              "meta": "نمط الحياة",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "شقق بإطلالة بحرية",
+              "meta": "الواجهة المائية",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "خطط الدفع",
+              "meta": "منطق الميزانية",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "دبي بأقل من AED 2M",
+              "meta": "ميزانية الدخول",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "عقارات فاخرة في أبوظبي",
+              "meta": "نمط حياة العاصمة",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "مقارنة المطورين العقاريين",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "مناطق عائلية في دبي",
+              "meta": "مقارنة المناطق",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "بحث عقاري ذكي",
+            "title": "اسأل Prima AI",
+            "subtitle": "أخبر Prima بما تبحث عنه — المنطقة أو الميزانية أو نمط الحياة أو هدف الاستثمار — واحصل على مشاريع مناسبة في الإمارات.",
+            "badge": "Prima AI",
+            "aria": "اسأل Prima AI عن أهدافك العقارية في الإمارات",
+            "placeholder": "المنطقة أو الميزانية أو نمط الحياة أو هدف الاستثمار…",
+            "button": "اسأل",
+            "typing_examples": [
+              "شقة بغرفتي نوم في دبي بأقل من AED 3M",
+              "منطقة مناسبة للعائلات قرب المدارس والحدائق",
+              "منزل على الواجهة المائية مع خطة دفع",
+              "أفضل مناطق دبي للدخل الإيجاري بأقل من AED 2M"
+            ],
+            "quick_examples": [
+              {
+                "label": "عائد دبي بأقل من AED 2M",
+                "query": "ما مناطق دبي التي توفر دخلاً إيجارياً جيداً بأقل من AED 2M؟"
+              },
+              {
+                "label": "عائلات قرب المدارس",
+                "query": "ابحث عن مجتمعات مناسبة للعائلات قرب المدارس والحدائق"
+              },
+              {
+                "label": "الحياة على الواجهة المائية",
+                "query": "اعرض منازل على الواجهة المائية ذات قيمة قوية لنمط الحياة"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "بحث عقاري في الإمارات موجّه وفق النية الحقيقية",
+        "subtitle": "تساعد Prima AI العملاء على الانتقال بشكل أسرع وأكثر وضوحاً من الاهتمام العام إلى المشروع والمنطقة والمطور العقاري والمستشار المناسب.",
+        "chips": [
+          "على المخطط في الإمارات",
+          "بحث مطابق بواسطة AI",
+          "توجيه إلى مستشار"
+        ],
+        "copyright": "© Primadom Real Estate LLC — جميع الحقوق محفوظة"
+      },
+      "modal": {
+        "eyebrow": "طلب Primadom",
+        "title": "احجز مكالمة مع Prima AI",
+        "description": "أخبرنا بما تبحث عنه. أضف بيانات التواصل أو سجّل ملاحظة صوتية قصيرة.",
+        "name_label": "اسمك",
+        "name_placeholder": "الاسم",
+        "phone_label": "الهاتف / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "البريد الإلكتروني (اختياري)",
+        "email_placeholder": "email@example.com",
+        "request_label": "الطلب",
+        "request_placeholder": "أخبرنا بما تبحث عنه: المنطقة أو الميزانية أو نمط الحياة أو هدف الاستثمار أو المطور العقاري…",
+        "prepared_request": "مرحباً، أود حجز مكالمة مع Prima AI بخصوص العقارات في الإمارات.",
+        "voice_aria": "إملاء الطلب بالصوت",
+        "send": "إرسال",
+        "sent": "تم الإرسال",
+        "listening": "جارٍ الاستماع… ستحل الملاحظة الصوتية محل الطلب المُعد مسبقاً.",
+        "voice_paused": "تم إيقاف الإدخال الصوتي مؤقتاً. يمكنك كتابة طلبك يدوياً.",
+        "voice_added": "تمت إضافة الملاحظة الصوتية. يمكنك تعديل الطلب قبل الإرسال.",
+        "voice_unsupported": "التعرّف على الصوت غير مدعوم في هذا المتصفح.",
+        "initial_status": "اضغط زر الصوت لاستبدال الطلب المُعد مسبقاً بملاحظة صوتية.",
+        "voice_manual": "يمكنك كتابة طلبك يدوياً.",
+        "voice_already_active": "الإدخال الصوتي نشط بالفعل. حاول مرة أخرى بعد لحظات."
+      },
+      "voice": {
+        "listening": "جارٍ الاستماع…",
+        "got_it": "تم",
+        "paused": "تم إيقاف الإدخال الصوتي مؤقتًا",
+        "mode": "الوضع الصوتي",
+        "type_or_retry": "اكتب طلبك أو حاول مرة أخرى",
+        "tell_prima": "أخبر Prima AI بما تبحث عنه",
+        "start_search": "ابدأ البحث الصوتي",
+        "unsupported": "التعرّف على الصوت غير مدعوم هنا",
+        "describe_need": "صِف المنطقة أو الميزانية أو نمط الحياة"
+      },
+      "results": {
+        "placeholder": "اكتب بحثك…",
+        "close_return": "أغلق النتائج وعد إلى Prima AI",
+        "voice_search": "بحث صوتي",
+        "close_results": "إغلاق نتائج البحث"
+      },
+      "a11y": {
+        "start_voice_search": "ابدأ البحث الصوتي",
+        "collapse_project_search": "طي بحث Prima AI",
+        "collapse_developer_search": "طي بحث Prima AI عن المطورين العقاريين",
+        "open_developer": "فتح",
+        "example_intents": "أمثلة للبحث",
+        "footer_highlights": "أبرز المزايا",
+        "call": "اتصال",
+        "email": "البريد الإلكتروني",
+        "social_links": "روابط التواصل الاجتماعي",
+        "modal_form": "نموذج حجز مكالمة",
+        "modal_close": "إغلاق نموذج الطلب"
+      }
+    },
+    "de": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "Hauptnavigation",
+            "nav": [
+              {
+                "label": "Top-Projekte",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "Top-Bauträger",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "AI-Suche",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "Kontakt",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "Gespräch buchen",
+              "href": "#contact"
+            }
+          },
+          "title": "Entdecken Sie Top-Immobilien in den VAE passend zu Ihren Zielen",
+          "subtitle": "Entdecken Sie Top-Off-Plan-Projekte, Stadtteile und Bauträger in Dubai, Abu Dhabi und in den gesamten VAE – passend zu Budget, Lifestyle und Investitionszielen.",
+          "featured": {
+            "aria": "Empfohlenes Projekt",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "Atelis von Meraas im Dubai Design District",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · Juli 2029",
+            "price": "ab AED 2.1M",
+            "controls_aria": "Steuerung der empfohlenen Projekte",
+            "prev_label": "Vorheriges Projekt",
+            "next_label": "Nächstes Projekt"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "Atelis von Meraas im Dubai Design District",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · Juli 2029",
+              "price": "ab AED 2.1M"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "The Alba Residences Dorchester Collection auf Palm Jumeirah",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · März 2028",
+              "price": "ab AED 43M"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Baccarat Residences in Downtown Dubai",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · Mai 2027",
+              "price": "ab AED 18M"
+            }
+          ],
+          "search": {
+            "aria": "Immobiliensuche mit Prima AI",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "Gebiet, Budget, Immobilientyp oder Lebensstil…",
+            "button": "Suchen",
+            "chips": [
+              {
+                "label": "Dubai",
+                "query": "Wohnungen in Dubai"
+              },
+              {
+                "label": "Abu Dhabi",
+                "query": "Wohnungen in Abu Dhabi"
+              },
+              {
+                "label": "Meerblick",
+                "query": "Immobilien mit Meerblick in den VAE"
+              },
+              {
+                "label": "Zahlungsplan",
+                "query": "Projekte mit Zahlungsplänen"
+              },
+              {
+                "label": "Unter AED 2M",
+                "query": "Immobilien unter AED 2M"
+              }
+            ],
+            "caption": "Durchsuchen Sie mehr als 2.000 Off-Plan-Projekte in den VAE",
+            "typing_examples": [
+              "2-Zimmer-Wohnung in Dubai unter AED 3M",
+              "Villa mit Meerblick auf Saadiyat Island",
+              "Wohnung auf Palm Jumeirah unter AED 5M"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Auswahl von Prima AI",
+          "title": "Top-Projekte",
+          "subtitle": "Eine kompakte Auswahl hochwertiger Projekte in den VAE — Strand, Stadt, Investment und Lifestyle — passend zur tatsächlichen Kaufabsicht.",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Prima AI fragen",
+            "badge": "Prima AI",
+            "aria": "Prima AI zu Top-Projekten fragen",
+            "placeholder": "Fragen Sie nach Projekten, Budget oder Lage…",
+            "button": "Fragen",
+            "typing_examples": [
+              "Welches Top-Projekt eignet sich für eine Familie in Strandnähe?",
+              "Palm-Jumeirah-Projekte unter AED 10M vergleichen",
+              "Investmentorientierte Projekte in Dubai anzeigen",
+              "Premium-Wohnungen am Wasser mit Zahlungsplänen finden"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "Führende Bauträger in den VAE",
+          "title": "Top-Bauträger",
+          "subtitle": "Vertrauenswürdige Bauträger in den VAE hinter wegweisenden Wohnquartiere und Luxusresidenzen.",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "Omniyat Group, Luxusimmobilien-Bauträger in Dubai",
+              "founded": "Gegründet 2005",
+              "title": "Omniyat Group",
+              "description": "Immobilieninnovator der Golfregion, bekannt für designorientierte Konzepte, Ultra-Luxus-Residenzen, Apartments und Penthouses.",
+              "tags": [
+                "Designorientiert",
+                "Ultra-Luxus",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "Emaar Properties, Bauträger in Dubai",
+              "founded": "Gegründet 1997",
+              "title": "Emaar Properties",
+              "description": "Großer Immobilienentwickler in Dubai hinter Burj Khalifa und Dubai Mall, bekannt für wegweisende Wohnquartiere und hohe Standards.",
+              "tags": [
+                "Wahrzeichen",
+                "Wohnquartiere",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "Aldar Properties, Bauträger in Abu Dhabi",
+              "founded": "Gegründet 2004",
+              "title": "Aldar Properties",
+              "description": "Führender Bauträger Abu Dhabis, der erstklassige Wohnquartiere und luxuriöse Wohnkonzepte in der gesamten Hauptstadt schafft.",
+              "tags": [
+                "Abu Dhabi",
+                "Wohnquartiere",
+                "Lifestyle"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Bauträger fragen",
+            "badge": "Prima AI",
+            "aria": "Prima AI zu Bauträgern in den VAE fragen",
+            "placeholder": "Fragen Sie nach Emaar, Omniyat, Aldar oder der Reputation eines Bauträgers…",
+            "button": "Fragen",
+            "typing_examples": [
+              "Welcher Bauträger eignet sich am besten für Luxus am Wasser?",
+              "Emaar- und Omniyat-Projekte in Dubai vergleichen",
+              "Aldar-Wohnquartiere für Familien anzeigen",
+              "Welcher Bauträger in den VAE ist bei langfristigem Wert besonders stark?"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "Beliebte Käuferziele",
+          "title": "Beginnen Sie mit dem, was am wichtigsten ist",
+          "subtitle": "Wählen Sie Ihre Priorität — Budget, Lifestyle, Lage oder Investment — und entdecken Sie den passenden Immobilienweg in den VAE.",
+          "routes_aria": "Beliebte Käuferziele",
+          "note": "Gezielte Leitfäden zu Budgets, Lifestyle, Lagen und Kaufentscheidungen in den VAE.",
+          "routes": [
+            {
+              "label": "Beste Gebiete für Mieteinnahmen",
+              "meta": "Investment",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "Familienvillen",
+              "meta": "Lifestyle",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "Wohnungen mit Meerblick",
+              "meta": "Am Wasser",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "Zahlungspläne",
+              "meta": "Budgetlogik",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "Dubai unter AED 2M",
+              "meta": "Einstiegsbudget",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "Luxus in Abu Dhabi",
+              "meta": "Lifestyle der Hauptstadt",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "Bauträgervergleich",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "Familiengebiete in Dubai",
+              "meta": "Gebietsvergleich",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "Intelligente Immobiliensuche",
+            "title": "Prima AI fragen",
+            "subtitle": "Sagen Sie Prima, wonach Sie suchen — Gebiet, Budget, Lifestyle oder Investmentziel — und finden Sie passende Projekte in den VAE.",
+            "badge": "Prima AI",
+            "aria": "Prima AI zu Immobilienzielen in den VAE fragen",
+            "placeholder": "Gebiet, Budget, Lifestyle oder Investmentziel…",
+            "button": "Fragen",
+            "typing_examples": [
+              "2-Zimmer-Wohnung in Dubai unter AED 3M",
+              "Familienfreundliches Gebiet in der Nähe von Schulen und Parks",
+              "Wohnung am Wasser mit Zahlungsplan",
+              "Beste Gebiete in Dubai für Mieteinnahmen unter AED 2M"
+            ],
+            "quick_examples": [
+              {
+                "label": "Dubai-ROI unter AED 2M",
+                "query": "Welche Gebiete in Dubai bieten gute Mieteinnahmen unter AED 2M?"
+              },
+              {
+                "label": "Familien nahe Schulen",
+                "query": "Familienfreundliche Wohnquartiere in der Nähe von Schulen und Parks finden"
+              },
+              {
+                "label": "Wohnen am Wasser",
+                "query": "Wohnungen am Wasser mit hohem Lifestyle-Wert anzeigen"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "Immobiliensuche in den VAE, geleitet von tatsächlicher Kaufabsicht",
+        "subtitle": "Prima AI hilft Kunden, schneller und klarer vom allgemeinen Interesse zum passenden Projekt, Stadtteil, Bauträger und Berater zu gelangen.",
+        "chips": [
+          "Off-Plan in den VAE",
+          "AI-gestützte Suche",
+          "Beraterzuordnung"
+        ],
+        "copyright": "© Primadom Real Estate LLC — Alle Rechte vorbehalten"
+      },
+      "modal": {
+        "eyebrow": "Primadom-Anfrage",
+        "title": "Gespräch mit Prima AI buchen",
+        "description": "Sagen Sie uns, wonach Sie suchen. Geben Sie Ihre Kontaktdaten an oder nehmen Sie eine kurze Sprachnachricht auf.",
+        "name_label": "Ihr Name",
+        "name_placeholder": "Name",
+        "phone_label": "Telefon / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "E-Mail (optional)",
+        "email_placeholder": "email@example.com",
+        "request_label": "Anfrage",
+        "request_placeholder": "Sagen Sie uns, wonach Sie suchen: Gebiet, Budget, Lifestyle, Investmentziel oder Bauträger…",
+        "prepared_request": "Hallo, ich möchte ein Gespräch mit Prima AI zum Immobilienmarkt in den VAE buchen.",
+        "voice_aria": "Anfrage per Sprache diktieren",
+        "send": "Senden",
+        "sent": "Gesendet",
+        "listening": "Hört zu… Ihre Sprachnachricht ersetzt die vorbereitete Anfrage.",
+        "voice_paused": "Spracheingabe pausiert. Sie können Ihre Anfrage manuell eingeben.",
+        "voice_added": "Sprachnachricht hinzugefügt. Sie können die Anfrage vor dem Senden bearbeiten.",
+        "voice_unsupported": "Spracherkennung wird von diesem Browser nicht unterstützt.",
+        "initial_status": "Drücken Sie die Sprachtaste, um die vorbereitete Anfrage durch eine Sprachnachricht zu ersetzen.",
+        "voice_manual": "Sie können Ihre Anfrage manuell eingeben.",
+        "voice_already_active": "Die Spracheingabe ist bereits aktiv. Versuchen Sie es gleich noch einmal."
+      },
+      "voice": {
+        "listening": "Hört zu…",
+        "got_it": "Verstanden",
+        "paused": "Spracheingabe pausiert",
+        "mode": "Sprachmodus",
+        "type_or_retry": "Geben Sie Ihre Anfrage ein oder versuchen Sie es erneut",
+        "tell_prima": "Sagen Sie Prima AI, wonach Sie suchen",
+        "start_search": "Sprachsuche starten",
+        "unsupported": "Spracherkennung wird hier nicht unterstützt",
+        "describe_need": "Beschreiben Sie Gebiet, Budget oder Lifestyle"
+      },
+      "results": {
+        "placeholder": "Geben Sie Ihre Suche ein…",
+        "close_return": "Ergebnisse schließen und zu Prima AI zurückkehren",
+        "voice_search": "Sprachsuche",
+        "close_results": "Suchergebnisse schließen"
+      },
+      "a11y": {
+        "start_voice_search": "Sprachsuche starten",
+        "collapse_project_search": "Prima AI-Suche einklappen",
+        "collapse_developer_search": "Prima AI-Bauträgersuche einklappen",
+        "open_developer": "Öffnen",
+        "example_intents": "Beispielsuchen",
+        "footer_highlights": "Highlights",
+        "call": "Anrufen",
+        "email": "E-Mail",
+        "social_links": "Social-Media-Links",
+        "modal_form": "Formular zur Gesprächsbuchung",
+        "modal_close": "Anfrageformular schließen"
+      }
+    },
+    "es": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "Navegación principal",
+            "nav": [
+              {
+                "label": "Proyectos destacados",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "Desarrolladores destacados",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "Búsqueda con AI",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "Contacto",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "Reservar una llamada",
+              "href": "#contact"
+            }
+          },
+          "title": "Descubre propiedades destacadas en EAU adaptadas a tus objetivos",
+          "subtitle": "Explora proyectos sobre plano, zonas y desarrolladores destacados en Dubai, Abu Dhabi y todo EAU, según tu presupuesto, estilo de vida y objetivos de inversión.",
+          "featured": {
+            "aria": "Proyecto destacado",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "Atelis de Meraas en Dubai Design District",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · julio de 2029",
+            "price": "desde AED 2.1M",
+            "controls_aria": "Controles de proyectos destacados",
+            "prev_label": "Proyecto anterior",
+            "next_label": "Proyecto siguiente"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "Atelis de Meraas en Dubai Design District",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · julio de 2029",
+              "price": "desde AED 2.1M"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "The Alba Residences Dorchester Collection en Palm Jumeirah",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · marzo de 2028",
+              "price": "desde AED 43M"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Baccarat Residences en Downtown Dubai",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · mayo de 2027",
+              "price": "desde AED 18M"
+            }
+          ],
+          "search": {
+            "aria": "Búsqueda de propiedades con Prima AI",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "Zona, presupuesto, tipo o estilo de vida…",
+            "button": "Buscar",
+            "chips": [
+              {
+                "label": "Dubai",
+                "query": "Apartamentos en Dubai"
+              },
+              {
+                "label": "Abu Dhabi",
+                "query": "Apartamentos en Abu Dhabi"
+              },
+              {
+                "label": "Vistas al mar",
+                "query": "Propiedades con vistas al mar en EAU"
+              },
+              {
+                "label": "Plan de pago",
+                "query": "Proyectos con planes de pago"
+              },
+              {
+                "label": "Menos de AED 2M",
+                "query": "Propiedades por debajo de AED 2M"
+              }
+            ],
+            "caption": "Busca entre más de 2.000 proyectos sobre plano en EAU",
+            "typing_examples": [
+              "Apartamento de 2 dormitorios en Dubai por debajo de AED 3M",
+              "Villa con vistas al mar en Saadiyat Island",
+              "Apartamento en Palm Jumeirah por debajo de AED 5M"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Selección de Prima AI",
+          "title": "Proyectos destacados",
+          "subtitle": "Una selección concisa de proyectos premium en EAU: playa, ciudad, inversión y estilo de vida, adaptados a la intención real del comprador.",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Preguntar a Prima AI",
+            "badge": "Prima AI",
+            "aria": "Preguntar a Prima AI sobre proyectos destacados",
+            "placeholder": "Pregunta por proyectos, presupuesto o ubicación…",
+            "button": "Preguntar",
+            "typing_examples": [
+              "¿Qué proyecto destacado encaja con una familia cerca de la playa?",
+              "Compara proyectos en Palm Jumeirah por debajo de AED 10M",
+              "Muéstrame proyectos orientados a inversión en Dubai",
+              "Encuentra viviendas premium frente al agua con planes de pago"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "Principales desarrolladores de EAU",
+          "title": "Desarrolladores destacados",
+          "subtitle": "Desarrolladores de confianza en EAU detrás de comunidades emblemáticas y residencias de lujo.",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "Omniyat Group, desarrollador de mercado inmobiliario de lujo en Dubai",
+              "founded": "Fundado en 2005",
+              "title": "Omniyat Group",
+              "description": "Innovador inmobiliario de la región del Golfo, conocido por su diseño artístico, residencias de ultra lujo, apartamentos y áticos.",
+              "tags": [
+                "Diseño",
+                "Ultra lujo",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "Emaar Properties, desarrollador en Dubai",
+              "founded": "Fundado en 1997",
+              "title": "Emaar Properties",
+              "description": "Gigante inmobiliario de Dubai detrás de Burj Khalifa y Dubai Mall, conocido por comunidades emblemáticas y altos estándares.",
+              "tags": [
+                "Iconos",
+                "Comunidades",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "Aldar Properties, desarrollador en Abu Dhabi",
+              "founded": "Fundado en 2004",
+              "title": "Aldar Properties",
+              "description": "Desarrollador líder de Abu Dhabi, creador de comunidades de primer nivel y experiencias residenciales de lujo en toda la capital.",
+              "tags": [
+                "Abu Dhabi",
+                "Comunidades",
+                "Estilo de vida"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Preguntar por desarrolladores",
+            "badge": "Prima AI",
+            "aria": "Preguntar a Prima AI sobre desarrolladores de EAU",
+            "placeholder": "Pregunta por Emaar, Omniyat, Aldar o la reputación de un desarrollador…",
+            "button": "Preguntar",
+            "typing_examples": [
+              "¿Qué desarrollador es mejor para lujo frente al agua?",
+              "Compara proyectos de Emaar y Omniyat en Dubai",
+              "Muéstrame comunidades de Aldar para vida familiar",
+              "¿Qué desarrollador de EAU destaca más por valor a largo plazo?"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "Objetivos populares del comprador",
+          "title": "Empieza por lo que más importa",
+          "subtitle": "Elige tu prioridad — presupuesto, estilo de vida, ubicación o inversión — y explora la ruta inmobiliaria de EAU más relevante.",
+          "routes_aria": "Objetivos populares del comprador",
+          "note": "Guías enfocadas en presupuestos, estilos de vida, ubicaciones y decisiones de compra en EAU.",
+          "routes": [
+            {
+              "label": "Mejores zonas para alquiler",
+              "meta": "Inversión",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "Villas familiares",
+              "meta": "Estilo de vida",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "Apartamentos con vistas al mar",
+              "meta": "Frente al agua",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "Planes de pago",
+              "meta": "Lógica de presupuesto",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "Dubai por debajo de AED 2M",
+              "meta": "Presupuesto de entrada",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "Lujo en Abu Dhabi",
+              "meta": "Estilo de vida de la capital",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "Comparación de desarrolladores",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "Zonas familiares de Dubai",
+              "meta": "Comparación de zonas",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "Búsqueda inteligente de propiedades",
+            "title": "Preguntar a Prima AI",
+            "subtitle": "Cuéntale a Prima qué buscas — zona, presupuesto, estilo de vida u objetivo de inversión — y encuentra proyectos relevantes en EAU.",
+            "badge": "Prima AI",
+            "aria": "Preguntar a Prima AI sobre objetivos inmobiliarios en EAU",
+            "placeholder": "Zona, presupuesto, estilo de vida u objetivo de inversión…",
+            "button": "Preguntar",
+            "typing_examples": [
+              "Apartamento de 2 dormitorios en Dubai por debajo de AED 3M",
+              "Zona familiar cerca de colegios y parques",
+              "Vivienda frente al agua con plan de pago",
+              "Mejores zonas de Dubai para ingresos por alquiler por debajo de AED 2M"
+            ],
+            "quick_examples": [
+              {
+                "label": "ROI en Dubai por debajo de AED 2M",
+                "query": "¿Qué zonas de Dubai ofrecen buenos ingresos por alquiler por debajo de AED 2M?"
+              },
+              {
+                "label": "Familias cerca de colegios",
+                "query": "Encuentra comunidades familiares cerca de colegios y parques"
+              },
+              {
+                "label": "Vida frente al agua",
+                "query": "Muéstrame viviendas frente al agua con valor de estilo de vida"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "Búsqueda de propiedades en EAU guiada por una intención real",
+        "subtitle": "Prima AI ayuda a pasar del interés general al proyecto, zona, desarrollador y asesor adecuados de forma más rápida, clara y con menos ruido.",
+        "chips": [
+          "Sobre plano en EAU",
+          "Búsqueda con AI",
+          "Asignación de asesor"
+        ],
+        "copyright": "© Primadom Real Estate LLC — Todos los derechos reservados"
+      },
+      "modal": {
+        "eyebrow": "Solicitud Primadom",
+        "title": "Reservar una llamada con Prima AI",
+        "description": "Cuéntanos qué buscas. Añade tus datos de contacto o graba una breve nota de voz.",
+        "name_label": "Tu nombre",
+        "name_placeholder": "Nombre",
+        "phone_label": "Teléfono / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "Email (opcional)",
+        "email_placeholder": "email@example.com",
+        "request_label": "Solicitud",
+        "request_placeholder": "Cuéntanos qué buscas: zona, presupuesto, estilo de vida, objetivo de inversión o desarrollador…",
+        "prepared_request": "Hola, me gustaría reservar una llamada con Prima AI sobre mercado inmobiliario en EAU.",
+        "voice_aria": "Dictar la solicitud por voz",
+        "send": "Enviar",
+        "sent": "Enviado",
+        "listening": "Escuchando… tu nota de voz sustituirá la solicitud preparada.",
+        "voice_paused": "Entrada de voz en pausa. Puedes escribir tu solicitud manualmente.",
+        "voice_added": "Nota de voz añadida. Puedes editar la solicitud antes de enviarla.",
+        "voice_unsupported": "El reconocimiento de voz no es compatible con este navegador.",
+        "initial_status": "Pulsa el botón de voz para sustituir la solicitud preparada por una nota de voz.",
+        "voice_manual": "Puedes escribir tu solicitud manualmente.",
+        "voice_already_active": "La entrada de voz ya está activa. Inténtalo de nuevo en unos segundos."
+      },
+      "voice": {
+        "listening": "Escuchando…",
+        "got_it": "Entendido",
+        "paused": "Entrada de voz en pausa",
+        "mode": "Modo de voz",
+        "type_or_retry": "Escribe tu solicitud o inténtalo de nuevo",
+        "tell_prima": "Dile a Prima AI lo que buscas",
+        "start_search": "Iniciar búsqueda por voz",
+        "unsupported": "El reconocimiento de voz no está disponible aquí",
+        "describe_need": "Describe la zona, el presupuesto o el estilo de vida"
+      },
+      "results": {
+        "placeholder": "Escribe tu búsqueda…",
+        "close_return": "Cerrar resultados y volver a Prima AI",
+        "voice_search": "Búsqueda por voz",
+        "close_results": "Cerrar resultados de búsqueda"
+      },
+      "a11y": {
+        "start_voice_search": "Iniciar búsqueda por voz",
+        "collapse_project_search": "Contraer la búsqueda de Prima AI",
+        "collapse_developer_search": "Contraer la búsqueda de desarrolladores con Prima AI",
+        "open_developer": "Abrir",
+        "example_intents": "Ejemplos de búsqueda",
+        "footer_highlights": "Aspectos destacados",
+        "call": "Llamar",
+        "email": "Email",
+        "social_links": "Redes sociales",
+        "modal_form": "Formulario para reservar una llamada",
+        "modal_close": "Cerrar formulario de solicitud"
+      }
+    },
+    "fr": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "Navigation principale",
+            "nav": [
+              {
+                "label": "Projets phares",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "Développeurs phares",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "Recherche avec AI",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "Contact",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "Réserver un appel",
+              "href": "#contact"
+            }
+          },
+          "title": "Découvrez les meilleurs biens immobiliers des EAU adaptés à vos objectifs",
+          "subtitle": "Explorez les meilleurs projets sur plan, quartiers et développeurs à Dubai, Abu Dhabi et dans l’ensemble des EAU, selon votre budget, votre style de vie et vos objectifs d’investissement.",
+          "featured": {
+            "aria": "Projet à la une",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "Atelis par Meraas à Dubai Design District",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · juillet 2029",
+            "price": "à partir de AED 2.1M",
+            "controls_aria": "Commandes des projets à la une",
+            "prev_label": "Projet précédent",
+            "next_label": "Projet suivant"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "Atelis par Meraas à Dubai Design District",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · juillet 2029",
+              "price": "à partir de AED 2.1M"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "The Alba Residences Dorchester Collection à Palm Jumeirah",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · mars 2028",
+              "price": "à partir de AED 43M"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Baccarat Residences à Downtown Dubai",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · mai 2027",
+              "price": "à partir de AED 18M"
+            }
+          ],
+          "search": {
+            "aria": "Recherche immobilière avec Prima AI",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "Zone, budget, type de bien ou style de vie…",
+            "button": "Rechercher",
+            "chips": [
+              {
+                "label": "Dubai",
+                "query": "Appartements à Dubai"
+              },
+              {
+                "label": "Abu Dhabi",
+                "query": "Appartements à Abu Dhabi"
+              },
+              {
+                "label": "Vue mer",
+                "query": "Biens avec vue mer aux EAU"
+              },
+              {
+                "label": "Plan de paiement",
+                "query": "Projets avec plans de paiement"
+              },
+              {
+                "label": "Moins de AED 2M",
+                "query": "Biens à moins de AED 2M"
+              }
+            ],
+            "caption": "Recherchez parmi plus de 2 000 projets sur plan aux EAU",
+            "typing_examples": [
+              "Appartement 2 chambres à Dubai à moins de AED 3M",
+              "Villa avec vue mer sur Saadiyat Island",
+              "Appartement à Palm Jumeirah à moins de AED 5M"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Sélection Prima AI",
+          "title": "Projets phares",
+          "subtitle": "Une sélection concise de projets premium aux EAU — bord de mer, ville, investissement et style de vie — adaptée aux intentions réelles des acheteurs.",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Demander à Prima AI",
+            "badge": "Prima AI",
+            "aria": "Demander à Prima AI des informations sur les projets phares",
+            "placeholder": "Posez une question sur les projets, le budget ou la localisation…",
+            "button": "Demander",
+            "typing_examples": [
+              "Quel projet phare convient à une famille près de la plage ?",
+              "Comparer les projets de Palm Jumeirah à moins de AED 10M",
+              "Afficher les projets orientés investissement à Dubai",
+              "Trouver des logements premium en bord de mer avec plans de paiement"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "Principaux développeurs des EAU",
+          "title": "Développeurs phares",
+          "subtitle": "Des développeurs de confiance aux EAU à l’origine de communautés emblématiques et de résidences de luxe.",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "Omniyat Group, développeur immobilier de luxe à Dubai",
+              "founded": "Fondé en 2005",
+              "title": "Omniyat Group",
+              "description": "Innovateur immobilier de la région du Golfe, connu pour son approche axée sur le design, ses résidences ultra-luxueuses, appartements et penthouses.",
+              "tags": [
+                "Design",
+                "Ultra-luxe",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "Emaar Properties, développeur à Dubai",
+              "founded": "Fondé en 1997",
+              "title": "Emaar Properties",
+              "description": "Géant immobilier de Dubai à l’origine de Burj Khalifa et Dubai Mall, reconnu pour ses communautés emblématiques et ses standards élevés.",
+              "tags": [
+                "Sites emblématiques",
+                "Communautés",
+                "Dubai"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "Aldar Properties, développeur à Abu Dhabi",
+              "founded": "Fondé en 2004",
+              "title": "Aldar Properties",
+              "description": "Développeur majeur d’Abu Dhabi, créant des communautés de classe mondiale et des expériences résidentielles haut de gamme dans toute la capitale.",
+              "tags": [
+                "Abu Dhabi",
+                "Communautés",
+                "Style de vie"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Demander sur les développeurs",
+            "badge": "Prima AI",
+            "aria": "Demander à Prima AI des informations sur les développeurs des EAU",
+            "placeholder": "Posez une question sur Emaar, Omniyat, Aldar ou la réputation d’un développeur…",
+            "button": "Demander",
+            "typing_examples": [
+              "Quel développeur convient le mieux au luxe en bord de mer ?",
+              "Comparer les projets Emaar et Omniyat à Dubai",
+              "Afficher les communautés Aldar adaptées aux familles",
+              "Quel développeur des EAU est le plus solide pour la valeur à long terme ?"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "Objectifs populaires des acheteurs",
+          "title": "Commencez par ce qui compte le plus",
+          "subtitle": "Choisissez votre priorité — budget, style de vie, localisation ou investissement — et explorez le parcours immobilier aux EAU le plus pertinent.",
+          "routes_aria": "Objectifs populaires des acheteurs",
+          "note": "Des guides ciblés sur les budgets, styles de vie, localisations et décisions d’achat aux EAU.",
+          "routes": [
+            {
+              "label": "Meilleures zones locatives",
+              "meta": "Investissement",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "Villas familiales",
+              "meta": "Style de vie",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "Appartements avec vue mer",
+              "meta": "Bord de mer",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "Plans de paiement",
+              "meta": "Logique budgétaire",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "Dubai sous AED 2M",
+              "meta": "Budget d’entrée",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "Luxe à Abu Dhabi",
+              "meta": "Style de vie dans la capitale",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "Comparaison des développeurs",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "Zones familiales à Dubai",
+              "meta": "Comparaison des zones",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "Recherche immobilière intelligente",
+            "title": "Demander à Prima AI",
+            "subtitle": "Dites à Prima ce que vous recherchez — zone, budget, style de vie ou objectif d’investissement — et trouvez des projets pertinents aux EAU.",
+            "badge": "Prima AI",
+            "aria": "Demander à Prima AI des informations sur vos objectifs immobiliers aux EAU",
+            "placeholder": "Zone, budget, style de vie ou objectif d’investissement…",
+            "button": "Demander",
+            "typing_examples": [
+              "Appartement 2 chambres à Dubai à moins de AED 3M",
+              "Zone familiale près des écoles et des parcs",
+              "Logement en bord de mer avec plan de paiement",
+              "Meilleures zones de Dubai pour les revenus locatifs sous AED 2M"
+            ],
+            "quick_examples": [
+              {
+                "label": "ROI à Dubai sous AED 2M",
+                "query": "Quelles zones de Dubai offrent de bons revenus locatifs sous AED 2M ?"
+              },
+              {
+                "label": "Famille près des écoles",
+                "query": "Trouver des communautés familiales près des écoles et des parcs"
+              },
+              {
+                "label": "Vie en bord de mer",
+                "query": "Afficher des logements en bord de mer offrant une forte qualité de vie"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "Recherche immobilière aux EAU guidée par une intention réelle",
+        "subtitle": "Prima AI aide les clients à passer plus vite d’un intérêt général au bon projet, quartier, développeur et conseiller, avec plus de clarté et moins de bruit.",
+        "chips": [
+          "Sur plan aux EAU",
+          "Recherche assistée par AI",
+          "Orientation vers un conseiller"
+        ],
+        "copyright": "© Primadom Real Estate LLC — Tous droits réservés"
+      },
+      "modal": {
+        "eyebrow": "Demande Primadom",
+        "title": "Réserver un appel avec Prima AI",
+        "description": "Dites-nous ce que vous recherchez. Ajoutez vos coordonnées ou enregistrez une courte note vocale.",
+        "name_label": "Votre nom",
+        "name_placeholder": "Nom",
+        "phone_label": "Téléphone / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "E-mail (facultatif)",
+        "email_placeholder": "email@example.com",
+        "request_label": "Demande",
+        "request_placeholder": "Dites-nous ce que vous recherchez : zone, budget, style de vie, objectif d’investissement ou développeur…",
+        "prepared_request": "Bonjour, je souhaite réserver un appel avec Prima AI au sujet de l’immobilier aux EAU.",
+        "voice_aria": "Dicter la demande par la voix",
+        "send": "Envoyer",
+        "sent": "Envoyé",
+        "listening": "Écoute… votre note vocale remplacera la demande préparée.",
+        "voice_paused": "Saisie vocale en pause. Vous pouvez saisir votre demande manuellement.",
+        "voice_added": "Note vocale ajoutée. Vous pouvez modifier la demande avant l’envoi.",
+        "voice_unsupported": "La reconnaissance vocale n’est pas prise en charge par ce navigateur.",
+        "initial_status": "Appuyez sur le bouton vocal pour remplacer la demande préparée par une note vocale.",
+        "voice_manual": "Vous pouvez saisir votre demande manuellement.",
+        "voice_already_active": "La saisie vocale est déjà active. Réessayez dans quelques instants."
+      },
+      "voice": {
+        "listening": "Écoute…",
+        "got_it": "Compris",
+        "paused": "Saisie vocale en pause",
+        "mode": "Mode vocal",
+        "type_or_retry": "Saisissez votre demande ou réessayez",
+        "tell_prima": "Dites à Prima AI ce que vous recherchez",
+        "start_search": "Démarrer la recherche vocale",
+        "unsupported": "La reconnaissance vocale n’est pas disponible ici",
+        "describe_need": "Décrivez la zone, le budget ou le style de vie"
+      },
+      "results": {
+        "placeholder": "Saisissez votre recherche…",
+        "close_return": "Fermer les résultats et revenir à Prima AI",
+        "voice_search": "Recherche vocale",
+        "close_results": "Fermer les résultats de recherche"
+      },
+      "a11y": {
+        "start_voice_search": "Démarrer la recherche vocale",
+        "collapse_project_search": "Réduire la recherche Prima AI",
+        "collapse_developer_search": "Réduire la recherche de développeurs Prima AI",
+        "open_developer": "Ouvrir",
+        "example_intents": "Exemples de recherche",
+        "footer_highlights": "Points clés",
+        "call": "Appeler",
+        "email": "E-mail",
+        "social_links": "Réseaux sociaux",
+        "modal_form": "Formulaire de réservation d’appel",
+        "modal_close": "Fermer le formulaire de demande"
+      }
+    },
+    "hi": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "मुख्य नेविगेशन",
+            "nav": [
+              {
+                "label": "टॉप प्रोजेक्ट्स",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "टॉप डेवलपर्स",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "AI सर्च",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "संपर्क",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "कॉल बुक करें",
+              "href": "#contact"
+            }
+          },
+          "title": "अपने लक्ष्यों के अनुसार UAE की बेहतरीन रियल एस्टेट खोजें",
+          "subtitle": "Dubai, Abu Dhabi और पूरे UAE में बेहतरीन ऑफ-प्लान प्रोजेक्ट्स, क्षेत्रों और डेवलपर्स को देखें — बजट, जीवनशैली और निवेश के अनुसार।",
+          "featured": {
+            "aria": "फीचर्ड प्रोजेक्ट",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "Dubai Design District में Meraas का Atelis",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · जुलाई 2029",
+            "price": "AED 2.1M से",
+            "controls_aria": "फीचर्ड प्रोजेक्ट नियंत्रण",
+            "prev_label": "पिछला प्रोजेक्ट",
+            "next_label": "अगला प्रोजेक्ट"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "Dubai Design District में Meraas का Atelis",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · जुलाई 2029",
+              "price": "AED 2.1M से"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "Palm Jumeirah पर The Alba Residences Dorchester Collection",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · मार्च 2028",
+              "price": "AED 43M से"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Downtown Dubai में Baccarat Residences",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · मई 2027",
+              "price": "AED 18M से"
+            }
+          ],
+          "search": {
+            "aria": "Prima AI प्रॉपर्टी सर्च",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "क्षेत्र, बजट, प्रॉपर्टी प्रकार या जीवनशैली…",
+            "button": "खोजें",
+            "chips": [
+              {
+                "label": "दुबई",
+                "query": "दुबई में अपार्टमेंट"
+              },
+              {
+                "label": "अबू धाबी",
+                "query": "अबू धाबी में अपार्टमेंट"
+              },
+              {
+                "label": "समुद्र दृश्य",
+                "query": "UAE में समुद्र दृश्य वाली प्रॉपर्टी"
+              },
+              {
+                "label": "भुगतान योजना",
+                "query": "भुगतान योजना वाले प्रोजेक्ट्स"
+              },
+              {
+                "label": "AED 2M से कम",
+                "query": "AED 2M से कम की प्रॉपर्टी"
+              }
+            ],
+            "caption": "UAE में 2,000+ ऑफ-प्लान प्रोजेक्ट्स में सर्च करें",
+            "typing_examples": [
+              "दुबई में AED 3M से कम 2BR अपार्टमेंट",
+              "Saadiyat Island पर समुद्र दृश्य वाली विला",
+              "Palm Jumeirah पर AED 5M से कम अपार्टमेंट"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Prima AI द्वारा चुने गए",
+          "title": "टॉप प्रोजेक्ट्स",
+          "subtitle": "UAE के चुनिंदा प्रीमियम प्रोजेक्ट्स — समुद्र तट, शहर, निवेश और जीवनशैली के विकल्प, वास्तविक खरीदार उद्देश्यों के अनुसार।",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Prima AI से पूछें",
+            "badge": "Prima AI",
+            "aria": "टॉप प्रोजेक्ट्स के बारे में Prima AI से पूछें",
+            "placeholder": "टॉप प्रोजेक्ट्स, बजट या लोकेशन के बारे में पूछें…",
+            "button": "पूछें",
+            "typing_examples": [
+              "समुद्र तट के पास परिवार के लिए कौन-सा टॉप प्रोजेक्ट सही है?",
+              "Palm Jumeirah के AED 10M से कम प्रोजेक्ट्स की तुलना करें",
+              "दुबई में निवेश-केंद्रित प्रोजेक्ट्स दिखाएँ",
+              "भुगतान योजना वाले प्रीमियम वॉटरफ्रंट घर खोजें"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "UAE के प्रमुख डेवलपर्स",
+          "title": "टॉप डेवलपर्स",
+          "subtitle": "UAE के विश्वसनीय डेवलपर्स, जो प्रतिष्ठित कम्युनिटीज़ और लक्ज़री रेजिडेंसेज़ के पीछे हैं।",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "दुबई में लक्ज़री रियल एस्टेट डेवलपर Omniyat Group",
+              "founded": "2005 में स्थापित",
+              "title": "Omniyat Group",
+              "description": "गल्फ क्षेत्र का रियल एस्टेट इनोवेटर, जो डिज़ाइन-केंद्रित दृष्टिकोण, अल्ट्रा-लक्ज़री रेजिडेंसेज़, अपार्टमेंट्स और पेंटहाउसेज़ के लिए जाना जाता है।",
+              "tags": [
+                "डिज़ाइन-केंद्रित",
+                "अल्ट्रा लक्ज़री",
+                "दुबई"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "दुबई में Emaar Properties डेवलपर",
+              "founded": "1997 में स्थापित",
+              "title": "Emaar Properties",
+              "description": "दुबई का प्रमुख रियल एस्टेट डेवलपर, Burj Khalifa और Dubai Mall के पीछे, प्रतिष्ठित कम्युनिटीज़ और उच्च मानकों के लिए जाना जाता है।",
+              "tags": [
+                "लैंडमार्क्स",
+                "कम्युनिटीज़",
+                "दुबई"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "अबू धाबी में Aldar Properties डेवलपर",
+              "founded": "2004 में स्थापित",
+              "title": "Aldar Properties",
+              "description": "अबू धाबी का प्रमुख डेवलपर, जो राजधानी में विश्वस्तरीय कम्युनिटीज़ और लक्ज़री जीवनशैली के अनुभव विकसित करता है।",
+              "tags": [
+                "अबू धाबी",
+                "कम्युनिटीज़",
+                "जीवनशैली"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "डेवलपर्स के बारे में पूछें",
+            "badge": "Prima AI",
+            "aria": "UAE डेवलपर्स के बारे में Prima AI से पूछें",
+            "placeholder": "Emaar, Omniyat, Aldar या डेवलपर की प्रतिष्ठा के बारे में पूछें…",
+            "button": "पूछें",
+            "typing_examples": [
+              "वॉटरफ्रंट लक्ज़री के लिए कौन-सा डेवलपर बेहतर है?",
+              "दुबई में Emaar और Omniyat प्रोजेक्ट्स की तुलना करें",
+              "फैमिली लिविंग के लिए Aldar कम्युनिटीज़ दिखाएँ",
+              "लंबी अवधि की वैल्यू के लिए कौन-सा UAE डेवलपर सबसे मजबूत है?"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "लोकप्रिय खरीदार लक्ष्य",
+          "title": "सबसे महत्वपूर्ण चीज़ से शुरुआत करें",
+          "subtitle": "अपनी प्राथमिकता चुनें — बजट, जीवनशैली, लोकेशन या निवेश — और UAE प्रॉपर्टी के सबसे प्रासंगिक रास्ते देखें।",
+          "routes_aria": "लोकप्रिय खरीदार लक्ष्य",
+          "note": "UAE में बजट, जीवनशैली, लोकेशन और खरीद निर्णयों के लिए केंद्रित गाइड।",
+          "routes": [
+            {
+              "label": "किराये के लिए बेहतरीन क्षेत्र",
+              "meta": "निवेश",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "फैमिली विला",
+              "meta": "जीवनशैली",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "समुद्र दृश्य वाले अपार्टमेंट",
+              "meta": "वॉटरफ्रंट",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "भुगतान योजनाएँ",
+              "meta": "बजट लॉजिक",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "दुबई में AED 2M से कम",
+              "meta": "एंट्री बजट",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "अबू धाबी लक्ज़री",
+              "meta": "राजधानी की जीवनशैली",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "डेवलपर मैच",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "दुबई के फैमिली क्षेत्र",
+              "meta": "एरिया मैच",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "स्मार्ट प्रॉपर्टी सर्च",
+            "title": "Prima AI से पूछें",
+            "subtitle": "Prima को बताएँ कि आप क्या खोज रहे हैं — क्षेत्र, बजट, जीवनशैली या निवेश लक्ष्य — और प्रासंगिक UAE प्रोजेक्ट्स पाएँ।",
+            "badge": "Prima AI",
+            "aria": "UAE प्रॉपर्टी लक्ष्यों के बारे में Prima AI से पूछें",
+            "placeholder": "क्षेत्र, बजट, जीवनशैली या निवेश लक्ष्य…",
+            "button": "पूछें",
+            "typing_examples": [
+              "दुबई में AED 3M से कम 2BR अपार्टमेंट",
+              "स्कूलों और पार्कों के पास फैमिली-फ्रेंडली क्षेत्र",
+              "भुगतान योजना वाला वॉटरफ्रंट घर",
+              "AED 2M से कम किराये की आय के लिए दुबई के बेहतरीन क्षेत्र"
+            ],
+            "quick_examples": [
+              {
+                "label": "AED 2M से कम Dubai ROI",
+                "query": "AED 2M से कम में दुबई के कौन-से क्षेत्र मजबूत किराये की आय देते हैं?"
+              },
+              {
+                "label": "स्कूलों के पास फैमिली",
+                "query": "स्कूलों और पार्कों के पास फैमिली-फ्रेंडली कम्युनिटीज़ खोजें"
+              },
+              {
+                "label": "वॉटरफ्रंट लिविंग",
+                "query": "जीवनशैली की वैल्यू वाले वॉटरफ्रंट घर दिखाएँ"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "वास्तविक उद्देश्य के आधार पर UAE प्रॉपर्टी सर्च",
+        "subtitle": "Prima AI व्यापक रुचि से सही प्रोजेक्ट, क्षेत्र, डेवलपर और सलाहकार तक तेज़, साफ़ और कम शोर वाले रास्ते में मदद करता है।",
+        "chips": [
+          "UAE ऑफ-प्लान",
+          "AI मैच्ड सर्च",
+          "एडवाइज़र रूटिंग"
+        ],
+        "copyright": "© Primadom Real Estate LLC — सर्वाधिकार सुरक्षित"
+      },
+      "modal": {
+        "eyebrow": "Primadom अनुरोध",
+        "title": "Prima AI के साथ कॉल बुक करें",
+        "description": "बताएँ कि आप क्या खोज रहे हैं। अपनी संपर्क जानकारी जोड़ें या छोटा वॉइस नोट रिकॉर्ड करें।",
+        "name_label": "आपका नाम",
+        "name_placeholder": "नाम",
+        "phone_label": "फ़ोन / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "ईमेल (वैकल्पिक)",
+        "email_placeholder": "email@example.com",
+        "request_label": "अनुरोध",
+        "request_placeholder": "बताएँ कि आप क्या खोज रहे हैं: क्षेत्र, बजट, जीवनशैली, निवेश लक्ष्य या डेवलपर…",
+        "prepared_request": "नमस्ते, मैं UAE रियल एस्टेट के बारे में Prima AI के साथ कॉल बुक करना चाहता/चाहती हूँ।",
+        "voice_aria": "वॉइस से अनुरोध बोलें",
+        "send": "भेजें",
+        "sent": "भेज दिया गया",
+        "listening": "सुन रहा हूँ… आपका वॉइस नोट तैयार अनुरोध की जगह लेगा।",
+        "voice_paused": "वॉइस इनपुट रुका है। आप अपना अनुरोध मैन्युअली लिख सकते हैं।",
+        "voice_added": "वॉइस नोट जोड़ दिया गया। भेजने से पहले आप अनुरोध संपादित कर सकते हैं।",
+        "voice_unsupported": "इस ब्राउज़र में स्पीच रिकग्निशन समर्थित नहीं है।",
+        "initial_status": "तैयार अनुरोध को वॉइस नोट से बदलने के लिए वॉइस बटन दबाएँ।",
+        "voice_manual": "आप अपना अनुरोध मैन्युअली लिख सकते हैं।",
+        "voice_already_active": "वॉइस इनपुट पहले से सक्रिय है। कुछ क्षण बाद फिर कोशिश करें।"
+      },
+      "voice": {
+        "listening": "सुन रहा हूँ…",
+        "got_it": "समझ लिया",
+        "paused": "वॉइस इनपुट रुका है",
+        "mode": "वॉइस मोड",
+        "type_or_retry": "अपना अनुरोध लिखें या फिर से कोशिश करें",
+        "tell_prima": "Prima AI को बताएँ कि आप क्या चाहते हैं",
+        "start_search": "वॉइस सर्च शुरू करें",
+        "unsupported": "यहाँ स्पीच रिकग्निशन समर्थित नहीं है",
+        "describe_need": "क्षेत्र, बजट या जीवनशैली बताएँ"
+      },
+      "results": {
+        "placeholder": "अपनी खोज लिखें…",
+        "close_return": "नतीजे बंद करें और Prima AI पर वापस जाएँ",
+        "voice_search": "वॉइस सर्च",
+        "close_results": "सर्च नतीजे बंद करें"
+      },
+      "a11y": {
+        "start_voice_search": "वॉइस सर्च शुरू करें",
+        "collapse_project_search": "Prima AI सर्च बंद करें",
+        "collapse_developer_search": "Prima AI डेवलपर सर्च बंद करें",
+        "open_developer": "खोलें",
+        "example_intents": "उदाहरण अनुरोध",
+        "footer_highlights": "मुख्य विशेषताएँ",
+        "call": "कॉल करें",
+        "email": "ईमेल",
+        "social_links": "सोशल लिंक",
+        "modal_form": "कॉल बुकिंग फ़ॉर्म",
+        "modal_close": "अनुरोध फ़ॉर्म बंद करें"
+      }
+    },
+    "ru": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "Основная навигация",
+            "nav": [
+              {
+                "label": "Лучшие проекты",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "Лучшие застройщики",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "AI-поиск",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "Контакты",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "Записаться на звонок",
+              "href": "#contact"
+            }
+          },
+          "title": "Подберите лучшую недвижимость ОАЭ под ваши цели",
+          "subtitle": "Изучайте лучшие off-plan проекты, районы и застройщиков в Дубае, Абу-Даби и по всему ОАЭ — с подбором по бюджету, образу жизни и инвестиционной логике.",
+          "featured": {
+            "aria": "Рекомендуемый проект",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "Atelis от Meraas в Dubai Design District",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · июль 2029",
+            "price": "от AED 2.1M",
+            "controls_aria": "Управление рекомендуемыми проектами",
+            "prev_label": "Предыдущий проект",
+            "next_label": "Следующий проект"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "Atelis от Meraas в Dubai Design District",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · июль 2029",
+              "price": "от AED 2.1M"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "The Alba Residences Dorchester Collection на Palm Jumeirah",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · март 2028",
+              "price": "от AED 43M"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "Baccarat Residences в Downtown Dubai",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · май 2027",
+              "price": "от AED 18M"
+            }
+          ],
+          "search": {
+            "aria": "Поиск недвижимости с Prima AI",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "Район, бюджет, тип недвижимости или образ жизни…",
+            "button": "Найти",
+            "chips": [
+              {
+                "label": "Дубай",
+                "query": "Апартаменты в Дубае"
+              },
+              {
+                "label": "Абу-Даби",
+                "query": "Апартаменты в Абу-Даби"
+              },
+              {
+                "label": "Вид на море",
+                "query": "Недвижимость с видом на море в ОАЭ"
+              },
+              {
+                "label": "План оплаты",
+                "query": "Проекты с планами оплаты"
+              },
+              {
+                "label": "До AED 2M",
+                "query": "Недвижимость до AED 2M"
+              }
+            ],
+            "caption": "Поиск по 2 000+ off-plan проектам в ОАЭ",
+            "typing_examples": [
+              "2BR квартира в Дубае до AED 3M",
+              "Вилла с видом на море на Saadiyat Island",
+              "Квартира на Palm Jumeirah до AED 5M"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Подборка Prima AI",
+          "title": "Лучшие проекты",
+          "subtitle": "Короткая подборка премиальных проектов ОАЭ — у моря, в городе, для инвестиций и комфортной жизни.",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Спросить Prima AI",
+            "badge": "Prima AI",
+            "aria": "Спросить Prima AI о лучших проектах",
+            "placeholder": "Спросите о проектах, бюджете или локации…",
+            "button": "Спросить",
+            "typing_examples": [
+              "Какой проект у моря подходит для семьи?",
+              "Сравни проекты Palm Jumeirah до AED 10M",
+              "Покажи проекты в Дубае для инвестиций",
+              "Найди премиальные проекты у воды с планом оплаты"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "Ведущие застройщики ОАЭ",
+          "title": "Лучшие застройщики",
+          "subtitle": "Надёжные застройщики ОАЭ, создающие знаковые комьюнити и премиальные резиденции.",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "Omniyat Group — застройщик премиальной недвижимости в Дубае",
+              "founded": "Основан в 2005 году",
+              "title": "Omniyat Group",
+              "description": "Инноватор рынка недвижимости Персидского залива, известный архитектурным подходом, ультрапремиальными резиденциями, квартирами и пентхаусами.",
+              "tags": [
+                "Акцент на дизайне",
+                "Ультралюкс",
+                "Дубай"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "Emaar Properties — застройщик в Дубае",
+              "founded": "Основан в 1997 году",
+              "title": "Emaar Properties",
+              "description": "Один из крупнейших застройщиков Дубая, создатель Burj Khalifa и Dubai Mall, известный знаковыми комьюнити и высокими стандартами.",
+              "tags": [
+                "Знаковые проекты",
+                "Комьюнити",
+                "Дубай"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "Aldar Properties — застройщик в Абу-Даби",
+              "founded": "Основан в 2004 году",
+              "title": "Aldar Properties",
+              "description": "Один из ведущих застройщиков Абу-Даби, создающий современные комьюнити и премиальный формат жизни по всей столице.",
+              "tags": [
+                "Абу-Даби",
+                "Комьюнити",
+                "Образ жизни"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "Спросить о застройщиках",
+            "badge": "Prima AI",
+            "aria": "Спросить Prima AI о застройщиках ОАЭ",
+            "placeholder": "Спросите об Emaar, Omniyat, Aldar или репутации застройщика…",
+            "button": "Спросить",
+            "typing_examples": [
+              "Какой застройщик лучше подходит для премиальной недвижимости у воды?",
+              "Сравни проекты Emaar и Omniyat в Дубае",
+              "Покажи комьюнити Aldar для семейной жизни",
+              "Какой застройщик ОАЭ сильнее для долгосрочной ценности?"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "Популярные цели покупателей",
+          "title": "Начните с главного",
+          "subtitle": "Выберите приоритет — бюджет, образ жизни, локацию или инвестиции — и перейдите к наиболее подходящему сценарию покупки недвижимости в ОАЭ.",
+          "routes_aria": "Популярные цели покупателей",
+          "note": "Практические гиды по бюджетам, образу жизни, локациям и решениям о покупке недвижимости в ОАЭ.",
+          "routes": [
+            {
+              "label": "Лучшие районы для аренды",
+              "meta": "Инвестиции",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "Виллы для семьи",
+              "meta": "Образ жизни",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "Апартаменты с видом на море",
+              "meta": "У воды",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "Планы оплаты",
+              "meta": "Логика бюджета",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "Дубай до AED 2M",
+              "meta": "Стартовый бюджет",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "Премиум в Абу-Даби",
+              "meta": "Стиль жизни столицы",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "Сравнение застройщиков",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "Семейные районы Дубая",
+              "meta": "Сравнение районов",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "Умный поиск недвижимости",
+            "title": "Спросить Prima AI",
+            "subtitle": "Расскажите Prima, что вы ищете — район, бюджет, образ жизни или инвестиционную цель — и получите подходящие проекты ОАЭ.",
+            "badge": "Prima AI",
+            "aria": "Спросить Prima AI о целях покупки недвижимости в ОАЭ",
+            "placeholder": "Район, бюджет, образ жизни или инвестиционная цель…",
+            "button": "Спросить",
+            "typing_examples": [
+              "2BR квартира в Дубае до AED 3M",
+              "Семейный район рядом со школами и парками",
+              "Дом у воды с планом оплаты",
+              "Лучшие районы Дубая для аренды до AED 2M"
+            ],
+            "quick_examples": [
+              {
+                "label": "Доходность в Дубае до AED 2M",
+                "query": "Какие районы Дубая предлагают сильный арендный доход до AED 2M?"
+              },
+              {
+                "label": "Для семьи рядом со школами",
+                "query": "Найди семейные комьюнити рядом со школами и парками"
+              },
+              {
+                "label": "Жизнь у воды",
+                "query": "Покажи дома у воды с высоким lifestyle-потенциалом"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "Поиск недвижимости в ОАЭ с учётом ваших реальных целей",
+        "subtitle": "Prima AI помогает быстрее перейти от общего интереса к подходящему проекту, району, застройщику и консультанту — без лишнего шума.",
+        "chips": [
+          "Off-plan в ОАЭ",
+          "AI-подбор",
+          "Связь с консультантом"
+        ],
+        "copyright": "© Primadom Real Estate LLC — Все права защищены"
+      },
+      "modal": {
+        "eyebrow": "Запрос Primadom",
+        "title": "Записаться на звонок с Prima AI",
+        "description": "Расскажите, что вы ищете. Оставьте контактные данные или запишите короткое голосовое сообщение.",
+        "name_label": "Ваше имя",
+        "name_placeholder": "Имя",
+        "phone_label": "Телефон / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "Email (необязательно)",
+        "email_placeholder": "email@example.com",
+        "request_label": "Запрос",
+        "request_placeholder": "Расскажите, что вы ищете: район, бюджет, образ жизни, инвестиционную цель или застройщика…",
+        "prepared_request": "Здравствуйте, я хотел(а) бы записаться на звонок с Prima AI по недвижимости в ОАЭ.",
+        "voice_aria": "Продиктовать запрос голосом",
+        "send": "Отправить",
+        "sent": "Отправлено",
+        "listening": "Слушаю… голосовое сообщение заменит готовый запрос.",
+        "voice_paused": "Голосовой ввод приостановлен. Вы можете ввести запрос вручную.",
+        "voice_added": "Голосовое сообщение добавлено. Вы можете отредактировать запрос перед отправкой.",
+        "voice_unsupported": "Распознавание речи не поддерживается в этом браузере.",
+        "initial_status": "Нажмите кнопку голосового ввода, чтобы заменить готовый запрос голосовым сообщением.",
+        "voice_manual": "Вы можете ввести запрос вручную.",
+        "voice_already_active": "Голосовой ввод уже активен. Попробуйте снова через несколько секунд."
+      },
+      "voice": {
+        "listening": "Слушаю…",
+        "got_it": "Готово",
+        "paused": "Голосовой ввод приостановлен",
+        "mode": "Голосовой режим",
+        "type_or_retry": "Введите запрос или попробуйте снова",
+        "tell_prima": "Расскажите Prima AI, что вы ищете",
+        "start_search": "Начать голосовой поиск",
+        "unsupported": "Распознавание речи здесь не поддерживается",
+        "describe_need": "Опишите район, бюджет или образ жизни"
+      },
+      "results": {
+        "placeholder": "Введите ваш запрос…",
+        "close_return": "Закрыть результаты и вернуться к Prima AI",
+        "voice_search": "Голосовой поиск",
+        "close_results": "Закрыть результаты поиска"
+      },
+      "a11y": {
+        "start_voice_search": "Начать голосовой поиск",
+        "collapse_project_search": "Свернуть поиск Prima AI",
+        "collapse_developer_search": "Свернуть поиск Prima AI по застройщикам",
+        "open_developer": "Открыть",
+        "example_intents": "Примеры запросов",
+        "footer_highlights": "Основные возможности",
+        "call": "Позвонить",
+        "email": "Email",
+        "social_links": "Социальные сети",
+        "modal_form": "Форма записи на звонок",
+        "modal_close": "Закрыть форму запроса"
+      }
+    },
+    "zh": {
+      "home": {
+        "hero": {
+          "header": {
+            "badge": "PRIMADOM AI",
+            "nav_aria": "主导航",
+            "nav": [
+              {
+                "label": "热门项目",
+                "href": "#projects",
+                "active": true
+              },
+              {
+                "label": "热门开发商",
+                "href": "#developers",
+                "active": false
+              },
+              {
+                "label": "AI 搜索",
+                "href": "#ai-search",
+                "active": false
+              },
+              {
+                "label": "联系我们",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "cta": {
+              "label": "预约通话",
+              "href": "#contact"
+            }
+          },
+          "title": "根据您的目标发现阿联酋优质房地产",
+          "subtitle": "探索迪拜、阿布扎比及阿联酋各地的优质期房项目、区域和开发商，并按预算、生活方式和投资逻辑进行匹配。",
+          "featured": {
+            "aria": "精选项目",
+            "image": "/img/hero/atelis-featured.jpg",
+            "alt": "位于 Dubai Design District 的 Meraas 项目 Atelis",
+            "title": "Atelis",
+            "meta": "Dubai Design District · Meraas Holding · 2029年7月",
+            "price": "AED 2.1M 起",
+            "controls_aria": "精选项目控制",
+            "prev_label": "上一个项目",
+            "next_label": "下一个项目"
+          },
+          "featured_projects": [
+            {
+              "image": "/img/hero/atelis-featured.jpg",
+              "alt": "位于 Dubai Design District 的 Meraas 项目 Atelis",
+              "title": "Atelis",
+              "meta": "Dubai Design District · Meraas Holding · 2029年7月",
+              "price": "AED 2.1M 起"
+            },
+            {
+              "image": "/img/hero/alba-featured.jpg",
+              "alt": "Palm Jumeirah 的 The Alba Residences Dorchester Collection",
+              "title": "The Alba Residences",
+              "meta": "Palm Jumeirah · Omniyat Group · 2028年3月",
+              "price": "AED 43M 起"
+            },
+            {
+              "image": "/img/hero/baccarat-featured.jpg",
+              "alt": "位于 Downtown Dubai 的 Baccarat Residences",
+              "title": "Baccarat Residences",
+              "meta": "Downtown Dubai · H&H Development · 2027年5月",
+              "price": "AED 18M 起"
+            }
+          ],
+          "search": {
+            "aria": "Prima AI 房产搜索",
+            "search_icon": "/img/search.png",
+            "voice_icon": "/img/voice.png",
+            "placeholder": "区域、预算、房产类型或生活方式…",
+            "button": "查找",
+            "chips": [
+              {
+                "label": "迪拜",
+                "query": "迪拜的公寓"
+              },
+              {
+                "label": "阿布扎比",
+                "query": "阿布扎比的公寓"
+              },
+              {
+                "label": "海景",
+                "query": "阿联酋海景房产"
+              },
+              {
+                "label": "付款计划",
+                "query": "提供付款计划的项目"
+              },
+              {
+                "label": "AED 2M 以下",
+                "query": "AED 2M 以下的房产"
+              }
+            ],
+            "caption": "搜索阿联酋 2,000+ 个期房项目",
+            "typing_examples": [
+              "迪拜 AED 3M 以下的 2BR 公寓",
+              "Saadiyat Island 海景别墅",
+              "Palm Jumeirah AED 5M 以下的公寓"
+            ]
+          }
+        },
+        "top_projects": {
+          "eyebrow": "Prima AI 精选",
+          "title": "热门项目",
+          "subtitle": "精选阿联酋高端项目，涵盖海滨、城市、投资和生活方式选择，并根据真实买家需求进行匹配。",
+          "cards": [
+            {
+              "slug": "passo-by-beyond",
+              "image": "/img/top_projects/passo-featured.jpg",
+              "alt": "Passo by Beyond on Palm Jumeirah",
+              "title": "Passo by Beyond",
+              "meta": "Palm Jumeirah · Beachfront living",
+              "price": "from AED 8.8M",
+              "tags": [
+                "Sea view",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "peninsula-dubai-residences",
+              "image": "/img/top_projects/peninsula-featured.jpg",
+              "alt": "Peninsula Dubai Residences in Jumeirah 2",
+              "title": "Peninsula Dubai Residences",
+              "meta": "Jumeirah 2 · Coastal luxury",
+              "price": "from AED 18M",
+              "tags": [
+                "Jumeirah",
+                "Luxury"
+              ]
+            },
+            {
+              "slug": "orla-by-omniyat",
+              "image": "/img/top_projects/orla-featured.jpg",
+              "alt": "Orla by Omniyat on Palm Jumeirah",
+              "title": "Orla by Omniyat",
+              "meta": "Palm Jumeirah · Waterfront residences",
+              "price": "from AED 24M",
+              "tags": [
+                "Waterfront",
+                "Ultra luxury"
+              ]
+            },
+            {
+              "slug": "iconic-residences",
+              "image": "/img/top_projects/iconic-featured.jpg",
+              "alt": "Iconic Residences in Dubai Internet City",
+              "title": "Iconic Residences",
+              "meta": "Dubai Internet City · City views",
+              "price": "from AED 2.5M",
+              "tags": [
+                "Business",
+                "City views"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "询问 Prima AI",
+            "badge": "Prima AI",
+            "aria": "向 Prima AI 询问热门项目",
+            "placeholder": "询问热门项目、预算或位置…",
+            "button": "询问",
+            "typing_examples": [
+              "哪个热门项目适合想住在海边的家庭？",
+              "比较 Palm Jumeirah AED 10M 以下的项目",
+              "显示迪拜适合投资的项目",
+              "查找提供付款计划的高端滨水住宅"
+            ]
+          }
+        },
+        "top_developers": {
+          "eyebrow": "阿联酋领先开发商",
+          "title": "热门开发商",
+          "subtitle": "值得信赖的阿联酋开发商，打造地标社区和高端住宅。",
+          "cards": [
+            {
+              "key": "omniyat",
+              "slug": "omniyat-group",
+              "image": "/img/top_developers/omniyat.jpg",
+              "alt": "迪拜高端房地产开发商 Omniyat Group",
+              "founded": "成立于 2005 年",
+              "title": "Omniyat Group",
+              "description": "海湾地区房地产创新者，以设计导向理念、超高端住宅、公寓和顶层公寓而闻名。",
+              "tags": [
+                "设计导向",
+                "超高端",
+                "迪拜"
+              ]
+            },
+            {
+              "key": "emaar",
+              "slug": "emaar-properties",
+              "image": "/img/top_developers/emaar.jpg",
+              "alt": "迪拜开发商 Emaar Properties",
+              "founded": "成立于 1997 年",
+              "title": "Emaar Properties",
+              "description": "迪拜大型房地产开发商，打造了 Burj Khalifa 和 Dubai Mall，以地标社区和高标准而闻名。",
+              "tags": [
+                "地标项目",
+                "社区",
+                "迪拜"
+              ]
+            },
+            {
+              "key": "aldar",
+              "slug": "aldar-properties-pjsc",
+              "image": "/img/top_developers/aldar.jpg",
+              "alt": "阿布扎比开发商 Aldar Properties",
+              "founded": "成立于 2004 年",
+              "title": "Aldar Properties",
+              "description": "阿布扎比领先开发商，在首都打造世界级社区和高品质生活体验。",
+              "tags": [
+                "阿布扎比",
+                "社区",
+                "生活方式"
+              ]
+            }
+          ],
+          "ask": {
+            "collapsed_label": "询问开发商",
+            "badge": "Prima AI",
+            "aria": "向 Prima AI 询问阿联酋开发商",
+            "placeholder": "询问 Emaar、Omniyat、Aldar 或开发商口碑…",
+            "button": "询问",
+            "typing_examples": [
+              "哪个开发商更适合高端滨水住宅？",
+              "比较迪拜的 Emaar 和 Omniyat 项目",
+              "显示适合家庭生活的 Aldar 社区",
+              "哪个阿联酋开发商更适合长期价值？"
+            ]
+          }
+        },
+        "intent_block": {
+          "eyebrow": "热门买家目标",
+          "title": "从最重要的需求开始",
+          "subtitle": "选择您的优先事项——预算、生活方式、位置或投资——探索最相关的阿联酋房产路径。",
+          "routes_aria": "热门买家目标",
+          "note": "围绕预算、生活方式、位置和购房决策提供的阿联酋房产指南。",
+          "routes": [
+            {
+              "label": "最佳租金区域",
+              "meta": "投资",
+              "href": "/ai-answers/best-area-for-rental-income-dubai/"
+            },
+            {
+              "label": "家庭别墅",
+              "meta": "生活方式",
+              "href": "/ai-answers/best-area-for-family-villas/"
+            },
+            {
+              "label": "海景公寓",
+              "meta": "滨水",
+              "href": "/property-types/sea-view-apartments-in-emaar-beachfront/"
+            },
+            {
+              "label": "付款计划",
+              "meta": "预算逻辑",
+              "href": "/ai-answers/what-is-a-good-payment-plan-low-down-payment-projects/"
+            },
+            {
+              "label": "迪拜 AED 2M 以下",
+              "meta": "入门预算",
+              "href": "/budgets/dubai-projects-under-aed-2m/"
+            },
+            {
+              "label": "阿布扎比高端房产",
+              "meta": "首都生活方式",
+              "href": "/intents/luxury-properties-in-corniche-abu-dhabi/"
+            },
+            {
+              "label": "Emaar vs Aldar",
+              "meta": "开发商匹配",
+              "href": "/compare-developers/aldar-properties-pjsc-vs-emaar-properties/"
+            },
+            {
+              "label": "迪拜家庭区域",
+              "meta": "区域匹配",
+              "href": "/ai-answers/best-area-for-family-dubai/"
+            }
+          ],
+          "ask": {
+            "eyebrow": "智能房产搜索",
+            "title": "询问 Prima AI",
+            "subtitle": "告诉 Prima 您在寻找什么——区域、预算、生活方式或投资目标——并匹配相关的阿联酋项目。",
+            "badge": "Prima AI",
+            "aria": "向 Prima AI 询问阿联酋房产目标",
+            "placeholder": "区域、预算、生活方式或投资目标…",
+            "button": "询问",
+            "typing_examples": [
+              "迪拜 AED 3M 以下的 2BR 公寓",
+              "学校和公园附近的家庭友好区域",
+              "提供付款计划的滨水住宅",
+              "迪拜 AED 2M 以下租金收入较好的区域"
+            ],
+            "quick_examples": [
+              {
+                "label": "迪拜 AED 2M 以下 ROI",
+                "query": "迪拜哪些区域在 AED 2M 以下有较强租金收入？"
+              },
+              {
+                "label": "学校附近家庭社区",
+                "query": "查找学校和公园附近的家庭友好社区"
+              },
+              {
+                "label": "滨水生活",
+                "query": "显示具有生活方式价值的滨水住宅"
+              }
+            ]
+          }
+        }
+      },
+      "footer": {
+        "title": "以真实需求为导向的阿联酋房产搜索",
+        "subtitle": "Prima AI 帮助客户更快、更清晰地从广泛兴趣找到合适的项目、区域、开发商和顾问。",
+        "chips": [
+          "阿联酋期房",
+          "AI 匹配搜索",
+          "顾问对接"
+        ],
+        "copyright": "© Primadom Real Estate LLC — 版权所有"
+      },
+      "modal": {
+        "eyebrow": "Primadom 需求",
+        "title": "预约与 Prima AI 通话",
+        "description": "告诉我们您在寻找什么。填写联系方式，或录制一段简短语音留言。",
+        "name_label": "您的姓名",
+        "name_placeholder": "姓名",
+        "phone_label": "电话 / WhatsApp",
+        "phone_placeholder": "+971",
+        "email_label": "电子邮箱（可选）",
+        "email_placeholder": "email@example.com",
+        "request_label": "需求",
+        "request_placeholder": "告诉我们您在寻找什么：区域、预算、生活方式、投资目标或开发商…",
+        "prepared_request": "您好，我想预约与 Prima AI 通话，咨询阿联酋房地产。",
+        "voice_aria": "使用语音输入需求",
+        "send": "发送",
+        "sent": "已发送",
+        "listening": "正在聆听…您的语音留言将替换已准备的需求。",
+        "voice_paused": "语音输入已暂停。您可以手动输入需求。",
+        "voice_added": "语音留言已添加。发送前您可以编辑需求。",
+        "voice_unsupported": "此浏览器不支持语音识别。",
+        "initial_status": "点击语音按钮，用语音留言替换已准备的需求。",
+        "voice_manual": "您可以手动输入需求。",
+        "voice_already_active": "语音输入已处于活动状态，请稍后重试。"
+      },
+      "voice": {
+        "listening": "正在聆听…",
+        "got_it": "明白了",
+        "paused": "语音输入已暂停",
+        "mode": "语音模式",
+        "type_or_retry": "输入您的需求或重试",
+        "tell_prima": "告诉 Prima AI 您想要什么",
+        "start_search": "开始语音搜索",
+        "unsupported": "此处不支持语音识别",
+        "describe_need": "描述区域、预算或生活方式"
+      },
+      "results": {
+        "placeholder": "输入您的搜索内容…",
+        "close_return": "关闭结果并返回 Prima AI",
+        "voice_search": "语音搜索",
+        "close_results": "关闭搜索结果"
+      },
+      "a11y": {
+        "start_voice_search": "开始语音搜索",
+        "collapse_project_search": "收起 Prima AI 搜索",
+        "collapse_developer_search": "收起 Prima AI 开发商搜索",
+        "open_developer": "打开",
+        "example_intents": "示例需求",
+        "footer_highlights": "主要功能",
+        "call": "致电",
+        "email": "电子邮箱",
+        "social_links": "社交媒体链接",
+        "modal_form": "预约通话表单",
+        "modal_close": "关闭需求表单"
       }
     }
   }

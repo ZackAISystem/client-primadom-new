@@ -1,6 +1,9 @@
-{{ $home := site.Data.site.home }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
 {{ $section := $home.intent_block }}
 {{ $heroSearch := $home.hero.search }}
+{{ $voice := $locale.voice }}
+{{ $a11y := $locale.a11y }}
 
 {{ if $section }}
 <section class="home-intent" id="intent" data-intent-block>
@@ -15,10 +18,9 @@
 
       <div class="home-intent__routes" aria-label="{{ $section.routes_aria }}">
         {{ range $section.routes }}
-          <button
+          <a
             class="home-intent-route"
-            type="button"
-            data-intent-query="{{ .query }}"
+            href="{{ .href | relLangURL }}"
           >
             <span class="home-intent-route__main">
               <span class="home-intent-route__label">{{ .label }}</span>
@@ -26,7 +28,7 @@
             </span>
 
             <span class="home-intent-route__arrow" aria-hidden="true">→</span>
-          </button>
+          </a>
         {{ end }}
       </div>
 
@@ -49,19 +51,19 @@
           <span>{{ $section.ask.badge }}</span>
         </div>
 
-        <input
+        <textarea
           class="intent-ask__input"
-          type="text"
           name="intent_q"
+          rows="2"
           placeholder="{{ $section.ask.placeholder }}"
           autocomplete="off"
           data-typing-examples='{{ $section.ask.typing_examples | jsonify }}'
-        >
+        ></textarea>
 
         <button
           class="intent-ask__voice"
           type="button"
-          aria-label="Start voice search"
+          aria-label="{{ $a11y.start_voice_search | default "Start voice search" }}"
           aria-pressed="false"
         >
           <span class="intent-ask__voice-aura" aria-hidden="true"></span>
@@ -79,8 +81,8 @@
             <span class="intent-ask__voice-popover-dot"></span>
 
             <div class="intent-ask__voice-copy">
-              <span class="intent-ask__voice-status">Listening…</span>
-              <span class="intent-ask__voice-text">Tell Primadom AI what you need</span>
+              <span class="intent-ask__voice-status">{{ $voice.listening | default "Listening…" }}</span>
+              <span class="intent-ask__voice-text">{{ $voice.tell_prima | default "Tell Prima AI what you need" }}</span>
             </div>
 
             <span class="intent-ask__voice-bars" aria-hidden="true">
@@ -94,7 +96,7 @@
         </button>
       </form>
 
-      <div class="intent-ask__examples" aria-label="Example intents">
+      <div class="intent-ask__examples" aria-label="{{ $a11y.example_intents | default "Example intents" }}">
         {{ range $section.ask.quick_examples }}
           <button
             class="intent-ask__example"
@@ -138,6 +140,21 @@
     });
   });
 
+  input.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+
+    event.preventDefault();
+
+    if (typeof form.requestSubmit === 'function') {
+      form.requestSubmit();
+    } else {
+      form.dispatchEvent(new Event('submit', {
+        bubbles: true,
+        cancelable: true
+      }));
+    }
+  });
+
   form.addEventListener('submit', event => {
     event.preventDefault();
 
@@ -168,7 +185,7 @@
     recognition.continuous = false;
 
     recognition.onstart = () => {
-      setVoiceState(true, 'Listening…', 'Describe area, budget or lifestyle');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.describe_need | default "Describe area, budget or lifestyle") | jsonify }});
     };
 
     recognition.onresult = event => {
@@ -182,13 +199,13 @@
 
       if (transcript) {
         input.value = transcript;
-        if (voiceStatus) voiceStatus.textContent = 'Got it';
+        if (voiceStatus) voiceStatus.textContent = {{ ($voice.got_it | default "Got it") | jsonify }};
         if (voiceText) voiceText.textContent = transcript;
       }
     };
 
     recognition.onerror = () => {
-      if (voiceStatus) voiceStatus.textContent = 'Voice paused';
+      if (voiceStatus) voiceStatus.textContent = {{ ($voice.paused | default "Voice paused") | jsonify }};
       if (voiceText) voiceText.textContent = 'Type your request or try again';
 
       window.setTimeout(() => setVoiceState(false), 900);
@@ -227,7 +244,7 @@
     }
 
     if (!recognition) {
-      setVoiceState(true, 'Voice mode', 'Speech recognition is not supported here');
+      setVoiceState(true, {{ ($voice.mode | default "Voice mode") | jsonify }}, {{ ($voice.unsupported | default "Speech recognition is not supported here") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);
@@ -239,7 +256,7 @@
     try {
       recognition.start();
     } catch (e) {
-      setVoiceState(true, 'Listening…', 'Describe area, budget or lifestyle');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.describe_need | default "Describe area, budget or lifestyle") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);

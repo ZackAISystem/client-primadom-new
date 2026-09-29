@@ -112,7 +112,7 @@ if [ "$ZH_ROUTES" -ne 22499 ]; then
 fi
 
 cat > "$TMP/enru.toml" <<'CFG'
-disableLanguages = ["hi", "zh"]
+disableLanguages = ["ar", "hi", "zh"]
 
 [languages.zh]
 languageName = "中文"
@@ -147,7 +147,7 @@ CFG
 
 echo ""
 echo "======================================"
-echo "BUILD 1/3 — EN + RU + AR"
+echo "BUILD 1/3 — EN + RU"
 echo "======================================"
 
 mv "$ROOT/data/primadom/hi" \
@@ -342,13 +342,6 @@ ZH="$(
     | tr -d ' '
 )"
 
-AR="$(
-  find "$ROOT/public/ar" \
-    -type f \
-    | wc -l \
-    | tr -d ' '
-)"
-
 count_leaf() {
   local SECTION="$1"
 
@@ -400,7 +393,6 @@ echo "EN:          $EN"
 echo "RU:          $RU"
 echo "HI:          $HI"
 echo "ZH:          $ZH"
-echo "AR:          $AR"
 
 echo ""
 echo "ZH AI PAGE COUNTS:"
@@ -425,7 +417,6 @@ test -f "$ROOT/public/en/index.html"
 test -f "$ROOT/public/ru/index.html"
 test -f "$ROOT/public/hi/index.html"
 test -f "$ROOT/public/zh/index.html"
-test -f "$ROOT/public/ar/index.html"
 
 test -f "$ROOT/public/en/sitemap.xml"
 test -f "$ROOT/public/ru/sitemap.xml"

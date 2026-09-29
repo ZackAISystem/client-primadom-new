@@ -8,6 +8,7 @@
    * Hero / Ask AI forms are intentionally excluded.
    */
   const FORM_MAP = [
+    ["[data-general-lead-form]", "home_general_lead"],
     ["[data-ai-answer-form]", "ai_answer_lead"],
     ["[data-budget-form]", "budget_lead"],
     ["[data-buyer-scenario-form]", "buyer_scenario_lead"],

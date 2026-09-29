@@ -1,4 +1,0 @@
-{{- $ctx := .ctx -}}
-{{- $key := .key -}}
-{{- $fallback := .fallback | default "" -}}
-{{- return (index $ctx.t $key | default $fallback) -}}

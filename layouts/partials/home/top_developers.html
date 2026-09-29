@@ -1,6 +1,9 @@
-{{ $home := site.Data.site.home }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
 {{ $section := $home.top_developers }}
 {{ $heroSearch := $home.hero.search }}
+{{ $voice := $locale.voice }}
+{{ $a11y := $locale.a11y }}
 
 {{ if $section }}
 <section class="home-top-developers" id="developers">
@@ -19,9 +22,15 @@
 
     <div class="top-developers-stage" data-top-developers-stage>
       {{ range $index, $item := $section.cards }}
+        {{ $href := printf "/developers/%s/" $item.slug | relLangURL }}
+
         <article
           class="top-developer-card {{ if eq $index 0 }}is-active{{ else if eq $index 1 }}is-next{{ else }}is-prev{{ end }}"
           data-dev-index="{{ $index }}"
+          data-dev-href="{{ $href }}"
+          role="link"
+          tabindex="0"
+          aria-label="{{ $a11y.open_developer | default "Open" }} {{ $item.title }}"
         >
           <img
             class="top-developer-card__img"
@@ -58,24 +67,24 @@
         role="search"
         aria-label="{{ $section.ask.aria }}"
       >
-        <button class="top-developers-ask__badge" type="button" aria-label="Collapse Primadom AI developer search">
+        <button class="top-developers-ask__badge" type="button" aria-label="{{ $a11y.collapse_developer_search | default "Collapse Prima AI developer search" }}">
           <span class="top-developers-ask__badge-dot"></span>
           <span>{{ $section.ask.badge }}</span>
         </button>
 
-        <input
+        <textarea
           class="top-developers-ask__input"
-          type="text"
           name="top_developers_q"
           placeholder="{{ $section.ask.placeholder }}"
           autocomplete="off"
+          rows="2"
           data-typing-examples='{{ $section.ask.typing_examples | jsonify }}'
-        >
+        ></textarea>
 
         <button
           class="top-developers-ask__voice"
           type="button"
-          aria-label="Start voice search"
+          aria-label="{{ $a11y.start_voice_search | default "Start voice search" }}"
           aria-pressed="false"
         >
           <span class="top-developers-ask__voice-aura" aria-hidden="true"></span>
@@ -93,8 +102,8 @@
             <span class="top-developers-ask__voice-popover-dot"></span>
 
             <div class="top-developers-ask__voice-copy">
-              <span class="top-developers-ask__voice-status">Listening…</span>
-              <span class="top-developers-ask__voice-text">Tell Primadom AI what you want</span>
+              <span class="top-developers-ask__voice-status">{{ $voice.listening | default "Listening…" }}</span>
+              <span class="top-developers-ask__voice-text">{{ $voice.tell_prima | default "Tell Prima AI what you want" }}</span>
             </div>
 
             <span class="top-developers-ask__voice-bars" aria-hidden="true">
@@ -150,13 +159,17 @@
   }
 
   cards.forEach((card, index) => {
-    card.addEventListener('click', () => {
-      activeIndex = index;
-      renderCards();
+    function openDeveloperCard() {
+      const href = card.getAttribute('data-dev-href');
+      if (href) window.location.assign(href);
+    }
 
-      if (timer) {
-        window.clearInterval(timer);
-        timer = window.setInterval(nextCard, INTERVAL);
+    card.addEventListener('click', openDeveloperCard);
+
+    card.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openDeveloperCard();
       }
     });
   });
@@ -211,7 +224,7 @@
     recognition.continuous = false;
 
     recognition.onstart = () => {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
     };
 
     recognition.onresult = event => {
@@ -225,13 +238,13 @@
 
       if (transcript) {
         input.value = transcript;
-        if (voiceStatus) voiceStatus.textContent = 'Got it';
+        if (voiceStatus) voiceStatus.textContent = {{ ($voice.got_it | default "Got it") | jsonify }};
         if (voiceText) voiceText.textContent = transcript;
       }
     };
 
     recognition.onerror = () => {
-      if (voiceStatus) voiceStatus.textContent = 'Voice paused';
+      if (voiceStatus) voiceStatus.textContent = {{ ($voice.paused | default "Voice paused") | jsonify }};
       if (voiceText) voiceText.textContent = 'Type your request or try again';
 
       window.setTimeout(() => setVoiceState(false), 900);
@@ -270,7 +283,7 @@
     }
 
     if (!recognition) {
-      setVoiceState(true, 'Voice mode', 'Speech recognition is not supported here');
+      setVoiceState(true, {{ ($voice.mode | default "Voice mode") | jsonify }}, {{ ($voice.unsupported | default "Speech recognition is not supported here") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);
@@ -282,7 +295,7 @@
     try {
       recognition.start();
     } catch (e) {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);

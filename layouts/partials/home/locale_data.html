@@ -1,0 +1,61 @@
+{{/*
+  Homepage locale resolver.
+
+  EN remains the canonical frozen source:
+    site.Data.site.home
+    site.Data.site.footer
+
+  Other languages use:
+    site.Data.site.home_i18n.<lang>
+
+  This partial only resolves data.
+  It does not redirect, mutate URLs or touch Search V3.
+*/}}
+
+{{ $site := site.Data.site }}
+{{ $lang := .Site.Language.Lang | default "en" }}
+
+{{ $home := $site.home }}
+{{ $footer := $site.footer }}
+{{ $modal := dict }}
+{{ $voice := dict }}
+{{ $results := dict }}
+{{ $a11y := dict }}
+
+{{ if ne $lang "en" }}
+  {{ with index $site.home_i18n $lang }}
+    {{ with .home }}
+      {{ $home = . }}
+    {{ end }}
+
+    {{ with .footer }}
+      {{ $footer = . }}
+    {{ end }}
+
+    {{ with .modal }}
+      {{ $modal = . }}
+    {{ end }}
+
+    {{ with .voice }}
+      {{ $voice = . }}
+    {{ end }}
+
+    {{ with .results }}
+      {{ $results = . }}
+    {{ end }}
+
+    {{ with .a11y }}
+      {{ $a11y = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return (dict
+  "lang" $lang
+  "home" $home
+  "footer" $footer
+  "modal" $modal
+  "voice" $voice
+  "results" $results
+  "a11y" $a11y
+) }}

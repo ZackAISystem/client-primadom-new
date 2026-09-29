@@ -1,4 +1,5 @@
-{{ $hero := site.Data.site.home.hero }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $hero := $locale.home.hero }}
 {{ $header := $hero.header }}
 
 <header class="site-header">

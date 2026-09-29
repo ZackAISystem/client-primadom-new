@@ -4,39 +4,634 @@
   // GetHome Search Engine (NO fetch, NO layout changes)
   // Works with:
   // - data/search/dict.json
-  // - data/search/search_index.json
   // Listens:
   // - search:set {q}
   // - search:updated {q}
   // - search:clear
   // =========================================================
 
-  const LANGS = ["en","ru","ar","hi"];
+  const LANGS = [
+    "en","ru","hi","zh",
+    "es","fr","de","ar"
+  ];
+
   const STORAGE_KEY = "results_query";
 
-  function getLang(){
-    const l = (document.documentElement.getAttribute("lang") || "en").toLowerCase();
-    return LANGS.includes(l) ? l : "en";
+  function getPageLang(){
+    const l = (
+      document.documentElement.getAttribute("lang")
+      || "en"
+    ).toLowerCase();
+
+    return LANGS.includes(l)
+      ? l
+      : "en";
   }
 
-  // --- embed DICT + INDEX from Hugo data (no fetch!) ---
+  let ACTIVE_SEARCH_LANG = getPageLang();
+
+  function getLang(){
+    return ACTIVE_SEARCH_LANG;
+  }
+
+  // --- canonical Search V1: dictionary only, no legacy search index ---
   let DICT = {{ site.Data.search.dict | jsonify }};
   if (typeof DICT === "string") {
     try { DICT = JSON.parse(DICT); } catch(e){ DICT = {}; }
   }
 
-  let INDEX = {{ site.Data.search.search_index | jsonify }};
-  if (typeof INDEX === "string") {
-    try { INDEX = JSON.parse(INDEX); } catch(e){ INDEX = {}; }
+  // --- Search V3 multilingual runtime projection ---
+  // All 8 languages, including EN, use the same
+  // versioned runtime projection contract.
+  let PROJECT_PROJECTION = {};
+
+  let PROJECT_ROWS = [];
+
+  function buildProjectBySlug(rows){
+    return new Map(
+      rows
+        .filter(p => p && p.slug)
+        .map(p => [
+          String(p.slug),
+          p
+        ])
+    );
   }
 
-  const projectsIndex = Array.isArray(INDEX && INDEX.projects) ? INDEX.projects : [];
+  let PROJECT_BY_SLUG =
+    buildProjectBySlug(PROJECT_ROWS);
 
-  // Build fast lookup by slug
-  const bySlug = new Map();
-  for (const p of projectsIndex) {
-    if (p && p.slug) bySlug.set(String(p.slug), p);
+  // No language is considered active until its
+  // V3 projection has successfully loaded.
+  let PROJECT_DATA_LANG = "";
+
+  const PROJECT_PROJECTION_CACHE =
+    new Map();
+
+  const PROJECT_LOAD_PROMISES =
+    new Map();
+
+  // ---------------------------------------------------------
+  // Day 3 — query language detector
+  // ---------------------------------------------------------
+
+  const LATIN_LANGUAGE_SIGNALS = {
+    en: new Set([
+      "apartments",
+      "properties",
+      "bedrooms",
+      "cheaper",
+      "waterfront",
+      "developer",
+      "developers",
+      "handover",
+      "alternatives",
+      "earlier",
+      "another"
+    ]),
+
+    es: new Set([
+      "apartamento",
+      "apartamentos",
+      "vivienda",
+      "viviendas",
+      "dormitorio",
+      "dormitorios",
+      "inmobiliario",
+      "inmobiliaria",
+      "promotor",
+      "promotores",
+      "similares",
+      "barato",
+      "baratos",
+      "barata",
+      "baratas",
+      "mismo",
+      "misma",
+      "otro",
+      "otra",
+      "entrega"
+    ]),
+
+    fr: new Set([
+      "appartement",
+      "appartements",
+      "logement",
+      "logements",
+      "chambre",
+      "chambres",
+      "immobilier",
+      "immobiliere",
+      "promoteur",
+      "promoteurs",
+      "similaire",
+      "similaires",
+      "cher",
+      "chers",
+      "chère",
+      "chères",
+      "même",
+      "autre",
+      "livraison"
+    ]),
+
+    de: new Set([
+      "wohnung",
+      "wohnungen",
+      "immobilie",
+      "immobilien",
+      "schlafzimmer",
+      "guenstiger",
+      "günstiger",
+      "bautraeger",
+      "bauträger",
+      "uebergabe",
+      "übergabe",
+      "aehnlich",
+      "ähnlich",
+      "gleicher",
+      "gleiche",
+      "gleiches",
+      "anderer",
+      "andere",
+      "anderen",
+      "anderem",
+      "bezirk",
+      "gebiet",
+      "frueher",
+      "früher"
+    ])
+  };
+
+  const LATIN_RELATION_LANGUAGE_RULES = [
+    {
+      lang: "en",
+      patterns: [
+        /\bsimilar\s+to\b/i,
+        /\bcheaper\s+than\b/i,
+        /\bsame\s+(?:district|area)\s+as\b/i,
+        /\bsame\s+developer\s+as\b/i,
+        /\bearlier\s+handover\s+than\b/i
+      ]
+    },
+
+    {
+      lang: "es",
+      patterns: [
+        /\bsimilar(?:es)?\s+a\b/i,
+        /\bm[aá]s\s+barat[oa]s?\s+que\b/i,
+        /\bmism[oa]\s+(?:distrito|zona)\s+que\b/i,
+        /\bmism[oa]\s+(?:promotor|desarrollador)\s+que\b/i
+      ]
+    },
+
+    {
+      lang: "fr",
+      patterns: [
+        /\bsimilaires?\s+(?:à|a)(?=\s|$)/iu,
+        /\bmoins\s+ch(?:er|ère|ers|ères)\s+que\b/i,
+        /\bmême\s+(?:quartier|zone)\s+que\b/i,
+        /\bmême\s+(?:promoteur|développeur)\s+que\b/i
+      ]
+    },
+
+    {
+      lang: "de",
+      patterns: [
+        /\b(?:ähnlich|aehnlich)\s+wie\b/i,
+        /\b(?:günstiger|guenstiger)\s+als\b/i,
+        /\bgleich(?:er|e|es)\s+(?:bezirk|gebiet)\b/i,
+        /\bgleich(?:er|e|es)\s+(?:bauträger|bautraeger|entwickler)\b/i
+      ]
+    }
+  ];
+
+  function detectLatinRelationLanguage(query){
+    const q = String(query || "");
+
+    for (const rule of LATIN_RELATION_LANGUAGE_RULES) {
+      if (
+        rule.patterns.some(re =>
+          re.test(q)
+        )
+      ) {
+        return rule.lang;
+      }
+    }
+
+    return "";
   }
+
+  function languageWords(value){
+    return (
+      String(value || "")
+        .toLowerCase()
+        .match(/\p{L}+/gu)
+      || []
+    );
+  }
+
+  function detectLatinSearchLanguage(
+    query,
+    fallback
+  ){
+    const relationLang =
+      detectLatinRelationLanguage(query);
+
+    if (relationLang) {
+      return relationLang;
+    }
+
+    const words =
+      languageWords(query);
+
+    if (!words.length) {
+      return fallback;
+    }
+
+    const scores = {
+      en: 0,
+      es: 0,
+      fr: 0,
+      de: 0
+    };
+
+    for (const word of words) {
+      for (
+        const lang of [
+          "en","es","fr","de"
+        ]
+      ) {
+        if (
+          LATIN_LANGUAGE_SIGNALS[
+            lang
+          ].has(word)
+        ) {
+          scores[lang]++;
+        }
+      }
+    }
+
+    const ranked =
+      Object.entries(scores)
+        .sort(
+          (a, b) =>
+            b[1] - a[1]
+        );
+
+    if (!ranked.length) {
+      return fallback;
+    }
+
+    const [bestLang, bestScore] =
+      ranked[0];
+
+    const secondScore =
+      ranked[1]?.[1] || 0;
+
+    // One unambiguous strong word
+    // is already enough.
+    if (
+      bestScore > 0 &&
+      bestScore > secondScore
+    ) {
+      return bestLang;
+    }
+
+    return fallback;
+  }
+
+  function detectSearchLanguage(query){
+    const q =
+      String(query || "");
+
+    // Script-level detection:
+    // immediate from first meaningful
+    // character.
+    if (/\p{Script=Cyrillic}/u.test(q)) {
+      return "ru";
+    }
+
+    if (/\p{Script=Arabic}/u.test(q)) {
+      return "ar";
+    }
+
+    if (/\p{Script=Devanagari}/u.test(q)) {
+      return "hi";
+    }
+
+    if (/\p{Script=Han}/u.test(q)) {
+      return "zh";
+    }
+
+    return detectLatinSearchLanguage(
+      q,
+      ACTIVE_SEARCH_LANG
+    );
+  }
+
+  window.__primadomDetectSearchLanguage = detectSearchLanguage;
+
+  // Day 4 Homepage routing detector.
+  //
+  // IMPORTANT:
+  // Search keeps its original Day 3 behaviour above:
+  // ambiguous Latin text falls back to ACTIVE_SEARCH_LANG.
+  //
+  // Homepage routing is different:
+  // ambiguous Latin text MUST fall back to the language
+  // already present in the URL, never to mutable Search state.
+  const ROUTE_LATIN_LANGUAGE_SIGNALS = {
+    en: new Set([
+      "hello",
+      "thanks"
+    ]),
+
+    es: new Set([
+      "hola",
+      "gracias"
+    ]),
+
+    fr: new Set([
+      "bonjour",
+      "merci"
+    ]),
+
+    de: new Set([
+      "hallo",
+      "danke"
+    ])
+  };
+
+  function detectRouteLatinLanguage(query) {
+    const words =
+      languageWords(query);
+
+    if (!words.length) {
+      return "";
+    }
+
+    const scores = {
+      en: 0,
+      es: 0,
+      fr: 0,
+      de: 0
+    };
+
+    for (const word of words) {
+      for (
+        const lang of [
+          "en","es","fr","de"
+        ]
+      ) {
+        if (
+          ROUTE_LATIN_LANGUAGE_SIGNALS[
+            lang
+          ].has(word)
+        ) {
+          scores[lang]++;
+        }
+      }
+    }
+
+    const ranked =
+      Object.entries(scores)
+        .sort(
+          (a, b) =>
+            b[1] - a[1]
+        );
+
+    const [bestLang, bestScore] =
+      ranked[0] || ["", 0];
+
+    const secondScore =
+      ranked[1]?.[1] || 0;
+
+    return (
+      bestScore > 0 &&
+      bestScore > secondScore
+    )
+      ? bestLang
+      : "";
+  }
+
+  function detectRouteLanguage(
+    query,
+    fallbackLang
+  ){
+    const q =
+      String(query || "");
+
+    if (/\p{Script=Cyrillic}/u.test(q)) {
+      return "ru";
+    }
+
+    if (/\p{Script=Arabic}/u.test(q)) {
+      return "ar";
+    }
+
+    if (/\p{Script=Devanagari}/u.test(q)) {
+      return "hi";
+    }
+
+    if (/\p{Script=Han}/u.test(q)) {
+      return "zh";
+    }
+
+    const routeLatin =
+      detectRouteLatinLanguage(q);
+
+    if (routeLatin) {
+      return routeLatin;
+    }
+
+    const fallback =
+      LANGS.includes(
+        String(fallbackLang || "")
+          .toLowerCase()
+      )
+        ? String(fallbackLang)
+            .toLowerCase()
+        : getPageLang();
+
+    return detectLatinSearchLanguage(
+      q,
+      fallback
+    );
+  }
+
+  window.__primadomDetectRouteLanguage =
+    detectRouteLanguage;
+
+  const PROJECT_PROJECTION_SCHEMA =
+    "v3-3d5-emirate-1";
+
+  async function loadProjectProjection(
+    lang
+  ){
+    if (
+      PROJECT_PROJECTION_CACHE.has(
+        lang
+      )
+    ) {
+      return PROJECT_PROJECTION_CACHE.get(
+        lang
+      );
+    }
+
+    if (
+      PROJECT_LOAD_PROMISES.has(
+        lang
+      )
+    ) {
+      return PROJECT_LOAD_PROMISES.get(
+        lang
+      );
+    }
+
+    const promise = fetch(
+      `/search/project-projections-v3/${lang}.json?v=${PROJECT_PROJECTION_SCHEMA}`,
+      {
+        cache: "no-cache"
+      }
+    )
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(
+            `Projection ${lang}: HTTP ${response.status}`
+          );
+        }
+
+        return response.json();
+      })
+      .then(payload => {
+        if (
+          payload?.language !== lang ||
+          payload?.count !== 2571 ||
+          !Array.isArray(
+            payload?.projects
+          ) ||
+          payload.projects.length !== 2571
+        ) {
+          throw new Error(
+            `Projection ${lang}: invalid contract`
+          );
+        }
+
+        const machineEmirateRows =
+          payload.projects.filter(
+            project =>
+              Object.prototype.hasOwnProperty.call(
+                project,
+                "machine_emirate"
+              )
+          ).length;
+
+        if (machineEmirateRows !== 2571) {
+          throw new Error(
+            `Projection ${lang}: stale schema — machine_emirate ${machineEmirateRows}/2571`
+          );
+        }
+
+        PROJECT_PROJECTION_CACHE.set(
+          lang,
+          payload
+        );
+
+        return payload;
+      })
+      .finally(() => {
+        PROJECT_LOAD_PROMISES.delete(
+          lang
+        );
+      });
+
+    PROJECT_LOAD_PROMISES.set(
+      lang,
+      promise
+    );
+
+    return promise;
+  }
+
+  async function activateSearchLanguage(
+    lang,
+    expectedSequence = null
+  ){
+    const target =
+      LANGS.includes(lang)
+        ? lang
+        : "en";
+
+    if (
+      PROJECT_DATA_LANG === target
+    ) {
+      ACTIVE_SEARCH_LANG = target;
+      return true;
+    }
+
+    try {
+      const payload =
+        await loadProjectProjection(
+          target
+        );
+
+      // A newer query was submitted while this projection
+      // was loading. Keep the fetched payload in cache,
+      // but NEVER commit stale global Search state.
+      if (
+        expectedSequence !== null &&
+        expectedSequence !==
+          SEARCH_APPLY_SEQUENCE
+      ) {
+        return false;
+      }
+
+      PROJECT_PROJECTION = payload;
+
+      PROJECT_ROWS =
+        payload.projects;
+
+      PROJECT_BY_SLUG =
+        buildProjectBySlug(
+          PROJECT_ROWS
+        );
+
+      PROJECT_DATA_LANG =
+        target;
+
+      ACTIVE_SEARCH_LANG =
+        target;
+
+      rebuildProjectEntityIndexes();
+      resetProjectCardShells();
+
+      const root =
+        getResultsRoot();
+
+      if (root) {
+        root.dataset.searchLanguage =
+          target;
+      }
+
+      return true;
+
+    } catch (error) {
+      console.warn(
+        "[Prima Search] language switch failed:",
+        target,
+        error
+      );
+
+      ACTIVE_SEARCH_LANG =
+        PROJECT_DATA_LANG;
+
+      return false;
+    }
+  }
+
+  const RESULT_LIMIT = 100;
+  const PRICE_TOLERANCE = 0.10;
 
   // --- normalizer (stopwords + synonyms) ---
   function buildNormalizer(dict, lang){
@@ -113,45 +708,1590 @@
     }
   }
 
-  // --- Emirate canonicalization (multi-language) ---
-  const EMIRATE_CANON = {
-    // EN
-    "dubai": "dubai",
-    "abu dhabi": "abu-dhabi",
-    "abudhabi": "abu-dhabi",
-    "sharjah": "sharjah",
-    "ras al khaimah": "ras-al-khaimah",
-    "rasalkhaimah": "ras-al-khaimah",
+  // ---------------------------------------------------------
+  // Search V2 — lightweight Project shells
+  // ---------------------------------------------------------
 
-    // RU
-    "дубай": "dubai",
-    "абу даби": "abu-dhabi",
-    "абудаби": "abu-dhabi",
-    "шарджа": "sharjah",
-    "рас-эль-хайма": "ras-al-khaimah",
-    "рас эль хайма": "ras-al-khaimah",
-    "расэльхайма": "ras-al-khaimah",
+  function projectionSearchText(p){
+    const features = Array.isArray(p.features)
+      ? p.features.map(x => String(x).replace(/-/g, " "))
+      : [];
 
-    // AR
-    "دبي": "dubai",
-    "أبوظبي": "abu-dhabi",
-    "ابوظبي": "abu-dhabi",
-    "الشارقة": "sharjah",
-    "رأس الخيمة": "ras-al-khaimah",
-    "راس الخيمة": "ras-al-khaimah",
+    return [
+      p.search_terms || "",
+      ...features
+    ]
+      .join(" ")
+      .toLowerCase()
+      .trim();
+  }
 
-    // HI
-    "दुबई": "dubai",
-    "अबू धाबी": "abu-dhabi",
-    "शारजाह": "sharjah",
-    "रास अल खैमाह": "ras-al-khaimah"
+  function createProjectCardShell(p){
+    const a = document.createElement("a");
+
+    a.className = "results-card";
+    a.href = String(p.canonical_url || "");
+
+    a.dataset.slug = String(p.slug || "");
+    a.dataset.search = projectionSearchText(p);
+    a.dataset.title = String(p.title || "");
+    a.dataset.location = String(
+      p.display_location ||
+      p.district ||
+      ""
+    );
+    a.dataset.developer = String(p.developer || "");
+    a.dataset.price = String(p.price_display || "");
+
+    a.dataset.priceAmount =
+      p.price_amount === null ||
+      typeof p.price_amount === "undefined"
+        ? ""
+        : String(p.price_amount);
+
+    a.dataset.type = String(p.property_type || "");
+    a.dataset.units = String(p.units || "");
+    a.dataset.handover = String(p.handover || "");
+    a.dataset.paymentPlan = String(p.payment_plan || "");
+    a.dataset.status = String(p.status || "");
+    a.dataset.size = String(p.size_from || "");
+
+    // Stable machine facets for shared multilingual Search V2.
+    a.dataset.machineDistrict = String(
+      p.machine_district ||
+      p.district ||
+      ""
+    );
+
+    a.dataset.machineEmirate = String(
+      p.machine_emirate ||
+      ""
+    );
+
+    a.dataset.machineDeveloper = String(
+      p.machine_developer ||
+      p.developer ||
+      ""
+    );
+
+    a.dataset.machineType = String(
+      p.machine_property_type ||
+      p.property_type ||
+      ""
+    );
+
+    a.dataset.machineUnits = String(
+      p.machine_units ||
+      p.units ||
+      ""
+    );
+
+    a.dataset.machineHandover = String(
+      p.machine_handover ||
+      p.handover ||
+      ""
+    );
+
+    a.dataset.machinePaymentPlan = String(
+      p.machine_payment_plan ||
+      p.payment_plan ||
+      ""
+    );
+
+    a.dataset.machineStatus = String(
+      p.machine_status ||
+      p.status ||
+      ""
+    );
+
+    a.dataset.machineSize = String(
+      p.machine_size_from ||
+      p.size_from ||
+      ""
+    );
+
+    a.dataset.hasImage = p.gallery_1 ? "1" : "0";
+    a.dataset.hydrated = "0";
+
+    a.style.display = "none";
+
+    return a;
+  }
+
+  const CARD_LABELS_BY_LANG = {
+    en: {
+      location: "Location:",
+      priceFrom: "Price From:"
+    },
+
+    ru: {
+      location: "Локация:",
+      priceFrom: "Цена от:"
+    },
+
+    hi: {
+      location: "स्थान:",
+      priceFrom: "कीमत से:"
+    },
+
+    zh: {
+      location: "位置：",
+      priceFrom: "起价："
+    },
+
+    es: {
+      location: "Ubicación:",
+      priceFrom: "Precio desde:"
+    },
+
+    fr: {
+      location: "Localisation:",
+      priceFrom: "Prix à partir de:"
+    },
+
+    de: {
+      location: "Lage:",
+      priceFrom: "Preis ab:"
+    },
+
+    ar: {
+      location: "الموقع:",
+      priceFrom: "السعر من:"
+    }
   };
 
-  const EMIRATE_SET = new Set(["dubai","abu-dhabi","sharjah","ras-al-khaimah"]);
+  function getCardLabels(){
+    return (
+      CARD_LABELS_BY_LANG[
+        ACTIVE_SEARCH_LANG
+      ] ||
+      CARD_LABELS_BY_LANG.en
+    );
+  }
+
+  function hydrateProjectCard(a){
+    if (!a || a.dataset.hydrated === "1") return;
+
+    const p = PROJECT_BY_SLUG.get(
+      String(a.dataset.slug || "")
+    );
+
+    if (!p) return;
+
+    const labels = getCardLabels();
+
+    const inner = document.createElement("div");
+    inner.className = "results-card__inner";
+
+    if (p.gallery_1) {
+      const img = document.createElement("img");
+
+      img.className = "results-card__img";
+      img.src = String(p.gallery_1);
+      img.alt = String(p.image_alt || p.title || "");
+      img.loading = "lazy";
+
+      inner.appendChild(img);
+    } else {
+      const placeholder = document.createElement("div");
+      placeholder.className = "results-card__placeholder";
+
+      inner.appendChild(placeholder);
+    }
+
+    const meta = document.createElement("div");
+    meta.className = "results-card__meta";
+
+    const title = document.createElement("h3");
+    title.className = "results-card__title";
+    title.textContent = String(p.title || p.slug || "");
+
+    meta.appendChild(title);
+
+    const location = String(
+      p.display_location ||
+      p.district ||
+      ""
+    ).trim();
+
+    if (location) {
+      const row = document.createElement("div");
+      row.className = "results-card__row";
+
+      const label = document.createElement("span");
+      label.textContent = labels.location;
+
+      const value = document.createElement("strong");
+      value.textContent = location;
+
+      row.appendChild(label);
+      row.appendChild(value);
+      meta.appendChild(row);
+    }
+
+    const priceDisplay = String(
+      p.price_display || ""
+    ).trim();
+
+    if (priceDisplay) {
+      const row = document.createElement("div");
+      row.className = "results-card__row";
+
+      const label = document.createElement("span");
+      label.textContent = labels.priceFrom;
+
+      const price = document.createElement("strong");
+      price.className = "price";
+
+      const value = document.createElement("span");
+      value.className = "price__value";
+
+      if (priceDisplay.startsWith("AED ")) {
+        const currency = document.createElement("span");
+        currency.className = "price__currency";
+        currency.textContent = "AED";
+
+        value.textContent = priceDisplay.replace(/^AED\s+/, "");
+
+        price.appendChild(currency);
+      } else {
+        value.textContent = priceDisplay;
+      }
+
+      price.appendChild(value);
+
+      row.appendChild(label);
+      row.appendChild(price);
+      meta.appendChild(row);
+    }
+
+    inner.appendChild(meta);
+    a.appendChild(inner);
+
+    a.dataset.hydrated = "1";
+  }
+
+  function ensureProjectCardShells(){
+    const grid = rootGrid();
+
+    if (!grid) return;
+
+    if (getCards().length) return;
+
+    const fragment =
+      document.createDocumentFragment();
+
+    for (const p of PROJECT_ROWS) {
+      fragment.appendChild(
+        createProjectCardShell(p)
+      );
+    }
+
+    grid.appendChild(fragment);
+  }
+
+  function resetProjectCardShells(){
+    const root =
+      getResultsRoot();
+
+    if (!root) return;
+
+    for (
+      const card of
+      root.querySelectorAll(
+        "a.results-card"
+      )
+    ) {
+      card.remove();
+    }
+  }
+
+  // ---------------------------------------------------------
+  // Search V2 — safe commercial entity resolver
+  // Projects remain the only visual Search result type.
+  // ---------------------------------------------------------
+
+  function entityText(value){
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[’']/g, "")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function entityKey(value){
+    return entityText(value).replace(/\s+/g, "");
+  }
+
+  function entityPhraseMatch(query, phrase){
+    const q = entityText(query);
+    const p = entityText(phrase);
+
+    if (!q || !p) return false;
+
+    return (` ${q} `).includes(` ${p} `);
+  }
+
+  function uniqueEntityNames(field){
+    const seen = new Map();
+
+    for (const p of PROJECT_ROWS) {
+      const raw = String(p?.[field] || "").trim();
+      if (!raw) continue;
+
+      const key = entityText(raw);
+      if (!key) continue;
+
+      if (!seen.has(key)) {
+        seen.set(key, raw);
+      }
+    }
+
+    return Array.from(seen.values())
+      .sort((a, b) =>
+        entityText(b).length - entityText(a).length
+      );
+  }
+
+  let PROJECT_DEVELOPER_NAMES =
+    uniqueEntityNames("developer");
+
+  let PROJECT_DISTRICT_NAMES =
+    uniqueEntityNames("district");
+
+  function rebuildProjectEntityIndexes(){
+    PROJECT_DEVELOPER_NAMES =
+      uniqueEntityNames(
+        "developer"
+      );
+
+    PROJECT_DISTRICT_NAMES =
+      uniqueEntityNames(
+        "district"
+      );
+  }
+
+  // Small verified shorthand layer only.
+  // No blind fuzzy matching and no legacy area_aliases.json.
+  const VERIFIED_DEVELOPER_ALIASES = new Map([
+    ["emaar", "Emaar Properties"]
+  ]);
+
+  const VERIFIED_DISTRICT_ALIASES = new Map([
+    ["dubai hills", "Dubai Hills Estate"],
+    ["citywalk", "City Walk"]
+  ]);
+
+  function resolveNamedEntity(query, names, aliases){
+    const q = entityText(query);
+
+    if (!q) return null;
+
+    const aliasEntries = Array.from(aliases.entries())
+      .sort((a, b) => b[0].length - a[0].length);
+
+    for (const [alias, canonical] of aliasEntries) {
+      if (entityPhraseMatch(q, alias)) {
+        return canonical;
+      }
+    }
+
+    for (const name of names) {
+      if (entityPhraseMatch(q, name)) {
+        return name;
+      }
+    }
+
+    return null;
+  }
+
+  function canonicalizeRelationQuery(
+    value,
+    lang
+  ){
+    let q = normalizeSearchDigits(value)
+      .normalize("NFKC")
+      .replace(
+        /[\u064B-\u065F\u0670\u06D6-\u06ED]/g,
+        ""
+      )
+      .replace(/[،؛]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    if (!q) {
+      return "";
+    }
+
+
+    // -------------------------------------------------------
+    // RU
+    // -------------------------------------------------------
+    if (lang === "ru") {
+      q = q
+        .replace(
+          /(?:похожие|похожий|похожая|похожее|подобные|аналогичные)\s+(?:на|к)\s+/giu,
+          "similar to "
+        )
+        .replace(
+          /дешевле\s+чем\s+/giu,
+          "cheaper than "
+        )
+        .replace(
+          /(?:в\s+том\s+же|тот\s+же)\s+(?:районе|район|локации|локация)\s+(?:что|как)\s+/giu,
+          "same district as "
+        )
+        .replace(
+          /(?:у\s+того\s+же|тот\s+же)\s+застройщик(?:а)?\s+(?:что|как)\s+/giu,
+          "same developer as "
+        )
+        .replace(
+          /(?:сдача|передача)\s+раньше\s+чем\s+/giu,
+          "earlier handover than "
+        )
+        .replace(
+          /\s+но\s+/giu,
+          " but "
+        )
+        .replace(
+          /в\s+другом\s+(?:районе|локации)/giu,
+          "in another district"
+        )
+        .replace(
+          /от\s+другого\s+застройщика/giu,
+          "by another developer"
+        )
+        .replace(
+          /дешевле/giu,
+          "cheaper"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // AR
+    // -------------------------------------------------------
+    if (lang === "ar") {
+      q = q
+        .replace(
+          /(?:مشاريع?\s+)?مشابه(?:ة)?\s+(?:لـ|ل)\s*/gu,
+          "similar to "
+        )
+        .replace(
+          /(?:أرخص|ارخص)\s+من\s+/gu,
+          "cheaper than "
+        )
+        .replace(
+          /نفس\s+(?:المنطقة|الحي)\s+مثل\s+/gu,
+          "same district as "
+        )
+        .replace(
+          /نفس\s+(?:المطور|شركة\s+التطوير)\s+مثل\s+/gu,
+          "same developer as "
+        )
+        .replace(
+          /تسليم\s+(?:أبكر|ابكر)\s+من\s+/gu,
+          "earlier handover than "
+        )
+        .replace(
+          /\s+(?:ولكن|لكن)\s+/gu,
+          " but "
+        )
+        .replace(
+          /في\s+منطقة\s+(?:أخرى|اخرى)/gu,
+          "in another district"
+        )
+        .replace(
+          /من\s+مطور\s+(?:آخر|اخر)/gu,
+          "by another developer"
+        )
+        .replace(
+          /(?:أرخص|ارخص)/gu,
+          "cheaper"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // HI
+    // -------------------------------------------------------
+    if (lang === "hi") {
+      // Specific anchor-first relations first.
+      q = q.replace(
+        /^(.+?)\s+के\s+समान\s+(?:इलाके|क्षेत्र)\s+में/u,
+        "same district as $1"
+      );
+
+      q = q.replace(
+        /^(.+?)\s+के\s+समान\s+(?:डेवलपर|बिल्डर)\s+से/u,
+        "same developer as $1"
+      );
+
+      q = q.replace(
+        /^(.+?)\s+से\s+(?:सस्ता|सस्ते)/u,
+        "cheaper than $1"
+      );
+
+      q = q.replace(
+        /^(.+?)\s+से\s+पहले\s+(?:हैंडओवर|डिलीवरी)/u,
+        "earlier handover than $1"
+      );
+
+      // "Passo जैसे प्रोजेक्ट" → "projects like Passo"
+      q = q.replace(
+        /^(.+?)\s+जैसे\s+(?:प्रोजेक्ट|प्रोजेक्ट्स|परियोजना|परियोजनाएं)/u,
+        "projects like $1"
+      );
+
+      // Generic similarity only after specific relations.
+      q = q.replace(
+        /^(.+?)\s+के\s+समान/u,
+        "similar to $1"
+      );
+
+      q = q
+        .replace(
+          /\s+लेकिन\s+/gu,
+          " but "
+        )
+        .replace(
+          /\s+परंतु\s+/gu,
+          " but "
+        )
+        .replace(
+          /दूसरे\s+(?:इलाके|क्षेत्र)\s+में/gu,
+          "in another district"
+        )
+        .replace(
+          /दूसरे\s+(?:डेवलपर|बिल्डर)\s+से/gu,
+          "by another developer"
+        )
+        .replace(
+          /(?:सस्ता|सस्ते)/gu,
+          "cheaper"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // ZH
+    // -------------------------------------------------------
+    if (lang === "zh") {
+      // More specific forms first.
+      q = q.replace(
+        /^与?\s*(.+?)\s*(?:同一地区|同一区域|同一片区)/u,
+        "same district as $1"
+      );
+
+      q = q.replace(
+        /^与?\s*(.+?)\s*(?:同一开发商|同一个开发商)/u,
+        "same developer as $1"
+      );
+
+      q = q.replace(
+        /^与?\s*(.+?)\s*类似/u,
+        "similar to $1 "
+      );
+
+      q = q.replace(
+        /比\s*(.+?)\s*(?:更早交付|更早完工|更早移交)/u,
+        "earlier handover than $1"
+      );
+
+      q = q
+        .replace(
+          /比\s*(.+?)\s*便宜/u,
+          "cheaper than $1"
+        )
+        .replace(
+          /但(?:是)?/gu,
+          " but "
+        )
+        .replace(
+          /更便宜/gu,
+          "cheaper"
+        )
+        .replace(
+          /在(?:另一个|其他)(?:地区|区域|片区)/gu,
+          "in another district"
+        )
+        .replace(
+          /由(?:另一个|其他)开发商/gu,
+          "by another developer"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // ES
+    // -------------------------------------------------------
+    if (lang === "es") {
+      q = q
+        .replace(
+          /similares?\s+a\s+/giu,
+          "similar to "
+        )
+        .replace(
+          /más\s+barat[oa]s?\s+que\s+/giu,
+          "cheaper than "
+        )
+        .replace(
+          /mas\s+barat[oa]s?\s+que\s+/giu,
+          "cheaper than "
+        )
+        .replace(
+          /mism[oa]\s+(?:distrito|zona)\s+que\s+/giu,
+          "same district as "
+        )
+        .replace(
+          /mism[oa]\s+(?:promotor|desarrollador)\s+que\s+/giu,
+          "same developer as "
+        )
+        .replace(
+          /entrega\s+antes\s+que\s+/giu,
+          "earlier handover than "
+        )
+        .replace(
+          /\s+pero\s+/giu,
+          " but "
+        )
+        .replace(
+          /en\s+otr[oa]\s+(?:distrito|zona)/giu,
+          "in another district"
+        )
+        .replace(
+          /de\s+otr[oa]\s+(?:promotor|desarrollador)/giu,
+          "by another developer"
+        )
+        .replace(
+          /(?:más|mas)\s+barat[oa]s?/giu,
+          "cheaper"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // FR
+    // -------------------------------------------------------
+    if (lang === "fr") {
+      q = q
+        .replace(
+          /similaires?\s+(?:à|a)\s+/giu,
+          "similar to "
+        )
+        .replace(
+          /moins\s+ch(?:er|ère|ers|ères)\s+que\s+/giu,
+          "cheaper than "
+        )
+        .replace(
+          /même\s+(?:quartier|zone)\s+que\s+/giu,
+          "same district as "
+        )
+        .replace(
+          /même\s+(?:promoteur|développeur)\s+que\s+/giu,
+          "same developer as "
+        )
+        .replace(
+          /livraison\s+plus\s+tôt\s+que\s+/giu,
+          "earlier handover than "
+        )
+        .replace(
+          /\s+mais\s+/giu,
+          " but "
+        )
+        .replace(
+          /dans\s+un(?:e)?\s+autre\s+(?:quartier|zone)/giu,
+          "in another district"
+        )
+        .replace(
+          /par\s+un(?:e)?\s+autre\s+(?:promoteur|développeur)/giu,
+          "by another developer"
+        )
+        .replace(
+          /moins\s+ch(?:er|ère|ers|ères)/giu,
+          "cheaper"
+        );
+    }
+
+
+    // -------------------------------------------------------
+    // DE
+    // -------------------------------------------------------
+    if (lang === "de") {
+      q = q
+        .replace(
+          /(?:ähnlich|aehnlich)\s+wie\s+/giu,
+          "similar to "
+        )
+        .replace(
+          /(?:günstiger|guenstiger)\s+als\s+/giu,
+          "cheaper than "
+        )
+        .replace(
+          /gleich(?:er|e|es)\s+(?:bezirk|gebiet)\s+wie\s+/giu,
+          "same district as "
+        )
+        .replace(
+          /gleich(?:er|e|es)\s+(?:bauträger|bautraeger|entwickler)\s+wie\s+/giu,
+          "same developer as "
+        )
+        .replace(
+          /frühere?\s+(?:übergabe|uebergabe)\s+als\s+/giu,
+          "earlier handover than "
+        )
+        .replace(
+          /\s+aber\s+/giu,
+          " but "
+        )
+        .replace(
+          /in\s+ein(?:em|er)\s+anderen\s+(?:bezirk|gebiet)/giu,
+          "in another district"
+        )
+        .replace(
+          /von\s+ein(?:em|er)\s+anderen\s+(?:bauträger|bautraeger|entwickler)/giu,
+          "by another developer"
+        )
+        .replace(
+          /(?:günstiger|guenstiger)/giu,
+          "cheaper"
+        );
+    }
+
+
+    // Budget modifiers after relation anchor must be transformed
+    // before splitRelationAnchorModifier(), e.g.
+    //
+    // "similares a Passo menos de 5 millones"
+    // → "similar to Passo under 5 million"
+    q = canonicalizeBudgetLanguage(
+      q,
+      lang
+    );
+
+    return q
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+
+  function splitRelationAnchorModifier(value){
+    const text = String(value || "")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    if (!text) {
+      return {
+        anchorText: "",
+        modifierText: ""
+      };
+    }
+
+    // Explicit conversational separator:
+    // "Passo but cheaper"
+    // "Passo but in another district"
+    let m = text.match(
+      /^(.*?)\s+\bbut\b\s+(.+)$/i
+    );
+
+    if (m && m[1] && m[2]) {
+      return {
+        anchorText: m[1].trim(),
+        modifierText: m[2].trim()
+      };
+    }
+
+    // Comma-separated modifier:
+    // "Passo, 2 bedrooms"
+    m = text.match(
+      /^(.*?),\s*(.+)$/
+    );
+
+    if (m && m[1] && m[2]) {
+      return {
+        anchorText: m[1].trim(),
+        modifierText: m[2].trim()
+      };
+    }
+
+    // Modifier without "but":
+    // "Passo under AED 5M"
+    // Only split on strong, known filter language.
+    m = text.match(
+      /^(.*?)\s+((?:under|below|up to|over|above|from|at least|around|about|approximately|approx|roughly|budget)\b.+)$/i
+    );
+
+    if (m && m[1] && m[2]) {
+      return {
+        anchorText: m[1].trim(),
+        modifierText: m[2].trim()
+      };
+    }
+
+    return {
+      anchorText: text,
+      modifierText: ""
+    };
+  }
+
+  function extractRelationIntent(query){
+    const q = String(query || "").trim();
+
+    // Anchor-first conversational relations:
+    //
+    // "Passo but in another district"
+    // "Passo but by another developer"
+    // "Passo but cheaper"
+    const anchorFirstRules = [
+      {
+        re: /^(.+?)\s+\bbut\b\s+((?:in\s+)?another\s+(?:district|area)\b.*)$/i
+      },
+      {
+        re: /^(.+?)\s+\bbut\b\s+((?:(?:by|from)\s+)?another\s+developer\b.*)$/i
+      },
+      {
+        re: /^(.+?)\s+\bbut\b\s+(cheaper\b.*)$/i
+      }
+    ];
+
+    for (const rule of anchorFirstRules) {
+      const m = q.match(rule.re);
+
+      if (m && m[1] && m[2]) {
+        return {
+          type: "similar",
+          anchorText: m[1].trim(),
+          modifierText: m[2].trim()
+        };
+      }
+    }
+
+    const rules = [
+      {
+        type: "same-district",
+        re: /\bsame\s+(?:district|area)\s+as\s+(.+)$/i
+      },
+      {
+        type: "same-developer",
+        re: /\bsame\s+developer\s+as\s+(.+)$/i
+      },
+      {
+        type: "earlier-handover",
+        re: /\bearlier\s+handover\s+than\s+(.+)$/i
+      },
+      {
+        type: "cheaper",
+        re: /\bcheaper\s+than\s+(.+)$/i
+      },
+      {
+        type: "similar",
+        re: /\bsimilar\s+to\s+(.+)$/i
+      },
+      {
+        type: "similar",
+        re: /\balternatives?\s+to\s+(.+)$/i
+      },
+      {
+        type: "similar",
+        re: /^\s*(?:projects?\s+)?like\s+(.+)$/i
+      }
+    ];
+
+    for (const rule of rules) {
+      const m = q.match(rule.re);
+
+      if (m && m[1]) {
+        const parts = splitRelationAnchorModifier(
+          m[1]
+        );
+
+        return {
+          type: rule.type,
+          anchorText: parts.anchorText,
+          modifierText: parts.modifierText
+        };
+      }
+    }
+
+    return null;
+  }
+
+  function resolveProjectAnchor(anchorText){
+    const q = entityText(anchorText);
+
+    if (!q) return null;
+
+    // Exact project title first.
+    for (const p of PROJECT_ROWS) {
+      if (
+        p?.title &&
+        entityText(p.title) === q
+      ) {
+        return p;
+      }
+    }
+
+    // Then longest whole-phrase match inside the extracted anchor only.
+    // This avoids false positives such as Elo inside "developer"
+    // or District inside "same district as Passo".
+    const candidates = PROJECT_ROWS
+      .filter(p =>
+        p?.title &&
+        entityPhraseMatch(q, p.title)
+      )
+      .sort((a, b) =>
+        entityText(b.title).length -
+        entityText(a.title).length
+      );
+
+    return candidates[0] || null;
+  }
+
+  function resolveSearchEntities(query){
+    const relationQuery =
+      canonicalizeRelationQuery(
+        query,
+        getLang()
+      );
+
+    const relation =
+      extractRelationIntent(
+        relationQuery
+      );
+
+    const anchor = relation
+      ? resolveProjectAnchor(relation.anchorText)
+      : null;
+
+    return {
+      developer: relation
+        ? null
+        : resolveNamedEntity(
+            query,
+            PROJECT_DEVELOPER_NAMES,
+            VERIFIED_DEVELOPER_ALIASES
+          ),
+
+      district: relation
+        ? null
+        : resolveNamedEntity(
+            query,
+            PROJECT_DISTRICT_NAMES,
+            VERIFIED_DISTRICT_ALIASES
+          ),
+
+      relation,
+      anchor
+    };
+  }
+
+  // ---------------------------------------------------------
+  // Search V2 — Project Relation Engine
+  // ---------------------------------------------------------
+
+  function projectHandoverYear(value){
+    const m = String(value || "").match(
+      /\b(20(?:2[0-9]|3[0-9]))\b/
+    );
+
+    return m ? Number(m[1]) : 0;
+  }
+
+  function machineDistrictOf(p){
+    return String(
+      p?.machine_district ||
+      p?.district ||
+      ""
+    );
+  }
+
+  function machineDeveloperOf(p){
+    return String(
+      p?.machine_developer ||
+      p?.developer ||
+      ""
+    );
+  }
+
+  function machineTypeOf(p){
+    return String(
+      p?.machine_property_type ||
+      p?.property_type ||
+      ""
+    );
+  }
+
+  function machineHandoverOf(p){
+    return String(
+      p?.machine_handover ||
+      p?.handover ||
+      ""
+    );
+  }
+
+  const CROSS_RELATION_TYPES = new Set([
+    "studio",
+    "apartment",
+    "villa",
+    "penthouse",
+    "townhouse",
+    "duplex"
+  ]);
+
+  function crossRelationTypeSet(value){
+    const q = entityText(value);
+    const out = new Set();
+
+    for (const type of CROSS_RELATION_TYPES) {
+      if (
+        (` ${q} `).includes(` ${type} `)
+      ) {
+        out.add(type);
+      }
+    }
+
+    return out;
+  }
+
+  function crossRelationFeatureSet(project){
+    return new Set(
+      Array.isArray(project?.features)
+        ? project.features
+            .map(x => String(x).toLowerCase())
+            .filter(Boolean)
+        : []
+    );
+  }
+
+  function setOverlapCount(a, b){
+    let count = 0;
+
+    for (const value of a) {
+      if (b.has(value)) count++;
+    }
+
+    return count;
+  }
+
+  function crossEntityRelationMetrics(data, entities){
+    const anchor = entities?.anchor;
+
+    if (!anchor || !data?.slug) {
+      return null;
+    }
+
+    const candidate = PROJECT_BY_SLUG.get(
+      String(data.slug)
+    );
+
+    if (!candidate) {
+      return null;
+    }
+
+    const anchorTypes = crossRelationTypeSet(
+      machineTypeOf(anchor)
+    );
+
+    const candidateTypes = crossRelationTypeSet(
+      machineTypeOf(candidate)
+    );
+
+    const anchorFeatures =
+      crossRelationFeatureSet(anchor);
+
+    const candidateFeatures =
+      crossRelationFeatureSet(candidate);
+
+    const typeOverlap = setOverlapCount(
+      anchorTypes,
+      candidateTypes
+    );
+
+    const featureOverlap = setOverlapCount(
+      anchorFeatures,
+      candidateFeatures
+    );
+
+    const explicit = new Set(
+      Array.isArray(anchor.similar_projects)
+        ? anchor.similar_projects.map(String)
+        : []
+    ).has(String(candidate.slug));
+
+    const anchorDistrict =
+      machineDistrictOf(anchor);
+
+    const candidateDistrict =
+      machineDistrictOf(candidate);
+
+    const anchorDeveloper =
+      machineDeveloperOf(anchor);
+
+    const candidateDeveloper =
+      machineDeveloperOf(candidate);
+
+    const sameDistrict = !!(
+      anchorDistrict &&
+      candidateDistrict &&
+      entityKey(anchorDistrict) ===
+        entityKey(candidateDistrict)
+    );
+
+    const sameDeveloper = !!(
+      anchorDeveloper &&
+      candidateDeveloper &&
+      entityKey(anchorDeveloper) ===
+        entityKey(candidateDeveloper)
+    );
+
+    let score = 0;
+
+    if (explicit) {
+      score += 5000;
+    }
+
+    score += typeOverlap * 220;
+    score += featureOverlap * 90;
+
+    if (sameDeveloper) {
+      score += 180;
+    }
+
+    if (sameDistrict) {
+      score += 180;
+    }
+
+    const anchorPrice = Number(
+      anchor.price_amount || 0
+    );
+
+    const candidatePrice = Number(
+      candidate.price_amount || 0
+    );
+
+    if (
+      anchorPrice > 0 &&
+      candidatePrice > 0
+    ) {
+      const ratio =
+        Math.abs(
+          candidatePrice - anchorPrice
+        ) / anchorPrice;
+
+      score += Math.max(
+        0,
+        140 - Math.round(ratio * 140)
+      );
+    }
+
+    const anchorYear =
+      projectHandoverYear(
+        machineHandoverOf(anchor)
+      );
+
+    const candidateYear =
+      projectHandoverYear(
+        machineHandoverOf(candidate)
+      );
+
+    if (anchorYear && candidateYear) {
+      score += Math.max(
+        0,
+        60 - Math.abs(
+          anchorYear - candidateYear
+        ) * 10
+      );
+    }
+
+    const strong =
+      typeOverlap >= 2 &&
+      featureOverlap >= 2 &&
+      score >= 750;
+
+    return {
+      candidate,
+      score,
+      typeOverlap,
+      featureOverlap,
+      explicit,
+      sameDistrict,
+      sameDeveloper,
+      strong
+    };
+  }
+
+  function crossEntityCandidatePass(
+    data,
+    entities,
+    anotherDistrict,
+    anotherDeveloper
+  ){
+    const m = crossEntityRelationMetrics(
+      data,
+      entities
+    );
+
+    if (!m) return false;
+
+    const anchor = entities.anchor;
+    const candidate = m.candidate;
+
+    if (candidate.slug === anchor.slug) {
+      return false;
+    }
+
+    if (anotherDistrict) {
+      // Unknown district is NOT "another district".
+      if (!machineDistrictOf(candidate)) {
+        return false;
+      }
+
+      if (m.sameDistrict) {
+        return false;
+      }
+
+      return m.strong;
+    }
+
+    if (anotherDeveloper) {
+      // Unknown developer is NOT "another developer".
+      if (!machineDeveloperOf(candidate)) {
+        return false;
+      }
+
+      if (m.sameDeveloper) {
+        return false;
+      }
+
+      // Canonical explicit graph is always trusted here.
+      return m.explicit || m.strong;
+    }
+
+    return false;
+  }
+
+  function relationCandidatePass(data, entities){
+    if (!entities?.relation || !entities?.anchor) {
+      return true;
+    }
+
+    const relation = entities.relation.type;
+    const anchor = entities.anchor;
+
+    if (!data.slug) return false;
+
+    // Never return the anchor itself.
+    if (data.slug === String(anchor.slug || "")) {
+      return false;
+    }
+
+    const similar = new Set(
+      Array.isArray(anchor.similar_projects)
+        ? anchor.similar_projects.map(String)
+        : []
+    );
+
+    if (relation === "similar") {
+      // Canonical explicit graph first.
+      if (similar.size) {
+        return similar.has(data.slug);
+      }
+
+      // Safe fallback only if graph is absent.
+      const anchorDistrict =
+        machineDistrictOf(anchor);
+
+      const anchorDeveloper =
+        machineDeveloperOf(anchor);
+
+      const sameDistrict =
+        anchorDistrict &&
+        entityKey(data.machineDistrict) ===
+          entityKey(anchorDistrict);
+
+      const sameDeveloper =
+        anchorDeveloper &&
+        entityKey(data.machineDeveloper) ===
+          entityKey(anchorDeveloper);
+
+      return !!(sameDistrict || sameDeveloper);
+    }
+
+    if (relation === "cheaper") {
+      const anchorPrice = Number(anchor.price_amount || 0);
+
+      return !!(
+        anchorPrice > 0 &&
+        data.price > 0 &&
+        data.price < anchorPrice
+      );
+    }
+
+    if (relation === "same-district") {
+      const anchorDistrict =
+        machineDistrictOf(anchor);
+
+      return !!(
+        anchorDistrict &&
+        entityKey(data.machineDistrict) ===
+          entityKey(anchorDistrict)
+      );
+    }
+
+    if (relation === "same-developer") {
+      const anchorDeveloper =
+        machineDeveloperOf(anchor);
+
+      return !!(
+        anchorDeveloper &&
+        entityKey(data.machineDeveloper) ===
+          entityKey(anchorDeveloper)
+      );
+    }
+
+    if (relation === "earlier-handover") {
+      const anchorYear =
+        projectHandoverYear(
+          machineHandoverOf(anchor)
+        );
+
+      const candidateYear =
+        projectHandoverYear(data.handover);
+
+      return !!(
+        anchorYear &&
+        candidateYear &&
+        candidateYear < anchorYear
+      );
+    }
+
+    return true;
+  }
+
+  function relationCandidateScore(data, entities){
+    if (!entities?.relation || !entities?.anchor) {
+      return 0;
+    }
+
+    const anchor = entities.anchor;
+
+    const similar = new Set(
+      Array.isArray(anchor.similar_projects)
+        ? anchor.similar_projects.map(String)
+        : []
+    );
+
+    let score = 0;
+
+    // Explicit canonical relation is the strongest signal.
+    if (similar.has(data.slug)) {
+      score += 5000;
+    }
+
+    const anchorDistrict =
+      machineDistrictOf(anchor);
+
+    const anchorDeveloper =
+      machineDeveloperOf(anchor);
+
+    if (
+      anchorDistrict &&
+      entityKey(data.machineDistrict) ===
+        entityKey(anchorDistrict)
+    ) {
+      score += 240;
+    }
+
+    if (
+      anchorDeveloper &&
+      entityKey(data.machineDeveloper) ===
+        entityKey(anchorDeveloper)
+    ) {
+      score += 200;
+    }
+
+    // Prefer commercially closer price alternatives.
+    const anchorPrice = Number(anchor.price_amount || 0);
+
+    if (anchorPrice > 0 && data.price > 0) {
+      const ratio =
+        Math.abs(data.price - anchorPrice) / anchorPrice;
+
+      score += Math.max(
+        0,
+        120 - Math.round(ratio * 120)
+      );
+    }
+
+    const anchorYear =
+      projectHandoverYear(
+        machineHandoverOf(anchor)
+      );
+
+    const candidateYear =
+      projectHandoverYear(
+        data.handover
+      );
+
+    if (anchorYear && candidateYear) {
+      const gap = Math.abs(anchorYear - candidateYear);
+
+      score += Math.max(
+        0,
+        50 - gap * 10
+      );
+    }
+
+    return score;
+  }
+
+  // --- Emirate canonicalization (multi-language) ---
+
+  function emirateAliasKey(value){
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/\p{M}+/gu, "")
+      .toLowerCase()
+      .replace(/\u0640/g, "")
+      .replace(
+        /[\s\-_‐-‒–—―.,'’`´]+/gu,
+        ""
+      )
+      .trim();
+  }
+
+  const EMIRATE_ALIAS_GROUPS = {
+    "dubai": [
+      "dubai",
+      "дубай",
+      "دبي",
+      "दुबई",
+      "迪拜"
+    ],
+
+    "abu-dhabi": [
+      "abu dhabi",
+      "abu dabi",
+      "abou dabi",
+
+      "абу даби",
+
+      "أبوظبي",
+      "ابوظبي",
+
+      "अबू धाबी",
+      "阿布扎比"
+    ],
+
+    "sharjah": [
+      "sharjah",
+      "charjah",
+      "schardscha",
+
+      "шарджа",
+
+      "الشارقة",
+      "شارقة",
+
+      "शारजाह",
+      "沙迦"
+    ],
+
+    "ras-al-khaimah": [
+      "ras al khaimah",
+      "ras al khaima",
+      "ras el khaimah",
+      "ras el khaima",
+      "ras al jaima",
+      "ras al chaima",
+
+      "рас эль хайма",
+      "рас аль хайма",
+
+      "رأس الخيمة",
+      "راس الخيمة",
+
+      "रास अल खैमाह",
+      "哈伊马角"
+    ],
+
+    "ajman": [
+      "ajman",
+      "adschman",
+
+      "аджман",
+
+      "عجمان",
+
+      "अजमान",
+      "阿治曼"
+    ],
+
+    "fujairah": [
+      "fujairah",
+      "fujayrah",
+      "fuyaira",
+      "fudschaira",
+
+      "фуджейра",
+      "фуджайра",
+
+      "الفجيرة",
+      "فجيرة",
+
+      "फुजैराह",
+      "富查伊拉"
+    ],
+
+    "umm-al-quwain": [
+      "umm al quwain",
+      "umm al qaiwain",
+      "umm el quwain",
+      "umm al qaywayn",
+      "oumm al qaiwain",
+
+      "умм эль кувейн",
+      "умм аль кувейн",
+
+      "أم القيوين",
+      "ام القيوين",
+
+      "उम्म अल क्वैन",
+
+      "乌姆盖万",
+      "乌姆盖文"
+    ]
+  };
+
+  const EMIRATE_CANON = {};
+
+  for (
+    const [canon, aliases]
+    of Object.entries(
+      EMIRATE_ALIAS_GROUPS
+    )
+  ) {
+    for (const alias of aliases) {
+      EMIRATE_CANON[
+        emirateAliasKey(alias)
+      ] = canon;
+    }
+  }
+
+  const EMIRATE_SET =
+    new Set(
+      Object.keys(
+        EMIRATE_ALIAS_GROUPS
+      )
+    );
 
   function canonEmirateFromText(txt){
-    const s = String(txt || "").toLowerCase().trim().replace(/\s+/g, " ");
-    return EMIRATE_CANON[s] || "";
+    return (
+      EMIRATE_CANON[
+        emirateAliasKey(txt)
+      ] ||
+      ""
+    );
   }
 
   function detectEmiratesFromTokens(tokens){
@@ -201,6 +2341,1014 @@
     "0br","1br","2br","3br","4br","5br","6br","7br","8br","9br"
   ]);
 
+  // ---------------------------------------------------------
+  // Multilingual parser canonicalization
+  //
+  // IMPORTANT:
+  // - only the internal parser copy is canonicalized;
+  // - visible input stays untouched;
+  // - Search language stays untouched;
+  // - result cards stay localized;
+  // - entity/relation resolution still receives original query.
+  // ---------------------------------------------------------
+
+  function normalizeSearchDigits(value){
+    const maps = [
+      ["٠١٢٣٤٥٦٧٨٩", "0123456789"],
+      ["۰۱۲۳۴۵۶۷۸۹", "0123456789"],
+      ["०१२३४५६७८९", "0123456789"],
+      ["０１２３４５６７８９", "0123456789"]
+    ];
+
+    let out = String(value || "");
+
+    for (const [from, to] of maps) {
+      for (let i = 0; i < from.length; i++) {
+        out = out.split(from[i]).join(to[i]);
+      }
+    }
+
+    return out;
+  }
+
+
+  function replaceSearchAliases(text, aliases){
+    const pairs = [];
+
+    for (const [canonical, values] of aliases) {
+      for (const value of values) {
+        pairs.push([
+          String(value).toLowerCase(),
+          canonical
+        ]);
+      }
+    }
+
+    // Longest phrases first:
+    // "maison de ville" before "villa", etc.
+    pairs.sort((a, b) =>
+      b[0].length - a[0].length
+    );
+
+    let out = text;
+
+    for (const [from, to] of pairs) {
+      out = out.split(from).join(
+        ` ${to} `
+      );
+    }
+
+    return out;
+  }
+
+
+  const SEARCH_CANON_ALIASES = {
+    ru: [
+      ["apartment", [
+        "апартаменты",
+        "апартаментов",
+        "апартамент",
+        "квартиры",
+        "квартиру",
+        "квартира",
+        "квартир"
+      ]],
+      ["villa", [
+        "виллы",
+        "виллу",
+        "вилла"
+      ]],
+      ["penthouse", [
+        "пентхаусы",
+        "пентхаус"
+      ]],
+      ["townhouse", [
+        "таунхаусы",
+        "таунхаус"
+      ]],
+      ["duplex", [
+        "дуплексы",
+        "дуплекс"
+      ]],
+      ["studio", [
+        "студии",
+        "студия"
+      ]],
+
+      ["1 bedrooms", [
+        "одна спальня",
+        "1 спальня"
+      ]],
+      ["2 bedrooms", [
+        "две спальни",
+        "2 спальни"
+      ]],
+      ["3 bedrooms", [
+        "три спальни",
+        "3 спальни"
+      ]],
+      ["4 bedrooms", [
+        "четыре спальни",
+        "4 спальни"
+      ]],
+      ["5 bedrooms", ["пять спален"]],
+      ["6 bedrooms", ["шесть спален"]],
+      ["7 bedrooms", ["семь спален"]],
+      ["8 bedrooms", ["восемь спален"]],
+      ["9 bedrooms", ["девять спален"]],
+
+      ["dubai", [
+        "дубае",
+        "дубай"
+      ]],
+      ["abu dhabi", [
+        "абу-даби",
+        "абу даби",
+        "абудаби"
+      ]],
+      ["sharjah", [
+        "шардже",
+        "шарджа"
+      ]],
+      ["ras al khaimah", [
+        "рас-эль-хайме",
+        "рас-эль-хайма",
+        "рас эль хайма"
+      ]],
+
+      ["payment plan", [
+        "план оплаты",
+        "план платежей",
+        "рассрочка"
+      ]],
+
+      ["waterfront", [
+        "первая линия",
+        "у моря",
+        "на берегу",
+        "у воды"
+      ]],
+      ["sea view", [
+        "видом на море",
+        "вид на море"
+      ]],
+      ["park view", [
+        "вид на парк",
+        "видом на парк"
+      ]],
+      ["city view", [
+        "вид на город",
+        "видом на город",
+        "вид на скайлайн"
+      ]],
+      ["luxury", [
+        "роскошные",
+        "роскошный",
+        "элитные",
+        "элитный",
+        "премиальные",
+        "премиальный"
+      ]],
+      ["family", [
+        "для семьи",
+        "семейные",
+        "семейный"
+      ]],
+      ["investment", [
+        "для инвестиций",
+        "инвестиционные",
+        "инвестиционный",
+        "инвестиции"
+      ]],
+      ["modern", [
+        "современные",
+        "современный"
+      ]]
+    ],
+
+
+    ar: [
+      ["apartment", [
+        "الشقق",
+        "شقق",
+        "شقة",
+        "شقه"
+      ]],
+      ["villa", [
+        "الفلل",
+        "فلل",
+        "فيلا"
+      ]],
+      ["penthouse", [
+        "بينتهاوس",
+        "بنتهاوس"
+      ]],
+      ["townhouse", [
+        "تاون هاوس",
+        "تاونهاوس"
+      ]],
+      ["duplex", [
+        "دوبليكس",
+        "دوبلكس"
+      ]],
+      ["studio", [
+        "استوديو",
+        "ستوديو"
+      ]],
+
+      ["1 bedrooms", [
+        "غرفة نوم واحدة",
+        "غرفة واحدة"
+      ]],
+      ["2 bedrooms", [
+        "غرفتا نوم",
+        "غرفتين"
+      ]],
+      ["3 bedrooms", [
+        "ثلاث غرف نوم",
+        "ثلاث غرف"
+      ]],
+      ["4 bedrooms", [
+        "أربع غرف نوم",
+        "اربع غرف نوم"
+      ]],
+      ["5 bedrooms", ["خمس غرف نوم"]],
+      ["6 bedrooms", ["ست غرف نوم"]],
+      ["7 bedrooms", ["سبع غرف نوم"]],
+      ["8 bedrooms", ["ثماني غرف نوم"]],
+      ["9 bedrooms", ["تسع غرف نوم"]],
+
+      ["dubai", ["دبي"]],
+      ["abu dhabi", [
+        "أبو ظبي",
+        "ابو ظبي",
+        "أبوظبي",
+        "ابوظبي"
+      ]],
+      ["sharjah", [
+        "الشارقة",
+        "شارقة"
+      ]],
+      ["ras al khaimah", [
+        "رأس الخيمة",
+        "راس الخيمة"
+      ]],
+
+      ["payment plan", [
+        "خطة الدفع",
+        "خطة سداد",
+        "تقسيط"
+      ]],
+
+      ["waterfront", [
+        "واجهة بحرية",
+        "على البحر",
+        "على الواجهة البحرية"
+      ]],
+      ["sea view", [
+        "إطلالة على البحر",
+        "اطلالة على البحر",
+        "إطلالة بحرية",
+        "اطلالة بحرية"
+      ]],
+      ["park view", [
+        "إطلالة على الحديقة",
+        "اطلالة على الحديقة"
+      ]],
+      ["city view", [
+        "إطلالة على المدينة",
+        "اطلالة على المدينة",
+        "إطلالة على أفق المدينة",
+        "اطلالة على افق المدينة"
+      ]],
+      ["luxury", [
+        "فاخر",
+        "فاخرة",
+        "فاخرة"
+      ]],
+      ["family", [
+        "للعائلات",
+        "عائلي",
+        "عائلية"
+      ]],
+      ["investment", [
+        "للاستثمار",
+        "استثماري",
+        "استثمار"
+      ]],
+      ["modern", [
+        "حديث",
+        "حديثة",
+        "عصري",
+        "عصرية"
+      ]]
+    ],
+
+
+    hi: [
+      ["apartment", [
+        "अपार्टमेंट",
+        "फ्लैट"
+      ]],
+      ["villa", [
+        "विला",
+        "विल्ला"
+      ]],
+      ["penthouse", [
+        "पेंटहाउस"
+      ]],
+      ["townhouse", [
+        "टाउन हाउस",
+        "टाउनहाउस"
+      ]],
+      ["duplex", [
+        "डुप्लेक्स"
+      ]],
+      ["studio", [
+        "स्टूडियो",
+        "स्टुडियो"
+      ]],
+
+      ["1 bedrooms", [
+        "एक बेडरूम"
+      ]],
+      ["2 bedrooms", [
+        "दो बेडरूम"
+      ]],
+      ["3 bedrooms", [
+        "तीन बेडरूम"
+      ]],
+      ["4 bedrooms", [
+        "चार बेडरूम"
+      ]],
+      ["5 bedrooms", ["पाँच बेडरूम", "पांच बेडरूम"]],
+      ["6 bedrooms", ["छह बेडरूम"]],
+      ["7 bedrooms", ["सात बेडरूम"]],
+      ["8 bedrooms", ["आठ बेडरूम"]],
+      ["9 bedrooms", ["नौ बेडरूम"]],
+
+      ["dubai", ["दुबई"]],
+      ["abu dhabi", ["अबू धाबी"]],
+      ["sharjah", ["शारजाह"]],
+      ["ras al khaimah", [
+        "रास अल खैमाह"
+      ]],
+
+      ["payment plan", [
+        "भुगतान योजना",
+        "किस्त योजना",
+        "किस्तों में"
+      ]],
+
+      ["waterfront", [
+        "समुद्र के किनारे",
+        "वॉटरफ्रंट"
+      ]],
+      ["sea view", [
+        "समुद्र का दृश्य",
+        "समुद्र दृश्य"
+      ]],
+      ["park view", [
+        "पार्क का दृश्य",
+        "पार्क व्यू"
+      ]],
+      ["city view", [
+        "शहर का दृश्य",
+        "सिटी व्यू",
+        "स्काईलाइन व्यू"
+      ]],
+      ["luxury", [
+        "लक्जरी",
+        "प्रीमियम"
+      ]],
+      ["family", [
+        "परिवार के लिए",
+        "पारिवारिक"
+      ]],
+      ["investment", [
+        "निवेश के लिए",
+        "निवेश"
+      ]],
+      ["modern", [
+        "आधुनिक"
+      ]]
+    ],
+
+
+    zh: [
+      ["apartment", [
+        "公寓",
+        "住宅"
+      ]],
+      ["villa", [
+        "别墅"
+      ]],
+      ["penthouse", [
+        "顶层公寓",
+        "顶层住宅"
+      ]],
+      ["townhouse", [
+        "联排别墅"
+      ]],
+      ["duplex", [
+        "复式公寓",
+        "复式"
+      ]],
+      ["studio", [
+        "单身公寓",
+        "开间"
+      ]],
+
+      ["1 bedrooms", [
+        "一居室",
+        "一居"
+      ]],
+      ["2 bedrooms", [
+        "两居室",
+        "二居室",
+        "两居",
+        "二居"
+      ]],
+      ["3 bedrooms", [
+        "三居室",
+        "三居"
+      ]],
+      ["4 bedrooms", [
+        "四居室",
+        "四居"
+      ]],
+      ["5 bedrooms", ["五居室", "五居"]],
+      ["6 bedrooms", ["六居室", "六居"]],
+      ["7 bedrooms", ["七居室", "七居"]],
+      ["8 bedrooms", ["八居室", "八居"]],
+      ["9 bedrooms", ["九居室", "九居"]],
+
+      ["dubai", ["迪拜"]],
+      ["abu dhabi", ["阿布扎比"]],
+      ["sharjah", ["沙迦"]],
+      ["ras al khaimah", [
+        "哈伊马角",
+        "拉斯海马"
+      ]],
+
+      ["payment plan", [
+        "付款计划",
+        "支付计划",
+        "分期付款"
+      ]],
+
+      ["waterfront", [
+        "滨水",
+        "海滨",
+        "临海"
+      ]],
+      ["sea view", [
+        "海景"
+      ]],
+      ["park view", [
+        "公园景观",
+        "公园景"
+      ]],
+      ["city view", [
+        "城市景观",
+        "城市景",
+        "天际线景观"
+      ]],
+      ["luxury", [
+        "豪华",
+        "高端"
+      ]],
+      ["family", [
+        "家庭友好",
+        "适合家庭"
+      ]],
+      ["investment", [
+        "投资",
+        "投资型"
+      ]],
+      ["modern", [
+        "现代",
+        "现代化"
+      ]]
+    ],
+
+
+    es: [
+      ["apartment", [
+        "apartamentos",
+        "apartamento",
+        "pisos",
+        "piso"
+      ]],
+      ["villa", [
+        "villas",
+        "villa"
+      ]],
+      ["penthouse", [
+        "áticos",
+        "ático",
+        "aticos",
+        "atico"
+      ]],
+      ["townhouse", [
+        "casas adosadas",
+        "casa adosada"
+      ]],
+      ["duplex", [
+        "dúplex",
+        "duplex"
+      ]],
+      ["studio", [
+        "estudios",
+        "estudio"
+      ]],
+
+      ["1 bedrooms", [
+        "un dormitorio"
+      ]],
+      ["2 bedrooms", [
+        "dos dormitorios"
+      ]],
+      ["3 bedrooms", [
+        "tres dormitorios"
+      ]],
+      ["4 bedrooms", [
+        "cuatro dormitorios"
+      ]],
+      ["5 bedrooms", ["cinco dormitorios"]],
+      ["6 bedrooms", ["seis dormitorios"]],
+      ["7 bedrooms", ["siete dormitorios"]],
+      ["8 bedrooms", ["ocho dormitorios"]],
+      ["9 bedrooms", ["nueve dormitorios"]],
+
+      ["payment plan", [
+        "plan de pago",
+        "plan de pagos",
+        "pago a plazos"
+      ]],
+
+      ["waterfront", [
+        "frente al mar",
+        "junto al mar",
+        "primera línea"
+      ]],
+      ["sea view", [
+        "vista al mar",
+        "vistas al mar"
+      ]],
+      ["park view", [
+        "vista al parque",
+        "vistas al parque"
+      ]],
+      ["city view", [
+        "vista a la ciudad",
+        "vistas a la ciudad",
+        "vista al skyline"
+      ]],
+      ["luxury", [
+        "lujo",
+        "lujoso",
+        "lujosa"
+      ]],
+      ["family", [
+        "para familias",
+        "familiar"
+      ]],
+      ["investment", [
+        "para inversión",
+        "inversión",
+        "inversion"
+      ]],
+      ["modern", [
+        "moderno",
+        "moderna"
+      ]]
+    ],
+
+
+    fr: [
+      ["apartment", [
+        "appartements",
+        "appartement"
+      ]],
+      ["villa", [
+        "villas",
+        "villa"
+      ]],
+      ["penthouse", [
+        "penthouses",
+        "penthouse"
+      ]],
+      ["townhouse", [
+        "maisons de ville",
+        "maison de ville"
+      ]],
+      ["duplex", [
+        "duplex"
+      ]],
+      ["studio", [
+        "studios",
+        "studio"
+      ]],
+
+      ["1 bedrooms", [
+        "une chambre"
+      ]],
+      ["2 bedrooms", [
+        "deux chambres"
+      ]],
+      ["3 bedrooms", [
+        "trois chambres"
+      ]],
+      ["4 bedrooms", [
+        "quatre chambres"
+      ]],
+      ["5 bedrooms", ["cinq chambres"]],
+      ["6 bedrooms", ["six chambres"]],
+      ["7 bedrooms", ["sept chambres"]],
+      ["8 bedrooms", ["huit chambres"]],
+      ["9 bedrooms", ["neuf chambres"]],
+
+      ["payment plan", [
+        "plan de paiement",
+        "paiement échelonné",
+        "paiement echelonne"
+      ]],
+
+      ["waterfront", [
+        "bord de mer",
+        "front de mer"
+      ]],
+      ["sea view", [
+        "vue sur mer",
+        "vue mer"
+      ]],
+      ["park view", [
+        "vue sur le parc",
+        "vue parc"
+      ]],
+      ["city view", [
+        "vue sur la ville",
+        "vue ville",
+        "vue sur l'horizon urbain"
+      ]],
+      ["luxury", [
+        "luxe",
+        "haut de gamme"
+      ]],
+      ["family", [
+        "pour les familles",
+        "familial"
+      ]],
+      ["investment", [
+        "pour investissement",
+        "investissement"
+      ]],
+      ["modern", [
+        "moderne",
+        "contemporain"
+      ]]
+    ],
+
+
+    de: [
+      ["apartment", [
+        "wohnungen",
+        "wohnung"
+      ]],
+      ["villa", [
+        "villen",
+        "villa"
+      ]],
+      ["penthouse", [
+        "penthäuser",
+        "penthouses",
+        "penthouse"
+      ]],
+      ["townhouse", [
+        "reihenhäuser",
+        "reihenhaus"
+      ]],
+      ["duplex", [
+        "maisonette",
+        "duplex"
+      ]],
+      ["studio", [
+        "studios",
+        "studio"
+      ]],
+
+      ["1 bedrooms", [
+        "ein schlafzimmer"
+      ]],
+      ["2 bedrooms", [
+        "zwei schlafzimmer"
+      ]],
+      ["3 bedrooms", [
+        "drei schlafzimmer"
+      ]],
+      ["4 bedrooms", [
+        "vier schlafzimmer"
+      ]],
+      ["5 bedrooms", ["fünf schlafzimmer", "fuenf schlafzimmer"]],
+      ["6 bedrooms", ["sechs schlafzimmer"]],
+      ["7 bedrooms", ["sieben schlafzimmer"]],
+      ["8 bedrooms", ["acht schlafzimmer"]],
+      ["9 bedrooms", ["neun schlafzimmer"]],
+
+      ["payment plan", [
+        "zahlungsplan",
+        "ratenzahlung"
+      ]],
+
+      ["waterfront", [
+        "am wasser",
+        "wasserlage",
+        "strandlage"
+      ]],
+      ["sea view", [
+        "meerblick"
+      ]],
+      ["park view", [
+        "parkblick",
+        "blick auf den park"
+      ]],
+      ["city view", [
+        "stadtblick",
+        "blick auf die stadt",
+        "skyline-blick"
+      ]],
+      ["luxury", [
+        "luxus",
+        "luxuriös",
+        "luxurios"
+      ]],
+      ["family", [
+        "für familien",
+        "fur familien",
+        "familienfreundlich"
+      ]],
+      ["investment", [
+        "als investment",
+        "investition",
+        "anlageobjekt"
+      ]],
+      ["modern", [
+        "modern",
+        "zeitgenössisch",
+        "zeitgenossisch"
+      ]]
+    ]
+  };
+
+
+  function escapeSearchRegex(value){
+    return String(value || "")
+      .replace(
+        /[.*+?^${}()|[\]\\]/g,
+        "\\$&"
+      );
+  }
+
+
+  function replaceSearchScaleAliases(
+    text,
+    aliases
+  ){
+    const pairs = [];
+
+    for (
+      const [canonical, values]
+      of aliases
+    ) {
+      for (const value of values) {
+        pairs.push([
+          String(value).toLowerCase(),
+          canonical
+        ]);
+      }
+    }
+
+    // Longest first.
+    pairs.sort(
+      (a, b) =>
+        b[0].length - a[0].length
+    );
+
+    let out = String(text || "");
+
+    for (const [from, to] of pairs) {
+      const pattern =
+        escapeSearchRegex(from)
+          .replace(
+            /\s+/g,
+            "\\s+"
+          );
+
+      const re = new RegExp(
+        `(^|[^\\p{L}])${pattern}(?=$|[^\\p{L}])`,
+        "giu"
+      );
+
+      out = out.replace(
+        re,
+        (_, lead) =>
+          `${lead} ${to} `
+      );
+    }
+
+    return out;
+  }
+
+
+  function canonicalizeBudgetLanguage(text, lang){
+    let q = text;
+
+    const scaleAliases = [
+      ["million", [
+        "миллионов", "миллиона", "миллион", "млн",
+        "مليون",
+        "मिलियन",
+        "百万",
+        "millones", "millón", "millon",
+        "millions",
+        "millionen"
+      ]],
+      ["thousand", [
+        "тысяч", "тысячи", "тыс",
+        "ألف", "الف",
+        "हजार",
+        "千",
+        "miles", "mil",
+        "milliers", "mille",
+        "tausend"
+      ]],
+      ["aed", [
+        "дирхамов", "дирхам", "аед",
+        "درهم إماراتي", "درهم",
+        "दिरहम", "धिरहम",
+        "迪拉姆",
+        "aed"
+      ]]
+    ];
+
+    q = replaceSearchScaleAliases(
+      q,
+      scaleAliases
+    );
+
+    // Chinese "500万" → 5000000
+    if (lang === "zh") {
+      q = q.replace(
+        /(\d+(?:\.\d+)?)\s*万/g,
+        (_, value) =>
+          String(
+            Math.round(
+              Number(value) * 10000
+            )
+          )
+      );
+    }
+
+    const amountLookahead =
+      String.raw`(?=(?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k|aed)\b|(?:aed\s*)?\d{5,}\b)`;
+
+    const prefixRules = {
+      ru: [
+        ["under", "(?:не более|меньше|ниже|до)"],
+        ["over", "(?:не менее|больше|выше|свыше|от)"],
+        ["around", "(?:около|примерно|приблизительно)"]
+      ],
+
+      ar: [
+        ["under", "(?:أقل من|اقل من|حتى|بحد أقصى|بحد اقصى)"],
+        ["over", "(?:أكثر من|اكثر من|فوق|ابتداء من)"],
+        ["around", "(?:حوالي|نحو|تقريبا|تقريباً)"]
+      ],
+
+      es: [
+        ["under", "(?:menos de|hasta|como máximo|como maximo)"],
+        ["over", "(?:más de|mas de|a partir de|mínimo|minimo)"],
+        ["around", "(?:alrededor de|aproximadamente|unos|unas)"]
+      ],
+
+      fr: [
+        ["under", "(?:moins de|jusqu'à|jusqu’a|maximum)"],
+        ["over", "(?:plus de|à partir de|a partir de|minimum)"],
+        ["around", "(?:environ|approximativement|autour de)"]
+      ],
+
+      de: [
+        ["under", "(?:unter|bis|maximal|höchstens|hoechstens)"],
+        ["over", "(?:über|uber|ab|mindestens)"],
+        ["around", "(?:etwa|rund|ungefähr|ungefahr|circa)"]
+      ]
+    };
+
+    for (const [to, pattern] of (
+      prefixRules[lang] || []
+    )) {
+      q = q.replace(
+        new RegExp(
+          `${pattern}\\s+${amountLookahead}`,
+          "giu"
+        ),
+        `${to} `
+      );
+    }
+
+    // Hindi commonly places comparison AFTER amount.
+    if (lang === "hi") {
+      q = q.replace(
+        /((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k)(?:\s*aed)?|(?:aed\s*)?\d{5,}(?:\s*aed)?|(?:aed\s*)?\d+(?:\.\d+)?\s*aed)\s*(?:से कम|तक|के अंदर|अधिकतम)/giu,
+        "under $1"
+      );
+
+      q = q.replace(
+        /((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k)(?:\s*aed)?|(?:aed\s*)?\d{5,}(?:\s*aed)?|(?:aed\s*)?\d+(?:\.\d+)?\s*aed)\s*(?:से ज्यादा|से अधिक|से ऊपर)/giu,
+        "over $1"
+      );
+
+      q = q.replace(
+        /(?:लगभग|करीब)\s*((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k)(?:\s*aed)?|(?:aed\s*)?\d{5,}(?:\s*aed)?|(?:aed\s*)?\d+(?:\.\d+)?\s*aed)/giu,
+        "around $1"
+      );
+    }
+
+    // Chinese commonly places comparison AFTER amount.
+    if (lang === "zh") {
+      q = q.replace(
+        /((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k|aed)?|(?:aed\s*)?\d{5,})\s*(?:以下|以内|不超过)/gu,
+        "under $1"
+      );
+
+      q = q.replace(
+        /((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k|aed)?|(?:aed\s*)?\d{5,})\s*(?:以上|起)/gu,
+        "over $1"
+      );
+
+      q = q.replace(
+        /(?:大约|约|左右)\s*((?:aed\s*)?\d+(?:\.\d+)?\s*(?:million|thousand|m|k|aed)?|(?:aed\s*)?\d{5,})/gu,
+        "around $1"
+      );
+    }
+
+    return q;
+  }
+
+
+  function canonicalizeSearchParserQuery(
+    value,
+    lang
+  ){
+    let q = normalizeSearchDigits(value)
+      .normalize("NFKC")
+      .toLowerCase()
+      .replace(
+        /[\u064B-\u065F\u0670\u06D6-\u06ED]/g,
+        ""
+      )
+      .replace(/[،؛]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    q = canonicalizeBudgetLanguage(
+      q,
+      lang
+    );
+
+    q = replaceSearchAliases(
+      q,
+      SEARCH_CANON_ALIASES[lang] || []
+    );
+
+    // Numeric bedroom forms.
+    const bedroomPatterns = {
+      ru: /([0-9])\s*(?:спальня|спальни|спален)\b/gu,
+      ar: /([0-9])\s*(?:غرف|غرفة)\s*(?:نوم)?/gu,
+      hi: /([0-9])\s*(?:बेडरूम|बीआर)/gu,
+      zh: /([0-9])\s*(?:卧室|室|居室|居)/gu,
+      es: /([0-9])\s*(?:dormitorio|dormitorios|habitacion|habitación|habitaciones)\b/giu,
+      fr: /([0-9])\s*(?:chambre|chambres)\b/giu,
+      de: /([0-9])\s*(?:schlafzimmer)\b/giu
+    };
+
+    const bedroomPattern =
+      bedroomPatterns[lang];
+
+    if (bedroomPattern) {
+      q = q.replace(
+        bedroomPattern,
+        "$1 bedrooms"
+      );
+    }
+
+    return q
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+
   function splitQueryToParts(q, lang){
     const normalizer = buildNormalizer(DICT, lang);
     const tokens = normalizer.normalize(q).map(x => String(x).toLowerCase());
@@ -226,63 +3374,1238 @@
     return { emiratesWanted, strong, weak, tokens };
   }
 
-  function applyFilter(q){
+  // =========================================================
+  // Search V1 — canonical Project cards
+  // =========================================================
+
+  const SEARCH_NOISE = new Set([
+    "show","find","looking","look","want","need","please",
+    "project","projects","property","properties","home","homes",
+    "something","anything","preferably","prefer","maybe","would",
+    "like","interested","search","searching","around","about",
+    "roughly","approximately","approx","budget",
+    "maximum","minimum","max","min",
+    "under","below","over","above","million","thousand","aed",
+    "with","for","me","some","good","nice","new"
+  ]);
+
+  function normalText(v){
+    return String(v || "")
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}\s\-]/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function cardData(a){
+    let price = Number(
+      String(a.dataset.priceAmount || "").replace(/,/g, "")
+    );
+
+    if (!Number.isFinite(price) || price <= 0) {
+      const txt = String(a.dataset.price || "")
+        .toLowerCase()
+        .replace(/,/g, "");
+
+      const m = txt.match(/(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?/);
+
+      if (m) {
+        price = Number(m[1]);
+
+        if (m[2] === "m" || m[2] === "million") {
+          price *= 1000000;
+        }
+
+        if (m[2] === "k" || m[2] === "thousand") {
+          price *= 1000;
+        }
+      }
+    }
+
+    return {
+      card: a,
+      slug: String(a.dataset.slug || extractSlugFromHref(a.href) || ""),
+      title: normalText(a.dataset.title),
+      location: normalText(a.dataset.location),
+      developer: normalText(a.dataset.developer),
+
+      machineDistrict: normalText(
+        a.dataset.machineDistrict ||
+        a.dataset.location
+      ),
+
+      machineEmirate: normalText(
+        a.dataset.machineEmirate ||
+        ""
+      ),
+
+      machineDeveloper: normalText(
+        a.dataset.machineDeveloper ||
+        a.dataset.developer
+      ),
+
+      type: normalText(
+        a.dataset.machineType ||
+        a.dataset.type
+      ),
+
+      units: normalText(
+        a.dataset.machineUnits ||
+        a.dataset.units
+      ),
+
+      handover: normalText(
+        a.dataset.machineHandover ||
+        a.dataset.handover
+      ),
+
+      paymentPlan: normalText(
+        a.dataset.machinePaymentPlan ||
+        a.dataset.paymentPlan
+      ),
+
+      status: normalText(
+        a.dataset.machineStatus ||
+        a.dataset.status
+      ),
+
+      size: normalText(
+        a.dataset.machineSize ||
+        a.dataset.size
+      ),
+
+      search: normalText(a.dataset.search),
+      hasImage: a.dataset.hasImage === "1",
+      price: Number.isFinite(price) && price > 0 ? price : 0
+    };
+  }
+
+  // ---------------------------------------------------------
+  // Emirate matching against canonical card text
+  // ---------------------------------------------------------
+
+  function cardHasEmirate(data, canon){
+    const machine =
+      canonEmirateFromText(
+        data.machineEmirate
+      );
+
+    return (
+      machine &&
+      machine === canon
+    );
+  }
+
+  // ---------------------------------------------------------
+  // Property type
+  // ---------------------------------------------------------
+
+  function detectTypes(query){
+    const q = normalText(query);
+    const found = [];
+
+    const aliases = {
+      apartment: [
+        "apartment",
+        "apartments",
+        "flat",
+        "flats"
+      ],
+      villa: [
+        "villa",
+        "villas"
+      ],
+      penthouse: [
+        "penthouse",
+        "penthouses"
+      ],
+      townhouse: [
+        "townhouse",
+        "townhouses",
+        "town house",
+        "town houses"
+      ],
+      duplex: [
+        "duplex",
+        "duplexes"
+      ],
+      studio: [
+        "studio",
+        "studios"
+      ]
+    };
+
+    for (const [type, values] of Object.entries(aliases)) {
+      if (values.some(v => q.includes(v))) {
+        found.push(type);
+      }
+    }
+
+    return found;
+  }
+
+  // ---------------------------------------------------------
+  // Bedrooms
+  // ---------------------------------------------------------
+
+  const BED_WORDS = {
+    zero: "0",
+    one: "1",
+    two: "2",
+    three: "3",
+    four: "4",
+    five: "5",
+    six: "6",
+    seven: "7",
+    eight: "8",
+    nine: "9"
+  };
+
+  function detectBedrooms(query){
+    let q = normalText(query);
+    const out = new Set();
+
+    for (const [word, number] of Object.entries(BED_WORDS)) {
+      const re = new RegExp(
+        "\\b" + word + "\\s*(?:bed|bedroom|bedrooms)\\b",
+        "g"
+      );
+
+      if (re.test(q)) {
+        out.add(number);
+      }
+    }
+
+    for (const m of q.matchAll(
+      /([0-9])\s*[- ]*(?:br|bed|bedroom|bedrooms)\b/g
+    )) {
+      out.add(m[1]);
+    }
+
+    for (const m of q.matchAll(
+      /([0-9])\s*(?:or|to|and|\/|-)\s*([0-9])\s*(?:br|bed|bedroom|bedrooms)\b/g
+    )) {
+      out.add(m[1]);
+      out.add(m[2]);
+    }
+
+    if (q.includes("studio")) {
+      out.add("0");
+    }
+
+    return Array.from(out);
+  }
+
+  function cardBedrooms(data){
+    const out = new Set();
+
+    if (
+      data.type.includes("studio") ||
+      data.units.includes("studio")
+    ) {
+      out.add("0");
+    }
+
+    // Explicit ranges such as 1–4 BR / 1-4 BR
+    const range = data.units.match(
+      /([0-9]+)\s*(?:-|–|—|to)\s*([0-9]+)\s*(?:br|bedroom|bedrooms)?/
+    );
+
+    if (range) {
+      const a = Number(range[1]);
+      const b = Number(range[2]);
+
+      if (
+        Number.isFinite(a) &&
+        Number.isFinite(b) &&
+        a <= b &&
+        b - a <= 20
+      ) {
+        for (let i = a; i <= b; i++) {
+          out.add(String(i));
+        }
+      }
+    }
+
+    // Lists such as 1 | 2 | 3 | 4 BR
+    const nums = data.units.match(/[0-9]+/g) || [];
+
+    for (const n of nums) {
+      const x = Number(n);
+
+      if (
+        Number.isFinite(x) &&
+        x >= 0 &&
+        x <= 20
+      ) {
+        out.add(String(x));
+      }
+    }
+
+    return out;
+  }
+
+  // ---------------------------------------------------------
+  // Budget ±10%
+  // ---------------------------------------------------------
+
+  function amount(number, suffix, fallbackSuffix = ""){
+    let n = Number(number);
+
+    if (!Number.isFinite(n)) {
+      return 0;
+    }
+
+    const s = String(
+      suffix || fallbackSuffix || ""
+    ).toLowerCase();
+
+    if (s === "m" || s === "million") {
+      n *= 1000000;
+    }
+
+    if (s === "k" || s === "thousand") {
+      n *= 1000;
+    }
+
+    return n;
+  }
+
+  function parseBudget(query){
+    const q = String(query || "")
+      .toLowerCase()
+      .replace(/,/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    let m;
+
+    // 3-5M / 3M to 5M
+    m = q.match(
+      /(?:aed\s*)?(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\s*(?:-|–|—|to)\s*(?:aed\s*)?(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\b/
+    );
+
+    if (m) {
+      const a = amount(m[1], m[2], m[4]);
+      const b = amount(m[3], m[4], m[2]);
+
+      if (a && b) {
+        const preferredMin = Math.min(a, b);
+        const preferredMax = Math.max(a, b);
+
+        return {
+          kind: "range",
+          preferredMin,
+          preferredMax,
+          min: preferredMin * (1 - PRICE_TOLERANCE),
+          max: preferredMax * (1 + PRICE_TOLERANCE)
+        };
+      }
+    }
+
+    // under / below / max / up to
+    m = q.match(
+      /(?:under|below|up to|maximum|max|no more than)\s*(?:around\s*)?(?:aed\s*)?(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\b/
+    );
+
+    if (m) {
+      const value = amount(m[1], m[2]);
+
+      if (value) {
+        return {
+          kind: "max",
+          preferredMax: value,
+          max: value * (1 + PRICE_TOLERANCE)
+        };
+      }
+    }
+
+    // above / over / from / at least
+    m = q.match(
+      /(?:over|above|from|minimum|min|at least)\s*(?:around\s*)?(?:aed\s*)?(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\b/
+    );
+
+    if (m) {
+      const value = amount(m[1], m[2]);
+
+      if (value) {
+        return {
+          kind: "min",
+          preferredMin: value,
+          min: value * (1 - PRICE_TOLERANCE)
+        };
+      }
+    }
+
+    // around / about / budget 4M
+    m = q.match(
+      /(?:around|about|approximately|approx|roughly|budget(?:\s+of|\s+around)?)\s*(?:aed\s*)?(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\b/
+    );
+
+    if (m) {
+      const value = amount(m[1], m[2]);
+
+      if (value) {
+        return {
+          kind: "around",
+          preferred: value,
+          min: value * (1 - PRICE_TOLERANCE),
+          max: value * (1 + PRICE_TOLERANCE)
+        };
+      }
+    }
+
+    // Plain "AED 4M"
+    m = q.match(
+      /\baed\s*(\d+(?:\.\d+)?)\s*(m|million|k|thousand)?\b/
+    );
+
+    if (m) {
+      const value = amount(m[1], m[2]);
+
+      if (value) {
+        return {
+          kind: "around",
+          preferred: value,
+          min: value * (1 - PRICE_TOLERANCE),
+          max: value * (1 + PRICE_TOLERANCE)
+        };
+      }
+    }
+
+    return null;
+  }
+
+  function budgetPass(price, budget){
+    if (!budget) return true;
+    if (!price) return false;
+
+    if (
+      typeof budget.min === "number" &&
+      price < budget.min
+    ) {
+      return false;
+    }
+
+    if (
+      typeof budget.max === "number" &&
+      price > budget.max
+    ) {
+      return false;
+    }
+
+    return true;
+  }
+
+  function budgetScore(price, budget){
+    if (!budget || !price) {
+      return 0;
+    }
+
+    if (
+      budget.kind === "max" &&
+      price <= budget.preferredMax
+    ) {
+      return 30;
+    }
+
+    if (
+      budget.kind === "min" &&
+      price >= budget.preferredMin
+    ) {
+      return 30;
+    }
+
+    if (
+      budget.kind === "range" &&
+      price >= budget.preferredMin &&
+      price <= budget.preferredMax
+    ) {
+      return 30;
+    }
+
+    if (
+      budget.kind === "around" &&
+      budget.preferred
+    ) {
+      const delta =
+        Math.abs(price - budget.preferred) /
+        budget.preferred;
+
+      return Math.max(
+        12,
+        30 - Math.round(delta * 100)
+      );
+    }
+
+    // Попал только в мягкие ±10%
+    return 12;
+  }
+
+  // ---------------------------------------------------------
+  // Lifestyle / semantic intent
+  // ---------------------------------------------------------
+
+  function detectSemantics(query){
+    const q = normalText(query);
+    const out = [];
+
+    if (
+      q.includes("waterfront") ||
+      q.includes("beachfront") ||
+      q.includes("seafront") ||
+      /\bnear (?:the )?(?:sea|beach|water)\b/.test(q) ||
+      /\bby (?:the )?(?:sea|beach|water)\b/.test(q) ||
+      /\bclose to (?:the )?(?:sea|beach|water)\b/.test(q)
+    ) {
+      out.push("waterfront");
+    }
+
+    if (/\b(?:sea|ocean|water) view\b/.test(q)) {
+      out.push("sea-view");
+    }
+
+    if (q.includes("park view")) {
+      out.push("park-view");
+    }
+
+    if (
+      q.includes("city view") ||
+      q.includes("skyline view")
+    ) {
+      out.push("city-view");
+    }
+
+    if (
+      q.includes("luxury") ||
+      q.includes("premium") ||
+      q.includes("high end") ||
+      q.includes("high-end")
+    ) {
+      out.push("luxury");
+    }
+
+    if (
+      q.includes("family") ||
+      q.includes("children") ||
+      q.includes("kids")
+    ) {
+      out.push("family");
+    }
+
+    if (
+      q.includes("investment") ||
+      q.includes("investor") ||
+      q.includes("invest ") ||
+      q.includes("roi") ||
+      q.includes("rental yield")
+    ) {
+      out.push("investment");
+    }
+
+    if (
+      q.includes("modern") ||
+      q.includes("contemporary")
+    ) {
+      out.push("modern");
+    }
+
+    return Array.from(new Set(out));
+  }
+
+  function semanticMatch(data, key){
+    const map = {
+      "waterfront": [
+        "waterfront",
+        "beachfront",
+        "seafront"
+      ],
+      "sea-view": [
+        "sea view",
+        "ocean view",
+        "water view"
+      ],
+      "park-view": [
+        "park view"
+      ],
+      "city-view": [
+        "city view",
+        "skyline view"
+      ],
+      "luxury": [
+        "luxury",
+        "premium",
+        "high end",
+        "high-end"
+      ],
+      "family": [
+        "family",
+        "family friendly",
+        "family-friendly"
+      ],
+      "investment": [
+        "investment",
+        "investor",
+        "roi",
+        "rental yield"
+      ],
+      "modern": [
+        "modern",
+        "contemporary"
+      ]
+    };
+
+    return (map[key] || []).some(x =>
+      data.search.includes(x)
+    );
+  }
+
+  // ---------------------------------------------------------
+  // Discovery 100
+  // ---------------------------------------------------------
+
+  function discoveryScore(data){
+    let score = 0;
+
+    // Сильный визуальный bonus только для Discovery.
+    if (data.hasImage) score += 60;
+
+    if (data.price) score += 8;
+    if (data.developer) score += 8;
+    if (data.location) score += 8;
+    if (data.type) score += 8;
+    if (data.units) score += 6;
+    if (data.handover) score += 5;
+
+    if (
+      data.search.includes("luxury") ||
+      data.search.includes("premium")
+    ) {
+      score += 12;
+    }
+
+    if (
+      data.search.includes("waterfront") ||
+      data.search.includes("beachfront") ||
+      data.search.includes("sea view")
+    ) {
+      score += 15;
+    }
+
+    // Цена не штрафуется.
+    // Дорогие красивые проекты могут быть выше в Discovery.
+    if (
+      data.hasImage &&
+      data.price >= 10000000
+    ) {
+      score += 6;
+    }
+
+    if (
+      data.hasImage &&
+      data.price >= 20000000
+    ) {
+      score += 4;
+    }
+
+    return score;
+  }
+
+  function renderDiscovery(cards){
+    const items = cards
+      .map(a => ({
+        a,
+        data: cardData(a)
+      }))
+      .map(x => ({
+        ...x,
+        score: discoveryScore(x.data)
+      }))
+      .sort((a, b) => {
+        if (b.score !== a.score) {
+          return b.score - a.score;
+        }
+
+        return a.data.title.localeCompare(
+          b.data.title
+        );
+      });
+
+    const chosen = [];
+    const chosenSet = new Set();
+
+    const developerCount = new Map();
+    const districtCount = new Map();
+
+    for (const x of items) {
+      if (chosen.length >= RESULT_LIMIT) break;
+
+      const dev = x.data.developer;
+      const district = x.data.location;
+
+      const dc = dev
+        ? (developerCount.get(dev) || 0)
+        : 0;
+
+      const lc = district
+        ? (districtCount.get(district) || 0)
+        : 0;
+
+      if (dev && dc >= 6) continue;
+      if (district && lc >= 8) continue;
+
+      chosen.push(x);
+      chosenSet.add(x.a);
+
+      if (dev) {
+        developerCount.set(dev, dc + 1);
+      }
+
+      if (district) {
+        districtCount.set(district, lc + 1);
+      }
+    }
+
+    // Если caps не дали набрать 100 — дозаполняем.
+    for (const x of items) {
+      if (chosen.length >= RESULT_LIMIT) break;
+      if (chosenSet.has(x.a)) continue;
+
+      chosen.push(x);
+      chosenSet.add(x.a);
+    }
+
+    for (const a of cards) {
+      a.style.display = "none";
+    }
+
+    const grid = rootGrid();
+
+    for (const x of chosen) {
+      hydrateProjectCard(x.a);
+      x.a.style.display = "";
+
+      if (grid) {
+        grid.appendChild(x.a);
+      }
+    }
+
     const root = getResultsRoot();
+
+    root.dataset.searchState = "discovery";
+    root.dataset.resultsCount = String(chosen.length);
+    root.dataset.resultsShown = String(chosen.length);
+  }
+
+  function rootGrid(){
+    const root = getResultsRoot();
+
+    return root
+      ? root.querySelector(".results__grid")
+      : null;
+  }
+
+  // ---------------------------------------------------------
+  // Ranked Search
+  // ---------------------------------------------------------
+
+  let SEARCH_APPLY_SEQUENCE = 0;
+
+  async function applyFilter(q){
+    const sequence =
+      ++SEARCH_APPLY_SEQUENCE;
+
+    const root =
+      getResultsRoot();
+
     if (!root) return;
 
-    const query = String(q || "").trim();
-    const cards = getCards();
+    const query =
+      String(q || "").trim();
 
+    if (query) {
+      const detectedLang =
+        detectSearchLanguage(
+          query
+        );
+
+      if (
+        detectedLang !==
+        PROJECT_DATA_LANG
+      ) {
+        await activateSearchLanguage(
+          detectedLang,
+          sequence
+        );
+
+        // User continued typing while
+        // the projection was loading.
+        if (
+          sequence !==
+          SEARCH_APPLY_SEQUENCE
+        ) {
+          return;
+        }
+      }
+    }
+
+    ensureProjectCardShells();
+
+    const cards =
+      getCards();
+
+    root.dataset.searchLanguage =
+      PROJECT_DATA_LANG;
+
+    // EMPTY QUERY = Discovery 100.
     if (!query) {
-      for (const a of cards) a.style.display = "";
+      renderDiscovery(cards);
       return;
     }
 
     const lang = getLang();
-    const parts = splitQueryToParts(query, lang);
 
-    const emiratesWanted = parts.emiratesWanted;
-    const required = parts.strong;
+    const entities = resolveSearchEntities(query);
 
-    if (!emiratesWanted.length && !required.length && !parts.weak.length) {
-      for (const a of cards) a.style.display = "";
+    const relationRequested = !!entities.relation;
+    const relationActive = !!(
+      entities.relation &&
+      entities.anchor
+    );
+
+    const modifierText = relationRequested
+      ? String(
+          entities.relation?.modifierText || ""
+        ).trim()
+      : "";
+
+    const modifierCheaper =
+      relationActive &&
+      /\bcheaper\b/i.test(modifierText);
+
+    const modifierAnotherDistrict =
+      relationActive &&
+      /\banother\s+(?:district|area)\b/i.test(
+        modifierText
+      );
+
+    const modifierAnotherDeveloper =
+      relationActive &&
+      /\banother\s+developer\b/i.test(
+        modifierText
+      );
+
+    // Relation anchor itself is NOT ordinary search text.
+    // Only the modifier goes through normal filters.
+    //
+    // "similar to Passo under AED 5M"
+    // → parserQuery = "under AED 5M"
+    //
+    // "same district as Passo, 2 bedrooms"
+    // → parserQuery = "2 bedrooms"
+    const rawParserQuery = relationRequested
+      ? modifierText
+          .replace(/\bcheaper\b/gi, " ")
+          .replace(
+            /\b(?:in\s+)?another\s+(?:district|area)\b/gi,
+            " "
+          )
+          .replace(
+            /\b(?:(?:by|from)\s+)?another\s+developer\b/gi,
+            " "
+          )
+          .replace(/\s+/g, " ")
+          .trim()
+      : query;
+
+    const parserQuery =
+      canonicalizeSearchParserQuery(
+        rawParserQuery,
+        lang
+      );
+
+    const parts = splitQueryToParts(
+      parserQuery,
+      lang
+    );
+
+    const types = detectTypes(parserQuery);
+    const bedrooms = detectBedrooms(parserQuery);
+    const budget = parseBudget(parserQuery);
+    const semantics = detectSemantics(parserQuery);
+
+    const years = Array.from(
+      new Set(
+        String(parserQuery).match(
+          /\b20(?:2[0-9]|3[0-9])\b/g
+        ) || []
+      )
+    );
+
+    const wantsPayment =
+      /\bpayment plan\b/i.test(parserQuery) ||
+      /\binstallment\b/i.test(parserQuery) ||
+      /\binstalment\b/i.test(parserQuery);
+
+    const weak = parts.weak.filter(t => {
+      const x = String(t).toLowerCase();
+
+      if (SEARCH_NOISE.has(x)) return false;
+      if (EMIRATE_SET.has(x)) return false;
+      if (STRONG_TOKEN_SET.has(x)) return false;
+
+      if (/^[0-9]+$/.test(x)) return false;
+
+      if (
+        /^[0-9]+(?:\.[0-9]+)?(?:m|k)$/.test(x)
+      ) {
+        return false;
+      }
+
+      if (
+        /^20(?:2[0-9]|3[0-9])$/.test(x)
+      ) {
+        return false;
+      }
+
+      return x.length >= 2;
+    });
+
+    if (
+      relationRequested &&
+      !relationActive
+    ) {
+      for (const a of cards) {
+        a.style.display = "none";
+      }
+
+      root.dataset.searchState = "empty";
+      root.dataset.resultsCount = "0";
+      root.dataset.resultsShown = "0";
+
       return;
     }
 
-    // ✅ FIX: считаем совпадения ТОЛЬКО среди тех, кто есть в индексе
-    let matchedIndexedCount = 0;
+    const ranked = [];
 
     for (const a of cards) {
-      const slug = extractSlugFromHref(a.getAttribute("href") || "");
-      const p = bySlug.get(slug);
+      const data = cardData(a);
 
-      // soft fail: нет в индексе — временно показываем (но НЕ считаем как match)
-      if (!p) { a.style.display = ""; continue; }
+      // HARD — Emirate
+      if (parts.emiratesWanted.length) {
+        const ok = parts.emiratesWanted.some(e =>
+          cardHasEmirate(data, e)
+        );
 
-      const ptokens = Array.isArray(p.tokens) ? p.tokens.map(x => String(x).toLowerCase()) : [];
+        if (!ok) continue;
+      }
 
-      if (emiratesWanted.length) {
-        let emirOk = false;
-        for (const e of emiratesWanted) {
-          if (projectHasEmirate(p, e)) { emirOk = true; break; }
+      // HARD — resolved Developer entity
+      if (entities.developer) {
+        if (
+          entityKey(data.developer) !==
+          entityKey(entities.developer)
+        ) {
+          continue;
         }
-        if (!emirOk) { a.style.display = "none"; continue; }
       }
 
-      let ok = true;
-      for (const r of required) {
-        if (!ptokens.includes(r)) { ok = false; break; }
+      // HARD — resolved District entity
+      if (entities.district) {
+        if (
+          entityKey(data.location) !==
+          entityKey(entities.district)
+        ) {
+          continue;
+        }
       }
-      if (!ok) { a.style.display = "none"; continue; }
 
-      a.style.display = "";
-      matchedIndexedCount++;
+      // HARD — Project relation
+      if (relationActive) {
+        const crossMode =
+          modifierAnotherDistrict ||
+          modifierAnotherDeveloper;
+
+        const relationOk = crossMode
+          ? crossEntityCandidatePass(
+              data,
+              entities,
+              modifierAnotherDistrict,
+              modifierAnotherDeveloper
+            )
+          : relationCandidatePass(
+              data,
+              entities
+            );
+
+        if (!relationOk) {
+          continue;
+        }
+      }
+
+      // HARD — relation modifier: cheaper than anchor
+      if (modifierCheaper) {
+        const anchorPrice = Number(
+          entities.anchor?.price_amount || 0
+        );
+
+        if (
+          !anchorPrice ||
+          !data.price ||
+          data.price >= anchorPrice
+        ) {
+          continue;
+        }
+      }
+
+      // HARD — Property type
+      if (types.length) {
+        const ok = types.some(t =>
+          data.type.includes(t)
+        );
+
+        if (!ok) continue;
+      }
+
+      // HARD — Bedrooms
+      if (bedrooms.length) {
+        const available = cardBedrooms(data);
+
+        const ok = bedrooms.some(x =>
+          available.has(x)
+        );
+
+        if (!ok) continue;
+      }
+
+      // HARD-ish — Budget with ±10% tolerance
+      if (!budgetPass(data.price, budget)) {
+        continue;
+      }
+
+      // HARD — Handover year
+      if (years.length) {
+        const ok = years.some(y =>
+          data.handover.includes(y)
+        );
+
+        if (!ok) continue;
+      }
+
+      // Payment plan только если реально заполнен.
+      if (
+        wantsPayment &&
+        !data.paymentPlan
+      ) {
+        continue;
+      }
+
+      let score = 0;
+      let matches = 0;
+
+      const nq = normalText(query);
+
+      if (relationActive) {
+        const crossMode =
+          modifierAnotherDistrict ||
+          modifierAnotherDeveloper;
+
+        if (crossMode) {
+          const metrics =
+            crossEntityRelationMetrics(
+              data,
+              entities
+            );
+
+          score += metrics
+            ? metrics.score
+            : 0;
+        } else {
+          score += relationCandidateScore(
+            data,
+            entities
+          );
+        }
+
+        matches++;
+      }
+
+      // Exact entity signals
+      if (
+        data.title &&
+        nq.includes(data.title)
+      ) {
+        score += 120;
+        matches++;
+      }
+
+      if (
+        data.developer &&
+        nq.includes(data.developer)
+      ) {
+        score += 70;
+        matches++;
+      }
+
+      if (
+        data.location &&
+        nq.includes(data.location)
+      ) {
+        score += 70;
+        matches++;
+      }
+
+      // Structured signals
+      if (parts.emiratesWanted.length) {
+        score += 25;
+      }
+
+      if (entities.developer) {
+        score += 45;
+      }
+
+      if (entities.district) {
+        score += 45;
+      }
+
+      if (types.length) {
+        score += 35;
+      }
+
+      if (bedrooms.length) {
+        score += 40;
+      }
+
+      if (budget) {
+        score += budgetScore(
+          data.price,
+          budget
+        );
+      }
+
+      if (years.length) {
+        score += 25;
+      }
+
+      if (wantsPayment) {
+        score += 25;
+      }
+
+      // Free human-language words:
+      // project / developer / district first,
+      // semantic body second.
+      for (const token of weak) {
+        let tokenScore = 0;
+
+        if (data.title.includes(token)) {
+          tokenScore = 30;
+        } else if (
+          data.developer.includes(token)
+        ) {
+          tokenScore = 24;
+        } else if (
+          data.location.includes(token)
+        ) {
+          tokenScore = 24;
+        } else if (
+          data.type.includes(token)
+        ) {
+          tokenScore = 18;
+        } else if (
+          data.search.includes(token)
+        ) {
+          tokenScore = 6;
+        }
+
+        if (tokenScore) {
+          score += tokenScore;
+          matches++;
+        }
+      }
+
+      // Lifestyle preferences are ranking signals,
+      // not mandatory filters.
+      for (const semantic of semantics) {
+        if (
+          semanticMatch(data, semantic)
+        ) {
+          score += 18;
+          matches++;
+        }
+      }
+
+      const hasHard =
+        relationActive ||
+        parts.emiratesWanted.length > 0 ||
+        !!entities.developer ||
+        !!entities.district ||
+        types.length > 0 ||
+        bedrooms.length > 0 ||
+        !!budget ||
+        years.length > 0 ||
+        wantsPayment;
+
+      // Если запрос только текстовый:
+      // Passo / Beyond / Palm Jumeirah / sea view —
+      // должно быть реальное совпадение.
+      if (
+        !hasHard &&
+        matches === 0
+      ) {
+        continue;
+      }
+
+      ranked.push({
+        a,
+        data,
+        score
+      });
     }
 
-    // ✅ FIX: если в индексе совпадений НОЛЬ — показываем всё
-    if (matchedIndexedCount === 0) {
-      for (const a of cards) a.style.display = "";
+    ranked.sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+
+      return a.data.title.localeCompare(
+        b.data.title
+      );
+    });
+
+    // Никогда не показываем все 2571.
+    for (const a of cards) {
+      a.style.display = "none";
     }
+
+    const visible = ranked.slice(
+      0,
+      RESULT_LIMIT
+    );
+
+    const grid = rootGrid();
+
+    for (const x of visible) {
+      hydrateProjectCard(x.a);
+      x.a.style.display = "";
+
+      if (grid) {
+        grid.appendChild(x.a);
+      }
+    }
+
+    root.dataset.searchState =
+      visible.length
+        ? "results"
+        : "empty";
+
+    root.dataset.resultsCount =
+      String(ranked.length);
+
+    root.dataset.resultsShown =
+      String(visible.length);
+
+    // ZERO MATCH stays zero.
+    // No fallback to all projects.
   }
 
   function readSavedQuery(){
@@ -339,6 +4662,10 @@
     const btn = ev.target && ev.target.closest ? ev.target.closest(".home-hero__chip") : null;
     if (!btn) return;
 
+    // Hero owns chips that have an explicit search query.
+    // Do not merge them with the text already typed by the user.
+    if (btn.hasAttribute("data-chip-query")) return;
+
     const txt = (btn.textContent || "").trim();
     const emir = canonEmirateFromText(txt);
     if (!emir) return;
@@ -394,9 +4721,33 @@
     applyFilter(q);
   });
 
-  (function boot(){
-    const saved = readSavedQuery();
-    if (saved) applyFilter(saved);
+  (async function boot(){
+    const saved =
+      readSavedQuery();
+
+    const pageLang =
+      getPageLang();
+
+    const bootSequence =
+      SEARCH_APPLY_SEQUENCE;
+
+    await activateSearchLanguage(
+      pageLang,
+      bootSequence
+    );
+
+    // User started a newer Search while the
+    // initial page-language projection loaded.
+    if (
+      bootSequence !==
+      SEARCH_APPLY_SEQUENCE
+    ) {
+      return;
+    }
+
+    if (saved) {
+      applyFilter(saved);
+    }
   })();
 
 })();

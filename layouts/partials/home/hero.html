@@ -1,5 +1,8 @@
-{{ $home := site.Data.site.home }}
+{{ $locale := partial "home/locale_data.html" . }}
+{{ $home := $locale.home }}
 {{ $hero := $home.hero }}
+{{ $voice := $locale.voice }}
+{{ $a11y := $locale.a11y }}
 
 {{ $fallbackProjects := slice
   (dict
@@ -75,22 +78,20 @@
         >
           <div class="home-hero__ai-badge" aria-hidden="true">
             <span class="home-hero__ai-badge-dot"></span>
-            <span>Primadom AI</span>
+            <span>Prima AI</span>
           </div>
 
-          <input
+          <textarea
             class="home-hero__input"
-            type="text"
             name="q"
             placeholder="{{ $hero.search.placeholder }}"
             autocomplete="off"
-            data-typing-examples='{{ $hero.search.typing_examples | jsonify }}'
-          >
+            data-typing-examples='{{ $hero.search.typing_examples | jsonify }}' rows="2"></textarea>
 
           <button
             class="home-hero__voice"
             type="button"
-            aria-label="Start voice search"
+            aria-label="{{ $a11y.start_voice_search | default "Start voice search" }}"
             aria-pressed="false"
           >
             <span class="home-hero__voice-aura" aria-hidden="true"></span>
@@ -108,8 +109,8 @@
               <span class="home-hero__voice-popover-dot"></span>
 
               <div class="home-hero__voice-copy">
-                <span class="home-hero__voice-status">Listening…</span>
-                <span class="home-hero__voice-text">Tell Primadom AI what you want</span>
+                <span class="home-hero__voice-status">{{ $voice.listening | default "Listening…" }}</span>
+                <span class="home-hero__voice-text">{{ $voice.tell_prima | default "Tell Prima AI what you want" }}</span>
               </div>
 
               <span class="home-hero__voice-bars" aria-hidden="true">
@@ -207,9 +208,14 @@
     chip.addEventListener('click', () => {
       const query = chip.getAttribute('data-chip-query') || chip.textContent.trim();
 
-      input.value = query;
       stopTyping();
+      input.value = query;
       input.focus();
+
+      if (typeof input.setSelectionRange === 'function') {
+        const end = input.value.length;
+        input.setSelectionRange(end, end);
+      }
 
       input.dispatchEvent(new Event('input', { bubbles: true }));
     });
@@ -227,7 +233,19 @@
     if (!results || !query) return;
 
     const value = (input.value || '').trim();
-    if (value) query.textContent = value;
+
+    if (value) {
+      query.value = value;
+
+      try {
+        window.dispatchEvent(
+          new CustomEvent(
+            'search:updated',
+            { detail: { q: value } }
+          )
+        );
+      } catch (e) {}
+    }
 
     results.classList.add('is-open');
     results.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -248,7 +266,7 @@
     recognition.continuous = false;
 
     recognition.onstart = () => {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
     };
 
     recognition.onresult = event => {
@@ -262,13 +280,13 @@
 
       if (transcript) {
         input.value = transcript;
-        voiceStatus.textContent = 'Got it';
+        voiceStatus.textContent = {{ ($voice.got_it | default "Got it") | jsonify }};
         voiceText.textContent = transcript;
       }
     };
 
     recognition.onerror = () => {
-      voiceStatus.textContent = 'Voice paused';
+      voiceStatus.textContent = {{ ($voice.paused | default "Voice paused") | jsonify }};
       voiceText.textContent = 'Type your request or try again';
       window.setTimeout(() => setVoiceState(false), 900);
     };
@@ -307,7 +325,7 @@
     }
 
     if (!recognition) {
-      setVoiceState(true, 'Voice mode', 'Speech recognition is not supported here');
+      setVoiceState(true, {{ ($voice.mode | default "Voice mode") | jsonify }}, {{ ($voice.unsupported | default "Speech recognition is not supported here") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);
@@ -319,7 +337,7 @@
     try {
       recognition.start();
     } catch (e) {
-      setVoiceState(true, 'Listening…', 'Tell Primadom AI what you want');
+      setVoiceState(true, {{ ($voice.listening | default "Listening…") | jsonify }}, {{ ($voice.tell_prima | default "Tell Prima AI what you want") | jsonify }});
 
       voiceFallbackTimer = window.setTimeout(() => {
         setVoiceState(false);
