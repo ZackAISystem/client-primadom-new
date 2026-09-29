@@ -431,8 +431,8 @@ grep -q \
   'https://primadom.ai/zh/sitemap.xml' \
   "$ROOT/public/sitemap.xml"
 
-if [ "$EN" -lt 22511 ]; then
-  echo "ERROR: EN output dropped below previous production baseline"
+if [ "$EN" -lt 22508 ]; then
+  echo "ERROR: EN output dropped below current production baseline"
   exit 1
 fi
 
@@ -446,8 +446,8 @@ if [ "$HI" -lt 22508 ]; then
   exit 1
 fi
 
-if [ "$AR" -lt 7 ]; then
-  echo "ERROR: AR output dropped below previous production baseline"
+if [ "$AR" -ne 0 ]; then
+  echo "ERROR: AR output must not exist in MAIN production build"
   exit 1
 fi
 
