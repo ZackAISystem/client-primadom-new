@@ -19,26 +19,68 @@
     <meta name="description" content="{{ $desc }}">
   {{ end }}
 
-  {{/* PRIMA_AI_EN_HOME_SOCIAL_V1 — EN homepage social sharing only */}}
-  {{ if and .IsHome (eq (.Site.Language.Lang | default "en") "en") }}
+
+  {{/* PRIMA_AI_HOME_SOCIAL_V2 — localized homepage social preview */}}
+  {{ if .IsHome }}
+    {{- $lang := .Site.Language.Lang | default "en" -}}
+
+    {{- $socialTitle := "Prima AI — UAE Real Estate Intelligence" -}}
+    {{- $socialDesc := "Full UAE property database with millions of answers on projects, developers, districts and the real estate market. Ask Prima AI anything." -}}
+    {{- $socialImage := "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence.png" -}}
+
+    {{- if eq $lang "ru" -}}
+      {{- $socialTitle = "Prima AI — Интеллект рынка недвижимости ОАЭ" -}}
+      {{- $socialDesc = "Полная база недвижимости ОАЭ с миллионами ответов о проектах, застройщиках, районах и рынке недвижимости. Задайте Prima AI любой вопрос." -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-ru.png" -}}
+
+    {{- else if eq $lang "hi" -}}
+      {{- $socialTitle = "Prima AI — UAE रियल एस्टेट इंटेलिजेंस" -}}
+      {{- $socialDesc = "UAE प्रॉपर्टी का पूरा डेटाबेस, जिसमें प्रोजेक्ट्स, डेवलपर्स, क्षेत्रों और रियल एस्टेट मार्केट से जुड़े लाखों जवाब हैं। Prima AI से कोई भी सवाल पूछें।" -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-hi.png" -}}
+
+    {{- else if eq $lang "zh" -}}
+      {{- $socialTitle = "Prima AI — 阿联酋房地产智能" -}}
+      {{- $socialDesc = "完整的阿联酋房地产数据库，涵盖项目、开发商、区域和房地产市场的数百万个答案。向 Prima AI 提出任何问题。" -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-zh.png" -}}
+
+    {{- else if eq $lang "es" -}}
+      {{- $socialTitle = "Prima AI — Inteligencia inmobiliaria de los EAU" -}}
+      {{- $socialDesc = "Base de datos completa de propiedades en los EAU con millones de respuestas sobre proyectos, promotores, zonas y el mercado inmobiliario. Pregunta lo que quieras a Prima AI." -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-es.png" -}}
+
+    {{- else if eq $lang "fr" -}}
+      {{- $socialTitle = "Prima AI — Intelligence immobilière des EAU" -}}
+      {{- $socialDesc = "Base complète de l’immobilier aux EAU avec des millions de réponses sur les projets, promoteurs, quartiers et le marché immobilier. Posez toutes vos questions à Prima AI." -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-fr.png" -}}
+
+    {{- else if eq $lang "de" -}}
+      {{- $socialTitle = "Prima AI — Intelligenz für den Immobilienmarkt der VAE" -}}
+      {{- $socialDesc = "Vollständige Immobiliendatenbank der VAE mit Millionen von Antworten zu Projekten, Entwicklern, Stadtteilen und dem Immobilienmarkt. Fragen Sie Prima AI alles." -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-de.png" -}}
+
+    {{- else if eq $lang "ar" -}}
+      {{- $socialTitle = "Prima AI — ذكاء سوق العقارات في الإمارات" -}}
+      {{- $socialDesc = "قاعدة بيانات شاملة لعقارات الإمارات مع ملايين الإجابات حول المشاريع والمطورين والمناطق والسوق العقاري. اسأل Prima AI أي سؤال." -}}
+      {{- $socialImage = "https://primadom.ai/img/prima-ai-uae-real-estate-intelligence-ar.png" -}}
+    {{- end -}}
+
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Primadom AI">
-    <meta property="og:title" content="Prima AI — UAE Real Estate Intelligence">
-    <meta property="og:description" content="Full UAE property database with millions of answers on projects, developers, districts and the real estate market. Ask Prima AI anything.">
-    <meta property="og:url" content="https://primadom.ai/en/">
-    <meta property="og:image" content="https://primadom.ai/img/prima-ai-uae-real-estate-intelligence.png">
-    <meta property="og:image:secure_url" content="https://primadom.ai/img/prima-ai-uae-real-estate-intelligence.png">
+    <meta property="og:title" content="{{ $socialTitle }}">
+    <meta property="og:description" content="{{ $socialDesc }}">
+    <meta property="og:url" content="https://primadom.ai/{{ $lang }}/">
+    <meta property="og:image" content="{{ $socialImage }}">
+    <meta property="og:image:secure_url" content="{{ $socialImage }}">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1448">
-    <meta property="og:image:height" content="1086">
-    <meta property="og:image:alt" content="Prima AI — UAE Real Estate Intelligence">
+    <meta property="og:image:alt" content="{{ $socialTitle }}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Prima AI — UAE Real Estate Intelligence">
-    <meta name="twitter:description" content="Full UAE property database with millions of answers on projects, developers, districts and the real estate market. Ask Prima AI anything.">
-    <meta name="twitter:image" content="https://primadom.ai/img/prima-ai-uae-real-estate-intelligence.png">
-    <meta name="twitter:image:alt" content="Prima AI — UAE Real Estate Intelligence">
+    <meta name="twitter:title" content="{{ $socialTitle }}">
+    <meta name="twitter:description" content="{{ $socialDesc }}">
+    <meta name="twitter:image" content="{{ $socialImage }}">
+    <meta name="twitter:image:alt" content="{{ $socialTitle }}">
   {{ end }}
+
 
   <!-- Google Fonts: Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
