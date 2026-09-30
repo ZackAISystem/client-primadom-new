@@ -234,6 +234,19 @@
         }) || null;
     }
 
+    /*
+     * Name + phone are mandatory for every Primadom lead form.
+     * Keep the rule centralized here so all 12 page types and
+     * the homepage use the same browser validation contract.
+     */
+    if (nameEl) {
+      nameEl.required = true;
+    }
+
+    if (phoneEl) {
+      phoneEl.required = true;
+    }
+
     const context = {
       form_key: formKey(form)
     };
@@ -949,6 +962,34 @@
         return;
       }
 
+      const leadPayload =
+        payload(form);
+
+      const requiredName =
+        String(
+          leadPayload.name || ""
+        ).trim();
+
+      const requiredPhone =
+        String(
+          leadPayload.phone || ""
+        ).trim();
+
+      if (
+        !requiredName ||
+        !requiredPhone
+      ) {
+        if (
+          typeof form.reportValidity ===
+          "function"
+        ) {
+          form.reportValidity();
+        }
+
+        showError(form);
+        return;
+      }
+
       form.__primadomLeadSending =
         true;
 
@@ -963,7 +1004,7 @@
       try {
         const result =
           await post(
-            payload(form)
+            leadPayload
           );
 
         if (!result) {
