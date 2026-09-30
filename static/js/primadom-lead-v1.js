@@ -239,15 +239,7 @@
      * Keep the rule centralized here so all 12 page types and
      * the homepage use the same browser validation contract.
      */
-    if (nameEl) {
-      nameEl.required = true;
-    }
-
-    if (phoneEl) {
-      phoneEl.required = true;
-    }
-
-    const context = {
+const context = {
       form_key: formKey(form)
     };
 
@@ -729,6 +721,556 @@
       busy ? "true" : "false"
     );
   }
+
+
+  // PRIMADOM_REQUIRED_LEAD_VALIDATION_V1
+  // Client-side UX guard for every lead modal.
+  // Name + phone are mandatory. Other fields remain optional.
+  const REQUIRED_LEAD_MESSAGES = {
+    en: {
+      name: "Please enter your name.",
+      phone: "Please enter your phone number."
+    },
+    ru: {
+      name: "Введите ваше имя.",
+      phone: "Введите номер телефона."
+    },
+    hi: {
+      name: "कृपया अपना नाम दर्ज करें।",
+      phone: "कृपया अपना फ़ोन नंबर दर्ज करें।"
+    },
+    zh: {
+      name: "请输入您的姓名。",
+      phone: "请输入您的电话号码。"
+    },
+    es: {
+      name: "Introduce tu nombre.",
+      phone: "Introduce tu número de teléfono."
+    },
+    fr: {
+      name: "Veuillez saisir votre nom.",
+      phone: "Veuillez saisir votre numéro de téléphone."
+    },
+    de: {
+      name: "Bitte geben Sie Ihren Namen ein.",
+      phone: "Bitte geben Sie Ihre Telefonnummer ein."
+    },
+    ar: {
+      name: "يرجى إدخال اسمك.",
+      phone: "يرجى إدخال رقم هاتفك."
+    }
+  };
+
+  let leadValidationMessageId = 0;
+
+  function requiredLeadFields(form) {
+    if (!form || !form.querySelector) {
+      return {
+        nameEl: null,
+        phoneEl: null
+      };
+    }
+
+    const items = controls(form);
+
+    const nameEl =
+      firstNamed(
+        items,
+        [
+          "name",
+          "full_name",
+          "fullname",
+          "contact_name"
+        ]
+      ) || null;
+
+    const phoneEl =
+      firstNamed(
+        items,
+        [
+          "phone",
+          "telephone",
+          "tel",
+          "mobile",
+          "whatsapp"
+        ]
+      ) ||
+      items.find(
+        (el) =>
+          clean(el.type)
+            .toLowerCase() === "tel"
+      ) ||
+      null;
+
+    return {
+      nameEl,
+      phoneEl
+    };
+  }
+
+  function isLeadModalForm(form) {
+    if (
+      !form ||
+      form.tagName !== "FORM"
+    ) {
+      return false;
+    }
+
+    const fields =
+      requiredLeadFields(form);
+
+    if (
+      !fields.nameEl ||
+      !fields.phoneEl
+    ) {
+      return false;
+    }
+
+    return Boolean(
+      form.closest(
+        '[role="dialog"], .pd-lead-modal'
+      )
+    );
+  }
+
+  function requiredLeadCopy() {
+    const raw =
+      clean(languageCode() || "en")
+        .toLowerCase();
+
+    const code =
+      raw.split("-")[0];
+
+    return (
+      REQUIRED_LEAD_MESSAGES[code] ||
+      REQUIRED_LEAD_MESSAGES.en
+    );
+  }
+
+  function validationMessageNode(input) {
+    if (!input) {
+      return null;
+    }
+
+    const next =
+      input.nextElementSibling;
+
+    if (
+      next &&
+      next.classList &&
+      next.classList.contains(
+        "pd-lead-validation-message"
+      )
+    ) {
+      return next;
+    }
+
+    const node =
+      document.createElement("span");
+
+    node.className =
+      "pd-lead-validation-message";
+
+    node.setAttribute(
+      "role",
+      "status"
+    );
+
+    node.id =
+      "pd-lead-validation-" +
+      (++leadValidationMessageId);
+
+    input.insertAdjacentElement(
+      "afterend",
+      node
+    );
+
+    return node;
+  }
+
+  function addDescribedBy(input, id) {
+    if (!input || !id) {
+      return;
+    }
+
+    const ids =
+      clean(
+        input.getAttribute(
+          "aria-describedby"
+        )
+      )
+        .split(/\s+/)
+        .filter(Boolean);
+
+    if (!ids.includes(id)) {
+      ids.push(id);
+    }
+
+    input.setAttribute(
+      "aria-describedby",
+      ids.join(" ")
+    );
+  }
+
+  function removeDescribedBy(
+    input,
+    id
+  ) {
+    if (!input || !id) {
+      return;
+    }
+
+    const ids =
+      clean(
+        input.getAttribute(
+          "aria-describedby"
+        )
+      )
+        .split(/\s+/)
+        .filter(
+          (value) =>
+            value &&
+            value !== id
+        );
+
+    if (ids.length) {
+      input.setAttribute(
+        "aria-describedby",
+        ids.join(" ")
+      );
+    } else {
+      input.removeAttribute(
+        "aria-describedby"
+      );
+    }
+  }
+
+  function showRequiredFieldError(
+    input,
+    message
+  ) {
+    if (!input) {
+      return;
+    }
+
+    input.classList.add(
+      "pd-lead-required-invalid"
+    );
+
+    input.setAttribute(
+      "aria-invalid",
+      "true"
+    );
+
+    const node =
+      validationMessageNode(input);
+
+    if (node) {
+      node.textContent = message;
+      addDescribedBy(
+        input,
+        node.id
+      );
+    }
+  }
+
+  function clearRequiredFieldError(
+    input
+  ) {
+    if (!input) {
+      return;
+    }
+
+    input.classList.remove(
+      "pd-lead-required-invalid"
+    );
+
+    input.removeAttribute(
+      "aria-invalid"
+    );
+
+    const next =
+      input.nextElementSibling;
+
+    if (
+      next &&
+      next.classList &&
+      next.classList.contains(
+        "pd-lead-validation-message"
+      )
+    ) {
+      removeDescribedBy(
+        input,
+        next.id
+      );
+
+      next.remove();
+    }
+  }
+
+  function validateRequiredLeadFields(
+    form,
+    focusInvalid
+  ) {
+    const fields =
+      requiredLeadFields(form);
+
+    if (
+      !fields.nameEl ||
+      !fields.phoneEl
+    ) {
+      return true;
+    }
+
+    const copy =
+      requiredLeadCopy();
+
+    const nameValid =
+      Boolean(
+        clean(fields.nameEl.value)
+      );
+
+    const phoneValid =
+      Boolean(
+        clean(fields.phoneEl.value)
+      );
+
+    if (nameValid) {
+      clearRequiredFieldError(
+        fields.nameEl
+      );
+    } else {
+      showRequiredFieldError(
+        fields.nameEl,
+        copy.name
+      );
+    }
+
+    if (phoneValid) {
+      clearRequiredFieldError(
+        fields.phoneEl
+      );
+    } else {
+      showRequiredFieldError(
+        fields.phoneEl,
+        copy.phone
+      );
+    }
+
+    if (
+      focusInvalid &&
+      (!nameValid || !phoneValid)
+    ) {
+      const firstInvalid =
+        !nameValid
+          ? fields.nameEl
+          : fields.phoneEl;
+
+      if (
+        firstInvalid &&
+        typeof firstInvalid.focus ===
+          "function"
+      ) {
+        firstInvalid.focus({
+          preventScroll: true
+        });
+      }
+    }
+
+    return (
+      nameValid &&
+      phoneValid
+    );
+  }
+
+  function prepareLeadValidationForm(
+    form
+  ) {
+    if (!isLeadModalForm(form)) {
+      return;
+    }
+
+    // We use our own consistent UI,
+    // not browser-native validation bubbles.
+    form.noValidate = true;
+
+    const fields =
+      requiredLeadFields(form);
+
+    if (fields.nameEl) {
+      fields.nameEl.removeAttribute(
+        "required"
+      );
+    }
+
+    if (fields.phoneEl) {
+      fields.phoneEl.removeAttribute(
+        "required"
+      );
+    }
+  }
+
+  function prepareLeadValidationForms() {
+    document
+      .querySelectorAll("form")
+      .forEach(
+        prepareLeadValidationForm
+      );
+  }
+
+  function ensureLeadValidationStyle() {
+    if (
+      document.getElementById(
+        "pd-lead-required-validation-style"
+      )
+    ) {
+      return;
+    }
+
+    const style =
+      document.createElement("style");
+
+    style.id =
+      "pd-lead-required-validation-style";
+
+    style.textContent = `
+      .pd-lead-required-invalid {
+        border-color: rgba(238, 116, 78, .95) !important;
+        box-shadow: 0 0 0 1px rgba(238, 116, 78, .32) !important;
+      }
+
+      .pd-lead-validation-message {
+        display: block;
+        margin-top: 6px;
+        font-size: 11px;
+        line-height: 1.25;
+        font-weight: 500;
+        letter-spacing: .01em;
+        color: rgba(244, 138, 105, .96);
+      }
+    `;
+
+    document.head.appendChild(style);
+  }
+
+  function installRequiredLeadValidation() {
+    ensureLeadValidationStyle();
+    prepareLeadValidationForms();
+
+    document.addEventListener(
+      "submit",
+      (event) => {
+        const form =
+          event.target;
+
+        if (
+          !isLeadModalForm(form)
+        ) {
+          return;
+        }
+
+        prepareLeadValidationForm(
+          form
+        );
+
+        if (
+          validateRequiredLeadFields(
+            form,
+            true
+          )
+        ) {
+          return;
+        }
+
+        // Stop BEFORE any page-type/local
+        // submit handler can show success
+        // or send an empty request.
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      },
+      true
+    );
+
+    document.addEventListener(
+      "input",
+      (event) => {
+        const input =
+          event.target;
+
+        if (
+          !input ||
+          !input.matches ||
+          !input.matches(
+            'input[name="name"], input[name="phone"], input[type="tel"]'
+          )
+        ) {
+          return;
+        }
+
+        const form =
+          input.form;
+
+        if (
+          !isLeadModalForm(form)
+        ) {
+          return;
+        }
+
+        if (clean(input.value)) {
+          clearRequiredFieldError(
+            input
+          );
+        }
+      },
+      true
+    );
+
+    document.addEventListener(
+      "reset",
+      (event) => {
+        const form =
+          event.target;
+
+        if (
+          !isLeadModalForm(form)
+        ) {
+          return;
+        }
+
+        window.setTimeout(
+          () => {
+            const fields =
+              requiredLeadFields(form);
+
+            clearRequiredFieldError(
+              fields.nameEl
+            );
+
+            clearRequiredFieldError(
+              fields.phoneEl
+            );
+          },
+          0
+        );
+      },
+      true
+    );
+  }
+
+  if (
+    document.readyState === "loading"
+  ) {
+    document.addEventListener(
+      "DOMContentLoaded",
+      installRequiredLeadValidation,
+      {
+        once: true
+      }
+    );
+  } else {
+    installRequiredLeadValidation();
+  }
+
 
   function showError(form) {
     const button =
