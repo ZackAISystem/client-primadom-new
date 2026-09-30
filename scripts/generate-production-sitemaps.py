@@ -181,7 +181,7 @@ def write_sitemap(lang, paths):
 
     for path in sorted(sitemap_paths):
         url = DOMAIN + path
-        lines.append(f"  <url><loc>{escape(url)}</loc></url>")
+        lines.append(f"  <url><loc>{escape(url)}</loc><lastmod>2026-09-30</lastmod></url>")
 
     lines.append("</urlset>")
     lines.append("")
