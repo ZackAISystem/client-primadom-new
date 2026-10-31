@@ -18,6 +18,37 @@
   var scrollX = 0;
   var scrollY = 0;
 
+  /* Native Prima mini pill copied from the actual Prima app source. */
+  var miniButtonV1 = null;
+  var miniMarkupV1 = "<span class=\"mini-icon\"><img src=\"/images/prima/prima-mini-mark-v1.png\" alt=\"Prima AI mark\"></span><span><strong>Continue with Prima</strong><small>Conversation saved</small></span>";
+  var miniCssV1 = "#primadom-prima-mini-v1{position:fixed;right:28px;bottom:28px;z-index:60;display:none;align-items:center;gap:11px;min-height:58px;padding:0 18px 0 14px;border-radius:999px;color:#fff;border:1px solid rgba(255,255,255,.15);background:linear-gradient(135deg,rgba(18,15,13,.96),rgba(50,36,29,.94));box-shadow:0 26px 74px rgba(0,0,0,.38);backdrop-filter:blur(22px);z-index:2147483645;font-family:Montserrat,Arial,sans-serif;text-align:left;cursor:pointer;box-sizing:border-box;appearance:none;}#primadom-prima-mini-v1.show{display:flex;}#primadom-prima-mini-v1 .mini-icon{width:12px;height:20px;display:grid;place-items:center;align-self:center;background:transparent;flex:0 0 auto}#primadom-prima-mini-v1 .mini-icon img{width:100%;height:100%;display:block;object-fit:contain;object-position:center center;transform:translateY(-2px)}#primadom-prima-mini-v1 strong{display:block;font-size:12px;font-weight:500;line-height:1.08;letter-spacing:.01em}#primadom-prima-mini-v1 span small{display:block;color:rgba(255,255,255,.5);font-size:9.5px;line-height:1.1;margin-top:3px}#primadom-prima-mini-v1:focus-visible{outline:2px solid #f7d8aa;outline-offset:3px;}@media(max-width:760px){#primadom-prima-mini-v1{right:14px;bottom:calc(18px + env(safe-area-inset-bottom));min-height:54px;padding:0 16px 0 13px;gap:10px}#primadom-prima-mini-v1 strong{font-size:11.5px}#primadom-prima-mini-v1 span small{font-size:9px}}";
+
+  function ensureMiniV1() {
+    if (miniButtonV1) return miniButtonV1;
+    var style = document.createElement('style');
+    style.setAttribute('data-prima-mini-v1', '');
+    style.textContent = miniCssV1;
+    document.head.appendChild(style);
+
+    var button = document.createElement('button');
+    button.id = 'primadom-prima-mini-v1';
+    button.className = 'mini';
+    button.type = 'button';
+    button.setAttribute('aria-label', 'Continue with Prima');
+    button.innerHTML = miniMarkupV1;
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      open(button);
+    });
+    document.body.appendChild(button);
+    miniButtonV1 = button;
+    return button;
+  }
+
+  function showMiniV1() {
+    ensureMiniV1().classList.add('show');
+  }
+
   function createOverlay() {
     if (overlay) return;
     var style = document.createElement('style');
@@ -60,6 +91,7 @@
   function open(source) {
     createOverlay();
     if (overlay.classList.contains('is-open')) return;
+    if (miniButtonV1) miniButtonV1.classList.remove('show');
     opener = source || document.activeElement;
     scrollX = window.scrollX;
     scrollY = window.scrollY;
@@ -79,6 +111,7 @@
     document.body.style.overflow = priorOverflow;
     document.documentElement.style.overflow = priorHtmlOverflow;
     window.scrollTo(scrollX, scrollY);
+    showMiniV1();
     if (opener && opener.isConnected && !markedForm(opener) && typeof opener.focus === 'function') {
       try { opener.focus({preventScroll:true}); } catch (_) {}
     } else {
