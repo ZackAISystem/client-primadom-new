@@ -107,7 +107,7 @@
       id="ask-ai"
       aria-label="{{ $t.hero.ai_badge }}"
       data-pa-ai-ask
-    >
+     data-prima-ai-search="v1">
       <span class="pa-area-ask__badge">
         <i aria-hidden="true"></i>
         {{ $t.hero.ai_badge }}
@@ -491,3 +491,5 @@
   }
 })();
 </script>
+
+{{ partial "primadom/shared/prima-entry.html" . }}

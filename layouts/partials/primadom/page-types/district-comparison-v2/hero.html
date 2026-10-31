@@ -75,7 +75,7 @@
       id="compare-ai-search"
       aria-label="{{ $t.hero.ai_aria }}"
       data-pc-ai-ask
-    >
+     data-prima-ai-search="v1">
       <div class="pc-ai__badge">
         <span aria-hidden="true"></span>
         {{ $t.hero.ai_badge }}
@@ -378,3 +378,5 @@
   }
 })();
 </script>
+
+{{ partial "primadom/shared/prima-entry.html" . }}
