@@ -68,7 +68,7 @@
       data-pi-ai-ask
       data-voice-status="{{ $t.hero.ai_voice_status }}"
       data-voice-text="{{ $voiceText }}"
-    >
+     data-prima-ai-search="v1">
       <div class="pi-ai__badge">
         <span aria-hidden="true"></span>
         {{ $t.hero.ai_badge }}
@@ -369,3 +369,5 @@
   }
 })();
 </script>
+
+{{ partial "primadom/shared/prima-entry.html" . }}

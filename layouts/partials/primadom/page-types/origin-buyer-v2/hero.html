@@ -76,7 +76,7 @@
       data-voice-error-text="{{ $t.hero.voice_error_text }}"
       data-voice-fallback-status="{{ $t.hero.voice_fallback_status }}"
       data-voice-fallback-text="{{ $t.hero.voice_fallback_text }}"
-    >
+     data-prima-ai-search="v1">
       <div class="ob-ai__badge">
         <span aria-hidden="true"></span>
         {{ $t.hero.ai_badge }}
@@ -396,3 +396,5 @@
   }
 })();
 </script>
+
+{{ partial "primadom/shared/prima-entry.html" . }}
