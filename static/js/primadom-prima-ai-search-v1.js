@@ -52,6 +52,7 @@
     frame.setAttribute('loading', 'eager');
     frame.src = FRAME_URL;
     overlay.appendChild(frame);
+    document.body.appendChild(overlay);
 
 
   }
