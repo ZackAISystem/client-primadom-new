@@ -8,7 +8,7 @@
   if (window.__primadomPrimaSearchV1) return;
   window.__primadomPrimaSearchV1 = true;
 
-  var FRAME_URL = 'https://prima.primadom.ai/';
+  var FRAME_URL = 'https://prima.primadom.ai/?embed=1';
   var FORM_SELECTOR = 'form[data-prima-ai-search="v1"]';
   var overlay = null;
   var frame = null;
@@ -18,42 +18,23 @@
   var scrollX = 0;
   var scrollY = 0;
 
-  function lang() {
-    var code = String(document.documentElement.lang || '').toLowerCase().split('-')[0];
-    if (!/^(en|ru|hi|zh|es|fr|de|ar)$/.test(code)) {
-      code = String(location.pathname.split('/')[1] || 'en').toLowerCase();
-    }
-    return /^(en|ru|hi|zh|es|fr|de|ar)$/.test(code) ? code : 'en';
-  }
-
-  function label() {
-    var labels = {
-      en: 'Close Prima AI', ru: 'Закрыть Prima AI', hi: 'Prima AI बंद करें',
-      zh: '关闭 Prima AI', es: 'Cerrar Prima AI', fr: 'Fermer Prima AI',
-      de: 'Prima AI schließen', ar: 'إغلاق Prima AI'
-    };
-    return labels[lang()] || labels.en;
-  }
-
   function createOverlay() {
     if (overlay) return;
     var style = document.createElement('style');
     style.setAttribute('data-prima-search-v1', '');
     style.textContent = [
       '#primadom-prima-search-v1{position:fixed;inset:0;z-index:2147483646;',
-      'background:#101f22;display:none;overflow:hidden;}',
-      '#primadom-prima-search-v1.is-open{display:block;}',
+      'background:#101f22;opacity:0;visibility:hidden;pointer-events:none;',
+      'overflow:hidden;transition:opacity .38s cubic-bezier(.22,1,.36,1),',
+      'visibility .38s linear;}',
+      '#primadom-prima-search-v1.is-open{opacity:1;visibility:visible;',
+      'pointer-events:auto;}',
       '#primadom-prima-search-v1 iframe{display:block;width:100%;height:100%;',
-      'border:0;background:#101f22;}',
-      '#primadom-prima-search-v1 .pd-prima-close{position:absolute;',
-      'z-index:3;top:max(12px,env(safe-area-inset-top));',
-      'right:max(12px,env(safe-area-inset-right));width:44px;height:44px;',
-      'display:grid;place-items:center;border:1px solid rgba(255,255,255,.25);',
-      'border-radius:50%;background:rgba(16,31,34,.88);color:#fff;',
-      'font:normal 30px/1 Arial,sans-serif;cursor:pointer;',
-      'box-shadow:0 3px 20px rgba(0,0,0,.15);}',
-      '#primadom-prima-search-v1 .pd-prima-close:focus-visible{',
-      'outline:3px solid #f5c46d;outline-offset:2px;}'
+      'border:0;background:#101f22;transform:translateY(10px) scale(.994);',
+      'transition:transform .44s cubic-bezier(.22,1,.36,1);}',
+      '#primadom-prima-search-v1.is-open iframe{transform:translateY(0) scale(1);}',
+      '@media (prefers-reduced-motion:reduce){',
+      '#primadom-prima-search-v1,#primadom-prima-search-v1 iframe{transition:none;}}'
     ].join('');
     document.head.appendChild(style);
 
@@ -72,17 +53,7 @@
     frame.src = FRAME_URL;
     overlay.appendChild(frame);
 
-    var close = document.createElement('button');
-    close.className = 'pd-prima-close';
-    close.type = 'button';
-    close.setAttribute('aria-label', label());
-    close.title = label();
-    close.textContent = '\u00d7';
-    close.addEventListener('click', hide);
-    overlay.appendChild(close);
 
-    document.body.appendChild(overlay);
-    overlay.__close = close;
   }
 
   function open(source) {
@@ -95,11 +66,9 @@
     priorHtmlOverflow = document.documentElement.style.overflow;
     document.body.style.overflow = 'hidden';
     document.documentElement.style.overflow = 'hidden';
-    overlay.__close.setAttribute('aria-label', label());
-    overlay.__close.title = label();
     overlay.classList.add('is-open');
     overlay.setAttribute('aria-hidden', 'false');
-    overlay.__close.focus({preventScroll:true});
+    try { frame.focus({preventScroll:true}); } catch (_) {}
   }
 
   function hide() {
@@ -122,6 +91,60 @@
     }
   }
 
+  /* Homepage Entry V1: only three explicit AI inputs, never Hero Find. */
+  var HOME_AI_INPUTS_V1 = [
+    '.top-projects-ask__input',
+    '.top-developers-ask__input',
+    '.intent-ask__input'
+  ];
+
+  function homeAiInputV1(target) {
+    if (!document.body.classList.contains('page-home')) return null;
+    if (!(target instanceof Element)) return null;
+    if (target.closest('.home-hero__search')) return null;
+
+    for (var i = 0; i < HOME_AI_INPUTS_V1.length; i++) {
+      var field = document.querySelector(HOME_AI_INPUTS_V1[i]);
+      if (!field) continue;
+      var rect = field.getBoundingClientRect();
+      var visible = rect.width > 10 && rect.height > 8 &&
+        getComputedStyle(field).visibility !== 'hidden' &&
+        !field.closest('[hidden],[aria-hidden="true"]');
+      if (!visible) continue;
+
+      if (target === field || field.contains(target)) return field;
+
+      var button = target.closest('button');
+      if (!button) continue;
+
+      var container = field.closest('form') ||
+        field.closest('.top-projects-ask,.top-developers-ask,.intent-ask');
+      if (!container || !container.contains(button)) continue;
+
+      var className = String(button.className || '').toLowerCase();
+      var aria = String(button.getAttribute('aria-label') || '').toLowerCase();
+      var isVoice = /voice|microphone|mic\b/.test(className + ' ' + aria);
+      var isSubmit = button.type === 'submit' ||
+        /(?:__|[-_])(submit|send|get|ask-button|ask-btn)(?:\b|$)/.test(className);
+      if (isVoice || isSubmit) return field;
+    }
+    return null;
+  }
+
+  function homeAiFormV1(form) {
+    if (!document.body.classList.contains('page-home') ||
+        !(form instanceof Element) ||
+        form.matches('.home-hero__search')) return false;
+    for (var i = 0; i < HOME_AI_INPUTS_V1.length; i++) {
+      var field = form.querySelector(HOME_AI_INPUTS_V1[i]);
+      if (!field) continue;
+      var rect = field.getBoundingClientRect();
+      if (rect.width > 10 && rect.height > 8 &&
+          !field.closest('[hidden],[aria-hidden="true"]')) return true;
+    }
+    return false;
+  }
+
   function markedForm(target) {
     if (!(target instanceof Element)) return null;
     return target.closest(FORM_SELECTOR);
@@ -133,12 +156,33 @@
   }
 
   function activateEvent(event) {
+    var homeField = homeAiInputV1(event.target);
+    if (homeField) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      open(event.target);
+      return;
+    }
     var form = markedForm(event.target);
     if (!form || !isActivationTarget(event.target)) return;
     event.preventDefault();
     event.stopImmediatePropagation();
     open(event.target);
   }
+
+  window.addEventListener('message', function (event) {
+    if (!frame || !overlay) return;
+    if (event.origin !== 'https://prima.primadom.ai') return;
+    if (event.source !== frame.contentWindow) return;
+    var message = event.data;
+    if (!message || message.version !== 'PrimaEmbedControlV1') return;
+    if (message.type === 'prima:embed:close' ||
+        message.type === 'prima:embed:minimize') {
+      hide();
+    }
+  });
+
+  window.PrimadomPrimaSearchV1 = Object.freeze({open: open});
 
   document.addEventListener('pointerdown', activateEvent, true);
   document.addEventListener('click', activateEvent, true);
@@ -148,12 +192,25 @@
     }
   }, true);
   document.addEventListener('submit', function (event) {
+    if (homeAiFormV1(event.target)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      open(event.target);
+      return;
+    }
     if (!event.target.matches || !event.target.matches(FORM_SELECTOR)) return;
     event.preventDefault();
     event.stopImmediatePropagation();
     open(event.target.querySelector('textarea,input') || event.target);
   }, true);
   document.addEventListener('keydown', function (event) {
+    var homeField = homeAiInputV1(event.target);
+    if (homeField && (event.key.length === 1 || event.key === 'Enter')) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      open(event.target);
+      return;
+    }
     if (event.key === 'Escape' && overlay && overlay.classList.contains('is-open')) {
       hide();
     }
