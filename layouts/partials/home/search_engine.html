@@ -687,8 +687,24 @@
   }
 
   // --- DOM helpers (do not change markup) ---
-  function getResultsRoot(){ return document.getElementById("results"); }
-  function getResultsInput(){ return document.getElementById("resultsQuery"); }
+  let SEARCH_RESULTS_ROOT_OVERRIDE = null;
+  let SEARCH_CONTEXT_CHANNEL = "site";
+
+  // D4 private capture — inactive during normal Site Search.
+  let D4_MATCH_CAPTURE = null;
+
+  function getResultsRoot(){
+    return (
+      SEARCH_RESULTS_ROOT_OVERRIDE ||
+      document.getElementById("results")
+    );
+  }
+
+  function getResultsInput(){
+    return document.getElementById(
+      "resultsQuery"
+    );
+  }
 
   function getCards(){
     const root = getResultsRoot();
@@ -707,6 +723,295 @@
       return "";
     }
   }
+
+  // ---------------------------------------------------------
+  // SearchContextV1 — outbound bridge for Prima AI
+  //
+  // EN-only for Prima V1.
+  // Does NOT change Search ranking or filtering.
+  // ---------------------------------------------------------
+
+  function searchContextResultV1(
+    item,
+    index
+  ){
+    const a =
+      item && item.a
+        ? item.a
+        : null;
+
+    if (!a) {
+      return null;
+    }
+
+    const d =
+      a.dataset || {};
+
+    const rawAmount =
+      String(
+        d.priceAmount || ""
+      ).trim();
+
+    const parsedAmount =
+      rawAmount
+        ? Number(rawAmount)
+        : null;
+
+    return {
+      rank:
+        index + 1,
+
+      score:
+        Number(
+          item.score || 0
+        ),
+
+      entity_type:
+        "project",
+
+      slug:
+        String(
+          d.slug ||
+          extractSlugFromHref(
+            a.href
+          ) ||
+          ""
+        ),
+
+      canonical_url:
+        String(
+          a.getAttribute("href") ||
+          ""
+        ),
+
+      gallery_1:
+        String(
+          d.gallery1 || ""
+        ),
+
+      image_alt:
+        String(
+          d.imageAlt ||
+          d.title ||
+          ""
+        ),
+
+      title:
+        String(
+          d.title || ""
+        ),
+
+      district:
+        String(
+          d.location || ""
+        ),
+
+      developer:
+        String(
+          d.developer || ""
+        ),
+
+      price_display:
+        String(
+          d.price || ""
+        ),
+
+      price_amount:
+        Number.isFinite(
+          parsedAmount
+        )
+          ? parsedAmount
+          : null,
+
+      property_type:
+        String(
+          d.type || ""
+        ),
+
+      units:
+        String(
+          d.units || ""
+        ),
+
+      handover:
+        String(
+          d.handover || ""
+        ),
+
+      payment_plan:
+        String(
+          d.paymentPlan || ""
+        ),
+
+      status:
+        String(
+          d.status || ""
+        ),
+
+      size_from:
+        String(
+          d.size || ""
+        )
+    };
+  }
+
+
+  function publishSearchContextV1({
+    query = "",
+    state = "empty",
+    resultCount = 0,
+    visible = [],
+    emirates = [],
+    developer = null,
+    district = null,
+    types = [],
+    bedrooms = [],
+    budget = null,
+    years = [],
+    wantsPayment = false
+  } = {}){
+    /*
+      Prima V1 is EN-only.
+
+      Search remains multilingual, but no Prima
+      contract is published for the other languages
+      until their own acceptance phase.
+    */
+    if (
+      String(
+        PROJECT_DATA_LANG || ""
+      ).toLowerCase() !== "en"
+    ) {
+      return;
+    }
+
+    const visibleRows =
+      Array.isArray(visible)
+        ? visible
+        : [];
+
+    const results =
+      visibleRows
+        .map(
+          (item, index) =>
+            searchContextResultV1(
+              item,
+              index
+            )
+        )
+        .filter(Boolean);
+
+    const context = {
+      version:
+        "SearchContextV1",
+
+      source:
+        "primadom_project_search_v3",
+
+      language:
+        "en",
+
+      entity_type:
+        "project",
+
+      query:
+        String(
+          query || ""
+        ).trim(),
+
+      state,
+
+      filters: {
+        emirates:
+          Array.isArray(emirates)
+            ? [...emirates]
+            : [],
+
+        developer:
+          developer || null,
+
+        district:
+          district || null,
+
+        property_types:
+          Array.isArray(types)
+            ? [...types]
+            : [],
+
+        bedrooms:
+          Array.isArray(bedrooms)
+            ? [...bedrooms]
+            : [],
+
+        budget:
+          budget || null,
+
+        handover_years:
+          Array.isArray(years)
+            ? [...years]
+            : [],
+
+        payment_plan_required:
+          Boolean(
+            wantsPayment
+          )
+      },
+
+      result_count:
+        Number(
+          resultCount || 0
+        ),
+
+      results_shown:
+        results.length,
+
+      results
+    };
+
+    /*
+      Synchronous snapshot:
+      Prima connector can read the latest Search
+      context without waiting for another event.
+    */
+    /*
+      Headless Prima Search must NOT overwrite
+      the visible Site Search context.
+
+      Site Search and Prima Dialog are separate
+      product surfaces using the same Search rules.
+    */
+    if (
+      SEARCH_CONTEXT_CHANNEL ===
+      "prima_tool"
+    ) {
+      window
+        .__PRIMADOM_PRIMA_SEARCH_RESULT_V1__ =
+          context;
+
+      return;
+    }
+
+    window
+      .__PRIMADOM_SEARCH_CONTEXT_V1__ =
+        context;
+
+    /*
+      Outbound Site Search event:
+      Search → Dialog context bridge.
+    */
+    try {
+      window.dispatchEvent(
+        new CustomEvent(
+          "search:results",
+          {
+            detail:
+              context
+          }
+        )
+      );
+    } catch(e) {}
+  }
+
 
   // ---------------------------------------------------------
   // Search V2 — lightweight Project shells
@@ -807,6 +1112,16 @@
     a.dataset.machineSize = String(
       p.machine_size_from ||
       p.size_from ||
+      ""
+    );
+
+    a.dataset.gallery1 = String(
+      p.gallery_1 || ""
+    );
+
+    a.dataset.imageAlt = String(
+      p.image_alt ||
+      p.title ||
       ""
     );
 
@@ -1647,6 +1962,66 @@
     return candidates[0] || null;
   }
 
+  // Resolve a destination district independently of the relation anchor.
+  // "cheaper than <project> in <district>" must preserve BOTH constraints.
+  // Only verified district names/aliases and explicit location prepositions
+  // are accepted; project-title text alone must not become a district filter.
+  function resolveExplicitRelationDistrict(query, relation, anchor){
+    const district = resolveNamedEntity(
+      query,
+      PROJECT_DISTRICT_NAMES,
+      VERIFIED_DISTRICT_ALIASES
+    );
+
+    if (!district) return null;
+
+    const normalizedQuery = ` ${entityText(query)} `;
+    const districtWords = entityText(district);
+    const districtPhrases = [districtWords];
+    for (const [alias, canonical] of VERIFIED_DISTRICT_ALIASES) {
+      if (entityKey(canonical) === entityKey(district)) {
+        districtPhrases.push(entityText(alias));
+      }
+    }
+    const hasLocationClause = districtPhrases.some(words =>
+      ["in", "within", "at"].some(
+        prep => normalizedQuery.includes(` ${prep} ${words} `)
+      )
+    );
+
+    if (!hasLocationClause) return null;
+
+    // Do not turn the final words of an exact project title into a filter.
+    // Example: "similar to Address Residences at Dubai Creek Harbour".
+    if (
+      anchor &&
+      relation &&
+      entityText(relation.anchorText) === entityText(anchor.title)
+    ) {
+      const namedAnchor = ` ${entityText(relation.anchorText)} `;
+      const nameContainsLocation = ["in", "within", "at"].some(
+        prep => namedAnchor.includes(` ${prep} ${districtWords} `)
+      );
+      if (nameContainsLocation &&
+          !["in", "within", "at"].some(prep =>
+            (` ${entityText(relation.modifierText)} `)
+              .includes(` ${prep} ${districtWords} `)
+          )
+      ) {
+        // A separately stated location BEFORE the relation is still valid.
+        const relationIntro = /\b(?:cheaper\s+than|similar\s+to|alternatives?\s+to|same\s+(?:district|area|developer)\s+as)\b/i;
+        const intro = String(query).search(relationIntro);
+        const locationPrefix = intro >= 0 ? String(query).slice(0, intro) : "";
+        const prefix = ` ${entityText(locationPrefix)} `;
+        if (!["in", "within", "at"].some(prep =>
+          prefix.includes(` ${prep} ${districtWords} `)
+        )) return null;
+      }
+    }
+
+    return district;
+  }
+
   function resolveSearchEntities(query){
     const relationQuery =
       canonicalizeRelationQuery(
@@ -1673,7 +2048,7 @@
           ),
 
       district: relation
-        ? null
+        ? resolveExplicitRelationDistrict(relationQuery, relation, anchor)
         : resolveNamedEntity(
             query,
             PROJECT_DISTRICT_NAMES,
@@ -4160,6 +4535,14 @@
     // EMPTY QUERY = Discovery 100.
     if (!query) {
       renderDiscovery(cards);
+
+      publishSearchContextV1({
+        query: "",
+        state: "discovery",
+        resultCount: 0,
+        visible: []
+      });
+
       return;
     }
 
@@ -4282,6 +4665,24 @@
       root.dataset.searchState = "empty";
       root.dataset.resultsCount = "0";
       root.dataset.resultsShown = "0";
+
+      publishSearchContextV1({
+        query,
+        state: "empty",
+        resultCount: 0,
+        visible: [],
+        emirates:
+          parts.emiratesWanted,
+        developer:
+          entities.developer || null,
+        district:
+          entities.district || null,
+        types,
+        bedrooms,
+        budget,
+        years,
+        wantsPayment
+      });
 
       return;
     }
@@ -4572,6 +4973,38 @@
       );
     });
 
+    // D4: capture complete ranked project matches only
+    // during an explicitly requested Prima tool call.
+    if (
+      SEARCH_CONTEXT_CHANNEL === "prima_tool" &&
+      Array.isArray(D4_MATCH_CAPTURE)
+    ) {
+      for (const item of ranked) {
+        const project = PROJECT_BY_SLUG.get(item.data.slug);
+
+        if (!project) continue;
+
+        D4_MATCH_CAPTURE.push({
+          slug: String(project.slug || ""),
+          title: String(project.title || ""),
+          developer: String(project.developer || ""),
+          machine_developer: String(
+            project.machine_developer || project.developer || ""
+          ),
+          machine_emirate: String(project.machine_emirate || ""),
+          machine_district: String(project.machine_district || ""),
+          machine_property_type: String(
+            project.machine_property_type || ""
+          ),
+          price_amount:
+            project.price_amount == null ||
+            !Number.isFinite(Number(project.price_amount))
+              ? null
+              : Number(project.price_amount)
+        });
+      }
+    }
+
     // Никогда не показываем все 2571.
     for (const a of cards) {
       a.style.display = "none";
@@ -4585,7 +5018,13 @@
     const grid = rootGrid();
 
     for (const x of visible) {
-      hydrateProjectCard(x.a);
+      if (
+        SEARCH_CONTEXT_CHANNEL !==
+        "prima_tool"
+      ) {
+        hydrateProjectCard(x.a);
+      }
+
       x.a.style.display = "";
 
       if (grid) {
@@ -4603,6 +5042,35 @@
 
     root.dataset.resultsShown =
       String(visible.length);
+
+    publishSearchContextV1({
+      query,
+
+      state:
+        visible.length
+          ? "results"
+          : "empty",
+
+      resultCount:
+        ranked.length,
+
+      visible,
+
+      emirates:
+        parts.emiratesWanted,
+
+      developer:
+        entities.developer || null,
+
+      district:
+        entities.district || null,
+
+      types,
+      bedrooms,
+      budget,
+      years,
+      wantsPayment
+    });
 
     // ZERO MATCH stays zero.
     // No fallback to all projects.
@@ -4641,6 +5109,307 @@
     if (!base) return tail;
     return (tail + " · " + base).trim();
   }
+
+  // ---------------------------------------------------------
+  // Day 3 — Prima Project Search Tool V1
+  //
+  // Uses the SAME parser / filters / relations / ranking
+  // as the visible homepage Search.
+  //
+  // Project results only.
+  // EN-only for Prima V1.
+  // ---------------------------------------------------------
+
+  async function runPrimaProjectSearchV1(
+    query
+  ){
+    const q =
+      String(query || "").trim();
+
+    if (!q) {
+      return null;
+    }
+
+    /*
+      Prima V1 is EN-only.
+      Other Search languages remain untouched.
+    */
+    if (
+      getPageLang() !== "en" ||
+      detectSearchLanguage(q) !== "en"
+    ) {
+      return {
+        version:
+          "SearchContextV1",
+
+        source:
+          "primadom_project_search_v3",
+
+        language:
+          "en",
+
+        entity_type:
+          "project",
+
+        query:
+          q,
+
+        state:
+          "unsupported_language",
+
+        result_count:
+          0,
+
+        results_shown:
+          0,
+
+        results: []
+      };
+    }
+
+    /*
+      Detached DOM root:
+      existing Search code can execute without
+      changing visible homepage Search results.
+    */
+    const toolRoot =
+      document.createElement("div");
+
+    const toolGrid =
+      document.createElement("div");
+
+    toolGrid.className =
+      "results__grid";
+
+    toolRoot.appendChild(
+      toolGrid
+    );
+
+    const previousRoot =
+      SEARCH_RESULTS_ROOT_OVERRIDE;
+
+    const previousChannel =
+      SEARCH_CONTEXT_CHANNEL;
+
+    SEARCH_RESULTS_ROOT_OVERRIDE =
+      toolRoot;
+
+    SEARCH_CONTEXT_CHANNEL =
+      "prima_tool";
+
+    window
+      .__PRIMADOM_PRIMA_SEARCH_RESULT_V1__ =
+        null;
+
+    try {
+      await applyFilter(q);
+
+      const context =
+        window
+          .__PRIMADOM_PRIMA_SEARCH_RESULT_V1__;
+
+      if (!context) {
+        return null;
+      }
+
+      /*
+        Dialog never needs all visible Search cards.
+        Keep transport compact.
+      */
+      const results =
+        Array.isArray(
+          context.results
+        )
+          ? context.results.slice(
+              0,
+              10
+            )
+          : [];
+
+      return {
+        ...context,
+
+        results_shown:
+          results.length,
+
+        results
+      };
+    } finally {
+      SEARCH_RESULTS_ROOT_OVERRIDE =
+        previousRoot;
+
+      SEARCH_CONTEXT_CHANNEL =
+        previousChannel;
+
+      window
+        .__PRIMADOM_PRIMA_SEARCH_RESULT_V1__ =
+          null;
+    }
+  }
+
+
+  // D4 only — reuse Search V3 filtering without UI changes.
+  async function runPrimaDeveloperProjectMatchesV1(query) {
+    if (D4_MATCH_CAPTURE !== null) {
+      throw new Error("d4_capture_busy");
+    }
+
+    D4_MATCH_CAPTURE = [];
+
+    try {
+      const search = await runPrimaProjectSearchV1(query);
+
+      if (!search || search.state === "unsupported_language") {
+        return null;
+      }
+
+      return {
+        version: "DeveloperProjectMatchesV1",
+        source: "primadom_project_search_v3",
+        language: "en",
+        query: String(query || "").trim(),
+        total_matching_projects: D4_MATCH_CAPTURE.length,
+        matched_projects: [...D4_MATCH_CAPTURE]
+      };
+    } finally {
+      D4_MATCH_CAPTURE = null;
+    }
+  }
+
+  window.__PRIMADOM_DEVELOPER_PROJECT_MATCHES_V1__ =
+    Object.freeze({
+      search: runPrimaDeveloperProjectMatchesV1
+    });
+
+  window
+    .__PRIMADOM_PROJECT_SEARCH_TOOL_V1__ =
+      Object.freeze({
+        version:
+          "PrimaProjectSearchToolV1",
+
+        entity_type:
+          "project",
+
+        language:
+          "en",
+
+        search:
+          runPrimaProjectSearchV1
+      });
+
+
+
+  // ---------------------------------------------------------
+  // Day 3 — Prima Dialog → Search postMessage bridge
+  //
+  // Transport only.
+  // Uses the EXISTING PrimaProjectSearchToolV1 and therefore
+  // the same parser / filters / relations / ranking as Site Search.
+  // Does NOT change visible Site Search state.
+  // ---------------------------------------------------------
+
+  const PRIMA_DIALOG_ALLOWED_ORIGINS =
+    new Set([
+      "https://prima.primadom.ai",
+      "http://localhost:4173",
+      "http://127.0.0.1:4173"
+    ]);
+
+  window.addEventListener(
+    "message",
+    async function(event) {
+      if (
+        !PRIMA_DIALOG_ALLOWED_ORIGINS.has(
+          event.origin
+        )
+      ) {
+        return;
+      }
+
+      const message =
+        event.data;
+
+      if (
+        !message ||
+        message.version !==
+          "PrimaSearchBridgeV1" ||
+        message.type !==
+          "prima:search_request"
+      ) {
+        return;
+      }
+
+      const request =
+        message.request;
+
+      if (
+        request?.version !==
+          "PrimaToolRequestV1" ||
+        request?.tool !==
+          "prima_search" ||
+        !(
+          request?.action === "search_projects" ||
+          request?.action === "search_project_matches"
+        ) ||
+        request?.language !==
+          "en" ||
+        request?.entity_type !==
+          "project"
+      ) {
+        return;
+      }
+
+      const requestId =
+        String(
+          message.request_id || ""
+        );
+
+      try {
+        const searchContext =
+          request.action === "search_project_matches"
+            ? await window.__PRIMADOM_DEVELOPER_PROJECT_MATCHES_V1__.search(request.query)
+            : await window.__PRIMADOM_PROJECT_SEARCH_TOOL_V1__.search(request.query);
+
+        event.source?.postMessage(
+          {
+            version:
+              "PrimaSearchBridgeV1",
+
+            type:
+              "prima:search_result",
+
+            request_id:
+              requestId,
+
+            search_context:
+              searchContext
+          },
+          event.origin
+        );
+      } catch (error) {
+        event.source?.postMessage(
+          {
+            version:
+              "PrimaSearchBridgeV1",
+
+            type:
+              "prima:search_error",
+
+            request_id:
+              requestId,
+
+            error:
+              String(
+                error?.message ||
+                "Search execution failed"
+              ).slice(0, 240)
+          },
+          event.origin
+        );
+      }
+    }
+  );
+
 
   window.addEventListener("search:set", function(e){
     const q = (e.detail && e.detail.q) ? String(e.detail.q) : "";
@@ -4722,6 +5491,23 @@
   });
 
   (async function boot(){
+    const root =
+      getResultsRoot();
+
+    /*
+      Homepage Search keeps its existing boot.
+      Internal pages do not preload 2,571 projects.
+      Prima Search loads them only on tool execution.
+    */
+    if (
+      !root ||
+      !root.querySelector(
+        ".results__grid"
+      )
+    ) {
+      return;
+    }
+
     const saved =
       readSavedQuery();
 
