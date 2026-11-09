@@ -3942,7 +3942,7 @@
 
     for (const [word, number] of Object.entries(BED_WORDS)) {
       const re = new RegExp(
-        "\\b" + word + "\\s*(?:bed|bedroom|bedrooms)\\b",
+        "\\b" + word + "[\\s-]*(?:bed|bedroom|bedrooms)\\b",
         "g"
       );
 
