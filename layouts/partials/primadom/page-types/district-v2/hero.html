@@ -105,12 +105,12 @@
     <form
       class="pa-area-ask"
       id="area-ai-search"
-      aria-label="{{ $t.hero.ai_badge }}"
+      aria-label="{{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_badge }}"
       data-pa-ai-ask
      data-prima-ai-search="v1">
       <span class="pa-area-ask__badge">
         <i aria-hidden="true"></i>
-        {{ $t.hero.ai_badge }}
+        {{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_badge }}
       </span>
 
       <textarea
