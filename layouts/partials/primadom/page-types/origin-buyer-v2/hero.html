@@ -69,7 +69,7 @@
     <form
       class="ob-ai"
       id="origin-ai"
-      aria-label="{{ $t.hero.ai_aria }}"
+      aria-label="{{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_aria }}"
       data-ob-ai-ask
       data-voice-success-status="{{ $t.hero.voice_success_status }}"
       data-voice-error-status="{{ $t.hero.voice_error_status }}"
@@ -79,7 +79,7 @@
      data-prima-ai-search="v1">
       <div class="ob-ai__badge">
         <span aria-hidden="true"></span>
-        {{ $t.hero.ai_badge }}
+        {{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_badge }}
       </div>
 
       <textarea

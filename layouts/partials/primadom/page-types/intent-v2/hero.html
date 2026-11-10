@@ -64,14 +64,14 @@
     <form
       class="pi-ai"
       id="intent-ai-search"
-      aria-label="{{ $t.hero.ai_aria }}"
+      aria-label="{{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_aria }}"
       data-pi-ai-ask
       data-voice-status="{{ $t.hero.ai_voice_status }}"
       data-voice-text="{{ $voiceText }}"
      data-prima-ai-search="v1">
       <div class="pi-ai__badge">
         <span aria-hidden="true"></span>
-        {{ $t.hero.ai_badge }}
+        {{ replaceRE "(?i)primadom ai" "Prima AI" $t.hero.ai_badge }}
       </div>
 
       <textarea

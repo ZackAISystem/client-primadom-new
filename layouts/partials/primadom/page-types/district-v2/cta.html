@@ -17,8 +17,8 @@
 
 <section class="pa-cta" id="lead">
   <div>
-    <h2>{{ $t.cta.title }}</h2>
-    <p>{{ $t.cta.text }}</p>
+    <h2>{{ replaceRE "(?i)primadom ai" "Prima AI" $t.cta.title }}</h2>
+    <p>{{ replaceRE "(?i)primadom ai" "Prima AI" $t.cta.text }}</p>
   </div>
 
   <div class="pa-actions">
@@ -27,7 +27,7 @@
         href="{{ .href }}"
         {{ if .open_modal }}data-pa-modal="open"{{ end }}
       >
-        {{ .label }}
+        {{ replaceRE "(?i)primadom ai" "Prima AI" .label }}
       </a>
     {{ end }}
   </div>

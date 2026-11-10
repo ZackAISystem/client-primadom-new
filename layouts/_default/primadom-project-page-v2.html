@@ -237,7 +237,7 @@
     ></span>
 
     <form
-      aria-label="{{ $b4.form_aria_label }}"
+      aria-label="{{ replaceRE "(?i)primadom ai" "Prima AI" $b4.form_aria_label }}"
       class="pd-project-ask"
       id="project-ai-search"
       data-pd-ai-ask
@@ -245,7 +245,7 @@
 
       <div class="pd-project-ask__badge">
         <span aria-hidden="true"></span>
-        {{ $b4.ai_badge }}
+        {{ replaceRE "(?i)primadom ai" "Prima AI" $b4.ai_badge }}
       </div>
 
       <textarea
@@ -311,7 +311,7 @@
       <button
         class="pd-project-ask__button"
         type="submit"
-        aria-label="{{ $b4.submit_aria_label }}"
+        aria-label="{{ replaceRE "(?i)primadom ai" "Prima AI" $b4.submit_aria_label }}"
       >
         {{ $b4.button_label }}
       </button>
@@ -683,8 +683,8 @@
     >
 
       <div>
-        <h3>{{ $b14.cta_title }}</h3>
-        <p>{{ $b14.cta_text }}</p>
+        <h3>{{ replaceRE "(?i)primadom ai" "Prima AI" $b14.cta_title }}</h3>
+        <p>{{ replaceRE "(?i)primadom ai" "Prima AI" $b14.cta_text }}</p>
       </div>
 
       <div class="pd-project-actions">
@@ -699,7 +699,7 @@
               href="{{ .href | default "#" }}"
             {{ end }}
           >
-            {{ .label }}
+            {{ replaceRE "(?i)primadom ai" "Prima AI" .label }}
           </a>
 
         {{- end }}
