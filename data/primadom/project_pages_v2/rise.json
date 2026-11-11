@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Rise is an off-plan apartment project by Blanco Thornton located in Al Warsan. The project includes confirmed city views."
+      "short_answer_summary": "Rise, an off-plan apartment project by Blanco Thornton, is located in Al Warsan. The project is characterised by city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -284,9 +284,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Families looking for a home suited to daily living",
+        "Investors comparing residential property purchases",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Rise by Blanco Thornton is a future-delivery apartment project in Al Warsan, Dubai, offering one-to-two-bedroom apartments with city-view orientation and handover scheduled for December 2026. Its positioning integrates urban living within an emerging community, combining family-oriented primary residence and investment use cases in a vibrant district.",
+      "project_logic_text": "Rise by Blanco Thornton is a future-delivery apartment project in Al Warsan, Dubai, offering one-to-two-bedroom apartments with city-view orientation and handover scheduled for December 2026. Its appeal centres on urban living within an emerging community, combining family living and potential investment in a vibrant district.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Rise against its recorded AED 815,000 starting price, stated 2026 handover timing and comparable projects in Al Warsan.",
+          "text": "For Rise, consider its recorded AED 815,000 starting price and its stated 2026 handover timing alongside comparable developments in Al Warsan.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Rise offers apartments in Al Warsan, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Rise offers apartments in Al Warsan. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Rise with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Rise with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

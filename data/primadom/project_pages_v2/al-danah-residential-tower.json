@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Al Danah Residential Tower is an off-plan apartment and penthouse project by Dubai Investment Properties located in Ras Al Khaimah, Al Marjan Island, Danah Bay. The project has confirmed waterfront and beachfront positioning and includes confirmed sea views."
+      "short_answer_summary": "Al Danah Residential Tower is an off-plan apartment and penthouse project by Dubai Investment Properties in Ras Al Khaimah, Al Marjan Island, Danah Bay. The project combines a beachfront setting with sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers prioritising waterfront living",
-        "Buyers looking for a quieter residential setting"
+        "Buyers looking specifically for waterside living",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Al Danah Residential Tower by Dubai Investment Properties is a future-delivery residential project in Ras Al Khaimah’s Al Marjan Island, offering one-to-four-bedroom apartments and penthouses with handover scheduled for June 2027. The project’s positioning combines waterfront and beachfront settings with family-oriented primary residence use, emphasizing spacious layouts in a quiet, seaside environment.",
+      "project_logic_text": "Al Danah Residential Tower by Dubai Investment Properties is a future-delivery residential project in Ras Al Khaimah’s Al Marjan Island, offering one-to-four-bedroom apartments and penthouses with handover scheduled for June 2027. The project brings together waterfront and beachfront settings with family-oriented owner-occupation, emphasizing spacious layouts in a quiet, seaside environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Al Danah Residential Tower against its recorded AED 2,000,000 starting price, stated 2027 handover timing and comparable projects in Al Marjan Island.",
+          "text": "Compare Al Danah Residential Tower with projects in Al Marjan Island, taking account of the recorded AED 2,000,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Al Danah Residential Tower offers apartments and penthouses in Al Marjan Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Al Marjan Island, Al Danah Residential Tower offers apartments and penthouses; the project profile highlights a waterfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Al Danah Residential Tower with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Al Danah Residential Tower and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

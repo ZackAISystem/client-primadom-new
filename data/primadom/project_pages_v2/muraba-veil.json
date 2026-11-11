@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Muraba Veil is an off-plan residential project by Muraba located in Al Wasl, offering apartments, duplexes, and penthouses. The project includes confirmed city views and has confirmed ultra-luxury positioning."
+      "short_answer_summary": "Muraba Veil, an off-plan residential project by Muraba, is located in Al Wasl, offering apartments, duplexes, and penthouses. It combines city views with an ultra-luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -288,7 +288,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers who prefer an urban lifestyle"
+        "Households seeking a home for family life",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,9 +307,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "Buyers focused on smaller residential layouts"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Muraba Veil is an ultra-luxury residential project by Muraba in Al Wasl, Dubai, offering apartments, duplexes, and penthouses with two-to-four-bedroom formats and a stated handover date of December 2028. Its positioning reflects an urban-core setting focused on family-oriented primary residence with city-view orientation and wellbeing amenities supporting tranquil living within a vibrant city environment.",
+      "project_logic_text": "Muraba Veil is an ultra-luxury residential project by Muraba in Al Wasl, Dubai, offering apartments, duplexes, and penthouses with two-to-four-bedroom formats and a stated handover date of December 2028. Its character draws on an urban setting focused on family living with city views and wellbeing amenities supporting tranquil living within a vibrant city environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Muraba Veil against its recorded AED 18,000,000 starting price, stated 2028 handover timing and comparable projects in Al Wasl.",
+          "text": "Assess Muraba Veil alongside projects in Al Wasl, using its recorded AED 18,000,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Muraba Veil offers apartments, duplexes and penthouses in Al Wasl, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Al Wasl, Muraba Veil offers apartments, duplexes and penthouses; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Muraba Veil with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Muraba Veil with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

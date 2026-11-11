@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "7 Park Central is an off-plan apartment project by Meteora Developers located in Jumeirah Village Circle, Dubai. The project includes confirmed park views and is within a master community."
+      "short_answer_summary": "In Jumeirah Village Circle, Dubai, 7 Park Central is an off-plan apartment project developed by Meteora Developers. Its listed features include park views and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Families seeking a residential community",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Homebuyers prioritising larger family layouts",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers seeking a family-oriented community"
+        "Buyers evaluating homes as an investment",
+        "Families seeking a residential community"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking for larger family homes",
+        "Homebuyers prioritising larger family layouts",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "7 Park Central is an apartment project by Meteora Developers in Jumeirah Village Circle, Dubai, offering one-bedroom units sized between 635 and 947 square feet with a scheduled handover in March 2025. Its positioning reflects a suburban master-community environment focused on nature and community-oriented living, supporting both primary residence and investment use cases.",
+      "project_logic_text": "7 Park Central is an apartment project by Meteora Developers in Jumeirah Village Circle, Dubai, offering one-bedroom units sized between 635 and 947 square feet with a scheduled handover in March 2025. The residential concept is shaped by a suburban master-community environment focused on nature and community-oriented living, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review 7 Park Central against its recorded AED 900,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Circle.",
+          "text": "Compare 7 Park Central with projects in Jumeirah Village Circle, taking account of the recorded AED 900,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "7 Park Central offers apartments in Jumeirah Village Circle, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "7 Park Central offers apartments in Jumeirah Village Circle. Its profile also notes park views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare 7 Park Central with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare 7 Park Central with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hillcrest is an off-plan apartment project by Nshama located in Town Square, Dubai. The project includes confirmed sea views, park views, and is within a master community."
+      "short_answer_summary": "In Town Square, Dubai, Hillcrest is an off-plan apartment project developed by Nshama. Notable features include sea views, park views, and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -302,8 +302,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers planning to live in the property",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,7 +313,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking for larger family homes",
         "Buyers looking specifically for villas"
       ],
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hillcrest by Nshama is a residential apartment project in Town Square, Dubai, scheduled for handover in June 2027. Its positioning focuses on family-oriented primary residence within a master-community suburban setting, offering sea- and park-view orientation alongside a nature-focused, community-living environment.",
+      "project_logic_text": "Hillcrest by Nshama is a residential apartment project in Town Square, Dubai, scheduled for handover in June 2027. Its residential concept centres on family living within a master-community suburban setting, offering sea- and park views alongside a nature-focused, community-living environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hillcrest against its recorded AED 1,700,000 starting price, stated 2027 handover timing and comparable projects in Town Square.",
+          "text": "Assess Hillcrest alongside projects in Town Square, using its recorded AED 1,700,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hillcrest offers apartments in Town Square, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Town Square, Hillcrest offers apartments; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hillcrest with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Hillcrest with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

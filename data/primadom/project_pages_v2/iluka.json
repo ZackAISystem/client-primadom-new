@@ -148,7 +148,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Iluka is an off-plan apartment project by Ms Homes Development located in Deira, Dubai Islands. The project has confirmed waterfront positioning."
+      "short_answer_summary": "Located in Deira, Dubai Islands, Iluka is an off-plan apartment development by Ms Homes Development. The project is characterised by a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -255,13 +255,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -278,8 +278,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Those considering a residential property investment",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,7 +314,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Iluka is a residential apartment project by Ms Homes Development in Dubai, offering one-to-four-bedroom formats with a stated handover date of August 2026. Its positioning reflects a waterfront urban setting that combines family-oriented primary residence with investment use cases within a vibrant community.",
+      "project_logic_text": "Iluka is a residential apartment project by Ms Homes Development in Dubai, offering one-to-four-bedroom formats with a stated handover date of August 2026. Its residential profile reflects a waterfront urban setting that combines family living with investment use cases within a vibrant community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,14 +355,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Iluka with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Iluka and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

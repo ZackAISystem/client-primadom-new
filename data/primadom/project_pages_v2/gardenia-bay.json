@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Gardenia Bay is an off-plan apartment project by Aldar Properties PJSC located on Yas Island. The project is a low-rise development with confirmed family-friendly positioning."
+      "short_answer_summary": "Located on Yas Island, Gardenia Bay is an off-plan apartment development by Aldar Properties PJSC. The project is characterised by a low-rise format and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Gardenia Bay is a low-rise apartment project by Aldar Properties on Yas Island in Abu Dhabi, offering studio-to-three-bedroom formats with a stated handover date of June 2027. Its positioning reflects a family-oriented primary residence within a quiet, nature-focused island setting that emphasizes green surroundings and a calm living environment.",
+      "project_logic_text": "Gardenia Bay is a low-rise apartment project by Aldar Properties on Yas Island in Abu Dhabi, offering studio-to-three-bedroom formats with a stated handover date of June 2027. The residential concept is shaped by family living within a quiet, nature-focused island setting that emphasizes green surroundings and a calm living environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Gardenia Bay against its recorded AED 805,000 starting price, stated 2027 handover timing and comparable projects in Yas Island.",
+          "text": "When evaluating Gardenia Bay, weigh its recorded AED 805,000 starting price and its stated 2027 handover timing against other projects in Yas Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Gardenia Bay offers apartments in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Gardenia Bay offers apartments in Yas Island. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Gardenia Bay with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Gardenia Bay with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

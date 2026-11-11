@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Wadeem by Modon is an off-plan villa project by Modon Properties located on Al Hudayriat Island, Abu Dhabi. The project has confirmed luxury positioning."
+      "short_answer_summary": "Located on Al Hudayriat Island, Abu Dhabi, Wadeem by Modon is an off-plan villa development by Modon Properties. The development has a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers focused solely on apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Families looking for a home suited to daily living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers focused on smaller residential layouts",
+        "Buyers focused solely on apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Wadeem by Modon is a villa project in Abu Dhabi’s Al Hudayriyat Island offering four-to-six-bedroom homes priced from AED 3,700,000. Its positioning focuses on family-oriented primary residence within a nature-oriented island setting that fosters community living and capital growth potential.",
+      "project_logic_text": "Wadeem by Modon is a villa project in Abu Dhabi’s Al Hudayriyat Island offering four-to-six-bedroom homes priced from AED 3,700,000. Its residential concept centres on family living within a nature-oriented island setting that fosters community living and capital growth potential.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Wadeem by Modon against its recorded AED 3,700,000 starting price and comparable projects in Al Hudayriyat Island.",
+          "text": "For Wadeem by Modon, consider its recorded AED 3,700,000 starting price alongside comparable developments in Al Hudayriyat Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Wadeem by Modon offers villas in Al Hudayriyat Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Wadeem by Modon offers villas in Al Hudayriyat Island; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Wadeem by Modon with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Wadeem by Modon with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

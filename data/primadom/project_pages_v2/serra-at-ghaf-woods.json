@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Serra at Ghaf Woods is an off-plan apartment and duplex project by Majid Al Futtaim located in Dubai Land, Ghaf Woods, Serra. The project is within a gated community."
+      "short_answer_summary": "Serra at Ghaf Woods, an off-plan apartment and duplex project by Majid Al Futtaim, is located in Dubai Land, Ghaf Woods, Serra. The development has a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Serra at Ghaf Woods against its recorded AED 1,200,000 starting price, stated 2027 handover timing and comparable projects in Dubailand.",
+          "text": "When evaluating Serra at Ghaf Woods, weigh its recorded AED 1,200,000 starting price and its stated 2027 handover timing against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Serra at Ghaf Woods offers apartments and duplexes in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Serra at Ghaf Woods offers apartments and duplexes in Dubailand. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Serra at Ghaf Woods with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Serra at Ghaf Woods and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

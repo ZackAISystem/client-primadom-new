@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Narenj is an off-plan townhouse and villa project by ARADA - Sale located in Masaar, Tilal City, Sharjah. The project is within a gated community."
+      "short_answer_summary": "Narenj, an off-plan townhouse and villa project by ARADA - Sale, is located in Masaar, Tilal City, Sharjah. Its listed characteristics include a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -281,7 +281,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -293,7 +293,7 @@
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -301,8 +301,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers planning to live in the property",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -312,9 +312,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -340,7 +340,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Narenj is a villa and townhouse project by ARADA - Sale in the Masaar district of Sharjah, offering two-to-five-bedroom homes with sizes ranging from 1,856 to 5,878 square feet and a scheduled handover in December 2027. Its positioning focuses on family-oriented primary residence within a gated suburban setting that emphasizes nature, privacy, and community living near Tilal City’s amenities.",
+      "project_logic_text": "Narenj is a villa and townhouse project by ARADA - Sale in the Masaar district of Sharjah, offering two-to-five-bedroom homes with sizes ranging from 1,856 to 5,878 square feet and a scheduled handover in December 2027. The project focuses on family living within a gated suburban setting that emphasizes nature, privacy, and community living near Tilal City’s amenities.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -367,28 +367,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Narenj against its recorded AED 1,600,000 starting price, stated 2027 handover timing and comparable projects in Masaar.",
+          "text": "Compare Narenj with projects in Masaar, taking account of the recorded AED 1,600,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Narenj offers townhouses and villas in Masaar, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Narenj has townhouses and villas in Masaar, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Narenj with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Narenj and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

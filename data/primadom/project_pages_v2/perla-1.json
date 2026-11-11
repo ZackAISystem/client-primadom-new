@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Families looking for a home suited to daily living",
+        "Buyers exploring residential investment options",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units"
+        "Homebuyers looking specifically for compact homes"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Perla 1 is a future-delivery townhouse and duplex project by Reportage Real Estate on Yas Island, Abu Dhabi, offering two-to-five-bedroom homes with handover scheduled for September 2025. Its positioning reflects a waterfront district setting with sea-view orientation, combining family-oriented primary residence and investment use cases in a nature-focused environment.",
+      "project_logic_text": "Perla 1 is a future-delivery townhouse and duplex project by Reportage Real Estate on Yas Island, Abu Dhabi, offering two-to-five-bedroom homes with handover scheduled for September 2025. Its character draws on a waterfront district setting with sea views, combining family living and potential investment in a nature-focused environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Perla 1 against its recorded AED 1,500,000 starting price, recorded project timeline and comparable projects in Yas Island.",
+          "text": "Compare Perla 1 with projects in Yas Island, taking account of the recorded AED 1,500,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Perla 1 offers duplexes and townhouses in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Perla 1 offers duplexes and townhouses in Yas Island. Its profile also notes a waterfront setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Perla 1 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Perla 1 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

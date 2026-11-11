@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Noya Luma is an off-plan villa project by Aldar Properties PJSC located on Yas Island. The project has confirmed luxury positioning."
+      "short_answer_summary": "Located on Yas Island, Noya Luma is an off-plan villa development by Aldar Properties PJSC. The development has a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,8 +313,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments",
+        "Buyers focused on smaller residential layouts",
+        "Buyers whose search is limited to apartments",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Noya Luma is a villa project by Aldar Properties PJSC on Yas Island, Abu Dhabi, offering spacious 3-to-5-bedroom homes scheduled for handover in December 2024. Its positioning focuses on family-oriented primary residence with privacy-led living in a nature-oriented island community.",
+      "project_logic_text": "Noya Luma is a villa project by Aldar Properties PJSC on Yas Island, Abu Dhabi, offering spacious 3-to-5-bedroom homes scheduled for handover in December 2024. The project focuses on family living with privacy-led living in a nature-oriented island community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Noya Luma against its recorded AED 2,500,000 starting price, recorded project timeline and comparable projects in Yas Island.",
+          "text": "When evaluating Noya Luma, weigh its recorded AED 2,500,000 starting price and its recorded project timeline against other projects in Yas Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Noya Luma offers villas in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Noya Luma offers villas in Yas Island; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Noya Luma with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Noya Luma and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

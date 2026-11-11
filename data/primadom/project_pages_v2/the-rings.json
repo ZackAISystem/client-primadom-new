@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Rings is an off-plan villa project by PMR Property located in Jumeirah 2. The project includes confirmed sea views, luxury positioning, and is within a gated community."
+      "short_answer_summary": "In Jumeirah 2, The Rings is an off-plan villa project developed by PMR Property. The project combines sea views, a luxury focus, and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Rings is a villa project by PMR Property in Dubai’s Jumeirah 2 district, offering five-to-seven-bedroom homes scheduled for handover in December 2025. Its positioning reflects spacious family homes within a gated, private setting featuring sea-view orientation and green surroundings, designed primarily for family residence with a focus on comfort and privacy.",
+      "project_logic_text": "The Rings is a villa project by PMR Property in Dubai’s Jumeirah 2 district, offering five-to-seven-bedroom homes scheduled for handover in December 2025. Its character draws on spacious family homes within a gated, private setting featuring sea views and green surroundings, designed primarily for family residence with a focus on comfort and privacy.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Rings against its recorded AED 59,000,000 starting price, recorded project timeline and comparable projects in Jumeirah 2.",
+          "text": "Assess The Rings alongside projects in Jumeirah 2, using its recorded AED 59,000,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Rings offers villas in Jumeirah 2, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Jumeirah 2, The Rings offers villas; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Rings with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare The Rings with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

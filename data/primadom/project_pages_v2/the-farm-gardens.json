@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Farm Gardens is an off-plan villa project by Emaar Properties located in The Valley, Farm Gardens. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "Located in The Valley, Farm Gardens, The Farm Gardens is an off-plan villa development by Emaar Properties. It combines a luxury focus with a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Buyers choosing a family-focused home",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Buyers whose search is limited to apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Farm Gardens is a villa project by Emaar Properties in The Valley, Dubai, featuring four-to-five-bedroom homes with a scheduled handover in August 2026. Its positioning focuses on a family-oriented primary residence within a gated, suburban community that emphasizes spacious layouts, privacy, and a nature-oriented living environment.",
+      "project_logic_text": "The Farm Gardens is a villa project by Emaar Properties in The Valley, Dubai, featuring four-to-five-bedroom homes with a scheduled handover in August 2026. The emphasis is on family living within a gated, suburban community that emphasizes spacious layouts, privacy, and a nature-oriented living environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Farm Gardens against its recorded AED 7,200,000 starting price, stated 2026 handover timing and comparable projects in The Valley.",
+          "text": "Compare The Farm Gardens with projects in The Valley, taking account of the recorded AED 7,200,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Farm Gardens offers villas in The Valley, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Farm Gardens has villas in The Valley, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Farm Gardens with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for The Farm Gardens and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

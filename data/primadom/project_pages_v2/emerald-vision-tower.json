@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Emerald Vision Tower is an off-plan apartment project by Vision Avenue Homes located in Jumeirah Village Triangle. The project includes confirmed city views and is a high-rise development."
+      "short_answer_summary": "Located in Jumeirah Village Triangle, Emerald Vision Tower is an off-plan apartment development by Vision Avenue Homes. It combines city views with a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers who prefer an urban lifestyle"
+        "Families looking for a home suited to daily living",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Emerald Vision Tower by Vision Avenue Homes is a high-rise apartment project in Jumeirah Village Triangle, Dubai, offering studio-to-three-bedroom units with a scheduled handover in December 2024. Its positioning combines city-view orientation and suburban setting with a focus on family-oriented primary residence and community-oriented living.",
+      "project_logic_text": "Emerald Vision Tower by Vision Avenue Homes is a high-rise apartment project in Jumeirah Village Triangle, Dubai, offering studio-to-three-bedroom units with a scheduled handover in December 2024. Its residential character brings together city views and suburban setting with a focus on family living and community-oriented living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Emerald Vision Tower against its recorded AED 1,200,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Triangle.",
+          "text": "When evaluating Emerald Vision Tower, weigh its recorded AED 1,200,000 starting price and its recorded project timeline against other projects in Jumeirah Village Triangle.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Emerald Vision Tower offers apartments in Jumeirah Village Triangle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Emerald Vision Tower offers apartments in Jumeirah Village Triangle. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Emerald Vision Tower with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Emerald Vision Tower and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

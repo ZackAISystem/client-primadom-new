@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Bab Al Qasr Residence 25 is an off-plan apartment, duplex, and penthouse project by Burtville located in Yas Island, Yas Bay. The project has confirmed waterfront positioning and includes confirmed sea views."
+      "short_answer_summary": "Bab Al Qasr Residence 25, an off-plan apartment, duplex, and penthouse project by Burtville, is located in Yas Island, Yas Bay. Its listed features include a waterfront setting and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Buyers choosing a family-focused home",
+        "Buyers evaluating homes as an investment",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bab Al Qasr Residence 25 by Burtville is a future-delivery residential project on Yas Island in Abu Dhabi, offering apartments, duplexes and penthouses with one-to-five-bedroom layouts, ranging from 700 to 2500 square feet, scheduled for handover in July 2028. Its positioning focuses on waterfront living with sea views, combining a quiet family-oriented environment near cultural landmarks and urban amenities suitable for both primary residence and investment use cases.",
+      "project_logic_text": "Bab Al Qasr Residence 25 by Burtville is a future-delivery residential project on Yas Island in Abu Dhabi, offering apartments, duplexes and penthouses with one-to-five-bedroom layouts, ranging from 700 to 2500 square feet, scheduled for handover in July 2028. The emphasis is on waterfront living with sea views, combining a quiet family-oriented environment near cultural landmarks and urban amenities suitable for both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bab Al Qasr Residence 25 against its recorded AED 1,400,000 starting price, stated 2028 handover timing and comparable projects in Yas Island.",
+          "text": "For Bab Al Qasr Residence 25, consider its recorded AED 1,400,000 starting price and its stated 2028 handover timing alongside comparable developments in Yas Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bab Al Qasr Residence 25 offers apartments, duplexes and penthouses in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Bab Al Qasr Residence 25 offers apartments, duplexes and penthouses in Yas Island. Its profile also notes a waterfront setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bab Al Qasr Residence 25 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Bab Al Qasr Residence 25 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

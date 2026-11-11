@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers exploring residential investment options",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bellagio by Sunrise Capital is a residential apartment project in Dubai’s Al Wasl district, offering one-to-three-bedroom units with a scheduled handover in September 2027. The project’s positioning reflects luxury and city-view orientation within an urban-core setting, combining urban living with primary-residence and investment use cases.",
+      "project_logic_text": "Bellagio by Sunrise Capital is a residential apartment project in Dubai’s Al Wasl district, offering one-to-three-bedroom units with a scheduled handover in September 2027. Its residential profile reflects luxury and city views within an urban setting, combining urban living with homeownership and investment scenarios.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bellagio against its recorded AED 1,000,000 starting price, stated 2027 handover timing and comparable projects in Al Wasl.",
+          "text": "Assess Bellagio alongside projects in Al Wasl, using its recorded AED 1,000,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bellagio offers apartments in Al Wasl, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Bellagio has apartments in Al Wasl, with city views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bellagio with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Bellagio with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Samana Park Meadows is an off-plan apartment project by Samana Developers located in Dubai Land Residence Complex, Dubailand. The project includes confirmed city views."
+      "short_answer_summary": "Samana Park Meadows is an off-plan apartment project by Samana Developers in Dubai Land Residence Complex, Dubailand. Its listed characteristics include city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Those considering a residential property investment",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,8 +313,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking for larger family homes",
+        "Buyers who need a ready-to-move-in home now",
+        "Buyers who need a larger family home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Samana Park Meadows is an apartment project by Samana Developers in Dubailand, Dubai, scheduled for handover in August 2027. Its positioning combines city-view orientation with an emerging district context, supporting both primary-residence and investment use cases within a family-friendly, urban living environment.",
+      "project_logic_text": "Samana Park Meadows is an apartment project by Samana Developers in Dubailand, Dubai, scheduled for handover in August 2027. The project brings together city views with an emerging district context, supporting both owner-occupiers and prospective investors within a family-friendly, urban living environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Samana Park Meadows against its recorded AED 674,000 starting price, stated 2027 handover timing and comparable projects in Dubailand.",
+          "text": "Assess Samana Park Meadows alongside projects in Dubailand, using its recorded AED 674,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Samana Park Meadows offers apartments in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubailand, Samana Park Meadows offers apartments; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Samana Park Meadows with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Samana Park Meadows with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

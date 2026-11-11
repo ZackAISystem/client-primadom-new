@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Chorisia 1 Villas is an off-plan villa project by Al Barari located in Al Barari. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "Located in Al Barari, Chorisia 1 Villas is an off-plan villa development by Al Barari. Its listed features include a luxury focus and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Investors comparing residential property purchases",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking specifically for compact homes",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Chorisia 1 Villas by Al Barari is a villa project in Dubai’s Al Barari district featuring exclusively five-bedroom homes of 6,634 square feet, with handover in March 2023. The project’s positioning reflects a family-oriented, spacious residential format within a gated and green suburban community that supports privacy-led living and offers potential for primary residence and investment use cases.",
+      "project_logic_text": "Chorisia 1 Villas by Al Barari is a villa project in Dubai’s Al Barari district featuring exclusively five-bedroom homes of 6,634 square feet, with handover in March 2023. The residential concept reflects a family-oriented, spacious residential format within a gated and green suburban community that supports privacy-led living and offers potential for homeownership and investment scenarios.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Chorisia 1 Villas against its recorded AED 8,500,000 starting price, recorded project timeline and comparable projects in Al Barari.",
+          "text": "When evaluating Chorisia 1 Villas, weigh its recorded AED 8,500,000 starting price and its recorded project timeline against other projects in Al Barari.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Chorisia 1 Villas offers villas in Al Barari, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Chorisia 1 Villas offers villas in Al Barari. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Chorisia 1 Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Chorisia 1 Villas with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

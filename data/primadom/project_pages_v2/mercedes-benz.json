@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Binghatti Mercedes Benz is an off-plan apartment and penthouse project by Binghatti Developers located in Downtown Dubai. The project includes confirmed city views and has confirmed luxury and ultra-luxury positioning."
+      "short_answer_summary": "Located in Downtown Dubai, Binghatti Mercedes Benz is an off-plan apartment and penthouse development by Binghatti Developers. The project combines city views, a luxury focus, and an ultra-luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -288,7 +288,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Buyers exploring residential investment options",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,7 +314,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
+        "Buyers focused on smaller residential layouts",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Mercedes Benz by Binghatti Developers is a luxury apartment and penthouse project in Downtown Dubai, offering two-to-five-bedroom residences with a scheduled handover in December 2026. Its positioning combines high-rise living with city-view orientation and addresses both primary-residence and investment use cases within a vibrant urban core.",
+      "project_logic_text": "Mercedes Benz by Binghatti Developers is a luxury apartment and penthouse project in Downtown Dubai, offering two-to-five-bedroom residences with a scheduled handover in December 2026. The project brings together high-rise living with city views and addresses both owner-occupiers and prospective investors within a vibrant urban core.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Mercedes Benz against its recorded AED 10,000,000 starting price, stated 2026 handover timing and comparable projects in Downtown Dubai.",
+          "text": "Compare Mercedes Benz with projects in Downtown Dubai, taking account of the recorded AED 10,000,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Mercedes Benz offers apartments and penthouses in Downtown Dubai, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "In Downtown Dubai, Mercedes Benz offers apartments and penthouses; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Mercedes Benz with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Mercedes Benz and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

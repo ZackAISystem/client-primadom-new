@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Expo Golf Villas Phase 5 is an off-plan villa project by Emaar Properties located in Dubai South (Dubai World Central), EMAAR South, Greenviews 2. The project has confirmed golf positioning."
+      "short_answer_summary": "Expo Golf Villas Phase 5 is an off-plan villa project by Emaar Properties in Dubai South (Dubai World Central), EMAAR South, Greenviews 2. The project is characterised by a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -275,13 +275,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers focused solely on apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -296,8 +296,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -306,8 +306,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments",
+        "Homebuyers looking specifically for compact homes",
+        "Buyers focused solely on apartments",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Expo Golf Villas Phase 5 by Emaar Properties in Dubai South is a villa project offering three-to-four-bedroom homes ranging from 1,888 to 2,264 square feet, with handover scheduled for April 2023. Its positioning focuses on family-oriented primary residence within a quiet, suburban setting that emphasizes privacy and spacious layouts alongside proximity to key city destinations.",
+      "project_logic_text": "Expo Golf Villas Phase 5 by Emaar Properties in Dubai South is a villa project offering three-to-four-bedroom homes ranging from 1,888 to 2,264 square feet, with handover scheduled for April 2023. Its residential concept centres on family living within a quiet, suburban setting that emphasizes privacy and spacious layouts alongside proximity to key city destinations.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Expo Golf Villas Phase 5 against its recorded AED 2,400,000 starting price, recorded project timeline and comparable projects in Emaar South.",
+          "text": "Compare Expo Golf Villas Phase 5 with projects in Emaar South, taking account of the recorded AED 2,400,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Expo Golf Villas Phase 5 offers villas in Emaar South, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Expo Golf Villas Phase 5 has villas in Emaar South, with a golf-oriented setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Expo Golf Villas Phase 5 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Expo Golf Villas Phase 5 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

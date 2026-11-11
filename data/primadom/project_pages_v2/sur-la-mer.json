@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sur La Mer is an off-plan villa project by Meraas Holding located in Jumeirah 1. The project includes confirmed sea views, luxury positioning, and is within a gated community."
+      "short_answer_summary": "Sur La Mer is an off-plan villa project by Meraas Holding in Jumeirah 1. Notable features include sea views, a luxury focus, and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -281,7 +281,7 @@
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Buyers choosing a family-focused home",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sur La Mer is a villa project by Meraas Holding located in Jumeirah 1, offering three-to-five-bedroom homes. Its positioning focuses on luxury sea-view living within a gated community that supports family-oriented primary residence and a private, waterfront lifestyle amid an urban core setting.",
+      "project_logic_text": "Sur La Mer is a villa project by Meraas Holding located in Jumeirah 1, offering three-to-five-bedroom homes. The project focuses on luxury sea-view living within a gated community that supports family living and a private, waterfront lifestyle amid an urban core setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sur La Mer against its location, unit mix and comparable projects in Jumeirah 1.",
+          "text": "For Sur La Mer, consider its location and the unit mix alongside comparable developments in Jumeirah 1.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sur La Mer offers villas in Jumeirah 1, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Sur La Mer has villas in Jumeirah 1, with sea views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sur La Mer with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Sur La Mer with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

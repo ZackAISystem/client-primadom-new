@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Nawayef West Heights is an off-plan apartment and villa project by Modon Properties located on Al Hudayriyat Island. The project includes confirmed sea views and has confirmed luxury positioning."
+      "short_answer_summary": "Nawayef West Heights, an off-plan apartment and villa project by Modon Properties, is located on Al Hudayriyat Island. Its listed features include sea views and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Households seeking a home for family life",
+        "Buyers exploring residential investment options",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Nawayef West Heights is a villa project by Modon Properties on Al Hudayriyat Island in Abu Dhabi, featuring five-to-seven-bedroom homes with a scheduled handover in December 2026. The project’s positioning reflects a luxury coastal lifestyle focused on spacious family homes with sea-view orientation in a private, quiet island setting suitable for primary residence and investment use.",
+      "project_logic_text": "Nawayef West Heights is a villa project by Modon Properties on Al Hudayriyat Island in Abu Dhabi, featuring five-to-seven-bedroom homes with a scheduled handover in December 2026. Its residential profile reflects a luxury coastal lifestyle focused on spacious family homes with sea views in a private, quiet island setting suitable for owner-occupation and investment use.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Nawayef West Heights against its recorded AED 20,000,000 starting price, stated 2026 handover timing and comparable projects in Al Hudayriyat Island.",
+          "text": "For Nawayef West Heights, consider its recorded AED 20,000,000 starting price and its stated 2026 handover timing alongside comparable developments in Al Hudayriyat Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Nawayef West Heights offers apartments and villas in Al Hudayriyat Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Nawayef West Heights offers apartments and villas in Al Hudayriyat Island. Its profile also notes sea views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Nawayef West Heights with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Nawayef West Heights and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

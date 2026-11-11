@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Park Five is an off-plan apartment project by Deyaar Development located in Dubai Production City (IMPZ). The project includes confirmed park views."
+      "short_answer_summary": "Located in Dubai Production City (IMPZ), Park Five is an off-plan apartment development by Deyaar Development. Its listed characteristics include park views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Buyers looking for a family-focused neighbourhood",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers seeking a family-oriented community"
+        "Buyers exploring residential investment options",
+        "Buyers looking for a family-focused neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Park Five by Deyaar Development is an apartment project in Dubai Production City featuring studio to two-bedroom units with a scheduled handover in December 2027. Its positioning reflects a nature-oriented and emerging district setting, combining community-focused living with family-friendly and investment use cases.",
+      "project_logic_text": "Park Five by Deyaar Development is an apartment project in Dubai Production City featuring studio to two-bedroom units with a scheduled handover in December 2027. Its character draws on a nature-oriented and emerging district setting, combining community-focused living with family-friendly and investment use cases.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Park Five against its stated 2027 handover timing, unit mix and comparable projects in Dubai Production City.",
+          "text": "Compare Park Five with projects in Dubai Production City, taking account of its stated 2027 handover timing and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Park Five offers apartments in Dubai Production City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Park Five has apartments in Dubai Production City, with park views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Park Five with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Park Five with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

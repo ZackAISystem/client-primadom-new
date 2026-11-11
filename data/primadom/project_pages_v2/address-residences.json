@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Address Residences is an off-plan apartment and townhouse project by Emaar Properties located in Dubai Hills Estate. The project is within a master community and includes confirmed park views."
+      "short_answer_summary": "Located in Dubai Hills Estate, Address Residences is an off-plan apartment and townhouse development by Emaar Properties. It combines a master-planned community setting with park views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -285,8 +285,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -295,7 +295,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately"
+        "Buyers who cannot wait for project completion"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Address Residences is a residential project by Emaar Properties in Dubai Hills Estate, offering one-to-three-bedroom apartments and townhouses with a stated handover date of February 2029. Its positioning reflects a master-community setting combining family-oriented primary residence with access to green spaces and a quiet, community-focused environment.",
+      "project_logic_text": "Address Residences is a residential project by Emaar Properties in Dubai Hills Estate, offering one-to-three-bedroom apartments and townhouses with a stated handover date of February 2029. The residential concept is shaped by a master-community setting combining family living with access to green spaces and a quiet, community-focused environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,7 +348,7 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Address Residences against its recorded AED 1,900,000 starting price, stated 2029 handover timing and comparable projects in Dubai Hills Estate.",
+          "text": "Compare Address Residences with projects in Dubai Hills Estate, taking account of the recorded AED 1,900,000 starting price and its stated 2029 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
@@ -362,14 +362,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Address Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Address Residences with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

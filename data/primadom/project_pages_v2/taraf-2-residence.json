@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Taraf 2 Residence is an off-plan apartment project by Taraf Properties located in Dubai, Jumeirah Village Triangle. The project includes confirmed city views and is within a gated community."
+      "short_answer_summary": "Taraf 2 Residence, an off-plan apartment project by Taraf Properties, is located in Dubai, Jumeirah Village Triangle. It combines city views with a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -285,8 +285,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Investors comparing residential property purchases",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Taraf 2 Residence by Taraf Properties is a residential apartment project in Jumeirah Village Triangle, Dubai, offering studio to two-bedroom apartments with a handover scheduled for March 2023. Its positioning reflects a suburban, gated community focused on family-oriented primary residence and investment use cases, combining city-view orientation with access to green spaces and community living.",
+      "project_logic_text": "Taraf 2 Residence by Taraf Properties is a residential apartment project in Jumeirah Village Triangle, Dubai, offering studio to two-bedroom apartments with a handover scheduled for March 2023. Its residential profile reflects a suburban, gated community focused on family living and potential investment, combining city views with access to green spaces and community living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Taraf 2 Residence against its recorded AED 1,400,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Triangle.",
+          "text": "Compare Taraf 2 Residence with projects in Jumeirah Village Triangle, taking account of the recorded AED 1,400,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Taraf 2 Residence offers apartments in Jumeirah Village Triangle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Taraf 2 Residence offers apartments in Jumeirah Village Triangle. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Taraf 2 Residence with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Taraf 2 Residence with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

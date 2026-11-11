@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "California Village Dubai is an off-plan townhouse and villa project by GFH Real Estate located in Dubai Land, California Village. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "In Dubai Land, California Village, California Village Dubai is an off-plan townhouse and villa project developed by GFH Real Estate. Its listed features include a luxury focus and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "California Village Dubai by GFH Real Estate is a townhouse and villa project in Dubailand offering three-to-four-bedroom homes ranging from 4,154 to 5,844 square feet, with handover scheduled for September 2025. Its positioning focuses on spacious family homes within a gated, suburban community that emphasizes nature-oriented, quiet living suitable for primary residence use.",
+      "project_logic_text": "California Village Dubai by GFH Real Estate is a townhouse and villa project in Dubailand offering three-to-four-bedroom homes ranging from 4,154 to 5,844 square feet, with handover scheduled for September 2025. Its residential concept centres on spacious family homes within a gated, suburban community that emphasizes nature-oriented, quiet living suitable for owner-occupation.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review California Village Dubai against its recorded AED 4,100,000 starting price, recorded project timeline and comparable projects in Dubailand.",
+          "text": "When evaluating California Village Dubai, weigh its recorded AED 4,100,000 starting price and its recorded project timeline against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "California Village Dubai offers townhouses and villas in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "California Village Dubai offers townhouses and villas in Dubailand. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare California Village Dubai with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare California Village Dubai with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

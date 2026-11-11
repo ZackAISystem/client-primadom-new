@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Bloom Gardens is an off-plan townhouse and villa project by Bloom Properties located on Al Salam Street in Khalifa City. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "On Al Salam Street in Khalifa City, Bloom Gardens is an off-plan townhouse and villa project developed by Bloom Properties. It combines a luxury focus with a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers focused on smaller residential layouts",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bloom Gardens is a townhouse and villa project by Bloom Properties in Khalifa City, Abu Dhabi, offering three-to-five-bedroom homes with sizes ranging from 3,132 to 6,555 sqft and scheduled for handover in June 2023. Its positioning focuses on family-oriented primary residence within a gated, suburban community that emphasizes privacy, spacious layouts, and proximity to green areas.",
+      "project_logic_text": "Bloom Gardens is a townhouse and villa project by Bloom Properties in Khalifa City, Abu Dhabi, offering three-to-five-bedroom homes with sizes ranging from 3,132 to 6,555 sqft and scheduled for handover in June 2023. The emphasis is on family living within a gated, suburban community that emphasizes privacy, spacious layouts, and proximity to green areas.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bloom Gardens against its recorded AED 3,600,000 starting price, recorded project timeline and comparable projects in Khalifa City.",
+          "text": "Assess Bloom Gardens alongside projects in Khalifa City, using its recorded AED 3,600,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bloom Gardens offers townhouses and villas in Khalifa City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Bloom Gardens offers townhouses and villas in Khalifa City. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bloom Gardens with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Bloom Gardens with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

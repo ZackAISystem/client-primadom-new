@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hillside Residences is an off-plan apartment and duplex project by Wasl Properties located in Wasl Gate. The project has confirmed luxury and family-friendly positioning."
+      "short_answer_summary": "Located in Wasl Gate, Hillside Residences is an off-plan apartment and duplex development by Wasl Properties. Its listed features include a luxury focus and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,7 +313,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for villas"
       ],
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hillside Residences by Wasl Properties is a future-delivery residential project in Dubai’s Wasl Gate offering apartments and duplexes with one-to-four-bedroom layouts, scheduled for handover in December 2027. Its positioning focuses on family-oriented primary residence within an emerging, green district that supports community living and nature-oriented lifestyles.",
+      "project_logic_text": "Hillside Residences by Wasl Properties is a future-delivery residential project in Dubai’s Wasl Gate offering apartments and duplexes with one-to-four-bedroom layouts, scheduled for handover in December 2027. The project focuses on family living within an emerging, green district that supports community living and nature-oriented lifestyles.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hillside Residences against its recorded AED 3,600,000 starting price, stated 2027 handover timing and comparable projects in Wasl Gate.",
+          "text": "Compare Hillside Residences with projects in Wasl Gate, taking account of the recorded AED 3,600,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hillside Residences offers apartments and duplexes in Wasl Gate, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Hillside Residences offers apartments and duplexes in Wasl Gate; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hillside Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Hillside Residences with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

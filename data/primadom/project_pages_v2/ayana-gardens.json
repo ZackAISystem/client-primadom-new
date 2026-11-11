@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Ayana Gardens is an off-plan apartment and penthouse project by Tuscany Real Estate Development located in Meydan. The project includes confirmed sea views and is within a master community."
+      "short_answer_summary": "Located in Meydan, Ayana Gardens is an off-plan apartment and penthouse development by Tuscany Real Estate Development. It combines sea views with a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Buyers evaluating homes as an investment",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Ayana Gardens is a residential project by Tuscany Real Estate Development in Meydan, Dubai, offering apartments and penthouses with studio to two-bedroom formats and a scheduled handover in January 2026. Its positioning focuses on family-oriented primary residence within a quiet master-community featuring sea-view orientation and a green, emerging district setting.",
+      "project_logic_text": "Ayana Gardens is a residential project by Tuscany Real Estate Development in Meydan, Dubai, offering apartments and penthouses with studio to two-bedroom formats and a scheduled handover in January 2026. The project focuses on family living within a quiet master-community featuring sea views and a green, emerging district setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Ayana Gardens against its recorded AED 900,000 starting price, stated 2026 handover timing and comparable projects in Meydan.",
+          "text": "Assess Ayana Gardens alongside projects in Meydan, using its recorded AED 900,000 starting price and its stated 2026 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Ayana Gardens offers apartments and penthouses in Meydan, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Ayana Gardens offers apartments and penthouses in Meydan. Its profile also notes sea views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Ayana Gardens with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Ayana Gardens with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

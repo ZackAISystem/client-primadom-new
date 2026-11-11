@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Silver Springs Phase 3 is an off-plan townhouse and villa project by Damac Properties located in DAMAC Hills, Dubai. The project has confirmed luxury positioning and is within a master community."
+      "short_answer_summary": "Located in DAMAC Hills, Dubai, Silver Springs Phase 3 is an off-plan townhouse and villa development by Damac Properties. It combines a luxury focus with a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Homebuyers prioritising a family-oriented setting",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers focused solely on apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers seeking a family-oriented community"
+        "Buyers evaluating homes as an investment",
+        "Homebuyers prioritising a family-oriented setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers focused on smaller residential layouts",
+        "Buyers focused solely on apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Silver Springs Phase 3 by Damac Properties in Damac Hills, Dubai, is a townhouse and villa project offering three-to-six-bedroom homes with handover scheduled for January 2024. Its positioning combines a master-community setting with a suburban, nature-oriented environment, targeting family-friendly primary residences that balance spacious layouts and privacy with easy access to the city.",
+      "project_logic_text": "Silver Springs Phase 3 by Damac Properties in Damac Hills, Dubai, is a townhouse and villa project offering three-to-six-bedroom homes with handover scheduled for January 2024. The project brings together a master-community setting with a suburban, nature-oriented environment, targeting family-friendly primary residences that balance spacious layouts and privacy with easy access to the city.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Silver Springs Phase 3 against its recorded AED 3,500,000 starting price, recorded project timeline and comparable projects in Damac Hills.",
+          "text": "When evaluating Silver Springs Phase 3, weigh its recorded AED 3,500,000 starting price and its recorded project timeline against other projects in Damac Hills.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Silver Springs Phase 3 offers townhouses and villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Silver Springs Phase 3 has townhouses and villas in Damac Hills, with a master-planned community setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Silver Springs Phase 3 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Silver Springs Phase 3 with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

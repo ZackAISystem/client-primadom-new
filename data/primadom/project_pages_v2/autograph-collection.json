@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Autograph Collection is an off-plan villa project by Damac Properties located in DAMAC Hills, Dubai. The project has confirmed luxury positioning, is within a gated community, and is part of a master community."
+      "short_answer_summary": "Autograph Collection is an off-plan villa project by Damac Properties in DAMAC Hills, Dubai. Notable features include a luxury focus, a gated-community environment, and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Autograph Collection is a villa project by Damac Properties in Damac Hills, Dubai, featuring spacious four-to-seven-bedroom homes with sizes ranging from 2,918 to 10,672 square feet and a scheduled handover in May 2027. Its positioning focuses on family-oriented primary residences within a gated master community, emphasizing privacy-led living in a green, suburban environment.",
+      "project_logic_text": "Autograph Collection is a villa project by Damac Properties in Damac Hills, Dubai, featuring spacious four-to-seven-bedroom homes with sizes ranging from 2,918 to 10,672 square feet and a scheduled handover in May 2027. The project focuses on family-oriented primary residences within a gated master community, emphasizing privacy-led living in a green, suburban environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Autograph Collection against its recorded AED 8,500,000 starting price, stated 2027 handover timing and comparable projects in Damac Hills.",
+          "text": "Compare Autograph Collection with projects in Damac Hills, taking account of the recorded AED 8,500,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Autograph Collection offers villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Autograph Collection offers villas in Damac Hills. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Autograph Collection with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Autograph Collection and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Milon at Athlon is an off-plan villa project by Aldar Properties PJSC located in Dubailand, Dubai Land, Athlon. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "In Dubailand, Dubai Land, Athlon, Milon at Athlon is an off-plan villa project developed by Aldar Properties PJSC. It combines a luxury focus with a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -276,19 +276,19 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers focused solely on apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -307,9 +307,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers who need a ready-to-move-in home now",
+        "People searching for studio-size properties",
+        "Buyers focused solely on apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Milon at Athlon is a villa project by Aldar Properties PJSC in Dubailand, Dubai, offering four-to-six-bedroom homes with a scheduled handover in June 2028. Its positioning focuses on family-oriented primary residence within a gated community set in a green area, combining spacious layouts with nature-oriented and private living.",
+      "project_logic_text": "Milon at Athlon is a villa project by Aldar Properties PJSC in Dubailand, Dubai, offering four-to-six-bedroom homes with a scheduled handover in June 2028. Its residential concept centres on family living within a gated community set in a green area, combining spacious layouts with nature-oriented and private living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Milon at Athlon against its recorded AED 2,800,000 starting price, stated 2028 handover timing and comparable projects in Dubailand.",
+          "text": "Assess Milon at Athlon alongside projects in Dubailand, using its recorded AED 2,800,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Milon at Athlon offers villas in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Milon at Athlon offers villas in Dubailand. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Milon at Athlon with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Milon at Athlon and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

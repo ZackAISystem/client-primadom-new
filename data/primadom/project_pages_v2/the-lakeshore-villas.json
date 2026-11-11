@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Lakeshore Villas is an off-plan villa project by Ellington located in Mohammed Bin Rashid City, District 11. The project is within a gated community and has confirmed ultra-luxury positioning."
+      "short_answer_summary": "The Lakeshore Villas, an off-plan villa project by Ellington, is located in Mohammed Bin Rashid City, District 11. Its listed features include a gated-community environment and an ultra-luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -255,19 +255,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "People who prefer a calm residential setting",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -281,13 +281,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -295,9 +295,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Buyers choosing a family-focused home",
+        "People who prefer a calm residential setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,8 +307,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Lakeshore Villas is a villa project by Ellington in Mohammed Bin Rashid City, Dubai, offering four-to-five-bedroom homes with a scheduled handover in December 2026. Its positioning focuses on ultra-luxury gated living within a green, emerging area that supports family-oriented primary residence and privacy-led, quiet lifestyles.",
+      "project_logic_text": "The Lakeshore Villas is a villa project by Ellington in Mohammed Bin Rashid City, Dubai, offering four-to-five-bedroom homes with a scheduled handover in December 2026. The project focuses on ultra-luxury gated living within a green, emerging area that supports family living and privacy-led, quiet lifestyles.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Lakeshore Villas against its recorded AED 14,000,000 starting price, stated 2026 handover timing and comparable projects in Mohammed Bin Rashid City.",
+          "text": "When evaluating The Lakeshore Villas, weigh its recorded AED 14,000,000 starting price and its stated 2026 handover timing against other projects in Mohammed Bin Rashid City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Lakeshore Villas offers villas in Mohammed Bin Rashid City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Lakeshore Villas has villas in Mohammed Bin Rashid City, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Lakeshore Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare The Lakeshore Villas with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

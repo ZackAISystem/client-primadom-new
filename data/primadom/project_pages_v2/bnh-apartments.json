@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "BNH Apartments is an off-plan apartment project by B.N.H Developer located in International City, Dubai. The project includes confirmed city views."
+      "short_answer_summary": "BNH Apartments is an off-plan apartment project by B.N.H Developer in International City, Dubai. Its listed characteristics include city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,19 +261,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -295,9 +295,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Households seeking a home for family life",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -333,7 +333,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "BNH Apartments is a residential apartment project by B.N.H Developer located in Dubai’s International City, scheduled for handover in August 2025. Its positioning reflects a family-oriented primary residence within an urban-core setting, combining city-view orientation with community-focused living and convenient access to nearby parks.",
+      "project_logic_text": "BNH Apartments is a residential apartment project by B.N.H Developer located in Dubai’s International City, scheduled for handover in August 2025. Its character draws on family living within an urban setting, combining city views with community-focused living and convenient access to nearby parks.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -360,28 +360,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review BNH Apartments against its recorded project timeline, unit mix and comparable projects in International City.",
+          "text": "Compare BNH Apartments with projects in International City, taking account of the recorded project timeline and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "BNH Apartments offers apartments in International City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "BNH Apartments offers apartments in International City. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare BNH Apartments with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for BNH Apartments and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

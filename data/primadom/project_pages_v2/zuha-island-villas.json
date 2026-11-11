@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Zuha Island Villas is an off-plan villa project by Zaya located in Dubai’s The World Islands. The project has confirmed waterfront, sea view, and luxury positioning."
+      "short_answer_summary": "Located in Dubai’s The World Islands, Zuha Island Villas is an off-plan villa development by Zaya. Its setting brings together a waterfront setting, sea views, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Families seeking a residential community",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers prioritising waterfront living",
-        "Buyers looking for a quieter residential setting",
-        "Buyers seeking a family-oriented community"
+        "People who prioritise living by the water",
+        "Homebuyers prioritising a quieter neighbourhood",
+        "Families seeking a residential community"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking specifically for compact homes",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Zuha Island Villas is a villa project by Zaya in Dubai’s World Islands offering three-to-six-bedroom homes with a scheduled handover in June 2025. Its positioning focuses on a waterfront luxury setting that emphasizes privacy and tranquility, combining spacious family-oriented living with sea-view orientation in a quiet island community.",
+      "project_logic_text": "Zuha Island Villas is a villa project by Zaya in Dubai’s World Islands offering three-to-six-bedroom homes with a scheduled handover in June 2025. The project focuses on a waterfront luxury setting that emphasizes privacy and tranquility, combining spacious family-oriented living with sea views in a quiet island community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Zuha Island Villas against its recorded AED 61,000,000 starting price, recorded project timeline and comparable projects in The World Islands.",
+          "text": "For Zuha Island Villas, consider its recorded AED 61,000,000 starting price and its recorded project timeline alongside comparable developments in The World Islands.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Zuha Island Villas offers villas in The World Islands, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Zuha Island Villas has villas in The World Islands, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Zuha Island Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Zuha Island Villas with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

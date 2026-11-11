@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "California Residences is an off-plan apartment project by GFH Real Estate located in Dubailand, Dubai Land, California Village. The project is within a master community."
+      "short_answer_summary": "In Dubailand, Dubai Land, California Village, California Residences is an off-plan apartment project developed by GFH Real Estate. The project is characterised by a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,7 +261,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,7 +290,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Households seeking a home for family life",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "California Residences is a residential apartment project by GFH Real Estate in Dubailand, Dubai, offering one-to-three-bedroom units with sizes ranging from 733 to 1764 square feet and a stated handover date of June 2028. Its positioning reflects a family-oriented primary residence within a suburban master-community setting, emphasizing spacious layouts and community-focused living for a safe and calm environment.",
+      "project_logic_text": "California Residences is a residential apartment project by GFH Real Estate in Dubailand, Dubai, offering one-to-three-bedroom units with sizes ranging from 733 to 1764 square feet and a stated handover date of June 2028. Its residential profile reflects family living within a suburban master-community setting, emphasizing spacious layouts and community-focused living for a safe and calm environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review California Residences against its stated 2028 handover timing, unit mix and comparable projects in Dubailand.",
+          "text": "When evaluating California Residences, weigh its stated 2028 handover timing and the unit mix against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "California Residences offers apartments in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "California Residences offers apartments in Dubailand. Its profile also notes a master-planned community setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare California Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about California Residences and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

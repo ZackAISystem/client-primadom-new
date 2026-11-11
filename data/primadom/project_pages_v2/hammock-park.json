@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hammock Park is an off-plan apartment project by Divine One Group located in Wasl Gate, Hammock Park. The project includes confirmed city views and is a high-rise development."
+      "short_answer_summary": "In Wasl Gate, Hammock Park, Hammock Park is an off-plan apartment project developed by Divine One Group. Its listed features include city views and a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Those considering a residential property investment",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hammock Park by Divine One Group is a high-rise apartment project in Dubai’s Wasl Gate district, offering studio to two-bedroom units ranging from 394 to 1047 square feet with a scheduled handover in March 2027. Its positioning reflects an urban-core setting that supports city living and family-friendly primary residence alongside investment use cases, featuring city-view orientation within a dynamic metropolitan context.",
+      "project_logic_text": "Hammock Park by Divine One Group is a high-rise apartment project in Dubai’s Wasl Gate district, offering studio to two-bedroom units ranging from 394 to 1047 square feet with a scheduled handover in March 2027. The residential concept is shaped by an urban setting that supports city living and family-friendly primary residence alongside investment use cases, featuring city views within a dynamic metropolitan context.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hammock Park against its recorded AED 1,100,000 starting price, stated 2027 handover timing and comparable projects in Wasl Gate.",
+          "text": "Compare Hammock Park with projects in Wasl Gate, taking account of the recorded AED 1,100,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hammock Park offers apartments in Wasl Gate, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Hammock Park offers apartments in Wasl Gate. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hammock Park with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Hammock Park with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

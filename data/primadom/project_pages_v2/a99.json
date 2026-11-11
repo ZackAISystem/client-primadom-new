@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "A99 is an off-plan apartment and villa project by Arabian Gulf Properties located in Dubai Land, Dubailand. The project is within a gated community and a master community."
+      "short_answer_summary": "A99 is an off-plan apartment and villa project by Arabian Gulf Properties in Dubai Land, Dubailand. It combines a gated-community environment with a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -284,8 +284,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Investors comparing residential property purchases",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -318,7 +318,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "A99 is a residential project by Arabian Gulf Properties in Dubailand, Dubai, offering one-to-three-bedroom apartments and villas with a scheduled handover in January 2026. Its positioning combines a gated master-community suburban setting with family-oriented primary residence and investment use cases, emphasizing quiet community living in a green area.",
+      "project_logic_text": "A99 is a residential project by Arabian Gulf Properties in Dubailand, Dubai, offering one-to-three-bedroom apartments and villas with a scheduled handover in January 2026. The residential concept combines a gated master-community suburban setting with family living and potential investment, emphasizing quiet community living in a green area.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -345,28 +345,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review A99 against its recorded AED 928,000 starting price, stated 2026 handover timing and comparable projects in Dubailand.",
+          "text": "When evaluating A99, weigh its recorded AED 928,000 starting price and its stated 2026 handover timing against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "A99 offers apartments and villas in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "A99 has apartments and villas in Dubailand, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare A99 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for A99 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Laya Heights is an off-plan apartment project by Akshara Global located in Dubai Studio City, Dubai. The project is a low-rise development."
+      "short_answer_summary": "Laya Heights, an off-plan apartment project by Akshara Global, is located in Dubai Studio City, Dubai. The project is characterised by a low-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers evaluating homes as an investment",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Laya Heights is a low-rise apartment project by Akshara Global in Dubai Studio City, offering studios and one-bedroom apartments with a handover scheduled for December 2023. Its positioning combines compact urban living with family-friendly access to schools and supports both primary residence and investment use cases within a culturally vibrant district.",
+      "project_logic_text": "Laya Heights is a low-rise apartment project by Akshara Global in Dubai Studio City, offering studios and one-bedroom apartments with a handover scheduled for December 2023. The project brings together compact urban living with family-friendly access to schools and supports both owner-occupiers and prospective investors within a culturally vibrant district.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Laya Heights against its recorded AED 630,000 starting price, recorded project timeline and comparable projects in Dubai Studio City.",
+          "text": "When evaluating Laya Heights, weigh its recorded AED 630,000 starting price and its recorded project timeline against other projects in Dubai Studio City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Laya Heights offers apartments in Dubai Studio City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Laya Heights offers apartments in Dubai Studio City. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Laya Heights with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Laya Heights with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

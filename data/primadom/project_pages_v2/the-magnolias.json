@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Magnolias is an off-plan duplex, townhouse, and villa project by Aldar Properties PJSC located on Yas Island in Yas Acres. The project has confirmed luxury and golf positioning."
+      "short_answer_summary": "The Magnolias is an off-plan duplex, townhouse, and villa project by Aldar Properties PJSC on Yas Island in Yas Acres. The project is characterised by a luxury focus and a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Buyers whose search is limited to apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Magnolias is a residential project by Aldar Properties on Yas Island featuring duplexes, townhouses, and villas with two-to-six-bedroom layouts, scheduled for handover in September 2024. Its positioning focuses on family-oriented primary residence within a green island setting, combining luxury and nature-driven private living.",
+      "project_logic_text": "The Magnolias is a residential project by Aldar Properties on Yas Island featuring duplexes, townhouses, and villas with two-to-six-bedroom layouts, scheduled for handover in September 2024. The project focuses on family living within a green island setting, combining luxury and nature-driven private living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Magnolias against its recorded AED 3,000,000 starting price, recorded project timeline and comparable projects in Yas Island.",
+          "text": "When evaluating The Magnolias, weigh its recorded AED 3,000,000 starting price and its recorded project timeline against other projects in Yas Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Magnolias offers duplexes, townhouses and villas in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Magnolias has duplexes, townhouses and villas in Yas Island, with a golf-oriented setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Magnolias with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare The Magnolias with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

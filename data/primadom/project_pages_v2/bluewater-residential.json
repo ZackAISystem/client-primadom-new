@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Bluewater Residential is an off-plan apartment project by Meraas Holding located in Bluewaters. The project has confirmed waterfront positioning and includes confirmed sea and city views."
+      "short_answer_summary": "In Bluewaters, Bluewater Residential is an off-plan apartment project developed by Meraas Holding. It combines a waterfront setting with city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,19 +261,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -295,9 +295,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Families looking for a home suited to daily living",
+        "Buyers exploring residential investment options",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -333,7 +333,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bluewater Residential by Meraas Holding is a residential project in Dubai’s Bluewaters district offering two-to-four-bedroom apartments and townhouses ranging from 1,444 to 6,831 square feet. Its positioning combines waterfront and sea-view orientation with family-oriented and investment use cases within an island community that balances tranquil coastal living and urban energy.",
+      "project_logic_text": "Bluewater Residential by Meraas Holding is a residential project in Dubai’s Bluewaters district offering two-to-four-bedroom apartments and townhouses ranging from 1,444 to 6,831 square feet. The project brings together waterfront and sea views with family-oriented and investment use cases within an island community that balances tranquil coastal living and urban energy.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -360,28 +360,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bluewater Residential against its location, unit mix and comparable projects in Bluewaters.",
+          "text": "Compare Bluewater Residential with projects in Bluewaters, taking account of its location and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bluewater Residential offers apartments in Bluewaters, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Bluewater Residential has apartments in Bluewaters, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bluewater Residential with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Bluewater Residential and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

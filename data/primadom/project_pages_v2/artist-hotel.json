@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Artist Hotel is an off-plan apartment project by Kleindienst Group located in Dubai, The World Islands, The Heart of Europe. The project includes confirmed sea views and has confirmed luxury positioning."
+      "short_answer_summary": "In Dubai, The World Islands, The Heart of Europe, Artist Hotel is an off-plan apartment project developed by Kleindienst Group. It combines sea views with a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,13 +256,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -288,7 +288,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -296,8 +296,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living",
+        "Buyers exploring residential investment options",
+        "Homebuyers drawn to waterfront living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -307,9 +307,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers with a lower purchase budget",
-        "Buyers looking for larger family homes"
+        "Buyers who need a larger family home"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Artist Hotel is a residential apartment project by Kleindienst Group located on The World Islands in Dubai, offering one-bedroom units with a scheduled handover in June 2027. Its positioning blends luxury sea-view orientation with a waterfront lifestyle and supports both investment and holiday-home use within an island community setting.",
+      "project_logic_text": "Artist Hotel is a residential apartment project by Kleindienst Group located on The World Islands in Dubai, offering one-bedroom units with a scheduled handover in June 2027. Its positioning blends luxury sea views with a waterfront lifestyle and supports both investment and holiday-home use within an island community setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Artist Hotel against its recorded AED 3,100,000 starting price, stated 2027 handover timing and comparable projects in The World Islands.",
+          "text": "Assess Artist Hotel alongside projects in The World Islands, using its recorded AED 3,100,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Artist Hotel offers apartments in The World Islands, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Artist Hotel has apartments in The World Islands, with sea views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Artist Hotel with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Artist Hotel and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Auresta Tower is an off-plan apartment and duplex project by Tiger Properties located in Dubai, Jumeirah Village Circle. The project is a high-rise development."
+      "short_answer_summary": "Auresta Tower is an off-plan apartment and duplex project by Tiger Properties in Dubai, Jumeirah Village Circle. Its listed characteristics include a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers exploring residential investment options",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Auresta Tower by Tiger Properties is a high-rise residential project in Jumeirah Village Circle, Dubai, offering apartments and duplexes in studio-to-three-bedroom formats with a scheduled handover in December 2028. Its positioning integrates suburban living with green surroundings, combining family-oriented primary residence and investment use cases within a community designed for urban nature balance.",
+      "project_logic_text": "Auresta Tower by Tiger Properties is a high-rise residential project in Jumeirah Village Circle, Dubai, offering apartments and duplexes in studio-to-three-bedroom formats with a scheduled handover in December 2028. Its appeal centres on suburban living with green surroundings, combining family living and potential investment within a community designed for urban nature balance.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Auresta Tower against its recorded AED 698,000 starting price, stated 2028 handover timing and comparable projects in Jumeirah Village Circle.",
+          "text": "Assess Auresta Tower alongside projects in Jumeirah Village Circle, using its recorded AED 698,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Auresta Tower offers apartments and duplexes in Jumeirah Village Circle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Jumeirah Village Circle, Auresta Tower offers apartments and duplexes; the project profile highlights a high-rise format, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Auresta Tower with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Auresta Tower with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

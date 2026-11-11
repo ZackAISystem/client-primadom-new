@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Costa Brava Phase 2 is an off-plan townhouse and villa project by Damac Properties located in Damac Lagoons, Dubai. The project has confirmed waterfront positioning, is within a gated community, and has confirmed luxury positioning."
+      "short_answer_summary": "Costa Brava Phase 2, an off-plan townhouse and villa project by Damac Properties, is located in Damac Lagoons, Dubai. Notable features include a waterfront setting, a gated-community environment, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -288,7 +288,7 @@
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Households seeking a home for family life",
+        "Those considering a residential property investment",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -308,7 +308,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Costa Brava Phase 2 by Damac Properties is a townhouse and villa project in Damac Lagoons, Dubai, offering three-to-six-bedroom homes with a scheduled handover in July 2025. Its positioning reflects a luxury waterfront district setting focused on family-oriented living within a gated community that balances tranquil coastal environments and active communal spaces.",
+      "project_logic_text": "Costa Brava Phase 2 by Damac Properties is a townhouse and villa project in Damac Lagoons, Dubai, offering three-to-six-bedroom homes with a scheduled handover in July 2025. Its residential profile reflects a luxury waterfront district setting focused on family-oriented living within a gated community that balances tranquil coastal environments and active communal spaces.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Costa Brava Phase 2 against its recorded AED 2,200,000 starting price, recorded project timeline and comparable projects in Damac Lagoons.",
+          "text": "For Costa Brava Phase 2, consider its recorded AED 2,200,000 starting price and its recorded project timeline alongside comparable developments in Damac Lagoons.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Costa Brava Phase 2 offers townhouses and villas in Damac Lagoons, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Costa Brava Phase 2 has townhouses and villas in Damac Lagoons, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Costa Brava Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Costa Brava Phase 2 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

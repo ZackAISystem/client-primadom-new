@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Vincitore Aqua Dimore is an off-plan apartment project by Vincitore Real Estate Development located in Dubai Science Park. The project has confirmed family-friendly positioning."
+      "short_answer_summary": "Located in Dubai Science Park, Vincitore Aqua Dimore is an off-plan apartment development by Vincitore Real Estate Development. Its listed characteristics include a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Investors comparing residential property purchases",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Vincitore Aqua Dimore is a residential apartment project by Vincitore Real Estate Development in Dubai Science Park, offering one-to-three-bedroom formats with a stated handover date of December 2026. Its positioning combines family-oriented primary residence and investment use cases within an urban-core setting that emphasizes community living and easy access to city amenities.",
+      "project_logic_text": "Vincitore Aqua Dimore is a residential apartment project by Vincitore Real Estate Development in Dubai Science Park, offering one-to-three-bedroom formats with a stated handover date of December 2026. The residential concept combines family living and potential investment within an urban setting that emphasizes community living and easy access to city amenities.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Vincitore Aqua Dimore against its recorded AED 750,000 starting price, stated 2026 handover timing and comparable projects in Dubai Science Park.",
+          "text": "For Vincitore Aqua Dimore, consider its recorded AED 750,000 starting price and its stated 2026 handover timing alongside comparable developments in Dubai Science Park.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Vincitore Aqua Dimore offers apartments in Dubai Science Park, with a community-oriented residential use case.",
+          "text": "Vincitore Aqua Dimore offers apartments in Dubai Science Park; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Vincitore Aqua Dimore with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Vincitore Aqua Dimore and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

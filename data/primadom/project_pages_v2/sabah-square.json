@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sabah Square is an off-plan apartment project by RSG International located in Jebel Ali. The project includes confirmed sea views and has confirmed family-friendly positioning."
+      "short_answer_summary": "Sabah Square is an off-plan apartment project by RSG International in Jebel Ali. The project is characterised by sea views and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -255,19 +255,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -283,9 +283,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -320,7 +320,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sabah Square is an apartment project by RSG International in Palm Jebel Ali, Dubai, offering one-to-three-bedroom units with a scheduled handover in December 2023. Its positioning focuses on sea-view orientation within an emerging seaside district, emphasizing family-oriented primary residence and quiet community living.",
+      "project_logic_text": "Sabah Square is an apartment project by RSG International in Palm Jebel Ali, Dubai, offering one-to-three-bedroom units with a scheduled handover in December 2023. Its residential concept centres on sea views within an emerging seaside district, emphasizing family living and quiet community living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -347,28 +347,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sabah Square against its recorded project timeline, unit mix and comparable projects in Palm Jebel Ali.",
+          "text": "Compare Sabah Square with projects in Palm Jebel Ali, taking account of the recorded project timeline and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sabah Square offers apartments in Palm Jebel Ali, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Palm Jebel Ali, Sabah Square offers apartments; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sabah Square with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Sabah Square with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

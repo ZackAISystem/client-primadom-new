@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Samana Resorts is an off-plan apartment project by Samana Developers located in Dubai Production City (IMPZ). The project includes confirmed city views."
+      "short_answer_summary": "In Dubai Production City (IMPZ), Samana Resorts is an off-plan apartment project developed by Samana Developers. Its listed characteristics include city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Buyers exploring residential investment options",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Samana Resorts is a residential apartment project by Samana Developers in Dubai Production City, offering studios and one-to-two-bedroom units with a scheduled handover in May 2028. Its positioning reflects a balance between private living spaces and community-oriented urban energy, supporting primary residence and investment use cases within a city-view setting.",
+      "project_logic_text": "Samana Resorts is a residential apartment project by Samana Developers in Dubai Production City, offering studios and one-to-two-bedroom units with a scheduled handover in May 2028. Its character draws on a balance between private living spaces and community-oriented urban energy, supporting homeownership and investment scenarios within a city-view setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Samana Resorts against its recorded AED 669,000 starting price, stated 2028 handover timing and comparable projects in Dubai Production City.",
+          "text": "Assess Samana Resorts alongside projects in Dubai Production City, using its recorded AED 669,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Samana Resorts offers apartments in Dubai Production City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "In Dubai Production City, Samana Resorts offers apartments; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Samana Resorts with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Samana Resorts with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

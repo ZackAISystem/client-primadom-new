@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Mr. C Residences is an off-plan apartment, penthouse, and townhouse project by Alta Real Estate Developments located in Jumeirah 2, Dubai. The project has confirmed luxury and waterfront positioning."
+      "short_answer_summary": "In Jumeirah 2, Dubai, Mr. C Residences is an off-plan apartment, penthouse, and townhouse project developed by Alta Real Estate Developments. It combines a luxury focus with a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers seeking a waterfront setting",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Those considering a residential property investment",
+        "Buyers seeking a waterfront setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Mr C Residences by Alta Real Estate Developments is a luxury waterfront residential project in Dubai’s Jumeirah 2, offering apartments, penthouses and townhouses with three-to-six-bedroom layouts, scheduled for handover in March 2024. Its positioning combines spacious family-friendly homes with urban-core convenience, emphasizing a waterfront lifestyle and suitability for both primary residence and investment use cases.",
+      "project_logic_text": "Mr C Residences by Alta Real Estate Developments is a luxury waterfront residential project in Dubai’s Jumeirah 2, offering apartments, penthouses and townhouses with three-to-six-bedroom layouts, scheduled for handover in March 2024. The residential concept combines spacious family-friendly homes with urban-core convenience, emphasizing a waterfront lifestyle and suitability for both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Mr C Residences against its recorded AED 18,000,000 starting price, recorded project timeline and comparable projects in Jumeirah 2.",
+          "text": "Assess Mr C Residences alongside projects in Jumeirah 2, using its recorded AED 18,000,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Mr C Residences offers apartments, penthouses and townhouses in Jumeirah 2, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Mr C Residences has apartments, penthouses and townhouses in Jumeirah 2, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Mr C Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Mr C Residences with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

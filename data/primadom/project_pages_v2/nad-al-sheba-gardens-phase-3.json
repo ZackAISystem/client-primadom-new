@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Nad Al Sheba Gardens Phase 3 is an off-plan townhouse and villa project by Meraas Holding located in Nad Al Sheba. The project has confirmed luxury and family-friendly positioning."
+      "short_answer_summary": "In Nad Al Sheba, Nad Al Sheba Gardens Phase 3 is an off-plan townhouse and villa project developed by Meraas Holding. The project is characterised by a luxury focus and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Households seeking a home for family life",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers focused on smaller residential layouts",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Nad Al Sheba Gardens Phase 3 by Meraas Holding is a townhouse and villa project in Dubai’s Nad Al Sheba district, offering three-to-five-bedroom homes with a scheduled handover in April 2026. The project’s positioning focuses on family-oriented primary residence within a green, nature-oriented environment that balances privacy and connectivity near cultural attractions.",
+      "project_logic_text": "Nad Al Sheba Gardens Phase 3 by Meraas Holding is a townhouse and villa project in Dubai’s Nad Al Sheba district, offering three-to-five-bedroom homes with a scheduled handover in April 2026. The project focuses on family living within a green, nature-oriented environment that balances privacy and connectivity near cultural attractions.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Nad Al Sheba Gardens Phase 3 against its recorded AED 3,400,000 starting price, stated 2026 handover timing and comparable projects in Nad Al Sheba.",
+          "text": "Compare Nad Al Sheba Gardens Phase 3 with projects in Nad Al Sheba, taking account of the recorded AED 3,400,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Nad Al Sheba Gardens Phase 3 offers townhouses and villas in Nad Al Sheba, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "At Nad Al Sheba Gardens Phase 3 in Nad Al Sheba, suitability depends on the layouts available and your intended use.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Nad Al Sheba Gardens Phase 3 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Nad Al Sheba Gardens Phase 3 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

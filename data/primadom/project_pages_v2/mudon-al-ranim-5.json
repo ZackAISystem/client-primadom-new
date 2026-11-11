@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Mudon Al Ranim 5 is an off-plan townhouse project by Dubai Properties located in Mudon. The project has confirmed luxury and family-friendly positioning and is within a gated community."
+      "short_answer_summary": "In Mudon, Mudon Al Ranim 5 is an off-plan townhouse project developed by Dubai Properties. Its setting brings together a luxury focus, a family-friendly emphasis, and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Buyers choosing a family-focused home",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
+        "People searching for studio-size properties",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Mudon Al Ranim 5 is a townhouse project by Dubai Properties in the Mudon district of Dubai, offering three-to-four-bedroom homes with a scheduled handover in September 2026. Its positioning focuses on family-oriented primary residence within a gated, suburban community that emphasizes nature, quiet living, and spacious layouts.",
+      "project_logic_text": "Mudon Al Ranim 5 is a townhouse project by Dubai Properties in the Mudon district of Dubai, offering three-to-four-bedroom homes with a scheduled handover in September 2026. The project focuses on family living within a gated, suburban community that emphasizes nature, quiet living, and spacious layouts.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Mudon Al Ranim 5 against its recorded AED 2,800,000 starting price, stated 2026 handover timing and comparable projects in Mudon.",
+          "text": "Assess Mudon Al Ranim 5 alongside projects in Mudon, using its recorded AED 2,800,000 starting price and its stated 2026 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Mudon Al Ranim 5 offers townhouses in Mudon, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Mudon Al Ranim 5 has townhouses in Mudon, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Mudon Al Ranim 5 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Mudon Al Ranim 5 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

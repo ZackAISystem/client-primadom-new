@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Community Motor City is an off-plan apartment project by Aqua Properties Developers located in Dubai, Motor City. The project is within a gated community."
+      "short_answer_summary": "In Dubai, Motor City, The Community Motor City is an off-plan apartment project developed by Aqua Properties Developers. The project is characterised by a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -267,13 +267,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Investors comparing residential property purchases",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -326,7 +326,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Community Motor City is a residential apartment project by Aqua Properties Developers in Dubai’s Motor City, offering studio-to-three-bedroom formats with a stated handover date of December 2025. Its positioning combines a gated, community-oriented living environment within an emerging, green district that supports family-friendly primary residence and investment use cases.",
+      "project_logic_text": "The Community Motor City is a residential apartment project by Aqua Properties Developers in Dubai’s Motor City, offering studio-to-three-bedroom formats with a stated handover date of December 2025. The residential concept combines a gated, community-oriented living environment within an emerging, green district that supports family-friendly homeownership and investment scenarios.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -353,28 +353,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Community Motor City against its recorded AED 650,000 starting price, recorded project timeline and comparable projects in Motor City.",
+          "text": "Assess The Community Motor City alongside projects in Motor City, using its recorded AED 650,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Community Motor City offers apartments in Motor City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Community Motor City has apartments in Motor City, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Community Motor City with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare The Community Motor City with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

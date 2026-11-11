@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Damac Lagoons - IBIZA is an off-plan townhouse project by Damac Properties located in Dubai, Damac Lagoons, Ibiza. The project has confirmed luxury and waterfront positioning."
+      "short_answer_summary": "Located in Dubai, Damac Lagoons, Ibiza, Damac Lagoons - IBIZA is an off-plan townhouse development by Damac Properties. Its listed features include a luxury focus and a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -288,7 +288,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Families looking for a home suited to daily living",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -308,7 +308,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Damac Lagoons - IBIZA is a townhouse project by Damac Properties in Dubai’s Damac Lagoons district, offering four-to-five-bedroom homes with a scheduled handover in December 2025. Its positioning focuses on waterfront and lagoon-oriented living within a family-friendly community, combining spacious layouts with a lifestyle centred on social and primary-residence use.",
+      "project_logic_text": "Damac Lagoons - IBIZA is a townhouse project by Damac Properties in Dubai’s Damac Lagoons district, offering four-to-five-bedroom homes with a scheduled handover in December 2025. The emphasis is on waterfront and lagoon-oriented living within a family-friendly community, combining spacious layouts with a lifestyle centred on social and primary-residence use.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Damac Lagoons - IBIZA against its recorded AED 3,000,000 starting price, recorded project timeline and comparable projects in Damac Lagoons.",
+          "text": "For Damac Lagoons - IBIZA, consider its recorded AED 3,000,000 starting price and its recorded project timeline alongside comparable developments in Damac Lagoons.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Damac Lagoons - IBIZA offers townhouses in Damac Lagoons, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Damac Lagoons - IBIZA has townhouses in Damac Lagoons, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Damac Lagoons - IBIZA with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Damac Lagoons - IBIZA and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

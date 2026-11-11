@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Modo at Avenew 88 is an off-plan apartment project by Avenew Properties located in Dubai South (Dubai World Central). The project is within a master community."
+      "short_answer_summary": "Located in Dubai South (Dubai World Central), Modo at Avenew 88 is an off-plan apartment development by Avenew Properties. The project is characterised by a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Buyers looking for a family-focused neighbourhood",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers seeking a family-oriented community"
+        "Homebuyers planning to live in the property",
+        "Buyers exploring residential investment options",
+        "Buyers looking for a family-focused neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Modo at Avenew 88 is a residential apartment project by Avenew Properties in Dubai South, offering one-to-three-bedroom homes with a scheduled handover in March 2028. Its positioning integrates community-oriented living and nature-focused surroundings within an emerging district, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Modo at Avenew 88 is a residential apartment project by Avenew Properties in Dubai South, offering one-to-three-bedroom homes with a scheduled handover in March 2028. Its appeal centres on community-oriented living and nature-focused surroundings within an emerging district, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Modo at Avenew 88 against its recorded AED 800,000 starting price, stated 2028 handover timing and comparable projects in Dubai South.",
+          "text": "Compare Modo at Avenew 88 with projects in Dubai South, taking account of the recorded AED 800,000 starting price and its stated 2028 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Modo at Avenew 88 offers apartments in Dubai South, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Modo at Avenew 88 has apartments in Dubai South, with a master-planned community setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Modo at Avenew 88 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Modo at Avenew 88 with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

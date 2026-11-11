@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Habtoor Grand Residences is an off-plan apartment, penthouse, and townhouse project by Al Habtoor Group located in Dubai Marina. The project has confirmed waterfront and ultra-luxury positioning and includes confirmed sea views."
+      "short_answer_summary": "In Dubai Marina, Habtoor Grand Residences is an off-plan apartment, penthouse, and townhouse project developed by Al Habtoor Group. Notable features include a waterfront setting, an ultra-luxury focus, and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Investors comparing residential property purchases",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "Homebuyers looking specifically for compact homes"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Habtoor Grand Residences by Al Habtoor Group is a luxury residential project in Dubai Marina offering apartments, penthouses, and townhouses with two-to-five-bedroom layouts and sizes ranging from 2,023 to 6,705 square feet, scheduled for handover in December 2027. Its positioning reflects a waterfront district setting with a focus on spacious family-oriented primary residences that combine serene marina views and urban energy in a high-demand coastal community.",
+      "project_logic_text": "Habtoor Grand Residences by Al Habtoor Group is a luxury residential project in Dubai Marina offering apartments, penthouses, and townhouses with two-to-five-bedroom layouts and sizes ranging from 2,023 to 6,705 square feet, scheduled for handover in December 2027. Its residential profile reflects a waterfront district setting with a focus on spacious family-oriented primary residences that combine serene marina views and urban energy in a high-demand coastal community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Habtoor Grand Residences against its recorded AED 11,000,000 starting price, stated 2027 handover timing and comparable projects in Dubai Marina.",
+          "text": "When evaluating Habtoor Grand Residences, weigh its recorded AED 11,000,000 starting price and its stated 2027 handover timing against other projects in Dubai Marina.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Habtoor Grand Residences offers apartments, penthouses and townhouses in Dubai Marina, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubai Marina, Habtoor Grand Residences offers apartments, penthouses and townhouses; the project profile highlights a waterfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Habtoor Grand Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Habtoor Grand Residences and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

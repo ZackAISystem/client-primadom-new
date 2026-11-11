@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Azure Blue Villas is an off-plan villa project by Nakheel located in Palm Jebel Ali. The project has confirmed beachfront and luxury positioning."
+      "short_answer_summary": "Located in Palm Jebel Ali, Azure Blue Villas is an off-plan villa development by Nakheel. The project is characterised by a beachfront setting and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,13 +256,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers focused solely on apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -296,8 +296,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living",
+        "Buyers choosing a family-focused home",
+        "Buyers looking specifically for waterside living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers focused on smaller residential layouts",
+        "Buyers focused solely on apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Azure Blue Villas is a villa project by Nakheel located in Palm Jebel Ali, Dubai, featuring spacious five-bedroom beachfront homes with a handover scheduled for September 2023. Its positioning focuses on luxury waterfront living combined with family-oriented privacy and a tranquil island community environment.",
+      "project_logic_text": "Azure Blue Villas is a villa project by Nakheel located in Palm Jebel Ali, Dubai, featuring spacious five-bedroom beachfront homes with a handover scheduled for September 2023. Its residential concept centres on luxury waterfront living combined with family-oriented privacy and a tranquil island community environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Azure Blue Villas against its recorded AED 21,000,000 starting price, recorded project timeline and comparable projects in Palm Jebel Ali.",
+          "text": "When evaluating Azure Blue Villas, weigh its recorded AED 21,000,000 starting price and its recorded project timeline against other projects in Palm Jebel Ali.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Azure Blue Villas offers villas in Palm Jebel Ali, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Palm Jebel Ali, Azure Blue Villas offers villas; the project profile highlights a beachfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Azure Blue Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Azure Blue Villas and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

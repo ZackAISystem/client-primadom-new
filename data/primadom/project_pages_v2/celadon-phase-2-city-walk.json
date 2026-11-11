@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Celadon Phase 2 City Walk is an off-plan apartment project by Meraas Holding located in City Walk, Central Park at City Walk, Celadon 2. The project includes confirmed park views, city views, and has confirmed luxury positioning."
+      "short_answer_summary": "Celadon Phase 2 City Walk is an off-plan apartment project by Meraas Holding in City Walk, Central Park at City Walk, Celadon 2. The project combines park views, city views, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -284,9 +284,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Investors comparing residential property purchases",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Celadon Phase 2 City Walk is a residential apartment project by Meraas Holding in Dubai’s City Walk, offering one-to-three-bedroom units ranging from 710 to 2,174 square feet with a scheduled handover in March 2025. Its positioning integrates luxury urban living with park-view orientation, catering to both primary residence and investment use cases within a family-friendly, green urban core.",
+      "project_logic_text": "Celadon Phase 2 City Walk is a residential apartment project by Meraas Holding in Dubai’s City Walk, offering one-to-three-bedroom units ranging from 710 to 2,174 square feet with a scheduled handover in March 2025. Its appeal centres on luxury urban living with park views, catering to both owner-occupiers and prospective investors within a family-friendly, green urban core.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Celadon Phase 2 City Walk against its recorded AED 2,100,000 starting price, recorded project timeline and comparable projects in City Walk.",
+          "text": "Assess Celadon Phase 2 City Walk alongside projects in City Walk, using its recorded AED 2,100,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Celadon Phase 2 City Walk offers apartments in City Walk, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Celadon Phase 2 City Walk has apartments in City Walk, with park views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Celadon Phase 2 City Walk with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Celadon Phase 2 City Walk and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

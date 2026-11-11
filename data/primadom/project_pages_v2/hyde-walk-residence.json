@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hyde Walk Residence is an off-plan apartment project by Imtiaz Developments located in Al Satwa, Jumeirah Garden City. The project includes confirmed city views and is a low-rise development."
+      "short_answer_summary": "Hyde Walk Residence, an off-plan apartment project by Imtiaz Developments, is located in Al Satwa, Jumeirah Garden City. It combines city views with a low-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Buyers exploring residential investment options",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking for larger family homes",
+        "Buyers who need a larger family home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hyde Walk Residence is a low-rise apartment project by Imtiaz Developments in Al Satwa, Dubai, offering studios and one-bedroom apartments with a stated handover date of December 2025. Its positioning reflects city-view orientation within an urban-core and cultural district setting, combining primary-residence and investment use cases that emphasize urban living and a quiet environment.",
+      "project_logic_text": "Hyde Walk Residence is a low-rise apartment project by Imtiaz Developments in Al Satwa, Dubai, offering studios and one-bedroom apartments with a stated handover date of December 2025. The residential concept is shaped by city views within an urban-core and cultural district setting, combining homeownership and investment scenarios that emphasize urban living and a quiet environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hyde Walk Residence against its recorded AED 1,300,000 starting price, recorded project timeline and comparable projects in Al Satwa.",
+          "text": "Compare Hyde Walk Residence with projects in Al Satwa, taking account of the recorded AED 1,300,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hyde Walk Residence offers apartments in Al Satwa, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Hyde Walk Residence offers apartments in Al Satwa. Its profile also notes city views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hyde Walk Residence with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Hyde Walk Residence with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

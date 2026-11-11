@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Carmona at Bloom Living is an off-plan townhouse project by Bloom Properties located in Abu Dhabi, Khalifa City, Zayed City. The project has confirmed waterfront and family-friendly positioning."
+      "short_answer_summary": "Carmona at Bloom Living, an off-plan townhouse project by Bloom Properties, is located in Abu Dhabi, Khalifa City, Zayed City. Its listed features include a waterfront setting and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Buyers choosing a family-focused home",
+        "Those considering a residential property investment",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,8 +307,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units"
+        "Buyers who need a ready-to-move-in home now",
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Carmona at Bloom Living is a townhouse project by Bloom Properties in Zayed City, Abu Dhabi, offering two-to-three-bedroom homes with a scheduled handover in September 2027. Its positioning combines waterfront living beside a tranquil lake with family-oriented layouts and a community-focused suburban environment, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Carmona at Bloom Living is a townhouse project by Bloom Properties in Zayed City, Abu Dhabi, offering two-to-three-bedroom homes with a scheduled handover in September 2027. The project brings together waterfront living beside a tranquil lake with family-oriented layouts and a community-focused suburban environment, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Carmona at Bloom Living against its recorded AED 1,900,000 starting price, stated 2027 handover timing and comparable projects in Zayed City.",
+          "text": "Compare Carmona at Bloom Living with projects in Zayed City, taking account of the recorded AED 1,900,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Carmona at Bloom Living offers townhouses in Zayed City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Zayed City, Carmona at Bloom Living offers townhouses; the project profile highlights a waterfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Carmona at Bloom Living with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Carmona at Bloom Living and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

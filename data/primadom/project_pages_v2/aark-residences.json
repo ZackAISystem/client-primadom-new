@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Aark Residences is an off-plan apartment project by Aark Developers located in Dubai Land Residence Complex, Dubailand. The project is within a master community."
+      "short_answer_summary": "Located in Dubai Land Residence Complex, Dubailand, Aark Residences is an off-plan apartment development by Aark Developers. The development has a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Investors comparing residential property purchases",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Aark Residences by Aark Developers is a residential apartment project in Dubailand, Dubai, offering one-to-two-bedroom units ranging from 752 to 1245 square feet with a scheduled handover in December 2024. Its positioning reflects a quiet, suburban master-community environment focused on primary residence and investment use, emphasizing privacy, nature, and family-friendly living.",
+      "project_logic_text": "Aark Residences by Aark Developers is a residential apartment project in Dubailand, Dubai, offering one-to-two-bedroom units ranging from 752 to 1245 square feet with a scheduled handover in December 2024. Its character draws on a quiet, suburban master-community environment focused on owner-occupation and investment use, emphasizing privacy, nature, and family-friendly living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Aark Residences against its recorded AED 843,000 starting price, recorded project timeline and comparable projects in Dubailand.",
+          "text": "Compare Aark Residences with projects in Dubailand, taking account of the recorded AED 843,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Aark Residences offers apartments in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Aark Residences has apartments in Dubailand, with a master-planned community setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Aark Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Aark Residences and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

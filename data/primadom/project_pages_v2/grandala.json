@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Grandala is an off-plan apartment project by Palladium Development located in Al Satwa, Jumeirah Garden City. The project includes confirmed sea views."
+      "short_answer_summary": "Grandala is an off-plan apartment project by Palladium Development in Al Satwa, Jumeirah Garden City. The development has sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -284,9 +284,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Buyers evaluating homes as an investment",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Grandala is an apartment project by Palladium Development in Jumeirah Garden City, Dubai, offering studio to two-bedroom apartments with units sized between 430 and 1237 square feet and scheduled for handover in April 2025. Its positioning balances sea-view orientation with an urban lifestyle that supports both primary residence and investment use cases within a mixed cultural and green district setting.",
+      "project_logic_text": "Grandala is an apartment project by Palladium Development in Jumeirah Garden City, Dubai, offering studio to two-bedroom apartments with units sized between 430 and 1237 square feet and scheduled for handover in April 2025. Its positioning balances sea views with an urban lifestyle that supports both owner-occupiers and prospective investors within a mixed cultural and green district setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Grandala against its recorded AED 848,000 starting price, recorded project timeline and comparable projects in Jumeirah Garden City.",
+          "text": "Compare Grandala with projects in Jumeirah Garden City, taking account of the recorded AED 848,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Grandala offers apartments in Jumeirah Garden City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "In Jumeirah Garden City, Grandala offers apartments; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Grandala with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Grandala with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

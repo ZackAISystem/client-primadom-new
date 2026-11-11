@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers seeking a waterfront setting",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Those considering a residential property investment",
+        "Buyers seeking a waterfront setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Jumeirah Asora Bay is a luxury apartment, duplex and penthouse project by Meraas Holding in Jumeirah, Dubai, offering four-to-seven-bedroom homes with a scheduled handover in March 2029. Its positioning reflects a waterfront lifestyle combined with spacious layouts and a blend of primary-residence and investment use cases within a vibrant seaside urban setting.",
+      "project_logic_text": "Jumeirah Asora Bay is a luxury apartment, duplex and penthouse project by Meraas Holding in Jumeirah, Dubai, offering four-to-seven-bedroom homes with a scheduled handover in March 2029. Its residential profile reflects a waterfront lifestyle combined with spacious layouts and a blend of homeownership and investment scenarios within a vibrant seaside urban setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Jumeirah Asora Bay against its recorded AED 45,000,000 starting price, stated 2029 handover timing and comparable projects in Jumeirah.",
+          "text": "Assess Jumeirah Asora Bay alongside projects in Jumeirah, using its recorded AED 45,000,000 starting price and its stated 2029 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Jumeirah Asora Bay offers apartments, duplexes and penthouses in Jumeirah, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Jumeirah Asora Bay has apartments, duplexes and penthouses in Jumeirah, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Jumeirah Asora Bay with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Jumeirah Asora Bay with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

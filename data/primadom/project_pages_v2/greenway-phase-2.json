@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Greenway Phase 2 is an off-plan townhouse project by Emaar Properties located in Emaar South, Dubai World Central. The project is within a gated community and has confirmed luxury positioning."
+      "short_answer_summary": "Greenway Phase 2 is an off-plan townhouse project by Emaar Properties in Emaar South, Dubai World Central. The project is characterised by a gated-community environment and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "Buyers focused on smaller residential layouts"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Greenway Phase 2 is a townhouse project by Emaar Properties in Emaar South, Dubai, offering three-to-four-bedroom homes scheduled for handover in May 2028. Its positioning focuses on family-oriented primary residence within a gated community, emphasizing spacious layouts and a nature-oriented environment in an emerging green district.",
+      "project_logic_text": "Greenway Phase 2 is a townhouse project by Emaar Properties in Emaar South, Dubai, offering three-to-four-bedroom homes scheduled for handover in May 2028. The emphasis is on family living within a gated community, emphasizing spacious layouts and a nature-oriented environment in an emerging green district.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Greenway Phase 2 against its recorded AED 3,000,000 starting price, stated 2028 handover timing and comparable projects in Emaar South.",
+          "text": "When evaluating Greenway Phase 2, weigh its recorded AED 3,000,000 starting price and its stated 2028 handover timing against other projects in Emaar South.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Greenway Phase 2 offers townhouses in Emaar South, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Greenway Phase 2 has townhouses in Emaar South, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Greenway Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Greenway Phase 2 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

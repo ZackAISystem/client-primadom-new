@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Community is an off-plan apartment project by Aqua Properties Developers located in Jumeirah Village Triangle. The project has confirmed family-friendly positioning."
+      "short_answer_summary": "The Community is an off-plan apartment project by Aqua Properties Developers in Jumeirah Village Triangle. Its listed characteristics include a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Homebuyers prioritising larger family layouts",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Buyers choosing a family-focused home",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking for larger family homes",
+        "Homebuyers prioritising larger family layouts",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Community by Aqua Properties Developers is a residential apartment project in Jumeirah Village Triangle, Dubai, offering studios and one-bedroom units with a scheduled handover in August 2024. Its positioning reflects a quiet suburban setting focused on family-oriented primary residence with a community-living emphasis and opportunities for low-entry investment.",
+      "project_logic_text": "The Community by Aqua Properties Developers is a residential apartment project in Jumeirah Village Triangle, Dubai, offering studios and one-bedroom units with a scheduled handover in August 2024. The residential concept is shaped by a quiet suburban setting focused on family living with a community-living emphasis and opportunities for low-entry investment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Community against its recorded AED 494,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Triangle.",
+          "text": "For The Community, consider its recorded AED 494,000 starting price and its recorded project timeline alongside comparable developments in Jumeirah Village Triangle.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Community offers apartments in Jumeirah Village Triangle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Community offers apartments in Jumeirah Village Triangle; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Community with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare The Community with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

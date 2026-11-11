@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Lunaria Al Barari is an off-plan villa project by Al Barari located in Al Barari. The project has confirmed waterfront, luxury, and family-friendly positioning."
+      "short_answer_summary": "Located in Al Barari, Lunaria Al Barari is an off-plan villa development by Al Barari. Notable features include a waterfront setting, a luxury focus, and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Buyers choosing a family-focused home",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Lunaria Al Barari is a villa project by Al Barari in Dubai’s Al Barari district, offering three-to-six-bedroom homes with a scheduled handover in June 2024. Its positioning reflects a suburban, green-area setting focused on family-oriented primary residence, emphasizing privacy-led living and tranquil surroundings framed by water features.",
+      "project_logic_text": "Lunaria Al Barari is a villa project by Al Barari in Dubai’s Al Barari district, offering three-to-six-bedroom homes with a scheduled handover in June 2024. Its character draws on a suburban, green-area setting focused on family living, emphasizing privacy-led living and tranquil surroundings framed by water features.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Lunaria Al Barari against its recorded AED 27,300,000 starting price, recorded project timeline and comparable projects in Al Barari.",
+          "text": "Compare Lunaria Al Barari with projects in Al Barari, taking account of the recorded AED 27,300,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Lunaria Al Barari offers villas in Al Barari, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Lunaria Al Barari offers villas in Al Barari. Its profile also notes a waterfront setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Lunaria Al Barari with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Lunaria Al Barari with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

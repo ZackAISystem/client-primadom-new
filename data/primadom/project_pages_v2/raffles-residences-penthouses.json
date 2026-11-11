@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Raffles Residences & Penthouses is an off-plan apartment, duplex, and penthouse project by Emerald Place Group located on Palm Jumeirah. The project has confirmed waterfront and luxury positioning and includes confirmed sea views."
+      "short_answer_summary": "Raffles Residences & Penthouses is an off-plan apartment, duplex, and penthouse project by Emerald Place Group on Palm Jumeirah. Its setting brings together a waterfront setting, a luxury focus, and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Investors comparing residential property purchases",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Raffles Residences & Penthouses by Emerald Place Group is a luxury residential project on Palm Jumeirah in Dubai, featuring apartments, duplexes and penthouses with one-to-six-bedroom layouts and a handover date in March 2023. Its positioning integrates waterfront and sea-view orientation with family-friendly spacious formats, combining primary-residence and investment use cases within a tranquil island setting.",
+      "project_logic_text": "Raffles Residences & Penthouses by Emerald Place Group is a luxury residential project on Palm Jumeirah in Dubai, featuring apartments, duplexes and penthouses with one-to-six-bedroom layouts and a handover date in March 2023. The development brings together waterfront and sea views with family-friendly spacious formats, combining homeownership and investment scenarios within a tranquil island setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Raffles Residences & Penthouses against its recorded AED 7,300,000 starting price, recorded project timeline and comparable projects in Palm Jumeirah.",
+          "text": "For Raffles Residences & Penthouses, consider its recorded AED 7,300,000 starting price and its recorded project timeline alongside comparable developments in Palm Jumeirah.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Raffles Residences & Penthouses offers apartments, duplexes and penthouses in Palm Jumeirah, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "In Palm Jumeirah, Raffles Residences & Penthouses offers apartments, duplexes and penthouses; the project profile highlights a waterfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Raffles Residences & Penthouses with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Raffles Residences & Penthouses with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Bulgari Lighthouse is an off-plan penthouse project by Meraas Holding located on Jumeirah Bay Island in Jumeirah. The project has confirmed ultra-luxury positioning and includes confirmed sea views."
+      "short_answer_summary": "Bulgari Lighthouse, an off-plan penthouse project by Meraas Holding, is located on Jumeirah Bay Island in Jumeirah. Its listed features include an ultra-luxury focus and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living",
-        "Buyers looking for a quieter residential setting"
+        "Buyers exploring residential investment options",
+        "Homebuyers drawn to waterfront living",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "Buyers focused on smaller residential layouts"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bulgari Lighthouse is an ultra-luxury penthouse project by Meraas Holding on Jumeirah Bay Island in Dubai, offering four-to-five-bedroom homes with sizes ranging from 6,439 to 11,656 square feet and scheduled for handover in March 2027. Its positioning reflects exclusive island living with private, spacious layouts oriented toward a tranquil waterfront lifestyle, supporting both family-oriented primary residence and investment use cases.",
+      "project_logic_text": "Bulgari Lighthouse is an ultra-luxury penthouse project by Meraas Holding on Jumeirah Bay Island in Dubai, offering four-to-five-bedroom homes with sizes ranging from 6,439 to 11,656 square feet and scheduled for handover in March 2027. Its residential profile reflects exclusive island living with private, spacious layouts oriented toward a tranquil waterfront lifestyle, supporting both family living and potential investment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bulgari Lighthouse against its recorded AED 117,000,000 starting price, stated 2027 handover timing and comparable projects in Jumeirah Bay Island.",
+          "text": "Compare Bulgari Lighthouse with projects in Jumeirah Bay Island, taking account of the recorded AED 117,000,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bulgari Lighthouse offers penthouses in Jumeirah Bay Island, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Bulgari Lighthouse offers penthouses in Jumeirah Bay Island. Its profile also notes sea views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bulgari Lighthouse with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Bulgari Lighthouse and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

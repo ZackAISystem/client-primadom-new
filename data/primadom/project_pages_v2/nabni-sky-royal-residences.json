@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Nabni Sky Royal Residences is an off-plan apartment project by Nabni Real Estate Development located in Dubai, Business Bay. The project includes confirmed city views, is a high-rise development, and has confirmed luxury positioning."
+      "short_answer_summary": "In Dubai, Business Bay, Nabni Sky Royal Residences is an off-plan apartment project developed by Nabni Real Estate Development. The project combines city views, a high-rise format, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Those considering a residential property investment",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Nabni Sky Royal Residences is a high-rise apartment project by Nabni Real Estate Development in Business Bay, Dubai, offering one-to-four-bedroom formats with a stated handover date of December 2030. Its positioning integrates luxury urban living and city-view orientation with primary-residence and investment use cases in a central business district setting.",
+      "project_logic_text": "Nabni Sky Royal Residences is a high-rise apartment project by Nabni Real Estate Development in Business Bay, Dubai, offering one-to-four-bedroom formats with a stated handover date of December 2030. The development brings together luxury urban living and city views with homeownership and investment scenarios in a central business district setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Nabni Sky Royal Residences against its stated 2030 handover timing, unit mix and comparable projects in Business Bay.",
+          "text": "When evaluating Nabni Sky Royal Residences, weigh its stated 2030 handover timing and the unit mix against other projects in Business Bay.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Nabni Sky Royal Residences offers apartments in Business Bay, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Nabni Sky Royal Residences has apartments in Business Bay, with city views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Nabni Sky Royal Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Nabni Sky Royal Residences and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

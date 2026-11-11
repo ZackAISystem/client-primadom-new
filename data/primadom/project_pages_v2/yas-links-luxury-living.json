@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Yas Links Luxury Living is an off-plan apartment and duplex project by Aldar Properties PJSC located on Yas Island. The project has confirmed waterfront positioning, includes confirmed sea views, and has confirmed golf-related features."
+      "short_answer_summary": "Yas Links Luxury Living is an off-plan apartment and duplex project by Aldar Properties PJSC on Yas Island. The project combines a waterfront setting, sea views, and a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Investors comparing residential property purchases",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for villas"
       ],
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Yas Links Luxury Living is a future-delivery residential project by Aldar Properties PJSC in Abu Dhabi’s Yas Island, offering one-to-three-bedroom apartments and duplexes with a handover scheduled for December 2028. Its positioning integrates waterfront and sea-view orientation with a family-friendly, privacy-led environment suited for both primary residence and investment purposes within a resort-oriented island setting.",
+      "project_logic_text": "Yas Links Luxury Living is a future-delivery residential project by Aldar Properties PJSC in Abu Dhabi’s Yas Island, offering one-to-three-bedroom apartments and duplexes with a handover scheduled for December 2028. The development brings together waterfront and sea views with a family-friendly, privacy-led environment suited for both primary residence and investment purposes within a resort-oriented island setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Yas Links Luxury Living against its recorded AED 3,800,000 starting price, stated 2028 handover timing and comparable projects in Yas Island.",
+          "text": "Compare Yas Links Luxury Living with projects in Yas Island, taking account of the recorded AED 3,800,000 starting price and its stated 2028 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Yas Links Luxury Living offers apartments and duplexes in Yas Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Yas Links Luxury Living has apartments and duplexes in Yas Island, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Yas Links Luxury Living with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Yas Links Luxury Living and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Radiant Marina Towers is an off-plan apartment project by Radiant Enterprises Real Estate located on Al Reem Island, Shams Abu Dhabi. The project has confirmed waterfront and high-rise positioning."
+      "short_answer_summary": "On Al Reem Island, Shams Abu Dhabi, Radiant Marina Towers is an off-plan apartment project developed by Radiant Enterprises Real Estate. The project is characterised by a waterfront setting and a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers seeking a waterfront setting",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers seeking a waterfront setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Radiant Marina Towers is a high-rise apartment project by Radiant Enterprises Real Estate on Al Reem Island in Abu Dhabi, offering studio-to-three-bedroom units with a stated handover date of December 2027. Its positioning combines waterfront-oriented living with a family-focused primary-residence use case within an island setting that balances urban vibrancy and peaceful marina views.",
+      "project_logic_text": "Radiant Marina Towers is a high-rise apartment project by Radiant Enterprises Real Estate on Al Reem Island in Abu Dhabi, offering studio-to-three-bedroom units with a stated handover date of December 2027. The residential concept combines waterfront-oriented living with a family-focused primary-residence use case within an island setting that balances urban vibrancy and peaceful marina views.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Radiant Marina Towers against its recorded AED 610,000 starting price, stated 2027 handover timing and comparable projects in Al Reem Island.",
+          "text": "Compare Radiant Marina Towers with projects in Al Reem Island, taking account of the recorded AED 610,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Radiant Marina Towers offers apartments in Al Reem Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Radiant Marina Towers has apartments in Al Reem Island, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Radiant Marina Towers with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Radiant Marina Towers and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

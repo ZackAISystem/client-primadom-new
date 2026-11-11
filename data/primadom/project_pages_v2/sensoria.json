@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sensoria is an off-plan apartment project by Five Holdings located in Jumeirah Beach Residence. The project has confirmed beachfront and ultra-luxury positioning and includes confirmed sea views."
+      "short_answer_summary": "Sensoria, an off-plan apartment project by Five Holdings, is located in Jumeirah Beach Residence. Its setting brings together a beachfront setting, an ultra-luxury focus, and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Households seeking a home for family life",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sensoria by Five Holdings is a residential project in Jumeirah Beach Residence, Dubai, featuring three-to-five-bedroom apartments with a scheduled handover in September 2024. Its positioning focuses on a beachfront location with sea-view orientation and ultra-luxury design, emphasizing family-oriented primary residence and a quiet, waterfront lifestyle within an urban-core setting.",
+      "project_logic_text": "Sensoria by Five Holdings is a residential project in Jumeirah Beach Residence, Dubai, featuring three-to-five-bedroom apartments with a scheduled handover in September 2024. The emphasis is on a beachfront location with sea views and ultra-luxury design, emphasizing family living and a quiet, waterfront lifestyle within an urban setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sensoria against its recorded AED 17,000,000 starting price, recorded project timeline and comparable projects in Jumeirah Beach Residence.",
+          "text": "Assess Sensoria alongside projects in Jumeirah Beach Residence, using its recorded AED 17,000,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sensoria offers apartments in Jumeirah Beach Residence, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Sensoria has apartments in Jumeirah Beach Residence, with a beachfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sensoria with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Sensoria with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

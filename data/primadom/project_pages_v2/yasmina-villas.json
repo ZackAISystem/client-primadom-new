@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Yasmina Villas is an off-plan villa project developed by Expo City Dubai located in Expo City, Expo City Valley. The project includes confirmed park views and has confirmed luxury positioning."
+      "short_answer_summary": "Yasmina Villas, an off-plan villa project by Expo City Dubai, is located in Expo City, Expo City Valley. Its listed features include park views and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,8 +302,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
+        "Families looking for a home suited to daily living",
+        "Buyers exploring residential investment options",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Yasmina Villas is a villa project by Expo City Dubai in Expo City, offering four-to-five-bedroom homes with a scheduled handover in December 2025. Its positioning focuses on spacious family living within a green, emerging community, combining park-view orientation with lifestyle and investment use cases.",
+      "project_logic_text": "Yasmina Villas is a villa project by Expo City Dubai in Expo City, offering four-to-five-bedroom homes with a scheduled handover in December 2025. Its residential concept centres on spacious family living within a green, emerging community, combining park views with lifestyle and investment use cases.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Yasmina Villas against its recorded AED 6,100,000 starting price, recorded project timeline and comparable projects in Expo City.",
+          "text": "Assess Yasmina Villas alongside projects in Expo City, using its recorded AED 6,100,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Yasmina Villas offers villas in Expo City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Yasmina Villas offers villas in Expo City. Its profile also notes park views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Yasmina Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Yasmina Villas with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

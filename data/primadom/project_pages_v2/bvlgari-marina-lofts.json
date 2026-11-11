@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "BVLGARI Marina Lofts is an off-plan apartment project by Meraas Holding located in Jumeirah Bay Island, Jumeirah. The project has confirmed luxury and waterfront positioning."
+      "short_answer_summary": "BVLGARI Marina Lofts is an off-plan apartment project by Meraas Holding in Jumeirah Bay Island, Jumeirah. It combines a luxury focus with a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Buyers evaluating homes as an investment",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "BVLGARI Marina Lofts by Meraas Holding is a luxury apartment project in Dubai’s Jumeirah Bay Island, featuring two-to-four-bedroom units ranging from 2,119 to 9,434 square feet with a handover date of June 2023. The development’s positioning combines waterfront luxury living on a private island with family-oriented primary residence and investment use cases in a secure, tranquil setting adjacent to Jumeirah’s vibrant community.",
+      "project_logic_text": "BVLGARI Marina Lofts by Meraas Holding is a luxury apartment project in Dubai’s Jumeirah Bay Island, featuring two-to-four-bedroom units ranging from 2,119 to 9,434 square feet with a handover date of June 2023. The project brings together waterfront luxury living on a private island with family living and potential investment in a secure, tranquil setting adjacent to Jumeirah’s vibrant community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review BVLGARI Marina Lofts against its recorded AED 4,500,000 starting price, recorded project timeline and comparable projects in Jumeirah Bay Island.",
+          "text": "For BVLGARI Marina Lofts, consider its recorded AED 4,500,000 starting price and its recorded project timeline alongside comparable developments in Jumeirah Bay Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "BVLGARI Marina Lofts offers apartments in Jumeirah Bay Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "BVLGARI Marina Lofts has apartments in Jumeirah Bay Island, with a waterfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare BVLGARI Marina Lofts with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for BVLGARI Marina Lofts and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

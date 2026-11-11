@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Dar Al Jawhara is an off-plan apartment project by Realty One Development located in Jumeirah Village Circle. The project is within a gated community and has confirmed family-friendly positioning."
+      "short_answer_summary": "Located in Jumeirah Village Circle, Dar Al Jawhara is an off-plan apartment development by Realty One Development. The project is characterised by a gated-community environment and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,19 +256,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -284,9 +284,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Families looking for a home suited to daily living",
+        "Buyers evaluating homes as an investment",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Dar Al Jawhara is a residential apartment project by Realty One Development in Jumeirah Village Circle, Dubai, offering studios and one-to-two-bedroom apartments with a handover scheduled for June 2023. Its positioning reflects a suburban, gated community emphasizing family-oriented living and investment use cases within a quiet and green area.",
+      "project_logic_text": "Dar Al Jawhara is a residential apartment project by Realty One Development in Jumeirah Village Circle, Dubai, offering studios and one-to-two-bedroom apartments with a handover scheduled for June 2023. Its character draws on a suburban, gated community emphasizing family-oriented living and investment use cases within a quiet and green area.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Dar Al Jawhara against its recorded AED 486,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Circle.",
+          "text": "When evaluating Dar Al Jawhara, weigh its recorded AED 486,000 starting price and its recorded project timeline against other projects in Jumeirah Village Circle.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Dar Al Jawhara offers apartments in Jumeirah Village Circle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Dar Al Jawhara offers apartments in Jumeirah Village Circle. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Dar Al Jawhara with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Dar Al Jawhara and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

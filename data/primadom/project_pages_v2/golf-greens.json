@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Golf Greens is an off-plan apartment and townhouse project by Damac Properties located in DAMAC Hills. The project has confirmed golf and gated positioning."
+      "short_answer_summary": "Golf Greens, an off-plan apartment and townhouse project by Damac Properties, is located in DAMAC Hills. The development has a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -267,7 +267,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -281,7 +281,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,7 +290,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately"
+        "Buyers who need a ready-to-move-in home now"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -326,7 +326,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Golf Greens is a residential project by Damac Properties in Damac Hills, Dubai, offering one-to-three-bedroom apartments and townhouses with a scheduled handover in March 2027. Its positioning focuses on suburban green living within a gated community, combining family-oriented primary residence with nature-led privacy and community living.",
+      "project_logic_text": "Golf Greens is a residential project by Damac Properties in Damac Hills, Dubai, offering one-to-three-bedroom apartments and townhouses with a scheduled handover in March 2027. Its residential concept centres on suburban green living within a gated community, combining family living with nature-led privacy and community living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -353,28 +353,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Golf Greens against its recorded AED 1,700,000 starting price, stated 2027 handover timing and comparable projects in Damac Hills.",
+          "text": "When evaluating Golf Greens, weigh its recorded AED 1,700,000 starting price and its stated 2027 handover timing against other projects in Damac Hills.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Golf Greens offers apartments and townhouses in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Damac Hills, Golf Greens offers apartments and townhouses; the project profile highlights a golf-oriented setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Golf Greens with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Golf Greens and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

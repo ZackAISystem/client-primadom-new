@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Kaya Sharjah is an off-plan residential project by ARADA - Sale located in Tilal City, Masaar, Kaya, offering townhouses and villas. The project is within a gated community and a master community."
+      "short_answer_summary": "In Tilal City, Masaar, Kaya, offering townhouses and villas, Kaya Sharjah is an off-plan residential project developed by ARADA - Sale. It combines a gated-community environment with a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Buyers choosing a family-focused home",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,8 +313,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments",
+        "Homebuyers looking specifically for compact homes",
+        "People specifically seeking an apartment",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Kaya Sharjah is a townhouse and villa project by ARADA located in the Masaar district of Sharjah, offering two-to-five-bedroom homes with a stated handover date of September 2023. Its positioning centres on family-oriented primary residence within a gated master-community setting, emphasizing privacy-led living in a quiet, green suburban environment.",
+      "project_logic_text": "Kaya Sharjah is a townhouse and villa project by ARADA located in the Masaar district of Sharjah, offering two-to-five-bedroom homes with a stated handover date of September 2023. Its positioning centres on family living within a gated master-community setting, emphasizing privacy-led living in a quiet, green suburban environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Kaya Sharjah against its recorded AED 1,500,000 starting price, recorded project timeline and comparable projects in Masaar.",
+          "text": "Assess Kaya Sharjah alongside projects in Masaar, using its recorded AED 1,500,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Kaya Sharjah offers townhouses and villas in Masaar, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Kaya Sharjah has townhouses and villas in Masaar, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Kaya Sharjah with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Kaya Sharjah with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

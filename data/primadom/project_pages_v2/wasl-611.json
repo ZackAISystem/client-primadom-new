@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Wasl 611 is an off-plan apartment project by Wasl Properties located in Al Warsan. The project includes confirmed city views."
+      "short_answer_summary": "In Al Warsan, Wasl 611 is an off-plan apartment project developed by Wasl Properties. The development has city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Investors comparing residential property purchases",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking for larger family homes",
+        "Buyers who need a larger family home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Wasl 611 is a residential apartment project by Wasl Properties in Dubai’s Al Warsan district, offering studio and one-bedroom apartments scheduled for handover in March 2024. Its positioning reflects an emerging urban area with city-view orientation, supporting both primary residence and investment use cases while balancing access to daily amenities and work-life integration.",
+      "project_logic_text": "Wasl 611 is a residential apartment project by Wasl Properties in Dubai’s Al Warsan district, offering studio and one-bedroom apartments scheduled for handover in March 2024. Its character draws on an emerging urban area with city views, supporting both owner-occupiers and prospective investors while balancing access to daily amenities and work-life integration.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Wasl 611 against its recorded project timeline, unit mix and comparable projects in Al Warsan.",
+          "text": "When evaluating Wasl 611, weigh its recorded project timeline and the unit mix against other projects in Al Warsan.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Wasl 611 offers apartments in Al Warsan, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Wasl 611 has apartments in Al Warsan, with city views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Wasl 611 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Wasl 611 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

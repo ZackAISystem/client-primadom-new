@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -291,7 +291,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
+        "People searching for studio-size properties",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -328,7 +328,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "H3 by Aurora Real Estate Development is an apartment project in Jumeirah Village Circle, Dubai, offering two-bedroom units with a scheduled handover in December 2024. The project’s positioning focuses on family-oriented primary residence within a master-community suburban setting that emphasizes community living and safe, spacious environments.",
+      "project_logic_text": "H3 by Aurora Real Estate Development is an apartment project in Jumeirah Village Circle, Dubai, offering two-bedroom units with a scheduled handover in December 2024. The project focuses on family living within a master-community suburban setting that emphasizes community living and safe, spacious environments.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -355,28 +355,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review H3 against its recorded AED 571,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Circle.",
+          "text": "Assess H3 alongside projects in Jumeirah Village Circle, using its recorded AED 571,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "H3 offers apartments in Jumeirah Village Circle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "H3 has apartments in Jumeirah Village Circle, with a master-planned community setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare H3 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about H3 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

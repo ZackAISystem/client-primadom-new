@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Belair at The Trump Estates is an off-plan apartment and villa project by Damac Properties located in DAMAC Hills. The project has confirmed luxury positioning, is within a gated community, and is part of a master community."
+      "short_answer_summary": "Located in DAMAC Hills, Belair at The Trump Estates is an off-plan apartment and villa development by Damac Properties. Notable features include a luxury focus, a gated-community environment, and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units"
+        "Homebuyers looking specifically for compact homes"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Belair at The Trump Estates is a villa project by Damac Properties in Damac Hills, Dubai, offering four-to-five-bedroom homes scheduled for handover in December 2024. Its positioning focuses on family-oriented primary residence within a gated master-community set in a suburban, green area that emphasizes privacy, spacious layouts, and a quiet, nature-led environment.",
+      "project_logic_text": "Belair at The Trump Estates is a villa project by Damac Properties in Damac Hills, Dubai, offering four-to-five-bedroom homes scheduled for handover in December 2024. The project focuses on family living within a gated master-community set in a suburban, green area that emphasizes privacy, spacious layouts, and a quiet, nature-led environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Belair at The Trump Estates against its recorded AED 1,900,000 starting price, recorded project timeline and comparable projects in Damac Hills.",
+          "text": "Assess Belair at The Trump Estates alongside projects in Damac Hills, using its recorded AED 1,900,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Belair at The Trump Estates offers apartments and villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Belair at The Trump Estates has apartments and villas in Damac Hills, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Belair at The Trump Estates with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Belair at The Trump Estates with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

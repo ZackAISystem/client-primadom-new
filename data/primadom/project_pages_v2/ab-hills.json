@@ -261,19 +261,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Households drawn to family-friendly community living",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -289,9 +289,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers seeking a family-oriented community"
+        "Homebuyers planning to live in the property",
+        "Buyers evaluating homes as an investment",
+        "Households drawn to family-friendly community living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -326,7 +326,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "AB Hills is a residential project by AB Developers located in Palm Jebel Ali, Dubai, set within a master-community featuring park views. Its positioning emphasizes a nature-oriented, family-friendly environment that supports primary residence and investment use cases within a green, community-focused setting.",
+      "project_logic_text": "AB Hills is a residential project by AB Developers located in Palm Jebel Ali, Dubai, set within a master-community featuring park views. The project highlights a nature-oriented, family-friendly environment that supports homeownership and investment scenarios within a green, community-focused setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -353,7 +353,7 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review AB Hills against its location, unit mix and comparable projects in Palm Jebel Ali.",
+          "text": "When evaluating AB Hills, weigh its location and the unit mix against other projects in Palm Jebel Ali.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
@@ -367,14 +367,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare AB Hills with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare AB Hills with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

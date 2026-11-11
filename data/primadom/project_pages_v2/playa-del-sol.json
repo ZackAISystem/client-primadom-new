@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Households drawn to family-friendly community living",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers prioritising waterfront living",
-        "Buyers seeking a family-oriented community"
+        "People who prioritise living by the water",
+        "Households drawn to family-friendly community living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -301,7 +301,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately"
+        "Homebuyers looking for a completed property now"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Playa Del Sol by Ellington is a mixed-format residential project on Al Marjan Island featuring studio-to-four-bedroom apartments, duplexes, penthouses and villas, scheduled for handover in December 2027. Its positioning reflects waterfront-oriented and resort-style living in a family-friendly island community, emphasizing spacious layouts and a safe environment suited to primary residences and holiday homes.",
+      "project_logic_text": "Playa Del Sol by Ellington is a mixed-format residential project on Al Marjan Island featuring studio-to-four-bedroom apartments, duplexes, penthouses and villas, scheduled for handover in December 2027. Its character draws on waterfront-oriented and resort-style living in a family-friendly island community, emphasizing spacious layouts and a safe environment suited to primary residences and holiday homes.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Playa Del Sol against its recorded AED 1,100,000 starting price, stated 2027 handover timing and comparable projects in Al Marjan Island.",
+          "text": "When evaluating Playa Del Sol, weigh its recorded AED 1,100,000 starting price and its stated 2027 handover timing against other projects in Al Marjan Island.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Playa Del Sol offers apartments, duplexes, penthouses and villas in Al Marjan Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Al Marjan Island, Playa Del Sol offers apartments, duplexes, penthouses and villas; the project profile highlights a waterfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Playa Del Sol with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Playa Del Sol and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

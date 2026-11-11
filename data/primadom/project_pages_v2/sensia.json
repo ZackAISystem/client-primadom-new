@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sensia is an off-plan apartment and penthouse project by BEYOND located in Maritime City, Dubai. The project includes confirmed sea views and has confirmed waterfront positioning."
+      "short_answer_summary": "Sensia, an off-plan apartment and penthouse project by BEYOND, is located in Maritime City, Dubai. The project is characterised by sea views and a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sensia is a residential project by BEYOND in Dubai Maritime City, offering one-to-three-bedroom apartments and penthouses with a scheduled handover in March 2029. Its positioning focuses on waterfront living with sea-view orientation, combining a family-oriented primary residence use case within a tranquil waterfront district setting.",
+      "project_logic_text": "Sensia is a residential project by BEYOND in Dubai Maritime City, offering one-to-three-bedroom apartments and penthouses with a scheduled handover in March 2029. The emphasis is on waterfront living with sea views, combining a family-oriented owner-occupation case within a tranquil waterfront district setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sensia against its recorded AED 2,100,000 starting price, stated 2029 handover timing and comparable projects in Maritime City.",
+          "text": "Compare Sensia with projects in Maritime City, taking account of the recorded AED 2,100,000 starting price and its stated 2029 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sensia offers apartments and penthouses in Maritime City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Maritime City, Sensia offers apartments and penthouses; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sensia with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Sensia with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Four Seasons Private Residences DIFC is an off-plan apartment and penthouse project by H&H Development located in Dubai’s DIFC district. The project has confirmed luxury positioning."
+      "short_answer_summary": "Located in Dubai’s DIFC district, Four Seasons Private Residences DIFC is an off-plan apartment and penthouse development by H&H Development. Its listed characteristics include a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Those considering a residential property investment",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for villas"
       ],
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Four Seasons Private Residences DIFC is a luxury apartment and penthouse project by H&H Development located in Dubai’s financial district, scheduled for handover in January 2027. Its positioning blends private living with city living in an urban core business district, supporting primary residence and investment use cases within a quiet and secure environment.",
+      "project_logic_text": "Four Seasons Private Residences DIFC is a luxury apartment and penthouse project by H&H Development located in Dubai’s financial district, scheduled for handover in January 2027. Its positioning blends private living with city living in an urban core business district, supporting homeownership and investment scenarios within a quiet and secure environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Four Seasons Private Residences DIFC against its recorded AED 34,000,000 starting price, stated 2027 handover timing and comparable projects in DIFC.",
+          "text": "Compare Four Seasons Private Residences DIFC with projects in DIFC, taking account of the recorded AED 34,000,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Four Seasons Private Residences DIFC offers apartments and penthouses in DIFC, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Four Seasons Private Residences DIFC offers apartments and penthouses in DIFC; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Four Seasons Private Residences DIFC with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Four Seasons Private Residences DIFC with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

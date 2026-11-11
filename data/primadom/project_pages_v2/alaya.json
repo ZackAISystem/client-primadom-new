@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Alaya is an off-plan villa project by Majid Al Futtaim located in Dubai, Tilal Al Ghaf, Dubailand. The project has confirmed luxury positioning and is within a gated community with golf-related features."
+      "short_answer_summary": "In Dubai, Tilal Al Ghaf, Dubailand, Alaya is an off-plan villa project developed by Majid Al Futtaim. The project combines a luxury focus, a gated-community environment, and a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,7 +262,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -288,7 +288,7 @@
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Families looking for a home suited to daily living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -309,7 +309,7 @@
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers whose search is limited to apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Alaya is a villa project by Majid Al Futtaim located in Dubailand, Dubai, featuring four-to-six-bedroom homes ranging from 5,825 to 9,522 square feet with a scheduled handover in July 2026. Its positioning reflects a suburban, gated community focused on family-oriented primary residence with spacious layouts, combining privacy-led living and nature-oriented surroundings near Jumeirah Golf Estates.",
+      "project_logic_text": "Alaya is a villa project by Majid Al Futtaim located in Dubailand, Dubai, featuring four-to-six-bedroom homes ranging from 5,825 to 9,522 square feet with a scheduled handover in July 2026. Its character draws on a suburban, gated community focused on family living with spacious layouts, combining privacy-led living and nature-oriented surroundings near Jumeirah Golf Estates.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Alaya against its recorded AED 11,000,000 starting price, stated 2026 handover timing and comparable projects in Dubailand.",
+          "text": "When evaluating Alaya, weigh its recorded AED 11,000,000 starting price and its stated 2026 handover timing against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Alaya offers villas in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubailand, Alaya offers villas; the project profile highlights a gated-community environment, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Alaya with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Alaya with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

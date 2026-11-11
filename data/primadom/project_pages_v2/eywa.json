@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Eywa is an off-plan apartment and penthouse project by R. Evolution located in Dubai, Business Bay. The project has confirmed luxury, ultra-luxury, and high-rise positioning."
+      "short_answer_summary": "In Dubai, Business Bay, Eywa is an off-plan apartment and penthouse project developed by R. Evolution. Its setting brings together a luxury focus, an ultra-luxury focus, and a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers evaluating homes as an investment",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -308,7 +308,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
+        "Buyers focused on smaller residential layouts",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Eywa by R. Evolution is a high-rise residential project in Dubai’s Business Bay offering apartments and penthouses with two to five bedrooms, scheduled for handover in April 2026. Its positioning integrates spacious layouts with urban living in a business-district setting, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Eywa by R. Evolution is a high-rise residential project in Dubai’s Business Bay offering apartments and penthouses with two to five bedrooms, scheduled for handover in April 2026. The residential setting combines spacious layouts with urban living in a business-district setting, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Eywa against its recorded AED 12,000,000 starting price, stated 2026 handover timing and comparable projects in Business Bay.",
+          "text": "Compare Eywa with projects in Business Bay, taking account of the recorded AED 12,000,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Eywa offers apartments and penthouses in Business Bay, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Eywa has apartments and penthouses in Business Bay, with a high-rise format noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Eywa with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Eywa with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

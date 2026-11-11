@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Samana Avenue Phase 2 is an off-plan apartment project by Samana Developers located in Dubailand at Dubai Land Residence Complex, Samana Avenue. The project is a low-rise development."
+      "short_answer_summary": "Samana Avenue Phase 2, an off-plan apartment project by Samana Developers, is located in Dubailand at Dubai Land Residence Complex, Samana Avenue. The project is characterised by a low-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Investors comparing residential property purchases",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking for larger family homes",
+        "Buyers who need a larger family home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Samana Avenue Phase 2 by Samana Developers is a low-rise apartment project located in the emerging district of Dubailand in Dubai. Its positioning reflects a balance between urban living and a quiet environment, supporting both primary residence and investment use cases within a community-oriented setting.",
+      "project_logic_text": "Samana Avenue Phase 2 by Samana Developers is a low-rise apartment project located in the emerging district of Dubailand in Dubai. Its residential profile reflects a balance between urban living and a quiet environment, supporting both owner-occupiers and prospective investors within a community-oriented setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Samana Avenue Phase 2 against its location, unit mix and comparable projects in Dubailand.",
+          "text": "For Samana Avenue Phase 2, consider its location and the unit mix alongside comparable developments in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Samana Avenue Phase 2 offers apartments in Dubailand, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Samana Avenue Phase 2 offers apartments in Dubailand. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Samana Avenue Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Samana Avenue Phase 2 and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

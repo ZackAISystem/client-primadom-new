@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sierra is an off-plan apartment and duplex project by Iman Developers located in Motor City, Dubai. The project is a low-rise development, includes confirmed city views, and is within a gated community."
+      "short_answer_summary": "Sierra is an off-plan apartment and duplex project by Iman Developers in Motor City, Dubai. Its setting brings together a low-rise format, city views, and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Buyers exploring residential investment options",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sierra is a low-rise residential project by Iman Developers in Dubai’s Motor City, offering apartments and duplexes with studio-to-four-bedroom formats and a scheduled handover in January 2029. Its positioning reflects an urban-core setting that balances city living with access to green areas, combining primary-residence and investment use cases within a gated community.",
+      "project_logic_text": "Sierra is a low-rise residential project by Iman Developers in Dubai’s Motor City, offering apartments and duplexes with studio-to-four-bedroom formats and a scheduled handover in January 2029. The residential concept is shaped by an urban setting that balances city living with access to green areas, combining homeownership and investment scenarios within a gated community.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sierra against its recorded AED 799,000 starting price, stated 2029 handover timing and comparable projects in Motor City.",
+          "text": "Compare Sierra with projects in Motor City, taking account of the recorded AED 799,000 starting price and its stated 2029 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sierra offers apartments and duplexes in Motor City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Sierra offers apartments and duplexes in Motor City. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sierra with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Sierra with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

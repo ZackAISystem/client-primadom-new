@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Ozean Heights is an off-plan apartment project by Ozean Real Estate Development located in Al Barsha. The project includes confirmed city views, is a high-rise development, and has confirmed luxury positioning."
+      "short_answer_summary": "Ozean Heights is an off-plan apartment project by Ozean Real Estate Development in Al Barsha. Its setting brings together city views, a high-rise format, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Homebuyers attracted to urban living",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Investors comparing residential property purchases",
+        "Homebuyers attracted to urban living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Ozean Heights is a high-rise apartment project by Ozean Real Estate Development in Al Barsha, Dubai, offering studio-to-two-bedroom formats with a scheduled handover in June 2027. Its positioning integrates luxury city living with a quiet urban-core environment, combining primary-residence and investment use cases alongside city-view orientation.",
+      "project_logic_text": "Ozean Heights is a high-rise apartment project by Ozean Real Estate Development in Al Barsha, Dubai, offering studio-to-two-bedroom formats with a scheduled handover in June 2027. The residential setting combines luxury city living with a quiet urban-core environment, combining homeownership and investment scenarios alongside city views.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Ozean Heights against its stated 2027 handover timing, unit mix and comparable projects in Al Barsha.",
+          "text": "For Ozean Heights, consider its stated 2027 handover timing and the unit mix alongside comparable developments in Al Barsha.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Ozean Heights offers apartments in Al Barsha, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Ozean Heights has apartments in Al Barsha, with city views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Ozean Heights with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Ozean Heights and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

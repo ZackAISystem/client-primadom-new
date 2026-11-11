@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Raiha Villas is an off-plan villa project by BT Holdings located in Dubai South (Dubai World Central), Waada by Bahria Town. The project has confirmed luxury positioning and is within a gated community."
+      "short_answer_summary": "In Dubai South (Dubai World Central), Waada by Bahria Town, Raiha Villas is an off-plan villa project developed by BT Holdings. The project is characterised by a luxury focus and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -294,7 +294,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Households seeking a home for family life",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units"
+        "Homebuyers looking specifically for compact homes"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Raiha Villas by BT Holdings is a villa project in Dubai South delivering four-bedroom homes scheduled for handover in October 2028. Its positioning focuses on family-oriented primary residence within a gated community, combining spacious layouts with a nature-oriented and emerging district setting.",
+      "project_logic_text": "Raiha Villas by BT Holdings is a villa project in Dubai South delivering four-bedroom homes scheduled for handover in October 2028. The emphasis is on family living within a gated community, combining spacious layouts with a nature-oriented and emerging district setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Raiha Villas against its recorded AED 3,900,000 starting price, stated 2028 handover timing and comparable projects in Dubai South.",
+          "text": "Assess Raiha Villas alongside projects in Dubai South, using its recorded AED 3,900,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Raiha Villas offers villas in Dubai South, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Raiha Villas offers villas in Dubai South. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Raiha Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Raiha Villas with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

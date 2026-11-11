@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Acres Phase 2 is an off-plan villa project by Meraas Holding located in Dubailand, Dubai Land. The project has confirmed ultra-luxury positioning and is within a gated community."
+      "short_answer_summary": "The Acres Phase 2, an off-plan villa project by Meraas Holding, is located in Dubailand, Dubai Land. Its listed features include an ultra-luxury focus and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,7 +261,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,7 +296,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Families looking for a home suited to daily living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -306,7 +306,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for studios or compact units"
       ],
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Acres Phase 2 is a villa project by Meraas Holding in Dubailand, Dubai, featuring five-to-seven-bedroom homes with a scheduled handover in January 2028. Its positioning combines ultra-luxury, gated living within a green community, focusing on spacious family homes designed for privacy and nature-oriented primary residence.",
+      "project_logic_text": "The Acres Phase 2 is a villa project by Meraas Holding in Dubailand, Dubai, featuring five-to-seven-bedroom homes with a scheduled handover in January 2028. The residential concept combines ultra-luxury, gated living within a green community, focusing on spacious family homes designed for privacy and nature-oriented primary residence.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Acres Phase 2 against its recorded AED 14,000,000 starting price, stated 2028 handover timing and comparable projects in Dubailand.",
+          "text": "Assess The Acres Phase 2 alongside projects in Dubailand, using its recorded AED 14,000,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Acres Phase 2 offers villas in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Acres Phase 2 offers villas in Dubailand. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Acres Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare The Acres Phase 2 with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

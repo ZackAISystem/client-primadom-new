@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sweden Beach Palace is an off-plan villa project by Kleindienst Group located in The World Islands, Sweden. The project has confirmed beachfront and ultra-luxury positioning and includes confirmed sea views."
+      "short_answer_summary": "In The World Islands, Sweden, Sweden Beach Palace is an off-plan villa project developed by Kleindienst Group. Notable features include a beachfront setting, an ultra-luxury focus, and sea views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -256,13 +256,13 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,13 +282,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -296,8 +296,8 @@
         ]
       },
       "best_for_items": [
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living",
+        "Investors comparing residential property purchases",
+        "Buyers looking specifically for waterside living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -308,8 +308,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking specifically for compact homes",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -335,7 +335,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sweden Beach Palace by Kleindienst Group is a villa project in Dubai’s The World Islands featuring exclusive seven-bedroom homes with a scheduled handover in December 2024. Its positioning focuses on ultra-luxury, spacious family homes with sea-view orientation and privacy-led living within a waterfront island setting suited for primary residence and investment use cases.",
+      "project_logic_text": "Sweden Beach Palace by Kleindienst Group is a villa project in Dubai’s The World Islands featuring exclusive seven-bedroom homes with a scheduled handover in December 2024. The emphasis is on ultra-luxury, spacious family homes with sea views and privacy-led living within a waterfront island setting suited for homeownership and investment scenarios.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -362,28 +362,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sweden Beach Palace against its recorded AED 125,000,000 starting price, recorded project timeline and comparable projects in The World Islands.",
+          "text": "When evaluating Sweden Beach Palace, weigh its recorded AED 125,000,000 starting price and its recorded project timeline against other projects in The World Islands.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sweden Beach Palace offers villas in The World Islands, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Sweden Beach Palace has villas in The World Islands, with a beachfront setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sweden Beach Palace with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Sweden Beach Palace and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

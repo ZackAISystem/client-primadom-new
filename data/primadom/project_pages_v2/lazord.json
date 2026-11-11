@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Lazord is an off-plan apartment project by Lapis Properties located in Dubai Land’s Majan district. The project includes confirmed city views and is a high-rise development."
+      "short_answer_summary": "Located in Dubai Land’s Majan district, Lazord is an off-plan apartment development by Lapis Properties. The project is characterised by city views and a high-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -285,8 +285,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Those considering a residential property investment",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Lazord by Lapis Properties is a high-rise apartment project in Dubai Land’s Majan district, offering studio to two-bedroom apartments with a planned handover in December 2026. The project is positioned to blend urban city living with family-friendly and private residential elements, supporting both primary residence and investment use cases within an emerging and green community setting.",
+      "project_logic_text": "Lazord by Lapis Properties is a high-rise apartment project in Dubai Land’s Majan district, offering studio to two-bedroom apartments with a planned handover in December 2026. The project is positioned to blend urban city living with family-friendly and private residential elements, supporting both owner-occupiers and prospective investors within an emerging and green community setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Lazord against its recorded AED 500,000 starting price, stated 2026 handover timing and comparable projects in Majan.",
+          "text": "Compare Lazord with projects in Majan, taking account of the recorded AED 500,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Lazord offers apartments in Majan, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Majan, Lazord offers apartments; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Lazord with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Lazord with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

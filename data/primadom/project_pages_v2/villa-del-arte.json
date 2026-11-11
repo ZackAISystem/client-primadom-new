@@ -268,7 +268,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -292,7 +292,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -319,7 +319,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Villa del Arte by Mr Eight Development is a residential apartment project scheduled for handover in December 2027 with prices starting from AED 1,800,000. Its positioning focuses on a future-delivery apartment format suited for primary residence or investment within a mid-range market segment.",
+      "project_logic_text": "Villa del Arte by Mr Eight Development is a residential apartment project scheduled for handover in December 2027 with prices starting from AED 1,800,000. Its residential concept centres on a future-delivery apartment format suited for primary residence or investment within a mid-range market segment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -360,14 +360,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Villa del Arte with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Villa del Arte and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

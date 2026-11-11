@@ -147,7 +147,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Amaranta is an off-plan townhouse project by Dubai Properties located on Emirates Road. The project has confirmed family-friendly positioning."
+      "short_answer_summary": "Amaranta is an off-plan townhouse project by Dubai Properties on Emirates Road. The project is characterised by a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -248,19 +248,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "People who prefer a calm residential setting",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,9 +282,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Households seeking a home for family life",
+        "People who prefer a calm residential setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -320,7 +320,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Amaranta is a townhouse project by Dubai Properties in Dubai, offering two-to-four-bedroom homes ranging from 1,786 to 3,329 square feet. Its positioning focuses on family-oriented primary residence within a suburban, nature-oriented community that emphasizes quiet living and spacious layouts.",
+      "project_logic_text": "Amaranta is a townhouse project by Dubai Properties in Dubai, offering two-to-four-bedroom homes ranging from 1,786 to 3,329 square feet. Its residential concept centres on family living within a suburban, nature-oriented community that emphasizes quiet living and spacious layouts.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,14 +361,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Amaranta with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Amaranta with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

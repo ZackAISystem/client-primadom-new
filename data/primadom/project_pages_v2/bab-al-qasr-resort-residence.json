@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Bab Al Qasr Resort Residence is an off-plan apartment project by Burtville located in Masdar City. The project is a low-rise development and has confirmed family-friendly positioning."
+      "short_answer_summary": "Bab Al Qasr Resort Residence is an off-plan apartment project by Burtville in Masdar City. It combines a low-rise format with a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Buyers choosing a family-focused home",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Bab Al Qasr Resort Residence by Burtville is a low-rise apartment project in Masdar City, Abu Dhabi, offering studio-to-five-bedroom formats with a scheduled handover in September 2028. Its positioning combines resort-style living and community-oriented layouts within an emerging area, focusing on family-oriented primary residence and a quiet environment.",
+      "project_logic_text": "Bab Al Qasr Resort Residence by Burtville is a low-rise apartment project in Masdar City, Abu Dhabi, offering studio-to-five-bedroom formats with a scheduled handover in September 2028. The residential concept combines resort-style living and community-oriented layouts within an emerging area, focusing on family living and a quiet environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Bab Al Qasr Resort Residence against its recorded AED 1,300,000 starting price, stated 2028 handover timing and comparable projects in Masdar City.",
+          "text": "When evaluating Bab Al Qasr Resort Residence, weigh its recorded AED 1,300,000 starting price and its stated 2028 handover timing against other projects in Masdar City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Bab Al Qasr Resort Residence offers apartments in Masdar City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Masdar City, Bab Al Qasr Resort Residence offers apartments; the project profile highlights a low-rise format, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Bab Al Qasr Resort Residence with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Bab Al Qasr Resort Residence and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

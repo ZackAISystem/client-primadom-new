@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Greenview Phase 2 is an off-plan villa project by Emaar Properties located in Emaar South, Dubai South (Dubai World Central). The project has confirmed luxury and golf positioning."
+      "short_answer_summary": "Greenview Phase 2 is an off-plan villa project by Emaar Properties in Emaar South, Dubai South (Dubai World Central). The project is characterised by a luxury focus and a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Buyers choosing a family-focused home",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,8 +313,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments",
+        "Homebuyers looking specifically for compact homes",
+        "People specifically seeking an apartment",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Greenview Phase 2 is a villa project by Emaar Properties in Emaar South, Dubai, offering three-to-four-bedroom homes ranging from 1,882 to 2,264 square feet with a scheduled handover in January 2024. Its positioning focuses on family-oriented primary residence with spacious layouts in a quieter, greener community adjacent to golf course greens and near the Expo 2020 district.",
+      "project_logic_text": "Greenview Phase 2 is a villa project by Emaar Properties in Emaar South, Dubai, offering three-to-four-bedroom homes ranging from 1,882 to 2,264 square feet with a scheduled handover in January 2024. The project focuses on family living with spacious layouts in a quieter, greener community adjacent to golf course greens and near the Expo 2020 district.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Greenview Phase 2 against its recorded AED 2,700,000 starting price, recorded project timeline and comparable projects in Emaar South.",
+          "text": "Compare Greenview Phase 2 with projects in Emaar South, taking account of the recorded AED 2,700,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Greenview Phase 2 offers villas in Emaar South, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Greenview Phase 2 has villas in Emaar South, with a golf-oriented setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Greenview Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Greenview Phase 2 with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

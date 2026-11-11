@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hamilton House is an off-plan apartment project by Ellington located in Jumeirah Village Circle, Dubai. The project is a low-rise development within a master community."
+      "short_answer_summary": "Hamilton House is an off-plan apartment project by Ellington in Jumeirah Village Circle, Dubai. It combines a low-rise format with a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hamilton House by Ellington is a low-rise apartment project in Jumeirah Village Circle, Dubai, offering studio-to-two-bedroom formats with a scheduled handover in March 2025. Its positioning focuses on suburban community living within a green, quiet environment, supporting family-oriented primary residence use through spacious layouts and a peaceful setting.",
+      "project_logic_text": "Hamilton House by Ellington is a low-rise apartment project in Jumeirah Village Circle, Dubai, offering studio-to-two-bedroom formats with a scheduled handover in March 2025. Its residential concept centres on suburban community living within a green, quiet environment, supporting family-oriented owner-occupation through spacious layouts and a peaceful setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hamilton House against its recorded AED 880,000 starting price, recorded project timeline and comparable projects in Jumeirah Village Circle.",
+          "text": "When evaluating Hamilton House, weigh its recorded AED 880,000 starting price and its recorded project timeline against other projects in Jumeirah Village Circle.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hamilton House offers apartments in Jumeirah Village Circle, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Hamilton House offers apartments in Jumeirah Village Circle. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hamilton House with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Hamilton House with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

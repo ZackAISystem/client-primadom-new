@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Utopia is an off-plan apartment and villa project by Damac Properties located in DAMAC Hills. The project has confirmed luxury positioning and is within a master community."
+      "short_answer_summary": "Located in DAMAC Hills, Utopia is an off-plan apartment and villa development by Damac Properties. The project is characterised by a luxury focus and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Families looking for a home suited to daily living",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Utopia is a villa project by Damac Properties in the Damac Hills master community of Dubai, scheduled for handover in November 2026. Its positioning reflects a family-oriented primary residence with a focus on privacy-led living in a green, suburban setting featuring golf course surroundings.",
+      "project_logic_text": "Utopia is a villa project by Damac Properties in the Damac Hills master community of Dubai, scheduled for handover in November 2026. Its character draws on family living with a focus on privacy-led living in a green, suburban setting featuring golf course surroundings.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Utopia against its recorded AED 24,000,000 starting price, stated 2026 handover timing and comparable projects in Damac Hills.",
+          "text": "Compare Utopia with projects in Damac Hills, taking account of the recorded AED 24,000,000 starting price and its stated 2026 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Utopia offers apartments and villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Damac Hills, Utopia offers apartments and villas; the project profile highlights a master-planned community setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Utopia with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Utopia with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Orise is an off-plan residential project by BEYOND located in Maritime City offering apartments, duplexes, and penthouses. The project includes confirmed sea views and has confirmed waterfront positioning."
+      "short_answer_summary": "Orise is an off-plan residential project by BEYOND in Maritime City offering apartments, duplexes, and penthouses. It combines sea views with a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Those considering a residential property investment",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who cannot wait for project completion",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Orise is a residential project by BEYOND in Dubai’s Maritime City, offering apartments, duplexes, and penthouses with one-to three-bedroom formats and a stated handover date of January 2028. Its positioning integrates a waterfront district setting with a focus on primary residence and investment use cases, emphasizing spacious layouts and a quiet environment.",
+      "project_logic_text": "Orise is a residential project by BEYOND in Dubai’s Maritime City, offering apartments, duplexes, and penthouses with one-to three-bedroom formats and a stated handover date of January 2028. The development brings together a waterfront district setting with a focus on homeownership and investment scenarios, emphasizing spacious layouts and a quiet environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Orise against its recorded AED 1,920,000 starting price, stated 2028 handover timing and comparable projects in Maritime City.",
+          "text": "Compare Orise with projects in Maritime City, taking account of the recorded AED 1,920,000 starting price and its stated 2028 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Orise offers apartments, duplexes and penthouses in Maritime City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "In Maritime City, Orise offers apartments, duplexes and penthouses; the project profile highlights sea views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Orise with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Orise with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

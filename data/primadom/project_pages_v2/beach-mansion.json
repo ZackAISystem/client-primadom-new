@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Beach Mansion is an off-plan apartment, penthouse, and townhouse project by Emaar Properties located in Dubai Harbour’s Emaar Beachfront. The project has confirmed beachfront, sea view, and luxury positioning."
+      "short_answer_summary": "In Dubai Harbour’s Emaar Beachfront, Beach Mansion is an off-plan apartment, penthouse, and townhouse project developed by Emaar Properties. Its setting brings together a beachfront setting, sea views, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers who value a more peaceful home environment",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -283,9 +283,9 @@
         "not_best_for": []
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers prioritising waterfront living",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "People who prioritise living by the water",
+        "Buyers who value a more peaceful home environment"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -318,7 +318,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Beach Mansion is a residential project by Emaar Properties in Dubai’s Emaar Beachfront, offering one-to-four-bedroom apartments, penthouses and townhouses with a scheduled handover in December 2025. Its positioning combines beachfront and luxury residential formats within a quiet, family-friendly community that supports primary-residence use and emphasizes privacy and waterfront living.",
+      "project_logic_text": "Beach Mansion is a residential project by Emaar Properties in Dubai’s Emaar Beachfront, offering one-to-four-bedroom apartments, penthouses and townhouses with a scheduled handover in December 2025. The project brings together beachfront and luxury residential formats within a quiet, family-friendly community that supports primary-residence use and emphasizes privacy and waterfront living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -345,28 +345,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Beach Mansion against its recorded AED 2,600,000 starting price, recorded project timeline and comparable projects in Emaar Beachfront.",
+          "text": "For Beach Mansion, consider its recorded AED 2,600,000 starting price and its recorded project timeline alongside comparable developments in Emaar Beachfront.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Beach Mansion offers apartments, penthouses and townhouses in Emaar Beachfront, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Emaar Beachfront, Beach Mansion offers apartments, penthouses and townhouses; the project profile highlights a beachfront setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Beach Mansion with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Beach Mansion with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

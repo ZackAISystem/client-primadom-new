@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "La Violeta is an off-plan townhouse project by Dubai Properties located in Dubailand, Dubai Land, Villanova, La Violeta 1. The project has confirmed luxury, gated community, and family-friendly positioning."
+      "short_answer_summary": "In Dubailand, Dubai Land, Villanova, La Violeta 1, La Violeta is an off-plan townhouse project developed by Dubai Properties. Its setting brings together a luxury focus, a gated-community environment, and a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -288,7 +288,7 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,7 +314,7 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
+        "Homebuyers looking specifically for compact homes",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "La Violeta is a townhouse project by Dubai Properties in Dubailand, Dubai, offering three-to-four-bedroom homes with a stated handover date of March 2025. Its positioning focuses on family-oriented primary residence within a gated community, combining spacious layouts with a tranquil, nature-oriented setting that supports community living.",
+      "project_logic_text": "La Violeta is a townhouse project by Dubai Properties in Dubailand, Dubai, offering three-to-four-bedroom homes with a stated handover date of March 2025. The emphasis is on family living within a gated community, combining spacious layouts with a tranquil, nature-oriented setting that supports community living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review La Violeta against its recorded AED 3,000,000 starting price, recorded project timeline and comparable projects in Dubailand.",
+          "text": "Assess La Violeta alongside projects in Dubailand, using its recorded AED 3,000,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "La Violeta offers townhouses in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubailand, La Violeta offers townhouses; the project profile highlights a gated-community environment, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare La Violeta with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about La Violeta and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

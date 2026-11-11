@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Vela Viento is an off-plan apartment and duplex project by Omniyat Group located in Business Bay. The project has confirmed luxury and canal-front positioning and includes confirmed city views."
+      "short_answer_summary": "Vela Viento is an off-plan apartment and duplex project by Omniyat Group in Business Bay. The project combines a luxury focus, canal-front positioning, and city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers exploring residential investment options",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Buyers exploring residential investment options",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,7 +313,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "People requiring an immediately available home",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for studios or compact units"
       ],
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Vela Viento is a residential project by Omniyat Group in Dubai’s Business Bay offering two-to-four-bedroom apartments and duplexes with a stated handover date of September 2027. Its positioning integrates canal-front and city-view luxury living within an urban core environment designed for both primary residence and investment use, emphasizing spacious layouts and a secure community setting.",
+      "project_logic_text": "Vela Viento is a residential project by Omniyat Group in Dubai’s Business Bay offering two-to-four-bedroom apartments and duplexes with a stated handover date of September 2027. The residential setting combines canal-front and city-view luxury living within an urban core environment designed for both owner-occupation and investment use, emphasizing spacious layouts and a secure community setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Vela Viento against its recorded AED 28,000,000 starting price, stated 2027 handover timing and comparable projects in Business Bay.",
+          "text": "Compare Vela Viento with projects in Business Bay, taking account of the recorded AED 28,000,000 starting price and its stated 2027 handover timing.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Vela Viento offers apartments and duplexes in Business Bay, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Vela Viento has apartments and duplexes in Business Bay, with canal-front positioning noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Vela Viento with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Vela Viento with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

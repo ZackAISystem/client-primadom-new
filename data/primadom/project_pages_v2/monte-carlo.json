@@ -160,7 +160,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Monte Carlo is an off-plan townhouse project by Damac Properties located in Damac Lagoons, Dubai. The project has confirmed lagoon and gated community positioning."
+      "short_answer_summary": "Monte Carlo, an off-plan townhouse project by Damac Properties, is located in Damac Lagoons, Dubai. The project is characterised by a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,19 +261,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -281,7 +281,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -289,9 +289,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Families looking for a home suited to daily living",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,7 +300,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units"
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -326,7 +326,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Monte Carlo is a townhouse project by Damac Properties located in the Damac Lagoons district of Dubai, offering three-to-six-bedroom homes with a scheduled handover in December 2025. Its positioning focuses on lagoon-oriented living within a gated, family-friendly community that combines waterfront lifestyle and active living in a greener residential setting.",
+      "project_logic_text": "Monte Carlo is a townhouse project by Damac Properties located in the Damac Lagoons district of Dubai, offering three-to-six-bedroom homes with a scheduled handover in December 2025. The emphasis is on lagoon-oriented living within a gated, family-friendly community that combines waterfront lifestyle and active living in a greener residential setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -353,28 +353,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Monte Carlo against its recorded AED 2,200,000 starting price, recorded project timeline and comparable projects in Damac Lagoons.",
+          "text": "Compare Monte Carlo with projects in Damac Lagoons, taking account of the recorded AED 2,200,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Monte Carlo offers townhouses in Damac Lagoons, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Monte Carlo offers townhouses in Damac Lagoons. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Monte Carlo with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Monte Carlo with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

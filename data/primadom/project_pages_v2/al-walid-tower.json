@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Al Walid Tower is an off-plan apartment project by Tiger Properties located in Al Khan. The project includes confirmed sea views and has confirmed waterfront positioning."
+      "short_answer_summary": "Al Walid Tower, an off-plan apartment project by Tiger Properties, is located in Al Khan. The project is characterised by sea views and a waterfront setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -290,8 +290,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Buyers evaluating homes as an investment",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Al Walid Tower by Tiger Properties is a residential apartment project in Sharjah’s Al Khan district featuring studio apartments with sea-view orientation. Its positioning reflects a waterfront district setting that integrates urban energy with a family-oriented lifestyle, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Al Walid Tower by Tiger Properties is a residential apartment project in Sharjah’s Al Khan district featuring studio apartments with sea-view orientation. Its residential profile reflects a waterfront district setting that integrates urban energy with a family-oriented lifestyle, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,21 +361,21 @@
         },
         {
           "key": "lifestyle_view",
-          "text": "Al Walid Tower offers apartments in Al Khan, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Al Walid Tower has apartments in Al Khan, with sea views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Al Walid Tower with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Al Walid Tower with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

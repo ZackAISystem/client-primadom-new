@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Kaia at The Valley is an off-plan townhouse project by Emaar Properties located in The Valley. The project is within a gated community and has confirmed luxury positioning."
+      "short_answer_summary": "Kaia at The Valley is an off-plan townhouse project by Emaar Properties in The Valley. Its listed features include a gated-community environment and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -297,7 +297,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Families looking for a home suited to daily living",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -307,8 +307,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units"
+        "People requiring an immediately available home",
+        "Homebuyers looking specifically for compact homes"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Kaia at The Valley is a townhouse project by Emaar Properties in Dubai’s suburban The Valley, offering three-to-four-bedroom homes with a scheduled handover in July 2028. Its positioning focuses on family-oriented primary residences within a gated community that emphasizes privacy, nature, and spacious layouts in a green, community-driven environment.",
+      "project_logic_text": "Kaia at The Valley is a townhouse project by Emaar Properties in Dubai’s suburban The Valley, offering three-to-four-bedroom homes with a scheduled handover in July 2028. Its residential concept centres on family-oriented primary residences within a gated community that emphasizes privacy, nature, and spacious layouts in a green, community-driven environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Kaia at The Valley against its recorded AED 2,900,000 starting price, stated 2028 handover timing and comparable projects in The Valley.",
+          "text": "Assess Kaia at The Valley alongside projects in The Valley, using its recorded AED 2,900,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Kaia at The Valley offers townhouses in The Valley, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Kaia at The Valley has townhouses in The Valley, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Kaia at The Valley with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Kaia at The Valley with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

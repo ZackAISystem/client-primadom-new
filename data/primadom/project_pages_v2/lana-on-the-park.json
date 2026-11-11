@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Lana on the Park is an off-plan apartment project by Nshama located in Town Square. The project includes confirmed park views and is within a master community."
+      "short_answer_summary": "Located in Town Square, Lana on the Park is an off-plan apartment development by Nshama. Its listed features include park views and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
           },
           {
-            "item": "Buyers seeking a family-oriented community",
+            "item": "Households drawn to family-friendly community living",
             "evidence": "family_tags.family_friendly",
             "priority": 40,
             "semantic_group": "family_fit"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting",
-        "Buyers seeking a family-oriented community"
+        "Buyers evaluating homes as an investment",
+        "Homebuyers prioritising a quieter neighbourhood",
+        "Households drawn to family-friendly community living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Lana on the Park is an apartment project by Nshama in Dubai’s Town Square, offering one-to-three-bedroom units with a scheduled handover in December 2026. Its positioning reflects a suburban master-community setting focused on community-oriented living and family-friendly environments with park views, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Lana on the Park is an apartment project by Nshama in Dubai’s Town Square, offering one-to-three-bedroom units with a scheduled handover in December 2026. The residential concept is shaped by a suburban master-community setting focused on community-oriented living and family-friendly environments with park views, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Lana on the Park against its recorded AED 1,400,000 starting price, stated 2026 handover timing and comparable projects in Town Square.",
+          "text": "When evaluating Lana on the Park, weigh its recorded AED 1,400,000 starting price and its stated 2026 handover timing against other projects in Town Square.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Lana on the Park offers apartments in Town Square, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Lana on the Park offers apartments in Town Square. Its profile also notes park views; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Lana on the Park with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for Lana on the Park and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

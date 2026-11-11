@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sobha Solis is an off-plan apartment project by Sobha Realty located in Motor City, Dubai. The project has confirmed luxury positioning."
+      "short_answer_summary": "Sobha Solis is an off-plan apartment project by Sobha Realty in Motor City, Dubai. The development has a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers who enjoy an urban lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -297,8 +297,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers evaluating homes as an investment",
+        "Buyers who enjoy an urban lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sobha Solis is a residential apartment project by Sobha Realty in Dubai’s Motor City, offering one-to-three-bedroom homes scheduled for handover in December 2028. Its positioning reflects a luxury urban-core setting with layouts suited for both primary residence and investment use, emphasizing a balanced lifestyle within a dynamic city environment.",
+      "project_logic_text": "Sobha Solis is a residential apartment project by Sobha Realty in Dubai’s Motor City, offering one-to-three-bedroom homes scheduled for handover in December 2028. Its character draws on a luxury urban setting with layouts suited for both owner-occupation and investment use, emphasizing a balanced lifestyle within a dynamic city environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sobha Solis against its recorded AED 1,000,000 starting price, stated 2028 handover timing and comparable projects in Motor City.",
+          "text": "When evaluating Sobha Solis, weigh its recorded AED 1,000,000 starting price and its stated 2028 handover timing against other projects in Motor City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sobha Solis offers apartments in Motor City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "At Sobha Solis in Motor City, suitability depends on the layouts available and your intended use.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sobha Solis with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Sobha Solis with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

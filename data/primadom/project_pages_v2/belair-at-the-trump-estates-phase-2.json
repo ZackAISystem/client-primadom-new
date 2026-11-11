@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Belair at The Trump Estates Phase 2 is an off-plan villa project by Damac Properties located in Damac Hills. The project has confirmed luxury and master community positioning and is related to golf."
+      "short_answer_summary": "Belair at The Trump Estates Phase 2, an off-plan villa project by Damac Properties, is located in Damac Hills. Notable features include a luxury focus, a master-planned community setting, and a golf-oriented setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers prioritising a family-oriented residence",
+        "Buyers evaluating homes as an investment",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Buyers whose search is limited to apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Belair at The Trump Estates Phase 2 is a villa project by Damac Properties in Damac Hills, Dubai, featuring three-to-seven-bedroom homes with a scheduled handover in December 2024. Its positioning reflects a family-oriented setting within a master community, emphasizing spacious layouts, privacy-led living, and a suburban environment that supports both primary residence and investment use cases.",
+      "project_logic_text": "Belair at The Trump Estates Phase 2 is a villa project by Damac Properties in Damac Hills, Dubai, featuring three-to-seven-bedroom homes with a scheduled handover in December 2024. Its residential profile reflects a family-oriented setting within a master community, emphasizing spacious layouts, privacy-led living, and a suburban environment that supports both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Belair at The Trump Estates Phase 2 against its recorded AED 17,000,000 starting price, recorded project timeline and comparable projects in Damac Hills.",
+          "text": "Compare Belair at The Trump Estates Phase 2 with projects in Damac Hills, taking account of the recorded AED 17,000,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Belair at The Trump Estates Phase 2 offers villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Belair at The Trump Estates Phase 2 offers villas in Damac Hills. Its profile also notes a master-planned community setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Belair at The Trump Estates Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Belair at The Trump Estates Phase 2 with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

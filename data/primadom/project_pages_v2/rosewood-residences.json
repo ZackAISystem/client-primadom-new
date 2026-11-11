@@ -255,19 +255,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Homebuyers drawn to waterfront living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -275,13 +275,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking for larger family homes",
+            "item": "Buyers who need a larger family home",
             "evidence": "bedrooms_max",
             "priority": 30,
             "semantic_group": "limited_large_units"
@@ -289,9 +289,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Homebuyers prioritising a family-oriented residence",
+        "Homebuyers drawn to waterfront living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -300,8 +300,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking for larger family homes"
+        "People requiring an immediately available home",
+        "Buyers who need a larger family home"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Rosewood Residences is a residential project by Rosewood Developer in Jumeirah, Dubai, scheduled for handover in December 2028. Its positioning combines luxury waterfront living with a focus on spacious layouts suited to family-oriented primary residence within a vibrant seaside urban context.",
+      "project_logic_text": "Rosewood Residences is a residential project by Rosewood Developer in Jumeirah, Dubai, scheduled for handover in December 2028. Its residential character brings together luxury waterfront living with a focus on spacious layouts suited to family living within a vibrant seaside urban context.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,7 +354,7 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Rosewood Residences against its stated 2028 handover timing, unit mix and comparable projects in Jumeirah.",
+          "text": "When evaluating Rosewood Residences, weigh its stated 2028 handover timing and the unit mix against other projects in Jumeirah.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
@@ -368,14 +368,14 @@
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Rosewood Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Rosewood Residences and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

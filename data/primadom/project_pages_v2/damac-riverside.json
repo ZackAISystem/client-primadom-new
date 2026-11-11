@@ -159,7 +159,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Damac Riverside is an off-plan townhouse project by Damac Properties located in Dubai Investment Park. The project is within a gated community."
+      "short_answer_summary": "Located in Dubai Investment Park, Damac Riverside is an off-plan townhouse development by Damac Properties. Its listed characteristics include a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -260,19 +260,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "People who prefer a calm residential setting",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -280,13 +280,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "People requiring an immediately available home",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -294,9 +294,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Homebuyers planning to live in the property",
+        "Households seeking a home for family life",
+        "People who prefer a calm residential setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -305,8 +305,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units"
+        "People requiring an immediately available home",
+        "People searching for studio-size properties"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -332,7 +332,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Damac Riverside is a townhouse project by Damac Properties in Dubai Investment Park, offering four-to-five-bedroom homes with a scheduled handover in December 2027. Its positioning focuses on family-oriented primary residence within a gated, suburban community that emphasizes quiet living and community connections.",
+      "project_logic_text": "Damac Riverside is a townhouse project by Damac Properties in Dubai Investment Park, offering four-to-five-bedroom homes with a scheduled handover in December 2027. The emphasis is on family living within a gated, suburban community that emphasizes quiet living and community connections.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -359,28 +359,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Damac Riverside against its stated 2027 handover timing, unit mix and comparable projects in Dubai Investment Park.",
+          "text": "Compare Damac Riverside with projects in Dubai Investment Park, taking account of its stated 2027 handover timing and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Damac Riverside offers townhouses in Dubai Investment Park, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubai Investment Park, Damac Riverside offers townhouses; the project profile highlights a gated-community environment, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Damac Riverside with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Damac Riverside with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

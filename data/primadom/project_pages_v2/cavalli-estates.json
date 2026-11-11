@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Cavalli Estates is an off-plan villa project by Damac Properties located in Dubai, DAMAC Hills. The project has confirmed golf, ultra-luxury, and master community positioning."
+      "short_answer_summary": "Located in Dubai, DAMAC Hills, Cavalli Estates is an off-plan villa development by Damac Properties. Notable features include a golf-oriented setting, an ultra-luxury focus, and a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Homebuyers looking specifically for compact homes",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "People specifically seeking an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Buyers choosing a family-focused home",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking specifically for compact homes",
+        "People specifically seeking an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Cavalli Estates is a villa project by Damac Properties in Damac Hills, Dubai, featuring six-to-seven-bedroom homes ranging from 11,500 to 17,532 square feet, with handover scheduled for January 2025. Its positioning focuses on family-oriented primary residence within a suburban master-community, emphasizing spacious layouts, privacy-led living, and views over a green golf course setting.",
+      "project_logic_text": "Cavalli Estates is a villa project by Damac Properties in Damac Hills, Dubai, featuring six-to-seven-bedroom homes ranging from 11,500 to 17,532 square feet, with handover scheduled for January 2025. Its residential concept centres on family living within a suburban master-community, emphasizing spacious layouts, privacy-led living, and views over a green golf course setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Cavalli Estates against its recorded AED 19,000,000 starting price, recorded project timeline and comparable projects in Damac Hills.",
+          "text": "Compare Cavalli Estates with projects in Damac Hills, taking account of the recorded AED 19,000,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Cavalli Estates offers villas in Damac Hills, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Cavalli Estates has villas in Damac Hills, with a golf-oriented setting noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Cavalli Estates with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Cavalli Estates and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

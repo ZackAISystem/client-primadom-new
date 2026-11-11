@@ -154,7 +154,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Cilia at Ghaf Woods is an off-plan apartment and duplex project by Majid Al Futtaim located in Dubai Land, Ghaf Woods, Dubailand. The project has confirmed family-friendly positioning."
+      "short_answer_summary": "Cilia at Ghaf Woods, an off-plan apartment and duplex project by Majid Al Futtaim, is located in Dubai Land, Ghaf Woods, Dubailand. Its listed characteristics include a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -261,13 +261,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Buyers seeking a quieter place to live",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -275,7 +275,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,8 +296,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Households seeking a home for family life",
+        "Buyers seeking a quieter place to live"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -306,7 +306,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Buyers who need a ready-to-move-in home now",
         "Buyers looking specifically for studios or compact units",
         "Buyers looking specifically for villas"
       ],
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Cilia at Ghaf Woods is a future-delivery residential project by Majid Al Futtaim in Dubailand, Dubai, offering two-to-three-bedroom apartments and duplexes scheduled for handover in December 2027. Its positioning reflects a family-oriented primary residence within a greener, quieter community that emphasizes spacious layouts and a nature-inspired environment.",
+      "project_logic_text": "Cilia at Ghaf Woods is a future-delivery residential project by Majid Al Futtaim in Dubailand, Dubai, offering two-to-three-bedroom apartments and duplexes scheduled for handover in December 2027. Its character draws on family living within a greener, quieter community that emphasizes spacious layouts and a nature-inspired environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Cilia At Ghaf Woods against its stated 2027 handover timing, unit mix and comparable projects in Dubailand.",
+          "text": "When evaluating Cilia At Ghaf Woods, weigh its stated 2027 handover timing and the unit mix against other projects in Dubailand.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Cilia At Ghaf Woods offers apartments and duplexes in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Cilia At Ghaf Woods offers apartments and duplexes in Dubailand; compare individual layouts with your day-to-day needs.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Review the unit’s availability and price, service charges and payment conditions, plus the floor plan and official paperwork.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Cilia At Ghaf Woods with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Cilia At Ghaf Woods with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

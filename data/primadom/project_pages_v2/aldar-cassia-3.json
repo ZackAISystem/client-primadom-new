@@ -153,7 +153,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Aldar Cassia 3 is an off-plan villa project by Aldar Properties PJSC located in Dubai Land, The Wilds by Aldar, Cassia Villas. The project is within a gated community."
+      "short_answer_summary": "Aldar Cassia 3, an off-plan villa project by Aldar Properties PJSC, is located in Dubai Land, The Wilds by Aldar, Cassia Villas. The development has a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -260,7 +260,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -274,19 +274,19 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -295,7 +295,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -305,9 +305,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Homebuyers looking for a completed property now",
+        "Buyers focused on smaller residential layouts",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -333,7 +333,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Aldar Cassia 3 is a villa project by Aldar Properties PJSC in Dubai Land, offering three-to-five-bedroom homes with a scheduled handover in June 2029. Its positioning focuses on family-oriented primary residences within a gated, suburban community that emphasizes nature and community living.",
+      "project_logic_text": "Aldar Cassia 3 is a villa project by Aldar Properties PJSC in Dubai Land, offering three-to-five-bedroom homes with a scheduled handover in June 2029. The emphasis is on family-oriented primary residences within a gated, suburban community that emphasizes nature and community living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -360,28 +360,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Aldar Cassia 3 against its stated 2029 handover timing, unit mix and comparable projects in Business Bay.",
+          "text": "Assess Aldar Cassia 3 alongside projects in Business Bay, using its stated 2029 handover timing and the unit mix as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Aldar Cassia 3 offers villas in Business Bay, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Aldar Cassia 3 has villas in Business Bay, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Aldar Cassia 3 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Aldar Cassia 3 with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

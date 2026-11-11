@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Anber is an off-plan townhouse and villa project by ARADA - Sale located in Sharjah, Aljada, Anber Townhouses. The project is a low-rise development."
+      "short_answer_summary": "Anber, an off-plan townhouse and villa project by ARADA - Sale, is located in Sharjah, Aljada, Anber Townhouses. The project is characterised by a low-rise format."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "Homebuyers prioritising a quieter neighbourhood",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,19 +282,19 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Buyers whose search is limited to apartments",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -303,8 +303,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Families looking for a home suited to daily living",
+        "Homebuyers prioritising a quieter neighbourhood"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,9 +313,9 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "Buyers who need a ready-to-move-in home now",
+        "Buyers focused on smaller residential layouts",
+        "Buyers whose search is limited to apartments"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Anber by ARADA - Sale is a low-rise townhouse and villa project in Aljada, Sharjah, offering two-to-five-bedroom homes ranging from 1,856 to 5,878 square feet with handover scheduled for December 2027. Its positioning reflects a family-oriented primary residence within a green, quieter district that supports a nature-focused lifestyle close to cultural and educational amenities.",
+      "project_logic_text": "Anber by ARADA - Sale is a low-rise townhouse and villa project in Aljada, Sharjah, offering two-to-five-bedroom homes ranging from 1,856 to 5,878 square feet with handover scheduled for December 2027. Its character draws on family living within a green, quieter district that supports a nature-focused lifestyle close to cultural and educational amenities.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Anber against its recorded AED 2,200,000 starting price, stated 2027 handover timing and comparable projects in Aljada.",
+          "text": "For Anber, consider its recorded AED 2,200,000 starting price and its stated 2027 handover timing alongside comparable developments in Aljada.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Anber offers townhouses and villas in Aljada, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Anber offers townhouses and villas in Aljada. Its profile also notes a low-rise format; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Confirm available units, up-to-date prices and service charges; inspect payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Anber with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Anber with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

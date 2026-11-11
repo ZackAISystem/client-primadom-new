@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Ville 11 is an off-plan apartment and duplex project by Burtville located in Masdar City. The project has confirmed family-friendly positioning."
+      "short_answer_summary": "Ville 11, an off-plan apartment and duplex project by Burtville, is located in Masdar City. The development has a family-friendly emphasis."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,7 +268,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Buyers evaluating homes as an investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
@@ -282,13 +282,13 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who need a ready-to-move-in home now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "Buyers focused on smaller residential layouts",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -303,7 +303,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
+        "Buyers evaluating homes as an investment",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -313,8 +313,8 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
-        "Buyers looking specifically for studios or compact units",
+        "Buyers who need a ready-to-move-in home now",
+        "Buyers focused on smaller residential layouts",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Ville 11 is a residential project by Burtville in Masdar City, Abu Dhabi, offering apartments and duplexes with two-to-four-bedroom layouts, scheduled for handover in September 2027. Its positioning combines spacious family-oriented residences with a nature-focused environment in an emerging green district, supporting both primary residence and investment use cases.",
+      "project_logic_text": "Ville 11 is a residential project by Burtville in Masdar City, Abu Dhabi, offering apartments and duplexes with two-to-four-bedroom layouts, scheduled for handover in September 2027. The residential concept combines spacious family-oriented residences with a nature-focused environment in an emerging green district, supporting both owner-occupiers and prospective investors.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Ville 11 against its recorded AED 1,400,000 starting price, stated 2027 handover timing and comparable projects in Masdar City.",
+          "text": "When evaluating Ville 11, weigh its recorded AED 1,400,000 starting price and its stated 2027 handover timing against other projects in Masdar City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Ville 11 offers apartments and duplexes in Masdar City, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "At Ville 11 in Masdar City, suitability depends on the layouts available and your intended use.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Verify current unit availability, pricing, service charges and payment conditions against floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Ville 11 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Ville 11 with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

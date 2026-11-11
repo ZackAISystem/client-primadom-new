@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Talia is an off-plan townhouse project by Emaar Properties located in The Valley, Dubai. The project is within a gated community and has confirmed luxury positioning."
+      "short_answer_summary": "In The Valley, Dubai, Talia is an off-plan townhouse project developed by Emaar Properties. The project is characterised by a gated-community environment and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "People who prefer a calm residential setting",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers looking for a family-oriented home",
-        "Buyers considering a residential investment purchase",
-        "Buyers looking for a quieter residential setting"
+        "Families looking for a home suited to daily living",
+        "Investors comparing residential property purchases",
+        "People who prefer a calm residential setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers looking specifically for studios or compact units",
+        "People searching for studio-size properties",
         "Buyers prioritising compact entry-level residences"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Talia is a townhouse project by Emaar Properties located in The Valley, Dubai, offering three-to-four-bedroom homes with a scheduled handover in April 2025. Its positioning focuses on family-oriented primary residence within a gated, suburban community that emphasizes spacious layouts and a quiet, nature-oriented living environment.",
+      "project_logic_text": "Talia is a townhouse project by Emaar Properties located in The Valley, Dubai, offering three-to-four-bedroom homes with a scheduled handover in April 2025. Its residential concept centres on family living within a gated, suburban community that emphasizes spacious layouts and a quiet, nature-oriented living environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Talia against its recorded AED 2,500,000 starting price, recorded project timeline and comparable projects in The Valley.",
+          "text": "Compare Talia with projects in The Valley, taking account of the recorded AED 2,500,000 starting price and its recorded project timeline.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Talia offers townhouses in The Valley, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Talia has townhouses in The Valley, with a gated-community environment noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Talia with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Talia with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

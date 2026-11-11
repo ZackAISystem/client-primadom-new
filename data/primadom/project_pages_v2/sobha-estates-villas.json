@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Sobha Estates Villas is an off-plan villa project by Sobha Realty located in Mohammed Bin Rashid City. The project has confirmed waterfront, park view, and luxury positioning."
+      "short_answer_summary": "Located in Mohammed Bin Rashid City, Sobha Estates Villas is an off-plan villa development by Sobha Realty. The project combines a waterfront setting, park views, and a luxury focus."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Households seeking a home for family life",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "People who prioritise living by the water",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -288,13 +288,13 @@
             "semantic_group": "high_entry_price"
           },
           {
-            "item": "Buyers looking specifically for studios or compact units",
+            "item": "People searching for studio-size properties",
             "evidence": "bedrooms_min",
             "priority": 40,
             "semantic_group": "no_compact_units"
           },
           {
-            "item": "Buyers looking specifically for apartments",
+            "item": "Homebuyers looking exclusively for an apartment",
             "evidence": "property_types.villa_only",
             "priority": 60,
             "semantic_group": "no_apartments"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Households seeking a home for family life",
+        "People who prioritise living by the water"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -314,8 +314,8 @@
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
         "Buyers with a lower purchase budget",
-        "Buyers looking specifically for studios or compact units",
-        "Buyers looking specifically for apartments"
+        "People searching for studio-size properties",
+        "Homebuyers looking exclusively for an apartment"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Sobha Estates Villas is a villa project by Sobha Realty in Mohammed Bin Rashid City, Dubai, offering five-to-six-bedroom homes with a stated handover date of 30 September 2026. Its positioning focuses on spacious family-oriented primary residences set within a green, quiet environment featuring luxury and private living near park and waterfront views.",
+      "project_logic_text": "Sobha Estates Villas is a villa project by Sobha Realty in Mohammed Bin Rashid City, Dubai, offering five-to-six-bedroom homes with a stated handover date of 30 September 2026. The emphasis is on spacious family-oriented primary residences set within a green, quiet environment featuring luxury and private living near park and waterfront views.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Sobha Estates Villas against its recorded AED 30,000,000 starting price, stated 2026 handover timing and comparable projects in Mohammed Bin Rashid City.",
+          "text": "When evaluating Sobha Estates Villas, weigh its recorded AED 30,000,000 starting price and its stated 2026 handover timing against other projects in Mohammed Bin Rashid City.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Sobha Estates Villas offers villas in Mohammed Bin Rashid City, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Sobha Estates Villas offers villas in Mohammed Bin Rashid City. Its profile also notes a waterfront setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Sobha Estates Villas with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Sobha Estates Villas with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

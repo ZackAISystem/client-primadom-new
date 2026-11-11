@@ -267,7 +267,7 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Homebuyers prioritising a family-oriented residence",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
@@ -296,7 +296,7 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
+        "Homebuyers prioritising a family-oriented residence",
         "Buyers looking for more spacious layouts"
       ],
       "best_for_title": "Good fit for",
@@ -333,7 +333,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Edison House is an apartment project by Arabian Gulf Properties located in Dubailand, Dubai, within a master-community setting. Its positioning focuses on family-oriented primary residence and community living, situated in an emerging and green district that supports a lifestyle centered on comfort and connection.",
+      "project_logic_text": "Edison House is an apartment project by Arabian Gulf Properties located in Dubailand, Dubai, within a master-community setting. Its residential concept centres on family living and community living, situated in an emerging and green district that supports a lifestyle centered on comfort and connection.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -360,28 +360,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Edison House against its location, unit mix and comparable projects in Dubailand.",
+          "text": "Compare Edison House with projects in Dubailand, taking account of its location and the unit mix.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Edison House offers apartments in Dubailand, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Dubailand, Edison House offers apartments; the project profile highlights a master-planned community setting, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Edison House with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Compare Edison House with similar projects through Primadom AI, then discuss the open questions with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

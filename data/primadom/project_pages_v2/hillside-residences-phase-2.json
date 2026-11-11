@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Hillside Residences Phase 2 is an off-plan apartment and duplex project by Wasl Properties located in Wasl Gate. The project has confirmed luxury positioning and includes confirmed city views."
+      "short_answer_summary": "Hillside Residences Phase 2 is an off-plan apartment and duplex project by Wasl Properties in Wasl Gate. It combines a luxury focus with city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "Buyers seeking a more urban setting",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -302,9 +302,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Investors comparing residential property purchases",
+        "Buyers seeking a more urban setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -313,7 +313,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers with a lower purchase budget",
         "Buyers looking specifically for villas"
       ],
@@ -341,7 +341,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Hillside Residences Phase 2 is a residential project by Wasl Properties in Dubai’s Wasl Gate, offering apartments and duplexes sized between 3,046 and 3,111 square feet with a scheduled handover in September 2027. Its positioning focuses on luxury city-view living within an emerging urban-core district, combining family-friendly and quiet surroundings with primary-residence and investment use cases.",
+      "project_logic_text": "Hillside Residences Phase 2 is a residential project by Wasl Properties in Dubai’s Wasl Gate, offering apartments and duplexes sized between 3,046 and 3,111 square feet with a scheduled handover in September 2027. The emphasis is on luxury city-view living within an emerging urban-core district, combining family-friendly and quiet surroundings with homeownership and investment scenarios.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -368,28 +368,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Hillside Residences Phase 2 against its recorded AED 3,700,000 starting price, stated 2027 handover timing and comparable projects in Wasl Gate.",
+          "text": "Assess Hillside Residences Phase 2 alongside projects in Wasl Gate, using its recorded AED 3,700,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Hillside Residences Phase 2 offers apartments and duplexes in Wasl Gate, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "In Wasl Gate, Hillside Residences Phase 2 offers apartments and duplexes; the project profile highlights city views, subject to unit-level details.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before proceeding, check availability, current prices, ongoing charges, payment terms, unit plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Hillside Residences Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Ask Primadom AI about Hillside Residences Phase 2 and its alternatives before discussing the details with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "The Gate is an off-plan apartment project by ARADA - Sale located in Aljada. The project is within a master community."
+      "short_answer_summary": "The Gate, an off-plan apartment project by ARADA - Sale, is located in Aljada. The development has a master-planned community setting."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -268,13 +268,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Buyers choosing a family-focused home",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -291,8 +291,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers who prefer an urban lifestyle"
+        "Buyers choosing a family-focused home",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "The Gate is a residential apartment project by ARADA - Sale in Sharjah’s Aljada district, offering one-to-three-bedroom apartments with a scheduled handover in September 2024. Its positioning integrates family-oriented primary residence within a green, urban-core master community that supports community living and combines nature-oriented surroundings with city living.",
+      "project_logic_text": "The Gate is a residential apartment project by ARADA - Sale in Sharjah’s Aljada district, offering one-to-three-bedroom apartments with a scheduled handover in September 2024. Its appeal centres on family living within a green, urban-core master community that supports community living and combines nature-oriented surroundings with city living.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review The Gate against its recorded AED 680,000 starting price, recorded project timeline and comparable projects in Aljada.",
+          "text": "Assess The Gate alongside projects in Aljada, using its recorded AED 680,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "The Gate offers apartments in Aljada, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "The Gate offers apartments in Aljada. Its profile also notes a master-planned community setting; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Check available units and latest prices, review service charges and payment terms, and request official plans and documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare The Gate with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can outline comparisons for The Gate and suggest questions to take to an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

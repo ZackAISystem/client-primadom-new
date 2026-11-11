@@ -155,7 +155,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Reem Hills Apartments Phase 2 is an off-plan apartment and townhouse project by Q Properties located on Al Reem Island, Najmat Abu Dhabi. The project has confirmed family-friendly positioning and is within a gated community."
+      "short_answer_summary": "Located on Al Reem Island, Najmat Abu Dhabi, Reem Hills Apartments Phase 2 is an off-plan apartment and townhouse development by Q Properties. Its listed features include a family-friendly emphasis and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,13 +262,13 @@
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers looking for a family-oriented home",
+            "item": "Families looking for a home suited to daily living",
             "evidence": "use_case_tags.family_home",
             "priority": 15,
             "semantic_group": "family_fit"
           },
           {
-            "item": "Buyers looking for a quieter residential setting",
+            "item": "People who prefer a calm residential setting",
             "evidence": "lifestyle_or_family_tags.quiet",
             "priority": 35,
             "semantic_group": "quiet_lifestyle"
@@ -276,7 +276,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Buyers who cannot wait for project completion",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -285,8 +285,8 @@
       },
       "best_for_items": [
         "Buyers planning to use the property as a primary residence",
-        "Buyers looking for a family-oriented home",
-        "Buyers looking for a quieter residential setting"
+        "Families looking for a home suited to daily living",
+        "People who prefer a calm residential setting"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -295,7 +295,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately"
+        "Buyers who cannot wait for project completion"
       ],
       "not_best_for_title": "May not suit",
       "not_best_for_status": "formula_written"
@@ -321,7 +321,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Reem Hills Apartments Phase 2 by Q Properties is a future-delivery residential project on Al Reem Island offering one-to-three-bedroom apartments and townhouses with handover scheduled for June 2027. Its positioning combines a gated, family-oriented community atmosphere with spacious home formats designed for primary residence in a quiet island setting.",
+      "project_logic_text": "Reem Hills Apartments Phase 2 by Q Properties is a future-delivery residential project on Al Reem Island offering one-to-three-bedroom apartments and townhouses with handover scheduled for June 2027. Its residential character brings together a gated, family-oriented community atmosphere with spacious home formats designed for primary residence in a quiet island setting.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -348,28 +348,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Reem Hills Apartments Phase 2 against its recorded AED 1,100,000 starting price, stated 2027 handover timing and comparable projects in Al Reem Island.",
+          "text": "Assess Reem Hills Apartments Phase 2 alongside projects in Al Reem Island, using its recorded AED 1,100,000 starting price and its stated 2027 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Reem Hills Apartments Phase 2 offers apartments and townhouses in Al Reem Island, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Reem Hills Apartments Phase 2 offers apartments and townhouses in Al Reem Island. Its profile also notes a gated-community environment; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Before deciding, confirm current availability, prices, service charges, payment terms, floor plans and official project documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Reem Hills Apartments Phase 2 with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Reem Hills Apartments Phase 2 with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

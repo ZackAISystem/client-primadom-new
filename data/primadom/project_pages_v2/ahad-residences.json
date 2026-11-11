@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Ahad Residences is an off-plan apartment project by Ahad Group located in Dubai, Business Bay. The project includes confirmed city views."
+      "short_answer_summary": "In Dubai, Business Bay, Ahad Residences is an off-plan apartment project developed by Ahad Group. The development has city views."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Those considering a residential property investment",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers who prefer an urban lifestyle",
+            "item": "People looking for a city-oriented lifestyle",
             "evidence": "lifestyle_tags.city_living",
             "priority": 30,
             "semantic_group": "urban_lifestyle"
@@ -290,9 +290,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers who prefer an urban lifestyle"
+        "Homebuyers planning to live in the property",
+        "Those considering a residential property investment",
+        "People looking for a city-oriented lifestyle"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -327,7 +327,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Ahad Residences is an apartment project by Ahad Group in Dubai’s Business Bay, offering studio-to-three-bedroom units with sizes ranging from 417 to 2769 square feet and a handover date of June 2023. Its positioning reflects an urban-core residential format with city-view orientation, combining primary-residence and investment use cases within a vibrant business district environment.",
+      "project_logic_text": "Ahad Residences is an apartment project by Ahad Group in Dubai’s Business Bay, offering studio-to-three-bedroom units with sizes ranging from 417 to 2769 square feet and a handover date of June 2023. Its residential profile reflects an urban-core residential format with city views, combining homeownership and investment scenarios within a vibrant business district environment.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -354,28 +354,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Ahad Residences against its recorded AED 1,300,000 starting price, recorded project timeline and comparable projects in Business Bay.",
+          "text": "Assess Ahad Residences alongside projects in Business Bay, using its recorded AED 1,300,000 starting price and its recorded project timeline as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Ahad Residences offers apartments in Business Bay, with lifestyle fit depending on the unit mix and intended use.",
+          "text": "Ahad Residences has apartments in Business Bay, with city views noted in its profile. Check the specific unit for lifestyle fit.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Compare live pricing and availability with the floor plans; confirm service charges, payment terms and official documentation.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Ahad Residences with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Primadom AI can help compare Ahad Residences with alternatives and identify points to clarify with an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"

@@ -161,7 +161,7 @@
       ],
       "short_answer_title": "Project snapshot",
       "short_answer_kicker": "Quick buyer overview",
-      "short_answer_summary": "Eltiera Heights is an off-plan apartment and penthouse project by Ellington located in Dubai, Jumeirah Islands. The project has confirmed luxury and canal-front positioning and is within a gated community."
+      "short_answer_summary": "Eltiera Heights, an off-plan apartment and penthouse project by Ellington, is located in Dubai, Jumeirah Islands. The project combines a luxury focus, canal-front positioning, and a gated-community environment."
     },
     "block_06_key_facts": {
       "key_facts": [
@@ -262,19 +262,19 @@
       "fit_evidence": {
         "best_for": [
           {
-            "item": "Buyers planning to use the property as a primary residence",
+            "item": "Homebuyers planning to live in the property",
             "evidence": "use_case_tags.primary_residence",
             "priority": 10,
             "semantic_group": "primary_residence"
           },
           {
-            "item": "Buyers considering a residential investment purchase",
+            "item": "Investors comparing residential property purchases",
             "evidence": "use_case_tags.investment",
             "priority": 20,
             "semantic_group": "investment"
           },
           {
-            "item": "Buyers prioritising waterfront living",
+            "item": "Buyers looking specifically for waterside living",
             "evidence": "confirmed_waterfront_signal",
             "priority": 25,
             "semantic_group": "waterfront"
@@ -282,7 +282,7 @@
         ],
         "not_best_for": [
           {
-            "item": "Buyers who need a ready property immediately",
+            "item": "Homebuyers looking for a completed property now",
             "evidence": "future_handover",
             "priority": 10,
             "semantic_group": "future_handover"
@@ -296,9 +296,9 @@
         ]
       },
       "best_for_items": [
-        "Buyers planning to use the property as a primary residence",
-        "Buyers considering a residential investment purchase",
-        "Buyers prioritising waterfront living"
+        "Homebuyers planning to live in the property",
+        "Investors comparing residential property purchases",
+        "Buyers looking specifically for waterside living"
       ],
       "best_for_title": "Good fit for",
       "schema_version": "buyer_fit_v1",
@@ -307,7 +307,7 @@
       "formula_version": "buyer_fit_rules_v2",
       "buyer_fit_kicker": "Fit check",
       "not_best_for_items": [
-        "Buyers who need a ready property immediately",
+        "Homebuyers looking for a completed property now",
         "Buyers looking specifically for villas"
       ],
       "not_best_for_title": "May not suit",
@@ -334,7 +334,7 @@
       },
       "logic_status": "agent_written",
       "schema_version": "project_logic_v1",
-      "project_logic_text": "Eltiera Heights is a residential project by Ellington in Jumeirah Islands, Dubai, offering one-to-four-bedroom apartments and penthouses with a stated handover date of December 2028. Its positioning combines canal-front and luxury residential formats within a gated island community, supporting primary-residence and investment use cases focused on waterfront living and family-oriented community life.",
+      "project_logic_text": "Eltiera Heights is a residential project by Ellington in Jumeirah Islands, Dubai, offering one-to-four-bedroom apartments and penthouses with a stated handover date of December 2028. The residential concept combines canal-front and luxury residential formats within a gated island community, supporting homeownership and investment scenarios focused on waterfront living and family-oriented community life.",
       "project_logic_title": "Project positioning",
       "project_logic_kicker": "How to read it"
     },
@@ -361,28 +361,28 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Review Eltiera Heights against its recorded AED 2,100,000 starting price, stated 2028 handover timing and comparable projects in Jumeirah Islands.",
+          "text": "Assess Eltiera Heights alongside projects in Jumeirah Islands, using its recorded AED 2,100,000 starting price and its stated 2028 handover timing as reference points.",
           "title": "Needs data check",
           "eyebrow": "Investment view",
           "card_status": "formula_enriched"
         },
         {
           "key": "lifestyle_view",
-          "text": "Eltiera Heights offers apartments and penthouses in Jumeirah Islands, with a family-oriented use case supported by its residential format and unit mix.",
+          "text": "Eltiera Heights offers apartments and penthouses in Jumeirah Islands. Its profile also notes canal-front positioning; compare the individual layouts.",
           "title": "Buyer use case",
           "eyebrow": "Lifestyle view",
           "card_status": "formula_enriched"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirm live availability, current price, service charges, payment terms, floor plans and official project documents before making a decision.",
+          "text": "Request the latest pricing and availability, then review service charges, payment terms, floor plans and official documents.",
           "title": "Availability, fees, plan",
           "eyebrow": "Check before buying",
           "card_status": "formula_enriched"
         },
         {
           "key": "ai_context",
-          "text": "Primadom AI can compare Eltiera Heights with alternatives and prepare the key questions to check with an advisor.",
+          "text": "Use Primadom AI to compare Eltiera Heights with other projects and prepare focused questions for an advisor.",
           "title": "Ask before you decide",
           "eyebrow": "AI support",
           "card_status": "system_default"
