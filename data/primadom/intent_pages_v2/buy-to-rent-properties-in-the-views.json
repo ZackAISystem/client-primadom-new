@@ -196,7 +196,7 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compare tenant profile and occupancy.",
+          "text": "Assess tenant needs and vacancy risk.",
           "title": "Units with rental demand"
         },
         {
@@ -204,11 +204,11 @@
           "title": "Properties with efficient layouts"
         },
         {
-          "text": "Review charges and operating expenses.",
+          "text": "Calculate charges and running expenses.",
           "title": "Options with controlled costs"
         },
         {
-          "text": "Compare liquidity and exit timing.",
+          "text": "Check resale depth and exit timing.",
           "title": "Assets with resale flexibility"
         }
       ],
@@ -220,7 +220,7 @@
       "schema_version": "intent_best_options_v1"
     },
     "block_08_selection_logic": {
-      "body": "Compare buy-to-rent options through realistic rent assumptions, tenant demand, operating costs, building rules and resale liquidity. Gross rent alone should not determine the shortlist.",
+      "body": "For rental purchases in The Views, test tenant demand, realistic rents, running costs, building rules and resale options. Gross income alone is not enough to rank homes.",
       "tags": [
         "Rent assumptions",
         "Tenant demand",
@@ -245,7 +245,7 @@
         },
         {
           "dark": false,
-          "text": "Useful when recurring income is the main objective.",
+          "text": "Relevant when repeat rental income is the primary goal.",
           "title": "Designed for rental-focused buyers",
           "eyebrow": "Buyer match"
         },

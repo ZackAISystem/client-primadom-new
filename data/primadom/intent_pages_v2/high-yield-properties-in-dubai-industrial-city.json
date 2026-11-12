@@ -196,11 +196,11 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compare occupancy and achievable rents.",
+          "text": "Test achievable rent and vacancy risk.",
           "title": "Units with rental demand"
         },
         {
-          "text": "Review charges and operating expenses.",
+          "text": "Calculate charges and running expenses.",
           "title": "Properties with efficient costs"
         },
         {
@@ -208,7 +208,7 @@
           "title": "Layouts suited to tenants"
         },
         {
-          "text": "Compare liquidity and exit timing.",
+          "text": "Check resale depth and exit timing.",
           "title": "Options with resale demand"
         }
       ],
@@ -220,7 +220,7 @@
       "schema_version": "intent_best_options_v1"
     },
     "block_08_selection_logic": {
-      "body": "Compare yield-focused properties through realistic rent, occupancy assumptions, service charges, operating costs and resale liquidity. Advertised gross yield should not determine the shortlist.",
+      "body": "For yield-focused homes in Dubai Industrial City, review realistic rent, occupancy, service charges, running costs and resale liquidity. Gross yield claims do not establish net returns.",
       "tags": [
         "Realistic rent",
         "Occupancy",
@@ -245,7 +245,7 @@
         },
         {
           "dark": false,
-          "text": "Useful when net rental performance is the priority.",
+          "text": "Useful when income after costs drives the decision.",
           "title": "Built for income-focused buyers",
           "eyebrow": "Buyer match"
         },
