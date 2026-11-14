@@ -253,7 +253,7 @@
       "source_status": "structured_facts_plus_project_profile_signals",
       "schema_version": "project_comparison_summaries_logic_v1",
       "comparison_logic": {
-        "body": "Оба проекта находятся в Al Barari, поэтому расположение не является главным различием. Оба проекта от Al Barari, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены: AED 6.3M у Al Barari Ixora Villas и AED 2.8M у The Lofts Al Barari. Зафиксированные сроки сдачи — 2024 и 2027.",
+        "body": "Оба проекта находятся в Al Barari, но точное расположение и окружение каждого проекта важно сравнить. Оба проекта от Al Barari, поэтому важнее сравнить типы объектов, цену и сроки сдачи. Зафиксированные стартовые цены: AED 6.3M у Al Barari Ixora Villas и AED 2.8M у The Lofts Al Barari. Зафиксированные сроки сдачи — 2024 и 2027.",
         "tags": [
           "Один район",
           "Один застройщик",
@@ -341,7 +341,7 @@
         },
         {
           "key": "ai_support",
-          "text": "Попросите Primadom AI сравнить Al Barari Ixora Villas и The Lofts Al Barari по типу объекта, зафиксированной цене, расположению, сроку сдачи и предполагаемому использованию, а затем подготовить основные вопросы консультанту.",
+          "text": "Попросите Primadom AI сопоставить Al Barari Ixora Villas и The Lofts Al Barari по типу объекта, зафиксированной цене, точному расположению, сроку сдачи и вашим планам использования, а затем подготовить вопросы консультанту.",
           "title": "Сравнить под вашу цель",
           "eyebrow": "Спросить AI",
           "card_status": "pair_specific_handoff",
@@ -376,7 +376,7 @@
       "source_status": "structured_project_facts_plus_profile_signals",
       "schema_version": "project_comparison_buyer_investment_logic_v1",
       "investment_logic": {
-        "body": "Зафиксированные стартовые цены: AED 6.3M у Al Barari Ixora Villas и AED 2.8M у The Lofts Al Barari. Оба проекта находятся в Al Barari, поэтому расположение, скорее всего, не будет главным различием. В Al Barari Ixora Villas указаны типы недвижимости: таунхаусыы, а в The Lofts Al Barari — квартиры · дуплексы. У Al Barari Ixora Villas указан срок сдачи 2024, у The Lofts Al Barari — 2027.",
+        "body": "Зафиксированные стартовые цены: AED 6.3M у Al Barari Ixora Villas и AED 2.8M у The Lofts Al Barari. Оба проекта находятся в Al Barari, но точное расположение каждого проекта тоже стоит учитывать. В Al Barari Ixora Villas указаны типы недвижимости: таунхаусыы, а в The Lofts Al Barari — квартиры · дуплексы. У Al Barari Ixora Villas указан срок сдачи 2024, у The Lofts Al Barari — 2027.",
         "tags": [
           "Разница в стартовых ценах",
           "Один район",
@@ -455,7 +455,7 @@
       "schema_version": "project_comparison_projects_alternatives_v1"
     },
     "block_12_ai_inputs": {
-      "text": "Укажите эти данные, чтобы сравнить Al Barari Ixora Villas и The Lofts Al Barari по одинаковым приоритетам. Зафиксированные данные о проектах помогают сузить выбор, но конкретные объекты, текущие цены и наличие всё равно требуют актуальной проверки.",
+      "text": "Укажите свои приоритеты, чтобы сравнить Al Barari Ixora Villas и The Lofts Al Barari по единым критериям. Сведения о проектах помогают сузить выбор, но цены, наличие и условия по конкретным объектам всё равно требуют актуальной проверки.",
       "items": [
         {
           "meta": "Диапазон AED или максимальная стартовая цена",
@@ -509,7 +509,7 @@
           "answer_status": "structured_project_facts"
         },
         {
-          "answer": "Финальный выбор между Al Barari Ixora Villas и The Lofts Al Barari стоит делать по конкретному объекту, текущей цене, условиям оплаты, полной стоимости покупки, планировке, виду, статусу проекта, сроку сдачи и наличию. Зафиксированные данные на уровне проекта полезны для шорт-листа, но не заменяют актуальную проверку конкретного объекта.",
+          "answer": "Финальный выбор между Al Barari Ixora Villas и The Lofts Al Barari стоит делать по конкретному объекту, текущей цене, условиям оплаты, полной стоимости покупки, планировке, виду, статусу проекта, сроку сдачи и наличию. Сведения о проектах помогают сформировать предварительный список вариантов, но не заменяют проверку актуальных условий конкретного объекта.",
           "question": "Что проверить перед выбором между Al Barari Ixora Villas и The Lofts Al Barari?",
           "answer_status": "live_check_guidance"
         }
