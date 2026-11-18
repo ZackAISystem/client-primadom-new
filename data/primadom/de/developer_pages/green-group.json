@@ -127,8 +127,8 @@
       ],
       "title": "Bauträgerübersicht",
       "eyebrow": "Kurzübersicht",
-      "body_html": "<strong>Green Group</strong> wird als Bauträger geführt, der in Dubai tätig ist. Diese Seite bündelt verfügbare Informationen zu Projekten und Stadtteilen sowie zur Eignung für Käufer und zur Quellenprüfung, damit Käufer den Bauträger strukturiert einordnen können.",
-      "body_text": "Green Group wird als Bauträger geführt, der in Dubai tätig ist. Diese Seite bündelt verfügbare Informationen zu Projekten und Stadtteilen sowie zur Eignung für Käufer und zur Quellenprüfung, damit Käufer den Bauträger strukturiert einordnen können.",
+      "body_html": "<strong>Green Group</strong> wird als in Dubai tätiger Bauträger geführt. Diese Seite bündelt verfügbare Informationen zu Projekten und Stadtteilen, zur Eignung für Käufer und zur Quellenprüfung, damit der Bauträger strukturiert eingeordnet werden kann.",
+      "body_text": "Green Group wird als in Dubai tätiger Bauträger geführt. Diese Seite bündelt verfügbare Informationen zu Projekten und Stadtteilen, zur Eignung für Käufer und zur Quellenprüfung, damit der Bauträger strukturiert eingeordnet werden kann.",
       "source_used": "neutral_fallback",
       "schema_version": "developer_short_summary_v1",
       "summary_status": "agent_written"
@@ -179,13 +179,13 @@
         "eyebrow": "Am besten geeignet für",
         "good_for": [
           "Käufer, die Green Group auf dem Immobilienmarkt in Dubai prüfen",
-          "Käufer, die die Eignung von Projekt und Standort vor einer Anfrage prüfen möchten",
-          "Käufer, die Preise, Eignung für Käufer und Quelleninformationen gebündelt prüfen möchten"
+          "Käufer, die zunächst klären möchten, wie gut Projekt und Standort zu ihnen passen",
+          "Käufer, die Preisangaben, Eignung für Käufer und Quelleninformationen gebündelt prüfen"
         ],
         "less_for": [
-          "Käufer, die ausschließlich den niedrigsten Einstiegspreis suchen, ohne die Gesamteignung des Projekts zu prüfen",
-          "Käufer, die bereits vor einer ersten Prüfung bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
-          "Käufer, die entscheiden möchten, ohne Projektdetails, Standort und Informationen zum Bauträger zu prüfen"
+          "Käufer, die sich allein am niedrigsten Einstiegspreis orientieren, ohne die gesamte Projekteignung zu prüfen",
+          "Käufer, die vor einer ersten Prüfung bereits bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
+          "Käufer, die Standort, Projektdetails und Angaben zum Bauträger vor ihrer Entscheidung nicht prüfen wollen"
         ],
         "good_for_title": "Gut geeignet für",
         "less_for_title": "Möglicherweise nicht geeignet für"
@@ -193,7 +193,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Nutzen Sie dieses Profil, um Green Group auf dem Immobilienmarkt in Dubai einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
+        "body": "Für die Einordnung von Green Group am Immobilienmarkt in Dubai nutzen Sie dieses Profil. Klären Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die Quellenlage.",
         "tags": [
           "Markt Dubai",
           "Quellenprüfung"
@@ -207,21 +207,21 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Bei Green Group sollte die Eignung als Investition anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen geprüft werden.",
+          "text": "Für die Investitionsbewertung bei Green Group zählen Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und der Vergleich mit relevanten Marktalternativen.",
           "title": "Investitionskontext",
           "eyebrow": "Investitionsperspektive",
           "card_status": "agent_written"
         },
         {
           "key": "lifestyle_view",
-          "text": "Die Eignung zum Lebensstil hängt vom Projekt, Gebiet, Gebäudetyp, Einheitenmix, den Annehmlichkeiten und der Alltagsanbindung auf dem Immobilienmarkt in Dubai ab.",
+          "text": "Bei Immobilien in Dubai wird die Eignung zum Lebensstil durch Projekt, Gebiet, Gebäudetyp, Einheitenmix, Annehmlichkeiten und Alltagsanbindung geprägt.",
           "title": "Lifestyle-Kontext",
           "eyebrow": "Lifestyle-Perspektive",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Bestätigen Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und die neuesten Projektinformationen.",
+          "text": "Klären Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und neueste Projektinformationen.",
           "title": "Was zu überprüfen ist",
           "eyebrow": "Vor dem Kauf prüfen",
           "card_status": "standard_verified_copy"
@@ -229,7 +229,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI kann Projekte von Green Group mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen, bevor Sie mit einem Berater sprechen.",
+          "text": "Vor dem Gespräch mit einem Berater kann Primadom AI Projekte von Green Group und relevante Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen.",
           "title": "Bauträgerprojekte vergleichen",
           "eyebrow": "AI-Unterstützung",
           "card_status": "standard_product_copy"
@@ -289,7 +289,7 @@
       },
       "schema_version": "developer_districts_segment_v1",
       "segment_profile": {
-        "body": "Bewerten Sie Green Group anhand von Projektstandorten, Produkttyp, Eignung des Standorts, bisherige Projektumsetzung und aktueller Verfügbarkeit, bevor Sie eine Kaufentscheidung treffen.",
+        "body": "Bewerten Sie Green Group nach Projektstandorten, Produkttyp, Eignung des Standorts, bisheriger Projektumsetzung und aktueller Verfügbarkeit, bevor Sie eine Kaufentscheidung treffen.",
         "tags": [
           "Markt Dubai",
           "Eignung des Standorts",

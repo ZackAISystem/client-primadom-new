@@ -181,13 +181,13 @@
         "eyebrow": "Am besten geeignet für",
         "good_for": [
           "Käufer, die Empire Developments mit dem Profil „Mittleres Marktsegment“ auf dem Immobilienmarkt in Dubai prüfen",
-          "Käufer, die die Eignung von Projekt und Standort vor einer Anfrage prüfen möchten",
-          "Käufer, die Preise, Eignung für Käufer und Quelleninformationen gebündelt prüfen möchten"
+          "Käufer, die zunächst klären möchten, wie gut Projekt und Standort zu ihnen passen",
+          "Käufer, die Preise und Eignung für Käufer anhand der Quellenangaben zusammen prüfen"
         ],
         "less_for": [
-          "Käufer, die ausschließlich den niedrigsten Einstiegspreis suchen, ohne die Gesamteignung des Projekts zu prüfen",
-          "Käufer, die bereits vor einer ersten Prüfung bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
-          "Käufer, die entscheiden möchten, ohne Projektdetails, Standort und Informationen zum Bauträger zu prüfen"
+          "Käufer, die nur den niedrigsten Einstiegspreis berücksichtigen, statt die Gesamteignung des Projekts zu prüfen",
+          "Käufer, die vor einer ersten Prüfung bereits bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
+          "Käufer, die ohne Prüfung der Projektdetails, des Standorts und der Bauträgerinformationen entscheiden wollen"
         ],
         "good_for_title": "Gut geeignet für",
         "less_for_title": "Möglicherweise nicht geeignet für"
@@ -195,7 +195,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Nutzen Sie dieses Profil, um Empire Developments auf dem Immobilienmarkt in Dubai einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
+        "body": "Dieses Profil hilft, Empire Developments auf dem Immobilienmarkt in Dubai einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
         "tags": [
           "Markt Dubai",
           "Wohnfokus",
@@ -211,21 +211,21 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Bei Empire Developments sollte die Eignung als Investition anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen geprüft werden.",
+          "text": "Prüfen Sie bei Empire Developments die Investitionseignung anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Alternativen am Markt.",
           "title": "Investitionskontext",
           "eyebrow": "Investitionsperspektive",
           "card_status": "agent_written"
         },
         {
           "key": "lifestyle_view",
-          "text": "Die Eignung zum Lebensstil hängt vom Projekt, Gebiet, Gebäudetyp, Einheitenmix, den Annehmlichkeiten und der Alltagsanbindung auf dem Immobilienmarkt in Dubai ab.",
+          "text": "Bei Immobilien in Dubai wird die Eignung zum Lebensstil durch Projekt, Gebiet, Gebäudetyp, Einheitenmix, Annehmlichkeiten und Alltagsanbindung geprägt.",
           "title": "Lifestyle-Kontext",
           "eyebrow": "Lifestyle-Perspektive",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Bestätigen Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und die neuesten Projektinformationen.",
+          "text": "Vor Ihrer Entscheidung sind aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und neueste Projektinformationen zu prüfen.",
           "title": "Was zu überprüfen ist",
           "eyebrow": "Vor dem Kauf prüfen",
           "card_status": "standard_verified_copy"
@@ -233,7 +233,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI kann Projekte von Empire Developments mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen, bevor Sie mit einem Berater sprechen.",
+          "text": "Primadom AI ermöglicht vor dem Beratergespräch den Vergleich von Projekten von Empire Developments mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Standorteignung und Kaufziel.",
           "title": "Bauträgerprojekte vergleichen",
           "eyebrow": "AI-Unterstützung",
           "card_status": "standard_product_copy"

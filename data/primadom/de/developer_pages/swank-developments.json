@@ -181,13 +181,13 @@
         "eyebrow": "Am besten geeignet für",
         "good_for": [
           "Käufer, die Swank Developments mit dem Profil „Designorientiert · Mittleres Marktsegment“ auf dem Immobilienmarkt in Dubai prüfen",
-          "Käufer, die die Eignung von Projekt und Standort vor einer Anfrage prüfen möchten",
-          "Käufer, die Preise, Eignung für Käufer und Quelleninformationen gebündelt prüfen möchten"
+          "Käufer, die vor einer Anfrage Projekt und Standort auf ihre Eignung hin prüfen",
+          "Käufer, die Preise, die Eignung für Käufer und Angaben zu Quellen gemeinsam prüfen möchten"
         ],
         "less_for": [
-          "Käufer, die ausschließlich den niedrigsten Einstiegspreis suchen, ohne die Gesamteignung des Projekts zu prüfen",
-          "Käufer, die bereits vor einer ersten Prüfung bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
-          "Käufer, die entscheiden möchten, ohne Projektdetails, Standort und Informationen zum Bauträger zu prüfen"
+          "Käufer, die nur den niedrigsten Einstiegspreis suchen und die Gesamteignung des Projekts dabei außer Acht lassen",
+          "Käufer, die bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen bereits vor einer ersten Prüfung brauchen",
+          "Käufer, die ohne Kontrolle von Standort, Projektdetails und Informationen zum Bauträger entscheiden möchten"
         ],
         "good_for_title": "Gut geeignet für",
         "less_for_title": "Möglicherweise nicht geeignet für"
@@ -195,7 +195,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Nutzen Sie dieses Profil, um Swank Developments auf dem Immobilienmarkt in Dubai einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
+        "body": "Dieses Profil unterstützt die Einordnung von Swank Developments im Immobilienmarkt von Dubai. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und deren Quellen.",
         "tags": [
           "Markt Dubai",
           "Boutique-Profil",
@@ -211,21 +211,21 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Bei Swank Developments sollte die Eignung als Investition anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen geprüft werden.",
+          "text": "Prüfen Sie bei Swank Developments die Investitionseignung anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Alternativen am Markt.",
           "title": "Investitionskontext",
           "eyebrow": "Investitionsperspektive",
           "card_status": "agent_written"
         },
         {
           "key": "lifestyle_view",
-          "text": "Die Eignung zum Lebensstil hängt vom Projekt, Gebiet, Gebäudetyp, Einheitenmix, den Annehmlichkeiten und der Alltagsanbindung auf dem Immobilienmarkt in Dubai ab.",
+          "text": "Für die Eignung zum Lebensstil in Dubai sind Projekt und Gebiet ebenso wichtig wie Gebäudetyp, Einheitenmix, Annehmlichkeiten und Alltagsanbindung.",
           "title": "Lifestyle-Kontext",
           "eyebrow": "Lifestyle-Perspektive",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Bestätigen Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und die neuesten Projektinformationen.",
+          "text": "Vor einer Entscheidung sollten aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und neueste Projektinformationen bestätigt werden.",
           "title": "Was zu überprüfen ist",
           "eyebrow": "Vor dem Kauf prüfen",
           "card_status": "standard_verified_copy"
@@ -233,7 +233,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI kann Projekte von Swank Developments mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen, bevor Sie mit einem Berater sprechen.",
+          "text": "Für den Vergleich vor einem Beratergespräch kann Primadom AI Projekte von Swank Developments und relevante Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Standorteignung und Kaufziel heranziehen.",
           "title": "Bauträgerprojekte vergleichen",
           "eyebrow": "AI-Unterstützung",
           "card_status": "standard_product_copy"

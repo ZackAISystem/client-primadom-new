@@ -181,13 +181,13 @@
         "eyebrow": "Am besten geeignet für",
         "good_for": [
           "Käufer, die Confident Group mit dem Profil „Mittleres Marktsegment · Familienorientiert“ auf dem Immobilienmarkt in Dubai prüfen",
-          "Käufer, die die Eignung von Projekt und Standort vor einer Anfrage prüfen möchten",
-          "Käufer, die Preise, Eignung für Käufer und Quelleninformationen gebündelt prüfen möchten"
+          "Käufer, die vor einer Anfrage Projekt und Standort auf ihre Eignung hin prüfen",
+          "Käufer, die sich Preise, Eignung für Käufer und Quelleninformationen zusammen ansehen"
         ],
         "less_for": [
-          "Käufer, die ausschließlich den niedrigsten Einstiegspreis suchen, ohne die Gesamteignung des Projekts zu prüfen",
-          "Käufer, die bereits vor einer ersten Prüfung bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
-          "Käufer, die entscheiden möchten, ohne Projektdetails, Standort und Informationen zum Bauträger zu prüfen"
+          "Käufer, die sich allein nach dem niedrigsten Einstiegspreis richten und die gesamte Eignung des Projekts ausblenden",
+          "Käufer, die vor einer ersten Prüfung bereits bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
+          "Käufer, die entscheiden wollen, ohne Standort, Projektdetails und Bauträgerinformationen zu prüfen"
         ],
         "good_for_title": "Gut geeignet für",
         "less_for_title": "Möglicherweise nicht geeignet für"
@@ -195,7 +195,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Nutzen Sie dieses Profil, um Confident Group auf dem Immobilienmarkt in Dubai einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
+        "body": "Zur Einordnung von Confident Group am Immobilienmarkt in Dubai dient dieses Profil. Prüfen Sie vor der Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen sowie die zugrunde liegenden Quellen.",
         "tags": [
           "Markt Dubai",
           "Wohnfokus",
@@ -211,21 +211,21 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Bei Confident Group sollte die Eignung als Investition anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen geprüft werden.",
+          "text": "Die Eignung von Confident Group für eine Investition sollte anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen beurteilt werden.",
           "title": "Investitionskontext",
           "eyebrow": "Investitionsperspektive",
           "card_status": "agent_written"
         },
         {
           "key": "lifestyle_view",
-          "text": "Die Eignung zum Lebensstil hängt vom Projekt, Gebiet, Gebäudetyp, Einheitenmix, den Annehmlichkeiten und der Alltagsanbindung auf dem Immobilienmarkt in Dubai ab.",
+          "text": "Die Passung zum Lebensstil richtet sich bei Immobilien in Dubai nach Projekt, Gebiet, Gebäudetyp, Einheitenmix, Annehmlichkeiten und Alltagsanbindung.",
           "title": "Lifestyle-Kontext",
           "eyebrow": "Lifestyle-Perspektive",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Bestätigen Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und die neuesten Projektinformationen.",
+          "text": "Klären Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und neueste Projektinformationen.",
           "title": "Was zu überprüfen ist",
           "eyebrow": "Vor dem Kauf prüfen",
           "card_status": "standard_verified_copy"
@@ -233,7 +233,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI kann Projekte von Confident Group mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen, bevor Sie mit einem Berater sprechen.",
+          "text": "Vor dem Gespräch mit einem Berater kann Primadom AI Projekte von Confident Group und relevante Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen.",
           "title": "Bauträgerprojekte vergleichen",
           "eyebrow": "AI-Unterstützung",
           "card_status": "standard_product_copy"
@@ -303,7 +303,7 @@
       },
       "schema_version": "developer_districts_segment_v1",
       "segment_profile": {
-        "body": "Bewerten Sie Confident Group anhand von Projektstandorten, Produkttyp, Eignung des Standorts, bisherige Projektumsetzung und aktueller Verfügbarkeit, bevor Sie eine Kaufentscheidung treffen.",
+        "body": "Ordnen Sie Confident Group vor einer Kaufentscheidung anhand von Projektstandorten, Produkttyp, Eignung des Standorts, bisheriger Projektumsetzung und aktueller Verfügbarkeit ein.",
         "tags": [
           "Wohnfokus",
           "Boutique-Profil",

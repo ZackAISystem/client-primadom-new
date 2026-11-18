@@ -181,13 +181,13 @@
         "eyebrow": "Am besten geeignet für",
         "good_for": [
           "Käufer, die Atara Real Estate Development mit dem Profil „Mittleres Marktsegment“ auf dem Immobilienmarkt in Ras Al Khaimah prüfen",
-          "Käufer, die die Eignung von Projekt und Standort vor einer Anfrage prüfen möchten",
-          "Käufer, die Preise, Eignung für Käufer und Quelleninformationen gebündelt prüfen möchten"
+          "Käufer, die zunächst klären möchten, wie gut Projekt und Standort zu ihnen passen",
+          "Käufer, die Preise mit Käufereignung und Quelleninformationen zusammen betrachten möchten"
         ],
         "less_for": [
-          "Käufer, die ausschließlich den niedrigsten Einstiegspreis suchen, ohne die Gesamteignung des Projekts zu prüfen",
-          "Käufer, die bereits vor einer ersten Prüfung bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
-          "Käufer, die entscheiden möchten, ohne Projektdetails, Standort und Informationen zum Bauträger zu prüfen"
+          "Käufer, für die nur der niedrigste Einstiegspreis zählt, während die Gesamteignung des Projekts ungeprüft bleibt",
+          "Käufer, die vor einer ersten Prüfung bereits bestätigte aktuelle Verfügbarkeit oder Zahlungsbedingungen benötigen",
+          "Käufer, die eine Entscheidung treffen möchten, ohne Projektangaben, Standort und Bauträger zu prüfen"
         ],
         "good_for_title": "Gut geeignet für",
         "less_for_title": "Möglicherweise nicht geeignet für"
@@ -195,7 +195,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Nutzen Sie dieses Profil, um Atara Real Estate Development auf dem Immobilienmarkt in Ras Al Khaimah einzuordnen. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und die zugrunde liegenden Quellen.",
+        "body": "Dieses Profil unterstützt die Einordnung von Atara Real Estate Development im Immobilienmarkt von Ras Al Khaimah. Prüfen Sie vor einer Entscheidung aktuelle Projekte, Preise, Zahlungsbedingungen, Übergabeinformationen und deren Quellen.",
         "tags": [
           "Markt Ras Al Khaimah",
           "Wohnfokus",
@@ -211,21 +211,21 @@
       "decision_cards": [
         {
           "key": "investment_view",
-          "text": "Bei Atara Real Estate Development sollte die Eignung als Investition anhand von Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Marktalternativen geprüft werden.",
+          "text": "Bewerten Sie die Eignung als Investition bei Atara Real Estate Development nach Einstiegspreis, Zahlungsstruktur, Übergabezeitpunkt, Mietnachfrage und relevanten Alternativen am Markt.",
           "title": "Investitionskontext",
           "eyebrow": "Investitionsperspektive",
           "card_status": "agent_written"
         },
         {
           "key": "lifestyle_view",
-          "text": "Die Eignung zum Lebensstil hängt vom Projekt, Gebiet, Gebäudetyp, Einheitenmix, den Annehmlichkeiten und der Alltagsanbindung auf dem Immobilienmarkt in Ras Al Khaimah ab.",
+          "text": "Die Passung zum Lebensstil richtet sich bei Immobilien in Ras Al Khaimah nach Projekt, Gebiet, Gebäudetyp, Einheitenmix, Annehmlichkeiten und Alltagsanbindung.",
           "title": "Lifestyle-Kontext",
           "eyebrow": "Lifestyle-Perspektive",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Bestätigen Sie vor einer Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen und die neuesten Projektinformationen.",
+          "text": "Bestätigen Sie vor der Entscheidung aktuelle Einheiten, Preise, Servicegebühren, Zahlungsbedingungen, Grundrisse, Übergabezeitpunkt, Bauträgerunterlagen sowie neueste Projektinformationen.",
           "title": "Was zu überprüfen ist",
           "eyebrow": "Vor dem Kauf prüfen",
           "card_status": "standard_verified_copy"
@@ -233,7 +233,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI kann Projekte von Atara Real Estate Development mit relevanten Alternativen nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Eignung des Standorts und Kaufziel vergleichen, bevor Sie mit einem Berater sprechen.",
+          "text": "Primadom AI kann vor einem Beratergespräch Projekte von Atara Real Estate Development relevanten Alternativen gegenüberstellen – nach Budget, Gebiet, Einheitentyp, Zahlungsplan, Übergabezeitpunkt, Standorteignung und Kaufziel.",
           "title": "Bauträgerprojekte vergleichen",
           "eyebrow": "AI-Unterstützung",
           "card_status": "standard_product_copy"
