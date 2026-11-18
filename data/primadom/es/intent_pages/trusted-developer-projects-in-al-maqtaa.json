@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar proyectos de desarrolladores consolidados en Al Maqtaa, conviene comparar historial de entregas, estado actual del proyecto, contrato y plan de pago, servicio posventa y adecuación de la propiedad.</strong> La selección no debería basarse únicamente en la reputación del desarrollador. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar proyectos de desarrolladores consolidados en Al Maqtaa, conviene comparar historial de entregas, estado actual del proyecto, contrato y plan de pago, servicio posventa y adecuación de la propiedad. La selección no debería basarse únicamente en la reputación del desarrollador. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar proyectos de desarrolladores consolidados en Al Maqtaa, resulta conveniente comparar historial de entregas, estado actual del proyecto, contrato y plan de pago, servicio posventa y adecuación de la propiedad.</strong> La selección no debería basarse únicamente en la reputación del desarrollador. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar proyectos de desarrolladores consolidados en Al Maqtaa, resulta conveniente comparar historial de entregas, estado actual del proyecto, contrato y plan de pago, servicio posventa y adecuación de la propiedad. La selección no debería basarse únicamente en la reputación del desarrollador. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Compara la información actual y su adecuación al objetivo de compra.",
           "title": "Revisar historial de entregas"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Revisa distribución, condiciones y coste total cuando sea pertinente.",
           "title": "Comparar estado actual del proyecto"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Verifica los detalles del proyecto y los costes pertinentes.",
           "title": "Comprobar contrato y plan de pago"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Revisa la opción en conjunto antes de añadirla a la selección.",
           "title": "Equilibrar servicio posventa y adecuación de la propiedad"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara historial de entregas, estado actual del proyecto y contrato y plan de pago.",
+          "text": "Contrasta historial de entregas, estado actual del proyecto y contrato y plan de pago.",
           "title": "Empieza por historial de entregas",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Considera si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa servicio posventa, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica servicio posventa, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por historial de entregas, estado actual del proyecto y adecuación de la propiedad.",
+          "text": "Primadom AI ayuda a ordenar las opciones por historial de entregas, estado actual del proyecto y adecuación de la propiedad.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan proyectos de desarrolladores consolidados en Al Maqtaa",
-          "Compradores dispuestos a comparar historial de entregas, estado actual del proyecto y contrato y plan de pago",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores que desean comparar historial de entregas, estado actual del proyecto y contrato y plan de pago",
+          "Compradores que quieren verificar los datos actuales de cada opción previo a decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
           "Compradores que prefieren decidir únicamente por la reputación del desarrollador",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que evitan comparar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

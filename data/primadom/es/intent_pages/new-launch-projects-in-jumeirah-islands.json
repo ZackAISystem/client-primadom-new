@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar proyectos de nuevo lanzamiento en Jumeirah Islands, conviene comparar condiciones de lanzamiento, trayectoria del desarrollador, documentación, plan de pago y oferta futura.</strong> La selección no debería basarse únicamente en el momento del lanzamiento o un incentivo inicial. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar proyectos de nuevo lanzamiento en Jumeirah Islands, conviene comparar condiciones de lanzamiento, trayectoria del desarrollador, documentación, plan de pago y oferta futura. La selección no debería basarse únicamente en el momento del lanzamiento o un incentivo inicial. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar proyectos de nuevo lanzamiento en Jumeirah Islands, es útil comparar condiciones de lanzamiento, trayectoria del desarrollador, documentación, plan de pago y oferta futura.</strong> La selección no debería basarse únicamente en el momento del lanzamiento o un incentivo inicial. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar proyectos de nuevo lanzamiento en Jumeirah Islands, es útil comparar condiciones de lanzamiento, trayectoria del desarrollador, documentación, plan de pago y oferta futura. La selección no debería basarse únicamente en el momento del lanzamiento o un incentivo inicial. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "district_context_supported_needs_intent_review",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Examina los datos vigentes y su encaje con el objetivo de compra.",
           "title": "Revisar condiciones de lanzamiento"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Compara la distribución, las condiciones y el coste total si corresponde.",
           "title": "Comparar trayectoria del desarrollador"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Contrasta los detalles del proyecto y los costes pertinentes.",
           "title": "Comprobar documentación"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Evalúa el conjunto de la opción antes de sumarla a la selección.",
           "title": "Equilibrar plan de pago y oferta futura"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara condiciones de lanzamiento, trayectoria del desarrollador y documentación.",
+          "text": "Contrasta condiciones de lanzamiento, trayectoria del desarrollador y documentación.",
           "title": "Empieza por condiciones de lanzamiento",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Considera si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa plan de pago, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica plan de pago, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por condiciones de lanzamiento, trayectoria del desarrollador y oferta futura.",
+          "text": "Primadom AI permite ordenar las opciones por condiciones de lanzamiento, trayectoria del desarrollador y oferta futura.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan proyectos de nuevo lanzamiento en Jumeirah Islands",
-          "Compradores dispuestos a comparar condiciones de lanzamiento, trayectoria del desarrollador y documentación",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores preparados para comparar condiciones de lanzamiento, trayectoria del desarrollador y documentación",
+          "Compradores que desean verificar los datos actuales de cada opción antes de decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
-          "Compradores que prefieren decidir únicamente por el momento del lanzamiento o un incentivo inicial",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que se guían únicamente por el momento del lanzamiento o un incentivo inicial",
+          "Compradores que no desean evaluar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

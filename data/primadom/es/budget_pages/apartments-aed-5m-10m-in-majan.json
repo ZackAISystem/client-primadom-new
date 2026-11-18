@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Compara apartamentos en Majan según su encaje en el presupuesto, la distribución, el perfil de entrega y los costes totales. Los precios y la disponibilidad actuales requieren una comprobación del proyecto.",
+      "text": "Revisa apartamentos en Majan según su encaje en el presupuesto, la distribución, el perfil de entrega y los costes totales. Antes de decidir, comprueba el precio y la disponibilidad actuales del proyecto.",
       "hints": [
         "¿Qué proyectos de apartamentos encajan en este presupuesto?",
         "¿Qué permite un presupuesto más alto?",
@@ -302,7 +302,7 @@
         },
         {
           "dark": true,
-          "text": "Primadom AI puede valorar el presupuesto, el tipo de propiedad, la zona, el plazo y el perfil de riesgo antes de que un asesor compruebe las opciones actuales.",
+          "text": "Primadom AI puede evaluar el presupuesto, la zona, el perfil de riesgo, el tipo de propiedad y el plazo antes de que un asesor verifique las opciones actuales.",
           "title": "Convertir el presupuesto en una selección",
           "eyebrow": "Contexto de AI"
         }
@@ -359,14 +359,14 @@
         "title": "Adecuación al comprador",
         "eyebrow": "Para quién es adecuado este presupuesto",
         "bad_items": [
-          "Compradores decididos por otro tipo de propiedad y que no quieren comparar este formato",
-          "Compradores que necesitan una lista ya preparada de proyectos identificados sin ajustar los criterios de búsqueda actuales",
-          "Compradores que no quieren tener en cuenta los gastos de servicio, el amueblamiento y los costes de entrega"
+          "Compradores decididos por otro tipo de propiedad sin querer comparar este formato",
+          "Personas que necesitan una relación ya elaborada de proyectos concretos sin ajustar los criterios de búsqueda actuales",
+          "Personas que no quieren tener en cuenta los gastos de servicio, el amueblamiento y los costes de entrega"
         ],
         "bad_title": "Puede no ser adecuado",
         "good_items": [
           "Compradores que comparan apartamentos en Majan con un presupuesto de AED 5M–10M",
-          "Compradores que evalúan conjuntamente la distribución útil, la planta, la orientación y las vistas",
+          "Personas que evalúan conjuntamente la distribución útil, la planta, la orientación y las vistas",
           "Compradores dispuestos a ajustar la zona, el tipo de propiedad o el presupuesto antes de solicitar opciones actuales"
         ],
         "good_title": "Adecuado para"

@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar proyectos con plan de pago en Jumeirah Village Triangle, conviene comparar pago inicial, cuotas posteriores, hitos de pago, saldo de entrega y coste total con comisiones.</strong> La selección no debería basarse únicamente en un depósito inicial bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar proyectos con plan de pago en Jumeirah Village Triangle, conviene comparar pago inicial, cuotas posteriores, hitos de pago, saldo de entrega y coste total con comisiones. La selección no debería basarse únicamente en un depósito inicial bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar proyectos con plan de pago en Jumeirah Village Triangle, resulta conveniente comparar pago inicial, cuotas posteriores, hitos de pago, saldo de entrega y coste total con comisiones.</strong> La selección no debería basarse únicamente en un depósito inicial bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar proyectos con plan de pago en Jumeirah Village Triangle, resulta conveniente comparar pago inicial, cuotas posteriores, hitos de pago, saldo de entrega y coste total con comisiones. La selección no debería basarse únicamente en un depósito inicial bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "district_context_supported_needs_intent_review",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Contrasta los datos vigentes y su adecuación al objetivo de compra.",
           "title": "Revisar pago inicial"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Valora la distribución, las condiciones y el coste total cuando proceda.",
           "title": "Comparar cuotas posteriores"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Comprueba los datos del proyecto y los costes relevantes.",
           "title": "Comprobar hitos de pago"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Examina la opción en conjunto antes de incluirla en la selección.",
           "title": "Equilibrar saldo de entrega y coste total con comisiones"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara pago inicial, cuotas posteriores y hitos de pago.",
+          "text": "Examina pago inicial, cuotas posteriores y hitos de pago.",
           "title": "Empieza por pago inicial",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Revisa si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa saldo de entrega, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica saldo de entrega, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por pago inicial, cuotas posteriores y coste total con comisiones.",
+          "text": "Primadom AI ayuda a ordenar las opciones por pago inicial, cuotas posteriores y coste total con comisiones.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan proyectos con plan de pago en Jumeirah Village Triangle",
-          "Compradores dispuestos a comparar pago inicial, cuotas posteriores y hitos de pago",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores que desean comparar pago inicial, cuotas posteriores y hitos de pago",
+          "Compradores que quieren verificar los datos actuales de cada opción antes de elegir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
           "Compradores que prefieren decidir únicamente por un depósito inicial bajo",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que evitan comparar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

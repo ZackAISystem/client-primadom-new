@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar apartamentos sobre plano en Al Madam, conviene comparar distribución de la unidad, posición en el edificio, plan de pago, entrega prevista y uso propio o alquiler.</strong> La selección no debería basarse únicamente en una imagen de folleto o el precio de lanzamiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar apartamentos sobre plano en Al Madam, conviene comparar distribución de la unidad, posición en el edificio, plan de pago, entrega prevista y uso propio o alquiler. La selección no debería basarse únicamente en una imagen de folleto o el precio de lanzamiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar apartamentos sobre plano en Al Madam, resulta conveniente comparar distribución de la unidad, posición en el edificio, plan de pago, entrega prevista y uso propio o alquiler.</strong> La selección no debería basarse únicamente en una imagen de folleto o el precio de lanzamiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar apartamentos sobre plano en Al Madam, resulta conveniente comparar distribución de la unidad, posición en el edificio, plan de pago, entrega prevista y uso propio o alquiler. La selección no debería basarse únicamente en una imagen de folleto o el precio de lanzamiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Compara la información actual y su adecuación al objetivo de compra.",
           "title": "Revisar distribución de la unidad"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Examina la distribución, las condiciones y el coste total cuando proceda.",
           "title": "Comparar posición en el edificio"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Examina los detalles del proyecto y los costes relevantes.",
           "title": "Comprobar plan de pago"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Considera la opción globalmente antes de incluirla en la selección.",
           "title": "Equilibrar entrega prevista y uso propio o alquiler"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara distribución de la unidad, posición en el edificio y plan de pago.",
+          "text": "Contrasta distribución de la unidad, posición en el edificio y plan de pago.",
           "title": "Empieza por distribución de la unidad",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Considera si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa entrega prevista, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica entrega prevista, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por distribución de la unidad, posición en el edificio y uso propio o alquiler.",
+          "text": "Primadom AI ayuda a ordenar las opciones por distribución de la unidad, posición en el edificio y uso propio o alquiler.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan apartamentos sobre plano en Al Madam",
-          "Compradores dispuestos a comparar distribución de la unidad, posición en el edificio y plan de pago",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores que desean comparar distribución de la unidad, posición en el edificio y plan de pago",
+          "Compradores que necesitan verificar los datos actuales de cada opción antes de decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
-          "Compradores que prefieren decidir únicamente por una imagen de folleto o el precio de lanzamiento",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que se guían únicamente por una imagen de folleto o el precio de lanzamiento",
+          "Compradores que evitan comparar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

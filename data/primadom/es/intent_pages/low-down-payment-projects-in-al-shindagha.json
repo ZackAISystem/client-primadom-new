@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar proyectos con pago inicial reducido en Al Shindagha, conviene comparar compromiso inicial, cuotas posteriores, hitos de pago, saldo de entrega y precio total.</strong> La selección no debería basarse únicamente en el importe del primer pago. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar proyectos con pago inicial reducido en Al Shindagha, conviene comparar compromiso inicial, cuotas posteriores, hitos de pago, saldo de entrega y precio total. La selección no debería basarse únicamente en el importe del primer pago. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar proyectos con pago inicial reducido en Al Shindagha, es útil comparar compromiso inicial, cuotas posteriores, hitos de pago, saldo de entrega y precio total.</strong> La selección no debería basarse únicamente en el importe del primer pago. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar proyectos con pago inicial reducido en Al Shindagha, es útil comparar compromiso inicial, cuotas posteriores, hitos de pago, saldo de entrega y precio total. La selección no debería basarse únicamente en el importe del primer pago. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Compara la información actual y su adecuación al objetivo de compra.",
           "title": "Revisar compromiso inicial"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Revisa distribución, condiciones y coste total cuando sea pertinente.",
           "title": "Comparar cuotas posteriores"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Verifica los detalles del proyecto y los costes pertinentes.",
           "title": "Comprobar hitos de pago"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Revisa la opción en conjunto antes de añadirla a la selección.",
           "title": "Equilibrar saldo de entrega y precio total"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara compromiso inicial, cuotas posteriores y hitos de pago.",
+          "text": "Evalúa compromiso inicial, cuotas posteriores y hitos de pago.",
           "title": "Empieza por compromiso inicial",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Examina si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa saldo de entrega, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica saldo de entrega, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por compromiso inicial, cuotas posteriores y precio total.",
+          "text": "Primadom AI permite ordenar las opciones por compromiso inicial, cuotas posteriores y precio total.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan proyectos con pago inicial reducido en Al Shindagha",
-          "Compradores dispuestos a comparar compromiso inicial, cuotas posteriores y hitos de pago",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores preparados para comparar compromiso inicial, cuotas posteriores y hitos de pago",
+          "Compradores que quieren verificar los datos actuales de cada opción previo a decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
           "Compradores que prefieren decidir únicamente por el importe del primer pago",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que no desean evaluar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

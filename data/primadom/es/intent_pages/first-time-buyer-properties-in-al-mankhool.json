@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar propiedades para compradores primerizos en Al Mankhool, conviene comparar desembolso inicial, financiación o estructura de pago, coste total de propiedad, distribución práctica y complejidad de la operación.</strong> La selección no debería basarse únicamente en el precio de entrada más bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar propiedades para compradores primerizos en Al Mankhool, conviene comparar desembolso inicial, financiación o estructura de pago, coste total de propiedad, distribución práctica y complejidad de la operación. La selección no debería basarse únicamente en el precio de entrada más bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar propiedades para compradores primerizos en Al Mankhool, conviene contrastar desembolso inicial, financiación o estructura de pago, coste total de propiedad, distribución práctica y complejidad de la operación.</strong> La selección no debería basarse únicamente en el precio de entrada más bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar propiedades para compradores primerizos en Al Mankhool, conviene contrastar desembolso inicial, financiación o estructura de pago, coste total de propiedad, distribución práctica y complejidad de la operación. La selección no debería basarse únicamente en el precio de entrada más bajo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Compara la información actual y su adecuación al objetivo de compra.",
           "title": "Revisar desembolso inicial"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Examina la distribución, las condiciones y el coste total cuando proceda.",
           "title": "Comparar financiación o estructura de pago"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Examina los detalles del proyecto y los costes relevantes.",
           "title": "Comprobar coste total de propiedad"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Considera la opción globalmente antes de incluirla en la selección.",
           "title": "Equilibrar distribución práctica y complejidad de la operación"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara desembolso inicial, financiación o estructura de pago y coste total de propiedad.",
+          "text": "Revisa desembolso inicial, financiación o estructura de pago y coste total de propiedad.",
           "title": "Empieza por desembolso inicial",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Evalúa si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa distribución práctica, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica distribución práctica, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por desembolso inicial, financiación o estructura de pago y complejidad de la operación.",
+          "text": "Con Primadom AI puedes ordenar las opciones por desembolso inicial, financiación o estructura de pago y complejidad de la operación.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan propiedades para compradores primerizos en Al Mankhool",
-          "Compradores dispuestos a comparar desembolso inicial, financiación o estructura de pago y coste total de propiedad",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores interesados en comparar desembolso inicial, financiación o estructura de pago y coste total de propiedad",
+          "Compradores que necesitan verificar los datos actuales de cada opción antes de decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
           "Compradores que prefieren decidir únicamente por el precio de entrada más bajo",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que descartan comparar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

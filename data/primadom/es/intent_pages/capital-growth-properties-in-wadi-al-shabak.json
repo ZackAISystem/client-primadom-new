@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar propiedades orientadas a revalorización en Wadi Al Shabak, conviene comparar precio de entrada, oferta futura, desarrollo de la zona, calidad del proyecto y profundidad del mercado de reventa.</strong> La selección no debería basarse únicamente en el precio de lanzamiento o una expectativa de crecimiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar propiedades orientadas a revalorización en Wadi Al Shabak, conviene comparar precio de entrada, oferta futura, desarrollo de la zona, calidad del proyecto y profundidad del mercado de reventa. La selección no debería basarse únicamente en el precio de lanzamiento o una expectativa de crecimiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar propiedades orientadas a revalorización en Wadi Al Shabak, conviene contrastar precio de entrada, oferta futura, desarrollo de la zona, calidad del proyecto y profundidad del mercado de reventa.</strong> La selección no debería basarse únicamente en el precio de lanzamiento o una expectativa de crecimiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar propiedades orientadas a revalorización en Wadi Al Shabak, conviene contrastar precio de entrada, oferta futura, desarrollo de la zona, calidad del proyecto y profundidad del mercado de reventa. La selección no debería basarse únicamente en el precio de lanzamiento o una expectativa de crecimiento. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Contrasta los datos vigentes y su adecuación al objetivo de compra.",
           "title": "Revisar precio de entrada"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Valora la distribución, las condiciones y el coste total cuando proceda.",
           "title": "Comparar oferta futura"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Comprueba los datos del proyecto y los costes relevantes.",
           "title": "Comprobar desarrollo de la zona"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Examina la opción en conjunto antes de incluirla en la selección.",
           "title": "Equilibrar calidad del proyecto y profundidad del mercado de reventa"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara precio de entrada, oferta futura y desarrollo de la zona.",
+          "text": "Contrasta precio de entrada, oferta futura y desarrollo de la zona.",
           "title": "Empieza por precio de entrada",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Considera si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa calidad del proyecto, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica calidad del proyecto, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por precio de entrada, oferta futura y profundidad del mercado de reventa.",
+          "text": "Con Primadom AI puedes ordenar las opciones por precio de entrada, oferta futura y profundidad del mercado de reventa.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan propiedades orientadas a revalorización en Wadi Al Shabak",
-          "Compradores dispuestos a comparar precio de entrada, oferta futura y desarrollo de la zona",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores interesados en comparar precio de entrada, oferta futura y desarrollo de la zona",
+          "Compradores que quieren verificar los datos actuales de cada opción antes de elegir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
-          "Compradores que prefieren decidir únicamente por el precio de lanzamiento o una expectativa de crecimiento",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que se guían únicamente por el precio de lanzamiento o una expectativa de crecimiento",
+          "Compradores que descartan comparar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",

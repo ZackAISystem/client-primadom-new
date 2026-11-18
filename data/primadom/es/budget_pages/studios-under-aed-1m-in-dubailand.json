@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Compara estudios en Dubailand según su encaje en el presupuesto, la distribución, el perfil de entrega y los costes totales. Los precios y la disponibilidad actuales requieren una comprobación del proyecto.",
+      "text": "Evalúa estudios en Dubailand por su ajuste al presupuesto, la distribución, el perfil de entrega y los costes totales. Los precios y la disponibilidad vigentes deben confirmarse para cada proyecto.",
       "hints": [
         "¿Qué proyectos de estudios encajan en este presupuesto?",
         "¿Qué diferencias entre proyectos importan más aquí?",
@@ -302,7 +302,7 @@
         },
         {
           "dark": true,
-          "text": "Primadom AI puede valorar el presupuesto, el tipo de propiedad, la zona, el plazo y el perfil de riesgo antes de que un asesor compruebe las opciones actuales.",
+          "text": "Primadom AI puede revisar el perfil de riesgo, el presupuesto, el plazo, el tipo de propiedad y la zona antes de que un asesor confirme las opciones vigentes.",
           "title": "Convertir el presupuesto en una selección",
           "eyebrow": "Contexto de AI"
         }
@@ -391,14 +391,14 @@
         "title": "Adecuación al comprador",
         "eyebrow": "Para quién es adecuado este presupuesto",
         "bad_items": [
-          "Compradores decididos por otro tipo de propiedad y que no quieren comparar este formato",
-          "Compradores que necesitan inventario actual confirmado antes de revisar opciones basadas en precios iniciales registrados",
-          "Compradores que necesitan mucho espacio de almacenamiento o varias zonas separadas para vivir y trabajar"
+          "Quienes ya han optado por otro tipo de propiedad sin querer comparar este formato",
+          "Compradores que requieren inventario vigente confirmado antes de revisar opciones basadas en precios de partida registrados",
+          "Quienes requieren abundante espacio de almacenamiento o varias zonas separadas para vivir y trabajar"
         ],
         "bad_title": "Puede no ser adecuado",
         "good_items": [
           "Compradores que comparan estudios en Dubailand con por debajo de AED 1M",
-          "Compradores que evalúan conjuntamente la distribución útil, la planta, la orientación y las vistas",
+          "Compradores que consideran de forma conjunta la distribución útil, la planta, orientación y vistas",
           "Compradores que quieren comparar varios proyectos concretos antes de comprobar las unidades y condiciones actuales"
         ],
         "good_title": "Adecuado para"

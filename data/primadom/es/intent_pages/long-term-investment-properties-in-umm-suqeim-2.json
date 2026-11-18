@@ -134,8 +134,8 @@
       ],
       "title": "Resumen directo",
       "eyebrow": "Respuesta directa",
-      "body_html": "<strong>Al buscar propiedades para inversión a largo plazo en Umm Suqeim 2, conviene comparar demanda sostenible, calidad del proyecto y del edificio, costes recurrentes, oferta futura y opciones de salida.</strong> La selección no debería basarse únicamente en el movimiento de precios a corto plazo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
-      "body_text": "Al buscar propiedades para inversión a largo plazo en Umm Suqeim 2, conviene comparar demanda sostenible, calidad del proyecto y del edificio, costes recurrentes, oferta futura y opciones de salida. La selección no debería basarse únicamente en el movimiento de precios a corto plazo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_html": "<strong>Al buscar propiedades para inversión a largo plazo en Umm Suqeim 2, es útil comparar demanda sostenible, calidad del proyecto y del edificio, costes recurrentes, oferta futura y opciones de salida.</strong> La selección no debería basarse únicamente en el movimiento de precios a corto plazo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
+      "body_text": "Al buscar propiedades para inversión a largo plazo en Umm Suqeim 2, es útil comparar demanda sostenible, calidad del proyecto y del edificio, costes recurrentes, oferta futura y opciones de salida. La selección no debería basarse únicamente en el movimiento de precios a corto plazo. Los precios, la disponibilidad, las condiciones y el estado actual de cada opción deben verificarse antes de preparar una selección definitiva.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -196,19 +196,19 @@
     "block_07_best_options": {
       "items": [
         {
-          "text": "Compara los datos actuales y la adecuación al objetivo de compra.",
+          "text": "Revisa los datos actuales y su encaje con el objetivo de compra.",
           "title": "Revisar demanda sostenible"
         },
         {
-          "text": "Revisa la distribución, las condiciones y el coste total cuando corresponda.",
+          "text": "Comprueba la distribución, las condiciones y el coste total cuando aplique.",
           "title": "Comparar calidad del proyecto y del edificio"
         },
         {
-          "text": "Comprueba los detalles del proyecto y los costes relevantes.",
+          "text": "Revisa los detalles del proyecto y los costes relevantes.",
           "title": "Comprobar costes recurrentes"
         },
         {
-          "text": "Valora el conjunto de la opción antes de incluirla en la selección.",
+          "text": "Valora la opción en su conjunto antes de incorporarla a la selección.",
           "title": "Equilibrar oferta futura y opciones de salida"
         }
       ],
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Compara demanda sostenible, calidad del proyecto y del edificio y costes recurrentes.",
+          "text": "Evalúa demanda sostenible, calidad del proyecto y del edificio y costes recurrentes.",
           "title": "Empieza por demanda sostenible",
           "eyebrow": "Enfoque principal"
         },
         {
           "dark": false,
-          "text": "Valora si cada opción responde al uso previsto y al horizonte de compra.",
+          "text": "Examina si cada opción responde al uso previsto y al horizonte de compra.",
           "title": "Comprueba el encaje con tu objetivo",
           "eyebrow": "Adecuación al comprador"
         },
         {
           "dark": false,
-          "text": "Revisa oferta futura, además de los costes recurrentes y las condiciones actuales.",
+          "text": "Verifica oferta futura, además de los costes recurrentes y las condiciones actuales.",
           "title": "Revisa los costes y las condiciones",
           "eyebrow": "Antes de elegir"
         },
         {
           "dark": true,
-          "text": "Primadom AI puede ordenar las opciones por demanda sostenible, calidad del proyecto y del edificio y opciones de salida.",
+          "text": "Primadom AI permite ordenar las opciones por demanda sostenible, calidad del proyecto y del edificio y opciones de salida.",
           "title": "Compara las mejores opciones",
           "eyebrow": "Selección con AI"
         }
@@ -342,13 +342,13 @@
         "eyebrow": "Para quién es esta página",
         "good_for": [
           "Compradores que buscan propiedades para inversión a largo plazo en Umm Suqeim 2",
-          "Compradores dispuestos a comparar demanda sostenible, calidad del proyecto y del edificio y costes recurrentes",
-          "Compradores que quieren verificar los datos actuales de cada opción antes de decidir"
+          "Compradores preparados para comparar demanda sostenible, calidad del proyecto y del edificio y costes recurrentes",
+          "Compradores que buscan comprobar los datos actuales de cada opción antes de decidir"
         ],
         "less_for": [
           "Compradores que necesitan disponibilidad, precios o condiciones garantizados sin una comprobación actual",
           "Compradores que prefieren decidir únicamente por el movimiento de precios a corto plazo",
-          "Compradores que no quieren comparar los costes, las condiciones y la adecuación de cada opción"
+          "Compradores que no desean evaluar los costes, las condiciones y la adecuación de cada opción"
         ],
         "fit_status": "authored_intent_family_v2_qa_pending",
         "good_for_title": "Adecuado para",
