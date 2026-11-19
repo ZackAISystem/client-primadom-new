@@ -130,7 +130,7 @@
       "ai_listening_label": "Écoute…"
     },
     "block_04_ai_compare": {
-      "text": "Décrivez votre zone, votre type de bien, votre calendrier et votre objectif d’achat. Primadom AI peut préparer le contexte de comparaison avant qu’un conseiller examine les options actuelles.",
+      "text": "Pour ces deux promoteurs, précisez votre zone, le type de bien, le calendrier et votre objectif d’achat. Primadom AI peut préparer les critères avant l’examen des options actuelles par un conseiller.",
       "badge": "Primadom AI",
       "hints": [
         "Quel développeur correspond à mon objectif d’achat ?",
@@ -256,7 +256,7 @@
       "section_id": "profiles",
       "block_status": "final",
       "segment_logic": {
-        "body": "Comparez Aldar Properties PJSC et Meraas Holding selon l’objectif d’achat, le portefeuille de projets et les priorités géographiques. Vérifiez le choix final au niveau du projet, notamment le plan de paiement, la livraison et la disponibilité actuelle.",
+        "body": "Pour comparer Aldar Properties PJSC et Meraas Holding, examinez l’objectif d’achat, le portefeuille de projets et les priorités géographiques. Vérifiez ensuite, projet par projet, le plan de paiement, la livraison et la disponibilité actuelle.",
         "tags": [
           "Luxe adapté aux familles",
           "Luxe axé sur le design",
@@ -319,26 +319,26 @@
       "cards": [
         {
           "key": "project_level",
-          "text": "Aldar Properties PJSC et Meraas Holding doivent être comparés à travers leurs projets actuels, le type de bien, le plan de paiement, la livraison et la disponibilité.",
+          "text": "La comparaison de Aldar Properties PJSC et Meraas Holding doit porter sur les projets actuels, le type de bien, le plan de paiement, la livraison et la disponibilité.",
           "title": "Comparer les projets actuels",
           "eyebrow": "Vérification des projets"
         },
         {
           "key": "area_fit",
-          "text": "Aldar Properties PJSC : Dubailand, Saadiyat Island. Meraas Holding : City Walk, La Mer. Comparez l’adéquation géographique au niveau du projet.",
+          "text": "Aldar Properties PJSC : Dubailand, Saadiyat Island. Meraas Holding : City Walk, La Mer. Examinez la pertinence de chaque zone, projet par projet.",
           "title": "Vérifier la couverture géographique",
           "eyebrow": "Adéquation géographique"
         },
         {
           "key": "verification",
-          "text": "Vérifiez les documents officiels, le statut des projets, leur enregistrement, les conditions de paiement, la livraison et la disponibilité pour les deux développeurs.",
+          "text": "Aldar Properties PJSC et Meraas Holding : vérifiez les documents officiels, le statut, l’enregistrement, les conditions de paiement, la livraison et la disponibilité.",
           "title": "Vérifier les données actuelles",
           "eyebrow": "Vérification des sources"
         },
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI peut comparer Aldar Properties PJSC et Meraas Holding selon le type de projet, la zone, le plan de paiement, le calendrier et l’objectif d’achat.",
+          "text": "Selon le type de projet, la zone, le plan de paiement, le calendrier et l’objectif d’achat, Primadom AI peut comparer Aldar Properties PJSC et Meraas Holding.",
           "title": "Comparer selon votre objectif",
           "eyebrow": "Demander à AI"
         }
@@ -368,7 +368,7 @@
       "source_status": "developer_profiles_projects_and_districts",
       "schema_version": "developer_comparison_buyer_investment_logic_v1",
       "investment_logic": {
-        "body": "Le portefeuille actuel de projets positionne Aldar Properties PJSC sur le segment « luxe adapté aux familles » et Meraas Holding sur le segment « luxe axé sur le design ». Ces indications servent uniquement à établir une présélection. Comparez, projet par projet, le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
+        "body": "Le portefeuille actuel de projets positionne Aldar Properties PJSC sur le segment « luxe adapté aux familles » et Meraas Holding sur le segment « luxe axé sur le design ». Ces indications restent une base de présélection, sans conclure au meilleur choix. Pour chaque projet, examinez le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
         "tags": [
           "Prix d’entrée",
           "Plan de paiement",

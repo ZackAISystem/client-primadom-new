@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à City of Arabia. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "text": "Interrogez Primadom AI sur les options immobilières réalistes, les compromis et les coûts d’achat à City of Arabia. Les prix actuels et la disponibilité restent à vérifier pour chaque projet.",
       "hints": [
         "Quels projets de studios correspondent à ce budget ?",
         "Que permet un budget plus élevé ?",
@@ -127,7 +127,7 @@
       "eyebrow": "PRIMADOM AI",
       "prompts": [
         "Évaluez les options réalistes pour des studios à City of Arabia dans la fourchette AED 1M–2M. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner.",
-        "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des studios à City of Arabia, et ce que la vérification de les agencements plus grands peut changer dans la sélection.",
+        "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des studios à City of Arabia, et ce que la vérification des agencements plus grands peut changer dans la sélection.",
         "Comparez les principaux risques pour des studios à City of Arabia dans la fourchette AED 1M–2M : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
       ],
       "hint_items": [
@@ -137,7 +137,7 @@
         },
         {
           "label": "Que permet un budget plus élevé ?",
-          "prompt": "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des studios à City of Arabia, et ce que la vérification de les agencements plus grands peut changer dans la sélection."
+          "prompt": "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des studios à City of Arabia, et ce que la vérification des agencements plus grands peut changer dans la sélection."
         },
         {
           "label": "Quels coûts de détention faut-il prévoir ?",
@@ -286,23 +286,23 @@
       "aria": "Notes de décision liées au budget",
       "items": [
         {
-          "text": "Les prix de départ enregistrés pour des studios à City of Arabia se situent en dessous de la fourchette cible AED 1M–2M. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "text": "Les prix de départ enregistrés pour des studios à City of Arabia se situent en dessous de la fourchette cible AED 1M–2M. Examinez si la dépense envisagée améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis établissez le calendrier complet des échéances.",
           "title": "Utiliser le budget comme cadre de comparaison",
           "eyebrow": "Logique du plan de paiement"
         },
         {
-          "text": "Pour des studios à City of Arabia, comparez directement les options selon le compromis « agencement / position de l’unité ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "text": "Pour des studios à City of Arabia, confrontez les options en tenant compte du compromis « agencement / position de l’unité ». Le budget ne suffit pas, à lui seul, à identifier l’option la mieux adaptée.",
           "title": "Arbitrer : agencement / position de l’unité",
           "eyebrow": "Compromis"
         },
         {
-          "text": "Pour un achat à City of Arabia, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "text": "Pour un achat à City of Arabia, intégrez au calcul les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
           "title": "Le besoin de trésorerie dépasse le prix affiché",
           "eyebrow": "Coûts cachés"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne les agencements plus grands.",
+          "text": "Primadom AI peut mettre en balance le budget, le type de bien, la zone, le calendrier et le profil de risque avant l’examen des options actuelles par un conseiller. La prochaine vérification à prévoir porte sur les agencements plus grands.",
           "title": "Transformer le budget en sélection",
           "eyebrow": "Contexte AI"
         }
@@ -314,7 +314,7 @@
     "block_09_projects_fit": {
       "projects": {
         "mode": "route_fallback",
-        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des studios à City of Arabia dans la fourchette AED 1M–2M. Utilisez les options de recherche ci-dessous et demandez une vérification actuelle avant de considérer une unité comme disponible.",
+        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des studios à City of Arabia dans la fourchette AED 1M–2M. Explorez les options de recherche ci-dessous et demandez une vérification à jour avant de considérer une unité comme disponible.",
         "items": [
           {
             "href": "/fr/areas/city-of-arabia/",
@@ -378,7 +378,7 @@
     },
     "block_10_costs_tradeoffs": {
       "tradeoffs": {
-        "body": "Les prix de départ enregistrés pour des studios à City of Arabia se situent en dessous de la fourchette cible AED 1M–2M. Un budget de AED 1M–2M définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « agencement / position de l’unité ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les agencements plus grands.",
+        "body": "Les prix de départ enregistrés pour des studios à City of Arabia se situent en dessous de la fourchette cible AED 1M–2M. Un budget de AED 1M–2M sert de cadre à la recherche, mais ne désigne pas à lui seul la meilleure option. Le compromis principal est « agencement / position de l’unité ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les agencements plus grands.",
         "mode": "contextual_editorial",
         "tags": [
           "Agencement et position",
@@ -394,7 +394,7 @@
       "block_status": "agent_draft",
       "hidden_costs": {
         "mode": "verification_checklist",
-        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à City of Arabia. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "text": "Le prix du bien ne couvre qu’une partie de la trésorerie nécessaire à City of Arabia. Vérifiez les coûts de transaction, de financement, de livraison et les frais récurrents liés à l’achat.",
         "items": [
           {
             "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Dubai avant de réserver. Le montant final dépend du bien et du type de transaction.",

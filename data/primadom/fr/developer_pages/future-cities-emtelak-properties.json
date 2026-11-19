@@ -180,12 +180,12 @@
         "good_for": [
           "Acheteurs qui étudient Future Cities & Emtelak Properties sur le marché de Fujairah",
           "Acheteurs qui souhaitent évaluer l’adéquation du projet et de la zone avant de faire une demande",
-          "Acheteurs qui souhaitent vérifier au même endroit les prix, l’adéquation à leur profil et les informations de vérification"
+          "Acheteurs qui souhaitent consulter au même endroit les prix, l’adéquation à leur profil et les éléments de vérification"
         ],
         "less_for": [
-          "Acheteurs qui recherchent uniquement le prix d’entrée le plus bas sans examiner l’adéquation globale du projet",
-          "Acheteurs qui ont besoin d’une disponibilité ou de modalités de paiement confirmées avant une première analyse",
-          "Acheteurs qui préfèrent décider sans vérifier les détails du projet, la localisation et les informations sur le développeur"
+          "Acheteurs privilégiant le seul prix d’entrée le plus bas sans analyser l’adéquation globale du projet",
+          "Acheteurs qui demandent confirmation de la disponibilité ou des modalités de paiement avant une analyse",
+          "Acheteurs qui décident sans vérifier les caractéristiques du projet, sa localisation et les informations sur le développeur"
         ],
         "good_for_title": "Adapté à",
         "less_for_title": "Peut ne pas convenir"
@@ -193,7 +193,7 @@
       "block_status": "agent_written",
       "schema_version": "developer_buyer_fit_logic_v1",
       "developer_logic": {
-        "body": "Utilisez ce profil pour évaluer Future Cities & Emtelak Properties sur le marché de Fujairah. Vérifiez les projets actuels, les prix, les modalités de paiement, les informations sur la livraison et les sources disponibles avant de prendre une décision.",
+        "body": "Utilisez ce profil pour évaluer Future Cities & Emtelak Properties sur le marché de Fujairah. Pour étayer votre décision, vérifiez les projets actuels, les prix, les modalités de paiement, les informations sur la livraison et les sources disponibles.",
         "tags": [
           "Marché de Fujairah",
           "Vérification des sources"
@@ -214,14 +214,14 @@
         },
         {
           "key": "lifestyle_view",
-          "text": "L’adéquation au style de vie dépend du projet, de la zone, du type de bâtiment, de la typologie des unités, des équipements et de l’accessibilité au quotidien sur le marché de Fujairah.",
+          "text": "L’adéquation à votre mode de vie dépend du projet, de la zone, du type de bâtiment, de la typologie des unités, des équipements et de l’accessibilité au quotidien sur le marché de Fujairah.",
           "title": "Contexte de style de vie",
           "eyebrow": "Perspective de style de vie",
           "card_status": "agent_written"
         },
         {
           "key": "check_before_buying",
-          "text": "Confirmez les unités disponibles, le prix, les charges de service, les modalités de paiement, les plans, le calendrier de livraison, les documents du développeur et les dernières informations sur le projet avant de prendre une décision.",
+          "text": "Pour décider en connaissance de cause, vérifiez les unités disponibles, le prix, les charges de service, les modalités de paiement, les plans, le calendrier de livraison, les documents du développeur et les dernières informations sur le projet.",
           "title": "Ce qu’il faut vérifier",
           "eyebrow": "À vérifier avant d’acheter",
           "card_status": "standard_verified_copy"
@@ -229,7 +229,7 @@
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI peut comparer les projets de Future Cities & Emtelak Properties avec des alternatives pertinentes selon le budget, la zone, le type d’unité, le plan de paiement, le calendrier de livraison, l’adéquation de la localisation et l’objectif de l’acheteur avant un échange avec un conseiller.",
+          "text": "Primadom AI permet de comparer les projets de Future Cities & Emtelak Properties avec des alternatives pertinentes selon le budget, la zone, le type d’unité, le plan de paiement, le calendrier de livraison, l’adéquation de la localisation et l’objectif de l’acheteur avant un échange avec un conseiller.",
           "title": "Comparer les projets du développeur",
           "eyebrow": "Assistance AI",
           "card_status": "standard_product_copy"

@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à Saadiyat Island. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "text": "Pour évaluer les options immobilières réalistes, les compromis et les coûts d’achat à Saadiyat Island, posez votre question à Primadom AI. Vérifiez les prix actuels et la disponibilité au niveau du projet.",
       "hints": [
         "Quels appartements de luxe correspondent à ce budget ?",
         "Quelles alternatives se rapprochent le plus du budget ?",
@@ -127,7 +127,7 @@
       "eyebrow": "PRIMADOM AI",
       "prompts": [
         "Évaluez les options réalistes pour des appartements de luxe à Saadiyat Island dans la fourchette AED 3M–5M. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner.",
-        "Expliquez comment le compromis « surface / emplacement » influence le choix pour des appartements de luxe à Saadiyat Island, et ce que la vérification de les quartiers à proximité peut changer dans la sélection.",
+        "Expliquez comment le compromis « surface / emplacement » influence le choix pour des appartements de luxe à Saadiyat Island, et ce que la vérification des quartiers à proximité peut changer dans la sélection.",
         "Comparez les principaux risques pour des appartements de luxe à Saadiyat Island dans la fourchette AED 3M–5M : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
       ],
       "hint_items": [
@@ -137,7 +137,7 @@
         },
         {
           "label": "Quelles alternatives se rapprochent le plus du budget ?",
-          "prompt": "Expliquez comment le compromis « surface / emplacement » influence le choix pour des appartements de luxe à Saadiyat Island, et ce que la vérification de les quartiers à proximité peut changer dans la sélection."
+          "prompt": "Expliquez comment le compromis « surface / emplacement » influence le choix pour des appartements de luxe à Saadiyat Island, et ce que la vérification des quartiers à proximité peut changer dans la sélection."
         },
         {
           "label": "Quelles prestations haut de gamme justifient le prix ?",
@@ -286,23 +286,23 @@
       "aria": "Notes de décision liées au budget",
       "items": [
         {
-          "text": "Les prix de départ enregistrés pour des appartements de luxe à Saadiyat Island dépassent la fourchette cible AED 3M–5M. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "text": "Les prix de départ enregistrés pour des appartements de luxe à Saadiyat Island dépassent la fourchette cible AED 3M–5M. Vérifiez si la somme engagée améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis répertoriez toutes les échéances prévues.",
           "title": "Utiliser le budget comme cadre de comparaison",
           "eyebrow": "Logique du plan de paiement"
         },
         {
-          "text": "Pour des appartements de luxe à Saadiyat Island, comparez directement les options selon le compromis « surface / emplacement ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "text": "Pour des appartements de luxe à Saadiyat Island, comparez les options en examinant le compromis « surface / emplacement ». Le budget seul ne permet pas de déterminer l’option la mieux adaptée au besoin.",
           "title": "Arbitrer : surface / emplacement",
           "eyebrow": "Compromis"
         },
         {
-          "text": "Pour un achat à Saadiyat Island, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "text": "Pour un achat à Saadiyat Island, prenez en compte les frais d’enregistrement, d’agence ou de financement, le cas échéant, les charges de service ou de communauté, l’ameublement et l’entretien.",
           "title": "Le besoin de trésorerie dépasse le prix affiché",
           "eyebrow": "Coûts cachés"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne les quartiers à proximité.",
+          "text": "Primadom AI peut aider à pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant la vérification des options actuelles par un conseiller. Le prochain point à vérifier concerne les quartiers à proximité.",
           "title": "Transformer le budget en sélection",
           "eyebrow": "Contexte AI"
         }
@@ -314,7 +314,7 @@
     "block_09_projects_fit": {
       "projects": {
         "mode": "route_fallback",
-        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des appartements de luxe à Saadiyat Island dans la fourchette AED 3M–5M. Utilisez les options de recherche ci-dessous et demandez une vérification actuelle avant de considérer une unité comme disponible.",
+        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des appartements de luxe à Saadiyat Island dans la fourchette AED 3M–5M. Parcourez les options ci-dessous et faites confirmer les données actuelles avant de considérer une unité comme disponible.",
         "items": [
           {
             "href": "/fr/areas/saadiyat-island/",
@@ -378,7 +378,7 @@
     },
     "block_10_costs_tradeoffs": {
       "tradeoffs": {
-        "body": "Les prix de départ enregistrés pour des appartements de luxe à Saadiyat Island dépassent la fourchette cible AED 3M–5M. Un budget de AED 3M–5M définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « surface / emplacement ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les quartiers à proximité.",
+        "body": "Les prix de départ enregistrés pour des appartements de luxe à Saadiyat Island dépassent la fourchette cible AED 3M–5M. Un budget de AED 3M–5M délimite la recherche sans suffire à identifier l’option la mieux adaptée. Le compromis principal est « surface / emplacement ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les quartiers à proximité.",
         "mode": "contextual_editorial",
         "tags": [
           "Surface / emplacement",
@@ -394,7 +394,7 @@
       "block_status": "agent_draft",
       "hidden_costs": {
         "mode": "verification_checklist",
-        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à Saadiyat Island. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "text": "Le montant à mobiliser à Saadiyat Island ne se limite pas au prix du bien. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour cet achat.",
         "items": [
           {
             "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Abu Dhabi avant de réserver. Le montant final dépend du bien et du type de transaction.",

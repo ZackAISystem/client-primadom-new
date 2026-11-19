@@ -130,7 +130,7 @@
       "ai_listening_label": "Écoute…"
     },
     "block_04_ai_compare": {
-      "text": "Décrivez votre zone, votre type de bien, votre calendrier et votre objectif d’achat. Primadom AI peut préparer le contexte de comparaison avant qu’un conseiller examine les options actuelles.",
+      "text": "Pour ces deux promoteurs, précisez votre zone, le type de bien, le calendrier et votre objectif d’achat. Primadom AI peut préparer les critères avant l’examen des options actuelles par un conseiller.",
       "badge": "Primadom AI",
       "hints": [
         "Quel développeur correspond à mon objectif d’achat ?",
@@ -256,7 +256,7 @@
       "section_id": "profiles",
       "block_status": "final",
       "segment_logic": {
-        "body": "Comparez Azizi Developments et Fakhruddin Properties selon l’objectif d’achat, le portefeuille de projets et les priorités géographiques. Vérifiez le choix final au niveau du projet, notamment le plan de paiement, la livraison et la disponibilité actuelle.",
+        "body": "L’analyse de Azizi Developments et Fakhruddin Properties tient compte de l’objectif d’achat, du portefeuille de projets et des priorités géographiques. Vérifiez, pour chaque projet, le plan de paiement, la livraison et la disponibilité actuelle.",
         "tags": [
           "Milieu de gamme axé sur le rapport qualité-prix",
           "Milieu de gamme axé sur la durabilité",
@@ -319,26 +319,26 @@
       "cards": [
         {
           "key": "project_level",
-          "text": "Azizi Developments et Fakhruddin Properties doivent être comparés à travers leurs projets actuels, le type de bien, le plan de paiement, la livraison et la disponibilité.",
+          "text": "Avant de choisir entre Azizi Developments et Fakhruddin Properties, confrontez les projets actuels, le type de bien, le plan de paiement, la livraison et la disponibilité.",
           "title": "Comparer les projets actuels",
           "eyebrow": "Vérification des projets"
         },
         {
           "key": "area_fit",
-          "text": "Azizi Developments : Meydan, Dubai South. Fakhruddin Properties : Dubai Islands, Jumeirah Village Circle. Comparez l’adéquation géographique au niveau du projet.",
+          "text": "Azizi Developments : Meydan, Dubai South. Fakhruddin Properties : Dubai Islands, Jumeirah Village Circle. Appréciez l’adéquation géographique projet par projet.",
           "title": "Vérifier la couverture géographique",
           "eyebrow": "Adéquation géographique"
         },
         {
           "key": "verification",
-          "text": "Vérifiez les documents officiels, le statut des projets, leur enregistrement, les conditions de paiement, la livraison et la disponibilité pour les deux développeurs.",
+          "text": "Azizi Developments face à Fakhruddin Properties : vérifiez les documents officiels, le statut, l’enregistrement, les conditions de paiement, la livraison et la disponibilité.",
           "title": "Vérifier les données actuelles",
           "eyebrow": "Vérification des sources"
         },
         {
           "key": "ai_context",
           "dark": true,
-          "text": "Primadom AI peut comparer Azizi Developments et Fakhruddin Properties selon le type de projet, la zone, le plan de paiement, le calendrier et l’objectif d’achat.",
+          "text": "Primadom AI peut mettre en regard Azizi Developments et Fakhruddin Properties selon le type de projet, la zone, le plan de paiement, le calendrier et l’objectif d’achat.",
           "title": "Comparer selon votre objectif",
           "eyebrow": "Demander à AI"
         }
@@ -368,7 +368,7 @@
       "source_status": "developer_profiles_projects_and_districts",
       "schema_version": "developer_comparison_buyer_investment_logic_v1",
       "investment_logic": {
-        "body": "Le portefeuille actuel de projets positionne Azizi Developments sur le segment « milieu de gamme axé sur le rapport qualité-prix » et Fakhruddin Properties sur le segment « milieu de gamme axé sur la durabilité ». Ces indications servent uniquement à établir une présélection. Comparez, projet par projet, le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
+        "body": "Le portefeuille actuel de projets positionne Azizi Developments sur le segment « milieu de gamme axé sur le rapport qualité-prix » et Fakhruddin Properties sur le segment « milieu de gamme axé sur la durabilité ». Ces observations servent uniquement à préparer une présélection. Pour chaque projet, comparez le prix d’entrée, le plan de paiement, la livraison, les charges de service, les hypothèses locatives, le public cible à la revente et la disponibilité actuelle.",
         "tags": [
           "Prix d’entrée",
           "Plan de paiement",

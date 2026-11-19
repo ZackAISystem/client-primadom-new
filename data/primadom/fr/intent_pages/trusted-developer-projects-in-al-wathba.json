@@ -89,7 +89,7 @@
         "media_status": "pending"
       },
       "title": "Projets de développeurs établis à Al Wathba",
-      "subtitle": "Explorez les projets de développeurs établis à Al Wathba. Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Les prix, la disponibilité et les conditions actuelles doivent être confirmés au niveau du projet.",
+      "subtitle": "Explorez les projets de développeurs établis à Al Wathba. Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Les prix, la disponibilité et les conditions en vigueur doivent être confirmés pour chaque projet.",
       "facts_aria": "Points clés de la recherche immobilière",
       "visual_aria": "Visuel de la recherche immobilière"
     },
@@ -134,8 +134,8 @@
       ],
       "title": "Résumé direct",
       "eyebrow": "Réponse directe",
-      "body_html": "<strong>Cette page aide à comparer les projets de développeurs établis à Al Wathba.</strong> Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Les prix, la disponibilité et les conditions actuelles doivent être vérifiés avant de finaliser une sélection.",
-      "body_text": "Cette page aide à comparer les projets de développeurs établis à Al Wathba. Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Les prix, la disponibilité et les conditions actuelles doivent être vérifiés avant de finaliser une sélection.",
+      "body_html": "<strong>Cette page aide à comparer les projets de développeurs établis à Al Wathba.</strong> Examinez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Vérifiez les prix, la disponibilité et les conditions actuelles avant de finaliser votre sélection.",
+      "body_text": "Cette page aide à comparer les projets de développeurs établis à Al Wathba. Examinez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Vérifiez les prix, la disponibilité et les conditions actuelles avant de finaliser votre sélection.",
       "body_source": "intent_rule_district_context_supply_guardrails",
       "chip_source": "intent_family_rule",
       "source_status": "insufficient_pair_evidence",
@@ -220,7 +220,7 @@
       "schema_version": "intent_best_options_v1"
     },
     "block_08_selection_logic": {
-      "body": "Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Gardez l’objectif de l’acheteur, le budget, l’emplacement et les conditions actuelles visibles dans la même comparaison.",
+      "body": "Comparez l’historique du développeur comme contexte, puis vérifiez séparément chaque projet, son avancement, ses conditions, sa documentation et son adéquation à l’acheteur. Pour chaque comparaison, tenez compte de l’objectif de l’acheteur, du budget, de l’emplacement et des conditions en vigueur.",
       "tags": [
         "Développeur",
         "Projet individuel",
@@ -239,25 +239,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Commencez par l’objectif d’achat, puis comparez les conditions du projet, son avancement et la documentation actuelle.",
+          "text": "Définissez votre objectif d’achat, puis comparez les conditions du projet, son avancement et la documentation actuelle.",
           "title": "Commencer par l’objectif d’achat",
           "eyebrow": "Objectif de l’acheteur"
         },
         {
           "dark": false,
-          "text": "Pour les projets de développeurs établis à Al Wathba, comparez plusieurs critères ensemble plutôt que de retenir une option sur son seul positionnement.",
+          "text": "Pour les projets de développeurs établis à Al Wathba, examinez plusieurs critères avant de choisir un projet sur la seule base de son positionnement.",
           "title": "Comparer plusieurs critères",
           "eyebrow": "Adéquation à l’acheteur"
         },
         {
           "dark": false,
-          "text": "Confirmez le prix, la disponibilité, le statut du projet, les modalités de paiement et la livraison avant de présélectionner.",
+          "text": "Avant de présélectionner, vérifiez le prix, la disponibilité, le statut du projet, les modalités de paiement et la livraison.",
           "title": "Vérifier les données actuelles",
           "eyebrow": "Avant de choisir"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut organiser les options selon l’objectif, l’emplacement, le type de bien, le calendrier et les conditions actuelles.",
+          "text": "Primadom AI vous aide à organiser les options selon votre objectif, l’emplacement, le type de bien, le calendrier et les conditions actuelles.",
           "title": "Transformer la recherche en sélection",
           "eyebrow": "Sélection avec AI"
         }

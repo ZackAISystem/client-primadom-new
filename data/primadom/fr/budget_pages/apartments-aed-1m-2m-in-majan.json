@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à Majan. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "text": "Interrogez Primadom AI sur les options immobilières réalistes, les compromis et les coûts d’achat à Majan. Les prix actuels et la disponibilité restent à vérifier pour chaque projet.",
       "hints": [
         "Quels projets d’appartements correspondent à ce budget ?",
         "Quelles différences entre projets comptent le plus ici ?",
@@ -127,7 +127,7 @@
       "eyebrow": "PRIMADOM AI",
       "prompts": [
         "Évaluez les options réalistes pour des appartements à Majan dans la fourchette AED 1M–2M. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner.",
-        "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des appartements à Majan, et ce que la vérification de les prix exacts des unités peut changer dans la sélection.",
+        "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des appartements à Majan, et ce que la vérification des prix exacts des unités peut changer dans la sélection.",
         "Comparez les principaux risques pour des appartements à Majan dans la fourchette AED 1M–2M : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
       ],
       "hint_items": [
@@ -137,7 +137,7 @@
         },
         {
           "label": "Quelles différences entre projets comptent le plus ici ?",
-          "prompt": "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des appartements à Majan, et ce que la vérification de les prix exacts des unités peut changer dans la sélection."
+          "prompt": "Expliquez comment le compromis « agencement / position de l’unité » influence le choix pour des appartements à Majan, et ce que la vérification des prix exacts des unités peut changer dans la sélection."
         },
         {
           "label": "Quels coûts de détention faut-il prévoir ?",
@@ -286,23 +286,23 @@
       "aria": "Notes de décision liées au budget",
       "items": [
         {
-          "text": "4 projets ont un prix de départ enregistré dans la fourchette AED 1M–2M pour des appartements à Majan. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "text": "4 projets ont un prix de départ enregistré dans la fourchette AED 1M–2M pour des appartements à Majan. Examinez si la dépense envisagée améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis établissez le calendrier complet des échéances.",
           "title": "Utiliser le budget comme cadre de comparaison",
           "eyebrow": "Logique du plan de paiement"
         },
         {
-          "text": "Pour des appartements à Majan, comparez directement les options selon le compromis « agencement / position de l’unité ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "text": "Pour des appartements à Majan, confrontez les options en tenant compte du compromis « agencement / position de l’unité ». Le budget ne suffit pas, à lui seul, à identifier l’option la mieux adaptée.",
           "title": "Arbitrer : agencement / position de l’unité",
           "eyebrow": "Compromis"
         },
         {
-          "text": "Pour un achat à Majan, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "text": "Pour un achat à Majan, intégrez au calcul les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
           "title": "Le besoin de trésorerie dépasse le prix affiché",
           "eyebrow": "Coûts cachés"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne les prix exacts des unités.",
+          "text": "Primadom AI peut mettre en balance le budget, le type de bien, la zone, le calendrier et le profil de risque avant l’examen des options actuelles par un conseiller. La prochaine vérification à prévoir porte sur les prix exacts des unités.",
           "title": "Transformer le budget en sélection",
           "eyebrow": "Contexte AI"
         }
@@ -314,7 +314,7 @@
     "block_09_projects_fit": {
       "projects": {
         "mode": "project_matches",
-        "text": "Pour des appartements à Majan, la sélection comprend 4 correspondances exactes. Confirmez les unités exactes, les prix actuels, les conditions et la disponibilité avant d’affiner la sélection.",
+        "text": "Pour des appartements à Majan, la sélection comprend 4 correspondances exactes. Avant d’affiner la sélection, vérifiez les unités exactes, les prix actuels, les conditions et la disponibilité.",
         "items": [
           {
             "href": "/fr/projects/barari-parkview/",
@@ -410,7 +410,7 @@
     },
     "block_10_costs_tradeoffs": {
       "tradeoffs": {
-        "body": "4 projets ont un prix de départ enregistré dans la fourchette AED 1M–2M pour des appartements à Majan. Un budget de AED 1M–2M définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « agencement / position de l’unité ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les prix exacts des unités.",
+        "body": "4 projets ont un prix de départ enregistré dans la fourchette AED 1M–2M pour des appartements à Majan. Un budget de AED 1M–2M sert de cadre à la recherche, mais ne désigne pas à lui seul la meilleure option. Le compromis principal est « agencement / position de l’unité ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les prix exacts des unités.",
         "mode": "contextual_editorial",
         "tags": [
           "Agencement et position",
@@ -426,7 +426,7 @@
       "block_status": "agent_draft",
       "hidden_costs": {
         "mode": "verification_checklist",
-        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à Majan. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "text": "Le prix du bien ne couvre qu’une partie de la trésorerie nécessaire à Majan. Vérifiez les coûts de transaction, de financement, de livraison et les frais récurrents liés à l’achat.",
         "items": [
           {
             "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Dubai avant de réserver. Le montant final dépend du bien et du type de transaction.",

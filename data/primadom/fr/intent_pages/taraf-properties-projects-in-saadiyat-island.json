@@ -90,7 +90,7 @@
         "media_status": "pending"
       },
       "title": "Projets Taraf Properties à Saadiyat Island",
-      "subtitle": "Explorez les projets de Taraf Properties à Saadiyat Island et comparez chaque projet selon le type de bien, l’agencement, l’avancement, les modalités de paiement, le calendrier de livraison et l’usage prévu. Les prix, la disponibilité et les conditions actuelles doivent être confirmés séparément.",
+      "subtitle": "Projets du promoteur Taraf Properties à Saadiyat Island : comparez chaque projet selon le type de bien, l’agencement, l’avancement, les modalités de paiement, le calendrier de livraison et l’usage prévu. Les prix, la disponibilité et les conditions actuelles doivent être confirmés séparément.",
       "facts_aria": "Points clés de la recherche immobilière",
       "visual_aria": "Visuel de la recherche immobilière"
     },
@@ -135,8 +135,8 @@
       ],
       "title": "Résumé direct",
       "eyebrow": "Réponse directe",
-      "body_html": "<strong>Cette page regroupe les projets de Taraf Properties identifiés à Saadiyat Island.</strong> Le nom du développeur apporte un contexte utile, mais l’adéquation doit être évaluée projet par projet. La présence d’un projet dans cette sélection ne confirme pas à elle seule la disponibilité, le prix ou les conditions de livraison actuelles.",
-      "body_text": "Cette page regroupe les projets de Taraf Properties identifiés à Saadiyat Island. Le nom du développeur apporte un contexte utile, mais l’adéquation doit être évaluée projet par projet. La présence d’un projet dans cette sélection ne confirme pas à elle seule la disponibilité, le prix ou les conditions de livraison actuelles.",
+      "body_html": "<strong>Les projets du promoteur Taraf Properties recensés à Saadiyat Island sont présentés ici.</strong> Le nom du promoteur donne un premier repère, mais chaque projet doit être évalué séparément. La présence d’un projet dans cette sélection ne confirme pas à elle seule la disponibilité, le prix ou les conditions de livraison actuelles.",
+      "body_text": "Les projets du promoteur Taraf Properties recensés à Saadiyat Island sont présentés ici. Le nom du promoteur donne un premier repère, mais chaque projet doit être évalué séparément. La présence d’un projet dans cette sélection ne confirme pas à elle seule la disponibilité, le prix ou les conditions de livraison actuelles.",
       "body_source": "developer_district_project_context_guardrails",
       "chip_source": "developer_district_comparison_rule",
       "source_status": "graph_supported_needs_project_sources",
@@ -221,7 +221,7 @@
       "schema_version": "intent_best_options_v1"
     },
     "block_08_selection_logic": {
-      "body": "Comparez chaque projet selon le type de bien, l’agencement, l’avancement, les modalités de paiement, l’emplacement et l’usage prévu. Le nom du développeur ne suffit pas à déterminer l’adéquation. La sélection doit rester cohérente avec l’objectif de l’acheteur et ne pas reposer sur un seul critère.",
+      "body": "Comparez chaque projet selon le type de bien, l’agencement, l’avancement, les modalités de paiement, l’emplacement et l’usage prévu. Le nom du promoteur ne suffit pas à établir si le projet vous convient. La sélection doit rester cohérente avec l’objectif de l’acheteur et ne pas reposer sur un seul critère.",
       "tags": [
         "Type de bien",
         "Agencement",
@@ -240,25 +240,25 @@
       "items": [
         {
           "dark": false,
-          "text": "Le nom du développeur ne confirme pas à lui seul l’adéquation à l’acheteur.",
+          "text": "Le nom du promoteur ne suffit pas à confirmer si le projet convient à l’acheteur.",
           "title": "Comparer chaque projet individuellement",
           "eyebrow": "Périmètre du développeur"
         },
         {
           "dark": false,
-          "text": "Pertinent lorsque le développeur et le quartier sont déjà sélectionnés.",
+          "text": "Cette recherche convient si le promoteur et le quartier sont déjà choisis.",
           "title": "Comparer des options ciblées",
           "eyebrow": "Adéquation à l’acheteur"
         },
         {
           "dark": false,
-          "text": "Examinez le type de bien, l’avancement, l’agencement, les conditions et les données actuelles.",
+          "text": "Vérifiez le type de bien, l’avancement, l’agencement, les conditions et les données à jour.",
           "title": "Vérifier chaque projet séparément",
           "eyebrow": "Avant de choisir"
         },
         {
           "dark": true,
-          "text": "Faites correspondre les projets au budget, à l’usage prévu, au calendrier et à l’emplacement.",
+          "text": "Évaluez chaque projet selon le budget, l’usage prévu, le calendrier et l’emplacement.",
           "title": "Comparer les projets du développeur",
           "eyebrow": "Sélection avec AI"
         }

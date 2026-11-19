@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à Al Hamra Village. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "text": "Pour évaluer les options immobilières réalistes, les compromis et les coûts d’achat à Al Hamra Village, posez votre question à Primadom AI. Vérifiez les prix actuels et la disponibilité au niveau du projet.",
       "hints": [
         "Quelles résidences de marque correspondent à ce budget ?",
         "Quelles vérifications sur l’opérateur et les frais sont importantes ?",
@@ -286,23 +286,23 @@
       "aria": "Notes de décision liées au budget",
       "items": [
         {
-          "text": "Pour des résidences de marque à Al Hamra Village, la correspondance au budget nécessite encore de confirmer l’opérateur, le modèle de services et les frais récurrents. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "text": "Pour des résidences de marque à Al Hamra Village, la correspondance au budget nécessite encore de confirmer l’opérateur, le modèle de services et les frais récurrents. Vérifiez si la somme engagée améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis répertoriez toutes les échéances prévues.",
           "title": "Utiliser le budget comme cadre de comparaison",
           "eyebrow": "Logique du plan de paiement"
         },
         {
-          "text": "Pour des résidences de marque à Al Hamra Village, comparez directement les options selon le compromis « marque / frais récurrents ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "text": "Pour des résidences de marque à Al Hamra Village, comparez les options en examinant le compromis « marque / frais récurrents ». Le budget seul ne permet pas de déterminer l’option la mieux adaptée au besoin.",
           "title": "Arbitrer : marque / frais récurrents",
           "eyebrow": "Compromis"
         },
         {
-          "text": "Pour un achat à Al Hamra Village, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "text": "Pour un achat à Al Hamra Village, prenez en compte les frais d’enregistrement, d’agence ou de financement, le cas échéant, les charges de service ou de communauté, l’ameublement et l’entretien.",
           "title": "Le besoin de trésorerie dépasse le prix affiché",
           "eyebrow": "Coûts cachés"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne la confirmation de l’opérateur et des frais de service.",
+          "text": "Primadom AI peut aider à pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant la vérification des options actuelles par un conseiller. Le prochain point à vérifier concerne la confirmation de l’opérateur et des frais de service.",
           "title": "Transformer le budget en sélection",
           "eyebrow": "Contexte AI"
         }
@@ -314,7 +314,7 @@
     "block_09_projects_fit": {
       "projects": {
         "mode": "route_fallback",
-        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des résidences de marque à Al Hamra Village dans la fourchette AED 5M–10M. Utilisez les options de recherche ci-dessous et demandez une vérification actuelle avant de considérer une unité comme disponible.",
+        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des résidences de marque à Al Hamra Village dans la fourchette AED 5M–10M. Parcourez les options ci-dessous et faites confirmer les données actuelles avant de considérer une unité comme disponible.",
         "items": [
           {
             "href": "/fr/areas/al-hamra-village/",
@@ -378,7 +378,7 @@
     },
     "block_10_costs_tradeoffs": {
       "tradeoffs": {
-        "body": "Pour des résidences de marque à Al Hamra Village, la correspondance au budget nécessite encore de confirmer l’opérateur, le modèle de services et les frais récurrents. Un budget de AED 5M–10M définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « marque / frais récurrents ». Comparez l’opérateur, le modèle de services, les frais récurrents, la qualité de l’agencement, la position de l’unité, le calendrier de livraison et les modalités de paiement. Avant d’élargir ou de réduire le budget, vérifiez la confirmation de l’opérateur et des frais de service.",
+        "body": "Pour des résidences de marque à Al Hamra Village, la correspondance au budget nécessite encore de confirmer l’opérateur, le modèle de services et les frais récurrents. Un budget de AED 5M–10M délimite la recherche sans suffire à identifier l’option la mieux adaptée. Le compromis principal est « marque / frais récurrents ». Comparez l’opérateur, le modèle de services, les frais récurrents, la qualité de l’agencement, la position de l’unité, le calendrier de livraison et les modalités de paiement. Avant d’élargir ou de réduire le budget, vérifiez la confirmation de l’opérateur et des frais de service.",
         "mode": "contextual_editorial",
         "tags": [
           "Marque et frais",
@@ -394,7 +394,7 @@
       "block_status": "agent_draft",
       "hidden_costs": {
         "mode": "verification_checklist",
-        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à Al Hamra Village. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "text": "Le montant à mobiliser à Al Hamra Village ne se limite pas au prix du bien. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour cet achat.",
         "items": [
           {
             "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Ras Al Khaimah avant de réserver. Le montant final dépend du bien et du type de transaction.",

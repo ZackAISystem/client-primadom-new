@@ -117,7 +117,7 @@
       "schema_version": "budget_hero_v2"
     },
     "block_04_ai_budget_check": {
-      "text": "Posez une question sur les options immobilières réalistes, les compromis et les coûts d’achat à Arabian Ranches 3. Les prix actuels et la disponibilité doivent être vérifiés au niveau du projet.",
+      "text": "Interrogez Primadom AI sur les options immobilières réalistes, les compromis et les coûts d’achat à Arabian Ranches 3. Les prix actuels et la disponibilité restent à vérifier pour chaque projet.",
       "hints": [
         "Quels appartements de luxe correspondent à ce budget ?",
         "Quelles options à proximité méritent une comparaison approfondie ?",
@@ -127,7 +127,7 @@
       "eyebrow": "PRIMADOM AI",
       "prompts": [
         "Évaluez les options réalistes pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Utilisez les prix de départ enregistrés comme repères, comparez les unités, les emplacements, le calendrier de livraison et le coût total, puis confirmez les prix exacts avant de présélectionner.",
-        "Expliquez comment le compromis « zone / type de bien » influence le choix pour des appartements de luxe à Arabian Ranches 3, et ce que la vérification de les options à proximité peut changer dans la sélection.",
+        "Expliquez comment le compromis « zone / type de bien » influence le choix pour des appartements de luxe à Arabian Ranches 3, et ce que la vérification des options à proximité peut changer dans la sélection.",
         "Comparez les principaux risques pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED : prix exact, modalités de paiement, calendrier de livraison, qualité du développeur, frais, coûts récurrents et flexibilité à la revente."
       ],
       "hint_items": [
@@ -137,7 +137,7 @@
         },
         {
           "label": "Quelles options à proximité méritent une comparaison approfondie ?",
-          "prompt": "Expliquez comment le compromis « zone / type de bien » influence le choix pour des appartements de luxe à Arabian Ranches 3, et ce que la vérification de les options à proximité peut changer dans la sélection."
+          "prompt": "Expliquez comment le compromis « zone / type de bien » influence le choix pour des appartements de luxe à Arabian Ranches 3, et ce que la vérification des options à proximité peut changer dans la sélection."
         },
         {
           "label": "Quelles prestations haut de gamme justifient le prix ?",
@@ -286,23 +286,23 @@
       "aria": "Notes de décision liées au budget",
       "items": [
         {
-          "text": "Les données actuelles ne confirment pas de correspondance de catégorie pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Vérifiez si le niveau de dépense améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis cartographiez l’ensemble des échéances.",
+          "text": "Les données actuelles ne confirment pas de correspondance de catégorie pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Examinez si la dépense envisagée améliore réellement l’agencement, l’emplacement, les prestations ou les modalités de paiement, puis établissez le calendrier complet des échéances.",
           "title": "Utiliser le budget comme cadre de comparaison",
           "eyebrow": "Logique du plan de paiement"
         },
         {
-          "text": "Pour des appartements de luxe à Arabian Ranches 3, comparez directement les options selon le compromis « zone / type de bien ». Le budget seul ne suffit pas à déterminer la meilleure adéquation au besoin.",
+          "text": "Pour des appartements de luxe à Arabian Ranches 3, confrontez les options en tenant compte du compromis « zone / type de bien ». Le budget ne suffit pas, à lui seul, à identifier l’option la mieux adaptée.",
           "title": "Arbitrer : zone / type de bien",
           "eyebrow": "Compromis"
         },
         {
-          "text": "Pour un achat à Arabian Ranches 3, intégrez les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
+          "text": "Pour un achat à Arabian Ranches 3, intégrez au calcul les frais d’enregistrement, d’agence ou de financement lorsqu’ils s’appliquent, les charges de service ou de communauté, l’ameublement et l’entretien.",
           "title": "Le besoin de trésorerie dépasse le prix affiché",
           "eyebrow": "Coûts cachés"
         },
         {
           "dark": true,
-          "text": "Primadom AI peut pondérer le budget, le type de bien, la zone, le calendrier et le profil de risque avant qu’un conseiller vérifie les options actuelles. La prochaine vérification utile concerne les options à proximité.",
+          "text": "Primadom AI peut mettre en balance le budget, le type de bien, la zone, le calendrier et le profil de risque avant l’examen des options actuelles par un conseiller. La prochaine vérification à prévoir porte sur les options à proximité.",
           "title": "Transformer le budget en sélection",
           "eyebrow": "Contexte AI"
         }
@@ -314,7 +314,7 @@
     "block_09_projects_fit": {
       "projects": {
         "mode": "route_fallback",
-        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Utilisez les options de recherche ci-dessous et demandez une vérification actuelle avant de considérer une unité comme disponible.",
+        "text": "Aucun projet nommé dans les données actuelles ne correspond exactement à la recherche pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Explorez les options de recherche ci-dessous et demandez une vérification à jour avant de considérer une unité comme disponible.",
         "items": [
           {
             "href": "#budgetLeadModal",
@@ -378,7 +378,7 @@
     },
     "block_10_costs_tradeoffs": {
       "tradeoffs": {
-        "body": "Les données actuelles ne confirment pas de correspondance de catégorie pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Un budget de à partir de 25M AED définit le cadre de recherche, mais ne suffit pas à identifier la meilleure option. Le compromis principal est « zone / type de bien ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les options à proximité.",
+        "body": "Les données actuelles ne confirment pas de correspondance de catégorie pour des appartements de luxe à Arabian Ranches 3 avec un budget à partir de 25M AED. Un budget de à partir de 25M AED sert de cadre à la recherche, mais ne désigne pas à lui seul la meilleure option. Le compromis principal est « zone / type de bien ». Comparez l’efficacité de l’agencement, la surface utile, l’étage ou la vue, le calendrier de livraison, les charges de service, les modalités de paiement et le coût total de détention. Avant d’élargir ou de réduire le budget, vérifiez les options à proximité.",
         "mode": "contextual_editorial",
         "tags": [
           "Zone / type de bien",
@@ -394,7 +394,7 @@
       "block_status": "agent_draft",
       "hidden_costs": {
         "mode": "verification_checklist",
-        "text": "Le prix du bien n’est qu’une partie du besoin de trésorerie à Arabian Ranches 3. Confirmez les coûts de transaction, de financement, de livraison et de détention récurrente pour l’achat exact.",
+        "text": "Le prix du bien ne couvre qu’une partie de la trésorerie nécessaire à Arabian Ranches 3. Vérifiez les coûts de transaction, de financement, de livraison et les frais récurrents liés à l’achat.",
         "items": [
           {
             "text": "Confirmez les frais d’enregistrement et de transaction pour l’achat exact à Dubai avant de réserver. Le montant final dépend du bien et du type de transaction.",
